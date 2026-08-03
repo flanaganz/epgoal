@@ -1,0 +1,30 @@
+[
+  {
+    "match": "tv 2 sport x",
+    "role": "always_sport",
+    "note": "TV 2 Sport X - EGEN kanal, adskilt fra TV 2 Sport HD. Denne entry SKAL stå før 'tv 2 sport' i listen, da 'tv 2 sport' ellers ville matche 'TV 2 Sport X HD' først (substring-match).",
+    "default_backdrop": "TV_2_Sport_X.jpg",
+    "default_poster": "TV_2_Sport_X.jpg"
+  },
+  {
+    "match": "tv 2 sport",
+    "role": "always_sport",
+    "note": "TV 2 Sport HD - matcher KUN denne kanal nu, da 'tv 2 sport x' allerede er fanget af entryen ovenfor.",
+    "default_backdrop": "tv2sport-generic.jpg",
+    "default_poster": "tv2sport-generic.jpg"
+  },
+  {
+    "match": "tv3 sport",
+    "role": "always_sport",
+    "note": "TV3 Sport - 100% sport. Bruger ofte FASTE programnavne uden 'Kategori:'-præfiks.",
+    "default_backdrop": "tv3sport-generic.jpg",
+    "default_poster": "tv3sport-generic.jpg"
+  },
+  {
+    "match": "tv 2 hd",
+    "role": "partial_sport",
+    "note": "Hoved-TV2-kanalen. Sender kun ENKELTE sportsbegivenheder (rettigheder). Rammes KUN hvis titlen matcher en kendt override/kategori/nøgleord - ellers rører vi IKKE programmet.",
+    "default_backdrop": null,
+    "default_poster": null
+  }
+]

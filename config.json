@@ -1,5 +1,5 @@
 {
-  "_readme": "Alle 6 kilder hentes og behandles HVER gang, uanset flag - fordi sportskanalerne kan ligge i hvilken som helst af filerne. 'enrich_non_sport_with_tmdb' er fase 2 og er slået fra nu.",
+  "_readme": "Alle 6 kilder hentes og behandles HVER gang - sportskanalerne kan ligge i hvilken som helst af filerne. 'enrich_non_sport_with_tmdb' er fase 2, slået fra nu.",
 
   "sources": [
     { "name": "denmark1", "url": "https://www.open-epg.com/files/denmark1.xml", "enrich_non_sport_with_tmdb": false },
@@ -11,7 +11,8 @@
   ],
 
   "sport": {
-    "image_base_url": "https://raw.githubusercontent.com/flanaganz/epgoal/main/sport-images/"
+    "image_base_url": "https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/",
+    "_note": "RETTET: dine billeder ligger i 'Sport/' (stort S), ikke 'sport-images/' som tidligere antaget."
   },
 
   "git": {

@@ -1,60 +1,64 @@
-# epgoal — sport-first EPG-berigelse
+# epgoal — sport-first EPG-berigelse (lokal Mac mini-udgave)
 
 Repo: **https://github.com/flanaganz/epgoal**
 
-## Status på dine sport-billeder
+**Fase 1 (denne udgave):** selv-hostede billeder til sportskanalerne
+(TV 2 Sport, TV 2 Sport X, TV3 Sport, delvist TV2), da TMDb stort set
+aldrig har poster til live sport.
 
-Du har uploadet 3 billeder til `sport-images/`:
+**Fase 2 (senere, "bygge ovenpå"):** TMDb-berigelse af alt ikke-sport.
+Slås til pr. kilde i `config.json`.
 
-| Fil (som du navngav den) | Bruges til |
-|---|---|
-| `Fodbold.jpg` | Generisk fallback for fodbold-programmer der ikke matcher noget specifikt |
-| `3F Superliga.jpg` | SPECIFIK til "Fodbold: 3F Superligaen" + TV3's "Superliga" |
-| `Atletik Diamond League.jpg` | SPECIFIK til "Atletik: Diamond League" |
+## Placering af dine sport-billeder
 
-**Mellemrum og stort/lille bogstav i filnavne er OK** — scriptet
-URL-encoder automatisk filnavnet (fx `3F Superliga.jpg` bliver til
-`3F%20Superliga.jpg` i URL'en), og GitHub raw-URL'er er
-case-sensitive, så det er vigtigt at filnavnet i JSON matcher **præcis**
-det du har uploadet (stort F i "Fodbold.jpg" er allerede rettet ind
-efter det).
+**Læg dem i `sport-images/` i roden af repoet:**
 
-**Alt andet mangler stadig billeder** (cykling, tennis, badminton,
-golf, motorsport, kanal-generics osv.) — de er sat til `null` i JSON'en
-lige nu, hvilket betyder scriptet **ikke** linker til ikke-eksisterende
-filer. I stedet tælles de i rapportens "mangler billede"-linje, så du
-kan se præcis hvor mange programmer der stadig venter på et billede.
+```
+github.com/flanaganz/epgoal
+└── sport-images/
+    ├── fodbold.jpg
+    ├── fodbold-poster.jpg
+    ├── cykling.jpg
+    ├── tv2sport-generic.jpg
+    ├── tv3sport-generic.jpg
+    └── ...
+```
 
-## Sådan tilføjer du flere billeder
+`config.json` peger allerede på:
 
-1. Upload filen til `sport-images/` på GitHub (browser: "Add file" →
-   "Upload files", eller `git add sport-images/ && git commit && git push`
-   lokalt)
-2. Ret det tilsvarende `null` til dit filnavn i enten:
-   - `data/sport_categories.json` (generisk kategori, fx alle cykling-programmer)
-   - `data/sport_program_overrides.json` (specifik begivenhed/program)
-   - `data/sport_channels.json` (`default_backdrop`/`default_poster` — kanalens sidste sikkerhedsnet)
-3. Kør `python3 scripts/test_sport_matching.py` for at se ændringen slå igennem
+```
+https://raw.githubusercontent.com/flanaganz/epgoal/main/sport-images/
+```
 
-**Anbefalet rækkefølge at udfylde i:** kanal-generics først
-(`tv2sport-generic.jpg`, `tv3sport-generic.jpg` i `sport_channels.json`)
-— så har ALT på de kanaler i det mindste et fornuftigt billede, mens du
-løbende laver mere specifikke kategori-/event-billeder ovenpå.
+— så du skal IKKE rette noget, blot uploade billeder med de rigtige
+filnavne (se `data/sport\_categories.json`, `data/sport\_channels.json`,
+`data/sport\_program\_overrides.json` for den fulde liste af forventede
+filnavne).
 
-## Arkitektur
+**Upload via browser:** Gå ind i `sport-images`-mappen på GitHub →
+"Add file" → "Upload files" → træk billeder ind → commit.
 
-**Fase 1 (denne udgave):** selv-hostede billeder til sportskanalerne.
-**Fase 2 (senere):** TMDb-berigelse af alt ikke-sport, slås til pr.
-kilde i `config.json`.
+**Upload via terminal (Mac mini):**
 
-**Alle 6 Open-EPG-filer hentes og behandles hver kørsel**, fordi
-sportskanalerne kan ligge i hvilken som helst af dem. Ikke-sport kører
-urørt igennem.
+```bash
+cd \~/epgoal
+cp \~/Downloads/fodbold.jpg sport-images/
+git add sport-images/
+git commit -m "Tilføj sport-billeder"
+git push
+```
+
+## Hvorfor ALLE 6 filer behandles hver gang
+
+Sportskanalerne kan ligge i **hvilken som helst** af Open-EPGs 6 filer.
+Derfor henter og skriver scriptet alle 6 filer hver kørsel — kun
+sport-kanaler beriges, resten kører urørt igennem.
 
 ```
 open-epg.com/denmark1.xml … denmark6.xml
+        │  (scriptet henter ALLE 6, hver gang)
         ▼
-scripts/enrich_epg.py
+scripts/enrich\_epg.py
         │  sport-kanal? → match-kæde → <icon>/<backdrop>
         │  ellers       → urørt (fase 1) / TMDb (fase 2)
         ▼
@@ -62,62 +66,86 @@ output/denmark1.xml … denmark6.xml
         │  git add / commit / push
         ▼
 raw.githubusercontent.com/flanaganz/epgoal/main/output/denmarkX.xml
+        │
         ▼
    UHF peger på ALLE 6 her i stedet for open-epg.com direkte
 ```
 
 ## Match-kæde for sport-kanaler
 
-| Trin | Fil | Fanger |
-|---|---|---|
-| 0. Skip | `sport_skip_titles.json` | "Godnat", "Sendeophold" mv. |
-| 1. Eksakt FULD titel | `sport_program_overrides.json` | Både TV3 Sports faste navne OG specifikke begivenheder der skal have et andet billede end deres kategoris generiske fallback |
-| 2. Kategori-præfiks | `sport_categories.json` (prefix) | TV 2 Sport(X)'s "Kategori: Begivenhed" |
-| 3. Nøgleord | `sport_categories.json` (keywords) | Fanger fx "UEFA Fodbold-EM U19" (længste match vinder) |
-| 4. Kanal-fallback | `sport_channels.json` (default_backdrop) | Sidste sikkerhedsnet for `always_sport`-kanaler |
+|Trin|Fil|Fanger|
+|-|-|-|
+|0. Skip|`sport\_skip\_titles.json`|"Godnat", "Sendeophold" mv.|
+|1. Eksakt titel|`sport\_program\_overrides.json`|TV3 Sports faste navne: Superliga, Onside, GP Confidential osv.|
+|2. Kategori-præfiks|`sport\_categories.json` (prefix)|TV 2 Sport(X)'s "Kategori: Begivenhed" (Cykling:, Badminton: osv.)|
+|3. Nøgleord|`sport\_categories.json` (keywords)|Fanger fx "Masser af bordtennis" (længste match vinder, så "bordtennis" ikke fejlmatcher til "tennis")|
+|4. Kanal-fallback|`sport\_channels.json` (default\_backdrop)|Kun for `always\_sport`-kanaler — garanterer intet mangler artwork|
 
-Et match der peger på `null` (billede ikke lavet endnu) tæller
-**ikke** som "matched" — scriptet falder automatisk videre til næste
-trin, så du aldrig får brækkede billed-links.
-
-**TV2 hovedkanal** (`partial_sport`) rammes KUN hvis trin 0-3 matcher.
+**TV2 hovedkanal** (`partial\_sport`) rammes KUN hvis trin 0-3 matcher.
 
 ## Kom i gang
 
+### 1\. Klon repoet på din Mac mini
+
 ```bash
-cd ~
+cd \~
 git clone git@github.com:flanaganz/epgoal.git
 cd epgoal
-python3 -m venv .venv && source .venv/bin/activate
-pip install -r scripts/requirements.txt
-python3 scripts/test_sport_matching.py   # valider match-logik uden netværk
-python3 scripts/enrich_epg.py            # fuld kørsel: henter, beriger, gemmer, pusher
 ```
 
-### launchd (automatisk 2×/dag)
+(Alle projektfilerne du får her fra chatten skal lægges ind i denne
+mappe og pushes op, hvis de ikke allerede er der.)
+
+### 2\. Læg sport-billeder i `sport-images/` (se ovenfor)
+
+### 3\. Installér og testkør
+
 ```bash
-cp launchd/com.simon.epgenricher.plist ~/Library/LaunchAgents/
-mkdir -p ~/epgoal/logs
+python3 -m venv .venv \&\& source .venv/bin/activate
+pip install -r scripts/requirements.txt
+python3 scripts/test\_sport\_matching.py   # valider match-logik uden netværk
+python3 scripts/enrich\_epg.py            # fuld kørsel: henter, beriger, gemmer, pusher
 ```
-Ret `DIT-BRUGERNAVN` i plist-filen, indlæs:
+
+`TMDB\_API\_KEY` er IKKE nødvendig i fase 1.
+
+### 4\. launchd (automatisk 2×/dag)
+
 ```bash
-launchctl load ~/Library/LaunchAgents/com.simon.epgenricher.plist
+cp launchd/com.simon.epgenricher.plist \~/Library/LaunchAgents/
+mkdir -p \~/epgoal/logs
+```
+
+Ret stierne i den kopierede plist-fil (skift `DIT-BRUGERNAVN` ud), indlæs:
+
+```bash
+launchctl load \~/Library/LaunchAgents/com.simon.epgenricher.plist
 launchctl start com.simon.epgenricher   # test manuelt
 ```
 
-### Peg UHF på output-filerne
+### 5\. Peg UHF på output-filerne
+
 ```
 https://raw.githubusercontent.com/flanaganz/epgoal/main/output/denmark1.xml
+https://raw.githubusercontent.com/flanaganz/epgoal/main/output/denmark2.xml
 ... osv. til denmark6.xml
 ```
 
+(eller via jsDelivr: `https://cdn.jsdelivr.net/gh/flanaganz/epgoal@main/output/denmarkX.xml`)
+
 ## Filer du selv vedligeholder
 
-| Fil | Formål |
-|---|---|
-| `data/sport_channels.json` | Hvilke kanaler er sport, og hvor "strengt" |
-| `data/sport_categories.json` | Kategori-præfiks + nøgleord → billedfil |
-| `data/sport_program_overrides.json` | Specifikke faste/enkelte programmer → eget billede |
-| `data/sport_skip_titles.json` | Titler der slet ikke skal have artwork |
-| `sport-images/` | Dine egne billeder |
-| `config.json` | Kilde-liste, TMDb-fase-2-toggle, billedstørrelser |
+|Fil|Formål|
+|-|-|
+|`data/sport\_channels.json`|Hvilke kanaler er sport, og hvor "strengt"|
+|`data/sport\_categories.json`|Kategori-præfiks + nøgleord → billedfil|
+|`data/sport\_program\_overrides.json`|Faste programnavne uden kategori-præfiks|
+|`data/sport\_skip\_titles.json`|Titler der slet ikke skal have artwork|
+|`sport-images/`|Dine egne billeder|
+|`config.json`|Kilde-liste, TMDb-fase-2-toggle, billedstørrelser|
+
+## Aktivér fase 2 senere (TMDb for ikke-sport)
+
+Sæt `"enrich\_non\_sport\_with\_tmdb": true` på den/de kilder i
+`config.json`, og sørg for `TMDB\_API\_KEY` er sat (`.env`-fil).
+
