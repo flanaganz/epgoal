@@ -6,33 +6,16 @@ Fase 1 (denne udgave): kun selv-hostede billeder til sport-kanaler.
 Fase 2 (senere): TMDb-berigelse af ikke-sport, styret pr. kilde via
 "enrich_non_sport_with_tmdb" i config.json.
 
-Hvorfor ALLE 6 kilder altid hentes/skrives:
-    Sportskanalerne (TV 2 Sport, TV 2 Sport X, TV3 Sport, delvist TV2) kan
-    ligge i hvilken som helst af Open-EPGs 6 filer. Derfor behandles
-    samtlige 6 filer hver kørsel - ikke-sport-programmer renders
-    fuldstændig urørt igennem.
-
 Matching-strategi pr. programme på en sport-kanal (i prioriteret rækkefølge):
     0) sport_skip_titles.json       -> fjern evt. icon/backdrop, rør intet andet
-    1) sport_program_overrides.json -> eksakt FULD titel-match (bruges både til
-                                        faste programnavne UDEN "Kategori:"-
-                                        præfiks, og til at give en SPECIFIK
-                                        begivenhed sit eget billede frem for
-                                        kategoriens generiske fallback)
+    1) sport_program_overrides.json -> eksakt FULD titel-match
     2) sport_categories.json[prefix]   -> "Kategori: Begivenhed"-syntaksen
     3) sport_categories.json[keywords] -> nøgleord der matcher hvor som helst
                                            i titlen (LÆNGST match først)
     4) kanalens default_backdrop/-poster (kun for "always_sport"-kanaler)
 
-VIGTIGT: Et override/kategori-match der peger på et backdrop/poster-felt
-sat til null (fordi billedet ikke er lavet endnu) tæller IKKE som et
-"rigtigt" match - scriptet falder automatisk videre til næste trin
-(typisk kanalens generic), i stedet for at efterlade programmet uden
-noget billede overhovedet eller linke til en fil der ikke findes.
-
-Filnavne URL-encodes automatisk, så mellemrum og specialtegn i dine
-egne filnavne (fx "3F Superliga.jpg", "Atletik Diamond League.jpg")
-virker uden at du behøver omdøbe noget på GitHub.
+Et match der peger på null (billede ikke lavet endnu) tæller ikke som
+"rigtigt" - scriptet falder automatisk videre til næste trin.
 
 Brug:
     python3 scripts/enrich_epg.py
@@ -51,10 +34,6 @@ from urllib.parse import quote
 from xml.etree import ElementTree as ET
 
 import requests
-
-# --------------------------------------------------------------------------
-# Paths & config
-# --------------------------------------------------------------------------
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
@@ -108,10 +87,6 @@ def normalize_title(title: str) -> str:
     return t.lower()
 
 
-# --------------------------------------------------------------------------
-# Sport-matching
-# --------------------------------------------------------------------------
-
 class SportMatcher:
     def __init__(self, image_base_url: str):
         self.image_base_url = image_base_url.rstrip("/") + "/"
@@ -125,8 +100,6 @@ class SportMatcher:
             for prefix in cat.get("prefix", []) or []:
                 self.prefix_lookup[prefix.strip().lower()] = cat
 
-        # Fladet, LÆNGDE-sorteret nøgleordsliste (længst først). Forhindrer at
-        # fx "tennis" (kort) matcher før "bordtennis" (længere, mere specifik).
         self.keyword_lookup: list[tuple[str, dict]] = []
         for cat in self.categories:
             for keyword in cat.get("keywords", []) or []:
@@ -149,8 +122,6 @@ class SportMatcher:
         return {"backdrop": build(backdrop_filename), "poster": build(poster_filename)}
 
     def _real_match(self, backdrop_filename: str | None, poster_filename: str | None) -> dict | None:
-        """Returns urls-dict KUN hvis der reelt er et filnavn angivet, ellers None
-        (så et 'match' uden faktisk billede korrekt falder videre til næste trin)."""
         if not backdrop_filename and not poster_filename:
             return None
         return self._image_urls(backdrop_filename, poster_filename)
@@ -182,10 +153,6 @@ class SportMatcher:
 
         return None
 
-
-# --------------------------------------------------------------------------
-# TMDb (fase 2)
-# --------------------------------------------------------------------------
 
 def tmdb_search(title: str) -> tuple[str, int] | None:
     resp = SESSION.get(
@@ -271,10 +238,6 @@ def resolve_tmdb_artwork(raw_title: str, overrides: dict, cache: dict, cache_max
     return {"backdrop": backdrop_url, "poster": poster_url}
 
 
-# --------------------------------------------------------------------------
-# XML-hjælpere
-# --------------------------------------------------------------------------
-
 def set_artwork(programme: ET.Element, backdrop_url: str | None, poster_url: str | None) -> tuple[bool, bool]:
     for old in programme.findall("icon"):
         programme.remove(old)
@@ -311,12 +274,8 @@ def process_xml(xml_bytes: bytes, matcher: SportMatcher, source_cfg: dict,
         channel_role[cid] = matcher.match_channel(cid)
 
     stats = {
-        "programmes": 0,
-        "sport_matched": 0,
-        "sport_defaulted": 0,
-        "sport_skipped": 0,
-        "sport_no_image_yet": 0,
-        "tmdb_enriched": 0,
+        "programmes": 0, "sport_matched": 0, "sport_defaulted": 0,
+        "sport_skipped": 0, "sport_no_image_yet": 0, "tmdb_enriched": 0,
     }
     tmdb_cache_this_run: dict[str, dict] = {}
     sport_cache_this_run: dict[str, dict | None] = {}
@@ -371,10 +330,6 @@ def process_xml(xml_bytes: bytes, matcher: SportMatcher, source_cfg: dict,
     return ET.tostring(root, encoding="utf-8", xml_declaration=True), stats
 
 
-# --------------------------------------------------------------------------
-# Git
-# --------------------------------------------------------------------------
-
 def git_push(repo_dir: Path, commit_message: str) -> None:
     print("\n⬆️  Committer og pusher til GitHub ...")
     try:
@@ -390,10 +345,6 @@ def git_push(repo_dir: Path, commit_message: str) -> None:
     except FileNotFoundError:
         print("⚠️  git blev ikke fundet i PATH — spring commit/push over.", file=sys.stderr)
 
-
-# --------------------------------------------------------------------------
-# Main
-# --------------------------------------------------------------------------
 
 def main() -> None:
     config = load_json(CONFIG_FILE, {})
@@ -466,7 +417,7 @@ def main() -> None:
     print(f"Sport - specifikt match   : {grand_total['sport_matched']:,}")
     print(f"Sport - kanal-fallback    : {grand_total['sport_defaulted']:,}")
     print(f"Sport - sprunget over     : {grand_total['sport_skipped']:,}")
-    print(f"Sport - mangler billede   : {grand_total['sport_no_image_yet']:,} (upload flere billeder for at dække disse)")
+    print(f"Sport - mangler billede   : {grand_total['sport_no_image_yet']:,}")
     print(f"Ikke-sport TMDb-beriget   : {grand_total['tmdb_enriched']:,}")
     print("--------------------------------")
 

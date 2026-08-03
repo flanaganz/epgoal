@@ -4,28 +4,33 @@
     "prefix": ["fodbold"],
     "keywords": ["fodbold", "superligaen", "champions league", "premier league", "a-liga", "3f superligaen"],
     "backdrop": "Fodbold.jpg",
-    "poster": "Fodbold.jpg",
-    "_note": "Generisk fodbold-fallback - bruges når titlen IKKE er en eksakt override-match (se sport_program_overrides.json)."
+    "poster": "Fodbold.jpg"
+  },
+  {
+    "id": "cykling_tdf_femmes",
+    "prefix": [],
+    "keywords": ["tour de france femmes"],
+    "backdrop": "Cykling Tour de France Femmes.jpg",
+    "poster": "Cykling Tour de France Femmes.jpg"
   },
   {
     "id": "cykling",
     "prefix": ["cykling"],
     "keywords": ["cykling", "tour de france", "giro d'italia", "vuelta", "clásica", "clasica", "tour de l'ain"],
     "backdrop": null,
-    "poster": null,
-    "_note": "Intet billede uploadet endnu - null forhindrer et brækket link; falder i stedet tilbage til kanalens generic (når den findes)."
+    "poster": null
+  },
+  {
+    "id": "nfl",
+    "prefix": ["nfl"],
+    "keywords": ["nfl"],
+    "backdrop": "NFL.jpg",
+    "poster": "NFL.jpg"
   },
   { "id": "tennis", "prefix": ["tennis"], "keywords": ["tennis", "atp", "wta", "french open", "wimbledon", "us open"], "backdrop": null, "poster": null },
   { "id": "badminton", "prefix": ["badminton"], "keywords": ["badminton"], "backdrop": null, "poster": null },
   { "id": "bordtennis", "prefix": ["bordtennis"], "keywords": ["bordtennis"], "backdrop": null, "poster": null },
-  {
-    "id": "atletik",
-    "prefix": ["atletik"],
-    "keywords": ["atletik", "diamond league"],
-    "backdrop": null,
-    "poster": null,
-    "_note": "Ingen GENERISK atletik-billede endnu - kun den specifikke 'Atletik: Diamond League' er dækket via sport_program_overrides.json. Andre atletik-programmer falder tilbage til kanalens generic."
-  },
+  { "id": "atletik", "prefix": ["atletik"], "keywords": ["atletik", "diamond league"], "backdrop": null, "poster": null },
   { "id": "golf", "prefix": ["golf"], "keywords": ["golf", "pga tour", "pga champions"], "backdrop": null, "poster": null },
   { "id": "motorsport", "prefix": ["motocross", "speedway", "gokart", "formel"], "keywords": ["motocross", "speedway", "gokart", "formel e", "formel 1", "rally"], "backdrop": null, "poster": null },
   { "id": "boksning", "prefix": ["boksning"], "keywords": ["boksning", "boxeo"], "backdrop": null, "poster": null },

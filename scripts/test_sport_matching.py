@@ -7,25 +7,29 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from enrich_epg import SportMatcher  # noqa: E402
 
 TEST_CASES = [
-    # --- Dine faktisk uploadede billeder ---
-    ("TV 2 Sport HD (D) (T).dk", "Fodbold: 3F Superligaen",
-     "SPECIFIK override -> 3F Superliga.jpg (ikke generisk Fodbold.jpg)"),
-    ("TV 2 Sport HD (D) (T).dk", "Atletik: Diamond League",
-     "SPECIFIK override -> Atletik Diamond League.jpg"),
-    ("TV 2 Sport X HD (D) (T).dk", "UEFA Fodbold-EM U19",
-     "Ingen eksakt override -> falder til generisk Fodbold.jpg via nøgleord"),
-    ("TV3 Sport HD (D) (T).dk", "Superliga",
-     "TV3's faste programnavn -> genbruger 3F Superliga.jpg"),
+    ("TV 2 Sport HD (D) (T).dk", "Fodbold: 3F Superligaen", "3F Superliga.jpg"),
+    ("TV 2 Sport HD (D) (T).dk", "Atletik: Diamond League", "Atletik Diamond League.jpg"),
+    ("TV3 Sport HD (D) (T).dk", "Superliga", "3F Superliga.jpg (TV3's faste navn)"),
 
-    # --- Kategorier UDEN billede endnu -> skal falde videre, ikke brække ---
+    ("TV 2 Sport HD (D) (T).dk", "Et ukendt TV 2 Sport-program",
+     "KANAL-FALLBACK -> tv2sport-generic.jpg (IKKE TV_2_Sport_X.jpg)"),
+    ("TV 2 Sport X HD (D) (T).dk", "Et ukendt TV 2 Sport X-program",
+     "KANAL-FALLBACK -> TV_2_Sport_X.jpg (IKKE tv2sport-generic.jpg)"),
+
+    ("TV 2 Sport HD (D) (T).dk", "ATP Tour Highlights",
+     "SPECIFIK override -> ATP Tour Highlights.jpg"),
+    ("TV 2 Sport HD (D) (T).dk", "Tennis: Wimbledon - Kampe",
+     "IKKE ATP-billedet - almindelig tennis falder til kanal-generic"),
+
     ("TV 2 Sport HD (D) (T).dk", "Cykling: Tour de France Femmes - Etaper",
-     "Intet cykling-billede endnu -> INGEN match her (kanal-generic mangler også -> 'mangler billede')"),
-    ("TV3 Sport HD (D) (T).dk", "GP Confidential",
-     "Override findes men peger på null -> falder videre (kanal-generic mangler også -> 'mangler billede')"),
+     "SPECIFIK -> Cykling Tour de France Femmes.jpg"),
+    ("TV 2 Sport HD (D) (T).dk", "Cykling: Giro d'Italia - Etaper",
+     "IKKE TdF Femmes-billedet - almindelig cykling falder til kanal-generic"),
 
-    # --- Skip / kontrol ---
+    ("TV 2 Sport X HD (D) (T).dk", "NFL: Kansas City Chiefs @ Buffalo Bills",
+     "SPECIFIK -> NFL.jpg"),
+
     ("TV 2 Sport HD (D) (T).dk", "Sendeophold", "SKIP (ingen artwork)"),
-    ("TV 2 HD (D) (T).dk", "Fodbold: 3F Superligaen", "TV2 hovedkanal - matcher via samme override"),
     ("TV 2 HD (D) (T).dk", "TV Avisen", "TV2 hovedkanal - INGEN match -> skal IKKE røres"),
     ("BBC News (T).dk", "News Live", "ikke sport-kanal -> IGNORERES fuldstændig"),
 ]
@@ -34,7 +38,7 @@ TEST_CASES = [
 def main() -> None:
     import json
     cfg = json.loads((Path(__file__).resolve().parent.parent / "config.json").read_text(encoding="utf-8"))
-    image_base_url = cfg.get("sport", {}).get("image_base_url", "https://example.com/sport-images/")
+    image_base_url = cfg.get("sport", {}).get("image_base_url", "https://example.com/Sport/")
 
     matcher = SportMatcher(image_base_url)
 
@@ -58,7 +62,7 @@ def main() -> None:
                 fallback = matcher._image_urls(fb, fp)
                 outcome = f"KANAL-FALLBACK backdrop={fallback['backdrop']} | poster={fallback['poster']}"
             else:
-                outcome = "MANGLER BILLEDE (hverken specifikt match eller kanal-generic er uploadet endnu)"
+                outcome = "MANGLER BILLEDE"
         else:
             outcome = "INGEN MATCH -> rører intet (partial_sport uden match)"
 

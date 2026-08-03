@@ -1,16 +1,9 @@
 {
-  "_readme": "Nøglen = FULD titel i små bogstaver, trimmet (se normalize_title()). Bruges enten til faste programnavne uden 'Kategori:'-præfiks (TV3 Sport), ELLER til at give en SPECIFIK begivenhed sit eget billede frem for kategoriens generiske fallback. Overrides tjekkes FØR kategori-match, så disse vinder altid.",
+  "_readme": "Nøglen = FULD titel i små bogstaver, trimmet.",
 
-  "fodbold: 3f superligaen": {
-    "backdrop": "3F Superliga.jpg",
-    "poster": "3F Superliga.jpg",
-    "_note": "Specifikt billede til Superligaen - fanger 'Fodbold: 3F Superligaen' som optræder som fuld, selvstændig titel i EPG'en."
-  },
-  "atletik: diamond league": {
-    "backdrop": "Atletik Diamond League.jpg",
-    "poster": "Atletik Diamond League.jpg",
-    "_note": "Specifikt billede til Diamond League - fanger 'Atletik: Diamond League' som optræder som fuld, selvstændig titel i EPG'en."
-  },
+  "fodbold: 3f superligaen": { "backdrop": "3F Superliga.jpg", "poster": "3F Superliga.jpg" },
+  "atletik: diamond league": { "backdrop": "Atletik Diamond League.jpg", "poster": "Atletik Diamond League.jpg" },
+  "atp tour highlights": { "backdrop": "ATP Tour Highlights.jpg", "poster": "ATP Tour Highlights.jpg" },
 
   "superliga": { "backdrop": "3F Superliga.jpg", "poster": "3F Superliga.jpg" },
   "onside": { "backdrop": "Fodbold.jpg", "poster": "Fodbold.jpg" },

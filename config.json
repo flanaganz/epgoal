@@ -11,8 +11,7 @@
   ],
 
   "sport": {
-    "image_base_url": "https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/",
-    "_note": "RETTET: dine billeder ligger i 'Sport/' (stort S), ikke 'sport-images/' som tidligere antaget."
+    "image_base_url": "https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/"
   },
 
   "git": {
