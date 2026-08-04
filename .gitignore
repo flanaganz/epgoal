@@ -4,3 +4,4 @@ __pycache__/
 *.pyc
 logs/
 .DS_Store
+Add-Content .gitignore "`n*.zip`n*Backup*"
