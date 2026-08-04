@@ -2,17 +2,18 @@
 """
 enrich_epg.py — sport-first lokal udgave (Mac mini / always-on)
 
-Fase 1 (denne udgave): kun selv-hostede billeder til sport-kanaler.
-Fase 2 (senere): TMDb-berigelse af ikke-sport, styret pr. kilde via
-"enrich_non_sport_with_tmdb" i config.json.
-
 Matching-strategi pr. programme på en sport-kanal (i prioriteret rækkefølge):
-    0) sport_skip_titles.json       -> fjern evt. icon/backdrop, rør intet andet
-    1) sport_program_overrides.json -> eksakt FULD titel-match
-    2) sport_categories.json[prefix]   -> "Kategori: Begivenhed"-syntaksen
-    3) sport_categories.json[keywords] -> nøgleord der matcher hvor som helst
+    0) sport_skip_titles.json        -> fjern evt. icon/backdrop, rør intet andet
+    1) sport_program_overrides.json  -> eksakt FULD titel-match
+    2) sport_categories.json[prefix]    -> "Kategori: Begivenhed"-syntaksen
+    3) sport_categories.json[keywords]  -> nøgleord der matcher hvor som helst
                                            i titlen (LÆNGST match først)
-    4) kanalens default_backdrop/-poster (kun for "always_sport"-kanaler)
+    4) TMDb-opslag (NYT) -> kun for "always_sport"-kanaler, kun hvis
+       sport.tmdb_fallback_enabled=true i config.json OG TMDB_API_KEY er sat.
+       Fanger navngivne, tilbagevendende programmer (fx "Onside",
+       "Var-Rummet", "TV-Udbruddet") der er registreret på TMDb, uden at
+       du skal uploade et billede manuelt for hvert program.
+    5) kanalens default_backdrop/-poster (sidste udvej, kun "always_sport")
 
 Et match der peger på null (billede ikke lavet endnu) tæller ikke som
 "rigtigt" - scriptet falder automatisk videre til næste trin.
@@ -126,7 +127,9 @@ class SportMatcher:
             return None
         return self._image_urls(backdrop_filename, poster_filename)
 
-    def resolve(self, raw_title: str) -> dict | None:
+    def resolve_local(self, raw_title: str) -> dict | None:
+        """Trin 0-3: skip / eksakt override / kategori-præfiks / nøgleord.
+        Returnerer None hvis intet lokalt match findes (så trin 4-5 kan prøves)."""
         norm = normalize_title(raw_title)
 
         if norm in self.skip_titles:
@@ -265,7 +268,7 @@ def clear_artwork(programme: ET.Element) -> None:
 
 def process_xml(xml_bytes: bytes, matcher: SportMatcher, source_cfg: dict,
                  tmdb_overrides: dict, cache: dict, cache_max_age_days: int,
-                 backdrop_size: str, poster_size: str) -> tuple[bytes, dict]:
+                 backdrop_size: str, poster_size: str, sport_tmdb_fallback_enabled: bool) -> tuple[bytes, dict]:
     root = ET.fromstring(xml_bytes)
 
     channel_role: dict[str, dict | None] = {}
@@ -274,13 +277,15 @@ def process_xml(xml_bytes: bytes, matcher: SportMatcher, source_cfg: dict,
         channel_role[cid] = matcher.match_channel(cid)
 
     stats = {
-        "programmes": 0, "sport_matched": 0, "sport_defaulted": 0,
-        "sport_skipped": 0, "sport_no_image_yet": 0, "tmdb_enriched": 0,
+        "programmes": 0, "sport_matched": 0, "sport_tmdb_matched": 0,
+        "sport_defaulted": 0, "sport_skipped": 0, "sport_no_image_yet": 0,
+        "tmdb_enriched": 0,
     }
     tmdb_cache_this_run: dict[str, dict] = {}
     sport_cache_this_run: dict[str, dict | None] = {}
 
-    do_tmdb = bool(source_cfg.get("enrich_non_sport_with_tmdb", False)) and bool(TMDB_API_KEY)
+    do_tmdb_nonsport = bool(source_cfg.get("enrich_non_sport_with_tmdb", False)) and bool(TMDB_API_KEY)
+    do_tmdb_sport = bool(sport_tmdb_fallback_enabled) and bool(TMDB_API_KEY)
 
     for programme in root.findall("programme"):
         stats["programmes"] += 1
@@ -294,7 +299,7 @@ def process_xml(xml_bytes: bytes, matcher: SportMatcher, source_cfg: dict,
 
         if role_entry is not None:
             if title not in sport_cache_this_run:
-                sport_cache_this_run[title] = matcher.resolve(title)
+                sport_cache_this_run[title] = matcher.resolve_local(title)
             result = sport_cache_this_run[title]
 
             if result and result.get("skip"):
@@ -305,7 +310,22 @@ def process_xml(xml_bytes: bytes, matcher: SportMatcher, source_cfg: dict,
             if result:
                 set_artwork(programme, result.get("backdrop"), result.get("poster"))
                 stats["sport_matched"] += 1
-            elif role_entry.get("role") == "always_sport":
+                continue
+
+            # Intet lokalt match - prøv TMDb (kun always_sport-kanaler, kun hvis aktiveret)
+            if do_tmdb_sport and role_entry.get("role") == "always_sport":
+                if title not in tmdb_cache_this_run:
+                    tmdb_cache_this_run[title] = resolve_tmdb_artwork(
+                        title, tmdb_overrides, cache, cache_max_age_days, backdrop_size, poster_size
+                    )
+                    time.sleep(REQUEST_SLEEP_SECONDS)
+                art = tmdb_cache_this_run[title]
+                if art.get("backdrop") or art.get("poster"):
+                    set_artwork(programme, art.get("backdrop"), art.get("poster"))
+                    stats["sport_tmdb_matched"] += 1
+                    continue
+
+            if role_entry.get("role") == "always_sport":
                 fallback_backdrop = role_entry.get("default_backdrop")
                 fallback_poster = role_entry.get("default_poster")
                 if fallback_backdrop or fallback_poster:
@@ -316,7 +336,7 @@ def process_xml(xml_bytes: bytes, matcher: SportMatcher, source_cfg: dict,
                     stats["sport_no_image_yet"] += 1
             continue
 
-        if do_tmdb:
+        if do_tmdb_nonsport:
             if title not in tmdb_cache_this_run:
                 tmdb_cache_this_run[title] = resolve_tmdb_artwork(
                     title, tmdb_overrides, cache, cache_max_age_days, backdrop_size, poster_size
@@ -357,9 +377,11 @@ def main() -> None:
     if not image_base_url:
         sys.exit("❌ config.json mangler sport.image_base_url.")
 
-    any_tmdb = any(s.get("enrich_non_sport_with_tmdb") for s in sources)
+    sport_tmdb_fallback_enabled = bool(sport_cfg.get("tmdb_fallback_enabled", False))
+
+    any_tmdb = any(s.get("enrich_non_sport_with_tmdb") for s in sources) or sport_tmdb_fallback_enabled
     if any_tmdb and not TMDB_API_KEY:
-        sys.exit("❌ TMDB_API_KEY er ikke sat, men mindst én kilde har enrich_non_sport_with_tmdb=true.")
+        sys.exit("❌ TMDB_API_KEY er ikke sat, men TMDb-berigelse er aktiveret (enrich_non_sport_with_tmdb eller sport.tmdb_fallback_enabled).")
 
     backdrop_size = config.get("image", {}).get("backdrop_size", "w1280")
     poster_size = config.get("image", {}).get("poster_size", "w500")
@@ -375,9 +397,10 @@ def main() -> None:
 
     print("=== EPG sport-berigelse (lokal kørsel) ===")
     print(f"Sport-billeder hentes fra: {matcher.image_base_url}")
+    print(f"TMDb-fallback for sport-programmer: {'AKTIVERET' if sport_tmdb_fallback_enabled and TMDB_API_KEY else 'slået fra'}")
 
     grand_total = {
-        "programmes": 0, "sport_matched": 0, "sport_defaulted": 0,
+        "programmes": 0, "sport_matched": 0, "sport_tmdb_matched": 0, "sport_defaulted": 0,
         "sport_skipped": 0, "sport_no_image_yet": 0, "tmdb_enriched": 0,
     }
 
@@ -390,7 +413,8 @@ def main() -> None:
 
         print("🖼️  Behandler (sport-kanaler beriges, resten passerer uændret) ...")
         enriched, stats = process_xml(
-            resp.content, matcher, source, tmdb_overrides, cache, cache_max_age_days, backdrop_size, poster_size
+            resp.content, matcher, source, tmdb_overrides, cache, cache_max_age_days,
+            backdrop_size, poster_size, sport_tmdb_fallback_enabled,
         )
 
         out_path = OUTPUT_DIR / f"{name}.xml"
@@ -398,13 +422,14 @@ def main() -> None:
         print(f"💾 Gemt: {out_path}")
 
         total = stats["programmes"] or 1
-        print(f"   Programmer i alt         : {stats['programmes']:,}")
-        print(f"   Sport - specifikt match   : {stats['sport_matched']:,}")
-        print(f"   Sport - kanal-fallback    : {stats['sport_defaulted']:,}")
-        print(f"   Sport - sprunget over     : {stats['sport_skipped']:,}")
-        print(f"   Sport - mangler stadig billede: {stats['sport_no_image_yet']:,}")
+        print(f"   Programmer i alt          : {stats['programmes']:,}")
+        print(f"   Sport - specifikt match    : {stats['sport_matched']:,}")
+        print(f"   Sport - TMDb-match (nyt)   : {stats['sport_tmdb_matched']:,}")
+        print(f"   Sport - kanal-fallback     : {stats['sport_defaulted']:,}")
+        print(f"   Sport - sprunget over      : {stats['sport_skipped']:,}")
+        print(f"   Sport - mangler billede    : {stats['sport_no_image_yet']:,}")
         if source.get("enrich_non_sport_with_tmdb"):
-            print(f"   Ikke-sport TMDb-beriget   : {stats['tmdb_enriched']:,} ({stats['tmdb_enriched']/total:.1%})")
+            print(f"   Ikke-sport TMDb-beriget    : {stats['tmdb_enriched']:,} ({stats['tmdb_enriched']/total:.1%})")
 
         for k in grand_total:
             grand_total[k] += stats[k]
@@ -413,12 +438,13 @@ def main() -> None:
 
     print("\n📊 SAMLET RAPPORT (alle 6 filer)")
     print("--------------------------------")
-    print(f"Programmer i alt          : {grand_total['programmes']:,}")
-    print(f"Sport - specifikt match   : {grand_total['sport_matched']:,}")
-    print(f"Sport - kanal-fallback    : {grand_total['sport_defaulted']:,}")
-    print(f"Sport - sprunget over     : {grand_total['sport_skipped']:,}")
-    print(f"Sport - mangler billede   : {grand_total['sport_no_image_yet']:,}")
-    print(f"Ikke-sport TMDb-beriget   : {grand_total['tmdb_enriched']:,}")
+    print(f"Programmer i alt           : {grand_total['programmes']:,}")
+    print(f"Sport - specifikt match    : {grand_total['sport_matched']:,}")
+    print(f"Sport - TMDb-match (nyt)   : {grand_total['sport_tmdb_matched']:,}")
+    print(f"Sport - kanal-fallback     : {grand_total['sport_defaulted']:,}")
+    print(f"Sport - sprunget over      : {grand_total['sport_skipped']:,}")
+    print(f"Sport - mangler billede    : {grand_total['sport_no_image_yet']:,}")
+    print(f"Ikke-sport TMDb-beriget    : {grand_total['tmdb_enriched']:,}")
     print("--------------------------------")
 
     if git_cfg.get("enabled", True):

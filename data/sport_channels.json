@@ -2,7 +2,7 @@
   {
     "match": "tv 2 sport x",
     "role": "always_sport",
-    "note": "TV 2 Sport X - EGEN kanal, adskilt fra TV 2 Sport HD. SKAL stå før 'tv 2 sport' i listen, da 'tv 2 sport' ellers ville matche 'TV 2 Sport X HD' først (substring-match).",
+    "note": "TV 2 Sport X - EGEN kanal, adskilt fra TV 2 Sport HD. SKAL stå før 'tv 2 sport' i listen.",
     "default_backdrop": "TV_2_Sport_X.jpg",
     "default_poster": "TV_2_Sport_X.jpg"
   },
@@ -23,7 +23,7 @@
   {
     "match": "tv 2 hd",
     "role": "partial_sport",
-    "note": "Hoved-TV2-kanalen. Rammes KUN hvis titlen matcher en kendt override/kategori/nøgleord.",
+    "note": "Hoved-TV2-kanalen. Rammes KUN hvis titlen matcher en kendt override/kategori/nøgleord. TMDb-fallback bruges IKKE her (kun always_sport-kanaler).",
     "default_backdrop": null,
     "default_poster": null
   }

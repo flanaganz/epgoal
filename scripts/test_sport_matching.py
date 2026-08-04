@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Uafhængig test af sport-match-logikken (ingen netværk/git/TMDb krævet)."""
+"""
+Uafhængig test af LOKAL sport-match-logik (trin 0-3, ingen netværk krævet).
+TMDb-fallback-trinnet (trin 4) testes IKKE her, da det kræver en rigtig
+TMDB_API_KEY og netværksadgang - test det via en fuld kørsel af
+enrich_epg.py i stedet, og tjek "Sport - TMDb-match (nyt)"-linjen i rapporten.
+"""
 import sys
 from pathlib import Path
 
@@ -9,25 +14,27 @@ from enrich_epg import SportMatcher  # noqa: E402
 TEST_CASES = [
     ("TV 2 Sport HD (D) (T).dk", "Fodbold: 3F Superligaen", "3F Superliga.jpg"),
     ("TV 2 Sport HD (D) (T).dk", "Atletik: Diamond League", "Atletik Diamond League.jpg"),
-    ("TV3 Sport HD (D) (T).dk", "Superliga", "3F Superliga.jpg (TV3's faste navn)"),
+    ("TV3 Sport HD (D) (T).dk", "Superliga", "3F Superliga.jpg (TV3's faste navn - beholder eget billede)"),
 
     ("TV 2 Sport HD (D) (T).dk", "Et ukendt TV 2 Sport-program",
-     "KANAL-FALLBACK -> tv2sport-generic.jpg (IKKE TV_2_Sport_X.jpg)"),
+     "INGEN lokalt match -> falder til TMDb/kanal-fallback i den fulde pipeline (tv2sport-generic.jpg)"),
     ("TV 2 Sport X HD (D) (T).dk", "Et ukendt TV 2 Sport X-program",
-     "KANAL-FALLBACK -> TV_2_Sport_X.jpg (IKKE tv2sport-generic.jpg)"),
+     "INGEN lokalt match -> falder til TMDb/kanal-fallback (TV_2_Sport_X.jpg)"),
 
-    ("TV 2 Sport HD (D) (T).dk", "ATP Tour Highlights",
-     "SPECIFIK override -> ATP Tour Highlights.jpg"),
-    ("TV 2 Sport HD (D) (T).dk", "Tennis: Wimbledon - Kampe",
-     "IKKE ATP-billedet - almindelig tennis falder til kanal-generic"),
+    ("TV 2 Sport HD (D) (T).dk", "ATP Tour Highlights", "SPECIFIK override -> ATP Tour Highlights.jpg"),
 
     ("TV 2 Sport HD (D) (T).dk", "Cykling: Tour de France Femmes - Etaper",
      "SPECIFIK -> Cykling Tour de France Femmes.jpg"),
-    ("TV 2 Sport HD (D) (T).dk", "Cykling: Giro d'Italia - Etaper",
-     "IKKE TdF Femmes-billedet - almindelig cykling falder til kanal-generic"),
+    ("TV 2 Sport X HD (D) (T).dk", "NFL: Kansas City Chiefs @ Buffalo Bills", "SPECIFIK -> NFL.jpg"),
 
-    ("TV 2 Sport X HD (D) (T).dk", "NFL: Kansas City Chiefs @ Buffalo Bills",
-     "SPECIFIK -> NFL.jpg"),
+    ("TV3 Sport HD (D) (T).dk", "Onside",
+     "RETTET: intet lokalt match mere (var Fodbold.jpg) -> prøver nu TMDb først i fuld pipeline"),
+    ("TV3 Sport HD (D) (T).dk", "1. Division Magasinet",
+     "RETTET: intet lokalt match mere -> prøver TMDb først"),
+    ("TV3 Sport HD (D) (T).dk", "Var-Rummet",
+     "RETTET: intet lokalt match mere -> prøver TMDb først"),
+    ("TV3 Sport HD (D) (T).dk", "GP Confidential",
+     "Uændret: intet lokalt match -> prøver TMDb først, ellers TV3-generic"),
 
     ("TV 2 Sport HD (D) (T).dk", "Sendeophold", "SKIP (ingen artwork)"),
     ("TV 2 HD (D) (T).dk", "TV Avisen", "TV2 hovedkanal - INGEN match -> skal IKKE røres"),
@@ -42,7 +49,7 @@ def main() -> None:
 
     matcher = SportMatcher(image_base_url)
 
-    print("=== Sport-matching test ===\n")
+    print("=== Sport-matching test (kun lokale trin 0-3) ===\n")
     for channel_id, title, expectation in TEST_CASES:
         role_entry = matcher.match_channel(channel_id)
         if role_entry is None:
@@ -50,19 +57,14 @@ def main() -> None:
             print(f"   Forventning: {expectation}\n")
             continue
 
-        result = matcher.resolve(title)
+        result = matcher.resolve_local(title)
 
         if result and result.get("skip"):
             outcome = "SKIP (ingen artwork)"
         elif result:
             outcome = f"backdrop={result.get('backdrop')} | poster={result.get('poster')}"
         elif role_entry.get("role") == "always_sport":
-            fb, fp = role_entry.get("default_backdrop"), role_entry.get("default_poster")
-            if fb or fp:
-                fallback = matcher._image_urls(fb, fp)
-                outcome = f"KANAL-FALLBACK backdrop={fallback['backdrop']} | poster={fallback['poster']}"
-            else:
-                outcome = "MANGLER BILLEDE"
+            outcome = "INTET LOKALT MATCH -> vil i fuld pipeline prøve TMDb, derefter kanal-fallback"
         else:
             outcome = "INGEN MATCH -> rører intet (partial_sport uden match)"
 

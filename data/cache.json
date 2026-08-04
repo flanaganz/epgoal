@@ -1,1 +1,232 @@
-{}
+{
+  "1. division magasinet": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/z01estsekNPUOQrcM3ItXKq6nTU.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/hKE0VO8FebDDvTSfPfRB5iro7s9.jpg",
+    "ts": 1785845429.5539691
+  },
+  "3f superliga: odense boldklub-sønderjyske": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1785845438.3872578
+  },
+  "atletik: diamond league, doha": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1785845440.107352
+  },
+  "atletik: diamond league, eugene": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1785845440.5270505
+  },
+  "atletik: diamond league, oslo": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1785845439.8698323
+  },
+  "atletik: diamond league, paris": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1785845440.3202963
+  },
+  "atletik: diamond league, stockholm": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1785845439.665697
+  },
+  "atp 250 - h. rune-b. van de zandschulp, finale, münchen": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1785845438.6085582
+  },
+  "atp 500 - barcelona": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1785845441.9762082
+  },
+  "atp tour this week": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1785845433.3362517
+  },
+  "atp: fritz-jodar, finale, washington": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1785845439.455463
+  },
+  "atp: montreal": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1785845439.0642462
+  },
+  "atp: rune-alcaraz, finale, barcelona": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1785845438.8000028
+  },
+  "badminton: finale, taipei open": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1785845440.725291
+  },
+  "badminton: taipei open - kampe": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1785845428.3012109
+  },
+  "betinia liga magasinet": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/z01estsekNPUOQrcM3ItXKq6nTU.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/hKE0VO8FebDDvTSfPfRB5iro7s9.jpg",
+    "ts": 1785845434.883248
+  },
+  "brøndby går transferamok": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1785845430.2844996
+  },
+  "cykling: clásica de san sebastián": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1785845434.3488967
+  },
+  "cykling: clásica san sebastián": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1785845439.261568
+  },
+  "efg swiss open gstaad": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1785845433.1468306
+  },
+  "eliteserien": {
+    "backdrop": null,
+    "poster": "https://image.tmdb.org/t/p/w500/vmM7ZyLvq8rFP8h7m3xzv3NuYwS.jpg",
+    "ts": 1785845431.9675684
+  },
+  "fastzone": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/qJdLg7mNaBBjhaNUNc1DQeSpINZ.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/nP5465zBKGp0EJMXzgjI7bbucfK.jpg",
+    "ts": 1785845430.62198
+  },
+  "forza norge": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1785845431.6440885
+  },
+  "gp confidential: gp confidential": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/4QZGyTSImQVNB3Vii7vBvmqNVSN.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/gvtEZebWSgiBY6Des1TMMUYdCtP.jpg",
+    "ts": 1785845436.7949903
+  },
+  "historien om": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1785845432.5473275
+  },
+  "højdepunkter fra dansk motorsport": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1785845436.9852033
+  },
+  "kristianstad invitational": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1785845430.0797417
+  },
+  "mifel tennis open by telcel oppo": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1785845433.5336666
+  },
+  "mubadala citi dc open": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1785845433.7467449
+  },
+  "nordea open: finale": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1785845434.1453621
+  },
+  "obos-ligaen": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1785845432.2015312
+  },
+  "onside": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/adglaupeku4T0HyoQMVlnbxed9j.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/5nrOuJKzvsSmfR7XykJb2gB9wcV.jpg",
+    "ts": 1785845429.2348597
+  },
+  "superliga: fc nordsjælland - randers fc": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1785845436.1510818
+  },
+  "superliga: lyngby bk - agf": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1785845435.9342158
+  },
+  "superliga: silkeborg if - f.c. københavn": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1785845436.3777728
+  },
+  "superligatilsynet": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/rU4GMcTXcOmU6CMdDEkPeGGaV65.jpg",
+    "poster": null,
+    "ts": 1785845435.2589874
+  },
+  "superligatilsynet: superligatilsynet: brøndby går transferamok": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1785845437.727904
+  },
+  "tennis, atp 250 münchen": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1785845441.7803526
+  },
+  "tennis: atp - citi open": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1785845428.69535
+  },
+  "tennis: atp 1000 - montreal - kampe": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1785845428.8845556
+  },
+  "tennis: atp 250 umag": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1785845432.944192
+  },
+  "tennis: turneringsoppsummering": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1785845432.7417629
+  },
+  "tennis: wta - washington - kampe": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1785845428.4981012
+  },
+  "terra wortmann open": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1785845433.946186
+  },
+  "tv-udbruddet: tv-udbruddet": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/rUPYDCPqgEgMNJjoQHwWbDswsM2.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/yyCA4w7mD2b2K89t3CP1m2mNKDT.jpg",
+    "ts": 1785845437.3592508
+  },
+  "var-rummet": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/kTLL2xVknzUAPolCmKrQPmbqIv4.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/iySSrt3AjxD41CADoLulWX4iunp.jpg",
+    "ts": 1785845429.874302
+  }
+}

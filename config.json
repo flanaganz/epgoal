@@ -1,5 +1,5 @@
 {
-  "_readme": "Alle 6 kilder hentes og behandles HVER gang - sportskanalerne kan ligge i hvilken som helst af filerne. 'enrich_non_sport_with_tmdb' er fase 2, slået fra nu.",
+  "_readme": "Alle 6 kilder hentes og behandles HVER gang - sportskanalerne kan ligge i hvilken som helst af filerne. 'enrich_non_sport_with_tmdb' er fase 2 (ikke-sport-kanaler), slået fra nu.",
 
   "sources": [
     { "name": "denmark1", "url": "https://www.open-epg.com/files/denmark1.xml", "enrich_non_sport_with_tmdb": false },
@@ -11,7 +11,9 @@
   ],
 
   "sport": {
-    "image_base_url": "https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/"
+    "image_base_url": "https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/",
+    "tmdb_fallback_enabled": true,
+    "_note": "NYT: når true (og TMDB_API_KEY er sat), prøver scriptet et TMDb-opslag for navngivne sport-kanal-programmer UDEN lokalt match (fx Onside, Var-Rummet, TV-Udbruddet), FØR det falder til kanalens generiske billede. Kræver TMDB_API_KEY i .env - sæt til false for at deaktivere og kun bruge lokale billeder."
   },
 
   "git": {
