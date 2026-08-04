@@ -11,7 +11,16 @@
   "var-rummet": { "backdrop": null, "poster": null },
   "brøndby går transferamok": { "backdrop": null, "poster": null },
 
-  "kristianstad invitational": { "backdrop": null, "poster": null },
+  "fastzone": {
+    "backdrop": null, "poster": null,
+    "_note": "NYT: Selvstændigt TV3 Sport-program (bekræftet af bruger). Intet eget billede uploadet - prøver TMDb først, falder til TV3-generic hvis intet findes."
+  },
+  "danskerklubben": {
+    "backdrop": null, "poster": null,
+    "_note": "NYT: Selvstændigt TV3 Sport-program (bekræftet af bruger). Intet eget billede uploadet - prøver TMDb først, falder til TV3-generic hvis intet findes."
+  },
+
+  "kristianstad invitational": { "backdrop": "Golf PGA Tour.jpg", "poster": "Golf PGA Tour.jpg" },
 
   "gp confidential": { "backdrop": null, "poster": null },
   "racetv.dk": { "backdrop": null, "poster": null },

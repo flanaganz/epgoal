@@ -2,9 +2,16 @@
   {
     "id": "fodbold",
     "prefix": ["fodbold"],
-    "keywords": ["fodbold", "superliga", "champions league", "premier league", "a-liga", "3f superliga"],
+    "keywords": ["fodbold", "superliga", "champions league", "premier league", "3f superliga"],
     "backdrop": "Fodbold.jpg",
     "poster": "Fodbold.jpg"
+  },
+  {
+    "id": "fodbold_aliga",
+    "prefix": [],
+    "keywords": ["a-liga"],
+    "backdrop": "A-Liga.jpg",
+    "poster": "A-Liga.jpg"
   },
   {
     "id": "atletik_diamond_league",
@@ -21,30 +28,90 @@
     "poster": "Cykling Tour de France Femmes.jpg"
   },
   {
+    "id": "cykling_clasica_san_sebastian",
+    "prefix": [],
+    "keywords": ["sebastián", "sebastian"],
+    "backdrop": "clásica san sebastián.jpg",
+    "poster": "clásica san sebastián.jpg"
+  },
+  {
     "id": "cykling",
     "prefix": ["cykling"],
     "keywords": ["cykling", "tour de france", "giro d'italia", "vuelta", "clásica", "clasica", "tour de l'ain"],
-    "backdrop": null,
-    "poster": null
+    "backdrop": "Cykling-generic.jpg",
+    "poster": "Cykling-generic.jpg",
+    "_note": "Cykling-generic2.jpg er backup (bruges ikke direkte) - bekræftet af bruger."
   },
   {
     "id": "nfl",
     "prefix": ["nfl"],
     "keywords": ["nfl"],
     "backdrop": "NFL.jpg",
-    "poster": "NFL.jpg"
+    "poster": "NFL.jpg",
+    "_note": "NFL2.jpg er backup (bruges ikke direkte) - bekræftet af bruger."
   },
-  { "id": "tennis", "prefix": ["tennis"], "keywords": ["tennis", "atp", "wta", "french open", "wimbledon", "us open"], "backdrop": null, "poster": null },
+  {
+    "id": "tennis_wta",
+    "priority": true,
+    "prefix": [],
+    "keywords": ["wta"],
+    "backdrop": "WTA-generic.jpeg",
+    "poster": "WTA-generic.jpeg"
+  },
+  {
+    "id": "tennis_atp_1000",
+    "prefix": [],
+    "keywords": ["atp 1000", "montreal", "toronto"],
+    "backdrop": "Tennis ATP 1000.jpg",
+    "poster": "Tennis ATP 1000.jpg"
+  },
+  {
+    "id": "tennis_atp_500",
+    "prefix": [],
+    "keywords": ["atp 500", "barcelona", "washington", "citi open", "münchen", "munich"],
+    "backdrop": "Tennis ATP 500.jpg",
+    "poster": "Tennis ATP 500.jpg"
+  },
+  {
+    "id": "tennis",
+    "prefix": ["tennis"],
+    "keywords": ["tennis", "french open", "wimbledon", "us open"],
+    "backdrop": null,
+    "poster": null
+  },
   { "id": "badminton", "prefix": ["badminton"], "keywords": ["badminton"], "backdrop": null, "poster": null },
   { "id": "bordtennis", "prefix": ["bordtennis"], "keywords": ["bordtennis"], "backdrop": null, "poster": null },
   { "id": "atletik", "prefix": ["atletik"], "keywords": ["atletik"], "backdrop": null, "poster": null },
-  { "id": "golf", "prefix": ["golf"], "keywords": ["golf", "pga tour", "pga champions"], "backdrop": null, "poster": null },
+  {
+    "id": "golf",
+    "prefix": ["golf"],
+    "keywords": ["golf", "pga tour", "pga champions"],
+    "backdrop": "Golf PGA Tour.jpg",
+    "poster": "Golf PGA Tour.jpg",
+    "_fixed": "RETTET: enkelt mellemrum ('Golf PGA Tour.jpg') efter du rettede filnavnet på GitHub."
+  },
+  {
+    "id": "motocross",
+    "prefix": ["motocross"],
+    "keywords": ["motocross"],
+    "backdrop": "Motocross.jpg",
+    "poster": "Motocross.jpg"
+  },
+  { "id": "motogp", "prefix": [], "keywords": ["motogp"], "backdrop": "MotoGP.jpg", "poster": "MotoGP.jpg" },
+  { "id": "indycar", "prefix": [], "keywords": ["indycar"], "backdrop": "IndyCar.jpg", "poster": "IndyCar.jpg" },
+  {
+    "id": "formel1",
+    "prefix": [],
+    "keywords": ["formel 1"],
+    "backdrop": "Formel 1.jpg",
+    "poster": "Formel 1.jpg"
+  },
   {
     "id": "motorsport",
-    "prefix": ["motocross", "speedway", "gokart", "formel", "motorsport"],
-    "keywords": ["motocross", "speedway", "gokart", "formel e", "formel 1", "rally", "motorsport"],
-    "backdrop": null,
-    "poster": null
+    "prefix": ["speedway", "gokart", "formel", "motorsport"],
+    "keywords": ["speedway", "gokart", "formel e", "rally", "motorsport"],
+    "backdrop": "Motorsport-generic.jpg",
+    "poster": "Motorsport-generic.jpg"
   },
   { "id": "boksning", "prefix": ["boksning"], "keywords": ["boksning", "boxeo"], "backdrop": null, "poster": null },
   { "id": "squash", "prefix": ["squash"], "keywords": ["squash"], "backdrop": null, "poster": null },
