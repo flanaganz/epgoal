@@ -90,6 +90,13 @@
     "poster": "Golf PGA Tour.jpg",
     "_fixed": "RETTET: enkelt mellemrum ('Golf PGA Tour.jpg') efter du rettede filnavnet på GitHub."
   },
+{
+    "id": "badminton",
+    "prefix": ["badminton"],
+    "keywords": ["badminton"],
+    "backdrop": "badminton.jpg",
+    "poster": "badminton.jpg"
+  },
   {
     "id": "motocross",
     "prefix": ["motocross"],
