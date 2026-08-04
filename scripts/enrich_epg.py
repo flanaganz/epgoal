@@ -2,7 +2,10 @@
 """
 enrich_epg.py — sport-first lokal udgave (Mac mini / always-on)
 
-Matching-strategi pr. programme på en sport-kanal (i prioriteret rækkefølge):
+Matching-strategi pr. programme:
+    -1) sport_channels.json["exclude"] -> kanalen behandles som IKKE-sport
+        (fuldstændig urørt), uanset om den ellers ville matche i "channels".
+        Bruges fx til at udelukke norske sportskanaler.
     0) sport_skip_titles.json        -> fjern evt. icon/backdrop, rør intet andet
     1) sport_program_overrides.json  -> eksakt FULD titel-match
     2) sport_categories.json[prefix]    -> "Kategori: Begivenhed"-syntaksen
@@ -87,7 +90,16 @@ def normalize_title(title: str) -> str:
 class SportMatcher:
     def __init__(self, image_base_url: str):
         self.image_base_url = image_base_url.rstrip("/") + "/"
-        self.channels = load_json(SPORT_CHANNELS_FILE, [])
+
+        channels_raw = load_json(SPORT_CHANNELS_FILE, {})
+        if isinstance(channels_raw, list):
+            # Bagudkompatibilitet med den gamle flade liste-struktur (ingen exclude-støtte)
+            self.exclude_patterns: list[str] = []
+            self.channels = channels_raw
+        else:
+            self.exclude_patterns = [e["match"].lower() for e in channels_raw.get("exclude", [])]
+            self.channels = channels_raw.get("channels", [])
+
         self.categories = load_json(SPORT_CATEGORIES_FILE, [])
         self.program_overrides = load_json(SPORT_PROGRAM_OVERRIDES_FILE, {})
         self.skip_titles = set(load_json(SPORT_SKIP_TITLES_FILE, []))
@@ -105,6 +117,11 @@ class SportMatcher:
 
     def match_channel(self, channel_id: str) -> dict | None:
         low = (channel_id or "").lower()
+
+        for pattern in self.exclude_patterns:
+            if pattern in low:
+                return None  # eksplicit udelukket -> behandles som ikke-sport
+
         for entry in self.channels:
             if entry["match"].lower() in low:
                 return entry
@@ -330,8 +347,6 @@ def process_xml(xml_bytes: bytes, matcher: SportMatcher, source_cfg: dict,
             if role_entry.get("role") == "always_sport":
                 fallback_backdrop = role_entry.get("default_backdrop")
                 fallback_poster = role_entry.get("default_poster")
-                # Log titlen uanset om der findes et fallback-billede, så vi kan
-                # se PRÆCIS hvilke titler der endte her (til senere finjustering).
                 chan_name = chan_id
                 fallback_titles_log.setdefault(chan_name, {})
                 fallback_titles_log[chan_name][title] = fallback_titles_log[chan_name].get(title, 0) + 1
@@ -407,6 +422,7 @@ def main() -> None:
 
     print("=== EPG sport-berigelse (lokal kørsel) ===")
     print(f"Sport-billeder hentes fra: {matcher.image_base_url}")
+    print(f"Udelukkede kanal-mønstre: {matcher.exclude_patterns or '(ingen)'}")
     print(f"TMDb-fallback for sport-programmer: {'AKTIVERET' if sport_tmdb_fallback_enabled and TMDB_API_KEY else 'slået fra'}")
     print(f"Cache indeholder {cache_size_before:,} tidligere TMDb-opslag (levetid: {cache_max_age_days} dage)")
 
@@ -451,8 +467,6 @@ def main() -> None:
     save_json(CACHE_FILE, cache)
     cache_size_after = len(cache)
 
-    # Gem log over alle titler der endte i kanal-fallback (eller "mangler billede"),
-    # så det er nemt at se PRÆCIS hvilke titler der bør have et override tilføjet.
     fallback_log_path = DATA_DIR / "fallback_titles_log.json"
     save_json(fallback_log_path, fallback_titles_log)
 

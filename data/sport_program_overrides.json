@@ -1,32 +1,20 @@
 {
-  "_readme": "Nøglen = FULD titel i små bogstaver, trimmet. Bruges til faste programnavne (TV3 Sport) ELLER specifikke begivenheder der skal have et andet billede end deres kategoris generiske fallback. Sat til null = intet manuelt override -> prøver TMDb automatisk, falder til kanal-generic hvis TMDb heller intet har.",
+  "_readme": "Nøglen = FULD titel i små bogstaver, trimmet.",
 
   "fodbold: 3f superligaen": { "backdrop": "3F Superliga.jpg", "poster": "3F Superliga.jpg" },
   "atletik: diamond league": { "backdrop": "Atletik Diamond League.jpg", "poster": "Atletik Diamond League.jpg" },
   "atp tour highlights": { "backdrop": "ATP Tour Highlights.jpg", "poster": "ATP Tour Highlights.jpg" },
 
-  "superliga": {
-    "backdrop": "3F Superliga.jpg", "poster": "3F Superliga.jpg",
-    "_note": "TV3's faste sendeflade-navn for selve kampene - beholder eget billede, da det IKKE er et navngivet magasinprogram TMDb kan slå op meningsfuldt."
-  },
-
-  "onside": {
-    "backdrop": null, "poster": null,
-    "_note": "RETTET: var før Fodbold.jpg (delt/generisk). Nu null -> prøver TMDb automatisk (Onside er et etableret TV3-fodboldmagasin, sandsynligt at finde), falder til TV3-generic hvis TMDb intet har."
-  },
-  "1. division magasinet": {
-    "backdrop": null, "poster": null,
-    "_note": "RETTET: samme ændring som Onside - giver TMDb en chance for eget billede."
-  },
-  "var-rummet": {
-    "backdrop": null, "poster": null,
-    "_note": "RETTET: samme ændring som Onside - giver TMDb en chance for eget billede."
-  },
+  "superliga": { "backdrop": "3F Superliga.jpg", "poster": "3F Superliga.jpg" },
+  "onside": { "backdrop": null, "poster": null },
+  "1. division magasinet": { "backdrop": null, "poster": null },
+  "var-rummet": { "backdrop": null, "poster": null },
   "brøndby går transferamok": { "backdrop": null, "poster": null },
+
+  "kristianstad invitational": { "backdrop": null, "poster": null },
 
   "gp confidential": { "backdrop": null, "poster": null },
   "racetv.dk": { "backdrop": null, "poster": null },
   "tv-udbruddet": { "backdrop": null, "poster": null },
-  "kristianstad invitational": { "backdrop": null, "poster": null },
   "overtime": { "backdrop": null, "poster": null }
 }
