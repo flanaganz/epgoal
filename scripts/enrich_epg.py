@@ -4,7 +4,13 @@ enrich_epg.py — sport-first lokal udgave (Mac mini / always-on)
 
 Matching-strategi pr. programme:
     -1) sport_channels.json["exclude"] -> kanalen behandles som IKKE-sport
-    0) sport_skip_titles.json        -> fjern evt. icon/backdrop, rør intet andet
+    0) sport_skip_titles.json          -> fjern evt. icon/backdrop, rør intet andet
+    0.5) sport_prefer_tmdb_titles.json -> SPRING lokal kategori/nøgleords-matching
+         over for disse titler, gå direkte til TMDb-opslag (trin 4). Bruges til
+         programmer der ellers ville ramme en bred kategori (fx "superliga"),
+         men hvor TMDb's eget billede er at foretrække (fx "Superligatilsynet",
+         "Før Superligaen" - disse indeholder bogstaveligt "superliga" som
+         delstreng og ville ellers altid ramme den generiske fodbold-kategori).
     1) sport_program_overrides.json  -> eksakt FULD titel-match
     2) sport_categories.json[prefix]    -> "Kategori: Begivenhed"-syntaksen
     3) sport_categories.json[keywords]  -> nøgleord (priority-kategorier først,
@@ -12,13 +18,10 @@ Matching-strategi pr. programme:
     4) TMDb-opslag -> kun for "always_sport"-kanaler, kun hvis aktiveret
     5) kanalens default_backdrop/-poster (sidste udvej, kun "always_sport")
 
-Titel-normalisering (VIGTIGT): bruger unicodedata.normalize("NFKC", ...) samt
-eksplicit erstatning af usynlige tegn (nulbredde-mellemrum, blødt bindestreg,
-BOM m.fl.) med et almindeligt mellemrum. Dette retter et reelt fund: nogle
-EPG-kilder indeholder usynlige Unicode-tegn i titler, der gør at visuelt
-IDENTISKE titler (fx "Bundesliga Review of the Midseason") ikke matchede
-deres override, fordi de indeholdt et skjult tegn en almindelig \\s+ regex
-ikke fangede korrekt uden at sammensmelte ordene.
+Titel-normalisering bruger unicodedata.normalize("NFKC", ...) samt eksplicit
+erstatning af usynlige tegn (nulbredde-mellemrum, blødt bindestreg, BOM m.fl.)
+med et almindeligt mellemrum, for at undgå at visuelt identiske titler ikke
+matcher pga. skjulte Unicode-tegn i EPG-kilden.
 
 Brug:
     python3 scripts/enrich_epg.py
@@ -51,6 +54,7 @@ SPORT_CHANNELS_FILE = DATA_DIR / "sport_channels.json"
 SPORT_CATEGORIES_FILE = DATA_DIR / "sport_categories.json"
 SPORT_PROGRAM_OVERRIDES_FILE = DATA_DIR / "sport_program_overrides.json"
 SPORT_SKIP_TITLES_FILE = DATA_DIR / "sport_skip_titles.json"
+SPORT_PREFER_TMDB_TITLES_FILE = DATA_DIR / "sport_prefer_tmdb_titles.json"
 
 ENV_FILE = ROOT / ".env"
 if ENV_FILE.exists():
@@ -68,8 +72,6 @@ IMAGE_BASE = "https://image.tmdb.org/t/p"
 MATCH_SIMILARITY_MIN = 0.55
 REQUEST_SLEEP_SECONDS = 0.05
 
-# Usynlige/formaterings-tegn der ind imellem sniger sig ind i EPG-feeds:
-# nulbredde-mellemrum/joiner, word-joiner, BOM, blødt bindestreg.
 INVISIBLE_CHARS_PATTERN = re.compile(r"[\u200B\u200C\u200D\u2060\uFEFF\u00AD]")
 
 SESSION = requests.Session()
@@ -90,11 +92,7 @@ def save_json(path: Path, data) -> None:
 
 def normalize_title(title: str) -> str:
     t = title.strip()
-    # NFKC folder forskellige Unicode-repræsentationer af "samme" tegn
-    # (fx forskellige mellemrumsbredder, ligaturer) til en kanonisk form.
     t = unicodedata.normalize("NFKC", t)
-    # Erstat (ikke slet!) usynlige tegn med ET mellemrum, så ord der var
-    # adskilt af et usynligt tegn ikke smelter sammen efterfølgende.
     t = INVISIBLE_CHARS_PATTERN.sub(" ", t)
     t = re.sub(r"\s+", " ", t)
     t = t.strip()
@@ -117,6 +115,9 @@ class SportMatcher:
         self.categories = load_json(SPORT_CATEGORIES_FILE, [])
         self.program_overrides = load_json(SPORT_PROGRAM_OVERRIDES_FILE, {})
         self.skip_titles = set(load_json(SPORT_SKIP_TITLES_FILE, []))
+
+        prefer_tmdb_raw = load_json(SPORT_PREFER_TMDB_TITLES_FILE, {"titles": []})
+        self.prefer_tmdb_titles = set(t.strip().lower() for t in prefer_tmdb_raw.get("titles", []))
 
         self.prefix_lookup: dict[str, dict] = {}
         for cat in self.categories:
@@ -157,11 +158,20 @@ class SportMatcher:
             return None
         return self._image_urls(backdrop_filename, poster_filename)
 
+    def prefers_tmdb(self, raw_title: str) -> bool:
+        return normalize_title(raw_title) in self.prefer_tmdb_titles
+
     def resolve_local(self, raw_title: str) -> dict | None:
         norm = normalize_title(raw_title)
 
         if norm in self.skip_titles:
             return {"skip": True}
+
+        if norm in self.prefer_tmdb_titles:
+            # Spring override/kategori/nøgleord over med vilje - lad den fulde
+            # pipeline forsøge TMDb først (og falde til kanal-generic hvis
+            # TMDb intet finder). Returnerer None, IKKE et match.
+            return None
 
         override = self.program_overrides.get(norm)
         if override:
@@ -439,6 +449,7 @@ def main() -> None:
     print("=== EPG sport-berigelse (lokal kørsel) ===")
     print(f"Sport-billeder hentes fra: {matcher.image_base_url}")
     print(f"Udelukkede kanal-mønstre: {matcher.exclude_patterns or '(ingen)'}")
+    print(f"Titler der foretrækker TMDb: {sorted(matcher.prefer_tmdb_titles) or '(ingen)'}")
     print(f"TMDb-fallback for sport-programmer: {'AKTIVERET' if sport_tmdb_fallback_enabled and TMDB_API_KEY else 'slået fra'}")
     print(f"Cache indeholder {cache_size_before:,} tidligere TMDb-opslag (levetid: {cache_max_age_days} dage)")
 

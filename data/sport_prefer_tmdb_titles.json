@@ -1,0 +1,8 @@
+{
+  "_readme": "Titler i denne liste SPRINGER lokal kategori/nøgleords-matching over og går direkte til TMDb-opslag (hvis sport.tmdb_fallback_enabled=true), og falder til kanalens generic hvis TMDb intet finder. Bruges til programmer der EGENTLIG ville ramme en bred kategori (fx 'superliga'-nøgleordet), men hvor du hellere vil have TMDb's eget billede for det specifikke program.",
+
+  "titles": [
+    "superligatilsynet",
+    "før superligaen"
+  ]
+}
