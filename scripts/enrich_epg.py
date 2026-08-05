@@ -4,18 +4,21 @@ enrich_epg.py — sport-first lokal udgave (Mac mini / always-on)
 
 Matching-strategi pr. programme:
     -1) sport_channels.json["exclude"] -> kanalen behandles som IKKE-sport
-        (fuldstændig urørt), uanset om den ellers ville matche i "channels".
-        Bruges fx til at udelukke norske sportskanaler.
     0) sport_skip_titles.json        -> fjern evt. icon/backdrop, rør intet andet
     1) sport_program_overrides.json  -> eksakt FULD titel-match
     2) sport_categories.json[prefix]    -> "Kategori: Begivenhed"-syntaksen
-    3) sport_categories.json[keywords]  -> nøgleord der matcher hvor som helst
-                                           i titlen (LÆNGST match først)
-    4) TMDb-opslag -> kun for "always_sport"-kanaler, kun hvis
-       sport.tmdb_fallback_enabled=true i config.json OG TMDB_API_KEY er sat.
-       Bruger data/cache.json til at undgå gentagne TMDb-kald for samme
-       titel (levetid styret af cache_max_age_days i config.json).
+    3) sport_categories.json[keywords]  -> nøgleord (priority-kategorier først,
+       derefter almindelige kategorier længst-match-først)
+    4) TMDb-opslag -> kun for "always_sport"-kanaler, kun hvis aktiveret
     5) kanalens default_backdrop/-poster (sidste udvej, kun "always_sport")
+
+Titel-normalisering (VIGTIGT): bruger unicodedata.normalize("NFKC", ...) samt
+eksplicit erstatning af usynlige tegn (nulbredde-mellemrum, blødt bindestreg,
+BOM m.fl.) med et almindeligt mellemrum. Dette retter et reelt fund: nogle
+EPG-kilder indeholder usynlige Unicode-tegn i titler, der gør at visuelt
+IDENTISKE titler (fx "Bundesliga Review of the Midseason") ikke matchede
+deres override, fordi de indeholdt et skjult tegn en almindelig \\s+ regex
+ikke fangede korrekt uden at sammensmelte ordene.
 
 Brug:
     python3 scripts/enrich_epg.py
@@ -29,6 +32,7 @@ import re
 import subprocess
 import sys
 import time
+import unicodedata
 from pathlib import Path
 from urllib.parse import quote
 from xml.etree import ElementTree as ET
@@ -64,6 +68,10 @@ IMAGE_BASE = "https://image.tmdb.org/t/p"
 MATCH_SIMILARITY_MIN = 0.55
 REQUEST_SLEEP_SECONDS = 0.05
 
+# Usynlige/formaterings-tegn der ind imellem sniger sig ind i EPG-feeds:
+# nulbredde-mellemrum/joiner, word-joiner, BOM, blødt bindestreg.
+INVISIBLE_CHARS_PATTERN = re.compile(r"[\u200B\u200C\u200D\u2060\uFEFF\u00AD]")
+
 SESSION = requests.Session()
 
 
@@ -82,7 +90,14 @@ def save_json(path: Path, data) -> None:
 
 def normalize_title(title: str) -> str:
     t = title.strip()
+    # NFKC folder forskellige Unicode-repræsentationer af "samme" tegn
+    # (fx forskellige mellemrumsbredder, ligaturer) til en kanonisk form.
+    t = unicodedata.normalize("NFKC", t)
+    # Erstat (ikke slet!) usynlige tegn med ET mellemrum, så ord der var
+    # adskilt af et usynligt tegn ikke smelter sammen efterfølgende.
+    t = INVISIBLE_CHARS_PATTERN.sub(" ", t)
     t = re.sub(r"\s+", " ", t)
+    t = t.strip()
     t = re.sub(r"\s*\(k\)\s*$", "", t, flags=re.IGNORECASE)
     return t.lower()
 
@@ -93,7 +108,6 @@ class SportMatcher:
 
         channels_raw = load_json(SPORT_CHANNELS_FILE, {})
         if isinstance(channels_raw, list):
-            # Bagudkompatibilitet med den gamle flade liste-struktur (ingen exclude-støtte)
             self.exclude_patterns: list[str] = []
             self.channels = channels_raw
         else:
@@ -109,18 +123,21 @@ class SportMatcher:
             for prefix in cat.get("prefix", []) or []:
                 self.prefix_lookup[prefix.strip().lower()] = cat
 
-        self.keyword_lookup: list[tuple[str, dict]] = []
+        priority_keywords: list[tuple[str, dict]] = []
+        normal_keywords: list[tuple[str, dict]] = []
         for cat in self.categories:
+            target = priority_keywords if cat.get("priority") else normal_keywords
             for keyword in cat.get("keywords", []) or []:
-                self.keyword_lookup.append((keyword.strip().lower(), cat))
-        self.keyword_lookup.sort(key=lambda pair: len(pair[0]), reverse=True)
+                target.append((keyword.strip().lower(), cat))
+        normal_keywords.sort(key=lambda pair: len(pair[0]), reverse=True)
+        self.keyword_lookup: list[tuple[str, dict]] = priority_keywords + normal_keywords
 
     def match_channel(self, channel_id: str) -> dict | None:
         low = (channel_id or "").lower()
 
         for pattern in self.exclude_patterns:
             if pattern in low:
-                return None  # eksplicit udelukket -> behandles som ikke-sport
+                return None
 
         for entry in self.channels:
             if entry["match"].lower() in low:
@@ -215,7 +232,6 @@ def tmdb_images(media_type: str, tmdb_id: int) -> tuple[str | None, str | None]:
 
 def resolve_tmdb_artwork(raw_title: str, overrides: dict, cache: dict, cache_max_age_days: int,
                           backdrop_size: str, poster_size: str) -> tuple[dict, bool]:
-    """Returnerer (artwork_dict, kom_fra_cache: bool)."""
     key = normalize_title(raw_title)
 
     override = overrides.get(key)

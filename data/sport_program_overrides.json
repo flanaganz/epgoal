@@ -11,14 +11,26 @@
   "var-rummet": { "backdrop": null, "poster": null },
   "brøndby går transferamok": { "backdrop": null, "poster": null },
 
-  "fastzone": {
-    "backdrop": null, "poster": null,
-    "_note": "NYT: Selvstændigt TV3 Sport-program (bekræftet af bruger). Intet eget billede uploadet - prøver TMDb først, falder til TV3-generic hvis intet findes."
+  "bundesliga review of the midseason": { "backdrop": "Bundesliga Review of the Midseason.jpg", "poster": "Bundesliga Review of the Midseason.jpg" },
+  "bundesliga review of the season": {
+    "backdrop": "Bundesliga Review of the Midseason.jpg", "poster": "Bundesliga Review of the Midseason.jpg",
+    "_note": "NYT: anden titel-variant af samme program set i seneste log ('...Season' i stedet for '...Midseason'). Genbruger samme billede."
   },
-  "danskerklubben": {
-    "backdrop": null, "poster": null,
-    "_note": "NYT: Selvstændigt TV3 Sport-program (bekræftet af bruger). Intet eget billede uploadet - prøver TMDb først, falder til TV3-generic hvis intet findes."
+  "premier league review of the season": { "backdrop": "Premier League Review of the Season.jpg", "poster": "Premier League Review of the Season.jpg" },
+  "premier league goals of the season": { "backdrop": "Premier League Goals of the Season.jpg", "poster": "Premier League Goals of the Season.jpg" },
+  "ligue 1 the season review show": { "backdrop": "Ligue 1 The Season Review Show.jpg", "poster": "Ligue 1 The Season Review Show.jpg" },
+  "ligue 1 review of the season": {
+    "backdrop": "Ligue 1 The Season Review Show.jpg", "poster": "Ligue 1 The Season Review Show.jpg",
+    "_note": "NYT: anden titel-variant af samme program set i seneste log (anden ordstilling). Genbruger samme billede."
   },
+
+  "lee bowyer": {
+    "backdrop": null, "poster": null,
+    "_note": "NYT (kun 1 forekomst indtil videre): sandsynligvis et navngivet interview/portræt-segment med den tidligere fodboldspiller/manager Lee Bowyer. Ingen billede uploadet - prøver TMDb, falder til TV3-generic. Upload et billede og udfyld her hvis den bliver ved med at dukke op."
+  },
+
+  "fastzone": { "backdrop": null, "poster": null },
+  "danskerklubben": { "backdrop": null, "poster": null },
 
   "kristianstad invitational": { "backdrop": "Golf PGA Tour.jpg", "poster": "Golf PGA Tour.jpg" },
 
