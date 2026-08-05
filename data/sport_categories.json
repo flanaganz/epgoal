@@ -40,15 +40,14 @@
     "keywords": ["cykling", "tour de france", "giro d'italia", "vuelta", "clásica", "clasica", "tour de l'ain"],
     "backdrop": "Cykling-generic.jpg",
     "poster": "Cykling-generic.jpg",
-    "_note": "Cykling-generic2.jpg er backup (bruges ikke direkte) - bekræftet af bruger."
+    "_note": "VIGTIGT: efter rækkefølge-fixet i scriptet (keywords tjekkes nu FØR prefix) er det sikkert at have et rigtigt billede her - de mere specifikke kategorier ovenfor (tdf_femmes, san_sebastian) fanges nu korrekt FØRST, uanset denne kategoris prefix-match."
   },
   {
     "id": "nfl",
     "prefix": ["nfl"],
     "keywords": ["nfl"],
     "backdrop": "NFL.jpg",
-    "poster": "NFL.jpg",
-    "_note": "NFL2.jpg er backup (bruges ikke direkte) - bekræftet af bruger."
+    "poster": "NFL.jpg"
   },
   {
     "id": "tennis_wta",
@@ -79,7 +78,13 @@
     "backdrop": null,
     "poster": null
   },
-  { "id": "badminton", "prefix": ["badminton"], "keywords": ["badminton"], "backdrop": null, "poster": null },
+  {
+    "id": "badminton",
+    "prefix": ["badminton"],
+    "keywords": ["badminton"],
+    "backdrop": "Badminton.jpg",
+    "poster": "Badminton.jpg"
+  },
   { "id": "bordtennis", "prefix": ["bordtennis"], "keywords": ["bordtennis"], "backdrop": null, "poster": null },
   { "id": "atletik", "prefix": ["atletik"], "keywords": ["atletik"], "backdrop": null, "poster": null },
   {
@@ -87,15 +92,7 @@
     "prefix": ["golf"],
     "keywords": ["golf", "pga tour", "pga champions"],
     "backdrop": "Golf PGA Tour.jpg",
-    "poster": "Golf PGA Tour.jpg",
-    "_fixed": "RETTET: enkelt mellemrum ('Golf PGA Tour.jpg') efter du rettede filnavnet på GitHub."
-  },
-{
-    "id": "badminton",
-    "prefix": ["badminton"],
-    "keywords": ["badminton"],
-    "backdrop": "badminton.jpg",
-    "poster": "badminton.jpg"
+    "poster": "Golf PGA Tour.jpg"
   },
   {
     "id": "motocross",
@@ -129,7 +126,14 @@
   { "id": "faegtning", "prefix": ["fægtning"], "keywords": ["fægtning"], "backdrop": null, "poster": null },
   { "id": "mountainbike", "prefix": ["mountain bike"], "keywords": ["mountain bike", "mtb"], "backdrop": null, "poster": null },
   { "id": "basketball", "prefix": ["basketball"], "keywords": ["basketball", "basketligaen"], "backdrop": null, "poster": null },
-  { "id": "haandbold", "prefix": ["håndbold"], "keywords": ["håndbold"], "backdrop": null, "poster": null },
+  {
+    "id": "haandbold",
+    "prefix": ["håndbold"],
+    "keywords": ["håndbold"],
+    "backdrop": null,
+    "poster": null,
+    "_note": "Substring-matching håndterer automatisk 'Håndbold (k)' og 'Håndbold (m)' - begge indeholder 'håndbold' som substring, så de rammer denne kategori uanset kønsmærke. Upload et generisk håndbold-billede (og evt. separate til (k)/(m) via egne overrides) når du er klar."
+  },
   { "id": "futsal", "prefix": ["futsal"], "keywords": ["futsal"], "backdrop": null, "poster": null },
   { "id": "poker", "prefix": ["poker"], "keywords": ["poker", "world series"], "backdrop": null, "poster": null },
   { "id": "esport", "prefix": ["e-sport"], "keywords": ["e-sport", "esport"], "backdrop": null, "poster": null },

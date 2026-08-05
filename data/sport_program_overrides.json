@@ -5,6 +5,11 @@
   "atletik: diamond league": { "backdrop": "Atletik Diamond League.jpg", "poster": "Atletik Diamond League.jpg" },
   "atp tour highlights": { "backdrop": "ATP Tour Highlights.jpg", "poster": "ATP Tour Highlights.jpg" },
 
+  "cykling: tour de france (k)": {
+    "backdrop": "Cykling Tour de France Femmes.jpg", "poster": "Cykling Tour de France Femmes.jpg",
+    "_note": "NYT: bekræftet af bruger - '(k)' her betyder kvinde-udgaven, altså samme program som 'Tour de France Femmes'. Bevidst IKKE håndteret via generel (k)-stripping, da det ville gøre en evt. fremtidig utagget 'Cykling: Tour de France' (uden kønsmærke) fejlagtigt tvetydig."
+  },
+
   "superliga": { "backdrop": "3F Superliga.jpg", "poster": "3F Superliga.jpg" },
   "onside": { "backdrop": null, "poster": null },
   "1. division magasinet": { "backdrop": null, "poster": null },
@@ -24,15 +29,8 @@
   "danskerklubben": { "backdrop": null, "poster": null },
 
   "sport news": { "backdrop": "Viaplay_Sport_News-generic.jpg", "poster": "Viaplay_Sport_News-generic.jpg" },
-
-  "sky sports: the football show": {
-    "backdrop": "Sky Sports The Football Show.jpg", "poster": "Sky Sports The Football Show.jpg",
-    "_note": "⚠️ USIKKER ANTAGELSE: titlen indeholder et KOLON (':'), som IKKE er gyldigt i Windows-filnavne - så filnavnet kan umuligt være en 1:1 kopi af titlen. Har gættet på kolon simpelthen fjernet ('Sky Sports The Football Show.jpg'). BEKRÆFT venligst det faktiske filnavn du brugte, ellers virker linket ikke."
-  },
-  "dbu pokalen": {
-    "backdrop": "DBU Pokalen.jpg", "poster": "DBU Pokalen.jpg",
-    "_note": "Antagelse: eksakt titel + '.jpg' (samme mønster som tidligere bekræftet af dig). Bekræft venligst."
-  },
+  "sky sports: the football show": { "backdrop": "Sky Sports The Football Show.jpg", "poster": "Sky Sports The Football Show.jpg" },
+  "dbu pokalen": { "backdrop": "DBU Pokalen.jpg", "poster": "DBU Pokalen.jpg" },
 
   "kristianstad invitational": { "backdrop": "Golf PGA Tour.jpg", "poster": "Golf PGA Tour.jpg" },
 

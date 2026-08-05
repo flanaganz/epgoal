@@ -6,22 +6,37 @@ Matching-strategi pr. programme:
     -1) sport_channels.json["exclude"] -> kanalen behandles som IKKE-sport
     0) sport_skip_titles.json          -> fjern evt. icon/backdrop, rør intet andet
     0.5) sport_prefer_tmdb_titles.json -> SPRING lokal kategori/nøgleords-matching
-         over for disse titler, gå direkte til TMDb-opslag (trin 4). Bruges til
-         programmer der ellers ville ramme en bred kategori (fx "superliga"),
-         men hvor TMDb's eget billede er at foretrække (fx "Superligatilsynet",
-         "Før Superligaen" - disse indeholder bogstaveligt "superliga" som
-         delstreng og ville ellers altid ramme den generiske fodbold-kategori).
+         over for disse titler, gå direkte til TMDb-opslag (trin 4).
     1) sport_program_overrides.json  -> eksakt FULD titel-match
-    2) sport_categories.json[prefix]    -> "Kategori: Begivenhed"-syntaksen
-    3) sport_categories.json[keywords]  -> nøgleord (priority-kategorier først,
+    2) sport_categories.json[keywords]  -> nøgleord (priority-kategorier først,
        derefter almindelige kategorier længst-match-først)
+    3) sport_categories.json[prefix]    -> "Kategori: Begivenhed"-syntaksen
+       (SIDSTE UDVEJ blandt de lokale trin - se VIGTIG RETTELSE nedenfor)
     4) TMDb-opslag -> kun for "always_sport"-kanaler, kun hvis aktiveret
     5) kanalens default_backdrop/-poster (sidste udvej, kun "always_sport")
 
+VIGTIG RETTELSE (2026-08-05): Rækkefølgen mellem prefix- og keyword-matching
+er BYTTET OM ift. tidligere versioner. Årsag: da en bred kategori (fx den
+generiske "cykling"-kategori med prefix=["cykling"]) fik tildelt et RIGTIGT
+billede, begyndte den at "stjæle" ALLE "Cykling: ..."-titler via prefix-match,
+FØR de mere specifikke keyword-kategorier (fx "tour de france femmes",
+"clásica san sebastián") nogensinde blev tjekket - selvom disse var korrekt
+defineret. Dette var en usynlig bug: statistikken viste stadig "specifikt
+match", den viste bare ikke HVILKET billede der reelt blev brugt. Ved at
+tjekke keywords FØRST (som allerede er prioriteret/længde-sorteret), og lade
+prefix være sidste lokale udvej, får de specifikke under-kategorier altid
+forrang over deres brede overordnede kategori.
+
 Titel-normalisering bruger unicodedata.normalize("NFKC", ...) samt eksplicit
 erstatning af usynlige tegn (nulbredde-mellemrum, blødt bindestreg, BOM m.fl.)
-med et almindeligt mellemrum, for at undgå at visuelt identiske titler ikke
-matcher pga. skjulte Unicode-tegn i EPG-kilden.
+med et almindeligt mellemrum. BEMÆRK: automatisk fjernelse af trailing "(k)"
+er BEVIDST FJERNET fra normaliseringen (var tidligere til stede) - det er
+mere robust at have eksplicitte overrides for kønsmærkede titler der reelt
+skal afvige fra deres base-kategori (se fx "cykling: tour de france (k)" i
+sport_program_overrides.json), da automatisk stripping ville gøre en evt.
+utagget titel tvetydig. Almindelig substring-baseret keyword-matching (fx
+"håndbold" matcher både "Håndbold (k)" og "Håndbold (m)") kræver IKKE denne
+stripping for at virke korrekt.
 
 Brug:
     python3 scripts/enrich_epg.py
@@ -96,7 +111,6 @@ def normalize_title(title: str) -> str:
     t = INVISIBLE_CHARS_PATTERN.sub(" ", t)
     t = re.sub(r"\s+", " ", t)
     t = t.strip()
-    t = re.sub(r"\s*\(k\)\s*$", "", t, flags=re.IGNORECASE)
     return t.lower()
 
 
@@ -168,9 +182,6 @@ class SportMatcher:
             return {"skip": True}
 
         if norm in self.prefer_tmdb_titles:
-            # Spring override/kategori/nøgleord over med vilje - lad den fulde
-            # pipeline forsøge TMDb først (og falde til kanal-generic hvis
-            # TMDb intet finder). Returnerer None, IKKE et match.
             return None
 
         override = self.program_overrides.get(norm)
@@ -179,18 +190,21 @@ class SportMatcher:
             if match:
                 return match
 
+        # Keywords FØRST (mere specifikke under-kategorier vinder over deres
+        # brede overordnede kategori - se modulets docstring for baggrund).
+        for keyword, cat in self.keyword_lookup:
+            if keyword in norm:
+                match = self._real_match(cat.get("backdrop"), cat.get("poster"))
+                if match:
+                    return match
+
+        # Prefix er sidste lokale udvej ("Kategori: Begivenhed"-syntaksen).
         prefix = norm.split(":", 1)[0].strip()
         cat = self.prefix_lookup.get(prefix)
         if cat:
             match = self._real_match(cat.get("backdrop"), cat.get("poster"))
             if match:
                 return match
-
-        for keyword, cat in self.keyword_lookup:
-            if keyword in norm:
-                match = self._real_match(cat.get("backdrop"), cat.get("poster"))
-                if match:
-                    return match
 
         return None
 

@@ -1,8 +1,11 @@
 {
-  "_readme": "Titler i denne liste SPRINGER lokal kategori/nøgleords-matching over og går direkte til TMDb-opslag (hvis sport.tmdb_fallback_enabled=true), og falder til kanalens generic hvis TMDb intet finder. Bruges til programmer der EGENTLIG ville ramme en bred kategori (fx 'superliga'-nøgleordet), men hvor du hellere vil have TMDb's eget billede for det specifikke program.",
+  "_readme": "Titler i denne liste SPRINGER lokal kategori/nøgleords-matching over og går direkte til TMDb-opslag, og falder til kanalens generic hvis TMDb intet finder. Bruges til programmer der EGENTLIG ville ramme en bred kategori/nøgleord, men hvor du hellere vil have et andet resultat for det specifikke program.",
 
   "titles": [
     "superligatilsynet",
-    "før superligaen"
-  ]
+    "før superligaen",
+    "cykling: tour de france femmes - studie",
+    "tour de france femmes: studiet"
+  ],
+  "_note_studie": "NYT: 'Cykling: Tour de France Femmes - Studie' og 'Tour de France Femmes: Studiet' er bekræftet af bruger som SELVSTÆNDIGE programmer, adskilt fra selve løbsdækningen. Uden denne bypass ville de fejlagtigt matche 'tour de france femmes'-nøgleordet (da det er en literal substring i begge titler) og få løbsbilledet i stedet."
 }
