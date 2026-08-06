@@ -189,6 +189,11 @@
     "poster": "https://image.tmdb.org/t/p/w500/5nrOuJKzvsSmfR7XykJb2gB9wcV.jpg",
     "ts": 1785845429.2348597
   },
+  "sportstalk": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/lPYoFaHcM12lvXSArkMEHZ1xiFk.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/8eBSn1PUCj7Ikcrfj9bMmw7kUB0.jpg",
+    "ts": 1786016502.0290928
+  },
   "superliga: fc nordsjælland - randers fc": {
     "backdrop": null,
     "poster": null,
@@ -253,6 +258,11 @@
     "backdrop": null,
     "poster": null,
     "ts": 1785933237.2638812
+  },
+  "tv-udbruddet": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/rUPYDCPqgEgMNJjoQHwWbDswsM2.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/yyCA4w7mD2b2K89t3CP1m2mNKDT.jpg",
+    "ts": 1786016501.672291
   },
   "tv-udbruddet: tv-udbruddet": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/rUPYDCPqgEgMNJjoQHwWbDswsM2.jpg",
