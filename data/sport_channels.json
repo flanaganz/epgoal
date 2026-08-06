@@ -1,13 +1,11 @@
 {
   "_readme": "Struktur: 'exclude' tjekkes FØRST og har altid forrang. 'channels' er selve sport-kanal-listen, rækkefølgen betyder noget for substring-matches (mere specifikke mønstre skal stå FØR bredere mønstre).",
-
   "exclude": [
     {
       "match": "norway",
       "note": "Udelukker ALLE norske sportskanaler fuldstændigt (TV 2 Sport 1/2/Premium Norway m.fl.)."
     }
   ],
-
   "channels": [
     {
       "match": "tv 2 sport x",
@@ -31,9 +29,9 @@
       "default_poster": "tv3sport-generic.jpg"
     },
     {
-      "match": "viasat sport",
+      "match": "viaplay sport",
       "role": "always_sport",
-      "note": "Viasat Sport News. 'viasat sport' (uden 'news') bruges som match-mønster, så den også fanger evt. andre Viasat Sport-varianter i fremtiden.",
+      "note": "RETTET (fejl fundet 2026-08-08): match-feltet indeholdt fejlagtigt stadig den gamle værdi 'viasat sport', selvom noten allerede beskrev Viaplay. De rigtige kanal-ID'er i Open-EPG-kilderne er 'Viaplay Sport News HD (D) (T).dk' og 'Viaplay Sport News.dk' - INGEN af dem indeholder understrengen 'viasat sport', så kanalen blev aldrig genkendt som sport-kanal, og alle dens programmer (SuperligaTilsynet, TV-Udbruddet, Sport News, Sky Sports: The Football Show, Før Superligaen m.fl.) er indtil nu passeret helt upåagtet gennem pipelinen. 'viaplay sport' (uden 'news') fanger begge kanal-ID-varianter samt evt. fremtidige Viaplay Sport-kanalvarianter.",
       "default_backdrop": "Viaplay_Sport_News-generic.jpg",
       "default_poster": "Viaplay_Sport_News-generic.jpg"
     },
