@@ -3,7 +3,7 @@
   "exclude": [
     {
       "match": "norway",
-      "note": "Udelukker ALLE norske sportskanaler fuldstændigt (TV 2 Sport 1/2/Premium Norway m.fl.)."
+      "note": "Udelukker sport-kanaler med 'Norway' i navnet (TV 2 Sport 1/2/Premium Norway m.fl.)."
     }
   ],
   "channels": [
@@ -24,21 +24,56 @@
     {
       "match": "tv3 sport",
       "role": "always_sport",
-      "note": "TV3 Sport - 100% sport. Bruger ofte FASTE programnavne uden 'Kategori:'-præfiks.",
+      "note": "TV3 Sport - 100% sport. Bruger ofte FASTE programnavne uden 'Kategori:'-præfiks. SKAL stå før 'tv3 max', da begge starter med 'tv3'.",
       "default_backdrop": "tv3sport-generic.jpg",
       "default_poster": "tv3sport-generic.jpg"
     },
     {
+      "match": "tv3 max",
+      "role": "partial_sport",
+      "note": "NYT: TV3 Max - overvejende almindelig underholdning/reality (Discovery-kanal), men sender 'stort set de samme sportsudsendelser som TV3 Sport' ifølge bruger - dvs. delvist simulcast af sport-begivenheder. Klassificeret som partial_sport (som DR1/DR2/TV2): INGEN kanal-fallback-billede, rammes KUN når en titel matcher en kendt sport-kategori/override. Undgår at fejlagtigt sport-mærke almindelige reality-programmer.",
+      "default_backdrop": null,
+      "default_poster": null
+    },
+    {
+      "match": "3+",
+      "role": "partial_sport",
+      "note": "NYT: 3+ (tidligere TV3+) - almindelig underholdningskanal, samme netværk som TV3/TV3 Max/TV3 Sport. Klassificeret som partial_sport af samme grund som TV3 Max ovenfor: kun sport-titler der matcher lokalt bliver beriget, ingen kanal-fallback. Mønstret '3+' fanger både 'TV3+' og '3+' navnevarianter, da begge indeholder den bogstavelige delstreng '3+'.",
+      "default_backdrop": null,
+      "default_poster": null
+    },
+    {
       "match": "viaplay sport",
       "role": "always_sport",
-      "note": "RETTET (fejl fundet 2026-08-08): match-feltet indeholdt fejlagtigt stadig den gamle værdi 'viasat sport', selvom noten allerede beskrev Viaplay. De rigtige kanal-ID'er i Open-EPG-kilderne er 'Viaplay Sport News HD (D) (T).dk' og 'Viaplay Sport News.dk' - INGEN af dem indeholder understrengen 'viasat sport', så kanalen blev aldrig genkendt som sport-kanal, og alle dens programmer (SuperligaTilsynet, TV-Udbruddet, Sport News, Sky Sports: The Football Show, Før Superligaen m.fl.) er indtil nu passeret helt upåagtet gennem pipelinen. 'viaplay sport' (uden 'news') fanger begge kanal-ID-varianter samt evt. fremtidige Viaplay Sport-kanalvarianter.",
+      "note": "Viaplay Sport News. Fanger både 'Viaplay Sport News HD (D) (T).dk' og 'Viaplay Sport News.dk'-varianterne.",
       "default_backdrop": "Viaplay_Sport_News-generic.jpg",
       "default_poster": "Viaplay_Sport_News-generic.jpg"
     },
     {
       "match": "tv 2 hd",
       "role": "partial_sport",
-      "note": "Hoved-TV2-kanalen. Rammes KUN hvis titlen matcher en kendt override/kategori/nøgleord.",
+      "note": "TV 2 hovedkanal, HD-variant (fx 'TV 2 HD (D) (T).dk'). Rammes KUN hvis titlen matcher en kendt override/kategori/nøgleord - INGEN kanal-fallback-billede.",
+      "default_backdrop": null,
+      "default_poster": null
+    },
+    {
+      "match": "tv 2.dk",
+      "role": "partial_sport",
+      "note": "TV 2 hovedkanal, den 'bare' variant uden 'HD' i navnet. Samme adfærd som 'tv 2 hd' ovenfor.",
+      "default_backdrop": null,
+      "default_poster": null
+    },
+    {
+      "match": "dr1",
+      "role": "partial_sport",
+      "note": "DR1 (fanger både 'DR1 HD (T).dk' og 'DR1.dk'). Rammes KUN ved kendt override/kategori/nøgleord.",
+      "default_backdrop": null,
+      "default_poster": null
+    },
+    {
+      "match": "dr2",
+      "role": "partial_sport",
+      "note": "DR2 (fanger både 'DR2 HD (T).dk' og 'DR2.dk'). Samme princip som DR1.",
       "default_backdrop": null,
       "default_poster": null
     }
