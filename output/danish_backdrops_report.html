@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="UTF-8">
+<title>Danske Backdrops — Statistik</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+    font-family: -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+    background: linear-gradient(160deg, #0f172a 0%, #1e293b 100%);
+    color: #e2e8f0;
+    padding: 32px 24px 64px;
+    min-height: 100vh;
+}
+.wrap { max-width: 1180px; margin: 0 auto; }
+header {
+    display: flex; align-items: center; justify-content: space-between;
+    margin-bottom: 32px; flex-wrap: wrap; gap: 12px;
+}
+h1 { font-size: 28px; font-weight: 700; letter-spacing: -0.02em; }
+h1 span { color: #22c55e; }
+.timestamp { color: #94a3b8; font-size: 13px; }
+.cards {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    gap: 16px; margin-bottom: 32px;
+}
+.card {
+    background: rgba(30, 41, 59, 0.7); border: 1px solid rgba(148,163,184,0.15);
+    border-radius: 14px; padding: 18px 20px; backdrop-filter: blur(6px);
+}
+.card .label { font-size: 12px; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; }
+.card .value { font-size: 30px; font-weight: 700; }
+.card .value.green { color: #22c55e; }
+.card .value.blue { color: #3b82f6; }
+.card .value.amber { color: #f59e0b; }
+.card .value.purple { color: #a855f7; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 24px; }
+@media (max-width: 860px) { .grid2 { grid-template-columns: 1fr; } }
+.panel {
+    background: rgba(30, 41, 59, 0.7); border: 1px solid rgba(148,163,184,0.15);
+    border-radius: 16px; padding: 22px; margin-bottom: 24px;
+}
+.panel h2 { font-size: 16px; font-weight: 600; margin-bottom: 16px; color: #f1f5f9; }
+.panel h2 .sub { font-weight: 400; color: #94a3b8; font-size: 13px; margin-left: 8px; }
+.donut-row { display: flex; align-items: center; justify-content: center; gap: 28px; flex-wrap: wrap; }
+.donut-legend { display: flex; flex-direction: column; gap: 10px; }
+.legend-item { display: flex; align-items: center; gap: 8px; font-size: 14px; }
+.legend-dot { width: 12px; height: 12px; border-radius: 3px; flex-shrink: 0; }
+.legend-item b { margin-left: auto; padding-left: 16px; }
+svg text.axis-label { fill: #94a3b8; font-size: 10px; }
+svg text.legend-label { fill: #cbd5e1; font-size: 12px; }
+svg text.donut-total { fill: #f1f5f9; font-size: 26px; font-weight: 700; }
+svg text.donut-sub { fill: #94a3b8; font-size: 12px; }
+table.notes { width: 100%; border-collapse: collapse; font-size: 13px; }
+table.notes th { text-align: left; color: #94a3b8; font-weight: 600; padding: 8px 10px; border-bottom: 1px solid rgba(148,163,184,0.2); }
+table.notes td { padding: 8px 10px; border-bottom: 1px solid rgba(148,163,184,0.08); }
+.badge { display: inline-block; padding: 2px 9px; border-radius: 999px; font-size: 11px; font-weight: 600; }
+.badge.approved { background: rgba(34,197,94,0.15); color: #22c55e; }
+.badge.pending { background: rgba(245,158,11,0.15); color: #f59e0b; }
+.empty-state { color: #94a3b8; font-size: 14px; padding: 20px 0; text-align: center; }
+footer { text-align: center; color: #64748b; font-size: 12px; margin-top: 32px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+    <h1>🇩🇰 Danske <span>Backdrops</span> — Statistikrapport</h1>
+    <div class="timestamp">Genereret 07. August 2026 kl. 14:15 · Seneste kørsel: 07/08/2026 14:15</div>
+</header>
+
+<div class="cards">
+    <div class="card"><div class="label">Unikke titler</div><div class="value">4,366</div></div>
+    <div class="card"><div class="label">Dansk billede fundet</div><div class="value green">505</div></div>
+    <div class="card"><div class="label">Godkendt (X)</div><div class="value blue">0</div></div>
+    <div class="card"><div class="label">Afventer godkendelse</div><div class="value amber">505</div></div>
+    <div class="card"><div class="label">Hit-rate</div><div class="value purple">11.6%</div></div>
+</div>
+
+<div class="grid2">
+    <div class="panel">
+        <h2>Dansk billede: fundet vs. ikke fundet</h2>
+        <div class="donut-row">
+            <svg viewBox="0 0 220 220" width="220" height="220"><path d="M 110.00,6.00 A 104.00,104.00 0 0 1 179.10,32.28 L 152.84,61.81 A 64.48,64.48 0 0 0 110.00,45.52 Z" fill="#22c55e"><title>Fundet: 505 (11.6%)</title></path><path d="M 179.10,32.28 A 104.00,104.00 0 1 1 110.00,6.00 L 110.00,45.52 A 64.48,64.48 0 1 0 152.84,61.81 Z" fill="#e2e8f0"><title>Ikke fundet: 3,861 (88.4%)</title></path><text x="110.0" y="104.0" text-anchor="middle" class="donut-total">4,366</text><text x="110.0" y="126.0" text-anchor="middle" class="donut-sub">i alt</text></svg>
+            <div class="donut-legend">
+                <div class="legend-item"><span class="legend-dot" style="background:#22c55e"></span>Fundet<b>505</b></div>
+                <div class="legend-item"><span class="legend-dot" style="background:#e2e8f0"></span>Ikke fundet<b>3,861</b></div>
+            </div>
+        </div>
+    </div>
+    <div class="panel">
+        <h2>Godkendelses-status <span class="sub">(af 505 fund)</span></h2>
+        <div class="donut-row">
+            <svg viewBox="0 0 220 220" width="220" height="220"><path d="M 110.00,6.00 A 104.00,104.00 0 1 1 110.00,6.00 L 110.00,45.52 A 64.48,64.48 0 1 0 110.00,45.52 Z" fill="#f59e0b"><title>Afventer: 505 (100.0%)</title></path><text x="110.0" y="104.0" text-anchor="middle" class="donut-total">505</text><text x="110.0" y="126.0" text-anchor="middle" class="donut-sub">i alt</text></svg>
+            <div class="donut-legend">
+                <div class="legend-item"><span class="legend-dot" style="background:#3b82f6"></span>Godkendt<b>0</b></div>
+                <div class="legend-item"><span class="legend-dot" style="background:#f59e0b"></span>Afventer<b>505</b></div>
+                <div class="legend-item"><span class="legend-dot" style="background:#ef4444"></span>Markeret forkert<b>0</b></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="panel">
+    <h2>Seneste kørsel — pr. fil <span class="sub">(sport-programmer er altid sprunget over)</span></h2>
+    <svg viewBox="0 0 640 320" width="100%" height="320"><line x1="56" y1="256.0" x2="620" y2="256.0" stroke="#334155" stroke-width="1" opacity="0.4"/><text x="46" y="260.0" text-anchor="end" class="axis-label">0</text><line x1="56" y1="209.6" x2="620" y2="209.6" stroke="#334155" stroke-width="1" opacity="0.4"/><text x="46" y="213.6" text-anchor="end" class="axis-label">589</text><line x1="56" y1="163.2" x2="620" y2="163.2" stroke="#334155" stroke-width="1" opacity="0.4"/><text x="46" y="167.2" text-anchor="end" class="axis-label">1,179</text><line x1="56" y1="116.8" x2="620" y2="116.8" stroke="#334155" stroke-width="1" opacity="0.4"/><text x="46" y="120.8" text-anchor="end" class="axis-label">1,769</text><line x1="56" y1="70.4" x2="620" y2="70.4" stroke="#334155" stroke-width="1" opacity="0.4"/><text x="46" y="74.4" text-anchor="end" class="axis-label">2,359</text><line x1="56" y1="24.0" x2="620" y2="24.0" stroke="#334155" stroke-width="1" opacity="0.4"/><text x="46" y="28.0" text-anchor="end" class="axis-label">2,949</text><rect x="67.8" y="246.0" width="19.3" height="10.0" rx="3" fill="#a855f7"><title>denmark1 — Sport (sprunget over): 127</title></rect><rect x="91.2" y="154.3" width="19.3" height="101.7" rx="3" fill="#38bdf8"><title>denmark1 — Titler tjekket: 1,293</title></rect><rect x="114.8" y="238.5" width="19.3" height="17.5" rx="3" fill="#22c55e"><title>denmark1 — Dansk fundet: 222</title></rect><text x="103.0" y="276" text-anchor="middle" class="axis-label" transform="rotate(-20 103.0 276)">denmark1</text><rect x="161.8" y="248.8" width="19.3" height="7.2" rx="3" fill="#a855f7"><title>denmark2 — Sport (sprunget over): 91</title></rect><rect x="185.2" y="54.3" width="19.3" height="201.7" rx="3" fill="#38bdf8"><title>denmark2 — Titler tjekket: 2,565</title></rect><rect x="208.8" y="231.3" width="19.3" height="24.7" rx="3" fill="#22c55e"><title>denmark2 — Dansk fundet: 314</title></rect><text x="197.0" y="276" text-anchor="middle" class="axis-label" transform="rotate(-20 197.0 276)">denmark2</text><rect x="255.8" y="253.6" width="19.3" height="2.4" rx="3" fill="#a855f7"><title>denmark3 — Sport (sprunget over): 30</title></rect><rect x="279.2" y="196.1" width="19.3" height="59.9" rx="3" fill="#38bdf8"><title>denmark3 — Titler tjekket: 762</title></rect><rect x="302.8" y="240.8" width="19.3" height="15.2" rx="3" fill="#22c55e"><title>denmark3 — Dansk fundet: 193</title></rect><text x="291.0" y="276" text-anchor="middle" class="axis-label" transform="rotate(-20 291.0 276)">denmark3</text><rect x="349.8" y="248.4" width="19.3" height="7.6" rx="3" fill="#a855f7"><title>denmark4 — Sport (sprunget over): 96</title></rect><rect x="373.2" y="112.2" width="19.3" height="143.8" rx="3" fill="#38bdf8"><title>denmark4 — Titler tjekket: 1,828</title></rect><rect x="396.8" y="229.9" width="19.3" height="26.1" rx="3" fill="#22c55e"><title>denmark4 — Dansk fundet: 332</title></rect><text x="385.0" y="276" text-anchor="middle" class="axis-label" transform="rotate(-20 385.0 276)">denmark4</text><rect x="443.8" y="245.8" width="19.3" height="10.2" rx="3" fill="#a855f7"><title>denmark5 — Sport (sprunget over): 130</title></rect><rect x="467.2" y="147.3" width="19.3" height="108.7" rx="3" fill="#38bdf8"><title>denmark5 — Titler tjekket: 1,382</title></rect><rect x="490.8" y="241.3" width="19.3" height="14.7" rx="3" fill="#22c55e"><title>denmark5 — Dansk fundet: 187</title></rect><text x="479.0" y="276" text-anchor="middle" class="axis-label" transform="rotate(-20 479.0 276)">denmark5</text><rect x="537.8" y="256.0" width="19.3" height="0.0" rx="3" fill="#a855f7"><title>denmark6 — Sport (sprunget over): 0</title></rect><rect x="561.2" y="193.3" width="19.3" height="62.7" rx="3" fill="#38bdf8"><title>denmark6 — Titler tjekket: 797</title></rect><rect x="584.8" y="245.3" width="19.3" height="10.7" rx="3" fill="#22c55e"><title>denmark6 — Dansk fundet: 136</title></rect><text x="573.0" y="276" text-anchor="middle" class="axis-label" transform="rotate(-20 573.0 276)">denmark6</text><rect x="56" y="292" width="12" height="12" rx="2" fill="#a855f7"/><text x="74" y="302" class="legend-label">Sport (sprunget over)</text><rect x="245" y="292" width="12" height="12" rx="2" fill="#38bdf8"/><text x="263" y="302" class="legend-label">Titler tjekket</text><rect x="385" y="292" width="12" height="12" rx="2" fill="#22c55e"/><text x="403" y="302" class="legend-label">Dansk fundet</text></svg>
+</div>
+
+<div class="panel">
+    <h2>Cache-udvikling over tid <span class="sub">(antal kørsler: 1)</span></h2>
+    <div class="empty-state">Kør scriptet flere gange for at se udvikling over tid</div>
+</div>
+
+<div class="panel">
+    <h2>Noter fra godkendelsesfilen</h2>
+    <div class="empty-state">Ingen noter endnu</div>
+</div>
+
+<footer>epgoal · danish_backdrops sideprojekt · rapporten opdateres hver gang du kører generate_stats_report.py</footer>
+</div>
+</body>
+</html>
