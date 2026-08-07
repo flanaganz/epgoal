@@ -1,11 +1,12 @@
 {
-  "TV 2 Sport Denmark (DK,DA).dk": {
-    "Tour de France Femmes: Studiet": 1
-  },
   "TV 2 Sport.dk": {
     "Tour de France Femmes: Studiet": 2
   },
   "TV3 Sport HD (D) (T).dk": {
-    "Lee Bowyer": 2
+    "Lee Bowyer": 2,
+    "RaceTV.dk": 1
+  },
+  "TV3 Sport.dk": {
+    "FastZone: Fastzone": 1
   }
 }

@@ -74,6 +74,11 @@
     "poster": null,
     "ts": 1785845428.3012109
   },
+  "betinia liga": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/z01estsekNPUOQrcM3ItXKq6nTU.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/hKE0VO8FebDDvTSfPfRB5iro7s9.jpg",
+    "ts": 1786086921.7498753
+  },
   "betinia liga magasinet": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/z01estsekNPUOQrcM3ItXKq6nTU.jpg",
     "poster": "https://image.tmdb.org/t/p/w500/hKE0VO8FebDDvTSfPfRB5iro7s9.jpg",
@@ -118,6 +123,11 @@
     "backdrop": "https://image.tmdb.org/t/p/w1280/qJdLg7mNaBBjhaNUNc1DQeSpINZ.jpg",
     "poster": "https://image.tmdb.org/t/p/w500/nP5465zBKGp0EJMXzgjI7bbucfK.jpg",
     "ts": 1785845430.62198
+  },
+  "fastzone: fastzone": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1786086922.6664612
   },
   "forza norge": {
     "backdrop": null,
@@ -188,6 +198,11 @@
     "backdrop": "https://image.tmdb.org/t/p/w1280/adglaupeku4T0HyoQMVlnbxed9j.jpg",
     "poster": "https://image.tmdb.org/t/p/w500/5nrOuJKzvsSmfR7XykJb2gB9wcV.jpg",
     "ts": 1785845429.2348597
+  },
+  "racetv.dk": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1786086921.3918424
   },
   "sportstalk": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/lPYoFaHcM12lvXSArkMEHZ1xiFk.jpg",
