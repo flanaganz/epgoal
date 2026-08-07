@@ -11,32 +11,20 @@ Matching-strategi pr. programme:
     2) sport_categories.json[keywords]  -> nøgleord (priority-kategorier først,
        derefter almindelige kategorier længst-match-først)
     3) sport_categories.json[prefix]    -> "Kategori: Begivenhed"-syntaksen
-       (SIDSTE UDVEJ blandt de lokale trin - se VIGTIG RETTELSE nedenfor)
+       (SIDSTE UDVEJ blandt de lokale trin)
     4) TMDb-opslag -> kun for "always_sport"-kanaler, kun hvis aktiveret
     5) kanalens default_backdrop/-poster (sidste udvej, kun "always_sport")
 
-VIGTIG RETTELSE (2026-08-05): Rækkefølgen mellem prefix- og keyword-matching
-er BYTTET OM ift. tidligere versioner. Årsag: da en bred kategori (fx den
-generiske "cykling"-kategori med prefix=["cykling"]) fik tildelt et RIGTIGT
-billede, begyndte den at "stjæle" ALLE "Cykling: ..."-titler via prefix-match,
-FØR de mere specifikke keyword-kategorier (fx "tour de france femmes",
-"clásica san sebastián") nogensinde blev tjekket - selvom disse var korrekt
-defineret. Dette var en usynlig bug: statistikken viste stadig "specifikt
-match", den viste bare ikke HVILKET billede der reelt blev brugt. Ved at
-tjekke keywords FØRST (som allerede er prioriteret/længde-sorteret), og lade
-prefix være sidste lokale udvej, får de specifikke under-kategorier altid
-forrang over deres brede overordnede kategori.
+    "partial_sport"-kanaler (fx DR1, DR2, TV 2 hovedkanal) rammes KUN via
+    trin 0.5-4 ovenfor - de har INGEN kanal-fallback-billede (trin 5), da
+    langt størstedelen af deres programmer ikke er sport. Programmer der
+    korrekt matches på disse kanaler logges separat i
+    data/partial_sport_matches_log.json (se nedenfor), så det er muligt at
+    følge med i, hvad der reelt bliver fanget af landskampe/OL/VM m.v.
 
 Titel-normalisering bruger unicodedata.normalize("NFKC", ...) samt eksplicit
 erstatning af usynlige tegn (nulbredde-mellemrum, blødt bindestreg, BOM m.fl.)
-med et almindeligt mellemrum. BEMÆRK: automatisk fjernelse af trailing "(k)"
-er BEVIDST FJERNET fra normaliseringen (var tidligere til stede) - det er
-mere robust at have eksplicitte overrides for kønsmærkede titler der reelt
-skal afvige fra deres base-kategori (se fx "cykling: tour de france (k)" i
-sport_program_overrides.json), da automatisk stripping ville gøre en evt.
-utagget titel tvetydig. Almindelig substring-baseret keyword-matching (fx
-"håndbold" matcher både "Håndbold (k)" og "Håndbold (m)") kræver IKKE denne
-stripping for at virke korrekt.
+med et almindeligt mellemrum.
 
 Brug:
     python3 scripts/enrich_epg.py
@@ -190,15 +178,12 @@ class SportMatcher:
             if match:
                 return match
 
-        # Keywords FØRST (mere specifikke under-kategorier vinder over deres
-        # brede overordnede kategori - se modulets docstring for baggrund).
         for keyword, cat in self.keyword_lookup:
             if keyword in norm:
                 match = self._real_match(cat.get("backdrop"), cat.get("poster"))
                 if match:
                     return match
 
-        # Prefix er sidste lokale udvej ("Kategori: Begivenhed"-syntaksen).
         prefix = norm.split(":", 1)[0].strip()
         cat = self.prefix_lookup.get(prefix)
         if cat:
@@ -321,7 +306,7 @@ def clear_artwork(programme: ET.Element) -> None:
 def process_xml(xml_bytes: bytes, matcher: SportMatcher, source_cfg: dict,
                  tmdb_overrides: dict, cache: dict, cache_max_age_days: int,
                  backdrop_size: str, poster_size: str, sport_tmdb_fallback_enabled: bool,
-                 fallback_titles_log: dict) -> tuple[bytes, dict]:
+                 fallback_titles_log: dict, partial_sport_matches_log: dict) -> tuple[bytes, dict]:
     root = ET.fromstring(xml_bytes)
 
     channel_role: dict[str, dict | None] = {}
@@ -333,7 +318,7 @@ def process_xml(xml_bytes: bytes, matcher: SportMatcher, source_cfg: dict,
         "programmes": 0, "sport_matched": 0,
         "sport_tmdb_matched": 0, "sport_tmdb_cache_hit": 0, "sport_tmdb_fresh_call": 0,
         "sport_defaulted": 0, "sport_skipped": 0, "sport_no_image_yet": 0,
-        "tmdb_enriched": 0,
+        "tmdb_enriched": 0, "partial_sport_matched": 0,
     }
     tmdb_cache_this_run: dict[str, tuple[dict, bool]] = {}
     sport_cache_this_run: dict[str, dict | None] = {}
@@ -364,9 +349,14 @@ def process_xml(xml_bytes: bytes, matcher: SportMatcher, source_cfg: dict,
             if result:
                 set_artwork(programme, result.get("backdrop"), result.get("poster"))
                 stats["sport_matched"] += 1
+                if role_entry.get("role") == "partial_sport":
+                    stats["partial_sport_matched"] += 1
+                    partial_sport_matches_log.setdefault(chan_id, {})
+                    key = f"{title} -> {result.get('backdrop') or result.get('poster')}"
+                    partial_sport_matches_log[chan_id][key] = partial_sport_matches_log[chan_id].get(key, 0) + 1
                 continue
 
-            if do_tmdb_sport and role_entry.get("role") == "always_sport":
+            if do_tmdb_sport and role_entry.get("role") in ("always_sport", "partial_sport"):
                 if title not in tmdb_cache_this_run:
                     art, from_cache = resolve_tmdb_artwork(
                         title, tmdb_overrides, cache, cache_max_age_days, backdrop_size, poster_size
@@ -382,20 +372,26 @@ def process_xml(xml_bytes: bytes, matcher: SportMatcher, source_cfg: dict,
                         stats["sport_tmdb_cache_hit"] += 1
                     else:
                         stats["sport_tmdb_fresh_call"] += 1
+                    if role_entry.get("role") == "partial_sport":
+                        stats["partial_sport_matched"] += 1
+                        partial_sport_matches_log.setdefault(chan_id, {})
+                        key = f"{title} -> TMDb"
+                        partial_sport_matches_log[chan_id][key] = partial_sport_matches_log[chan_id].get(key, 0) + 1
                     continue
 
             if role_entry.get("role") == "always_sport":
                 fallback_backdrop = role_entry.get("default_backdrop")
                 fallback_poster = role_entry.get("default_poster")
-                chan_name = chan_id
-                fallback_titles_log.setdefault(chan_name, {})
-                fallback_titles_log[chan_name][title] = fallback_titles_log[chan_name].get(title, 0) + 1
+                fallback_titles_log.setdefault(chan_id, {})
+                fallback_titles_log[chan_id][title] = fallback_titles_log[chan_id].get(title, 0) + 1
                 if fallback_backdrop or fallback_poster:
                     urls = matcher._image_urls(fallback_backdrop, fallback_poster)
                     set_artwork(programme, urls["backdrop"], urls["poster"])
                     stats["sport_defaulted"] += 1
                 else:
                     stats["sport_no_image_yet"] += 1
+            # "partial_sport" uden match: rører intet, tælles ikke - langt størstedelen
+            # af programmerne på disse kanaler er bevidst ikke-sport.
             continue
 
         if do_tmdb_nonsport:
@@ -471,8 +467,10 @@ def main() -> None:
         "programmes": 0, "sport_matched": 0,
         "sport_tmdb_matched": 0, "sport_tmdb_cache_hit": 0, "sport_tmdb_fresh_call": 0,
         "sport_defaulted": 0, "sport_skipped": 0, "sport_no_image_yet": 0, "tmdb_enriched": 0,
+        "partial_sport_matched": 0,
     }
     fallback_titles_log: dict[str, dict[str, int]] = {}
+    partial_sport_matches_log: dict[str, dict[str, int]] = {}
 
     for source in sources:
         name, url = source["name"], source["url"]
@@ -484,7 +482,8 @@ def main() -> None:
         print("🖼️  Behandler (sport-kanaler beriges, resten passerer uændret) ...")
         enriched, stats = process_xml(
             resp.content, matcher, source, tmdb_overrides, cache, cache_max_age_days,
-            backdrop_size, poster_size, sport_tmdb_fallback_enabled, fallback_titles_log,
+            backdrop_size, poster_size, sport_tmdb_fallback_enabled,
+            fallback_titles_log, partial_sport_matches_log,
         )
 
         out_path = OUTPUT_DIR / f"{name}.xml"
@@ -499,6 +498,7 @@ def main() -> None:
         print(f"   Sport - kanal-fallback      : {stats['sport_defaulted']:,}")
         print(f"   Sport - sprunget over       : {stats['sport_skipped']:,}")
         print(f"   Sport - mangler billede     : {stats['sport_no_image_yet']:,}")
+        print(f"   Heraf på partial_sport-kanaler (DR1/DR2/TV2): {stats['partial_sport_matched']:,}")
         if source.get("enrich_non_sport_with_tmdb"):
             print(f"   Ikke-sport TMDb-beriget     : {stats['tmdb_enriched']:,} ({stats['tmdb_enriched']/total:.1%})")
 
@@ -511,6 +511,9 @@ def main() -> None:
     fallback_log_path = DATA_DIR / "fallback_titles_log.json"
     save_json(fallback_log_path, fallback_titles_log)
 
+    partial_sport_log_path = DATA_DIR / "partial_sport_matches_log.json"
+    save_json(partial_sport_log_path, partial_sport_matches_log)
+
     print("\n📊 SAMLET RAPPORT (alle 6 filer)")
     print("--------------------------------")
     print(f"Programmer i alt            : {grand_total['programmes']:,}")
@@ -521,8 +524,10 @@ def main() -> None:
     print(f"Sport - sprunget over       : {grand_total['sport_skipped']:,}")
     print(f"Sport - mangler billede     : {grand_total['sport_no_image_yet']:,}")
     print(f"Ikke-sport TMDb-beriget     : {grand_total['tmdb_enriched']:,}")
+    print(f"Heraf på partial_sport-kanaler (DR1/DR2/TV2): {grand_total['partial_sport_matched']:,}")
     print(f"Cache-fil voksede fra {cache_size_before:,} til {cache_size_after:,} unikke titler")
     print(f"Se {fallback_log_path.name} for FULD liste over titler der endte i kanal-fallback (til finjustering)")
+    print(f"Se {partial_sport_log_path.name} for FULD liste over titler der blev fanget på DR1/DR2/TV2")
     print("--------------------------------")
 
     if git_cfg.get("enabled", True):

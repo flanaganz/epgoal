@@ -4,10 +4,35 @@
     "poster": "https://image.tmdb.org/t/p/w500/hKE0VO8FebDDvTSfPfRB5iro7s9.jpg",
     "ts": 1785845429.5539691
   },
+  "12 news": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/i9CraG4nX0mBzotoatV2Xp70nfK.jpg",
+    "poster": null,
+    "ts": 1786087899.0529609
+  },
+  "18 news": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/xNGvriywqh5bdDdux2kfPgaZCUB.jpg",
+    "poster": null,
+    "ts": 1786087900.4167147
+  },
+  "19 news": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/vDflZ1WeQ2DiBUxLi9ik5wYJCz1.jpg",
+    "poster": null,
+    "ts": 1786087901.092064
+  },
   "3f superliga: odense boldklub-sønderjyske": {
     "backdrop": null,
     "poster": null,
     "ts": 1785845438.3872578
+  },
+  "alarm 112 - lægehelikopteren": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/AvpMivxGJj8EwKQgj4pa2jLyQCc.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/c7S6yopfgq9q6pUcjHcwQ5Sd0gL.jpg",
+    "ts": 1786087903.5781775
+  },
+  "america's got talent": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/vdvm5pimonTXpFy82ZKad79CsIn.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/y9Lee4CQ7mAD8B5PAExU6D4oEp5.jpg",
+    "ts": 1786087902.6475153
   },
   "atletik: diamond league, doha": {
     "backdrop": null,
@@ -74,6 +99,11 @@
     "poster": null,
     "ts": 1785845428.3012109
   },
+  "beliggenhed, beliggenhed, beliggenhed - sommerhuse": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/jGyv6qUgsehKLK5alidJ6eT52oH.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/iBNDM5dA8lCy9MR2daYqFwRabuF.jpg",
+    "ts": 1786087899.372758
+  },
   "betinia liga": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/z01estsekNPUOQrcM3ItXKq6nTU.jpg",
     "poster": "https://image.tmdb.org/t/p/w500/hKE0VO8FebDDvTSfPfRB5iro7s9.jpg",
@@ -83,6 +113,11 @@
     "backdrop": "https://image.tmdb.org/t/p/w1280/z01estsekNPUOQrcM3ItXKq6nTU.jpg",
     "poster": "https://image.tmdb.org/t/p/w500/hKE0VO8FebDDvTSfPfRB5iro7s9.jpg",
     "ts": 1785845434.883248
+  },
+  "bolighaj finder hjem": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/vMSuDP78jdIp81LgRnjHzFy22mz.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/zNtWEqQzYTpcpVgQiEDHaq3WKQO.jpg",
+    "ts": 1786087899.7137823
   },
   "brøndby går transferamok": {
     "backdrop": null,
@@ -109,6 +144,26 @@
     "poster": null,
     "ts": 1785845439.261568
   },
+  "danmarks dejligste slotshoteller": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/j0BeDqIRYwGNfx0a4cFqgPhlfai.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/q7Pdl2ScHaAsNQfBSUjmYlZXxFL.jpg",
+    "ts": 1786087903.8942277
+  },
+  "danmarks dummeste": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/7BRyuKCuh83qakXM3y0mNctrNi4.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/kAAJAloQN1KHHTBsGSDAYgUkeby.jpg",
+    "ts": 1786087905.9319859
+  },
+  "den of thieves": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/wpqjc7aGHdsa1AmUsBFyHjzYViI.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/foLLrmEd9Rp77Y6kFbPfO6zVWgr.jpg",
+    "ts": 1786087906.5709715
+  },
+  "den skyldige": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/qD7bbUc8mPTIEx8eb1yzVUKv7CF.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/fLXnAcqx5Mv0tRxYsS8WmuiEVdM.jpg",
+    "ts": 1786087907.5476708
+  },
   "efg swiss open gstaad": {
     "backdrop": null,
     "poster": null,
@@ -129,6 +184,21 @@
     "poster": null,
     "ts": 1786086922.6664612
   },
+  "fear factor": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/tjH61YOH8DksSyWRVcrWzVLcEU6.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/A9FxroNWtOxiApMPxOHbZUWJoaB.jpg",
+    "ts": 1786087906.2578592
+  },
+  "forræder": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/mxbKy3rao82SeU56r5Cwa0Blo1Q.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/25LbfbecYhBYa0PkK2g997P7kPK.jpg",
+    "ts": 1786087901.6932976
+  },
+  "forræder - under kutten": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/mbqvvB4Waq8j9wMCb4QW0oNXoNZ.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/fZRFVqOAPpeY3PTz4AmRqm0Hono.jpg",
+    "ts": 1786087902.0093708
+  },
   "forza norge": {
     "backdrop": null,
     "poster": null,
@@ -139,20 +209,50 @@
     "poster": "https://image.tmdb.org/t/p/w500/akrFmFaSfzbYjC31UU7twB3mdp6.jpg",
     "ts": 1785930362.0525064
   },
+  "go' morgen danmark": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/fy54FNDjCWb0bGIRcTL6bCcthga.jpg",
+    "poster": null,
+    "ts": 1786087898.7218947
+  },
   "gp confidential: gp confidential": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/4QZGyTSImQVNB3Vii7vBvmqNVSN.jpg",
     "poster": "https://image.tmdb.org/t/p/w500/gvtEZebWSgiBY6Des1TMMUYdCtP.jpg",
     "ts": 1785845436.7949903
+  },
+  "grænsepatruljen usa": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/bAnmPrMHakcP8wUwcZgb3I3zryR.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/g2cE51HxF6IaT4v5ExJ6KIxFFht.jpg",
+    "ts": 1786087903.2582965
   },
   "historien om": {
     "backdrop": null,
     "poster": null,
     "ts": 1785845432.5473275
   },
+  "hvem vil være millionær?": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/uhskhJstwt7A0odzOHCNaBVRes.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/7jnUfQnWeP2z0dFxaC5xqBqPRPW.jpg",
+    "ts": 1786087904.5616941
+  },
   "højdepunkter fra dansk motorsport": {
     "backdrop": null,
     "poster": null,
     "ts": 1785845436.9852033
+  },
+  "joy ride": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/mxpD8QrIsdav7f2oJEoe6FFHACB.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/lTZ3r9NBdbrR6NA90v3hFYqd6TC.jpg",
+    "ts": 1786087906.9168737
+  },
+  "klipfiskerne": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/l567nuwtKqnEpFya7qLbI4F2GAh.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/zo2m2fGKE8kh8OpDPW8rRxcnFRS.jpg",
+    "ts": 1786087902.9467788
+  },
+  "kollision": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/w1OxBZ3j4elIADAsVGoreamQ3Ze.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/lhzZzUe9GxDYRZLz8PXh8xWwv5g.jpg",
+    "ts": 1786087902.3288746
   },
   "kristianstad invitational": {
     "backdrop": null,
@@ -174,6 +274,11 @@
     "poster": null,
     "ts": 1785915236.4440353
   },
+  "megafamilierne": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/COfOeNQghUqMehoUA9tmWIuaFd.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/gvURGHyVj1Y0SASPHm3tI2rx1qC.jpg",
+    "ts": 1786087904.874484
+  },
   "mifel tennis open by telcel oppo": {
     "backdrop": null,
     "poster": null,
@@ -189,6 +294,16 @@
     "poster": null,
     "ts": 1785845434.1453621
   },
+  "nyhederne": {
+    "backdrop": null,
+    "poster": "https://image.tmdb.org/t/p/w500/lKhsIzKNcjyPyt4EmGzYgNLGlUF.jpg",
+    "ts": 1786087905.2187507
+  },
+  "nyhederne og vejret": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/6QAP7lcf44DFdGF9ZU6Py2IITTa.jpg",
+    "poster": null,
+    "ts": 1786087904.2110722
+  },
   "obos-ligaen": {
     "backdrop": null,
     "poster": null,
@@ -199,10 +314,30 @@
     "poster": "https://image.tmdb.org/t/p/w500/5nrOuJKzvsSmfR7XykJb2gB9wcV.jpg",
     "ts": 1785845429.2348597
   },
+  "paradise city": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/lYeiSMn7OwBE4ycaVPWIFr3E5Dq.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/sJUti0JDtE1IYl7RVJARAGyKHqz.jpg",
+    "ts": 1786087907.2364411
+  },
   "racetv.dk": {
     "backdrop": null,
     "poster": null,
     "ts": 1786086921.3918424
+  },
+  "regionale nyheder": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/e9DY74BVK8FGXdWEaLNxIrVRYqF.jpg",
+    "poster": null,
+    "ts": 1786087900.7572746
+  },
+  "regionalprogram": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/ajwvOEzvejM6P8rJty4tXeL3ODT.jpg",
+    "poster": null,
+    "ts": 1786087901.4044662
+  },
+  "sporten": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/ovqx3lYQg6GadGJfXo4hY9ZU0yu.jpg",
+    "poster": null,
+    "ts": 1786087905.5345638
   },
   "sportstalk": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/lPYoFaHcM12lvXSArkMEHZ1xiFk.jpg",
@@ -233,6 +368,11 @@
     "backdrop": null,
     "poster": null,
     "ts": 1785845437.727904
+  },
+  "sæt pris på danmark": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/p8HT2mJo1aCIkyEbqbdIi8YYd4V.jpg",
+    "poster": "https://image.tmdb.org/t/p/w500/nCmog2HMHK9A1M0dVYXmxDPrik9.jpg",
+    "ts": 1786087900.067932
   },
   "tennis, atp 250 münchen": {
     "backdrop": null,

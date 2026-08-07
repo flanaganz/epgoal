@@ -5,10 +5,7 @@
   "atletik: diamond league": { "backdrop": "Atletik Diamond League.jpg", "poster": "Atletik Diamond League.jpg" },
   "atp tour highlights": { "backdrop": "ATP Tour Highlights.jpg", "poster": "ATP Tour Highlights.jpg" },
 
-  "cykling: tour de france (k)": {
-    "backdrop": "Cykling Tour de France Femmes.jpg", "poster": "Cykling Tour de France Femmes.jpg",
-    "_note": "NYT: bekræftet af bruger - '(k)' her betyder kvinde-udgaven, altså samme program som 'Tour de France Femmes'. Bevidst IKKE håndteret via generel (k)-stripping, da det ville gøre en evt. fremtidig utagget 'Cykling: Tour de France' (uden kønsmærke) fejlagtigt tvetydig."
-  },
+  "cykling: tour de france (k)": { "backdrop": "Cykling Tour de France Femmes.jpg", "poster": "Cykling Tour de France Femmes.jpg" },
 
   "superliga": { "backdrop": "3F Superliga.jpg", "poster": "3F Superliga.jpg" },
   "onside": { "backdrop": null, "poster": null },
@@ -26,6 +23,10 @@
   "lee bowyer": { "backdrop": null, "poster": null },
 
   "fastzone": { "backdrop": null, "poster": null },
+  "fastzone: fastzone": {
+    "backdrop": null, "poster": null,
+    "_note": "NYT: variant af 'FastZone' der bruger 'Kategori: Begivenhed'-format ('FastZone: Fastzone') - normaliserer til en anden streng end den eksakte 'fastzone'-override og ramte derfor ikke tidligere. Samme behandling: prøver TMDb, falder til TV3-generic."
+  },
   "danskerklubben": { "backdrop": null, "poster": null },
 
   "sport news": { "backdrop": "Viaplay_Sport_News-generic.jpg", "poster": "Viaplay_Sport_News-generic.jpg" },
