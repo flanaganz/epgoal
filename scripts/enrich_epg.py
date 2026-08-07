@@ -12,15 +12,24 @@ Matching-strategi pr. programme:
        derefter almindelige kategorier længst-match-først)
     3) sport_categories.json[prefix]    -> "Kategori: Begivenhed"-syntaksen
        (SIDSTE UDVEJ blandt de lokale trin)
-    4) TMDb-opslag -> kun for "always_sport"-kanaler, kun hvis aktiveret
+    4) TMDb-opslag -> for "always_sport"-kanaler: ALTID (hvis aktiveret).
+                       for "partial_sport"-kanaler: KUN hvis titlen står i
+                       sport_prefer_tmdb_titles.json (se RETTELSE nedenfor).
     5) kanalens default_backdrop/-poster (sidste udvej, kun "always_sport")
 
-    "partial_sport"-kanaler (fx DR1, DR2, TV 2 hovedkanal) rammes KUN via
-    trin 0.5-4 ovenfor - de har INGEN kanal-fallback-billede (trin 5), da
-    langt størstedelen af deres programmer ikke er sport. Programmer der
+    RETTELSE (2026-08-08): "partial_sport"-kanaler (DR1, DR2, TV 2 hovedkanal)
+    sendte tidligere ETHVERT ikke-matchende program videre til TMDb-opslag -
+    inklusive nyheder, livsstilsprogrammer og film, der intet har med sport
+    at gøre (fx "Go' morgen Danmark", "Nyhederne", "Fear Factor"). Det var en
+    fejl: for "partial_sport"-kanaler går KUN titler i sport_prefer_tmdb_titles
+    videre til TMDb (samme princip som "prefer_tmdb"-bypasset for always_sport-
+    kanaler) - almindeligt ikke-sport-indhold på disse kanaler røres slet ikke,
+    hverken lokalt eller via TMDb.
+
+    "partial_sport"-kanaler har desuden INGEN kanal-fallback-billede (trin 5),
+    da langt størstedelen af deres programmer ikke er sport. Programmer der
     korrekt matches på disse kanaler logges separat i
-    data/partial_sport_matches_log.json (se nedenfor), så det er muligt at
-    følge med i, hvad der reelt bliver fanget af landskampe/OL/VM m.v.
+    data/partial_sport_matches_log.json.
 
 Titel-normalisering bruger unicodedata.normalize("NFKC", ...) samt eksplicit
 erstatning af usynlige tegn (nulbredde-mellemrum, blødt bindestreg, BOM m.fl.)
@@ -337,6 +346,8 @@ def process_xml(xml_bytes: bytes, matcher: SportMatcher, source_cfg: dict,
         role_entry = channel_role.get(chan_id)
 
         if role_entry is not None:
+            role = role_entry.get("role")
+
             if title not in sport_cache_this_run:
                 sport_cache_this_run[title] = matcher.resolve_local(title)
             result = sport_cache_this_run[title]
@@ -349,14 +360,22 @@ def process_xml(xml_bytes: bytes, matcher: SportMatcher, source_cfg: dict,
             if result:
                 set_artwork(programme, result.get("backdrop"), result.get("poster"))
                 stats["sport_matched"] += 1
-                if role_entry.get("role") == "partial_sport":
+                if role == "partial_sport":
                     stats["partial_sport_matched"] += 1
                     partial_sport_matches_log.setdefault(chan_id, {})
                     key = f"{title} -> {result.get('backdrop') or result.get('poster')}"
                     partial_sport_matches_log[chan_id][key] = partial_sport_matches_log[chan_id].get(key, 0) + 1
                 continue
 
-            if do_tmdb_sport and role_entry.get("role") in ("always_sport", "partial_sport"):
+            # TMDb-opslag: "always_sport" -> altid forsøgt.
+            # "partial_sport" -> KUN hvis titlen eksplicit står i prefer_tmdb_titles
+            # (rettet 2026-08-08 - se docstring øverst i filen).
+            should_try_tmdb = do_tmdb_sport and (
+                role == "always_sport"
+                or (role == "partial_sport" and matcher.prefers_tmdb(title))
+            )
+
+            if should_try_tmdb:
                 if title not in tmdb_cache_this_run:
                     art, from_cache = resolve_tmdb_artwork(
                         title, tmdb_overrides, cache, cache_max_age_days, backdrop_size, poster_size
@@ -372,14 +391,14 @@ def process_xml(xml_bytes: bytes, matcher: SportMatcher, source_cfg: dict,
                         stats["sport_tmdb_cache_hit"] += 1
                     else:
                         stats["sport_tmdb_fresh_call"] += 1
-                    if role_entry.get("role") == "partial_sport":
+                    if role == "partial_sport":
                         stats["partial_sport_matched"] += 1
                         partial_sport_matches_log.setdefault(chan_id, {})
                         key = f"{title} -> TMDb"
                         partial_sport_matches_log[chan_id][key] = partial_sport_matches_log[chan_id].get(key, 0) + 1
                     continue
 
-            if role_entry.get("role") == "always_sport":
+            if role == "always_sport":
                 fallback_backdrop = role_entry.get("default_backdrop")
                 fallback_poster = role_entry.get("default_poster")
                 fallback_titles_log.setdefault(chan_id, {})
@@ -390,8 +409,8 @@ def process_xml(xml_bytes: bytes, matcher: SportMatcher, source_cfg: dict,
                     stats["sport_defaulted"] += 1
                 else:
                     stats["sport_no_image_yet"] += 1
-            # "partial_sport" uden match: rører intet, tælles ikke - langt størstedelen
-            # af programmerne på disse kanaler er bevidst ikke-sport.
+            # "partial_sport" uden lokalt match og uden prefer_tmdb: rører intet,
+            # tælles ikke - det er bevidst ikke-sport-indhold på kanalen.
             continue
 
         if do_tmdb_nonsport:
