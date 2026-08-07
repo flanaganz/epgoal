@@ -3,6 +3,11 @@
 generate_stats_report.py — genererer en flot, selvstændig HTML5-statistikrapport
 for det danske backdrop-sideprojekt (danish_backdrops.py).
 
+KUN BACKDROPS (rettet 2026-08-07): "Fundet"-tallet i denne rapport tæller nu
+UDELUKKENDE titler med et ægte dansk BACKDROP - postere indgår ikke længere
+(se danish_backdrops.py / export_danish_artwork_review.py for baggrund:
+UHF viste postere forkert beskåret, da de er portræt-format i en 16:9-ramme).
+
 Læser:
     data/danish_artwork_cache.json          (alle TMDb-opslag: fundet/ikke fundet)
     data/danish_artwork_review.xlsx         (godkendelses-status, hvis den findes)
@@ -15,7 +20,6 @@ Skriver:
 
 BRUG
     python3 scripts/generate_stats_report.py
-    (kør efter danish_backdrops.py, eller når som helst du vil se status)
 """
 from __future__ import annotations
 
@@ -55,7 +59,6 @@ def load_json(path: Path, default):
 
 
 def load_review_status(path: Path) -> tuple[int, int, dict[str, str]]:
-    """Returnerer (antal_godkendt, antal_med_note_men_ikke_godkendt, {nøgle: note})."""
     if not path.exists():
         return 0, 0, {}
     try:
@@ -91,12 +94,7 @@ def load_review_status(path: Path) -> tuple[int, int, dict[str, str]]:
     return approved, flagged, notes
 
 
-# ------------------------------------------------------------------
-# SVG-hjælpefunktioner (ingen eksterne biblioteker, ingen CDN)
-# ------------------------------------------------------------------
-
 def donut_chart_svg(segments: list[tuple[str, float, str]], size: int = 220, hole_ratio: float = 0.62) -> str:
-    """segments: liste af (label, værdi, farve). Tegner en donut-graf med indlejret total i midten."""
     total = sum(v for _, v, _ in segments) or 1
     cx = cy = size / 2
     r_outer = size / 2 - 6
@@ -138,7 +136,6 @@ def donut_chart_svg(segments: list[tuple[str, float, str]], size: int = 220, hol
 
 def bar_chart_svg(categories: list[str], series: list[tuple[str, list[float], str]],
                    width: int = 640, height: int = 320, y_label: str = "") -> str:
-    """series: liste af (navn, [værdier pr. kategori], farve). Grupperede søjler."""
     pad_left, pad_right, pad_top, pad_bottom = 56, 20, 24, 64
     plot_w = width - pad_left - pad_right
     plot_h = height - pad_top - pad_bottom
@@ -244,10 +241,6 @@ def line_chart_svg(x_labels: list[str], series: list[tuple[str, list[float], str
     return f'<svg viewBox="0 0 {width} {height}" width="100%" height="{height}">{"".join(svg_parts)}</svg>'
 
 
-# ------------------------------------------------------------------
-# HTML-opbygning
-# ------------------------------------------------------------------
-
 CSS = """
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body {
@@ -309,13 +302,14 @@ footer { text-align: center; color: #64748b; font-size: 12px; margin-top: 32px; 
 
 def build_html(cache: dict, run_log: list, approved: int, flagged: int, notes: dict) -> str:
     total_titles = len(cache)
-    found = sum(1 for v in cache.values() if v.get("backdrop") or v.get("poster"))
+    # KUN backdrop tæller som "fundet" - postere ignoreres (se modulets docstring)
+    found = sum(1 for v in cache.values() if v.get("backdrop"))
     not_found = total_titles - found
     pending = max(found - approved - flagged, 0)
     hit_rate = (found / total_titles * 100) if total_titles else 0
 
     donut_found = donut_chart_svg([
-        ("Fundet", found, COLORS["found"]),
+        ("Fundet (backdrop)", found, COLORS["found"]),
         ("Ikke fundet", not_found, COLORS["not_found"]),
     ])
     donut_review = donut_chart_svg([
@@ -337,7 +331,7 @@ def build_html(cache: dict, run_log: list, approved: int, flagged: int, notes: d
             [
                 ("Sport (sprunget over)", sport_vals, COLORS["sport"]),
                 ("Titler tjekket", checked_vals, "#38bdf8"),
-                ("Dansk fundet", found_vals, COLORS["found"]),
+                ("Dansk backdrop fundet", found_vals, COLORS["found"]),
             ],
         )
     else:
@@ -347,10 +341,6 @@ def build_html(cache: dict, run_log: list, approved: int, flagged: int, notes: d
     if len(run_log) >= 2:
         x_labels = [time.strftime("%d/%m", time.localtime(r["timestamp"])) for r in run_log]
         cache_sizes = [r.get("cache_size_after", 0) for r in run_log]
-        found_over_time = []
-        running_found = 0
-        for r in run_log:
-            running_found += r.get("totals", {}).get("danish_found", 0)
         cache_growth_chart = line_chart_svg(
             x_labels,
             [("Unikke titler i cache", cache_sizes, "#38bdf8")],
@@ -383,12 +373,12 @@ def build_html(cache: dict, run_log: list, approved: int, flagged: int, notes: d
 <div class="wrap">
 <header>
     <h1>🇩🇰 Danske <span>Backdrops</span> — Statistikrapport</h1>
-    <div class="timestamp">Genereret {generated_at} · Seneste kørsel: {last_run_str}</div>
+    <div class="timestamp">Genereret {generated_at} · Seneste kørsel: {last_run_str} · Kun backdrops (ingen postere)</div>
 </header>
 
 <div class="cards">
     <div class="card"><div class="label">Unikke titler</div><div class="value">{total_titles:,}</div></div>
-    <div class="card"><div class="label">Dansk billede fundet</div><div class="value green">{found:,}</div></div>
+    <div class="card"><div class="label">Dansk backdrop fundet</div><div class="value green">{found:,}</div></div>
     <div class="card"><div class="label">Godkendt (X)</div><div class="value blue">{approved:,}</div></div>
     <div class="card"><div class="label">Afventer godkendelse</div><div class="value amber">{pending:,}</div></div>
     <div class="card"><div class="label">Hit-rate</div><div class="value purple">{hit_rate:.1f}%</div></div>
@@ -396,7 +386,7 @@ def build_html(cache: dict, run_log: list, approved: int, flagged: int, notes: d
 
 <div class="grid2">
     <div class="panel">
-        <h2>Dansk billede: fundet vs. ikke fundet</h2>
+        <h2>Dansk backdrop: fundet vs. ikke fundet</h2>
         <div class="donut-row">
             {donut_found}
             <div class="donut-legend">
@@ -433,7 +423,7 @@ def build_html(cache: dict, run_log: list, approved: int, flagged: int, notes: d
     {notes_table}
 </div>
 
-<footer>epgoal · danish_backdrops sideprojekt · rapporten opdateres hver gang du kører generate_stats_report.py</footer>
+<footer>epgoal · danish_backdrops sideprojekt (kun backdrops) · rapporten opdateres hver gang du kører generate_stats_report.py</footer>
 </div>
 </body>
 </html>"""
@@ -452,7 +442,7 @@ def main() -> None:
     html = build_html(cache, run_log, approved, flagged, notes)
     REPORT_FILE.write_text(html, encoding="utf-8")
 
-    print("=== Statistikrapport genereret ===")
+    print("=== Statistikrapport genereret (kun backdrops) ===")
     print(f"Fil: {REPORT_FILE}")
     print(f"Åbn den i din browser (dobbeltklik filen, eller 'start {REPORT_FILE.name}' i PowerShell).")
 

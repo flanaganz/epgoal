@@ -5,29 +5,35 @@ danish_backdrops.py — separat sideprojekt til danske TMDb-backdrops (Mac mini 
 FORMÅL
     UHF vælger selv billeder fra TMDb for programmer uden <icon>/<backdrop> i
     XML'en, men understøtter IKKE at vælge foretrukket sprog. Dette script
-    slår titler op på TMDb, tjekker om der findes et ÆGTE dansk backdrop
+    slår titler op på TMDb, tjekker om der findes et ÆGTE dansk BACKDROP
     (include_image_language=da, UDEN fallback til andre sprog), og indlejrer
     det direkte i XML'en - men KUN for titler, du selv har godkendt manuelt.
 
-GODKENDELSES-WORKFLOW (VIGTIGT - læs dette)
-    TMDb-matching er ikke altid perfekt (tvetydige titler kan ramme forkert
-    program/film). Derfor injicerer dette script IKKE automatisk alt, hvad
-    det finder. I stedet:
+KUN BACKDROPS (rettet 2026-08-07) - POSTERS BRUGES IKKE
+    Tidligere injicerede scriptet BÅDE <icon> (TMDb-poster, naturligt format
+    2:3/portræt) OG <backdrop> (TMDb-backdrop, naturligt format 16:9/
+    landskab). Det viste sig at UHF viser <icon> i en bred 16:9-ramme, hvilket
+    fik portræt-postere til at blive kraftigt beskåret/zoomet ind. Brugeren
+    bruger udelukkende backdrops, så scriptet er nu renset for al
+    poster/icon-håndtering:
+    - resolve_danish_artwork henter STADIG poster_path fra TMDb's API-svar
+      (det koster intet ekstra, samme API-kald), men kun backdrop-URL'en
+      bruges til at afgøre "fundet" og til selve injektionen.
+    - Der tilføjes ALDRIG et <icon>-tag i XML'en fra dette script.
+    - Excel-godkendelsesfilen har ikke længere en "Dansk Poster"-kolonne
+      (se export_danish_artwork_review.py).
 
+GODKENDELSES-WORKFLOW
     1) Scriptet slår altid nye titler op og gemmer fund i
-       data/danish_artwork_cache.json (det sker uanset godkendelse).
+       data/danish_artwork_cache.json.
     2) Kør scripts/export_danish_artwork_review.py for at eksportere alle
-       fund til data/danish_artwork_review.xlsx.
-    3) Åbn Excel-filen, markér "X" i kolonnen "Godkendt (X)" for de
-       programmer/film, hvor det danske billede er korrekt og skal bruges.
-       Gem filen.
-    4) Kør dette script (danish_backdrops.py) IGEN - nu injiceres KUN de
-       titler, du har markeret med X. Ingen nye TMDb-kald er nødvendige,
-       da cachen allerede er frisk.
+       BACKDROP-fund til data/danish_artwork_review.xlsx.
+    3) Åbn Excel-filen, markér "X" i kolonnen "Godkendt (X)", gem filen.
+    4) Kør dette script igen - kun de X-markerede titler får deres backdrop
+       indsat.
 
     Hvis data/danish_artwork_review.xlsx slet ikke findes endnu, injicerer
-    scriptet INTET (for at undgå at gentage den oprindelige "blandet pose
-    bolsjer"-fejl) og fortæller dig at køre eksport-scriptet først.
+    scriptet INTET og fortæller dig at køre eksport-scriptet først.
 
 ADSKILLELSE FRA SPORTS-SCRIPTET (enrich_epg.py) - VIGTIGT
     - Dette script rører ALDRIG data/cache.json (sports-scriptets cache).
@@ -110,9 +116,6 @@ def normalize_title(title: str) -> str:
 
 
 def load_approved_keys(review_path: Path) -> set[str] | None:
-    """Læser data/danish_artwork_review.xlsx og returnerer sæt af normaliserede
-    nøgler markeret med 'X' (case-insensitive, trimmet) i 'Godkendt (X)'-kolonnen.
-    Returnerer None hvis filen slet ikke findes (skelnes fra "findes, men 0 godkendt")."""
     if not review_path.exists():
         return None
 
@@ -131,8 +134,8 @@ def load_approved_keys(review_path: Path) -> set[str] | None:
         key_col = headers.index("Nøgle (intern)")
         godkendt_col = headers.index("Godkendt (X)")
     except ValueError:
-        print(f"⚠️  {review_path.name} mangler forventede kolonner ('Nøgle (intern)' / "
-              "'Godkendt (X)') - ingen titler godkendes denne gang.", file=sys.stderr)
+        print(f"⚠️  {review_path.name} mangler forventede kolonner - ingen titler godkendes denne gang.",
+              file=sys.stderr)
         return set()
 
     approved: set[str] = set()
@@ -171,6 +174,9 @@ def tmdb_search(title: str) -> tuple[str, int] | None:
 
 
 def tmdb_danish_images(media_type: str, tmdb_id: int) -> tuple[str | None, str | None]:
+    """Returnerer (backdrop_path, poster_path). Poster hentes stadig fra API-
+    svaret (koster intet ekstra), men bruges IKKE længere til noget - se
+    modulets docstring. Beholdt for evt. fremtidig brug/debugging."""
     resp = SESSION.get(
         f"{TMDB_BASE}/{media_type}/{tmdb_id}/images",
         params={"api_key": TMDB_API_KEY, "include_image_language": "da"},
@@ -190,11 +196,14 @@ def tmdb_danish_images(media_type: str, tmdb_id: int) -> tuple[str | None, str |
 
 def resolve_danish_artwork(raw_title: str, cache: dict, cache_max_age_days: int,
                            backdrop_size: str, poster_size: str) -> tuple[dict | None, bool]:
+    """Returnerer (dict med 'backdrop' ELLER None hvis intet dansk BACKDROP
+    fundet, bool om resultatet kom fra cache). 'found' afgøres UDELUKKENDE af
+    backdrop - et dansk poster uden dansk backdrop tæller IKKE som fundet."""
     key = normalize_title(raw_title)
 
     cached = cache.get(key)
     if cached is not None and (time.time() - cached.get("ts", 0)) / 86400 < cache_max_age_days:
-        if cached.get("backdrop") or cached.get("poster"):
+        if cached.get("backdrop"):
             return {"backdrop": cached.get("backdrop"), "poster": cached.get("poster")}, True
         return None, True
 
@@ -214,14 +223,15 @@ def resolve_danish_artwork(raw_title: str, cache: dict, cache_max_age_days: int,
 
     cache[key] = {"title": raw_title, "backdrop": backdrop_url, "poster": poster_url, "ts": time.time()}
 
-    if backdrop_url or poster_url:
+    if backdrop_url:
         return {"backdrop": backdrop_url, "poster": poster_url}, False
     return None, False
 
 
 def process_xml_file(xml_path: Path, cache: dict, cache_max_age_days: int,
                       backdrop_size: str, poster_size: str, limit: int | None,
-                      titles_processed_this_run: set, approved_keys: set[str] | None) -> dict:
+                      titles_processed_this_run: set, approved_keys: set[str] | None,
+                      all_found_keys: set[str]) -> dict:
     tree = ET.parse(xml_path)
     root = tree.getroot()
 
@@ -261,17 +271,15 @@ def process_xml_file(xml_path: Path, cache: dict, cache_max_age_days: int,
                 time.sleep(REQUEST_SLEEP_SECONDS)
             if art:
                 stats["danish_found"] += 1
+                all_found_keys.add(norm)
             else:
                 stats["danish_not_found"] += 1
 
         art = resolved_this_file[norm]
         if art and approved_keys is not None and norm in approved_keys:
-            if art.get("poster"):
-                el = ET.SubElement(programme, "icon")
-                el.set("src", art["poster"])
-            if art.get("backdrop"):
-                el = ET.SubElement(programme, "backdrop")
-                el.set("src", art["backdrop"])
+            # KUN backdrop indsættes - intet <icon>/poster (se modulets docstring)
+            el = ET.SubElement(programme, "backdrop")
+            el.set("src", art["backdrop"])
             stats["danish_injected"] += 1
 
     tree.write(xml_path, encoding="utf-8", xml_declaration=True)
@@ -280,9 +288,8 @@ def process_xml_file(xml_path: Path, cache: dict, cache_max_age_days: int,
 
 def append_run_log(log_path: Path, per_file_stats: dict, grand_total: dict,
                     cache_size_before: int, cache_size_after: int,
-                    approved_count: int, review_exists: bool) -> None:
-    """Tilføjer en post til kørselshistorikken (til brug i HTML-statistikrapporten).
-    Holder kun de seneste MAX_RUN_LOG_ENTRIES kørsler for at undgå ubegrænset vækst."""
+                    approved_count: int, review_exists: bool,
+                    unique_found: int, unique_pending: int) -> None:
     history = load_json(log_path, [])
     if not isinstance(history, list):
         history = []
@@ -295,6 +302,8 @@ def append_run_log(log_path: Path, per_file_stats: dict, grand_total: dict,
         "cache_size_before": cache_size_before,
         "cache_size_after": cache_size_after,
         "approved_count": approved_count,
+        "unique_found": unique_found,
+        "unique_pending": unique_pending,
         "review_file_existed": review_exists,
     })
     history = history[-MAX_RUN_LOG_ENTRIES:]
@@ -337,7 +346,7 @@ def main() -> None:
     if args.files:
         source_names = [n for n in source_names if n in args.files]
         if not source_names:
-            sys.exit(f"❌ Ingen af de angivne --files matcher kilderne i config.json.")
+            sys.exit("❌ Ingen af de angivne --files matcher kilderne i config.json.")
 
     backdrop_size = config.get("image", {}).get("backdrop_size", "w1280")
     poster_size = config.get("image", {}).get("poster_size", "w500")
@@ -350,8 +359,9 @@ def main() -> None:
     cache_size_before = len(cache)
 
     approved_keys = load_approved_keys(DANISH_ARTWORK_REVIEW_FILE)
+    review_exists = DANISH_ARTWORK_REVIEW_FILE.exists()
 
-    print("=== Danske TMDb-backdrops (separat sideprojekt) ===")
+    print("=== Danske TMDb-backdrops (separat sideprojekt) — KUN backdrops ===")
     print(f"Cache-fil: {DANISH_ARTWORK_CACHE_FILE.name} (separat fra sports-scriptets cache.json)")
     print(f"Cache indeholder {cache_size_before:,} tidligere opslag (levetid: {cache_max_age_days} dage)")
 
@@ -362,13 +372,14 @@ def main() -> None:
         print("    markér 'X' for de rigtige fund i Excel-filen, og kør dette script igen.")
         approved_keys = set()
     else:
-        print(f"Godkendelsesfil fundet: {len(approved_keys):,} titler markeret med X vil blive injiceret.")
+        print(f"Godkendelsesfil fundet: {len(approved_keys):,} unikke titler markeret med X vil blive injiceret.")
 
     if args.limit:
         print(f"⚠️  TEST-TILSTAND: maks {args.limit} NYE unikke titler slås op i denne kørsel")
     print(f"Behandler filer: {', '.join(source_names)}")
 
     titles_processed_this_run: set = set()
+    all_found_keys: set[str] = set()
     grand_total = {
         "programmes": 0, "already_had_artwork": 0, "checked": 0,
         "danish_found": 0, "danish_not_found": 0, "danish_injected": 0,
@@ -385,16 +396,16 @@ def main() -> None:
         print(f"\n📄 Behandler {xml_path.name} ...")
         stats = process_xml_file(
             xml_path, cache, cache_max_age_days, backdrop_size, poster_size,
-            args.limit, titles_processed_this_run, approved_keys,
+            args.limit, titles_processed_this_run, approved_keys, all_found_keys,
         )
         save_json(DANISH_ARTWORK_CACHE_FILE, cache)
 
         print(f"   Programmer i alt              : {stats['programmes']:,}")
         print(f"   Sprunget over (sport)          : {stats['already_had_artwork']:,}")
-        print(f"   Titler tjekket (unikke)        : {stats['checked']:,}")
-        print(f"   Dansk billede fundet (cache)   : {stats['danish_found']:,}")
-        print(f"   Heraf GODKENDT og indsat i XML : {stats['danish_injected']:,}")
-        print(f"   Bekræftet intet dansk billede  : {stats['danish_not_found']:,}")
+        print(f"   Titler tjekket (denne fil)     : {stats['checked']:,}")
+        print(f"   Dansk BACKDROP fundet (denne fil): {stats['danish_found']:,}")
+        print(f"   Heraf GODKENDT og indsat i XML : {stats['danish_injected']:,} (forekomster, ikke unikke titler)")
+        print(f"   Bekræftet intet dansk backdrop : {stats['danish_not_found']:,}")
         print(f"   (cache: {stats['cache_hits']:,} / friske TMDb-kald: {stats['fresh_calls']:,})")
 
         per_file_stats[name] = stats
@@ -404,24 +415,31 @@ def main() -> None:
     save_json(DANISH_ARTWORK_CACHE_FILE, cache)
     cache_size_after = len(cache)
 
+    unique_found = len(all_found_keys)
+    unique_approved_and_found = len(all_found_keys & approved_keys)
+    unique_pending = unique_found - unique_approved_and_found
+
     append_run_log(
         DANISH_BACKDROPS_RUN_LOG_FILE, per_file_stats, grand_total,
-        cache_size_before, cache_size_after, len(approved_keys),
-        DANISH_ARTWORK_REVIEW_FILE.exists(),
+        cache_size_before, cache_size_after, len(approved_keys), review_exists,
+        unique_found, unique_pending,
     )
 
     print("\n📊 SAMLET RAPPORT")
     print("--------------------------------")
     print(f"Programmer i alt              : {grand_total['programmes']:,}")
     print(f"Sprunget over (sport)          : {grand_total['already_had_artwork']:,}")
-    print(f"Titler tjekket (unikke)        : {grand_total['checked']:,}")
-    print(f"Dansk billede fundet (cache)   : {grand_total['danish_found']:,}")
-    print(f"Heraf GODKENDT og indsat i XML : {grand_total['danish_injected']:,}")
-    print(f"Bekræftet intet dansk billede  : {grand_total['danish_not_found']:,}")
-    print(f"Cache voksede fra {cache_size_before:,} til {cache_size_after:,} unikke titler")
-    unreviewed = grand_total["danish_found"] - grand_total["danish_injected"]
-    if unreviewed > 0:
-        print(f"💡 {unreviewed:,} fund afventer stadig din godkendelse i {DANISH_ARTWORK_REVIEW_FILE.name}")
+    print(f"Injektioner i alt (forekomster): {grand_total['danish_injected']:,} "
+          "(SAMME titel kan indsættes flere gange, én gang pr. udsendelse i skemaet)")
+    print()
+    print(f"--- SANDE UNIKKE TAL (dedupliceret på tværs af alle {len(source_names)} filer) ---")
+    print(f"Unikke titler med dansk BACKDROP fundet : {unique_found:,}")
+    print(f"  - heraf GODKENDT (X i Excel)           : {unique_approved_and_found:,}")
+    print(f"  - heraf AFVENTER stadig godkendelse    : {unique_pending:,}")
+    print(f"Cache voksede fra {cache_size_before:,} til {cache_size_after:,} unikke titler i alt")
+    if unique_pending > 0:
+        print(f"💡 Åbn {DANISH_ARTWORK_REVIEW_FILE.name} og markér flere 'X' for at godkende de resterende "
+              f"{unique_pending:,} fund.")
     print("--------------------------------")
 
     if git_cfg.get("enabled", True):
