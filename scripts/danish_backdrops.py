@@ -64,6 +64,8 @@ CONFIG_FILE = ROOT / "config.json"
 
 DANISH_ARTWORK_CACHE_FILE = DATA_DIR / "danish_artwork_cache.json"
 DANISH_ARTWORK_REVIEW_FILE = DATA_DIR / "danish_artwork_review.xlsx"
+DANISH_BACKDROPS_RUN_LOG_FILE = DATA_DIR / "danish_backdrops_run_log.json"
+MAX_RUN_LOG_ENTRIES = 100
 
 ENV_FILE = ROOT / ".env"
 if ENV_FILE.exists():
@@ -276,6 +278,29 @@ def process_xml_file(xml_path: Path, cache: dict, cache_max_age_days: int,
     return stats
 
 
+def append_run_log(log_path: Path, per_file_stats: dict, grand_total: dict,
+                    cache_size_before: int, cache_size_after: int,
+                    approved_count: int, review_exists: bool) -> None:
+    """Tilføjer en post til kørselshistorikken (til brug i HTML-statistikrapporten).
+    Holder kun de seneste MAX_RUN_LOG_ENTRIES kørsler for at undgå ubegrænset vækst."""
+    history = load_json(log_path, [])
+    if not isinstance(history, list):
+        history = []
+
+    history.append({
+        "timestamp": time.time(),
+        "date_str": time.strftime("%Y-%m-%d %H:%M:%S"),
+        "per_file": per_file_stats,
+        "totals": grand_total,
+        "cache_size_before": cache_size_before,
+        "cache_size_after": cache_size_after,
+        "approved_count": approved_count,
+        "review_file_existed": review_exists,
+    })
+    history = history[-MAX_RUN_LOG_ENTRIES:]
+    save_json(log_path, history)
+
+
 def git_push(repo_dir: Path, commit_message: str) -> None:
     print("\n⬆️  Committer og pusher til GitHub ...")
     try:
@@ -349,6 +374,7 @@ def main() -> None:
         "danish_found": 0, "danish_not_found": 0, "danish_injected": 0,
         "cache_hits": 0, "fresh_calls": 0,
     }
+    per_file_stats: dict[str, dict] = {}
 
     for name in source_names:
         xml_path = OUTPUT_DIR / f"{name}.xml"
@@ -371,11 +397,18 @@ def main() -> None:
         print(f"   Bekræftet intet dansk billede  : {stats['danish_not_found']:,}")
         print(f"   (cache: {stats['cache_hits']:,} / friske TMDb-kald: {stats['fresh_calls']:,})")
 
+        per_file_stats[name] = stats
         for k in grand_total:
             grand_total[k] += stats[k]
 
     save_json(DANISH_ARTWORK_CACHE_FILE, cache)
     cache_size_after = len(cache)
+
+    append_run_log(
+        DANISH_BACKDROPS_RUN_LOG_FILE, per_file_stats, grand_total,
+        cache_size_before, cache_size_after, len(approved_keys),
+        DANISH_ARTWORK_REVIEW_FILE.exists(),
+    )
 
     print("\n📊 SAMLET RAPPORT")
     print("--------------------------------")
