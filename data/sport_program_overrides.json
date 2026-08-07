@@ -2,17 +2,15 @@
   "_readme": "Nøglen = FULD titel i små bogstaver, trimmet.",
 
   "fodbold: 3f superligaen": { "backdrop": "3F Superliga.jpg", "poster": "3F Superliga.jpg" },
+  "fodbold: friuli venezia giulia cup - kampe": {
+    "backdrop": "Friuli Venezia Giulia Cup.jpg", "poster": "Friuli Venezia Giulia Cup.jpg",
+    "_note": "⚠️ ANTAGET FILNAVN: titlen indeholder et KOLON (':'), som ikke er gyldigt i Windows-filnavne, så filnavnet kan ikke være en 1:1 kopi. Har gættet på kolon simpelthen fjernet ('Friuli Venezia Giulia Cup.jpg'). BEKRÆFT venligst det faktiske filnavn du uploader, ellers virker linket ikke."
+  },
   "atletik: diamond league": { "backdrop": "Atletik Diamond League.jpg", "poster": "Atletik Diamond League.jpg" },
   "atp tour highlights": { "backdrop": "ATP Tour Highlights.jpg", "poster": "ATP Tour Highlights.jpg" },
 
-  "cykling: tour de france (k)": {
-    "backdrop": "Cykling Tour de France Femmes.jpg", "poster": "Cykling Tour de France Femmes.jpg",
-    "_note": "Bekræftet virkende på tværs af BÅDE TV2 og TV2 Sport (overrides er titel-baserede, ikke kanal-baserede)."
-  },
-  "cykling: tour de france (k) - studiet": {
-    "backdrop": "Tour de France Femmes Studiet.jpg", "poster": "Tour de France Femmes Studiet.jpg",
-    "_note": "NYT: dedikeret studie-billede. Rammede tidligere kun det generiske 'Cykling-generic.jpg' via prefix-fallback, da titlen ikke havde nogen override. Gælder samme måde på TV2 og TV2 Sport."
-  },
+  "cykling: tour de france (k)": { "backdrop": "Cykling Tour de France Femmes.jpg", "poster": "Cykling Tour de France Femmes.jpg" },
+  "cykling: tour de france (k) - studiet": { "backdrop": "Tour de France Femmes Studiet.jpg", "poster": "Tour de France Femmes Studiet.jpg" },
 
   "superliga": { "backdrop": "3F Superliga.jpg", "poster": "3F Superliga.jpg" },
   "onside": { "backdrop": null, "poster": null },
@@ -23,7 +21,9 @@
   "bundesliga review of the midseason": { "backdrop": "Bundesliga Review of the Midseason.jpg", "poster": "Bundesliga Review of the Midseason.jpg" },
   "bundesliga review of the season": { "backdrop": "Bundesliga Review of the Midseason.jpg", "poster": "Bundesliga Review of the Midseason.jpg" },
   "premier league review of the season": { "backdrop": "Premier League Review of the Season.jpg", "poster": "Premier League Review of the Season.jpg" },
+  "premier league: review of the season '25/26": { "backdrop": "Premier League Review of the Season.jpg", "poster": "Premier League Review of the Season.jpg" },
   "premier league goals of the season": { "backdrop": "Premier League Goals of the Season.jpg", "poster": "Premier League Goals of the Season.jpg" },
+  "premier league goals of the season '25/26": { "backdrop": "Premier League Goals of the Season.jpg", "poster": "Premier League Goals of the Season.jpg" },
   "ligue 1 the season review show": { "backdrop": "Ligue 1 The Season Review Show.jpg", "poster": "Ligue 1 The Season Review Show.jpg" },
   "ligue 1 review of the season": { "backdrop": "Ligue 1 The Season Review Show.jpg", "poster": "Ligue 1 The Season Review Show.jpg" },
 
