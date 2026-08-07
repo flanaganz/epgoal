@@ -5,7 +5,14 @@
   "atletik: diamond league": { "backdrop": "Atletik Diamond League.jpg", "poster": "Atletik Diamond League.jpg" },
   "atp tour highlights": { "backdrop": "ATP Tour Highlights.jpg", "poster": "ATP Tour Highlights.jpg" },
 
-  "cykling: tour de france (k)": { "backdrop": "Cykling Tour de France Femmes.jpg", "poster": "Cykling Tour de France Femmes.jpg" },
+  "cykling: tour de france (k)": {
+    "backdrop": "Cykling Tour de France Femmes.jpg", "poster": "Cykling Tour de France Femmes.jpg",
+    "_note": "Bekræftet virkende på tværs af BÅDE TV2 og TV2 Sport (overrides er titel-baserede, ikke kanal-baserede)."
+  },
+  "cykling: tour de france (k) - studiet": {
+    "backdrop": "Tour de France Femmes Studiet.jpg", "poster": "Tour de France Femmes Studiet.jpg",
+    "_note": "NYT: dedikeret studie-billede. Rammede tidligere kun det generiske 'Cykling-generic.jpg' via prefix-fallback, da titlen ikke havde nogen override. Gælder samme måde på TV2 og TV2 Sport."
+  },
 
   "superliga": { "backdrop": "3F Superliga.jpg", "poster": "3F Superliga.jpg" },
   "onside": { "backdrop": null, "poster": null },
@@ -23,10 +30,7 @@
   "lee bowyer": { "backdrop": null, "poster": null },
 
   "fastzone": { "backdrop": null, "poster": null },
-  "fastzone: fastzone": {
-    "backdrop": null, "poster": null,
-    "_note": "NYT: variant af 'FastZone' der bruger 'Kategori: Begivenhed'-format ('FastZone: Fastzone') - normaliserer til en anden streng end den eksakte 'fastzone'-override og ramte derfor ikke tidligere. Samme behandling: prøver TMDb, falder til TV3-generic."
-  },
+  "fastzone: fastzone": { "backdrop": null, "poster": null },
   "danskerklubben": { "backdrop": null, "poster": null },
 
   "sport news": { "backdrop": "Viaplay_Sport_News-generic.jpg", "poster": "Viaplay_Sport_News-generic.jpg" },
