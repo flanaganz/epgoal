@@ -3,13 +3,20 @@
     "Testkamp: Udinese-Nottingham Forest": 3
   },
   "TV 2 Sport.dk": {
-    "Tour de France Femmes: Studiet": 2
+    "Tour de France Femmes: Studiet": 1
+  },
+  "TV3 Sport Denmark (DK,DA).dk": {
+    "1. Division Studie": 2
   },
   "TV3 Sport HD (D) (T).dk": {
-    "Lee Bowyer": 2,
+    "1. Division": 2,
+    "1. Division Studie": 2,
+    "Lee Bowyer": 1,
     "RaceTV.dk": 1
   },
   "TV3 Sport.dk": {
+    "1. Division Studie": 4,
+    "1. Division: Hobro IK - AB": 1,
     "FastZone: Fastzone": 1
   }
 }

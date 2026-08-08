@@ -1,8 +1,23 @@
 {
+  "1. division": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1786174007.3026555
+  },
   "1. division magasinet": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/z01estsekNPUOQrcM3ItXKq6nTU.jpg",
     "poster": "https://image.tmdb.org/t/p/w500/hKE0VO8FebDDvTSfPfRB5iro7s9.jpg",
     "ts": 1785845429.5539691
+  },
+  "1. division studie": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1786174007.4908123
+  },
+  "1. division: hobro ik - ab": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1786174008.6449022
   },
   "12 news": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/i9CraG4nX0mBzotoatV2Xp70nfK.jpg",
