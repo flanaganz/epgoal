@@ -9,19 +9,19 @@ FORMÅL
     (include_image_language=da, UDEN fallback til andre sprog), og indlejrer
     det direkte i XML'en - men KUN for titler, du selv har godkendt manuelt.
 
-RETTELSE (2026-08-08): SKRIVER NU <icon>, IKKE <backdrop>
-    Grundig fejlfinding (2328 <backdrop>-tags bekræftet til stede i XML'en,
-    med gyldige TMDb-URL'er, korrekt struktur) viste at UHF tilsyneladende
-    IGNORERER <backdrop>-tagget fuldstændigt og udelukkende bruger <icon> som
-    kilde til artwork. Scriptet skriver derfor nu det danske BACKDROP-billede
-    (16:9 landskabsformat, IKKE et poster) ind som <icon src="...">. Der er
-    STADIG ingen ændring i selve billedvalget - det er fortsat kun ægte
-    danske backdrops (aldrig postere) der bruges, kun tagget er ændret.
-
-    "already_had_artwork"-tjekket (springer sport-kurateret indhold over)
-    tjekker FORTSAT begge tags (<icon> ELLER <backdrop>) for ikke at overskrive
-    noget, sports-scriptet (enrich_epg.py) allerede har sat - det er uændret,
-    da sport-programmer typisk får BEGGE tags fra enrich_epg.py.
+KUN BACKDROPS (rettet 2026-08-07) - POSTERS BRUGES IKKE
+    Tidligere injicerede scriptet BÅDE <icon> (TMDb-poster, naturligt format
+    2:3/portræt) OG <backdrop> (TMDb-backdrop, naturligt format 16:9/
+    landskab). Det viste sig at UHF viser <icon> i en bred 16:9-ramme, hvilket
+    fik portræt-postere til at blive kraftigt beskåret/zoomet ind. Brugeren
+    bruger udelukkende backdrops, så scriptet er nu renset for al
+    poster/icon-håndtering:
+    - resolve_danish_artwork henter STADIG poster_path fra TMDb's API-svar
+      (det koster intet ekstra, samme API-kald), men kun backdrop-URL'en
+      bruges til at afgøre "fundet" og til selve injektionen.
+    - Der tilføjes ALDRIG et <icon>-tag i XML'en fra dette script.
+    - Excel-godkendelsesfilen har ikke længere en "Dansk Poster"-kolonne
+      (se export_danish_artwork_review.py).
 
 GODKENDELSES-WORKFLOW
     1) Scriptet slår altid nye titler op og gemmer fund i
@@ -30,7 +30,7 @@ GODKENDELSES-WORKFLOW
        BACKDROP-fund til data/danish_artwork_review.xlsx.
     3) Åbn Excel-filen, markér "X" i kolonnen "Godkendt (X)", gem filen.
     4) Kør dette script igen - kun de X-markerede titler får deres backdrop
-       indsat (som <icon>).
+       indsat.
 
     Hvis data/danish_artwork_review.xlsx slet ikke findes endnu, injicerer
     scriptet INTET og fortæller dig at køre eksport-scriptet først.
@@ -174,6 +174,9 @@ def tmdb_search(title: str) -> tuple[str, int] | None:
 
 
 def tmdb_danish_images(media_type: str, tmdb_id: int) -> tuple[str | None, str | None]:
+    """Returnerer (backdrop_path, poster_path). Poster hentes stadig fra API-
+    svaret (koster intet ekstra), men bruges IKKE længere til noget - se
+    modulets docstring. Beholdt for evt. fremtidig brug/debugging."""
     resp = SESSION.get(
         f"{TMDB_BASE}/{media_type}/{tmdb_id}/images",
         params={"api_key": TMDB_API_KEY, "include_image_language": "da"},
@@ -243,8 +246,6 @@ def process_xml_file(xml_path: Path, cache: dict, cache_max_age_days: int,
     for programme in root.findall("programme"):
         stats["programmes"] += 1
 
-        # Uændret: springer sport-kurateret indhold over, uanset hvilket af de
-        # to tags enrich_epg.py måtte have brugt.
         if programme.find("icon") is not None or programme.find("backdrop") is not None:
             stats["already_had_artwork"] += 1
             continue
@@ -276,10 +277,8 @@ def process_xml_file(xml_path: Path, cache: dict, cache_max_age_days: int,
 
         art = resolved_this_file[norm]
         if art and approved_keys is not None and norm in approved_keys:
-            # RETTET: skriver nu <icon> (bekræftet: UHF læser dette tag),
-            # men bruger STADIG backdrop-URL'en (16:9 landskabsbillede,
-            # aldrig et poster) - kun selve XML-tagget er ændret.
-            el = ET.SubElement(programme, "icon")
+            # KUN backdrop indsættes - intet <icon>/poster (se modulets docstring)
+            el = ET.SubElement(programme, "backdrop")
             el.set("src", art["backdrop"])
             stats["danish_injected"] += 1
 
@@ -328,7 +327,7 @@ def git_push(repo_dir: Path, commit_message: str) -> None:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Tilføj GODKENDTE danske TMDb-backdrops (som <icon>) til ikke-sport-programmer.")
+    parser = argparse.ArgumentParser(description="Tilføj GODKENDTE danske TMDb-backdrops til ikke-sport-programmer.")
     parser.add_argument("--limit", type=int, default=None,
                         help="Maks antal NYE (ikke-cachede) unikke titler at slå op.")
     parser.add_argument("--files", nargs="*", default=None,
@@ -362,7 +361,7 @@ def main() -> None:
     approved_keys = load_approved_keys(DANISH_ARTWORK_REVIEW_FILE)
     review_exists = DANISH_ARTWORK_REVIEW_FILE.exists()
 
-    print("=== Danske TMDb-backdrops (separat sideprojekt) — skrives som <icon> ===")
+    print("=== Danske TMDb-backdrops (separat sideprojekt) — KUN backdrops ===")
     print(f"Cache-fil: {DANISH_ARTWORK_CACHE_FILE.name} (separat fra sports-scriptets cache.json)")
     print(f"Cache indeholder {cache_size_before:,} tidligere opslag (levetid: {cache_max_age_days} dage)")
 
@@ -405,7 +404,7 @@ def main() -> None:
         print(f"   Sprunget over (sport)          : {stats['already_had_artwork']:,}")
         print(f"   Titler tjekket (denne fil)     : {stats['checked']:,}")
         print(f"   Dansk BACKDROP fundet (denne fil): {stats['danish_found']:,}")
-        print(f"   Heraf GODKENDT og indsat som <icon>: {stats['danish_injected']:,} (forekomster, ikke unikke titler)")
+        print(f"   Heraf GODKENDT og indsat i XML : {stats['danish_injected']:,} (forekomster, ikke unikke titler)")
         print(f"   Bekræftet intet dansk backdrop : {stats['danish_not_found']:,}")
         print(f"   (cache: {stats['cache_hits']:,} / friske TMDb-kald: {stats['fresh_calls']:,})")
 
@@ -430,7 +429,7 @@ def main() -> None:
     print("--------------------------------")
     print(f"Programmer i alt              : {grand_total['programmes']:,}")
     print(f"Sprunget over (sport)          : {grand_total['already_had_artwork']:,}")
-    print(f"Injektioner i alt (forekomster, som <icon>): {grand_total['danish_injected']:,} "
+    print(f"Injektioner i alt (forekomster): {grand_total['danish_injected']:,} "
           "(SAMME titel kan indsættes flere gange, én gang pr. udsendelse i skemaet)")
     print()
     print(f"--- SANDE UNIKKE TAL (dedupliceret på tværs af alle {len(source_names)} filer) ---")
