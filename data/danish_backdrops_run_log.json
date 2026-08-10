@@ -1142,5 +1142,87 @@
     },
     "unique_found": 316,
     "unique_pending": 64
+  },
+  {
+    "approved_count": 372,
+    "cache_size_after": 6479,
+    "cache_size_before": 6479,
+    "date_str": "2026-08-10 13:30:51",
+    "per_file": {
+      "denmark1": {
+        "already_had_artwork": 122,
+        "cache_hits": 1120,
+        "checked": 1120,
+        "danish_found": 150,
+        "danish_injected": 587,
+        "danish_not_found": 970,
+        "fresh_calls": 0,
+        "programmes": 4518
+      },
+      "denmark2": {
+        "already_had_artwork": 87,
+        "cache_hits": 2328,
+        "checked": 2328,
+        "danish_found": 190,
+        "danish_injected": 747,
+        "danish_not_found": 2138,
+        "fresh_calls": 0,
+        "programmes": 9907
+      },
+      "denmark3": {
+        "already_had_artwork": 35,
+        "cache_hits": 691,
+        "checked": 691,
+        "danish_found": 131,
+        "danish_injected": 450,
+        "danish_not_found": 560,
+        "fresh_calls": 0,
+        "programmes": 2525
+      },
+      "denmark4": {
+        "already_had_artwork": 110,
+        "cache_hits": 1872,
+        "checked": 1872,
+        "danish_found": 242,
+        "danish_injected": 941,
+        "danish_not_found": 1630,
+        "fresh_calls": 0,
+        "programmes": 6466
+      },
+      "denmark5": {
+        "already_had_artwork": 133,
+        "cache_hits": 1269,
+        "checked": 1269,
+        "danish_found": 124,
+        "danish_injected": 641,
+        "danish_not_found": 1145,
+        "fresh_calls": 0,
+        "programmes": 5446
+      },
+      "denmark6": {
+        "already_had_artwork": 0,
+        "cache_hits": 920,
+        "checked": 920,
+        "danish_found": 116,
+        "danish_injected": 429,
+        "danish_not_found": 804,
+        "fresh_calls": 0,
+        "programmes": 2533
+      }
+    },
+    "review_file_existed": true,
+    "timestamp": 1786361451.0954597,
+    "totals": {
+      "already_had_artwork": 487,
+      "cache_hits": 8200,
+      "checked": 8200,
+      "danish_found": 953,
+      "danish_injected": 3795,
+      "danish_not_found": 7247,
+      "fresh_calls": 0,
+      "programmes": 31395
+    },
+    "unique_found": 316,
+    "unique_pending": 39
   }
 ]
