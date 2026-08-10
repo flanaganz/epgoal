@@ -7,6 +7,14 @@
     "poster": "Fodbold.jpg"
   },
   {
+    "id": "carabao_cup",
+    "prefix": [],
+    "keywords": ["carabao cup"],
+    "backdrop": "Fodbold Carabao Cup.jpg",
+    "poster": "Fodbold Carabao Cup.jpg",
+    "_note": "NYT: fanger BÅDE 'Carabao Cup' og 'Fodbold: Carabao Cup' - nøgleord matcher som substring uanset præfiks, så begge varianter rammes uden at skulle liste dem separat."
+  },
+  {
     "id": "fodbold_aliga",
     "prefix": [],
     "keywords": ["a-liga"],
@@ -39,8 +47,7 @@
     "prefix": ["cykling"],
     "keywords": ["cykling", "tour de france", "giro d'italia", "vuelta", "clásica", "clasica", "tour de l'ain"],
     "backdrop": "Cykling-generic.jpg",
-    "poster": "Cykling-generic.jpg",
-    "_note": "VIGTIGT: efter rækkefølge-fixet i scriptet (keywords tjekkes nu FØR prefix) er det sikkert at have et rigtigt billede her - de mere specifikke kategorier ovenfor (tdf_femmes, san_sebastian) fanges nu korrekt FØRST, uanset denne kategoris prefix-match."
+    "poster": "Cykling-generic.jpg"
   },
   {
     "id": "nfl",
@@ -126,17 +133,17 @@
   { "id": "faegtning", "prefix": ["fægtning"], "keywords": ["fægtning"], "backdrop": null, "poster": null },
   { "id": "mountainbike", "prefix": ["mountain bike"], "keywords": ["mountain bike", "mtb"], "backdrop": null, "poster": null },
   { "id": "basketball", "prefix": ["basketball"], "keywords": ["basketball", "basketligaen"], "backdrop": null, "poster": null },
-  {
-    "id": "haandbold",
-    "prefix": ["håndbold"],
-    "keywords": ["håndbold"],
-    "backdrop": null,
-    "poster": null,
-    "_note": "Substring-matching håndterer automatisk 'Håndbold (k)' og 'Håndbold (m)' - begge indeholder 'håndbold' som substring, så de rammer denne kategori uanset kønsmærke. Upload et generisk håndbold-billede (og evt. separate til (k)/(m) via egne overrides) når du er klar."
-  },
+  { "id": "haandbold", "prefix": ["håndbold"], "keywords": ["håndbold"], "backdrop": null, "poster": null },
   { "id": "futsal", "prefix": ["futsal"], "keywords": ["futsal"], "backdrop": null, "poster": null },
   { "id": "poker", "prefix": ["poker"], "keywords": ["poker", "world series"], "backdrop": null, "poster": null },
   { "id": "esport", "prefix": ["e-sport"], "keywords": ["e-sport", "esport"], "backdrop": null, "poster": null },
-  { "id": "snooker", "prefix": ["snooker"], "keywords": ["snooker"], "backdrop": null, "poster": null },
+  {
+    "id": "snooker",
+    "prefix": ["snooker"],
+    "keywords": ["snooker"],
+    "backdrop": "Snooker.jpg",
+    "poster": "Snooker.jpg",
+    "_note": "OPDATERET: udfyldt med Snooker.jpg (var tidligere null) - dækker nu automatisk ALLE snooker-titler generelt, ikke kun den eksakte titel 'Snooker' (som også har sit eget override, se sport_program_overrides.json)."
+  },
   { "id": "ishockey_mm", "prefix": ["ishockey", "rugby", "cricket", "dart"], "keywords": ["ishockey", "rugby", "cricket", "dart"], "backdrop": null, "poster": null }
 ]

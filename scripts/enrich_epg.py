@@ -8,27 +8,31 @@ Matching-strategi pr. programme:
     0.5) sport_prefer_tmdb_titles.json -> SPRING lokal kategori/nøgleords-matching
          over for disse titler, gå direkte til TMDb-opslag (trin 4).
     1) sport_program_overrides.json  -> eksakt FULD titel-match
+       1a) Først eksakt match (titel som den er, inkl. evt. kolon).
+       1b) RETTET (2026-08-10): Hvis intet eksakt match, prøves en
+           KOLON-STRIPPET variant af både titlen og alle override-nøgler.
+           Baggrund: sportsprogrammer hedder ofte "Kategori: Begivenhed" i
+           selve EPG'en (fx "Golf: PGA Champions Tour", "Cykling: Polen
+           Rundt"), men billedfiler kan ikke indeholde kolon i deres
+           filnavn, så de gemmes uden (fx "Golf PGA Champions Tour.jpg").
+           Med denne rettelse er det ligegyldigt om en override-nøgle i
+           sport_program_overrides.json skrives MED eller UDEN kolon - begge
+           dele matcher nu automatisk mod EPG-titler i begge varianter.
+           Eksakt (ikke-strippet) match har altid forrang, så en override,
+           der bevidst er sat på den fulde titel MED kolon, overtrumfer ikke
+           utilsigtet en anden strippet variant.
     2) sport_categories.json[keywords]  -> nøgleord (priority-kategorier først,
        derefter almindelige kategorier længst-match-først)
     3) sport_categories.json[prefix]    -> "Kategori: Begivenhed"-syntaksen
        (SIDSTE UDVEJ blandt de lokale trin)
     4) TMDb-opslag -> for "always_sport"-kanaler: ALTID (hvis aktiveret).
                        for "partial_sport"-kanaler: KUN hvis titlen står i
-                       sport_prefer_tmdb_titles.json (se RETTELSE nedenfor).
+                       sport_prefer_tmdb_titles.json.
     5) kanalens default_backdrop/-poster (sidste udvej, kun "always_sport")
 
-    RETTELSE (2026-08-08): "partial_sport"-kanaler (DR1, DR2, TV 2 hovedkanal)
-    sendte tidligere ETHVERT ikke-matchende program videre til TMDb-opslag -
-    inklusive nyheder, livsstilsprogrammer og film, der intet har med sport
-    at gøre (fx "Go' morgen Danmark", "Nyhederne", "Fear Factor"). Det var en
-    fejl: for "partial_sport"-kanaler går KUN titler i sport_prefer_tmdb_titles
-    videre til TMDb (samme princip som "prefer_tmdb"-bypasset for always_sport-
-    kanaler) - almindeligt ikke-sport-indhold på disse kanaler røres slet ikke,
-    hverken lokalt eller via TMDb.
-
-    "partial_sport"-kanaler har desuden INGEN kanal-fallback-billede (trin 5),
-    da langt størstedelen af deres programmer ikke er sport. Programmer der
-    korrekt matches på disse kanaler logges separat i
+    "partial_sport"-kanaler (fx DR1, DR2, TV 2 hovedkanal) har INGEN
+    kanal-fallback-billede - de rammes KUN via trin 0.5-4 ovenfor. Programmer
+    der korrekt matches på disse kanaler logges i
     data/partial_sport_matches_log.json.
 
 Titel-normalisering bruger unicodedata.normalize("NFKC", ...) samt eksplicit
@@ -85,6 +89,7 @@ MATCH_SIMILARITY_MIN = 0.55
 REQUEST_SLEEP_SECONDS = 0.05
 
 INVISIBLE_CHARS_PATTERN = re.compile(r"[\u200B\u200C\u200D\u2060\uFEFF\u00AD]")
+COLON_PATTERN = re.compile(r"\s*:\s*")
 
 SESSION = requests.Session()
 
@@ -107,8 +112,17 @@ def normalize_title(title: str) -> str:
     t = unicodedata.normalize("NFKC", t)
     t = INVISIBLE_CHARS_PATTERN.sub(" ", t)
     t = re.sub(r"\s+", " ", t)
-    t = t.strip()
-    return t.lower()
+    return t.strip().lower()
+
+
+def strip_colons(normalized_title: str) -> str:
+    """Fjerner ALLE kolon (med omkringliggende mellemrum) fra en allerede
+    normaliseret titel, og collapser efterfølgende dobbelt-mellemrum. Bruges
+    som fallback-nøgle for overrides, da billedfiler ikke kan hedde noget
+    med kolon, men EPG-titler ofte har "Kategori: Begivenhed"-format."""
+    t = COLON_PATTERN.sub(" ", normalized_title)
+    t = re.sub(r"\s+", " ", t)
+    return t.strip()
 
 
 class SportMatcher:
@@ -126,6 +140,16 @@ class SportMatcher:
         self.categories = load_json(SPORT_CATEGORIES_FILE, [])
         self.program_overrides = load_json(SPORT_PROGRAM_OVERRIDES_FILE, {})
         self.skip_titles = set(load_json(SPORT_SKIP_TITLES_FILE, []))
+
+        # Sekundært, kolon-strippet opslag over program_overrides - se
+        # strip_colons() docstring. Ved kollision (to forskellige override-
+        # nøgler der begge stripper til samme streng) vinder den FØRST
+        # definerede i JSON-filen; det er en usandsynlig edge-case.
+        self.program_overrides_colon_stripped: dict[str, dict] = {}
+        for key, value in self.program_overrides.items():
+            stripped = strip_colons(key.strip().lower())
+            if stripped not in self.program_overrides_colon_stripped:
+                self.program_overrides_colon_stripped[stripped] = value
 
         prefer_tmdb_raw = load_json(SPORT_PREFER_TMDB_TITLES_FILE, {"titles": []})
         self.prefer_tmdb_titles = set(t.strip().lower() for t in prefer_tmdb_raw.get("titles", []))
@@ -172,6 +196,29 @@ class SportMatcher:
     def prefers_tmdb(self, raw_title: str) -> bool:
         return normalize_title(raw_title) in self.prefer_tmdb_titles
 
+    def _lookup_override(self, norm: str) -> dict | None:
+        """Trin 1a: eksakt match. Trin 1b: kolon-strippet fallback (se
+        strip_colons() docstring for baggrund)."""
+        override = self.program_overrides.get(norm)
+        if override:
+            match = self._real_match(override.get("backdrop"), override.get("poster"))
+            if match:
+                return match
+
+        # BEMÆRK: tjekkes UANSET om 'norm' selv indeholder en kolon - en
+        # override-NØGLE kan sagtens være skrevet MED kolon, selvom selve
+        # EPG-titlen ikke har en (fx hvis overriden ved en fejl er tastet
+        # som "golf: pga tour" for en titel der reelt hedder "Golf PGA Tour"
+        # uden kolon). Denne fallback dækker begge retninger symmetrisk.
+        stripped = strip_colons(norm)
+        override = self.program_overrides_colon_stripped.get(stripped)
+        if override:
+            match = self._real_match(override.get("backdrop"), override.get("poster"))
+            if match:
+                return match
+
+        return None
+
     def resolve_local(self, raw_title: str) -> dict | None:
         norm = normalize_title(raw_title)
 
@@ -181,11 +228,9 @@ class SportMatcher:
         if norm in self.prefer_tmdb_titles:
             return None
 
-        override = self.program_overrides.get(norm)
-        if override:
-            match = self._real_match(override.get("backdrop"), override.get("poster"))
-            if match:
-                return match
+        override_match = self._lookup_override(norm)
+        if override_match:
+            return override_match
 
         for keyword, cat in self.keyword_lookup:
             if keyword in norm:
@@ -367,9 +412,6 @@ def process_xml(xml_bytes: bytes, matcher: SportMatcher, source_cfg: dict,
                     partial_sport_matches_log[chan_id][key] = partial_sport_matches_log[chan_id].get(key, 0) + 1
                 continue
 
-            # TMDb-opslag: "always_sport" -> altid forsøgt.
-            # "partial_sport" -> KUN hvis titlen eksplicit står i prefer_tmdb_titles
-            # (rettet 2026-08-08 - se docstring øverst i filen).
             should_try_tmdb = do_tmdb_sport and (
                 role == "always_sport"
                 or (role == "partial_sport" and matcher.prefers_tmdb(title))
@@ -409,8 +451,6 @@ def process_xml(xml_bytes: bytes, matcher: SportMatcher, source_cfg: dict,
                     stats["sport_defaulted"] += 1
                 else:
                     stats["sport_no_image_yet"] += 1
-            # "partial_sport" uden lokalt match og uden prefer_tmdb: rører intet,
-            # tælles ikke - det er bevidst ikke-sport-indhold på kanalen.
             continue
 
         if do_tmdb_nonsport:

@@ -1,17 +1,18 @@
 {
+  "DR2 Denmark (DK,DA).dk": {
+    "EM i atletik -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/EM%20i%20atletik.jpg": 4
+  },
+  "DR2 HD (T).dk": {
+    "EM i atletik -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/EM%20i%20atletik.jpg": 4
+  },
+  "DR2.dk": {
+    "EM i atletik -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/EM%20i%20atletik.jpg": 5
+  },
   "TV3 Max Denmark (DK,DA).dk": {
     "3F Superliga -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1
   },
   "TV3 Max.dk": {
-    "3F Superliga -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
-    "Bundesliga Review of the Midseason -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Bundesliga%20Review%20of%20the%20Midseason.jpg": 1,
-    "Champions League Weekly -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
-    "Fodbold: 3F Superligaen -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/3F%20Superliga.jpg": 1,
-    "Højdepunkter fra Dansk Motorsport -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Motorsport-generic.jpg": 12,
-    "Ligue 1 The Season Review Show -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Ligue%201%20The%20Season%20Review%20Show.jpg": 2,
-    "MotoGP -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/MotoGP.jpg": 1,
-    "Premier League Goals of the Season -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League%20Goals%20of%20the%20Season.jpg": 1,
-    "Premier League: Review of the Season '25/26 -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League%20Review%20of%20the%20Season.jpg": 2
+    "3F Superliga -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1
   },
   "TV3+ Denmark (DK,DA).dk": {
     "UEFA Champions League -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
@@ -22,8 +23,8 @@
     "UEFA Champions League Qualification Studio: Sabah Baku - AGF -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 2
   },
   "TV3+.dk": {
-    "UEFA Champions League -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
-    "UEFA Champions League Qualification Studio -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 2,
+    "UEFA Champions League -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 2,
+    "UEFA Champions League Qualification Studio -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 4,
     "UEFA Champions League Qualification Studio: Sabah Baku - AGF -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 2,
     "UEFA Champions League Qualification: Sabah Baku - AGF -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1
   }
