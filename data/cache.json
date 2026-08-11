@@ -349,6 +349,11 @@
     "poster": "https://image.tmdb.org/t/p/w500/sJUti0JDtE1IYl7RVJARAGyKHqz.jpg",
     "ts": 1786087907.2364411
   },
+  "paris saint-germain - aston villa": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1786430984.8627102
+  },
   "racetv.dk": {
     "backdrop": null,
     "poster": null,
@@ -373,6 +378,11 @@
     "backdrop": "https://image.tmdb.org/t/p/w1280/lPYoFaHcM12lvXSArkMEHZ1xiFk.jpg",
     "poster": "https://image.tmdb.org/t/p/w500/8eBSn1PUCj7Ikcrfj9bMmw7kUB0.jpg",
     "ts": 1786016502.0290928
+  },
+  "spurs - the pochettino era": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1786430983.1858363
   },
   "superliga: fc nordsjælland - randers fc": {
     "backdrop": null,
@@ -458,6 +468,16 @@
     "backdrop": "https://image.tmdb.org/t/p/w1280/rUPYDCPqgEgMNJjoQHwWbDswsM2.jpg",
     "poster": "https://image.tmdb.org/t/p/w500/yyCA4w7mD2b2K89t3CP1m2mNKDT.jpg",
     "ts": 1785845437.3592508
+  },
+  "uefa super cup paris saint-germain - aston villa": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1786430983.3898382
+  },
+  "uefa super cup studio: paris saint-germain - aston villa": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1786430985.0663874
   },
   "var-rummet": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/kTLL2xVknzUAPolCmKrQPmbqIv4.jpg",
