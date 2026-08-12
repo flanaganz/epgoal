@@ -1,10 +1,7 @@
 {
-  "_readme": "Struktur: 'exclude' tjekkes FØRST og har altid forrang. 'channels' er selve sport-kanal-listen, rækkefølgen betyder noget for substring-matches (mere specifikke mønstre skal stå FØR bredere mønstre).",
+  "_readme": "Struktur: 'exclude' tjekkes FØRST og har altid forrang. 'default_backdrop'/'default_poster' kan nu ENTEN være et rent filnavn (Sport/-mappen på GitHub) ELLER en FULD ekstern URL - se enrich_epg.py docstring.",
   "exclude": [
-    {
-      "match": "norway",
-      "note": "Udelukker sport-kanaler med 'Norway' i navnet (TV 2 Sport 1/2/Premium Norway m.fl.)."
-    }
+    { "match": "norway", "note": "Udelukker sport-kanaler med 'Norway' i navnet." }
   ],
   "channels": [
     {
@@ -17,63 +14,63 @@
     {
       "match": "tv 2 sport",
       "role": "always_sport",
-      "note": "TV 2 Sport HD/Denmark - matcher danske varianter (norske er udelukket ovenfor).",
+      "note": "TV 2 Sport HD/Denmark.",
       "default_backdrop": "tv2sport-generic.jpg",
       "default_poster": "tv2sport-generic.jpg"
     },
     {
       "match": "tv3 sport",
       "role": "always_sport",
-      "note": "TV3 Sport - 100% sport. Bruger ofte FASTE programnavne uden 'Kategori:'-præfiks. SKAL stå før 'tv3 max', da begge starter med 'tv3'.",
+      "note": "TV3 Sport - 100% sport. SKAL stå før 'tv3 max'.",
       "default_backdrop": "tv3sport-generic.jpg",
       "default_poster": "tv3sport-generic.jpg"
     },
     {
       "match": "tv3 max",
       "role": "partial_sport",
-      "note": "NYT: TV3 Max - overvejende almindelig underholdning/reality (Discovery-kanal), men sender 'stort set de samme sportsudsendelser som TV3 Sport' ifølge bruger - dvs. delvist simulcast af sport-begivenheder. Klassificeret som partial_sport (som DR1/DR2/TV2): INGEN kanal-fallback-billede, rammes KUN når en titel matcher en kendt sport-kategori/override. Undgår at fejlagtigt sport-mærke almindelige reality-programmer.",
+      "note": "TV3 Max - overvejende underholdning, delvist simulcast af sport.",
       "default_backdrop": null,
       "default_poster": null
     },
     {
       "match": "3+",
       "role": "partial_sport",
-      "note": "NYT: 3+ (tidligere TV3+) - almindelig underholdningskanal, samme netværk som TV3/TV3 Max/TV3 Sport. Klassificeret som partial_sport af samme grund som TV3 Max ovenfor: kun sport-titler der matcher lokalt bliver beriget, ingen kanal-fallback. Mønstret '3+' fanger både 'TV3+' og '3+' navnevarianter, da begge indeholder den bogstavelige delstreng '3+'.",
+      "note": "3+ - almindelig underholdningskanal, lejlighedsvis sport.",
       "default_backdrop": null,
       "default_poster": null
     },
     {
       "match": "viaplay sport",
       "role": "always_sport",
-      "note": "Viaplay Sport News. Fanger både 'Viaplay Sport News HD (D) (T).dk' og 'Viaplay Sport News.dk'-varianterne.",
-      "default_backdrop": "Viaplay_Sport_News-generic.jpg",
-      "default_poster": "Viaplay_Sport_News-generic.jpg"
+      "note": "OPDATERET (2026-08-13): kanal-fallback bruger nu den direkte eksterne Viaplay-URL for 'Sport News', angivet af bruger, i stedet for det GitHub-hostede generic-billede.",
+      "default_backdrop": "https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg",
+      "default_poster": "https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg"
     },
     {
       "match": "tv 2 hd",
       "role": "partial_sport",
-      "note": "TV 2 hovedkanal, HD-variant (fx 'TV 2 HD (D) (T).dk'). Rammes KUN hvis titlen matcher en kendt override/kategori/nøgleord - INGEN kanal-fallback-billede.",
+      "note": "TV 2 hovedkanal, HD-variant. Rammes KUN ved kendt match.",
       "default_backdrop": null,
       "default_poster": null
     },
     {
       "match": "tv 2.dk",
       "role": "partial_sport",
-      "note": "TV 2 hovedkanal, den 'bare' variant uden 'HD' i navnet. Samme adfærd som 'tv 2 hd' ovenfor.",
+      "note": "TV 2 hovedkanal, 'bare' variant uden HD.",
       "default_backdrop": null,
       "default_poster": null
     },
     {
       "match": "dr1",
       "role": "partial_sport",
-      "note": "DR1 (fanger både 'DR1 HD (T).dk' og 'DR1.dk'). Rammes KUN ved kendt override/kategori/nøgleord.",
+      "note": "DR1.",
       "default_backdrop": null,
       "default_poster": null
     },
     {
       "match": "dr2",
       "role": "partial_sport",
-      "note": "DR2 (fanger både 'DR2 HD (T).dk' og 'DR2.dk'). Samme princip som DR1.",
+      "note": "DR2.",
       "default_backdrop": null,
       "default_poster": null
     }

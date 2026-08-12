@@ -1,5 +1,5 @@
 {
-  "_readme": "Nøglen = FULD titel i små bogstaver, trimmet.",
+  "_readme": "Nøglen = FULD titel i små bogstaver, trimmet. 'backdrop'/'poster' kan nu ENTEN være et rent filnavn (kombineres med Sport/-mappen på GitHub) ELLER en FULD ekstern URL (bruges direkte, uændret) - se enrich_epg.py docstring.",
 
   "fodbold: 3f superligaen": { "backdrop": "3F Superliga.jpg", "poster": "3F Superliga.jpg" },
   "fodbold: friuli venezia giulia cup - kampe": { "backdrop": "Fodbold Friuli Venezia Giulia Cup - Kampe.jpg", "poster": "Fodbold Friuli Venezia Giulia Cup - Kampe.jpg" },
@@ -26,51 +26,38 @@
 
   "lee bowyer": { "backdrop": null, "poster": null },
 
-  "fastzone": { "backdrop": null, "poster": null },
-  "fastzone: fastzone": { "backdrop": null, "poster": null },
+  "fastzone": {
+    "backdrop": "https://image.tmdb.org/t/p/original/6Zx9sabnYXtYHMg76JDTlpbBJFg.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/6Zx9sabnYXtYHMg76JDTlpbBJFg.jpg",
+    "_note": "NYT (2026-08-13): direkte ekstern URL fra TMDb, angivet af bruger. Rammede tidligere enten TMDb-fallback eller kanal-generic."
+  },
+  "fastzone: fastzone": {
+    "backdrop": "https://image.tmdb.org/t/p/original/6Zx9sabnYXtYHMg76JDTlpbBJFg.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/6Zx9sabnYXtYHMg76JDTlpbBJFg.jpg",
+    "_note": "Samme billede som 'fastzone' - dækker 'Kategori: Begivenhed'-varianten af titlen."
+  },
   "danskerklubben": { "backdrop": null, "poster": null },
 
-  "sport news": { "backdrop": "Viaplay_Sport_News-generic.jpg", "poster": "Viaplay_Sport_News-generic.jpg" },
+  "sport news": {
+    "backdrop": "https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg",
+    "poster": "https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg",
+    "_note": "NYT (2026-08-13): direkte ekstern URL fra Viaplay, angivet af bruger."
+  },
   "sky sports: the football show": { "backdrop": "Sky Sports The Football Show.jpg", "poster": "Sky Sports The Football Show.jpg" },
   "dbu pokalen": { "backdrop": "DBU Pokalen.jpg", "poster": "DBU Pokalen.jpg" },
 
   "kristianstad invitational": { "backdrop": "Golf PGA Tour.jpg", "poster": "Golf PGA Tour.jpg" },
 
   "gp confidential": { "backdrop": null, "poster": null },
-  "racetv.dk": { "backdrop": null, "poster": null },
-  "tv-udbruddet": { "backdrop": null, "poster": null },
-  "overtime": { "backdrop": null, "poster": null },
-
-  "sporten": {
-    "backdrop": "Sporten.jpg", "poster": "Sporten.jpg",
-    "_note": "NYT (batch 2026-08-10)."
+  "racetv.dk": {
+    "backdrop": "https://fdmjyllandsringen.dk/sites/jylland.dk/files/styles/image_1920x1080_xl/public/2025-12/Milj%C3%B8%20eller%20Banefaciliteter.jpg",
+    "poster": "https://fdmjyllandsringen.dk/sites/jylland.dk/files/styles/image_1920x1080_xl/public/2025-12/Milj%C3%B8%20eller%20Banefaciliteter.jpg",
+    "_note": "NYT (2026-08-13): direkte ekstern URL fra fdmjyllandsringen.dk, angivet af bruger."
   },
-  "em i atletik": { "backdrop": "EM i atletik.jpg", "poster": "EM i atletik.jpg" },
-  "superliga studiet": { "backdrop": "Superliga Studiet.jpg", "poster": "Superliga Studiet.jpg" },
-  "uefa super cup": { "backdrop": "UEFA Super Cup.jpg", "poster": "UEFA Super Cup.jpg" },
-  "uefa super cup studio": { "backdrop": "UEFA Super Cup Studio.jpg", "poster": "UEFA Super Cup Studio.jpg" },
-  "pokalkampe": { "backdrop": "Pokalkampe.jpg", "poster": "Pokalkampe.jpg" },
-  "betinia liga magasinet": {
-    "backdrop": "Betinia LIGA Magasinet.jpg", "poster": "Betinia LIGA Magasinet.jpg",
-    "_note": "Filnavn stavet 'Betinia' - bekræft venligst det er korrekt og ikke en tastefejl for 'Betinia'/'Betina'/'Betfair' e.l., ellers ret her."
+  "tv-udbruddet": {
+    "backdrop": "https://i-viaplay-com.akamaized.net/viaplay-prod/669/72/1757932138-001f38bb582cfdc1b238c8401d5f30fda461ee0e.jpg",
+    "poster": "https://i-viaplay-com.akamaized.net/viaplay-prod/669/72/1757932138-001f38bb582cfdc1b238c8401d5f30fda461ee0e.jpg",
+    "_note": "NYT (2026-08-13): direkte ekstern URL fra Viaplay, angivet af bruger."
   },
-  "snooker": {
-    "backdrop": "Snooker.jpg", "poster": "Snooker.jpg",
-    "_note": "Eksakt titel 'Snooker' - se også sport_categories.json hvor hele snooker-kategorien nu også bruger samme billede som generisk fallback."
-  },
-  "cykling polen rundt": {
-    "backdrop": "Cykling Polen Rundt.jpg", "poster": "Cykling Polen Rundt.jpg",
-    "_note": "Override vinder over den generiske 'cykling'-kategori (Cykling-generic.jpg), da overrides altid tjekkes først."
-  },
-  "golf pga champions tour": {
-    "backdrop": "Golf PGA Champions Tour.jpg", "poster": "Golf PGA Champions Tour.jpg",
-    "_note": "Override vinder over den generiske 'golf'-kategori (Golf PGA Tour.jpg)."
-  },
-  "dp world tour danish golf championship": {
-    "backdrop": "DP World Tour Danish Golf Championship.jpg", "poster": "DP World Tour Danish Golf Championship.jpg",
-    "_note": "Override vinder over den generiske 'golf'-kategori."
-  },
-  "uefa europa og conference league": {
-    "backdrop": "UEFA Europa og Conference League.jpg", "poster": "UEFA Europa og Conference League.jpg"
-  }
+  "overtime": { "backdrop": null, "poster": null }
 }

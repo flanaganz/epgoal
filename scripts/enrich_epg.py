@@ -8,32 +8,29 @@ Matching-strategi pr. programme:
     0.5) sport_prefer_tmdb_titles.json -> SPRING lokal kategori/nøgleords-matching
          over for disse titler, gå direkte til TMDb-opslag (trin 4).
     1) sport_program_overrides.json  -> eksakt FULD titel-match
-       1a) Først eksakt match (titel som den er, inkl. evt. kolon).
-       1b) RETTET (2026-08-10): Hvis intet eksakt match, prøves en
-           KOLON-STRIPPET variant af både titlen og alle override-nøgler.
-           Baggrund: sportsprogrammer hedder ofte "Kategori: Begivenhed" i
-           selve EPG'en (fx "Golf: PGA Champions Tour", "Cykling: Polen
-           Rundt"), men billedfiler kan ikke indeholde kolon i deres
-           filnavn, så de gemmes uden (fx "Golf PGA Champions Tour.jpg").
-           Med denne rettelse er det ligegyldigt om en override-nøgle i
-           sport_program_overrides.json skrives MED eller UDEN kolon - begge
-           dele matcher nu automatisk mod EPG-titler i begge varianter.
-           Eksakt (ikke-strippet) match har altid forrang, så en override,
-           der bevidst er sat på den fulde titel MED kolon, overtrumfer ikke
-           utilsigtet en anden strippet variant.
+       1a) Eksakt match. 1b) Kolon-strippet fallback (se strip_colons()).
     2) sport_categories.json[keywords]  -> nøgleord (priority-kategorier først,
        derefter almindelige kategorier længst-match-først)
     3) sport_categories.json[prefix]    -> "Kategori: Begivenhed"-syntaksen
-       (SIDSTE UDVEJ blandt de lokale trin)
     4) TMDb-opslag -> for "always_sport"-kanaler: ALTID (hvis aktiveret).
                        for "partial_sport"-kanaler: KUN hvis titlen står i
                        sport_prefer_tmdb_titles.json.
     5) kanalens default_backdrop/-poster (sidste udvej, kun "always_sport")
 
-    "partial_sport"-kanaler (fx DR1, DR2, TV 2 hovedkanal) har INGEN
-    kanal-fallback-billede - de rammes KUN via trin 0.5-4 ovenfor. Programmer
-    der korrekt matches på disse kanaler logges i
-    data/partial_sport_matches_log.json.
+    "partial_sport"-kanaler har INGEN kanal-fallback-billede. Matches logges
+    i data/partial_sport_matches_log.json.
+
+NYT (2026-08-13): EKSTERNE URL'ER SOM BILLED-KILDE
+    "backdrop"/"poster"/"default_backdrop"/"default_poster" felter i
+    sport_program_overrides.json OG sport_channels.json kan nu ENTEN være:
+      a) Et rent filnavn (som hidtil) - kombineres med sport.image_base_url
+         (dit GitHub Sport/-repo) og URL-encodes, fx "Fodbold.jpg".
+      b) En FULD URL (starter med "http://" eller "https://") - bruges
+         UÆNDRET og direkte, UDEN at blive kombineret med image_base_url
+         eller URL-encodet. Praktisk til billeder hostet andre steder end
+         dit eget GitHub-repo (fx direkte hos Viaplay, TMDb, eller en anden
+         hjemmeside), uden at skulle downloade og genuploade dem selv.
+    Begge typer kan bruges frit i blanding i samme fil.
 
 Titel-normalisering bruger unicodedata.normalize("NFKC", ...) samt eksplicit
 erstatning af usynlige tegn (nulbredde-mellemrum, blødt bindestreg, BOM m.fl.)
@@ -91,6 +88,14 @@ REQUEST_SLEEP_SECONDS = 0.05
 INVISIBLE_CHARS_PATTERN = re.compile(r"[\u200B\u200C\u200D\u2060\uFEFF\u00AD]")
 COLON_PATTERN = re.compile(r"\s*:\s*")
 
+
+def is_full_url(value: str) -> bool:
+    """Afgør om en billed-reference allerede er en fuld URL (skal bruges
+    direkte og UÆNDRET) i modsætning til et rent filnavn (skal kombineres
+    med image_base_url og URL-encodes)."""
+    return value.strip().lower().startswith(("http://", "https://"))
+
+
 SESSION = requests.Session()
 
 
@@ -116,10 +121,6 @@ def normalize_title(title: str) -> str:
 
 
 def strip_colons(normalized_title: str) -> str:
-    """Fjerner ALLE kolon (med omkringliggende mellemrum) fra en allerede
-    normaliseret titel, og collapser efterfølgende dobbelt-mellemrum. Bruges
-    som fallback-nøgle for overrides, da billedfiler ikke kan hedde noget
-    med kolon, men EPG-titler ofte har "Kategori: Begivenhed"-format."""
     t = COLON_PATTERN.sub(" ", normalized_title)
     t = re.sub(r"\s+", " ", t)
     return t.strip()
@@ -141,10 +142,6 @@ class SportMatcher:
         self.program_overrides = load_json(SPORT_PROGRAM_OVERRIDES_FILE, {})
         self.skip_titles = set(load_json(SPORT_SKIP_TITLES_FILE, []))
 
-        # Sekundært, kolon-strippet opslag over program_overrides - se
-        # strip_colons() docstring. Ved kollision (to forskellige override-
-        # nøgler der begge stripper til samme streng) vinder den FØRST
-        # definerede i JSON-filen; det er en usandsynlig edge-case.
         self.program_overrides_colon_stripped: dict[str, dict] = {}
         for key, value in self.program_overrides.items():
             stripped = strip_colons(key.strip().lower())
@@ -170,46 +167,39 @@ class SportMatcher:
 
     def match_channel(self, channel_id: str) -> dict | None:
         low = (channel_id or "").lower()
-
         for pattern in self.exclude_patterns:
             if pattern in low:
                 return None
-
         for entry in self.channels:
             if entry["match"].lower() in low:
                 return entry
         return None
 
-    def _image_urls(self, backdrop_filename: str | None, poster_filename: str | None) -> dict:
-        def build(filename: str | None) -> str | None:
-            if not filename:
+    def _image_urls(self, backdrop_value: str | None, poster_value: str | None) -> dict:
+        def build(value: str | None) -> str | None:
+            if not value:
                 return None
-            return self.image_base_url + quote(filename)
+            if is_full_url(value):
+                return value.strip()
+            return self.image_base_url + quote(value)
 
-        return {"backdrop": build(backdrop_filename), "poster": build(poster_filename)}
+        return {"backdrop": build(backdrop_value), "poster": build(poster_value)}
 
-    def _real_match(self, backdrop_filename: str | None, poster_filename: str | None) -> dict | None:
-        if not backdrop_filename and not poster_filename:
+    def _real_match(self, backdrop_value: str | None, poster_value: str | None) -> dict | None:
+        if not backdrop_value and not poster_value:
             return None
-        return self._image_urls(backdrop_filename, poster_filename)
+        return self._image_urls(backdrop_value, poster_value)
 
     def prefers_tmdb(self, raw_title: str) -> bool:
         return normalize_title(raw_title) in self.prefer_tmdb_titles
 
     def _lookup_override(self, norm: str) -> dict | None:
-        """Trin 1a: eksakt match. Trin 1b: kolon-strippet fallback (se
-        strip_colons() docstring for baggrund)."""
         override = self.program_overrides.get(norm)
         if override:
             match = self._real_match(override.get("backdrop"), override.get("poster"))
             if match:
                 return match
 
-        # BEMÆRK: tjekkes UANSET om 'norm' selv indeholder en kolon - en
-        # override-NØGLE kan sagtens være skrevet MED kolon, selvom selve
-        # EPG-titlen ikke har en (fx hvis overriden ved en fejl er tastet
-        # som "golf: pga tour" for en titel der reelt hedder "Golf PGA Tour"
-        # uden kolon). Denne fallback dækker begge retninger symmetrisk.
         stripped = strip_colons(norm)
         override = self.program_overrides_colon_stripped.get(stripped)
         if override:

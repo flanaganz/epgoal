@@ -1,28 +1,13 @@
 {
-  "DR2 Denmark (DK,DA).dk": {
-    "EM i atletik -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/EM%20i%20atletik.jpg": 5
-  },
-  "DR2 HD (T).dk": {
-    "EM i atletik -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/EM%20i%20atletik.jpg": 5
-  },
-  "DR2.dk": {
-    "EM i atletik -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/EM%20i%20atletik.jpg": 5
-  },
   "TV3+ Denmark (DK,DA).dk": {
-    "SuperligaTilsynet -> TMDb": 1,
-    "UEFA Europa og Conference League -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/UEFA%20Europa%20og%20Conference%20League.jpg": 1,
-    "UEFA Super Cup -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/UEFA%20Super%20Cup.jpg": 1,
-    "UEFA Super Cup Studio -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/UEFA%20Super%20Cup%20Studio.jpg": 2
+    "SuperligaTilsynet -> TMDb": 1
   },
   "TV3+ HD (D) (T).dk": {
-    "DP World Tour: Danish Golf Championship -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/DP%20World%20Tour%20Danish%20Golf%20Championship.jpg": 1,
+    "DP World Tour: Danish Golf Championship -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Golf%20PGA%20Tour.jpg": 1,
     "SuperligaTilsynet -> TMDb": 1
   },
   "TV3+.dk": {
-    "DP World Tour: Danish Golf Championship -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/DP%20World%20Tour%20Danish%20Golf%20Championship.jpg": 1,
-    "SuperligaTilsynet -> TMDb": 3,
-    "UEFA Europa og Conference League -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/UEFA%20Europa%20og%20Conference%20League.jpg": 1,
-    "UEFA Super Cup -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/UEFA%20Super%20Cup.jpg": 2,
-    "UEFA Super Cup Studio -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/UEFA%20Super%20Cup%20Studio.jpg": 4
+    "DP World Tour: Danish Golf Championship -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Golf%20PGA%20Tour.jpg": 1,
+    "SuperligaTilsynet -> TMDb": 3
   }
 }
