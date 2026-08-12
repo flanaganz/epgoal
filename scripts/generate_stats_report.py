@@ -1,13 +1,20 @@
 #!/usr/bin/env python3
 """
 generate_stats_report.py — omfattende, selvstændig HTML5-statistikrapport for
-det danske backdrop-sideprojekt (danish_backdrops.py).
+det danske backdrop-sideprojekt (danish_backdrops.py) + kanal-sundhed.
 
 Læser:
     data/danish_artwork_cache.json          (alle TMDb-opslag)
     data/danish_artwork_review.xlsx         (godkendelses-status)
     data/manual_artwork_overrides.xlsx      (manuelle overrides, film/serier)
     data/danish_backdrops_run_log.json      (fuld kørselshistorik)
+    data/channel_health.json                (kanal-for-kanal artwork-dækning,
+                                              genereret af channel_health.py -
+                                              inspireret af brugerens tidligere
+                                              GoldEPG-rapport, men RETTET til at
+                                              summere samme kanal på tværs af
+                                              alle kildefiler i stedet for at
+                                              vise den flere gange)
 
 Skriver:
     output/danish_backdrops_report.html     (ÉN fil, ingen eksterne CDN'er,
@@ -15,6 +22,7 @@ Skriver:
 
 BRUG
     python3 scripts/generate_stats_report.py
+    (kør EFTER enrich_epg.py, danish_backdrops.py og channel_health.py)
 """
 from __future__ import annotations
 
@@ -32,21 +40,17 @@ DANISH_ARTWORK_CACHE_FILE = DATA_DIR / "danish_artwork_cache.json"
 DANISH_ARTWORK_REVIEW_FILE = DATA_DIR / "danish_artwork_review.xlsx"
 MANUAL_ARTWORK_OVERRIDES_FILE = DATA_DIR / "manual_artwork_overrides.xlsx"
 DANISH_BACKDROPS_RUN_LOG_FILE = DATA_DIR / "danish_backdrops_run_log.json"
+CHANNEL_HEALTH_FILE = DATA_DIR / "channel_health.json"
 REPORT_FILE = OUTPUT_DIR / "danish_backdrops_report.html"
 
 MAX_HISTORY_ROWS = 20
 MAX_UNMATCHED_ROWS = 40
+MAX_MISSING_CHANNELS = 10
 
 COLORS = {
-    "found": "#22c55e",
-    "not_found": "#334155",
-    "approved": "#3b82f6",
-    "pending": "#f59e0b",
-    "flagged": "#ef4444",
-    "manual": "#a855f7",
-    "sport": "#ec4899",
-    "cache_hit": "#38bdf8",
-    "fresh_call": "#fb923c",
+    "found": "#22c55e", "not_found": "#334155", "approved": "#3b82f6",
+    "pending": "#f59e0b", "flagged": "#ef4444", "manual": "#a855f7",
+    "sport": "#ec4899", "cache_hit": "#38bdf8", "fresh_call": "#fb923c",
     "grid": "#334155",
 }
 
@@ -97,7 +101,6 @@ def load_review_status(path: Path) -> tuple[int, int, dict[str, str]]:
 
 
 def load_manual_overrides_summary(path: Path) -> list[dict]:
-    """Returnerer liste af {'title', 'channel', 'url', 'note'} for rapportering."""
     if not path.exists():
         return []
     try:
@@ -140,10 +143,6 @@ def load_manual_overrides_summary(path: Path) -> list[dict]:
     return rows
 
 
-# --------------------------------------------------------------------------
-# SVG-hjælpefunktioner
-# --------------------------------------------------------------------------
-
 def esc(s) -> str:
     return (str(s).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
             .replace('"', "&quot;"))
@@ -177,12 +176,8 @@ def donut_chart_svg(segments: list[tuple[str, float, str]], size: int = 210, hol
         x2o, y2o = point(end_angle, r_outer)
         x1i, y1i = point(end_angle, r_inner)
         x2i, y2i = point(angle, r_inner)
-        path = (
-            f'M {x1o:.2f},{y1o:.2f} '
-            f'A {r_outer:.2f},{r_outer:.2f} 0 {large_arc} 1 {x2o:.2f},{y2o:.2f} '
-            f'L {x1i:.2f},{y1i:.2f} '
-            f'A {r_inner:.2f},{r_inner:.2f} 0 {large_arc} 0 {x2i:.2f},{y2i:.2f} Z'
-        )
+        path = (f'M {x1o:.2f},{y1o:.2f} A {r_outer:.2f},{r_outer:.2f} 0 {large_arc} 1 {x2o:.2f},{y2o:.2f} '
+                f'L {x1i:.2f},{y1i:.2f} A {r_inner:.2f},{r_inner:.2f} 0 {large_arc} 0 {x2i:.2f},{y2i:.2f} Z')
         title = f"{esc(label)}: {int(value):,} ({value/total*100:.1f}%)"
         paths.append(f'<path d="{path}" fill="{color}"><title>{title}</title></path>')
         angle = end_angle
@@ -197,7 +192,6 @@ def bar_chart_svg(categories: list[str], series: list[tuple[str, list[float], st
     pad_left, pad_right, pad_top, pad_bottom = 56, 20, 24, 70
     plot_w = width - pad_left - pad_right
     plot_h = height - pad_top - pad_bottom
-
     max_val = max((max(vals) if vals else 0) for _, vals, _ in series) or 1
     max_val = max_val * 1.15
     n_cat = len(categories) or 1
@@ -302,6 +296,16 @@ def line_chart_svg(x_labels: list[str], series: list[tuple[str, list[float], str
     return f'<svg viewBox="0 0 {width} {height}" width="100%" height="{height}">{"".join(parts)}</svg>'
 
 
+def pct_badge(pct: float) -> str:
+    if pct >= 90:
+        cls = "ok"
+    elif pct >= 50:
+        cls = "mid"
+    else:
+        cls = "warn"
+    return f'<span class="badge {cls}">{pct:.1f}%</span>'
+
+
 CSS = """
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body {
@@ -339,12 +343,14 @@ svg text.legend-label { fill: #cbd5e1; font-size: 11px; }
 svg text.donut-total { fill: #f1f5f9; font-size: 24px; font-weight: 800; }
 svg text.donut-sub { fill: #94a3b8; font-size: 11px; }
 table.datatable { width: 100%; border-collapse: collapse; font-size: 12.5px; }
-table.datatable th { text-align: left; color: #94a3b8; font-weight: 700; padding: 8px 10px; border-bottom: 1px solid rgba(148,163,184,0.25); position: sticky; top:0; background: rgba(15,23,42,0.9); }
+table.datatable th { text-align: left; color: #94a3b8; font-weight: 700; padding: 8px 10px; border-bottom: 1px solid rgba(148,163,184,0.25); position: sticky; top:0; background: rgba(15,23,42,0.95); }
 table.datatable td { padding: 7px 10px; border-bottom: 1px solid rgba(148,163,184,0.08); vertical-align: top; }
 table.datatable tr:hover td { background: rgba(148,163,184,0.05); }
-.table-scroll { max-height: 340px; overflow-y: auto; border-radius: 10px; }
+table.datatable td.num { text-align: right; font-variant-numeric: tabular-nums; }
+.table-scroll { max-height: 380px; overflow-y: auto; border-radius: 10px; }
 .badge { display: inline-block; padding: 2px 9px; border-radius: 999px; font-size: 10.5px; font-weight: 700; }
 .badge.warn { background: rgba(239,68,68,0.15); color: #ef4444; }
+.badge.mid { background: rgba(245,158,11,0.15); color: #f59e0b; }
 .badge.ok { background: rgba(34,197,94,0.15); color: #22c55e; }
 .mono { font-family: 'SF Mono', Consolas, monospace; font-size: 11.5px; color: #94a3b8; word-break: break-all; }
 .empty-state { color: #94a3b8; font-size: 13.5px; padding: 30px 0; text-align: center; }
@@ -354,7 +360,7 @@ a { color: #38bdf8; }
 
 
 def build_html(cache: dict, run_log: list, approved: int, flagged: int, notes: dict,
-               manual_rows: list[dict]) -> str:
+               manual_rows: list[dict], channel_health: dict | None) -> str:
     total_titles = len(cache)
     found = sum(1 for v in cache.values() if v.get("backdrop"))
     not_found = total_titles - found
@@ -369,7 +375,6 @@ def build_html(cache: dict, run_log: list, approved: int, flagged: int, notes: d
     last_run_str = time.strftime("%d/%m/%Y %H:%M", time.localtime(latest["timestamp"])) if latest else "—"
     generated_at = time.strftime("%d. %B %Y kl. %H:%M")
 
-    # --- KPI-kort ---
     cards = [
         ("Unikke titler i cache", f"{total_titles:,}", ""),
         ("Dansk backdrop fundet", f"{found:,}", "green"),
@@ -380,12 +385,13 @@ def build_html(cache: dict, run_log: list, approved: int, flagged: int, notes: d
         ("Manuel matchet (seneste)", f"{len(manual_matched_latest):,}", "pink"),
         ("Kørsler i historik", f"{len(run_log):,}", ""),
     ]
+    if channel_health:
+        cards.append(("Kanal-artwork-dækning", f"{channel_health.get('overall_artwork_pct', 0):.1f}%", "green"))
     cards_html = "".join(
         f'<div class="card"><div class="label">{esc(l)}</div><div class="value {cls}">{v}</div></div>'
         for l, v, cls in cards
     )
 
-    # --- Donuts ---
     donut_found = donut_chart_svg([("Fundet", found, COLORS["found"]), ("Ikke fundet", not_found, COLORS["not_found"])])
     if found > 0:
         donut_review = donut_chart_svg([
@@ -396,7 +402,6 @@ def build_html(cache: dict, run_log: list, approved: int, flagged: int, notes: d
     else:
         donut_review = '<div class="empty-state">Ingen fund endnu</div>'
 
-    # --- Bar chart: seneste kørsel pr. fil ---
     if latest:
         per_file = latest.get("per_file", {})
         categories = list(per_file.keys())
@@ -413,10 +418,9 @@ def build_html(cache: dict, run_log: list, approved: int, flagged: int, notes: d
     else:
         per_file_bar = '<div class="empty-state">Ingen kørselshistorik endnu</div>'
 
-    # --- Historik-linjediagrammer ---
     if len(run_log) >= 2:
-        x_labels = [time.strftime("%d/%m %H:%M", time.localtime(r["timestamp"])) for r in run_log[-MAX_HISTORY_ROWS:]]
         recent = run_log[-MAX_HISTORY_ROWS:]
+        x_labels = [time.strftime("%d/%m %H:%M", time.localtime(r["timestamp"])) for r in recent]
         cache_sizes = [r.get("cache_size_after", 0) for r in recent]
         unique_found_hist = [r.get("unique_found", 0) for r in recent]
         unique_pending_hist = [r.get("unique_pending", 0) for r in recent]
@@ -439,26 +443,22 @@ def build_html(cache: dict, run_log: list, approved: int, flagged: int, notes: d
         empty = '<div class="empty-state">Kør scriptet flere gange for at se udvikling over tid</div>'
         cache_growth_chart = found_pending_chart = manual_chart = tmdb_calls_chart = empty
 
-    # --- Historik-tabel ---
     history_rows = ""
     for r in reversed(run_log[-MAX_HISTORY_ROWS:]):
         date_str = time.strftime("%d/%m/%Y %H:%M", time.localtime(r["timestamp"]))
         history_rows += (
-            f"<tr><td>{date_str}</td>"
-            f"<td>{r.get('unique_found', 0):,}</td>"
-            f"<td>{r.get('approved_count', 0):,}</td>"
-            f"<td>{r.get('unique_pending', 0):,}</td>"
-            f"<td>{len(r.get('manual_titles_matched', [])):,}</td>"
-            f"<td>{r.get('cache_size_after', 0):,}</td></tr>"
+            f"<tr><td>{date_str}</td><td class='num'>{r.get('unique_found', 0):,}</td>"
+            f"<td class='num'>{r.get('approved_count', 0):,}</td><td class='num'>{r.get('unique_pending', 0):,}</td>"
+            f"<td class='num'>{len(r.get('manual_titles_matched', [])):,}</td>"
+            f"<td class='num'>{r.get('cache_size_after', 0):,}</td></tr>"
         )
     history_table = (
         f'<div class="table-scroll"><table class="datatable"><thead><tr>'
-        f'<th>Tidspunkt</th><th>Fundet (unikt)</th><th>Godkendt</th><th>Afventer</th>'
-        f'<th>Manuel matchet</th><th>Cache-størrelse</th></tr></thead><tbody>{history_rows}</tbody></table></div>'
+        f'<th>Tidspunkt</th><th class="num">Fundet</th><th class="num">Godkendt</th><th class="num">Afventer</th>'
+        f'<th class="num">Manuel matchet</th><th class="num">Cache-størrelse</th></tr></thead><tbody>{history_rows}</tbody></table></div>'
         if history_rows else '<div class="empty-state">Ingen kørselshistorik endnu</div>'
     )
 
-    # --- Manuelle overrides: definerede + status ---
     manual_def_rows = ""
     matched_set = set(manual_matched_latest)
     unmatched_set = set(manual_unmatched_latest)
@@ -490,7 +490,6 @@ def build_html(cache: dict, run_log: list, approved: int, flagged: int, notes: d
             f'<ul style="padding-left:20px; font-size:13px; line-height:1.9;">{items}</ul></div>'
         )
 
-    # --- Noter fra godkendelsesfilen ---
     notes_rows = ""
     if notes:
         for key, note in sorted(notes.items()):
@@ -501,6 +500,65 @@ def build_html(cache: dict, run_log: list, approved: int, flagged: int, notes: d
         f'<tbody>{notes_rows}</tbody></table></div>'
         if notes_rows else '<div class="empty-state">Ingen noter endnu</div>'
     )
+
+    # --- NYT: Kanal-sundhed (inspireret af brugerens tidligere GoldEPG-rapport) ---
+    channel_health_section = ""
+    if channel_health and channel_health.get("channels"):
+        channels = channel_health["channels"]
+        sorted_channels = sorted(channels.items(), key=lambda kv: kv[1]["programmes"], reverse=True)
+
+        health_rows = ""
+        for cid, s in sorted_channels:
+            prog = s["programmes"]
+            artwork_pct = (s["with_artwork"] / prog * 100) if prog else 0
+            desc_pct = (s["with_desc"] / prog * 100) if prog else 0
+            health_rows += (
+                f"<tr><td>{esc(s['display_name'])}</td><td class='num'>{prog:,}</td>"
+                f"<td class='num'>{pct_badge(artwork_pct)}</td><td class='num'>{pct_badge(desc_pct)}</td></tr>"
+            )
+        health_table = (
+            f'<div class="table-scroll"><table class="datatable"><thead><tr>'
+            f'<th>Kanal</th><th class="num">Programmer</th><th class="num">Artwork %</th><th class="num">Beskrivelse %</th>'
+            f'</tr></thead><tbody>{health_rows}</tbody></table></div>'
+        )
+
+        missing = [(cid, s, s["programmes"] - s["with_artwork"]) for cid, s in channels.items()]
+        missing = [m for m in missing if m[2] > 0]
+        missing.sort(key=lambda m: m[2], reverse=True)
+        missing = missing[:MAX_MISSING_CHANNELS]
+
+        missing_rows = ""
+        for cid, s, missing_count in missing:
+            prog = s["programmes"]
+            pct = (s["with_artwork"] / prog * 100) if prog else 0
+            missing_rows += (
+                f"<tr><td>{esc(s['display_name'])}</td><td class='num'>{missing_count:,}</td>"
+                f"<td class='num'>{prog:,}</td><td class='num'>{pct_badge(pct)}</td></tr>"
+            )
+        missing_table = (
+            f'<div class="table-scroll"><table class="datatable"><thead><tr>'
+            f'<th>Kanal</th><th class="num">Manglende</th><th class="num">Total</th><th class="num">Dækning</th>'
+            f'</tr></thead><tbody>{missing_rows}</tbody></table></div>'
+            if missing_rows else '<div class="empty-state">Alle kanaler har 100% artwork-dækning 🎉</div>'
+        )
+
+        ch_snapshot_str = time.strftime("%d/%m/%Y %H:%M", time.localtime(channel_health["timestamp"]))
+        channel_health_section = f"""
+<div class="section-title">Kanal-sundhed <span style="text-transform:none;font-weight:400;color:#64748b;">(snapshot {ch_snapshot_str} · {len(channels):,} kanaler)</span></div>
+<div class="panel">
+    <h2>Alle kanaler <span class="sub">sorteret efter flest programmer</span></h2>
+    {health_table}
+</div>
+<div class="panel">
+    <h2>Top {MAX_MISSING_CHANNELS} kanaler med mest manglende artwork <span class="sub">absolut antal, ikke procent</span></h2>
+    {missing_table}
+</div>
+"""
+    else:
+        channel_health_section = f"""
+<div class="section-title">Kanal-sundhed</div>
+<div class="panel"><div class="empty-state">Kør scripts/channel_health.py for at se kanal-for-kanal artwork-dækning.</div></div>
+"""
 
     html = f"""<!DOCTYPE html>
 <html lang="da">
@@ -563,7 +621,7 @@ def build_html(cache: dict, run_log: list, approved: int, flagged: int, notes: d
     <h2>Kørselshistorik (tabel)</h2>
     {history_table}
 </div>
-
+{channel_health_section}
 <div class="section-title">Manuelle overrides (film/serier, ikke sport)</div>
 {unmatched_warning}
 <div class="panel">
@@ -577,7 +635,7 @@ def build_html(cache: dict, run_log: list, approved: int, flagged: int, notes: d
     {notes_table}
 </div>
 
-<footer>epgoal · danish_backdrops + manuelle overrides · rapporten opdateres hver gang du kører generate_stats_report.py</footer>
+<footer>epgoal · danish_backdrops + manuelle overrides + kanal-sundhed · rapporten opdateres hver gang du kører generate_stats_report.py</footer>
 </div>
 </body>
 </html>"""
@@ -592,9 +650,10 @@ def main() -> None:
     run_log = load_json(DANISH_BACKDROPS_RUN_LOG_FILE, [])
     approved, flagged, notes = load_review_status(DANISH_ARTWORK_REVIEW_FILE)
     manual_rows = load_manual_overrides_summary(MANUAL_ARTWORK_OVERRIDES_FILE)
+    channel_health = load_json(CHANNEL_HEALTH_FILE, None)
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    html = build_html(cache, run_log, approved, flagged, notes, manual_rows)
+    html = build_html(cache, run_log, approved, flagged, notes, manual_rows, channel_health)
     REPORT_FILE.write_text(html, encoding="utf-8")
 
     print("=== Fuld statistikrapport genereret ===")
