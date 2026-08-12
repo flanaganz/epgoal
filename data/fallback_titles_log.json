@@ -1,24 +1,25 @@
 {
   "TV3 Sport Denmark (DK,DA).dk": {
-    "Danskerklubben": 2
+    "Danskerklubben": 1
   },
   "TV3 Sport HD (D) (T).dk": {
-    "1. Division": 1,
-    "Danskerklubben": 2,
+    "Danskerklubben": 1,
     "RaceTV.dk": 1,
     "Spurs - The Pochettino Era": 1,
-    "UEFA SUPER CUP PARIS SAINT-GERMAIN - ASTON VILLA": 1
+    "UEFA SUPER CUP PARIS SAINT-GERMAIN - ASTON VILLA": 4
   },
   "TV3 Sport.dk": {
-    "Danskerklubben": 6,
+    "Danskerklubben": 3,
     "FastZone: Fastzone": 2,
-    "Paris Saint-Germain - Aston Villa": 1,
-    "UEFA Super Cup Studio: Paris Saint-Germain - Aston Villa": 1
+    "Paris Saint-Germain - Aston Villa": 4,
+    "UEFA Super Cup Studio: Paris Saint-Germain - Aston Villa": 4
   },
   "Viaplay Sport News HD (D) (T).dk": {
-    "Danskerklubben": 6
+    "Danskerklubben": 2,
+    "UEFA Conference League Qualification Studio": 2
   },
   "Viaplay Sport News.dk": {
-    "Danskerklubben": 8
+    "Danskerklubben": 4,
+    "UEFA Conference League Qualification Studio": 2
   }
 }
