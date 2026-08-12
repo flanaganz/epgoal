@@ -2,50 +2,10 @@
 """
 danish_backdrops.py — separat sideprojekt til danske TMDb-backdrops (Mac mini / always-on)
 
-FORMÅL
-    UHF vælger selv billeder fra TMDb for programmer uden <icon>/<backdrop> i
-    XML'en, men understøtter IKKE at vælge foretrukket sprog. Dette script
-    slår titler op på TMDb, tjekker om der findes et ÆGTE dansk BACKDROP
-    (include_image_language=da, UDEN fallback til andre sprog), og indlejrer
-    det direkte i XML'en - men KUN for titler, du selv har godkendt manuelt.
-
-RETTELSE (2026-08-08): SKRIVER NU <icon>, IKKE <backdrop>
-    Grundig fejlfinding (2328 <backdrop>-tags bekræftet til stede i XML'en,
-    med gyldige TMDb-URL'er, korrekt struktur) viste at UHF tilsyneladende
-    IGNORERER <backdrop>-tagget fuldstændigt og udelukkende bruger <icon> som
-    kilde til artwork. Scriptet skriver derfor nu det danske BACKDROP-billede
-    (16:9 landskabsformat, IKKE et poster) ind som <icon src="...">. Der er
-    STADIG ingen ændring i selve billedvalget - det er fortsat kun ægte
-    danske backdrops (aldrig postere) der bruges, kun tagget er ændret.
-
-    "already_had_artwork"-tjekket (springer sport-kurateret indhold over)
-    tjekker FORTSAT begge tags (<icon> ELLER <backdrop>) for ikke at overskrive
-    noget, sports-scriptet (enrich_epg.py) allerede har sat - det er uændret,
-    da sport-programmer typisk får BEGGE tags fra enrich_epg.py.
-
-GODKENDELSES-WORKFLOW
-    1) Scriptet slår altid nye titler op og gemmer fund i
-       data/danish_artwork_cache.json.
-    2) Kør scripts/export_danish_artwork_review.py for at eksportere alle
-       BACKDROP-fund til data/danish_artwork_review.xlsx.
-    3) Åbn Excel-filen, markér "X" i kolonnen "Godkendt (X)", gem filen.
-    4) Kør dette script igen - kun de X-markerede titler får deres backdrop
-       indsat (som <icon>).
-
-    Hvis data/danish_artwork_review.xlsx slet ikke findes endnu, injicerer
-    scriptet INTET og fortæller dig at køre eksport-scriptet først.
-
-ADSKILLELSE FRA SPORTS-SCRIPTET (enrich_epg.py) - VIGTIGT
-    - Dette script rører ALDRIG data/cache.json (sports-scriptets cache).
-    - Det har sin egen cache: data/danish_artwork_cache.json.
-    - Det springer AUTOMATISK alle programmer over, der allerede har et
-      <icon> eller <backdrop> tag (dvs. alt sport-kurateret indhold).
-    - Kør ALTID dette script EFTER enrich_epg.py.
-
-BRUG
-    python3 scripts/danish_backdrops.py
-    python3 scripts/danish_backdrops.py --limit 50      (test på kun 50 nye unikke titler)
-    python3 scripts/danish_backdrops.py --files denmark1 (kør kun på én fil)
+Se README/tidligere dokumentation for fuld baggrund. Denne version tilføjer:
+- Detaljeret logning af manuelle overrides (matchet/ikke-matchet titel-lister,
+  ikke kun optællinger) til data/danish_backdrops_run_log.json, så
+  generate_stats_report.py kan vise historik og "mistænkte tastefejl"-lister.
 """
 from __future__ import annotations
 
@@ -71,7 +31,8 @@ CONFIG_FILE = ROOT / "config.json"
 DANISH_ARTWORK_CACHE_FILE = DATA_DIR / "danish_artwork_cache.json"
 DANISH_ARTWORK_REVIEW_FILE = DATA_DIR / "danish_artwork_review.xlsx"
 DANISH_BACKDROPS_RUN_LOG_FILE = DATA_DIR / "danish_backdrops_run_log.json"
-MAX_RUN_LOG_ENTRIES = 100
+MANUAL_ARTWORK_OVERRIDES_FILE = DATA_DIR / "manual_artwork_overrides.xlsx"
+MAX_RUN_LOG_ENTRIES = 200
 
 ENV_FILE = ROOT / ".env"
 if ENV_FILE.exists():
@@ -115,27 +76,87 @@ def normalize_title(title: str) -> str:
     return t.strip().lower()
 
 
-def load_approved_keys(review_path: Path) -> set[str] | None:
-    if not review_path.exists():
-        return None
+def load_manual_overrides(path: Path) -> tuple[dict[str, list[dict]], dict[str, str]]:
+    """Returnerer (index, display_titles).
+    index: normaliseret titel -> liste af {'channel', 'backdrop_url'}.
+    display_titles: normaliseret titel -> original (pænt formateret) titel,
+    til brug i rapportering."""
+    index: dict[str, list[dict]] = {}
+    display_titles: dict[str, str] = {}
+    if not path.exists():
+        return index, display_titles
 
     try:
         from openpyxl import load_workbook
     except ImportError:
-        print("⚠️  openpyxl er ikke installeret - kan ikke læse godkendelsesfilen. "
+        print("⚠️  openpyxl er ikke installeret - kan ikke læse manuelle overrides. "
               "Kør: pip install openpyxl", file=sys.stderr)
+        return index, display_titles
+
+    try:
+        wb = load_workbook(path, data_only=True)
+        ws = wb["Manuelle overrides"] if "Manuelle overrides" in wb.sheetnames else wb.active
+    except Exception as exc:
+        print(f"⚠️  Kunne ikke åbne {path.name}: {exc}", file=sys.stderr)
+        return index, display_titles
+
+    headers = [c.value for c in ws[1]]
+    try:
+        title_col = headers.index("Titel (som i EPG)")
+        channel_col = headers.index("Kanal (valgfri)")
+        url_col = headers.index("Backdrop URL")
+    except ValueError:
+        print(f"⚠️  {path.name} mangler forventede kolonner - ingen manuelle overrides indlæst.", file=sys.stderr)
+        return index, display_titles
+
+    for row in ws.iter_rows(min_row=2):
+        title_val = row[title_col].value
+        url_val = row[url_col].value
+        if not title_val or not url_val:
+            continue
+        title = str(title_val).strip()
+        url = str(url_val).strip()
+        if not title or not url or title.upper().startswith("EKSEMPEL"):
+            continue
+        norm = normalize_title(title)
+        display_titles[norm] = title
+        channel_val = row[channel_col].value
+        channel = str(channel_val).strip().lower() if channel_val else ""
+        index.setdefault(norm, []).append({"channel": channel, "backdrop_url": url})
+    return index, display_titles
+
+
+def resolve_manual_override(title: str, channel_id: str, manual_index: dict[str, list[dict]]) -> str | None:
+    norm = normalize_title(title)
+    entries = manual_index.get(norm)
+    if not entries:
+        return None
+    channel_low = (channel_id or "").lower()
+    for e in entries:
+        if e["channel"] and e["channel"] in channel_low:
+            return e["backdrop_url"]
+    for e in entries:
+        if not e["channel"]:
+            return e["backdrop_url"]
+    return None
+
+
+def load_approved_keys(review_path: Path) -> set[str] | None:
+    if not review_path.exists():
+        return None
+    try:
+        from openpyxl import load_workbook
+    except ImportError:
+        print("⚠️  openpyxl er ikke installeret.", file=sys.stderr)
         return None
 
     wb = load_workbook(review_path, data_only=True)
     ws = wb.active
-
     headers = [c.value for c in ws[1]]
     try:
         key_col = headers.index("Nøgle (intern)")
         godkendt_col = headers.index("Godkendt (X)")
     except ValueError:
-        print(f"⚠️  {review_path.name} mangler forventede kolonner - ingen titler godkendes denne gang.",
-              file=sys.stderr)
         return set()
 
     approved: set[str] = set()
@@ -193,11 +214,7 @@ def tmdb_danish_images(media_type: str, tmdb_id: int) -> tuple[str | None, str |
 
 def resolve_danish_artwork(raw_title: str, cache: dict, cache_max_age_days: int,
                            backdrop_size: str, poster_size: str) -> tuple[dict | None, bool]:
-    """Returnerer (dict med 'backdrop' ELLER None hvis intet dansk BACKDROP
-    fundet, bool om resultatet kom fra cache). 'found' afgøres UDELUKKENDE af
-    backdrop - et dansk poster uden dansk backdrop tæller IKKE som fundet."""
     key = normalize_title(raw_title)
-
     cached = cache.get(key)
     if cached is not None and (time.time() - cached.get("ts", 0)) / 86400 < cache_max_age_days:
         if cached.get("backdrop"):
@@ -219,7 +236,6 @@ def resolve_danish_artwork(raw_title: str, cache: dict, cache_max_age_days: int,
         return None, False
 
     cache[key] = {"title": raw_title, "backdrop": backdrop_url, "poster": poster_url, "ts": time.time()}
-
     if backdrop_url:
         return {"backdrop": backdrop_url, "poster": poster_url}, False
     return None, False
@@ -228,23 +244,21 @@ def resolve_danish_artwork(raw_title: str, cache: dict, cache_max_age_days: int,
 def process_xml_file(xml_path: Path, cache: dict, cache_max_age_days: int,
                       backdrop_size: str, poster_size: str, limit: int | None,
                       titles_processed_this_run: set, approved_keys: set[str] | None,
-                      all_found_keys: set[str]) -> dict:
+                      all_found_keys: set[str], manual_index: dict[str, list[dict]],
+                      manual_titles_matched: set[str]) -> dict:
     tree = ET.parse(xml_path)
     root = tree.getroot()
 
     stats = {
         "programmes": 0, "already_had_artwork": 0, "checked": 0,
         "danish_found": 0, "danish_not_found": 0, "danish_injected": 0,
-        "cache_hits": 0, "fresh_calls": 0,
+        "cache_hits": 0, "fresh_calls": 0, "manual_override_injected": 0,
     }
-
     resolved_this_file: dict[str, dict | None] = {}
 
     for programme in root.findall("programme"):
         stats["programmes"] += 1
 
-        # Uændret: springer sport-kurateret indhold over, uanset hvilket af de
-        # to tags enrich_epg.py måtte have brugt.
         if programme.find("icon") is not None or programme.find("backdrop") is not None:
             stats["already_had_artwork"] += 1
             continue
@@ -253,6 +267,16 @@ def process_xml_file(xml_path: Path, cache: dict, cache_max_age_days: int,
         if title_el is None or not title_el.text:
             continue
         title = title_el.text
+
+        chan_id = programme.get("channel", "")
+        manual_url = resolve_manual_override(title, chan_id, manual_index)
+        if manual_url:
+            el = ET.SubElement(programme, "icon")
+            el.set("src", manual_url)
+            stats["manual_override_injected"] += 1
+            manual_titles_matched.add(normalize_title(title))
+            continue
+
         norm = normalize_title(title)
 
         if limit is not None and norm not in titles_processed_this_run and len(titles_processed_this_run) >= limit:
@@ -276,9 +300,6 @@ def process_xml_file(xml_path: Path, cache: dict, cache_max_age_days: int,
 
         art = resolved_this_file[norm]
         if art and approved_keys is not None and norm in approved_keys:
-            # RETTET: skriver nu <icon> (bekræftet: UHF læser dette tag),
-            # men bruger STADIG backdrop-URL'en (16:9 landskabsbillede,
-            # aldrig et poster) - kun selve XML-tagget er ændret.
             el = ET.SubElement(programme, "icon")
             el.set("src", art["backdrop"])
             stats["danish_injected"] += 1
@@ -290,7 +311,10 @@ def process_xml_file(xml_path: Path, cache: dict, cache_max_age_days: int,
 def append_run_log(log_path: Path, per_file_stats: dict, grand_total: dict,
                     cache_size_before: int, cache_size_after: int,
                     approved_count: int, review_exists: bool,
-                    unique_found: int, unique_pending: int) -> None:
+                    unique_found: int, unique_pending: int,
+                    manual_defined_count: int,
+                    manual_titles_matched_display: list[str],
+                    manual_titles_unmatched_display: list[str]) -> None:
     history = load_json(log_path, [])
     if not isinstance(history, list):
         history = []
@@ -306,6 +330,9 @@ def append_run_log(log_path: Path, per_file_stats: dict, grand_total: dict,
         "unique_found": unique_found,
         "unique_pending": unique_pending,
         "review_file_existed": review_exists,
+        "manual_defined_count": manual_defined_count,
+        "manual_titles_matched": manual_titles_matched_display,
+        "manual_titles_unmatched": manual_titles_unmatched_display,
     })
     history = history[-MAX_RUN_LOG_ENTRIES:]
     save_json(log_path, history)
@@ -329,14 +356,12 @@ def git_push(repo_dir: Path, commit_message: str) -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Tilføj GODKENDTE danske TMDb-backdrops (som <icon>) til ikke-sport-programmer.")
-    parser.add_argument("--limit", type=int, default=None,
-                        help="Maks antal NYE (ikke-cachede) unikke titler at slå op.")
-    parser.add_argument("--files", nargs="*", default=None,
-                        help="Kør kun på specifikke kildenavne (fx denmark1 denmark3).")
+    parser.add_argument("--limit", type=int, default=None)
+    parser.add_argument("--files", nargs="*", default=None)
     args = parser.parse_args()
 
     if not TMDB_API_KEY:
-        sys.exit("❌ TMDB_API_KEY er ikke sat i .env - kan ikke slå danske backdrops op.")
+        sys.exit("❌ TMDB_API_KEY er ikke sat i .env.")
 
     config = load_json(CONFIG_FILE, {})
     sources = config.get("sources", [])
@@ -362,21 +387,24 @@ def main() -> None:
     approved_keys = load_approved_keys(DANISH_ARTWORK_REVIEW_FILE)
     review_exists = DANISH_ARTWORK_REVIEW_FILE.exists()
 
+    manual_index, manual_display_titles = load_manual_overrides(MANUAL_ARTWORK_OVERRIDES_FILE)
+    manual_titles_matched: set[str] = set()
+
     print("=== Danske TMDb-backdrops (separat sideprojekt) — skrives som <icon> ===")
-    print(f"Cache-fil: {DANISH_ARTWORK_CACHE_FILE.name} (separat fra sports-scriptets cache.json)")
     print(f"Cache indeholder {cache_size_before:,} tidligere opslag (levetid: {cache_max_age_days} dage)")
+    if MANUAL_ARTWORK_OVERRIDES_FILE.exists():
+        print(f"Manuelle overrides indlæst: {len(manual_index):,} unikke titler")
+    else:
+        print(f"ℹ️  {MANUAL_ARTWORK_OVERRIDES_FILE.name} findes ikke - ingen manuelle overrides denne gang.")
 
     if approved_keys is None:
-        print(f"⚠️  {DANISH_ARTWORK_REVIEW_FILE.name} findes IKKE endnu.")
-        print("    Der injiceres INGEN danske billeder i denne kørsel (kun opslag/cache opdateres).")
-        print("    Kør 'python3 scripts/export_danish_artwork_review.py' bagefter,")
-        print("    markér 'X' for de rigtige fund i Excel-filen, og kør dette script igen.")
+        print(f"⚠️  {DANISH_ARTWORK_REVIEW_FILE.name} findes IKKE endnu. Ingen TMDb-fund injiceres denne gang.")
         approved_keys = set()
     else:
-        print(f"Godkendelsesfil fundet: {len(approved_keys):,} unikke titler markeret med X vil blive injiceret.")
+        print(f"Godkendelsesfil fundet: {len(approved_keys):,} unikke titler markeret med X.")
 
     if args.limit:
-        print(f"⚠️  TEST-TILSTAND: maks {args.limit} NYE unikke titler slås op i denne kørsel")
+        print(f"⚠️  TEST-TILSTAND: maks {args.limit} nye unikke titler slås op.")
     print(f"Behandler filer: {', '.join(source_names)}")
 
     titles_processed_this_run: set = set()
@@ -384,30 +412,27 @@ def main() -> None:
     grand_total = {
         "programmes": 0, "already_had_artwork": 0, "checked": 0,
         "danish_found": 0, "danish_not_found": 0, "danish_injected": 0,
-        "cache_hits": 0, "fresh_calls": 0,
+        "cache_hits": 0, "fresh_calls": 0, "manual_override_injected": 0,
     }
     per_file_stats: dict[str, dict] = {}
 
     for name in source_names:
         xml_path = OUTPUT_DIR / f"{name}.xml"
         if not xml_path.exists():
-            print(f"\n⚠️  {xml_path} findes ikke - har du kørt enrich_epg.py først? Springer over.")
+            print(f"\n⚠️  {xml_path} findes ikke - kør enrich_epg.py først. Springer over.")
             continue
 
         print(f"\n📄 Behandler {xml_path.name} ...")
         stats = process_xml_file(
             xml_path, cache, cache_max_age_days, backdrop_size, poster_size,
             args.limit, titles_processed_this_run, approved_keys, all_found_keys,
+            manual_index, manual_titles_matched,
         )
         save_json(DANISH_ARTWORK_CACHE_FILE, cache)
 
-        print(f"   Programmer i alt              : {stats['programmes']:,}")
-        print(f"   Sprunget over (sport)          : {stats['already_had_artwork']:,}")
-        print(f"   Titler tjekket (denne fil)     : {stats['checked']:,}")
-        print(f"   Dansk BACKDROP fundet (denne fil): {stats['danish_found']:,}")
-        print(f"   Heraf GODKENDT og indsat som <icon>: {stats['danish_injected']:,} (forekomster, ikke unikke titler)")
-        print(f"   Bekræftet intet dansk backdrop : {stats['danish_not_found']:,}")
-        print(f"   (cache: {stats['cache_hits']:,} / friske TMDb-kald: {stats['fresh_calls']:,})")
+        print(f"   Programmer i alt: {stats['programmes']:,} | Sprunget over (sport): {stats['already_had_artwork']:,} "
+              f"| Manuel override: {stats['manual_override_injected']:,} | Tjekket: {stats['checked']:,} "
+              f"| Dansk fundet: {stats['danish_found']:,} | Godkendt+indsat: {stats['danish_injected']:,}")
 
         per_file_stats[name] = stats
         for k in grand_total:
@@ -420,27 +445,31 @@ def main() -> None:
     unique_approved_and_found = len(all_found_keys & approved_keys)
     unique_pending = unique_found - unique_approved_and_found
 
+    all_manual_keys = set(manual_index.keys())
+    unmatched_manual_keys = all_manual_keys - manual_titles_matched
+    manual_matched_display = sorted(manual_display_titles.get(k, k) for k in manual_titles_matched)
+    manual_unmatched_display = sorted(manual_display_titles.get(k, k) for k in unmatched_manual_keys)
+
     append_run_log(
         DANISH_BACKDROPS_RUN_LOG_FILE, per_file_stats, grand_total,
         cache_size_before, cache_size_after, len(approved_keys), review_exists,
         unique_found, unique_pending,
+        len(manual_index), manual_matched_display, manual_unmatched_display,
     )
 
     print("\n📊 SAMLET RAPPORT")
     print("--------------------------------")
     print(f"Programmer i alt              : {grand_total['programmes']:,}")
     print(f"Sprunget over (sport)          : {grand_total['already_had_artwork']:,}")
-    print(f"Injektioner i alt (forekomster, som <icon>): {grand_total['danish_injected']:,} "
-          "(SAMME titel kan indsættes flere gange, én gang pr. udsendelse i skemaet)")
-    print()
-    print(f"--- SANDE UNIKKE TAL (dedupliceret på tværs af alle {len(source_names)} filer) ---")
-    print(f"Unikke titler med dansk BACKDROP fundet : {unique_found:,}")
-    print(f"  - heraf GODKENDT (X i Excel)           : {unique_approved_and_found:,}")
-    print(f"  - heraf AFVENTER stadig godkendelse    : {unique_pending:,}")
-    print(f"Cache voksede fra {cache_size_before:,} til {cache_size_after:,} unikke titler i alt")
-    if unique_pending > 0:
-        print(f"💡 Åbn {DANISH_ARTWORK_REVIEW_FILE.name} og markér flere 'X' for at godkende de resterende "
-              f"{unique_pending:,} fund.")
+    print(f"Manuelle overrides indsat      : {grand_total['manual_override_injected']:,} "
+          f"({len(manual_titles_matched):,} unikke ud af {len(manual_index):,} defineret)")
+    if manual_unmatched_display:
+        print(f"⚠️  {len(manual_unmatched_display):,} manuelle overrides IKKE brugt (tjek stavning):")
+        for t in manual_unmatched_display:
+            print(f"     - {t}")
+    print(f"Unikke titler med dansk backdrop: {unique_found:,} (godkendt: {unique_approved_and_found:,}, "
+          f"afventer: {unique_pending:,})")
+    print(f"Cache voksede fra {cache_size_before:,} til {cache_size_after:,}")
     print("--------------------------------")
 
     if git_cfg.get("enabled", True):

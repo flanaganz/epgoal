@@ -1,22 +1,17 @@
 #!/usr/bin/env python3
 """
-generate_stats_report.py — genererer en flot, selvstændig HTML5-statistikrapport
-for det danske backdrop-sideprojekt (danish_backdrops.py).
-
-KUN BACKDROPS (rettet 2026-08-07): "Fundet"-tallet i denne rapport tæller nu
-UDELUKKENDE titler med et ægte dansk BACKDROP - postere indgår ikke længere
-(se danish_backdrops.py / export_danish_artwork_review.py for baggrund:
-UHF viste postere forkert beskåret, da de er portræt-format i en 16:9-ramme).
+generate_stats_report.py — omfattende, selvstændig HTML5-statistikrapport for
+det danske backdrop-sideprojekt (danish_backdrops.py).
 
 Læser:
-    data/danish_artwork_cache.json          (alle TMDb-opslag: fundet/ikke fundet)
-    data/danish_artwork_review.xlsx         (godkendelses-status, hvis den findes)
-    data/danish_backdrops_run_log.json      (historik over tidligere kørsler)
+    data/danish_artwork_cache.json          (alle TMDb-opslag)
+    data/danish_artwork_review.xlsx         (godkendelses-status)
+    data/manual_artwork_overrides.xlsx      (manuelle overrides, film/serier)
+    data/danish_backdrops_run_log.json      (fuld kørselshistorik)
 
 Skriver:
-    output/danish_backdrops_report.html     (ÉN fil, ingen eksterne afhængigheder -
-                                              alle grafer er indlejret SVG, ingen CDN,
-                                              virker garanteret offline for evigt)
+    output/danish_backdrops_report.html     (ÉN fil, ingen eksterne CDN'er,
+                                              alle grafer indlejret SVG)
 
 BRUG
     python3 scripts/generate_stats_report.py
@@ -35,17 +30,24 @@ OUTPUT_DIR = ROOT / "output"
 
 DANISH_ARTWORK_CACHE_FILE = DATA_DIR / "danish_artwork_cache.json"
 DANISH_ARTWORK_REVIEW_FILE = DATA_DIR / "danish_artwork_review.xlsx"
+MANUAL_ARTWORK_OVERRIDES_FILE = DATA_DIR / "manual_artwork_overrides.xlsx"
 DANISH_BACKDROPS_RUN_LOG_FILE = DATA_DIR / "danish_backdrops_run_log.json"
 REPORT_FILE = OUTPUT_DIR / "danish_backdrops_report.html"
 
+MAX_HISTORY_ROWS = 20
+MAX_UNMATCHED_ROWS = 40
+
 COLORS = {
     "found": "#22c55e",
-    "not_found": "#e2e8f0",
+    "not_found": "#334155",
     "approved": "#3b82f6",
     "pending": "#f59e0b",
-    "sport": "#a855f7",
+    "flagged": "#ef4444",
+    "manual": "#a855f7",
+    "sport": "#ec4899",
+    "cache_hit": "#38bdf8",
+    "fresh_call": "#fb923c",
     "grid": "#334155",
-    "text_muted": "#94a3b8",
 }
 
 
@@ -94,7 +96,60 @@ def load_review_status(path: Path) -> tuple[int, int, dict[str, str]]:
     return approved, flagged, notes
 
 
-def donut_chart_svg(segments: list[tuple[str, float, str]], size: int = 220, hole_ratio: float = 0.62) -> str:
+def load_manual_overrides_summary(path: Path) -> list[dict]:
+    """Returnerer liste af {'title', 'channel', 'url', 'note'} for rapportering."""
+    if not path.exists():
+        return []
+    try:
+        from openpyxl import load_workbook
+    except ImportError:
+        return []
+
+    try:
+        wb = load_workbook(path, data_only=True)
+        ws = wb["Manuelle overrides"] if "Manuelle overrides" in wb.sheetnames else wb.active
+    except Exception:
+        return []
+
+    headers = [c.value for c in ws[1]]
+    try:
+        title_col = headers.index("Titel (som i EPG)")
+        channel_col = headers.index("Kanal (valgfri)")
+        url_col = headers.index("Backdrop URL")
+        note_col = headers.index("Note (valgfri)") if "Note (valgfri)" in headers else None
+    except ValueError:
+        return []
+
+    rows = []
+    for row in ws.iter_rows(min_row=2):
+        title_val = row[title_col].value
+        url_val = row[url_col].value
+        if not title_val or not url_val:
+            continue
+        title = str(title_val).strip()
+        if title.upper().startswith("EKSEMPEL"):
+            continue
+        channel_val = row[channel_col].value
+        note_val = row[note_col].value if note_col is not None else None
+        rows.append({
+            "title": title,
+            "channel": str(channel_val).strip() if channel_val else "",
+            "url": str(url_val).strip(),
+            "note": str(note_val).strip() if note_val else "",
+        })
+    return rows
+
+
+# --------------------------------------------------------------------------
+# SVG-hjælpefunktioner
+# --------------------------------------------------------------------------
+
+def esc(s) -> str:
+    return (str(s).replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+            .replace('"', "&quot;"))
+
+
+def donut_chart_svg(segments: list[tuple[str, float, str]], size: int = 210, hole_ratio: float = 0.6) -> str:
     total = sum(v for _, v, _ in segments) or 1
     cx = cy = size / 2
     r_outer = size / 2 - 6
@@ -106,64 +161,60 @@ def donut_chart_svg(segments: list[tuple[str, float, str]], size: int = 220, hol
 
     paths = []
     angle = 0.0
+    any_positive = any(v > 0 for _, v, _ in segments)
+    if not any_positive:
+        paths.append(f'<circle cx="{cx}" cy="{cy}" r="{(r_outer+r_inner)/2:.1f}" '
+                      f'fill="none" stroke="{COLORS["not_found"]}" stroke-width="{r_outer-r_inner:.1f}"/>')
     for label, value, color in segments:
         if value <= 0:
             continue
         sweep = (value / total) * 360
+        if sweep >= 359.999:
+            sweep = 359.999
         end_angle = angle + sweep
         large_arc = 1 if sweep > 180 else 0
-
         x1o, y1o = point(angle, r_outer)
         x2o, y2o = point(end_angle, r_outer)
         x1i, y1i = point(end_angle, r_inner)
         x2i, y2i = point(angle, r_inner)
-
         path = (
             f'M {x1o:.2f},{y1o:.2f} '
             f'A {r_outer:.2f},{r_outer:.2f} 0 {large_arc} 1 {x2o:.2f},{y2o:.2f} '
             f'L {x1i:.2f},{y1i:.2f} '
             f'A {r_inner:.2f},{r_inner:.2f} 0 {large_arc} 0 {x2i:.2f},{y2i:.2f} Z'
         )
-        title = f"{label}: {int(value):,} ({value/total*100:.1f}%)"
+        title = f"{esc(label)}: {int(value):,} ({value/total*100:.1f}%)"
         paths.append(f'<path d="{path}" fill="{color}"><title>{title}</title></path>')
         angle = end_angle
 
-    center_text = f'<text x="{cx}" y="{cy-6}" text-anchor="middle" class="donut-total">{int(total):,}</text>' \
-                  f'<text x="{cx}" y="{cy+16}" text-anchor="middle" class="donut-sub">i alt</text>'
-
+    center_text = (f'<text x="{cx}" y="{cy-6}" text-anchor="middle" class="donut-total">{int(total):,}</text>'
+                   f'<text x="{cx}" y="{cy+16}" text-anchor="middle" class="donut-sub">i alt</text>')
     return f'<svg viewBox="0 0 {size} {size}" width="{size}" height="{size}">{"".join(paths)}{center_text}</svg>'
 
 
 def bar_chart_svg(categories: list[str], series: list[tuple[str, list[float], str]],
-                   width: int = 640, height: int = 320, y_label: str = "") -> str:
-    pad_left, pad_right, pad_top, pad_bottom = 56, 20, 24, 64
+                   width: int = 640, height: int = 320) -> str:
+    pad_left, pad_right, pad_top, pad_bottom = 56, 20, 24, 70
     plot_w = width - pad_left - pad_right
     plot_h = height - pad_top - pad_bottom
 
     max_val = max((max(vals) if vals else 0) for _, vals, _ in series) or 1
     max_val = max_val * 1.15
-
-    n_cat = len(categories)
-    n_series = len(series)
-    group_w = plot_w / n_cat if n_cat else plot_w
+    n_cat = len(categories) or 1
+    n_series = len(series) or 1
+    group_w = plot_w / n_cat
     bar_w = group_w / (n_series + 1)
 
     def y_scale(v):
         return pad_top + plot_h - (v / max_val) * plot_h
 
-    svg_parts = []
-
-    grid_lines = 5
-    for i in range(grid_lines + 1):
-        v = max_val / grid_lines * i
+    parts = []
+    for i in range(6):
+        v = max_val / 5 * i
         y = y_scale(v)
-        svg_parts.append(
-            f'<line x1="{pad_left}" y1="{y:.1f}" x2="{width-pad_right}" y2="{y:.1f}" '
-            f'stroke="{COLORS["grid"]}" stroke-width="1" opacity="0.4"/>'
-        )
-        svg_parts.append(
-            f'<text x="{pad_left-10}" y="{y+4:.1f}" text-anchor="end" class="axis-label">{int(v):,}</text>'
-        )
+        parts.append(f'<line x1="{pad_left}" y1="{y:.1f}" x2="{width-pad_right}" y2="{y:.1f}" '
+                      f'stroke="{COLORS["grid"]}" stroke-width="1" opacity="0.4"/>')
+        parts.append(f'<text x="{pad_left-10}" y="{y+4:.1f}" text-anchor="end" class="axis-label">{int(v):,}</text>')
 
     for cat_idx, cat in enumerate(categories):
         group_x = pad_left + cat_idx * group_w
@@ -172,35 +223,35 @@ def bar_chart_svg(categories: list[str], series: list[tuple[str, list[float], st
             bar_x = group_x + (s_idx + 0.5) * bar_w
             bar_y = y_scale(val)
             bar_h = pad_top + plot_h - bar_y
-            svg_parts.append(
-                f'<rect x="{bar_x:.1f}" y="{bar_y:.1f}" width="{bar_w*0.82:.1f}" height="{bar_h:.1f}" '
-                f'rx="3" fill="{color}"><title>{cat} — {s_name}: {int(val):,}</title></rect>'
-            )
+            parts.append(f'<rect x="{bar_x:.1f}" y="{bar_y:.1f}" width="{bar_w*0.82:.1f}" height="{max(bar_h,0):.1f}" '
+                         f'rx="3" fill="{color}"><title>{esc(cat)} — {esc(s_name)}: {int(val):,}</title></rect>')
         label_x = group_x + group_w / 2
-        svg_parts.append(
-            f'<text x="{label_x:.1f}" y="{height-pad_bottom+20}" text-anchor="middle" '
-            f'class="axis-label" transform="rotate(-20 {label_x:.1f} {height-pad_bottom+20})">{cat}</text>'
-        )
+        parts.append(f'<text x="{label_x:.1f}" y="{height-pad_bottom+20}" text-anchor="middle" class="axis-label" '
+                     f'transform="rotate(-25 {label_x:.1f} {height-pad_bottom+20})">{esc(cat)}</text>')
 
     legend_x = pad_left
     legend_y = height - 18
     for s_name, _, color in series:
-        svg_parts.append(f'<rect x="{legend_x}" y="{legend_y-10}" width="12" height="12" rx="2" fill="{color}"/>')
-        svg_parts.append(f'<text x="{legend_x+18}" y="{legend_y}" class="legend-label">{s_name}</text>')
-        legend_x += 18 + len(s_name) * 7 + 24
+        parts.append(f'<rect x="{legend_x}" y="{legend_y-10}" width="12" height="12" rx="2" fill="{color}"/>')
+        parts.append(f'<text x="{legend_x+18}" y="{legend_y}" class="legend-label">{esc(s_name)}</text>')
+        legend_x += 18 + len(s_name) * 7 + 26
 
-    return f'<svg viewBox="0 0 {width} {height}" width="100%" height="{height}">{"".join(svg_parts)}</svg>'
+    return f'<svg viewBox="0 0 {width} {height}" width="100%" height="{height}">{"".join(parts)}</svg>'
 
 
 def line_chart_svg(x_labels: list[str], series: list[tuple[str, list[float], str]],
-                    width: int = 640, height: int = 260) -> str:
+                    width: int = 640, height: int = 260, stacked: bool = False) -> str:
     pad_left, pad_right, pad_top, pad_bottom = 56, 20, 20, 50
     plot_w = width - pad_left - pad_right
     plot_h = height - pad_top - pad_bottom
+    n = len(x_labels) or 1
 
-    max_val = max((max(vals) if vals else 0) for _, vals, _ in series) or 1
-    max_val = max_val * 1.15
-    n = len(x_labels)
+    if stacked:
+        totals = [sum(s[1][i] if i < len(s[1]) else 0 for s in series) for i in range(n)]
+        max_val = max(totals) if totals else 1
+    else:
+        max_val = max((max(vals) if vals else 0) for _, vals, _ in series) or 1
+    max_val = max_val * 1.15 or 1
 
     def x_scale(i):
         return pad_left + (i / max(n - 1, 1)) * plot_w
@@ -208,187 +259,272 @@ def line_chart_svg(x_labels: list[str], series: list[tuple[str, list[float], str
     def y_scale(v):
         return pad_top + plot_h - (v / max_val) * plot_h
 
-    svg_parts = []
-    grid_lines = 4
-    for i in range(grid_lines + 1):
-        v = max_val / grid_lines * i
+    parts = []
+    for i in range(5):
+        v = max_val / 4 * i
         y = y_scale(v)
-        svg_parts.append(
-            f'<line x1="{pad_left}" y1="{y:.1f}" x2="{width-pad_right}" y2="{y:.1f}" '
-            f'stroke="{COLORS["grid"]}" stroke-width="1" opacity="0.4"/>'
-        )
-        svg_parts.append(f'<text x="{pad_left-10}" y="{y+4:.1f}" text-anchor="end" class="axis-label">{int(v):,}</text>')
+        parts.append(f'<line x1="{pad_left}" y1="{y:.1f}" x2="{width-pad_right}" y2="{y:.1f}" '
+                      f'stroke="{COLORS["grid"]}" stroke-width="1" opacity="0.4"/>')
+        parts.append(f'<text x="{pad_left-10}" y="{y+4:.1f}" text-anchor="end" class="axis-label">{int(v):,}</text>')
 
     step = max(1, n // 8)
     for i, label in enumerate(x_labels):
         if i % step == 0 or i == n - 1:
             x = x_scale(i)
-            svg_parts.append(
-                f'<text x="{x:.1f}" y="{height-pad_bottom+18}" text-anchor="middle" class="axis-label">{label}</text>'
-            )
+            parts.append(f'<text x="{x:.1f}" y="{height-pad_bottom+18}" text-anchor="middle" class="axis-label">{esc(label)}</text>')
 
-    for s_name, vals, color in series:
-        points = " ".join(f"{x_scale(i):.1f},{y_scale(v):.1f}" for i, v in enumerate(vals))
-        area_points = f"{pad_left},{pad_top+plot_h} {points} {x_scale(n-1):.1f},{pad_top+plot_h}"
-        svg_parts.append(f'<polygon points="{area_points}" fill="{color}" opacity="0.12"/>')
-        svg_parts.append(f'<polyline points="{points}" fill="none" stroke="{color}" stroke-width="2.5"/>')
-        for i, v in enumerate(vals):
-            svg_parts.append(
-                f'<circle cx="{x_scale(i):.1f}" cy="{y_scale(v):.1f}" r="3.5" fill="{color}">'
-                f'<title>{x_labels[i]}: {int(v):,}</title></circle>'
-            )
+    if stacked:
+        running = [0.0] * n
+        for s_name, vals, color in series:
+            top = [running[i] + (vals[i] if i < len(vals) else 0) for i in range(n)]
+            points_top = " ".join(f"{x_scale(i):.1f},{y_scale(top[i]):.1f}" for i in range(n))
+            points_bottom = " ".join(f"{x_scale(i):.1f},{y_scale(running[i]):.1f}" for i in range(n - 1, -1, -1))
+            parts.append(f'<polygon points="{points_top} {points_bottom}" fill="{color}" opacity="0.75"><title>{esc(s_name)}</title></polygon>')
+            running = top
+    else:
+        for s_name, vals, color in series:
+            points = " ".join(f"{x_scale(i):.1f},{y_scale(vals[i] if i < len(vals) else 0):.1f}" for i in range(n))
+            area_points = f"{pad_left},{pad_top+plot_h} {points} {x_scale(n-1):.1f},{pad_top+plot_h}"
+            parts.append(f'<polygon points="{area_points}" fill="{color}" opacity="0.12"/>')
+            parts.append(f'<polyline points="{points}" fill="none" stroke="{color}" stroke-width="2.5"/>')
+            for i in range(n):
+                v = vals[i] if i < len(vals) else 0
+                parts.append(f'<circle cx="{x_scale(i):.1f}" cy="{y_scale(v):.1f}" r="3.2" fill="{color}">'
+                             f'<title>{esc(x_labels[i])} — {esc(s_name)}: {int(v):,}</title></circle>')
 
-    return f'<svg viewBox="0 0 {width} {height}" width="100%" height="{height}">{"".join(svg_parts)}</svg>'
+    legend_x = pad_left
+    legend_y = 14
+    for s_name, _, color in series:
+        parts.append(f'<rect x="{legend_x}" y="{legend_y-9}" width="12" height="12" rx="2" fill="{color}"/>')
+        parts.append(f'<text x="{legend_x+18}" y="{legend_y}" class="legend-label">{esc(s_name)}</text>')
+        legend_x += 18 + len(s_name) * 7 + 26
+
+    return f'<svg viewBox="0 0 {width} {height}" width="100%" height="{height}">{"".join(parts)}</svg>'
 
 
 CSS = """
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body {
     font-family: -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
-    background: linear-gradient(160deg, #0f172a 0%, #1e293b 100%);
-    color: #e2e8f0;
-    padding: 32px 24px 64px;
-    min-height: 100vh;
+    background: radial-gradient(circle at top left, #1e293b 0%, #0f172a 55%);
+    color: #e2e8f0; padding: 32px 24px 64px; min-height: 100vh;
 }
-.wrap { max-width: 1180px; margin: 0 auto; }
-header {
-    display: flex; align-items: center; justify-content: space-between;
-    margin-bottom: 32px; flex-wrap: wrap; gap: 12px;
-}
-h1 { font-size: 28px; font-weight: 700; letter-spacing: -0.02em; }
-h1 span { color: #22c55e; }
-.timestamp { color: #94a3b8; font-size: 13px; }
-.cards {
-    display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
-    gap: 16px; margin-bottom: 32px;
-}
-.card {
-    background: rgba(30, 41, 59, 0.7); border: 1px solid rgba(148,163,184,0.15);
-    border-radius: 14px; padding: 18px 20px; backdrop-filter: blur(6px);
-}
-.card .label { font-size: 12px; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; }
-.card .value { font-size: 30px; font-weight: 700; }
-.card .value.green { color: #22c55e; }
-.card .value.blue { color: #3b82f6; }
-.card .value.amber { color: #f59e0b; }
-.card .value.purple { color: #a855f7; }
-.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 24px; }
-@media (max-width: 860px) { .grid2 { grid-template-columns: 1fr; } }
-.panel {
-    background: rgba(30, 41, 59, 0.7); border: 1px solid rgba(148,163,184,0.15);
-    border-radius: 16px; padding: 22px; margin-bottom: 24px;
-}
-.panel h2 { font-size: 16px; font-weight: 600; margin-bottom: 16px; color: #f1f5f9; }
-.panel h2 .sub { font-weight: 400; color: #94a3b8; font-size: 13px; margin-left: 8px; }
-.donut-row { display: flex; align-items: center; justify-content: center; gap: 28px; flex-wrap: wrap; }
-.donut-legend { display: flex; flex-direction: column; gap: 10px; }
-.legend-item { display: flex; align-items: center; gap: 8px; font-size: 14px; }
-.legend-dot { width: 12px; height: 12px; border-radius: 3px; flex-shrink: 0; }
+.wrap { max-width: 1280px; margin: 0 auto; }
+header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 28px; flex-wrap: wrap; gap: 12px; }
+h1 { font-size: 30px; font-weight: 800; letter-spacing: -0.02em; }
+h1 span.dk { color: #22c55e; } h1 span.man { color: #a855f7; }
+.timestamp { color: #94a3b8; font-size: 13px; text-align: right; }
+.section-title { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: #94a3b8; margin: 36px 0 14px; display:flex; align-items:center; gap:10px; }
+.section-title::after { content: ""; flex:1; height:1px; background: rgba(148,163,184,0.2); }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(165px, 1fr)); gap: 14px; }
+.card { background: rgba(30, 41, 59, 0.65); border: 1px solid rgba(148,163,184,0.15); border-radius: 14px; padding: 16px 18px; backdrop-filter: blur(6px); }
+.card .label { font-size: 11px; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 6px; }
+.card .value { font-size: 26px; font-weight: 800; }
+.card .value.green { color: #22c55e; } .card .value.blue { color: #3b82f6; }
+.card .value.amber { color: #f59e0b; } .card .value.purple { color: #a855f7; }
+.card .value.pink { color: #ec4899; } .card .value.red { color: #ef4444; }
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+.grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; }
+@media (max-width: 900px) { .grid2, .grid3 { grid-template-columns: 1fr; } }
+.panel { background: rgba(30, 41, 59, 0.65); border: 1px solid rgba(148,163,184,0.15); border-radius: 16px; padding: 22px; margin-bottom: 22px; }
+.panel h2 { font-size: 15px; font-weight: 700; margin-bottom: 16px; color: #f1f5f9; }
+.panel h2 .sub { font-weight: 400; color: #94a3b8; font-size: 12px; margin-left: 8px; }
+.donut-row { display: flex; align-items: center; justify-content: center; gap: 24px; flex-wrap: wrap; }
+.donut-legend { display: flex; flex-direction: column; gap: 8px; }
+.legend-item { display: flex; align-items: center; gap: 8px; font-size: 13px; }
+.legend-dot { width: 11px; height: 11px; border-radius: 3px; flex-shrink: 0; }
 .legend-item b { margin-left: auto; padding-left: 16px; }
 svg text.axis-label { fill: #94a3b8; font-size: 10px; }
-svg text.legend-label { fill: #cbd5e1; font-size: 12px; }
-svg text.donut-total { fill: #f1f5f9; font-size: 26px; font-weight: 700; }
-svg text.donut-sub { fill: #94a3b8; font-size: 12px; }
-table.notes { width: 100%; border-collapse: collapse; font-size: 13px; }
-table.notes th { text-align: left; color: #94a3b8; font-weight: 600; padding: 8px 10px; border-bottom: 1px solid rgba(148,163,184,0.2); }
-table.notes td { padding: 8px 10px; border-bottom: 1px solid rgba(148,163,184,0.08); }
-.badge { display: inline-block; padding: 2px 9px; border-radius: 999px; font-size: 11px; font-weight: 600; }
-.badge.approved { background: rgba(34,197,94,0.15); color: #22c55e; }
-.badge.pending { background: rgba(245,158,11,0.15); color: #f59e0b; }
-.empty-state { color: #94a3b8; font-size: 14px; padding: 20px 0; text-align: center; }
-footer { text-align: center; color: #64748b; font-size: 12px; margin-top: 32px; }
+svg text.legend-label { fill: #cbd5e1; font-size: 11px; }
+svg text.donut-total { fill: #f1f5f9; font-size: 24px; font-weight: 800; }
+svg text.donut-sub { fill: #94a3b8; font-size: 11px; }
+table.datatable { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+table.datatable th { text-align: left; color: #94a3b8; font-weight: 700; padding: 8px 10px; border-bottom: 1px solid rgba(148,163,184,0.25); position: sticky; top:0; background: rgba(15,23,42,0.9); }
+table.datatable td { padding: 7px 10px; border-bottom: 1px solid rgba(148,163,184,0.08); vertical-align: top; }
+table.datatable tr:hover td { background: rgba(148,163,184,0.05); }
+.table-scroll { max-height: 340px; overflow-y: auto; border-radius: 10px; }
+.badge { display: inline-block; padding: 2px 9px; border-radius: 999px; font-size: 10.5px; font-weight: 700; }
+.badge.warn { background: rgba(239,68,68,0.15); color: #ef4444; }
+.badge.ok { background: rgba(34,197,94,0.15); color: #22c55e; }
+.mono { font-family: 'SF Mono', Consolas, monospace; font-size: 11.5px; color: #94a3b8; word-break: break-all; }
+.empty-state { color: #94a3b8; font-size: 13.5px; padding: 30px 0; text-align: center; }
+footer { text-align: center; color: #64748b; font-size: 12px; margin-top: 36px; }
+a { color: #38bdf8; }
 """
 
 
-def build_html(cache: dict, run_log: list, approved: int, flagged: int, notes: dict) -> str:
+def build_html(cache: dict, run_log: list, approved: int, flagged: int, notes: dict,
+               manual_rows: list[dict]) -> str:
     total_titles = len(cache)
-    # KUN backdrop tæller som "fundet" - postere ignoreres (se modulets docstring)
     found = sum(1 for v in cache.values() if v.get("backdrop"))
     not_found = total_titles - found
     pending = max(found - approved - flagged, 0)
     hit_rate = (found / total_titles * 100) if total_titles else 0
 
-    donut_found = donut_chart_svg([
-        ("Fundet (backdrop)", found, COLORS["found"]),
-        ("Ikke fundet", not_found, COLORS["not_found"]),
-    ])
-    donut_review = donut_chart_svg([
-        ("Godkendt", approved, COLORS["approved"]),
-        ("Afventer", pending, COLORS["pending"]),
-        ("Markeret forkert", flagged, "#ef4444"),
-    ]) if found > 0 else '<div class="empty-state">Ingen fund endnu</div>'
+    latest = run_log[-1] if run_log else None
+    manual_matched_latest = latest.get("manual_titles_matched", []) if latest else []
+    manual_unmatched_latest = latest.get("manual_titles_unmatched", []) if latest else []
+    manual_defined_latest = latest.get("manual_defined_count", len(manual_rows)) if latest else len(manual_rows)
 
-    per_file_bar = ""
-    if run_log:
-        latest = run_log[-1]
+    last_run_str = time.strftime("%d/%m/%Y %H:%M", time.localtime(latest["timestamp"])) if latest else "—"
+    generated_at = time.strftime("%d. %B %Y kl. %H:%M")
+
+    # --- KPI-kort ---
+    cards = [
+        ("Unikke titler i cache", f"{total_titles:,}", ""),
+        ("Dansk backdrop fundet", f"{found:,}", "green"),
+        ("Hit-rate", f"{hit_rate:.1f}%", "purple"),
+        ("Godkendt (X)", f"{approved:,}", "blue"),
+        ("Afventer godkendelse", f"{pending:,}", "amber"),
+        ("Manuelle overrides", f"{manual_defined_latest:,}", "pink"),
+        ("Manuel matchet (seneste)", f"{len(manual_matched_latest):,}", "pink"),
+        ("Kørsler i historik", f"{len(run_log):,}", ""),
+    ]
+    cards_html = "".join(
+        f'<div class="card"><div class="label">{esc(l)}</div><div class="value {cls}">{v}</div></div>'
+        for l, v, cls in cards
+    )
+
+    # --- Donuts ---
+    donut_found = donut_chart_svg([("Fundet", found, COLORS["found"]), ("Ikke fundet", not_found, COLORS["not_found"])])
+    if found > 0:
+        donut_review = donut_chart_svg([
+            ("Godkendt", approved, COLORS["approved"]),
+            ("Afventer", pending, COLORS["pending"]),
+            ("Markeret forkert", flagged, COLORS["flagged"]),
+        ])
+    else:
+        donut_review = '<div class="empty-state">Ingen fund endnu</div>'
+
+    # --- Bar chart: seneste kørsel pr. fil ---
+    if latest:
         per_file = latest.get("per_file", {})
         categories = list(per_file.keys())
+        sport_vals = [per_file[c].get("already_had_artwork", 0) for c in categories]
         checked_vals = [per_file[c].get("checked", 0) for c in categories]
         found_vals = [per_file[c].get("danish_found", 0) for c in categories]
-        sport_vals = [per_file[c].get("already_had_artwork", 0) for c in categories]
-        per_file_bar = bar_chart_svg(
-            categories,
-            [
-                ("Sport (sprunget over)", sport_vals, COLORS["sport"]),
-                ("Titler tjekket", checked_vals, "#38bdf8"),
-                ("Dansk backdrop fundet", found_vals, COLORS["found"]),
-            ],
-        )
+        manual_vals = [per_file[c].get("manual_override_injected", 0) for c in categories]
+        per_file_bar = bar_chart_svg(categories, [
+            ("Sport (sprunget over)", sport_vals, COLORS["sport"]),
+            ("Titler tjekket", checked_vals, COLORS["cache_hit"]),
+            ("Dansk fundet", found_vals, COLORS["found"]),
+            ("Manuel override", manual_vals, COLORS["manual"]),
+        ])
     else:
         per_file_bar = '<div class="empty-state">Ingen kørselshistorik endnu</div>'
 
-    cache_growth_chart = ""
+    # --- Historik-linjediagrammer ---
     if len(run_log) >= 2:
-        x_labels = [time.strftime("%d/%m", time.localtime(r["timestamp"])) for r in run_log]
-        cache_sizes = [r.get("cache_size_after", 0) for r in run_log]
-        cache_growth_chart = line_chart_svg(
-            x_labels,
-            [("Unikke titler i cache", cache_sizes, "#38bdf8")],
-        )
-    else:
-        cache_growth_chart = '<div class="empty-state">Kør scriptet flere gange for at se udvikling over tid</div>'
+        x_labels = [time.strftime("%d/%m %H:%M", time.localtime(r["timestamp"])) for r in run_log[-MAX_HISTORY_ROWS:]]
+        recent = run_log[-MAX_HISTORY_ROWS:]
+        cache_sizes = [r.get("cache_size_after", 0) for r in recent]
+        unique_found_hist = [r.get("unique_found", 0) for r in recent]
+        unique_pending_hist = [r.get("unique_pending", 0) for r in recent]
+        manual_matched_hist = [len(r.get("manual_titles_matched", [])) for r in recent]
 
+        cache_growth_chart = line_chart_svg(x_labels, [("Unikke titler i cache", cache_sizes, COLORS["cache_hit"])])
+        found_pending_chart = line_chart_svg(x_labels, [
+            ("Fundet (unikt)", unique_found_hist, COLORS["found"]),
+            ("Afventer", unique_pending_hist, COLORS["pending"]),
+        ])
+        manual_chart = line_chart_svg(x_labels, [("Manuel override matchet", manual_matched_hist, COLORS["manual"])])
+
+        fresh_vals = [sum(f.get("fresh_calls", 0) for f in r.get("per_file", {}).values()) for r in recent]
+        cachehit_vals = [sum(f.get("cache_hits", 0) for f in r.get("per_file", {}).values()) for r in recent]
+        tmdb_calls_chart = line_chart_svg(x_labels, [
+            ("Cache-genbrug", cachehit_vals, COLORS["cache_hit"]),
+            ("Friske TMDb-kald", fresh_vals, COLORS["fresh_call"]),
+        ], stacked=True)
+    else:
+        empty = '<div class="empty-state">Kør scriptet flere gange for at se udvikling over tid</div>'
+        cache_growth_chart = found_pending_chart = manual_chart = tmdb_calls_chart = empty
+
+    # --- Historik-tabel ---
+    history_rows = ""
+    for r in reversed(run_log[-MAX_HISTORY_ROWS:]):
+        date_str = time.strftime("%d/%m/%Y %H:%M", time.localtime(r["timestamp"]))
+        history_rows += (
+            f"<tr><td>{date_str}</td>"
+            f"<td>{r.get('unique_found', 0):,}</td>"
+            f"<td>{r.get('approved_count', 0):,}</td>"
+            f"<td>{r.get('unique_pending', 0):,}</td>"
+            f"<td>{len(r.get('manual_titles_matched', [])):,}</td>"
+            f"<td>{r.get('cache_size_after', 0):,}</td></tr>"
+        )
+    history_table = (
+        f'<div class="table-scroll"><table class="datatable"><thead><tr>'
+        f'<th>Tidspunkt</th><th>Fundet (unikt)</th><th>Godkendt</th><th>Afventer</th>'
+        f'<th>Manuel matchet</th><th>Cache-størrelse</th></tr></thead><tbody>{history_rows}</tbody></table></div>'
+        if history_rows else '<div class="empty-state">Ingen kørselshistorik endnu</div>'
+    )
+
+    # --- Manuelle overrides: definerede + status ---
+    manual_def_rows = ""
+    matched_set = set(manual_matched_latest)
+    unmatched_set = set(manual_unmatched_latest)
+    for row in sorted(manual_rows, key=lambda r: r["title"].lower()):
+        title = row["title"]
+        status = "ok" if title in matched_set else ("warn" if title in unmatched_set else "")
+        badge = (f'<span class="badge ok">Matchet</span>' if status == "ok"
+                 else f'<span class="badge warn">Ikke set i dag</span>' if status == "warn"
+                 else "")
+        manual_def_rows += (
+            f"<tr><td>{esc(title)}</td><td>{esc(row['channel']) or '<i>alle</i>'}</td>"
+            f"<td>{badge}</td><td class='mono'>{esc(row['url'][:70])}{'…' if len(row['url'])>70 else ''}</td>"
+            f"<td>{esc(row['note'])}</td></tr>"
+        )
+    manual_def_table = (
+        f'<div class="table-scroll"><table class="datatable"><thead><tr>'
+        f'<th>Titel</th><th>Kanal</th><th>Status (seneste kørsel)</th><th>Backdrop URL</th><th>Note</th>'
+        f'</tr></thead><tbody>{manual_def_rows}</tbody></table></div>'
+        if manual_def_rows else '<div class="empty-state">Ingen manuelle overrides defineret endnu</div>'
+    )
+
+    unmatched_warning = ""
+    if manual_unmatched_latest:
+        items = "".join(f"<li>{esc(t)}</li>" for t in manual_unmatched_latest[:MAX_UNMATCHED_ROWS])
+        unmatched_warning = (
+            f'<div class="panel" style="border-color: rgba(239,68,68,0.3);">'
+            f'<h2>⚠️ {len(manual_unmatched_latest)} manuel(le) override(s) ikke fundet i seneste kørsel '
+            f'<span class="sub">tjek stavning, eller programmet blev bare ikke sendt i dag</span></h2>'
+            f'<ul style="padding-left:20px; font-size:13px; line-height:1.9;">{items}</ul></div>'
+        )
+
+    # --- Noter fra godkendelsesfilen ---
     notes_rows = ""
     if notes:
         for key, note in sorted(notes.items()):
             title = cache.get(key, {}).get("title", key)
-            notes_rows += f'<tr><td>{title}</td><td>{note}</td></tr>'
+            notes_rows += f'<tr><td>{esc(title)}</td><td>{esc(note)}</td></tr>'
     notes_table = (
-        f'<table class="notes"><thead><tr><th>Titel</th><th>Note</th></tr></thead>'
-        f'<tbody>{notes_rows}</tbody></table>'
+        f'<div class="table-scroll"><table class="datatable"><thead><tr><th>Titel</th><th>Note</th></tr></thead>'
+        f'<tbody>{notes_rows}</tbody></table></div>'
         if notes_rows else '<div class="empty-state">Ingen noter endnu</div>'
     )
-
-    generated_at = time.strftime("%d. %B %Y kl. %H:%M")
-    last_run_str = time.strftime("%d/%m/%Y %H:%M", time.localtime(run_log[-1]["timestamp"])) if run_log else "—"
 
     html = f"""<!DOCTYPE html>
 <html lang="da">
 <head>
 <meta charset="UTF-8">
-<title>Danske Backdrops — Statistik</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Danske Backdrops — Fuld Statistik</title>
 <style>{CSS}</style>
 </head>
 <body>
 <div class="wrap">
 <header>
-    <h1>🇩🇰 Danske <span>Backdrops</span> — Statistikrapport</h1>
-    <div class="timestamp">Genereret {generated_at} · Seneste kørsel: {last_run_str} · Kun backdrops (ingen postere)</div>
+    <h1>🇩🇰 Danske <span class="dk">Backdrops</span> + <span class="man">Manuelle Overrides</span> — Statistik</h1>
+    <div class="timestamp">Genereret {generated_at}<br>Seneste kørsel: {last_run_str}</div>
 </header>
 
-<div class="cards">
-    <div class="card"><div class="label">Unikke titler</div><div class="value">{total_titles:,}</div></div>
-    <div class="card"><div class="label">Dansk backdrop fundet</div><div class="value green">{found:,}</div></div>
-    <div class="card"><div class="label">Godkendt (X)</div><div class="value blue">{approved:,}</div></div>
-    <div class="card"><div class="label">Afventer godkendelse</div><div class="value amber">{pending:,}</div></div>
-    <div class="card"><div class="label">Hit-rate</div><div class="value purple">{hit_rate:.1f}%</div></div>
-</div>
+<div class="section-title">Overblik</div>
+<div class="cards">{cards_html}</div>
 
+<div class="section-title">TMDb-fund &amp; godkendelse</div>
 <div class="grid2">
     <div class="panel">
         <h2>Dansk backdrop: fundet vs. ikke fundet</h2>
-        <div class="donut-row">
-            {donut_found}
+        <div class="donut-row">{donut_found}
             <div class="donut-legend">
                 <div class="legend-item"><span class="legend-dot" style="background:{COLORS['found']}"></span>Fundet<b>{found:,}</b></div>
                 <div class="legend-item"><span class="legend-dot" style="background:{COLORS['not_found']}"></span>Ikke fundet<b>{not_found:,}</b></div>
@@ -397,33 +533,51 @@ def build_html(cache: dict, run_log: list, approved: int, flagged: int, notes: d
     </div>
     <div class="panel">
         <h2>Godkendelses-status <span class="sub">(af {found:,} fund)</span></h2>
-        <div class="donut-row">
-            {donut_review}
+        <div class="donut-row">{donut_review}
             <div class="donut-legend">
                 <div class="legend-item"><span class="legend-dot" style="background:{COLORS['approved']}"></span>Godkendt<b>{approved:,}</b></div>
                 <div class="legend-item"><span class="legend-dot" style="background:{COLORS['pending']}"></span>Afventer<b>{pending:,}</b></div>
-                <div class="legend-item"><span class="legend-dot" style="background:#ef4444"></span>Markeret forkert<b>{flagged:,}</b></div>
+                <div class="legend-item"><span class="legend-dot" style="background:{COLORS['flagged']}"></span>Markeret forkert<b>{flagged:,}</b></div>
             </div>
         </div>
     </div>
 </div>
 
+<div class="section-title">Seneste kørsel</div>
 <div class="panel">
-    <h2>Seneste kørsel — pr. fil <span class="sub">(sport-programmer er altid sprunget over)</span></h2>
+    <h2>Pr. fil <span class="sub">(sport-programmer er altid sprunget over)</span></h2>
     {per_file_bar}
 </div>
 
-<div class="panel">
-    <h2>Cache-udvikling over tid <span class="sub">(antal kørsler: {len(run_log)})</span></h2>
-    {cache_growth_chart}
+<div class="section-title">Historik over tid <span style="text-transform:none;font-weight:400;color:#64748b;">(seneste {min(len(run_log), MAX_HISTORY_ROWS)} kørsler)</span></div>
+<div class="grid2">
+    <div class="panel"><h2>Cache-vækst</h2>{cache_growth_chart}</div>
+    <div class="panel"><h2>Fundet vs. afventer</h2>{found_pending_chart}</div>
+</div>
+<div class="grid2">
+    <div class="panel"><h2>Manuelle overrides matchet</h2>{manual_chart}</div>
+    <div class="panel"><h2>TMDb-kald: cache vs. friske (stacked)</h2>{tmdb_calls_chart}</div>
 </div>
 
 <div class="panel">
-    <h2>Noter fra godkendelsesfilen</h2>
+    <h2>Kørselshistorik (tabel)</h2>
+    {history_table}
+</div>
+
+<div class="section-title">Manuelle overrides (film/serier, ikke sport)</div>
+{unmatched_warning}
+<div class="panel">
+    <h2>Alle definerede manuelle overrides</h2>
+    {manual_def_table}
+</div>
+
+<div class="section-title">Godkendelsesnoter</div>
+<div class="panel">
+    <h2>Noter fra danish_artwork_review.xlsx</h2>
     {notes_table}
 </div>
 
-<footer>epgoal · danish_backdrops sideprojekt (kun backdrops) · rapporten opdateres hver gang du kører generate_stats_report.py</footer>
+<footer>epgoal · danish_backdrops + manuelle overrides · rapporten opdateres hver gang du kører generate_stats_report.py</footer>
 </div>
 </body>
 </html>"""
@@ -437,12 +591,13 @@ def main() -> None:
 
     run_log = load_json(DANISH_BACKDROPS_RUN_LOG_FILE, [])
     approved, flagged, notes = load_review_status(DANISH_ARTWORK_REVIEW_FILE)
+    manual_rows = load_manual_overrides_summary(MANUAL_ARTWORK_OVERRIDES_FILE)
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    html = build_html(cache, run_log, approved, flagged, notes)
+    html = build_html(cache, run_log, approved, flagged, notes, manual_rows)
     REPORT_FILE.write_text(html, encoding="utf-8")
 
-    print("=== Statistikrapport genereret (kun backdrops) ===")
+    print("=== Fuld statistikrapport genereret ===")
     print(f"Fil: {REPORT_FILE}")
     print(f"Åbn den i din browser (dobbeltklik filen, eller 'start {REPORT_FILE.name}' i PowerShell).")
 
