@@ -2269,7 +2269,7 @@
       "with_desc": 77
     }
   },
-  "date_str": "2026-08-12 15:57:09",
+  "date_str": "2026-08-13 18:50:07",
   "groups": {
     "3sat": {
       "display_name": "3sat.dk",
@@ -4523,7 +4523,7 @@
     }
   },
   "overall_artwork_pct": 15.75,
-  "timestamp": 1786543029.639749,
+  "timestamp": 1786639807.064414,
   "total_programmes": 29382,
   "total_with_artwork": 4627
 }

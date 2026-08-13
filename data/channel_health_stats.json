@@ -2,2283 +2,2283 @@
   "channels": {
     "3sat.dk": {
       "display_name": "3sat.dk",
-      "programmes": 79,
-      "with_artwork": 0,
-      "with_desc": 79
+      "programmes": 87,
+      "with_artwork": 25,
+      "with_desc": 87
     },
     "6'eren Denmark (DK,DA).dk": {
       "display_name": "6'eren Denmark (DK,DA).dk",
-      "programmes": 42,
-      "with_artwork": 2,
-      "with_desc": 42
+      "programmes": 48,
+      "with_artwork": 42,
+      "with_desc": 48
     },
     "6'eren HD (D) (T).dk": {
       "display_name": "6'eren HD (D) (T).dk",
-      "programmes": 38,
-      "with_artwork": 2,
-      "with_desc": 38
+      "programmes": 46,
+      "with_artwork": 40,
+      "with_desc": 46
     },
     "6'eren.dk": {
       "display_name": "6'eren.dk",
-      "programmes": 118,
-      "with_artwork": 6,
-      "with_desc": 118
+      "programmes": 138,
+      "with_artwork": 127,
+      "with_desc": 138
     },
     "ARD.dk": {
       "display_name": "ARD.dk",
-      "programmes": 113,
-      "with_artwork": 0,
-      "with_desc": 113
+      "programmes": 163,
+      "with_artwork": 77,
+      "with_desc": 163
     },
     "ARTE.dk": {
       "display_name": "ARTE.dk",
-      "programmes": 57,
-      "with_artwork": 2,
-      "with_desc": 57
+      "programmes": 65,
+      "with_artwork": 28,
+      "with_desc": 65
     },
     "Adult Channel UK (GB,EN).dk": {
       "display_name": "Adult Channel UK (GB,EN).dk",
-      "programmes": 57,
-      "with_artwork": 0,
-      "with_desc": 50
+      "programmes": 60,
+      "with_artwork": 19,
+      "with_desc": 52
     },
     "Al Jazeera English (QA,EN).dk": {
       "display_name": "Al Jazeera English (QA,EN).dk",
-      "programmes": 81,
-      "with_artwork": 0,
-      "with_desc": 81
+      "programmes": 93,
+      "with_artwork": 53,
+      "with_desc": 93
     },
     "Al Jazeera English (T).dk": {
       "display_name": "Al Jazeera English (T).dk",
-      "programmes": 74,
-      "with_artwork": 0,
-      "with_desc": 74
+      "programmes": 86,
+      "with_artwork": 48,
+      "with_desc": 86
     },
     "Animal Planet Denmark (DK,DA).dk": {
       "display_name": "Animal Planet Denmark (DK,DA).dk",
-      "programmes": 60,
-      "with_artwork": 0,
-      "with_desc": 60
+      "programmes": 67,
+      "with_artwork": 57,
+      "with_desc": 67
     },
     "Animal Planet Norway (NO,NO).dk": {
       "display_name": "Animal Planet Norway (NO,NO).dk",
-      "programmes": 60,
-      "with_artwork": 0,
-      "with_desc": 60
+      "programmes": 67,
+      "with_artwork": 56,
+      "with_desc": 67
     },
     "Animal Planet.dk": {
       "display_name": "Animal Planet.dk",
-      "programmes": 171,
-      "with_artwork": 0,
-      "with_desc": 169
+      "programmes": 189,
+      "with_artwork": 158,
+      "with_desc": 187
     },
     "BBC 1 UK (GB,EN).dk": {
       "display_name": "BBC 1 UK (GB,EN).dk",
-      "programmes": 48,
-      "with_artwork": 0,
-      "with_desc": 48
+      "programmes": 50,
+      "with_artwork": 37,
+      "with_desc": 50
     },
     "BBC Earth Nordics English (IS,EN).dk": {
       "display_name": "BBC Earth Nordics English (IS,EN).dk",
-      "programmes": 56,
-      "with_artwork": 0,
-      "with_desc": 56
+      "programmes": 66,
+      "with_artwork": 55,
+      "with_desc": 66
     },
     "BBC Earth.dk": {
       "display_name": "BBC Earth.dk",
-      "programmes": 107,
-      "with_artwork": 4,
-      "with_desc": 107
+      "programmes": 124,
+      "with_artwork": 86,
+      "with_desc": 124
     },
     "BBC NORDIC.dk": {
       "display_name": "BBC NORDIC.dk",
-      "programmes": 144,
-      "with_artwork": 6,
-      "with_desc": 144
+      "programmes": 169,
+      "with_artwork": 159,
+      "with_desc": 169
     },
     "BBC News (T).dk": {
       "display_name": "BBC News (T).dk",
-      "programmes": 117,
-      "with_artwork": 0,
-      "with_desc": 117
+      "programmes": 131,
+      "with_artwork": 85,
+      "with_desc": 131
     },
     "BBC News UK (GB,EN).dk": {
       "display_name": "BBC News UK (GB,EN).dk",
-      "programmes": 131,
-      "with_artwork": 0,
-      "with_desc": 131
+      "programmes": 143,
+      "with_artwork": 90,
+      "with_desc": 143
     },
     "BBC News.dk": {
       "display_name": "BBC News.dk",
-      "programmes": 253,
-      "with_artwork": 0,
-      "with_desc": 253
+      "programmes": 274,
+      "with_artwork": 173,
+      "with_desc": 274
     },
     "BBC Nordic Denmark (DK,DA).dk": {
       "display_name": "BBC Nordic Denmark (DK,DA).dk",
-      "programmes": 74,
-      "with_artwork": 2,
-      "with_desc": 74
+      "programmes": 87,
+      "with_artwork": 86,
+      "with_desc": 87
     },
     "BBC Nordic English (IS,EN).dk": {
       "display_name": "BBC Nordic English (IS,EN).dk",
-      "programmes": 74,
-      "with_artwork": 2,
-      "with_desc": 74
+      "programmes": 87,
+      "with_artwork": 79,
+      "with_desc": 87
     },
     "BBC Nordic HD (S/D/F) (T).dk": {
       "display_name": "BBC Nordic HD (S/D/F) (T).dk",
-      "programmes": 68,
-      "with_artwork": 0,
-      "with_desc": 68
+      "programmes": 81,
+      "with_artwork": 78,
+      "with_desc": 81
     },
     "BBC Nordic Norway (NO,NO).dk": {
       "display_name": "BBC Nordic Norway (NO,NO).dk",
-      "programmes": 63,
-      "with_artwork": 2,
-      "with_desc": 63
+      "programmes": 78,
+      "with_artwork": 65,
+      "with_desc": 78
     },
     "Baby TV English UK (GB,EN).dk": {
       "display_name": "Baby TV English UK (GB,EN).dk",
-      "programmes": 103,
-      "with_artwork": 0,
-      "with_desc": 103
+      "programmes": 117,
+      "with_artwork": 26,
+      "with_desc": 117
     },
     "Bloomberg (T).dk": {
       "display_name": "Bloomberg (T).dk",
-      "programmes": 35,
-      "with_artwork": 0,
-      "with_desc": 35
+      "programmes": 52,
+      "with_artwork": 6,
+      "with_desc": 52
     },
     "Bloomberg TV (US,EN).dk": {
       "display_name": "Bloomberg TV (US,EN).dk",
-      "programmes": 38,
-      "with_artwork": 0,
-      "with_desc": 38
+      "programmes": 55,
+      "with_artwork": 6,
+      "with_desc": 55
     },
     "Blue Hustler UK (GB,EN).dk": {
       "display_name": "Blue Hustler UK (GB,EN).dk",
+      "programmes": 67,
+      "with_artwork": 8,
+      "with_desc": 67
+    },
+    "CANAL9 HD (D) (T).dk": {
+      "display_name": "CANAL9 HD (D) (T).dk",
+      "programmes": 55,
+      "with_artwork": 55,
+      "with_desc": 55
+    },
+    "CGTN (CN,EN).dk": {
+      "display_name": "CGTN (CN,EN).dk",
+      "programmes": 108,
+      "with_artwork": 11,
+      "with_desc": 108
+    },
+    "CNBC (T).dk": {
+      "display_name": "CNBC (T).dk",
+      "programmes": 101,
+      "with_artwork": 33,
+      "with_desc": 101
+    },
+    "CNBC (US,EN).dk": {
+      "display_name": "CNBC (US,EN).dk",
+      "programmes": 110,
+      "with_artwork": 33,
+      "with_desc": 110
+    },
+    "CNN (T).dk": {
+      "display_name": "CNN (T).dk",
+      "programmes": 68,
+      "with_artwork": 34,
+      "with_desc": 68
+    },
+    "CNN International (US,EN).dk": {
+      "display_name": "CNN International (US,EN).dk",
+      "programmes": 73,
+      "with_artwork": 39,
+      "with_desc": 72
+    },
+    "CNN.dk": {
+      "display_name": "CNN.dk",
+      "programmes": 141,
+      "with_artwork": 74,
+      "with_desc": 141
+    },
+    "Canal 9 Denmark (DK,DA).dk": {
+      "display_name": "Canal 9 Denmark (DK,DA).dk",
+      "programmes": 59,
+      "with_artwork": 59,
+      "with_desc": 59
+    },
+    "Canal 9.dk": {
+      "display_name": "Canal 9.dk",
+      "programmes": 55,
+      "with_artwork": 55,
+      "with_desc": 54
+    },
+    "Canal9.dk": {
+      "display_name": "Canal9.dk",
+      "programmes": 114,
+      "with_artwork": 114,
+      "with_desc": 114
+    },
+    "Cartoon Network (T).dk": {
+      "display_name": "Cartoon Network (T).dk",
+      "programmes": 268,
+      "with_artwork": 160,
+      "with_desc": 268
+    },
+    "Cartoon Network.dk": {
+      "display_name": "Cartoon Network.dk",
+      "programmes": 557,
+      "with_artwork": 329,
+      "with_desc": 557
+    },
+    "Cartoonito.dk": {
+      "display_name": "Cartoonito.dk",
+      "programmes": 738,
+      "with_artwork": 704,
+      "with_desc": 738
+    },
+    "DK4 Denmark (DK,DA).dk": {
+      "display_name": "DK4 Denmark (DK,DA).dk",
+      "programmes": 100,
+      "with_artwork": 4,
+      "with_desc": 99
+    },
+    "DK4.dk": {
+      "display_name": "DK4.dk",
+      "programmes": 286,
+      "with_artwork": 14,
+      "with_desc": 282
+    },
+    "DR Ramasjang (T).dk": {
+      "display_name": "DR Ramasjang (T).dk",
+      "programmes": 181,
+      "with_artwork": 160,
+      "with_desc": 181
+    },
+    "DR Ramasjang Denmark (DK,DA).dk": {
+      "display_name": "DR Ramasjang Denmark (DK,DA).dk",
+      "programmes": 187,
+      "with_artwork": 167,
+      "with_desc": 187
+    },
+    "DR Ramasjang.dk": {
+      "display_name": "DR Ramasjang.dk",
+      "programmes": 464,
+      "with_artwork": 318,
+      "with_desc": 373
+    },
+    "DR TV Avisen.dk": {
+      "display_name": "DR TV Avisen.dk",
+      "programmes": 223,
+      "with_artwork": 223,
+      "with_desc": 213
+    },
+    "DR1 Denmark (DK,DA).dk": {
+      "display_name": "DR1 Denmark (DK,DA).dk",
+      "programmes": 76,
+      "with_artwork": 0,
+      "with_desc": 73
+    },
+    "DR1 HD (T).dk": {
+      "display_name": "DR1 HD (T).dk",
+      "programmes": 72,
+      "with_artwork": 0,
+      "with_desc": 72
+    },
+    "DR1.dk": {
+      "display_name": "DR1.dk",
+      "programmes": 218,
+      "with_artwork": 0,
+      "with_desc": 211
+    },
+    "DR2 Denmark (DK,DA).dk": {
+      "display_name": "DR2 Denmark (DK,DA).dk",
       "programmes": 61,
       "with_artwork": 0,
       "with_desc": 61
     },
-    "CANAL9 HD (D) (T).dk": {
-      "display_name": "CANAL9 HD (D) (T).dk",
-      "programmes": 47,
-      "with_artwork": 0,
-      "with_desc": 47
-    },
-    "CGTN (CN,EN).dk": {
-      "display_name": "CGTN (CN,EN).dk",
-      "programmes": 96,
-      "with_artwork": 0,
-      "with_desc": 96
-    },
-    "CNBC (T).dk": {
-      "display_name": "CNBC (T).dk",
-      "programmes": 91,
-      "with_artwork": 0,
-      "with_desc": 91
-    },
-    "CNBC (US,EN).dk": {
-      "display_name": "CNBC (US,EN).dk",
-      "programmes": 101,
-      "with_artwork": 0,
-      "with_desc": 101
-    },
-    "CNN (T).dk": {
-      "display_name": "CNN (T).dk",
-      "programmes": 60,
-      "with_artwork": 0,
-      "with_desc": 60
-    },
-    "CNN International (US,EN).dk": {
-      "display_name": "CNN International (US,EN).dk",
-      "programmes": 65,
-      "with_artwork": 0,
-      "with_desc": 65
-    },
-    "CNN.dk": {
-      "display_name": "CNN.dk",
-      "programmes": 127,
-      "with_artwork": 0,
-      "with_desc": 127
-    },
-    "Canal 9 Denmark (DK,DA).dk": {
-      "display_name": "Canal 9 Denmark (DK,DA).dk",
-      "programmes": 51,
-      "with_artwork": 7,
-      "with_desc": 51
-    },
-    "Canal 9.dk": {
-      "display_name": "Canal 9.dk",
-      "programmes": 48,
-      "with_artwork": 6,
-      "with_desc": 47
-    },
-    "Canal9.dk": {
-      "display_name": "Canal9.dk",
-      "programmes": 101,
-      "with_artwork": 0,
-      "with_desc": 101
-    },
-    "Cartoon Network (T).dk": {
-      "display_name": "Cartoon Network (T).dk",
-      "programmes": 233,
-      "with_artwork": 16,
-      "with_desc": 233
-    },
-    "Cartoon Network.dk": {
-      "display_name": "Cartoon Network.dk",
-      "programmes": 495,
-      "with_artwork": 36,
-      "with_desc": 495
-    },
-    "Cartoonito.dk": {
-      "display_name": "Cartoonito.dk",
-      "programmes": 657,
-      "with_artwork": 60,
-      "with_desc": 657
-    },
-    "DK4 Denmark (DK,DA).dk": {
-      "display_name": "DK4 Denmark (DK,DA).dk",
-      "programmes": 88,
-      "with_artwork": 1,
-      "with_desc": 88
-    },
-    "DK4.dk": {
-      "display_name": "DK4.dk",
-      "programmes": 254,
-      "with_artwork": 5,
-      "with_desc": 251
-    },
-    "DR Ramasjang (T).dk": {
-      "display_name": "DR Ramasjang (T).dk",
-      "programmes": 150,
-      "with_artwork": 85,
-      "with_desc": 150
-    },
-    "DR Ramasjang Denmark (DK,DA).dk": {
-      "display_name": "DR Ramasjang Denmark (DK,DA).dk",
-      "programmes": 157,
-      "with_artwork": 87,
-      "with_desc": 157
-    },
-    "DR Ramasjang.dk": {
-      "display_name": "DR Ramasjang.dk",
-      "programmes": 379,
-      "with_artwork": 164,
-      "with_desc": 307
-    },
-    "DR TV Avisen.dk": {
-      "display_name": "DR TV Avisen.dk",
-      "programmes": 189,
-      "with_artwork": 0,
-      "with_desc": 182
-    },
-    "DR1 Denmark (DK,DA).dk": {
-      "display_name": "DR1 Denmark (DK,DA).dk",
-      "programmes": 67,
-      "with_artwork": 38,
-      "with_desc": 65
-    },
-    "DR1 HD (T).dk": {
-      "display_name": "DR1 HD (T).dk",
-      "programmes": 63,
-      "with_artwork": 35,
-      "with_desc": 63
-    },
-    "DR1.dk": {
-      "display_name": "DR1.dk",
-      "programmes": 194,
-      "with_artwork": 71,
-      "with_desc": 186
-    },
-    "DR2 Denmark (DK,DA).dk": {
-      "display_name": "DR2 Denmark (DK,DA).dk",
-      "programmes": 54,
-      "with_artwork": 26,
-      "with_desc": 54
-    },
     "DR2 HD (T).dk": {
       "display_name": "DR2 HD (T).dk",
-      "programmes": 46,
-      "with_artwork": 19,
-      "with_desc": 46
+      "programmes": 55,
+      "with_artwork": 0,
+      "with_desc": 55
     },
     "DR2.dk": {
       "display_name": "DR2.dk",
-      "programmes": 151,
-      "with_artwork": 50,
-      "with_desc": 143
+      "programmes": 164,
+      "with_artwork": 0,
+      "with_desc": 163
     },
     "DW English (T).dk": {
       "display_name": "DW English (T).dk",
-      "programmes": 139,
-      "with_artwork": 0,
-      "with_desc": 139
+      "programmes": 167,
+      "with_artwork": 72,
+      "with_desc": 167
     },
     "Das Erste Germany (DE,DE).dk": {
       "display_name": "Das Erste Germany (DE,DE).dk",
-      "programmes": 59,
-      "with_artwork": 0,
-      "with_desc": 59
+      "programmes": 85,
+      "with_artwork": 45,
+      "with_desc": 85
     },
     "Deutsche Welle (DW) (DE,EN).dk": {
       "display_name": "Deutsche Welle (DW) (DE,EN).dk",
-      "programmes": 154,
-      "with_artwork": 0,
-      "with_desc": 107
+      "programmes": 181,
+      "with_artwork": 77,
+      "with_desc": 130
     },
     "Discovery Channel Central Europe English (GB,EN).dk": {
       "display_name": "Discovery Channel Central Europe English (GB,EN).dk",
-      "programmes": 65,
-      "with_artwork": 0,
-      "with_desc": 65
+      "programmes": 75,
+      "with_artwork": 63,
+      "with_desc": 75
     },
     "Discovery Channel Denmark (DK,DA).dk": {
       "display_name": "Discovery Channel Denmark (DK,DA).dk",
-      "programmes": 54,
-      "with_artwork": 0,
-      "with_desc": 54
+      "programmes": 59,
+      "with_artwork": 58,
+      "with_desc": 59
     },
     "Discovery Channel HD (D) (T).dk": {
       "display_name": "Discovery Channel HD (D) (T).dk",
-      "programmes": 49,
-      "with_artwork": 0,
-      "with_desc": 49
+      "programmes": 55,
+      "with_artwork": 54,
+      "with_desc": 55
     },
     "Discovery Channel Norge (NO,NO).dk": {
       "display_name": "Discovery Channel Norge (NO,NO).dk",
-      "programmes": 54,
-      "with_artwork": 0,
-      "with_desc": 54
+      "programmes": 59,
+      "with_artwork": 27,
+      "with_desc": 59
     },
     "Discovery Channel.dk": {
       "display_name": "Discovery Channel.dk",
-      "programmes": 155,
-      "with_artwork": 0,
-      "with_desc": 155
+      "programmes": 169,
+      "with_artwork": 160,
+      "with_desc": 169
     },
     "Discovery Science Europe English (GB,EN).dk": {
       "display_name": "Discovery Science Europe English (GB,EN).dk",
-      "programmes": 85,
-      "with_artwork": 0,
-      "with_desc": 85
+      "programmes": 98,
+      "with_artwork": 50,
+      "with_desc": 98
     },
     "Discovery Science.dk": {
       "display_name": "Discovery Science.dk",
-      "programmes": 247,
-      "with_artwork": 0,
-      "with_desc": 245
+      "programmes": 283,
+      "with_artwork": 181,
+      "with_desc": 281
     },
     "Disney Channel Denmark (DK,DA).dk": {
       "display_name": "Disney Channel Denmark (DK,DA).dk",
-      "programmes": 148,
-      "with_artwork": 85,
-      "with_desc": 148
+      "programmes": 173,
+      "with_artwork": 172,
+      "with_desc": 173
     },
     "Disney Channel Nordics (IS,EN).dk": {
       "display_name": "Disney Channel Nordics (IS,EN).dk",
-      "programmes": 148,
-      "with_artwork": 53,
-      "with_desc": 148
+      "programmes": 173,
+      "with_artwork": 142,
+      "with_desc": 173
     },
     "Disney Channel Sca..dk": {
       "display_name": "Disney Channel Sca..dk",
-      "programmes": 288,
-      "with_artwork": 162,
-      "with_desc": 288
+      "programmes": 334,
+      "with_artwork": 332,
+      "with_desc": 334
     },
     "Disney Channel.dk": {
       "display_name": "Disney Channel.dk",
-      "programmes": 141,
-      "with_artwork": 74,
-      "with_desc": 137
+      "programmes": 147,
+      "with_artwork": 135,
+      "with_desc": 144
     },
     "Dizi.dk": {
       "display_name": "Dizi.dk",
-      "programmes": 57,
-      "with_artwork": 0,
-      "with_desc": 57
+      "programmes": 66,
+      "with_artwork": 45,
+      "with_desc": 66
     },
     "E! Entertainment Europe (GB,EN).dk": {
       "display_name": "E! Entertainment Europe (GB,EN).dk",
-      "programmes": 56,
-      "with_artwork": 0,
-      "with_desc": 56
+      "programmes": 64,
+      "with_artwork": 64,
+      "with_desc": 64
     },
     "Euronews English France (FR,EN).dk": {
       "display_name": "Euronews English France (FR,EN).dk",
-      "programmes": 161,
-      "with_artwork": 0,
+      "programmes": 191,
+      "with_artwork": 148,
       "with_desc": 156
     },
     "Eurosport 1 Denmark (DK,DA).dk": {
       "display_name": "Eurosport 1 Denmark (DK,DA).dk",
-      "programmes": 32,
+      "programmes": 36,
       "with_artwork": 0,
       "with_desc": 19
     },
     "Eurosport 1 HD (D) (T).dk": {
       "display_name": "Eurosport 1 HD (D) (T).dk",
-      "programmes": 28,
-      "with_artwork": 0,
-      "with_desc": 28
-    },
-    "Eurosport 1 Norway (NO,NO).dk": {
-      "display_name": "Eurosport 1 Norway (NO,NO).dk",
-      "programmes": 35,
-      "with_artwork": 0,
-      "with_desc": 30
-    },
-    "Eurosport 1.dk": {
-      "display_name": "Eurosport 1.dk",
-      "programmes": 88,
-      "with_artwork": 0,
-      "with_desc": 59
-    },
-    "Eurosport 2 Denmark (DK,DA).dk": {
-      "display_name": "Eurosport 2 Denmark (DK,DA).dk",
-      "programmes": 37,
-      "with_artwork": 0,
-      "with_desc": 28
-    },
-    "Eurosport 2 HD (D) (T).dk": {
-      "display_name": "Eurosport 2 HD (D) (T).dk",
-      "programmes": 34,
-      "with_artwork": 0,
-      "with_desc": 34
-    },
-    "Eurosport 2.dk": {
-      "display_name": "Eurosport 2.dk",
-      "programmes": 108,
-      "with_artwork": 0,
-      "with_desc": 74
-    },
-    "FEM Norway (NO,NO).dk": {
-      "display_name": "FEM Norway (NO,NO).dk",
-      "programmes": 54,
-      "with_artwork": 0,
-      "with_desc": 54
-    },
-    "Folketinget Denmark (DK,DA).dk": {
-      "display_name": "Folketinget Denmark (DK,DA).dk",
-      "programmes": 11,
-      "with_artwork": 0,
-      "with_desc": 11
-    },
-    "Folketinget.dk": {
-      "display_name": "Folketinget.dk",
-      "programmes": 21,
-      "with_artwork": 0,
-      "with_desc": 21
-    },
-    "France 24 English (FR,EN).dk": {
-      "display_name": "France 24 English (FR,EN).dk",
-      "programmes": 209,
-      "with_artwork": 0,
-      "with_desc": 206
-    },
-    "Fuel TV Portugal English (PT,EN).dk": {
-      "display_name": "Fuel TV Portugal English (PT,EN).dk",
-      "programmes": 109,
-      "with_artwork": 0,
-      "with_desc": 108
-    },
-    "Ginx TV Esports UK (GB,EN).dk": {
-      "display_name": "Ginx TV Esports UK (GB,EN).dk",
-      "programmes": 64,
-      "with_artwork": 0,
-      "with_desc": 36
-    },
-    "HISTORY2 Europe (GB,EN).dk": {
-      "display_name": "HISTORY2 Europe (GB,EN).dk",
-      "programmes": 69,
-      "with_artwork": 0,
-      "with_desc": 69
-    },
-    "History 2 Channel Denmark (DK,DA).dk": {
-      "display_name": "History 2 Channel Denmark (DK,DA).dk",
-      "programmes": 69,
-      "with_artwork": 0,
-      "with_desc": 69
-    },
-    "History 2 Norway (NO,NO).dk": {
-      "display_name": "History 2 Norway (NO,NO).dk",
-      "programmes": 69,
-      "with_artwork": 0,
-      "with_desc": 69
-    },
-    "History Channel Denmark (DK,DA).dk": {
-      "display_name": "History Channel Denmark (DK,DA).dk",
-      "programmes": 71,
-      "with_artwork": 0,
-      "with_desc": 71
-    },
-    "History Norway (NO,NO).dk": {
-      "display_name": "History Norway (NO,NO).dk",
-      "programmes": 71,
-      "with_artwork": 0,
-      "with_desc": 71
-    },
-    "History.dk": {
-      "display_name": "History.dk",
-      "programmes": 67,
-      "with_artwork": 0,
-      "with_desc": 67
-    },
-    "Horse & Country (T).dk": {
-      "display_name": "Horse & Country (T).dk",
-      "programmes": 38,
-      "with_artwork": 0,
-      "with_desc": 38
-    },
-    "Hustler TV UK (GB,EN).dk": {
-      "display_name": "Hustler TV UK (GB,EN).dk",
-      "programmes": 41,
-      "with_artwork": 0,
-      "with_desc": 41
-    },
-    "ID Investigation Discovery (D) (T).dk": {
-      "display_name": "ID Investigation Discovery (D) (T).dk",
-      "programmes": 46,
-      "with_artwork": 0,
-      "with_desc": 46
-    },
-    "ID.dk": {
-      "display_name": "ID.dk",
-      "programmes": 47,
-      "with_artwork": 0,
-      "with_desc": 45
-    },
-    "Investigation Discovery Denmark (DK,DA).dk": {
-      "display_name": "Investigation Discovery Denmark (DK,DA).dk",
-      "programmes": 51,
-      "with_artwork": 0,
-      "with_desc": 51
-    },
-    "Investigation Discovery Norway (NO,NO).dk": {
-      "display_name": "Investigation Discovery Norway (NO,NO).dk",
-      "programmes": 51,
-      "with_artwork": 0,
-      "with_desc": 51
-    },
-    "Investigation Discovery.dk": {
-      "display_name": "Investigation Discovery.dk",
-      "programmes": 99,
-      "with_artwork": 0,
-      "with_desc": 99
-    },
-    "Kanal 4 Denmark (DK,DA).dk": {
-      "display_name": "Kanal 4 Denmark (DK,DA).dk",
-      "programmes": 59,
-      "with_artwork": 0,
-      "with_desc": 59
-    },
-    "Kanal 4 HD (D) (T).dk": {
-      "display_name": "Kanal 4 HD (D) (T).dk",
-      "programmes": 55,
-      "with_artwork": 0,
-      "with_desc": 55
-    },
-    "Kanal 4.dk": {
-      "display_name": "Kanal 4.dk",
-      "programmes": 173,
-      "with_artwork": 2,
-      "with_desc": 170
-    },
-    "Kanal 5 Denmark (DK,DA).dk": {
-      "display_name": "Kanal 5 Denmark (DK,DA).dk",
-      "programmes": 55,
-      "with_artwork": 24,
-      "with_desc": 55
-    },
-    "Kanal 5 HD (D) (T).dk": {
-      "display_name": "Kanal 5 HD (D) (T).dk",
-      "programmes": 51,
-      "with_artwork": 24,
-      "with_desc": 51
-    },
-    "Kanal 5.dk": {
-      "display_name": "Kanal 5.dk",
-      "programmes": 160,
-      "with_artwork": 72,
-      "with_desc": 158
-    },
-    "Kanal Hovedstaden.dk": {
-      "display_name": "Kanal Hovedstaden.dk",
-      "programmes": 27,
-      "with_artwork": 0,
-      "with_desc": 21
-    },
-    "Kosmopol (Digital).dk": {
-      "display_name": "Kosmopol (Digital).dk",
-      "programmes": 132,
-      "with_artwork": 50,
-      "with_desc": 132
-    },
-    "Love Nature HD (T).dk": {
-      "display_name": "Love Nature HD (T).dk",
-      "programmes": 53,
-      "with_artwork": 4,
-      "with_desc": 53
-    },
-    "MDR Sachsen-Anhalt Germany (DE,DE).dk": {
-      "display_name": "MDR Sachsen-Anhalt Germany (DE,DE).dk",
-      "programmes": 86,
-      "with_artwork": 0,
-      "with_desc": 86
-    },
-    "MEZZO LIVE English France (FR,EN).dk": {
-      "display_name": "MEZZO LIVE English France (FR,EN).dk",
-      "programmes": 46,
-      "with_artwork": 0,
-      "with_desc": 44
-    },
-    "MTV (Nordic) (T).dk": {
-      "display_name": "MTV (Nordic) (T).dk",
-      "programmes": 88,
-      "with_artwork": 0,
-      "with_desc": 88
-    },
-    "MTV Denmark (DK,DA).dk": {
-      "display_name": "MTV Denmark (DK,DA).dk",
-      "programmes": 96,
-      "with_artwork": 0,
-      "with_desc": 96
-    },
-    "MTV Norway (NO,NO).dk": {
-      "display_name": "MTV Norway (NO,NO).dk",
-      "programmes": 57,
-      "with_artwork": 0,
-      "with_desc": 57
-    },
-    "MTV.dk": {
-      "display_name": "MTV.dk",
-      "programmes": 272,
-      "with_artwork": 0,
-      "with_desc": 270
-    },
-    "Mezzo Live (T).dk": {
-      "display_name": "Mezzo Live (T).dk",
-      "programmes": 39,
-      "with_artwork": 0,
-      "with_desc": 39
-    },
-    "Moonbug (T).dk": {
-      "display_name": "Moonbug (T).dk",
-      "programmes": 93,
-      "with_artwork": 0,
-      "with_desc": 93
-    },
-    "Motorvision+ Germany (DE,EN).dk": {
-      "display_name": "Motorvision+ Germany (DE,EN).dk",
-      "programmes": 86,
-      "with_artwork": 0,
-      "with_desc": 84
-    },
-    "NDR Germany (DE,DE).dk": {
-      "display_name": "NDR Germany (DE,DE).dk",
-      "programmes": 89,
-      "with_artwork": 0,
-      "with_desc": 89
-    },
-    "NDR.dk": {
-      "display_name": "NDR.dk",
-      "programmes": 171,
-      "with_artwork": 0,
-      "with_desc": 171
-    },
-    "NRK Super Norway (NO,NO).dk": {
-      "display_name": "NRK Super Norway (NO,NO).dk",
-      "programmes": 197,
-      "with_artwork": 11,
-      "with_desc": 197
-    },
-    "NRK1 HD (T).dk": {
-      "display_name": "NRK1 HD (T).dk",
-      "programmes": 49,
-      "with_artwork": 0,
-      "with_desc": 49
-    },
-    "NRK1 Norway (NO,NO).dk": {
-      "display_name": "NRK1 Norway (NO,NO).dk",
-      "programmes": 55,
-      "with_artwork": 0,
-      "with_desc": 53
-    },
-    "NRK1.dk": {
-      "display_name": "NRK1.dk",
-      "programmes": 106,
-      "with_artwork": 1,
-      "with_desc": 106
-    },
-    "NRK2 HD (T).dk": {
-      "display_name": "NRK2 HD (T).dk",
-      "programmes": 91,
-      "with_artwork": 6,
-      "with_desc": 91
-    },
-    "NRK2 Norway (NO,NO).dk": {
-      "display_name": "NRK2 Norway (NO,NO).dk",
-      "programmes": 99,
-      "with_artwork": 6,
-      "with_desc": 49
-    },
-    "NRK2.dk": {
-      "display_name": "NRK2.dk",
-      "programmes": 186,
-      "with_artwork": 13,
-      "with_desc": 178
-    },
-    "NRK3 Norway (NO,NO).dk": {
-      "display_name": "NRK3 Norway (NO,NO).dk",
-      "programmes": 136,
-      "with_artwork": 5,
-      "with_desc": 136
-    },
-    "NRK3/ NRK Super HD (T).dk": {
-      "display_name": "NRK3/ NRK Super HD (T).dk",
-      "programmes": 124,
-      "with_artwork": 5,
-      "with_desc": 124
-    },
-    "National Geographic Channel.dk": {
-      "display_name": "National Geographic Channel.dk",
-      "programmes": 101,
-      "with_artwork": 47,
-      "with_desc": 101
-    },
-    "National Geographic Denmark (DK,DA).dk": {
-      "display_name": "National Geographic Denmark (DK,DA).dk",
-      "programmes": 52,
-      "with_artwork": 23,
-      "with_desc": 52
-    },
-    "National Geographic HD (D) (T).dk": {
-      "display_name": "National Geographic HD (D) (T).dk",
-      "programmes": 47,
-      "with_artwork": 23,
-      "with_desc": 47
-    },
-    "National Geographic Norway (NO,NO).dk": {
-      "display_name": "National Geographic Norway (NO,NO).dk",
-      "programmes": 52,
-      "with_artwork": 0,
-      "with_desc": 52
-    },
-    "National Geographic Wild Denmark (DK,DA).dk": {
-      "display_name": "National Geographic Wild Denmark (DK,DA).dk",
-      "programmes": 74,
-      "with_artwork": 17,
-      "with_desc": 74
-    },
-    "National Geographic Wild Nordics (IS,EN).dk": {
-      "display_name": "National Geographic Wild Nordics (IS,EN).dk",
-      "programmes": 74,
-      "with_artwork": 12,
-      "with_desc": 74
-    },
-    "National Geographic Wild Norway (NO,NO).dk": {
-      "display_name": "National Geographic Wild Norway (NO,NO).dk",
-      "programmes": 74,
-      "with_artwork": 19,
-      "with_desc": 74
-    },
-    "National Geographic Wild.dk": {
-      "display_name": "National Geographic Wild.dk",
-      "programmes": 213,
-      "with_artwork": 47,
-      "with_desc": 212
-    },
-    "National Geographic.dk": {
-      "display_name": "National Geographic.dk",
-      "programmes": 48,
-      "with_artwork": 24,
-      "with_desc": 46
-    },
-    "Nick Jr. (T).dk": {
-      "display_name": "Nick Jr. (T).dk",
-      "programmes": 128,
-      "with_artwork": 30,
-      "with_desc": 128
-    },
-    "Nick Jr. Denmark (DK,DA).dk": {
-      "display_name": "Nick Jr. Denmark (DK,DA).dk",
-      "programmes": 141,
-      "with_artwork": 31,
-      "with_desc": 141
-    },
-    "Nick Jr. Norway (NO,NO).dk": {
-      "display_name": "Nick Jr. Norway (NO,NO).dk",
-      "programmes": 141,
-      "with_artwork": 0,
-      "with_desc": 141
-    },
-    "Nickelodeon (Nordic) (T).dk": {
-      "display_name": "Nickelodeon (Nordic) (T).dk",
-      "programmes": 124,
-      "with_artwork": 60,
-      "with_desc": 124
-    },
-    "Nickelodeon Junior.dk": {
-      "display_name": "Nickelodeon Junior.dk",
-      "programmes": 274,
-      "with_artwork": 61,
-      "with_desc": 274
-    },
-    "Nickelodeon Norway (NO,NO).dk": {
-      "display_name": "Nickelodeon Norway (NO,NO).dk",
-      "programmes": 138,
-      "with_artwork": 32,
-      "with_desc": 138
-    },
-    "Nickelodeon.dk": {
-      "display_name": "Nickelodeon.dk",
-      "programmes": 396,
-      "with_artwork": 192,
-      "with_desc": 392
-    },
-    "Nicktoons (T).dk": {
-      "display_name": "Nicktoons (T).dk",
-      "programmes": 136,
-      "with_artwork": 71,
-      "with_desc": 136
-    },
-    "Norway Live (NO,NO).dk": {
-      "display_name": "Norway Live (NO,NO).dk",
-      "programmes": 23,
-      "with_artwork": 0,
-      "with_desc": 23
-    },
-    "Oiii.dk": {
-      "display_name": "Oiii.dk",
-      "programmes": 174,
-      "with_artwork": 61,
-      "with_desc": 156
-    },
-    "Play Guld.dk": {
-      "display_name": "Play Guld.dk",
-      "programmes": 75,
-      "with_artwork": 27,
-      "with_desc": 75
-    },
-    "ProSieben.dk": {
-      "display_name": "ProSieben.dk",
-      "programmes": 76,
-      "with_artwork": 0,
-      "with_desc": 76
-    },
-    "REX Norway (NO,NO).dk": {
-      "display_name": "REX Norway (NO,NO).dk",
-      "programmes": 73,
-      "with_artwork": 5,
-      "with_desc": 73
-    },
-    "RIKSTOTO Norway (NO,NO).dk": {
-      "display_name": "RIKSTOTO Norway (NO,NO).dk",
-      "programmes": 14,
-      "with_artwork": 0,
-      "with_desc": 9
-    },
-    "RTL Germany (DE,DE).dk": {
-      "display_name": "RTL Germany (DE,DE).dk",
-      "programmes": 58,
-      "with_artwork": 0,
-      "with_desc": 58
-    },
-    "RTL II.dk": {
-      "display_name": "RTL II.dk",
-      "programmes": 45,
-      "with_artwork": 0,
-      "with_desc": 45
-    },
-    "RTL.dk": {
-      "display_name": "RTL.dk",
-      "programmes": 54,
-      "with_artwork": 4,
-      "with_desc": 54
-    },
-    "Regional - TV 2 / Østjylland.dk": {
-      "display_name": "Regional - TV 2 / Østjylland.dk",
-      "programmes": 13,
-      "with_artwork": 0,
-      "with_desc": 13
-    },
-    "Regional - TV 2/Bornholm.dk": {
-      "display_name": "Regional - TV 2/Bornholm.dk",
-      "programmes": 132,
-      "with_artwork": 2,
-      "with_desc": 132
-    },
-    "Regional - TV 2/Fyn.dk": {
-      "display_name": "Regional - TV 2/Fyn.dk",
       "programmes": 33,
       "with_artwork": 0,
       "with_desc": 33
     },
-    "Regional - TV Syd.dk": {
-      "display_name": "Regional - TV Syd.dk",
-      "programmes": 71,
+    "Eurosport 1 Norway (NO,NO).dk": {
+      "display_name": "Eurosport 1 Norway (NO,NO).dk",
+      "programmes": 39,
+      "with_artwork": 2,
+      "with_desc": 32
+    },
+    "Eurosport 1.dk": {
+      "display_name": "Eurosport 1.dk",
+      "programmes": 101,
+      "with_artwork": 1,
+      "with_desc": 67
+    },
+    "Eurosport 2 Denmark (DK,DA).dk": {
+      "display_name": "Eurosport 2 Denmark (DK,DA).dk",
+      "programmes": 39,
+      "with_artwork": 2,
+      "with_desc": 26
+    },
+    "Eurosport 2 HD (D) (T).dk": {
+      "display_name": "Eurosport 2 HD (D) (T).dk",
+      "programmes": 37,
+      "with_artwork": 2,
+      "with_desc": 37
+    },
+    "Eurosport 2.dk": {
+      "display_name": "Eurosport 2.dk",
+      "programmes": 112,
       "with_artwork": 4,
-      "with_desc": 71
+      "with_desc": 74
     },
-    "SF-kanalen Denmark (DK,DA).dk": {
-      "display_name": "SF-kanalen Denmark (DK,DA).dk",
-      "programmes": 31,
-      "with_artwork": 1,
-      "with_desc": 31
+    "FEM Norway (NO,NO).dk": {
+      "display_name": "FEM Norway (NO,NO).dk",
+      "programmes": 61,
+      "with_artwork": 21,
+      "with_desc": 61
     },
-    "SF-kanalen Norway (NO,NO).dk": {
-      "display_name": "SF-kanalen Norway (NO,NO).dk",
-      "programmes": 31,
-      "with_artwork": 1,
-      "with_desc": 31
-    },
-    "SF-kanalen.dk": {
-      "display_name": "SF-kanalen.dk",
-      "programmes": 28,
-      "with_artwork": 1,
-      "with_desc": 28
-    },
-    "SUPERRTL.dk": {
-      "display_name": "SUPERRTL.dk",
-      "programmes": 80,
-      "with_artwork": 32,
-      "with_desc": 80
-    },
-    "SVT 24 Sweden (SE,SV).dk": {
-      "display_name": "SVT 24 Sweden (SE,SV).dk",
+    "Folketinget Denmark (DK,DA).dk": {
+      "display_name": "Folketinget Denmark (DK,DA).dk",
       "programmes": 14,
       "with_artwork": 0,
       "with_desc": 14
     },
+    "Folketinget.dk": {
+      "display_name": "Folketinget.dk",
+      "programmes": 28,
+      "with_artwork": 0,
+      "with_desc": 28
+    },
+    "France 24 English (FR,EN).dk": {
+      "display_name": "France 24 English (FR,EN).dk",
+      "programmes": 238,
+      "with_artwork": 46,
+      "with_desc": 232
+    },
+    "Fuel TV Portugal English (PT,EN).dk": {
+      "display_name": "Fuel TV Portugal English (PT,EN).dk",
+      "programmes": 117,
+      "with_artwork": 43,
+      "with_desc": 116
+    },
+    "Ginx TV Esports UK (GB,EN).dk": {
+      "display_name": "Ginx TV Esports UK (GB,EN).dk",
+      "programmes": 70,
+      "with_artwork": 56,
+      "with_desc": 40
+    },
+    "HISTORY2 Europe (GB,EN).dk": {
+      "display_name": "HISTORY2 Europe (GB,EN).dk",
+      "programmes": 78,
+      "with_artwork": 78,
+      "with_desc": 78
+    },
+    "History 2 Channel Denmark (DK,DA).dk": {
+      "display_name": "History 2 Channel Denmark (DK,DA).dk",
+      "programmes": 78,
+      "with_artwork": 66,
+      "with_desc": 78
+    },
+    "History 2 Norway (NO,NO).dk": {
+      "display_name": "History 2 Norway (NO,NO).dk",
+      "programmes": 78,
+      "with_artwork": 75,
+      "with_desc": 78
+    },
+    "History Channel Denmark (DK,DA).dk": {
+      "display_name": "History Channel Denmark (DK,DA).dk",
+      "programmes": 81,
+      "with_artwork": 81,
+      "with_desc": 81
+    },
+    "History Norway (NO,NO).dk": {
+      "display_name": "History Norway (NO,NO).dk",
+      "programmes": 81,
+      "with_artwork": 81,
+      "with_desc": 81
+    },
+    "History.dk": {
+      "display_name": "History.dk",
+      "programmes": 74,
+      "with_artwork": 74,
+      "with_desc": 74
+    },
+    "Horse & Country (T).dk": {
+      "display_name": "Horse & Country (T).dk",
+      "programmes": 43,
+      "with_artwork": 2,
+      "with_desc": 43
+    },
+    "Hustler TV UK (GB,EN).dk": {
+      "display_name": "Hustler TV UK (GB,EN).dk",
+      "programmes": 48,
+      "with_artwork": 0,
+      "with_desc": 48
+    },
+    "ID Investigation Discovery (D) (T).dk": {
+      "display_name": "ID Investigation Discovery (D) (T).dk",
+      "programmes": 56,
+      "with_artwork": 50,
+      "with_desc": 56
+    },
+    "ID.dk": {
+      "display_name": "ID.dk",
+      "programmes": 56,
+      "with_artwork": 50,
+      "with_desc": 54
+    },
+    "Investigation Discovery Denmark (DK,DA).dk": {
+      "display_name": "Investigation Discovery Denmark (DK,DA).dk",
+      "programmes": 61,
+      "with_artwork": 55,
+      "with_desc": 61
+    },
+    "Investigation Discovery Norway (NO,NO).dk": {
+      "display_name": "Investigation Discovery Norway (NO,NO).dk",
+      "programmes": 61,
+      "with_artwork": 54,
+      "with_desc": 61
+    },
+    "Investigation Discovery.dk": {
+      "display_name": "Investigation Discovery.dk",
+      "programmes": 118,
+      "with_artwork": 106,
+      "with_desc": 118
+    },
+    "Kanal 4 Denmark (DK,DA).dk": {
+      "display_name": "Kanal 4 Denmark (DK,DA).dk",
+      "programmes": 69,
+      "with_artwork": 64,
+      "with_desc": 69
+    },
+    "Kanal 4 HD (D) (T).dk": {
+      "display_name": "Kanal 4 HD (D) (T).dk",
+      "programmes": 65,
+      "with_artwork": 61,
+      "with_desc": 65
+    },
+    "Kanal 4.dk": {
+      "display_name": "Kanal 4.dk",
+      "programmes": 200,
+      "with_artwork": 180,
+      "with_desc": 198
+    },
+    "Kanal 5 Denmark (DK,DA).dk": {
+      "display_name": "Kanal 5 Denmark (DK,DA).dk",
+      "programmes": 62,
+      "with_artwork": 57,
+      "with_desc": 62
+    },
+    "Kanal 5 HD (D) (T).dk": {
+      "display_name": "Kanal 5 HD (D) (T).dk",
+      "programmes": 58,
+      "with_artwork": 53,
+      "with_desc": 58
+    },
+    "Kanal 5.dk": {
+      "display_name": "Kanal 5.dk",
+      "programmes": 180,
+      "with_artwork": 161,
+      "with_desc": 178
+    },
+    "Kanal Hovedstaden.dk": {
+      "display_name": "Kanal Hovedstaden.dk",
+      "programmes": 34,
+      "with_artwork": 1,
+      "with_desc": 28
+    },
+    "Kosmopol (Digital).dk": {
+      "display_name": "Kosmopol (Digital).dk",
+      "programmes": 134,
+      "with_artwork": 112,
+      "with_desc": 133
+    },
+    "Love Nature HD (T).dk": {
+      "display_name": "Love Nature HD (T).dk",
+      "programmes": 62,
+      "with_artwork": 17,
+      "with_desc": 62
+    },
+    "MDR Sachsen-Anhalt Germany (DE,DE).dk": {
+      "display_name": "MDR Sachsen-Anhalt Germany (DE,DE).dk",
+      "programmes": 92,
+      "with_artwork": 55,
+      "with_desc": 92
+    },
+    "MEZZO LIVE English France (FR,EN).dk": {
+      "display_name": "MEZZO LIVE English France (FR,EN).dk",
+      "programmes": 50,
+      "with_artwork": 12,
+      "with_desc": 49
+    },
+    "MTV (Nordic) (T).dk": {
+      "display_name": "MTV (Nordic) (T).dk",
+      "programmes": 104,
+      "with_artwork": 100,
+      "with_desc": 104
+    },
+    "MTV Denmark (DK,DA).dk": {
+      "display_name": "MTV Denmark (DK,DA).dk",
+      "programmes": 112,
+      "with_artwork": 108,
+      "with_desc": 112
+    },
+    "MTV Norway (NO,NO).dk": {
+      "display_name": "MTV Norway (NO,NO).dk",
+      "programmes": 112,
+      "with_artwork": 101,
+      "with_desc": 112
+    },
+    "MTV.dk": {
+      "display_name": "MTV.dk",
+      "programmes": 312,
+      "with_artwork": 300,
+      "with_desc": 310
+    },
+    "Mezzo Live (T).dk": {
+      "display_name": "Mezzo Live (T).dk",
+      "programmes": 46,
+      "with_artwork": 10,
+      "with_desc": 46
+    },
+    "Moonbug (T).dk": {
+      "display_name": "Moonbug (T).dk",
+      "programmes": 108,
+      "with_artwork": 96,
+      "with_desc": 108
+    },
+    "Motorvision+ Germany (DE,EN).dk": {
+      "display_name": "Motorvision+ Germany (DE,EN).dk",
+      "programmes": 102,
+      "with_artwork": 27,
+      "with_desc": 102
+    },
+    "NDR Germany (DE,DE).dk": {
+      "display_name": "NDR Germany (DE,DE).dk",
+      "programmes": 98,
+      "with_artwork": 29,
+      "with_desc": 96
+    },
+    "NDR.dk": {
+      "display_name": "NDR.dk",
+      "programmes": 188,
+      "with_artwork": 33,
+      "with_desc": 188
+    },
+    "NRK Super Norway (NO,NO).dk": {
+      "display_name": "NRK Super Norway (NO,NO).dk",
+      "programmes": 231,
+      "with_artwork": 102,
+      "with_desc": 230
+    },
+    "NRK1 HD (T).dk": {
+      "display_name": "NRK1 HD (T).dk",
+      "programmes": 59,
+      "with_artwork": 10,
+      "with_desc": 59
+    },
+    "NRK1 Norway (NO,NO).dk": {
+      "display_name": "NRK1 Norway (NO,NO).dk",
+      "programmes": 62,
+      "with_artwork": 13,
+      "with_desc": 60
+    },
+    "NRK1.dk": {
+      "display_name": "NRK1.dk",
+      "programmes": 117,
+      "with_artwork": 24,
+      "with_desc": 117
+    },
+    "NRK2 HD (T).dk": {
+      "display_name": "NRK2 HD (T).dk",
+      "programmes": 104,
+      "with_artwork": 16,
+      "with_desc": 104
+    },
+    "NRK2 Norway (NO,NO).dk": {
+      "display_name": "NRK2 Norway (NO,NO).dk",
+      "programmes": 72,
+      "with_artwork": 9,
+      "with_desc": 28
+    },
+    "NRK2.dk": {
+      "display_name": "NRK2.dk",
+      "programmes": 210,
+      "with_artwork": 34,
+      "with_desc": 200
+    },
+    "NRK3 Norway (NO,NO).dk": {
+      "display_name": "NRK3 Norway (NO,NO).dk",
+      "programmes": 167,
+      "with_artwork": 88,
+      "with_desc": 167
+    },
+    "NRK3/ NRK Super HD (T).dk": {
+      "display_name": "NRK3/ NRK Super HD (T).dk",
+      "programmes": 154,
+      "with_artwork": 82,
+      "with_desc": 154
+    },
+    "National Geographic Channel.dk": {
+      "display_name": "National Geographic Channel.dk",
+      "programmes": 111,
+      "with_artwork": 111,
+      "with_desc": 111
+    },
+    "National Geographic Denmark (DK,DA).dk": {
+      "display_name": "National Geographic Denmark (DK,DA).dk",
+      "programmes": 58,
+      "with_artwork": 58,
+      "with_desc": 58
+    },
+    "National Geographic HD (D) (T).dk": {
+      "display_name": "National Geographic HD (D) (T).dk",
+      "programmes": 53,
+      "with_artwork": 53,
+      "with_desc": 53
+    },
+    "National Geographic Norway (NO,NO).dk": {
+      "display_name": "National Geographic Norway (NO,NO).dk",
+      "programmes": 58,
+      "with_artwork": 31,
+      "with_desc": 58
+    },
+    "National Geographic Wild Denmark (DK,DA).dk": {
+      "display_name": "National Geographic Wild Denmark (DK,DA).dk",
+      "programmes": 86,
+      "with_artwork": 57,
+      "with_desc": 86
+    },
+    "National Geographic Wild Nordics (IS,EN).dk": {
+      "display_name": "National Geographic Wild Nordics (IS,EN).dk",
+      "programmes": 86,
+      "with_artwork": 79,
+      "with_desc": 86
+    },
+    "National Geographic Wild Norway (NO,NO).dk": {
+      "display_name": "National Geographic Wild Norway (NO,NO).dk",
+      "programmes": 86,
+      "with_artwork": 75,
+      "with_desc": 86
+    },
+    "National Geographic Wild.dk": {
+      "display_name": "National Geographic Wild.dk",
+      "programmes": 246,
+      "with_artwork": 172,
+      "with_desc": 244
+    },
+    "National Geographic.dk": {
+      "display_name": "National Geographic.dk",
+      "programmes": 53,
+      "with_artwork": 50,
+      "with_desc": 51
+    },
+    "Nick Jr. (T).dk": {
+      "display_name": "Nick Jr. (T).dk",
+      "programmes": 148,
+      "with_artwork": 126,
+      "with_desc": 148
+    },
+    "Nick Jr. Denmark (DK,DA).dk": {
+      "display_name": "Nick Jr. Denmark (DK,DA).dk",
+      "programmes": 159,
+      "with_artwork": 135,
+      "with_desc": 159
+    },
+    "Nick Jr. Norway (NO,NO).dk": {
+      "display_name": "Nick Jr. Norway (NO,NO).dk",
+      "programmes": 159,
+      "with_artwork": 88,
+      "with_desc": 159
+    },
+    "Nickelodeon (Nordic) (T).dk": {
+      "display_name": "Nickelodeon (Nordic) (T).dk",
+      "programmes": 144,
+      "with_artwork": 133,
+      "with_desc": 144
+    },
+    "Nickelodeon Junior.dk": {
+      "display_name": "Nickelodeon Junior.dk",
+      "programmes": 307,
+      "with_artwork": 261,
+      "with_desc": 307
+    },
+    "Nickelodeon Norway (NO,NO).dk": {
+      "display_name": "Nickelodeon Norway (NO,NO).dk",
+      "programmes": 158,
+      "with_artwork": 88,
+      "with_desc": 158
+    },
+    "Nickelodeon.dk": {
+      "display_name": "Nickelodeon.dk",
+      "programmes": 444,
+      "with_artwork": 411,
+      "with_desc": 438
+    },
+    "Nicktoons (T).dk": {
+      "display_name": "Nicktoons (T).dk",
+      "programmes": 159,
+      "with_artwork": 156,
+      "with_desc": 159
+    },
+    "Norway Live (NO,NO).dk": {
+      "display_name": "Norway Live (NO,NO).dk",
+      "programmes": 27,
+      "with_artwork": 10,
+      "with_desc": 27
+    },
+    "Oiii.dk": {
+      "display_name": "Oiii.dk",
+      "programmes": 183,
+      "with_artwork": 147,
+      "with_desc": 168
+    },
+    "Play Guld.dk": {
+      "display_name": "Play Guld.dk",
+      "programmes": 83,
+      "with_artwork": 78,
+      "with_desc": 83
+    },
+    "ProSieben.dk": {
+      "display_name": "ProSieben.dk",
+      "programmes": 84,
+      "with_artwork": 67,
+      "with_desc": 84
+    },
+    "REX Norway (NO,NO).dk": {
+      "display_name": "REX Norway (NO,NO).dk",
+      "programmes": 78,
+      "with_artwork": 36,
+      "with_desc": 78
+    },
+    "RIKSTOTO Norway (NO,NO).dk": {
+      "display_name": "RIKSTOTO Norway (NO,NO).dk",
+      "programmes": 16,
+      "with_artwork": 0,
+      "with_desc": 12
+    },
+    "RTL Germany (DE,DE).dk": {
+      "display_name": "RTL Germany (DE,DE).dk",
+      "programmes": 63,
+      "with_artwork": 29,
+      "with_desc": 63
+    },
+    "RTL II.dk": {
+      "display_name": "RTL II.dk",
+      "programmes": 51,
+      "with_artwork": 29,
+      "with_desc": 51
+    },
+    "RTL.dk": {
+      "display_name": "RTL.dk",
+      "programmes": 57,
+      "with_artwork": 18,
+      "with_desc": 57
+    },
+    "Regional - TV 2 / Østjylland.dk": {
+      "display_name": "Regional - TV 2 / Østjylland.dk",
+      "programmes": 12,
+      "with_artwork": 0,
+      "with_desc": 12
+    },
+    "Regional - TV 2/Bornholm.dk": {
+      "display_name": "Regional - TV 2/Bornholm.dk",
+      "programmes": 150,
+      "with_artwork": 15,
+      "with_desc": 150
+    },
+    "Regional - TV 2/Fyn.dk": {
+      "display_name": "Regional - TV 2/Fyn.dk",
+      "programmes": 35,
+      "with_artwork": 0,
+      "with_desc": 35
+    },
+    "Regional - TV Syd.dk": {
+      "display_name": "Regional - TV Syd.dk",
+      "programmes": 86,
+      "with_artwork": 4,
+      "with_desc": 86
+    },
+    "SF-kanalen Denmark (DK,DA).dk": {
+      "display_name": "SF-kanalen Denmark (DK,DA).dk",
+      "programmes": 35,
+      "with_artwork": 30,
+      "with_desc": 35
+    },
+    "SF-kanalen Norway (NO,NO).dk": {
+      "display_name": "SF-kanalen Norway (NO,NO).dk",
+      "programmes": 35,
+      "with_artwork": 24,
+      "with_desc": 35
+    },
+    "SF-kanalen.dk": {
+      "display_name": "SF-kanalen.dk",
+      "programmes": 31,
+      "with_artwork": 28,
+      "with_desc": 31
+    },
+    "SUPERRTL.dk": {
+      "display_name": "SUPERRTL.dk",
+      "programmes": 163,
+      "with_artwork": 151,
+      "with_desc": 163
+    },
+    "SVT 24 Sweden (SE,SV).dk": {
+      "display_name": "SVT 24 Sweden (SE,SV).dk",
+      "programmes": 10,
+      "with_artwork": 2,
+      "with_desc": 10
+    },
     "SVT Barn Sweden (SE,SV).dk": {
       "display_name": "SVT Barn Sweden (SE,SV).dk",
-      "programmes": 144,
-      "with_artwork": 14,
-      "with_desc": 144
+      "programmes": 177,
+      "with_artwork": 90,
+      "with_desc": 177
     },
     "SVT1 HD (T).dk": {
       "display_name": "SVT1 HD (T).dk",
       "programmes": 56,
-      "with_artwork": 4,
+      "with_artwork": 47,
       "with_desc": 56
     },
     "SVT1 Sweden (SE,SV).dk": {
       "display_name": "SVT1 Sweden (SE,SV).dk",
       "programmes": 56,
-      "with_artwork": 6,
+      "with_artwork": 47,
       "with_desc": 54
     },
     "SVT1.dk": {
       "display_name": "SVT1.dk",
-      "programmes": 112,
-      "with_artwork": 12,
-      "with_desc": 112
+      "programmes": 109,
+      "with_artwork": 59,
+      "with_desc": 109
     },
     "SVT2 HD (T).dk": {
       "display_name": "SVT2 HD (T).dk",
-      "programmes": 45,
-      "with_artwork": 1,
-      "with_desc": 45
+      "programmes": 52,
+      "with_artwork": 35,
+      "with_desc": 52
     },
     "SVT2 Sweden (SE,SV).dk": {
       "display_name": "SVT2 Sweden (SE,SV).dk",
-      "programmes": 36,
-      "with_artwork": 1,
-      "with_desc": 34
+      "programmes": 41,
+      "with_artwork": 24,
+      "with_desc": 39
     },
     "SVT2.dk": {
       "display_name": "SVT2.dk",
-      "programmes": 72,
-      "with_artwork": 4,
-      "with_desc": 72
+      "programmes": 82,
+      "with_artwork": 36,
+      "with_desc": 82
     },
     "Sat1.dk": {
       "display_name": "Sat1.dk",
-      "programmes": 39,
-      "with_artwork": 0,
-      "with_desc": 39
+      "programmes": 52,
+      "with_artwork": 16,
+      "with_desc": 52
     },
     "See Denmark (DK,DA).dk": {
       "display_name": "See Denmark (DK,DA).dk",
-      "programmes": 78,
-      "with_artwork": 5,
-      "with_desc": 78
+      "programmes": 88,
+      "with_artwork": 88,
+      "with_desc": 88
     },
     "See HD (D) (T).dk": {
       "display_name": "See HD (D) (T).dk",
-      "programmes": 73,
-      "with_artwork": 0,
+      "programmes": 83,
+      "with_artwork": 21,
       "with_desc": 0
     },
     "See.dk": {
       "display_name": "See.dk",
-      "programmes": 225,
-      "with_artwork": 13,
-      "with_desc": 224
+      "programmes": 255,
+      "with_artwork": 253,
+      "with_desc": 252
     },
     "Sky News International (GB,EN).dk": {
       "display_name": "Sky News International (GB,EN).dk",
-      "programmes": 84,
-      "with_artwork": 0,
-      "with_desc": 84
+      "programmes": 100,
+      "with_artwork": 8,
+      "with_desc": 100
     },
     "Sky News.dk": {
       "display_name": "Sky News.dk",
-      "programmes": 80,
-      "with_artwork": 0,
-      "with_desc": 80
+      "programmes": 96,
+      "with_artwork": 8,
+      "with_desc": 96
     },
     "SkyShowtime 1 HD (T).dk": {
       "display_name": "SkyShowtime 1 HD (T).dk",
-      "programmes": 77,
-      "with_artwork": 5,
-      "with_desc": 77
+      "programmes": 85,
+      "with_artwork": 80,
+      "with_desc": 85
     },
     "SkyShowtime 2 HD (T).dk": {
       "display_name": "SkyShowtime 2 HD (T).dk",
-      "programmes": 54,
-      "with_artwork": 2,
-      "with_desc": 54
+      "programmes": 62,
+      "with_artwork": 55,
+      "with_desc": 62
     },
     "Sport Live (D) (T).dk": {
       "display_name": "Sport Live (D) (T).dk",
-      "programmes": 31,
-      "with_artwork": 0,
-      "with_desc": 31
+      "programmes": 34,
+      "with_artwork": 2,
+      "with_desc": 34
     },
     "Sport1.dk": {
       "display_name": "Sport1.dk",
-      "programmes": 70,
-      "with_artwork": 2,
-      "with_desc": 70
+      "programmes": 80,
+      "with_artwork": 52,
+      "with_desc": 80
     },
     "TLC Danmark (T).dk": {
       "display_name": "TLC Danmark (T).dk",
-      "programmes": 44,
-      "with_artwork": 0,
-      "with_desc": 44
+      "programmes": 48,
+      "with_artwork": 38,
+      "with_desc": 48
     },
     "TLC Denmark (DK,DA).dk": {
       "display_name": "TLC Denmark (DK,DA).dk",
-      "programmes": 48,
-      "with_artwork": 0,
-      "with_desc": 48
+      "programmes": 53,
+      "with_artwork": 43,
+      "with_desc": 53
     },
     "TLC Norway (NO,NO).dk": {
       "display_name": "TLC Norway (NO,NO).dk",
-      "programmes": 48,
-      "with_artwork": 0,
-      "with_desc": 48
+      "programmes": 53,
+      "with_artwork": 41,
+      "with_desc": 53
     },
     "TLC.dk": {
       "display_name": "TLC.dk",
-      "programmes": 140,
-      "with_artwork": 0,
-      "with_desc": 140
+      "programmes": 148,
+      "with_artwork": 123,
+      "with_desc": 148
     },
     "TV 2 Charlie Denmark (DK,DA).dk": {
       "display_name": "TV 2 Charlie Denmark (DK,DA).dk",
-      "programmes": 61,
-      "with_artwork": 12,
-      "with_desc": 58
+      "programmes": 67,
+      "with_artwork": 59,
+      "with_desc": 64
     },
     "TV 2 Charlie HD (D) (T).dk": {
       "display_name": "TV 2 Charlie HD (D) (T).dk",
-      "programmes": 54,
-      "with_artwork": 12,
-      "with_desc": 54
+      "programmes": 61,
+      "with_artwork": 53,
+      "with_desc": 61
     },
     "TV 2 Charlie.dk": {
       "display_name": "TV 2 Charlie.dk",
-      "programmes": 118,
-      "with_artwork": 25,
-      "with_desc": 116
+      "programmes": 130,
+      "with_artwork": 116,
+      "with_desc": 128
     },
     "TV 2 Danmark.dk": {
       "display_name": "TV 2 Danmark.dk",
-      "programmes": 60,
-      "with_artwork": 24,
-      "with_desc": 35
+      "programmes": 62,
+      "with_artwork": 61,
+      "with_desc": 37
     },
     "TV 2 Denmark (DK,DA).dk": {
       "display_name": "TV 2 Denmark (DK,DA).dk",
-      "programmes": 64,
-      "with_artwork": 26,
-      "with_desc": 56
+      "programmes": 66,
+      "with_artwork": 64,
+      "with_desc": 58
     },
     "TV 2 Direkte Norway (NO,NO).dk": {
       "display_name": "TV 2 Direkte Norway (NO,NO).dk",
-      "programmes": 81,
-      "with_artwork": 4,
-      "with_desc": 69
+      "programmes": 83,
+      "with_artwork": 53,
+      "with_desc": 71
     },
     "TV 2 Echo Denmark (DK,DA).dk": {
       "display_name": "TV 2 Echo Denmark (DK,DA).dk",
-      "programmes": 65,
-      "with_artwork": 35,
-      "with_desc": 65
+      "programmes": 74,
+      "with_artwork": 74,
+      "with_desc": 74
     },
     "TV 2 Echo HD (D) (T).dk": {
       "display_name": "TV 2 Echo HD (D) (T).dk",
-      "programmes": 58,
-      "with_artwork": 34,
-      "with_desc": 58
+      "programmes": 69,
+      "with_artwork": 68,
+      "with_desc": 69
     },
     "TV 2 Echo.dk": {
       "display_name": "TV 2 Echo.dk",
-      "programmes": 124,
-      "with_artwork": 68,
-      "with_desc": 123
+      "programmes": 143,
+      "with_artwork": 143,
+      "with_desc": 142
     },
     "TV 2 Fri Denmark (DK,DA).dk": {
       "display_name": "TV 2 Fri Denmark (DK,DA).dk",
-      "programmes": 69,
-      "with_artwork": 39,
-      "with_desc": 67
+      "programmes": 80,
+      "with_artwork": 80,
+      "with_desc": 77
     },
     "TV 2 Fri HD (D) (T).dk": {
       "display_name": "TV 2 Fri HD (D) (T).dk",
-      "programmes": 63,
-      "with_artwork": 39,
-      "with_desc": 63
+      "programmes": 74,
+      "with_artwork": 74,
+      "with_desc": 74
     },
     "TV 2 Fri.dk": {
       "display_name": "TV 2 Fri.dk",
-      "programmes": 133,
-      "with_artwork": 78,
-      "with_desc": 130
+      "programmes": 153,
+      "with_artwork": 153,
+      "with_desc": 151
     },
     "TV 2 HD (D) (T).dk": {
       "display_name": "TV 2 HD (D) (T).dk",
-      "programmes": 59,
-      "with_artwork": 24,
-      "with_desc": 59
+      "programmes": 61,
+      "with_artwork": 0,
+      "with_desc": 61
     },
     "TV 2 Livsstil Norway (NO,NO).dk": {
       "display_name": "TV 2 Livsstil Norway (NO,NO).dk",
-      "programmes": 66,
-      "with_artwork": 0,
-      "with_desc": 66
+      "programmes": 71,
+      "with_artwork": 33,
+      "with_desc": 71
     },
     "TV 2 News Denmark (DK,DA).dk": {
       "display_name": "TV 2 News Denmark (DK,DA).dk",
-      "programmes": 29,
-      "with_artwork": 0,
-      "with_desc": 12
+      "programmes": 28,
+      "with_artwork": 28,
+      "with_desc": 11
     },
     "TV 2 News HD (D) (T).dk": {
       "display_name": "TV 2 News HD (D) (T).dk",
-      "programmes": 28,
-      "with_artwork": 0,
-      "with_desc": 28
+      "programmes": 26,
+      "with_artwork": 26,
+      "with_desc": 26
     },
     "TV 2 News.dk": {
       "display_name": "TV 2 News.dk",
-      "programmes": 59,
-      "with_artwork": 0,
-      "with_desc": 39
+      "programmes": 55,
+      "with_artwork": 55,
+      "with_desc": 37
     },
     "TV 2 Norge.dk": {
       "display_name": "TV 2 Norge.dk",
-      "programmes": 164,
-      "with_artwork": 13,
-      "with_desc": 156
+      "programmes": 160,
+      "with_artwork": 108,
+      "with_desc": 152
     },
     "TV 2 Nyheter Norway (NO,NO).dk": {
       "display_name": "TV 2 Nyheter Norway (NO,NO).dk",
-      "programmes": 173,
-      "with_artwork": 0,
+      "programmes": 187,
+      "with_artwork": 32,
       "with_desc": 0
     },
     "TV 2 Sport 1 Norway (NO,NO).dk": {
       "display_name": "TV 2 Sport 1 Norway (NO,NO).dk",
-      "programmes": 27,
-      "with_artwork": 0,
-      "with_desc": 27
+      "programmes": 36,
+      "with_artwork": 20,
+      "with_desc": 36
     },
     "TV 2 Sport 2 Norway (NO,NO).dk": {
       "display_name": "TV 2 Sport 2 Norway (NO,NO).dk",
-      "programmes": 29,
+      "programmes": 30,
       "with_artwork": 0,
-      "with_desc": 29
+      "with_desc": 30
     },
     "TV 2 Sport Denmark (DK,DA).dk": {
       "display_name": "TV 2 Sport Denmark (DK,DA).dk",
-      "programmes": 11,
-      "with_artwork": 11,
-      "with_desc": 11
+      "programmes": 13,
+      "with_artwork": 13,
+      "with_desc": 13
     },
     "TV 2 Sport HD (D) (T).dk": {
       "display_name": "TV 2 Sport HD (D) (T).dk",
-      "programmes": 13,
-      "with_artwork": 10,
-      "with_desc": 13
+      "programmes": 12,
+      "with_artwork": 11,
+      "with_desc": 12
     },
     "TV 2 Sport Premium Norway (NO,NO).dk": {
       "display_name": "TV 2 Sport Premium Norway (NO,NO).dk",
       "programmes": 10,
-      "with_artwork": 0,
+      "with_artwork": 9,
       "with_desc": 10
     },
     "TV 2 Sport X Denmark (DK,DA).dk": {
       "display_name": "TV 2 Sport X Denmark (DK,DA).dk",
+      "programmes": 28,
+      "with_artwork": 28,
+      "with_desc": 28
+    },
+    "TV 2 Sport X HD (D) (T).dk": {
+      "display_name": "TV 2 Sport X HD (D) (T).dk",
+      "programmes": 26,
+      "with_artwork": 26,
+      "with_desc": 26
+    },
+    "TV 2 Sport X.dk": {
+      "display_name": "TV 2 Sport X.dk",
+      "programmes": 35,
+      "with_artwork": 35,
+      "with_desc": 35
+    },
+    "TV 2 Sport.dk": {
+      "display_name": "TV 2 Sport.dk",
       "programmes": 25,
       "with_artwork": 25,
       "with_desc": 25
     },
-    "TV 2 Sport X HD (D) (T).dk": {
-      "display_name": "TV 2 Sport X HD (D) (T).dk",
-      "programmes": 23,
-      "with_artwork": 23,
-      "with_desc": 23
-    },
-    "TV 2 Sport X.dk": {
-      "display_name": "TV 2 Sport X.dk",
-      "programmes": 49,
-      "with_artwork": 49,
-      "with_desc": 49
-    },
-    "TV 2 Sport.dk": {
-      "display_name": "TV 2 Sport.dk",
-      "programmes": 22,
-      "with_artwork": 22,
-      "with_desc": 22
-    },
     "TV 2 Zebra Norge.dk": {
       "display_name": "TV 2 Zebra Norge.dk",
-      "programmes": 72,
-      "with_artwork": 0,
-      "with_desc": 72
+      "programmes": 75,
+      "with_artwork": 64,
+      "with_desc": 75
     },
     "TV 2 Zebra Norway (NO,NO).dk": {
       "display_name": "TV 2 Zebra Norway (NO,NO).dk",
-      "programmes": 74,
-      "with_artwork": 0,
-      "with_desc": 74
+      "programmes": 81,
+      "with_artwork": 70,
+      "with_desc": 81
     },
     "TV 2.dk": {
       "display_name": "TV 2.dk",
-      "programmes": 64,
-      "with_artwork": 26,
-      "with_desc": 64
+      "programmes": 66,
+      "with_artwork": 0,
+      "with_desc": 66
     },
     "TV 2/Bornholm.dk": {
       "display_name": "TV 2/Bornholm.dk",
       "programmes": 69,
-      "with_artwork": 24,
-      "with_desc": 61
+      "with_artwork": 53,
+      "with_desc": 60
     },
     "TV 2| Østjylland.dk": {
       "display_name": "TV 2| Østjylland.dk",
-      "programmes": 60,
-      "with_artwork": 24,
-      "with_desc": 60
+      "programmes": 61,
+      "with_artwork": 53,
+      "with_desc": 61
     },
     "TV Fyn.dk": {
       "display_name": "TV Fyn.dk",
       "programmes": 66,
-      "with_artwork": 24,
+      "with_artwork": 53,
       "with_desc": 66
     },
     "TV Syd.dk": {
       "display_name": "TV Syd.dk",
-      "programmes": 62,
-      "with_artwork": 26,
-      "with_desc": 62
+      "programmes": 63,
+      "with_artwork": 55,
+      "with_desc": 63
     },
     "TV/Midt-Vest.dk": {
       "display_name": "TV/Midt-Vest.dk",
-      "programmes": 132,
-      "with_artwork": 50,
-      "with_desc": 128
+      "programmes": 133,
+      "with_artwork": 112,
+      "with_desc": 130
     },
     "TV2 Charlie.dk": {
       "display_name": "TV2 Charlie.dk",
-      "programmes": 56,
-      "with_artwork": 17,
-      "with_desc": 48
+      "programmes": 60,
+      "with_artwork": 54,
+      "with_desc": 51
     },
     "TV2 Echo.dk": {
       "display_name": "TV2 Echo.dk",
-      "programmes": 58,
-      "with_artwork": 36,
-      "with_desc": 56
+      "programmes": 68,
+      "with_artwork": 68,
+      "with_desc": 65
     },
     "TV2 FRI.dk": {
       "display_name": "TV2 FRI.dk",
-      "programmes": 62,
-      "with_artwork": 42,
-      "with_desc": 60
+      "programmes": 72,
+      "with_artwork": 72,
+      "with_desc": 68
     },
     "TV2 News.dk": {
       "display_name": "TV2 News.dk",
-      "programmes": 28,
-      "with_artwork": 0,
+      "programmes": 26,
+      "with_artwork": 26,
       "with_desc": 10
     },
     "TV2 Sport X.dk": {
       "display_name": "TV2 Sport X.dk",
-      "programmes": 23,
-      "with_artwork": 0,
-      "with_desc": 17
+      "programmes": 26,
+      "with_artwork": 1,
+      "with_desc": 19
     },
     "TV2 Sport.dk": {
       "display_name": "TV2 Sport.dk",
-      "programmes": 10,
+      "programmes": 11,
       "with_artwork": 0,
-      "with_desc": 8
+      "with_desc": 10
     },
     "TV2 Øst.dk": {
       "display_name": "TV2 Øst.dk",
-      "programmes": 124,
-      "with_artwork": 50,
-      "with_desc": 124
+      "programmes": 127,
+      "with_artwork": 124,
+      "with_desc": 127
     },
     "TV2.dk": {
       "display_name": "TV2.dk",
-      "programmes": 59,
-      "with_artwork": 24,
-      "with_desc": 47
+      "programmes": 60,
+      "with_artwork": 58,
+      "with_desc": 48
     },
     "TV2/Nord Salto.dk": {
       "display_name": "TV2/Nord Salto.dk",
-      "programmes": 126,
-      "with_artwork": 50,
-      "with_desc": 126
+      "programmes": 129,
+      "with_artwork": 112,
+      "with_desc": 129
     },
     "TV3 Denmark (DK,DA).dk": {
       "display_name": "TV3 Denmark (DK,DA).dk",
-      "programmes": 49,
-      "with_artwork": 24,
-      "with_desc": 49
+      "programmes": 51,
+      "with_artwork": 51,
+      "with_desc": 51
     },
     "TV3 HD (D) (T).dk": {
       "display_name": "TV3 HD (D) (T).dk",
-      "programmes": 43,
-      "with_artwork": 20,
-      "with_desc": 43
+      "programmes": 46,
+      "with_artwork": 41,
+      "with_desc": 46
     },
     "TV3 MAX HD (D) (T).dk": {
       "display_name": "TV3 MAX HD (D) (T).dk",
       "programmes": 53,
-      "with_artwork": 0,
+      "with_artwork": 6,
       "with_desc": 53
     },
     "TV3 Max Denmark (DK,DA).dk": {
       "display_name": "TV3 Max Denmark (DK,DA).dk",
       "programmes": 58,
-      "with_artwork": 0,
+      "with_artwork": 6,
       "with_desc": 58
     },
     "TV3 Max.dk": {
       "display_name": "TV3 Max.dk",
-      "programmes": 167,
-      "with_artwork": 0,
-      "with_desc": 161
+      "programmes": 164,
+      "with_artwork": 19,
+      "with_desc": 150
     },
     "TV3 Norge.dk": {
       "display_name": "TV3 Norge.dk",
-      "programmes": 43,
-      "with_artwork": 5,
-      "with_desc": 43
+      "programmes": 40,
+      "with_artwork": 37,
+      "with_desc": 40
     },
     "TV3 Norway (NO,NO).dk": {
       "display_name": "TV3 Norway (NO,NO).dk",
-      "programmes": 47,
-      "with_artwork": 3,
-      "with_desc": 47
+      "programmes": 45,
+      "with_artwork": 40,
+      "with_desc": 45
     },
     "TV3 Puls Denmark (DK,DA).dk": {
       "display_name": "TV3 Puls Denmark (DK,DA).dk",
-      "programmes": 54,
-      "with_artwork": 13,
-      "with_desc": 54
+      "programmes": 58,
+      "with_artwork": 58,
+      "with_desc": 58
     },
     "TV3 Puls HD (D) (T).dk": {
       "display_name": "TV3 Puls HD (D) (T).dk",
-      "programmes": 48,
-      "with_artwork": 12,
-      "with_desc": 48
+      "programmes": 53,
+      "with_artwork": 53,
+      "with_desc": 53
     },
     "TV3 Puls.dk": {
       "display_name": "TV3 Puls.dk",
-      "programmes": 152,
-      "with_artwork": 37,
-      "with_desc": 140
+      "programmes": 166,
+      "with_artwork": 166,
+      "with_desc": 157
     },
     "TV3 Sport Denmark (DK,DA).dk": {
       "display_name": "TV3 Sport Denmark (DK,DA).dk",
-      "programmes": 31,
-      "with_artwork": 31,
-      "with_desc": 31
+      "programmes": 23,
+      "with_artwork": 23,
+      "with_desc": 23
     },
     "TV3 Sport HD (D) (T).dk": {
       "display_name": "TV3 Sport HD (D) (T).dk",
-      "programmes": 30,
-      "with_artwork": 30,
+      "programmes": 21,
+      "with_artwork": 21,
       "with_desc": 0
     },
     "TV3 Sport.dk": {
       "display_name": "TV3 Sport.dk",
-      "programmes": 91,
-      "with_artwork": 91,
-      "with_desc": 72
+      "programmes": 65,
+      "with_artwork": 65,
+      "with_desc": 47
     },
     "TV3 Sverige.dk": {
       "display_name": "TV3 Sverige.dk",
-      "programmes": 56,
-      "with_artwork": 18,
-      "with_desc": 56
+      "programmes": 58,
+      "with_artwork": 52,
+      "with_desc": 58
     },
     "TV3 Sweden (SE,SV).dk": {
       "display_name": "TV3 Sweden (SE,SV).dk",
-      "programmes": 60,
-      "with_artwork": 1,
-      "with_desc": 60
+      "programmes": 62,
+      "with_artwork": 57,
+      "with_desc": 62
     },
     "TV3+ Denmark (DK,DA).dk": {
       "display_name": "TV3+ Denmark (DK,DA).dk",
-      "programmes": 46,
-      "with_artwork": 6,
-      "with_desc": 44
+      "programmes": 48,
+      "with_artwork": 0,
+      "with_desc": 46
     },
     "TV3+ HD (D) (T).dk": {
       "display_name": "TV3+ HD (D) (T).dk",
-      "programmes": 41,
-      "with_artwork": 6,
-      "with_desc": 38
+      "programmes": 44,
+      "with_artwork": 2,
+      "with_desc": 41
     },
     "TV3+ Norway (NO,NO).dk": {
       "display_name": "TV3+ Norway (NO,NO).dk",
-      "programmes": 57,
-      "with_artwork": 0,
-      "with_desc": 57
+      "programmes": 69,
+      "with_artwork": 40,
+      "with_desc": 68
     },
     "TV3+.dk": {
       "display_name": "TV3+.dk",
-      "programmes": 131,
-      "with_artwork": 17,
-      "with_desc": 123
+      "programmes": 136,
+      "with_artwork": 2,
+      "with_desc": 129
     },
     "TV3.dk": {
       "display_name": "TV3.dk",
-      "programmes": 137,
-      "with_artwork": 65,
-      "with_desc": 127
+      "programmes": 143,
+      "with_artwork": 138,
+      "with_desc": 132
     },
     "TV4 HD (T).dk": {
       "display_name": "TV4 HD (T).dk",
-      "programmes": 35,
-      "with_artwork": 0,
-      "with_desc": 35
+      "programmes": 37,
+      "with_artwork": 32,
+      "with_desc": 37
     },
     "TV4 Hits Denmark (DK,DA).dk": {
       "display_name": "TV4 Hits Denmark (DK,DA).dk",
-      "programmes": 33,
-      "with_artwork": 1,
-      "with_desc": 33
+      "programmes": 42,
+      "with_artwork": 41,
+      "with_desc": 42
     },
     "TV4 Hits Norway (NO,NO).dk": {
       "display_name": "TV4 Hits Norway (NO,NO).dk",
-      "programmes": 33,
-      "with_artwork": 1,
-      "with_desc": 33
+      "programmes": 42,
+      "with_artwork": 36,
+      "with_desc": 42
     },
     "TV4 Stars Norway (NO,NO).dk": {
       "display_name": "TV4 Stars Norway (NO,NO).dk",
-      "programmes": 79,
-      "with_artwork": 7,
-      "with_desc": 79
+      "programmes": 90,
+      "with_artwork": 79,
+      "with_desc": 90
     },
     "TV4 Sverige.dk": {
       "display_name": "TV4 Sverige.dk",
       "programmes": 79,
-      "with_artwork": 3,
+      "with_artwork": 51,
       "with_desc": 79
     },
     "TV4 Sweden (SE,SV).dk": {
       "display_name": "TV4 Sweden (SE,SV).dk",
-      "programmes": 41,
-      "with_artwork": 0,
-      "with_desc": 41
+      "programmes": 42,
+      "with_artwork": 37,
+      "with_desc": 42
     },
     "TV5Monde Europe.dk": {
       "display_name": "TV5Monde Europe.dk",
-      "programmes": 120,
-      "with_artwork": 2,
-      "with_desc": 120
+      "programmes": 141,
+      "with_artwork": 70,
+      "with_desc": 141
     },
     "TV6 Norway (NO,NO).dk": {
       "display_name": "TV6 Norway (NO,NO).dk",
-      "programmes": 49,
-      "with_artwork": 17,
-      "with_desc": 49
+      "programmes": 55,
+      "with_artwork": 46,
+      "with_desc": 55
     },
     "TVA Live.dk": {
       "display_name": "TVA Live.dk",
-      "programmes": 202,
-      "with_artwork": 0,
-      "with_desc": 202
+      "programmes": 246,
+      "with_artwork": 246,
+      "with_desc": 246
     },
     "TVNorge (NO,NO).dk": {
       "display_name": "TVNorge (NO,NO).dk",
-      "programmes": 63,
-      "with_artwork": 3,
-      "with_desc": 63
+      "programmes": 72,
+      "with_artwork": 46,
+      "with_desc": 72
     },
     "Travel Channel EMEA English (GB,EN).dk": {
       "display_name": "Travel Channel EMEA English (GB,EN).dk",
-      "programmes": 52,
-      "with_artwork": 0,
-      "with_desc": 52
+      "programmes": 59,
+      "with_artwork": 59,
+      "with_desc": 59
     },
     "Travel Channel.dk": {
       "display_name": "Travel Channel.dk",
-      "programmes": 48,
-      "with_artwork": 0,
-      "with_desc": 48
+      "programmes": 55,
+      "with_artwork": 52,
+      "with_desc": 55
     },
     "V Film Action Denmark (DK,DA).dk": {
       "display_name": "V Film Action Denmark (DK,DA).dk",
-      "programmes": 27,
-      "with_artwork": 2,
-      "with_desc": 27
+      "programmes": 29,
+      "with_artwork": 29,
+      "with_desc": 29
     },
     "V Film Action Norway (NO,NO).dk": {
       "display_name": "V Film Action Norway (NO,NO).dk",
-      "programmes": 27,
-      "with_artwork": 2,
-      "with_desc": 27
+      "programmes": 29,
+      "with_artwork": 29,
+      "with_desc": 29
     },
     "V Film Action.dk": {
       "display_name": "V Film Action.dk",
-      "programmes": 24,
-      "with_artwork": 2,
-      "with_desc": 20
+      "programmes": 27,
+      "with_artwork": 27,
+      "with_desc": 23
     },
     "V Film Family Denmark (DK,DA).dk": {
       "display_name": "V Film Family Denmark (DK,DA).dk",
-      "programmes": 26,
-      "with_artwork": 11,
-      "with_desc": 26
+      "programmes": 30,
+      "with_artwork": 30,
+      "with_desc": 30
     },
     "V Film Family Norway (NO,NO).dk": {
       "display_name": "V Film Family Norway (NO,NO).dk",
-      "programmes": 26,
-      "with_artwork": 7,
-      "with_desc": 26
+      "programmes": 30,
+      "with_artwork": 25,
+      "with_desc": 30
     },
     "V Film Family.dk": {
       "display_name": "V Film Family.dk",
-      "programmes": 24,
-      "with_artwork": 10,
-      "with_desc": 21
+      "programmes": 27,
+      "with_artwork": 26,
+      "with_desc": 25
     },
     "V Film Hits Denmark (DK,DA).dk": {
       "display_name": "V Film Hits Denmark (DK,DA).dk",
-      "programmes": 26,
-      "with_artwork": 0,
-      "with_desc": 26
+      "programmes": 29,
+      "with_artwork": 29,
+      "with_desc": 29
     },
     "V Film Hits Norway (NO,NO).dk": {
       "display_name": "V Film Hits Norway (NO,NO).dk",
-      "programmes": 26,
-      "with_artwork": 0,
-      "with_desc": 26
+      "programmes": 29,
+      "with_artwork": 27,
+      "with_desc": 29
     },
     "V Film Hits.dk": {
       "display_name": "V Film Hits.dk",
-      "programmes": 24,
-      "with_artwork": 0,
-      "with_desc": 24
+      "programmes": 27,
+      "with_artwork": 27,
+      "with_desc": 26
     },
     "V Film Premiere HD Denmark (DK,DA).dk": {
       "display_name": "V Film Premiere HD Denmark (DK,DA).dk",
-      "programmes": 26,
-      "with_artwork": 2,
-      "with_desc": 26
+      "programmes": 30,
+      "with_artwork": 30,
+      "with_desc": 30
     },
     "V Film Premiere Norway (NO,NO).dk": {
       "display_name": "V Film Premiere Norway (NO,NO).dk",
-      "programmes": 26,
-      "with_artwork": 2,
-      "with_desc": 26
+      "programmes": 30,
+      "with_artwork": 25,
+      "with_desc": 30
     },
     "V Film Premiere.dk": {
       "display_name": "V Film Premiere.dk",
-      "programmes": 24,
-      "with_artwork": 1,
+      "programmes": 27,
+      "with_artwork": 27,
       "with_desc": 16
     },
     "V Series Denmark (DK,DA).dk": {
       "display_name": "V Series Denmark (DK,DA).dk",
-      "programmes": 77,
-      "with_artwork": 0,
-      "with_desc": 77
+      "programmes": 92,
+      "with_artwork": 90,
+      "with_desc": 92
     },
     "V Series Norway (NO,NO).dk": {
       "display_name": "V Series Norway (NO,NO).dk",
-      "programmes": 77,
-      "with_artwork": 0,
-      "with_desc": 77
+      "programmes": 92,
+      "with_artwork": 92,
+      "with_desc": 92
     },
     "V Series.dk": {
       "display_name": "V Series.dk",
-      "programmes": 71,
-      "with_artwork": 0,
-      "with_desc": 64
+      "programmes": 86,
+      "with_artwork": 84,
+      "with_desc": 82
     },
     "V Sport + Norway (NO,NO).dk": {
       "display_name": "V Sport + Norway (NO,NO).dk",
-      "programmes": 12,
-      "with_artwork": 0,
-      "with_desc": 12
+      "programmes": 14,
+      "with_artwork": 12,
+      "with_desc": 14
     },
     "V Sport 1 Norway (NO,NO).dk": {
       "display_name": "V Sport 1 Norway (NO,NO).dk",
       "programmes": 18,
-      "with_artwork": 0,
+      "with_artwork": 13,
       "with_desc": 18
     },
     "V Sport 2 Norway (NO,NO).dk": {
       "display_name": "V Sport 2 Norway (NO,NO).dk",
+      "programmes": 16,
+      "with_artwork": 12,
+      "with_desc": 16
+    },
+    "V Sport 3 Norway (NO,NO).dk": {
+      "display_name": "V Sport 3 Norway (NO,NO).dk",
       "programmes": 12,
       "with_artwork": 0,
       "with_desc": 12
     },
-    "V Sport 3 Norway (NO,NO).dk": {
-      "display_name": "V Sport 3 Norway (NO,NO).dk",
-      "programmes": 14,
-      "with_artwork": 0,
-      "with_desc": 14
-    },
     "V Sport Golf Denmark (DK,DA).dk": {
       "display_name": "V Sport Golf Denmark (DK,DA).dk",
-      "programmes": 13,
+      "programmes": 16,
       "with_artwork": 0,
-      "with_desc": 13
+      "with_desc": 16
     },
     "V Sport Golf Norway (NO,NO).dk": {
       "display_name": "V Sport Golf Norway (NO,NO).dk",
-      "programmes": 13,
+      "programmes": 16,
       "with_artwork": 0,
-      "with_desc": 7
+      "with_desc": 11
     },
     "V Sport Golf.dk": {
       "display_name": "V Sport Golf.dk",
-      "programmes": 12,
+      "programmes": 15,
       "with_artwork": 0,
       "with_desc": 1
     },
     "V Sport Ultra HD Denmark (DK,DA).dk": {
       "display_name": "V Sport Ultra HD Denmark (DK,DA).dk",
-      "programmes": 6,
-      "with_artwork": 0,
-      "with_desc": 6
+      "programmes": 7,
+      "with_artwork": 7,
+      "with_desc": 7
     },
     "V Sport Ultra HD.dk": {
       "display_name": "V Sport Ultra HD.dk",
-      "programmes": 8,
-      "with_artwork": 0,
-      "with_desc": 8
+      "programmes": 9,
+      "with_artwork": 3,
+      "with_desc": 9
     },
     "V film action HD (T).dk": {
       "display_name": "V film action HD (T).dk",
-      "programmes": 24,
-      "with_artwork": 2,
-      "with_desc": 24
+      "programmes": 27,
+      "with_artwork": 27,
+      "with_desc": 27
     },
     "V film family (T).dk": {
       "display_name": "V film family (T).dk",
-      "programmes": 23,
-      "with_artwork": 10,
-      "with_desc": 23
+      "programmes": 27,
+      "with_artwork": 26,
+      "with_desc": 27
     },
     "V film hits HD (T).dk": {
       "display_name": "V film hits HD (T).dk",
-      "programmes": 24,
-      "with_artwork": 0,
-      "with_desc": 24
+      "programmes": 27,
+      "with_artwork": 27,
+      "with_desc": 27
     },
     "V film premiere HD (T).dk": {
       "display_name": "V film premiere HD (T).dk",
-      "programmes": 23,
-      "with_artwork": 1,
-      "with_desc": 23
+      "programmes": 27,
+      "with_artwork": 27,
+      "with_desc": 27
     },
     "V series HD (T).dk": {
       "display_name": "V series HD (T).dk",
-      "programmes": 70,
-      "with_artwork": 0,
-      "with_desc": 70
+      "programmes": 86,
+      "with_artwork": 84,
+      "with_desc": 86
     },
     "V sport Premier League Norway (NO,NO).dk": {
       "display_name": "V sport Premier League Norway (NO,NO).dk",
+      "programmes": 18,
+      "with_artwork": 10,
+      "with_desc": 18
+    },
+    "V sport golf HD (T).dk": {
+      "display_name": "V sport golf HD (T).dk",
       "programmes": 15,
       "with_artwork": 0,
       "with_desc": 15
     },
-    "V sport golf HD (T).dk": {
-      "display_name": "V sport golf HD (T).dk",
-      "programmes": 12,
-      "with_artwork": 0,
-      "with_desc": 12
-    },
     "V sport live 1 (T).dk": {
       "display_name": "V sport live 1 (T).dk",
-      "programmes": 8,
-      "with_artwork": 0,
-      "with_desc": 8
+      "programmes": 9,
+      "with_artwork": 6,
+      "with_desc": 9
     },
     "V sport live 2 (T).dk": {
       "display_name": "V sport live 2 (T).dk",
-      "programmes": 8,
-      "with_artwork": 0,
-      "with_desc": 8
+      "programmes": 9,
+      "with_artwork": 6,
+      "with_desc": 9
     },
     "V sport live 3 (T).dk": {
       "display_name": "V sport live 3 (T).dk",
-      "programmes": 8,
-      "with_artwork": 0,
-      "with_desc": 8
+      "programmes": 9,
+      "with_artwork": 6,
+      "with_desc": 9
     },
     "V sport live 4 (T).dk": {
       "display_name": "V sport live 4 (T).dk",
-      "programmes": 8,
-      "with_artwork": 0,
-      "with_desc": 8
+      "programmes": 9,
+      "with_artwork": 6,
+      "with_desc": 9
     },
     "V sport live 5 (T).dk": {
       "display_name": "V sport live 5 (T).dk",
-      "programmes": 8,
-      "with_artwork": 0,
-      "with_desc": 8
+      "programmes": 9,
+      "with_artwork": 6,
+      "with_desc": 9
     },
     "V sport ultra HD (T).dk": {
       "display_name": "V sport ultra HD (T).dk",
-      "programmes": 8,
-      "with_artwork": 0,
-      "with_desc": 8
+      "programmes": 9,
+      "with_artwork": 4,
+      "with_desc": 9
     },
     "VG Norway (NO,NO).dk": {
       "display_name": "VG Norway (NO,NO).dk",
-      "programmes": 76,
-      "with_artwork": 2,
-      "with_desc": 58
+      "programmes": 79,
+      "with_artwork": 40,
+      "with_desc": 59
     },
     "VOX Norway (NO,NO).dk": {
       "display_name": "VOX Norway (NO,NO).dk",
-      "programmes": 53,
-      "with_artwork": 2,
-      "with_desc": 53
+      "programmes": 65,
+      "with_artwork": 18,
+      "with_desc": 65
     },
     "Viaplay Sport News HD (D) (T).dk": {
       "display_name": "Viaplay Sport News HD (D) (T).dk",
-      "programmes": 28,
-      "with_artwork": 28,
-      "with_desc": 28
+      "programmes": 33,
+      "with_artwork": 33,
+      "with_desc": 33
     },
     "Viaplay Sport News.dk": {
       "display_name": "Viaplay Sport News.dk",
+      "programmes": 39,
+      "with_artwork": 39,
+      "with_desc": 39
+    },
+    "Viasat Explore Denmark (DK,DA).dk": {
+      "display_name": "Viasat Explore Denmark (DK,DA).dk",
+      "programmes": 59,
+      "with_artwork": 9,
+      "with_desc": 59
+    },
+    "Viasat Explore HD (T).dk": {
+      "display_name": "Viasat Explore HD (T).dk",
+      "programmes": 55,
+      "with_artwork": 9,
+      "with_desc": 55
+    },
+    "Viasat Explore Norway (NO,NO).dk": {
+      "display_name": "Viasat Explore Norway (NO,NO).dk",
+      "programmes": 59,
+      "with_artwork": 0,
+      "with_desc": 59
+    },
+    "Viasat Explorer.dk": {
+      "display_name": "Viasat Explorer.dk",
+      "programmes": 114,
+      "with_artwork": 18,
+      "with_desc": 114
+    },
+    "Viasat Film Action.dk": {
+      "display_name": "Viasat Film Action.dk",
+      "programmes": 55,
+      "with_artwork": 55,
+      "with_desc": 55
+    },
+    "Viasat Film Family.dk": {
+      "display_name": "Viasat Film Family.dk",
+      "programmes": 57,
+      "with_artwork": 57,
+      "with_desc": 57
+    },
+    "Viasat Film Hits.dk": {
+      "display_name": "Viasat Film Hits.dk",
+      "programmes": 55,
+      "with_artwork": 55,
+      "with_desc": 55
+    },
+    "Viasat Film.dk": {
+      "display_name": "Viasat Film.dk",
+      "programmes": 57,
+      "with_artwork": 57,
+      "with_desc": 57
+    },
+    "Viasat Golf.dk": {
+      "display_name": "Viasat Golf.dk",
+      "programmes": 15,
+      "with_artwork": 0,
+      "with_desc": 15
+    },
+    "Viasat History Denmark (DK,DA).dk": {
+      "display_name": "Viasat History Denmark (DK,DA).dk",
+      "programmes": 53,
+      "with_artwork": 14,
+      "with_desc": 53
+    },
+    "Viasat History HD (T).dk": {
+      "display_name": "Viasat History HD (T).dk",
+      "programmes": 49,
+      "with_artwork": 14,
+      "with_desc": 49
+    },
+    "Viasat History Norway (NO,NO).dk": {
+      "display_name": "Viasat History Norway (NO,NO).dk",
+      "programmes": 53,
+      "with_artwork": 9,
+      "with_desc": 53
+    },
+    "Viasat History.dk": {
+      "display_name": "Viasat History.dk",
+      "programmes": 102,
+      "with_artwork": 28,
+      "with_desc": 102
+    },
+    "Viasat Nature HD (T).dk": {
+      "display_name": "Viasat Nature HD (T).dk",
+      "programmes": 65,
+      "with_artwork": 51,
+      "with_desc": 65
+    },
+    "Viasat Nature Nordic Denmark (DK,DA).dk": {
+      "display_name": "Viasat Nature Nordic Denmark (DK,DA).dk",
+      "programmes": 70,
+      "with_artwork": 56,
+      "with_desc": 70
+    },
+    "Viasat Nature Nordic Norway (NO,NO).dk": {
+      "display_name": "Viasat Nature Nordic Norway (NO,NO).dk",
+      "programmes": 70,
+      "with_artwork": 18,
+      "with_desc": 70
+    },
+    "Viasat Nature.dk": {
+      "display_name": "Viasat Nature.dk",
+      "programmes": 135,
+      "with_artwork": 107,
+      "with_desc": 135
+    },
+    "Viasat Series.dk": {
+      "display_name": "Viasat Series.dk",
+      "programmes": 178,
+      "with_artwork": 174,
+      "with_desc": 178
+    },
+    "Viasat Ultra.dk": {
+      "display_name": "Viasat Ultra.dk",
+      "programmes": 7,
+      "with_artwork": 7,
+      "with_desc": 7
+    },
+    "Visjon Norge Norway (NO,NO).dk": {
+      "display_name": "Visjon Norge Norway (NO,NO).dk",
+      "programmes": 58,
+      "with_artwork": 5,
+      "with_desc": 48
+    },
+    "Vox.dk": {
+      "display_name": "Vox.dk",
+      "programmes": 58,
+      "with_artwork": 54,
+      "with_desc": 58
+    },
+    "ZDF Germany (DE,DE).dk": {
+      "display_name": "ZDF Germany (DE,DE).dk",
+      "programmes": 73,
+      "with_artwork": 41,
+      "with_desc": 72
+    },
+    "ZDF.dk": {
+      "display_name": "ZDF.dk",
+      "programmes": 139,
+      "with_artwork": 51,
+      "with_desc": 139
+    },
+    "ZULU Comedy.dk": {
+      "display_name": "ZULU Comedy.dk",
+      "programmes": 63,
+      "with_artwork": 61,
+      "with_desc": 62
+    },
+    "animalplanet.dk": {
+      "display_name": "Animal Planet.dk",
+      "programmes": 40,
+      "with_artwork": 31,
+      "with_desc": 40
+    },
+    "boomerang.dk": {
+      "display_name": "Boomerang.dk",
+      "programmes": 222,
+      "with_artwork": 212,
+      "with_desc": 222
+    },
+    "canal9.dk": {
+      "display_name": "CANAL 9.dk",
       "programmes": 34,
       "with_artwork": 34,
       "with_desc": 34
     },
-    "Viasat Explore Denmark (DK,DA).dk": {
-      "display_name": "Viasat Explore Denmark (DK,DA).dk",
-      "programmes": 52,
-      "with_artwork": 0,
-      "with_desc": 52
-    },
-    "Viasat Explore HD (T).dk": {
-      "display_name": "Viasat Explore HD (T).dk",
-      "programmes": 47,
-      "with_artwork": 0,
-      "with_desc": 47
-    },
-    "Viasat Explore Norway (NO,NO).dk": {
-      "display_name": "Viasat Explore Norway (NO,NO).dk",
-      "programmes": 52,
-      "with_artwork": 0,
-      "with_desc": 52
-    },
-    "Viasat Explorer.dk": {
-      "display_name": "Viasat Explorer.dk",
-      "programmes": 101,
-      "with_artwork": 0,
-      "with_desc": 101
-    },
-    "Viasat Film Action.dk": {
-      "display_name": "Viasat Film Action.dk",
-      "programmes": 52,
-      "with_artwork": 4,
-      "with_desc": 52
-    },
-    "Viasat Film Family.dk": {
-      "display_name": "Viasat Film Family.dk",
-      "programmes": 50,
-      "with_artwork": 21,
-      "with_desc": 50
-    },
-    "Viasat Film Hits.dk": {
-      "display_name": "Viasat Film Hits.dk",
-      "programmes": 51,
-      "with_artwork": 0,
-      "with_desc": 51
-    },
-    "Viasat Film.dk": {
-      "display_name": "Viasat Film.dk",
-      "programmes": 50,
-      "with_artwork": 3,
-      "with_desc": 50
-    },
-    "Viasat Golf.dk": {
-      "display_name": "Viasat Golf.dk",
-      "programmes": 12,
-      "with_artwork": 0,
-      "with_desc": 12
-    },
-    "Viasat History Denmark (DK,DA).dk": {
-      "display_name": "Viasat History Denmark (DK,DA).dk",
-      "programmes": 47,
-      "with_artwork": 10,
-      "with_desc": 47
-    },
-    "Viasat History HD (T).dk": {
-      "display_name": "Viasat History HD (T).dk",
-      "programmes": 42,
-      "with_artwork": 8,
-      "with_desc": 42
-    },
-    "Viasat History Norway (NO,NO).dk": {
-      "display_name": "Viasat History Norway (NO,NO).dk",
-      "programmes": 47,
-      "with_artwork": 8,
-      "with_desc": 47
-    },
-    "Viasat History.dk": {
-      "display_name": "Viasat History.dk",
-      "programmes": 89,
-      "with_artwork": 18,
-      "with_desc": 89
-    },
-    "Viasat Nature HD (T).dk": {
-      "display_name": "Viasat Nature HD (T).dk",
-      "programmes": 57,
-      "with_artwork": 12,
-      "with_desc": 57
-    },
-    "Viasat Nature Nordic Denmark (DK,DA).dk": {
-      "display_name": "Viasat Nature Nordic Denmark (DK,DA).dk",
-      "programmes": 63,
-      "with_artwork": 12,
-      "with_desc": 63
-    },
-    "Viasat Nature Nordic Norway (NO,NO).dk": {
-      "display_name": "Viasat Nature Nordic Norway (NO,NO).dk",
-      "programmes": 63,
-      "with_artwork": 0,
-      "with_desc": 63
-    },
-    "Viasat Nature.dk": {
-      "display_name": "Viasat Nature.dk",
-      "programmes": 122,
-      "with_artwork": 26,
-      "with_desc": 122
-    },
-    "Viasat Series.dk": {
-      "display_name": "Viasat Series.dk",
-      "programmes": 150,
-      "with_artwork": 0,
-      "with_desc": 150
-    },
-    "Viasat Ultra.dk": {
-      "display_name": "Viasat Ultra.dk",
-      "programmes": 6,
-      "with_artwork": 0,
-      "with_desc": 6
-    },
-    "Visjon Norge Norway (NO,NO).dk": {
-      "display_name": "Visjon Norge Norway (NO,NO).dk",
-      "programmes": 49,
-      "with_artwork": 0,
-      "with_desc": 40
-    },
-    "Vox.dk": {
-      "display_name": "Vox.dk",
-      "programmes": 54,
-      "with_artwork": 0,
-      "with_desc": 32
-    },
-    "ZDF Germany (DE,DE).dk": {
-      "display_name": "ZDF Germany (DE,DE).dk",
-      "programmes": 60,
-      "with_artwork": 0,
-      "with_desc": 60
-    },
-    "ZDF.dk": {
-      "display_name": "ZDF.dk",
-      "programmes": 116,
-      "with_artwork": 0,
-      "with_desc": 116
-    },
-    "ZULU Comedy.dk": {
-      "display_name": "ZULU Comedy.dk",
-      "programmes": 67,
-      "with_artwork": 17,
-      "with_desc": 66
-    },
-    "animalplanet.dk": {
-      "display_name": "Animal Planet.dk",
-      "programmes": 60,
-      "with_artwork": 0,
-      "with_desc": 60
-    },
-    "boomerang.dk": {
-      "display_name": "Boomerang.dk",
-      "programmes": 334,
-      "with_artwork": 30,
-      "with_desc": 334
-    },
-    "canal9.dk": {
-      "display_name": "CANAL 9.dk",
-      "programmes": 50,
-      "with_artwork": 0,
-      "with_desc": 50
-    },
     "cartoonnetwork.dk": {
       "display_name": "CartoonNetwork.dk",
-      "programmes": 252,
-      "with_artwork": 18,
-      "with_desc": 252
+      "programmes": 168,
+      "with_artwork": 96,
+      "with_desc": 168
     },
     "cmorestars.dk": {
       "display_name": "C More Stars.dk",
-      "programmes": 79,
-      "with_artwork": 7,
-      "with_desc": 79
+      "programmes": 49,
+      "with_artwork": 42,
+      "with_desc": 49
     },
     "discoveryscience.dk": {
       "display_name": "Discovery Science.dk",
-      "programmes": 83,
-      "with_artwork": 0,
-      "with_desc": 83
+      "programmes": 55,
+      "with_artwork": 32,
+      "with_desc": 55
     },
     "disneychannel.dk": {
       "display_name": "DisneyChannel.dk",
-      "programmes": 146,
-      "with_artwork": 83,
-      "with_desc": 146
+      "programmes": 98,
+      "with_artwork": 98,
+      "with_desc": 98
     },
     "dk4 (T).dk": {
       "display_name": "dk4 (T).dk",
-      "programmes": 81,
-      "with_artwork": 1,
-      "with_desc": 81
+      "programmes": 93,
+      "with_artwork": 3,
+      "with_desc": 93
     },
     "dk4.dk": {
       "display_name": "dk4.dk",
-      "programmes": 89,
-      "with_artwork": 1,
-      "with_desc": 89
+      "programmes": 58,
+      "with_artwork": 2,
+      "with_desc": 58
     },
     "dr1.dk": {
       "display_name": "DR1.dk",
-      "programmes": 70,
-      "with_artwork": 8,
-      "with_desc": 70
+      "programmes": 47,
+      "with_artwork": 0,
+      "with_desc": 47
     },
     "dr2.dk": {
       "display_name": "DR2.dk",
-      "programmes": 55,
-      "with_artwork": 13,
-      "with_desc": 55
+      "programmes": 39,
+      "with_artwork": 0,
+      "with_desc": 39
     },
     "eurosport1.dk": {
       "display_name": "Eurosport 1.dk",
-      "programmes": 26,
-      "with_artwork": 0,
-      "with_desc": 26
+      "programmes": 21,
+      "with_artwork": 1,
+      "with_desc": 21
     },
     "eurosport2.dk": {
       "display_name": "Eurosport 2.dk",
-      "programmes": 36,
-      "with_artwork": 0,
-      "with_desc": 36
+      "programmes": 25,
+      "with_artwork": 1,
+      "with_desc": 25
     },
     "kanal4.dk": {
       "display_name": "Kanal4.dk",
-      "programmes": 59,
-      "with_artwork": 2,
-      "with_desc": 59
+      "programmes": 39,
+      "with_artwork": 31,
+      "with_desc": 39
     },
     "kanal5.dk": {
       "display_name": "Kanal5.dk",
-      "programmes": 55,
-      "with_artwork": 24,
-      "with_desc": 55
+      "programmes": 36,
+      "with_artwork": 32,
+      "with_desc": 36
     },
     "kanal6.dk": {
       "display_name": "6eren.dk",
-      "programmes": 42,
-      "with_artwork": 2,
-      "with_desc": 42
+      "programmes": 28,
+      "with_artwork": 28,
+      "with_desc": 28
     },
     "natgeowild.dk": {
       "display_name": "Nat Geo Wild.dk",
-      "programmes": 73,
-      "with_artwork": 6,
-      "with_desc": 73
+      "programmes": 51,
+      "with_artwork": 33,
+      "with_desc": 51
     },
     "nationalgeographic.dk": {
       "display_name": "National Geographic.dk",
-      "programmes": 51,
-      "with_artwork": 25,
-      "with_desc": 51
+      "programmes": 34,
+      "with_artwork": 32,
+      "with_desc": 34
     },
     "nickelodeon.dk": {
       "display_name": "Nickelodeon.dk",
-      "programmes": 137,
-      "with_artwork": 64,
-      "with_desc": 137
+      "programmes": 92,
+      "with_artwork": 76,
+      "with_desc": 92
     },
     "nickelodeonjunior.dk": {
       "display_name": "Nick Jr.dk",
-      "programmes": 139,
-      "with_artwork": 32,
-      "with_desc": 139
+      "programmes": 92,
+      "with_artwork": 73,
+      "with_desc": 92
     },
     "nicktoons.dk": {
       "display_name": "Nicktoons.dk",
-      "programmes": 147,
-      "with_artwork": 74,
-      "with_desc": 147
+      "programmes": 100,
+      "with_artwork": 93,
+      "with_desc": 100
     },
     "ramasjang.dk": {
       "display_name": "DR RamaSjang.dk",
-      "programmes": 154,
-      "with_artwork": 40,
-      "with_desc": 154
+      "programmes": 102,
+      "with_artwork": 38,
+      "with_desc": 102
     },
     "sfkanalen.dk": {
       "display_name": "sf kanalen.dk",
-      "programmes": 33,
-      "with_artwork": 1,
-      "with_desc": 33
+      "programmes": 21,
+      "with_artwork": 18,
+      "with_desc": 21
     },
     "skyshowtime1.dk": {
       "display_name": "SkyShowtime 1.dk",
-      "programmes": 86,
-      "with_artwork": 5,
-      "with_desc": 86
+      "programmes": 56,
+      "with_artwork": 52,
+      "with_desc": 56
     },
     "skyshowtime2.dk": {
       "display_name": "SkyShowtime 2.dk",
-      "programmes": 59,
-      "with_artwork": 2,
-      "with_desc": 59
+      "programmes": 42,
+      "with_artwork": 27,
+      "with_desc": 42
     },
     "sportlive.dk": {
       "display_name": "SPORT LIVE.dk",
-      "programmes": 35,
-      "with_artwork": 0,
-      "with_desc": 35
+      "programmes": 20,
+      "with_artwork": 2,
+      "with_desc": 20
     },
     "tlc.dk": {
       "display_name": "TLC Danmark.dk",
-      "programmes": 49,
-      "with_artwork": 0,
-      "with_desc": 49
+      "programmes": 32,
+      "with_artwork": 29,
+      "with_desc": 32
     },
     "tv2.dk": {
       "display_name": "TV2.dk",
-      "programmes": 66,
-      "with_artwork": 25,
-      "with_desc": 66
+      "programmes": 43,
+      "with_artwork": 40,
+      "with_desc": 43
     },
     "tv2bornholm.dk": {
       "display_name": "TV2bornholm.dk",
-      "programmes": 135,
+      "programmes": 88,
       "with_artwork": 0,
-      "with_desc": 135
+      "with_desc": 88
     },
     "tv2charlie.dk": {
       "display_name": "TV2Charlie.dk",
-      "programmes": 62,
-      "with_artwork": 15,
-      "with_desc": 62
+      "programmes": 42,
+      "with_artwork": 39,
+      "with_desc": 42
     },
     "tv2echo.dk": {
       "display_name": "TV2 Echo.dk",
-      "programmes": 65,
-      "with_artwork": 35,
-      "with_desc": 65
+      "programmes": 46,
+      "with_artwork": 45,
+      "with_desc": 46
     },
     "tv2fri.dk": {
       "display_name": "TV2 fri.dk",
-      "programmes": 68,
-      "with_artwork": 41,
-      "with_desc": 68
+      "programmes": 48,
+      "with_artwork": 48,
+      "with_desc": 48
     },
     "tv2fyn.dk": {
       "display_name": "TV2 fyn.dk",
-      "programmes": 38,
+      "programmes": 22,
       "with_artwork": 0,
-      "with_desc": 38
+      "with_desc": 22
     },
     "tv2kosmopol.dk": {
       "display_name": "TV2 Kosmopol.dk",
-      "programmes": 66,
-      "with_artwork": 27,
-      "with_desc": 66
+      "programmes": 44,
+      "with_artwork": 37,
+      "with_desc": 44
     },
     "tv2midtvest.dk": {
       "display_name": "TV2MidtVest.dk",
-      "programmes": 67,
-      "with_artwork": 27,
-      "with_desc": 67
+      "programmes": 44,
+      "with_artwork": 38,
+      "with_desc": 44
     },
     "tv2news.dk": {
       "display_name": "TV2 News.dk",
-      "programmes": 33,
-      "with_artwork": 1,
-      "with_desc": 33
+      "programmes": 20,
+      "with_artwork": 16,
+      "with_desc": 20
     },
     "tv2nord.dk": {
       "display_name": "TV2nord.dk",
-      "programmes": 37,
-      "with_artwork": 0,
-      "with_desc": 37
+      "programmes": 22,
+      "with_artwork": 1,
+      "with_desc": 22
     },
     "tv2oest.dk": {
       "display_name": "TV2Ost.dk",
-      "programmes": 63,
-      "with_artwork": 27,
-      "with_desc": 63
+      "programmes": 42,
+      "with_artwork": 41,
+      "with_desc": 42
     },
     "tv2ostjylland.dk": {
       "display_name": "TV2 Ostjylland.dk",
-      "programmes": 66,
-      "with_artwork": 25,
-      "with_desc": 66
+      "programmes": 43,
+      "with_artwork": 36,
+      "with_desc": 43
     },
     "tv2sport.dk": {
       "display_name": "TV2Sport.dk",
-      "programmes": 15,
+      "programmes": 11,
       "with_artwork": 0,
-      "with_desc": 15
+      "with_desc": 11
     },
     "tv2sportx.dk": {
       "display_name": "TV 2 SPORT X.dk",
-      "programmes": 29,
-      "with_artwork": 0,
-      "with_desc": 29
+      "programmes": 19,
+      "with_artwork": 1,
+      "with_desc": 19
     },
     "tv2syd.dk": {
       "display_name": "TV2Syd.dk",
-      "programmes": 65,
-      "with_artwork": 29,
-      "with_desc": 65
+      "programmes": 43,
+      "with_artwork": 38,
+      "with_desc": 43
     },
     "tv3.dk": {
       "display_name": "TV3.dk",
-      "programmes": 49,
-      "with_artwork": 22,
-      "with_desc": 49
+      "programmes": 31,
+      "with_artwork": 28,
+      "with_desc": 31
     },
     "tv3max.dk": {
       "display_name": "TV3 Max.dk",
-      "programmes": 58,
-      "with_artwork": 0,
-      "with_desc": 58
+      "programmes": 34,
+      "with_artwork": 28,
+      "with_desc": 34
     },
     "tv3plus.dk": {
       "display_name": "TV3+.dk",
-      "programmes": 46,
-      "with_artwork": 3,
-      "with_desc": 46
+      "programmes": 30,
+      "with_artwork": 25,
+      "with_desc": 30
     },
     "tv3puls.dk": {
       "display_name": "TV3 Puls.dk",
-      "programmes": 53,
-      "with_artwork": 13,
-      "with_desc": 53
+      "programmes": 35,
+      "with_artwork": 35,
+      "with_desc": 35
     },
     "tv3sport.dk": {
       "display_name": "TV3 Sport.dk",
-      "programmes": 34,
+      "programmes": 14,
       "with_artwork": 2,
-      "with_desc": 34
+      "with_desc": 14
     },
     "viasatexplorer.dk": {
       "display_name": "Viasat Explorer.dk",
-      "programmes": 53,
-      "with_artwork": 0,
-      "with_desc": 53
+      "programmes": 34,
+      "with_artwork": 4,
+      "with_desc": 34
     },
     "viasatfamily.dk": {
       "display_name": "Viasat Family.dk",
-      "programmes": 27,
-      "with_artwork": 9,
-      "with_desc": 27
+      "programmes": 18,
+      "with_artwork": 18,
+      "with_desc": 18
     },
     "viasatfilm.dk": {
       "display_name": "Viasat Film Hits.dk",
-      "programmes": 27,
-      "with_artwork": 0,
-      "with_desc": 27
+      "programmes": 18,
+      "with_artwork": 18,
+      "with_desc": 18
     },
     "viasatfilmaction.dk": {
       "display_name": "Viasat Film Action.dk",
-      "programmes": 28,
-      "with_artwork": 2,
-      "with_desc": 28
+      "programmes": 17,
+      "with_artwork": 17,
+      "with_desc": 17
     },
     "viasatgolf.dk": {
       "display_name": "Viasat Golf.dk",
-      "programmes": 14,
+      "programmes": 9,
       "with_artwork": 0,
-      "with_desc": 14
+      "with_desc": 9
     },
     "viasathistory.dk": {
       "display_name": "Viasat History.dk",
-      "programmes": 47,
-      "with_artwork": 10,
-      "with_desc": 47
+      "programmes": 30,
+      "with_artwork": 5,
+      "with_desc": 30
     },
     "viasatnaturecrime.dk": {
       "display_name": "Viasat Nature/Crime.dk",
-      "programmes": 63,
-      "with_artwork": 11,
-      "with_desc": 63
+      "programmes": 42,
+      "with_artwork": 33,
+      "with_desc": 42
     },
     "viasatpremiere.dk": {
       "display_name": "Viasat Premiere.dk",
-      "programmes": 27,
-      "with_artwork": 2,
-      "with_desc": 27
+      "programmes": 18,
+      "with_artwork": 18,
+      "with_desc": 18
     },
     "viasatseries.dk": {
       "display_name": "Viasat Series.dk",
-      "programmes": 77,
-      "with_artwork": 0,
-      "with_desc": 77
+      "programmes": 55,
+      "with_artwork": 54,
+      "with_desc": 55
     }
   },
-  "date_str": "2026-08-12 15:57:09",
+  "date_str": "2026-08-13 19:31:35",
   "groups": {
     "3sat": {
       "display_name": "3sat.dk",
       "member_channel_ids": [
         "3sat.dk"
       ],
-      "programmes": 79,
-      "with_artwork": 0,
-      "with_desc": 79
+      "programmes": 87,
+      "with_artwork": 25,
+      "with_desc": 87
     },
     "6eren": {
       "display_name": "6eren.dk",
@@ -2288,18 +2288,18 @@
         "6'eren.dk",
         "kanal6.dk"
       ],
-      "programmes": 240,
-      "with_artwork": 12,
-      "with_desc": 240
+      "programmes": 260,
+      "with_artwork": 237,
+      "with_desc": 260
     },
     "adultuk": {
       "display_name": "Adult Channel UK (GB,EN).dk",
       "member_channel_ids": [
         "Adult Channel UK (GB,EN).dk"
       ],
-      "programmes": 57,
-      "with_artwork": 0,
-      "with_desc": 50
+      "programmes": 60,
+      "with_artwork": 19,
+      "with_desc": 52
     },
     "aljazeeraenglish": {
       "display_name": "Al Jazeera English (T).dk",
@@ -2307,9 +2307,9 @@
         "Al Jazeera English (T).dk",
         "Al Jazeera English (QA,EN).dk"
       ],
-      "programmes": 155,
-      "with_artwork": 0,
-      "with_desc": 155
+      "programmes": 179,
+      "with_artwork": 101,
+      "with_desc": 179
     },
     "animalplanet": {
       "display_name": "Animal Planet.dk",
@@ -2318,72 +2318,72 @@
         "Animal Planet.dk",
         "animalplanet.dk"
       ],
-      "programmes": 291,
-      "with_artwork": 0,
-      "with_desc": 289
+      "programmes": 296,
+      "with_artwork": 246,
+      "with_desc": 294
     },
     "animalplanetnorway": {
       "display_name": "Animal Planet Norway (NO,NO).dk",
       "member_channel_ids": [
         "Animal Planet Norway (NO,NO).dk"
       ],
-      "programmes": 60,
-      "with_artwork": 0,
-      "with_desc": 60
+      "programmes": 67,
+      "with_artwork": 56,
+      "with_desc": 67
     },
     "ard": {
       "display_name": "ARD.dk",
       "member_channel_ids": [
         "ARD.dk"
       ],
-      "programmes": 113,
-      "with_artwork": 0,
-      "with_desc": 113
+      "programmes": 163,
+      "with_artwork": 77,
+      "with_desc": 163
     },
     "arte": {
       "display_name": "ARTE.dk",
       "member_channel_ids": [
         "ARTE.dk"
       ],
-      "programmes": 57,
-      "with_artwork": 2,
-      "with_desc": 57
+      "programmes": 65,
+      "with_artwork": 28,
+      "with_desc": 65
     },
     "babytvenglishuk": {
       "display_name": "Baby TV English UK (GB,EN).dk",
       "member_channel_ids": [
         "Baby TV English UK (GB,EN).dk"
       ],
-      "programmes": 103,
-      "with_artwork": 0,
-      "with_desc": 103
+      "programmes": 117,
+      "with_artwork": 26,
+      "with_desc": 117
     },
     "bbc1uk": {
       "display_name": "BBC 1 UK (GB,EN).dk",
       "member_channel_ids": [
         "BBC 1 UK (GB,EN).dk"
       ],
-      "programmes": 48,
-      "with_artwork": 0,
-      "with_desc": 48
+      "programmes": 50,
+      "with_artwork": 37,
+      "with_desc": 50
     },
     "bbcearth": {
       "display_name": "BBC Earth.dk",
       "member_channel_ids": [
         "BBC Earth.dk"
       ],
-      "programmes": 107,
-      "with_artwork": 4,
-      "with_desc": 107
+      "programmes": 124,
+      "with_artwork": 86,
+      "with_desc": 124
     },
     "bbcearthnordicsenglish": {
       "display_name": "BBC Earth Nordics English (IS,EN).dk",
       "member_channel_ids": [
         "BBC Earth Nordics English (IS,EN).dk"
       ],
-      "programmes": 56,
-      "with_artwork": 0,
-      "with_desc": 56
+      "programmes": 66,
+      "with_artwork": 55,
+      "with_desc": 66
     },
     "bbcnews": {
       "display_name": "BBC News.dk",
@@ -2391,18 +2391,18 @@
         "BBC News (T).dk",
         "BBC News.dk"
       ],
-      "programmes": 370,
-      "with_artwork": 0,
-      "with_desc": 370
+      "programmes": 405,
+      "with_artwork": 258,
+      "with_desc": 405
     },
     "bbcnewsuk": {
       "display_name": "BBC News UK (GB,EN).dk",
       "member_channel_ids": [
         "BBC News UK (GB,EN).dk"
       ],
-      "programmes": 131,
-      "with_artwork": 0,
-      "with_desc": 131
+      "programmes": 143,
+      "with_artwork": 90,
+      "with_desc": 143
     },
     "bbcnordic": {
       "display_name": "BBC NORDIC.dk",
@@ -2411,63 +2411,63 @@
         "BBC Nordic Denmark (DK,DA).dk",
         "BBC NORDIC.dk"
       ],
-      "programmes": 286,
-      "with_artwork": 8,
-      "with_desc": 286
+      "programmes": 337,
+      "with_artwork": 323,
+      "with_desc": 337
     },
     "bbcnordicenglish": {
       "display_name": "BBC Nordic English (IS,EN).dk",
       "member_channel_ids": [
         "BBC Nordic English (IS,EN).dk"
       ],
-      "programmes": 74,
-      "with_artwork": 2,
-      "with_desc": 74
+      "programmes": 87,
+      "with_artwork": 79,
+      "with_desc": 87
     },
     "bbcnordicnorway": {
       "display_name": "BBC Nordic Norway (NO,NO).dk",
       "member_channel_ids": [
         "BBC Nordic Norway (NO,NO).dk"
       ],
-      "programmes": 63,
-      "with_artwork": 2,
-      "with_desc": 63
+      "programmes": 78,
+      "with_artwork": 65,
+      "with_desc": 78
     },
     "bloomberg": {
       "display_name": "Bloomberg (T).dk",
       "member_channel_ids": [
         "Bloomberg (T).dk"
       ],
-      "programmes": 35,
-      "with_artwork": 0,
-      "with_desc": 35
+      "programmes": 52,
+      "with_artwork": 6,
+      "with_desc": 52
     },
     "bloombergtv": {
       "display_name": "Bloomberg TV (US,EN).dk",
       "member_channel_ids": [
         "Bloomberg TV (US,EN).dk"
       ],
-      "programmes": 38,
-      "with_artwork": 0,
-      "with_desc": 38
+      "programmes": 55,
+      "with_artwork": 6,
+      "with_desc": 55
     },
     "bluehustleruk": {
       "display_name": "Blue Hustler UK (GB,EN).dk",
       "member_channel_ids": [
         "Blue Hustler UK (GB,EN).dk"
       ],
-      "programmes": 61,
-      "with_artwork": 0,
-      "with_desc": 61
+      "programmes": 67,
+      "with_artwork": 8,
+      "with_desc": 67
     },
     "boomerang": {
       "display_name": "Boomerang.dk",
       "member_channel_ids": [
         "boomerang.dk"
       ],
-      "programmes": 334,
-      "with_artwork": 30,
-      "with_desc": 334
+      "programmes": 222,
+      "with_artwork": 212,
+      "with_desc": 222
     },
     "canal9": {
       "display_name": "Canal9.dk",
@@ -2478,18 +2478,18 @@
         "Canal9.dk",
         "canal9.dk"
       ],
-      "programmes": 297,
-      "with_artwork": 13,
-      "with_desc": 296
+      "programmes": 317,
+      "with_artwork": 317,
+      "with_desc": 316
     },
     "cartoonito": {
       "display_name": "Cartoonito.dk",
       "member_channel_ids": [
         "Cartoonito.dk"
       ],
-      "programmes": 657,
-      "with_artwork": 60,
-      "with_desc": 657
+      "programmes": 738,
+      "with_artwork": 704,
+      "with_desc": 738
     },
     "cartoonnetwork": {
       "display_name": "CartoonNetwork.dk",
@@ -2498,27 +2498,27 @@
         "Cartoon Network.dk",
         "cartoonnetwork.dk"
       ],
-      "programmes": 980,
-      "with_artwork": 70,
-      "with_desc": 980
+      "programmes": 993,
+      "with_artwork": 585,
+      "with_desc": 993
     },
     "cgtn": {
       "display_name": "CGTN (CN,EN).dk",
       "member_channel_ids": [
         "CGTN (CN,EN).dk"
       ],
-      "programmes": 96,
-      "with_artwork": 0,
-      "with_desc": 96
+      "programmes": 108,
+      "with_artwork": 11,
+      "with_desc": 108
     },
     "cmorestars": {
       "display_name": "C More Stars.dk",
       "member_channel_ids": [
         "cmorestars.dk"
       ],
-      "programmes": 79,
-      "with_artwork": 7,
-      "with_desc": 79
+      "programmes": 49,
+      "with_artwork": 42,
+      "with_desc": 49
     },
     "cnbc": {
       "display_name": "CNBC (T).dk",
@@ -2526,9 +2526,9 @@
         "CNBC (T).dk",
         "CNBC (US,EN).dk"
       ],
-      "programmes": 192,
-      "with_artwork": 0,
-      "with_desc": 192
+      "programmes": 211,
+      "with_artwork": 66,
+      "with_desc": 211
     },
     "cnn": {
       "display_name": "CNN.dk",
@@ -2536,36 +2536,36 @@
         "CNN (T).dk",
         "CNN.dk"
       ],
-      "programmes": 187,
-      "with_artwork": 0,
-      "with_desc": 187
+      "programmes": 209,
+      "with_artwork": 108,
+      "with_desc": 209
     },
     "cnninternational": {
       "display_name": "CNN International (US,EN).dk",
       "member_channel_ids": [
         "CNN International (US,EN).dk"
       ],
-      "programmes": 65,
-      "with_artwork": 0,
-      "with_desc": 65
+      "programmes": 73,
+      "with_artwork": 39,
+      "with_desc": 72
     },
     "daserstegermany": {
       "display_name": "Das Erste Germany (DE,DE).dk",
       "member_channel_ids": [
         "Das Erste Germany (DE,DE).dk"
       ],
-      "programmes": 59,
-      "with_artwork": 0,
-      "with_desc": 59
+      "programmes": 85,
+      "with_artwork": 45,
+      "with_desc": 85
     },
     "deutschewelle": {
       "display_name": "Deutsche Welle (DW) (DE,EN).dk",
       "member_channel_ids": [
         "Deutsche Welle (DW) (DE,EN).dk"
       ],
-      "programmes": 154,
-      "with_artwork": 0,
-      "with_desc": 107
+      "programmes": 181,
+      "with_artwork": 77,
+      "with_desc": 130
     },
     "discovery": {
       "display_name": "Discovery Channel.dk",
@@ -2574,27 +2574,27 @@
         "Discovery Channel Denmark (DK,DA).dk",
         "Discovery Channel.dk"
       ],
-      "programmes": 258,
-      "with_artwork": 0,
-      "with_desc": 258
+      "programmes": 283,
+      "with_artwork": 272,
+      "with_desc": 283
     },
     "discoverycentraleuropeenglish": {
       "display_name": "Discovery Channel Central Europe English (GB,EN).dk",
       "member_channel_ids": [
         "Discovery Channel Central Europe English (GB,EN).dk"
       ],
-      "programmes": 65,
-      "with_artwork": 0,
-      "with_desc": 65
+      "programmes": 75,
+      "with_artwork": 63,
+      "with_desc": 75
     },
     "discoverynorge": {
       "display_name": "Discovery Channel Norge (NO,NO).dk",
       "member_channel_ids": [
         "Discovery Channel Norge (NO,NO).dk"
       ],
-      "programmes": 54,
-      "with_artwork": 0,
-      "with_desc": 54
+      "programmes": 59,
+      "with_artwork": 27,
+      "with_desc": 59
     },
     "discoveryscience": {
       "display_name": "Discovery Science.dk",
@@ -2602,18 +2602,18 @@
         "Discovery Science.dk",
         "discoveryscience.dk"
       ],
-      "programmes": 330,
-      "with_artwork": 0,
-      "with_desc": 328
+      "programmes": 338,
+      "with_artwork": 213,
+      "with_desc": 336
     },
     "discoveryscienceeuropeenglish": {
       "display_name": "Discovery Science Europe English (GB,EN).dk",
       "member_channel_ids": [
         "Discovery Science Europe English (GB,EN).dk"
       ],
-      "programmes": 85,
-      "with_artwork": 0,
-      "with_desc": 85
+      "programmes": 98,
+      "with_artwork": 50,
+      "with_desc": 98
     },
     "disney": {
       "display_name": "Disney Channel.dk",
@@ -2621,45 +2621,45 @@
         "Disney Channel Denmark (DK,DA).dk",
         "Disney Channel.dk"
       ],
-      "programmes": 289,
-      "with_artwork": 159,
-      "with_desc": 285
+      "programmes": 320,
+      "with_artwork": 307,
+      "with_desc": 317
     },
     "disneychannel": {
       "display_name": "DisneyChannel.dk",
       "member_channel_ids": [
         "disneychannel.dk"
       ],
-      "programmes": 146,
-      "with_artwork": 83,
-      "with_desc": 146
+      "programmes": 98,
+      "with_artwork": 98,
+      "with_desc": 98
     },
     "disneynordics": {
       "display_name": "Disney Channel Nordics (IS,EN).dk",
       "member_channel_ids": [
         "Disney Channel Nordics (IS,EN).dk"
       ],
-      "programmes": 148,
-      "with_artwork": 53,
-      "with_desc": 148
+      "programmes": 173,
+      "with_artwork": 142,
+      "with_desc": 173
     },
     "disneysca": {
       "display_name": "Disney Channel Sca..dk",
       "member_channel_ids": [
         "Disney Channel Sca..dk"
       ],
-      "programmes": 288,
-      "with_artwork": 162,
-      "with_desc": 288
+      "programmes": 334,
+      "with_artwork": 332,
+      "with_desc": 334
     },
     "dizi": {
       "display_name": "Dizi.dk",
       "member_channel_ids": [
         "Dizi.dk"
       ],
-      "programmes": 57,
-      "with_artwork": 0,
-      "with_desc": 57
+      "programmes": 66,
+      "with_artwork": 45,
+      "with_desc": 66
     },
     "dk4": {
       "display_name": "DK4.dk",
@@ -2669,9 +2669,9 @@
         "DK4.dk",
         "dk4.dk"
       ],
-      "programmes": 512,
-      "with_artwork": 8,
-      "with_desc": 509
+      "programmes": 537,
+      "with_artwork": 23,
+      "with_desc": 532
     },
     "dr1": {
       "display_name": "DR1.dk",
@@ -2681,9 +2681,9 @@
         "DR1.dk",
         "dr1.dk"
       ],
-      "programmes": 394,
-      "with_artwork": 152,
-      "with_desc": 384
+      "programmes": 413,
+      "with_artwork": 0,
+      "with_desc": 403
     },
     "dr2": {
       "display_name": "DR2.dk",
@@ -2693,9 +2693,9 @@
         "DR2.dk",
         "dr2.dk"
       ],
-      "programmes": 306,
-      "with_artwork": 108,
-      "with_desc": 298
+      "programmes": 319,
+      "with_artwork": 0,
+      "with_desc": 318
     },
     "drramasjang": {
       "display_name": "DR Ramasjang.dk",
@@ -2705,44 +2705,44 @@
         "DR Ramasjang.dk",
         "ramasjang.dk"
       ],
-      "programmes": 840,
-      "with_artwork": 376,
-      "with_desc": 768
+      "programmes": 934,
+      "with_artwork": 683,
+      "with_desc": 843
     },
     "drtvavisen": {
       "display_name": "DR TV Avisen.dk",
       "member_channel_ids": [
         "DR TV Avisen.dk"
       ],
-      "programmes": 189,
-      "with_artwork": 0,
-      "with_desc": 182
+      "programmes": 223,
+      "with_artwork": 223,
+      "with_desc": 213
     },
     "dwenglish": {
       "display_name": "DW English (T).dk",
       "member_channel_ids": [
         "DW English (T).dk"
       ],
-      "programmes": 139,
-      "with_artwork": 0,
-      "with_desc": 139
+      "programmes": 167,
+      "with_artwork": 72,
+      "with_desc": 167
     },
     "e!entertainmenteurope": {
       "display_name": "E! Entertainment Europe (GB,EN).dk",
       "member_channel_ids": [
         "E! Entertainment Europe (GB,EN).dk"
       ],
-      "programmes": 56,
-      "with_artwork": 0,
-      "with_desc": 56
+      "programmes": 64,
+      "with_artwork": 64,
+      "with_desc": 64
     },
     "euronewsenglishfrance": {
       "display_name": "Euronews English France (FR,EN).dk",
       "member_channel_ids": [
         "Euronews English France (FR,EN).dk"
       ],
-      "programmes": 161,
-      "with_artwork": 0,
+      "programmes": 191,
+      "with_artwork": 148,
       "with_desc": 156
     },
     "eurosport1": {
@@ -2753,18 +2753,18 @@
         "Eurosport 1.dk",
         "eurosport1.dk"
       ],
-      "programmes": 174,
-      "with_artwork": 0,
-      "with_desc": 132
+      "programmes": 191,
+      "with_artwork": 2,
+      "with_desc": 140
     },
     "eurosport1norway": {
       "display_name": "Eurosport 1 Norway (NO,NO).dk",
       "member_channel_ids": [
         "Eurosport 1 Norway (NO,NO).dk"
       ],
-      "programmes": 35,
-      "with_artwork": 0,
-      "with_desc": 30
+      "programmes": 39,
+      "with_artwork": 2,
+      "with_desc": 32
     },
     "eurosport2": {
       "display_name": "Eurosport 2.dk",
@@ -2774,18 +2774,18 @@
         "Eurosport 2.dk",
         "eurosport2.dk"
       ],
-      "programmes": 215,
-      "with_artwork": 0,
-      "with_desc": 172
+      "programmes": 213,
+      "with_artwork": 9,
+      "with_desc": 162
     },
     "femnorway": {
       "display_name": "FEM Norway (NO,NO).dk",
       "member_channel_ids": [
         "FEM Norway (NO,NO).dk"
       ],
-      "programmes": 54,
-      "with_artwork": 0,
-      "with_desc": 54
+      "programmes": 61,
+      "with_artwork": 21,
+      "with_desc": 61
     },
     "folketinget": {
       "display_name": "Folketinget.dk",
@@ -2793,36 +2793,36 @@
         "Folketinget Denmark (DK,DA).dk",
         "Folketinget.dk"
       ],
-      "programmes": 32,
+      "programmes": 42,
       "with_artwork": 0,
-      "with_desc": 32
+      "with_desc": 42
     },
     "france24english": {
       "display_name": "France 24 English (FR,EN).dk",
       "member_channel_ids": [
         "France 24 English (FR,EN).dk"
       ],
-      "programmes": 209,
-      "with_artwork": 0,
-      "with_desc": 206
+      "programmes": 238,
+      "with_artwork": 46,
+      "with_desc": 232
     },
     "fueltvportugalenglish": {
       "display_name": "Fuel TV Portugal English (PT,EN).dk",
       "member_channel_ids": [
         "Fuel TV Portugal English (PT,EN).dk"
       ],
-      "programmes": 109,
-      "with_artwork": 0,
-      "with_desc": 108
+      "programmes": 117,
+      "with_artwork": 43,
+      "with_desc": 116
     },
     "ginxtvesportsuk": {
       "display_name": "Ginx TV Esports UK (GB,EN).dk",
       "member_channel_ids": [
         "Ginx TV Esports UK (GB,EN).dk"
       ],
-      "programmes": 64,
-      "with_artwork": 0,
-      "with_desc": 36
+      "programmes": 70,
+      "with_artwork": 56,
+      "with_desc": 40
     },
     "history": {
       "display_name": "History.dk",
@@ -2830,72 +2830,72 @@
         "History Channel Denmark (DK,DA).dk",
         "History.dk"
       ],
-      "programmes": 138,
-      "with_artwork": 0,
-      "with_desc": 138
+      "programmes": 155,
+      "with_artwork": 155,
+      "with_desc": 155
     },
     "history2": {
       "display_name": "History 2 Channel Denmark (DK,DA).dk",
       "member_channel_ids": [
         "History 2 Channel Denmark (DK,DA).dk"
       ],
-      "programmes": 69,
-      "with_artwork": 0,
-      "with_desc": 69
+      "programmes": 78,
+      "with_artwork": 66,
+      "with_desc": 78
     },
     "history2europe": {
       "display_name": "HISTORY2 Europe (GB,EN).dk",
       "member_channel_ids": [
         "HISTORY2 Europe (GB,EN).dk"
       ],
-      "programmes": 69,
-      "with_artwork": 0,
-      "with_desc": 69
+      "programmes": 78,
+      "with_artwork": 78,
+      "with_desc": 78
     },
     "history2norway": {
       "display_name": "History 2 Norway (NO,NO).dk",
       "member_channel_ids": [
         "History 2 Norway (NO,NO).dk"
       ],
-      "programmes": 69,
-      "with_artwork": 0,
-      "with_desc": 69
+      "programmes": 78,
+      "with_artwork": 75,
+      "with_desc": 78
     },
     "historynorway": {
       "display_name": "History Norway (NO,NO).dk",
       "member_channel_ids": [
         "History Norway (NO,NO).dk"
       ],
-      "programmes": 71,
-      "with_artwork": 0,
-      "with_desc": 71
+      "programmes": 81,
+      "with_artwork": 81,
+      "with_desc": 81
     },
     "horse&country": {
       "display_name": "Horse & Country (T).dk",
       "member_channel_ids": [
         "Horse & Country (T).dk"
       ],
-      "programmes": 38,
-      "with_artwork": 0,
-      "with_desc": 38
+      "programmes": 43,
+      "with_artwork": 2,
+      "with_desc": 43
     },
     "hustlertvuk": {
       "display_name": "Hustler TV UK (GB,EN).dk",
       "member_channel_ids": [
         "Hustler TV UK (GB,EN).dk"
       ],
-      "programmes": 41,
+      "programmes": 48,
       "with_artwork": 0,
-      "with_desc": 41
+      "with_desc": 48
     },
     "idinvestigationdiscovery": {
       "display_name": "ID Investigation Discovery (D) (T).dk",
       "member_channel_ids": [
         "ID Investigation Discovery (D) (T).dk"
       ],
-      "programmes": 46,
-      "with_artwork": 0,
-      "with_desc": 46
+      "programmes": 56,
+      "with_artwork": 50,
+      "with_desc": 56
     },
     "investigationdiscovery": {
       "display_name": "ID.dk",
@@ -2904,18 +2904,18 @@
         "ID.dk",
         "Investigation Discovery.dk"
       ],
-      "programmes": 197,
-      "with_artwork": 0,
-      "with_desc": 195
+      "programmes": 235,
+      "with_artwork": 211,
+      "with_desc": 233
     },
     "investigationdiscoverynorway": {
       "display_name": "Investigation Discovery Norway (NO,NO).dk",
       "member_channel_ids": [
         "Investigation Discovery Norway (NO,NO).dk"
       ],
-      "programmes": 51,
-      "with_artwork": 0,
-      "with_desc": 51
+      "programmes": 61,
+      "with_artwork": 54,
+      "with_desc": 61
     },
     "kanal4": {
       "display_name": "Kanal4.dk",
@@ -2925,9 +2925,9 @@
         "Kanal 4.dk",
         "kanal4.dk"
       ],
-      "programmes": 346,
-      "with_artwork": 4,
-      "with_desc": 343
+      "programmes": 373,
+      "with_artwork": 336,
+      "with_desc": 371
     },
     "kanal5": {
       "display_name": "Kanal5.dk",
@@ -2937,81 +2937,81 @@
         "Kanal 5.dk",
         "kanal5.dk"
       ],
-      "programmes": 321,
-      "with_artwork": 144,
-      "with_desc": 319
+      "programmes": 336,
+      "with_artwork": 303,
+      "with_desc": 334
     },
     "kanalhovedstaden": {
       "display_name": "Kanal Hovedstaden.dk",
       "member_channel_ids": [
         "Kanal Hovedstaden.dk"
       ],
-      "programmes": 27,
-      "with_artwork": 0,
-      "with_desc": 21
+      "programmes": 34,
+      "with_artwork": 1,
+      "with_desc": 28
     },
     "kosmopol": {
       "display_name": "Kosmopol (Digital).dk",
       "member_channel_ids": [
         "Kosmopol (Digital).dk"
       ],
-      "programmes": 132,
-      "with_artwork": 50,
-      "with_desc": 132
+      "programmes": 134,
+      "with_artwork": 112,
+      "with_desc": 133
     },
     "lovenature": {
       "display_name": "Love Nature HD (T).dk",
       "member_channel_ids": [
         "Love Nature HD (T).dk"
       ],
-      "programmes": 53,
-      "with_artwork": 4,
-      "with_desc": 53
+      "programmes": 62,
+      "with_artwork": 17,
+      "with_desc": 62
     },
     "mdrsachsen-anhaltgermany": {
       "display_name": "MDR Sachsen-Anhalt Germany (DE,DE).dk",
       "member_channel_ids": [
         "MDR Sachsen-Anhalt Germany (DE,DE).dk"
       ],
-      "programmes": 86,
-      "with_artwork": 0,
-      "with_desc": 86
+      "programmes": 92,
+      "with_artwork": 55,
+      "with_desc": 92
     },
     "mezzolive": {
       "display_name": "Mezzo Live (T).dk",
       "member_channel_ids": [
         "Mezzo Live (T).dk"
       ],
-      "programmes": 39,
-      "with_artwork": 0,
-      "with_desc": 39
+      "programmes": 46,
+      "with_artwork": 10,
+      "with_desc": 46
     },
     "mezzoliveenglishfrance": {
       "display_name": "MEZZO LIVE English France (FR,EN).dk",
       "member_channel_ids": [
         "MEZZO LIVE English France (FR,EN).dk"
       ],
-      "programmes": 46,
-      "with_artwork": 0,
-      "with_desc": 44
+      "programmes": 50,
+      "with_artwork": 12,
+      "with_desc": 49
     },
     "moonbug": {
       "display_name": "Moonbug (T).dk",
       "member_channel_ids": [
         "Moonbug (T).dk"
       ],
-      "programmes": 93,
-      "with_artwork": 0,
-      "with_desc": 93
+      "programmes": 108,
+      "with_artwork": 96,
+      "with_desc": 108
     },
     "motorvision+germany": {
       "display_name": "Motorvision+ Germany (DE,EN).dk",
       "member_channel_ids": [
         "Motorvision+ Germany (DE,EN).dk"
       ],
-      "programmes": 86,
-      "with_artwork": 0,
-      "with_desc": 84
+      "programmes": 102,
+      "with_artwork": 27,
+      "with_desc": 102
     },
     "mtv": {
       "display_name": "MTV.dk",
@@ -3020,18 +3020,18 @@
         "MTV Denmark (DK,DA).dk",
         "MTV.dk"
       ],
-      "programmes": 456,
-      "with_artwork": 0,
-      "with_desc": 454
+      "programmes": 528,
+      "with_artwork": 508,
+      "with_desc": 526
     },
     "mtvnorway": {
       "display_name": "MTV Norway (NO,NO).dk",
       "member_channel_ids": [
         "MTV Norway (NO,NO).dk"
       ],
-      "programmes": 57,
-      "with_artwork": 0,
-      "with_desc": 57
+      "programmes": 112,
+      "with_artwork": 101,
+      "with_desc": 112
     },
     "nationalgeographic": {
       "display_name": "National Geographic.dk",
@@ -3042,18 +3042,18 @@
         "National Geographic Channel.dk",
         "nationalgeographic.dk"
       ],
-      "programmes": 299,
-      "with_artwork": 142,
-      "with_desc": 297
+      "programmes": 309,
+      "with_artwork": 304,
+      "with_desc": 307
     },
     "nationalgeographicnorway": {
       "display_name": "National Geographic Norway (NO,NO).dk",
       "member_channel_ids": [
         "National Geographic Norway (NO,NO).dk"
       ],
-      "programmes": 52,
-      "with_artwork": 0,
-      "with_desc": 52
+      "programmes": 58,
+      "with_artwork": 31,
+      "with_desc": 58
     },
     "nationalgeographicwild": {
       "display_name": "Nat Geo Wild.dk",
@@ -3062,45 +3062,45 @@
         "National Geographic Wild.dk",
         "natgeowild.dk"
       ],
-      "programmes": 360,
-      "with_artwork": 70,
-      "with_desc": 359
+      "programmes": 383,
+      "with_artwork": 262,
+      "with_desc": 381
     },
     "nationalgeographicwildnordics": {
       "display_name": "National Geographic Wild Nordics (IS,EN).dk",
       "member_channel_ids": [
         "National Geographic Wild Nordics (IS,EN).dk"
       ],
-      "programmes": 74,
-      "with_artwork": 12,
-      "with_desc": 74
+      "programmes": 86,
+      "with_artwork": 79,
+      "with_desc": 86
     },
     "nationalgeographicwildnorway": {
       "display_name": "National Geographic Wild Norway (NO,NO).dk",
       "member_channel_ids": [
         "National Geographic Wild Norway (NO,NO).dk"
       ],
-      "programmes": 74,
-      "with_artwork": 19,
-      "with_desc": 74
+      "programmes": 86,
+      "with_artwork": 75,
+      "with_desc": 86
     },
     "ndr": {
       "display_name": "NDR.dk",
       "member_channel_ids": [
         "NDR.dk"
       ],
-      "programmes": 171,
-      "with_artwork": 0,
-      "with_desc": 171
+      "programmes": 188,
+      "with_artwork": 33,
+      "with_desc": 188
     },
     "ndrgermany": {
       "display_name": "NDR Germany (DE,DE).dk",
       "member_channel_ids": [
         "NDR Germany (DE,DE).dk"
       ],
-      "programmes": 89,
-      "with_artwork": 0,
-      "with_desc": 89
+      "programmes": 98,
+      "with_artwork": 29,
+      "with_desc": 96
     },
     "nickelodeon": {
       "display_name": "Nickelodeon.dk",
@@ -3109,27 +3109,27 @@
         "Nickelodeon.dk",
         "nickelodeon.dk"
       ],
-      "programmes": 657,
-      "with_artwork": 316,
-      "with_desc": 653
+      "programmes": 680,
+      "with_artwork": 620,
+      "with_desc": 674
     },
     "nickelodeonjunior": {
       "display_name": "Nickelodeon Junior.dk",
       "member_channel_ids": [
         "Nickelodeon Junior.dk"
       ],
-      "programmes": 274,
-      "with_artwork": 61,
-      "with_desc": 274
+      "programmes": 307,
+      "with_artwork": 261,
+      "with_desc": 307
     },
     "nickelodeonnorway": {
       "display_name": "Nickelodeon Norway (NO,NO).dk",
       "member_channel_ids": [
         "Nickelodeon Norway (NO,NO).dk"
       ],
-      "programmes": 138,
-      "with_artwork": 32,
-      "with_desc": 138
+      "programmes": 158,
+      "with_artwork": 88,
+      "with_desc": 158
     },
     "nickjr": {
       "display_name": "Nick Jr.dk",
@@ -3138,18 +3138,18 @@
         "Nick Jr. Denmark (DK,DA).dk",
         "nickelodeonjunior.dk"
       ],
-      "programmes": 408,
-      "with_artwork": 93,
-      "with_desc": 408
+      "programmes": 399,
+      "with_artwork": 334,
+      "with_desc": 399
     },
     "nickjrnorway": {
       "display_name": "Nick Jr. Norway (NO,NO).dk",
       "member_channel_ids": [
         "Nick Jr. Norway (NO,NO).dk"
       ],
-      "programmes": 141,
-      "with_artwork": 0,
-      "with_desc": 141
+      "programmes": 159,
+      "with_artwork": 88,
+      "with_desc": 159
     },
     "nicktoons": {
       "display_name": "Nicktoons.dk",
@@ -3157,18 +3157,18 @@
         "Nicktoons (T).dk",
         "nicktoons.dk"
       ],
-      "programmes": 283,
-      "with_artwork": 145,
-      "with_desc": 283
+      "programmes": 259,
+      "with_artwork": 249,
+      "with_desc": 259
     },
     "norwaylive": {
       "display_name": "Norway Live (NO,NO).dk",
       "member_channel_ids": [
         "Norway Live (NO,NO).dk"
       ],
-      "programmes": 23,
-      "with_artwork": 0,
-      "with_desc": 23
+      "programmes": 27,
+      "with_artwork": 10,
+      "with_desc": 27
     },
     "nrk1": {
       "display_name": "NRK1.dk",
@@ -3176,18 +3176,18 @@
         "NRK1 HD (T).dk",
         "NRK1.dk"
       ],
-      "programmes": 155,
-      "with_artwork": 1,
-      "with_desc": 155
+      "programmes": 176,
+      "with_artwork": 34,
+      "with_desc": 176
     },
     "nrk1norway": {
       "display_name": "NRK1 Norway (NO,NO).dk",
       "member_channel_ids": [
         "NRK1 Norway (NO,NO).dk"
       ],
-      "programmes": 55,
-      "with_artwork": 0,
-      "with_desc": 53
+      "programmes": 62,
+      "with_artwork": 13,
+      "with_desc": 60
     },
     "nrk2": {
       "display_name": "NRK2.dk",
@@ -3195,162 +3195,162 @@
         "NRK2 HD (T).dk",
         "NRK2.dk"
       ],
-      "programmes": 277,
-      "with_artwork": 19,
-      "with_desc": 269
+      "programmes": 314,
+      "with_artwork": 50,
+      "with_desc": 304
     },
     "nrk2norway": {
       "display_name": "NRK2 Norway (NO,NO).dk",
       "member_channel_ids": [
         "NRK2 Norway (NO,NO).dk"
       ],
-      "programmes": 99,
-      "with_artwork": 6,
-      "with_desc": 49
+      "programmes": 72,
+      "with_artwork": 9,
+      "with_desc": 28
     },
     "nrk3/nrksuper": {
       "display_name": "NRK3/ NRK Super HD (T).dk",
       "member_channel_ids": [
         "NRK3/ NRK Super HD (T).dk"
       ],
-      "programmes": 124,
-      "with_artwork": 5,
-      "with_desc": 124
+      "programmes": 154,
+      "with_artwork": 82,
+      "with_desc": 154
     },
     "nrk3norway": {
       "display_name": "NRK3 Norway (NO,NO).dk",
       "member_channel_ids": [
         "NRK3 Norway (NO,NO).dk"
       ],
-      "programmes": 136,
-      "with_artwork": 5,
-      "with_desc": 136
+      "programmes": 167,
+      "with_artwork": 88,
+      "with_desc": 167
     },
     "nrksupernorway": {
       "display_name": "NRK Super Norway (NO,NO).dk",
       "member_channel_ids": [
         "NRK Super Norway (NO,NO).dk"
       ],
-      "programmes": 197,
-      "with_artwork": 11,
-      "with_desc": 197
+      "programmes": 231,
+      "with_artwork": 102,
+      "with_desc": 230
     },
     "oiii": {
       "display_name": "Oiii.dk",
       "member_channel_ids": [
         "Oiii.dk"
       ],
-      "programmes": 174,
-      "with_artwork": 61,
-      "with_desc": 156
+      "programmes": 183,
+      "with_artwork": 147,
+      "with_desc": 168
     },
     "playguld": {
       "display_name": "Play Guld.dk",
       "member_channel_ids": [
         "Play Guld.dk"
       ],
-      "programmes": 75,
-      "with_artwork": 27,
-      "with_desc": 75
+      "programmes": 83,
+      "with_artwork": 78,
+      "with_desc": 83
     },
     "prosieben": {
       "display_name": "ProSieben.dk",
       "member_channel_ids": [
         "ProSieben.dk"
       ],
-      "programmes": 76,
-      "with_artwork": 0,
-      "with_desc": 76
+      "programmes": 84,
+      "with_artwork": 67,
+      "with_desc": 84
     },
     "regional-tv2/bornholm": {
       "display_name": "Regional - TV 2/Bornholm.dk",
       "member_channel_ids": [
         "Regional - TV 2/Bornholm.dk"
       ],
-      "programmes": 132,
-      "with_artwork": 2,
-      "with_desc": 132
+      "programmes": 150,
+      "with_artwork": 15,
+      "with_desc": 150
     },
     "regional-tv2/fyn": {
       "display_name": "Regional - TV 2/Fyn.dk",
       "member_channel_ids": [
         "Regional - TV 2/Fyn.dk"
       ],
-      "programmes": 33,
+      "programmes": 35,
       "with_artwork": 0,
-      "with_desc": 33
+      "with_desc": 35
     },
     "regional-tv2/østjylland": {
       "display_name": "Regional - TV 2 / Østjylland.dk",
       "member_channel_ids": [
         "Regional - TV 2 / Østjylland.dk"
       ],
-      "programmes": 13,
+      "programmes": 12,
       "with_artwork": 0,
-      "with_desc": 13
+      "with_desc": 12
     },
     "regional-tvsyd": {
       "display_name": "Regional - TV Syd.dk",
       "member_channel_ids": [
         "Regional - TV Syd.dk"
       ],
-      "programmes": 71,
+      "programmes": 86,
       "with_artwork": 4,
-      "with_desc": 71
+      "with_desc": 86
     },
     "rexnorway": {
       "display_name": "REX Norway (NO,NO).dk",
       "member_channel_ids": [
         "REX Norway (NO,NO).dk"
       ],
-      "programmes": 73,
-      "with_artwork": 5,
-      "with_desc": 73
+      "programmes": 78,
+      "with_artwork": 36,
+      "with_desc": 78
     },
     "rikstotonorway": {
       "display_name": "RIKSTOTO Norway (NO,NO).dk",
       "member_channel_ids": [
         "RIKSTOTO Norway (NO,NO).dk"
       ],
-      "programmes": 14,
+      "programmes": 16,
       "with_artwork": 0,
-      "with_desc": 9
+      "with_desc": 12
     },
     "rtl": {
       "display_name": "RTL.dk",
       "member_channel_ids": [
         "RTL.dk"
       ],
-      "programmes": 54,
-      "with_artwork": 4,
-      "with_desc": 54
+      "programmes": 57,
+      "with_artwork": 18,
+      "with_desc": 57
     },
     "rtlgermany": {
       "display_name": "RTL Germany (DE,DE).dk",
       "member_channel_ids": [
         "RTL Germany (DE,DE).dk"
       ],
-      "programmes": 58,
-      "with_artwork": 0,
-      "with_desc": 58
+      "programmes": 63,
+      "with_artwork": 29,
+      "with_desc": 63
     },
     "rtlii": {
       "display_name": "RTL II.dk",
       "member_channel_ids": [
         "RTL II.dk"
       ],
-      "programmes": 45,
-      "with_artwork": 0,
-      "with_desc": 45
+      "programmes": 51,
+      "with_artwork": 29,
+      "with_desc": 51
     },
     "sat1": {
       "display_name": "Sat1.dk",
       "member_channel_ids": [
         "Sat1.dk"
       ],
-      "programmes": 39,
-      "with_artwork": 0,
-      "with_desc": 39
+      "programmes": 52,
+      "with_artwork": 16,
+      "with_desc": 52
     },
     "see": {
       "display_name": "See.dk",
@@ -3359,9 +3359,9 @@
         "See Denmark (DK,DA).dk",
         "See.dk"
       ],
-      "programmes": 376,
-      "with_artwork": 18,
-      "with_desc": 302
+      "programmes": 426,
+      "with_artwork": 362,
+      "with_desc": 340
     },
     "sf-kanalen": {
       "display_name": "SF-kanalen.dk",
@@ -3369,45 +3369,45 @@
         "SF-kanalen Denmark (DK,DA).dk",
         "SF-kanalen.dk"
       ],
-      "programmes": 59,
-      "with_artwork": 2,
-      "with_desc": 59
+      "programmes": 66,
+      "with_artwork": 58,
+      "with_desc": 66
     },
     "sf-kanalennorway": {
       "display_name": "SF-kanalen Norway (NO,NO).dk",
       "member_channel_ids": [
         "SF-kanalen Norway (NO,NO).dk"
       ],
-      "programmes": 31,
-      "with_artwork": 1,
-      "with_desc": 31
+      "programmes": 35,
+      "with_artwork": 24,
+      "with_desc": 35
     },
     "sfkanalen": {
       "display_name": "sf kanalen.dk",
       "member_channel_ids": [
         "sfkanalen.dk"
       ],
-      "programmes": 33,
-      "with_artwork": 1,
-      "with_desc": 33
+      "programmes": 21,
+      "with_artwork": 18,
+      "with_desc": 21
     },
     "skynews": {
       "display_name": "Sky News.dk",
       "member_channel_ids": [
         "Sky News.dk"
       ],
-      "programmes": 80,
-      "with_artwork": 0,
-      "with_desc": 80
+      "programmes": 96,
+      "with_artwork": 8,
+      "with_desc": 96
     },
     "skynewsinternational": {
       "display_name": "Sky News International (GB,EN).dk",
       "member_channel_ids": [
         "Sky News International (GB,EN).dk"
       ],
-      "programmes": 84,
-      "with_artwork": 0,
-      "with_desc": 84
+      "programmes": 100,
+      "with_artwork": 8,
+      "with_desc": 100
     },
     "skyshowtime1": {
       "display_name": "SkyShowtime 1.dk",
@@ -3415,9 +3415,9 @@
         "SkyShowtime 1 HD (T).dk",
         "skyshowtime1.dk"
       ],
-      "programmes": 163,
-      "with_artwork": 10,
-      "with_desc": 163
+      "programmes": 141,
+      "with_artwork": 132,
+      "with_desc": 141
     },
     "skyshowtime2": {
       "display_name": "SkyShowtime 2.dk",
@@ -3425,18 +3425,18 @@
         "SkyShowtime 2 HD (T).dk",
         "skyshowtime2.dk"
       ],
-      "programmes": 113,
-      "with_artwork": 4,
-      "with_desc": 113
+      "programmes": 104,
+      "with_artwork": 82,
+      "with_desc": 104
     },
     "sport1": {
       "display_name": "Sport1.dk",
       "member_channel_ids": [
         "Sport1.dk"
       ],
-      "programmes": 70,
-      "with_artwork": 2,
-      "with_desc": 70
+      "programmes": 80,
+      "with_artwork": 52,
+      "with_desc": 80
     },
     "sportlive": {
       "display_name": "SPORT LIVE.dk",
@@ -3444,18 +3444,18 @@
         "Sport Live (D) (T).dk",
         "sportlive.dk"
       ],
-      "programmes": 66,
-      "with_artwork": 0,
-      "with_desc": 66
+      "programmes": 54,
+      "with_artwork": 4,
+      "with_desc": 54
     },
     "superrtl": {
       "display_name": "SUPERRTL.dk",
       "member_channel_ids": [
         "SUPERRTL.dk"
       ],
-      "programmes": 80,
-      "with_artwork": 32,
-      "with_desc": 80
+      "programmes": 163,
+      "with_artwork": 151,
+      "with_desc": 163
     },
     "svt1": {
       "display_name": "SVT1.dk",
@@ -3463,9 +3463,9 @@
         "SVT1 HD (T).dk",
         "SVT1.dk"
       ],
-      "programmes": 168,
-      "with_artwork": 16,
-      "with_desc": 168
+      "programmes": 165,
+      "with_artwork": 106,
+      "with_desc": 165
     },
     "svt1sweden": {
       "display_name": "SVT1 Sweden (SE,SV).dk",
@@ -3473,7 +3473,7 @@
         "SVT1 Sweden (SE,SV).dk"
       ],
       "programmes": 56,
-      "with_artwork": 6,
+      "with_artwork": 47,
       "with_desc": 54
     },
     "svt2": {
@@ -3482,36 +3482,36 @@
         "SVT2 HD (T).dk",
         "SVT2.dk"
       ],
-      "programmes": 117,
-      "with_artwork": 5,
-      "with_desc": 117
+      "programmes": 134,
+      "with_artwork": 71,
+      "with_desc": 134
     },
     "svt24sweden": {
       "display_name": "SVT 24 Sweden (SE,SV).dk",
       "member_channel_ids": [
         "SVT 24 Sweden (SE,SV).dk"
       ],
-      "programmes": 14,
-      "with_artwork": 0,
-      "with_desc": 14
+      "programmes": 10,
+      "with_artwork": 2,
+      "with_desc": 10
     },
     "svt2sweden": {
       "display_name": "SVT2 Sweden (SE,SV).dk",
       "member_channel_ids": [
         "SVT2 Sweden (SE,SV).dk"
       ],
-      "programmes": 36,
-      "with_artwork": 1,
-      "with_desc": 34
+      "programmes": 41,
+      "with_artwork": 24,
+      "with_desc": 39
     },
     "svtbarnsweden": {
       "display_name": "SVT Barn Sweden (SE,SV).dk",
       "member_channel_ids": [
         "SVT Barn Sweden (SE,SV).dk"
       ],
-      "programmes": 144,
-      "with_artwork": 14,
-      "with_desc": 144
+      "programmes": 177,
+      "with_artwork": 90,
+      "with_desc": 177
     },
     "tlc": {
       "display_name": "TLC.dk",
@@ -3522,7 +3522,7 @@
         "tlc.dk"
       ],
       "programmes": 281,
-      "with_artwork": 0,
+      "with_artwork": 233,
       "with_desc": 281
     },
     "tlcnorway": {
@@ -3530,36 +3530,36 @@
       "member_channel_ids": [
         "TLC Norway (NO,NO).dk"
       ],
-      "programmes": 48,
-      "with_artwork": 0,
-      "with_desc": 48
+      "programmes": 53,
+      "with_artwork": 41,
+      "with_desc": 53
     },
     "travel": {
       "display_name": "Travel Channel.dk",
       "member_channel_ids": [
         "Travel Channel.dk"
       ],
-      "programmes": 48,
-      "with_artwork": 0,
-      "with_desc": 48
+      "programmes": 55,
+      "with_artwork": 52,
+      "with_desc": 55
     },
     "travelemeaenglish": {
       "display_name": "Travel Channel EMEA English (GB,EN).dk",
       "member_channel_ids": [
         "Travel Channel EMEA English (GB,EN).dk"
       ],
-      "programmes": 52,
-      "with_artwork": 0,
-      "with_desc": 52
+      "programmes": 59,
+      "with_artwork": 59,
+      "with_desc": 59
     },
     "tv/midt-vest": {
       "display_name": "TV/Midt-Vest.dk",
       "member_channel_ids": [
         "TV/Midt-Vest.dk"
       ],
-      "programmes": 132,
-      "with_artwork": 50,
-      "with_desc": 128
+      "programmes": 133,
+      "with_artwork": 112,
+      "with_desc": 130
     },
     "tv2": {
       "display_name": "TV2.dk",
@@ -3571,9 +3571,9 @@
         "TV 2.dk",
         "tv2.dk"
       ],
-      "programmes": 372,
-      "with_artwork": 149,
-      "with_desc": 327
+      "programmes": 358,
+      "with_artwork": 223,
+      "with_desc": 313
     },
     "tv2/bornholm": {
       "display_name": "TV 2/Bornholm.dk",
@@ -3581,26 +3581,26 @@
         "TV 2/Bornholm.dk"
       ],
       "programmes": 69,
-      "with_artwork": 24,
-      "with_desc": 61
+      "with_artwork": 53,
+      "with_desc": 60
     },
     "tv2/nordsalto": {
       "display_name": "TV2/Nord Salto.dk",
       "member_channel_ids": [
         "TV2/Nord Salto.dk"
       ],
-      "programmes": 126,
-      "with_artwork": 50,
-      "with_desc": 126
+      "programmes": 129,
+      "with_artwork": 112,
+      "with_desc": 129
     },
     "tv2bornholm": {
       "display_name": "TV2bornholm.dk",
       "member_channel_ids": [
         "tv2bornholm.dk"
       ],
-      "programmes": 135,
+      "programmes": 88,
       "with_artwork": 0,
-      "with_desc": 135
+      "with_desc": 88
     },
     "tv2charlie": {
       "display_name": "TV2Charlie.dk",
@@ -3611,18 +3611,18 @@
         "TV 2 Charlie.dk",
         "tv2charlie.dk"
       ],
-      "programmes": 351,
-      "with_artwork": 81,
-      "with_desc": 338
+      "programmes": 360,
+      "with_artwork": 321,
+      "with_desc": 346
     },
     "tv2direktenorway": {
       "display_name": "TV 2 Direkte Norway (NO,NO).dk",
       "member_channel_ids": [
         "TV 2 Direkte Norway (NO,NO).dk"
       ],
-      "programmes": 81,
-      "with_artwork": 4,
-      "with_desc": 69
+      "programmes": 83,
+      "with_artwork": 53,
+      "with_desc": 71
     },
     "tv2echo": {
       "display_name": "TV2 Echo.dk",
@@ -3633,9 +3633,9 @@
         "TV 2 Echo.dk",
         "tv2echo.dk"
       ],
-      "programmes": 370,
-      "with_artwork": 208,
-      "with_desc": 367
+      "programmes": 400,
+      "with_artwork": 398,
+      "with_desc": 396
     },
     "tv2fri": {
       "display_name": "TV2 FRI.dk",
@@ -3646,45 +3646,45 @@
         "TV 2 Fri.dk",
         "tv2fri.dk"
       ],
-      "programmes": 395,
-      "with_artwork": 239,
-      "with_desc": 388
+      "programmes": 427,
+      "with_artwork": 427,
+      "with_desc": 418
     },
     "tv2fyn": {
       "display_name": "TV2 fyn.dk",
       "member_channel_ids": [
         "tv2fyn.dk"
       ],
-      "programmes": 38,
+      "programmes": 22,
       "with_artwork": 0,
-      "with_desc": 38
+      "with_desc": 22
     },
     "tv2kosmopol": {
       "display_name": "TV2 Kosmopol.dk",
       "member_channel_ids": [
         "tv2kosmopol.dk"
       ],
-      "programmes": 66,
-      "with_artwork": 27,
-      "with_desc": 66
+      "programmes": 44,
+      "with_artwork": 37,
+      "with_desc": 44
     },
     "tv2livsstilnorway": {
       "display_name": "TV 2 Livsstil Norway (NO,NO).dk",
       "member_channel_ids": [
         "TV 2 Livsstil Norway (NO,NO).dk"
       ],
-      "programmes": 66,
-      "with_artwork": 0,
-      "with_desc": 66
+      "programmes": 71,
+      "with_artwork": 33,
+      "with_desc": 71
     },
     "tv2midtvest": {
       "display_name": "TV2MidtVest.dk",
       "member_channel_ids": [
         "tv2midtvest.dk"
       ],
-      "programmes": 67,
-      "with_artwork": 27,
-      "with_desc": 67
+      "programmes": 44,
+      "with_artwork": 38,
+      "with_desc": 44
     },
     "tv2news": {
       "display_name": "TV2 News.dk",
@@ -3695,35 +3695,35 @@
         "TV 2 News.dk",
         "tv2news.dk"
       ],
-      "programmes": 177,
-      "with_artwork": 1,
-      "with_desc": 122
+      "programmes": 155,
+      "with_artwork": 151,
+      "with_desc": 104
     },
     "tv2nord": {
       "display_name": "TV2nord.dk",
       "member_channel_ids": [
         "tv2nord.dk"
       ],
-      "programmes": 37,
-      "with_artwork": 0,
-      "with_desc": 37
+      "programmes": 22,
+      "with_artwork": 1,
+      "with_desc": 22
     },
     "tv2norge": {
       "display_name": "TV 2 Norge.dk",
       "member_channel_ids": [
         "TV 2 Norge.dk"
       ],
-      "programmes": 164,
-      "with_artwork": 13,
-      "with_desc": 156
+      "programmes": 160,
+      "with_artwork": 108,
+      "with_desc": 152
     },
     "tv2nyheternorway": {
       "display_name": "TV 2 Nyheter Norway (NO,NO).dk",
       "member_channel_ids": [
         "TV 2 Nyheter Norway (NO,NO).dk"
       ],
-      "programmes": 173,
-      "with_artwork": 0,
+      "programmes": 187,
+      "with_artwork": 32,
       "with_desc": 0
     },
     "tv2ost": {
@@ -3731,18 +3731,18 @@
       "member_channel_ids": [
         "tv2oest.dk"
       ],
-      "programmes": 63,
-      "with_artwork": 27,
-      "with_desc": 63
+      "programmes": 42,
+      "with_artwork": 41,
+      "with_desc": 42
     },
     "tv2ostjylland": {
       "display_name": "TV2 Ostjylland.dk",
       "member_channel_ids": [
         "tv2ostjylland.dk"
       ],
-      "programmes": 66,
-      "with_artwork": 25,
-      "with_desc": 66
+      "programmes": 43,
+      "with_artwork": 36,
+      "with_desc": 43
     },
     "tv2sport": {
       "display_name": "TV2Sport.dk",
@@ -3753,27 +3753,27 @@
         "TV 2 Sport.dk",
         "tv2sport.dk"
       ],
-      "programmes": 71,
-      "with_artwork": 43,
-      "with_desc": 69
+      "programmes": 72,
+      "with_artwork": 49,
+      "with_desc": 71
     },
     "tv2sport1norway": {
       "display_name": "TV 2 Sport 1 Norway (NO,NO).dk",
       "member_channel_ids": [
         "TV 2 Sport 1 Norway (NO,NO).dk"
       ],
-      "programmes": 27,
-      "with_artwork": 0,
-      "with_desc": 27
+      "programmes": 36,
+      "with_artwork": 20,
+      "with_desc": 36
     },
     "tv2sport2norway": {
       "display_name": "TV 2 Sport 2 Norway (NO,NO).dk",
       "member_channel_ids": [
         "TV 2 Sport 2 Norway (NO,NO).dk"
       ],
-      "programmes": 29,
+      "programmes": 30,
       "with_artwork": 0,
-      "with_desc": 29
+      "with_desc": 30
     },
     "tv2sportpremiumnorway": {
       "display_name": "TV 2 Sport Premium Norway (NO,NO).dk",
@@ -3781,7 +3781,7 @@
         "TV 2 Sport Premium Norway (NO,NO).dk"
       ],
       "programmes": 10,
-      "with_artwork": 0,
+      "with_artwork": 9,
       "with_desc": 10
     },
     "tv2sportx": {
@@ -3793,54 +3793,54 @@
         "TV 2 Sport X.dk",
         "tv2sportx.dk"
       ],
-      "programmes": 149,
-      "with_artwork": 97,
-      "with_desc": 143
+      "programmes": 134,
+      "with_artwork": 91,
+      "with_desc": 127
     },
     "tv2syd": {
       "display_name": "TV2Syd.dk",
       "member_channel_ids": [
         "tv2syd.dk"
       ],
-      "programmes": 65,
-      "with_artwork": 29,
-      "with_desc": 65
+      "programmes": 43,
+      "with_artwork": 38,
+      "with_desc": 43
     },
     "tv2zebranorge": {
       "display_name": "TV 2 Zebra Norge.dk",
       "member_channel_ids": [
         "TV 2 Zebra Norge.dk"
       ],
-      "programmes": 72,
-      "with_artwork": 0,
-      "with_desc": 72
+      "programmes": 75,
+      "with_artwork": 64,
+      "with_desc": 75
     },
     "tv2zebranorway": {
       "display_name": "TV 2 Zebra Norway (NO,NO).dk",
       "member_channel_ids": [
         "TV 2 Zebra Norway (NO,NO).dk"
       ],
-      "programmes": 74,
-      "with_artwork": 0,
-      "with_desc": 74
+      "programmes": 81,
+      "with_artwork": 70,
+      "with_desc": 81
     },
     "tv2|østjylland": {
       "display_name": "TV 2| Østjylland.dk",
       "member_channel_ids": [
         "TV 2| Østjylland.dk"
       ],
-      "programmes": 60,
-      "with_artwork": 24,
-      "with_desc": 60
+      "programmes": 61,
+      "with_artwork": 53,
+      "with_desc": 61
     },
     "tv2øst": {
       "display_name": "TV2 Øst.dk",
       "member_channel_ids": [
         "TV2 Øst.dk"
       ],
-      "programmes": 124,
-      "with_artwork": 50,
-      "with_desc": 124
+      "programmes": 127,
+      "with_artwork": 124,
+      "with_desc": 127
     },
     "tv3": {
       "display_name": "TV3.dk",
@@ -3850,9 +3850,9 @@
         "TV3.dk",
         "tv3.dk"
       ],
-      "programmes": 278,
-      "with_artwork": 131,
-      "with_desc": 268
+      "programmes": 271,
+      "with_artwork": 258,
+      "with_desc": 260
     },
     "tv3+": {
       "display_name": "TV3+.dk",
@@ -3862,18 +3862,18 @@
         "TV3+.dk",
         "tv3plus.dk"
       ],
-      "programmes": 264,
-      "with_artwork": 32,
-      "with_desc": 251
+      "programmes": 258,
+      "with_artwork": 29,
+      "with_desc": 246
     },
     "tv3+norway": {
       "display_name": "TV3+ Norway (NO,NO).dk",
       "member_channel_ids": [
         "TV3+ Norway (NO,NO).dk"
       ],
-      "programmes": 57,
-      "with_artwork": 0,
-      "with_desc": 57
+      "programmes": 69,
+      "with_artwork": 40,
+      "with_desc": 68
     },
     "tv3max": {
       "display_name": "TV3 Max.dk",
@@ -3883,27 +3883,27 @@
         "TV3 Max.dk",
         "tv3max.dk"
       ],
-      "programmes": 336,
-      "with_artwork": 0,
-      "with_desc": 330
+      "programmes": 309,
+      "with_artwork": 59,
+      "with_desc": 295
     },
     "tv3norge": {
       "display_name": "TV3 Norge.dk",
       "member_channel_ids": [
         "TV3 Norge.dk"
       ],
-      "programmes": 43,
-      "with_artwork": 5,
-      "with_desc": 43
+      "programmes": 40,
+      "with_artwork": 37,
+      "with_desc": 40
     },
     "tv3norway": {
       "display_name": "TV3 Norway (NO,NO).dk",
       "member_channel_ids": [
         "TV3 Norway (NO,NO).dk"
       ],
-      "programmes": 47,
-      "with_artwork": 3,
-      "with_desc": 47
+      "programmes": 45,
+      "with_artwork": 40,
+      "with_desc": 45
     },
     "tv3puls": {
       "display_name": "TV3 Puls.dk",
@@ -3913,9 +3913,9 @@
         "TV3 Puls.dk",
         "tv3puls.dk"
       ],
-      "programmes": 307,
-      "with_artwork": 75,
-      "with_desc": 295
+      "programmes": 312,
+      "with_artwork": 312,
+      "with_desc": 303
     },
     "tv3sport": {
       "display_name": "TV3 Sport.dk",
@@ -3925,63 +3925,63 @@
         "TV3 Sport.dk",
         "tv3sport.dk"
       ],
-      "programmes": 186,
-      "with_artwork": 154,
-      "with_desc": 137
+      "programmes": 123,
+      "with_artwork": 111,
+      "with_desc": 84
     },
     "tv3sverige": {
       "display_name": "TV3 Sverige.dk",
       "member_channel_ids": [
         "TV3 Sverige.dk"
       ],
-      "programmes": 56,
-      "with_artwork": 18,
-      "with_desc": 56
+      "programmes": 58,
+      "with_artwork": 52,
+      "with_desc": 58
     },
     "tv3sweden": {
       "display_name": "TV3 Sweden (SE,SV).dk",
       "member_channel_ids": [
         "TV3 Sweden (SE,SV).dk"
       ],
-      "programmes": 60,
-      "with_artwork": 1,
-      "with_desc": 60
+      "programmes": 62,
+      "with_artwork": 57,
+      "with_desc": 62
     },
     "tv4": {
       "display_name": "TV4 HD (T).dk",
       "member_channel_ids": [
         "TV4 HD (T).dk"
       ],
-      "programmes": 35,
-      "with_artwork": 0,
-      "with_desc": 35
+      "programmes": 37,
+      "with_artwork": 32,
+      "with_desc": 37
     },
     "tv4hits": {
       "display_name": "TV4 Hits Denmark (DK,DA).dk",
       "member_channel_ids": [
         "TV4 Hits Denmark (DK,DA).dk"
       ],
-      "programmes": 33,
-      "with_artwork": 1,
-      "with_desc": 33
+      "programmes": 42,
+      "with_artwork": 41,
+      "with_desc": 42
     },
     "tv4hitsnorway": {
       "display_name": "TV4 Hits Norway (NO,NO).dk",
       "member_channel_ids": [
         "TV4 Hits Norway (NO,NO).dk"
       ],
-      "programmes": 33,
-      "with_artwork": 1,
-      "with_desc": 33
+      "programmes": 42,
+      "with_artwork": 36,
+      "with_desc": 42
     },
     "tv4starsnorway": {
       "display_name": "TV4 Stars Norway (NO,NO).dk",
       "member_channel_ids": [
         "TV4 Stars Norway (NO,NO).dk"
       ],
-      "programmes": 79,
-      "with_artwork": 7,
-      "with_desc": 79
+      "programmes": 90,
+      "with_artwork": 79,
+      "with_desc": 90
     },
     "tv4sverige": {
       "display_name": "TV4 Sverige.dk",
@@ -3989,7 +3989,7 @@
         "TV4 Sverige.dk"
       ],
       "programmes": 79,
-      "with_artwork": 3,
+      "with_artwork": 51,
       "with_desc": 79
     },
     "tv4sweden": {
@@ -3997,36 +3997,36 @@
       "member_channel_ids": [
         "TV4 Sweden (SE,SV).dk"
       ],
-      "programmes": 41,
-      "with_artwork": 0,
-      "with_desc": 41
+      "programmes": 42,
+      "with_artwork": 37,
+      "with_desc": 42
     },
     "tv5mondeeurope": {
       "display_name": "TV5Monde Europe.dk",
       "member_channel_ids": [
         "TV5Monde Europe.dk"
       ],
-      "programmes": 120,
-      "with_artwork": 2,
-      "with_desc": 120
+      "programmes": 141,
+      "with_artwork": 70,
+      "with_desc": 141
     },
     "tv6norway": {
       "display_name": "TV6 Norway (NO,NO).dk",
       "member_channel_ids": [
         "TV6 Norway (NO,NO).dk"
       ],
-      "programmes": 49,
-      "with_artwork": 17,
-      "with_desc": 49
+      "programmes": 55,
+      "with_artwork": 46,
+      "with_desc": 55
     },
     "tvalive": {
       "display_name": "TVA Live.dk",
       "member_channel_ids": [
         "TVA Live.dk"
       ],
-      "programmes": 202,
-      "with_artwork": 0,
-      "with_desc": 202
+      "programmes": 246,
+      "with_artwork": 246,
+      "with_desc": 246
     },
     "tvfyn": {
       "display_name": "TV Fyn.dk",
@@ -4034,7 +4034,7 @@
         "TV Fyn.dk"
       ],
       "programmes": 66,
-      "with_artwork": 24,
+      "with_artwork": 53,
       "with_desc": 66
     },
     "tvnorge": {
@@ -4042,18 +4042,18 @@
       "member_channel_ids": [
         "TVNorge (NO,NO).dk"
       ],
-      "programmes": 63,
-      "with_artwork": 3,
-      "with_desc": 63
+      "programmes": 72,
+      "with_artwork": 46,
+      "with_desc": 72
     },
     "tvsyd": {
       "display_name": "TV Syd.dk",
       "member_channel_ids": [
         "TV Syd.dk"
       ],
-      "programmes": 62,
-      "with_artwork": 26,
-      "with_desc": 62
+      "programmes": 63,
+      "with_artwork": 55,
+      "with_desc": 63
     },
     "vfilmaction": {
       "display_name": "V Film Action.dk",
@@ -4062,18 +4062,18 @@
         "V Film Action Denmark (DK,DA).dk",
         "V Film Action.dk"
       ],
-      "programmes": 75,
-      "with_artwork": 6,
-      "with_desc": 71
+      "programmes": 83,
+      "with_artwork": 83,
+      "with_desc": 79
     },
     "vfilmactionnorway": {
       "display_name": "V Film Action Norway (NO,NO).dk",
       "member_channel_ids": [
         "V Film Action Norway (NO,NO).dk"
       ],
-      "programmes": 27,
-      "with_artwork": 2,
-      "with_desc": 27
+      "programmes": 29,
+      "with_artwork": 29,
+      "with_desc": 29
     },
     "vfilmfamily": {
       "display_name": "V Film Family.dk",
@@ -4082,18 +4082,18 @@
         "V Film Family Denmark (DK,DA).dk",
         "V Film Family.dk"
       ],
-      "programmes": 73,
-      "with_artwork": 31,
-      "with_desc": 70
+      "programmes": 84,
+      "with_artwork": 82,
+      "with_desc": 82
     },
     "vfilmfamilynorway": {
       "display_name": "V Film Family Norway (NO,NO).dk",
       "member_channel_ids": [
         "V Film Family Norway (NO,NO).dk"
       ],
-      "programmes": 26,
-      "with_artwork": 7,
-      "with_desc": 26
+      "programmes": 30,
+      "with_artwork": 25,
+      "with_desc": 30
     },
     "vfilmhits": {
       "display_name": "V Film Hits.dk",
@@ -4102,18 +4102,18 @@
         "V Film Hits Denmark (DK,DA).dk",
         "V Film Hits.dk"
       ],
-      "programmes": 74,
-      "with_artwork": 0,
-      "with_desc": 74
+      "programmes": 83,
+      "with_artwork": 83,
+      "with_desc": 82
     },
     "vfilmhitsnorway": {
       "display_name": "V Film Hits Norway (NO,NO).dk",
       "member_channel_ids": [
         "V Film Hits Norway (NO,NO).dk"
       ],
-      "programmes": 26,
-      "with_artwork": 0,
-      "with_desc": 26
+      "programmes": 29,
+      "with_artwork": 27,
+      "with_desc": 29
     },
     "vfilmpremiere": {
       "display_name": "V Film Premiere.dk",
@@ -4122,27 +4122,27 @@
         "V Film Premiere HD Denmark (DK,DA).dk",
         "V Film Premiere.dk"
       ],
-      "programmes": 73,
-      "with_artwork": 4,
-      "with_desc": 65
+      "programmes": 84,
+      "with_artwork": 84,
+      "with_desc": 73
     },
     "vfilmpremierenorway": {
       "display_name": "V Film Premiere Norway (NO,NO).dk",
       "member_channel_ids": [
         "V Film Premiere Norway (NO,NO).dk"
       ],
-      "programmes": 26,
-      "with_artwork": 2,
-      "with_desc": 26
+      "programmes": 30,
+      "with_artwork": 25,
+      "with_desc": 30
     },
     "vgnorway": {
       "display_name": "VG Norway (NO,NO).dk",
       "member_channel_ids": [
         "VG Norway (NO,NO).dk"
       ],
-      "programmes": 76,
-      "with_artwork": 2,
-      "with_desc": 58
+      "programmes": 79,
+      "with_artwork": 40,
+      "with_desc": 59
     },
     "viaplaysportnews": {
       "display_name": "Viaplay Sport News.dk",
@@ -4150,9 +4150,9 @@
         "Viaplay Sport News HD (D) (T).dk",
         "Viaplay Sport News.dk"
       ],
-      "programmes": 62,
-      "with_artwork": 62,
-      "with_desc": 62
+      "programmes": 72,
+      "with_artwork": 72,
+      "with_desc": 72
     },
     "viasatexplore": {
       "display_name": "Viasat Explore HD (T).dk",
@@ -4160,18 +4160,18 @@
         "Viasat Explore HD (T).dk",
         "Viasat Explore Denmark (DK,DA).dk"
       ],
-      "programmes": 99,
-      "with_artwork": 0,
-      "with_desc": 99
+      "programmes": 114,
+      "with_artwork": 18,
+      "with_desc": 114
     },
     "viasatexplorenorway": {
       "display_name": "Viasat Explore Norway (NO,NO).dk",
       "member_channel_ids": [
         "Viasat Explore Norway (NO,NO).dk"
       ],
-      "programmes": 52,
+      "programmes": 59,
       "with_artwork": 0,
-      "with_desc": 52
+      "with_desc": 59
     },
     "viasatexplorer": {
       "display_name": "Viasat Explorer.dk",
@@ -4179,27 +4179,27 @@
         "Viasat Explorer.dk",
         "viasatexplorer.dk"
       ],
-      "programmes": 154,
-      "with_artwork": 0,
-      "with_desc": 154
+      "programmes": 148,
+      "with_artwork": 22,
+      "with_desc": 148
     },
     "viasatfamily": {
       "display_name": "Viasat Family.dk",
       "member_channel_ids": [
         "viasatfamily.dk"
       ],
-      "programmes": 27,
-      "with_artwork": 9,
-      "with_desc": 27
+      "programmes": 18,
+      "with_artwork": 18,
+      "with_desc": 18
     },
     "viasatfilm": {
       "display_name": "Viasat Film.dk",
       "member_channel_ids": [
         "Viasat Film.dk"
       ],
-      "programmes": 50,
-      "with_artwork": 3,
-      "with_desc": 50
+      "programmes": 57,
+      "with_artwork": 57,
+      "with_desc": 57
     },
     "viasatfilmaction": {
       "display_name": "Viasat Film Action.dk",
@@ -4207,18 +4207,18 @@
         "Viasat Film Action.dk",
         "viasatfilmaction.dk"
       ],
-      "programmes": 80,
-      "with_artwork": 6,
-      "with_desc": 80
+      "programmes": 72,
+      "with_artwork": 72,
+      "with_desc": 72
     },
     "viasatfilmfamily": {
       "display_name": "Viasat Film Family.dk",
       "member_channel_ids": [
         "Viasat Film Family.dk"
       ],
-      "programmes": 50,
-      "with_artwork": 21,
-      "with_desc": 50
+      "programmes": 57,
+      "with_artwork": 57,
+      "with_desc": 57
     },
     "viasatfilmhits": {
       "display_name": "Viasat Film Hits.dk",
@@ -4226,9 +4226,9 @@
         "Viasat Film Hits.dk",
         "viasatfilm.dk"
       ],
-      "programmes": 78,
-      "with_artwork": 0,
-      "with_desc": 78
+      "programmes": 73,
+      "with_artwork": 73,
+      "with_desc": 73
     },
     "viasatgolf": {
       "display_name": "Viasat Golf.dk",
@@ -4236,9 +4236,9 @@
         "Viasat Golf.dk",
         "viasatgolf.dk"
       ],
-      "programmes": 26,
+      "programmes": 24,
       "with_artwork": 0,
-      "with_desc": 26
+      "with_desc": 24
     },
     "viasathistory": {
       "display_name": "Viasat History.dk",
@@ -4248,18 +4248,18 @@
         "Viasat History.dk",
         "viasathistory.dk"
       ],
-      "programmes": 225,
-      "with_artwork": 46,
-      "with_desc": 225
+      "programmes": 234,
+      "with_artwork": 61,
+      "with_desc": 234
     },
     "viasathistorynorway": {
       "display_name": "Viasat History Norway (NO,NO).dk",
       "member_channel_ids": [
         "Viasat History Norway (NO,NO).dk"
       ],
-      "programmes": 47,
-      "with_artwork": 8,
-      "with_desc": 47
+      "programmes": 53,
+      "with_artwork": 9,
+      "with_desc": 53
     },
     "viasatnature": {
       "display_name": "Viasat Nature.dk",
@@ -4267,45 +4267,45 @@
         "Viasat Nature HD (T).dk",
         "Viasat Nature.dk"
       ],
-      "programmes": 179,
-      "with_artwork": 38,
-      "with_desc": 179
+      "programmes": 200,
+      "with_artwork": 158,
+      "with_desc": 200
     },
     "viasatnature/crime": {
       "display_name": "Viasat Nature/Crime.dk",
       "member_channel_ids": [
         "viasatnaturecrime.dk"
       ],
-      "programmes": 63,
-      "with_artwork": 11,
-      "with_desc": 63
+      "programmes": 42,
+      "with_artwork": 33,
+      "with_desc": 42
     },
     "viasatnaturenordic": {
       "display_name": "Viasat Nature Nordic Denmark (DK,DA).dk",
       "member_channel_ids": [
         "Viasat Nature Nordic Denmark (DK,DA).dk"
       ],
-      "programmes": 63,
-      "with_artwork": 12,
-      "with_desc": 63
+      "programmes": 70,
+      "with_artwork": 56,
+      "with_desc": 70
     },
     "viasatnaturenordicnorway": {
       "display_name": "Viasat Nature Nordic Norway (NO,NO).dk",
       "member_channel_ids": [
         "Viasat Nature Nordic Norway (NO,NO).dk"
       ],
-      "programmes": 63,
-      "with_artwork": 0,
-      "with_desc": 63
+      "programmes": 70,
+      "with_artwork": 18,
+      "with_desc": 70
     },
     "viasatpremiere": {
       "display_name": "Viasat Premiere.dk",
       "member_channel_ids": [
         "viasatpremiere.dk"
       ],
-      "programmes": 27,
-      "with_artwork": 2,
-      "with_desc": 27
+      "programmes": 18,
+      "with_artwork": 18,
+      "with_desc": 18
     },
     "viasatseries": {
       "display_name": "Viasat Series.dk",
@@ -4313,45 +4313,45 @@
         "Viasat Series.dk",
         "viasatseries.dk"
       ],
-      "programmes": 227,
-      "with_artwork": 0,
-      "with_desc": 227
+      "programmes": 233,
+      "with_artwork": 228,
+      "with_desc": 233
     },
     "viasatultra": {
       "display_name": "Viasat Ultra.dk",
       "member_channel_ids": [
         "Viasat Ultra.dk"
       ],
-      "programmes": 6,
-      "with_artwork": 0,
-      "with_desc": 6
+      "programmes": 7,
+      "with_artwork": 7,
+      "with_desc": 7
     },
     "visjonnorgenorway": {
       "display_name": "Visjon Norge Norway (NO,NO).dk",
       "member_channel_ids": [
         "Visjon Norge Norway (NO,NO).dk"
       ],
-      "programmes": 49,
-      "with_artwork": 0,
-      "with_desc": 40
+      "programmes": 58,
+      "with_artwork": 5,
+      "with_desc": 48
     },
     "vox": {
       "display_name": "Vox.dk",
       "member_channel_ids": [
         "Vox.dk"
       ],
-      "programmes": 54,
-      "with_artwork": 0,
-      "with_desc": 32
+      "programmes": 58,
+      "with_artwork": 54,
+      "with_desc": 58
     },
     "voxnorway": {
       "display_name": "VOX Norway (NO,NO).dk",
       "member_channel_ids": [
         "VOX Norway (NO,NO).dk"
       ],
-      "programmes": 53,
-      "with_artwork": 2,
-      "with_desc": 53
+      "programmes": 65,
+      "with_artwork": 18,
+      "with_desc": 65
     },
     "vseries": {
       "display_name": "V Series.dk",
@@ -4360,27 +4360,27 @@
         "V Series Denmark (DK,DA).dk",
         "V Series.dk"
       ],
-      "programmes": 218,
-      "with_artwork": 0,
-      "with_desc": 211
+      "programmes": 264,
+      "with_artwork": 258,
+      "with_desc": 260
     },
     "vseriesnorway": {
       "display_name": "V Series Norway (NO,NO).dk",
       "member_channel_ids": [
         "V Series Norway (NO,NO).dk"
       ],
-      "programmes": 77,
-      "with_artwork": 0,
-      "with_desc": 77
+      "programmes": 92,
+      "with_artwork": 92,
+      "with_desc": 92
     },
     "vsport+norway": {
       "display_name": "V Sport + Norway (NO,NO).dk",
       "member_channel_ids": [
         "V Sport + Norway (NO,NO).dk"
       ],
-      "programmes": 12,
-      "with_artwork": 0,
-      "with_desc": 12
+      "programmes": 14,
+      "with_artwork": 12,
+      "with_desc": 14
     },
     "vsport1norway": {
       "display_name": "V Sport 1 Norway (NO,NO).dk",
@@ -4388,7 +4388,7 @@
         "V Sport 1 Norway (NO,NO).dk"
       ],
       "programmes": 18,
-      "with_artwork": 0,
+      "with_artwork": 13,
       "with_desc": 18
     },
     "vsport2norway": {
@@ -4396,18 +4396,18 @@
       "member_channel_ids": [
         "V Sport 2 Norway (NO,NO).dk"
       ],
-      "programmes": 12,
-      "with_artwork": 0,
-      "with_desc": 12
+      "programmes": 16,
+      "with_artwork": 12,
+      "with_desc": 16
     },
     "vsport3norway": {
       "display_name": "V Sport 3 Norway (NO,NO).dk",
       "member_channel_ids": [
         "V Sport 3 Norway (NO,NO).dk"
       ],
-      "programmes": 14,
+      "programmes": 12,
       "with_artwork": 0,
-      "with_desc": 14
+      "with_desc": 12
     },
     "vsportgolf": {
       "display_name": "V Sport Golf.dk",
@@ -4416,72 +4416,72 @@
         "V Sport Golf Denmark (DK,DA).dk",
         "V Sport Golf.dk"
       ],
-      "programmes": 37,
+      "programmes": 46,
       "with_artwork": 0,
-      "with_desc": 26
+      "with_desc": 32
     },
     "vsportgolfnorway": {
       "display_name": "V Sport Golf Norway (NO,NO).dk",
       "member_channel_ids": [
         "V Sport Golf Norway (NO,NO).dk"
       ],
-      "programmes": 13,
+      "programmes": 16,
       "with_artwork": 0,
-      "with_desc": 7
+      "with_desc": 11
     },
     "vsportlive1": {
       "display_name": "V sport live 1 (T).dk",
       "member_channel_ids": [
         "V sport live 1 (T).dk"
       ],
-      "programmes": 8,
-      "with_artwork": 0,
-      "with_desc": 8
+      "programmes": 9,
+      "with_artwork": 6,
+      "with_desc": 9
     },
     "vsportlive2": {
       "display_name": "V sport live 2 (T).dk",
       "member_channel_ids": [
         "V sport live 2 (T).dk"
       ],
-      "programmes": 8,
-      "with_artwork": 0,
-      "with_desc": 8
+      "programmes": 9,
+      "with_artwork": 6,
+      "with_desc": 9
     },
     "vsportlive3": {
       "display_name": "V sport live 3 (T).dk",
       "member_channel_ids": [
         "V sport live 3 (T).dk"
       ],
-      "programmes": 8,
-      "with_artwork": 0,
-      "with_desc": 8
+      "programmes": 9,
+      "with_artwork": 6,
+      "with_desc": 9
     },
     "vsportlive4": {
       "display_name": "V sport live 4 (T).dk",
       "member_channel_ids": [
         "V sport live 4 (T).dk"
       ],
-      "programmes": 8,
-      "with_artwork": 0,
-      "with_desc": 8
+      "programmes": 9,
+      "with_artwork": 6,
+      "with_desc": 9
     },
     "vsportlive5": {
       "display_name": "V sport live 5 (T).dk",
       "member_channel_ids": [
         "V sport live 5 (T).dk"
       ],
-      "programmes": 8,
-      "with_artwork": 0,
-      "with_desc": 8
+      "programmes": 9,
+      "with_artwork": 6,
+      "with_desc": 9
     },
     "vsportpremierleaguenorway": {
       "display_name": "V sport Premier League Norway (NO,NO).dk",
       "member_channel_ids": [
         "V sport Premier League Norway (NO,NO).dk"
       ],
-      "programmes": 15,
-      "with_artwork": 0,
-      "with_desc": 15
+      "programmes": 18,
+      "with_artwork": 10,
+      "with_desc": 18
     },
     "vsportultra": {
       "display_name": "V Sport Ultra HD.dk",
@@ -4490,40 +4490,40 @@
         "V Sport Ultra HD Denmark (DK,DA).dk",
         "V Sport Ultra HD.dk"
       ],
-      "programmes": 22,
-      "with_artwork": 0,
-      "with_desc": 22
+      "programmes": 25,
+      "with_artwork": 14,
+      "with_desc": 25
     },
     "zdf": {
       "display_name": "ZDF.dk",
       "member_channel_ids": [
         "ZDF.dk"
       ],
-      "programmes": 116,
-      "with_artwork": 0,
-      "with_desc": 116
+      "programmes": 139,
+      "with_artwork": 51,
+      "with_desc": 139
     },
     "zdfgermany": {
       "display_name": "ZDF Germany (DE,DE).dk",
       "member_channel_ids": [
         "ZDF Germany (DE,DE).dk"
       ],
-      "programmes": 60,
-      "with_artwork": 0,
-      "with_desc": 60
+      "programmes": 73,
+      "with_artwork": 41,
+      "with_desc": 72
     },
     "zulucomedy": {
       "display_name": "ZULU Comedy.dk",
       "member_channel_ids": [
         "ZULU Comedy.dk"
       ],
-      "programmes": 67,
-      "with_artwork": 17,
-      "with_desc": 66
+      "programmes": 63,
+      "with_artwork": 61,
+      "with_desc": 62
     }
   },
-  "overall_artwork_pct": 15.75,
-  "timestamp": 1786543029.639749,
-  "total_programmes": 29382,
-  "total_with_artwork": 4627
+  "overall_artwork_pct": 66.49,
+  "timestamp": 1786642295.3856323,
+  "total_programmes": 31339,
+  "total_with_artwork": 20836
 }

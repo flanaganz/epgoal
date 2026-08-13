@@ -52,11 +52,9 @@ from xml.etree import ElementTree as ET
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
-
-SUFFIX = "_stats" if "--stats" in sys.argv else ""
-OUTPUT_DIR = ROOT / f"output{SUFFIX}"
+OUTPUT_DIR = ROOT / "output"
 CONFIG_FILE = ROOT / "config.json"
-CHANNEL_HEALTH_FILE = DATA_DIR / f"channel_health{SUFFIX}.json"
+CHANNEL_HEALTH_FILE = DATA_DIR / "channel_health.json"
 CHANNEL_GROUP_ALIASES_FILE = DATA_DIR / "channel_group_aliases.json"
 
 DECORATION_WORDS = {"hd", "fhd", "denmark", "danmark", "channel"}
