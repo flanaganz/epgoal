@@ -3,24 +3,28 @@
 generate_stats_report.py — omfattende, selvstændig HTML5-statistikrapport for
 det danske backdrop-sideprojekt (danish_backdrops.py) + kanal-sundhed.
 
-NYT (2026-08-12): bruger nu de SAMMENLAGTE kanal-grupper fra
-channel_health.py ("groups", ikke "channels") og channel_priority.xlsx's
-"Gruppe-nøgle (intern)"-kolonne til filtrering. Se channel_health.py og
-export_channel_priority.py for baggrund om kanal-sammenlægning.
-
 Læser:
-    data/danish_artwork_cache.json
-    data/danish_artwork_review.xlsx
-    data/manual_artwork_overrides.xlsx
-    data/danish_backdrops_run_log.json
-    data/channel_health.json      (bruger "groups"-nøglen)
-    data/channel_priority.xlsx    (bruger "Gruppe-nøgle (intern)"-kolonnen)
+    data/danish_artwork_cache.json          (alle TMDb-opslag)
+    data/danish_artwork_review.xlsx         (godkendelses-status)
+    data/manual_artwork_overrides.xlsx      (manuelle overrides, film/serier)
+    data/danish_backdrops_run_log.json      (fuld kørselshistorik)
+    data/channel_health.json                (kanal-for-kanal artwork-dækning)
+    data/channel_priority.xlsx              (NYT: hvilke kanaler skal vises i
+                                              Kanal-sundhed-sektionen. Kun
+                                              kanaler markeret 'X' i kolonnen
+                                              "Følg (X)" tælles med - både i
+                                              tabellen, top-10-listen, OG den
+                                              samlede dækningsprocent. Hvis
+                                              filen ikke findes endnu, vises
+                                              ALLE kanaler uden filtrering
+                                              (bagudkompatibelt).)
 
 Skriver:
     output/danish_backdrops_report.html
 
 BRUG
     python3 scripts/generate_stats_report.py
+    (kør EFTER enrich_epg.py, danish_backdrops.py og channel_health.py)
 """
 from __future__ import annotations
 
@@ -143,8 +147,8 @@ def load_manual_overrides_summary(path: Path) -> list[dict]:
 
 
 def load_channel_priority(path: Path) -> set[str] | None:
-    """Returnerer sæt af GRUPPE-nøgler markeret 'X', eller None hvis filen
-    ikke findes (= ingen filtrering, vis alle kanaler)."""
+    """Returnerer sæt af kanal-ID'er markeret 'X', eller None hvis filen ikke
+    findes (= ingen filtrering, vis alle kanaler)."""
     if not path.exists():
         return None
     try:
@@ -161,17 +165,17 @@ def load_channel_priority(path: Path) -> set[str] | None:
 
     headers = [c.value for c in ws[1]]
     try:
-        key_col = headers.index("Gruppe-nøgle (intern)")
+        cid_col = headers.index("Kanal-ID (intern)")
         follow_col = headers.index("Følg (X)")
     except ValueError:
         return None
 
     followed: set[str] = set()
     for row in ws.iter_rows(min_row=2):
-        key_val = row[key_col].value
+        cid_val = row[cid_col].value
         follow_val = row[follow_col].value
-        if key_val and follow_val and str(follow_val).strip().upper() == "X":
-            followed.add(str(key_val).strip())
+        if cid_val and follow_val and str(follow_val).strip().upper() == "X":
+            followed.add(str(cid_val).strip())
     return followed
 
 
@@ -409,24 +413,23 @@ def build_html(cache: dict, run_log: list, approved: int, flagged: int, notes: d
     last_run_str = time.strftime("%d/%m/%Y %H:%M", time.localtime(latest["timestamp"])) if latest else "—"
     generated_at = time.strftime("%d. %B %Y kl. %H:%M")
 
-    # --- Filtrér SAMMENLAGTE kanal-grupper efter prioriteringsliste ---
+    # --- Filtrér kanaler efter prioriteringsliste (hvis den findes) ---
     filtered_health = None
     filter_active = channel_priority is not None
-    all_groups = (channel_health or {}).get("groups") or {}
-    n_raw_channels = len((channel_health or {}).get("channels") or {})
-    if all_groups:
+    if channel_health and channel_health.get("channels"):
+        all_channels = channel_health["channels"]
         if filter_active:
-            kept = {key: s for key, s in all_groups.items() if key in channel_priority}
+            kept = {cid: s for cid, s in all_channels.items() if cid in channel_priority}
         else:
-            kept = all_groups
+            kept = all_channels
         total_prog = sum(s["programmes"] for s in kept.values())
         total_art = sum(s["with_artwork"] for s in kept.values())
         overall_pct = (total_art / total_prog * 100) if total_prog else 0
         filtered_health = {
             "timestamp": channel_health.get("timestamp", time.time()),
-            "groups": kept,
+            "channels": kept,
             "overall_artwork_pct": overall_pct,
-            "total_groups_before_filter": len(all_groups),
+            "total_channels_before_filter": len(all_channels),
         }
 
     cards = [
@@ -556,21 +559,19 @@ def build_html(cache: dict, run_log: list, approved: int, flagged: int, notes: d
         if notes_rows else '<div class="empty-state">Ingen noter endnu</div>'
     )
 
-    # --- Kanal-sundhed (nu på SAMMENLAGTE grupper + prioriterings-filter) ---
+    # --- Kanal-sundhed (nu med prioriterings-filter) ---
     channel_health_section = ""
-    if filtered_health and filtered_health["groups"]:
-        groups = filtered_health["groups"]
-        sorted_groups = sorted(groups.items(), key=lambda kv: kv[1]["programmes"], reverse=True)
+    if filtered_health and filtered_health["channels"]:
+        channels = filtered_health["channels"]
+        sorted_channels = sorted(channels.items(), key=lambda kv: kv[1]["programmes"], reverse=True)
 
         health_rows = ""
-        for key, s in sorted_groups:
+        for cid, s in sorted_channels:
             prog = s["programmes"]
             artwork_pct = (s["with_artwork"] / prog * 100) if prog else 0
             desc_pct = (s["with_desc"] / prog * 100) if prog else 0
-            n_members = len(s.get("member_channel_ids", []))
-            member_note = f" <span class='sub'>({n_members} kilder)</span>" if n_members > 1 else ""
             health_rows += (
-                f"<tr><td>{esc(s['display_name'])}{member_note}</td><td class='num'>{prog:,}</td>"
+                f"<tr><td>{esc(s['display_name'])}</td><td class='num'>{prog:,}</td>"
                 f"<td class='num'>{pct_badge(artwork_pct)}</td><td class='num'>{pct_badge(desc_pct)}</td></tr>"
             )
         health_table = (
@@ -579,13 +580,13 @@ def build_html(cache: dict, run_log: list, approved: int, flagged: int, notes: d
             f'</tr></thead><tbody>{health_rows}</tbody></table></div>'
         )
 
-        missing = [(key, s, s["programmes"] - s["with_artwork"]) for key, s in groups.items()]
+        missing = [(cid, s, s["programmes"] - s["with_artwork"]) for cid, s in channels.items()]
         missing = [m for m in missing if m[2] > 0]
         missing.sort(key=lambda m: m[2], reverse=True)
         missing = missing[:MAX_MISSING_CHANNELS]
 
         missing_rows = ""
-        for key, s, missing_count in missing:
+        for cid, s, missing_count in missing:
             prog = s["programmes"]
             pct = (s["with_artwork"] / prog * 100) if prog else 0
             missing_rows += (
@@ -600,20 +601,17 @@ def build_html(cache: dict, run_log: list, approved: int, flagged: int, notes: d
         )
 
         ch_snapshot_str = time.strftime("%d/%m/%Y %H:%M", time.localtime(filtered_health["timestamp"]))
-        dedup_note = (f'<div class="info-note">🔗 {n_raw_channels:,} rå kanal-ID-varianter er automatisk '
-                      f'sammenlagt til {filtered_health["total_groups_before_filter"]:,} fysiske kanaler '
-                      f'(fjerner HD/FHD/Denmark-dupletter).</div>') if n_raw_channels else ""
         filter_note = ""
         if filter_active:
-            n_total = filtered_health["total_groups_before_filter"]
-            n_kept = len(groups)
+            n_total = filtered_health["total_channels_before_filter"]
+            n_kept = len(channels)
             filter_note = (
                 f'<div class="info-note">📌 Viser kun kanaler markeret "Følg (X)" i channel_priority.xlsx: '
-                f'{n_kept:,} af {n_total:,} kanaler i alt.</div>'
+                f'{n_kept:,} af {n_total:,} kanaler i alt. Rediger filen og kør export_channel_priority.py + '
+                f'generate_stats_report.py igen for at ændre valget.</div>'
             )
         channel_health_section = f"""
-<div class="section-title">Kanal-sundhed <span style="text-transform:none;font-weight:400;color:#64748b;">(snapshot {ch_snapshot_str} · {len(groups):,} kanaler vist)</span></div>
-{dedup_note}
+<div class="section-title">Kanal-sundhed <span style="text-transform:none;font-weight:400;color:#64748b;">(snapshot {ch_snapshot_str} · {len(channels):,} kanaler vist)</span></div>
 {filter_note}
 <div class="panel">
     <h2>Fulgte kanaler <span class="sub">sorteret efter flest programmer</span></h2>
@@ -624,7 +622,7 @@ def build_html(cache: dict, run_log: list, approved: int, flagged: int, notes: d
     {missing_table}
 </div>
 """
-    elif all_groups and filter_active:
+    elif channel_health and channel_health.get("channels") and filter_active:
         channel_health_section = f"""
 <div class="section-title">Kanal-sundhed</div>
 <div class="panel"><div class="empty-state">Ingen kanaler er markeret "Følg (X)" i channel_priority.xlsx endnu.
