@@ -1,13 +1,27 @@
 {
-  "TV3+ Denmark (DK,DA).dk": {
-    "SuperligaTilsynet -> TMDb": 1
+  "TV3 MAX HD (D) (T).dk": {
+    "3F Superliga: Viborg FF - AGF -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 3,
+    "Ligue 1 Review of the Season -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Ligue%201%20The%20Season%20Review%20Show.jpg": 1,
+    "Premier League Preview -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 2
+  },
+  "TV3 Max Denmark (DK,DA).dk": {
+    "3F Superliga -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 3,
+    "Ligue 1 The Season Review Show -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Ligue%201%20The%20Season%20Review%20Show.jpg": 1,
+    "Premier League Preview -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 2
+  },
+  "TV3 Max.dk": {
+    "3F Superliga -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 5,
+    "Fodbold: Paris SG-Aston Villa -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
+    "Ligue 1 Review of the Season -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Ligue%201%20The%20Season%20Review%20Show.jpg": 1,
+    "Ligue 1 The Season Review Show -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Ligue%201%20The%20Season%20Review%20Show.jpg": 2,
+    "Premier League Preview -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 6,
+    "Premier League Stories -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
+    "Superliga: Viborg FF - AGF -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 3
   },
   "TV3+ HD (D) (T).dk": {
-    "DP World Tour: Danish Golf Championship -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Golf%20PGA%20Tour.jpg": 1,
-    "SuperligaTilsynet -> TMDb": 1
+    "DP World Tour: Danish Golf Championship -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Golf%20PGA%20Tour.jpg": 2
   },
   "TV3+.dk": {
-    "DP World Tour: Danish Golf Championship -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Golf%20PGA%20Tour.jpg": 1,
-    "SuperligaTilsynet -> TMDb": 3
+    "DP World Tour: Danish Golf Championship -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Golf%20PGA%20Tour.jpg": 2
   }
 }

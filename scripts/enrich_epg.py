@@ -58,6 +58,17 @@ import requests
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 OUTPUT_DIR = ROOT / "output"
+CONFIG_FILE = ROOT / (
+    sys.argv[1] if len(sys.argv) > 1 else "config.json"
+)
+
+OUTPUT_DIR = (
+    ROOT / "output_stats"
+    if CONFIG_FILE.name == "config-stats.json"
+    else ROOT / "output"
+)
+
+
 CONFIG_FILE = ROOT / "config.json"
 
 CACHE_FILE = DATA_DIR / "cache.json"
