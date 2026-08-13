@@ -69,7 +69,6 @@ OUTPUT_DIR = (
 )
 
 
-CONFIG_FILE = ROOT / "config.json"
 
 CACHE_FILE = DATA_DIR / "cache.json"
 TMDB_OVERRIDES_FILE = DATA_DIR / "overrides.json"
@@ -488,14 +487,18 @@ def git_push(repo_dir: Path, commit_message: str) -> None:
 
 def main() -> None:
     config = load_json(CONFIG_FILE, {})
+
+    print(f"Bruger konfiguration: {CONFIG_FILE}")
+    print(f"TMDb for ikke-sport: {[s.get('enrich_non_sport_with_tmdb') for s in config.get('sources',
+ [])]}")
     sources = config.get("sources", [])
     if not sources:
-        sys.exit("❌ Ingen kilder defineret i config.json.")
+        sys.exit(f"❌ Ingen kilder defineret i {CONFIG_FILE.name}.")
 
     sport_cfg = config.get("sport", {})
     image_base_url = sport_cfg.get("image_base_url")
     if not image_base_url:
-        sys.exit("❌ config.json mangler sport.image_base_url.")
+        sys.exit(f"❌ {CONFIG_FILE.name} mangler sport.image_base_url.")
 
     sport_tmdb_fallback_enabled = bool(sport_cfg.get("tmdb_fallback_enabled", False))
 
