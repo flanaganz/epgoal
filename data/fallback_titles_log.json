@@ -1,29 +1,31 @@
 {
   "TV3 Sport Denmark (DK,DA).dk": {
-    "PDC World Series of Darts": 3,
-    "UEFA Super Cup": 4,
-    "UEFA Super Cup Studio": 4
+    "1. Division Studie": 2,
+    "Deutsche Tourenwagen Masters Race": 2,
+    "PDC World Series of Darts": 4
   },
   "TV3 Sport HD (D) (T).dk": {
-    "PDC World Series of Darts": 3,
-    "UEFA SUPER CUP PARIS SAINT-GERMAIN - ASTON VILLA": 3,
-    "UEFA Super Cup Studio": 3
+    "1. Division": 2,
+    "1. Division Studie": 2,
+    "Deutsche Tourenwagen Masters Race": 2,
+    "PDC World Series of Darts": 4
   },
   "TV3 Sport.dk": {
-    "PDC World Series of Darts": 6,
-    "PDC World Series of Darts: NZ Darts Masters": 3,
-    "Paris Saint-Germain - Aston Villa": 3,
+    "1. Division Studie": 2,
+    "1. Division Studie: HB Køge - Hvidovre IF": 2,
+    "1. Division: HB Køge - Hvidovre IF": 2,
+    "Deutsche Tourenwagen Masters Race": 2,
+    "Deutsche Tourenwagen Masters Race: DTM Nürburgring - Løb 1": 2,
+    "PDC World Series of Darts": 7,
+    "PDC World Series of Darts: NZ Darts Masters": 4,
     "TV-Udbruddet: TV-Udbruddet: Rasmussen revser 'uambitiøse' Vingegaard": 1,
-    "UEFA Super Cup": 7,
-    "UEFA Super Cup Studio": 7,
-    "UEFA Super Cup Studio: Paris Saint-Germain - Aston Villa": 3
+    "UEFA Super Cup": 3,
+    "UEFA Super Cup Studio": 3
   },
   "Viaplay Sport News HD (D) (T).dk": {
-    "Danskerklubben": 2,
-    "UEFA Conference League Qualification Studio": 2
+    "Danskerklubben": 4
   },
   "Viaplay Sport News.dk": {
-    "Danskerklubben": 3,
-    "UEFA Conference League Qualification Studio": 2
+    "Danskerklubben": 4
   }
 }
