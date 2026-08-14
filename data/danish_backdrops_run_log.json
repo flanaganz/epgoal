@@ -2668,5 +2668,129 @@
     },
     "unique_found": 324,
     "unique_pending": 37
+  },
+  {
+    "approved_count": 445,
+    "cache_size_after": 8585,
+    "cache_size_before": 8388,
+    "date_str": "2026-08-14 21:57:16",
+    "manual_defined_count": 30,
+    "manual_titles_matched": [
+      "A-Liga: Målfesten",
+      "Bjerget",
+      "Bjergets helte",
+      "Body Cam",
+      "Christiania",
+      "Deadline",
+      "Der er et yndigt land",
+      "Dyrenes Danmark",
+      "Flokken",
+      "Gengangere",
+      "Kommissær Rex",
+      "Krigens Døgn",
+      "Lufthavnens Beredskab",
+      "Luksus i London",
+      "Luksus til låns",
+      "Masterchef - Danmarks største madtalenter",
+      "Mennesket",
+      "OBS",
+      "Robin Hood",
+      "Sommerferie",
+      "Sporten",
+      "Tirsdagstrænerne",
+      "Udvikling",
+      "Underdogs",
+      "Ægyptens forsvundne skatte"
+    ],
+    "manual_titles_unmatched": [
+      "Døden i paradis",
+      "Fodbold: A-Liga (k) - Kampe",
+      "Rick Stein elsker mad",
+      "Robinson Ekspeditionen",
+      "Shaolin"
+    ],
+    "per_file": {
+      "denmark1": {
+        "already_had_artwork": 121,
+        "cache_hits": 1330,
+        "checked": 1330,
+        "danish_found": 169,
+        "danish_injected": 544,
+        "danish_not_found": 1161,
+        "fresh_calls": 0,
+        "manual_override_injected": 24,
+        "programmes": 4356
+      },
+      "denmark2": {
+        "already_had_artwork": 91,
+        "cache_hits": 2665,
+        "checked": 2665,
+        "danish_found": 212,
+        "danish_injected": 693,
+        "danish_not_found": 2453,
+        "fresh_calls": 0,
+        "manual_override_injected": 37,
+        "programmes": 9726
+      },
+      "denmark3": {
+        "already_had_artwork": 41,
+        "cache_hits": 758,
+        "checked": 758,
+        "danish_found": 136,
+        "danish_injected": 393,
+        "danish_not_found": 622,
+        "fresh_calls": 0,
+        "manual_override_injected": 41,
+        "programmes": 2238
+      },
+      "denmark4": {
+        "already_had_artwork": 110,
+        "cache_hits": 1832,
+        "checked": 2029,
+        "danish_found": 257,
+        "danish_injected": 1079,
+        "danish_not_found": 1772,
+        "fresh_calls": 197,
+        "manual_override_injected": 29,
+        "programmes": 7132
+      },
+      "denmark5": {
+        "already_had_artwork": 127,
+        "cache_hits": 1436,
+        "checked": 1436,
+        "danish_found": 136,
+        "danish_injected": 619,
+        "danish_not_found": 1300,
+        "fresh_calls": 0,
+        "manual_override_injected": 21,
+        "programmes": 5305
+      },
+      "denmark6": {
+        "already_had_artwork": 0,
+        "cache_hits": 883,
+        "checked": 883,
+        "danish_found": 115,
+        "danish_injected": 429,
+        "danish_not_found": 768,
+        "fresh_calls": 0,
+        "manual_override_injected": 4,
+        "programmes": 2410
+      }
+    },
+    "review_file_existed": true,
+    "timestamp": 1786737436.818485,
+    "totals": {
+      "already_had_artwork": 490,
+      "cache_hits": 8904,
+      "checked": 9101,
+      "danish_found": 1025,
+      "danish_injected": 3757,
+      "danish_not_found": 8076,
+      "fresh_calls": 197,
+      "manual_override_injected": 156,
+      "programmes": 31167
+    },
+    "unique_found": 330,
+    "unique_pending": 44
   }
 ]
