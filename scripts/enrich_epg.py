@@ -32,12 +32,33 @@ NYT (2026-08-13): EKSTERNE URL'ER SOM BILLED-KILDE
          hjemmeside), uden at skulle downloade og genuploade dem selv.
     Begge typer kan bruges frit i blanding i samme fil.
 
+NYT (2026-08-13): STATISTIK-KONFIGURATION VIA KOMMANDOLINJE
+    Scriptet kan nu tage et valgfrit argument med stien til en alternativ
+    config-fil, fx:
+        python3 scripts/enrich_epg.py config-stats.json
+    Bruges denne, og filnavnet er PRÆCIS "config-stats.json", skrives output
+    til output_stats/ i stedet for output/ - så en statistik-kørsel med
+    enrich_non_sport_with_tmdb=true ALDRIG overskriver produktions-XML'erne.
+    Uden argument bruges "config.json" og "output/" som hidtil.
+
+NYT (2026-08-13): "partial_sport"-KANALER FÅR NU OGSÅ ALMINDELIG
+TMDb-BERIGELSE FOR IKKE-SPORT-INDHOLD
+    Tidligere blev programmer på "partial_sport"-kanaler (fx DR1, DR2,
+    TV3 Max, TV3+), der IKKE ramte et sport-match og IKKE stod i
+    sport_prefer_tmdb_titles.json, aldrig sendt videre til den almindelige
+    ikke-sport TMDb-berigelse (enrich_non_sport_with_tmdb) - de blev bare
+    tabt fuldstændig efter "always_sport"-blokken. Det er rettet: sådanne
+    programmer behandles nu som helt almindeligt ikke-sport-indhold og får
+    TMDb-berigelse på lige fod med programmer på kanaler uden nogen sport-rolle
+    overhovedet (forudsat at kildens enrich_non_sport_with_tmdb=true).
+
 Titel-normalisering bruger unicodedata.normalize("NFKC", ...) samt eksplicit
 erstatning af usynlige tegn (nulbredde-mellemrum, blødt bindestreg, BOM m.fl.)
 med et almindeligt mellemrum.
 
 Brug:
     python3 scripts/enrich_epg.py
+    python3 scripts/enrich_epg.py config-stats.json
 """
 from __future__ import annotations
 
@@ -57,7 +78,7 @@ import requests
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
-OUTPUT_DIR = ROOT / "output"
+
 CONFIG_FILE = ROOT / (
     sys.argv[1] if len(sys.argv) > 1 else "config.json"
 )
@@ -67,8 +88,6 @@ OUTPUT_DIR = (
     if CONFIG_FILE.name == "config-stats.json"
     else ROOT / "output"
 )
-
-
 
 CACHE_FILE = DATA_DIR / "cache.json"
 TMDB_OVERRIDES_FILE = DATA_DIR / "overrides.json"
@@ -451,6 +470,27 @@ def process_xml(xml_bytes: bytes, matcher: SportMatcher, source_cfg: dict,
                     stats["sport_defaulted"] += 1
                 else:
                     stats["sport_no_image_yet"] += 1
+                continue
+
+            # NYT: "partial_sport"-kanaler (DR1, DR2, TV3 Max m.fl.) der IKKE
+            # fik et sport-match og IKKE står i sport_prefer_tmdb_titles.json,
+            # behandles nu som ALMINDELIGT ikke-sport-indhold og får samme
+            # TMDb-berigelse som andre kanaler (kun hvis kilden har
+            # enrich_non_sport_with_tmdb=true). Uden dette blev de tabt helt
+            # - de nåede aldrig ned til den oprindelige do_tmdb_nonsport-gren
+            # nederst i funktionen, fordi role_entry allerede var sat.
+            if role == "partial_sport" and do_tmdb_nonsport:
+                if title not in tmdb_cache_this_run:
+                    art, from_cache = resolve_tmdb_artwork(
+                        title, tmdb_overrides, cache, cache_max_age_days, backdrop_size, poster_size
+                    )
+                    tmdb_cache_this_run[title] = (art, from_cache)
+                    if not from_cache:
+                        time.sleep(REQUEST_SLEEP_SECONDS)
+                art, _ = tmdb_cache_this_run[title]
+                if art.get("backdrop") or art.get("poster"):
+                    set_artwork(programme, art.get("backdrop"), art.get("poster"))
+                    stats["tmdb_enriched"] += 1
             continue
 
         if do_tmdb_nonsport:
@@ -489,8 +529,11 @@ def main() -> None:
     config = load_json(CONFIG_FILE, {})
 
     print(f"Bruger konfiguration: {CONFIG_FILE}")
-    print(f"TMDb for ikke-sport: {[s.get('enrich_non_sport_with_tmdb') for s in config.get('sources',
- [])]}")
+    print(
+        f"TMDb for ikke-sport: "
+        f"{[s.get('enrich_non_sport_with_tmdb') for s in config.get('sources', [])]}"
+    )
+
     sources = config.get("sources", [])
     if not sources:
         sys.exit(f"❌ Ingen kilder defineret i {CONFIG_FILE.name}.")
