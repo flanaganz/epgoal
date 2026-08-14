@@ -2559,5 +2559,114 @@
     },
     "unique_found": 296,
     "unique_pending": 43
+  },
+  {
+    "approved_count": 445,
+    "cache_size_after": 8388,
+    "cache_size_before": 7978,
+    "date_str": "2026-08-14 11:47:57",
+    "manual_defined_count": 15,
+    "manual_titles_matched": [
+      "Bjergets helte",
+      "Body Cam",
+      "Christiania",
+      "Deadline",
+      "Der er et yndigt land",
+      "Flokken",
+      "Kommissær Rex",
+      "Krigens Døgn",
+      "Lufthavnens Beredskab",
+      "Luksus til låns",
+      "OBS",
+      "Udvikling",
+      "Underdogs",
+      "Ægyptens forsvundne skatte"
+    ],
+    "manual_titles_unmatched": [
+      "Døden i paradis"
+    ],
+    "per_file": {
+      "denmark1": {
+        "already_had_artwork": 121,
+        "cache_hits": 1216,
+        "checked": 1336,
+        "danish_found": 170,
+        "danish_injected": 545,
+        "danish_not_found": 1166,
+        "fresh_calls": 120,
+        "manual_override_injected": 12,
+        "programmes": 4356
+      },
+      "denmark2": {
+        "already_had_artwork": 91,
+        "cache_hits": 2511,
+        "checked": 2670,
+        "danish_found": 213,
+        "danish_injected": 694,
+        "danish_not_found": 2457,
+        "fresh_calls": 159,
+        "manual_override_injected": 31,
+        "programmes": 9726
+      },
+      "denmark3": {
+        "already_had_artwork": 41,
+        "cache_hits": 723,
+        "checked": 768,
+        "danish_found": 137,
+        "danish_injected": 395,
+        "danish_not_found": 631,
+        "fresh_calls": 45,
+        "manual_override_injected": 24,
+        "programmes": 2238
+      },
+      "denmark4": {
+        "already_had_artwork": 47,
+        "cache_hits": 1656,
+        "checked": 1656,
+        "danish_found": 221,
+        "danish_injected": 1099,
+        "danish_not_found": 1435,
+        "fresh_calls": 0,
+        "manual_override_injected": 35,
+        "programmes": 6402
+      },
+      "denmark5": {
+        "already_had_artwork": 127,
+        "cache_hits": 1393,
+        "checked": 1437,
+        "danish_found": 136,
+        "danish_injected": 619,
+        "danish_not_found": 1301,
+        "fresh_calls": 44,
+        "manual_override_injected": 14,
+        "programmes": 5305
+      },
+      "denmark6": {
+        "already_had_artwork": 0,
+        "cache_hits": 841,
+        "checked": 883,
+        "danish_found": 115,
+        "danish_injected": 429,
+        "danish_not_found": 768,
+        "fresh_calls": 42,
+        "manual_override_injected": 4,
+        "programmes": 2410
+      }
+    },
+    "review_file_existed": true,
+    "timestamp": 1786700877.703699,
+    "totals": {
+      "already_had_artwork": 427,
+      "cache_hits": 8340,
+      "checked": 8750,
+      "danish_found": 992,
+      "danish_injected": 3781,
+      "danish_not_found": 7758,
+      "fresh_calls": 410,
+      "manual_override_injected": 120,
+      "programmes": 30437
+    },
+    "unique_found": 324,
+    "unique_pending": 37
   }
 ]
