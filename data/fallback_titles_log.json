@@ -1,30 +1,35 @@
 {
   "TV3 Sport Denmark (DK,DA).dk": {
-    "1. Division Studie": 2,
-    "Deutsche Tourenwagen Masters Race": 3,
-    "PDC World Series of Darts": 3
+    "Community Shield": 2,
+    "Community Shield Studie": 2,
+    "Danskerklubben": 1,
+    "Deutsche Tourenwagen Masters Race": 1,
+    "PDC World Series of Darts": 1
   },
   "TV3 Sport HD (D) (T).dk": {
-    "1. Division": 2,
-    "1. Division Studie": 2,
-    "Deutsche Tourenwagen Masters Race": 3,
-    "PDC World Series of Darts": 2
+    "1. Division": 1,
+    "Community Shield Studie": 2,
+    "DK: COMMUNITY SHIELD: ARSENAL - MANCHESTER CITY": 2,
+    "Danskerklubben": 1,
+    "Deutsche Tourenwagen Masters Race": 1
   },
   "TV3 Sport.dk": {
-    "1. Division Studie": 4,
-    "1. Division Studie: HB Køge - Hvidovre IF": 2,
-    "1. Division: HB Køge - Hvidovre IF": 2,
-    "Deutsche Tourenwagen Masters Race": 6,
-    "Deutsche Tourenwagen Masters Race: DTM Nürburgring - Løb 1": 2,
+    "1. Division Studie": 2,
+    "1. Division: HB Køge - Hvidovre IF": 1,
+    "Arsenal - Manchester City": 2,
+    "Community Shield": 2,
+    "Community Shield Studie": 2,
+    "Community Shield Studie: Arsenal - Manchester City": 2,
+    "Danskerklubben": 2,
+    "Deutsche Tourenwagen Masters Race": 4,
     "Deutsche Tourenwagen Masters Race: DTM Nürburgring - Løb 2": 1,
-    "Ligue 1: Lens - Paris Saint-Germain": 1,
-    "PDC World Series of Darts": 7,
-    "PDC World Series of Darts: NZ Darts Masters": 2
+    "Ligue 1: Lens - Paris Saint-Germain": 2,
+    "PDC World Series of Darts": 3
   },
   "Viaplay Sport News HD (D) (T).dk": {
-    "Danskerklubben": 4
+    "Danskerklubben": 9
   },
   "Viaplay Sport News.dk": {
-    "Danskerklubben": 5
+    "Danskerklubben": 10
   }
 }
