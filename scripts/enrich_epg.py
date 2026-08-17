@@ -52,6 +52,20 @@ TMDb-BERIGELSE FOR IKKE-SPORT-INDHOLD
     TMDb-berigelse på lige fod med programmer på kanaler uden nogen sport-rolle
     overhovedet (forudsat at kildens enrich_non_sport_with_tmdb=true).
 
+NYT (2026-08-14): KUN BACKDROPS HENTES/BRUGES FRA TMDb - INGEN POSTERE
+    Projektet her bruger UDELUKKENDE landskabsbilleder (backdrops), aldrig
+    stående plakater (postere) - UHF læser <icon>, og hele resten af
+    pipeline'en (danish_backdrops.py, sport_program_overrides.json) sætter
+    bevidst <icon> til det SAMME landskabsbillede som <backdrop>, aldrig en
+    poster. Tidligere hentede tmdb_images() posters fra TMDb's API "gratis"
+    (samme HTTP-kald som backdrops, så intet ekstra netværksforbrug), MEN
+    process_xml() brugte fejlagtigt posteren som <icon> for TMDb-hentede
+    billeder (sport-fallback og ikke-sport-berigelse) - modsat resten af
+    systemet. Det er rettet: tmdb_images() henter/parser nu KUN backdrops
+    (posters ignoreres helt, også i selve JSON-parsingen), og alle steder
+    hvor et TMDb-billede sættes ind, bruges backdroppet BÅDE som <icon> og
+    <backdrop>, ligesom overalt ellers i pipeline'en.
+
 Titel-normalisering bruger unicodedata.normalize("NFKC", ...) samt eksplicit
 erstatning af usynlige tegn (nulbredde-mellemrum, blødt bindestreg, BOM m.fl.)
 med et almindeligt mellemrum.
@@ -293,7 +307,12 @@ def tmdb_search(title: str) -> tuple[str, int] | None:
     return best["media_type"], best["id"]
 
 
-def tmdb_images(media_type: str, tmdb_id: int) -> tuple[str | None, str | None]:
+def tmdb_images(media_type: str, tmdb_id: int) -> str | None:
+    """Henter KUN backdrop (landskabsbillede) fra TMDb. Postere hentes/parses
+    bevidst IKKE - se docstring øverst i filen ("KUN BACKDROPS"). Selvom
+    /images-endpointet teknisk set returnerer begge dele i samme HTTP-kald
+    (så der intet ekstra netværksforbrug spares ved dette), undgår vi hermed
+    at posters nogensinde ved en fejl ender som <icon> et sted i pipeline'en."""
     resp = SESSION.get(
         f"{TMDB_BASE}/{media_type}/{tmdb_id}/images",
         params={"api_key": TMDB_API_KEY, "include_image_language": "da,en,null"},
@@ -302,18 +321,20 @@ def tmdb_images(media_type: str, tmdb_id: int) -> tuple[str | None, str | None]:
     resp.raise_for_status()
     data = resp.json()
 
-    def pick(items):
-        if not items:
-            return None
-        lang_rank = {"da": 0, "en": 1, None: 2}
-        items = sorted(items, key=lambda b: (lang_rank.get(b.get("iso_639_1"), 3), -b.get("vote_average", 0)))
-        return items[0]["file_path"]
-
-    return pick(data.get("backdrops", [])), pick(data.get("posters", []))
+    backdrops = data.get("backdrops", [])
+    if not backdrops:
+        return None
+    lang_rank = {"da": 0, "en": 1, None: 2}
+    backdrops = sorted(backdrops, key=lambda b: (lang_rank.get(b.get("iso_639_1"), 3), -b.get("vote_average", 0)))
+    return backdrops[0]["file_path"]
 
 
 def resolve_tmdb_artwork(raw_title: str, overrides: dict, cache: dict, cache_max_age_days: int,
                           backdrop_size: str, poster_size: str) -> tuple[dict, bool]:
+    """Returnerer ALTID {"backdrop": url_eller_None} - "poster" er bevaret i
+    return-dict'et af bagudkompatibilitet med overrides.json (manuelle
+    tmdb_id-overrides kan stadig angive en direkte poster_url der), men
+    fyldes IKKE automatisk fra TMDb's API længere (se tmdb_images())."""
     key = normalize_title(raw_title)
 
     override = overrides.get(key)
@@ -322,33 +343,31 @@ def resolve_tmdb_artwork(raw_title: str, overrides: dict, cache: dict, cache_max
             return {"backdrop": override.get("backdrop_url"), "poster": override.get("poster_url")}, False
         if override.get("tmdb_id") and override.get("media_type"):
             try:
-                b_path, p_path = tmdb_images(override["media_type"], override["tmdb_id"])
+                b_path = tmdb_images(override["media_type"], override["tmdb_id"])
                 return {
                     "backdrop": f"{IMAGE_BASE}/{backdrop_size}{b_path}" if b_path else None,
-                    "poster": f"{IMAGE_BASE}/{poster_size}{p_path}" if p_path else None,
+                    "poster": None,
                 }, False
             except requests.RequestException as exc:
                 print(f"   TMDb-fejl (override) for '{raw_title}': {exc}", file=sys.stderr)
 
     cached = cache.get(key)
     if cached is not None and (time.time() - cached.get("ts", 0)) / 86400 < cache_max_age_days:
-        return {"backdrop": cached.get("backdrop"), "poster": cached.get("poster")}, True
+        return {"backdrop": cached.get("backdrop"), "poster": None}, True
 
-    backdrop_url = poster_url = None
+    backdrop_url = None
     try:
         match = tmdb_search(raw_title)
         if match:
             media_type, tmdb_id = match
-            b_path, p_path = tmdb_images(media_type, tmdb_id)
+            b_path = tmdb_images(media_type, tmdb_id)
             if b_path:
                 backdrop_url = f"{IMAGE_BASE}/{backdrop_size}{b_path}"
-            if p_path:
-                poster_url = f"{IMAGE_BASE}/{poster_size}{p_path}"
     except requests.RequestException as exc:
         print(f"   TMDb-fejl for '{raw_title}': {exc}", file=sys.stderr)
 
-    cache[key] = {"backdrop": backdrop_url, "poster": poster_url, "ts": time.time()}
-    return {"backdrop": backdrop_url, "poster": poster_url}, False
+    cache[key] = {"backdrop": backdrop_url, "poster": None, "ts": time.time()}
+    return {"backdrop": backdrop_url, "poster": None}, False
 
 
 def set_artwork(programme: ET.Element, backdrop_url: str | None, poster_url: str | None) -> tuple[bool, bool]:
@@ -367,6 +386,14 @@ def set_artwork(programme: ET.Element, backdrop_url: str | None, poster_url: str
         el.set("src", backdrop_url)
         added_backdrop = True
     return added_poster, added_backdrop
+
+
+def set_backdrop_only(programme: ET.Element, backdrop_url: str | None) -> bool:
+    """NYT: bruges for ALT TMDb-hentet artwork (sport-fallback og ikke-sport-
+    berigelse). Sætter det SAMME backdrop-billede ind BÅDE som <icon> og
+    <backdrop> - ligesom danish_backdrops.py og sport_program_overrides.json
+    allerede gør. Ingen poster involveret nogen steder."""
+    return set_artwork(programme, backdrop_url, backdrop_url)[1]
 
 
 def clear_artwork(programme: ET.Element) -> None:
@@ -422,6 +449,9 @@ def process_xml(xml_bytes: bytes, matcher: SportMatcher, source_cfg: dict,
                 continue
 
             if result:
+                # Lokale matches (sport_program_overrides.json / kategorier)
+                # sætter allerede backdrop OG poster til samme fil bevidst -
+                # bruges uændret via set_artwork().
                 set_artwork(programme, result.get("backdrop"), result.get("poster"))
                 stats["sport_matched"] += 1
                 if role == "partial_sport":
@@ -445,8 +475,8 @@ def process_xml(xml_bytes: bytes, matcher: SportMatcher, source_cfg: dict,
                     if not from_cache:
                         time.sleep(REQUEST_SLEEP_SECONDS)
                 art, from_cache = tmdb_cache_this_run[title]
-                if art.get("backdrop") or art.get("poster"):
-                    set_artwork(programme, art.get("backdrop"), art.get("poster"))
+                if art.get("backdrop"):
+                    set_backdrop_only(programme, art.get("backdrop"))
                     stats["sport_tmdb_matched"] += 1
                     if from_cache:
                         stats["sport_tmdb_cache_hit"] += 1
@@ -472,13 +502,11 @@ def process_xml(xml_bytes: bytes, matcher: SportMatcher, source_cfg: dict,
                     stats["sport_no_image_yet"] += 1
                 continue
 
-            # NYT: "partial_sport"-kanaler (DR1, DR2, TV3 Max m.fl.) der IKKE
-            # fik et sport-match og IKKE står i sport_prefer_tmdb_titles.json,
-            # behandles nu som ALMINDELIGT ikke-sport-indhold og får samme
+            # "partial_sport"-kanaler (DR1, DR2, TV3 Max m.fl.) der IKKE fik
+            # et sport-match og IKKE står i sport_prefer_tmdb_titles.json,
+            # behandles som ALMINDELIGT ikke-sport-indhold og får samme
             # TMDb-berigelse som andre kanaler (kun hvis kilden har
-            # enrich_non_sport_with_tmdb=true). Uden dette blev de tabt helt
-            # - de nåede aldrig ned til den oprindelige do_tmdb_nonsport-gren
-            # nederst i funktionen, fordi role_entry allerede var sat.
+            # enrich_non_sport_with_tmdb=true).
             if role == "partial_sport" and do_tmdb_nonsport:
                 if title not in tmdb_cache_this_run:
                     art, from_cache = resolve_tmdb_artwork(
@@ -488,8 +516,8 @@ def process_xml(xml_bytes: bytes, matcher: SportMatcher, source_cfg: dict,
                     if not from_cache:
                         time.sleep(REQUEST_SLEEP_SECONDS)
                 art, _ = tmdb_cache_this_run[title]
-                if art.get("backdrop") or art.get("poster"):
-                    set_artwork(programme, art.get("backdrop"), art.get("poster"))
+                if art.get("backdrop"):
+                    set_backdrop_only(programme, art.get("backdrop"))
                     stats["tmdb_enriched"] += 1
             continue
 
@@ -502,8 +530,8 @@ def process_xml(xml_bytes: bytes, matcher: SportMatcher, source_cfg: dict,
                 if not from_cache:
                     time.sleep(REQUEST_SLEEP_SECONDS)
             art, _ = tmdb_cache_this_run[title]
-            if art.get("backdrop") or art.get("poster"):
-                set_artwork(programme, art.get("backdrop"), art.get("poster"))
+            if art.get("backdrop"):
+                set_backdrop_only(programme, art.get("backdrop"))
                 stats["tmdb_enriched"] += 1
 
     return ET.tostring(root, encoding="utf-8", xml_declaration=True), stats
