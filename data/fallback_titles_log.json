@@ -1,35 +1,36 @@
 {
+  "TV 2 Sport X.dk": {
+    "FIFA VM 2026: Elfenbenskysten-Norge, 1/16-finale": 2,
+    "FIFA VM 2026: Irak-Norge": 2,
+    "FIFA VM 2026: Norge-Frankrig": 2,
+    "FIFA VM 2026: Norge-Senegal": 2
+  },
+  "TV 2 Sport.dk": {
+    "ATP: Djokovic-Agustin Tirante, Cincinnati": 1
+  },
   "TV3 Sport Denmark (DK,DA).dk": {
-    "Community Shield": 2,
-    "Community Shield Studie": 2,
-    "Danskerklubben": 1,
-    "Deutsche Tourenwagen Masters Race": 1,
-    "PDC World Series of Darts": 1
+    "Community Shield": 3,
+    "Community Shield Studie": 3,
+    "Danskerklubben": 2
   },
   "TV3 Sport HD (D) (T).dk": {
-    "1. Division": 1,
-    "Community Shield Studie": 2,
-    "DK: COMMUNITY SHIELD: ARSENAL - MANCHESTER CITY": 2,
-    "Danskerklubben": 1,
-    "Deutsche Tourenwagen Masters Race": 1
+    "Community Shield Studie": 3,
+    "DK: COMMUNITY SHIELD: ARSENAL - MANCHESTER CITY": 3,
+    "Danskerklubben": 2
   },
   "TV3 Sport.dk": {
-    "1. Division Studie": 2,
-    "1. Division: HB Køge - Hvidovre IF": 1,
-    "Arsenal - Manchester City": 2,
-    "Community Shield": 2,
-    "Community Shield Studie": 2,
-    "Community Shield Studie: Arsenal - Manchester City": 2,
-    "Danskerklubben": 2,
-    "Deutsche Tourenwagen Masters Race": 4,
-    "Deutsche Tourenwagen Masters Race: DTM Nürburgring - Løb 2": 1,
-    "Ligue 1: Lens - Paris Saint-Germain": 2,
-    "PDC World Series of Darts": 3
+    "Arsenal - Manchester City": 3,
+    "Community Shield": 5,
+    "Community Shield Studie": 5,
+    "Community Shield Studie: Arsenal - Manchester City": 3,
+    "Danskerklubben": 5,
+    "Deutsche Tourenwagen Masters Race": 1,
+    "Ligue 1: Lens - Paris Saint-Germain": 2
   },
   "Viaplay Sport News HD (D) (T).dk": {
-    "Danskerklubben": 9
+    "Danskerklubben": 10
   },
   "Viaplay Sport News.dk": {
-    "Danskerklubben": 10
+    "Danskerklubben": 11
   }
 }
