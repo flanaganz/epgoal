@@ -6,9 +6,6 @@ Se README/tidligere dokumentation for fuld baggrund. Denne version tilføjer:
 - Detaljeret logning af manuelle overrides (matchet/ikke-matchet titel-lister,
   ikke kun optællinger) til data/danish_backdrops_run_log.json, så
   generate_stats_report.py kan vise historik og "mistænkte tastefejl"-lister.
-
-NB: Dette script håndterer KUN backdrops (16:9). Posters er fjernet fra
-hele pipelinen, da UHF ikke bruger dem.
 """
 from __future__ import annotations
 
@@ -197,8 +194,7 @@ def tmdb_search(title: str) -> tuple[str, int] | None:
     return best["media_type"], best["id"]
 
 
-def tmdb_danish_backdrop(media_type: str, tmdb_id: int) -> str | None:
-    """Henter bedste danske backdrop for et TMDb-objekt. Posters håndteres ikke."""
+def tmdb_danish_images(media_type: str, tmdb_id: int) -> tuple[str | None, str | None]:
     resp = SESSION.get(
         f"{TMDB_BASE}/{media_type}/{tmdb_id}/images",
         params={"api_key": TMDB_API_KEY, "include_image_language": "da"},
@@ -207,39 +203,46 @@ def tmdb_danish_backdrop(media_type: str, tmdb_id: int) -> str | None:
     resp.raise_for_status()
     data = resp.json()
 
-    backdrops = data.get("backdrops", [])
-    if not backdrops:
-        return None
-    backdrops = sorted(backdrops, key=lambda b: -b.get("vote_average", 0))
-    return backdrops[0]["file_path"]
+    def pick_best(items):
+        if not items:
+            return None
+        items = sorted(items, key=lambda b: -b.get("vote_average", 0))
+        return items[0]["file_path"]
+
+    return pick_best(data.get("backdrops", [])), pick_best(data.get("posters", []))
 
 
 def resolve_danish_artwork(raw_title: str, cache: dict, cache_max_age_days: int,
-                            backdrop_size: str) -> tuple[str | None, bool]:
-    """Returnerer (backdrop_url eller None, from_cache)."""
+                           backdrop_size: str, poster_size: str) -> tuple[dict | None, bool]:
     key = normalize_title(raw_title)
     cached = cache.get(key)
     if cached is not None and (time.time() - cached.get("ts", 0)) / 86400 < cache_max_age_days:
-        return cached.get("backdrop"), True
+        if cached.get("backdrop"):
+            return {"backdrop": cached.get("backdrop"), "poster": cached.get("poster")}, True
+        return None, True
 
-    backdrop_url = None
+    backdrop_url = poster_url = None
     try:
         match = tmdb_search(raw_title)
         if match:
             media_type, tmdb_id = match
-            b_path = tmdb_danish_backdrop(media_type, tmdb_id)
+            b_path, p_path = tmdb_danish_images(media_type, tmdb_id)
             if b_path:
                 backdrop_url = f"{IMAGE_BASE}/{backdrop_size}{b_path}"
+            if p_path:
+                poster_url = f"{IMAGE_BASE}/{poster_size}{p_path}"
     except requests.RequestException as exc:
         print(f"   TMDb-fejl for '{raw_title}': {exc}", file=sys.stderr)
         return None, False
 
-    cache[key] = {"title": raw_title, "backdrop": backdrop_url, "ts": time.time()}
-    return backdrop_url, False
+    cache[key] = {"title": raw_title, "backdrop": backdrop_url, "poster": poster_url, "ts": time.time()}
+    if backdrop_url:
+        return {"backdrop": backdrop_url, "poster": poster_url}, False
+    return None, False
 
 
 def process_xml_file(xml_path: Path, cache: dict, cache_max_age_days: int,
-                      backdrop_size: str, limit: int | None,
+                      backdrop_size: str, poster_size: str, limit: int | None,
                       titles_processed_this_run: set, approved_keys: set[str] | None,
                       all_found_keys: set[str], manual_index: dict[str, list[dict]],
                       manual_titles_matched: set[str]) -> dict:
@@ -251,7 +254,7 @@ def process_xml_file(xml_path: Path, cache: dict, cache_max_age_days: int,
         "danish_found": 0, "danish_not_found": 0, "danish_injected": 0,
         "cache_hits": 0, "fresh_calls": 0, "manual_override_injected": 0,
     }
-    resolved_this_file: dict[str, str | None] = {}
+    resolved_this_file: dict[str, dict | None] = {}
 
     for programme in root.findall("programme"):
         stats["programmes"] += 1
@@ -280,8 +283,8 @@ def process_xml_file(xml_path: Path, cache: dict, cache_max_age_days: int,
             continue
 
         if norm not in resolved_this_file:
-            backdrop_url, from_cache = resolve_danish_artwork(title, cache, cache_max_age_days, backdrop_size)
-            resolved_this_file[norm] = backdrop_url
+            art, from_cache = resolve_danish_artwork(title, cache, cache_max_age_days, backdrop_size, poster_size)
+            resolved_this_file[norm] = art
             titles_processed_this_run.add(norm)
             stats["checked"] += 1
             if from_cache:
@@ -289,16 +292,16 @@ def process_xml_file(xml_path: Path, cache: dict, cache_max_age_days: int,
             else:
                 stats["fresh_calls"] += 1
                 time.sleep(REQUEST_SLEEP_SECONDS)
-            if backdrop_url:
+            if art:
                 stats["danish_found"] += 1
                 all_found_keys.add(norm)
             else:
                 stats["danish_not_found"] += 1
 
-        backdrop_url = resolved_this_file[norm]
-        if backdrop_url and approved_keys is not None and norm in approved_keys:
+        art = resolved_this_file[norm]
+        if art and approved_keys is not None and norm in approved_keys:
             el = ET.SubElement(programme, "icon")
-            el.set("src", backdrop_url)
+            el.set("src", art["backdrop"])
             stats["danish_injected"] += 1
 
     tree.write(xml_path, encoding="utf-8", xml_declaration=True)
@@ -372,6 +375,7 @@ def main() -> None:
             sys.exit("❌ Ingen af de angivne --files matcher kilderne i config.json.")
 
     backdrop_size = config.get("image", {}).get("backdrop_size", "w1280")
+    poster_size = config.get("image", {}).get("poster_size", "w500")
     cache_max_age_days = config.get("cache_max_age_days", 30)
     git_cfg = config.get("git", {})
 
@@ -420,7 +424,7 @@ def main() -> None:
 
         print(f"\n📄 Behandler {xml_path.name} ...")
         stats = process_xml_file(
-            xml_path, cache, cache_max_age_days, backdrop_size,
+            xml_path, cache, cache_max_age_days, backdrop_size, poster_size,
             args.limit, titles_processed_this_run, approved_keys, all_found_keys,
             manual_index, manual_titles_matched,
         )
