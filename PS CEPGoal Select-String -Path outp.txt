@@ -1,0 +1,1696 @@
+PS C:\EPGoal> Select-String -Path output\denmark*.xml -Pattern "Luksus i London|Sporten|Sommerferie|PDC World Series of Darts|Robin Hood|Fear Factor" -Context 0,1
+
+> output\denmark1.xml:2558:<programme start="20260819102000 +0000" stop="20260819111000 +0000" channel="NRK3/ NRK Super
+ HD (T).dk"><title>Eides språksjov</title><desc>Fra 2023. Vi byr på krasj-kurs i golfsportens stammespråk. Og skodespel
+ar Mari Maurstad har lova å jodle.</desc><episode-num system="xmltv_ns">11.2.</episode-num></programme>
+  output\denmark1.xml:2559:<programme start="20260819111000 +0000" stop="20260819113000 +0000" channel="NRK3/ NRK Super
+ HD (T).dk"><title>GYM</title><desc>Fra 2022. Det kommer en ny elev i klassen som vil forsøke å stjele en plass i final
+en.</desc><episode-num system="xmltv_ns">1.4.</episode-num></programme>
+> output\denmark1.xml:3192:<programme start="20260819040000 +0000" stop="20260819043000 +0000" channel="TV 2 HD (D) (T)
+.dk"><title>Nyhederne, Sporten og Vejret</title><desc>Fra 2026. Nyhederne, sporten og vejret.</desc></programme>
+  output\denmark1.xml:3193:<programme start="20260819043000 +0000" stop="20260819100000 +0000" channel="TV 2 HD (D) (T)
+.dk"><title>Go' morgen Danmark</title><desc>Fra 2026. Go' morgen Danmark er klar til at stille skarpt på hverdagens akt
+uelle emner i selskab med interessante gæster.</desc><episode-num system="xmltv_ns">2025.163.</episode-num><icon src="h
+ttps://image.tmdb.org/t/p/w1280/fy54FNDjCWb0bGIRcTL6bCcthga.jpg" /></programme>
+> output\denmark1.xml:3194:<programme start="20260819100000 +0000" stop="20260819103500 +0000" channel="TV 2 HD (D) (T)
+.dk"><title>12 News</title><desc>Fra 2026. 12 Nyhederne, Sporten og Vejret.</desc></programme>
+  output\denmark1.xml:3195:<programme start="20260819103500 +0000" stop="20260819112500 +0000" channel="TV 2 HD (D) (T)
+.dk"><title>Beliggenhed, beliggenhed, beliggenhed</title><desc>Fra 2015. Peter Ingemann skal hjælpe parret Anja og Pete
+r med sønnen Otto på to år. De vil gerne blive boende i København.</desc><episode-num system="xmltv_ns">1.6.</episode-n
+um><icon src="https://image.tmdb.org/t/p/w1280/kNk4unhxVfeleq0CtaZ916FlhS4.jpg" /></programme>
+> output\denmark1.xml:3223:<programme start="20260820040000 +0000" stop="20260820043000 +0000" channel="TV 2 HD (D) (T)
+.dk"><title>Nyhederne, Sporten og Vejret</title><desc>Fra 2026. Nyhederne, sporten og vejret.</desc></programme>
+  output\denmark1.xml:3224:<programme start="20260820043000 +0000" stop="20260820100000 +0000" channel="TV 2 HD (D) (T)
+.dk"><title>Go' morgen Danmark</title><desc>Fra 2026. Go' morgen Danmark er klar til at stille skarpt på hverdagens akt
+uelle emner i selskab med interessante gæster.</desc><episode-num system="xmltv_ns">2025.164.</episode-num><icon src="h
+ttps://image.tmdb.org/t/p/w1280/fy54FNDjCWb0bGIRcTL6bCcthga.jpg" /></programme>
+> output\denmark1.xml:3225:<programme start="20260820100000 +0000" stop="20260820103500 +0000" channel="TV 2 HD (D) (T)
+.dk"><title>12 News</title><desc>Fra 2026. 12 Nyhederne, Sporten og Vejret.</desc></programme>
+  output\denmark1.xml:3226:<programme start="20260820103500 +0000" stop="20260820112500 +0000" channel="TV 2 HD (D) (T)
+.dk"><title>Beliggenhed, beliggenhed, beliggenhed</title><desc>Fra 2015. Når familien vokser, føles det ofte som om, at
+ boligen skrumper, og så opstår behovet for mere plads. Sara Lygums par, Tinna og Simon.</desc><episode-num system="xml
+tv_ns">1.7.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/kNk4unhxVfeleq0CtaZ916FlhS4.jpg" /></programme>
+> output\denmark1.xml:3255:<programme start="20260819100000 +0000" stop="20260819110000 +0000" channel="TV 2 News HD (D
+) (T).dk"><title>12 News</title><desc>Fra 2026. 12 Nyhederne, Sporten og Vejret.</desc></programme>
+  output\denmark1.xml:3256:<programme start="20260819110000 +0000" stop="20260819140000 +0000" channel="TV 2 News HD (D
+) (T).dk"><title>Nyheder, sport, vejr</title><desc>Fra 2026. Nyheder, sport, vejr.</desc></programme>
+> output\denmark1.xml:3273:<programme start="20260820100000 +0000" stop="20260820110000 +0000" channel="TV 2 News HD (D
+) (T).dk"><title>12 News</title><desc>Fra 2026. 12 Nyhederne, Sporten og Vejret.</desc></programme>
+  output\denmark1.xml:3274:<programme start="20260820110000 +0000" stop="20260820130000 +0000" channel="TV 2 News HD (D
+) (T).dk"><title>Nyheder, sport, vejr</title><desc>Fra 2026. Nyheder, sport, vejr.</desc></programme>
+> output\denmark1.xml:3776:<programme start="20260819100000 +0000" stop="20260819130000 +0000" channel="V sport golf HD
+ (T).dk"><title>USGA Championship: US Amateur</title><desc>Fra 2026. Verdens bedste amatørgolfspillere samles på tradit
+ionsrige Merion Golf Club i Philadelphia til U.S. Amateur Championship. En af sportens mest prestigefyldte amatørturner
+inger byder på intens matchplay, store talenter og golf på allerhøjeste niveau.</desc><episode-num system="xmltv_ns">25
+.31.</episode-num></programme>
+  output\denmark1.xml:3777:<programme start="20260819130000 +0000" stop="20260819133000 +0000" channel="V sport golf HD
+ (T).dk"><title>DP World Tour Highlights</title><desc>Fra 2026. Fra 2026. Fra 2026. Her får du højdepunkterne fra den s
+eneste turnering på DP World Touren 2026.</desc><episode-num system="xmltv_ns">2025.22.</episode-num></programme>
+> output\denmark1.xml:3845:<programme start="20260819080000 +0000" stop="20260819090000 +0000" channel="Viaplay Sport N
+ews HD (D) (T).dk"><title>Watt the F1!?</title><desc>Fra 2026. Formel 1-programmet, hvor Jason Watt giver sit råt for u
+sødede take på ugens mest opsigtsvækkende historier fra motorsportens kongeklasse.</desc><episode-num system="xmltv_ns"
+>2025.20.</episode-num><icon src="https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNew
+s_ok.jpg" /><backdrop src="https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jp
+g" /></programme>
+  output\denmark1.xml:3846:<programme start="20260819090000 +0000" stop="20260819110000 +0000" channel="Viaplay Sport N
+ews HD (D) (T).dk"><title>Sky Sports: The Football Show</title><desc>Fra 2026. Sky Sports FC holder dig opdateret med d
+e største historier fra fodboldens verden. Få de seneste breaking news.</desc><episode-num system="xmltv_ns">2025.2.</e
+pisode-num><icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Sky%20Sports%20The%20Football%20Sho
+w.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Sky%20Sports%20The%20Football%20S
+how.jpg" /></programme>
+> output\denmark1.xml:3850:<programme start="20260819160000 +0000" stop="20260819170000 +0000" channel="Viaplay Sport N
+ews HD (D) (T).dk"><title>Watt the F1!?</title><desc>Fra 2026. Formel 1-programmet, hvor Jason Watt giver sit råt for u
+sødede take på ugens mest opsigtsvækkende historier fra motorsportens kongeklasse.</desc><episode-num system="xmltv_ns"
+>2025.20.</episode-num><icon src="https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNew
+s_ok.jpg" /><backdrop src="https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jp
+g" /></programme>
+  output\denmark1.xml:3851:<programme start="20260819170000 +0000" stop="20260819185500 +0000" channel="Viaplay Sport N
+ews HD (D) (T).dk"><title>Sport News</title><desc>Fra 2026. Her får du fra morgen til aften serveret de vigtigste sport
+snyheder, masser af mål og højdepunkter samt skarpe holdninger fra Viaplays eksperter.</desc><episode-num system="xmltv
+_ns">2025.615.</episode-num><icon src="https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_Spo
+rtNews_ok.jpg" /><backdrop src="https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_
+ok.jpg" /></programme>
+> output\denmark1.xml:3854:<programme start="20260819220000 +0000" stop="20260819230000 +0000" channel="Viaplay Sport N
+ews HD (D) (T).dk"><title>Watt the F1!?</title><desc>Fra 2026. Formel 1-programmet, hvor Jason Watt giver sit råt for u
+sødede take på ugens mest opsigtsvækkende historier fra motorsportens kongeklasse.</desc><episode-num system="xmltv_ns"
+>2025.20.</episode-num><icon src="https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNew
+s_ok.jpg" /><backdrop src="https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jp
+g" /></programme>
+  output\denmark1.xml:3855:<programme start="20260819230000 +0000" stop="20260820000000 +0000" channel="Viaplay Sport N
+ews HD (D) (T).dk"><title>Danskerklubben</title><desc>Fra 2026. I ”Danskerklubben” giver David Kroner og Mikkel Beckman
+n dig de bedste historier om de danske udlandsproffer og vurderer ugentligt.</desc><episode-num system="xmltv_ns">2025.
+1.</episode-num><icon src="https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jp
+g" /><backdrop src="https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg" /></
+programme>
+> output\denmark1.xml:3857:<programme start="20260820010000 +0000" stop="20260820020000 +0000" channel="Viaplay Sport N
+ews HD (D) (T).dk"><title>Watt the F1!?</title><desc>Fra 2026. Formel 1-programmet, hvor Jason Watt giver sit råt for u
+sødede take på ugens mest opsigtsvækkende historier fra motorsportens kongeklasse.</desc><episode-num system="xmltv_ns"
+>2025.20.</episode-num><icon src="https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNew
+s_ok.jpg" /><backdrop src="https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jp
+g" /></programme>
+  output\denmark1.xml:3858:<programme start="20260820020000 +0000" stop="20260820030000 +0000" channel="Viaplay Sport N
+ews HD (D) (T).dk"><title>TV-Udbruddet</title><desc>Fra 2026. Michael Rasmussen er ekspert i cykelprogrammet, der ikke
+lægger skjul på, at vi er i udbrud med det ene formål at få tv-tid.</desc><episode-num system="xmltv_ns">2025.19.</epis
+ode-num><icon src="https://i-viaplay-com.akamaized.net/viaplay-prod/669/72/1757932138-001f38bb582cfdc1b238c8401d5f30fda
+461ee0e.jpg" /><backdrop src="https://i-viaplay-com.akamaized.net/viaplay-prod/669/72/1757932138-001f38bb582cfdc1b238c8
+401d5f30fda461ee0e.jpg" /></programme>
+> output\denmark1.xml:3860:<programme start="20260820040000 +0000" stop="20260820050000 +0000" channel="Viaplay Sport N
+ews HD (D) (T).dk"><title>Watt the F1!?</title><desc>Fra 2026. Formel 1-programmet, hvor Jason Watt giver sit råt for u
+sødede take på ugens mest opsigtsvækkende historier fra motorsportens kongeklasse.</desc><episode-num system="xmltv_ns"
+>2025.20.</episode-num><icon src="https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNew
+s_ok.jpg" /><backdrop src="https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jp
+g" /></programme>
+  output\denmark1.xml:3861:<programme start="20260820050000 +0000" stop="20260820073000 +0000" channel="Viaplay Sport N
+ews HD (D) (T).dk"><title>Sport News</title><desc>Fra 2026. Her får du fra morgen til aften serveret de vigtigste sport
+snyheder, masser af mål og højdepunkter samt skarpe holdninger fra Viaplays eksperter.</desc><episode-num system="xmltv
+_ns">2025.616.</episode-num><icon src="https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_Spo
+rtNews_ok.jpg" /><backdrop src="https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_
+ok.jpg" /></programme>
+> output\denmark1.xml:3873:<programme start="20260821010000 +0000" stop="20260821020000 +0000" channel="Viaplay Sport N
+ews HD (D) (T).dk"><title>Watt the F1!?</title><desc>Fra 2026. Formel 1-programmet, hvor Jason Watt giver sit råt for u
+sødede take på ugens mest opsigtsvækkende historier fra motorsportens kongeklasse.</desc><episode-num system="xmltv_ns"
+>2025.20.</episode-num><icon src="https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNew
+s_ok.jpg" /><backdrop src="https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jp
+g" /></programme>
+  output\denmark1.xml:3874:<programme start="20260821020000 +0000" stop="20260821030000 +0000" channel="Viaplay Sport N
+ews HD (D) (T).dk"><title>TV-Udbruddet</title><desc>Fra 2026. Michael Rasmussen er ekspert i cykelprogrammet, der ikke
+lægger skjul på, at vi er i udbrud med det ene formål at få tv-tid.</desc><episode-num system="xmltv_ns">2025.19.</epis
+ode-num><icon src="https://i-viaplay-com.akamaized.net/viaplay-prod/669/72/1757932138-001f38bb582cfdc1b238c8401d5f30fda
+461ee0e.jpg" /><backdrop src="https://i-viaplay-com.akamaized.net/viaplay-prod/669/72/1757932138-001f38bb582cfdc1b238c8
+401d5f30fda461ee0e.jpg" /></programme>
+> output\denmark2.xml:1921:<programme start="20260819005500 +0000" stop="20260819012000 +0000" channel="Disney Channel
+Denmark (DK,DA).dk"><title>Phineas og Ferb</title><desc>Phineas og Ferb vil gøre hver eneste dag i deres sommerferie he
+lt spektakulær! Hver dag finder de på nye fantasirige opfindelser, alt imens deres misundelige storesøster, Candace, pr
+øver at sladre om dem til mor. De kan bygge en rutsjebane i baghaven, surfe på forstadens tidevandsbølger, eller rejse
+tilbage til forhistorien. Samtidig lever familiens ikke alt for smarte husdyr, næbdyret Perry, et dobbeltliv som hemmel
+ig agent, der i hvert afsnit kæmper mod den ondskabsfulde Dr. Doofenshmirtz.</desc><icon src="https://image.tmdb.org/t/
+p/w1280/ajbiJASpiCvKbTFBKS5aG1pLnzE.jpg" /></programme>
+> output\denmark2.xml:1922:<programme start="20260819012000 +0000" stop="20260819014000 +0000" channel="Disney Channel
+Denmark (DK,DA).dk"><title>Phineas og Ferb</title><desc>Phineas og Ferb vil gøre hver eneste dag i deres sommerferie he
+lt spektakulær! Hver dag finder de på nye fantasirige opfindelser, alt imens deres misundelige storesøster, Candace, pr
+øver at sladre om dem til mor. De kan bygge en rutsjebane i baghaven, surfe på forstadens tidevandsbølger, eller rejse
+tilbage til forhistorien. Samtidig lever familiens ikke alt for smarte husdyr, næbdyret Perry, et dobbeltliv som hemmel
+ig agent, der i hvert afsnit kæmper mod den ondskabsfulde Dr. Doofenshmirtz.</desc><icon src="https://image.tmdb.org/t/
+p/w1280/ajbiJASpiCvKbTFBKS5aG1pLnzE.jpg" /></programme>
+> output\denmark2.xml:1923:<programme start="20260819014000 +0000" stop="20260819020500 +0000" channel="Disney Channel
+Denmark (DK,DA).dk"><title>Phineas og Ferb</title><desc>Phineas og Ferb vil gøre hver eneste dag i deres sommerferie he
+lt spektakulær! Hver dag finder de på nye fantasirige opfindelser, alt imens deres misundelige storesøster, Candace, pr
+øver at sladre om dem til mor. De kan bygge en rutsjebane i baghaven, surfe på forstadens tidevandsbølger, eller rejse
+tilbage til forhistorien. Samtidig lever familiens ikke alt for smarte husdyr, næbdyret Perry, et dobbeltliv som hemmel
+ig agent, der i hvert afsnit kæmper mod den ondskabsfulde Dr. Doofenshmirtz.</desc><episode-num system="xmltv_ns">2.32.
+</episode-num><icon src="https://image.tmdb.org/t/p/w1280/ajbiJASpiCvKbTFBKS5aG1pLnzE.jpg" /></programme>
+  output\denmark2.xml:1924:<programme start="20260819020500 +0000" stop="20260819022500 +0000" channel="Disney Channel
+Denmark (DK,DA).dk"><title>Hamster og Grete</title><desc>Grete Grant-Gomez og hende kælehamster "Hamster", får superkræ
+fter af nogle rumvæsner, og det store ansvar at være "helte på jorden!" Gretes storebror, Kevin, blev derimod overset a
+f rumvæsnerne, og er derfor kun "superhelte-påhæng". Men han er alligevel tit hjernen bag deres missioner! Nu må Hamste
+r &amp; Grete redde veden fra den ene superskurk efter den anden, imens de holder deres sande identititeter skjult!</de
+sc><episode-num system="xmltv_ns">1.40.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/2zuHO9ZSrpZnfx2dCFYm17
+AyzSo.jpg" /></programme>
+> output\denmark2.xml:1947:<programme start="20260819081000 +0000" stop="20260819083500 +0000" channel="Disney Channel
+Denmark (DK,DA).dk"><title>Phineas og Ferb</title><desc>Phineas og Ferb vil gøre hver eneste dag i deres sommerferie he
+lt spektakulær! Hver dag finder de på nye fantasirige opfindelser, alt imens deres misundelige storesøster, Candace, pr
+øver at sladre om dem til mor. De kan bygge en rutsjebane i baghaven, surfe på forstadens tidevandsbølger, eller rejse
+tilbage til forhistorien. Samtidig lever familiens ikke alt for smarte husdyr, næbdyret Perry, et dobbeltliv som hemmel
+ig agent, der i hvert afsnit kæmper mod den ondskabsfulde Dr. Doofenshmirtz.</desc><episode-num system="xmltv_ns">1.56.
+</episode-num><icon src="https://image.tmdb.org/t/p/w1280/ajbiJASpiCvKbTFBKS5aG1pLnzE.jpg" /></programme>
+  output\denmark2.xml:1948:<programme start="20260819083500 +0000" stop="20260819090000 +0000" channel="Disney Channel
+Denmark (DK,DA).dk"><title>Dragon Striker</title><desc>I en verden, hvor sport møder magi, opdager bondeknægten Key sit
+ enorme, medfødte talent og finder ud af, at han kan være den legendariske Dragon Striker.</desc><episode-num system="x
+mltv_ns">0.4.</episode-num></programme>
+> output\denmark2.xml:1958:<programme start="20260819115500 +0000" stop="20260819122000 +0000" channel="Disney Channel
+Denmark (DK,DA).dk"><title>Phineas og Ferb</title><desc>Phineas og Ferb vil gøre hver eneste dag i deres sommerferie he
+lt spektakulær! Hver dag finder de på nye fantasirige opfindelser, alt imens deres misundelige storesøster, Candace, pr
+øver at sladre om dem til mor. De kan bygge en rutsjebane i baghaven, surfe på forstadens tidevandsbølger, eller rejse
+tilbage til forhistorien. Samtidig lever familiens ikke alt for smarte husdyr, næbdyret Perry, et dobbeltliv som hemmel
+ig agent, der i hvert afsnit kæmper mod den ondskabsfulde Dr. Doofenshmirtz.</desc><episode-num system="xmltv_ns">2.3.<
+/episode-num><icon src="https://image.tmdb.org/t/p/w1280/ajbiJASpiCvKbTFBKS5aG1pLnzE.jpg" /></programme>
+  output\denmark2.xml:1959:<programme start="20260819122000 +0000" stop="20260819124500 +0000" channel="Disney Channel
+Denmark (DK,DA).dk"><title>Familien Green I Storbyen</title><desc>“Familien Green i storbyen” er en animations-komedie/
+eventyr-serie, der følger 10-årige Cricket Greens skæve og sjove eventyr. Den gavtyveagtige og optimistiske knægt fra l
+andet flytter til storbyen med sin familie - storesøster Tilly, farmand Bill og bedstemor Alice - som mildt sagt ikke p
+asser ind der. Crickets medfødte nysgerrighed og gåpåmod fører ham og hans familie ud på store eventyr og lige i hjerte
+rne på hans nye naboer.</desc><episode-num system="xmltv_ns">1.49.</episode-num><icon src="https://image.tmdb.org/t/p/w
+1280/aUpi3RdwOqYINYlKOtjfwyR21nc.jpg" /></programme>
+> output\denmark2.xml:1976:<programme start="20260819172500 +0000" stop="20260819175000 +0000" channel="Disney Channel
+Denmark (DK,DA).dk"><title>Phineas og Ferb</title><desc>Phineas og Ferb vil gøre hver eneste dag i deres sommerferie he
+lt spektakulær! Hver dag finder de på nye fantasirige opfindelser, alt imens deres misundelige storesøster, Candace, pr
+øver at sladre om dem til mor. De kan bygge en rutsjebane i baghaven, surfe på forstadens tidevandsbølger, eller rejse
+tilbage til forhistorien. Samtidig lever familiens ikke alt for smarte husdyr, næbdyret Perry, et dobbeltliv som hemmel
+ig agent, der i hvert afsnit kæmper mod den ondskabsfulde Dr. Doofenshmirtz.</desc><episode-num system="xmltv_ns">3.12.
+</episode-num><icon src="https://image.tmdb.org/t/p/w1280/ajbiJASpiCvKbTFBKS5aG1pLnzE.jpg" /></programme>
+  output\denmark2.xml:1977:<programme start="20260819175000 +0000" stop="20260819181500 +0000" channel="Disney Channel
+Denmark (DK,DA).dk"><title>Familien Green I Storbyen</title><desc>“Familien Green i storbyen” er en animations-komedie/
+eventyr-serie, der følger 10-årige Cricket Greens skæve og sjove eventyr. Den gavtyveagtige og optimistiske knægt fra l
+andet flytter til storbyen med sin familie - storesøster Tilly, farmand Bill og bedstemor Alice - som mildt sagt ikke p
+asser ind der. Crickets medfødte nysgerrighed og gåpåmod fører ham og hans familie ud på store eventyr og lige i hjerte
+rne på hans nye naboer.</desc><episode-num system="xmltv_ns">2.9.</episode-num><icon src="https://image.tmdb.org/t/p/w1
+280/aUpi3RdwOqYINYlKOtjfwyR21nc.jpg" /></programme>
+> output\denmark2.xml:1987:<programme start="20260819220000 +0000" stop="20260819222000 +0000" channel="Disney Channel
+Denmark (DK,DA).dk"><title>Phineas og Ferb</title><desc>Phineas og Ferb vil gøre hver eneste dag i deres sommerferie he
+lt spektakulær! Hver dag finder de på nye fantasirige opfindelser, alt imens deres misundelige storesøster, Candace, pr
+øver at sladre om dem til mor. De kan bygge en rutsjebane i baghaven, surfe på forstadens tidevandsbølger, eller rejse
+tilbage til forhistorien. Samtidig lever familiens ikke alt for smarte husdyr, næbdyret Perry, et dobbeltliv som hemmel
+ig agent, der i hvert afsnit kæmper mod den ondskabsfulde Dr. Doofenshmirtz.</desc><episode-num system="xmltv_ns">2.29.
+</episode-num><icon src="https://image.tmdb.org/t/p/w1280/ajbiJASpiCvKbTFBKS5aG1pLnzE.jpg" /></programme>
+> output\denmark2.xml:1988:<programme start="20260819222000 +0000" stop="20260819224000 +0000" channel="Disney Channel
+Denmark (DK,DA).dk"><title>Phineas og Ferb</title><desc>Phineas og Ferb vil gøre hver eneste dag i deres sommerferie he
+lt spektakulær! Hver dag finder de på nye fantasirige opfindelser, alt imens deres misundelige storesøster, Candace, pr
+øver at sladre om dem til mor. De kan bygge en rutsjebane i baghaven, surfe på forstadens tidevandsbølger, eller rejse
+tilbage til forhistorien. Samtidig lever familiens ikke alt for smarte husdyr, næbdyret Perry, et dobbeltliv som hemmel
+ig agent, der i hvert afsnit kæmper mod den ondskabsfulde Dr. Doofenshmirtz.</desc><episode-num system="xmltv_ns">2.30.
+</episode-num><icon src="https://image.tmdb.org/t/p/w1280/ajbiJASpiCvKbTFBKS5aG1pLnzE.jpg" /></programme>
+> output\denmark2.xml:1989:<programme start="20260819224000 +0000" stop="20260819230500 +0000" channel="Disney Channel
+Denmark (DK,DA).dk"><title>Phineas og Ferb</title><desc>Phineas og Ferb vil gøre hver eneste dag i deres sommerferie he
+lt spektakulær! Hver dag finder de på nye fantasirige opfindelser, alt imens deres misundelige storesøster, Candace, pr
+øver at sladre om dem til mor. De kan bygge en rutsjebane i baghaven, surfe på forstadens tidevandsbølger, eller rejse
+tilbage til forhistorien. Samtidig lever familiens ikke alt for smarte husdyr, næbdyret Perry, et dobbeltliv som hemmel
+ig agent, der i hvert afsnit kæmper mod den ondskabsfulde Dr. Doofenshmirtz.</desc><episode-num system="xmltv_ns">2.34.
+</episode-num><icon src="https://image.tmdb.org/t/p/w1280/ajbiJASpiCvKbTFBKS5aG1pLnzE.jpg" /></programme>
+  output\denmark2.xml:1990:<programme start="20260819230500 +0000" stop="20260819232500 +0000" channel="Disney Channel
+Denmark (DK,DA).dk"><title>Familien Green I Storbyen</title><desc>“Familien Green i storbyen” er en animations-komedie/
+eventyr-serie, der følger 10-årige Cricket Greens skæve og sjove eventyr. Den gavtyveagtige og optimistiske knægt fra l
+andet flytter til storbyen med sin familie - storesøster Tilly, farmand Bill og bedstemor Alice - som mildt sagt ikke p
+asser ind der. Crickets medfødte nysgerrighed og gåpåmod fører ham og hans familie ud på store eventyr og lige i hjerte
+rne på hans nye naboer.</desc><episode-num system="xmltv_ns">3.18.</episode-num><icon src="https://image.tmdb.org/t/p/w
+1280/aUpi3RdwOqYINYlKOtjfwyR21nc.jpg" /></programme>
+> output\denmark2.xml:1995:<programme start="20260820005500 +0000" stop="20260820012000 +0000" channel="Disney Channel
+Denmark (DK,DA).dk"><title>Phineas og Ferb</title><desc>Phineas og Ferb vil gøre hver eneste dag i deres sommerferie he
+lt spektakulær! Hver dag finder de på nye fantasirige opfindelser, alt imens deres misundelige storesøster, Candace, pr
+øver at sladre om dem til mor. De kan bygge en rutsjebane i baghaven, surfe på forstadens tidevandsbølger, eller rejse
+tilbage til forhistorien. Samtidig lever familiens ikke alt for smarte husdyr, næbdyret Perry, et dobbeltliv som hemmel
+ig agent, der i hvert afsnit kæmper mod den ondskabsfulde Dr. Doofenshmirtz.</desc><episode-num system="xmltv_ns">2.33.
+</episode-num><icon src="https://image.tmdb.org/t/p/w1280/ajbiJASpiCvKbTFBKS5aG1pLnzE.jpg" /></programme>
+> output\denmark2.xml:1996:<programme start="20260820012000 +0000" stop="20260820014000 +0000" channel="Disney Channel
+Denmark (DK,DA).dk"><title>Phineas og Ferb</title><desc>Phineas og Ferb vil gøre hver eneste dag i deres sommerferie he
+lt spektakulær! Hver dag finder de på nye fantasirige opfindelser, alt imens deres misundelige storesøster, Candace, pr
+øver at sladre om dem til mor. De kan bygge en rutsjebane i baghaven, surfe på forstadens tidevandsbølger, eller rejse
+tilbage til forhistorien. Samtidig lever familiens ikke alt for smarte husdyr, næbdyret Perry, et dobbeltliv som hemmel
+ig agent, der i hvert afsnit kæmper mod den ondskabsfulde Dr. Doofenshmirtz.</desc><episode-num system="xmltv_ns">3.1.<
+/episode-num><icon src="https://image.tmdb.org/t/p/w1280/ajbiJASpiCvKbTFBKS5aG1pLnzE.jpg" /></programme>
+> output\denmark2.xml:1997:<programme start="20260820014000 +0000" stop="20260820020500 +0000" channel="Disney Channel
+Denmark (DK,DA).dk"><title>Phineas og Ferb</title><desc>Phineas og Ferb vil gøre hver eneste dag i deres sommerferie he
+lt spektakulær! Hver dag finder de på nye fantasirige opfindelser, alt imens deres misundelige storesøster, Candace, pr
+øver at sladre om dem til mor. De kan bygge en rutsjebane i baghaven, surfe på forstadens tidevandsbølger, eller rejse
+tilbage til forhistorien. Samtidig lever familiens ikke alt for smarte husdyr, næbdyret Perry, et dobbeltliv som hemmel
+ig agent, der i hvert afsnit kæmper mod den ondskabsfulde Dr. Doofenshmirtz.</desc><episode-num system="xmltv_ns">3.0.<
+/episode-num><icon src="https://image.tmdb.org/t/p/w1280/ajbiJASpiCvKbTFBKS5aG1pLnzE.jpg" /></programme>
+  output\denmark2.xml:1998:<programme start="20260820020500 +0000" stop="20260820022500 +0000" channel="Disney Channel
+Denmark (DK,DA).dk"><title>Hamster og Grete</title><desc>Grete Grant-Gomez og hende kælehamster "Hamster", får superkræ
+fter af nogle rumvæsner, og det store ansvar at være "helte på jorden!" Gretes storebror, Kevin, blev derimod overset a
+f rumvæsnerne, og er derfor kun "superhelte-påhæng". Men han er alligevel tit hjernen bag deres missioner! Nu må Hamste
+r &amp; Grete redde veden fra den ene superskurk efter den anden, imens de holder deres sande identititeter skjult!</de
+sc><episode-num system="xmltv_ns">1.43.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/2zuHO9ZSrpZnfx2dCFYm17
+AyzSo.jpg" /></programme>
+> output\denmark2.xml:2021:<programme start="20260820081000 +0000" stop="20260820083500 +0000" channel="Disney Channel
+Denmark (DK,DA).dk"><title>Phineas og Ferb</title><desc>Phineas og Ferb vil gøre hver eneste dag i deres sommerferie he
+lt spektakulær! Hver dag finder de på nye fantasirige opfindelser, alt imens deres misundelige storesøster, Candace, pr
+øver at sladre om dem til mor. De kan bygge en rutsjebane i baghaven, surfe på forstadens tidevandsbølger, eller rejse
+tilbage til forhistorien. Samtidig lever familiens ikke alt for smarte husdyr, næbdyret Perry, et dobbeltliv som hemmel
+ig agent, der i hvert afsnit kæmper mod den ondskabsfulde Dr. Doofenshmirtz.</desc><episode-num system="xmltv_ns">1.33.
+</episode-num><icon src="https://image.tmdb.org/t/p/w1280/ajbiJASpiCvKbTFBKS5aG1pLnzE.jpg" /></programme>
+  output\denmark2.xml:2022:<programme start="20260820083500 +0000" stop="20260820090000 +0000" channel="Disney Channel
+Denmark (DK,DA).dk"><title>Dragon Striker</title><desc>I en verden, hvor sport møder magi, opdager bondeknægten Key sit
+ enorme, medfødte talent og finder ud af, at han kan være den legendariske Dragon Striker.</desc><episode-num system="x
+mltv_ns">0.5.</episode-num></programme>
+> output\denmark2.xml:2032:<programme start="20260820115500 +0000" stop="20260820122000 +0000" channel="Disney Channel
+Denmark (DK,DA).dk"><title>Phineas og Ferb</title><desc>Phineas og Ferb vil gøre hver eneste dag i deres sommerferie he
+lt spektakulær! Hver dag finder de på nye fantasirige opfindelser, alt imens deres misundelige storesøster, Candace, pr
+øver at sladre om dem til mor. De kan bygge en rutsjebane i baghaven, surfe på forstadens tidevandsbølger, eller rejse
+tilbage til forhistorien. Samtidig lever familiens ikke alt for smarte husdyr, næbdyret Perry, et dobbeltliv som hemmel
+ig agent, der i hvert afsnit kæmper mod den ondskabsfulde Dr. Doofenshmirtz.</desc><episode-num system="xmltv_ns">2.2.<
+/episode-num><icon src="https://image.tmdb.org/t/p/w1280/ajbiJASpiCvKbTFBKS5aG1pLnzE.jpg" /></programme>
+  output\denmark2.xml:2033:<programme start="20260820122000 +0000" stop="20260820124500 +0000" channel="Disney Channel
+Denmark (DK,DA).dk"><title>Familien Green I Storbyen</title><desc>“Familien Green i storbyen” er en animations-komedie/
+eventyr-serie, der følger 10-årige Cricket Greens skæve og sjove eventyr. Den gavtyveagtige og optimistiske knægt fra l
+andet flytter til storbyen med sin familie - storesøster Tilly, farmand Bill og bedstemor Alice - som mildt sagt ikke p
+asser ind der. Crickets medfødte nysgerrighed og gåpåmod fører ham og hans familie ud på store eventyr og lige i hjerte
+rne på hans nye naboer.</desc><episode-num system="xmltv_ns">1.20.</episode-num><icon src="https://image.tmdb.org/t/p/w
+1280/aUpi3RdwOqYINYlKOtjfwyR21nc.jpg" /></programme>
+> output\denmark2.xml:2050:<programme start="20260820172500 +0000" stop="20260820175000 +0000" channel="Disney Channel
+Denmark (DK,DA).dk"><title>Phineas og Ferb</title><desc>Phineas og Ferb vil gøre hver eneste dag i deres sommerferie he
+lt spektakulær! Hver dag finder de på nye fantasirige opfindelser, alt imens deres misundelige storesøster, Candace, pr
+øver at sladre om dem til mor. De kan bygge en rutsjebane i baghaven, surfe på forstadens tidevandsbølger, eller rejse
+tilbage til forhistorien. Samtidig lever familiens ikke alt for smarte husdyr, næbdyret Perry, et dobbeltliv som hemmel
+ig agent, der i hvert afsnit kæmper mod den ondskabsfulde Dr. Doofenshmirtz.</desc><episode-num system="xmltv_ns">3.21.
+</episode-num><icon src="https://image.tmdb.org/t/p/w1280/ajbiJASpiCvKbTFBKS5aG1pLnzE.jpg" /></programme>
+  output\denmark2.xml:2051:<programme start="20260820175000 +0000" stop="20260820181500 +0000" channel="Disney Channel
+Denmark (DK,DA).dk"><title>Familien Green I Storbyen</title><desc>“Familien Green i storbyen” er en animations-komedie/
+eventyr-serie, der følger 10-årige Cricket Greens skæve og sjove eventyr. Den gavtyveagtige og optimistiske knægt fra l
+andet flytter til storbyen med sin familie - storesøster Tilly, farmand Bill og bedstemor Alice - som mildt sagt ikke p
+asser ind der. Crickets medfødte nysgerrighed og gåpåmod fører ham og hans familie ud på store eventyr og lige i hjerte
+rne på hans nye naboer.</desc><episode-num system="xmltv_ns">2.70.</episode-num><icon src="https://image.tmdb.org/t/p/w
+1280/aUpi3RdwOqYINYlKOtjfwyR21nc.jpg" /></programme>
+> output\denmark2.xml:2061:<programme start="20260820220000 +0000" stop="20260820222000 +0000" channel="Disney Channel
+Denmark (DK,DA).dk"><title>Phineas og Ferb</title><desc>Phineas og Ferb vil gøre hver eneste dag i deres sommerferie he
+lt spektakulær! Hver dag finder de på nye fantasirige opfindelser, alt imens deres misundelige storesøster, Candace, pr
+øver at sladre om dem til mor. De kan bygge en rutsjebane i baghaven, surfe på forstadens tidevandsbølger, eller rejse
+tilbage til forhistorien. Samtidig lever familiens ikke alt for smarte husdyr, næbdyret Perry, et dobbeltliv som hemmel
+ig agent, der i hvert afsnit kæmper mod den ondskabsfulde Dr. Doofenshmirtz.</desc><episode-num system="xmltv_ns">3.4.<
+/episode-num><icon src="https://image.tmdb.org/t/p/w1280/ajbiJASpiCvKbTFBKS5aG1pLnzE.jpg" /></programme>
+> output\denmark2.xml:2062:<programme start="20260820222000 +0000" stop="20260820224000 +0000" channel="Disney Channel
+Denmark (DK,DA).dk"><title>Phineas og Ferb</title><desc>Phineas og Ferb vil gøre hver eneste dag i deres sommerferie he
+lt spektakulær! Hver dag finder de på nye fantasirige opfindelser, alt imens deres misundelige storesøster, Candace, pr
+øver at sladre om dem til mor. De kan bygge en rutsjebane i baghaven, surfe på forstadens tidevandsbølger, eller rejse
+tilbage til forhistorien. Samtidig lever familiens ikke alt for smarte husdyr, næbdyret Perry, et dobbeltliv som hemmel
+ig agent, der i hvert afsnit kæmper mod den ondskabsfulde Dr. Doofenshmirtz.</desc><episode-num system="xmltv_ns">3.5.<
+/episode-num><icon src="https://image.tmdb.org/t/p/w1280/ajbiJASpiCvKbTFBKS5aG1pLnzE.jpg" /></programme>
+> output\denmark2.xml:2063:<programme start="20260820224000 +0000" stop="20260820230500 +0000" channel="Disney Channel
+Denmark (DK,DA).dk"><title>Phineas og Ferb</title><desc>Phineas og Ferb vil gøre hver eneste dag i deres sommerferie he
+lt spektakulær! Hver dag finder de på nye fantasirige opfindelser, alt imens deres misundelige storesøster, Candace, pr
+øver at sladre om dem til mor. De kan bygge en rutsjebane i baghaven, surfe på forstadens tidevandsbølger, eller rejse
+tilbage til forhistorien. Samtidig lever familiens ikke alt for smarte husdyr, næbdyret Perry, et dobbeltliv som hemmel
+ig agent, der i hvert afsnit kæmper mod den ondskabsfulde Dr. Doofenshmirtz.</desc><episode-num system="xmltv_ns">3.5.<
+/episode-num><icon src="https://image.tmdb.org/t/p/w1280/ajbiJASpiCvKbTFBKS5aG1pLnzE.jpg" /></programme>
+  output\denmark2.xml:2064:<programme start="20260820230500 +0000" stop="20260820232500 +0000" channel="Disney Channel
+Denmark (DK,DA).dk"><title>Familien Green I Storbyen</title><desc>“Familien Green i storbyen” er en animations-komedie/
+eventyr-serie, der følger 10-årige Cricket Greens skæve og sjove eventyr. Den gavtyveagtige og optimistiske knægt fra l
+andet flytter til storbyen med sin familie - storesøster Tilly, farmand Bill og bedstemor Alice - som mildt sagt ikke p
+asser ind der. Crickets medfødte nysgerrighed og gåpåmod fører ham og hans familie ud på store eventyr og lige i hjerte
+rne på hans nye naboer.</desc><episode-num system="xmltv_ns">3.101.</episode-num><icon src="https://image.tmdb.org/t/p/
+w1280/aUpi3RdwOqYINYlKOtjfwyR21nc.jpg" /></programme>
+> output\denmark2.xml:2069:<programme start="20260821005500 +0000" stop="20260821012000 +0000" channel="Disney Channel
+Denmark (DK,DA).dk"><title>Phineas og Ferb</title><desc>Phineas og Ferb vil gøre hver eneste dag i deres sommerferie he
+lt spektakulær! Hver dag finder de på nye fantasirige opfindelser, alt imens deres misundelige storesøster, Candace, pr
+øver at sladre om dem til mor. De kan bygge en rutsjebane i baghaven, surfe på forstadens tidevandsbølger, eller rejse
+tilbage til forhistorien. Samtidig lever familiens ikke alt for smarte husdyr, næbdyret Perry, et dobbeltliv som hemmel
+ig agent, der i hvert afsnit kæmper mod den ondskabsfulde Dr. Doofenshmirtz.</desc><episode-num system="xmltv_ns">3.105
+.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/ajbiJASpiCvKbTFBKS5aG1pLnzE.jpg" /></programme>
+> output\denmark2.xml:2070:<programme start="20260821012000 +0000" stop="20260821014000 +0000" channel="Disney Channel
+Denmark (DK,DA).dk"><title>Phineas og Ferb</title><desc>Phineas og Ferb vil gøre hver eneste dag i deres sommerferie he
+lt spektakulær! Hver dag finder de på nye fantasirige opfindelser, alt imens deres misundelige storesøster, Candace, pr
+øver at sladre om dem til mor. De kan bygge en rutsjebane i baghaven, surfe på forstadens tidevandsbølger, eller rejse
+tilbage til forhistorien. Samtidig lever familiens ikke alt for smarte husdyr, næbdyret Perry, et dobbeltliv som hemmel
+ig agent, der i hvert afsnit kæmper mod den ondskabsfulde Dr. Doofenshmirtz.</desc><episode-num system="xmltv_ns">3.106
+.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/ajbiJASpiCvKbTFBKS5aG1pLnzE.jpg" /></programme>
+> output\denmark2.xml:2071:<programme start="20260821014000 +0000" stop="20260821020500 +0000" channel="Disney Channel
+Denmark (DK,DA).dk"><title>Phineas og Ferb</title><desc>Phineas og Ferb vil gøre hver eneste dag i deres sommerferie he
+lt spektakulær! Hver dag finder de på nye fantasirige opfindelser, alt imens deres misundelige storesøster, Candace, pr
+øver at sladre om dem til mor. De kan bygge en rutsjebane i baghaven, surfe på forstadens tidevandsbølger, eller rejse
+tilbage til forhistorien. Samtidig lever familiens ikke alt for smarte husdyr, næbdyret Perry, et dobbeltliv som hemmel
+ig agent, der i hvert afsnit kæmper mod den ondskabsfulde Dr. Doofenshmirtz.</desc><episode-num system="xmltv_ns">3.3.<
+/episode-num><icon src="https://image.tmdb.org/t/p/w1280/ajbiJASpiCvKbTFBKS5aG1pLnzE.jpg" /></programme>
+  output\denmark2.xml:2072:<programme start="20260821020500 +0000" stop="20260821022500 +0000" channel="Disney Channel
+Denmark (DK,DA).dk"><title>Hamster og Grete</title><desc>Grete Grant-Gomez og hende kælehamster "Hamster", får superkræ
+fter af nogle rumvæsner, og det store ansvar at være "helte på jorden!" Gretes storebror, Kevin, blev derimod overset a
+f rumvæsnerne, og er derfor kun "superhelte-påhæng". Men han er alligevel tit hjernen bag deres missioner! Nu må Hamste
+r &amp; Grete redde veden fra den ene superskurk efter den anden, imens de holder deres sande identititeter skjult!</de
+sc><episode-num system="xmltv_ns">1.16.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/2zuHO9ZSrpZnfx2dCFYm17
+AyzSo.jpg" /></programme>
+> output\denmark2.xml:5856:<programme start="20260819220000 +0000" stop="20260819233500 +0000" channel="SF-kanalen Denm
+ark (DK,DA).dk"><title>Kim Novak badede aldrig i Genesarets sø</title><desc>Fjortenårige Erik tilbringer en sommer i be
+gyndelsen af 60'erne ved sommerferiestedet Genesaret. Her opholder den smukke Kim Novak, som i virkeligheden hedder Ewa
+ og er Eriks lærerinde, sig også. Mens sommeren skrider frem, bliver de mærke skyer i horisonten tydeligere og tydelige
+re.</desc></programme>
+  output\denmark2.xml:5857:<programme start="20260819233500 +0000" stop="20260820012500 +0000" channel="SF-kanalen Denm
+ark (DK,DA).dk"><title>Oprøret i Ådalen</title><desc>Bo Widerbergs drama om de skæbnesvangre strejker i Ådalen i sommer
+en 1931, hvor blandt andet fem arbejdere skydes og dræbes af militæret ved en demonstration. Fortællingen handler om ar
+bejderfamilierne og deres hårde kamp mod fattigdom.</desc></programme>
+> output\denmark2.xml:6449:<programme start="20260819040000 +0000" stop="20260819043000 +0000" channel="TV 2 Denmark (D
+K,DA).dk"><title>Nyhederne, Sporten og Vejret</title><desc>Kom godt i gang med dagen med nyhederne, sporten og vejret</
+desc></programme>
+  output\denmark2.xml:6450:<programme start="20260819043000 +0000" stop="20260819100000 +0000" channel="TV 2 Denmark (D
+K,DA).dk"><title>Go' morgen Danmark</title><desc>'Go' morgen Danmark' er hele Danmarks aktualitet- og livsstilsprogram.
+ Start dagen med hygge og høje grin - og få stof til eftertanke og samtaleemner, man har lyst til at dele resten af dag
+en.</desc><icon src="https://image.tmdb.org/t/p/w1280/fy54FNDjCWb0bGIRcTL6bCcthga.jpg" /></programme>
+> output\denmark2.xml:6480:<programme start="20260820040000 +0000" stop="20260820043000 +0000" channel="TV 2 Denmark (D
+K,DA).dk"><title>Nyhederne, Sporten og Vejret</title><desc>Kom godt i gang med dagen med nyhederne, sporten og vejret</
+desc></programme>
+  output\denmark2.xml:6481:<programme start="20260820043000 +0000" stop="20260820100000 +0000" channel="TV 2 Denmark (D
+K,DA).dk"><title>Go' morgen Danmark</title><desc>'Go' morgen Danmark' er hele Danmarks aktualitet- og livsstilsprogram.
+ Start dagen med hygge og høje grin - og få stof til eftertanke og samtaleemner, man har lyst til at dele resten af dag
+en.</desc><icon src="https://image.tmdb.org/t/p/w1280/fy54FNDjCWb0bGIRcTL6bCcthga.jpg" /></programme>
+> output\denmark2.xml:6532:<programme start="20260819165000 +0000" stop="20260819170000 +0000" channel="TV 2 Direkte No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6533:<programme start="20260819170000 +0000" stop="20260819175500 +0000" channel="TV 2 Direkte No
+rway (NO,NO).dk"><title>Norges dummeste</title><desc>Konkurransen ingen ønsker å vinne! Kjendiser testes i kunnskap all
+e bør ha, og i hver episode får den smarteste reise hjem.</desc><episode-num system="xmltv_ns">1.9.</episode-num></prog
+ramme>
+> output\denmark2.xml:6537:<programme start="20260819193000 +0000" stop="20260819194000 +0000" channel="TV 2 Direkte No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6538:<programme start="20260819194000 +0000" stop="20260819201500 +0000" channel="TV 2 Direkte No
+rway (NO,NO).dk"><title>Fjellhytta</title><desc>Fire deltagerpar skal kjempe i åtte uker om å vinne sin egen hytte på f
+jellet. Hver uke må de gjennom omfattende oppussing og konkurranser.</desc><episode-num system="xmltv_ns">2.17.</episod
+e-num></programme>
+> output\denmark2.xml:6564:<programme start="20260820165000 +0000" stop="20260820170000 +0000" channel="TV 2 Direkte No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6565:<programme start="20260820170000 +0000" stop="20260820175500 +0000" channel="TV 2 Direkte No
+rway (NO,NO).dk"><title>Huskestue</title><desc>Et uhøytidelig og morsomt spørreprogram som setter gjestene og seernes k
+unnskapsnivå på prøve i temaer man strengt tatt burde vite noe om.</desc><episode-num system="xmltv_ns">5.0.</episode-n
+um></programme>
+> output\denmark2.xml:6569:<programme start="20260820193000 +0000" stop="20260820194000 +0000" channel="TV 2 Direkte No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6570:<programme start="20260820194000 +0000" stop="20260820201500 +0000" channel="TV 2 Direkte No
+rway (NO,NO).dk"><title>Farmen</title><desc>I årets Farmen har storbonden all makt. Hard jobbing, sabotasje, kupp og ve
+nnskap preger sesongen. Programleder er Victor Sotberg</desc><episode-num system="xmltv_ns">20.5.</episode-num></progra
+mme>
+> output\denmark2.xml:6817:<programme start="20260819052000 +0000" stop="20260819053000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6818:<programme start="20260819053000 +0000" stop="20260819054500 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Nyhetene</title></programme>
+> output\denmark2.xml:6819:<programme start="20260819054500 +0000" stop="20260819055000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6820:<programme start="20260819055000 +0000" stop="20260819060000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Været</title></programme>
+> output\denmark2.xml:6822:<programme start="20260819062000 +0000" stop="20260819063000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6823:<programme start="20260819063000 +0000" stop="20260819064500 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Nyhetene</title></programme>
+> output\denmark2.xml:6824:<programme start="20260819064500 +0000" stop="20260819065000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6825:<programme start="20260819065000 +0000" stop="20260819070000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Været</title></programme>
+> output\denmark2.xml:6827:<programme start="20260819072000 +0000" stop="20260819073000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6828:<programme start="20260819073000 +0000" stop="20260819074500 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Nyhetene</title></programme>
+> output\denmark2.xml:6829:<programme start="20260819074500 +0000" stop="20260819075000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6830:<programme start="20260819075000 +0000" stop="20260819080000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Været</title></programme>
+> output\denmark2.xml:6832:<programme start="20260819082000 +0000" stop="20260819083000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6833:<programme start="20260819083000 +0000" stop="20260819084500 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Nyhetene</title></programme>
+> output\denmark2.xml:6834:<programme start="20260819084500 +0000" stop="20260819085000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6835:<programme start="20260819085000 +0000" stop="20260819090000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Været</title></programme>
+> output\denmark2.xml:6837:<programme start="20260819092000 +0000" stop="20260819093000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6838:<programme start="20260819093000 +0000" stop="20260819094500 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Nyhetene</title></programme>
+> output\denmark2.xml:6839:<programme start="20260819094500 +0000" stop="20260819095000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6840:<programme start="20260819095000 +0000" stop="20260819102000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Været</title></programme>
+> output\denmark2.xml:6841:<programme start="20260819102000 +0000" stop="20260819103000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6842:<programme start="20260819103000 +0000" stop="20260819104500 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Nyhetene</title></programme>
+> output\denmark2.xml:6843:<programme start="20260819104500 +0000" stop="20260819105000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6844:<programme start="20260819105000 +0000" stop="20260819110000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Været</title></programme>
+> output\denmark2.xml:6846:<programme start="20260819112000 +0000" stop="20260819113000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6847:<programme start="20260819113000 +0000" stop="20260819114500 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Nyhetene 13:30</title></programme>
+> output\denmark2.xml:6848:<programme start="20260819114500 +0000" stop="20260819115000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6849:<programme start="20260819115000 +0000" stop="20260819120000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Været</title></programme>
+> output\denmark2.xml:6851:<programme start="20260819122000 +0000" stop="20260819123000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6852:<programme start="20260819123000 +0000" stop="20260819124500 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Nyhetene</title></programme>
+> output\denmark2.xml:6853:<programme start="20260819124500 +0000" stop="20260819125000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6854:<programme start="20260819125000 +0000" stop="20260819130000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Været</title></programme>
+> output\denmark2.xml:6856:<programme start="20260819132000 +0000" stop="20260819133000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6857:<programme start="20260819133000 +0000" stop="20260819134500 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Nyhetene 15:30</title></programme>
+> output\denmark2.xml:6858:<programme start="20260819134500 +0000" stop="20260819135000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6859:<programme start="20260819135000 +0000" stop="20260819140000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Været</title></programme>
+> output\denmark2.xml:6861:<programme start="20260819142000 +0000" stop="20260819143000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6862:<programme start="20260819143000 +0000" stop="20260819144500 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Nyhetene</title></programme>
+> output\denmark2.xml:6863:<programme start="20260819144500 +0000" stop="20260819145000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6864:<programme start="20260819145000 +0000" stop="20260819150000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Været</title></programme>
+> output\denmark2.xml:6866:<programme start="20260819152000 +0000" stop="20260819153000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6867:<programme start="20260819153000 +0000" stop="20260819154500 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Nyhetene 17:30</title></programme>
+> output\denmark2.xml:6868:<programme start="20260819154500 +0000" stop="20260819155000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6869:<programme start="20260819155000 +0000" stop="20260819160000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Været</title></programme>
+> output\denmark2.xml:6871:<programme start="20260819162000 +0000" stop="20260819163000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6872:<programme start="20260819163000 +0000" stop="20260819164500 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Nyhetene</title></programme>
+> output\denmark2.xml:6874:<programme start="20260819165000 +0000" stop="20260819170000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6875:<programme start="20260819170000 +0000" stop="20260819172000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Nyhetene - hjulet 19 min.</title></programme>
+> output\denmark2.xml:6885:<programme start="20260819193000 +0000" stop="20260819194000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6886:<programme start="20260819194000 +0000" stop="20260819195500 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Nyhetene - hjulet 11..30 min.</title></programme>
+> output\denmark2.xml:6889:<programme start="20260819202000 +0000" stop="20260819203000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6890:<programme start="20260819203000 +0000" stop="20260819204500 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Nyhetene</title></programme>
+> output\denmark2.xml:6892:<programme start="20260819205000 +0000" stop="20260819210000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6893:<programme start="20260819210000 +0000" stop="20260819213000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Nyhetene</title></programme>
+> output\denmark2.xml:6910:<programme start="20260820052000 +0000" stop="20260820053000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6911:<programme start="20260820053000 +0000" stop="20260820054500 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Nyhetene</title></programme>
+> output\denmark2.xml:6912:<programme start="20260820054500 +0000" stop="20260820055000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6913:<programme start="20260820055000 +0000" stop="20260820060000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Været</title></programme>
+> output\denmark2.xml:6915:<programme start="20260820062000 +0000" stop="20260820063000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6916:<programme start="20260820063000 +0000" stop="20260820064500 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Nyhetene</title></programme>
+> output\denmark2.xml:6917:<programme start="20260820064500 +0000" stop="20260820065000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6918:<programme start="20260820065000 +0000" stop="20260820070000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Været</title></programme>
+> output\denmark2.xml:6920:<programme start="20260820072000 +0000" stop="20260820073000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6921:<programme start="20260820073000 +0000" stop="20260820074500 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Nyhetene</title></programme>
+> output\denmark2.xml:6922:<programme start="20260820074500 +0000" stop="20260820075000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6923:<programme start="20260820075000 +0000" stop="20260820080000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Været</title></programme>
+> output\denmark2.xml:6925:<programme start="20260820082000 +0000" stop="20260820083000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6926:<programme start="20260820083000 +0000" stop="20260820084500 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Nyhetene</title></programme>
+> output\denmark2.xml:6927:<programme start="20260820084500 +0000" stop="20260820085000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6928:<programme start="20260820085000 +0000" stop="20260820090000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Været</title></programme>
+> output\denmark2.xml:6930:<programme start="20260820092000 +0000" stop="20260820093000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6931:<programme start="20260820093000 +0000" stop="20260820094500 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Nyhetene</title></programme>
+> output\denmark2.xml:6932:<programme start="20260820094500 +0000" stop="20260820095000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6933:<programme start="20260820095000 +0000" stop="20260820102000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Været</title></programme>
+> output\denmark2.xml:6934:<programme start="20260820102000 +0000" stop="20260820103000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6935:<programme start="20260820103000 +0000" stop="20260820104500 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Nyhetene</title></programme>
+> output\denmark2.xml:6936:<programme start="20260820104500 +0000" stop="20260820105000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6937:<programme start="20260820105000 +0000" stop="20260820110000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Været</title></programme>
+> output\denmark2.xml:6939:<programme start="20260820112000 +0000" stop="20260820113000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6940:<programme start="20260820113000 +0000" stop="20260820114500 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Nyhetene 13:30</title></programme>
+> output\denmark2.xml:6941:<programme start="20260820114500 +0000" stop="20260820115000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6942:<programme start="20260820115000 +0000" stop="20260820120000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Været</title></programme>
+> output\denmark2.xml:6944:<programme start="20260820122000 +0000" stop="20260820123000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6945:<programme start="20260820123000 +0000" stop="20260820124500 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Nyhetene</title></programme>
+> output\denmark2.xml:6946:<programme start="20260820124500 +0000" stop="20260820125000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6947:<programme start="20260820125000 +0000" stop="20260820130000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Været</title></programme>
+> output\denmark2.xml:6949:<programme start="20260820132000 +0000" stop="20260820133000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6950:<programme start="20260820133000 +0000" stop="20260820134500 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Nyhetene 15:30</title></programme>
+> output\denmark2.xml:6951:<programme start="20260820134500 +0000" stop="20260820135000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6952:<programme start="20260820135000 +0000" stop="20260820140000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Været</title></programme>
+> output\denmark2.xml:6954:<programme start="20260820142000 +0000" stop="20260820143000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6955:<programme start="20260820143000 +0000" stop="20260820144500 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Nyhetene</title></programme>
+> output\denmark2.xml:6956:<programme start="20260820144500 +0000" stop="20260820145000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6957:<programme start="20260820145000 +0000" stop="20260820150000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Været</title></programme>
+> output\denmark2.xml:6959:<programme start="20260820152000 +0000" stop="20260820153000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6960:<programme start="20260820153000 +0000" stop="20260820154500 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Nyhetene 17:30</title></programme>
+> output\denmark2.xml:6961:<programme start="20260820154500 +0000" stop="20260820155000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6962:<programme start="20260820155000 +0000" stop="20260820160000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Været</title></programme>
+> output\denmark2.xml:6964:<programme start="20260820162000 +0000" stop="20260820163000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6965:<programme start="20260820163000 +0000" stop="20260820164500 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Nyhetene</title></programme>
+> output\denmark2.xml:6967:<programme start="20260820165000 +0000" stop="20260820170000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6968:<programme start="20260820170000 +0000" stop="20260820172000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Nyhetene - hjulet 19 min.</title></programme>
+> output\denmark2.xml:6978:<programme start="20260820193000 +0000" stop="20260820194000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6979:<programme start="20260820194000 +0000" stop="20260820195500 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Nyhetene - hjulet 11..30 min.</title></programme>
+> output\denmark2.xml:6982:<programme start="20260820202000 +0000" stop="20260820203000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6983:<programme start="20260820203000 +0000" stop="20260820204500 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Nyhetene</title></programme>
+> output\denmark2.xml:6985:<programme start="20260820205000 +0000" stop="20260820210000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Sporten</title></programme>
+  output\denmark2.xml:6986:<programme start="20260820210000 +0000" stop="20260820213000 +0000" channel="TV 2 Nyheter No
+rway (NO,NO).dk"><title>Nyhetene</title></programme>
+> output\denmark2.xml:7022:<programme start="20260820154000 +0000" stop="20260820155500 +0000" channel="TV 2 Sport 1 No
+rway (NO,NO).dk"><title>Toppserien: Studio</title><desc>TV 2 Sporten gir deg alt om kampene i Toppserien.</desc></progr
+amme>
+  output\denmark2.xml:7023:<programme start="20260820155500 +0000" stop="20260820180000 +0000" channel="TV 2 Sport 1 No
+rway (NO,NO).dk"><title>Fotball - Toppserien kvinner</title><desc>Landets beste kvinnelag kjemper i den øverste divisjo
+nen i fotball.</desc><episode-num system="xmltv_ns">2025.76.</episode-num></programme>
+> output\denmark2.xml:7454:<programme start="20260819230000 +0000" stop="20260820000000 +0000" channel="TV3 Sport Denma
+rk (DK,DA).dk"><title>Watt the F1!?</title><desc>Formel 1-programmet, hvor Jason Watt giver sit råt for usødede take på
+ ugens mest opsigtsvækkende historier fra motorsportens kongeklasse</desc><icon src="https://raw.githubusercontent.com/
+flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/m
+ain/Sport/tv3sport-generic.jpg" /></programme>
+  output\denmark2.xml:7455:<programme start="20260820070000 +0000" stop="20260820090000 +0000" channel="TV3 Sport Denma
+rk (DK,DA).dk"><title>UEFA Champions League play-off</title><desc>Der venter en intens aften på Celtic Park, når Celtic
+ tager imod LASK Linz i Champions League-playoffen. Det er den første af to kampe, og skotterne vil forsøge at udnytte
+hjemmebanen, mens LASK jagter et stærkt udgangspunkt.</desc><episode-num system="xmltv_ns">2025.5.</episode-num><icon s
+rc="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg" /><backdrop src="https://raw.githubuserc
+ontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg" /></programme>
+> output\denmark2.xml:7463:<programme start="20260820230000 +0000" stop="20260821000000 +0000" channel="TV3 Sport Denma
+rk (DK,DA).dk"><title>Watt the F1!?</title><desc>Formel 1-programmet, hvor Jason Watt giver sit råt for usødede take på
+ ugens mest opsigtsvækkende historier fra motorsportens kongeklasse</desc><icon src="https://raw.githubusercontent.com/
+flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/m
+ain/Sport/tv3sport-generic.jpg" /></programme>
+  output\denmark2.xml:7464:<programme start="20260818235000 +0000" stop="20260819010500 +0000" channel="TV3 Sweden (SE,
+SV).dk"><title>Outlander</title><desc>Baserad på Diana Gabaldons bästsäljande bokserie. Kärleksparet Claire och Jamie s
+lits isär av tid och konflikter men gör allt vad de kan för att vara tillsammans och för att ändra historiens gång.</de
+sc><episode-num system="xmltv_ns">1.9.</episode-num></programme>
+> output\denmark2.xml:8343:<programme start="20260819100000 +0000" stop="20260819130000 +0000" channel="V Sport Golf De
+nmark (DK,DA).dk"><title>USGA Championship</title><desc>Verdens bedste amatørgolfspillere samles på traditionsrige Meri
+on Golf Club i Philadelphia til U.S. Amateur Championship. En af sportens mest prestigefyldte amatørturneringer byder p
+å intens matchplay, store talenter og golf på allerhøjeste niveau.</desc><episode-num system="xmltv_ns">25.31.</episode
+-num></programme>
+  output\denmark2.xml:8344:<programme start="20260819130000 +0000" stop="20260819133000 +0000" channel="V Sport Golf De
+nmark (DK,DA).dk"><title>Dp World Tour Highlights</title><desc>Her får du højdepunkterne fra den seneste turnering på D
+P World Touren.</desc></programme>
+> output\denmark3.xml:472:<programme start="20260819040000 +0000" stop="20260819043000 +0000" channel="DK4.dk"><title>S
+ælfangst</title><desc>I slutningen af april og begyndelsen af maj kravler ringsælerne op på isen for at slikke solskin.
+ Det er en enestående chance for at jage de store proteinbomber og det gøres intensivt i de solrige arktiske dage, der
+vare hele døgnet. Transporten ud til sælerne foregår med hundeslæde, og turen går ind og ud mellem gigantiske isfjelde.
+ Til og med er jagten ganske vanskelig og yderst udfordrende, så der er lagt op til en god portion selverkendelse, når
+Steen Andersen tager på fangst med Martin Uumaak der er fuldtidsfanger i Qaanaaq.</desc></programme>
+  output\denmark3.xml:473:<programme start="20260819043000 +0000" stop="20260819050000 +0000" channel="DK4.dk"><title>F
+iskemagasinet</title><desc>Fiskemagasinet og Mads Hussing er taget til Fyn for at fiske med medeeksperten Peter Juul Ha
+nsen. Han elsker fiskeriet med forfoder, maddiker, majs og håbet om de mange fisk. I dette program fiskes der efter små
+karper. Fiskeriet er med feeder, og hvad det er bliver forklaret i programmet.</desc></programme>
+> output\denmark3.xml:1308:<programme start="20260819060000 +0000" stop="20260819070000 +0000" channel="National Geogra
+phic.dk"><title>Biler i nød</title><desc>Tim og Fuzz udfordres til at påtage sig deres måske mest obskure bil til dato
+– en mindre kendt Cannon trial-konkurrencebil. Den ejes af tidligere buschauffør Dean, fanatiker inden for car trial-sp
+orten, som led et alvorligt slagtilfælde, men nu er ved at komme sig. I deres søgen efter mere viden om trial-sporten e
+nder Tim og Fuzz til en stor begivenhed – du må se med om, hvordan de klarede det.</desc><episode-num system="xmltv_ns"
+>7.8.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg" /></programme>
+  output\denmark3.xml:1309:<programme start="20260819070000 +0000" stop="20260819080000 +0000" channel="National Geogra
+phic.dk"><title>2. Verdenskrig: Det undersøiske helvede</title><desc>Oktober 1944. Efter at blive tilskrevet det første
+ officielle ubådsdrab i Anden Verdenskrig bliver den tyske ubådskommandant Gunther Prien pludselig hjemkaldt før tid og
+ tilbudt en hemmelig mission om at ramme den britiske flåde i hjemhavnen Scapa Flow. Efter at kæmpe mod kraftige strømm
+e og undvige blokskibe bryder Prien gennem forankringen, men der er ingen garanti for, at han kommer ud igen.</desc><ep
+isode-num system="xmltv_ns">2.0.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/SYEpcqbVMejRs3bB5epPaV9wOi.jp
+g" /></programme>
+> output\denmark3.xml:1331:<programme start="20260820050000 +0000" stop="20260820060000 +0000" channel="National Geogra
+phic.dk"><title>Biler i nød</title><desc>Tim og Fuzz udfordres til at påtage sig deres måske mest obskure bil til dato
+– en mindre kendt Cannon trial-konkurrencebil. Den ejes af tidligere buschauffør Dean, fanatiker inden for car trial-sp
+orten, som led et alvorligt slagtilfælde, men nu er ved at komme sig. I deres søgen efter mere viden om trial-sporten e
+nder Tim og Fuzz til en stor begivenhed – du må se med om, hvordan de klarede det.</desc><episode-num system="xmltv_ns"
+>7.8.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg" /></programme>
+  output\denmark3.xml:1332:<programme start="20260820060000 +0000" stop="20260820070000 +0000" channel="National Geogra
+phic.dk"><title>Biler i nød</title><desc>Prisvindende Biler i nød er tilbage i en ottende sæson med bildrømme, der går
+i opfyldelse - større og bedre end nogensinde. Fuzz Townshend og Tim Shaw fortsætter deres mission med at opsøge klassi
+ske biler med velfortjente ejere, smugle dem væk og restaurere dem - til ejernes store overraskelse! Udfordringer i den
+ne sæson omfatter en japansk superbil, en tysk sportscoupé og en britisk rallyvinder.</desc><episode-num system="xmltv_
+ns">8.0.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg" /></programme>
+> output\denmark3.xml:1888:<programme start="20260819040000 +0000" stop="20260819043000 +0000" channel="TV2.dk"><title>
+Nyhederne, Sporten og Ve ...</title><desc>Nyhederne, sporten og vejret.</desc></programme>
+  output\denmark3.xml:1889:<programme start="20260819043000 +0000" stop="20260819100000 +0000" channel="TV2.dk"><title>
+Go' morgen Danmark</title><desc>'Go' morgen Danmark' er hele Danmarks aktualitet- og livsstilsprogram. Start dagen med
+hygge og høje grin - og få stof til eftertanke og samtaleemner, man har lyst til at dele resten af dagen.Veloplagte vær
+terHver morgen giver værterne Mikkel Kryger, Ida Wohlert, Adam Duvå Hall, Louise Wolff, Steen Langeberg og Puk Elgård,
+der på skift har morgentjansen, dig en god start på dagen med inspirerende og relevante historier, kendte og ukendte gæ
+ster i sofaen med noget på hjerte - og med masser af tips til både den gode madlavning, de nyeste bøger og film og tend
+enser inden for mode og bolig. Mad, musik og masser af tipsProgrammet har også fageksperter tilknyttet inden for kultur
+, livsstil og samfund. Du kan for eksempel blive klogere på dyreliv med biolog Anders Kofoed, få tips til madlavningen
+med blandt andre kok Claus Holm eller Mette Blomsterberg, diskutere børneopdragelse med familierådgiver Lola Jensen og
+få politiske analyser med Hans Engell eller Søs Marie Seerup. En succes i mere end 20 årTV 2s 'Go' morgen Danmark' gik
+i luften første gang i 1996, og programmet optages nu direkte fra studiet i Tivoli  og sendes alle ugens dage. Gæstern
+e kommer dog fra hele landet, og 'Go' morgen Danmark' opfordrer dagligt programmets mange seere til at deltage i debatt
+er og dele viden og erfaringer.</desc><icon src="https://image.tmdb.org/t/p/w1280/fy54FNDjCWb0bGIRcTL6bCcthga.jpg" /></
+programme>
+> output\denmark3.xml:1919:<programme start="20260820040000 +0000" stop="20260820043000 +0000" channel="TV2.dk"><title>
+Nyhederne, Sporten og Vejret</title><desc>Nyhederne, sporten og vejret.</desc></programme>
+  output\denmark3.xml:1920:<programme start="20260820043000 +0000" stop="20260820100000 +0000" channel="TV2.dk"><title>
+Go' morgen Danmark</title><desc>'Go' morgen Danmark' er hele Danmarks aktualitet- og livsstilsprogram. Start dagen med
+hygge og høje grin - og få stof til eftertanke og samtaleemner, man har lyst til at dele resten af dagen.Veloplagte vær
+terHver morgen giver værterne Mikkel Kryger, Ida Wohlert, Adam Duvå Hall, Louise Wolff, Steen Langeberg og Puk Elgård,
+der på skift har morgentjansen, dig en god start på dagen med inspirerende og relevante historier, kendte og ukendte gæ
+ster i sofaen med noget på hjerte - og med masser af tips til både den gode madlavning, de nyeste bøger og film og tend
+enser inden for mode og bolig. Mad, musik og masser af tipsProgrammet har også fageksperter tilknyttet inden for kultur
+, livsstil og samfund. Du kan for eksempel blive klogere på dyreliv med biolog Anders Kofoed, få tips til madlavningen
+med blandt andre kok Claus Holm eller Mette Blomsterberg, diskutere børneopdragelse med familierådgiver Lola Jensen og
+få politiske analyser med Hans Engell eller Søs Marie Seerup. En succes i mere end 20 årTV 2s 'Go' morgen Danmark' gik
+i luften første gang i 1996, og programmet optages nu direkte fra studiet i Tivoli  og sendes alle ugens dage. Gæstern
+e kommer dog fra hele landet, og 'Go' morgen Danmark' opfordrer dagligt programmets mange seere til at deltage i debatt
+er og dele viden og erfaringer.</desc><icon src="https://image.tmdb.org/t/p/w1280/fy54FNDjCWb0bGIRcTL6bCcthga.jpg" /></
+programme>
+> output\denmark4.xml:1031:<programme start="20260819202000 +0000" stop="20260819203000 +0000" channel="Cartoonito.dk">
+<title>Snurre Snups byggevenner</title><desc>Marvin Marsmand hyrer Looney-sjakket til at bygge en ydre rumbold-bane på
+Mars. Snurre elsker sporten, og trækker selv med både bolden og byggeriet.</desc><episode-num system="xmltv_ns">.14.</e
+pisode-num><icon src="https://image.tmdb.org/t/p/w1280/n6WUumChp8nAuTcnKFywzJ18UgS.jpg" /></programme>
+  output\denmark4.xml:1032:<programme start="20260819203000 +0000" stop="20260819204000 +0000" channel="Cartoonito.dk">
+<title>Snurre Snups byggevenner</title><desc>Hirse Havmåge hyrer Looney-sjakket til at bygge et tivoli på molen. Holdet
+ bliver besatte af at vinde spillene og glemmer, hvad det vigtigste er.</desc><episode-num system="xmltv_ns">.15.</epis
+ode-num><icon src="https://image.tmdb.org/t/p/w1280/n6WUumChp8nAuTcnKFywzJ18UgS.jpg" /></programme>
+> output\denmark4.xml:1567:<programme start="20260819040000 +0000" stop="20260819043000 +0000" channel="DK4.dk"><title>
+Sælfangst</title><desc>I slutningen af april og begyndelsen af maj kravler ringsælerne op på isen for at slikke solskin
+. Det er en enestående chance for at jage de store proteinbomber og det gøres intensivt i de solrige arktiske dage, der
+ vare hele døgnet. Transporten ud til sælerne foregår med hundeslæde, og turen går ind og ud mellem gigantiske isfjelde
+. Til og med er jagten ganske vanskelig og yderst udfordrende, så der er lagt op til en god portion selverkendelse, når
+ Steen Andersen tager på fangst med Martin Uumaak der er fuldtidsfanger i Qaanaaq.</desc></programme>
+  output\denmark4.xml:1568:<programme start="20260819043000 +0000" stop="20260819050000 +0000" channel="DK4.dk"><title>
+Feederfiskeri efter karper</title><desc>Fiskemagasinet og Mads Hussing er taget til Fyn for at fiske med medeeksperten
+Peter Juul Hansen. Han elsker fiskeriet med forfoder, maddiker, majs og håbet om de mange fisk. I dette program fiskes
+der efter småkarper. Fiskeriet er med feeder, og hvad det er bliver forklaret i programmet.</desc><episode-num system="
+xmltv_ns">.0.</episode-num></programme>
+> output\denmark4.xml:2206:<programme start="20260819053000 +0000" stop="20260819060000 +0000" channel="Kanal Hovedstad
+en.dk"><title>Lad sommerens glæder påvirke efterårets arbejdsliv</title><desc>Hvordan man tage sommerferiens lystbetone
+de liv med i hverdagen, når ferien er slut? Ifølge PFA’s sundhedschef Rikke Bay Haaber er antallet af stresstilfælde st
+eget de seneste to år hos medlemmerne af fagforeninger som HK og Dansk Magisterforening.</desc></programme>
+  output\denmark4.xml:2207:<programme start="20260819060000 +0000" stop="20260819064500 +0000" channel="Kanal Hovedstad
+en.dk"><title>Byvandring i Roskilde fra Stændertorvet til Haraldas Plads</title><desc>Tag med journalist Henrik Denman
+på byvandring i Roskilde til: 1) Kirketårnet Sankt Laurentius på Stændertorvet – Roskilde som middelalderens magtcentru
+m. 2) Stander ved Det Kongelige Palæ – Roskilde som kildernes by. 3) Det Kongelige Palæ i gården – historien om vores d
+emokrati. 4) Sukkerhuset ved Sct. Ols Gade – Roskilde i slavetiden i 1700-tallet. 5) Pladsen ved Roskilde Museum – kuns
+t, museum og rindende vand. 6) Haraldas Plads – en pioner i biblioteksverdenen. 7) Græsplænen bag Børnenes Hus – vægmal
+eri, det gamle kloster og maleren J.A. Jerichaus fødested. 8)    Roskilde Bibliotek – eks. på Julius Bomholts nye kultu
+rpolitik med kunsten ud til folket.</desc></programme>
+> output\denmark4.xml:2233:<programme start="20260819040000 +0000" stop="20260819043000 +0000" channel="Kosmopol (Digit
+al).dk"><title>Nyhederne, Sporten og Vejret</title><desc>Nyhederne, sporten og vejret.</desc></programme>
+  output\denmark4.xml:2234:<programme start="20260819043000 +0000" stop="20260819100000 +0000" channel="Kosmopol (Digit
+al).dk"><title>Go' morgen Danmark</title><desc>'Go' morgen Danmark' er hele Danmarks aktualitet- og livsstilsprogram. S
+tart dagen med hygge og høje grin - og få stof til eftertanke og samtaleemner, man har lyst til at dele resten af dagen
+.</desc><episode-num system="xmltv_ns">.163.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/fy54FNDjCWb0bGIRc
+TL6bCcthga.jpg" /></programme>
+> output\denmark4.xml:2235:<programme start="20260819100000 +0000" stop="20260819103500 +0000" channel="Kosmopol (Digit
+al).dk"><title>12 News</title><desc>12 Nyhederne, Sporten og Vejret.</desc></programme>
+  output\denmark4.xml:2236:<programme start="20260819103500 +0000" stop="20260819112500 +0000" channel="Kosmopol (Digit
+al).dk"><title>Beliggenhed, beliggenhed, beliggenhed</title><desc>Peter Ingemann skal hjælpe parret Anja og Peter med s
+ønnen Otto på to år. De vil gerne blive boende i København, men de er på jagt efter den uopdagede beliggenhed, hvor all
+e andre vil bo om ti år, og med en købesum på 8,5 millioner er barren for den kommende drømmebolig sat højt. Rune og Le
+a og deres lille søn Wilbert drømmer om at komme ud af lejligheden på Østerbro og tættere på naturen, men Sara Luygum k
+ommer på lidt af en opgave, når hun skal forene familiens mange boligønsker med en beliggenhed maksimalt 45 min. fra Kø
+benhavn.</desc><episode-num system="xmltv_ns">.6.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/kNk4unhxVfel
+eq0CtaZ916FlhS4.jpg" /></programme>
+> output\denmark4.xml:2267:<programme start="20260820100000 +0000" stop="20260820103500 +0000" channel="Kosmopol (Digit
+al).dk"><title>12 News</title><desc>12 Nyhederne, Sporten og Vejret.</desc></programme>
+  output\denmark4.xml:2268:<programme start="20260820103500 +0000" stop="20260820112500 +0000" channel="Kosmopol (Digit
+al).dk"><title>Beliggenhed, beliggenhed, beliggenhed</title><desc>Når familien vokser, føles det ofte som om, at bolige
+n skrumper, og så opstår behovet for mere plads. Sara Lygums par, Tinna og Simon, bor i en ejerlejlighed i København me
+d deres to små piger. De ønsker sig flere kvadratmeter og en have, hvor familien kan udfolde sig i cykelafstand til bye
+n. Sandie og Erik og deres to drenge bor til leje, og de vil gerne investere i mere plads til familien, men der er mang
+e udfordrende aspekter ved et huskøb, og derfor har de brug for Peter Ingemanns hjælp til at guide dem igennem boligjun
+glen.</desc><episode-num system="xmltv_ns">.7.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/kNk4unhxVfeleq0
+CtaZ916FlhS4.jpg" /></programme>
+> output\denmark4.xml:2387:<programme start="20260819060000 +0000" stop="20260819070000 +0000" channel="National Geogra
+phic Channel.dk"><title>Biler i nød</title><desc>Tim og Fuzz udfordres til at påtage sig deres måske mest obskure bil t
+il dato - en mindre kendt Cannon trial-konkurrencebil. Den ejes af tidligere buschauffør Dean, fanatiker inden for car
+trial-sporten, som led et alvorligt slagtilfælde, men nu er ved at komme sig. I deres søgen efter mere viden om trial-s
+porten ender Tim og Fuzz til en stor begivenhed - du må se med om, hvordan de klarede det.</desc><episode-num system="x
+mltv_ns">.8.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg" /></programme>
+  output\denmark4.xml:2388:<programme start="20260819070000 +0000" stop="20260819080000 +0000" channel="National Geogra
+phic Channel.dk"><title>2. verdenskrig: Det undersøiske helvede</title><desc>Oktober 1944. Efter at blive tilskrevet de
+t første officielle ubådsdrab i Anden Verdenskrig bliver den tyske ubådskommandant Gunther Prien pludselig hjemkaldt fø
+r tid og tilbudt en hemmelig mission om at ramme den britiske flåde i hjemhavnen Scapa Flow. Efter at kæmpe mod kraftig
+e strømme og undvige blokskibe bryder Prien gennem forankringen, men der er ingen garanti for, at han kommer ud igen.</
+desc><episode-num system="xmltv_ns">.0.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/SYEpcqbVMejRs3bB5epPaV
+9wOi.jpg" /></programme>
+> output\denmark4.xml:2409:<programme start="20260820050000 +0000" stop="20260820060000 +0000" channel="National Geogra
+phic Channel.dk"><title>Biler i nød</title><desc>Tim og Fuzz udfordres til at påtage sig deres måske mest obskure bil t
+il dato - en mindre kendt Cannon trial-konkurrencebil. Den ejes af tidligere buschauffør Dean, fanatiker inden for car
+trial-sporten, som led et alvorligt slagtilfælde, men nu er ved at komme sig. I deres søgen efter mere viden om trial-s
+porten ender Tim og Fuzz til en stor begivenhed - du må se med om, hvordan de klarede det.</desc><episode-num system="x
+mltv_ns">.8.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg" /></programme>
+  output\denmark4.xml:2410:<programme start="20260820060000 +0000" stop="20260820070000 +0000" channel="National Geogra
+phic Channel.dk"><title>Biler i nød</title><desc>Prisvindende Biler i nød er tilbage i en ottende sæson med bildrømme,
+der går i opfyldelse - større og bedre end nogensinde. Fuzz Townshend og Tim Shaw fortsætter deres mission med at opsøg
+e klassiske biler med velfortjente ejere, smugle dem væk og restaurere dem - til ejernes store overraskelse! Udfordring
+er i denne sæson omfatter en japansk superbil, en tysk sportscoupé og en britisk rallyvinder.</desc><episode-num system
+="xmltv_ns">.0.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg" /></programme
+>
+> output\denmark4.xml:2866:<programme start="20260819210000 +0000" stop="20260819211000 +0000" channel="NRK1.dk"><title
+>NRK Aftennyheder</title><desc>Sidste nyt fra NRK's nyhedsredaktion. Desuden sporten samt vejret.</desc><episode-num sy
+stem="xmltv_ns">.230.</episode-num></programme>
+  output\denmark4.xml:2867:<programme start="20260819211000 +0000" stop="20260819215500 +0000" channel="NRK1.dk"><title
+>Devil in the Family: The Fall of Ruby Franke</title><desc>Familien Franke er i tiltagende grad isolerede, og folk prøv
+er at finde ud af, hvad der foregår.</desc><episode-num system="xmltv_ns">.2.</episode-num></programme>
+> output\denmark4.xml:2897:<programme start="20260820210000 +0000" stop="20260820211000 +0000" channel="NRK1.dk"><title
+>NRK Aftennyheder</title><desc>Sidste nyt fra NRK's nyhedsredaktion. Desuden sporten samt vejret.</desc><episode-num sy
+stem="xmltv_ns">.231.</episode-num></programme>
+  output\denmark4.xml:2898:<programme start="20260820211000 +0000" stop="20260820215000 +0000" channel="NRK1.dk"><title
+>Folk</title><desc>I et gammelt skolestue skaber Ola Bremnes musik, der når ud til et stort publikum. Men det var tæt p
+å at koste ham livet, før den helt store inspiration for alvor ramte ham.</desc><episode-num system="xmltv_ns">.0.</epi
+sode-num></programme>
+> output\denmark4.xml:3057:<programme start="20260819183500 +0000" stop="20260819201000 +0000" channel="Oiii.dk"><title
+>Far til fire på landet</title><desc>Det er blevet sommerferie, og de fleste børn er taget glade ud i det danske sommer
+land med deres familier. Men Far (Karl Stegger) vil blive hjemme i ferien, og den beslutning møder modstand hos børnene
+. Takket være Peter (Ib Mossin) kan hele familien snart drage afsted til en lille fiskerby i Jylland. Her får de en fan
+tastisk ferie, der indeholder strandture, farlige robådsture til havs, og et mindre jalousidrama, som Søs (Birgitte Pri
+ce) er en del af.I denne tredje 'Far til fire'-film overtager Karl Stegger rollen som far efter Ib Schønberg.</desc><ic
+on src="https://image.tmdb.org/t/p/w1280/k1vCxsCDiGdigpTh9TKMDxj3P6l.jpg" /></programme>
+  output\denmark4.xml:3058:<programme start="20260819201000 +0000" stop="20260819212500 +0000" channel="Oiii.dk"><title
+>Far til fire - til søs</title><desc>Søs skal giftes med Peter, men midt i forberedelserne til brylluppet må Far til fi
+re-familien afsted til Det Fynske Øhav, for at hjælpe Peters plejefar Skipper (Bjarne Henriksen), der har store problem
+er. Han er den stolte kaptajn på skoleskibet Valborg, men det er i så dårlig stand, at han kun kan redde det, hvis han
+vinder førstepræmien i den årlige kapsejlads for gamle træskibe. Per overtaler familien til at stikke til søs og prøve
+at hjælpe Skipper, men besætningen på det konkurrerende skib Medusa bruger alle midler for at vinde sejladsen. Snart er
+ der en nervepirrende dyst i blæst og bølger på åbent hav. Vil det lykkes familien både at redde skibet - og holde bryl
+lup for Søs og Peter?</desc></programme>
+> output\denmark4.xml:3131:<programme start="20260820201000 +0000" stop="20260820214000 +0000" channel="Oiii.dk"><title
+>Far til fire på landet</title><desc>Det er blevet sommerferie, og de fleste børn er taget glade ud i det danske sommer
+land med deres familier. Men Far (Karl Stegger) vil blive hjemme i ferien, og den beslutning møder modstand hos børnene
+. Takket være Peter (Ib Mossin) kan hele familien snart drage afsted til en lille fiskerby i Jylland. Her får de en fan
+tastisk ferie, der indeholder strandture, farlige robådsture til havs, og et mindre jalousidrama, som Søs (Birgitte Pri
+ce) er en del af.I denne tredje 'Far til fire'-film overtager Karl Stegger rollen som far efter Ib Schønberg.</desc><ic
+on src="https://image.tmdb.org/t/p/w1280/k1vCxsCDiGdigpTh9TKMDxj3P6l.jpg" /></programme>
+  output\denmark4.xml:3132:<programme start="20260820214000 +0000" stop="20260820230000 +0000" channel="Oiii.dk"><title
+>Snøvsen ta'r springet</title><desc>Eigils familie er kommet i en slem knibe. De skal inden månedens udgang skaffe 500.
+000 kroner for at få lov til at blive boende i deres hus. Snøvsen og Eigil drager ud i den store verden for at tjene pe
+nge, og det bringer dem blandt andet til Cirkus Frederico med den skumle direktør, der prøver at snyde Snøvsen for dens
+ løn.</desc></programme>
+> output\denmark4.xml:3450:<programme start="20260819142000 +0000" stop="20260819145500 +0000" channel="See.dk"><title>
+The Big Bang Theory</title><desc>Fyrene har fået et prestigefuldt tilbud om at tilbringe sommerferien med at arbejde ve
+d en forskningsstation på Nordpolen. Men Pennys reaktion på den nyhed får Leonard til at tvivle på, om han nu også har
+lyst til at tage med.</desc><episode-num system="xmltv_ns">.22.</episode-num></programme>
+  output\denmark4.xml:3451:<programme start="20260819145500 +0000" stop="20260819152500 +0000" channel="See.dk"><title>
+Kongen af Queens</title><desc>Holly er blevet sparket ud af sin lejlighed og får lov til at bo i kælderen med Arthur. D
+oug ser hurtigt fordelene ved, at have to kvinder i sit hus.</desc><episode-num system="xmltv_ns">.23.</episode-num></p
+rogramme>
+> output\denmark4.xml:3484:<programme start="20260820131500 +0000" stop="20260820134500 +0000" channel="See.dk"><title>
+The Big Bang Theory</title><desc>Fyrene har fået et prestigefuldt tilbud om at tilbringe sommerferien med at arbejde ve
+d en forskningsstation på Nordpolen. Men Pennys reaktion på den nyhed får Leonard til at tvivle på, om han nu også har
+lyst til at tage med.</desc><episode-num system="xmltv_ns">.22.</episode-num></programme>
+  output\denmark4.xml:3485:<programme start="20260820134500 +0000" stop="20260820142000 +0000" channel="See.dk"><title>
+The Big Bang Theory</title><desc>Da Sheldon opdager, at Leonard, Raj og Howard forfalskede forskningsresultaterne af ha
+ns arktiske ekspedition, må han vanæret vende hjem til Texas. Gutterne følger efter ham, hvilket spolerer Leonards chan
+ce for mødes med Penny.</desc><episode-num system="xmltv_ns">.0.</episode-num></programme>
+> output\denmark4.xml:3515:<programme start="20260819220000 +0000" stop="20260819233500 +0000" channel="SF-kanalen.dk">
+<title>Kim Novak badede aldrig i Genesarets sø</title><desc>Fjortenårige Erik tilbringer en sommer i begyndelsen af 60'
+erne ved sommerferiestedet Genesaret. Her opholder den smukke Kim Novak, som i virkeligheden hedder Ewa og er Eriks lær
+erinde, sig også. Mens sommeren skrider frem, bliver de mærke skyer i horisonten tydeligere og tydeligere.</desc></prog
+ramme>
+  output\denmark4.xml:3516:<programme start="20260819233500 +0000" stop="20260820012500 +0000" channel="SF-kanalen.dk">
+<title>Oprøret i Ådalen</title><desc>Bo Widerbergs drama om de skæbnesvangre strejker i Ådalen i sommeren 1931, hvor bl
+andt andet fem arbejdere skydes og dræbes af militæret ved en demonstration. Fortællingen handler om arbejderfamilierne
+ og deres hårde kamp mod fattigdom.</desc></programme>
+> output\denmark4.xml:3691:<programme start="20260819102000 +0000" stop="20260819102500 +0000" channel="SUPERRTL.dk"><t
+itle>Grizzy og lemmingerne</title><desc>Grizzy finder gelé med yummysmag. Lemmingerne opdager en bog om Robin Hood og b
+ruger den som inspiration til at stjæle bjørnens festmåltid.</desc><episode-num system="xmltv_ns">.67.</episode-num></p
+rogramme>
+  output\denmark4.xml:3692:<programme start="20260819102500 +0000" stop="20260819103000 +0000" channel="SUPERRTL.dk"><t
+itle>Grizzy og lemmingerne</title><desc>Lemmingerne har arrangeret et trylleshow i stuen, men Grizzy smider lemmingerne
+ ud, som finder mærkeligt opstillede bautasten på de skotske heder.</desc><episode-num system="xmltv_ns">.68.</episode-
+num></programme>
+> output\denmark4.xml:4030:<programme start="20260819040000 +0000" stop="20260819043000 +0000" channel="TV 2 Danmark.dk
+"><title>Nyhederne, Sporten og Vejret</title></programme>
+  output\denmark4.xml:4031:<programme start="20260819043000 +0000" stop="20260819100000 +0000" channel="TV 2 Danmark.dk
+"><title>Go' morgen Danmark</title><icon src="https://image.tmdb.org/t/p/w1280/fy54FNDjCWb0bGIRcTL6bCcthga.jpg" /></pro
+gramme>
+> output\denmark4.xml:4061:<programme start="20260820040000 +0000" stop="20260820043000 +0000" channel="TV 2 Danmark.dk
+"><title>Nyhederne, Sporten og Vejret</title></programme>
+  output\denmark4.xml:4062:<programme start="20260820043000 +0000" stop="20260820100000 +0000" channel="TV 2 Danmark.dk
+"><title>Go' morgen Danmark</title><icon src="https://image.tmdb.org/t/p/w1280/fy54FNDjCWb0bGIRcTL6bCcthga.jpg" /></pro
+gramme>
+> output\denmark4.xml:4260:<programme start="20260819165000 +0000" stop="20260819170000 +0000" channel="TV 2 Norge.dk">
+<title>Sporten</title><episode-num system="xmltv_ns">.230.</episode-num></programme>
+  output\denmark4.xml:4261:<programme start="20260819170000 +0000" stop="20260819175500 +0000" channel="TV 2 Norge.dk">
+<title>Norges dummeste</title><desc>Det er finale og deltakerne er desperate. Ingen vil stå igjen med tittelen alle fry
+kter – og leve med den resten av livet.</desc><episode-num system="xmltv_ns">.9.</episode-num></programme>
+> output\denmark4.xml:4265:<programme start="20260819193000 +0000" stop="20260819194000 +0000" channel="TV 2 Norge.dk">
+<title>Sporten</title><episode-num system="xmltv_ns">.230.</episode-num></programme>
+  output\denmark4.xml:4266:<programme start="20260819194000 +0000" stop="20260819201500 +0000" channel="TV 2 Norge.dk">
+<title>Fjellhytta</title><desc>Hytteskiltet vekker sterke minner hos noen, og kvelden før finaledagen tar alle seg tid
+til en ordentlig overraskelse for en av deltagerne. Innspurten blir hektisk, og alle strekker seg langt for å innkasser
+e gullhammer nummer tre.</desc><episode-num system="xmltv_ns">.17.</episode-num></programme>
+> output\denmark4.xml:4291:<programme start="20260820165000 +0000" stop="20260820170000 +0000" channel="TV 2 Norge.dk">
+<title>Sporten</title><episode-num system="xmltv_ns">.231.</episode-num></programme>
+  output\denmark4.xml:4292:<programme start="20260820170000 +0000" stop="20260820175500 +0000" channel="TV 2 Norge.dk">
+<title>Huskestue</title><desc>De første til å utfordre Dag Otto Lauritzen i kunnskapsquiz på lavt, lavt nivå denne seso
+ngen, er Tshawe Baqwa og Yosef Wolde-Mariam. Men kan de nok om «USA» og ting som begynner på «Bokstaven K» til å vinne
+over quizlegenden Dag Otto og alpinisten Ragnhild Mowinckel?</desc><episode-num system="xmltv_ns">.0.</episode-num></pr
+ogramme>
+> output\denmark4.xml:4296:<programme start="20260820193000 +0000" stop="20260820194000 +0000" channel="TV 2 Norge.dk">
+<title>Sporten</title><episode-num system="xmltv_ns">.231.</episode-num></programme>
+  output\denmark4.xml:4297:<programme start="20260820194000 +0000" stop="20260820201500 +0000" channel="TV 2 Norge.dk">
+<title>Farmen</title><desc>Storbonden kommer opp med en slu plan for å prøve å møte godseiers krav og stå imot sabotasj
+e.</desc><episode-num system="xmltv_ns">.5.</episode-num></programme>
+> output\denmark4.xml:4459:<programme start="20260819040000 +0000" stop="20260819043000 +0000" channel="TV 2/Bornholm.d
+k"><title>Nyhederne, Sporten og Vejret</title><desc>Nyhederne, sporten og vejret.</desc></programme>
+  output\denmark4.xml:4460:<programme start="20260819043000 +0000" stop="20260819100000 +0000" channel="TV 2/Bornholm.d
+k"><title>Go' morgen Danmark</title><desc>'Go' morgen Danmark' er hele Danmarks aktualitet- og livsstilsprogram. Start
+dagen med hygge og høje grin - og få stof til eftertanke og samtaleemner, man har lyst til at dele resten af dagen.</de
+sc><episode-num system="xmltv_ns">.163.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/fy54FNDjCWb0bGIRcTL6bC
+cthga.jpg" /></programme>
+> output\denmark4.xml:4461:<programme start="20260819100000 +0000" stop="20260819103500 +0000" channel="TV 2/Bornholm.d
+k"><title>12 News</title><desc>12 Nyhederne, Sporten og Vejret.</desc></programme>
+  output\denmark4.xml:4462:<programme start="20260819103500 +0000" stop="20260819112500 +0000" channel="TV 2/Bornholm.d
+k"><title>Beliggenhed, beliggenhed, beliggenhed</title><desc>Peter Ingemann skal hjælpe parret Anja og Peter med sønnen
+ Otto på to år. De vil gerne blive boende i København, men de er på jagt efter den uopdagede beliggenhed, hvor alle and
+re vil bo om ti år, og med en købesum på 8,5 millioner er barren for den kommende drømmebolig sat højt. Rune og Lea og
+deres lille søn Wilbert drømmer om at komme ud af lejligheden på Østerbro og tættere på naturen, men Sara Luygum kommer
+ på lidt af en opgave, når hun skal forene familiens mange boligønsker med en beliggenhed maksimalt 45 min. fra Københa
+vn.</desc><episode-num system="xmltv_ns">.6.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/kNk4unhxVfeleq0Ct
+aZ916FlhS4.jpg" /></programme>
+> output\denmark4.xml:4495:<programme start="20260820100000 +0000" stop="20260820103500 +0000" channel="TV 2/Bornholm.d
+k"><title>12 News</title><desc>12 Nyhederne, Sporten og Vejret.</desc></programme>
+  output\denmark4.xml:4496:<programme start="20260820103500 +0000" stop="20260820112500 +0000" channel="TV 2/Bornholm.d
+k"><title>Beliggenhed, beliggenhed, beliggenhed</title><desc>Når familien vokser, føles det ofte som om, at boligen skr
+umper, og så opstår behovet for mere plads. Sara Lygums par, Tinna og Simon, bor i en ejerlejlighed i København med der
+es to små piger. De ønsker sig flere kvadratmeter og en have, hvor familien kan udfolde sig i cykelafstand til byen. Sa
+ndie og Erik og deres to drenge bor til leje, og de vil gerne investere i mere plads til familien, men der er mange udf
+ordrende aspekter ved et huskøb, og derfor har de brug for Peter Ingemanns hjælp til at guide dem igennem boligjunglen.
+</desc><episode-num system="xmltv_ns">.7.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/kNk4unhxVfeleq0CtaZ9
+16FlhS4.jpg" /></programme>
+> output\denmark4.xml:4529:<programme start="20260819040000 +0000" stop="20260819043000 +0000" channel="TV 2| Østjyllan
+d.dk"><title>Nyhederne, Sporten og Vejret</title><desc>Nyhederne, sporten og vejret.</desc></programme>
+  output\denmark4.xml:4530:<programme start="20260819043000 +0000" stop="20260819100000 +0000" channel="TV 2| Østjyllan
+d.dk"><title>Go' morgen Danmark</title><desc>'Go' morgen Danmark' er hele Danmarks aktualitet- og livsstilsprogram. Sta
+rt dagen med hygge og høje grin - og få stof til eftertanke og samtaleemner, man har lyst til at dele resten af dagen.<
+/desc><episode-num system="xmltv_ns">.163.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/fy54FNDjCWb0bGIRcTL
+6bCcthga.jpg" /></programme>
+> output\denmark4.xml:4531:<programme start="20260819100000 +0000" stop="20260819103500 +0000" channel="TV 2| Østjyllan
+d.dk"><title>12 News</title><desc>12 Nyhederne, Sporten og Vejret.</desc></programme>
+  output\denmark4.xml:4532:<programme start="20260819103500 +0000" stop="20260819112500 +0000" channel="TV 2| Østjyllan
+d.dk"><title>Beliggenhed, beliggenhed, beliggenhed</title><desc>Peter Ingemann skal hjælpe parret Anja og Peter med søn
+nen Otto på to år. De vil gerne blive boende i København, men de er på jagt efter den uopdagede beliggenhed, hvor alle
+andre vil bo om ti år, og med en købesum på 8,5 millioner er barren for den kommende drømmebolig sat højt. Rune og Lea
+og deres lille søn Wilbert drømmer om at komme ud af lejligheden på Østerbro og tættere på naturen, men Sara Luygum kom
+mer på lidt af en opgave, når hun skal forene familiens mange boligønsker med en beliggenhed maksimalt 45 min. fra Købe
+nhavn.</desc><episode-num system="xmltv_ns">.6.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/kNk4unhxVfeleq
+0CtaZ916FlhS4.jpg" /></programme>
+> output\denmark4.xml:4561:<programme start="20260820100000 +0000" stop="20260820103500 +0000" channel="TV 2| Østjyllan
+d.dk"><title>12 News</title><desc>12 Nyhederne, Sporten og Vejret.</desc></programme>
+  output\denmark4.xml:4562:<programme start="20260820103500 +0000" stop="20260820112500 +0000" channel="TV 2| Østjyllan
+d.dk"><title>Beliggenhed, beliggenhed, beliggenhed</title><desc>Når familien vokser, føles det ofte som om, at boligen
+skrumper, og så opstår behovet for mere plads. Sara Lygums par, Tinna og Simon, bor i en ejerlejlighed i København med
+deres to små piger. De ønsker sig flere kvadratmeter og en have, hvor familien kan udfolde sig i cykelafstand til byen.
+ Sandie og Erik og deres to drenge bor til leje, og de vil gerne investere i mere plads til familien, men der er mange
+udfordrende aspekter ved et huskøb, og derfor har de brug for Peter Ingemanns hjælp til at guide dem igennem boligjungl
+en.</desc><episode-num system="xmltv_ns">.7.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/kNk4unhxVfeleq0Ct
+aZ916FlhS4.jpg" /></programme>
+> output\denmark4.xml:4590:<programme start="20260819040000 +0000" stop="20260819043000 +0000" channel="TV Fyn.dk"><tit
+le>Nyhederne, Sporten og Vejret</title><desc>Nyhederne, sporten og vejret.</desc></programme>
+  output\denmark4.xml:4591:<programme start="20260819043000 +0000" stop="20260819100000 +0000" channel="TV Fyn.dk"><tit
+le>Go' morgen Danmark</title><desc>'Go' morgen Danmark' er hele Danmarks aktualitet- og livsstilsprogram. Start dagen m
+ed hygge og høje grin - og få stof til eftertanke og samtaleemner, man har lyst til at dele resten af dagen.</desc><epi
+sode-num system="xmltv_ns">.163.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/fy54FNDjCWb0bGIRcTL6bCcthga.j
+pg" /></programme>
+> output\denmark4.xml:4592:<programme start="20260819100000 +0000" stop="20260819103500 +0000" channel="TV Fyn.dk"><tit
+le>12 News</title><desc>12 Nyhederne, Sporten og Vejret.</desc></programme>
+  output\denmark4.xml:4593:<programme start="20260819103500 +0000" stop="20260819112500 +0000" channel="TV Fyn.dk"><tit
+le>Beliggenhed, beliggenhed, beliggenhed</title><desc>Peter Ingemann skal hjælpe parret Anja og Peter med sønnen Otto p
+å to år. De vil gerne blive boende i København, men de er på jagt efter den uopdagede beliggenhed, hvor alle andre vil
+bo om ti år, og med en købesum på 8,5 millioner er barren for den kommende drømmebolig sat højt. Rune og Lea og deres l
+ille søn Wilbert drømmer om at komme ud af lejligheden på Østerbro og tættere på naturen, men Sara Luygum kommer på lid
+t af en opgave, når hun skal forene familiens mange boligønsker med en beliggenhed maksimalt 45 min. fra København.</de
+sc><episode-num system="xmltv_ns">.6.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/kNk4unhxVfeleq0CtaZ916Fl
+hS4.jpg" /></programme>
+> output\denmark4.xml:4625:<programme start="20260820100000 +0000" stop="20260820103500 +0000" channel="TV Fyn.dk"><tit
+le>12 News</title><desc>12 Nyhederne, Sporten og Vejret.</desc></programme>
+  output\denmark4.xml:4626:<programme start="20260820103500 +0000" stop="20260820112500 +0000" channel="TV Fyn.dk"><tit
+le>Beliggenhed, beliggenhed, beliggenhed</title><desc>Når familien vokser, føles det ofte som om, at boligen skrumper,
+og så opstår behovet for mere plads. Sara Lygums par, Tinna og Simon, bor i en ejerlejlighed i København med deres to s
+må piger. De ønsker sig flere kvadratmeter og en have, hvor familien kan udfolde sig i cykelafstand til byen. Sandie og
+ Erik og deres to drenge bor til leje, og de vil gerne investere i mere plads til familien, men der er mange udfordrend
+e aspekter ved et huskøb, og derfor har de brug for Peter Ingemanns hjælp til at guide dem igennem boligjunglen.</desc>
+<episode-num system="xmltv_ns">.7.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/kNk4unhxVfeleq0CtaZ916FlhS4
+.jpg" /></programme>
+> output\denmark4.xml:4657:<programme start="20260819040000 +0000" stop="20260819043000 +0000" channel="TV Syd.dk"><tit
+le>Nyhederne, Sporten og Vejret</title><desc>Nyhederne, sporten og vejret.</desc></programme>
+  output\denmark4.xml:4658:<programme start="20260819043000 +0000" stop="20260819100000 +0000" channel="TV Syd.dk"><tit
+le>Go' morgen Danmark</title><desc>'Go' morgen Danmark' er hele Danmarks aktualitet- og livsstilsprogram. Start dagen m
+ed hygge og høje grin - og få stof til eftertanke og samtaleemner, man har lyst til at dele resten af dagen.</desc><epi
+sode-num system="xmltv_ns">.163.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/fy54FNDjCWb0bGIRcTL6bCcthga.j
+pg" /></programme>
+> output\denmark4.xml:4659:<programme start="20260819100000 +0000" stop="20260819103500 +0000" channel="TV Syd.dk"><tit
+le>12 News</title><desc>12 Nyhederne, Sporten og Vejret.</desc></programme>
+  output\denmark4.xml:4660:<programme start="20260819103500 +0000" stop="20260819112500 +0000" channel="TV Syd.dk"><tit
+le>Beliggenhed, beliggenhed, beliggenhed</title><desc>Peter Ingemann skal hjælpe parret Anja og Peter med sønnen Otto p
+å to år. De vil gerne blive boende i København, men de er på jagt efter den uopdagede beliggenhed, hvor alle andre vil
+bo om ti år, og med en købesum på 8,5 millioner er barren for den kommende drømmebolig sat højt. Rune og Lea og deres l
+ille søn Wilbert drømmer om at komme ud af lejligheden på Østerbro og tættere på naturen, men Sara Luygum kommer på lid
+t af en opgave, når hun skal forene familiens mange boligønsker med en beliggenhed maksimalt 45 min. fra København.</de
+sc><episode-num system="xmltv_ns">.6.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/kNk4unhxVfeleq0CtaZ916Fl
+hS4.jpg" /></programme>
+> output\denmark4.xml:4690:<programme start="20260820100000 +0000" stop="20260820103500 +0000" channel="TV Syd.dk"><tit
+le>12 News</title><desc>12 Nyhederne, Sporten og Vejret.</desc></programme>
+  output\denmark4.xml:4691:<programme start="20260820103500 +0000" stop="20260820112500 +0000" channel="TV Syd.dk"><tit
+le>Beliggenhed, beliggenhed, beliggenhed</title><desc>Når familien vokser, føles det ofte som om, at boligen skrumper,
+og så opstår behovet for mere plads. Sara Lygums par, Tinna og Simon, bor i en ejerlejlighed i København med deres to s
+må piger. De ønsker sig flere kvadratmeter og en have, hvor familien kan udfolde sig i cykelafstand til byen. Sandie og
+ Erik og deres to drenge bor til leje, og de vil gerne investere i mere plads til familien, men der er mange udfordrend
+e aspekter ved et huskøb, og derfor har de brug for Peter Ingemanns hjælp til at guide dem igennem boligjunglen.</desc>
+<episode-num system="xmltv_ns">.7.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/kNk4unhxVfeleq0CtaZ916FlhS4
+.jpg" /></programme>
+> output\denmark4.xml:4720:<programme start="20260819040000 +0000" stop="20260819043000 +0000" channel="TV/Midt-Vest.dk
+"><title>Nyhederne, Sporten og Vejret</title><desc>Nyhederne, sporten og vejret.</desc></programme>
+  output\denmark4.xml:4721:<programme start="20260819043000 +0000" stop="20260819100000 +0000" channel="TV/Midt-Vest.dk
+"><title>Go' morgen Danmark</title><desc>'Go' morgen Danmark' er hele Danmarks aktualitet- og livsstilsprogram. Start d
+agen med hygge og høje grin - og få stof til eftertanke og samtaleemner, man har lyst til at dele resten af dagen.</des
+c><episode-num system="xmltv_ns">.163.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/fy54FNDjCWb0bGIRcTL6bCc
+thga.jpg" /></programme>
+> output\denmark4.xml:4722:<programme start="20260819100000 +0000" stop="20260819103500 +0000" channel="TV/Midt-Vest.dk
+"><title>12 News</title><desc>12 Nyhederne, Sporten og Vejret.</desc></programme>
+  output\denmark4.xml:4723:<programme start="20260819103500 +0000" stop="20260819112500 +0000" channel="TV/Midt-Vest.dk
+"><title>Beliggenhed, beliggenhed, beliggenhed</title><desc>Peter Ingemann skal hjælpe parret Anja og Peter med sønnen
+Otto på to år. De vil gerne blive boende i København, men de er på jagt efter den uopdagede beliggenhed, hvor alle andr
+e vil bo om ti år, og med en købesum på 8,5 millioner er barren for den kommende drømmebolig sat højt. Rune og Lea og d
+eres lille søn Wilbert drømmer om at komme ud af lejligheden på Østerbro og tættere på naturen, men Sara Luygum kommer
+på lidt af en opgave, når hun skal forene familiens mange boligønsker med en beliggenhed maksimalt 45 min. fra Københav
+n.</desc><episode-num system="xmltv_ns">.6.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/kNk4unhxVfeleq0Cta
+Z916FlhS4.jpg" /></programme>
+> output\denmark4.xml:4754:<programme start="20260820100000 +0000" stop="20260820103500 +0000" channel="TV/Midt-Vest.dk
+"><title>12 News</title><desc>12 Nyhederne, Sporten og Vejret.</desc></programme>
+  output\denmark4.xml:4755:<programme start="20260820103500 +0000" stop="20260820112500 +0000" channel="TV/Midt-Vest.dk
+"><title>Beliggenhed, beliggenhed, beliggenhed</title><desc>Når familien vokser, føles det ofte som om, at boligen skru
+mper, og så opstår behovet for mere plads. Sara Lygums par, Tinna og Simon, bor i en ejerlejlighed i København med dere
+s to små piger. De ønsker sig flere kvadratmeter og en have, hvor familien kan udfolde sig i cykelafstand til byen. San
+die og Erik og deres to drenge bor til leje, og de vil gerne investere i mere plads til familien, men der er mange udfo
+rdrende aspekter ved et huskøb, og derfor har de brug for Peter Ingemanns hjælp til at guide dem igennem boligjunglen.<
+/desc><episode-num system="xmltv_ns">.7.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/kNk4unhxVfeleq0CtaZ91
+6FlhS4.jpg" /></programme>
+> output\denmark4.xml:4785:<programme start="20260819040000 +0000" stop="20260819043000 +0000" channel="TV2 Øst.dk"><ti
+tle>Nyhederne, Sporten og Vejret</title><desc>Nyhederne, sporten og vejret.</desc></programme>
+  output\denmark4.xml:4786:<programme start="20260819043000 +0000" stop="20260819100000 +0000" channel="TV2 Øst.dk"><ti
+tle>Go' morgen Danmark</title><desc>'Go' morgen Danmark' er hele Danmarks aktualitet- og livsstilsprogram. Start dagen
+med hygge og høje grin - og få stof til eftertanke og samtaleemner, man har lyst til at dele resten af dagen.</desc><ep
+isode-num system="xmltv_ns">.163.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/fy54FNDjCWb0bGIRcTL6bCcthga.
+jpg" /></programme>
+> output\denmark4.xml:4787:<programme start="20260819100000 +0000" stop="20260819103500 +0000" channel="TV2 Øst.dk"><ti
+tle>12 News</title><desc>12 Nyhederne, Sporten og Vejret.</desc></programme>
+  output\denmark4.xml:4788:<programme start="20260819103500 +0000" stop="20260819112500 +0000" channel="TV2 Øst.dk"><ti
+tle>Beliggenhed, beliggenhed, beliggenhed</title><desc>Peter Ingemann skal hjælpe parret Anja og Peter med sønnen Otto
+på to år. De vil gerne blive boende i København, men de er på jagt efter den uopdagede beliggenhed, hvor alle andre vil
+ bo om ti år, og med en købesum på 8,5 millioner er barren for den kommende drømmebolig sat højt. Rune og Lea og deres
+lille søn Wilbert drømmer om at komme ud af lejligheden på Østerbro og tættere på naturen, men Sara Luygum kommer på li
+dt af en opgave, når hun skal forene familiens mange boligønsker med en beliggenhed maksimalt 45 min. fra København.</d
+esc><episode-num system="xmltv_ns">.6.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/kNk4unhxVfeleq0CtaZ916F
+lhS4.jpg" /></programme>
+> output\denmark4.xml:4817:<programme start="20260820100000 +0000" stop="20260820103500 +0000" channel="TV2 Øst.dk"><ti
+tle>12 News</title><desc>12 Nyhederne, Sporten og Vejret.</desc></programme>
+  output\denmark4.xml:4818:<programme start="20260820103500 +0000" stop="20260820112500 +0000" channel="TV2 Øst.dk"><ti
+tle>Beliggenhed, beliggenhed, beliggenhed</title><desc>Når familien vokser, føles det ofte som om, at boligen skrumper,
+ og så opstår behovet for mere plads. Sara Lygums par, Tinna og Simon, bor i en ejerlejlighed i København med deres to
+små piger. De ønsker sig flere kvadratmeter og en have, hvor familien kan udfolde sig i cykelafstand til byen. Sandie o
+g Erik og deres to drenge bor til leje, og de vil gerne investere i mere plads til familien, men der er mange udfordren
+de aspekter ved et huskøb, og derfor har de brug for Peter Ingemanns hjælp til at guide dem igennem boligjunglen.</desc
+><episode-num system="xmltv_ns">.7.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/kNk4unhxVfeleq0CtaZ916FlhS
+4.jpg" /></programme>
+> output\denmark4.xml:4846:<programme start="20260819040000 +0000" stop="20260819043000 +0000" channel="TV2/Nord Salto.
+dk"><title>Nyhederne, Sporten og Vejret</title><desc>Nyhederne, sporten og vejret.</desc></programme>
+  output\denmark4.xml:4847:<programme start="20260819043000 +0000" stop="20260819100000 +0000" channel="TV2/Nord Salto.
+dk"><title>Go' morgen Danmark</title><desc>'Go' morgen Danmark' er hele Danmarks aktualitet- og livsstilsprogram. Start
+ dagen med hygge og høje grin - og få stof til eftertanke og samtaleemner, man har lyst til at dele resten af dagen.</d
+esc><episode-num system="xmltv_ns">.163.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/fy54FNDjCWb0bGIRcTL6b
+Ccthga.jpg" /></programme>
+> output\denmark4.xml:4848:<programme start="20260819100000 +0000" stop="20260819103500 +0000" channel="TV2/Nord Salto.
+dk"><title>12 News</title><desc>12 Nyhederne, Sporten og Vejret.</desc></programme>
+  output\denmark4.xml:4849:<programme start="20260819103500 +0000" stop="20260819112500 +0000" channel="TV2/Nord Salto.
+dk"><title>Beliggenhed, beliggenhed, beliggenhed</title><desc>Peter Ingemann skal hjælpe parret Anja og Peter med sønne
+n Otto på to år. De vil gerne blive boende i København, men de er på jagt efter den uopdagede beliggenhed, hvor alle an
+dre vil bo om ti år, og med en købesum på 8,5 millioner er barren for den kommende drømmebolig sat højt. Rune og Lea og
+ deres lille søn Wilbert drømmer om at komme ud af lejligheden på Østerbro og tættere på naturen, men Sara Luygum komme
+r på lidt af en opgave, når hun skal forene familiens mange boligønsker med en beliggenhed maksimalt 45 min. fra Københ
+avn.</desc><episode-num system="xmltv_ns">.6.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/kNk4unhxVfeleq0C
+taZ916FlhS4.jpg" /></programme>
+> output\denmark4.xml:4879:<programme start="20260820100000 +0000" stop="20260820103500 +0000" channel="TV2/Nord Salto.
+dk"><title>12 News</title><desc>12 Nyhederne, Sporten og Vejret.</desc></programme>
+  output\denmark4.xml:4880:<programme start="20260820103500 +0000" stop="20260820112500 +0000" channel="TV2/Nord Salto.
+dk"><title>Beliggenhed, beliggenhed, beliggenhed</title><desc>Når familien vokser, føles det ofte som om, at boligen sk
+rumper, og så opstår behovet for mere plads. Sara Lygums par, Tinna og Simon, bor i en ejerlejlighed i København med de
+res to små piger. De ønsker sig flere kvadratmeter og en have, hvor familien kan udfolde sig i cykelafstand til byen. S
+andie og Erik og deres to drenge bor til leje, og de vil gerne investere i mere plads til familien, men der er mange ud
+fordrende aspekter ved et huskøb, og derfor har de brug for Peter Ingemanns hjælp til at guide dem igennem boligjunglen
+.</desc><episode-num system="xmltv_ns">.7.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/kNk4unhxVfeleq0CtaZ
+916FlhS4.jpg" /></programme>
+> output\denmark4.xml:5062:<programme start="20260819230000 +0000" stop="20260820000000 +0000" channel="TV3 Sport.dk"><
+title>Watt the F1!?</title><desc>Formel 1-programmet, hvor Jason Watt giver sit råt for usødede take på ugens mest opsi
+gtsvækkende historier fra motorsportens kongeklasse.</desc><episode-num system="xmltv_ns">.20.</episode-num><icon src="
+https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /><backdrop src="https://raw.github
+usercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /></programme>
+  output\denmark4.xml:5063:<programme start="20260820070000 +0000" stop="20260820090000 +0000" channel="TV3 Sport.dk"><
+title>UEFA Champions League play-off</title><desc>I Champions League fortsætter playoff-spillet, hvor der er skotsk-øst
+rigsk dyst, når Celtic tager imod LASK Linz. Værterne, der for nylig hentede Kasper Høgh til klubben, fik, trods en lid
+t turbulent sæson med skiftende managere, hentet mesterskabet hjem under rutinerede Martin O'Neill, som har fået genska
+bt roen i Glasgow-klubben, som nu jagter Champions League-ligafasen. Det samme gør gæsterne, der har Kasper Pedersen i
+truppen, og de har selvtilid, efter at de i den seneste sæson hentede deres 1. mesterskab siden 1964/65. Der er lagt op
+ til en tæt duel mellem Celtic og LASK Linz, men hjemme på Celtic Park er "The Bhoys" svage favoritter.</desc><episode-
+num system="xmltv_ns">.5.</episode-num><icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold
+.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg" /></programme>
+> output\denmark4.xml:5071:<programme start="20260820230000 +0000" stop="20260821000000 +0000" channel="TV3 Sport.dk"><
+title>Watt the F1!?</title><desc>Formel 1-programmet, hvor Jason Watt giver sit råt for usødede take på ugens mest opsi
+gtsvækkende historier fra motorsportens kongeklasse.</desc><episode-num system="xmltv_ns">.20.</episode-num><icon src="
+https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /><backdrop src="https://raw.github
+usercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /></programme>
+  output\denmark4.xml:5072:<programme start="20260819040000 +0000" stop="20260819043000 +0000" channel="TV3 Sverige.dk"
+><title>Venner</title><desc>Rachel tager på sin første date efter at have slået op med Ross....og den er med Mark. Joey
+ brænder varm på sin medspiller i sit nye stykke. Og Monica fortsætter med at date Pete, selv om hun stadig ikke er til
+trukket af ham.</desc><episode-num system="xmltv_ns">.18.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/uRLL
+Hl06mZZgQ8GjKRwAZ83z92.jpg" /></programme>
+> output\denmark4.xml:5241:<programme start="20260820200000 +0000" stop="20260820204000 +0000" channel="TV4 Sverige.dk"
+><title>TV4 Nyhederne og Sporten</title><desc>Nyhederne fra TV4 med de seneste nyheder, debatter og analyser. TV4 Nyhed
+erne sendes alle hverdage og weekender. I forbindelse med større nyhedsbegivenheder sender TV4 Nyhederne direkte på TV4
+ Play. En løbende nyhedsopdatering og uddybning finder sted, så længe en nyhedsudvikling er i gang. Derudover laves der
+ nyhedsklip om dagens vigtigste begivenheder og løbende vejrudsigter.</desc><episode-num system="xmltv_ns">.123.</episo
+de-num></programme>
+  output\denmark4.xml:5242:<programme start="20260820204000 +0000" stop="20260820205500 +0000" channel="TV4 Sverige.dk"
+><title>TV4 Finansnyhederne</title><desc>Finansnyhederne på TV4 giver dig de seneste opdateringer fra børs- og finansve
+rdenen.</desc><episode-num system="xmltv_ns">.95.</episode-num></programme>
+> output\denmark4.xml:5286:<programme start="20260819190400 +0000" stop="20260819201800 +0000" channel="TV5Monde Europe
+.dk"><title>Mumitroldene på sommerferie</title><desc>De elskede Mumintrolde er tilbage i et nyt og fabelagtigt eventyr!
+ Mumitroldene er på sommerferie ved den franske riviera, hvor alle de rige og berømteholder til. Folk tror fejlagtigt,
+at mumierne er adelige, så de bliver indlogeret i kongesuitenpå byens bedste hotel. Men mumitroldene er ikke meget for
+de glamourøseforhold, og i løbet af deres ophold får de lært de andre gæster en ting eller to om,hvad der er vigtigst h
+er i livet.</desc></programme>
+  output\denmark4.xml:5287:<programme start="20260819201800 +0000" stop="20260819204800 +0000" channel="TV5Monde Europe
+.dk"><title>L'actu</title><desc>Le journal de TVMonaco.</desc></programme>
+> output\denmark5.xml:838:<programme start="20260819030500 +0000" stop="20260819031500 +0000" channel="Cartoonito.dk"><
+title>Grizzy og lemmingerne</title><desc>Da Grizzy forsøger at hindre lemmingerne i at lege deres ekstreme trampolinleg
+, falder han på trampolinen og kommer til at udføre en fantastisk saltemotale i sin elskede hunbjørns påsyn. Han kan se
+, at hun vil have mere, så han beslutter sig for at ville mestre sporten. Men hvis det skal ske, må lemmingerne lade ha
+m komme til at træne.</desc></programme>
+  output\denmark5.xml:839:<programme start="20260819031500 +0000" stop="20260819032000 +0000" channel="Cartoonito.dk"><
+title>Grizzy og lemmingerne</title><desc>Lemmingerne har spændt en vaskebjørn med en sød tand foran deres slæde og komm
+er fremad ved at skyde småkager foran dyret med en slangebøsse. For at genfylde lageret af småkager, som han skulle spi
+se som eftermiddagssnack, har Grizzy ingen kvaler over at få lemmingernes slæde til at slingre vildt. Da slæden rammer
+en superhelts rumskib, falder en mystisk dragt ud.</desc></programme>
+> output\denmark5.xml:953:<programme start="20260819202000 +0000" stop="20260819203000 +0000" channel="Cartoonito.dk"><
+title>Snurre Snups byggevenner</title><desc>Marvin Marsmand hyrer Looney-sjakket til at bygge en ydre rumbold-bane på M
+ars. Snurre elsker sporten, og trækker selv med både bolden og byggeriet.</desc><icon src="https://image.tmdb.org/t/p/w
+1280/n6WUumChp8nAuTcnKFywzJ18UgS.jpg" /></programme>
+  output\denmark5.xml:954:<programme start="20260819203000 +0000" stop="20260819204000 +0000" channel="Cartoonito.dk"><
+title>Snurre Snups byggevenner</title><desc>Hirse Havmåge hyrer Looney-sjakket til at bygge et tivoli på molen. Holdet
+bliver besatte af at vinde spillene og glemmer, hvad det vigtigste er.</desc><icon src="https://image.tmdb.org/t/p/w128
+0/n6WUumChp8nAuTcnKFywzJ18UgS.jpg" /></programme>
+> output\denmark5.xml:1517:<programme start="20260819040000 +0000" stop="20260819043000 +0000" channel="DK4.dk"><title>
+Jagtmagasinet</title><desc>I slutningen af april og begyndelsen af maj kravler ringsælerne op på isen for at slikke sol
+skin. Det er en enestående chance for at jage de store proteinbomber og det gøres intensivt i de solrige arktiske dage,
+ der vare hele døgnet. Transporten ud til sælerne foregår med hundeslæde, og turen går ind og ud mellem gigantiske isfj
+elde. Til og med er jagten ganske vanskelig og yderst udfordrende, så der er lagt op til en god portion selverkendelse,
+ når Steen Andersen tager på fangst med Martin Uumaak der er fuldtidsfanger i Qaanaaq.</desc></programme>
+  output\denmark5.xml:1518:<programme start="20260819043000 +0000" stop="20260819050000 +0000" channel="DK4.dk"><title>
+Fiskemagasinet</title><desc>Fiskemagasinet og Mads Hussing er taget til Fyn for at fiske med medeeksperten Peter Juul H
+ansen. Han elsker fiskeriet med forfoder, maddiker, majs og håbet om de mange fisk. I dette program fiskes der efter sm
+åkarper. Fiskeriet er med feeder, og hvad det er bliver forklaret i programmet.</desc></programme>
+> output\denmark5.xml:1822:<programme start="20260819014500 +0000" stop="20260819020000 +0000" channel="DR2.dk"><title>
+Sommerferie: Thylejren</title><desc>Dansk reportage fra 1970. "Her er temmelig dejligt". Thylejren ved Frøstrup i Nordj
+ylland bliver grundlagt i 1970 af foreningen Det Ny Samfund. Flere tusinde mennesker en del af den første sommerlejr -
+også mange børn. De fortæller, hvad de synes om den alternative lejr, hvor børn også må tale ved fællesmøderne, kan spi
+lle musik og gå rundt og snakke med mange forskellige slags mennesker.</desc></programme>
+  output\denmark5.xml:1823:<programme start="20260819020000 +0000" stop="20260819023000 +0000" channel="DR2.dk"><title>
+Deadline: Novochefens chok-kur</title><desc>Novo Nordisk har fyret tusinder - og nu skal resten af de ansatte arbejde h
+årdere og hurtigere.Sådan lyder det fra topdirektør Mike Doustdar, der tiltrådte for et år siden og med det samme satte
+ virksomheden på chok-kur.Men risikerer han at kvæle alt det, der har gjort Novo til en succes? Og står den benhårde le
+der-type til et comeback i dansk erhvervsliv efter års fravær?Vært: Casper Schrøder.</desc></programme>
+> output\denmark5.xml:2126:<programme start="20260819040000 +0000" stop="20260819043000 +0000" channel="Kosmopol (Digit
+al).dk"><title>Nyhederne, Sporten og Vejret</title><desc>Nyhederne, sporten og vejret.</desc></programme>
+  output\denmark5.xml:2127:<programme start="20260819043000 +0000" stop="20260819100000 +0000" channel="Kosmopol (Digit
+al).dk"><title>Go' morgen Danmark</title><desc>'Go' morgen Danmark' er hele Danmarks aktualitet- og livsstilsprogram. S
+tart dagen med hygge og høje grin - og få stof til eftertanke og samtaleemner, man har lyst til at dele resten af dagen
+.</desc><icon src="https://image.tmdb.org/t/p/w1280/fy54FNDjCWb0bGIRcTL6bCcthga.jpg" /></programme>
+> output\denmark5.xml:2128:<programme start="20260819100000 +0000" stop="20260819103500 +0000" channel="Kosmopol (Digit
+al).dk"><title>12 News</title><desc>12 Nyhederne, Sporten og Vejret.</desc></programme>
+  output\denmark5.xml:2129:<programme start="20260819103500 +0000" stop="20260819112500 +0000" channel="Kosmopol (Digit
+al).dk"><title>Beliggenhed, beliggenhed, beliggenhed</title><desc>Peter Ingemann skal hjælpe parret Anja og Peter med s
+ønnen Otto på to år. De vil gerne blive boende i København, men de er på jagt efter den uopdagede beliggenhed, hvor all
+e andre vil bo om ti år, og med en købesum på 8,5 millioner er barren for den kommende drømmebolig sat højt. Rune og Le
+a og deres lille søn Wilbert drømmer om at komme ud af lejligheden på Østerbro og tættere på naturen, men Sara Luygum k
+ommer på lidt af en opgave, når hun skal forene familiens mange boligønsker med en beliggenhed maksimalt 45 min. fra Kø
+benhavn.</desc><icon src="https://image.tmdb.org/t/p/w1280/kNk4unhxVfeleq0CtaZ916FlhS4.jpg" /></programme>
+> output\denmark5.xml:2159:<programme start="20260820040000 +0000" stop="20260820043000 +0000" channel="Kosmopol (Digit
+al).dk"><title>Nyhederne, Sporten og Vejret</title><desc>Nyhederne, sporten og vejret.</desc></programme>
+  output\denmark5.xml:2160:<programme start="20260820043000 +0000" stop="20260820100000 +0000" channel="Kosmopol (Digit
+al).dk"><title>Go' morgen Danmark</title><desc>'Go' morgen Danmark' er hele Danmarks aktualitet- og livsstilsprogram. S
+tart dagen med hygge og høje grin - og få stof til eftertanke og samtaleemner, man har lyst til at dele resten af dagen
+.</desc><icon src="https://image.tmdb.org/t/p/w1280/fy54FNDjCWb0bGIRcTL6bCcthga.jpg" /></programme>
+> output\denmark5.xml:2161:<programme start="20260820100000 +0000" stop="20260820103500 +0000" channel="Kosmopol (Digit
+al).dk"><title>12 News</title><desc>12 Nyhederne, Sporten og Vejret.</desc></programme>
+  output\denmark5.xml:2162:<programme start="20260820103500 +0000" stop="20260820112500 +0000" channel="Kosmopol (Digit
+al).dk"><title>Beliggenhed, beliggenhed, beliggenhed</title><desc>Når familien vokser, føles det ofte som om, at bolige
+n skrumper, og så opstår behovet for mere plads. Sara Lygums par, Tinna og Simon, bor i en ejerlejlighed i København me
+d deres to små piger. De ønsker sig flere kvadratmeter og en have, hvor familien kan udfolde sig i cykelafstand til bye
+n. Sandie og Erik og deres to drenge bor til leje, og de vil gerne investere i mere plads til familien, men der er mang
+e udfordrende aspekter ved et huskøb, og derfor har de brug for Peter Ingemanns hjælp til at guide dem igennem boligjun
+glen.</desc><icon src="https://image.tmdb.org/t/p/w1280/kNk4unhxVfeleq0CtaZ916FlhS4.jpg" /></programme>
+> output\denmark5.xml:2293:<programme start="20260819060000 +0000" stop="20260819070000 +0000" channel="National Geogra
+phic Channel.dk"><title>Biler i nød</title><desc>Tim og Fuzz udfordres til at påtage sig deres måske mest obskure bil t
+il dato - en mindre kendt Cannon trial-konkurrencebil. Den ejes af tidligere buschauffør Dean, fanatiker inden for car
+trial-sporten, som led et alvorligt slagtilfælde, men nu er ved at komme sig. I deres søgen efter mere viden om trial-s
+porten ender Tim og Fuzz til en stor begivenhed - du må se med om, hvordan de klarede det.</desc><icon src="https://ima
+ge.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg" /></programme>
+  output\denmark5.xml:2294:<programme start="20260819070000 +0000" stop="20260819080000 +0000" channel="National Geogra
+phic Channel.dk"><title>2. verdenskrig: Det undersøiske helvede</title><desc>Oktober 1944. Efter at blive tilskrevet de
+t første officielle ubådsdrab i Anden Verdenskrig bliver den tyske ubådskommandant Gunther Prien pludselig hjemkaldt fø
+r tid og tilbudt en hemmelig mission om at ramme den britiske flåde i hjemhavnen Scapa Flow. Efter at kæmpe mod kraftig
+e strømme og undvige blokskibe bryder Prien gennem forankringen, men der er ingen garanti for, at han kommer ud igen.</
+desc><icon src="https://image.tmdb.org/t/p/w1280/SYEpcqbVMejRs3bB5epPaV9wOi.jpg" /></programme>
+> output\denmark5.xml:2316:<programme start="20260820050000 +0000" stop="20260820060000 +0000" channel="National Geogra
+phic Channel.dk"><title>Biler i nød</title><desc>Tim og Fuzz udfordres til at påtage sig deres måske mest obskure bil t
+il dato - en mindre kendt Cannon trial-konkurrencebil. Den ejes af tidligere buschauffør Dean, fanatiker inden for car
+trial-sporten, som led et alvorligt slagtilfælde, men nu er ved at komme sig. I deres søgen efter mere viden om trial-s
+porten ender Tim og Fuzz til en stor begivenhed - du må se med om, hvordan de klarede det.</desc><icon src="https://ima
+ge.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg" /></programme>
+  output\denmark5.xml:2317:<programme start="20260820060000 +0000" stop="20260820070000 +0000" channel="National Geogra
+phic Channel.dk"><title>Biler i nød</title><desc>Prisvindende Biler i nød er tilbage i en ottende sæson med bildrømme,
+der går i opfyldelse - større og bedre end nogensinde. Fuzz Townshend og Tim Shaw fortsætter deres mission med at opsøg
+e klassiske biler med velfortjente ejere, smugle dem væk og restaurere dem - til ejernes store overraskelse! Udfordring
+er i denne sæson omfatter en japansk superbil, en tysk sportscoupé og en britisk rallyvinder.</desc><icon src="https://
+image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg" /></programme>
+> output\denmark5.xml:2809:<programme start="20260819210000 +0000" stop="20260819211000 +0000" channel="NRK1.dk"><title
+>Kveldsnytt</title><desc>Sidste nyt fra NRK's nyhedsredaktion. Desuden sporten samt vejret.</desc></programme>
+  output\denmark5.xml:2810:<programme start="20260819211000 +0000" stop="20260819215500 +0000" channel="NRK1.dk"><title
+>Devil in the Family: The Fall of Ruby Franke</title><desc>Familien Franke er i tiltagende grad isolerede, og folk prøv
+er at finde ud af, hvad der foregår.</desc></programme>
+> output\denmark5.xml:2840:<programme start="20260820210000 +0000" stop="20260820211000 +0000" channel="NRK1.dk"><title
+>Kveldsnytt</title><desc>Sidste nyt fra NRK's nyhedsredaktion. Desuden sporten samt vejret.</desc></programme>
+  output\denmark5.xml:2841:<programme start="20260820211000 +0000" stop="20260820215000 +0000" channel="NRK1.dk"><title
+>Folk</title><desc>I et gammelt skolestue skaber Ola Bremnes musik, der når ud til et stort publikum. Men det var tæt p
+å at koste ham livet, før den helt store inspiration for alvor ramte ham.</desc></programme>
+> output\denmark5.xml:3214:<programme start="20260819142000 +0000" stop="20260819145500 +0000" channel="See.dk"><title>
+The Big Bang Theory</title><desc>Fyrene har fået et prestigefuldt tilbud om at tilbringe sommerferien med at arbejde ve
+d en forskningsstation på Nordpolen. Men Pennys reaktion på den nyhed får Leonard til at tvivle på, om han nu også har
+lyst til at tage med.</desc></programme>
+  output\denmark5.xml:3215:<programme start="20260819145500 +0000" stop="20260819152500 +0000" channel="See.dk"><title>
+Kongen af Queens</title><desc>Holly er blevet sparket ud af sin lejlighed og får lov til at bo i kælderen med Arthur. D
+oug ser hurtigt fordelene ved, at have to kvinder i sit hus.</desc></programme>
+> output\denmark5.xml:3249:<programme start="20260820131500 +0000" stop="20260820134500 +0000" channel="See.dk"><title>
+The Big Bang Theory</title><desc>Fyrene har fået et prestigefuldt tilbud om at tilbringe sommerferien med at arbejde ve
+d en forskningsstation på Nordpolen. Men Pennys reaktion på den nyhed får Leonard til at tvivle på, om han nu også har
+lyst til at tage med.</desc></programme>
+  output\denmark5.xml:3250:<programme start="20260820134500 +0000" stop="20260820142000 +0000" channel="See.dk"><title>
+The Big Bang Theory</title><desc>Da Sheldon opdager, at Leonard, Raj og Howard forfalskede forskningsresultaterne af ha
+ns arktiske ekspedition, må han vanæret vende hjem til Texas. Gutterne følger efter ham, hvilket spolerer Leonards chan
+ce for mødes med Penny.</desc></programme>
+> output\denmark5.xml:3598:<programme start="20260819100000 +0000" stop="20260819110000 +0000" channel="TV 2 News.dk"><
+title>12 News</title><desc>12 Nyhederne, Sporten og Vejret.</desc></programme>
+  output\denmark5.xml:3599:<programme start="20260819110000 +0000" stop="20260819140000 +0000" channel="TV 2 News.dk"><
+title>Nyheder, sport, vejr</title><desc>Nyheder, sport, vejr.</desc></programme>
+> output\denmark5.xml:3616:<programme start="20260820100000 +0000" stop="20260820110000 +0000" channel="TV 2 News.dk"><
+title>12 News</title><desc>12 Nyhederne, Sporten og Vejret.</desc></programme>
+  output\denmark5.xml:3617:<programme start="20260820110000 +0000" stop="20260820130000 +0000" channel="TV 2 News.dk"><
+title>Nyheder, sport, vejr</title><desc>Nyheder, sport, vejr.</desc></programme>
+> output\denmark5.xml:3649:<programme start="20260819165000 +0000" stop="20260819170000 +0000" channel="TV 2 Norge.dk">
+<title>Sporten</title><desc>Sportsnyheder, Norge, 2026.</desc></programme>
+  output\denmark5.xml:3650:<programme start="20260819170000 +0000" stop="20260819175500 +0000" channel="TV 2 Norge.dk">
+<title>Norges dummeste</title><desc>Det er finale og deltakerne er desperate. Ingen vil stå igjen med tittelen alle fry
+kter – og leve med den resten av livet.</desc></programme>
+> output\denmark5.xml:3654:<programme start="20260819193000 +0000" stop="20260819194000 +0000" channel="TV 2 Norge.dk">
+<title>Sporten</title><desc>Sportsnyheder, Norge, 2026.</desc></programme>
+  output\denmark5.xml:3655:<programme start="20260819194000 +0000" stop="20260819201500 +0000" channel="TV 2 Norge.dk">
+<title>Fjellhytta</title><desc>Hytteskiltet vekker sterke minner hos noen, og kvelden før finaledagen tar alle seg tid
+til en ordentlig overraskelse for en av deltagerne. Innspurten blir hektisk, og alle strekker seg langt for å innkasser
+e gullhammer nummer tre.</desc></programme>
+> output\denmark5.xml:3681:<programme start="20260820165000 +0000" stop="20260820170000 +0000" channel="TV 2 Norge.dk">
+<title>Sporten</title><desc>Sportsnyheder, Norge, 2026.</desc></programme>
+  output\denmark5.xml:3682:<programme start="20260820170000 +0000" stop="20260820175500 +0000" channel="TV 2 Norge.dk">
+<title>Huskestue</title><desc>De første til å utfordre Dag Otto Lauritzen i kunnskapsquiz på lavt, lavt nivå denne seso
+ngen, er Tshawe Baqwa og Yosef Wolde-Mariam. Men kan de nok om «USA» og ting som begynner på «Bokstaven K» til å vinne
+over quizlegenden Dag Otto og alpinisten Ragnhild Mowinckel?</desc></programme>
+> output\denmark5.xml:3686:<programme start="20260820193000 +0000" stop="20260820194000 +0000" channel="TV 2 Norge.dk">
+<title>Sporten</title><desc>Sportsnyheder, Norge, 2026.</desc></programme>
+  output\denmark5.xml:3687:<programme start="20260820194000 +0000" stop="20260820201500 +0000" channel="TV 2 Norge.dk">
+<title>Farmen</title><desc>Storbonden kommer opp med en slu plan for å prøve å møte godseiers krav og stå imot sabotasj
+e.</desc></programme>
+> output\denmark5.xml:3789:<programme start="20260819040000 +0000" stop="20260819043000 +0000" channel="TV 2.dk"><title
+>Nyhederne, Sporten og Vejret</title><desc>Nyhederne, sporten og vejret.</desc></programme>
+  output\denmark5.xml:3790:<programme start="20260819043000 +0000" stop="20260819100000 +0000" channel="TV 2.dk"><title
+>Go' morgen Danmark</title><desc>'Go' morgen Danmark' er hele Danmarks aktualitet- og livsstilsprogram. Start dagen med
+ hygge og høje grin - og få stof til eftertanke og samtaleemner, man har lyst til at dele resten af dagen.</desc><icon
+src="https://image.tmdb.org/t/p/w1280/fy54FNDjCWb0bGIRcTL6bCcthga.jpg" /></programme>
+> output\denmark5.xml:3791:<programme start="20260819100000 +0000" stop="20260819103500 +0000" channel="TV 2.dk"><title
+>12 News</title><desc>12 Nyhederne, Sporten og Vejret.</desc></programme>
+  output\denmark5.xml:3792:<programme start="20260819103500 +0000" stop="20260819112500 +0000" channel="TV 2.dk"><title
+>Beliggenhed, beliggenhed, beliggenhed</title><desc>Peter Ingemann skal hjælpe parret Anja og Peter med sønnen Otto på
+to år. De vil gerne blive boende i København, men de er på jagt efter den uopdagede beliggenhed, hvor alle andre vil bo
+ om ti år, og med en købesum på 8,5 millioner er barren for den kommende drømmebolig sat højt. Rune og Lea og deres lil
+le søn Wilbert drømmer om at komme ud af lejligheden på Østerbro og tættere på naturen, men Sara Luygum kommer på lidt
+af en opgave, når hun skal forene familiens mange boligønsker med en beliggenhed maksimalt 45 min. fra København.</desc
+><icon src="https://image.tmdb.org/t/p/w1280/kNk4unhxVfeleq0CtaZ916FlhS4.jpg" /></programme>
+> output\denmark5.xml:3820:<programme start="20260820040000 +0000" stop="20260820043000 +0000" channel="TV 2.dk"><title
+>Nyhederne, Sporten og Vejret</title><desc>Nyhederne, sporten og vejret.</desc></programme>
+  output\denmark5.xml:3821:<programme start="20260820043000 +0000" stop="20260820100000 +0000" channel="TV 2.dk"><title
+>Go' morgen Danmark</title><desc>'Go' morgen Danmark' er hele Danmarks aktualitet- og livsstilsprogram. Start dagen med
+ hygge og høje grin - og få stof til eftertanke og samtaleemner, man har lyst til at dele resten af dagen.</desc><icon
+src="https://image.tmdb.org/t/p/w1280/fy54FNDjCWb0bGIRcTL6bCcthga.jpg" /></programme>
+> output\denmark5.xml:3822:<programme start="20260820100000 +0000" stop="20260820103500 +0000" channel="TV 2.dk"><title
+>12 News</title><desc>12 Nyhederne, Sporten og Vejret.</desc></programme>
+  output\denmark5.xml:3823:<programme start="20260820103500 +0000" stop="20260820112500 +0000" channel="TV 2.dk"><title
+>Beliggenhed, beliggenhed, beliggenhed</title><desc>Når familien vokser, føles det ofte som om, at boligen skrumper, og
+ så opstår behovet for mere plads. Sara Lygums par, Tinna og Simon, bor i en ejerlejlighed i København med deres to små
+ piger. De ønsker sig flere kvadratmeter og en have, hvor familien kan udfolde sig i cykelafstand til byen. Sandie og E
+rik og deres to drenge bor til leje, og de vil gerne investere i mere plads til familien, men der er mange udfordrende
+aspekter ved et huskøb, og derfor har de brug for Peter Ingemanns hjælp til at guide dem igennem boligjunglen.</desc><i
+con src="https://image.tmdb.org/t/p/w1280/kNk4unhxVfeleq0CtaZ916FlhS4.jpg" /></programme>
+> output\denmark5.xml:3857:<programme start="20260819040000 +0000" stop="20260819043000 +0000" channel="TV/Midt-Vest.dk
+"><title>Nyhederne, Sporten og Vejret</title><desc>Nyhederne, sporten og vejret.</desc></programme>
+  output\denmark5.xml:3858:<programme start="20260819043000 +0000" stop="20260819100000 +0000" channel="TV/Midt-Vest.dk
+"><title>Go' morgen Danmark</title><desc>'Go' morgen Danmark' er hele Danmarks aktualitet- og livsstilsprogram. Start d
+agen med hygge og høje grin - og få stof til eftertanke og samtaleemner, man har lyst til at dele resten af dagen.</des
+c><icon src="https://image.tmdb.org/t/p/w1280/fy54FNDjCWb0bGIRcTL6bCcthga.jpg" /></programme>
+> output\denmark5.xml:3859:<programme start="20260819100000 +0000" stop="20260819103500 +0000" channel="TV/Midt-Vest.dk
+"><title>12 News</title><desc>12 Nyhederne, Sporten og Vejret.</desc></programme>
+  output\denmark5.xml:3860:<programme start="20260819103500 +0000" stop="20260819112500 +0000" channel="TV/Midt-Vest.dk
+"><title>Beliggenhed, beliggenhed, beliggenhed</title><desc>Peter Ingemann skal hjælpe parret Anja og Peter med sønnen
+Otto på to år. De vil gerne blive boende i København, men de er på jagt efter den uopdagede beliggenhed, hvor alle andr
+e vil bo om ti år, og med en købesum på 8,5 millioner er barren for den kommende drømmebolig sat højt. Rune og Lea og d
+eres lille søn Wilbert drømmer om at komme ud af lejligheden på Østerbro og tættere på naturen, men Sara Luygum kommer
+på lidt af en opgave, når hun skal forene familiens mange boligønsker med en beliggenhed maksimalt 45 min. fra Københav
+n.</desc><icon src="https://image.tmdb.org/t/p/w1280/kNk4unhxVfeleq0CtaZ916FlhS4.jpg" /></programme>
+> output\denmark5.xml:3890:<programme start="20260820040000 +0000" stop="20260820043000 +0000" channel="TV/Midt-Vest.dk
+"><title>Nyhederne, Sporten og Vejret</title><desc>Nyhederne, sporten og vejret.</desc></programme>
+  output\denmark5.xml:3891:<programme start="20260820043000 +0000" stop="20260820100000 +0000" channel="TV/Midt-Vest.dk
+"><title>Go' morgen Danmark</title><desc>'Go' morgen Danmark' er hele Danmarks aktualitet- og livsstilsprogram. Start d
+agen med hygge og høje grin - og få stof til eftertanke og samtaleemner, man har lyst til at dele resten af dagen.</des
+c><icon src="https://image.tmdb.org/t/p/w1280/fy54FNDjCWb0bGIRcTL6bCcthga.jpg" /></programme>
+> output\denmark5.xml:3892:<programme start="20260820100000 +0000" stop="20260820103500 +0000" channel="TV/Midt-Vest.dk
+"><title>12 News</title><desc>12 Nyhederne, Sporten og Vejret.</desc></programme>
+  output\denmark5.xml:3893:<programme start="20260820103500 +0000" stop="20260820112500 +0000" channel="TV/Midt-Vest.dk
+"><title>Beliggenhed, beliggenhed, beliggenhed</title><desc>Når familien vokser, føles det ofte som om, at boligen skru
+mper, og så opstår behovet for mere plads. Sara Lygums par, Tinna og Simon, bor i en ejerlejlighed i København med dere
+s to små piger. De ønsker sig flere kvadratmeter og en have, hvor familien kan udfolde sig i cykelafstand til byen. San
+die og Erik og deres to drenge bor til leje, og de vil gerne investere i mere plads til familien, men der er mange udfo
+rdrende aspekter ved et huskøb, og derfor har de brug for Peter Ingemanns hjælp til at guide dem igennem boligjunglen.<
+/desc><icon src="https://image.tmdb.org/t/p/w1280/kNk4unhxVfeleq0CtaZ916FlhS4.jpg" /></programme>
+> output\denmark5.xml:3929:<programme start="20260819040000 +0000" stop="20260819043000 +0000" channel="TV2 Øst.dk"><ti
+tle>Nyhederne, Sporten og Vejret</title><desc>Nyhederne, sporten og vejret.</desc></programme>
+  output\denmark5.xml:3930:<programme start="20260819043000 +0000" stop="20260819100000 +0000" channel="TV2 Øst.dk"><ti
+tle>Go' morgen Danmark</title><desc>'Go' morgen Danmark' er hele Danmarks aktualitet- og livsstilsprogram. Start dagen
+med hygge og høje grin - og få stof til eftertanke og samtaleemner, man har lyst til at dele resten af dagen.</desc><ic
+on src="https://image.tmdb.org/t/p/w1280/fy54FNDjCWb0bGIRcTL6bCcthga.jpg" /></programme>
+> output\denmark5.xml:3931:<programme start="20260819100000 +0000" stop="20260819103500 +0000" channel="TV2 Øst.dk"><ti
+tle>12 News</title><desc>12 Nyhederne, Sporten og Vejret.</desc></programme>
+  output\denmark5.xml:3932:<programme start="20260819103500 +0000" stop="20260819112500 +0000" channel="TV2 Øst.dk"><ti
+tle>Beliggenhed, beliggenhed, beliggenhed</title><desc>Peter Ingemann skal hjælpe parret Anja og Peter med sønnen Otto
+på to år. De vil gerne blive boende i København, men de er på jagt efter den uopdagede beliggenhed, hvor alle andre vil
+ bo om ti år, og med en købesum på 8,5 millioner er barren for den kommende drømmebolig sat højt. Rune og Lea og deres
+lille søn Wilbert drømmer om at komme ud af lejligheden på Østerbro og tættere på naturen, men Sara Luygum kommer på li
+dt af en opgave, når hun skal forene familiens mange boligønsker med en beliggenhed maksimalt 45 min. fra København.</d
+esc><icon src="https://image.tmdb.org/t/p/w1280/kNk4unhxVfeleq0CtaZ916FlhS4.jpg" /></programme>
+> output\denmark5.xml:3960:<programme start="20260820040000 +0000" stop="20260820043000 +0000" channel="TV2 Øst.dk"><ti
+tle>Nyhederne, Sporten og Vejret</title><desc>Nyhederne, sporten og vejret.</desc></programme>
+  output\denmark5.xml:3961:<programme start="20260820043000 +0000" stop="20260820100000 +0000" channel="TV2 Øst.dk"><ti
+tle>Go' morgen Danmark</title><desc>'Go' morgen Danmark' er hele Danmarks aktualitet- og livsstilsprogram. Start dagen
+med hygge og høje grin - og få stof til eftertanke og samtaleemner, man har lyst til at dele resten af dagen.</desc><ic
+on src="https://image.tmdb.org/t/p/w1280/fy54FNDjCWb0bGIRcTL6bCcthga.jpg" /></programme>
+> output\denmark5.xml:3962:<programme start="20260820100000 +0000" stop="20260820103500 +0000" channel="TV2 Øst.dk"><ti
+tle>12 News</title><desc>12 Nyhederne, Sporten og Vejret.</desc></programme>
+  output\denmark5.xml:3963:<programme start="20260820103500 +0000" stop="20260820112500 +0000" channel="TV2 Øst.dk"><ti
+tle>Beliggenhed, beliggenhed, beliggenhed</title><desc>Når familien vokser, føles det ofte som om, at boligen skrumper,
+ og så opstår behovet for mere plads. Sara Lygums par, Tinna og Simon, bor i en ejerlejlighed i København med deres to
+små piger. De ønsker sig flere kvadratmeter og en have, hvor familien kan udfolde sig i cykelafstand til byen. Sandie o
+g Erik og deres to drenge bor til leje, og de vil gerne investere i mere plads til familien, men der er mange udfordren
+de aspekter ved et huskøb, og derfor har de brug for Peter Ingemanns hjælp til at guide dem igennem boligjunglen.</desc
+><icon src="https://image.tmdb.org/t/p/w1280/kNk4unhxVfeleq0CtaZ916FlhS4.jpg" /></programme>
+> output\denmark5.xml:3997:<programme start="20260819040000 +0000" stop="20260819043000 +0000" channel="TV2/Nord Salto.
+dk"><title>Nyhederne, Sporten og Vejret</title><desc>Nyhederne, sporten og vejret.</desc></programme>
+  output\denmark5.xml:3998:<programme start="20260819043000 +0000" stop="20260819100000 +0000" channel="TV2/Nord Salto.
+dk"><title>Go' morgen Danmark</title><desc>'Go' morgen Danmark' er hele Danmarks aktualitet- og livsstilsprogram. Start
+ dagen med hygge og høje grin - og få stof til eftertanke og samtaleemner, man har lyst til at dele resten af dagen.</d
+esc><icon src="https://image.tmdb.org/t/p/w1280/fy54FNDjCWb0bGIRcTL6bCcthga.jpg" /></programme>
+> output\denmark5.xml:3999:<programme start="20260819100000 +0000" stop="20260819103500 +0000" channel="TV2/Nord Salto.
+dk"><title>12 News</title><desc>12 Nyhederne, Sporten og Vejret.</desc></programme>
+  output\denmark5.xml:4000:<programme start="20260819103500 +0000" stop="20260819112500 +0000" channel="TV2/Nord Salto.
+dk"><title>Beliggenhed, beliggenhed, beliggenhed</title><desc>Peter Ingemann skal hjælpe parret Anja og Peter med sønne
+n Otto på to år. De vil gerne blive boende i København, men de er på jagt efter den uopdagede beliggenhed, hvor alle an
+dre vil bo om ti år, og med en købesum på 8,5 millioner er barren for den kommende drømmebolig sat højt. Rune og Lea og
+ deres lille søn Wilbert drømmer om at komme ud af lejligheden på Østerbro og tættere på naturen, men Sara Luygum komme
+r på lidt af en opgave, når hun skal forene familiens mange boligønsker med en beliggenhed maksimalt 45 min. fra Københ
+avn.</desc><icon src="https://image.tmdb.org/t/p/w1280/kNk4unhxVfeleq0CtaZ916FlhS4.jpg" /></programme>
+> output\denmark5.xml:4028:<programme start="20260820040000 +0000" stop="20260820043000 +0000" channel="TV2/Nord Salto.
+dk"><title>Nyhederne, Sporten og Vejret</title><desc>Nyhederne, sporten og vejret.</desc></programme>
+  output\denmark5.xml:4029:<programme start="20260820043000 +0000" stop="20260820100000 +0000" channel="TV2/Nord Salto.
+dk"><title>Go' morgen Danmark</title><desc>'Go' morgen Danmark' er hele Danmarks aktualitet- og livsstilsprogram. Start
+ dagen med hygge og høje grin - og få stof til eftertanke og samtaleemner, man har lyst til at dele resten af dagen.</d
+esc><icon src="https://image.tmdb.org/t/p/w1280/fy54FNDjCWb0bGIRcTL6bCcthga.jpg" /></programme>
+> output\denmark5.xml:4030:<programme start="20260820100000 +0000" stop="20260820103500 +0000" channel="TV2/Nord Salto.
+dk"><title>12 News</title><desc>12 Nyhederne, Sporten og Vejret.</desc></programme>
+  output\denmark5.xml:4031:<programme start="20260820103500 +0000" stop="20260820112500 +0000" channel="TV2/Nord Salto.
+dk"><title>Beliggenhed, beliggenhed, beliggenhed</title><desc>Når familien vokser, føles det ofte som om, at boligen sk
+rumper, og så opstår behovet for mere plads. Sara Lygums par, Tinna og Simon, bor i en ejerlejlighed i København med de
+res to små piger. De ønsker sig flere kvadratmeter og en have, hvor familien kan udfolde sig i cykelafstand til byen. S
+andie og Erik og deres to drenge bor til leje, og de vil gerne investere i mere plads til familien, men der er mange ud
+fordrende aspekter ved et huskøb, og derfor har de brug for Peter Ingemanns hjælp til at guide dem igennem boligjunglen
+.</desc><icon src="https://image.tmdb.org/t/p/w1280/kNk4unhxVfeleq0CtaZ916FlhS4.jpg" /></programme>
+> output\denmark5.xml:4175:<programme start="20260819230000 +0000" stop="20260820000000 +0000" channel="TV3 Sport.dk"><
+title>Watt the F1!?</title><desc>Formel 1-programmet, hvor Jason Watt giver sit råt for usødede take på ugens mest opsi
+gtsvækkende historier fra motorsportens kongeklasse.</desc><icon src="https://raw.githubusercontent.com/flanaganz/epgoa
+l/main/Sport/tv3sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sp
+ort-generic.jpg" /></programme>
+  output\denmark5.xml:4176:<programme start="20260820070000 +0000" stop="20260820090000 +0000" channel="TV3 Sport.dk"><
+title>UEFA Champions League play-off</title><desc>Der venter en intens aften på Celtic Park, når Celtic tager imod LASK
+ Linz i Champions League-playoffen. Det er den første af to kampe, og skotterne vil forsøge at udnytte hjemmebanen, men
+s LASK jagter et stærkt udgangspunkt.</desc><icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fo
+dbold.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg" /></programme>
+> output\denmark5.xml:4184:<programme start="20260820230000 +0000" stop="20260821000000 +0000" channel="TV3 Sport.dk"><
+title>Watt the F1!?</title><desc>Formel 1-programmet, hvor Jason Watt giver sit råt for usødede take på ugens mest opsi
+gtsvækkende historier fra motorsportens kongeklasse.</desc><icon src="https://raw.githubusercontent.com/flanaganz/epgoa
+l/main/Sport/tv3sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sp
+ort-generic.jpg" /></programme>
+  output\denmark5.xml:4185:<programme start="20260818235000 +0000" stop="20260819004000 +0000" channel="TV3.dk"><title>
+Quantum Leap</title><desc>Ben påtager sig rollen som bankkasserer på det forkerte sted på det forkerte tidspunkt. Addis
+on, Magic, Ian og Jenn må forholde sig til en chokerende opdagelse. Teamet får et nyt medlem.</desc></programme>
+> output\denmark5.xml:4536:<programme start="20260819080000 +0000" stop="20260819090000 +0000" channel="Viaplay Sport N
+ews.dk"><title>Watt the F1!?</title><desc>Formel 1-programmet, hvor Jason Watt giver sit råt for usødede take på ugens
+mest opsigtsvækkende historier fra motorsportens kongeklasse.</desc><icon src="https://i-viaplay-com.akamaized.net/viap
+lay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg" /><backdrop src="https://i-viaplay-com.akamaized.net/viaplay-pro
+d/155/944/Sport_News1920x1080_SportNews_ok.jpg" /></programme>
+  output\denmark5.xml:4537:<programme start="20260819090000 +0000" stop="20260819110000 +0000" channel="Viaplay Sport N
+ews.dk"><title>Sky Sports: The Football Show</title><desc>Sky Sports FC holder dig opdateret med de største historier f
+ra fodboldens verden. Få de seneste breaking news, aktuelle reportager og skarpe analyser af ugens vigtigste begivenhed
+er – med reaktioner og debat om spillet.</desc><icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport
+/Sky%20Sports%20The%20Football%20Show.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Spo
+rt/Sky%20Sports%20The%20Football%20Show.jpg" /></programme>
+> output\denmark5.xml:4541:<programme start="20260819160000 +0000" stop="20260819170000 +0000" channel="Viaplay Sport N
+ews.dk"><title>Watt the F1!?</title><desc>Formel 1-programmet, hvor Jason Watt giver sit råt for usødede take på ugens
+mest opsigtsvækkende historier fra motorsportens kongeklasse.</desc><icon src="https://i-viaplay-com.akamaized.net/viap
+lay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg" /><backdrop src="https://i-viaplay-com.akamaized.net/viaplay-pro
+d/155/944/Sport_News1920x1080_SportNews_ok.jpg" /></programme>
+  output\denmark5.xml:4542:<programme start="20260819170000 +0000" stop="20260819185500 +0000" channel="Viaplay Sport N
+ews.dk"><title>Sport News</title><desc>Her får du fra morgen til aften serveret de vigtigste sportsnyheder, masser af m
+ål og højdepunkter samt skarpe holdninger fra Viaplays eksperter.</desc><icon src="https://i-viaplay-com.akamaized.net/
+viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg" /><backdrop src="https://i-viaplay-com.akamaized.net/viaplay
+-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg" /></programme>
+> output\denmark5.xml:4545:<programme start="20260819220000 +0000" stop="20260819230000 +0000" channel="Viaplay Sport N
+ews.dk"><title>Watt the F1!?</title><desc>Formel 1-programmet, hvor Jason Watt giver sit råt for usødede take på ugens
+mest opsigtsvækkende historier fra motorsportens kongeklasse.</desc><icon src="https://i-viaplay-com.akamaized.net/viap
+lay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg" /><backdrop src="https://i-viaplay-com.akamaized.net/viaplay-pro
+d/155/944/Sport_News1920x1080_SportNews_ok.jpg" /></programme>
+  output\denmark5.xml:4546:<programme start="20260819230000 +0000" stop="20260820000000 +0000" channel="Viaplay Sport N
+ews.dk"><title>Danskerklubben</title><desc>I ”Danskerklubben” giver David Kroner og Mikkel Beckmann dig de bedste histo
+rier om de danske udlandsproffer og vurderer ugentligt, hvem der er nye medlemmer i klubben.</desc><icon src="https://i
+-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg" /><backdrop src="https://i-viapla
+y-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg" /></programme>
+> output\denmark5.xml:4548:<programme start="20260820010000 +0000" stop="20260820020000 +0000" channel="Viaplay Sport N
+ews.dk"><title>Watt the F1!?</title><desc>Formel 1-programmet, hvor Jason Watt giver sit råt for usødede take på ugens
+mest opsigtsvækkende historier fra motorsportens kongeklasse.</desc><icon src="https://i-viaplay-com.akamaized.net/viap
+lay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg" /><backdrop src="https://i-viaplay-com.akamaized.net/viaplay-pro
+d/155/944/Sport_News1920x1080_SportNews_ok.jpg" /></programme>
+  output\denmark5.xml:4549:<programme start="20260820020000 +0000" stop="20260820030000 +0000" channel="Viaplay Sport N
+ews.dk"><title>TV-Udbruddet</title><desc>Michael Rasmussen er ekspert i cykelprogrammet, der ikke lægger skjul på, at v
+i er i udbrud med det ene formål at få tv-tid.</desc><icon src="https://i-viaplay-com.akamaized.net/viaplay-prod/669/72
+/1757932138-001f38bb582cfdc1b238c8401d5f30fda461ee0e.jpg" /><backdrop src="https://i-viaplay-com.akamaized.net/viaplay-
+prod/669/72/1757932138-001f38bb582cfdc1b238c8401d5f30fda461ee0e.jpg" /></programme>
+> output\denmark5.xml:4551:<programme start="20260820040000 +0000" stop="20260820050000 +0000" channel="Viaplay Sport N
+ews.dk"><title>Watt the F1!?</title><desc>Formel 1-programmet, hvor Jason Watt giver sit råt for usødede take på ugens
+mest opsigtsvækkende historier fra motorsportens kongeklasse.</desc><icon src="https://i-viaplay-com.akamaized.net/viap
+lay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg" /><backdrop src="https://i-viaplay-com.akamaized.net/viaplay-pro
+d/155/944/Sport_News1920x1080_SportNews_ok.jpg" /></programme>
+  output\denmark5.xml:4552:<programme start="20260820050000 +0000" stop="20260820073000 +0000" channel="Viaplay Sport N
+ews.dk"><title>Sport News</title><desc>Her får du fra morgen til aften serveret de vigtigste sportsnyheder, masser af m
+ål og højdepunkter samt skarpe holdninger fra Viaplays eksperter.</desc><icon src="https://i-viaplay-com.akamaized.net/
+viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg" /><backdrop src="https://i-viaplay-com.akamaized.net/viaplay
+-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg" /></programme>
+> output\denmark5.xml:4564:<programme start="20260821010000 +0000" stop="20260821020000 +0000" channel="Viaplay Sport N
+ews.dk"><title>Watt the F1!?</title><desc>Formel 1-programmet, hvor Jason Watt giver sit råt for usødede take på ugens
+mest opsigtsvækkende historier fra motorsportens kongeklasse.</desc><icon src="https://i-viaplay-com.akamaized.net/viap
+lay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg" /><backdrop src="https://i-viaplay-com.akamaized.net/viaplay-pro
+d/155/944/Sport_News1920x1080_SportNews_ok.jpg" /></programme>
+  output\denmark5.xml:4565:<programme start="20260821020000 +0000" stop="20260821030000 +0000" channel="Viaplay Sport N
+ews.dk"><title>TV-Udbruddet</title><desc>Michael Rasmussen er ekspert i cykelprogrammet, der ikke lægger skjul på, at v
+i er i udbrud med det ene formål at få tv-tid.</desc><icon src="https://i-viaplay-com.akamaized.net/viaplay-prod/669/72
+/1757932138-001f38bb582cfdc1b238c8401d5f30fda461ee0e.jpg" /><backdrop src="https://i-viaplay-com.akamaized.net/viaplay-
+prod/669/72/1757932138-001f38bb582cfdc1b238c8401d5f30fda461ee0e.jpg" /></programme>
+> output\denmark6.xml:1085:<programme start="20260819060000 +0000" stop="20260819063000 +0000" channel="dk4.dk"><title>
+Sælfangst</title><desc>. I slutningen af april og begyndelsen af maj kravler ringsælerne op på isen for at slikke solsk
+in. Det er en enestående chance for at jage de store proteinbomber og det gøres intensivt i de solrige arktiske dage, d
+er vare hele døgnet. Transporten ud til sælerne foregår med hundeslæde, og turen går ind og ud mellem gigantiske isfjel
+de. Til og med er jagten ganske vanskelig og yderst udfordrende, så der er lagt op til en god portion selverkendelse, n
+år Steen Andersen tager på fangst med Martin Uumaak der er fuldtidsfanger i Qaanaaq. Tilladt for: A.</desc></programme>
+  output\denmark6.xml:1086:<programme start="20260819063000 +0000" stop="20260819070000 +0000" channel="dk4.dk"><title>
+Fiskemagasinet</title><desc>Episode: 1. . Fiskemagasinet og Mads Hussing er taget til Fyn for at fiske med medeeksperte
+n Peter Juul Hansen. Han elsker fiskeriet med forfoder, maddiker, majs og håbet om de mange fisk. I dette program fiske
+s der efter småkarper. Fiskeriet er med feeder, og hvad det er bliver forklaret i programmet. Tilladt for: A.</desc></p
+rogramme>
+> output\denmark6.xml:2498:<programme start="20260819060000 +0000" stop="20260819063000 +0000" channel="tv2.dk"><title>
+Nyhederne, Sporten og Vejret</title><desc>Nyhederne, sporten og vejret.</desc></programme>
+  output\denmark6.xml:2499:<programme start="20260819063000 +0000" stop="20260819113000 +0000" channel="tv2.dk"><title>
+Go' morgen Danmark - Del 1/2</title><desc>Go. 'Go er hele Danmarks aktualitet- og livsstilsprogram. Start dagen med hyg
+ge og høje grin - og få stof til eftertanke og samtaleemner, man har lyst til at dele resten af dagen. Tilladt for: A.<
+/desc></programme>
+> output\denmark6.xml:2501:<programme start="20260819120000 +0000" stop="20260819123500 +0000" channel="tv2.dk"><title>
+12 News</title><desc>Sæson: 2026. . 12 Nyhederne, Sporten og Vejret. Tilladt for: A.</desc></programme>
+  output\denmark6.xml:2502:<programme start="20260819123500 +0000" stop="20260819132500 +0000" channel="tv2.dk"><title>
+Beliggenhed, beliggenhed, beliggenhed</title><desc>De nybagte tvillingeforældre Line og Christian er hårdt pressede i d
+eres lejlighed på 68 m2, som er fyldt til bristepunktet med babyudstyr. De kaster derfor en redningskrans ud til Sara m
+ed et brændende ønske om flere kvadratmeter og egen have i nærheden af Odense. Efter to år i USA er Hanne og Aske klar
+til at tage hul på næste store eventyr. De drømmer om at finde stedet, hvor deres lille datter Agnes skal vokse op - et
+ hus med originale detaljer, der vækker den helt rigtige følelse af at komme hjem. Tilladt for: A.</desc><icon src="htt
+ps://image.tmdb.org/t/p/w1280/kNk4unhxVfeleq0CtaZ916FlhS4.jpg" /></programme>
+> output\denmark6.xml:2531:<programme start="20260820060000 +0000" stop="20260820063000 +0000" channel="tv2.dk"><title>
+Nyhederne, Sporten og Vejret</title><desc>Nyhederne, sporten og vejret.</desc></programme>
+  output\denmark6.xml:2532:<programme start="20260820063000 +0000" stop="20260820113000 +0000" channel="tv2.dk"><title>
+Go' morgen Danmark - Del 1/2</title><desc>Go. 'Go er hele Danmarks aktualitet- og livsstilsprogram. Start dagen med hyg
+ge og høje grin - og få stof til eftertanke og samtaleemner, man har lyst til at dele resten af dagen. Tilladt for: A.<
+/desc></programme>
+> output\denmark6.xml:2534:<programme start="20260820120000 +0000" stop="20260820123500 +0000" channel="tv2.dk"><title>
+12 News</title><desc>Sæson: 2026. . 12 Nyhederne, Sporten og Vejret. Tilladt for: A.</desc></programme>
+  output\denmark6.xml:2535:<programme start="20260820123500 +0000" stop="20260820132500 +0000" channel="tv2.dk"><title>
+Beliggenhed, beliggenhed, beliggenhed</title><desc>De nybagte tvillingeforældre Line og Christian er hårdt pressede i d
+eres lejlighed på 68 m2, som er fyldt til bristepunktet med babyudstyr. De kaster derfor en redningskrans ud til Sara m
+ed et brændende ønske om flere kvadratmeter og egen have i nærheden af Odense. Efter to år i USA er Hanne og Aske klar
+til at tage hul på næste store eventyr. De drømmer om at finde stedet, hvor deres lille datter Agnes skal vokse op - et
+ hus med originale detaljer, der vækker den helt rigtige følelse af at komme hjem. Tilladt for: A.</desc><icon src="htt
+ps://image.tmdb.org/t/p/w1280/kNk4unhxVfeleq0CtaZ916FlhS4.jpg" /></programme>
+> output\denmark6.xml:2922:<programme start="20260819060000 +0000" stop="20260819063000 +0000" channel="tv2kosmopol.dk"
+><title>Nyhederne, Sporten og Vejret</title><desc>Nyhederne, sporten og vejret.</desc></programme>
+  output\denmark6.xml:2923:<programme start="20260819063000 +0000" stop="20260819120000 +0000" channel="tv2kosmopol.dk"
+><title>Go' morgen Danmark</title><desc>'Go' morgen Danmark' er hele Danmarks aktualitet- og livsstilsprogram. Start da
+gen med hygge og høje grin - og få stof til eftertanke og samtaleemner, man har lyst til at dele resten af dagen.</desc
+><icon src="https://image.tmdb.org/t/p/w1280/fy54FNDjCWb0bGIRcTL6bCcthga.jpg" /></programme>
+> output\denmark6.xml:2924:<programme start="20260819120000 +0000" stop="20260819123500 +0000" channel="tv2kosmopol.dk"
+><title>12 News</title><desc>Sæson: 2026. . 12 Nyhederne, Sporten og Vejret. Tilladt for: A.</desc></programme>
+  output\denmark6.xml:2925:<programme start="20260819123500 +0000" stop="20260819132500 +0000" channel="tv2kosmopol.dk"
+><title>Beliggenhed, beliggenhed, beliggenhed</title><desc>De nybagte tvillingeforældre Line og Christian er hårdt pres
+sede i deres lejlighed på 68 m2, som er fyldt til bristepunktet med babyudstyr. De kaster derfor en redningskrans ud ti
+l Sara med et brændende ønske om flere kvadratmeter og egen have i nærheden af Odense. Efter to år i USA er Hanne og As
+ke klar til at tage hul på næste store eventyr. De drømmer om at finde stedet, hvor deres lille datter Agnes skal vokse
+ op - et hus med originale detaljer, der vækker den helt rigtige følelse af at komme hjem. Tilladt for: A.</desc><icon
+src="https://image.tmdb.org/t/p/w1280/kNk4unhxVfeleq0CtaZ916FlhS4.jpg" /></programme>
+> output\denmark6.xml:2956:<programme start="20260820060000 +0000" stop="20260820063000 +0000" channel="tv2kosmopol.dk"
+><title>Nyhederne, Sporten og Vejret</title><desc>Nyhederne, sporten og vejret.</desc></programme>
+  output\denmark6.xml:2957:<programme start="20260820063000 +0000" stop="20260820120000 +0000" channel="tv2kosmopol.dk"
+><title>Go' morgen Danmark</title><desc>'Go' morgen Danmark' er hele Danmarks aktualitet- og livsstilsprogram. Start da
+gen med hygge og høje grin - og få stof til eftertanke og samtaleemner, man har lyst til at dele resten af dagen.</desc
+><icon src="https://image.tmdb.org/t/p/w1280/fy54FNDjCWb0bGIRcTL6bCcthga.jpg" /></programme>
+> output\denmark6.xml:2958:<programme start="20260820120000 +0000" stop="20260820123500 +0000" channel="tv2kosmopol.dk"
+><title>12 News</title><desc>Sæson: 2026. . 12 Nyhederne, Sporten og Vejret. Tilladt for: A.</desc></programme>
+  output\denmark6.xml:2959:<programme start="20260820123500 +0000" stop="20260820132500 +0000" channel="tv2kosmopol.dk"
+><title>Beliggenhed, beliggenhed, beliggenhed</title><desc>De nybagte tvillingeforældre Line og Christian er hårdt pres
+sede i deres lejlighed på 68 m2, som er fyldt til bristepunktet med babyudstyr. De kaster derfor en redningskrans ud ti
+l Sara med et brændende ønske om flere kvadratmeter og egen have i nærheden af Odense. Efter to år i USA er Hanne og As
+ke klar til at tage hul på næste store eventyr. De drømmer om at finde stedet, hvor deres lille datter Agnes skal vokse
+ op - et hus med originale detaljer, der vækker den helt rigtige følelse af at komme hjem. Tilladt for: A.</desc><icon
+src="https://image.tmdb.org/t/p/w1280/kNk4unhxVfeleq0CtaZ916FlhS4.jpg" /></programme>
+> output\denmark6.xml:2993:<programme start="20260819060000 +0000" stop="20260819063000 +0000" channel="tv2midtvest.dk"
+><title>Nyhederne, Sporten og Vejret</title><desc>Nyhederne, sporten og vejret.</desc></programme>
+  output\denmark6.xml:2994:<programme start="20260819063000 +0000" stop="20260819120000 +0000" channel="tv2midtvest.dk"
+><title>Go' morgen Danmark</title><desc>'Go' morgen Danmark' er hele Danmarks aktualitet- og livsstilsprogram. Start da
+gen med hygge og høje grin - og få stof til eftertanke og samtaleemner, man har lyst til at dele resten af dagen.</desc
+><icon src="https://image.tmdb.org/t/p/w1280/fy54FNDjCWb0bGIRcTL6bCcthga.jpg" /></programme>
+> output\denmark6.xml:2995:<programme start="20260819120000 +0000" stop="20260819123500 +0000" channel="tv2midtvest.dk"
+><title>12 News</title><desc>Sæson: 2026. . 12 Nyhederne, Sporten og Vejret. Tilladt for: A.</desc></programme>
+  output\denmark6.xml:2996:<programme start="20260819123500 +0000" stop="20260819132500 +0000" channel="tv2midtvest.dk"
+><title>Beliggenhed, beliggenhed, beliggenhed</title><desc>De nybagte tvillingeforældre Line og Christian er hårdt pres
+sede i deres lejlighed på 68 m2, som er fyldt til bristepunktet med babyudstyr. De kaster derfor en redningskrans ud ti
+l Sara med et brændende ønske om flere kvadratmeter og egen have i nærheden af Odense. Efter to år i USA er Hanne og As
+ke klar til at tage hul på næste store eventyr. De drømmer om at finde stedet, hvor deres lille datter Agnes skal vokse
+ op - et hus med originale detaljer, der vækker den helt rigtige følelse af at komme hjem. Tilladt for: A.</desc><icon
+src="https://image.tmdb.org/t/p/w1280/kNk4unhxVfeleq0CtaZ916FlhS4.jpg" /></programme>
+> output\denmark6.xml:3027:<programme start="20260820060000 +0000" stop="20260820063000 +0000" channel="tv2midtvest.dk"
+><title>Nyhederne, Sporten og Vejret</title><desc>Nyhederne, sporten og vejret.</desc></programme>
+  output\denmark6.xml:3028:<programme start="20260820063000 +0000" stop="20260820120000 +0000" channel="tv2midtvest.dk"
+><title>Go' morgen Danmark</title><desc>'Go' morgen Danmark' er hele Danmarks aktualitet- og livsstilsprogram. Start da
+gen med hygge og høje grin - og få stof til eftertanke og samtaleemner, man har lyst til at dele resten af dagen.</desc
+><icon src="https://image.tmdb.org/t/p/w1280/fy54FNDjCWb0bGIRcTL6bCcthga.jpg" /></programme>
+> output\denmark6.xml:3029:<programme start="20260820120000 +0000" stop="20260820123500 +0000" channel="tv2midtvest.dk"
+><title>12 News</title><desc>Sæson: 2026. . 12 Nyhederne, Sporten og Vejret. Tilladt for: A.</desc></programme>
+  output\denmark6.xml:3030:<programme start="20260820123500 +0000" stop="20260820132500 +0000" channel="tv2midtvest.dk"
+><title>Beliggenhed, beliggenhed, beliggenhed</title><desc>De nybagte tvillingeforældre Line og Christian er hårdt pres
+sede i deres lejlighed på 68 m2, som er fyldt til bristepunktet med babyudstyr. De kaster derfor en redningskrans ud ti
+l Sara med et brændende ønske om flere kvadratmeter og egen have i nærheden af Odense. Efter to år i USA er Hanne og As
+ke klar til at tage hul på næste store eventyr. De drømmer om at finde stedet, hvor deres lille datter Agnes skal vokse
+ op - et hus med originale detaljer, der vækker den helt rigtige følelse af at komme hjem. Tilladt for: A.</desc><icon
+src="https://image.tmdb.org/t/p/w1280/kNk4unhxVfeleq0CtaZ916FlhS4.jpg" /></programme>
+> output\denmark6.xml:3061:<programme start="20260819120000 +0000" stop="20260819130000 +0000" channel="tv2news.dk"><ti
+tle>12 News</title><desc>Sæson: 2026. . 12 Nyhederne, Sporten og Vejret. Tilladt for: A.</desc></programme>
+  output\denmark6.xml:3062:<programme start="20260819130000 +0000" stop="20260819160000 +0000" channel="tv2news.dk"><ti
+tle>Nyheder, sport, vejr</title><desc>Sæson: 2026. . Nyheder, sport, vejr. Tilladt for: A.</desc></programme>
+> output\denmark6.xml:3079:<programme start="20260820120000 +0000" stop="20260820130000 +0000" channel="tv2news.dk"><ti
+tle>12 News</title><desc>Sæson: 2026. . 12 Nyhederne, Sporten og Vejret. Tilladt for: A.</desc></programme>
+  output\denmark6.xml:3080:<programme start="20260820130000 +0000" stop="20260820150000 +0000" channel="tv2news.dk"><ti
+tle>Nyheder, sport, vejr</title><desc>Sæson: 2026. . Nyheder, sport, vejr. Tilladt for: A.</desc></programme>
+> output\denmark6.xml:3135:<programme start="20260819060000 +0000" stop="20260819063000 +0000" channel="tv2oest.dk"><ti
+tle>Nyhederne, Sporten og Vejret</title><desc>Nyhederne, sporten og vejret.</desc></programme>
+  output\denmark6.xml:3136:<programme start="20260819063000 +0000" stop="20260819120000 +0000" channel="tv2oest.dk"><ti
+tle>Go' morgen Danmark</title><desc>'Go' morgen Danmark' er hele Danmarks aktualitet- og livsstilsprogram. Start dagen
+med hygge og høje grin - og få stof til eftertanke og samtaleemner, man har lyst til at dele resten af dagen.</desc><ic
+on src="https://image.tmdb.org/t/p/w1280/fy54FNDjCWb0bGIRcTL6bCcthga.jpg" /></programme>
+> output\denmark6.xml:3137:<programme start="20260819120000 +0000" stop="20260819123500 +0000" channel="tv2oest.dk"><ti
+tle>12 News</title><desc>Sæson: 2026. . 12 Nyhederne, Sporten og Vejret. Tilladt for: A.</desc></programme>
+  output\denmark6.xml:3138:<programme start="20260819123500 +0000" stop="20260819132500 +0000" channel="tv2oest.dk"><ti
+tle>Beliggenhed, beliggenhed, beliggenhed</title><desc>De nybagte tvillingeforældre Line og Christian er hårdt pressede
+ i deres lejlighed på 68 m2, som er fyldt til bristepunktet med babyudstyr. De kaster derfor en redningskrans ud til Sa
+ra med et brændende ønske om flere kvadratmeter og egen have i nærheden af Odense. Efter to år i USA er Hanne og Aske k
+lar til at tage hul på næste store eventyr. De drømmer om at finde stedet, hvor deres lille datter Agnes skal vokse op
+- et hus med originale detaljer, der vækker den helt rigtige følelse af at komme hjem. Tilladt for: A.</desc><icon src=
+"https://image.tmdb.org/t/p/w1280/kNk4unhxVfeleq0CtaZ916FlhS4.jpg" /></programme>
+> output\denmark6.xml:3167:<programme start="20260820060000 +0000" stop="20260820063000 +0000" channel="tv2oest.dk"><ti
+tle>Nyhederne, Sporten og Vejret</title><desc>Nyhederne, sporten og vejret.</desc></programme>
+  output\denmark6.xml:3168:<programme start="20260820063000 +0000" stop="20260820120000 +0000" channel="tv2oest.dk"><ti
+tle>Go' morgen Danmark</title><desc>'Go' morgen Danmark' er hele Danmarks aktualitet- og livsstilsprogram. Start dagen
+med hygge og høje grin - og få stof til eftertanke og samtaleemner, man har lyst til at dele resten af dagen.</desc><ic
+on src="https://image.tmdb.org/t/p/w1280/fy54FNDjCWb0bGIRcTL6bCcthga.jpg" /></programme>
+> output\denmark6.xml:3169:<programme start="20260820120000 +0000" stop="20260820123500 +0000" channel="tv2oest.dk"><ti
+tle>12 News</title><desc>Sæson: 2026. . 12 Nyhederne, Sporten og Vejret. Tilladt for: A.</desc></programme>
+  output\denmark6.xml:3170:<programme start="20260820123500 +0000" stop="20260820132500 +0000" channel="tv2oest.dk"><ti
+tle>Beliggenhed, beliggenhed, beliggenhed</title><desc>De nybagte tvillingeforældre Line og Christian er hårdt pressede
+ i deres lejlighed på 68 m2, som er fyldt til bristepunktet med babyudstyr. De kaster derfor en redningskrans ud til Sa
+ra med et brændende ønske om flere kvadratmeter og egen have i nærheden af Odense. Efter to år i USA er Hanne og Aske k
+lar til at tage hul på næste store eventyr. De drømmer om at finde stedet, hvor deres lille datter Agnes skal vokse op
+- et hus med originale detaljer, der vækker den helt rigtige følelse af at komme hjem. Tilladt for: A.</desc><icon src=
+"https://image.tmdb.org/t/p/w1280/kNk4unhxVfeleq0CtaZ916FlhS4.jpg" /></programme>
+> output\denmark6.xml:3202:<programme start="20260819060000 +0000" stop="20260819063000 +0000" channel="tv2ostjylland.d
+k"><title>Nyhederne, Sporten og Vejret</title><desc>Nyhederne, sporten og vejret.</desc></programme>
+  output\denmark6.xml:3203:<programme start="20260819063000 +0000" stop="20260819113000 +0000" channel="tv2ostjylland.d
+k"><title>Go' morgen Danmark - Del 1/2</title><desc>Go. 'Go er hele Danmarks aktualitet- og livsstilsprogram. Start dag
+en med hygge og høje grin - og få stof til eftertanke og samtaleemner, man har lyst til at dele resten af dagen. Tillad
+t for: A.</desc></programme>
+> output\denmark6.xml:3205:<programme start="20260819120000 +0000" stop="20260819123500 +0000" channel="tv2ostjylland.d
+k"><title>12 News</title><desc>Sæson: 2026. . 12 Nyhederne, Sporten og Vejret. Tilladt for: A.</desc></programme>
+  output\denmark6.xml:3206:<programme start="20260819123500 +0000" stop="20260819132500 +0000" channel="tv2ostjylland.d
+k"><title>Beliggenhed, beliggenhed, beliggenhed</title><desc>De nybagte tvillingeforældre Line og Christian er hårdt pr
+essede i deres lejlighed på 68 m2, som er fyldt til bristepunktet med babyudstyr. De kaster derfor en redningskrans ud
+til Sara med et brændende ønske om flere kvadratmeter og egen have i nærheden af Odense. Efter to år i USA er Hanne og
+Aske klar til at tage hul på næste store eventyr. De drømmer om at finde stedet, hvor deres lille datter Agnes skal vok
+se op - et hus med originale detaljer, der vækker den helt rigtige følelse af at komme hjem. Tilladt for: A.</desc><ico
+n src="https://image.tmdb.org/t/p/w1280/kNk4unhxVfeleq0CtaZ916FlhS4.jpg" /></programme>
+> output\denmark6.xml:3235:<programme start="20260820060000 +0000" stop="20260820063000 +0000" channel="tv2ostjylland.d
+k"><title>Nyhederne, Sporten og Vejret</title><desc>Nyhederne, sporten og vejret.</desc></programme>
+  output\denmark6.xml:3236:<programme start="20260820063000 +0000" stop="20260820113000 +0000" channel="tv2ostjylland.d
+k"><title>Go' morgen Danmark - Del 1/2</title><desc>Go. 'Go er hele Danmarks aktualitet- og livsstilsprogram. Start dag
+en med hygge og høje grin - og få stof til eftertanke og samtaleemner, man har lyst til at dele resten af dagen. Tillad
+t for: A.</desc></programme>
+> output\denmark6.xml:3238:<programme start="20260820120000 +0000" stop="20260820123500 +0000" channel="tv2ostjylland.d
+k"><title>12 News</title><desc>Sæson: 2026. . 12 Nyhederne, Sporten og Vejret. Tilladt for: A.</desc></programme>
+  output\denmark6.xml:3239:<programme start="20260820123500 +0000" stop="20260820132500 +0000" channel="tv2ostjylland.d
+k"><title>Beliggenhed, beliggenhed, beliggenhed</title><desc>De nybagte tvillingeforældre Line og Christian er hårdt pr
+essede i deres lejlighed på 68 m2, som er fyldt til bristepunktet med babyudstyr. De kaster derfor en redningskrans ud
+til Sara med et brændende ønske om flere kvadratmeter og egen have i nærheden af Odense. Efter to år i USA er Hanne og
+Aske klar til at tage hul på næste store eventyr. De drømmer om at finde stedet, hvor deres lille datter Agnes skal vok
+se op - et hus med originale detaljer, der vækker den helt rigtige følelse af at komme hjem. Tilladt for: A.</desc><ico
+n src="https://image.tmdb.org/t/p/w1280/kNk4unhxVfeleq0CtaZ916FlhS4.jpg" /></programme>
+> output\denmark6.xml:3361:<programme start="20260819060000 +0000" stop="20260819063000 +0000" channel="tv2syd.dk"><tit
+le>Nyhederne, Sporten og Vejret</title><desc>Nyhederne, sporten og vejret.</desc></programme>
+  output\denmark6.xml:3362:<programme start="20260819063000 +0000" stop="20260819120000 +0000" channel="tv2syd.dk"><tit
+le>Go' morgen Danmark</title><desc>'Go' morgen Danmark' er hele Danmarks aktualitet- og livsstilsprogram. Start dagen m
+ed hygge og høje grin - og få stof til eftertanke og samtaleemner, man har lyst til at dele resten af dagen.</desc><ico
+n src="https://image.tmdb.org/t/p/w1280/fy54FNDjCWb0bGIRcTL6bCcthga.jpg" /></programme>
+> output\denmark6.xml:3363:<programme start="20260819120000 +0000" stop="20260819123500 +0000" channel="tv2syd.dk"><tit
+le>12 News</title><desc>Sæson: 2026. . 12 Nyhederne, Sporten og Vejret. Tilladt for: A.</desc></programme>
+  output\denmark6.xml:3364:<programme start="20260819123500 +0000" stop="20260819132500 +0000" channel="tv2syd.dk"><tit
+le>Beliggenhed, beliggenhed, beliggenhed</title><desc>De nybagte tvillingeforældre Line og Christian er hårdt pressede
+i deres lejlighed på 68 m2, som er fyldt til bristepunktet med babyudstyr. De kaster derfor en redningskrans ud til Sar
+a med et brændende ønske om flere kvadratmeter og egen have i nærheden af Odense. Efter to år i USA er Hanne og Aske kl
+ar til at tage hul på næste store eventyr. De drømmer om at finde stedet, hvor deres lille datter Agnes skal vokse op -
+ et hus med originale detaljer, der vækker den helt rigtige følelse af at komme hjem. Tilladt for: A.</desc><icon src="
+https://image.tmdb.org/t/p/w1280/kNk4unhxVfeleq0CtaZ916FlhS4.jpg" /></programme>
+> output\denmark6.xml:3394:<programme start="20260820060000 +0000" stop="20260820063000 +0000" channel="tv2syd.dk"><tit
+le>Nyhederne, Sporten og Vejret</title><desc>Nyhederne, sporten og vejret.</desc></programme>
+  output\denmark6.xml:3395:<programme start="20260820063000 +0000" stop="20260820120000 +0000" channel="tv2syd.dk"><tit
+le>Go' morgen Danmark</title><desc>'Go' morgen Danmark' er hele Danmarks aktualitet- og livsstilsprogram. Start dagen m
+ed hygge og høje grin - og få stof til eftertanke og samtaleemner, man har lyst til at dele resten af dagen.</desc><ico
+n src="https://image.tmdb.org/t/p/w1280/fy54FNDjCWb0bGIRcTL6bCcthga.jpg" /></programme>
+> output\denmark6.xml:3396:<programme start="20260820120000 +0000" stop="20260820123500 +0000" channel="tv2syd.dk"><tit
+le>12 News</title><desc>Sæson: 2026. . 12 Nyhederne, Sporten og Vejret. Tilladt for: A.</desc></programme>
+  output\denmark6.xml:3397:<programme start="20260820123500 +0000" stop="20260820132500 +0000" channel="tv2syd.dk"><tit
+le>Beliggenhed, beliggenhed, beliggenhed</title><desc>De nybagte tvillingeforældre Line og Christian er hårdt pressede
+i deres lejlighed på 68 m2, som er fyldt til bristepunktet med babyudstyr. De kaster derfor en redningskrans ud til Sar
+a med et brændende ønske om flere kvadratmeter og egen have i nærheden af Odense. Efter to år i USA er Hanne og Aske kl
+ar til at tage hul på næste store eventyr. De drømmer om at finde stedet, hvor deres lille datter Agnes skal vokse op -
+ et hus med originale detaljer, der vækker den helt rigtige følelse af at komme hjem. Tilladt for: A.</desc><icon src="
+https://image.tmdb.org/t/p/w1280/kNk4unhxVfeleq0CtaZ916FlhS4.jpg" /></programme>
+> output\denmark6.xml:3789:<programme start="20260819120000 +0000" stop="20260819150000 +0000" channel="viasatgolf.dk">
+<title>USGA Championship</title><desc>Verdens bedste amatørgolfspillere samles på traditionsrige Merion Golf Club i Phi
+ladelphia til U.S. Amateur Championship. En af sportens mest prestigefyldte amatørturneringer byder på intens matchplay
+, store talenter og golf på allerhøjeste niveau.</desc></programme>
+  output\denmark6.xml:3790:<programme start="20260819150000 +0000" stop="20260819153000 +0000" channel="viasatgolf.dk">
+<title>Dp World Tour Highlights</title><desc>Her får du højdepunkterne fra den seneste turnering på DP World Touren.</d
+esc></programme>
+
+PS C:\EPGoal>​‌
+
+PS C:\EPGoal> python3 -c "
+>> from openpyxl import load_workbook
+>> wb = load_workbook('data/manual_artwork_overrides.xlsx', data_only=True)
+>> ws = wb['Manuelle overrides'] if 'Manuelle overrides' in wb.sheetnames else wb.active
+>> headers = [c.value for c in ws[1]]
+>> title_col = headers.index('Titel (som i EPG)')
+>> url_col = headers.index('Backdrop URL')
+>> targets = ['Luksus i London', 'Sporten', 'Sommerferie', 'PDC World Series of Darts', 'A-Liga: Målfesten']
+>> for row in ws.iter_rows(min_row=2):
+>>     t = row[title_col].value
+>>     if t and str(t).strip() in targets:
+>>         print(repr(t), '->', repr(row[url_col].value))
+>> "
+'A-Liga: Målfesten' -> 'https://github.com/flanaganz/epgoal/blob/main/Manual_artwork_overrides/A-Liga%20M%C3%A5lfesten.jpg'
+'Sporten' -> 'https://github.com/flanaganz/epgoal/blob/main/Manual_artwork_overrides/Sporten.jpg'
+'Luksus i London' -> 'https://github.com/flanaganz/epgoal/blob/main/Manual_artwork_overrides/Luksus%20i%20London.jpg'
+'Sommerferie' -> 'https://github.com/flanaganz/epgoal/blob/main/Manual_artwork_overrides/Sommerferie.jpg'
+'PDC World Series of Darts' -> 'https://github.com/flanaganz/epgoal/blob/main/Manual_artwork_overrides/PDC%20World%20Series%20of%20Darts.jpg'
+PS C:\EPGoal>
