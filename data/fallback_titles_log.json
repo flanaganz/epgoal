@@ -1,41 +1,25 @@
 {
-  "TV 2 Sport X.dk": {
-    "FIFA VM 2026: Brasilien-Norge, 1/8-finale": 2,
-    "FIFA VM 2026: Elfenbenskysten-Norge, 1/16-finale": 2,
-    "FIFA VM 2026: Irak-Norge": 2,
-    "FIFA VM 2026: Norge-England, kvartfinale": 2,
-    "FIFA VM 2026: Norge-Frankrig": 2,
-    "FIFA VM 2026: Norge-Senegal": 2,
-    "FIFA VM 2026: Spanien-Argentina, finale": 2
+  "TV 2 Sport.dk": {
+    "ATP: Kvartfinale, Cincinnati": 2
   },
   "TV3 Sport Denmark (DK,DA).dk": {
-    "Community Shield": 1,
-    "Community Shield Studie": 2,
     "Danskerklubben": 1,
-    "Watt the F1!?": 1
+    "Watt the F1!?": 2
   },
   "TV3 Sport HD (D) (T).dk": {
-    "Community Shield Studie": 1,
-    "DK: COMMUNITY SHIELD: ARSENAL - MANCHESTER CITY": 1,
-    "Danskerklubben": 1,
-    "Watt the F1!?": 1
+    "Watt the F1!?": 2
   },
   "TV3 Sport.dk": {
-    "Arsenal - Manchester City": 1,
-    "Community Shield": 2,
-    "Community Shield Studie": 3,
-    "Community Shield Studie: Arsenal - Manchester City": 1,
-    "Danskerklubben": 3,
-    "Ligue 1: Lens - Paris Saint-Germain": 1,
-    "Watt the F1!?": 2,
-    "Watt the F1!?: Watt The F1!?": 1
+    "Danskerklubben": 1,
+    "Watt the F1!?": 4,
+    "Watt the F1!?: Watt The F1!?": 2
   },
   "Viaplay Sport News HD (D) (T).dk": {
-    "Danskerklubben": 5,
-    "Watt the F1!?": 4
+    "Danskerklubben": 3,
+    "Watt the F1!?": 6
   },
   "Viaplay Sport News.dk": {
-    "Danskerklubben": 7,
-    "Watt the F1!?": 4
+    "Danskerklubben": 5,
+    "Watt the F1!?": 6
   }
 }
