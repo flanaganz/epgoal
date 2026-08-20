@@ -1,25 +1,42 @@
 {
+  "TV 2 Sport X.dk": {
+    "ATP: Jodar-Cobolli, Cincinnati": 1,
+    "ATP: Zverev-Paul, Cincinnati": 1
+  },
   "TV 2 Sport.dk": {
-    "ATP: Kvartfinale, Cincinnati": 2
+    "ATP: Kvartfinale, Cincinnati": 4
   },
   "TV3 Sport Denmark (DK,DA).dk": {
-    "Danskerklubben": 1,
-    "Watt the F1!?": 2
+    "1. Division Studie": 2,
+    "Chasing the Dream": 1,
+    "Watt the F1!?": 3
   },
   "TV3 Sport HD (D) (T).dk": {
+    "1. Division": 1,
+    "1. Division Studie": 2,
+    "F1 Training": 4,
     "Watt the F1!?": 2
   },
   "TV3 Sport.dk": {
-    "Danskerklubben": 1,
-    "Watt the F1!?": 4,
+    "1. Division Studie": 4,
+    "1. Division Studie: Vejle Boldklub - Esbjerg fB": 2,
+    "1. Division: Vejle Boldklub - Esbjerg fB": 1,
+    "Chasing the Dream": 2,
+    "F1 Training: Hollands Grand Prix - Sprint Kvalifikation": 2,
+    "F1 Training: Hollands Grand Prix - Træning 1": 2,
+    "F1: Ungarns Grand Prix - Løbet": 1,
+    "Formula 2: Chasing the Dream: Chasing the Dream - Italien": 1,
+    "Watt the F1!?": 5,
     "Watt the F1!?: Watt The F1!?": 2
   },
   "Viaplay Sport News HD (D) (T).dk": {
-    "Danskerklubben": 3,
-    "Watt the F1!?": 6
+    "Danskerklubben": 1,
+    "Sky Sports: Total Football": 1,
+    "Watt the F1!?": 3
   },
   "Viaplay Sport News.dk": {
-    "Danskerklubben": 5,
-    "Watt the F1!?": 6
+    "Danskerklubben": 3,
+    "Sky Sports: Total Football": 1,
+    "Watt the F1!?": 4
   }
 }
