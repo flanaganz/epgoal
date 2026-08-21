@@ -4584,6 +4584,11 @@
     "poster": null,
     "ts": 1786632589.925827
   },
+  "bundesliga håndbold": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1787292222.0951002
+  },
   "bundesliga review of the midseason": {
     "backdrop": null,
     "poster": null,
@@ -8529,6 +8534,11 @@
     "poster": null,
     "ts": 1786716254.3685308
   },
+  "efl championship: millwall - norwich": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1787292223.8275118
+  },
   "efter fem": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/af9FPIsqNENSUGJUO83Yg4O29xH.jpg",
     "poster": null,
@@ -9528,6 +9538,11 @@
     "backdrop": null,
     "poster": null,
     "ts": 1787202720.34134
+  },
+  "f1 training: hollands grand prix - sprint race": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1787292223.6217072
   },
   "f1 training: hollands grand prix - træning 1": {
     "backdrop": null,
@@ -12389,6 +12404,16 @@
     "poster": null,
     "ts": 1787223212.2390864
   },
+  "handball bundesliga": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1787292218.2619054
+  },
+  "handball bundesliga: magdeburg - füchse berlin": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1787292224.0149164
+  },
   "handicap på ski": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/A0zvhUDxXeVBxB9ffq7xDj27mx5.jpg",
     "poster": null,
@@ -15138,6 +15163,11 @@
     "backdrop": "https://image.tmdb.org/t/p/w1280/yfQ4x15JxsPJw7MZSNCmlTOEzVs.jpg",
     "poster": null,
     "ts": 1787222982.2464106
+  },
+  "julian dicks": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1787292218.0710387
   },
   "juliet, naked": {
     "backdrop": null,
@@ -21664,6 +21694,11 @@
     "poster": null,
     "ts": 1786739095.741599
   },
+  "optakt: fc midtjylland-agf": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1787292218.455152
+  },
   "optur": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/rN2UZ1NNWabHiBIMCEeC4W6m8b.jpg",
     "poster": "https://image.tmdb.org/t/p/w500/gc6QPkfIPwC1asQ19qngFqoQP70.jpg",
@@ -25329,10 +25364,20 @@
     "poster": null,
     "ts": 1786632630.725886
   },
+  "sky sports fan club": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1787292218.64353
+  },
   "sky sports: soccer saturday": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/rIl1pgmuVBwBbDqS5w3hVD8Z9UW.jpg",
     "poster": "https://image.tmdb.org/t/p/w500/7wBA7sMJZoZuj0xnXARywwIe9Kl.jpg",
     "ts": 1786700756.8796997
+  },
+  "sky sports: the transfer show": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1787292218.8335085
   },
   "sky sports: total football": {
     "backdrop": null,

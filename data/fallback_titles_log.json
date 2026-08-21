@@ -8,35 +8,48 @@
   },
   "TV3 Sport Denmark (DK,DA).dk": {
     "1. Division Studie": 2,
+    "Bundesliga Håndbold": 2,
     "Chasing the Dream": 1,
-    "Watt the F1!?": 3
+    "Watt the F1!?": 2
   },
   "TV3 Sport HD (D) (T).dk": {
     "1. Division": 1,
     "1. Division Studie": 2,
-    "F1 Training": 4,
-    "Watt the F1!?": 2
+    "F1 Training": 7,
+    "Handball Bundesliga": 2,
+    "Julian Dicks": 1,
+    "Watt the F1!?": 1
   },
   "TV3 Sport.dk": {
     "1. Division Studie": 4,
     "1. Division Studie: Vejle Boldklub - Esbjerg fB": 2,
     "1. Division: Vejle Boldklub - Esbjerg fB": 1,
+    "Bundesliga Håndbold": 2,
     "Chasing the Dream": 2,
-    "F1 Training: Hollands Grand Prix - Sprint Kvalifikation": 2,
-    "F1 Training: Hollands Grand Prix - Træning 1": 2,
+    "EFL Championship: Millwall - Norwich": 1,
+    "F1 Training: Hollands Grand Prix - Sprint Kvalifikation": 3,
+    "F1 Training: Hollands Grand Prix - Sprint Race": 1,
+    "F1 Training: Hollands Grand Prix - Træning 1": 3,
     "F1: Ungarns Grand Prix - Løbet": 1,
     "Formula 2: Chasing the Dream: Chasing the Dream - Italien": 1,
-    "Watt the F1!?": 5,
-    "Watt the F1!?: Watt The F1!?": 2
+    "Handball Bundesliga: Magdeburg - Füchse Berlin": 2,
+    "Watt the F1!?": 4,
+    "Watt the F1!?: Watt The F1!?": 1
   },
   "Viaplay Sport News HD (D) (T).dk": {
     "Danskerklubben": 1,
+    "Optakt: Fc Midtjylland-agf": 1,
+    "Sky Sports Fan Club": 1,
+    "Sky Sports: The Transfer Show": 1,
     "Sky Sports: Total Football": 1,
-    "Watt the F1!?": 3
+    "Watt the F1!?": 1
   },
   "Viaplay Sport News.dk": {
-    "Danskerklubben": 3,
+    "Danskerklubben": 2,
+    "Optakt: Fc Midtjylland-agf": 1,
+    "Sky Sports Fan Club": 1,
+    "Sky Sports: The Transfer Show": 1,
     "Sky Sports: Total Football": 1,
-    "Watt the F1!?": 4
+    "Watt the F1!?": 3
   }
 }
