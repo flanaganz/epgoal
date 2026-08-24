@@ -2614,6 +2614,11 @@
     "poster": null,
     "ts": 1786946643.4124713
   },
+  "atp: fils-tiafoe, finale, cincinnati": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1787575381.7128322
+  },
   "atp: finale, montreal": {
     "backdrop": null,
     "poster": null,
@@ -2634,6 +2639,11 @@
     "poster": null,
     "ts": 1785845439.455463
   },
+  "atp: fritz-nakashima, kvartfinale, cincinnati": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1787575381.293821
+  },
   "atp: jodar-cobolli, cincinnati": {
     "backdrop": null,
     "poster": null,
@@ -2653,6 +2663,11 @@
     "backdrop": null,
     "poster": null,
     "ts": 1785845439.0642462
+  },
+  "atp: nakashima-tiafoe, semifinale, cincinnati": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1787575381.5125806
   },
   "atp: rune-alcaraz, finale, barcelona": {
     "backdrop": null,
@@ -9554,6 +9569,11 @@
     "poster": null,
     "ts": 1787223018.794091
   },
+  "f1: hollands grand prix - løbet": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1787575379.703328
+  },
   "f1: ungarns grand prix - løbet": {
     "backdrop": null,
     "poster": null,
@@ -12844,6 +12864,16 @@
     "poster": null,
     "ts": 1787223205.1601973
   },
+  "herreligaen: gog-skjern": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1787575382.306258
+  },
+  "herreligaen: studiet": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1787575382.1149428
+  },
   "herskabelig": {
     "backdrop": null,
     "poster": null,
@@ -13918,6 +13948,16 @@
     "backdrop": "https://image.tmdb.org/t/p/w1280/zwsCk8qJywDNjd0LjlMJyekaV0z.jpg",
     "poster": null,
     "ts": 1786632718.323717
+  },
+  "håndbold (m): håndboldligaen - kampe": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1787575378.492398
+  },
+  "håndbold: liga håndbold - studiet": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1787575378.2826977
   },
   "hånden på hjertet": {
     "backdrop": null,
@@ -24794,6 +24834,26 @@
     "poster": null,
     "ts": 1786632837.5224657
   },
+  "serie a: genoa-napoli": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1787575381.0660462
+  },
+  "serie a: inter-monza": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1787575380.8611615
+  },
+  "serie a: roma-fiorentina": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1787575380.6670227
+  },
+  "serie a: torino-ac milan": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1787575380.4393606
+  },
   "servicetid-reportage": {
     "backdrop": null,
     "poster": null,
@@ -26953,6 +27013,16 @@
     "backdrop": "https://image.tmdb.org/t/p/w1280/hy477nCJxDelCHJ7nSkWlBemxVI.jpg",
     "poster": null,
     "ts": 1787222991.2149556
+  },
+  "super cup (h)": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1787575378.0785801
+  },
+  "super cup: aalborg-skanderborg agf (h)": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1787575381.9050074
   },
   "super duper team kanin": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/zmPgMueIUN5yqPbl5ISc6aAU20q.jpg",

@@ -1,55 +1,48 @@
 {
+  "TV 2 Sport Denmark (DK,DA).dk": {
+    "Håndbold (m): Håndboldligaen - Kampe": 2,
+    "Håndbold: Liga Håndbold - studiet": 3,
+    "Super Cup (h)": 2
+  },
+  "TV 2 Sport HD (D) (T).dk": {
+    "Håndbold (m): Håndboldligaen - Kampe": 2,
+    "Håndbold: Liga Håndbold - studiet": 3,
+    "Super Cup (h)": 2
+  },
   "TV 2 Sport X.dk": {
-    "ATP: Jodar-Cobolli, Cincinnati": 1,
-    "ATP: Zverev-Paul, Cincinnati": 1
+    "ATP: Fils-Tiafoe, finale, Cincinnati": 1,
+    "ATP: Fritz-Nakashima, kvartfinale, Cincinnati": 1,
+    "ATP: Nakashima-Tiafoe, semifinale, Cincinnati": 1,
+    "Serie A: Genoa-Napoli": 2,
+    "Serie A: Inter-Monza": 2,
+    "Serie A: Roma-Fiorentina": 4,
+    "Serie A: Torino-AC Milan": 4
   },
   "TV 2 Sport.dk": {
-    "ATP: Kvartfinale, Cincinnati": 4
+    "ATP: Fils-Tiafoe, finale, Cincinnati": 1,
+    "Herreligaen: GOG-Skjern": 4,
+    "Herreligaen: Studiet": 3,
+    "Håndbold (m): Håndboldligaen - Kampe": 2,
+    "Håndbold: Liga Håndbold - studiet": 3,
+    "Serie A: Roma-Fiorentina": 4,
+    "Super Cup (h)": 2,
+    "Super Cup: Aalborg-Skanderborg AGF (h)": 2
   },
   "TV3 Sport Denmark (DK,DA).dk": {
-    "1. Division Studie": 2,
-    "Bundesliga Håndbold": 2,
-    "Chasing the Dream": 1,
-    "Watt the F1!?": 2
+    "Danskerklubben": 1
   },
   "TV3 Sport HD (D) (T).dk": {
-    "1. Division": 1,
-    "1. Division Studie": 2,
-    "F1 Training": 7,
-    "Handball Bundesliga": 2,
-    "Julian Dicks": 1,
-    "Watt the F1!?": 1
+    "Danskerklubben": 1
   },
   "TV3 Sport.dk": {
-    "1. Division Studie": 4,
-    "1. Division Studie: Vejle Boldklub - Esbjerg fB": 2,
-    "1. Division: Vejle Boldklub - Esbjerg fB": 1,
-    "Bundesliga Håndbold": 2,
-    "Chasing the Dream": 2,
-    "EFL Championship: Millwall - Norwich": 1,
-    "F1 Training: Hollands Grand Prix - Sprint Kvalifikation": 3,
-    "F1 Training: Hollands Grand Prix - Sprint Race": 1,
-    "F1 Training: Hollands Grand Prix - Træning 1": 3,
-    "F1: Ungarns Grand Prix - Løbet": 1,
-    "Formula 2: Chasing the Dream: Chasing the Dream - Italien": 1,
-    "Handball Bundesliga: Magdeburg - Füchse Berlin": 2,
-    "Watt the F1!?": 4,
-    "Watt the F1!?: Watt The F1!?": 1
+    "Danskerklubben": 3,
+    "F1: Hollands Grand Prix - Løbet": 1
   },
   "Viaplay Sport News HD (D) (T).dk": {
-    "Danskerklubben": 1,
-    "Optakt: Fc Midtjylland-agf": 1,
-    "Sky Sports Fan Club": 1,
-    "Sky Sports: The Transfer Show": 1,
-    "Sky Sports: Total Football": 1,
-    "Watt the F1!?": 1
+    "Danskerklubben": 9
   },
   "Viaplay Sport News.dk": {
-    "Danskerklubben": 2,
-    "Optakt: Fc Midtjylland-agf": 1,
-    "Sky Sports Fan Club": 1,
-    "Sky Sports: The Transfer Show": 1,
-    "Sky Sports: Total Football": 1,
-    "Watt the F1!?": 3
+    "Danskerklubben": 10,
+    "Watt the F1!?": 1
   }
 }
