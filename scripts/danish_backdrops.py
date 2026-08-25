@@ -9,6 +9,27 @@ Se README/tidligere dokumentation for fuld baggrund. Denne version tilføjer:
 
 NB: Dette script håndterer KUN backdrops (16:9). Posters er fjernet fra
 hele pipelinen, da UHF ikke bruger dem.
+
+NYT (2026-08-19): AUTOMATISK GIT-SYNKRONISERING FØR KØRSEL
+    Scriptet kører nu "git fetch" + "git pull --rebase origin main"
+    automatisk, FØR selve berigelsen starter. Årsag: hvis du (eller nogen
+    med adgang til repoet) uploader/redigerer filer direkte via GitHub.com's
+    webgrænseflade (fx billeder til Manual_artwork_overrides/), opretter
+    GitHub sin egen commit direkte på "main" - uden om din lokale klon.
+    Kører scriptet derefter og forsøger at pushe SINE egne nye commits oven
+    på din nu forældede lokale "main", bliver push'et afvist af GitHub
+    ("! [rejected] main -> main (fetch first)") - men den GAMLE
+    git_push()-funktion rapporterede fejlagtigt "✅ Git push forsøgt" uanset
+    udfald, så fejlen gik ubemærket hen, og dine ændringer nåede ALDRIG
+    GitHub (og dermed heller ikke UHF).
+    Den nye git_sync()-funktion fanger og løser dette FØR det sker: er der
+    nye commits på GitHub, hentes og indarbejdes de automatisk via rebase,
+    før scriptet begynder at arbejde. Opstår der en ÆGTE konflikt (samme
+    linje ændret forskelligt begge steder), stopper scriptet med en tydelig
+    fejlbesked i stedet for at fortsætte blindt.
+    Samtidig er git_push() rettet til at rapportere ÆRLIGT om push'et rent
+    faktisk lykkedes eller ej, i stedet for altid at vise en grøn "✅", og
+    forsøger selv én automatisk rebase+retry, hvis push'et bliver afvist.
 """
 from __future__ import annotations
 
@@ -335,20 +356,95 @@ def append_run_log(log_path: Path, per_file_stats: dict, grand_total: dict,
     save_json(log_path, history)
 
 
-def git_push(repo_dir: Path, commit_message: str) -> None:
-    print("\n⬆️  Committer og pusher til GitHub ...")
-    try:
-        subprocess.run(["git", "add", "-A"], cwd=repo_dir, check=False)
-        result = subprocess.run(
-            ["git", "commit", "-m", commit_message], cwd=repo_dir, check=False, capture_output=True, text=True
+def _run_git(args: list[str], repo_dir: Path) -> subprocess.CompletedProcess:
+    return subprocess.run(
+        ["git"] + args, cwd=repo_dir, check=False, capture_output=True, text=True
+    )
+
+
+def git_sync(repo_dir: Path) -> None:
+    """Henter og indarbejder automatisk eventuelle nye commits fra GitHub,
+    FØR selve berigelsen starter (fx billeder uploadet direkte via
+    github.com til Manual_artwork_overrides/). Se docstring øverst i filen.
+
+    Stopper scriptet med en tydelig fejlbesked, hvis der opstår en ÆGTE
+    rebase-konflikt, i stedet for at fortsætte og risikere at arbejde
+    videre på en uafstemt tilstand."""
+    print("🔄 Tjekker for nye ændringer på GitHub ...")
+
+    fetch = _run_git(["fetch", "origin"], repo_dir)
+    if fetch.returncode != 0:
+        print(f"⚠️  Kunne ikke hente fra GitHub (git fetch fejlede) - fortsætter uden sync:\n{fetch.stderr.strip()}",
+              file=sys.stderr)
+        return
+
+    diff = _run_git(["rev-list", "HEAD..origin/main", "--count"], repo_dir)
+    if diff.returncode != 0:
+        print("⚠️  Kunne ikke sammenligne med origin/main - fortsætter uden sync.", file=sys.stderr)
+        return
+
+    behind_count = diff.stdout.strip()
+    if behind_count in ("", "0"):
+        print("   Ingen nye ændringer på GitHub - fortsætter.")
+        return
+
+    print(f"   Fandt {behind_count} ny(e) commit(s) på GitHub (fx billeder uploadet direkte via github.com). "
+          "Henter dem ned ...")
+    rebase = _run_git(["pull", "--rebase", "origin", "main"], repo_dir)
+    if rebase.returncode != 0:
+        print(rebase.stdout)
+        print(rebase.stderr, file=sys.stderr)
+        _run_git(["rebase", "--abort"], repo_dir)
+        sys.exit(
+            "❌ Git-synkronisering fejlede med en ægte konflikt (samme fil/linje ændret begge steder).\n"
+            "   Rebase er annulleret for ikke at risikere tabt data. Løs det manuelt:\n"
+            "     cd " + str(repo_dir) + "\n"
+            "     git pull --rebase origin main\n"
+            "   (løs evt. konflikter, 'git add' de rettede filer, 'git rebase --continue')\n"
+            "   Kør derefter scriptet igen."
         )
-        if "nothing to commit" in (result.stdout + result.stderr).lower():
-            print("   Ingen ændringer at committe.")
-            return
-        subprocess.run(["git", "push", "origin", "main"], cwd=repo_dir, check=False)
-        print("✅ Git push forsøgt (tjek GitHub for resultat).")
-    except FileNotFoundError:
-        print("⚠️  git blev ikke fundet i PATH — spring commit/push over.", file=sys.stderr)
+    print("   ✅ Lokal repo opdateret med ændringer fra GitHub.")
+
+
+def git_push(repo_dir: Path, commit_message: str) -> bool:
+    """Committer og pusher ændringer. Returnerer True hvis push'et rent
+    faktisk lykkedes, False ellers - rapporteres ÆRLIGT til brugeren
+    (den gamle version viste altid en grøn '✅', uanset udfald)."""
+    print("\n⬆️  Committer og pusher til GitHub ...")
+    add = _run_git(["add", "-A"], repo_dir)
+    if add.returncode != 0:
+        print(f"⚠️  'git add' fejlede:\n{add.stderr.strip()}", file=sys.stderr)
+        return False
+
+    commit = _run_git(["commit", "-m", commit_message], repo_dir)
+    if "nothing to commit" in (commit.stdout + commit.stderr).lower():
+        print("   Ingen ændringer at committe.")
+        return True
+
+    push = _run_git(["push", "origin", "main"], repo_dir)
+    if push.returncode != 0:
+        print(push.stdout)
+        print(push.stderr, file=sys.stderr)
+        if "rejected" in push.stderr.lower() or "fetch first" in push.stderr.lower():
+            print("   ℹ️  Push blev afvist fordi GitHub har ændringer, du ikke havde lokalt endnu.")
+            print("   Forsøger automatisk at synkronisere og pushe igen ...")
+            rebase = _run_git(["pull", "--rebase", "origin", "main"], repo_dir)
+            if rebase.returncode == 0:
+                retry_push = _run_git(["push", "origin", "main"], repo_dir)
+                if retry_push.returncode == 0:
+                    print("✅ Git push lykkedes (efter automatisk synkronisering).")
+                    return True
+                print(retry_push.stdout)
+                print(retry_push.stderr, file=sys.stderr)
+            else:
+                print(rebase.stdout)
+                print(rebase.stderr, file=sys.stderr)
+                _run_git(["rebase", "--abort"], repo_dir)
+        print("❌ Git push FEJLEDE. Ændringerne ligger KUN lokalt, ikke på GitHub/UHF endnu.", file=sys.stderr)
+        return False
+
+    print("✅ Git push lykkedes.")
+    return True
 
 
 def main() -> None:
@@ -376,6 +472,9 @@ def main() -> None:
     git_cfg = config.get("git", {})
 
     DATA_DIR.mkdir(parents=True, exist_ok=True)
+
+    if git_cfg.get("enabled", True):
+        git_sync(ROOT)
 
     cache = load_json(DANISH_ARTWORK_CACHE_FILE, {})
     cache_size_before = len(cache)

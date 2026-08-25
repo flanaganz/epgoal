@@ -57,14 +57,32 @@ NYT (2026-08-14): KUN BACKDROPS HENTES/BRUGES FRA TMDb - INGEN POSTERE
     stående plakater (postere) - UHF læser <icon>, og hele resten af
     pipeline'en (danish_backdrops.py, sport_program_overrides.json) sætter
     bevidst <icon> til det SAMME landskabsbillede som <backdrop>, aldrig en
-    poster. Tidligere hentede tmdb_images() posters fra TMDb's API "gratis"
-    (samme HTTP-kald som backdrops, så intet ekstra netværksforbrug), MEN
-    process_xml() brugte fejlagtigt posteren som <icon> for TMDb-hentede
-    billeder (sport-fallback og ikke-sport-berigelse) - modsat resten af
-    systemet. Det er rettet: tmdb_images() henter/parser nu KUN backdrops
-    (posters ignoreres helt, også i selve JSON-parsingen), og alle steder
-    hvor et TMDb-billede sættes ind, bruges backdroppet BÅDE som <icon> og
-    <backdrop>, ligesom overalt ellers i pipeline'en.
+    poster. tmdb_images() henter/parser nu KUN backdrops (posters ignoreres
+    helt, også i selve JSON-parsingen), og alle steder hvor et TMDb-billede
+    sættes ind, bruges backdroppet BÅDE som <icon> og <backdrop>, ligesom
+    overalt ellers i pipeline'en.
+
+NYT (2026-08-19): AUTOMATISK GIT-SYNKRONISERING FØR KØRSEL
+    Scriptet kører nu "git fetch" + "git pull --rebase origin main"
+    automatisk, FØR selve EPG-berigelsen starter. Årsag: hvis du (eller
+    nogen med adgang til repoet) uploader/redigerer filer direkte via
+    GitHub.com's webgrænseflade (fx billeder til Manual_artwork_overrides/),
+    opretter GitHub sin egen commit direkte på "main" - uden om din lokale
+    klon. Kører scriptet derefter og forsøger at pushe SINE egne nye
+    commits oven på din nu forældede lokale "main", bliver push'et afvist
+    af GitHub ("! [rejected] main -> main (fetch first)") - men den GAMLE
+    git_push()-funktion rapporterede fejlagtigt "✅ Git push forsøgt" uanset
+    udfald, så fejlen gik ubemærket hen, og dine ændringer nåede ALDRIG
+    GitHub (og dermed heller ikke UHF).
+    Den nye git_sync()-funktion fanger og løser dette FØR det sker: er der
+    nye commits på GitHub, hentes og indarbejdes de automatisk via rebase,
+    før scriptet begynder at arbejde. Opstår der en ÆGTE konflikt (samme
+    linje ændret forskelligt begge steder), stopper scriptet med en tydelig
+    fejlbesked i stedet for at fortsætte blindt - du bliver bedt om at løse
+    konflikten manuelt (git rebase --abort / løs konflikt / git rebase
+    --continue), fremfor at risikere tabt eller overskrevet data.
+    Samtidig er git_push() rettet til at rapportere ÆRLIGT om push'et rent
+    faktisk lykkedes eller ej, i stedet for altid at vise en grøn "✅".
 
 Titel-normalisering bruger unicodedata.normalize("NFKC", ...) samt eksplicit
 erstatning af usynlige tegn (nulbredde-mellemrum, blødt bindestreg, BOM m.fl.)
@@ -309,10 +327,7 @@ def tmdb_search(title: str) -> tuple[str, int] | None:
 
 def tmdb_images(media_type: str, tmdb_id: int) -> str | None:
     """Henter KUN backdrop (landskabsbillede) fra TMDb. Postere hentes/parses
-    bevidst IKKE - se docstring øverst i filen ("KUN BACKDROPS"). Selvom
-    /images-endpointet teknisk set returnerer begge dele i samme HTTP-kald
-    (så der intet ekstra netværksforbrug spares ved dette), undgår vi hermed
-    at posters nogensinde ved en fejl ender som <icon> et sted i pipeline'en."""
+    bevidst IKKE - se docstring øverst i filen ("KUN BACKDROPS")."""
     resp = SESSION.get(
         f"{TMDB_BASE}/{media_type}/{tmdb_id}/images",
         params={"api_key": TMDB_API_KEY, "include_image_language": "da,en,null"},
@@ -332,9 +347,8 @@ def tmdb_images(media_type: str, tmdb_id: int) -> str | None:
 def resolve_tmdb_artwork(raw_title: str, overrides: dict, cache: dict, cache_max_age_days: int,
                           backdrop_size: str, poster_size: str) -> tuple[dict, bool]:
     """Returnerer ALTID {"backdrop": url_eller_None} - "poster" er bevaret i
-    return-dict'et af bagudkompatibilitet med overrides.json (manuelle
-    tmdb_id-overrides kan stadig angive en direkte poster_url der), men
-    fyldes IKKE automatisk fra TMDb's API længere (se tmdb_images())."""
+    return-dict'et af bagudkompatibilitet med overrides.json, men fyldes IKKE
+    automatisk fra TMDb's API længere (se tmdb_images())."""
     key = normalize_title(raw_title)
 
     override = overrides.get(key)
@@ -389,7 +403,7 @@ def set_artwork(programme: ET.Element, backdrop_url: str | None, poster_url: str
 
 
 def set_backdrop_only(programme: ET.Element, backdrop_url: str | None) -> bool:
-    """NYT: bruges for ALT TMDb-hentet artwork (sport-fallback og ikke-sport-
+    """Bruges for ALT TMDb-hentet artwork (sport-fallback og ikke-sport-
     berigelse). Sætter det SAMME backdrop-billede ind BÅDE som <icon> og
     <backdrop> - ligesom danish_backdrops.py og sport_program_overrides.json
     allerede gør. Ingen poster involveret nogen steder."""
@@ -449,9 +463,6 @@ def process_xml(xml_bytes: bytes, matcher: SportMatcher, source_cfg: dict,
                 continue
 
             if result:
-                # Lokale matches (sport_program_overrides.json / kategorier)
-                # sætter allerede backdrop OG poster til samme fil bevidst -
-                # bruges uændret via set_artwork().
                 set_artwork(programme, result.get("backdrop"), result.get("poster"))
                 stats["sport_matched"] += 1
                 if role == "partial_sport":
@@ -537,20 +548,95 @@ def process_xml(xml_bytes: bytes, matcher: SportMatcher, source_cfg: dict,
     return ET.tostring(root, encoding="utf-8", xml_declaration=True), stats
 
 
-def git_push(repo_dir: Path, commit_message: str) -> None:
-    print("\n⬆️  Committer og pusher til GitHub ...")
-    try:
-        subprocess.run(["git", "add", "-A"], cwd=repo_dir, check=False)
-        result = subprocess.run(
-            ["git", "commit", "-m", commit_message], cwd=repo_dir, check=False, capture_output=True, text=True
+def _run_git(args: list[str], repo_dir: Path) -> subprocess.CompletedProcess:
+    return subprocess.run(
+        ["git"] + args, cwd=repo_dir, check=False, capture_output=True, text=True
+    )
+
+
+def git_sync(repo_dir: Path) -> None:
+    """Henter og indarbejder automatisk eventuelle nye commits fra GitHub,
+    FØR selve EPG-berigelsen starter. Se docstring øverst i filen for
+    baggrund ("AUTOMATISK GIT-SYNKRONISERING FØR KØRSEL").
+
+    Stopper scriptet med en tydelig fejlbesked, hvis der opstår en ÆGTE
+    rebase-konflikt, i stedet for at fortsætte og risikere at arbejde
+    videre på en uafstemt tilstand."""
+    print("🔄 Tjekker for nye ændringer på GitHub ...")
+
+    fetch = _run_git(["fetch", "origin"], repo_dir)
+    if fetch.returncode != 0:
+        print(f"⚠️  Kunne ikke hente fra GitHub (git fetch fejlede) - fortsætter uden sync:\n{fetch.stderr.strip()}",
+              file=sys.stderr)
+        return
+
+    diff = _run_git(["rev-list", "HEAD..origin/main", "--count"], repo_dir)
+    if diff.returncode != 0:
+        print("⚠️  Kunne ikke sammenligne med origin/main - fortsætter uden sync.", file=sys.stderr)
+        return
+
+    behind_count = diff.stdout.strip()
+    if behind_count in ("", "0"):
+        print("   Ingen nye ændringer på GitHub - fortsætter.")
+        return
+
+    print(f"   Fandt {behind_count} ny(e) commit(s) på GitHub (fx billeder uploadet direkte via github.com). "
+          "Henter dem ned ...")
+    rebase = _run_git(["pull", "--rebase", "origin", "main"], repo_dir)
+    if rebase.returncode != 0:
+        print(rebase.stdout)
+        print(rebase.stderr, file=sys.stderr)
+        _run_git(["rebase", "--abort"], repo_dir)
+        sys.exit(
+            "❌ Git-synkronisering fejlede med en ægte konflikt (samme fil/linje ændret begge steder).\n"
+            "   Rebase er annulleret for ikke at risikere tabt data. Løs det manuelt:\n"
+            "     cd " + str(repo_dir) + "\n"
+            "     git pull --rebase origin main\n"
+            "   (løs evt. konflikter, 'git add' de rettede filer, 'git rebase --continue')\n"
+            "   Kør derefter scriptet igen."
         )
-        if "nothing to commit" in (result.stdout + result.stderr).lower():
-            print("   Ingen ændringer at committe.")
-            return
-        subprocess.run(["git", "push", "origin", "main"], cwd=repo_dir, check=False)
-        print("✅ Git push forsøgt (tjek GitHub for resultat).")
-    except FileNotFoundError:
-        print("⚠️  git blev ikke fundet i PATH — spring commit/push over.", file=sys.stderr)
+    print("   ✅ Lokal repo opdateret med ændringer fra GitHub.")
+
+
+def git_push(repo_dir: Path, commit_message: str) -> bool:
+    """Committer og pusher ændringer. Returnerer True hvis push'et rent
+    faktisk lykkedes, False ellers - rapporteres ÆRLIGT til brugeren
+    (den gamle version viste altid en grøn '✅', uanset udfald)."""
+    print("\n⬆️  Committer og pusher til GitHub ...")
+    add = _run_git(["add", "-A"], repo_dir)
+    if add.returncode != 0:
+        print(f"⚠️  'git add' fejlede:\n{add.stderr.strip()}", file=sys.stderr)
+        return False
+
+    commit = _run_git(["commit", "-m", commit_message], repo_dir)
+    if "nothing to commit" in (commit.stdout + commit.stderr).lower():
+        print("   Ingen ændringer at committe.")
+        return True
+
+    push = _run_git(["push", "origin", "main"], repo_dir)
+    if push.returncode != 0:
+        print(push.stdout)
+        print(push.stderr, file=sys.stderr)
+        if "rejected" in push.stderr.lower() or "fetch first" in push.stderr.lower():
+            print("   ℹ️  Push blev afvist fordi GitHub har ændringer, du ikke havde lokalt endnu.")
+            print("   Forsøger automatisk at synkronisere og pushe igen ...")
+            rebase = _run_git(["pull", "--rebase", "origin", "main"], repo_dir)
+            if rebase.returncode == 0:
+                retry_push = _run_git(["push", "origin", "main"], repo_dir)
+                if retry_push.returncode == 0:
+                    print("✅ Git push lykkedes (efter automatisk synkronisering).")
+                    return True
+                print(retry_push.stdout)
+                print(retry_push.stderr, file=sys.stderr)
+            else:
+                print(rebase.stdout)
+                print(rebase.stderr, file=sys.stderr)
+                _run_git(["rebase", "--abort"], repo_dir)
+        print("❌ Git push FEJLEDE. Ændringerne ligger KUN lokalt, ikke på GitHub/UHF endnu.", file=sys.stderr)
+        return False
+
+    print("✅ Git push lykkedes.")
+    return True
 
 
 def main() -> None:
@@ -584,6 +670,9 @@ def main() -> None:
 
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
+    if git_cfg.get("enabled", True):
+        git_sync(ROOT)
 
     matcher = SportMatcher(image_base_url)
     tmdb_overrides = load_json(TMDB_OVERRIDES_FILE, {})

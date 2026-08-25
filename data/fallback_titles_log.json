@@ -12,22 +12,23 @@
     "Super Cup (h)": 2
   },
   "TV 2 Sport X.dk": {
-    "ATP: Fils-Tiafoe, finale, Cincinnati": 1,
+    "ATP: Fils-Tiafoe, finale, Cincinnati": 2,
     "ATP: Fritz-Nakashima, kvartfinale, Cincinnati": 1,
-    "ATP: Nakashima-Tiafoe, semifinale, Cincinnati": 1,
+    "ATP: Nakashima-Tiafoe, semifinale, Cincinnati": 2,
     "Serie A: Genoa-Napoli": 2,
     "Serie A: Inter-Monza": 2,
     "Serie A: Roma-Fiorentina": 4,
-    "Serie A: Torino-AC Milan": 4
+    "Serie A: Torino-AC Milan": 2
   },
   "TV 2 Sport.dk": {
-    "ATP: Fils-Tiafoe, finale, Cincinnati": 1,
-    "Herreligaen: GOG-Skjern": 4,
+    "Herreligaen: GOG-Skjern": 6,
     "Herreligaen: Studiet": 3,
     "Håndbold (m): Håndboldligaen - Kampe": 6,
     "Håndbold: Liga Håndbold - studiet": 6,
     "Kvindeligaen": 2,
-    "Serie A: Roma-Fiorentina": 4,
+    "Kvindeligaen: Ikast-Odense": 4,
+    "Kvindeligaen: Studiet": 3,
+    "Serie A: Roma-Fiorentina": 2,
     "Super Cup (h)": 2,
     "Super Cup: Aalborg-Skanderborg AGF (h)": 2
   },
@@ -38,7 +39,7 @@
     "Danskerklubben": 2
   },
   "TV3 Sport.dk": {
-    "Danskerklubben": 5
+    "Danskerklubben": 6
   },
   "Viaplay Sport News HD (D) (T).dk": {
     "Danskerklubben": 6,
