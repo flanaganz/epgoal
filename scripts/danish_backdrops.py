@@ -14,22 +14,23 @@ NYT (2026-08-19): AUTOMATISK GIT-SYNKRONISERING FØR KØRSEL
     Scriptet kører nu "git fetch" + "git pull --rebase origin main"
     automatisk, FØR selve berigelsen starter. Årsag: hvis du (eller nogen
     med adgang til repoet) uploader/redigerer filer direkte via GitHub.com's
-    webgrænseflade (fx billeder til Manual_artwork_overrides/), opretter
-    GitHub sin egen commit direkte på "main" - uden om din lokale klon.
-    Kører scriptet derefter og forsøger at pushe SINE egne nye commits oven
-    på din nu forældede lokale "main", bliver push'et afvist af GitHub
-    ("! [rejected] main -> main (fetch first)") - men den GAMLE
-    git_push()-funktion rapporterede fejlagtigt "✅ Git push forsøgt" uanset
-    udfald, så fejlen gik ubemærket hen, og dine ændringer nåede ALDRIG
-    GitHub (og dermed heller ikke UHF).
-    Den nye git_sync()-funktion fanger og løser dette FØR det sker: er der
-    nye commits på GitHub, hentes og indarbejdes de automatisk via rebase,
-    før scriptet begynder at arbejde. Opstår der en ÆGTE konflikt (samme
-    linje ændret forskelligt begge steder), stopper scriptet med en tydelig
-    fejlbesked i stedet for at fortsætte blindt.
-    Samtidig er git_push() rettet til at rapportere ÆRLIGT om push'et rent
-    faktisk lykkedes eller ej, i stedet for altid at vise en grøn "✅", og
-    forsøger selv én automatisk rebase+retry, hvis push'et bliver afvist.
+    webgrænseflade, opretter GitHub sin egen commit direkte på "main" - uden
+    om din lokale klon, hvilket ellers ville få det efterfølgende push til
+    at blive afvist ("! [rejected] main -> main (fetch first)").
+    Samtidig rapporterer git_push() nu ÆRLIGT om push'et rent faktisk
+    lykkedes eller ej, og forsøger selv én automatisk rebase+retry, hvis
+    push'et bliver afvist.
+
+NYT (2026-08-25): KOLON-TOLERANT MATCHING AF MANUELLE OVERRIDES
+    Titler i manual_artwork_overrides.xlsx med et kolon (fx "A-Liga:
+    Målfesten") matchede tidligere KUN, hvis EPG-titlen indeholdt det
+    IDENTISKE kolon. Sport-titler optræder ofte i EPG'en UDEN kolon, selvom
+    du har skrevet den MED kolon i Excel-filen (eller omvendt) - præcis det
+    problem sport_program_overrides.json allerede løser for sport-kategorier
+    via strip_colons(), men som IKKE fandtes for manuelle overrides. Der er
+    nu tilføjet en tilsvarende "kolon-strippet" fallback: findes intet
+    eksakt match, prøves samme titel med kolon fjernet (og omvendt
+    normaliseret mellemrum) - ligesom SportMatcher allerede gør.
 """
 from __future__ import annotations
 
@@ -75,6 +76,7 @@ MATCH_SIMILARITY_MIN = 0.55
 REQUEST_SLEEP_SECONDS = 0.05
 
 INVISIBLE_CHARS_PATTERN = re.compile(r"[\u200B\u200C\u200D\u2060\uFEFF\u00AD]")
+COLON_PATTERN = re.compile(r"\s*:\s*")
 
 SESSION = requests.Session()
 
@@ -100,29 +102,40 @@ def normalize_title(title: str) -> str:
     return t.strip().lower()
 
 
-def load_manual_overrides(path: Path) -> tuple[dict[str, list[dict]], dict[str, str]]:
-    """Returnerer (index, display_titles).
+def strip_colons(normalized_title: str) -> str:
+    """Fjerner kolon (og evt. mellemrum omkring det), fx 'a-liga: målfesten'
+    -> 'a-liga målfesten'. Samme logik som SportMatcher i enrich_epg.py."""
+    t = COLON_PATTERN.sub(" ", normalized_title)
+    t = re.sub(r"\s+", " ", t)
+    return t.strip()
+
+
+def load_manual_overrides(path: Path) -> tuple[dict[str, list[dict]], dict[str, list[dict]], dict[str, str]]:
+    """Returnerer (index, index_colon_stripped, display_titles).
     index: normaliseret titel -> liste af {'channel', 'backdrop_url'}.
+    index_colon_stripped: samme, men nøglen har kolon fjernet - bruges som
+    fallback hvis intet eksakt match findes (se resolve_manual_override()).
     display_titles: normaliseret titel -> original (pænt formateret) titel,
     til brug i rapportering."""
     index: dict[str, list[dict]] = {}
+    index_colon_stripped: dict[str, list[dict]] = {}
     display_titles: dict[str, str] = {}
     if not path.exists():
-        return index, display_titles
+        return index, index_colon_stripped, display_titles
 
     try:
         from openpyxl import load_workbook
     except ImportError:
         print("⚠️  openpyxl er ikke installeret - kan ikke læse manuelle overrides. "
               "Kør: pip install openpyxl", file=sys.stderr)
-        return index, display_titles
+        return index, index_colon_stripped, display_titles
 
     try:
         wb = load_workbook(path, data_only=True)
         ws = wb["Manuelle overrides"] if "Manuelle overrides" in wb.sheetnames else wb.active
     except Exception as exc:
         print(f"⚠️  Kunne ikke åbne {path.name}: {exc}", file=sys.stderr)
-        return index, display_titles
+        return index, index_colon_stripped, display_titles
 
     headers = [c.value for c in ws[1]]
     try:
@@ -131,7 +144,7 @@ def load_manual_overrides(path: Path) -> tuple[dict[str, list[dict]], dict[str, 
         url_col = headers.index("Backdrop URL")
     except ValueError:
         print(f"⚠️  {path.name} mangler forventede kolonner - ingen manuelle overrides indlæst.", file=sys.stderr)
-        return index, display_titles
+        return index, index_colon_stripped, display_titles
 
     for row in ws.iter_rows(min_row=2):
         title_val = row[title_col].value
@@ -146,22 +159,42 @@ def load_manual_overrides(path: Path) -> tuple[dict[str, list[dict]], dict[str, 
         display_titles[norm] = title
         channel_val = row[channel_col].value
         channel = str(channel_val).strip().lower() if channel_val else ""
-        index.setdefault(norm, []).append({"channel": channel, "backdrop_url": url})
-    return index, display_titles
+        # "orig_key" er ALTID den primære (ikke-strippede) normaliserede
+        # titel-nøgle - bruges til at holde styr på "matchet/ikke matchet"
+        # rapportering ét ensartet sted, uanset om matchet endte med at ske
+        # via det eksakte navn eller via kolon-strippet fallback.
+        entry = {"channel": channel, "backdrop_url": url, "orig_key": norm}
+        index.setdefault(norm, []).append(entry)
+
+        stripped = strip_colons(norm)
+        if stripped != norm:
+            index_colon_stripped.setdefault(stripped, []).append(entry)
+    return index, index_colon_stripped, display_titles
 
 
-def resolve_manual_override(title: str, channel_id: str, manual_index: dict[str, list[dict]]) -> str | None:
+def resolve_manual_override(title: str, channel_id: str, manual_index: dict[str, list[dict]],
+                             manual_index_colon_stripped: dict[str, list[dict]]) -> tuple[str, str] | None:
+    """Returnerer (backdrop_url, orig_key) hvis et match findes, ellers None.
+    orig_key er den PRIMÆRE normaliserede titel-nøgle fra Excel-filen (uanset
+    om matchet skete eksakt eller via kolon-strippet fallback) - bruges af
+    kalderen til at holde korrekt styr på hvilke Excel-rækker der reelt er
+    blevet brugt, til "IKKE BRUGT"-rapporteringen."""
     norm = normalize_title(title)
     entries = manual_index.get(norm)
+    if not entries:
+        # Fallback: prøv samme titel med kolon fjernet - dækker tilfælde hvor
+        # EPG-titlen og Excel-titlen er uenige om, hvorvidt der skal være
+        # kolon (fx "A-Liga: Målfesten" vs. "A-Liga Målfesten").
+        entries = manual_index_colon_stripped.get(strip_colons(norm))
     if not entries:
         return None
     channel_low = (channel_id or "").lower()
     for e in entries:
         if e["channel"] and e["channel"] in channel_low:
-            return e["backdrop_url"]
+            return e["backdrop_url"], e["orig_key"]
     for e in entries:
         if not e["channel"]:
-            return e["backdrop_url"]
+            return e["backdrop_url"], e["orig_key"]
     return None
 
 
@@ -263,6 +296,7 @@ def process_xml_file(xml_path: Path, cache: dict, cache_max_age_days: int,
                       backdrop_size: str, limit: int | None,
                       titles_processed_this_run: set, approved_keys: set[str] | None,
                       all_found_keys: set[str], manual_index: dict[str, list[dict]],
+                      manual_index_colon_stripped: dict[str, list[dict]],
                       manual_titles_matched: set[str]) -> dict:
     tree = ET.parse(xml_path)
     root = tree.getroot()
@@ -287,12 +321,13 @@ def process_xml_file(xml_path: Path, cache: dict, cache_max_age_days: int,
         title = title_el.text
 
         chan_id = programme.get("channel", "")
-        manual_url = resolve_manual_override(title, chan_id, manual_index)
-        if manual_url:
+        match = resolve_manual_override(title, chan_id, manual_index, manual_index_colon_stripped)
+        if match:
+            manual_url, orig_key = match
             el = ET.SubElement(programme, "icon")
             el.set("src", manual_url)
             stats["manual_override_injected"] += 1
-            manual_titles_matched.add(normalize_title(title))
+            manual_titles_matched.add(orig_key)
             continue
 
         norm = normalize_title(title)
@@ -365,11 +400,7 @@ def _run_git(args: list[str], repo_dir: Path) -> subprocess.CompletedProcess:
 def git_sync(repo_dir: Path) -> None:
     """Henter og indarbejder automatisk eventuelle nye commits fra GitHub,
     FØR selve berigelsen starter (fx billeder uploadet direkte via
-    github.com til Manual_artwork_overrides/). Se docstring øverst i filen.
-
-    Stopper scriptet med en tydelig fejlbesked, hvis der opstår en ÆGTE
-    rebase-konflikt, i stedet for at fortsætte og risikere at arbejde
-    videre på en uafstemt tilstand."""
+    github.com til Manual_artwork_overrides/)."""
     print("🔄 Tjekker for nye ændringer på GitHub ...")
 
     fetch = _run_git(["fetch", "origin"], repo_dir)
@@ -408,8 +439,7 @@ def git_sync(repo_dir: Path) -> None:
 
 def git_push(repo_dir: Path, commit_message: str) -> bool:
     """Committer og pusher ændringer. Returnerer True hvis push'et rent
-    faktisk lykkedes, False ellers - rapporteres ÆRLIGT til brugeren
-    (den gamle version viste altid en grøn '✅', uanset udfald)."""
+    faktisk lykkedes, False ellers - rapporteres ÆRLIGT til brugeren."""
     print("\n⬆️  Committer og pusher til GitHub ...")
     add = _run_git(["add", "-A"], repo_dir)
     if add.returncode != 0:
@@ -482,7 +512,7 @@ def main() -> None:
     approved_keys = load_approved_keys(DANISH_ARTWORK_REVIEW_FILE)
     review_exists = DANISH_ARTWORK_REVIEW_FILE.exists()
 
-    manual_index, manual_display_titles = load_manual_overrides(MANUAL_ARTWORK_OVERRIDES_FILE)
+    manual_index, manual_index_colon_stripped, manual_display_titles = load_manual_overrides(MANUAL_ARTWORK_OVERRIDES_FILE)
     manual_titles_matched: set[str] = set()
 
     print("=== Danske TMDb-backdrops (separat sideprojekt) — skrives som <icon> ===")
@@ -521,7 +551,7 @@ def main() -> None:
         stats = process_xml_file(
             xml_path, cache, cache_max_age_days, backdrop_size,
             args.limit, titles_processed_this_run, approved_keys, all_found_keys,
-            manual_index, manual_titles_matched,
+            manual_index, manual_index_colon_stripped, manual_titles_matched,
         )
         save_json(DANISH_ARTWORK_CACHE_FILE, cache)
 
@@ -540,10 +570,15 @@ def main() -> None:
     unique_approved_and_found = len(all_found_keys & approved_keys)
     unique_pending = unique_found - unique_approved_and_found
 
+    # NB: "all_manual_keys" bruger KUN manual_index.keys() (de primære,
+    # ikke-strippede nøgler) - ikke en union med manual_index_colon_stripped
+    # - da orig_key altid peger tilbage på den primære nøgle, uanset om et
+    # match skete direkte eller via kolon-strippet fallback (se
+    # resolve_manual_override() og load_manual_overrides()).
     all_manual_keys = set(manual_index.keys())
     unmatched_manual_keys = all_manual_keys - manual_titles_matched
-    manual_matched_display = sorted(manual_display_titles.get(k, k) for k in manual_titles_matched)
-    manual_unmatched_display = sorted(manual_display_titles.get(k, k) for k in unmatched_manual_keys)
+    manual_matched_display = sorted(set(manual_display_titles.get(k, k) for k in manual_titles_matched))
+    manual_unmatched_display = sorted(set(manual_display_titles.get(k, k) for k in unmatched_manual_keys))
 
     append_run_log(
         DANISH_BACKDROPS_RUN_LOG_FILE, per_file_stats, grand_total,
