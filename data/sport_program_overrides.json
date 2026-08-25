@@ -32,12 +32,15 @@
     "_note": "NYT (2026-08-13): direkte ekstern URL fra TMDb, angivet af bruger. Rammede tidligere enten TMDb-fallback eller kanal-generic."
   },
   "fastzone: fastzone": {
+    "backdrop": "https://image.tmdb.org/t/p/original/s7MJ5BA4iA45uFWJAfpfJgvSOVr.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/s7MJ5BA4iA45uFWJAfpfJgvSOVr.jpg",
+    "_note": "Samme billede som 'fastzone' - dækker 'Kategori: Begivenhed'-varianten af titlen."
+  },
+   "Danskerklubben: danskerklubben": {
     "backdrop": "https://image.tmdb.org/t/p/original/6Zx9sabnYXtYHMg76JDTlpbBJFg.jpg",
     "poster": "https://image.tmdb.org/t/p/original/6Zx9sabnYXtYHMg76JDTlpbBJFg.jpg",
     "_note": "Samme billede som 'fastzone' - dækker 'Kategori: Begivenhed'-varianten af titlen."
   },
-  "danskerklubben": { "backdrop": null, "poster": null },
-
   "sport news": {
     "backdrop": "https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg",
     "poster": "https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg",
