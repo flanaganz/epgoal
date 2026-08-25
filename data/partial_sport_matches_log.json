@@ -10,28 +10,32 @@
     "Berlusconi: Fodbold, tv og magt -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1
   },
   "TV3 MAX HD (D) (T).dk": {
+    "Carabao Cup: Tottenham - Charlton -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold%20Carabao%20Cup.jpg": 1,
     "UEFA Champions League play-off: Sabah Baku - Hapoel Beer Sheva -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1
   },
   "TV3 Max Denmark (DK,DA).dk": {
-    "Fodbold: Premier League-studiet -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
-    "Premier League -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 2,
+    "Carabao Cup -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold%20Carabao%20Cup.jpg": 1,
     "UEFA Champions League play-off -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1
   },
   "TV3 Max.dk": {
-    "Fodbold: Premier League-studiet -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
-    "Premier League -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 2,
+    "Carabao Cup -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold%20Carabao%20Cup.jpg": 1,
     "UEFA Champions League Play-Off: Sabah Baku - Hapoel Beer Sheva -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
     "UEFA Champions League play-off -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 2
   },
   "TV3+ Denmark (DK,DA).dk": {
-    "UEFA Champions League play-off -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1
+    "SuperligaTilsynet -> TMDb": 1,
+    "UEFA Champions League play-off -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 2
   },
   "TV3+ HD (D) (T).dk": {
-    "UEFA Champions League play-off: LASK Linz - Celtic -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1
+    "SuperligaTilsynet -> TMDb": 1,
+    "UEFA Champions League play-off: LASK Linz - Celtic -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
+    "UEFA Champions League play-off: Lyon - Fenerbachce -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1
   },
   "TV3+.dk": {
+    "SuperligaTilsynet -> TMDb": 2,
     "UEFA Champions League Play-Off: LASK Linz - Celtic -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
-    "UEFA Champions League play-off -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 2
+    "UEFA Champions League Play-Off: Lyon - Fenerbachce -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
+    "UEFA Champions League play-off -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 3
   },
   "dr2.dk": {
     "Berlusconi: Fodbold, tv og magt (2:3) -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1

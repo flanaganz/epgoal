@@ -1,12 +1,14 @@
 {
   "TV 2 Sport Denmark (DK,DA).dk": {
-    "Håndbold (m): Håndboldligaen - Kampe": 2,
-    "Håndbold: Liga Håndbold - studiet": 3,
+    "Håndbold (m): Håndboldligaen - Kampe": 6,
+    "Håndbold: Liga Håndbold - studiet": 6,
+    "Kvindeligaen": 2,
     "Super Cup (h)": 2
   },
   "TV 2 Sport HD (D) (T).dk": {
-    "Håndbold (m): Håndboldligaen - Kampe": 2,
-    "Håndbold: Liga Håndbold - studiet": 3,
+    "Håndbold (m): Håndboldligaen - Kampe": 6,
+    "Håndbold: Liga Håndbold - studiet": 6,
+    "Kvindeligaen": 2,
     "Super Cup (h)": 2
   },
   "TV 2 Sport X.dk": {
@@ -22,27 +24,28 @@
     "ATP: Fils-Tiafoe, finale, Cincinnati": 1,
     "Herreligaen: GOG-Skjern": 4,
     "Herreligaen: Studiet": 3,
-    "Håndbold (m): Håndboldligaen - Kampe": 2,
-    "Håndbold: Liga Håndbold - studiet": 3,
+    "Håndbold (m): Håndboldligaen - Kampe": 6,
+    "Håndbold: Liga Håndbold - studiet": 6,
+    "Kvindeligaen": 2,
     "Serie A: Roma-Fiorentina": 4,
     "Super Cup (h)": 2,
     "Super Cup: Aalborg-Skanderborg AGF (h)": 2
   },
   "TV3 Sport Denmark (DK,DA).dk": {
-    "Danskerklubben": 1
+    "Danskerklubben": 2
   },
   "TV3 Sport HD (D) (T).dk": {
-    "Danskerklubben": 1
+    "Danskerklubben": 2
   },
   "TV3 Sport.dk": {
-    "Danskerklubben": 3,
-    "F1: Hollands Grand Prix - Løbet": 1
+    "Danskerklubben": 5
   },
   "Viaplay Sport News HD (D) (T).dk": {
-    "Danskerklubben": 9
+    "Danskerklubben": 6,
+    "Watt the F1!?": 2
   },
   "Viaplay Sport News.dk": {
-    "Danskerklubben": 10,
-    "Watt the F1!?": 1
+    "Danskerklubben": 8,
+    "Watt the F1!?": 2
   }
 }
