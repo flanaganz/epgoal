@@ -56,7 +56,7 @@ MAX_RUN_LOG_ENTRIES = 200
 # TMDb igen. Sat markant lavere end cache_max_age_days (for FUNDNE billeder),
 # da manglende danske backdrops er langt mere sandsynlige at ændre sig over
 # tid (nye brugerbidrag på TMDb) end allerede fundne, stabile billeder.
-NOT_FOUND_CACHE_MAX_AGE_DAYS = 2
+NOT_FOUND_CACHE_MAX_AGE_DAYS = 10
 
 ENV_FILE = ROOT / ".env"
 if ENV_FILE.exists():
