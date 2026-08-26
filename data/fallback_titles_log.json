@@ -1,20 +1,25 @@
 {
   "TV 2 Sport Denmark (DK,DA).dk": {
-    "Håndbold (m): Håndboldligaen - Kampe": 6,
+    "Håndbold (m): Håndboldligaen - Kampe": 8,
     "Håndbold: Liga Håndbold - studiet": 6,
-    "Kvindeligaen": 2,
-    "Super Cup (h)": 2
+    "Kvindeligaen": 6
   },
   "TV 2 Sport HD (D) (T).dk": {
-    "Håndbold (m): Håndboldligaen - Kampe": 6,
+    "Håndbold (m): Håndboldligaen - Kampe": 8,
     "Håndbold: Liga Håndbold - studiet": 6,
-    "Kvindeligaen": 2,
-    "Super Cup (h)": 2
+    "Kvindeligaen": 6
+  },
+  "TV 2 Sport X Denmark (DK,DA).dk": {
+    "Mountainbike: World Cup": 4
+  },
+  "TV 2 Sport X HD (D) (T).dk": {
+    "Mountainbike: World Cup": 4
   },
   "TV 2 Sport X.dk": {
     "ATP: Fils-Tiafoe, finale, Cincinnati": 2,
     "ATP: Fritz-Nakashima, kvartfinale, Cincinnati": 1,
     "ATP: Nakashima-Tiafoe, semifinale, Cincinnati": 2,
+    "Mountainbike: World Cup": 4,
     "Serie A: Genoa-Napoli": 2,
     "Serie A: Inter-Monza": 2,
     "Serie A: Roma-Fiorentina": 4,
@@ -23,30 +28,36 @@
   "TV 2 Sport.dk": {
     "Herreligaen: GOG-Skjern": 6,
     "Herreligaen: Studiet": 3,
-    "Håndbold (m): Håndboldligaen - Kampe": 6,
+    "Håndbold (m): Håndboldligaen - Kampe": 8,
     "Håndbold: Liga Håndbold - studiet": 6,
-    "Kvindeligaen": 2,
+    "Kvindeligaen": 6,
     "Kvindeligaen: Ikast-Odense": 4,
     "Kvindeligaen: Studiet": 3,
     "Serie A: Roma-Fiorentina": 2,
-    "Super Cup (h)": 2,
     "Super Cup: Aalborg-Skanderborg AGF (h)": 2
   },
   "TV3 Sport Denmark (DK,DA).dk": {
-    "Danskerklubben": 2
+    "Danskerklubben": 2,
+    "Watt the F1!?": 1
   },
   "TV3 Sport HD (D) (T).dk": {
-    "Danskerklubben": 2
+    "Danskerklubben": 1,
+    "Watt the F1!?": 1
   },
   "TV3 Sport.dk": {
-    "Danskerklubben": 6
+    "Danskerklubben": 5,
+    "F1: Hollands Grand Prix - Løbet": 1,
+    "Watt the F1!?": 1,
+    "Watt the F1!?: Watt The F1!?": 1
   },
   "Viaplay Sport News HD (D) (T).dk": {
-    "Danskerklubben": 6,
-    "Watt the F1!?": 2
+    "Danskerklubben": 2,
+    "Optakt: Fc Midtjylland-agf": 1,
+    "Watt the F1!?": 4
   },
   "Viaplay Sport News.dk": {
-    "Danskerklubben": 8,
-    "Watt the F1!?": 2
+    "Danskerklubben": 4,
+    "Optakt: Fc Midtjylland-agf": 1,
+    "Watt the F1!?": 4
   }
 }
