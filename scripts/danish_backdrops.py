@@ -10,27 +10,20 @@ Se README/tidligere dokumentation for fuld baggrund. Denne version tilføjer:
 NB: Dette script håndterer KUN backdrops (16:9). Posters er fjernet fra
 hele pipelinen, da UHF ikke bruger dem.
 
-NYT (2026-08-19): AUTOMATISK GIT-SYNKRONISERING FØR KØRSEL
-    Scriptet kører nu "git fetch" + "git pull --rebase origin main"
-    automatisk, FØR selve berigelsen starter. Årsag: hvis du (eller nogen
-    med adgang til repoet) uploader/redigerer filer direkte via GitHub.com's
-    webgrænseflade, opretter GitHub sin egen commit direkte på "main" - uden
-    om din lokale klon, hvilket ellers ville få det efterfølgende push til
-    at blive afvist ("! [rejected] main -> main (fetch first)").
-    Samtidig rapporterer git_push() nu ÆRLIGT om push'et rent faktisk
-    lykkedes eller ej, og forsøger selv én automatisk rebase+retry, hvis
-    push'et bliver afvist.
+NYT (2026-08-24): DIFFERENTIERET CACHE-LEVETID
+    Tidligere blev BÅDE "fandt et dansk backdrop" og "fandt intet" cachet med
+    samme levetid (cache_max_age_days, typisk 30 dage). Det betød, at hvis
+    TMDb IKKE havde et dansk backdrop ved første tjek, men et senere blev
+    tilføjet (fx af brugeren selv på tmdb.com), ville scriptet ikke opdage
+    det nye billede i op til 30 dage - fordi "ikke fundet"-resultatet blev
+    genbrugt fra cachen uden et nyt TMDb-opslag.
 
-NYT (2026-08-25): KOLON-TOLERANT MATCHING AF MANUELLE OVERRIDES
-    Titler i manual_artwork_overrides.xlsx med et kolon (fx "A-Liga:
-    Målfesten") matchede tidligere KUN, hvis EPG-titlen indeholdt det
-    IDENTISKE kolon. Sport-titler optræder ofte i EPG'en UDEN kolon, selvom
-    du har skrevet den MED kolon i Excel-filen (eller omvendt) - præcis det
-    problem sport_program_overrides.json allerede løser for sport-kategorier
-    via strip_colons(), men som IKKE fandtes for manuelle overrides. Der er
-    nu tilføjet en tilsvarende "kolon-strippet" fallback: findes intet
-    eksakt match, prøves samme titel med kolon fjernet (og omvendt
-    normaliseret mellemrum) - ligesom SportMatcher allerede gør.
+    Det er rettet: "fandt et backdrop"-resultater beholder den fulde
+    cache_max_age_days-levetid (stabilt, ændrer sig praktisk talt aldrig).
+    "Ikke fundet"-resultater udløber nu meget hurtigere
+    (NOT_FOUND_CACHE_MAX_AGE_DAYS, default 2 dage), så scriptet automatisk
+    prøver igen snart efter et nyt dansk billede er blevet tilføjet på TMDb,
+    uden at du behøver slette/redigere cachen manuelt.
 """
 from __future__ import annotations
 
@@ -59,6 +52,12 @@ DANISH_BACKDROPS_RUN_LOG_FILE = DATA_DIR / "danish_backdrops_run_log.json"
 MANUAL_ARTWORK_OVERRIDES_FILE = DATA_DIR / "manual_artwork_overrides.xlsx"
 MAX_RUN_LOG_ENTRIES = 200
 
+# NYT: hvor længe et "ikke fundet"-resultat er gyldigt, FØR scriptet prøver
+# TMDb igen. Sat markant lavere end cache_max_age_days (for FUNDNE billeder),
+# da manglende danske backdrops er langt mere sandsynlige at ændre sig over
+# tid (nye brugerbidrag på TMDb) end allerede fundne, stabile billeder.
+NOT_FOUND_CACHE_MAX_AGE_DAYS = 2
+
 ENV_FILE = ROOT / ".env"
 if ENV_FILE.exists():
     for line in ENV_FILE.read_text(encoding="utf-8").splitlines():
@@ -76,7 +75,6 @@ MATCH_SIMILARITY_MIN = 0.55
 REQUEST_SLEEP_SECONDS = 0.05
 
 INVISIBLE_CHARS_PATTERN = re.compile(r"[\u200B\u200C\u200D\u2060\uFEFF\u00AD]")
-COLON_PATTERN = re.compile(r"\s*:\s*")
 
 SESSION = requests.Session()
 
@@ -102,40 +100,29 @@ def normalize_title(title: str) -> str:
     return t.strip().lower()
 
 
-def strip_colons(normalized_title: str) -> str:
-    """Fjerner kolon (og evt. mellemrum omkring det), fx 'a-liga: målfesten'
-    -> 'a-liga målfesten'. Samme logik som SportMatcher i enrich_epg.py."""
-    t = COLON_PATTERN.sub(" ", normalized_title)
-    t = re.sub(r"\s+", " ", t)
-    return t.strip()
-
-
-def load_manual_overrides(path: Path) -> tuple[dict[str, list[dict]], dict[str, list[dict]], dict[str, str]]:
-    """Returnerer (index, index_colon_stripped, display_titles).
+def load_manual_overrides(path: Path) -> tuple[dict[str, list[dict]], dict[str, str]]:
+    """Returnerer (index, display_titles).
     index: normaliseret titel -> liste af {'channel', 'backdrop_url'}.
-    index_colon_stripped: samme, men nøglen har kolon fjernet - bruges som
-    fallback hvis intet eksakt match findes (se resolve_manual_override()).
     display_titles: normaliseret titel -> original (pænt formateret) titel,
     til brug i rapportering."""
     index: dict[str, list[dict]] = {}
-    index_colon_stripped: dict[str, list[dict]] = {}
     display_titles: dict[str, str] = {}
     if not path.exists():
-        return index, index_colon_stripped, display_titles
+        return index, display_titles
 
     try:
         from openpyxl import load_workbook
     except ImportError:
         print("⚠️  openpyxl er ikke installeret - kan ikke læse manuelle overrides. "
               "Kør: pip install openpyxl", file=sys.stderr)
-        return index, index_colon_stripped, display_titles
+        return index, display_titles
 
     try:
         wb = load_workbook(path, data_only=True)
         ws = wb["Manuelle overrides"] if "Manuelle overrides" in wb.sheetnames else wb.active
     except Exception as exc:
         print(f"⚠️  Kunne ikke åbne {path.name}: {exc}", file=sys.stderr)
-        return index, index_colon_stripped, display_titles
+        return index, display_titles
 
     headers = [c.value for c in ws[1]]
     try:
@@ -144,7 +131,7 @@ def load_manual_overrides(path: Path) -> tuple[dict[str, list[dict]], dict[str, 
         url_col = headers.index("Backdrop URL")
     except ValueError:
         print(f"⚠️  {path.name} mangler forventede kolonner - ingen manuelle overrides indlæst.", file=sys.stderr)
-        return index, index_colon_stripped, display_titles
+        return index, display_titles
 
     for row in ws.iter_rows(min_row=2):
         title_val = row[title_col].value
@@ -159,42 +146,22 @@ def load_manual_overrides(path: Path) -> tuple[dict[str, list[dict]], dict[str, 
         display_titles[norm] = title
         channel_val = row[channel_col].value
         channel = str(channel_val).strip().lower() if channel_val else ""
-        # "orig_key" er ALTID den primære (ikke-strippede) normaliserede
-        # titel-nøgle - bruges til at holde styr på "matchet/ikke matchet"
-        # rapportering ét ensartet sted, uanset om matchet endte med at ske
-        # via det eksakte navn eller via kolon-strippet fallback.
-        entry = {"channel": channel, "backdrop_url": url, "orig_key": norm}
-        index.setdefault(norm, []).append(entry)
-
-        stripped = strip_colons(norm)
-        if stripped != norm:
-            index_colon_stripped.setdefault(stripped, []).append(entry)
-    return index, index_colon_stripped, display_titles
+        index.setdefault(norm, []).append({"channel": channel, "backdrop_url": url})
+    return index, display_titles
 
 
-def resolve_manual_override(title: str, channel_id: str, manual_index: dict[str, list[dict]],
-                             manual_index_colon_stripped: dict[str, list[dict]]) -> tuple[str, str] | None:
-    """Returnerer (backdrop_url, orig_key) hvis et match findes, ellers None.
-    orig_key er den PRIMÆRE normaliserede titel-nøgle fra Excel-filen (uanset
-    om matchet skete eksakt eller via kolon-strippet fallback) - bruges af
-    kalderen til at holde korrekt styr på hvilke Excel-rækker der reelt er
-    blevet brugt, til "IKKE BRUGT"-rapporteringen."""
+def resolve_manual_override(title: str, channel_id: str, manual_index: dict[str, list[dict]]) -> str | None:
     norm = normalize_title(title)
     entries = manual_index.get(norm)
-    if not entries:
-        # Fallback: prøv samme titel med kolon fjernet - dækker tilfælde hvor
-        # EPG-titlen og Excel-titlen er uenige om, hvorvidt der skal være
-        # kolon (fx "A-Liga: Målfesten" vs. "A-Liga Målfesten").
-        entries = manual_index_colon_stripped.get(strip_colons(norm))
     if not entries:
         return None
     channel_low = (channel_id or "").lower()
     for e in entries:
         if e["channel"] and e["channel"] in channel_low:
-            return e["backdrop_url"], e["orig_key"]
+            return e["backdrop_url"]
     for e in entries:
         if not e["channel"]:
-            return e["backdrop_url"], e["orig_key"]
+            return e["backdrop_url"]
     return None
 
 
@@ -269,12 +236,23 @@ def tmdb_danish_backdrop(media_type: str, tmdb_id: int) -> str | None:
 
 
 def resolve_danish_artwork(raw_title: str, cache: dict, cache_max_age_days: int,
+                            not_found_cache_max_age_days: int,
                             backdrop_size: str) -> tuple[str | None, bool]:
-    """Returnerer (backdrop_url eller None, from_cache)."""
+    """Returnerer (backdrop_url eller None, from_cache).
+
+    NYT: bruger differentieret levetid. Et cachet FUND (backdrop != None)
+    bruges op til cache_max_age_days gammel. Et cachet "IKKE fundet"
+    (backdrop == None) bruges kun op til not_found_cache_max_age_days gammel
+    - herefter forsøges et nyt, friskt TMDb-opslag, så nyligt tilføjede
+    danske billeder på TMDb bliver opdaget langt hurtigere."""
     key = normalize_title(raw_title)
     cached = cache.get(key)
-    if cached is not None and (time.time() - cached.get("ts", 0)) / 86400 < cache_max_age_days:
-        return cached.get("backdrop"), True
+    if cached is not None:
+        age_days = (time.time() - cached.get("ts", 0)) / 86400
+        had_backdrop = bool(cached.get("backdrop"))
+        max_age = cache_max_age_days if had_backdrop else not_found_cache_max_age_days
+        if age_days < max_age:
+            return cached.get("backdrop"), True
 
     backdrop_url = None
     try:
@@ -293,10 +271,10 @@ def resolve_danish_artwork(raw_title: str, cache: dict, cache_max_age_days: int,
 
 
 def process_xml_file(xml_path: Path, cache: dict, cache_max_age_days: int,
+                      not_found_cache_max_age_days: int,
                       backdrop_size: str, limit: int | None,
                       titles_processed_this_run: set, approved_keys: set[str] | None,
                       all_found_keys: set[str], manual_index: dict[str, list[dict]],
-                      manual_index_colon_stripped: dict[str, list[dict]],
                       manual_titles_matched: set[str]) -> dict:
     tree = ET.parse(xml_path)
     root = tree.getroot()
@@ -305,6 +283,7 @@ def process_xml_file(xml_path: Path, cache: dict, cache_max_age_days: int,
         "programmes": 0, "already_had_artwork": 0, "checked": 0,
         "danish_found": 0, "danish_not_found": 0, "danish_injected": 0,
         "cache_hits": 0, "fresh_calls": 0, "manual_override_injected": 0,
+        "rechecked_after_not_found": 0,
     }
     resolved_this_file: dict[str, str | None] = {}
 
@@ -321,13 +300,12 @@ def process_xml_file(xml_path: Path, cache: dict, cache_max_age_days: int,
         title = title_el.text
 
         chan_id = programme.get("channel", "")
-        match = resolve_manual_override(title, chan_id, manual_index, manual_index_colon_stripped)
-        if match:
-            manual_url, orig_key = match
+        manual_url = resolve_manual_override(title, chan_id, manual_index)
+        if manual_url:
             el = ET.SubElement(programme, "icon")
             el.set("src", manual_url)
             stats["manual_override_injected"] += 1
-            manual_titles_matched.add(orig_key)
+            manual_titles_matched.add(normalize_title(title))
             continue
 
         norm = normalize_title(title)
@@ -336,7 +314,15 @@ def process_xml_file(xml_path: Path, cache: dict, cache_max_age_days: int,
             continue
 
         if norm not in resolved_this_file:
-            backdrop_url, from_cache = resolve_danish_artwork(title, cache, cache_max_age_days, backdrop_size)
+            was_cached_not_found = (
+                norm in cache
+                and not cache[norm].get("backdrop")
+                and (time.time() - cache[norm].get("ts", 0)) / 86400 >= not_found_cache_max_age_days
+                and (time.time() - cache[norm].get("ts", 0)) / 86400 < cache_max_age_days
+            )
+            backdrop_url, from_cache = resolve_danish_artwork(
+                title, cache, cache_max_age_days, not_found_cache_max_age_days, backdrop_size
+            )
             resolved_this_file[norm] = backdrop_url
             titles_processed_this_run.add(norm)
             stats["checked"] += 1
@@ -344,6 +330,8 @@ def process_xml_file(xml_path: Path, cache: dict, cache_max_age_days: int,
                 stats["cache_hits"] += 1
             else:
                 stats["fresh_calls"] += 1
+                if was_cached_not_found:
+                    stats["rechecked_after_not_found"] += 1
                 time.sleep(REQUEST_SLEEP_SECONDS)
             if backdrop_url:
                 stats["danish_found"] += 1
@@ -391,90 +379,50 @@ def append_run_log(log_path: Path, per_file_stats: dict, grand_total: dict,
     save_json(log_path, history)
 
 
-def _run_git(args: list[str], repo_dir: Path) -> subprocess.CompletedProcess:
-    return subprocess.run(
-        ["git"] + args, cwd=repo_dir, check=False, capture_output=True, text=True
-    )
-
-
-def git_sync(repo_dir: Path) -> None:
-    """Henter og indarbejder automatisk eventuelle nye commits fra GitHub,
-    FØR selve berigelsen starter (fx billeder uploadet direkte via
-    github.com til Manual_artwork_overrides/)."""
-    print("🔄 Tjekker for nye ændringer på GitHub ...")
-
-    fetch = _run_git(["fetch", "origin"], repo_dir)
-    if fetch.returncode != 0:
-        print(f"⚠️  Kunne ikke hente fra GitHub (git fetch fejlede) - fortsætter uden sync:\n{fetch.stderr.strip()}",
-              file=sys.stderr)
-        return
-
-    diff = _run_git(["rev-list", "HEAD..origin/main", "--count"], repo_dir)
-    if diff.returncode != 0:
-        print("⚠️  Kunne ikke sammenligne med origin/main - fortsætter uden sync.", file=sys.stderr)
-        return
-
-    behind_count = diff.stdout.strip()
-    if behind_count in ("", "0"):
-        print("   Ingen nye ændringer på GitHub - fortsætter.")
-        return
-
-    print(f"   Fandt {behind_count} ny(e) commit(s) på GitHub (fx billeder uploadet direkte via github.com). "
-          "Henter dem ned ...")
-    rebase = _run_git(["pull", "--rebase", "origin", "main"], repo_dir)
-    if rebase.returncode != 0:
-        print(rebase.stdout)
-        print(rebase.stderr, file=sys.stderr)
-        _run_git(["rebase", "--abort"], repo_dir)
-        sys.exit(
-            "❌ Git-synkronisering fejlede med en ægte konflikt (samme fil/linje ændret begge steder).\n"
-            "   Rebase er annulleret for ikke at risikere tabt data. Løs det manuelt:\n"
-            "     cd " + str(repo_dir) + "\n"
-            "     git pull --rebase origin main\n"
-            "   (løs evt. konflikter, 'git add' de rettede filer, 'git rebase --continue')\n"
-            "   Kør derefter scriptet igen."
-        )
-    print("   ✅ Lokal repo opdateret med ændringer fra GitHub.")
-
-
-def git_push(repo_dir: Path, commit_message: str) -> bool:
-    """Committer og pusher ændringer. Returnerer True hvis push'et rent
-    faktisk lykkedes, False ellers - rapporteres ÆRLIGT til brugeren."""
+def git_push(repo_dir: Path, commit_message: str) -> None:
     print("\n⬆️  Committer og pusher til GitHub ...")
-    add = _run_git(["add", "-A"], repo_dir)
-    if add.returncode != 0:
-        print(f"⚠️  'git add' fejlede:\n{add.stderr.strip()}", file=sys.stderr)
-        return False
+    try:
+        subprocess.run(["git", "add", "-A"], cwd=repo_dir, check=False)
+        result = subprocess.run(
+            ["git", "commit", "-m", commit_message], cwd=repo_dir, check=False, capture_output=True, text=True
+        )
+        if "nothing to commit" in (result.stdout + result.stderr).lower():
+            print("   Ingen ændringer at committe.")
+            return
 
-    commit = _run_git(["commit", "-m", commit_message], repo_dir)
-    if "nothing to commit" in (commit.stdout + commit.stderr).lower():
-        print("   Ingen ændringer at committe.")
-        return True
+        subprocess.run(["git", "fetch", "origin"], cwd=repo_dir, check=False,
+                        capture_output=True, text=True)
+        push_result = subprocess.run(
+            ["git", "push", "origin", "main"], cwd=repo_dir, check=False, capture_output=True, text=True
+        )
+        if push_result.returncode == 0:
+            print("✅ Git push lykkedes.")
+            return
 
-    push = _run_git(["push", "origin", "main"], repo_dir)
-    if push.returncode != 0:
-        print(push.stdout)
-        print(push.stderr, file=sys.stderr)
-        if "rejected" in push.stderr.lower() or "fetch first" in push.stderr.lower():
-            print("   ℹ️  Push blev afvist fordi GitHub har ændringer, du ikke havde lokalt endnu.")
-            print("   Forsøger automatisk at synkronisere og pushe igen ...")
-            rebase = _run_git(["pull", "--rebase", "origin", "main"], repo_dir)
-            if rebase.returncode == 0:
-                retry_push = _run_git(["push", "origin", "main"], repo_dir)
-                if retry_push.returncode == 0:
-                    print("✅ Git push lykkedes (efter automatisk synkronisering).")
-                    return True
-                print(retry_push.stdout)
-                print(retry_push.stderr, file=sys.stderr)
+        combined_output = (push_result.stdout + push_result.stderr).lower()
+        if "rejected" in combined_output or "fetch first" in combined_output or "non-fast-forward" in combined_output:
+            print("⚠️  Push afvist (fjernrepo har nyere commits) - forsøger 'git pull --rebase' og prøver igen ...")
+            rebase_result = subprocess.run(
+                ["git", "pull", "--rebase", "origin", "main"], cwd=repo_dir, check=False,
+                capture_output=True, text=True,
+            )
+            if rebase_result.returncode != 0:
+                print("❌ 'git pull --rebase' fejlede - løs konflikten manuelt:", file=sys.stderr)
+                print(rebase_result.stdout + rebase_result.stderr, file=sys.stderr)
+                return
+            retry_result = subprocess.run(
+                ["git", "push", "origin", "main"], cwd=repo_dir, check=False, capture_output=True, text=True
+            )
+            if retry_result.returncode == 0:
+                print("✅ Git push lykkedes efter rebase.")
             else:
-                print(rebase.stdout)
-                print(rebase.stderr, file=sys.stderr)
-                _run_git(["rebase", "--abort"], repo_dir)
-        print("❌ Git push FEJLEDE. Ændringerne ligger KUN lokalt, ikke på GitHub/UHF endnu.", file=sys.stderr)
-        return False
-
-    print("✅ Git push lykkedes.")
-    return True
+                print("❌ Git push fejlede STADIG efter rebase - tjek manuelt:", file=sys.stderr)
+                print(retry_result.stdout + retry_result.stderr, file=sys.stderr)
+        else:
+            print("❌ Git push fejlede af en anden årsag:", file=sys.stderr)
+            print(push_result.stdout + push_result.stderr, file=sys.stderr)
+    except FileNotFoundError:
+        print("⚠️  git blev ikke fundet i PATH — spring commit/push over.", file=sys.stderr)
 
 
 def main() -> None:
@@ -499,12 +447,10 @@ def main() -> None:
 
     backdrop_size = config.get("image", {}).get("backdrop_size", "w1280")
     cache_max_age_days = config.get("cache_max_age_days", 30)
+    not_found_cache_max_age_days = config.get("not_found_cache_max_age_days", NOT_FOUND_CACHE_MAX_AGE_DAYS)
     git_cfg = config.get("git", {})
 
     DATA_DIR.mkdir(parents=True, exist_ok=True)
-
-    if git_cfg.get("enabled", True):
-        git_sync(ROOT)
 
     cache = load_json(DANISH_ARTWORK_CACHE_FILE, {})
     cache_size_before = len(cache)
@@ -512,11 +458,12 @@ def main() -> None:
     approved_keys = load_approved_keys(DANISH_ARTWORK_REVIEW_FILE)
     review_exists = DANISH_ARTWORK_REVIEW_FILE.exists()
 
-    manual_index, manual_index_colon_stripped, manual_display_titles = load_manual_overrides(MANUAL_ARTWORK_OVERRIDES_FILE)
+    manual_index, manual_display_titles = load_manual_overrides(MANUAL_ARTWORK_OVERRIDES_FILE)
     manual_titles_matched: set[str] = set()
 
     print("=== Danske TMDb-backdrops (separat sideprojekt) — skrives som <icon> ===")
-    print(f"Cache indeholder {cache_size_before:,} tidligere opslag (levetid: {cache_max_age_days} dage)")
+    print(f"Cache indeholder {cache_size_before:,} tidligere opslag (levetid: {cache_max_age_days} dage for fund, "
+          f"{not_found_cache_max_age_days} dage for 'ikke fundet')")
     if MANUAL_ARTWORK_OVERRIDES_FILE.exists():
         print(f"Manuelle overrides indlæst: {len(manual_index):,} unikke titler")
     else:
@@ -538,6 +485,7 @@ def main() -> None:
         "programmes": 0, "already_had_artwork": 0, "checked": 0,
         "danish_found": 0, "danish_not_found": 0, "danish_injected": 0,
         "cache_hits": 0, "fresh_calls": 0, "manual_override_injected": 0,
+        "rechecked_after_not_found": 0,
     }
     per_file_stats: dict[str, dict] = {}
 
@@ -549,15 +497,17 @@ def main() -> None:
 
         print(f"\n📄 Behandler {xml_path.name} ...")
         stats = process_xml_file(
-            xml_path, cache, cache_max_age_days, backdrop_size,
+            xml_path, cache, cache_max_age_days, not_found_cache_max_age_days, backdrop_size,
             args.limit, titles_processed_this_run, approved_keys, all_found_keys,
-            manual_index, manual_index_colon_stripped, manual_titles_matched,
+            manual_index, manual_titles_matched,
         )
         save_json(DANISH_ARTWORK_CACHE_FILE, cache)
 
         print(f"   Programmer i alt: {stats['programmes']:,} | Sprunget over (sport): {stats['already_had_artwork']:,} "
               f"| Manuel override: {stats['manual_override_injected']:,} | Tjekket: {stats['checked']:,} "
               f"| Dansk fundet: {stats['danish_found']:,} | Godkendt+indsat: {stats['danish_injected']:,}")
+        if stats["rechecked_after_not_found"]:
+            print(f"   🔄 Gen-tjekket efter tidligere 'ikke fundet': {stats['rechecked_after_not_found']:,}")
 
         per_file_stats[name] = stats
         for k in grand_total:
@@ -570,15 +520,10 @@ def main() -> None:
     unique_approved_and_found = len(all_found_keys & approved_keys)
     unique_pending = unique_found - unique_approved_and_found
 
-    # NB: "all_manual_keys" bruger KUN manual_index.keys() (de primære,
-    # ikke-strippede nøgler) - ikke en union med manual_index_colon_stripped
-    # - da orig_key altid peger tilbage på den primære nøgle, uanset om et
-    # match skete direkte eller via kolon-strippet fallback (se
-    # resolve_manual_override() og load_manual_overrides()).
     all_manual_keys = set(manual_index.keys())
     unmatched_manual_keys = all_manual_keys - manual_titles_matched
-    manual_matched_display = sorted(set(manual_display_titles.get(k, k) for k in manual_titles_matched))
-    manual_unmatched_display = sorted(set(manual_display_titles.get(k, k) for k in unmatched_manual_keys))
+    manual_matched_display = sorted(manual_display_titles.get(k, k) for k in manual_titles_matched)
+    manual_unmatched_display = sorted(manual_display_titles.get(k, k) for k in unmatched_manual_keys)
 
     append_run_log(
         DANISH_BACKDROPS_RUN_LOG_FILE, per_file_stats, grand_total,
@@ -599,6 +544,9 @@ def main() -> None:
             print(f"     - {t}")
     print(f"Unikke titler med dansk backdrop: {unique_found:,} (godkendt: {unique_approved_and_found:,}, "
           f"afventer: {unique_pending:,})")
+    if grand_total["rechecked_after_not_found"]:
+        print(f"🔄 Titler gen-tjekket efter tidligere 'ikke fundet' (kan nu være fundet): "
+              f"{grand_total['rechecked_after_not_found']:,}")
     print(f"Cache voksede fra {cache_size_before:,} til {cache_size_after:,}")
     print("--------------------------------")
 
