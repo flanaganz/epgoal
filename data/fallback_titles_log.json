@@ -1,60 +1,63 @@
 {
   "TV 2 Sport Denmark (DK,DA).dk": {
     "Håndbold (m): Håndboldligaen - Kampe": 8,
-    "Håndbold: Liga Håndbold - studiet": 6,
+    "Håndbold: Liga Håndbold - studiet": 3,
     "Kvindeligaen": 6
   },
   "TV 2 Sport HD (D) (T).dk": {
     "Håndbold (m): Håndboldligaen - Kampe": 8,
-    "Håndbold: Liga Håndbold - studiet": 6,
+    "Håndbold: Liga Håndbold - studiet": 3,
     "Kvindeligaen": 6
   },
   "TV 2 Sport X Denmark (DK,DA).dk": {
-    "Mountainbike: World Cup": 4
+    "Mountainbike: World Cup": 6
   },
   "TV 2 Sport X HD (D) (T).dk": {
-    "Mountainbike: World Cup": 4
+    "Mountainbike: World Cup": 6
   },
   "TV 2 Sport X.dk": {
-    "ATP: Fils-Tiafoe, finale, Cincinnati": 2,
-    "ATP: Fritz-Nakashima, kvartfinale, Cincinnati": 1,
-    "ATP: Nakashima-Tiafoe, semifinale, Cincinnati": 2,
-    "Mountainbike: World Cup": 4,
+    "Mountainbike: World Cup": 6,
+    "Serie A: AC Milan-Venezia": 4,
+    "Serie A: Genoa-Napoli": 2,
+    "Serie A: Inter-Monza": 2,
+    "Serie A: Torino-AC Milan": 2,
     "VM i MTB: Elite cross-country, short track (k)": 3,
     "VM i MTB: Elite cross-country, short track (m)": 3
   },
   "TV 2 Sport.dk": {
     "Herreligaen: GOG-Skjern": 4,
     "Herreligaen: Studiet": 3,
-    "Herreligaen: TTH Holstebro - Bjerringbro-Silkeborg": 4,
+    "Herreligaen: TTH Holstebro - Bjerringbro-Silkeborg": 6,
     "Håndbold (m): Håndboldligaen - Kampe": 8,
-    "Håndbold: Liga Håndbold - studiet": 6,
+    "Håndbold: Liga Håndbold - studiet": 3,
     "Kvindeligaen": 6,
-    "Kvindeligaen: Ikast-Odense": 6,
-    "Kvindeligaen: Studiet": 3
+    "Kvindeligaen: Ikast-Odense": 6
   },
   "TV3 Sport Denmark (DK,DA).dk": {
-    "Danskerklubben": 2,
-    "Watt the F1!?": 1
+    "Danskerklubben": 1,
+    "PDC European Tour": 2,
+    "Watt the F1!?": 2
   },
   "TV3 Sport HD (D) (T).dk": {
-    "Danskerklubben": 1,
-    "Watt the F1!?": 1
+    "PDC European Tour": 2,
+    "Watt the F1!?": 2
   },
   "TV3 Sport.dk": {
-    "Danskerklubben": 4,
-    "F1: Hollands Grand Prix - Løbet": 1,
-    "Watt the F1!?": 2,
-    "Watt the F1!?: Watt The F1!?": 1
+    "Danskerklubben": 1,
+    "F1: Hollands Grand Prix - Løbet": 2,
+    "PDC European Tour": 4,
+    "PDC European Tour: Hungarian Darts Trophy": 2,
+    "Watt the F1!?": 4,
+    "Watt the F1!?: Watt The F1!?": 2
   },
   "Viaplay Sport News HD (D) (T).dk": {
-    "Danskerklubben": 2,
-    "Optakt: Fc Midtjylland-agf": 1,
-    "Watt the F1!?": 4
+    "Danskerklubben": 1,
+    "Sky Sports: Total Football": 1,
+    "Watt the F1!?": 1
   },
   "Viaplay Sport News.dk": {
-    "Danskerklubben": 4,
-    "Optakt: Fc Midtjylland-agf": 1,
-    "Watt the F1!?": 4
+    "Danskerklubben": 3,
+    "Sky Sports: Total Football": 1,
+    "Watt the F1!?": 2
   }
 }
