@@ -1,37 +1,47 @@
 {
   "DR2 Denmark (DK,DA).dk": {
+    "Berlusconi: Fodbold, tv og magt -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
     "München 72 – olympisk terror -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20ATP%20500.jpg": 1
   },
   "DR2 HD (T).dk": {
-    "München 72 – olympisk terror -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20ATP%20500.jpg": 1
+    "Berlusconi: Fodbold, tv og magt -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1
   },
   "DR2.dk": {
-    "München 72 – olympisk terror -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20ATP%20500.jpg": 1
+    "Berlusconi: Fodbold, tv og magt (2:3) -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
+    "Berlusconi: Fodbold, tv og magt -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1
   },
   "TV3 MAX HD (D) (T).dk": {
-    "3F Superliga: AC Horsens - Viborg FF -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
-    "Bundesliga Fodbold: Bayern München - Stuttgart -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 2,
-    "Carabao Cup: Chelsea - Luton -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold%20Carabao%20Cup.jpg": 1,
+    "3F Superliga: AC Horsens - Viborg FF -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 2,
+    "Bundesliga Fodbold: Bayern München - Stuttgart -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 3,
+    "Bundesliga Fodbold: Dortmund - Hamburger SV -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
     "Champions League Weekly: UEFA Champions League Weekly -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
-    "Premier League: Crystal Palace - Manchester City -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1
+    "Premier League Studie: Tottenham - Newcastle -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 2,
+    "Premier League: Bournemouth - Everton -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 2,
+    "Premier League: Crystal Palace - Manchester City -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 2,
+    "Premier League: Tottenham - Newcastle -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 2,
+    "SuperligaTilsynet -> TMDb": 1
   },
   "TV3 Max Denmark (DK,DA).dk": {
-    "3F Superliga -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
-    "Bundesliga Fodbold -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 2,
-    "Carabao Cuppen -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold%20Carabao%20Cup.jpg": 1,
-    "Champions League Weekly -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
-    "Premier League -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1
-  },
-  "TV3 Max.dk": {
     "3F Superliga -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 2,
     "Bundesliga Fodbold -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 4,
-    "Bundesliga: Bayern München - Stuttgart -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20ATP%20500.jpg": 2,
-    "Carabao Cup -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold%20Carabao%20Cup.jpg": 2,
+    "Champions League Weekly -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
+    "Fodbold: Premier League-studiet -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 2,
+    "Premier League -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 6,
+    "SuperligaTilsynet -> TMDb": 1
+  },
+  "TV3 Max.dk": {
+    "3F Superliga -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 3,
+    "Bundesliga Fodbold -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 9,
+    "Bundesliga: Bayern München - Stuttgart -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20ATP%20500.jpg": 3,
     "Champions League Weekly -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 2,
     "Champions League Weekly: UEFA Champions League Weekly -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
-    "Premier League -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 2,
-    "Premier League: Crystal Palace - Manchester City -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
-    "Superliga: AC Horsens - Viborg FF -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
-    "SuperligaTilsynet -> TMDb": 1
+    "Fodbold: Premier League-studiet -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 4,
+    "Premier League -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 12,
+    "Premier League Studie: Tottenham - Newcastle -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 2,
+    "Premier League: Bournemouth - Everton -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 2,
+    "Premier League: Crystal Palace - Manchester City -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 2,
+    "Premier League: Tottenham - Newcastle -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 2,
+    "Superliga: AC Horsens - Viborg FF -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 2,
+    "SuperligaTilsynet -> TMDb": 3
   }
 }
