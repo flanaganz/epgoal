@@ -62,6 +62,29 @@ NYT (2026-08-14): KUN BACKDROPS HENTES/BRUGES FRA TMDb - INGEN POSTERE
     sættes ind, bruges backdroppet BÅDE som <icon> og <backdrop>, ligesom
     overalt ellers i pipeline'en.
 
+NYT (2026-08-29): FULDT LOG OVER ALLE SPORT-TITLER (all_sport_titles_log.json)
+    fallback_titles_log.json og partial_sport_matches_log.json logger KUN
+    "tvivlsomme" titler (dem der falder tilbage til kanal-generic, eller
+    kun matcher delvist). Titler der matcher PERFEKT med det samme (fx en
+    fast tildelt fil, eller en klar TMDb-succes for en always_sport-kanal)
+    blev ALDRIG logget nogen steder - og dukkede derfor aldrig op i
+    export_sport_review.py's Excel-ark, selvom brugeren måske hellere ville
+    se og evt. overstyre dem (fx "Vuelta a España", der allerede rammer
+    "vuelta"-nøgleordet i sport_categories.json).
+    Der logges nu i STEDET/TILLÆG en fuld oversigt: for HVER titel på en
+    kanal med en sport-rolle (role_entry is not None), uanset udfald,
+    gemmes titlens FAKTISKE endelige billede-status til
+    data/all_sport_titles_log.json, som {kanal_id: {titel: beskrivelse}}.
+    Beskrivelsen er ENTEN et rent filnavn (hvis billedet kommer fra
+    sport.image_base_url/Sport/-mappen), "TMDb" (hvis fra et TMDb-opslag),
+    eller "(intet billede)" (hvis intet endte med at blive sat). Dette
+    afspejler PRÆCIS hvad der endte i XML'en, uanset hvilken af de fem
+    match-grene (lokal override/kategori, TMDb-sport-fallback, kanal-
+    default, partial_sport ikke-sport-TMDb, eller "intet") der ramte.
+    export_sport_review.py bruger denne nye log som sin PRIMÆRE kilde til
+    at bygge Excel-arket, så ALLE sport-titler nu er med fra start - ikke
+    kun dem der fejler.
+
 NYT (2026-08-19): AUTOMATISK GIT-SYNKRONISERING FØR KØRSEL
     Scriptet kører nu "git fetch" + "git pull --rebase origin main"
     automatisk, FØR selve EPG-berigelsen starter. Årsag: hvis du (eller
@@ -103,7 +126,7 @@ import sys
 import time
 import unicodedata
 from pathlib import Path
-from urllib.parse import quote
+from urllib.parse import quote, unquote
 from xml.etree import ElementTree as ET
 
 import requests
@@ -417,10 +440,42 @@ def clear_artwork(programme: ET.Element) -> None:
         programme.remove(old)
 
 
+def describe_current_artwork(programme: ET.Element) -> str:
+    """Returnerer en kort, læsbar beskrivelse af det billede der FAKTISK står
+    på programmet lige nu (efter al matching-logik er kørt) - bruges KUN til
+    all_sport_titles_log.json (se docstring "FULDT LOG OVER ALLE
+    SPORT-TITLER"), ikke til selve XML-outputtet. Rent filnavn hvis billedet
+    kommer fra Sport/-mappen, "TMDb" hvis fra et TMDb-opslag, ellers
+    "(intet billede)"."""
+    icon = programme.find("icon")
+    backdrop = programme.find("backdrop")
+    src = None
+    if icon is not None and icon.get("src"):
+        src = icon.get("src")
+    elif backdrop is not None and backdrop.get("src"):
+        src = backdrop.get("src")
+
+    if not src:
+        return "(intet billede)"
+    if "/Sport/" in src:
+        return unquote(src.rsplit("/Sport/", 1)[-1])
+    if "image.tmdb.org" in src:
+        return "TMDb"
+    return src
+
+
+def log_all_sport_title(all_sport_titles_log: dict, chan_id: str, title: str, programme: ET.Element) -> None:
+    """Logger titlens NUVÆRENDE (faktiske, endelige) billede-status til
+    all_sport_titles_log - se docstring "FULDT LOG OVER ALLE SPORT-TITLER"
+    øverst i filen."""
+    all_sport_titles_log.setdefault(chan_id, {})[title] = describe_current_artwork(programme)
+
+
 def process_xml(xml_bytes: bytes, matcher: SportMatcher, source_cfg: dict,
                  tmdb_overrides: dict, cache: dict, cache_max_age_days: int,
                  backdrop_size: str, poster_size: str, sport_tmdb_fallback_enabled: bool,
-                 fallback_titles_log: dict, partial_sport_matches_log: dict) -> tuple[bytes, dict]:
+                 fallback_titles_log: dict, partial_sport_matches_log: dict,
+                 all_sport_titles_log: dict) -> tuple[bytes, dict]:
     root = ET.fromstring(xml_bytes)
 
     channel_role: dict[str, dict | None] = {}
@@ -460,6 +515,7 @@ def process_xml(xml_bytes: bytes, matcher: SportMatcher, source_cfg: dict,
             if result and result.get("skip"):
                 clear_artwork(programme)
                 stats["sport_skipped"] += 1
+                log_all_sport_title(all_sport_titles_log, chan_id, title, programme)
                 continue
 
             if result:
@@ -470,6 +526,7 @@ def process_xml(xml_bytes: bytes, matcher: SportMatcher, source_cfg: dict,
                     partial_sport_matches_log.setdefault(chan_id, {})
                     key = f"{title} -> {result.get('backdrop') or result.get('poster')}"
                     partial_sport_matches_log[chan_id][key] = partial_sport_matches_log[chan_id].get(key, 0) + 1
+                log_all_sport_title(all_sport_titles_log, chan_id, title, programme)
                 continue
 
             should_try_tmdb = do_tmdb_sport and (
@@ -498,6 +555,7 @@ def process_xml(xml_bytes: bytes, matcher: SportMatcher, source_cfg: dict,
                         partial_sport_matches_log.setdefault(chan_id, {})
                         key = f"{title} -> TMDb"
                         partial_sport_matches_log[chan_id][key] = partial_sport_matches_log[chan_id].get(key, 0) + 1
+                    log_all_sport_title(all_sport_titles_log, chan_id, title, programme)
                     continue
 
             if role == "always_sport":
@@ -511,6 +569,7 @@ def process_xml(xml_bytes: bytes, matcher: SportMatcher, source_cfg: dict,
                     stats["sport_defaulted"] += 1
                 else:
                     stats["sport_no_image_yet"] += 1
+                log_all_sport_title(all_sport_titles_log, chan_id, title, programme)
                 continue
 
             # "partial_sport"-kanaler (DR1, DR2, TV3 Max m.fl.) der IKKE fik
@@ -530,6 +589,7 @@ def process_xml(xml_bytes: bytes, matcher: SportMatcher, source_cfg: dict,
                 if art.get("backdrop"):
                     set_backdrop_only(programme, art.get("backdrop"))
                     stats["tmdb_enriched"] += 1
+            log_all_sport_title(all_sport_titles_log, chan_id, title, programme)
             continue
 
         if do_tmdb_nonsport:
@@ -694,6 +754,7 @@ def main() -> None:
     }
     fallback_titles_log: dict[str, dict[str, int]] = {}
     partial_sport_matches_log: dict[str, dict[str, int]] = {}
+    all_sport_titles_log: dict[str, dict[str, str]] = {}
 
     for source in sources:
         name, url = source["name"], source["url"]
@@ -706,7 +767,7 @@ def main() -> None:
         enriched, stats = process_xml(
             resp.content, matcher, source, tmdb_overrides, cache, cache_max_age_days,
             backdrop_size, poster_size, sport_tmdb_fallback_enabled,
-            fallback_titles_log, partial_sport_matches_log,
+            fallback_titles_log, partial_sport_matches_log, all_sport_titles_log,
         )
 
         out_path = OUTPUT_DIR / f"{name}.xml"
@@ -737,6 +798,9 @@ def main() -> None:
     partial_sport_log_path = DATA_DIR / "partial_sport_matches_log.json"
     save_json(partial_sport_log_path, partial_sport_matches_log)
 
+    all_sport_titles_log_path = DATA_DIR / "all_sport_titles_log.json"
+    save_json(all_sport_titles_log_path, all_sport_titles_log)
+
     print("\n📊 SAMLET RAPPORT (alle 6 filer)")
     print("--------------------------------")
     print(f"Programmer i alt            : {grand_total['programmes']:,}")
@@ -751,6 +815,8 @@ def main() -> None:
     print(f"Cache-fil voksede fra {cache_size_before:,} til {cache_size_after:,} unikke titler")
     print(f"Se {fallback_log_path.name} for FULD liste over titler der endte i kanal-fallback (til finjustering)")
     print(f"Se {partial_sport_log_path.name} for FULD liste over titler der blev fanget på DR1/DR2/TV2")
+    print(f"Se {all_sport_titles_log_path.name} for FULD liste over ALLE titler set på sport-kanaler "
+          "(uanset match-udfald)")
     print("--------------------------------")
 
     if git_cfg.get("enabled", True):

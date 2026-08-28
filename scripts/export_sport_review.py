@@ -38,6 +38,25 @@ NYT (2026-08-27): ROBUST DROPDOWN I KOLONNE E
     "BilledeListe" (uden mellemrum/parenteser). fullCalcOnLoad er sat, så
     Excel altid genberegner ved åbning.
 
+NYT (2026-08-29): FULD DÆKNING VIA all_sport_titles_log.json
+    Tidligere blev KUN titler der endte i kanal-fallback eller partial_sport-
+    logikken vist i arket - titler der matchede PERFEKT med det samme (fx
+    "Vuelta a España" via "vuelta"-nøgleordet i sport_categories.json) blev
+    ALDRIG vist, fordi de aldrig blev logget nogen steder.
+    enrich_epg.py skriver nu en ny log, data/all_sport_titles_log.json, med
+    ALLE titler set på en sport-kanal (uanset match-udfald) og en præcis
+    beskrivelse af det billede de FAKTISK endte med. Denne log behandles nu
+    som den PRIMÆRE kilde i collect_candidates() (mest komplette og
+    præcise data), mens de to oprindelige logs (fallback/partial) fortsat
+    behandles som et defensivt supplement - dedupliceringen (samme
+    (gruppe, kanal, titel)-nøgle) sikrer at ingen titel optræder dobbelt,
+    og "Nuværende billede" for allerede-korrekte titler viser nu det
+    RIGTIGE filnavn i stedet for aldrig at blive vist.
+    OBS: dette gør arket VÆSENTLIGT længere (potentielt alle sportstitler,
+    ikke kun de tvivlsomme) - brug "Ignorer"-noten (se nedenfor) til at
+    rydde ud i titler du allerede er tilfreds med, så de forsvinder fra
+    fremtidige eksporter.
+
 NYT (2026-08-28): "IGNORER"-NOTE UDELUKKER TITLEN PERMANENT FRA FREMTIDIGE
 EKSPORTER
     Titler i fallback_titles_log.json / partial_sport_matches_log.json
@@ -72,6 +91,32 @@ RETTET (2026-08-29): NØGLE TIL AT BEVARE TIDLIGERE VALG (KANAL TILFØJET)
     aktuelle MEN havde et udfyldt valg, samles i et ekstra ark "Forsvundne
     (havde valg)" i stedet for bare at forsvinde sporløst.
 
+RETTET (2026-08-29, v2): ÉN RÆKKE PR. TITEL (IKKE PR. KANAL-VARIANT)
+    Med "FULD DÆKNING" ovenfor ville hver titel nu optræde med én række PR.
+    KANAL-ID-VARIANT (fx "SuperligaTilsynet" 3 gange: "TV3 Max.dk", "TV3 MAX
+    HD (D) (T).dk", "TV3 Max Denmark (DK,DA).dk" - reelt samme fysiske
+    kanal, blot forskellige feed-navne fra Open-EPG) - det gør arket
+    unødigt langt, og sport_program_overrides.json (som import_sport_
+    review.py skriver til) er IKKE kanal-specifik i forvejen, så gentagne
+    rækker for samme titel giver ingen ekstra værdi.
+    Nøglen for BÅDE kandidat-indsamling OG "bevar tidligere valg" er derfor
+    ændret fra (Kanalgruppe, Kanal, Titel) til (Kanalgruppe, Titel) - hver
+    titel får nu ÉN række pr. gruppe, uanset hvor mange kanal-ID-varianter
+    den optræder på. Kolonnen "Kanal (fra log)" viser nu ALLE set kanal-
+    varianter for titlen, adskilt af "; ", til orientering.
+    Findes flere forskellige "Nuværende billede"-værdier for samme
+    (gruppe, titel) på tværs af kanal-varianter (usædvanligt, men muligt
+    hvis titlen reelt optræder på to FORSKELLIGE fysiske kanaler i samme
+    gruppe med forskellig rolle/opsætning), vælges den mest informative
+    (et konkret filnavn frem for "TMDb" frem for "(intet billede)"), og
+    et lille advarselsprint viser dig hvilke titler det gælder.
+    BAGUDKOMPATIBILITET: indlæsning af en ÆLDRE sport_artwork_review.xlsx
+    (med flere rækker pr. titel, som filer eksporteret FØR denne ændring)
+    merges korrekt - findes flere gamle rækker for samme (gruppe, titel)
+    med FORSKELLIGE udfyldte valg, vindes der IKKE blindt af "sidste række"
+    - den FØRSTE udfyldte værdi fundet bevares, så intet allerede-udført
+    arbejde går tabt ved denne omlægning.
+
 WORKFLOW
     1) python3 scripts/enrich_epg.py                  (genererer logs)
     2) python3 scripts/export_sport_review.py         (byg Excel-ark)
@@ -101,6 +146,7 @@ SPORT_DIR = ROOT / "Sport"
 
 FALLBACK_LOG_FILE = DATA_DIR / "fallback_titles_log.json"
 PARTIAL_SPORT_LOG_FILE = DATA_DIR / "partial_sport_matches_log.json"
+ALL_SPORT_TITLES_LOG_FILE = DATA_DIR / "all_sport_titles_log.json"
 SPORT_PROGRAM_OVERRIDES_FILE = DATA_DIR / "sport_program_overrides.json"
 REVIEW_FILE = DATA_DIR / "sport_artwork_review.xlsx"
 REVIEW_BACKUP_FILE = DATA_DIR / "sport_artwork_review.BACKUP.xlsx"
@@ -122,7 +168,7 @@ CHANNEL_GROUPS = {
     "C - DR1/DR2": ["dr1", "dr2"],
 }
 
-HEADERS = ["Kanalgruppe", "Kanal (fra log)", "Titel", "Nuværende billede", "Vælg billede", "Godkendt (X)", "Note"]
+HEADERS = ["Kanalgruppe", "Kanaler (alle varianter)", "Titel", "Nuværende billede", "Vælg billede", "Godkendt (X)", "Note"]
 
 
 def load_json(path: Path, default):
@@ -161,12 +207,55 @@ def list_available_images(sport_dir: Path) -> list[str]:
     return files
 
 
+# Prioritet for hvilken "current_image"-beskrivelse der vindes, hvis samme
+# (gruppe, titel) optræder med FLERE forskellige beskrivelser på tværs af
+# kanal-varianter (se "RETTET v2: ÉN RÆKKE PR. TITEL" i docstring øverst).
+# Lavere tal = højere prioritet (vindes over højere tal).
+def _image_priority(value: str) -> int:
+    if value in ("(intet billede)", "(ukendt)", None, ""):
+        return 3
+    if value == "(kanal-fallback)":
+        return 2
+    if value == "TMDb":
+        return 1
+    return 0  # et konkret filnavn eller en fuld URL - mest informativt
+
+
 def collect_candidates() -> dict[str, list[dict]]:
-    """Samler alle tvivlsomme (kanal, titel)-kombinationer fra de to log-filer,
-    grupperet efter kanalgruppe. Returnerer
-    {gruppenavn: [{"channel": ..., "title": ..., "current_image": ...}, ...]}."""
-    candidates: dict[str, list[dict]] = {name: [] for name in CHANNEL_GROUPS}
-    seen: set[tuple[str, str, str]] = set()
+    """Samler ALLE titler fra de tre log-filer, grupperet efter kanalgruppe -
+    ÉN post pr. (gruppe, titel), UANSET hvor mange kanal-ID-varianter titlen
+    optræder på (se "RETTET v2: ÉN RÆKKE PR. TITEL" i docstring øverst).
+    Returnerer {gruppenavn: [{"channels": [...], "title": ..., "current_image": ...}, ...]}.
+
+    RÆKKEFØLGE: all_sport_titles_log.json behandles FØRST, da den er den
+    mest komplette kilde (ALLE titler, uanset match-udfald) og har den mest
+    PRÆCISE "current_image"-beskrivelse. fallback_titles_log.json og
+    partial_sport_matches_log.json behandles herefter som et defensivt
+    supplement for titler der af en eller anden grund ikke findes i
+    all_sport_titles_log.json (fx en ældre enrich_epg.py-kørsel)."""
+    merged: dict[tuple[str, str], dict] = {}  # (group, title) -> {"channels": set(), "current_image": str}
+    conflicts: list[tuple[str, str]] = []  # (group, title) hvor flere forskellige current_image sås
+
+    def add(group: str, channel_id: str, title: str, current_image: str) -> None:
+        key = (group, title)
+        if key not in merged:
+            merged[key] = {"channels": {channel_id}, "current_image": current_image}
+            return
+        entry = merged[key]
+        entry["channels"].add(channel_id)
+        if current_image != entry["current_image"]:
+            if _image_priority(current_image) < _image_priority(entry["current_image"]):
+                entry["current_image"] = current_image
+            if key not in conflicts:
+                conflicts.append(key)
+
+    all_titles_log = load_json(ALL_SPORT_TITLES_LOG_FILE, {})
+    for channel_id, titles in all_titles_log.items():
+        group = classify_channel(channel_id)
+        if group is None:
+            continue
+        for title, current_image in titles.items():
+            add(group, channel_id, title, current_image)
 
     fallback_log = load_json(FALLBACK_LOG_FILE, {})
     for channel_id, titles in fallback_log.items():
@@ -174,11 +263,8 @@ def collect_candidates() -> dict[str, list[dict]]:
         if group is None:
             continue
         for title in titles:
-            key = (group, channel_id, title)
-            if key in seen:
-                continue
-            seen.add(key)
-            candidates[group].append({"channel": channel_id, "title": title, "current_image": "(kanal-fallback)"})
+            if (group, title) not in merged:
+                add(group, channel_id, title, "(kanal-fallback)")
 
     partial_log = load_json(PARTIAL_SPORT_LOG_FILE, {})
     for channel_id, entries in partial_log.items():
@@ -191,27 +277,43 @@ def collect_candidates() -> dict[str, list[dict]]:
                 title, current_image = logged_key.rsplit(" -> ", 1)
             else:
                 title, current_image = logged_key, "(ukendt)"
-            key = (group, channel_id, title)
-            if key in seen:
-                continue
-            seen.add(key)
-            candidates[group].append({"channel": channel_id, "title": title, "current_image": current_image})
+            if (group, title) not in merged:
+                add(group, channel_id, title, current_image)
+
+    if conflicts:
+        print(f"ℹ️  {len(conflicts):,} titler havde FORSKELLIGE 'Nuværende billede'-værdier på tværs af "
+              "kanal-varianter (viser den mest informative):", file=sys.stderr)
+        for group, title in sorted(conflicts):
+            print(f"     - [{group}] {title}", file=sys.stderr)
+
+    candidates: dict[str, list[dict]] = {name: [] for name in CHANNEL_GROUPS}
+    for (group, title), entry in merged.items():
+        candidates[group].append({
+            "channel": "; ".join(sorted(entry["channels"])),
+            "title": title,
+            "current_image": entry["current_image"],
+        })
 
     for group in candidates:
-        candidates[group].sort(key=lambda c: (c["title"].lower(), c["channel"].lower()))
+        candidates[group].sort(key=lambda c: c["title"].lower())
 
     return candidates
 
 
-def load_existing_review(path: Path) -> dict[tuple[str, str, str], dict]:
-    """Returnerer {(kanalgruppe, kanal, titel): {"image": ..., "godkendt": ..., "note": ...}}
+def load_existing_review(path: Path) -> dict[tuple[str, str], dict]:
+    """Returnerer {(kanalgruppe, titel): {"image": ..., "godkendt": ..., "note": ...}}
     fra en tidligere eksporteret fil, så gentagne kørsler bevarer valg.
 
-    VIGTIGT: nøglen inkluderer KANAL (ikke kun gruppe+titel) - se docstring
-    øverst i filen ("RETTET: NØGLE TIL AT BEVARE TIDLIGERE VALG") for
-    baggrunden på hvorfor dette er afgørende for ikke at miste data, når
-    samme titel optræder på flere kanal-varianter i samme gruppe."""
-    existing: dict[tuple[str, str, str], dict] = {}
+    VIGTIGT: nøglen er (gruppe, titel) UDEN kanal - se docstring øverst i
+    filen ("RETTET v2: ÉN RÆKKE PR. TITEL") for baggrunden.
+
+    BAGUDKOMPATIBELT: en ÆLDRE fil (eksporteret før v2) kan indeholde FLERE
+    rækker for samme (gruppe, titel) - én pr. kanal-variant. Findes flere
+    sådanne rækker, overskriver en TOM/ikke-udfyldt række ALDRIG en allerede
+    fundet UDFYLDT værdi - den første udfyldte "image"/"godkendt"/"note"
+    fundet for nøglen bevares, uanset hvilken fysisk kanal-række den kom
+    fra, så intet allerede-udført arbejde går tabt ved omlægningen."""
+    existing: dict[tuple[str, str], dict] = {}
     if not path.exists():
         return existing
 
@@ -220,7 +322,6 @@ def load_existing_review(path: Path) -> dict[tuple[str, str, str], dict]:
     headers = [c.value for c in ws[1]]
     try:
         group_col = headers.index("Kanalgruppe")
-        channel_col = headers.index("Kanal (fra log)")
         title_col = headers.index("Titel")
         image_col = headers.index("Vælg billede")
         godkendt_col = headers.index("Godkendt (X)")
@@ -232,20 +333,29 @@ def load_existing_review(path: Path) -> dict[tuple[str, str, str], dict]:
 
     for row in ws.iter_rows(min_row=2):
         group_val = row[group_col].value
-        channel_val = row[channel_col].value
         title_val = row[title_col].value
         if not group_val or not title_val:
             continue
-        key = (
-            str(group_val).strip(),
-            str(channel_val).strip() if channel_val else "",
-            str(title_val).strip(),
-        )
-        existing[key] = {
-            "image": row[image_col].value,
-            "godkendt": row[godkendt_col].value,
-            "note": row[note_col].value,
-        }
+        key = (str(group_val).strip(), str(title_val).strip())
+
+        image_val = row[image_col].value
+        godkendt_val = row[godkendt_col].value
+        note_val = row[note_col].value
+
+        if key not in existing:
+            existing[key] = {"image": image_val, "godkendt": godkendt_val, "note": note_val}
+            continue
+
+        # Nøglen findes allerede (ældre fil med flere rækker pr. titel) -
+        # udfyld KUN de felter der endnu ikke har en værdi, overskriv ALDRIG
+        # en allerede fundet udfyldt værdi med en tom.
+        prior = existing[key]
+        if not prior.get("image") and image_val:
+            prior["image"] = image_val
+        if not prior.get("godkendt") and godkendt_val:
+            prior["godkendt"] = godkendt_val
+        if not prior.get("note") and note_val:
+            prior["note"] = note_val
     return existing
 
 
@@ -266,10 +376,9 @@ def load_ignored_titles(path: Path) -> dict[str, str]:
     blev genindlæst, hvilket ville få titlen til fejlagtigt at dukke op
     igen ved den EFTERFØLGENDE eksport (se changelog "IGNORER"-NOTE).
 
-    BEMÆRK: nøglen her er BEVIDST (gruppe||titel) UDEN kanal - "ignorer"
-    gælder for titlen på tværs af alle kanal-varianter i gruppen. Dette er
-    en anden nøgle end load_existing_review()'s (gruppe, kanal, titel), som
-    bruges til at bevare selve "Vælg billede"-valget pr. fysisk række."""
+    BEMÆRK: nøglen her bruger "||" som separator (i modsætning til
+    load_existing_review()'s tuple-nøgle (gruppe, titel)), da denne
+    gemmes som JSON hvor nøgler skal være strenge."""
     data = load_json(path, {})
     return data if isinstance(data, dict) else {}
 
@@ -286,8 +395,8 @@ def main() -> None:
     candidates = collect_candidates()
     total_candidates = sum(len(v) for v in candidates.values())
     if total_candidates == 0:
-        sys.exit(f"❌ Ingen kandidater fundet i {FALLBACK_LOG_FILE.name}/{PARTIAL_SPORT_LOG_FILE.name} "
-                 "for de tre kanalgrupper - kør enrich_epg.py først.")
+        sys.exit(f"❌ Ingen kandidater fundet i {ALL_SPORT_TITLES_LOG_FILE.name}/{FALLBACK_LOG_FILE.name}/"
+                 f"{PARTIAL_SPORT_LOG_FILE.name} for de tre kanalgrupper - kør enrich_epg.py først.")
 
     available_images = list_available_images(SPORT_DIR)
     print(f"Fandt {len(available_images):,} billeder i {SPORT_DIR}")
@@ -298,9 +407,7 @@ def main() -> None:
     # Opdater den PERMANENTE ignor-hukommelse ud fra noter i den fil, der
     # lige er blevet indlæst - dette er den ENESTE mulighed for at fange en
     # NY "ignorer"-note, før selve titlen forsvinder fra arket herunder.
-    # (gruppe, kanal, titel) -> ignorer-nøgle er BEVIDST reduceret til
-    # (gruppe, titel), da "ignorer" gælder på tværs af kanal-varianter.
-    for (group_name, _channel, title), prior in existing_review.items():
+    for (group_name, title), prior in existing_review.items():
         if is_ignored(prior.get("note")):
             ignored_titles[make_ignore_key(group_name, title)] = str(prior.get("note")).strip()
 
@@ -329,11 +436,11 @@ def main() -> None:
     new_count = 0
     preserved_count = 0
     ignored_count = 0
-    current_keys: set[tuple[str, str, str]] = set()
+    current_keys: set[tuple[str, str]] = set()
 
     for group_name, items in candidates.items():
         for item in items:
-            key = (group_name, item["channel"], item["title"])
+            key = (group_name, item["title"])
 
             if make_ignore_key(group_name, item["title"]) in ignored_titles:
                 ignored_count += 1
@@ -392,7 +499,7 @@ def main() -> None:
         ws.add_data_validation(dv_godkendt)
         dv_godkendt.add(f"F2:F{last_row}")
 
-    widths = {"A": 30, "B": 28, "C": 40, "D": 30, "E": 34, "F": 12, "G": 40}
+    widths = {"A": 30, "B": 55, "C": 40, "D": 30, "E": 34, "F": 12, "G": 40}
     for col, width in widths.items():
         ws.column_dimensions[col].width = width
 
@@ -402,22 +509,21 @@ def main() -> None:
     vanished_keys = set(existing_review.keys()) - current_keys
     vanished_with_data = [
         k for k in vanished_keys
-        if existing_review[k].get("image") and make_ignore_key(k[0], k[2]) not in ignored_titles
+        if existing_review[k].get("image") and make_ignore_key(k[0], k[1]) not in ignored_titles
     ]
     if vanished_with_data:
         vanished_ws = wb.create_sheet("Forsvundne (havde valg)")
-        for col_idx, header in enumerate(["Kanalgruppe", "Kanal", "Titel", "Tidligere valgt billede", "Note"], start=1):
+        for col_idx, header in enumerate(["Kanalgruppe", "Titel", "Tidligere valgt billede", "Note"], start=1):
             c = vanished_ws.cell(row=1, column=col_idx, value=header)
             c.font = Font(bold=True)
         for r, key in enumerate(sorted(vanished_with_data), start=2):
-            group_v, channel_v, title_v = key
+            group_v, title_v = key
             data = existing_review[key]
             vanished_ws.cell(row=r, column=1, value=group_v)
-            vanished_ws.cell(row=r, column=2, value=channel_v)
-            vanished_ws.cell(row=r, column=3, value=title_v)
-            vanished_ws.cell(row=r, column=4, value=data.get("image"))
-            vanished_ws.cell(row=r, column=5, value=data.get("note"))
-        for col, width in {"A": 30, "B": 28, "C": 40, "D": 34, "E": 40}.items():
+            vanished_ws.cell(row=r, column=2, value=title_v)
+            vanished_ws.cell(row=r, column=3, value=data.get("image"))
+            vanished_ws.cell(row=r, column=4, value=data.get("note"))
+        for col, width in {"A": 30, "B": 45, "C": 34, "D": 40}.items():
             vanished_ws.column_dimensions[col].width = width
 
     guide = wb.create_sheet("Vejledning")
@@ -425,6 +531,9 @@ def main() -> None:
         ("Sådan bruger du denne fil", ""),
         ("", ""),
         ("Kolonne A - Kanalgruppe", "Angiver hvilken af dine tre kanalgrupper (A/B/C) titlen tilhører."),
+        ("Kolonne B - Kanaler (alle varianter)",
+         "Til orientering: ALLE kanal-ID-varianter (adskilt af '; ') hvor denne titel er set. Én titel = ÉN række, "
+         "uanset hvor mange kanal-varianter (fx 'TV3 Max.dk', 'TV3 MAX HD (D) (T).dk') den optræder på."),
         ("Kolonne D - Nuværende billede", "Viser hvad enrich_epg.py FAKTISK brugte sidste kørsel - enten et konkret filnavn, '(kanal-fallback)' hvis intet specifikt match blev fundet, eller 'TMDb' hvis et automatisk TMDb-opslag blev brugt."),
         ("Kolonne E - Vælg billede", "DROPDOWN med alle billeder der findes i din Sport/-mappe. Vælg det korrekte billede for denne titel. Virker dropdown-pilen ikke: tjek om Excel viser en gul 'Beskyttet visning'-bjælke øverst og klik 'Aktiver redigering'."),
         ("Kolonne F - Godkendt (X)", "Markér 'X' når du har bekræftet valget - bruges IKKE af import-scriptet til at afgøre om billedet skal bruges (det bruger blot om kolonne E er udfyldt), men er til DIN egen dokumentation/overblik."),
@@ -432,7 +541,7 @@ def main() -> None:
         ("", ""),
         ("Vigtigt", "Kør import_sport_review.py EFTER du har udfyldt og gemt denne fil, for at få dine valg skrevet til sport_program_overrides.json."),
         ("Vigtigt", "Kør derefter enrich_epg.py igen, for at få de nye billeder ind i dine XML-filer."),
-        ("Vigtigt", "Kør export_sport_review.py igen når som helst - dine tidligere valg BEVARES automatisk (nøgle: gruppe+kanal+titel), kun nye rækker tilføjes. Titler markeret 'Ignorer...' i Note udelades permanent fra fremtidige eksporter (for alle kanal-varianter)."),
+        ("Vigtigt", "Kør export_sport_review.py igen når som helst - dine tidligere valg BEVARES automatisk (nøgle: gruppe+titel), kun nye titler tilføjes. Titler markeret 'Ignorer...' i Note udelades permanent fra fremtidige eksporter."),
         ("Vigtigt", "Der laves automatisk en sikkerhedskopi (sport_artwork_review.BACKUP.xlsx) FØR filen overskrives, hver gang du kører export_sport_review.py."),
         ("Vigtigt", "Rækker der ikke længere er aktuelle, men SOM havde et udfyldt valg (og ikke er ignoreret), havner i arket 'Forsvundne (havde valg)' - intet forsvinder usporligt."),
     ]
@@ -449,7 +558,7 @@ def main() -> None:
     print("=== Sport-artwork review eksporteret ===")
     print(f"Fil: {REVIEW_FILE}")
     for group_name, items in candidates.items():
-        print(f"  {group_name}: {len(items):,} tvivlsomme titler i logs")
+        print(f"  {group_name}: {len(items):,} unikke titler i alt")
     print(f"Nye rækker denne gang: {new_count:,}  |  Tidligere valg bevaret: {preserved_count:,}"
           f"  |  Ignoreret (udelukket pga. note): {ignored_count:,}")
     if vanished_with_data:
