@@ -1,7 +1,23 @@
 {
+  "1. division": {
+    "backdrop": "Betinia Liga.jpg",
+    "poster": "Betinia Liga.jpg"
+  },
   "1. division magasinet": {
-    "backdrop": null,
-    "poster": null
+    "backdrop": "Betinia Liga.jpg",
+    "poster": "Betinia Liga.jpg"
+  },
+  "1. division studie": {
+    "backdrop": "Betinia Liga.jpg",
+    "poster": "Betinia Liga.jpg"
+  },
+  "1. division studie: aab - hb køge": {
+    "backdrop": "Betinia Liga.jpg",
+    "poster": "Betinia Liga.jpg"
+  },
+  "1. division: aab - hb køge": {
+    "backdrop": "Betinia Liga.jpg",
+    "poster": "Betinia Liga.jpg"
   },
   "3f superliga": {
     "backdrop": "3F Superliga.jpg",
@@ -17,7 +33,43 @@
     "poster": "https://image.tmdb.org/t/p/original/6Zx9sabnYXtYHMg76JDTlpbBJFg.jpg"
   },
   "_readme": "Nøglen = FULD titel i små bogstaver, trimmet. 'backdrop'/'poster' kan nu ENTEN være et rent filnavn (kombineres med Sport/-mappen på GitHub) ELLER en FULD ekstern URL (bruges direkte, uændret) - se enrich_epg.py docstring.",
+  "a-liga: brøndby if-f.c. københavn": {
+    "backdrop": "A-Liga.jpg",
+    "poster": "A-Liga.jpg"
+  },
+  "a-liga: efter brøndby if-f.c. københavn": {
+    "backdrop": "A-Liga.jpg",
+    "poster": "A-Liga.jpg"
+  },
+  "a-liga: fc midtjylland-asa, aarhus": {
+    "backdrop": "A-Liga.jpg",
+    "poster": "A-Liga.jpg"
+  },
+  "a-liga: fc nordsjælland-f.c. københavn": {
+    "backdrop": "A-Liga.jpg",
+    "poster": "A-Liga.jpg"
+  },
+  "a-liga: før brøndby if-f.c. københavn": {
+    "backdrop": "A-Liga.jpg",
+    "poster": "A-Liga.jpg"
+  },
+  "a-liga: målfesten": {
+    "backdrop": "A-Liga.jpg",
+    "poster": "A-Liga.jpg"
+  },
+  "aftenvuelta": {
+    "backdrop": "AftenVuelta.jpg",
+    "poster": "AftenVuelta.jpg"
+  },
+  "amerikansk fodbold: nordic storm-munich ravens, finale": {
+    "backdrop": "NFL.jpg",
+    "poster": "NFL.jpg"
+  },
   "atletik: diamond league": {
+    "backdrop": "Atletik Diamond League.jpg",
+    "poster": "Atletik Diamond League.jpg"
+  },
+  "atletik: diamond league, zürich": {
     "backdrop": "Atletik Diamond League.jpg",
     "poster": "Atletik Diamond League.jpg"
   },
@@ -25,9 +77,29 @@
     "backdrop": "ATP Tour Highlights.jpg",
     "poster": "ATP Tour Highlights.jpg"
   },
+  "betinia liga": {
+    "backdrop": "Betinia Liga.jpg",
+    "poster": "Betinia Liga.jpg"
+  },
+  "betinia liga magasinet": {
+    "backdrop": "Betinia Liga.jpg",
+    "poster": "Betinia Liga.jpg"
+  },
   "brøndby går transferamok": {
     "backdrop": null,
     "poster": null
+  },
+  "bundesliga fodbold": {
+    "backdrop": "Bundesliga Fodbold.jpg",
+    "poster": "Bundesliga Fodbold.jpg"
+  },
+  "bundesliga fodbold: bayern münchen - stuttgart": {
+    "backdrop": "Bundesliga Fodbold.jpg",
+    "poster": "Bundesliga Fodbold.jpg"
+  },
+  "bundesliga fodbold: dortmund - hamburger sv": {
+    "backdrop": "Bundesliga Fodbold.jpg",
+    "poster": "Bundesliga Fodbold.jpg"
   },
   "bundesliga review of the midseason": {
     "backdrop": "Bundesliga Review of the Midseason.jpg",
@@ -36,6 +108,14 @@
   "bundesliga review of the season": {
     "backdrop": "Bundesliga Review of the Midseason.jpg",
     "poster": "Bundesliga Review of the Midseason.jpg"
+  },
+  "bundesliga: bayern münchen - stuttgart": {
+    "backdrop": "Bundesliga Fodbold.jpg",
+    "poster": "Bundesliga Fodbold.jpg"
+  },
+  "bundesliga: dortmund - hamburger sv": {
+    "backdrop": "Bundesliga Fodbold.jpg",
+    "poster": "Bundesliga Fodbold.jpg"
   },
   "champions league weekly": {
     "backdrop": "Champions League Weekly.jpg",
@@ -53,9 +133,29 @@
     "backdrop": "Tour de France Femmes Studiet.jpg",
     "poster": "Tour de France Femmes Studiet.jpg"
   },
+  "cykling: vuelta a españa - studiet": {
+    "backdrop": "Vuelta a España.jpeg",
+    "poster": "Vuelta a España.jpeg"
+  },
+  "danskerklubben": {
+    "backdrop": "TMDb",
+    "poster": "TMDb"
+  },
   "dbu pokalen": {
     "backdrop": "DBU Pokalen.jpg",
     "poster": "DBU Pokalen.jpg"
+  },
+  "efl championship": {
+    "backdrop": "EFL Championship Highligts.jpg",
+    "poster": "EFL Championship Highligts.jpg"
+  },
+  "efl championship: middlesbrough - west bromwich": {
+    "backdrop": "EFL Championship Highligts.jpg",
+    "poster": "EFL Championship Highligts.jpg"
+  },
+  "f1": {
+    "backdrop": "Formel 1.jpg",
+    "poster": "Formel 1.jpg"
   },
   "f1: hollands grand prix - løbet": {
     "backdrop": "Formel 1.jpg",
@@ -75,9 +175,41 @@
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
   },
+  "fodbold: a liga (k) - studiet": {
+    "backdrop": "A-Liga.jpg",
+    "poster": "A-Liga.jpg"
+  },
+  "fodbold: a-liga (k) - kampe": {
+    "backdrop": "A-Liga.jpg",
+    "poster": "A-Liga.jpg"
+  },
+  "fodbold: a-liga (k) - målfesten": {
+    "backdrop": "A-Liga.jpg",
+    "poster": "A-Liga.jpg"
+  },
   "fodbold: friuli venezia giulia cup - kampe": {
     "backdrop": "Fodbold Friuli Venezia Giulia Cup - Kampe.jpg",
     "poster": "Fodbold Friuli Venezia Giulia Cup - Kampe.jpg"
+  },
+  "fodbold: premier league-studiet": {
+    "backdrop": "Premier League.jpg",
+    "poster": "Premier League.jpg"
+  },
+  "fodbold: serie a": {
+    "backdrop": "Serie A.jpg",
+    "poster": "Serie A.jpg"
+  },
+  "formel 1": {
+    "backdrop": "Formel 1.jpg",
+    "poster": "Formel 1.jpg"
+  },
+  "formel 1 360°": {
+    "backdrop": "https://image.tmdb.org/t/p/original/uzNsBqsMSkKyL4bbatvCvYYpDOj.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/uzNsBqsMSkKyL4bbatvCvYYpDOj.jpg"
+  },
+  "formel 1 360°: formel 1 360°": {
+    "backdrop": "https://image.tmdb.org/t/p/original/uzNsBqsMSkKyL4bbatvCvYYpDOj.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/uzNsBqsMSkKyL4bbatvCvYYpDOj.jpg"
   },
   "gp confidential": {
     "backdrop": null,
@@ -99,6 +231,26 @@
     "backdrop": "Herreligaen.jpg",
     "poster": "Herreligaen.jpg"
   },
+  "håndbold: liga håndbold - studiet": {
+    "backdrop": "Håndbold Herreligaen.jpg",
+    "poster": "Håndbold Herreligaen.jpg"
+  },
+  "højdepunkter fra efl championship": {
+    "backdrop": "EFL Championship Highligts.jpg",
+    "poster": "EFL Championship Highligts.jpg"
+  },
+  "indycar": {
+    "backdrop": "IndyCar.jpg",
+    "poster": "IndyCar.jpg"
+  },
+  "indycar: freedom 250 grand prix of washington, d.c.": {
+    "backdrop": "IndyCar.jpg",
+    "poster": "IndyCar.jpg"
+  },
+  "indycar: snap-on makers and fixers 250 - løb 1": {
+    "backdrop": "IndyCar.jpg",
+    "poster": "IndyCar.jpg"
+  },
   "kristianstad invitational": {
     "backdrop": "Golf PGA Tour.jpg",
     "poster": "Golf PGA Tour.jpg"
@@ -115,6 +267,14 @@
     "backdrop": null,
     "poster": null
   },
+  "let’s be frank": {
+    "backdrop": "https://image.tmdb.org/t/p/original/tzcEiG73S5a9HtMflMQ0Z8WWms.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/tzcEiG73S5a9HtMflMQ0Z8WWms.jpg"
+  },
+  "let’s be frank: let's be frank": {
+    "backdrop": "https://image.tmdb.org/t/p/original/tzcEiG73S5a9HtMflMQ0Z8WWms.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/tzcEiG73S5a9HtMflMQ0Z8WWms.jpg"
+  },
   "ligue 1 review of the season": {
     "backdrop": "Ligue 1 The Season Review Show.jpg",
     "poster": "Ligue 1 The Season Review Show.jpg"
@@ -126,6 +286,18 @@
   "mountainbike: world cup": {
     "backdrop": "VM i MTB.jpg",
     "poster": "VM i MTB.jpg"
+  },
+  "nfl": {
+    "backdrop": "NFL.jpg",
+    "poster": "NFL.jpg"
+  },
+  "nfl: cleveland browns-new england patriots, pre-season": {
+    "backdrop": "NFL.jpg",
+    "poster": "NFL.jpg"
+  },
+  "nfl: philadelphia eagles-cincinnati bengals, pre-season": {
+    "backdrop": "NFL.jpg",
+    "poster": "NFL.jpg"
   },
   "onside": {
     "backdrop": null,
@@ -192,6 +364,10 @@
     "backdrop": "Fodbold Serie A.jpg",
     "poster": "Fodbold Serie A.jpg"
   },
+  "sky sports: soccer saturday": {
+    "backdrop": "https://image.tmdb.org/t/p/original/rIl1pgmuVBwBbDqS5w3hVD8Z9UW.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/rIl1pgmuVBwBbDqS5w3hVD8Z9UW.jpg"
+  },
   "sky sports: the football show": {
     "backdrop": "Sky Sports The Football Show.jpg",
     "poster": "Sky Sports The Football Show.jpg"
@@ -205,17 +381,37 @@
     "backdrop": "https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg",
     "poster": "https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg"
   },
+  "sporten": {
+    "backdrop": "Sporten.jpg",
+    "poster": "Sporten.jpg"
+  },
   "superliga": {
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
+  },
+  "superliga studie": {
+    "backdrop": "Superliga Studiet.jpg",
+    "poster": "Superliga Studiet.jpg"
+  },
+  "superliga studie: ac horsens - viborg ff": {
+    "backdrop": "Superliga Studiet.jpg",
+    "poster": "Superliga Studiet.jpg"
+  },
+  "superliga studiet": {
+    "backdrop": "Superliga Studiet.jpg",
+    "poster": "Superliga Studiet.jpg"
   },
   "superliga: ac horsens - viborg ff": {
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
   },
   "superligatilsynet": {
-    "backdrop": "TMDb",
-    "poster": "TMDb"
+    "backdrop": "Superligatilsynet.jpg",
+    "poster": "Superligatilsynet.jpg"
+  },
+  "superligatilsynet: superligatilsynet: luis binks svarer tilbage og fck kollapser": {
+    "backdrop": "Superligatilsynet.jpg",
+    "poster": "Superligatilsynet.jpg"
   },
   "tv-udbruddet": {
     "_note": "NYT (2026-08-13): direkte ekstern URL fra Viaplay, angivet af bruger.",
@@ -223,8 +419,8 @@
     "poster": "https://i-viaplay-com.akamaized.net/viaplay-prod/669/72/1757932138-001f38bb582cfdc1b238c8401d5f30fda461ee0e.jpg"
   },
   "var-rummet": {
-    "backdrop": null,
-    "poster": null
+    "backdrop": "TMDb",
+    "poster": "TMDb"
   },
   "vm i mtb: elite cross-country, short track (k)": {
     "backdrop": "VM i MTB.jpg",
@@ -242,6 +438,22 @@
     "backdrop": "VM i MTB.jpg",
     "poster": "VM i MTB.jpg"
   },
+  "vuelta a españa: 6. etape": {
+    "backdrop": "Vuelta a España.jpeg",
+    "poster": "Vuelta a España.jpeg"
+  },
+  "vuelta a españa: 7. etape": {
+    "backdrop": "Vuelta a España.jpeg",
+    "poster": "Vuelta a España.jpeg"
+  },
+  "vuelta a españa: 8. etape": {
+    "backdrop": "Vuelta a España.jpeg",
+    "poster": "Vuelta a España.jpeg"
+  },
+  "vuelta a españa: studiet": {
+    "backdrop": "Vuelta a España.jpeg",
+    "poster": "Vuelta a España.jpeg"
+  },
   "watt the f1!?": {
     "backdrop": "https://image.tmdb.org/t/p/original/A4K7y6tBXrt0RR21wnmnS8lWWJK.jpg",
     "poster": "https://image.tmdb.org/t/p/original/A4K7y6tBXrt0RR21wnmnS8lWWJK.jpg"
@@ -249,5 +461,9 @@
   "watt the f1!?: watt the f1!?: ny ferrari-fadæse": {
     "backdrop": "https://image.tmdb.org/t/p/original/A4K7y6tBXrt0RR21wnmnS8lWWJK.jpg",
     "poster": "https://image.tmdb.org/t/p/original/A4K7y6tBXrt0RR21wnmnS8lWWJK.jpg"
+  },
+  "wta: tauson-parry, kvartfinale, monterrey": {
+    "backdrop": "WTA-generic.jpg",
+    "poster": "WTA-generic.jpg"
   }
 }
