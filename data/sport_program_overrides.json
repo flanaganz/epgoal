@@ -1,66 +1,213 @@
 {
-  "_readme": "Nøglen = FULD titel i små bogstaver, trimmet. 'backdrop'/'poster' kan nu ENTEN være et rent filnavn (kombineres med Sport/-mappen på GitHub) ELLER en FULD ekstern URL (bruges direkte, uændret) - se enrich_epg.py docstring.",
-
-  "fodbold: 3f superligaen": { "backdrop": "3F Superliga.jpg", "poster": "3F Superliga.jpg" },
-  "fodbold: friuli venezia giulia cup - kampe": { "backdrop": "Fodbold Friuli Venezia Giulia Cup - Kampe.jpg", "poster": "Fodbold Friuli Venezia Giulia Cup - Kampe.jpg" },
-  "atletik: diamond league": { "backdrop": "Atletik Diamond League.jpg", "poster": "Atletik Diamond League.jpg" },
-  "atp tour highlights": { "backdrop": "ATP Tour Highlights.jpg", "poster": "ATP Tour Highlights.jpg" },
-
-  "cykling: tour de france (k)": { "backdrop": "Cykling Tour de France Femmes.jpg", "poster": "Cykling Tour de France Femmes.jpg" },
-  "cykling: tour de france (k) - studiet": { "backdrop": "Tour de France Femmes Studiet.jpg", "poster": "Tour de France Femmes Studiet.jpg" },
-
-  "superliga": { "backdrop": "3F Superliga.jpg", "poster": "3F Superliga.jpg" },
-  "onside": { "backdrop": null, "poster": null },
-  "1. division magasinet": { "backdrop": null, "poster": null },
-  "var-rummet": { "backdrop": null, "poster": null },
-  "brøndby går transferamok": { "backdrop": null, "poster": null },
-
-  "bundesliga review of the midseason": { "backdrop": "Bundesliga Review of the Midseason.jpg", "poster": "Bundesliga Review of the Midseason.jpg" },
-  "bundesliga review of the season": { "backdrop": "Bundesliga Review of the Midseason.jpg", "poster": "Bundesliga Review of the Midseason.jpg" },
-  "premier league review of the season": { "backdrop": "Premier League Review of the Season.jpg", "poster": "Premier League Review of the Season.jpg" },
-  "premier league: review of the season '25/26": { "backdrop": "Premier League Review of the Season.jpg", "poster": "Premier League Review of the Season.jpg" },
-  "premier league goals of the season": { "backdrop": "Premier League Goals of the Season.jpg", "poster": "Premier League Goals of the Season.jpg" },
-  "premier league goals of the season '25/26": { "backdrop": "Premier League Goals of the Season.jpg", "poster": "Premier League Goals of the Season.jpg" },
-  "ligue 1 the season review show": { "backdrop": "Ligue 1 The Season Review Show.jpg", "poster": "Ligue 1 The Season Review Show.jpg" },
-  "ligue 1 review of the season": { "backdrop": "Ligue 1 The Season Review Show.jpg", "poster": "Ligue 1 The Season Review Show.jpg" },
-
-  "lee bowyer": { "backdrop": null, "poster": null },
-
-  "fastzone": {
+  "1. division magasinet": {
+    "backdrop": null,
+    "poster": null
+  },
+  "3f superliga": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
+  "3f superliga: ac horsens - viborg ff": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
+  "Danskerklubben: danskerklubben": {
+    "_note": "Samme billede som 'fastzone' - dækker 'Kategori: Begivenhed'-varianten af titlen.",
     "backdrop": "https://image.tmdb.org/t/p/original/6Zx9sabnYXtYHMg76JDTlpbBJFg.jpg",
-    "poster": "https://image.tmdb.org/t/p/original/6Zx9sabnYXtYHMg76JDTlpbBJFg.jpg",
-    "_note": "NYT (2026-08-13): direkte ekstern URL fra TMDb, angivet af bruger. Rammede tidligere enten TMDb-fallback eller kanal-generic."
+    "poster": "https://image.tmdb.org/t/p/original/6Zx9sabnYXtYHMg76JDTlpbBJFg.jpg"
+  },
+  "_readme": "Nøglen = FULD titel i små bogstaver, trimmet. 'backdrop'/'poster' kan nu ENTEN være et rent filnavn (kombineres med Sport/-mappen på GitHub) ELLER en FULD ekstern URL (bruges direkte, uændret) - se enrich_epg.py docstring.",
+  "atletik: diamond league": {
+    "backdrop": "Atletik Diamond League.jpg",
+    "poster": "Atletik Diamond League.jpg"
+  },
+  "atp tour highlights": {
+    "backdrop": "ATP Tour Highlights.jpg",
+    "poster": "ATP Tour Highlights.jpg"
+  },
+  "brøndby går transferamok": {
+    "backdrop": null,
+    "poster": null
+  },
+  "bundesliga review of the midseason": {
+    "backdrop": "Bundesliga Review of the Midseason.jpg",
+    "poster": "Bundesliga Review of the Midseason.jpg"
+  },
+  "bundesliga review of the season": {
+    "backdrop": "Bundesliga Review of the Midseason.jpg",
+    "poster": "Bundesliga Review of the Midseason.jpg"
+  },
+  "champions league weekly": {
+    "backdrop": "Champions League Weekly.jpg",
+    "poster": "Champions League Weekly.jpg"
+  },
+  "champions league weekly: uefa champions league weekly": {
+    "backdrop": "Champions League Weekly.jpg",
+    "poster": "Champions League Weekly.jpg"
+  },
+  "cykling: tour de france (k)": {
+    "backdrop": "Cykling Tour de France Femmes.jpg",
+    "poster": "Cykling Tour de France Femmes.jpg"
+  },
+  "cykling: tour de france (k) - studiet": {
+    "backdrop": "Tour de France Femmes Studiet.jpg",
+    "poster": "Tour de France Femmes Studiet.jpg"
+  },
+  "dbu pokalen": {
+    "backdrop": "DBU Pokalen.jpg",
+    "poster": "DBU Pokalen.jpg"
+  },
+  "f1: hollands grand prix - løbet": {
+    "backdrop": "Formel 1.jpg",
+    "poster": "Formel 1.jpg"
+  },
+  "fastzone": {
+    "_note": "NYT (2026-08-13): direkte ekstern URL fra TMDb, angivet af bruger. Rammede tidligere enten TMDb-fallback eller kanal-generic.",
+    "backdrop": "https://image.tmdb.org/t/p/original/6Zx9sabnYXtYHMg76JDTlpbBJFg.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/6Zx9sabnYXtYHMg76JDTlpbBJFg.jpg"
   },
   "fastzone: fastzone": {
+    "_note": "Samme billede som 'fastzone' - dækker 'Kategori: Begivenhed'-varianten af titlen.",
     "backdrop": "https://image.tmdb.org/t/p/original/s7MJ5BA4iA45uFWJAfpfJgvSOVr.jpg",
-    "poster": "https://image.tmdb.org/t/p/original/s7MJ5BA4iA45uFWJAfpfJgvSOVr.jpg",
-    "_note": "Samme billede som 'fastzone' - dækker 'Kategori: Begivenhed'-varianten af titlen."
+    "poster": "https://image.tmdb.org/t/p/original/s7MJ5BA4iA45uFWJAfpfJgvSOVr.jpg"
   },
-   "Danskerklubben: danskerklubben": {
-    "backdrop": "https://image.tmdb.org/t/p/original/6Zx9sabnYXtYHMg76JDTlpbBJFg.jpg",
-    "poster": "https://image.tmdb.org/t/p/original/6Zx9sabnYXtYHMg76JDTlpbBJFg.jpg",
-    "_note": "Samme billede som 'fastzone' - dækker 'Kategori: Begivenhed'-varianten af titlen."
+  "fodbold: 3f superligaen": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
+  "fodbold: friuli venezia giulia cup - kampe": {
+    "backdrop": "Fodbold Friuli Venezia Giulia Cup - Kampe.jpg",
+    "poster": "Fodbold Friuli Venezia Giulia Cup - Kampe.jpg"
+  },
+  "gp confidential": {
+    "backdrop": null,
+    "poster": null
+  },
+  "herreligaen: gog-skjern": {
+    "backdrop": "Herreligaen.jpg",
+    "poster": "Herreligaen.jpg"
+  },
+  "herreligaen: sah-gog": {
+    "backdrop": "Herreligaen.jpg",
+    "poster": "Herreligaen.jpg"
+  },
+  "herreligaen: tth holstebro - bjerringbro-silkeborg": {
+    "backdrop": "Herreligaen.jpg",
+    "poster": "Herreligaen.jpg"
+  },
+  "håndbold (m): håndboldligaen - kampe": {
+    "backdrop": "Herreligaen.jpg",
+    "poster": "Herreligaen.jpg"
+  },
+  "kristianstad invitational": {
+    "backdrop": "Golf PGA Tour.jpg",
+    "poster": "Golf PGA Tour.jpg"
+  },
+  "kvindeligaen": {
+    "backdrop": "Kvindeligaen.jpg",
+    "poster": "Kvindeligaen.jpg"
+  },
+  "kvindeligaen: ikast-odense": {
+    "backdrop": "Kvindeligaen.jpg",
+    "poster": "Kvindeligaen.jpg"
+  },
+  "lee bowyer": {
+    "backdrop": null,
+    "poster": null
+  },
+  "ligue 1 review of the season": {
+    "backdrop": "Ligue 1 The Season Review Show.jpg",
+    "poster": "Ligue 1 The Season Review Show.jpg"
+  },
+  "ligue 1 the season review show": {
+    "backdrop": "Ligue 1 The Season Review Show.jpg",
+    "poster": "Ligue 1 The Season Review Show.jpg"
+  },
+  "onside": {
+    "backdrop": null,
+    "poster": null
+  },
+  "overtime": {
+    "backdrop": null,
+    "poster": null
+  },
+  "pdc european tour": {
+    "backdrop": "PDC World Series of Darts.jpg",
+    "poster": "PDC World Series of Darts.jpg"
+  },
+  "pdc european tour: hungarian darts trophy": {
+    "backdrop": "PDC World Series of Darts.jpg",
+    "poster": "PDC World Series of Darts.jpg"
+  },
+  "premier league goals of the season": {
+    "backdrop": "Premier League Goals of the Season.jpg",
+    "poster": "Premier League Goals of the Season.jpg"
+  },
+  "premier league goals of the season '25/26": {
+    "backdrop": "Premier League Goals of the Season.jpg",
+    "poster": "Premier League Goals of the Season.jpg"
+  },
+  "premier league review of the season": {
+    "backdrop": "Premier League Review of the Season.jpg",
+    "poster": "Premier League Review of the Season.jpg"
+  },
+  "premier league: review of the season '25/26": {
+    "backdrop": "Premier League Review of the Season.jpg",
+    "poster": "Premier League Review of the Season.jpg"
+  },
+  "racetv.dk": {
+    "_note": "NYT (2026-08-13): direkte ekstern URL fra fdmjyllandsringen.dk, angivet af bruger.",
+    "backdrop": "https://fdmjyllandsringen.dk/sites/jylland.dk/files/styles/image_1920x1080_xl/public/2025-12/Milj%C3%B8%20eller%20Banefaciliteter.jpg",
+    "poster": "https://fdmjyllandsringen.dk/sites/jylland.dk/files/styles/image_1920x1080_xl/public/2025-12/Milj%C3%B8%20eller%20Banefaciliteter.jpg"
+  },
+  "serie a: ac milan-venezia": {
+    "backdrop": "Fodbold Serie A.jpg",
+    "poster": "Fodbold Serie A.jpg"
+  },
+  "serie a: juventus-parma": {
+    "backdrop": "Fodbold Serie A.jpg",
+    "poster": "Fodbold Serie A.jpg"
+  },
+  "sky sports: the football show": {
+    "backdrop": "Sky Sports The Football Show.jpg",
+    "poster": "Sky Sports The Football Show.jpg"
+  },
+  "sky sports: total football": {
+    "backdrop": "Sky Sports The Football Show.jpg",
+    "poster": "Sky Sports The Football Show.jpg"
   },
   "sport news": {
+    "_note": "NYT (2026-08-13): direkte ekstern URL fra Viaplay, angivet af bruger.",
     "backdrop": "https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg",
-    "poster": "https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg",
-    "_note": "NYT (2026-08-13): direkte ekstern URL fra Viaplay, angivet af bruger."
+    "poster": "https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg"
   },
-  "sky sports: the football show": { "backdrop": "Sky Sports The Football Show.jpg", "poster": "Sky Sports The Football Show.jpg" },
-  "dbu pokalen": { "backdrop": "DBU Pokalen.jpg", "poster": "DBU Pokalen.jpg" },
-
-  "kristianstad invitational": { "backdrop": "Golf PGA Tour.jpg", "poster": "Golf PGA Tour.jpg" },
-
-  "gp confidential": { "backdrop": null, "poster": null },
-  "racetv.dk": {
-    "backdrop": "https://fdmjyllandsringen.dk/sites/jylland.dk/files/styles/image_1920x1080_xl/public/2025-12/Milj%C3%B8%20eller%20Banefaciliteter.jpg",
-    "poster": "https://fdmjyllandsringen.dk/sites/jylland.dk/files/styles/image_1920x1080_xl/public/2025-12/Milj%C3%B8%20eller%20Banefaciliteter.jpg",
-    "_note": "NYT (2026-08-13): direkte ekstern URL fra fdmjyllandsringen.dk, angivet af bruger."
+  "superliga": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
+  "superliga: ac horsens - viborg ff": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
+  "superligatilsynet": {
+    "backdrop": "TMDb",
+    "poster": "TMDb"
   },
   "tv-udbruddet": {
+    "_note": "NYT (2026-08-13): direkte ekstern URL fra Viaplay, angivet af bruger.",
     "backdrop": "https://i-viaplay-com.akamaized.net/viaplay-prod/669/72/1757932138-001f38bb582cfdc1b238c8401d5f30fda461ee0e.jpg",
-    "poster": "https://i-viaplay-com.akamaized.net/viaplay-prod/669/72/1757932138-001f38bb582cfdc1b238c8401d5f30fda461ee0e.jpg",
-    "_note": "NYT (2026-08-13): direkte ekstern URL fra Viaplay, angivet af bruger."
+    "poster": "https://i-viaplay-com.akamaized.net/viaplay-prod/669/72/1757932138-001f38bb582cfdc1b238c8401d5f30fda461ee0e.jpg"
   },
-  "overtime": { "backdrop": null, "poster": null }
+  "var-rummet": {
+    "backdrop": null,
+    "poster": null
+  },
+  "watt the f1!?": {
+    "backdrop": "https://image.tmdb.org/t/p/original/A4K7y6tBXrt0RR21wnmnS8lWWJK.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/A4K7y6tBXrt0RR21wnmnS8lWWJK.jpg"
+  },
+  "watt the f1!?: watt the f1!?: ny ferrari-fadæse": {
+    "backdrop": "https://image.tmdb.org/t/p/original/A4K7y6tBXrt0RR21wnmnS8lWWJK.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/A4K7y6tBXrt0RR21wnmnS8lWWJK.jpg"
+  }
 }
