@@ -123,6 +123,10 @@
     "backdrop": "Ligue 1 The Season Review Show.jpg",
     "poster": "Ligue 1 The Season Review Show.jpg"
   },
+  "mountainbike: world cup": {
+    "backdrop": "VM i MTB.jpg",
+    "poster": "VM i MTB.jpg"
+  },
   "onside": {
     "backdrop": null,
     "poster": null
@@ -139,6 +143,10 @@
     "backdrop": "PDC World Series of Darts.jpg",
     "poster": "PDC World Series of Darts.jpg"
   },
+  "premier league": {
+    "backdrop": "Premier League.jpg",
+    "poster": "Premier League.jpg"
+  },
   "premier league goals of the season": {
     "backdrop": "Premier League Goals of the Season.jpg",
     "poster": "Premier League Goals of the Season.jpg"
@@ -151,9 +159,25 @@
     "backdrop": "Premier League Review of the Season.jpg",
     "poster": "Premier League Review of the Season.jpg"
   },
+  "premier league studie: tottenham - newcastle": {
+    "backdrop": "Premier League.jpg",
+    "poster": "Premier League.jpg"
+  },
+  "premier league: bournemouth - everton": {
+    "backdrop": "Premier League.jpg",
+    "poster": "Premier League.jpg"
+  },
+  "premier league: crystal palace - manchester city": {
+    "backdrop": "Premier League.jpg",
+    "poster": "Premier League.jpg"
+  },
   "premier league: review of the season '25/26": {
     "backdrop": "Premier League Review of the Season.jpg",
     "poster": "Premier League Review of the Season.jpg"
+  },
+  "premier league: tottenham - newcastle": {
+    "backdrop": "Premier League.jpg",
+    "poster": "Premier League.jpg"
   },
   "racetv.dk": {
     "_note": "NYT (2026-08-13): direkte ekstern URL fra fdmjyllandsringen.dk, angivet af bruger.",
@@ -201,6 +225,22 @@
   "var-rummet": {
     "backdrop": null,
     "poster": null
+  },
+  "vm i mtb: elite cross-country, short track (k)": {
+    "backdrop": "VM i MTB.jpg",
+    "poster": "VM i MTB.jpg"
+  },
+  "vm i mtb: elite cross-country, short track (m)": {
+    "backdrop": "VM i MTB.jpg",
+    "poster": "VM i MTB.jpg"
+  },
+  "vm i mtb: elite, downhill (k)": {
+    "backdrop": "VM i MTB.jpg",
+    "poster": "VM i MTB.jpg"
+  },
+  "vm i mtb: elite, downhill, elite (m)": {
+    "backdrop": "VM i MTB.jpg",
+    "poster": "VM i MTB.jpg"
   },
   "watt the f1!?": {
     "backdrop": "https://image.tmdb.org/t/p/original/A4K7y6tBXrt0RR21wnmnS8lWWJK.jpg",
