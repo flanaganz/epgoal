@@ -1,12 +1,8 @@
 {
   "TV 2 Sport Denmark (DK,DA).dk": {
-    "Håndbold (m): Håndboldligaen - Kampe": 7,
-    "Kvindeligaen": 2,
     "Mountainbike: World Cup": 3
   },
   "TV 2 Sport HD (D) (T).dk": {
-    "Håndbold (m): Håndboldligaen - Kampe": 6,
-    "Kvindeligaen": 2,
     "Mountainbike: World Cup": 3
   },
   "TV 2 Sport X Denmark (DK,DA).dk": {
@@ -17,50 +13,27 @@
   },
   "TV 2 Sport X.dk": {
     "Mountainbike: World Cup": 3,
-    "Serie A: AC Milan-Venezia": 8,
-    "Serie A: Juventus-Parma": 4,
     "VM i MTB: Elite cross-country, short track (k)": 3,
     "VM i MTB: Elite cross-country, short track (m)": 1
   },
   "TV 2 Sport.dk": {
-    "Herreligaen: GOG-Skjern": 2,
-    "Herreligaen: SAH-GOG": 2,
-    "Herreligaen: TTH Holstebro - Bjerringbro-Silkeborg": 2,
-    "Håndbold (m): Håndboldligaen - Kampe": 7,
-    "Kvindeligaen": 2,
-    "Kvindeligaen: Ikast-Odense": 2,
     "Mountainbike: World Cup": 3,
     "VM i MTB: Elite, Downhill (k)": 1,
     "VM i MTB: Elite, Downhill, elite (m)": 2
   },
   "TV3 Sport Denmark (DK,DA).dk": {
-    "1. Division Studie": 2,
-    "PDC European Tour": 2,
-    "Watt the F1!?": 1
+    "1. Division Studie": 2
   },
   "TV3 Sport HD (D) (T).dk": {
     "1. Division": 1,
-    "1. Division Studie": 2,
-    "PDC European Tour": 2,
-    "Watt the F1!?": 1
+    "1. Division Studie": 2
   },
   "TV3 Sport.dk": {
     "1. Division Studie": 4,
     "1. Division Studie: AaB - HB Køge": 2,
-    "1. Division: AaB - HB Køge": 1,
-    "F1: Hollands Grand Prix - Løbet": 2,
-    "PDC European Tour": 4,
-    "PDC European Tour: Hungarian Darts Trophy": 2,
-    "Watt the F1!?": 2,
-    "Watt the F1!?: Watt The F1!?: Ny Ferrari-fadæse": 1
-  },
-  "Viaplay Sport News HD (D) (T).dk": {
-    "Sky Sports: Total Football": 1,
-    "Watt the F1!?": 1
+    "1. Division: AaB - HB Køge": 1
   },
   "Viaplay Sport News.dk": {
-    "Danskerklubben": 1,
-    "Sky Sports: Total Football": 1,
-    "Watt the F1!?": 1
+    "Danskerklubben": 1
   }
 }
