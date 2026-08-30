@@ -168,7 +168,7 @@ CHANNEL_GROUPS = {
     "C - DR1/DR2": ["dr1", "dr2"],
 }
 
-HEADERS = ["Kanalgruppe", "Kanaler (alle varianter)", "Titel", "Nuværende billede", "Vælg billede", "Godkendt (X)", "Note"]
+HEADERS = ["Kanalgruppe", "Kanaler (alle varianter)", "Titel", "Nuværende billede", "Vælg billede", "Godkendt (X)", "Ignorer (X)", "Note"]
 
 
 def load_json(path: Path, default):
@@ -359,12 +359,13 @@ def load_existing_review(path: Path) -> dict[tuple[str, str], dict]:
     return existing
 
 
+def is_checked(value) -> bool:
+    """True når en Excel-statuskolonne indeholder X."""
+    return str(value or "").strip().upper() == "X"
+
 def is_ignored(note_value) -> bool:
-    """True hvis noten (efter trim, case-insensitive) STARTER MED 'ignorer'.
-    Se docstring øverst i filen ("IGNORER"-NOTE)."""
-    if not note_value:
-        return False
-    return str(note_value).strip().lower().startswith(IGNORE_NOTE_PREFIX)
+    """Bagudkompatibilitet for gamle Note-felter."""
+    return bool(note_value) and str(note_value).strip().lower().startswith(IGNORE_NOTE_PREFIX)
 
 
 def load_ignored_titles(path: Path) -> dict[str, str]:
