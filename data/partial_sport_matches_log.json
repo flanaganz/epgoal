@@ -23,8 +23,8 @@
     "Ligue 1: Monaco - Marseille -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Ligue%201_2.jpg": 1,
     "Premier League: Bournemouth - Everton -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League.jpg": 1,
     "Premier League: Chelsea - Brighton -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League.jpg": 1,
-    "Premier League: Leeds - Brentford -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 2,
-    "Premier League: Manchester United - Ipswich -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
+    "Premier League: Leeds - Brentford -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League.jpg": 2,
+    "Premier League: Manchester United - Ipswich -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League.jpg": 1,
     "Premier League: Tottenham - Newcastle -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League.jpg": 1,
     "Watt the F1!? -> https://image.tmdb.org/t/p/original/A4K7y6tBXrt0RR21wnmnS8lWWJK.jpg": 1
   },
@@ -52,30 +52,33 @@
     "Premier League -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League.jpg": 13,
     "Premier League: Bournemouth - Everton -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League.jpg": 1,
     "Premier League: Chelsea - Brighton -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League.jpg": 1,
-    "Premier League: Leeds - Brentford -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 2,
-    "Premier League: Manchester United - Ipswich -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
+    "Premier League: Leeds - Brentford -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League.jpg": 2,
+    "Premier League: Manchester United - Ipswich -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League.jpg": 1,
     "Premier League: Tottenham - Newcastle -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League.jpg": 1,
     "Watt the F1!? -> https://image.tmdb.org/t/p/original/A4K7y6tBXrt0RR21wnmnS8lWWJK.jpg": 3
   },
   "TV3+ Denmark (DK,DA).dk": {
     "3F Superliga -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/3F%20Superliga.jpg": 1,
     "Fodbold: Premier League-studiet -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League.jpg": 1,
+    "Onside -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/TNDb": 1,
     "Premier League -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League.jpg": 1,
     "Superliga Studiet -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Superliga%20Studiet.jpg": 1
   },
   "TV3+ HD (D) (T).dk": {
     "3F Superliga: FC Nordsjælland - Brøndby IF -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/3F%20Superliga.jpg": 1,
-    "Premier League Studie -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
-    "Premier League: Aston Villa-Arsenal -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
-    "Superliga Studie: FC Nordsjælland - Brøndby IF -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1
+    "Onside -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/TNDb": 1,
+    "Premier League Studie -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League.jpg": 1,
+    "Premier League: Aston Villa-Arsenal -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League.jpg": 1,
+    "Superliga Studie: FC Nordsjælland - Brøndby IF -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Superliga%20Studiet.jpg": 1
   },
   "TV3+.dk": {
     "3F Superliga -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/3F%20Superliga.jpg": 2,
     "Fodbold: Premier League-studiet -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League.jpg": 2,
+    "Onside -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/TNDb": 3,
     "Premier League -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League.jpg": 2,
-    "Premier League Studie -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
-    "Premier League: Aston Villa-Arsenal -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
-    "Superliga Studie: FC Nordsjælland - Brøndby IF -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
+    "Premier League Studie -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League.jpg": 1,
+    "Premier League: Aston Villa-Arsenal -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League.jpg": 1,
+    "Superliga Studie: FC Nordsjælland - Brøndby IF -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Superliga%20Studiet.jpg": 1,
     "Superliga Studiet -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Superliga%20Studiet.jpg": 2,
     "Superliga: FC Nordsjælland - Brøndby IF -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/3F%20Superliga.jpg": 1
   },

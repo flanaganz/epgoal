@@ -27,7 +27,35 @@
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
   },
+  "3f superliga: efter randers fc-agf": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
+  "3f superliga: f.c. københavn-sønderjyske": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
   "3f superliga: fc nordsjælland - brøndby if": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
+  "3f superliga: før f.c. københavn-sønderjyske": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
+  "3f superliga: før lyngby boldklub-odense boldklub": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
+  "3f superliga: lyngby boldklub-odense boldklub": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
+  "3f superliga: randers fc-agf": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
+  "3f superliga: totalfodbold": {
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
   },
@@ -231,6 +259,10 @@
     "backdrop": "Serie A.jpg",
     "poster": "Serie A.jpg"
   },
+  "fodbold: totalfodbold": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
   "formel 1": {
     "backdrop": "Formel 1.jpg",
     "poster": "Formel 1.jpg"
@@ -248,18 +280,26 @@
     "poster": "TMDb"
   },
   "før superligaen aarhus gymnastikforening": {
-    "backdrop": "3F Superliga.jpg",
-    "poster": "3F Superliga.jpg"
+    "backdrop": "https://image.tmdb.org/t/p/original/6TNZdG9lRP6ECdAIArYgJ5qa7kX.jpg",
+    "poster": "https://image.tmdb.org/t/p/original/6TNZdG9lRP6ECdAIArYgJ5qa7kX.jpg"
   },
   "gp confidential": {
     "backdrop": null,
     "poster": null
+  },
+  "herreligaen: aalborg-tth holstebro": {
+    "backdrop": "Herreligaen.jpg",
+    "poster": "Herreligaen.jpg"
   },
   "herreligaen: gog-skjern": {
     "backdrop": "Herreligaen.jpg",
     "poster": "Herreligaen.jpg"
   },
   "herreligaen: sah-gog": {
+    "backdrop": "Herreligaen.jpg",
+    "poster": "Herreligaen.jpg"
+  },
+  "herreligaen: studiet": {
     "backdrop": "Herreligaen.jpg",
     "poster": "Herreligaen.jpg"
   },
@@ -352,8 +392,8 @@
     "poster": "NFL.jpg"
   },
   "onside": {
-    "backdrop": null,
-    "poster": null
+    "backdrop": "TNDb",
+    "poster": "TNDb"
   },
   "overtime": {
     "backdrop": null,
@@ -383,7 +423,15 @@
     "backdrop": "Premier League Review of the Season.jpg",
     "poster": "Premier League Review of the Season.jpg"
   },
+  "premier league studie": {
+    "backdrop": "Premier League.jpg",
+    "poster": "Premier League.jpg"
+  },
   "premier league studie: tottenham - newcastle": {
+    "backdrop": "Premier League.jpg",
+    "poster": "Premier League.jpg"
+  },
+  "premier league: aston villa-arsenal": {
     "backdrop": "Premier League.jpg",
     "poster": "Premier League.jpg"
   },
@@ -396,6 +444,14 @@
     "poster": "Premier League.jpg"
   },
   "premier league: crystal palace - manchester city": {
+    "backdrop": "Premier League.jpg",
+    "poster": "Premier League.jpg"
+  },
+  "premier league: leeds - brentford": {
+    "backdrop": "Premier League.jpg",
+    "poster": "Premier League.jpg"
+  },
+  "premier league: manchester united - ipswich": {
     "backdrop": "Premier League.jpg",
     "poster": "Premier League.jpg"
   },
@@ -416,9 +472,17 @@
     "backdrop": "Fodbold Serie A.jpg",
     "poster": "Fodbold Serie A.jpg"
   },
+  "serie a: cagliari-inter": {
+    "backdrop": "Serie A.jpg",
+    "poster": "Serie A.jpg"
+  },
   "serie a: juventus-parma": {
     "backdrop": "Fodbold Serie A.jpg",
     "poster": "Fodbold Serie A.jpg"
+  },
+  "serie a: napoli-como": {
+    "backdrop": "Serie A.jpg",
+    "poster": "Serie A.jpg"
   },
   "sky sports: soccer saturday": {
     "backdrop": "https://image.tmdb.org/t/p/original/rIl1pgmuVBwBbDqS5w3hVD8Z9UW.jpg",
@@ -433,13 +497,16 @@
     "poster": "Sky Sports The Football Show.jpg"
   },
   "sport news": {
-    "_note": "NYT (2026-08-13): direkte ekstern URL fra Viaplay, angivet af bruger.",
-    "backdrop": "https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg",
-    "poster": "https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg"
+    "backdrop": "Sport News.jpg",
+    "poster": "Sport News.jpg"
   },
   "sporten": {
     "backdrop": "Sporten.jpg",
     "poster": "Sporten.jpg"
+  },
+  "sportstalk": {
+    "backdrop": "TMDb",
+    "poster": "TMDb"
   },
   "superliga": {
     "backdrop": "3F Superliga.jpg",
@@ -450,6 +517,14 @@
     "poster": "Superliga Studiet.jpg"
   },
   "superliga studie: ac horsens - viborg ff": {
+    "backdrop": "Superliga Studiet.jpg",
+    "poster": "Superliga Studiet.jpg"
+  },
+  "superliga studie: fc nordsjælland - brøndby if": {
+    "backdrop": "Superliga Studiet.jpg",
+    "poster": "Superliga Studiet.jpg"
+  },
+  "superliga studie: silkeborg if - fc midtjylland": {
     "backdrop": "Superliga Studiet.jpg",
     "poster": "Superliga Studiet.jpg"
   },
@@ -478,9 +553,8 @@
     "poster": "Superligatilsynet.jpg"
   },
   "tv-udbruddet": {
-    "_note": "NYT (2026-08-13): direkte ekstern URL fra Viaplay, angivet af bruger.",
-    "backdrop": "https://i-viaplay-com.akamaized.net/viaplay-prod/669/72/1757932138-001f38bb582cfdc1b238c8401d5f30fda461ee0e.jpg",
-    "poster": "https://i-viaplay-com.akamaized.net/viaplay-prod/669/72/1757932138-001f38bb582cfdc1b238c8401d5f30fda461ee0e.jpg"
+    "backdrop": "TV-Udbruddet.jpg",
+    "poster": "TV-Udbruddet.jpg"
   },
   "var-rummet": {
     "backdrop": "TMDb",
@@ -495,6 +569,14 @@
     "poster": "VM i MTB.jpg"
   },
   "vm i mtb: elite cross-country, short track (m)": {
+    "backdrop": "VM i MTB.jpg",
+    "poster": "VM i MTB.jpg"
+  },
+  "vm i mtb: elite, cross-country, olympisk (k)": {
+    "backdrop": "VM i MTB.jpg",
+    "poster": "VM i MTB.jpg"
+  },
+  "vm i mtb: elite, cross-country, olympisk (m)": {
     "backdrop": "VM i MTB.jpg",
     "poster": "VM i MTB.jpg"
   },
@@ -515,6 +597,10 @@
     "poster": "Vuelta a España.jpeg"
   },
   "vuelta a españa: 8. etape": {
+    "backdrop": "Vuelta a España.jpeg",
+    "poster": "Vuelta a España.jpeg"
+  },
+  "vuelta a españa: 9. etape": {
     "backdrop": "Vuelta a España.jpeg",
     "poster": "Vuelta a España.jpeg"
   },
