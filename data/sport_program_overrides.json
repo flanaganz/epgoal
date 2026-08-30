@@ -27,6 +27,10 @@
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
   },
+  "3f superliga: fc nordsjælland - brøndby if": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
   "Danskerklubben: danskerklubben": {
     "_note": "Samme billede som 'fastzone' - dækker 'Kategori: Begivenhed'-varianten af titlen.",
     "backdrop": "https://image.tmdb.org/t/p/original/6Zx9sabnYXtYHMg76JDTlpbBJFg.jpg",
@@ -93,11 +97,23 @@
     "backdrop": "Bundesliga Fodbold.jpg",
     "poster": "Bundesliga Fodbold.jpg"
   },
+  "bundesliga fodbold: augsburg - schalke 04": {
+    "backdrop": "Bundesliga Fodbold.jpg",
+    "poster": "Bundesliga Fodbold.jpg"
+  },
   "bundesliga fodbold: bayern münchen - stuttgart": {
     "backdrop": "Bundesliga Fodbold.jpg",
     "poster": "Bundesliga Fodbold.jpg"
   },
   "bundesliga fodbold: dortmund - hamburger sv": {
+    "backdrop": "Bundesliga Fodbold.jpg",
+    "poster": "Bundesliga Fodbold.jpg"
+  },
+  "bundesliga fodbold: union berlin - frankfurt": {
+    "backdrop": "Bundesliga Fodbold.jpg",
+    "poster": "Bundesliga Fodbold.jpg"
+  },
+  "bundesliga highlights i: bundesliga highlights": {
     "backdrop": "Bundesliga Fodbold.jpg",
     "poster": "Bundesliga Fodbold.jpg"
   },
@@ -109,11 +125,27 @@
     "backdrop": "Bundesliga Review of the Midseason.jpg",
     "poster": "Bundesliga Review of the Midseason.jpg"
   },
+  "bundesliga saturday highlights": {
+    "backdrop": "Bundesliga Fodbold.jpg",
+    "poster": "Bundesliga Fodbold.jpg"
+  },
+  "bundesliga saturday highlights: bundesliga highlights": {
+    "backdrop": "Bundesliga Fodbold.jpg",
+    "poster": "Bundesliga Fodbold.jpg"
+  },
+  "bundesliga: augsburg - schalke 04": {
+    "backdrop": "Bundesliga Fodbold.jpg",
+    "poster": "Bundesliga Fodbold.jpg"
+  },
   "bundesliga: bayern münchen - stuttgart": {
     "backdrop": "Bundesliga Fodbold.jpg",
     "poster": "Bundesliga Fodbold.jpg"
   },
   "bundesliga: dortmund - hamburger sv": {
+    "backdrop": "Bundesliga Fodbold.jpg",
+    "poster": "Bundesliga Fodbold.jpg"
+  },
+  "bundesliga: union berlin - frankfurt": {
     "backdrop": "Bundesliga Fodbold.jpg",
     "poster": "Bundesliga Fodbold.jpg"
   },
@@ -211,6 +243,14 @@
     "backdrop": "https://image.tmdb.org/t/p/original/uzNsBqsMSkKyL4bbatvCvYYpDOj.jpg",
     "poster": "https://image.tmdb.org/t/p/original/uzNsBqsMSkKyL4bbatvCvYYpDOj.jpg"
   },
+  "før superligaen": {
+    "backdrop": "TMDb",
+    "poster": "TMDb"
+  },
+  "før superligaen aarhus gymnastikforening": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
   "gp confidential": {
     "backdrop": null,
     "poster": null
@@ -251,6 +291,10 @@
     "backdrop": "IndyCar.jpg",
     "poster": "IndyCar.jpg"
   },
+  "indycar: snap-on makers and fixers 250 - løb 2": {
+    "backdrop": "IndyCar.jpg",
+    "poster": "IndyCar.jpg"
+  },
   "kristianstad invitational": {
     "backdrop": "Golf PGA Tour.jpg",
     "poster": "Golf PGA Tour.jpg"
@@ -275,6 +319,10 @@
     "backdrop": "https://image.tmdb.org/t/p/original/tzcEiG73S5a9HtMflMQ0Z8WWms.jpg",
     "poster": "https://image.tmdb.org/t/p/original/tzcEiG73S5a9HtMflMQ0Z8WWms.jpg"
   },
+  "ligue 1": {
+    "backdrop": "Ligue 1_2.jpg",
+    "poster": "Ligue 1_2.jpg"
+  },
   "ligue 1 review of the season": {
     "backdrop": "Ligue 1 The Season Review Show.jpg",
     "poster": "Ligue 1 The Season Review Show.jpg"
@@ -282,6 +330,10 @@
   "ligue 1 the season review show": {
     "backdrop": "Ligue 1 The Season Review Show.jpg",
     "poster": "Ligue 1 The Season Review Show.jpg"
+  },
+  "ligue 1: monaco - marseille": {
+    "backdrop": "Ligue 1_2.jpg",
+    "poster": "Ligue 1_2.jpg"
   },
   "mountainbike: world cup": {
     "backdrop": "VM i MTB.jpg",
@@ -336,6 +388,10 @@
     "poster": "Premier League.jpg"
   },
   "premier league: bournemouth - everton": {
+    "backdrop": "Premier League.jpg",
+    "poster": "Premier League.jpg"
+  },
+  "premier league: chelsea - brighton": {
     "backdrop": "Premier League.jpg",
     "poster": "Premier League.jpg"
   },
@@ -405,6 +461,14 @@
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
   },
+  "superliga: fc nordsjælland - brøndby if": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
+  "superliga: silkeborg if - fc midtjylland": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
   "superligatilsynet": {
     "backdrop": "Superligatilsynet.jpg",
     "poster": "Superligatilsynet.jpg"
@@ -421,6 +485,10 @@
   "var-rummet": {
     "backdrop": "TMDb",
     "poster": "TMDb"
+  },
+  "var-rummet: var rummet": {
+    "backdrop": "TmDb",
+    "poster": "TmDb"
   },
   "vm i mtb: elite cross-country, short track (k)": {
     "backdrop": "VM i MTB.jpg",
