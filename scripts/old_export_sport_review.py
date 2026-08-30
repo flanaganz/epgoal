@@ -301,12 +301,18 @@ def collect_candidates() -> dict[str, list[dict]]:
 
 
 def load_existing_review(path: Path) -> dict[tuple[str, str], dict]:
-    """Indlæs tidligere valg med bagudkompatibilitet for gamle ark.
+    """Returnerer {(kanalgruppe, titel): {"image": ..., "godkendt": ..., "note": ...}}
+    fra en tidligere eksporteret fil, så gentagne kørsler bevarer valg.
 
-    Den aktuelle model bruger kolonnerne Vælg billede, Godkendt (X),
-    Ignorer (X) og Note. Ældre ark uden Ignorer-kolonnen understøttes også:
-    noter der starter med "Ignorer" migreres til ignore="X".
-    """
+    VIGTIGT: nøglen er (gruppe, titel) UDEN kanal - se docstring øverst i
+    filen ("RETTET v2: ÉN RÆKKE PR. TITEL") for baggrunden.
+
+    BAGUDKOMPATIBELT: en ÆLDRE fil (eksporteret før v2) kan indeholde FLERE
+    rækker for samme (gruppe, titel) - én pr. kanal-variant. Findes flere
+    sådanne rækker, overskriver en TOM/ikke-udfyldt række ALDRIG en allerede
+    fundet UDFYLDT værdi - den første udfyldte "image"/"godkendt"/"note"
+    fundet for nøglen bevares, uanset hvilken fysisk kanal-række den kom
+    fra, så intet allerede-udført arbejde går tabt ved omlægningen."""
     existing: dict[tuple[str, str], dict] = {}
     if not path.exists():
         return existing
@@ -321,48 +327,37 @@ def load_existing_review(path: Path) -> dict[tuple[str, str], dict]:
         godkendt_col = headers.index("Godkendt (X)")
         note_col = headers.index("Note")
     except ValueError:
-        print(
-            f"⚠️  Eksisterende {path.name} har uventet format - starter forfra uden at bevare valg.",
-            file=sys.stderr,
-        )
+        print(f"⚠️  Eksisterende {path.name} har uventet format - starter forfra uden at bevare valg.",
+              file=sys.stderr)
         return existing
-
-    ignore_col = headers.index("Ignorer (X)") if "Ignorer (X)" in headers else None
 
     for row in ws.iter_rows(min_row=2):
         group_val = row[group_col].value
         title_val = row[title_col].value
         if not group_val or not title_val:
             continue
-
         key = (str(group_val).strip(), str(title_val).strip())
+
         image_val = row[image_col].value
         godkendt_val = row[godkendt_col].value
         note_val = row[note_col].value
-        ignore_val = row[ignore_col].value if ignore_col is not None else None
 
-        # Migrer den gamle note-baserede ignore-markering.
-        if ignore_col is None and is_ignored(note_val):
-            ignore_val = "X"
-            note_val = None
-
-        values = {
-            "image": image_val,
-            "godkendt": godkendt_val,
-            "ignore": ignore_val,
-            "note": note_val,
-        }
         if key not in existing:
-            existing[key] = values
+            existing[key] = {"image": image_val, "godkendt": godkendt_val, "note": note_val}
             continue
 
-        # Ved gamle dubletrækker vinder første udfyldte værdi.
+        # Nøglen findes allerede (ældre fil med flere rækker pr. titel) -
+        # udfyld KUN de felter der endnu ikke har en værdi, overskriv ALDRIG
+        # en allerede fundet udfyldt værdi med en tom.
         prior = existing[key]
-        for field, value in values.items():
-            if not prior.get(field) and value:
-                prior[field] = value
-
+        if not prior.get("image") and image_val:
+            prior["image"] = image_val
+        if not prior.get("godkendt") and godkendt_val:
+            prior["godkendt"] = godkendt_val
+        if not prior.get("note") and note_val:
+            prior["note"] = note_val
     return existing
+
 
 def is_checked(value) -> bool:
     """True når en Excel-statuskolonne indeholder X."""
@@ -408,9 +403,15 @@ def main() -> None:
     print(f"Fandt {len(available_images):,} billeder i {SPORT_DIR}")
 
     existing_review = load_existing_review(REVIEW_FILE)
-    legacy_ignored_titles = load_ignored_titles(IGNORED_TITLES_FILE)
+    ignored_titles = load_ignored_titles(IGNORED_TITLES_FILE)
 
-    # Den gamle ignore-fil bruges kun til at migrere tidligere valg til X i arket.
+    # Opdater den PERMANENTE ignor-hukommelse ud fra noter i den fil, der
+    # lige er blevet indlæst - dette er den ENESTE mulighed for at fange en
+    # NY "ignorer"-note, før selve titlen forsvinder fra arket herunder.
+    for (group_name, title), prior in existing_review.items():
+        if is_ignored(prior.get("note")):
+            ignored_titles[make_ignore_key(group_name, title)] = str(prior.get("note")).strip()
+
     # Sikkerhedskopi af den EKSISTERENDE fil, FØR den overskrives - så du
     # aldrig står uden en fallback, selv hvis noget uventet skulle ske.
     if REVIEW_FILE.exists():
@@ -442,6 +443,9 @@ def main() -> None:
         for item in items:
             key = (group_name, item["title"])
 
+            if make_ignore_key(group_name, item["title"]) in ignored_titles:
+                ignored_count += 1
+                continue
 
             current_keys.add(key)
             prior = existing_review.get(key)
@@ -459,19 +463,8 @@ def main() -> None:
 
             if prior and prior.get("godkendt"):
                 ws.cell(row=row_idx, column=6, value=prior["godkendt"])
-
-            legacy_ignore = make_ignore_key(group_name, item["title"]) in legacy_ignored_titles
-            if prior:
-                ignore_value = "X" if is_checked(prior.get("ignore")) or legacy_ignore else None
-            else:
-                ignore_value = "X" if group_name == "C - DR1/DR2" else None
-
-            if ignore_value:
-                ws.cell(row=row_idx, column=7, value="X")
-                ignored_count += 1
-
             if prior and prior.get("note"):
-                ws.cell(row=row_idx, column=8, value=prior["note"])
+                ws.cell(row=row_idx, column=7, value=prior["note"])
 
             row_idx += 1
 
@@ -507,11 +500,7 @@ def main() -> None:
         ws.add_data_validation(dv_godkendt)
         dv_godkendt.add(f"F2:F{last_row}")
 
-        dv_ignorer = DataValidation(type="list", formula1='"X"', allow_blank=True)
-        ws.add_data_validation(dv_ignorer)
-        dv_ignorer.add(f"G2:G{last_row}")
-
-    widths = {"A": 30, "B": 55, "C": 40, "D": 30, "E": 34, "F": 12, "G": 12, "H": 40}
+    widths = {"A": 30, "B": 55, "C": 40, "D": 30, "E": 34, "F": 12, "G": 40}
     for col, width in widths.items():
         ws.column_dimensions[col].width = width
 
@@ -521,7 +510,7 @@ def main() -> None:
     vanished_keys = set(existing_review.keys()) - current_keys
     vanished_with_data = [
         k for k in vanished_keys
-        if existing_review[k].get("image") and not is_checked(existing_review[k].get("ignore"))
+        if existing_review[k].get("image") and make_ignore_key(k[0], k[1]) not in ignored_titles
     ]
     if vanished_with_data:
         vanished_ws = wb.create_sheet("Forsvundne (havde valg)")
@@ -565,13 +554,14 @@ def main() -> None:
     guide.column_dimensions["B"].width = 110
 
     wb.save(REVIEW_FILE)
+    save_ignored_titles(IGNORED_TITLES_FILE, ignored_titles)
 
     print("=== Sport-artwork review eksporteret ===")
     print(f"Fil: {REVIEW_FILE}")
     for group_name, items in candidates.items():
         print(f"  {group_name}: {len(items):,} unikke titler i alt")
     print(f"Nye rækker denne gang: {new_count:,}  |  Tidligere valg bevaret: {preserved_count:,}"
-          f"  |  Rækker markeret Ignorer (X): {ignored_count:,}")
+          f"  |  Ignoreret (udelukket pga. note): {ignored_count:,}")
     if vanished_with_data:
         print(f"⚠️  {len(vanished_with_data):,} tidligere udfyldte rækker er IKKE længere aktuelle "
               f"(se ark 'Forsvundne (havde valg)') - de blev IKKE slettet nogen steder, kun ikke gentaget her.")
