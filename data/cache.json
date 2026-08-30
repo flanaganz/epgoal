@@ -12874,6 +12874,11 @@
     "poster": null,
     "ts": 1787223205.1601973
   },
+  "herreligaen: aalborg-tth holstebro": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1788081527.5574706
+  },
   "herreligaen: gog-skjern": {
     "backdrop": null,
     "poster": null,
@@ -24889,6 +24894,11 @@
     "poster": null,
     "ts": 1787808446.4152975
   },
+  "serie a: cagliari-inter": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1788081527.3668573
+  },
   "serie a: genoa-napoli": {
     "backdrop": null,
     "poster": null,
@@ -24903,6 +24913,11 @@
     "backdrop": null,
     "poster": null,
     "ts": 1787896933.3112946
+  },
+  "serie a: napoli-como": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1788081527.1801422
   },
   "serie a: roma-fiorentina": {
     "backdrop": null,
@@ -25488,6 +25503,11 @@
     "backdrop": null,
     "poster": null,
     "ts": 1787292218.64353
+  },
+  "sky sports: ref watch": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1788081524.7657986
   },
   "sky sports: soccer saturday": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/rIl1pgmuVBwBbDqS5w3hVD8Z9UW.jpg",
@@ -31693,6 +31713,16 @@
     "backdrop": null,
     "poster": null,
     "ts": 1787754402.056951
+  },
+  "vm i mtb: elite, cross-country, olympisk (k)": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1788081527.73995
+  },
+  "vm i mtb: elite, cross-country, olympisk (m)": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1788081527.9186437
   },
   "vm i mtb: elite, downhill (k)": {
     "backdrop": null,
