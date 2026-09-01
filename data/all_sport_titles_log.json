@@ -304,8 +304,8 @@
   "TV 2 Sport Denmark (DK,DA).dk": {
     "AftenVuelta": "AftenVuelta.jpg",
     "Badminton: China Masters - Kampe": "Badminton.jpg",
-    "Cykling: Vuelta a España": "Cykling-generic.jpg",
-    "Cykling: Vuelta a España - Studiet": "Vuelta a España.jpeg",
+    "Cykling: Vuelta a España": "Vuelta a España.jpeg",
+    "Cykling: Vuelta a España - Studiet": "Vuelta a España -  Studiet.jpg",
     "Håndbold (m): Håndboldligaen - Kampe": "Herreligaen.jpg",
     "Håndbold: Liga Håndbold - studiet": "Håndbold Herreligaen.jpg",
     "Kvindeligaen": "Kvindeligaen.jpg",
@@ -314,8 +314,8 @@
   "TV 2 Sport HD (D) (T).dk": {
     "AftenVuelta": "AftenVuelta.jpg",
     "Badminton: China Masters - Kampe": "Badminton.jpg",
-    "Cykling: Vuelta a España": "Cykling-generic.jpg",
-    "Cykling: Vuelta a España - Studiet": "Vuelta a España.jpeg",
+    "Cykling: Vuelta a España": "Vuelta a España.jpeg",
+    "Cykling: Vuelta a España - Studiet": "Vuelta a España -  Studiet.jpg",
     "Håndbold (m): Håndboldligaen - Kampe": "Herreligaen.jpg",
     "Håndbold: Liga Håndbold - studiet": "Håndbold Herreligaen.jpg",
     "Kvindeligaen": "Kvindeligaen.jpg",
@@ -327,8 +327,8 @@
     "ATP Tour Highlights": "ATP Tour Highlights.jpg",
     "Fodbold: A-Liga (k) - Kampe": "A-Liga.jpg",
     "Fodbold: Serie A": "Serie A.jpg",
-    "Fodbold: Tirsdagstrænerne": "Fodbold.jpg",
-    "Fodbold: Totalfodbold": "TMDb",
+    "Fodbold: Tirsdagstrænerne": "Tirsdagstrænerne.jpg",
+    "Fodbold: Totalfodbold": "Totalfodbold.jpg",
     "Mountainbike: World Cup": "VM i MTB.jpg",
     "Superliga Studiet": "Superliga Studiet.jpg"
   },
@@ -337,8 +337,8 @@
     "ATP Tour Highlights": "ATP Tour Highlights.jpg",
     "Fodbold: A-Liga (k) - Kampe": "A-Liga.jpg",
     "Fodbold: Serie A": "Serie A.jpg",
-    "Fodbold: Tirsdagstrænerne": "Fodbold.jpg",
-    "Fodbold: Totalfodbold": "TMDb",
+    "Fodbold: Tirsdagstrænerne": "Tirsdagstrænerne.jpg",
+    "Fodbold: Totalfodbold": "Totalfodbold.jpg",
     "Mountainbike: World Cup": "VM i MTB.jpg",
     "Sendeophold": "(intet billede)",
     "Superliga Studiet": "Superliga Studiet.jpg"
@@ -355,20 +355,20 @@
     "ATP Tour Highlights": "ATP Tour Highlights.jpg",
     "Fodbold: A-Liga (k) - Kampe": "A-Liga.jpg",
     "Fodbold: Serie A": "Serie A.jpg",
-    "Fodbold: Tirsdagstrænerne": "Fodbold.jpg",
-    "Fodbold: Totalfodbold": "TMDb",
+    "Fodbold: Tirsdagstrænerne": "Tirsdagstrænerne.jpg",
+    "Fodbold: Totalfodbold": "Totalfodbold.jpg",
     "Mountainbike: World Cup": "VM i MTB.jpg",
     "Serie A: Cagliari-Inter": "Serie A.jpg",
     "Serie A: Napoli-Como": "Serie A.jpg",
     "Superliga Studiet": "Superliga Studiet.jpg",
-    "Tirsdagstrænerne": "TMDb"
+    "Tirsdagstrænerne": "Tirsdagstrænerne.jpg"
   },
   "TV 2 Sport.dk": {
     "AftenVuelta": "AftenVuelta.jpg",
     "Badminton: China Masters": "Badminton.jpg",
     "Badminton: China Masters - Kampe": "Badminton.jpg",
-    "Cykling: Vuelta a España": "Cykling-generic.jpg",
-    "Cykling: Vuelta a España - Studiet": "Vuelta a España.jpeg",
+    "Cykling: Vuelta a España": "Vuelta a España.jpeg",
+    "Cykling: Vuelta a España - Studiet": "Vuelta a España -  Studiet.jpg",
     "Herreligaen: Aalborg-TTH Holstebro": "Herreligaen.jpg",
     "Herreligaen: GOG-Skjern": "Herreligaen.jpg",
     "Herreligaen: SAH-GOG": "Herreligaen.jpg",
@@ -377,15 +377,15 @@
     "Håndbold: Liga Håndbold - studiet": "Håndbold Herreligaen.jpg",
     "Kvindeligaen": "Kvindeligaen.jpg",
     "Kvindeligaen: Ikast-Odense": "Kvindeligaen.jpg",
-    "Kvindeligaen: Ikast-Viborg": "tv2sport-generic.jpg",
-    "Kvindeligaen: Studiet": "tv2sport-generic.jpg",
+    "Kvindeligaen: Ikast-Viborg": "Kvindeligaen.jpg",
+    "Kvindeligaen: Studiet": "Kvindeligaen.jpg",
     "Mountainbike: World Cup": "VM i MTB.jpg",
     "VM i MTB: Elite, Cross-country, Olympisk (k)": "VM i MTB.jpg",
     "VM i MTB: Elite, Downhill (k)": "VM i MTB.jpg",
     "VM i MTB: Elite, Downhill, elite (m)": "VM i MTB.jpg",
-    "Vuelta a España: 10. etape": "Cykling-generic.jpg",
+    "Vuelta a España: 10. etape": "Vuelta a España.jpeg",
     "Vuelta a España: 9. etape": "Vuelta a España.jpeg",
-    "Vuelta a España: Studiet": "Vuelta a España.jpeg"
+    "Vuelta a España: Studiet": "Vuelta a España -  Studiet.jpg"
   },
   "TV 2.dk": {
     "12 News": "(intet billede)",
@@ -463,32 +463,32 @@
   "TV3 Sport Denmark (DK,DA).dk": {
     "3F Superliga": "3F Superliga.jpg",
     "Betinia LIGA Magasinet": "Betinia LIGA Magasinet.jpg",
-    "Højdepunkter fra Dansk Motorsport": "Motorsport-generic.jpg",
+    "Højdepunkter fra Dansk Motorsport": "Højdepunkter fra Dansk Motorsport.jpg",
     "IndyCar": "IndyCar.jpg",
-    "Onside": "TNDb",
+    "Onside": "Onside.jpg",
     "Premier League": "Premier League.jpg",
     "TV-Udbruddet": "TV-Udbruddet.jpg",
-    "Watt the F1!?": "TMDb"
+    "Watt the F1!?": "Watt the F1.jpg"
   },
   "TV3 Sport HD (D) (T).dk": {
     "1. Division Magasinet": "Betinia LIGA Magasinet.jpg",
     "IndyCar": "IndyCar.jpg",
-    "Onside": "TNDb",
+    "Onside": "Onside.jpg",
     "Premier League": "Premier League.jpg",
     "RaceTV.dk": "https://fdmjyllandsringen.dk/sites/jylland.dk/files/styles/image_1920x1080_xl/public/2025-12/Milj%C3%B8%20eller%20Banefaciliteter.jpg",
     "Superliga": "3F Superliga.jpg",
     "TV-Udbruddet": "TV-Udbruddet.jpg",
-    "Watt the F1!?": "TMDb"
+    "Watt the F1!?": "Watt the F1.jpg"
   },
   "TV3 Sport.dk": {
     "3F Superliga": "3F Superliga.jpg",
     "Betinia LIGA Magasinet": "Betinia LIGA Magasinet.jpg",
-    "Højdepunkter fra Dansk Motorsport": "Motorsport-generic.jpg",
+    "Højdepunkter fra Dansk Motorsport": "Højdepunkter fra Dansk Motorsport.jpg",
     "IndyCar": "IndyCar.jpg",
-    "Onside": "TNDb",
+    "Onside": "Onside.jpg",
     "Premier League": "Premier League.jpg",
     "TV-Udbruddet": "TV-Udbruddet.jpg",
-    "Watt the F1!?": "TMDb"
+    "Watt the F1!?": "Watt the F1.jpg"
   },
   "TV3+ Denmark (DK,DA).dk": {
     "Ace Ventura - detektiv": "(intet billede)",
@@ -538,26 +538,26 @@
     "Wild Wild West": "(intet billede)"
   },
   "Viaplay Sport News HD (D) (T).dk": {
-    "Danskerklubben": "TMDb",
-    "Let’s Be Frank": "TMDb",
-    "Sky Sports: Deadline Day": "https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg",
+    "Danskerklubben": "Danskerklubben.jpg",
+    "Let’s Be Frank": "Lets Be Frank.jpg",
+    "Sky Sports: Deadline Day": "Sky Sports Deadline Day.jpg",
     "Sky Sports: The Football Show": "Sky Sports The Football Show.jpg",
     "Sport News": "Sport News.jpg",
-    "Sport News: Deadline day": "https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg",
+    "Sport News: Deadline day": "Sport News.jpg",
     "TV-Udbruddet": "TV-Udbruddet.jpg",
-    "Var-Rummet": "TMDb",
-    "Watt the F1!?": "TMDb"
+    "Var-Rummet": "Var-rummet.jpg",
+    "Watt the F1!?": "Watt the F1.jpg"
   },
   "Viaplay Sport News.dk": {
-    "Danskerklubben": "TMDb",
-    "Let’s Be Frank": "TMDb",
-    "Sky Sports: Deadline Day": "https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg",
+    "Danskerklubben": "Danskerklubben.jpg",
+    "Let’s Be Frank": "Lets Be Frank.jpg",
+    "Sky Sports: Deadline Day": "Sky Sports Deadline Day.jpg",
     "Sky Sports: The Football Show": "Sky Sports The Football Show.jpg",
     "Sport News": "Sport News.jpg",
-    "Sport News: Deadline day": "https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg",
+    "Sport News: Deadline day": "Sport News.jpg",
     "TV-Udbruddet": "TV-Udbruddet.jpg",
-    "Var-Rummet": "TMDb",
-    "Watt the F1!?": "TMDb"
+    "Var-Rummet": "Var-rummet.jpg",
+    "Watt the F1!?": "Watt the F1.jpg"
   },
   "dr1.dk": {
     "Aftenshowet": "(intet billede)",
