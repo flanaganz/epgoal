@@ -27,6 +27,14 @@
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
   },
+  "3f superliga: agf-fc midtjylland": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
+  "3f superliga: efter agf-fc midtjylland": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
   "3f superliga: efter randers fc-agf": {
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
@@ -38,6 +46,10 @@
   "3f superliga: fc nordsjælland - brøndby if": {
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
+  },
+  "3f superliga: før agf-fc midtjylland": {
+    "backdrop": "Før Superligaen.jpg",
+    "poster": "Før Superligaen.jpg"
   },
   "3f superliga: før f.c. københavn-sønderjyske": {
     "backdrop": "3F Superliga.jpg",
@@ -58,6 +70,10 @@
   "3f superliga: totalfodbold": {
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
+  },
+  "3f superliga: totalfodbold - transfervinduet lukker": {
+    "backdrop": "Totalfodbold.jpg",
+    "poster": "Totalfodbold.jpg"
   },
   "Danskerklubben: danskerklubben": {
     "_note": "Samme billede som 'fastzone' - dækker 'Kategori: Begivenhed'-varianten af titlen.",
@@ -379,6 +395,10 @@
     "backdrop": "Kvindeligaen.jpg",
     "poster": "Kvindeligaen.jpg"
   },
+  "kvindeligaen: nykøbing f.-team esbjerg": {
+    "backdrop": "Kvindeligaen.jpg",
+    "poster": "Kvindeligaen.jpg"
+  },
   "kvindeligaen: studiet": {
     "backdrop": "Kvindeligaen.jpg",
     "poster": "Kvindeligaen.jpg"
@@ -637,6 +657,10 @@
     "poster": "VM i MTB.jpg"
   },
   "vuelta a españa: 10. etape": {
+    "backdrop": "Vuelta a España.jpeg",
+    "poster": "Vuelta a España.jpeg"
+  },
+  "vuelta a españa: 11. etape": {
     "backdrop": "Vuelta a España.jpeg",
     "poster": "Vuelta a España.jpeg"
   },
