@@ -166,6 +166,15 @@ def resolve_manual_override(title: str, channel_id: str, manual_index: dict[str,
 
 
 def load_approved_keys(review_path: Path) -> set[str] | None:
+    """Returnerer nøgler for titler markeret 'Godkendt (X)' i
+    danish_artwork_review.xlsx.
+
+    RETTET (2026-09-01): respekterer nu også 'Ignorer (X)'-kolonnen (samme
+    kolonnenavn og konvention som sport_artwork_review.xlsx, se
+    export_danish_artwork_review.py) - en titel INJICERES ALDRIG hvis
+    'Ignorer (X)' er markeret, selv hvis 'Godkendt (X)' skulle være markeret
+    samtidig ved en fejl. Dette er en ren sikkerhedsspærre; kolonnen er
+    valgfri for bagudkompatibilitet med ældre filer uden 'Ignorer (X)'."""
     if not review_path.exists():
         return None
     try:
@@ -183,10 +192,15 @@ def load_approved_keys(review_path: Path) -> set[str] | None:
     except ValueError:
         return set()
 
+    ignorer_col = headers.index("Ignorer (X)") if "Ignorer (X)" in headers else None
+
     approved: set[str] = set()
     for row in ws.iter_rows(min_row=2):
         key_val = row[key_col].value
         godkendt_val = row[godkendt_col].value
+        ignorer_val = row[ignorer_col].value if ignorer_col is not None else None
+        if str(ignorer_val or "").strip().upper() == "X":
+            continue  # sikkerhedsspærre - ignorer vinder altid over godkendt
         if key_val and str(godkendt_val).strip().upper() == "X":
             approved.add(str(key_val).strip())
     return approved

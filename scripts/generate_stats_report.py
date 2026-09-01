@@ -64,6 +64,17 @@ def load_json(path: Path, default):
 
 
 def load_review_status(path: Path) -> tuple[int, int, dict[str, str]]:
+    """Returnerer (approved, flagged, notes).
+
+    RETTET (2026-09-01): danish_artwork_review.xlsx har nu en dedikeret
+    'Ignorer (X)'-kolonne (ensartet med sport_artwork_review.xlsx, se
+    export_danish_artwork_review.py) i stedet for kun en fri-tekst Note der
+    startede med 'Ignore'/'Ignorer'. Titler markeret 'Ignorer (X)' tælles nu
+    som 'flagged' (samme "Markeret forkert"-status som før), UANSET om der
+    også står en Note - og ALTID uanset 'Godkendt (X)' (samme
+    sikkerhedsspærre som danish_backdrops.py's load_approved_keys()), så
+    approved+flagged+pending summerer korrekt til found uden dobbeltoptælling.
+    Kolonnen er valgfri for bagudkompatibilitet med ældre filer."""
     if not path.exists():
         return 0, 0, {}
     try:
@@ -81,6 +92,8 @@ def load_review_status(path: Path) -> tuple[int, int, dict[str, str]]:
     except ValueError:
         return 0, 0, {}
 
+    ignorer_col = headers.index("Ignorer (X)") if "Ignorer (X)" in headers else None
+
     approved = 0
     flagged = 0
     notes: dict[str, str] = {}
@@ -90,7 +103,10 @@ def load_review_status(path: Path) -> tuple[int, int, dict[str, str]]:
             continue
         godkendt_val = row[godkendt_col].value
         note_val = row[note_col].value if note_col is not None else None
-        if godkendt_val and str(godkendt_val).strip().upper() == "X":
+        ignorer_val = row[ignorer_col].value if ignorer_col is not None else None
+        if str(ignorer_val or "").strip().upper() == "X":
+            flagged += 1
+        elif godkendt_val and str(godkendt_val).strip().upper() == "X":
             approved += 1
         elif note_val:
             flagged += 1
