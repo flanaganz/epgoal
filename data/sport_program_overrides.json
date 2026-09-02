@@ -7,6 +7,10 @@
     "backdrop": "Betinia LIGA Magasinet.jpg",
     "poster": "Betinia LIGA Magasinet.jpg"
   },
+  "1. division magasinet: betinia liga magasinet": {
+    "backdrop": "Betinia LIGA Magasinet.jpg",
+    "poster": "Betinia LIGA Magasinet.jpg"
+  },
   "1. division studie": {
     "backdrop": "Betinia Liga.jpg",
     "poster": "Betinia Liga.jpg"
@@ -36,6 +40,10 @@
     "poster": "3F Superliga.jpg"
   },
   "3f superliga: efter randers fc-agf": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
+  "3f superliga: f.c. københavn - fc nordsjælland": {
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
   },
@@ -241,6 +249,14 @@
     "backdrop": "EFL Championship Highligts.jpg",
     "poster": "EFL Championship Highligts.jpg"
   },
+  "efl championship highlights": {
+    "backdrop": "EFL Championship Highligts.jpg",
+    "poster": "EFL Championship Highligts.jpg"
+  },
+  "efl championship highlights: championship highlights": {
+    "backdrop": "EFL Championship Highligts.jpg",
+    "poster": "EFL Championship Highligts.jpg"
+  },
   "efl championship: middlesbrough - west bromwich": {
     "backdrop": "EFL Championship Highligts.jpg",
     "poster": "EFL Championship Highligts.jpg"
@@ -312,14 +328,22 @@
     "poster": "https://image.tmdb.org/t/p/original/uzNsBqsMSkKyL4bbatvCvYYpDOj.jpg"
   },
   "før superligaen": {
-    "backdrop": "https://image.tmdb.org/t/p/original/6TNZdG9lRP6ECdAIArYgJ5qa7kX.jpg",
-    "poster": "https://image.tmdb.org/t/p/original/6TNZdG9lRP6ECdAIArYgJ5qa7kX.jpg"
+    "backdrop": "Før Superligaen.jpg",
+    "poster": "Før Superligaen.jpg"
   },
   "før superligaen aarhus gymnastikforening": {
-    "backdrop": "https://image.tmdb.org/t/p/original/6TNZdG9lRP6ECdAIArYgJ5qa7kX.jpg",
-    "poster": "https://image.tmdb.org/t/p/original/6TNZdG9lRP6ECdAIArYgJ5qa7kX.jpg"
+    "backdrop": "Før Superligaen.jpg",
+    "poster": "Før Superligaen.jpg"
   },
   "før superligaen brøndby if": {
+    "backdrop": "Før Superligaen.jpg",
+    "poster": "Før Superligaen.jpg"
+  },
+  "før superligaen f.c. københavn": {
+    "backdrop": "Før Superligaen.jpg",
+    "poster": "Før Superligaen.jpg"
+  },
+  "før superligaen fc midtjylland": {
     "backdrop": "Før Superligaen.jpg",
     "poster": "Før Superligaen.jpg"
   },
@@ -448,6 +472,10 @@
     "poster": "NFL.jpg"
   },
   "onside": {
+    "backdrop": "Onside.jpg",
+    "poster": "Onside.jpg"
+  },
+  "onside: onside: krise i agf og fc nordsjælland som guldbejler?": {
     "backdrop": "Onside.jpg",
     "poster": "Onside.jpg"
   },
@@ -584,6 +612,10 @@
     "backdrop": "Superliga Studiet.jpg",
     "poster": "Superliga Studiet.jpg"
   },
+  "superliga studie: f.c. københavn - fc nordsjælland": {
+    "backdrop": "Superliga Studiet.jpg",
+    "poster": "Superliga Studiet.jpg"
+  },
   "superliga studie: fc nordsjælland - brøndby if": {
     "backdrop": "Superliga Studiet.jpg",
     "poster": "Superliga Studiet.jpg"
@@ -593,10 +625,14 @@
     "poster": "Superliga Studiet.jpg"
   },
   "superliga studiet": {
-    "backdrop": "Superliga Studiet.jpg",
-    "poster": "Superliga Studiet.jpg"
+    "backdrop": "Premier League Studie.jpg",
+    "poster": "Premier League Studie.jpg"
   },
   "superliga: ac horsens - viborg ff": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
+  "superliga: f.c. københavn - fc nordsjælland": {
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
   },
@@ -621,6 +657,10 @@
     "poster": "Tirsdagstrænerne.jpg"
   },
   "tv-udbruddet": {
+    "backdrop": "TV-Udbruddet.jpg",
+    "poster": "TV-Udbruddet.jpg"
+  },
+  "tv-udbruddet: tv-udbruddet: bedste cykelsæson nogensinde spoleret?": {
     "backdrop": "TV-Udbruddet.jpg",
     "poster": "TV-Udbruddet.jpg"
   },
@@ -685,6 +725,10 @@
     "poster": "Vuelta a España -  Studiet.jpg"
   },
   "watt the f1!?": {
+    "backdrop": "Watt the F1.jpg",
+    "poster": "Watt the F1.jpg"
+  },
+  "watt the f1!?: watt the f1!?": {
     "backdrop": "Watt the F1.jpg",
     "poster": "Watt the F1.jpg"
   },
