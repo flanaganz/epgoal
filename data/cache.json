@@ -8929,6 +8929,11 @@
     "poster": "https://image.tmdb.org/t/p/w500/sLDVepEEsrR7UF7lYsvACJaYwJd.jpg",
     "ts": 1786739088.0069568
   },
+  "en forårsdag i helvede": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/oW5P02sgUta8CJVqsJik9XTMkOc.jpg",
+    "poster": null,
+    "ts": 1788414390.8486521
+  },
   "en fugl flyver forbi": {
     "backdrop": null,
     "poster": null,
@@ -9594,6 +9599,16 @@
     "poster": null,
     "ts": 1787202719.8696322
   },
+  "f1 training: italiens grand prix - træning 1": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1788414393.800326
+  },
+  "f1 training: italiens grand prix - træning 2": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1788414394.3660214
+  },
   "f19 - flygaress och dubbelspioner": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/d4dBTGdcjMYpFnflw7RYqSWvS2W.jpg",
     "poster": null,
@@ -9608,6 +9623,26 @@
     "backdrop": null,
     "poster": null,
     "ts": 1787202719.687618
+  },
+  "f2": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1788414391.6948354
+  },
+  "f2: italiens grand prix - kvalifikation": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1788414394.1910303
+  },
+  "f3": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1788414391.1841588
+  },
+  "f3: italiens grand prix - kvalifikation": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1788414394.0079193
   },
   "fabelaktig oppussing": {
     "backdrop": null,
@@ -10753,6 +10788,11 @@
     "backdrop": null,
     "poster": null,
     "ts": 1787202720.0631225
+  },
+  "formula 3": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1788414392.8703015
   },
   "formula e: vm - london": {
     "backdrop": null,
@@ -12908,6 +12948,11 @@
     "backdrop": null,
     "poster": null,
     "ts": 1787575382.306258
+  },
+  "herreligaen: gog-tth holstebro": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1788414395.859518
   },
   "herreligaen: sah-gog": {
     "backdrop": null,
@@ -17404,6 +17449,11 @@
     "poster": "https://image.tmdb.org/t/p/w500/m24nGTFt9sGalvjkyP8UxcAEUlA.jpg",
     "ts": 1786716325.4787269
   },
+  "ligahåndbold: studiet": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/na7vwRM2RJSx3111Mhi1zrVbsbo.jpg",
+    "poster": null,
+    "ts": 1788414396.1909487
+  },
   "ligas": {
     "backdrop": null,
     "poster": null,
@@ -17433,6 +17483,11 @@
     "backdrop": null,
     "poster": null,
     "ts": 1786769289.0477316
+  },
+  "ligue 1: paris saint-germain - monaco": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1788414394.5676572
   },
   "lilla aktuellt": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/scOANT0ObTG3Jfigk3iHYgSmaAi.jpg",

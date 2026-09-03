@@ -1,14 +1,32 @@
 {
+  "TV 2 Sport.dk": {
+    "Herreligaen: GOG-TTH Holstebro": 2
+  },
   "TV3 Sport Denmark (DK,DA).dk": {
-    "Bundesliga Håndbold": 1
+    "Bundesliga Håndbold": 1,
+    "Chasing the Dream": 2,
+    "F2": 1,
+    "Formula 3": 2
   },
   "TV3 Sport HD (D) (T).dk": {
+    "F1 Training": 4,
+    "F2": 1,
+    "F3": 2,
     "Handball Bundesliga": 1,
     "Season Preview": 1
   },
   "TV3 Sport.dk": {
-    "Bundesliga Håndbold": 1,
+    "Bundesliga Håndbold": 2,
     "Bundesliga Special: Bundesliga: Season Preview": 1,
-    "Handball Bundesliga: Füchse Berlin - Magdeburg": 1
+    "Chasing the Dream": 2,
+    "F1 Training: Italiens Grand Prix - Træning 1": 2,
+    "F1 Training: Italiens Grand Prix - Træning 2": 2,
+    "F2": 1,
+    "F2: Italiens Grand Prix - Kvalifikation": 1,
+    "F3: Italiens Grand Prix - Kvalifikation": 2,
+    "Formula 2: Chasing the Dream: Chasing the Dream - Italien": 2,
+    "Formula 3": 2,
+    "Handball Bundesliga: Füchse Berlin - Magdeburg": 1,
+    "Ligue 1: Paris Saint-Germain - Monaco": 1
   }
 }
