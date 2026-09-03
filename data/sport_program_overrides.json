@@ -133,7 +133,19 @@
     "backdrop": "Atletik Diamond League.jpg",
     "poster": "Atletik Diamond League.jpg"
   },
+  "atletik: diamond league - studiet": {
+    "backdrop": "Atletik Diamond League.jpg",
+    "poster": "Atletik Diamond League.jpg"
+  },
+  "atletik: diamond league, bruxelles, finaler": {
+    "backdrop": "Atletik Diamond League.jpg",
+    "poster": "Atletik Diamond League.jpg"
+  },
   "atletik: diamond league, eugene": {
+    "backdrop": "Atletik Diamond League.jpg",
+    "poster": "Atletik Diamond League.jpg"
+  },
+  "atletik: diamond league, lausanne": {
     "backdrop": "Atletik Diamond League.jpg",
     "poster": "Atletik Diamond League.jpg"
   },
@@ -145,6 +157,10 @@
     "backdrop": "Atletik Diamond League.jpg",
     "poster": "Atletik Diamond League.jpg"
   },
+  "atletik: diamond league, silesia": {
+    "backdrop": "Atletik Diamond League.jpg",
+    "poster": "Atletik Diamond League.jpg"
+  },
   "atletik: diamond league, zürich": {
     "backdrop": "Atletik Diamond League.jpg",
     "poster": "Atletik Diamond League.jpg"
@@ -152,6 +168,14 @@
   "atp tour highlights": {
     "backdrop": "ATP Tour Highlights.jpg",
     "poster": "ATP Tour Highlights.jpg"
+  },
+  "badminton: antonsen-nishimoto, china masters": {
+    "backdrop": "Badminton.jpg",
+    "poster": "Badminton.jpg"
+  },
+  "badminton: astrup/rasmussen-lane/vendy, china masters": {
+    "backdrop": "Badminton.jpg",
+    "poster": "Badminton.jpg"
   },
   "badminton: china masters": {
     "backdrop": "Badminton.jpg",
@@ -432,6 +456,14 @@
   "gp confidential": {
     "backdrop": null,
     "poster": null
+  },
+  "handball bundesliga": {
+    "backdrop": "Bundesliga_2.jpg",
+    "poster": "Bundesliga_2.jpg"
+  },
+  "handball bundesliga: füchse berlin - magdeburg": {
+    "backdrop": "Bundesliga_2.jpg",
+    "poster": "Bundesliga_2.jpg"
   },
   "herreligaen: aalborg-tth holstebro": {
     "backdrop": "Herreligaen.jpg",
