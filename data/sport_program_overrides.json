@@ -129,6 +129,22 @@
     "backdrop": "Atletik Diamond League.jpg",
     "poster": "Atletik Diamond League.jpg"
   },
+  "atletik: diamond league - studie": {
+    "backdrop": "Atletik Diamond League.jpg",
+    "poster": "Atletik Diamond League.jpg"
+  },
+  "atletik: diamond league, eugene": {
+    "backdrop": "Atletik Diamond League.jpg",
+    "poster": "Atletik Diamond League.jpg"
+  },
+  "atletik: diamond league, london": {
+    "backdrop": "Atletik Diamond League.jpg",
+    "poster": "Atletik Diamond League.jpg"
+  },
+  "atletik: diamond league, monaco": {
+    "backdrop": "Atletik Diamond League.jpg",
+    "poster": "Atletik Diamond League.jpg"
+  },
   "atletik: diamond league, zürich": {
     "backdrop": "Atletik Diamond League.jpg",
     "poster": "Atletik Diamond League.jpg"
@@ -142,6 +158,14 @@
     "poster": "Badminton.jpg"
   },
   "badminton: china masters - kampe": {
+    "backdrop": "Badminton.jpg",
+    "poster": "Badminton.jpg"
+  },
+  "badminton: christiansen/bøje-seidel/nguyen, china masters": {
+    "backdrop": "Badminton.jpg",
+    "poster": "Badminton.jpg"
+  },
+  "badminton: kvartfinale, china masters": {
     "backdrop": "Badminton.jpg",
     "poster": "Badminton.jpg"
   },
@@ -173,11 +197,19 @@
     "backdrop": "Bundesliga_2.jpg",
     "poster": "Bundesliga_2.jpg"
   },
+  "bundesliga fodbold: stuttgart - fc köln": {
+    "backdrop": "Bundesliga Fodbold.jpg",
+    "poster": "Bundesliga Fodbold.jpg"
+  },
   "bundesliga fodbold: union berlin - frankfurt": {
     "backdrop": "Bundesliga_2.jpg",
     "poster": "Bundesliga_2.jpg"
   },
   "bundesliga highlights i: bundesliga highlights": {
+    "backdrop": "Bundesliga_2.jpg",
+    "poster": "Bundesliga_2.jpg"
+  },
+  "bundesliga håndbold": {
     "backdrop": "Bundesliga_2.jpg",
     "poster": "Bundesliga_2.jpg"
   },
@@ -197,6 +229,14 @@
     "backdrop": "Bundesliga_2.jpg",
     "poster": "Bundesliga_2.jpg"
   },
+  "bundesliga special": {
+    "backdrop": "Bundesliga Special.jpg",
+    "poster": "Bundesliga Special.jpg"
+  },
+  "bundesliga special: bundesliga: season preview": {
+    "backdrop": "Bundesliga Special.jpg",
+    "poster": "Bundesliga Special.jpg"
+  },
   "bundesliga: augsburg - schalke 04": {
     "backdrop": "Bundesliga_2.jpg",
     "poster": "Bundesliga_2.jpg"
@@ -209,6 +249,10 @@
     "backdrop": "Bundesliga_2.jpg",
     "poster": "Bundesliga_2.jpg"
   },
+  "bundesliga: stuttgart - fc köln": {
+    "backdrop": "Bundesliga Fodbold.jpg",
+    "poster": "Bundesliga Fodbold.jpg"
+  },
   "bundesliga: union berlin - frankfurt": {
     "backdrop": "Bundesliga_2.jpg",
     "poster": "Bundesliga_2.jpg"
@@ -220,6 +264,10 @@
   "champions league weekly: uefa champions league weekly": {
     "backdrop": "Champions League Weekly.jpg",
     "poster": "Champions League Weekly.jpg"
+  },
+  "chasing the dream": {
+    "backdrop": "TMDb",
+    "poster": "TMDb"
   },
   "cykling: tour de france (k)": {
     "backdrop": "Cykling Tour de France Femmes.jpg",
@@ -265,19 +313,45 @@
     "backdrop": "Formel 1.jpg",
     "poster": "Formel 1.jpg"
   },
+  "f1 training": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
+  "f1 training: italiens grand prix - træning 1": {
+    "backdrop": "Formel 1.jpg",
+    "poster": "Formel 1.jpg"
+  },
+  "f1 training: italiens grand prix - træning 2": {
+    "backdrop": "Formel 1.jpg",
+    "poster": "Formel 1.jpg"
+  },
   "f1: hollands grand prix - løbet": {
     "backdrop": "Formel 1.jpg",
     "poster": "Formel 1.jpg"
   },
+  "f2": {
+    "backdrop": "F2.jpg",
+    "poster": "F2.jpg"
+  },
+  "f2: italiens grand prix - kvalifikation": {
+    "backdrop": "F2.jpg",
+    "poster": "F2.jpg"
+  },
+  "f3": {
+    "backdrop": "F3.jpg",
+    "poster": "F3.jpg"
+  },
+  "f3: italiens grand prix - kvalifikation": {
+    "backdrop": "F3.jpg",
+    "poster": "F3.jpg"
+  },
   "fastzone": {
-    "_note": "NYT (2026-08-13): direkte ekstern URL fra TMDb, angivet af bruger. Rammede tidligere enten TMDb-fallback eller kanal-generic.",
-    "backdrop": "https://image.tmdb.org/t/p/original/6Zx9sabnYXtYHMg76JDTlpbBJFg.jpg",
-    "poster": "https://image.tmdb.org/t/p/original/6Zx9sabnYXtYHMg76JDTlpbBJFg.jpg"
+    "backdrop": "Fastzone.jpg",
+    "poster": "Fastzone.jpg"
   },
   "fastzone: fastzone": {
-    "_note": "Samme billede som 'fastzone' - dækker 'Kategori: Begivenhed'-varianten af titlen.",
-    "backdrop": "https://image.tmdb.org/t/p/original/s7MJ5BA4iA45uFWJAfpfJgvSOVr.jpg",
-    "poster": "https://image.tmdb.org/t/p/original/s7MJ5BA4iA45uFWJAfpfJgvSOVr.jpg"
+    "backdrop": "Fastzone.jpg",
+    "poster": "Fastzone.jpg"
   },
   "fodbold: 3f superligaen": {
     "backdrop": "3F Superliga.jpg",
@@ -327,6 +401,14 @@
     "backdrop": "https://image.tmdb.org/t/p/original/uzNsBqsMSkKyL4bbatvCvYYpDOj.jpg",
     "poster": "https://image.tmdb.org/t/p/original/uzNsBqsMSkKyL4bbatvCvYYpDOj.jpg"
   },
+  "formula 2: chasing the dream: chasing the dream - italien": {
+    "backdrop": "F2.jpg",
+    "poster": "F2.jpg"
+  },
+  "formula 3": {
+    "backdrop": "F3.jpg",
+    "poster": "F3.jpg"
+  },
   "før superligaen": {
     "backdrop": "Før Superligaen.jpg",
     "poster": "Før Superligaen.jpg"
@@ -359,13 +441,17 @@
     "backdrop": "Herreligaen.jpg",
     "poster": "Herreligaen.jpg"
   },
+  "herreligaen: gog-tth holstebro": {
+    "backdrop": "Herreligaen.jpg",
+    "poster": "Herreligaen.jpg"
+  },
   "herreligaen: sah-gog": {
     "backdrop": "Herreligaen.jpg",
     "poster": "Herreligaen.jpg"
   },
   "herreligaen: studiet": {
-    "backdrop": "Herreligaen.jpg",
-    "poster": "Herreligaen.jpg"
+    "backdrop": "Håndbold Herreligaen.jpg",
+    "poster": "Håndbold Herreligaen.jpg"
   },
   "herreligaen: tth holstebro - bjerringbro-silkeborg": {
     "backdrop": "Herreligaen.jpg",
@@ -439,6 +525,10 @@
     "backdrop": "https://image.tmdb.org/t/p/original/tzcEiG73S5a9HtMflMQ0Z8WWms.jpg",
     "poster": "https://image.tmdb.org/t/p/original/tzcEiG73S5a9HtMflMQ0Z8WWms.jpg"
   },
+  "ligahåndbold: studiet": {
+    "backdrop": "Håndbold Herreligaen.jpg",
+    "poster": "Håndbold Herreligaen.jpg"
+  },
   "ligue 1": {
     "backdrop": "Ligue 1_2.jpg",
     "poster": "Ligue 1_2.jpg"
@@ -452,6 +542,10 @@
     "poster": "Ligue 1 The Season Review Show.jpg"
   },
   "ligue 1: monaco - marseille": {
+    "backdrop": "Ligue 1_2.jpg",
+    "poster": "Ligue 1_2.jpg"
+  },
+  "ligue 1: paris saint-germain - monaco": {
     "backdrop": "Ligue 1_2.jpg",
     "poster": "Ligue 1_2.jpg"
   },
@@ -484,8 +578,12 @@
     "poster": null
   },
   "pdc european tour": {
-    "backdrop": "PDC World Series of Darts.jpg",
-    "poster": "PDC World Series of Darts.jpg"
+    "backdrop": "PDC European Tour.jpg",
+    "poster": "PDC European Tour.jpg"
+  },
+  "pdc european tour: czech darts open": {
+    "backdrop": "PDC European Tour.jpg",
+    "poster": "PDC European Tour.jpg"
   },
   "pdc european tour: hungarian darts trophy": {
     "backdrop": "PDC World Series of Darts.jpg",
@@ -528,6 +626,10 @@
     "poster": "Premier League.jpg"
   },
   "premier league: crystal palace - manchester city": {
+    "backdrop": "Premier League.jpg",
+    "poster": "Premier League.jpg"
+  },
+  "premier league: ipswich - liverpool": {
     "backdrop": "Premier League.jpg",
     "poster": "Premier League.jpg"
   },
@@ -597,8 +699,8 @@
     "poster": "Sporten.jpg"
   },
   "sportstalk": {
-    "backdrop": "TMDb",
-    "poster": "TMDb"
+    "backdrop": "Sportstalk.jpg",
+    "poster": "Sportstalk.jpg"
   },
   "superliga": {
     "backdrop": "3F Superliga.jpg",
@@ -624,6 +726,10 @@
     "backdrop": "Superliga Studiet.jpg",
     "poster": "Superliga Studiet.jpg"
   },
+  "superliga studie: viborg ff - lyngby bk": {
+    "backdrop": "Superliga Studiet.jpg",
+    "poster": "Superliga Studiet.jpg"
+  },
   "superliga studiet": {
     "backdrop": "Premier League Studie.jpg",
     "poster": "Premier League Studie.jpg"
@@ -641,6 +747,10 @@
     "poster": "3F Superliga.jpg"
   },
   "superliga: silkeborg if - fc midtjylland": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
+  "superliga: viborg ff - lyngby bk": {
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
   },
@@ -701,6 +811,10 @@
     "poster": "Vuelta a España.jpeg"
   },
   "vuelta a españa: 11. etape": {
+    "backdrop": "Vuelta a España.jpeg",
+    "poster": "Vuelta a España.jpeg"
+  },
+  "vuelta a españa: 12. etape": {
     "backdrop": "Vuelta a España.jpeg",
     "poster": "Vuelta a España.jpeg"
   },
