@@ -185,6 +185,10 @@
     "backdrop": "Badminton.jpg",
     "poster": "Badminton.jpg"
   },
+  "badminton: antonsen-vitidsarn, kvartfinale, china masters": {
+    "backdrop": "Badminton.jpg",
+    "poster": "Badminton.jpg"
+  },
   "badminton: astrup/rasmussen-lane/vendy, china masters": {
     "backdrop": "Badminton.jpg",
     "poster": "Badminton.jpg"
@@ -201,7 +205,15 @@
     "backdrop": "Badminton.jpg",
     "poster": "Badminton.jpg"
   },
+  "badminton: finale, china masters": {
+    "backdrop": "Badminton.jpg",
+    "poster": "Badminton.jpg"
+  },
   "badminton: kvartfinale, china masters": {
+    "backdrop": "Badminton.jpg",
+    "poster": "Badminton.jpg"
+  },
+  "badminton: semifinale, china masters": {
     "backdrop": "Badminton.jpg",
     "poster": "Badminton.jpg"
   },
@@ -361,41 +373,45 @@
     "backdrop": "EFL Championship Highligts.jpg",
     "poster": "EFL Championship Highligts.jpg"
   },
+  "efl championship: preston - blackburn": {
+    "backdrop": "EFL Championship.jpg",
+    "poster": "EFL Championship.jpg"
+  },
   "f1": {
     "backdrop": "Formel 1.jpg",
     "poster": "Formel 1.jpg"
   },
   "f1 qualification": {
-    "backdrop": "Formel 1.jpg",
-    "poster": "Formel 1.jpg"
+    "backdrop": "F1.jpg",
+    "poster": "F1.jpg"
   },
   "f1 qualification studio": {
-    "backdrop": "Formel 1.jpg",
-    "poster": "Formel 1.jpg"
+    "backdrop": "F1Q.JPG",
+    "poster": "F1Q.JPG"
   },
   "f1 qualification studio: italiens grand prix - kvalifikation": {
     "backdrop": "Formel 1.jpg",
     "poster": "Formel 1.jpg"
   },
   "f1 qualification: italiens grand prix - kvalifikation": {
-    "backdrop": "Formel 1.jpg",
-    "poster": "Formel 1.jpg"
+    "backdrop": "F1Q.JPG",
+    "poster": "F1Q.JPG"
   },
   "f1 training": {
-    "backdrop": "3F Superliga.jpg",
-    "poster": "3F Superliga.jpg"
+    "backdrop": "F1T.JPG",
+    "poster": "F1T.JPG"
   },
   "f1 training: italiens grand prix - træning 1": {
-    "backdrop": "Formel 1.jpg",
-    "poster": "Formel 1.jpg"
+    "backdrop": "F1T.JPG",
+    "poster": "F1T.JPG"
   },
   "f1 training: italiens grand prix - træning 2": {
-    "backdrop": "Formel 1.jpg",
-    "poster": "Formel 1.jpg"
+    "backdrop": "F1T.JPG",
+    "poster": "F1T.JPG"
   },
   "f1 training: italiens grand prix - træning 3": {
-    "backdrop": "Formel 1.jpg",
-    "poster": "Formel 1.jpg"
+    "backdrop": "F1T.JPG",
+    "poster": "F1T.JPG"
   },
   "f1: hollands grand prix - løbet": {
     "backdrop": "Formel 1.jpg",
@@ -422,8 +438,8 @@
     "poster": "F3.jpg"
   },
   "f3: italiens grand prix - sprint race": {
-    "backdrop": "Formel 1.jpg",
-    "poster": "Formel 1.jpg"
+    "backdrop": "F1.jpg",
+    "poster": "F1.jpg"
   },
   "fastzone": {
     "backdrop": "Fastzone.jpg",
@@ -446,8 +462,8 @@
     "poster": "A-Liga.jpg"
   },
   "fodbold: a-liga (k) - målfesten": {
-    "backdrop": "3F Superliga.jpg",
-    "poster": "3F Superliga.jpg"
+    "backdrop": "Målfesten.jpg",
+    "poster": "Målfesten.jpg"
   },
   "fodbold: friuli venezia giulia cup - kampe": {
     "backdrop": "Fodbold Friuli Venezia Giulia Cup - Kampe.jpg",
@@ -470,8 +486,8 @@
     "poster": "Totalfodbold.jpg"
   },
   "formel 1": {
-    "backdrop": "Formel 1.jpg",
-    "poster": "Formel 1.jpg"
+    "backdrop": "F1.jpg",
+    "poster": "F1.jpg"
   },
   "formel 1 360°": {
     "backdrop": "https://image.tmdb.org/t/p/original/uzNsBqsMSkKyL4bbatvCvYYpDOj.jpg",
@@ -482,8 +498,8 @@
     "poster": "https://image.tmdb.org/t/p/original/uzNsBqsMSkKyL4bbatvCvYYpDOj.jpg"
   },
   "formel 1: italiens grand prix - kvalifikation": {
-    "backdrop": "Formel 1.jpg",
-    "poster": "Formel 1.jpg"
+    "backdrop": "F1.jpg",
+    "poster": "F1.jpg"
   },
   "formula 2: chasing the dream: chasing the dream - italien": {
     "backdrop": "F2.jpg",
@@ -538,6 +554,10 @@
     "poster": "Herreligaen.jpg"
   },
   "herreligaen: sah-gog": {
+    "backdrop": "Herreligaen.jpg",
+    "poster": "Herreligaen.jpg"
+  },
+  "herreligaen: skjern-aalborg": {
     "backdrop": "Herreligaen.jpg",
     "poster": "Herreligaen.jpg"
   },
@@ -774,6 +794,14 @@
     "backdrop": "Serie A.jpg",
     "poster": "Serie A.jpg"
   },
+  "serie a: genoa-como": {
+    "backdrop": "Serie A.jpg",
+    "poster": "Serie A.jpg"
+  },
+  "serie a: inter-napoli": {
+    "backdrop": "Serie A.jpg",
+    "poster": "Serie A.jpg"
+  },
   "serie a: juventus-parma": {
     "backdrop": "Fodbold Serie A.jpg",
     "poster": "Fodbold Serie A.jpg"
@@ -782,13 +810,17 @@
     "backdrop": "Serie A.jpg",
     "poster": "Serie A.jpg"
   },
+  "serie a: roma-atalanta": {
+    "backdrop": "Fodbold Serie A.jpg",
+    "poster": "Fodbold Serie A.jpg"
+  },
   "sky sports: deadline day": {
     "backdrop": "Sky Sports Deadline Day.jpg",
     "poster": "Sky Sports Deadline Day.jpg"
   },
   "sky sports: soccer saturday": {
-    "backdrop": "https://image.tmdb.org/t/p/original/rIl1pgmuVBwBbDqS5w3hVD8Z9UW.jpg",
-    "poster": "https://image.tmdb.org/t/p/original/rIl1pgmuVBwBbDqS5w3hVD8Z9UW.jpg"
+    "backdrop": "Sky Sports Soccer Saturday.jpg",
+    "poster": "Sky Sports Soccer Saturday.jpg"
   },
   "sky sports: the football show": {
     "backdrop": "Sky Sports The Football Show.jpg",
@@ -882,6 +914,10 @@
     "backdrop": "Superligatilsynet.jpg",
     "poster": "Superligatilsynet.jpg"
   },
+  "the dark tower": {
+    "backdrop": "Sky Sports Soccer Saturday.jpg",
+    "poster": "Sky Sports Soccer Saturday.jpg"
+  },
   "tirsdagstrænerne": {
     "backdrop": "Tirsdagstrænerne.jpg",
     "poster": "Tirsdagstrænerne.jpg"
@@ -935,6 +971,14 @@
     "poster": "Vuelta a España.jpeg"
   },
   "vuelta a españa: 12. etape": {
+    "backdrop": "Vuelta a España.jpeg",
+    "poster": "Vuelta a España.jpeg"
+  },
+  "vuelta a españa: 13. etape": {
+    "backdrop": "Vuelta a España.jpeg",
+    "poster": "Vuelta a España.jpeg"
+  },
+  "vuelta a españa: 14. etape": {
     "backdrop": "Vuelta a España.jpeg",
     "poster": "Vuelta a España.jpeg"
   },
