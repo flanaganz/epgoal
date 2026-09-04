@@ -19,7 +19,15 @@
     "backdrop": "Betinia Liga.jpg",
     "poster": "Betinia Liga.jpg"
   },
+  "1. division studie: fc fredericia - esbjerg fb": {
+    "backdrop": "Spot på Betinia Liga.jpg",
+    "poster": "Spot på Betinia Liga.jpg"
+  },
   "1. division: aab - hb køge": {
+    "backdrop": "Betinia Liga.jpg",
+    "poster": "Betinia Liga.jpg"
+  },
+  "1. division: fc fredericia - esbjerg fb": {
     "backdrop": "Betinia Liga.jpg",
     "poster": "Betinia Liga.jpg"
   },
@@ -82,6 +90,10 @@
   "3f superliga: totalfodbold - transfervinduet lukker": {
     "backdrop": "Totalfodbold.jpg",
     "poster": "Totalfodbold.jpg"
+  },
+  "3f superliga: viborg ff - lyngby bk": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
   },
   "Danskerklubben: danskerklubben": {
     "_note": "Samme billede som 'fastzone' - dækker 'Kategori: Begivenhed'-varianten af titlen.",
@@ -221,6 +233,10 @@
     "backdrop": "Bundesliga_2.jpg",
     "poster": "Bundesliga_2.jpg"
   },
+  "bundesliga fodbold: schalke 04 - bayern münchen": {
+    "backdrop": "Bundesliga_2.jpg",
+    "poster": "Bundesliga_2.jpg"
+  },
   "bundesliga fodbold: stuttgart - fc köln": {
     "backdrop": "Bundesliga Fodbold.jpg",
     "poster": "Bundesliga Fodbold.jpg"
@@ -273,6 +289,10 @@
     "backdrop": "Bundesliga_2.jpg",
     "poster": "Bundesliga_2.jpg"
   },
+  "bundesliga: schalke 04 - bayern münchen": {
+    "backdrop": "Bundesliga_2.jpg",
+    "poster": "Bundesliga_2.jpg"
+  },
   "bundesliga: stuttgart - fc köln": {
     "backdrop": "Bundesliga Fodbold.jpg",
     "poster": "Bundesliga Fodbold.jpg"
@@ -292,6 +312,10 @@
   "chasing the dream": {
     "backdrop": "TMDb",
     "poster": "TMDb"
+  },
+  "cykling: jørgen leths mindeløb": {
+    "backdrop": "TV_2_Sport_X.jpg",
+    "poster": "TV_2_Sport_X.jpg"
   },
   "cykling: tour de france (k)": {
     "backdrop": "Cykling Tour de France Femmes.jpg",
@@ -317,6 +341,10 @@
     "backdrop": "DBU Pokalen.jpg",
     "poster": "DBU Pokalen.jpg"
   },
+  "discover a club": {
+    "backdrop": "Discover a Club.jpg",
+    "poster": "Discover a Club.jpg"
+  },
   "efl championship": {
     "backdrop": "EFL Championship Highligts.jpg",
     "poster": "EFL Championship Highligts.jpg"
@@ -337,6 +365,22 @@
     "backdrop": "Formel 1.jpg",
     "poster": "Formel 1.jpg"
   },
+  "f1 qualification": {
+    "backdrop": "Formel 1.jpg",
+    "poster": "Formel 1.jpg"
+  },
+  "f1 qualification studio": {
+    "backdrop": "Formel 1.jpg",
+    "poster": "Formel 1.jpg"
+  },
+  "f1 qualification studio: italiens grand prix - kvalifikation": {
+    "backdrop": "Formel 1.jpg",
+    "poster": "Formel 1.jpg"
+  },
+  "f1 qualification: italiens grand prix - kvalifikation": {
+    "backdrop": "Formel 1.jpg",
+    "poster": "Formel 1.jpg"
+  },
   "f1 training": {
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
@@ -346,6 +390,10 @@
     "poster": "Formel 1.jpg"
   },
   "f1 training: italiens grand prix - træning 2": {
+    "backdrop": "Formel 1.jpg",
+    "poster": "Formel 1.jpg"
+  },
+  "f1 training: italiens grand prix - træning 3": {
     "backdrop": "Formel 1.jpg",
     "poster": "Formel 1.jpg"
   },
@@ -361,6 +409,10 @@
     "backdrop": "F2.jpg",
     "poster": "F2.jpg"
   },
+  "f2: italiens grand prix - sprint race": {
+    "backdrop": "Formel 1.jpg",
+    "poster": "Formel 1.jpg"
+  },
   "f3": {
     "backdrop": "F3.jpg",
     "poster": "F3.jpg"
@@ -368,6 +420,10 @@
   "f3: italiens grand prix - kvalifikation": {
     "backdrop": "F3.jpg",
     "poster": "F3.jpg"
+  },
+  "f3: italiens grand prix - sprint race": {
+    "backdrop": "Formel 1.jpg",
+    "poster": "Formel 1.jpg"
   },
   "fastzone": {
     "backdrop": "Fastzone.jpg",
@@ -390,16 +446,16 @@
     "poster": "A-Liga.jpg"
   },
   "fodbold: a-liga (k) - målfesten": {
-    "backdrop": "A-Liga.jpg",
-    "poster": "A-Liga.jpg"
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
   },
   "fodbold: friuli venezia giulia cup - kampe": {
     "backdrop": "Fodbold Friuli Venezia Giulia Cup - Kampe.jpg",
     "poster": "Fodbold Friuli Venezia Giulia Cup - Kampe.jpg"
   },
   "fodbold: premier league-studiet": {
-    "backdrop": "Premier League.jpg",
-    "poster": "Premier League.jpg"
+    "backdrop": "Premier League Studie.jpg",
+    "poster": "Premier League Studie.jpg"
   },
   "fodbold: serie a": {
     "backdrop": "Serie A.jpg",
@@ -424,6 +480,10 @@
   "formel 1 360°: formel 1 360°": {
     "backdrop": "https://image.tmdb.org/t/p/original/uzNsBqsMSkKyL4bbatvCvYYpDOj.jpg",
     "poster": "https://image.tmdb.org/t/p/original/uzNsBqsMSkKyL4bbatvCvYYpDOj.jpg"
+  },
+  "formel 1: italiens grand prix - kvalifikation": {
+    "backdrop": "Formel 1.jpg",
+    "poster": "Formel 1.jpg"
   },
   "formula 2: chasing the dream: chasing the dream - italien": {
     "backdrop": "F2.jpg",
@@ -641,6 +701,10 @@
     "backdrop": "Premier League.jpg",
     "poster": "Premier League.jpg"
   },
+  "premier league studie: hull - aston villa": {
+    "backdrop": "Premier League.jpg",
+    "poster": "Premier League.jpg"
+  },
   "premier league studie: tottenham - newcastle": {
     "backdrop": "Premier League.jpg",
     "poster": "Premier League.jpg"
@@ -653,6 +717,10 @@
     "backdrop": "Premier League.jpg",
     "poster": "Premier League.jpg"
   },
+  "premier league: brentford - sunderland": {
+    "backdrop": "Premier League.jpg",
+    "poster": "Premier League.jpg"
+  },
   "premier league: chelsea - brighton": {
     "backdrop": "Premier League.jpg",
     "poster": "Premier League.jpg"
@@ -661,11 +729,23 @@
     "backdrop": "Premier League.jpg",
     "poster": "Premier League.jpg"
   },
+  "premier league: fulham - crystal palace": {
+    "backdrop": "Premier League.jpg",
+    "poster": "Premier League.jpg"
+  },
+  "premier league: hull-aston villa": {
+    "backdrop": "Premier League.jpg",
+    "poster": "Premier League.jpg"
+  },
   "premier league: ipswich - liverpool": {
     "backdrop": "Premier League.jpg",
     "poster": "Premier League.jpg"
   },
   "premier league: leeds - brentford": {
+    "backdrop": "Premier League.jpg",
+    "poster": "Premier League.jpg"
+  },
+  "premier league: manchester city - coventry": {
     "backdrop": "Premier League.jpg",
     "poster": "Premier League.jpg"
   },
@@ -746,6 +826,10 @@
     "backdrop": "Superliga Studiet.jpg",
     "poster": "Superliga Studiet.jpg"
   },
+  "superliga studie: agf - silkeborg if": {
+    "backdrop": "Superliga Studiet.jpg",
+    "poster": "Superliga Studiet.jpg"
+  },
   "superliga studie: f.c. københavn - fc nordsjælland": {
     "backdrop": "Superliga Studiet.jpg",
     "poster": "Superliga Studiet.jpg"
@@ -767,6 +851,10 @@
     "poster": "Premier League Studie.jpg"
   },
   "superliga: ac horsens - viborg ff": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
+  "superliga: agf - silkeborg if": {
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
   },
@@ -875,6 +963,10 @@
     "poster": "Watt the F1.jpg"
   },
   "watt the f1!?: watt the f1!?": {
+    "backdrop": "Watt the F1.jpg",
+    "poster": "Watt the F1.jpg"
+  },
+  "watt the f1!?: watt the f1!?: de lander de ledige f1-sæder": {
     "backdrop": "Watt the F1.jpg",
     "poster": "Watt the F1.jpg"
   },
