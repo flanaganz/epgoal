@@ -12,16 +12,16 @@
     "poster": "Betinia LIGA Magasinet.jpg"
   },
   "1. division studie": {
-    "backdrop": "Betinia Liga.jpg",
-    "poster": "Betinia Liga.jpg"
+    "backdrop": "BetiniaStudio.jpg",
+    "poster": "BetiniaStudio.jpg"
   },
   "1. division studie: aab - hb køge": {
     "backdrop": "Betinia Liga.jpg",
     "poster": "Betinia Liga.jpg"
   },
   "1. division studie: fc fredericia - esbjerg fb": {
-    "backdrop": "Spot på Betinia Liga.jpg",
-    "poster": "Spot på Betinia Liga.jpg"
+    "backdrop": "BetiniaStudio.jpg",
+    "poster": "BetiniaStudio.jpg"
   },
   "1. division: aab - hb køge": {
     "backdrop": "Betinia Liga.jpg",
@@ -358,16 +358,16 @@
     "poster": "Bundesliga_2.jpg"
   },
   "champions hockey league": {
-    "backdrop": "Hockey League.jpg",
-    "poster": "Hockey League.jpg"
+    "backdrop": "Champions Hockey League.jpg",
+    "poster": "Champions Hockey League.jpg"
   },
   "champions hockey league: herning blue fox - kookoo": {
-    "backdrop": "Hockey League.jpg",
-    "poster": "Hockey League.jpg"
+    "backdrop": "Champions Hockey League.jpg",
+    "poster": "Champions Hockey League.jpg"
   },
   "champions hockey league: herning blue fox - saipa": {
-    "backdrop": "Hockey League.jpg",
-    "poster": "Hockey League.jpg"
+    "backdrop": "Champions Hockey League.jpg",
+    "poster": "Champions Hockey League.jpg"
   },
   "champions league weekly": {
     "backdrop": "Champions League Weekly.jpg",
@@ -574,12 +574,12 @@
     "poster": "https://image.tmdb.org/t/p/original/uzNsBqsMSkKyL4bbatvCvYYpDOj.jpg"
   },
   "formel 1 studie": {
-    "backdrop": "F1.jpg",
-    "poster": "F1.jpg"
+    "backdrop": "F1Studio.jpg",
+    "poster": "F1Studio.jpg"
   },
   "formel 1 studie: italiens grand prix - løbet": {
-    "backdrop": "F1.jpg",
-    "poster": "F1.jpg"
+    "backdrop": "F1Studio.jpg",
+    "poster": "F1Studio.jpg"
   },
   "formel 1: italiens grand prix - kvalifikation": {
     "backdrop": "F1.jpg",
@@ -886,9 +886,8 @@
     "poster": "Premier League.jpg"
   },
   "racetv.dk": {
-    "_note": "NYT (2026-08-13): direkte ekstern URL fra fdmjyllandsringen.dk, angivet af bruger.",
-    "backdrop": "https://fdmjyllandsringen.dk/sites/jylland.dk/files/styles/image_1920x1080_xl/public/2025-12/Milj%C3%B8%20eller%20Banefaciliteter.jpg",
-    "poster": "https://fdmjyllandsringen.dk/sites/jylland.dk/files/styles/image_1920x1080_xl/public/2025-12/Milj%C3%B8%20eller%20Banefaciliteter.jpg"
+    "backdrop": "RaceTV_DK.jpg",
+    "poster": "RaceTV_DK.jpg"
   },
   "serie a: ac milan-venezia": {
     "backdrop": "Fodbold Serie A.jpg",
@@ -907,8 +906,8 @@
     "poster": "Serie A.jpg"
   },
   "serie a: juventus-ac milan": {
-    "backdrop": "Sendeophold.jpg",
-    "poster": "Sendeophold.jpg"
+    "backdrop": "Serie A.jpg",
+    "poster": "Serie A.jpg"
   },
   "serie a: juventus-parma": {
     "backdrop": "Fodbold Serie A.jpg",
@@ -987,8 +986,8 @@
     "poster": "Superliga Studiet.jpg"
   },
   "superliga studiet": {
-    "backdrop": "Premier League Studie.jpg",
-    "poster": "Premier League Studie.jpg"
+    "backdrop": "Premier League-studiet.jpg",
+    "poster": "Premier League-studiet.jpg"
   },
   "superliga: ac horsens - viborg ff": {
     "backdrop": "3F Superliga.jpg",
@@ -1091,6 +1090,10 @@
     "poster": "Vuelta a España.jpeg"
   },
   "vuelta a españa: 14. etape": {
+    "backdrop": "Vuelta a España.jpeg",
+    "poster": "Vuelta a España.jpeg"
+  },
+  "vuelta a españa: 15. etape": {
     "backdrop": "Vuelta a España.jpeg",
     "poster": "Vuelta a España.jpeg"
   },
