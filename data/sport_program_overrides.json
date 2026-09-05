@@ -43,7 +43,15 @@
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
   },
+  "3f superliga: brøndby if - randers fc": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
   "3f superliga: efter agf-fc midtjylland": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
+  "3f superliga: efter odense boldklub-f.c. københavn": {
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
   },
@@ -75,11 +83,23 @@
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
   },
+  "3f superliga: før sønderjyske-ac horsens": {
+    "backdrop": "Før Superligaen.jpg",
+    "poster": "Før Superligaen.jpg"
+  },
   "3f superliga: lyngby boldklub-odense boldklub": {
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
   },
+  "3f superliga: odense boldklub-f.c. københavn": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
   "3f superliga: randers fc-agf": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
+  "3f superliga: sønderjyske-ac horsens": {
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
   },
@@ -121,13 +141,17 @@
     "backdrop": "A-Liga.jpg",
     "poster": "A-Liga.jpg"
   },
+  "a-liga: fortuna hjørring-ob q": {
+    "backdrop": "A-Liga.jpg",
+    "poster": "A-Liga.jpg"
+  },
   "a-liga: før brøndby if-f.c. københavn": {
     "backdrop": "A-Liga.jpg",
     "poster": "A-Liga.jpg"
   },
   "a-liga: målfesten": {
-    "backdrop": "A-Liga.jpg",
-    "poster": "A-Liga.jpg"
+    "backdrop": "Målfesten.jpg",
+    "poster": "Målfesten.jpg"
   },
   "aftenvuelta": {
     "backdrop": "AftenVuelta.jpg",
@@ -181,6 +205,10 @@
     "backdrop": "ATP Tour Highlights.jpg",
     "poster": "ATP Tour Highlights.jpg"
   },
+  "badminton: antonsen-gunawan, semifinale, china masters": {
+    "backdrop": "Badminton.jpg",
+    "poster": "Badminton.jpg"
+  },
   "badminton: antonsen-nishimoto, china masters": {
     "backdrop": "Badminton.jpg",
     "poster": "Badminton.jpg"
@@ -229,6 +257,10 @@
     "backdrop": null,
     "poster": null
   },
+  "bundesliga": {
+    "backdrop": "Bundesliga_2.jpg",
+    "poster": "Bundesliga_2.jpg"
+  },
   "bundesliga fodbold": {
     "backdrop": "Bundesliga Fodbold.jpg",
     "poster": "Bundesliga Fodbold.jpg"
@@ -242,6 +274,10 @@
     "poster": "Bundesliga Fodbold.jpg"
   },
   "bundesliga fodbold: dortmund - hamburger sv": {
+    "backdrop": "Bundesliga_2.jpg",
+    "poster": "Bundesliga_2.jpg"
+  },
+  "bundesliga fodbold: frankfurt - augsburg": {
     "backdrop": "Bundesliga_2.jpg",
     "poster": "Bundesliga_2.jpg"
   },
@@ -301,6 +337,14 @@
     "backdrop": "Bundesliga_2.jpg",
     "poster": "Bundesliga_2.jpg"
   },
+  "bundesliga: frankfurt - augsburg": {
+    "backdrop": "Bundesliga_2.jpg",
+    "poster": "Bundesliga_2.jpg"
+  },
+  "bundesliga: hamburger sv - mainz": {
+    "backdrop": "Bundesliga_2.jpg",
+    "poster": "Bundesliga_2.jpg"
+  },
   "bundesliga: schalke 04 - bayern münchen": {
     "backdrop": "Bundesliga_2.jpg",
     "poster": "Bundesliga_2.jpg"
@@ -312,6 +356,18 @@
   "bundesliga: union berlin - frankfurt": {
     "backdrop": "Bundesliga_2.jpg",
     "poster": "Bundesliga_2.jpg"
+  },
+  "champions hockey league": {
+    "backdrop": "Hockey League.jpg",
+    "poster": "Hockey League.jpg"
+  },
+  "champions hockey league: herning blue fox - kookoo": {
+    "backdrop": "Hockey League.jpg",
+    "poster": "Hockey League.jpg"
+  },
+  "champions hockey league: herning blue fox - saipa": {
+    "backdrop": "Hockey League.jpg",
+    "poster": "Hockey League.jpg"
   },
   "champions league weekly": {
     "backdrop": "Champions League Weekly.jpg",
@@ -354,6 +410,14 @@
     "poster": "DBU Pokalen.jpg"
   },
   "discover a club": {
+    "backdrop": "Discover a Club.jpg",
+    "poster": "Discover a Club.jpg"
+  },
+  "discover a club: discover eintracht frankfurt": {
+    "backdrop": "Discover a Club.jpg",
+    "poster": "Discover a Club.jpg"
+  },
+  "discover eintracht frankfurt": {
     "backdrop": "Discover a Club.jpg",
     "poster": "Discover a Club.jpg"
   },
@@ -417,9 +481,17 @@
     "backdrop": "Formel 1.jpg",
     "poster": "Formel 1.jpg"
   },
+  "f1: italiens grand prix - løbet": {
+    "backdrop": "F1.jpg",
+    "poster": "F1.jpg"
+  },
   "f2": {
     "backdrop": "F2.jpg",
     "poster": "F2.jpg"
+  },
+  "f2: italiens grand prix - feature race": {
+    "backdrop": "F1.jpg",
+    "poster": "F1.jpg"
   },
   "f2: italiens grand prix - kvalifikation": {
     "backdrop": "F2.jpg",
@@ -432,6 +504,10 @@
   "f3": {
     "backdrop": "F3.jpg",
     "poster": "F3.jpg"
+  },
+  "f3: italiens grand prix - feature race": {
+    "backdrop": "F1.jpg",
+    "poster": "F1.jpg"
   },
   "f3: italiens grand prix - kvalifikation": {
     "backdrop": "F3.jpg",
@@ -497,7 +573,19 @@
     "backdrop": "https://image.tmdb.org/t/p/original/uzNsBqsMSkKyL4bbatvCvYYpDOj.jpg",
     "poster": "https://image.tmdb.org/t/p/original/uzNsBqsMSkKyL4bbatvCvYYpDOj.jpg"
   },
+  "formel 1 studie": {
+    "backdrop": "F1.jpg",
+    "poster": "F1.jpg"
+  },
+  "formel 1 studie: italiens grand prix - løbet": {
+    "backdrop": "F1.jpg",
+    "poster": "F1.jpg"
+  },
   "formel 1: italiens grand prix - kvalifikation": {
+    "backdrop": "F1.jpg",
+    "poster": "F1.jpg"
+  },
+  "formel 1: italiens grand prix - løbet": {
     "backdrop": "F1.jpg",
     "poster": "F1.jpg"
   },
@@ -581,6 +669,10 @@
     "backdrop": "Højdepunkter fra Dansk Motorsport.jpg",
     "poster": "Højdepunkter fra Dansk Motorsport.jpg"
   },
+  "højdepunkter fra dansk motorsport: racetv.dk": {
+    "backdrop": "Højdepunkter fra Dansk Motorsport.jpg",
+    "poster": "Højdepunkter fra Dansk Motorsport.jpg"
+  },
   "højdepunkter fra efl championship": {
     "backdrop": "EFL Championship Highligts.jpg",
     "poster": "EFL Championship Highligts.jpg"
@@ -590,6 +682,10 @@
     "poster": "IndyCar.jpg"
   },
   "indycar: freedom 250 grand prix of washington, d.c.": {
+    "backdrop": "IndyCar.jpg",
+    "poster": "IndyCar.jpg"
+  },
+  "indycar: indycar grabd prix og monterey": {
     "backdrop": "IndyCar.jpg",
     "poster": "IndyCar.jpg"
   },
@@ -729,6 +825,10 @@
     "backdrop": "Premier League.jpg",
     "poster": "Premier League.jpg"
   },
+  "premier league: arsenal - chelsea": {
+    "backdrop": "Premier League.jpg",
+    "poster": "Premier League.jpg"
+  },
   "premier league: aston villa-arsenal": {
     "backdrop": "Premier League.jpg",
     "poster": "Premier League.jpg"
@@ -746,6 +846,10 @@
     "poster": "Premier League.jpg"
   },
   "premier league: crystal palace - manchester city": {
+    "backdrop": "Premier League.jpg",
+    "poster": "Premier League.jpg"
+  },
+  "premier league: everton - manchester united": {
     "backdrop": "Premier League.jpg",
     "poster": "Premier League.jpg"
   },
@@ -801,6 +905,10 @@
   "serie a: inter-napoli": {
     "backdrop": "Serie A.jpg",
     "poster": "Serie A.jpg"
+  },
+  "serie a: juventus-ac milan": {
+    "backdrop": "Sendeophold.jpg",
+    "poster": "Sendeophold.jpg"
   },
   "serie a: juventus-parma": {
     "backdrop": "Fodbold Serie A.jpg",
@@ -887,6 +995,10 @@
     "poster": "3F Superliga.jpg"
   },
   "superliga: agf - silkeborg if": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
+  "superliga: brøndby if - randers fc": {
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
   },
