@@ -4624,6 +4624,11 @@
     "poster": null,
     "ts": 1786632589.925827
   },
+  "bundesliga": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1788589742.5660641
+  },
   "bundesliga håndbold": {
     "backdrop": null,
     "poster": null,
@@ -4648,6 +4653,11 @@
     "backdrop": null,
     "poster": null,
     "ts": 1788331239.4163804
+  },
+  "bundesliga: hamburger sv - mainz": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1788589745.3956106
   },
   "burgen, wälder, nebelfelder -thüringen nonstop": {
     "backdrop": null,
@@ -7664,6 +7674,16 @@
     "poster": "https://image.tmdb.org/t/p/w500/i7kzy8Wq7MpKDtjHZvmVttN4buJ.jpg",
     "ts": 1786716223.8422716
   },
+  "discover a club: discover eintracht frankfurt": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1788589745.206503
+  },
+  "discover eintracht frankfurt": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1788589742.1744177
+  },
   "discovering with charlie & the numbers": {
     "backdrop": null,
     "poster": null,
@@ -9654,6 +9674,11 @@
     "poster": null,
     "ts": 1788414391.6948354
   },
+  "f2: italiens grand prix - feature race": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1788589744.9370441
+  },
   "f2: italiens grand prix - kvalifikation": {
     "backdrop": null,
     "poster": null,
@@ -9668,6 +9693,11 @@
     "backdrop": null,
     "poster": null,
     "ts": 1788414391.1841588
+  },
+  "f3: italiens grand prix - feature race": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1788589744.6284084
   },
   "f3: italiens grand prix - kvalifikation": {
     "backdrop": null,
@@ -11360,9 +11390,9 @@
     "ts": 1786716322.5339317
   },
   "før superligaen": {
-    "backdrop": "https://image.tmdb.org/t/p/w1280/6e4UQdIIv103kYsPdKJZxjAxGCw.jpg",
-    "poster": "https://image.tmdb.org/t/p/w500/akrFmFaSfzbYjC31UU7twB3mdp6.jpg",
-    "ts": 1785930362.0525064
+    "backdrop": "https://image.tmdb.org/t/p/w1280/6TNZdG9lRP6ECdAIArYgJ5qa7kX.jpg",
+    "poster": null,
+    "ts": 1788589742.9156046
   },
   "før søndagen": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/uOIKqNZUlAWz519AGuJtDhFPZ7d.jpg",
@@ -20954,6 +20984,11 @@
     "poster": null,
     "ts": 1785845434.1453621
   },
+  "nordfra - en surfer vender hjem": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1788589741.9910276
+  },
   "nordfrankreich von oben": {
     "backdrop": null,
     "poster": null,
@@ -25058,6 +25093,11 @@
     "backdrop": null,
     "poster": null,
     "ts": 1788517059.206416
+  },
+  "serie a: juventus-ac milan": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1788589746.3602216
   },
   "serie a: juventus-parma": {
     "backdrop": null,
