@@ -442,8 +442,8 @@
     "poster": "EFL Championship.jpg"
   },
   "f1": {
-    "backdrop": "Formel 1.jpg",
-    "poster": "Formel 1.jpg"
+    "backdrop": "F1.jpg",
+    "poster": "F1.jpg"
   },
   "f1 qualification": {
     "backdrop": "F1.jpg",
@@ -814,8 +814,12 @@
     "poster": "Premier League Review of the Season.jpg"
   },
   "premier league studie": {
-    "backdrop": "Premier League.jpg",
-    "poster": "Premier League.jpg"
+    "backdrop": "Premier League Studie.jpg",
+    "poster": "Premier League Studie.jpg"
+  },
+  "premier league studie: arsenal - chelsea": {
+    "backdrop": "Premier League-studiet.jpg",
+    "poster": "Premier League-studiet.jpg"
   },
   "premier league studie: hull - aston villa": {
     "backdrop": "Premier League.jpg",
@@ -924,6 +928,10 @@
   "sky sports: deadline day": {
     "backdrop": "Sky Sports Deadline Day.jpg",
     "poster": "Sky Sports Deadline Day.jpg"
+  },
+  "sky sports: ref watch": {
+    "backdrop": "Sky Sports Ref Watch.jpg",
+    "poster": "Sky Sports Ref Watch.jpg"
   },
   "sky sports: soccer saturday": {
     "backdrop": "Sky Sports Soccer Saturday.jpg",
