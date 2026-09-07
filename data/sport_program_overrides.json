@@ -67,6 +67,10 @@
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
   },
+  "3f superliga: fc midtjylland-fc nordsjælland": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
   "3f superliga: fc nordsjælland - brøndby if": {
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
@@ -76,6 +80,10 @@
     "poster": "Før Superligaen.jpg"
   },
   "3f superliga: før f.c. københavn-sønderjyske": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
+  "3f superliga: før fc midtjylland-fc nordsjælland": {
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
   },
@@ -129,6 +137,10 @@
     "backdrop": "A-Liga.jpg",
     "poster": "A-Liga.jpg"
   },
+  "a-liga: efter kolding if-brøndby if": {
+    "backdrop": "A-Liga.jpg",
+    "poster": "A-Liga.jpg"
+  },
   "a-liga: fc midtjylland-asa, aarhus": {
     "backdrop": "A-Liga.jpg",
     "poster": "A-Liga.jpg"
@@ -146,6 +158,14 @@
     "poster": "A-Liga.jpg"
   },
   "a-liga: før brøndby if-f.c. københavn": {
+    "backdrop": "A-Liga.jpg",
+    "poster": "A-Liga.jpg"
+  },
+  "a-liga: før kolding if-brøndby if": {
+    "backdrop": "A-Liga.jpg",
+    "poster": "A-Liga.jpg"
+  },
+  "a-liga: kolding if-brøndby if": {
     "backdrop": "A-Liga.jpg",
     "poster": "A-Liga.jpg"
   },
@@ -205,6 +225,10 @@
     "backdrop": "ATP Tour Highlights.jpg",
     "poster": "ATP Tour Highlights.jpg"
   },
+  "badminton: an-miyazaki, finale, china masters": {
+    "backdrop": "Badminton.jpg",
+    "poster": "Badminton.jpg"
+  },
   "badminton: antonsen-gunawan, semifinale, china masters": {
     "backdrop": "Badminton.jpg",
     "poster": "Badminton.jpg"
@@ -221,6 +245,10 @@
     "backdrop": "Badminton.jpg",
     "poster": "Badminton.jpg"
   },
+  "badminton: bao/cao-nakade/takahashi, finale, china masters": {
+    "backdrop": "Badminton.jpg",
+    "poster": "Badminton.jpg"
+  },
   "badminton: china masters": {
     "backdrop": "Badminton.jpg",
     "poster": "Badminton.jpg"
@@ -233,7 +261,19 @@
     "backdrop": "Badminton.jpg",
     "poster": "Badminton.jpg"
   },
+  "badminton: feng/huang-hoo/lai, finale, china masters": {
+    "backdrop": "Badminton.jpg",
+    "poster": "Badminton.jpg"
+  },
   "badminton: finale, china masters": {
+    "backdrop": "Badminton.jpg",
+    "poster": "Badminton.jpg"
+  },
+  "badminton: gunawan-lee, finale, china masters": {
+    "backdrop": "Badminton.jpg",
+    "poster": "Badminton.jpg"
+  },
+  "badminton: he/ren-rankireddy/shetty, finale, china masters": {
     "backdrop": "Badminton.jpg",
     "poster": "Badminton.jpg"
   },
@@ -369,6 +409,10 @@
     "backdrop": "Champions Hockey League.jpg",
     "poster": "Champions Hockey League.jpg"
   },
+  "champions league goal show: uefa champions league goalshow": {
+    "backdrop": "UEFA Champions League Goal Show.jpg",
+    "poster": "UEFA Champions League Goal Show.jpg"
+  },
   "champions league weekly": {
     "backdrop": "Champions League Weekly.jpg",
     "poster": "Champions League Weekly.jpg"
@@ -382,8 +426,8 @@
     "poster": "TMDb"
   },
   "cykling: jørgen leths mindeløb": {
-    "backdrop": "TV_2_Sport_X.jpg",
-    "poster": "TV_2_Sport_X.jpg"
+    "backdrop": "Cykling-generic.jpg",
+    "poster": "Cykling-generic.jpg"
   },
   "cykling: tour de france (k)": {
     "backdrop": "Cykling Tour de France Femmes.jpg",
@@ -678,16 +722,16 @@
     "poster": "EFL Championship Highligts.jpg"
   },
   "indycar": {
-    "backdrop": "IndyCar.jpg",
-    "poster": "IndyCar.jpg"
+    "backdrop": "IndyCar1.jpg",
+    "poster": "IndyCar1.jpg"
   },
   "indycar: freedom 250 grand prix of washington, d.c.": {
     "backdrop": "IndyCar.jpg",
     "poster": "IndyCar.jpg"
   },
   "indycar: indycar grabd prix og monterey": {
-    "backdrop": "IndyCar.jpg",
-    "poster": "IndyCar.jpg"
+    "backdrop": "IndyCar1.jpg",
+    "poster": "IndyCar1.jpg"
   },
   "indycar: snap-on makers and fixers 250 - løb 1": {
     "backdrop": "IndyCar.jpg",
@@ -780,6 +824,10 @@
   "onside: onside: krise i agf og fc nordsjælland som guldbejler?": {
     "backdrop": "Onside.jpg",
     "poster": "Onside.jpg"
+  },
+  "optakt til champions league: real madrid - inter": {
+    "backdrop": "UEFA Champions League.jpg",
+    "poster": "UEFA Champions League.jpg"
   },
   "overtime": {
     "backdrop": null,
@@ -925,6 +973,10 @@
     "backdrop": "Fodbold Serie A.jpg",
     "poster": "Fodbold Serie A.jpg"
   },
+  "serie a: udinese-lazio": {
+    "backdrop": "Serie A.jpg",
+    "poster": "Serie A.jpg"
+  },
   "sky sports: deadline day": {
     "backdrop": "Sky Sports Deadline Day.jpg",
     "poster": "Sky Sports Deadline Day.jpg"
@@ -1049,6 +1101,54 @@
     "backdrop": "TV-Udbruddet.jpg",
     "poster": "TV-Udbruddet.jpg"
   },
+  "uefa champions league": {
+    "backdrop": "UEFA Champions League.jpg",
+    "poster": "UEFA Champions League.jpg"
+  },
+  "uefa champions league goal show": {
+    "backdrop": "UEFA Champions League Goal Show.jpg",
+    "poster": "UEFA Champions League Goal Show.jpg"
+  },
+  "uefa champions league goal show: uefa champions league goalshow": {
+    "backdrop": "UEFA Champions League Goal Show.jpg",
+    "poster": "UEFA Champions League Goal Show.jpg"
+  },
+  "uefa champions league pre-studio": {
+    "backdrop": "UEFA Champions League.jpg",
+    "poster": "UEFA Champions League.jpg"
+  },
+  "uefa champions league pre-studio: real madrid - inter": {
+    "backdrop": "UEFA Champions League.jpg",
+    "poster": "UEFA Champions League.jpg"
+  },
+  "uefa champions league: aek athen - lask linz": {
+    "backdrop": "UEFA Champions League.jpg",
+    "poster": "UEFA Champions League.jpg"
+  },
+  "uefa champions league: club brugge - aston villa": {
+    "backdrop": "UEFA Champions League.jpg",
+    "poster": "UEFA Champions League.jpg"
+  },
+  "uefa champions league: dortmund - villarreal": {
+    "backdrop": "UEFA Champions League.jpg",
+    "poster": "UEFA Champions League.jpg"
+  },
+  "uefa champions league: fc porto - manchester city": {
+    "backdrop": "UEFA Champions League.jpg",
+    "poster": "UEFA Champions League.jpg"
+  },
+  "uefa champions league: real madrid - inter": {
+    "backdrop": "UEFA Champions League.jpg",
+    "poster": "UEFA Champions League.jpg"
+  },
+  "uefa youth league": {
+    "backdrop": "UEFA Youth League.jpg",
+    "poster": "UEFA Youth League.jpg"
+  },
+  "uefa youth league: real madrid - inter": {
+    "backdrop": "UEFA Youth League.jpg",
+    "poster": "UEFA Youth League.jpg"
+  },
   "var-rummet": {
     "backdrop": "Var-rummet.jpg",
     "poster": "Var-rummet.jpg"
@@ -1102,6 +1202,10 @@
     "poster": "Vuelta a España.jpeg"
   },
   "vuelta a españa: 15. etape": {
+    "backdrop": "Vuelta a España.jpeg",
+    "poster": "Vuelta a España.jpeg"
+  },
+  "vuelta a españa: 16. etape": {
     "backdrop": "Vuelta a España.jpeg",
     "poster": "Vuelta a España.jpeg"
   },

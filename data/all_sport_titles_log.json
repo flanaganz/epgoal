@@ -357,7 +357,7 @@
   "TV 2 Sport Denmark (DK,DA).dk": {
     "AftenVuelta": "AftenVuelta.jpg",
     "Badminton: China Masters - Kampe": "Badminton.jpg",
-    "Cykling: Jørgen Leths Mindeløb": "TV_2_Sport_X.jpg",
+    "Cykling: Jørgen Leths Mindeløb": "Cykling-generic.jpg",
     "Cykling: Vuelta a España": "Vuelta a España.jpeg",
     "Cykling: Vuelta a España - Studiet": "Vuelta a España -  Studiet.jpg",
     "Fodbold: Serie A": "Serie A.jpg",
@@ -367,7 +367,7 @@
   "TV 2 Sport HD (D) (T).dk": {
     "AftenVuelta": "AftenVuelta.jpg",
     "Badminton: China Masters - Kampe": "Badminton.jpg",
-    "Cykling: Jørgen Leths Mindeløb": "TV_2_Sport_X.jpg",
+    "Cykling: Jørgen Leths Mindeløb": "Cykling-generic.jpg",
     "Cykling: Vuelta a España": "Vuelta a España.jpeg",
     "Cykling: Vuelta a España - Studiet": "Vuelta a España -  Studiet.jpg",
     "Fodbold: Serie A": "Serie A.jpg",
@@ -397,8 +397,8 @@
   },
   "TV 2 Sport X.dk": {
     "3F Superliga": "3F Superliga.jpg",
-    "3F Superliga: FC Midtjylland-FC Nordsjælland": "Fodbold.jpg",
-    "3F Superliga: Før FC Midtjylland-FC Nordsjælland": "Fodbold.jpg",
+    "3F Superliga: FC Midtjylland-FC Nordsjælland": "3F Superliga.jpg",
+    "3F Superliga: Før FC Midtjylland-FC Nordsjælland": "3F Superliga.jpg",
     "3F Superliga: Odense Boldklub-F.C. København": "3F Superliga.jpg",
     "3F Superliga: Sønderjyske-AC Horsens": "3F Superliga.jpg",
     "3F Superliga: Totalfodbold": "3F Superliga.jpg",
@@ -426,7 +426,7 @@
     "Badminton: Feng/Huang-Hoo/Lai, finale, China Masters": "Badminton.jpg",
     "Badminton: Gunawan-Lee, finale, China Masters": "Badminton.jpg",
     "Badminton: He/Ren-Rankireddy/Shetty, finale, China Masters": "Badminton.jpg",
-    "Cykling: Jørgen Leths Mindeløb": "TV_2_Sport_X.jpg",
+    "Cykling: Jørgen Leths Mindeløb": "Cykling-generic.jpg",
     "Cykling: Vuelta a España": "Vuelta a España.jpeg",
     "Cykling: Vuelta a España - Studiet": "Vuelta a España -  Studiet.jpg",
     "Fodbold: Serie A": "Serie A.jpg",
@@ -436,11 +436,11 @@
     "Kvindeligaen": "Kvindeligaen.jpg",
     "Kvindeligaen: Ikast-Viborg": "Kvindeligaen.jpg",
     "Kvindeligaen: Nykøbing F.-Team Esbjerg": "Kvindeligaen.jpg",
-    "Serie A: Udinese-Lazio": "tv2sport-generic.jpg",
+    "Serie A: Udinese-Lazio": "Serie A.jpg",
     "Vuelta a España: 13. etape": "Vuelta a España.jpeg",
     "Vuelta a España: 14. etape": "Vuelta a España.jpeg",
     "Vuelta a España: 15. etape": "Vuelta a España.jpeg",
-    "Vuelta a España: 16. etape": "Cykling-generic.jpg",
+    "Vuelta a España: 16. etape": "Vuelta a España.jpeg",
     "Vuelta a España: Studiet": "Vuelta a España -  Studiet.jpg"
   },
   "TV 2.dk": {
@@ -484,8 +484,8 @@
     "Shipping Wars": "(intet billede)",
     "Skrotjægerne": "(intet billede)",
     "The Grand Tour": "(intet billede)",
-    "UEFA Champions League: AEK Athen - LASK Linz": "Fodbold.jpg",
-    "UEFA Champions League: Dortmund - Villarreal": "Fodbold.jpg"
+    "UEFA Champions League: AEK Athen - LASK Linz": "UEFA Champions League.jpg",
+    "UEFA Champions League: Dortmund - Villarreal": "UEFA Champions League.jpg"
   },
   "TV3 Max Denmark (DK,DA).dk": {
     "Ax Men": "(intet billede)",
@@ -500,7 +500,7 @@
     "Shipping Wars": "(intet billede)",
     "Skrotjægerne": "(intet billede)",
     "The Grand Tour": "(intet billede)",
-    "UEFA Champions League": "Fodbold.jpg"
+    "UEFA Champions League": "UEFA Champions League.jpg"
   },
   "TV3 Max.dk": {
     "Ax Men": "(intet billede)",
@@ -516,9 +516,9 @@
     "Shipping Wars": "(intet billede)",
     "Skrotjægerne": "(intet billede)",
     "The Grand Tour": "(intet billede)",
-    "UEFA Champions League": "Fodbold.jpg",
-    "UEFA Champions League: AEK Athen - LASK Linz": "Fodbold.jpg",
-    "UEFA Champions League: Dortmund - Villarreal": "Fodbold.jpg"
+    "UEFA Champions League": "UEFA Champions League.jpg",
+    "UEFA Champions League: AEK Athen - LASK Linz": "UEFA Champions League.jpg",
+    "UEFA Champions League: Dortmund - Villarreal": "UEFA Champions League.jpg"
   },
   "TV3 Sport Denmark (DK,DA).dk": {
     "3F Superliga": "3F Superliga.jpg",
@@ -527,26 +527,26 @@
     "Formel 1": "F1.jpg",
     "Formel 1 360°": "TMDb",
     "Højdepunkter fra Dansk Motorsport": "Højdepunkter fra Dansk Motorsport.jpg",
-    "IndyCar": "IndyCar.jpg",
+    "IndyCar": "IndyCar1.jpg",
     "Onside": "Onside.jpg",
     "Premier League": "Premier League.jpg",
-    "UEFA Champions League": "Fodbold.jpg",
-    "UEFA Champions League Goal Show": "Fodbold.jpg",
-    "UEFA Youth League": "tv3sport-generic.jpg"
+    "UEFA Champions League": "UEFA Champions League.jpg",
+    "UEFA Champions League Goal Show": "UEFA Champions League Goal Show.jpg",
+    "UEFA Youth League": "UEFA Youth League.jpg"
   },
   "TV3 Sport HD (D) (T).dk": {
     "1. Division Magasinet": "Betinia LIGA Magasinet.jpg",
     "F1": "F1.jpg",
     "Formel 1 360°": "TMDb",
-    "IndyCar": "IndyCar.jpg",
+    "IndyCar": "IndyCar1.jpg",
     "Onside": "Onside.jpg",
     "Premier League": "Premier League.jpg",
     "Premier League Studie": "Premier League Studie.jpg",
     "RaceTV.dk": "RaceTV_DK.jpg",
     "Superliga": "3F Superliga.jpg",
-    "UEFA Champions League": "Fodbold.jpg",
-    "UEFA Champions League Goal Show": "Fodbold.jpg",
-    "UEFA Youth League": "tv3sport-generic.jpg"
+    "UEFA Champions League": "UEFA Champions League.jpg",
+    "UEFA Champions League Goal Show": "UEFA Champions League Goal Show.jpg",
+    "UEFA Youth League": "UEFA Youth League.jpg"
   },
   "TV3 Sport.dk": {
     "1. Division Magasinet: Betinia LIGA Magasinet": "Betinia LIGA Magasinet.jpg",
@@ -557,22 +557,22 @@
     "Formel 1": "F1.jpg",
     "Formel 1 360°": "TMDb",
     "Højdepunkter fra Dansk Motorsport": "Højdepunkter fra Dansk Motorsport.jpg",
-    "IndyCar": "IndyCar.jpg",
-    "IndyCar: IndyCar Grabd Prix og Monterey": "IndyCar.jpg",
+    "IndyCar": "IndyCar1.jpg",
+    "IndyCar: IndyCar Grabd Prix og Monterey": "IndyCar1.jpg",
     "Onside": "Onside.jpg",
     "Premier League": "Premier League.jpg",
     "Premier League Studie: Arsenal - Chelsea": "Premier League-studiet.jpg",
     "Premier League: Arsenal - Chelsea": "Premier League.jpg",
     "Premier League: Everton - Manchester United": "Premier League.jpg",
     "Superliga: Brøndby IF - Randers FC": "3F Superliga.jpg",
-    "UEFA Champions League": "Fodbold.jpg",
-    "UEFA Champions League Goal Show": "Fodbold.jpg",
-    "UEFA Champions League Goal Show: UEFA Champions League Goalshow": "Fodbold.jpg",
-    "UEFA Champions League: Club Brugge - Aston Villa": "Fodbold.jpg",
-    "UEFA Champions League: FC Porto - Manchester City": "Fodbold.jpg",
-    "UEFA Champions League: Real Madrid - Inter": "Fodbold.jpg",
-    "UEFA Youth League": "tv3sport-generic.jpg",
-    "UEFA Youth League: Real Madrid - Inter": "tv3sport-generic.jpg"
+    "UEFA Champions League": "UEFA Champions League.jpg",
+    "UEFA Champions League Goal Show": "UEFA Champions League Goal Show.jpg",
+    "UEFA Champions League Goal Show: UEFA Champions League Goalshow": "UEFA Champions League Goal Show.jpg",
+    "UEFA Champions League: Club Brugge - Aston Villa": "UEFA Champions League.jpg",
+    "UEFA Champions League: FC Porto - Manchester City": "UEFA Champions League.jpg",
+    "UEFA Champions League: Real Madrid - Inter": "UEFA Champions League.jpg",
+    "UEFA Youth League": "UEFA Youth League.jpg",
+    "UEFA Youth League: Real Madrid - Inter": "UEFA Youth League.jpg"
   },
   "TV3+ Denmark (DK,DA).dk": {
     "Den sidste actionhelt": "(intet billede)",
@@ -588,13 +588,13 @@
     "Road": "(intet billede)",
     "S.W.A.T.": "(intet billede)",
     "Shipping Wars": "(intet billede)",
-    "UEFA Champions League": "Fodbold.jpg",
-    "UEFA Champions League Goal Show": "Fodbold.jpg",
-    "UEFA Champions League Pre-Studio": "Fodbold.jpg",
+    "UEFA Champions League": "UEFA Champions League.jpg",
+    "UEFA Champions League Goal Show": "UEFA Champions League Goal Show.jpg",
+    "UEFA Champions League Pre-Studio": "UEFA Champions League.jpg",
     "Wrong Place": "(intet billede)"
   },
   "TV3+ HD (D) (T).dk": {
-    "Champions League Goal Show: UEFA Champions League Goalshow": "Fodbold.jpg",
+    "Champions League Goal Show: UEFA Champions League Goalshow": "UEFA Champions League Goal Show.jpg",
     "Den sidste actionhelt": "(intet billede)",
     "Enemy of the State": "(intet billede)",
     "Forsvundet sporløst": "(intet billede)",
@@ -602,12 +602,12 @@
     "Lucky!": "(intet billede)",
     "NCIS": "(intet billede)",
     "NCIS: Los Angeles": "(intet billede)",
-    "Optakt til Champions League: Real Madrid - Inter": "Fodbold.jpg",
+    "Optakt til Champions League: Real Madrid - Inter": "UEFA Champions League.jpg",
     "Pacific Blue": "(intet billede)",
     "S.W.A.T.": "(intet billede)",
     "Shipping Wars": "(intet billede)",
     "The Machinery": "(intet billede)",
-    "UEFA Champions League: Real Madrid - Inter": "Fodbold.jpg",
+    "UEFA Champions League: Real Madrid - Inter": "UEFA Champions League.jpg",
     "Wrong Place": "(intet billede)"
   },
   "TV3+.dk": {
@@ -625,12 +625,12 @@
     "S.W.A.T.": "(intet billede)",
     "Shipping Wars": "(intet billede)",
     "The Machinery": "(intet billede)",
-    "UEFA Champions League": "Fodbold.jpg",
-    "UEFA Champions League Goal Show": "Fodbold.jpg",
-    "UEFA Champions League Goal Show: UEFA Champions League Goalshow": "Fodbold.jpg",
-    "UEFA Champions League Pre-Studio": "Fodbold.jpg",
-    "UEFA Champions League Pre-Studio: Real Madrid - Inter": "Fodbold.jpg",
-    "UEFA Champions League: Real Madrid - Inter": "Fodbold.jpg",
+    "UEFA Champions League": "UEFA Champions League.jpg",
+    "UEFA Champions League Goal Show": "UEFA Champions League Goal Show.jpg",
+    "UEFA Champions League Goal Show: UEFA Champions League Goalshow": "UEFA Champions League Goal Show.jpg",
+    "UEFA Champions League Pre-Studio": "UEFA Champions League.jpg",
+    "UEFA Champions League Pre-Studio: Real Madrid - Inter": "UEFA Champions League.jpg",
+    "UEFA Champions League: Real Madrid - Inter": "UEFA Champions League.jpg",
     "Wrong Place": "(intet billede)"
   },
   "Viaplay Sport News HD (D) (T).dk": {
@@ -640,9 +640,9 @@
     "Sport News": "Sport News.jpg",
     "SuperligaTilsynet": "TMDb",
     "TV-Udbruddet": "TV-Udbruddet.jpg",
-    "UEFA Champions League": "Fodbold.jpg",
-    "UEFA Champions League Goal Show": "Fodbold.jpg",
-    "UEFA Champions League Pre-Studio": "Fodbold.jpg"
+    "UEFA Champions League": "UEFA Champions League.jpg",
+    "UEFA Champions League Goal Show": "UEFA Champions League Goal Show.jpg",
+    "UEFA Champions League Pre-Studio": "UEFA Champions League.jpg"
   },
   "Viaplay Sport News.dk": {
     "Danskerklubben": "Danskerklubben.jpg",
@@ -652,9 +652,9 @@
     "Sportstalk": "Sportstalk.jpg",
     "SuperligaTilsynet": "TMDb",
     "TV-Udbruddet": "TV-Udbruddet.jpg",
-    "UEFA Champions League": "Fodbold.jpg",
-    "UEFA Champions League Goal Show": "Fodbold.jpg",
-    "UEFA Champions League Pre-Studio": "Fodbold.jpg",
+    "UEFA Champions League": "UEFA Champions League.jpg",
+    "UEFA Champions League Goal Show": "UEFA Champions League Goal Show.jpg",
+    "UEFA Champions League Pre-Studio": "UEFA Champions League.jpg",
     "Watt the F1!?": "Watt the F1.jpg"
   },
   "dr1.dk": {
