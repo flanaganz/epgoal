@@ -761,6 +761,10 @@
     "backdrop": "Kvindeligaen.jpg",
     "poster": "Kvindeligaen.jpg"
   },
+  "kvindeligaen: odense-nykøbing f.": {
+    "backdrop": "Kvindeligaen.jpg",
+    "poster": "Kvindeligaen.jpg"
+  },
   "kvindeligaen: studiet": {
     "backdrop": "Kvindeligaen.jpg",
     "poster": "Kvindeligaen.jpg"
@@ -817,6 +821,10 @@
     "backdrop": "NFL.jpg",
     "poster": "NFL.jpg"
   },
+  "nfl: seattle seahawks-new england patriots": {
+    "backdrop": "NFL.jpg",
+    "poster": "NFL.jpg"
+  },
   "onside": {
     "backdrop": "Onside.jpg",
     "poster": "Onside.jpg"
@@ -824,6 +832,10 @@
   "onside: onside: krise i agf og fc nordsjælland som guldbejler?": {
     "backdrop": "Onside.jpg",
     "poster": "Onside.jpg"
+  },
+  "optakt til champions league: liverpool - atletico madrid": {
+    "backdrop": "UEFA Champions League.jpg",
+    "poster": "UEFA Champions League.jpg"
   },
   "optakt til champions league: real madrid - inter": {
     "backdrop": "UEFA Champions League.jpg",
@@ -1009,6 +1021,10 @@
     "backdrop": "Sporten.jpg",
     "poster": "Sporten.jpg"
   },
+  "sportsnyhederne": {
+    "backdrop": "Sporten.jpg",
+    "poster": "Sporten.jpg"
+  },
   "sportstalk": {
     "backdrop": "Sportstalk.jpg",
     "poster": "Sportstalk.jpg"
@@ -1117,6 +1133,10 @@
     "backdrop": "UEFA Champions League.jpg",
     "poster": "UEFA Champions League.jpg"
   },
+  "uefa champions league pre-studio: liverpool - atletico madrid": {
+    "backdrop": "UEFA Champions League.jpg",
+    "poster": "UEFA Champions League.jpg"
+  },
   "uefa champions league pre-studio: real madrid - inter": {
     "backdrop": "UEFA Champions League.jpg",
     "poster": "UEFA Champions League.jpg"
@@ -1133,7 +1153,19 @@
     "backdrop": "UEFA Champions League.jpg",
     "poster": "UEFA Champions League.jpg"
   },
+  "uefa champions league: fc barcelona - feyenoord": {
+    "backdrop": "UEFA Champions League.jpg",
+    "poster": "UEFA Champions League.jpg"
+  },
   "uefa champions league: fc porto - manchester city": {
+    "backdrop": "UEFA Champions League.jpg",
+    "poster": "UEFA Champions League.jpg"
+  },
+  "uefa champions league: liverpool - atletico madrid": {
+    "backdrop": "UEFA Champions League.jpg",
+    "poster": "UEFA Champions League.jpg"
+  },
+  "uefa champions league: paris saint-germain - slovan bratislava": {
     "backdrop": "UEFA Champions League.jpg",
     "poster": "UEFA Champions League.jpg"
   },
@@ -1141,7 +1173,19 @@
     "backdrop": "UEFA Champions League.jpg",
     "poster": "UEFA Champions League.jpg"
   },
+  "uefa champions league: sporting lissabon - galatasaray": {
+    "backdrop": "UEFA Champions League.jpg",
+    "poster": "UEFA Champions League.jpg"
+  },
+  "uefa champions league: stuttgart - viking stavanger": {
+    "backdrop": "UEFA Champions League.jpg",
+    "poster": "UEFA Champions League.jpg"
+  },
   "uefa youth league": {
+    "backdrop": "UEFA Youth League.jpg",
+    "poster": "UEFA Youth League.jpg"
+  },
+  "uefa youth league: liverpool - atletico madrid": {
     "backdrop": "UEFA Youth League.jpg",
     "poster": "UEFA Youth League.jpg"
   },
@@ -1206,6 +1250,10 @@
     "poster": "Vuelta a España.jpeg"
   },
   "vuelta a españa: 16. etape": {
+    "backdrop": "Vuelta a España.jpeg",
+    "poster": "Vuelta a España.jpeg"
+  },
+  "vuelta a españa: 17. etape": {
     "backdrop": "Vuelta a España.jpeg",
     "poster": "Vuelta a España.jpeg"
   },

@@ -417,7 +417,7 @@
     "Håndbold (m): Håndboldligaen - Kampe": "Herreligaen.jpg",
     "Håndbold: Liga Håndbold - studiet": "Håndbold Herreligaen.jpg",
     "Kvindeligaen": "Kvindeligaen.jpg",
-    "Kvindeligaen: Odense-Nykøbing F.": "tv2sport-generic.jpg",
+    "Kvindeligaen: Odense-Nykøbing F.": "Kvindeligaen.jpg",
     "Kvindeligaen: Studiet": "Kvindeligaen.jpg",
     "NFL": "NFL.jpg",
     "NFL: Seattle Seahawks-New England Patriots": "NFL.jpg",
@@ -426,7 +426,7 @@
     "Vuelta a España: 14. etape": "Vuelta a España.jpeg",
     "Vuelta a España: 15. etape": "Vuelta a España.jpeg",
     "Vuelta a España: 16. etape": "Vuelta a España.jpeg",
-    "Vuelta a España: 17. etape": "Cykling-generic.jpg",
+    "Vuelta a España: 17. etape": "Vuelta a España.jpeg",
     "Vuelta a España: Studiet": "Vuelta a España -  Studiet.jpg"
   },
   "TV 2.dk": {
@@ -453,7 +453,7 @@
     "Nyhederne, Sporten og Vejret": "(intet billede)",
     "Regionale nyheder": "(intet billede)",
     "Regionalprogram": "(intet billede)",
-    "Sportsnyhederne": "(intet billede)",
+    "Sportsnyhederne": "Sporten.jpg",
     "Sæt pris på Danmark": "(intet billede)",
     "Vandkant til salg": "(intet billede)"
   },
@@ -470,7 +470,7 @@
     "Skrotjægerne": "(intet billede)",
     "UEFA Champions League: AEK Athen - LASK Linz": "UEFA Champions League.jpg",
     "UEFA Champions League: Dortmund - Villarreal": "UEFA Champions League.jpg",
-    "UEFA Champions League: Sporting Lissabon - Galatasaray": "Fodbold.jpg"
+    "UEFA Champions League: Sporting Lissabon - Galatasaray": "UEFA Champions League.jpg"
   },
   "TV3 Max Denmark (DK,DA).dk": {
     "Ax Men": "(intet billede)",
@@ -500,7 +500,7 @@
     "UEFA Champions League": "UEFA Champions League.jpg",
     "UEFA Champions League: AEK Athen - LASK Linz": "UEFA Champions League.jpg",
     "UEFA Champions League: Dortmund - Villarreal": "UEFA Champions League.jpg",
-    "UEFA Champions League: Sporting Lissabon - Galatasaray": "Fodbold.jpg"
+    "UEFA Champions League: Sporting Lissabon - Galatasaray": "UEFA Champions League.jpg"
   },
   "TV3 Sport Denmark (DK,DA).dk": {
     "3F Superliga": "3F Superliga.jpg",
@@ -538,12 +538,12 @@
     "UEFA Champions League: Club Brugge - Aston Villa": "UEFA Champions League.jpg",
     "UEFA Champions League: Dortmund - Villarreal": "UEFA Champions League.jpg",
     "UEFA Champions League: FC Porto - Manchester City": "UEFA Champions League.jpg",
-    "UEFA Champions League: Liverpool - Atletico Madrid": "Fodbold.jpg",
-    "UEFA Champions League: Paris Saint-Germain - Slovan Bratislava": "Fodbold.jpg",
+    "UEFA Champions League: Liverpool - Atletico Madrid": "UEFA Champions League.jpg",
+    "UEFA Champions League: Paris Saint-Germain - Slovan Bratislava": "UEFA Champions League.jpg",
     "UEFA Champions League: Real Madrid - Inter": "UEFA Champions League.jpg",
-    "UEFA Champions League: Stuttgart - Viking Stavanger": "Fodbold.jpg",
+    "UEFA Champions League: Stuttgart - Viking Stavanger": "UEFA Champions League.jpg",
     "UEFA Youth League": "UEFA Youth League.jpg",
-    "UEFA Youth League: Liverpool - Atletico Madrid": "tv3sport-generic.jpg",
+    "UEFA Youth League: Liverpool - Atletico Madrid": "UEFA Youth League.jpg",
     "UEFA Youth League: Real Madrid - Inter": "UEFA Youth League.jpg"
   },
   "TV3+ Denmark (DK,DA).dk": {
@@ -571,15 +571,15 @@
     "Lucky!": "(intet billede)",
     "NCIS": "(intet billede)",
     "NCIS: Los Angeles": "(intet billede)",
-    "Optakt til Champions League: Liverpool - Atletico Madrid": "Fodbold.jpg",
+    "Optakt til Champions League: Liverpool - Atletico Madrid": "UEFA Champions League.jpg",
     "Optakt til Champions League: Real Madrid - Inter": "UEFA Champions League.jpg",
     "Pacific Blue": "(intet billede)",
     "S.W.A.T.": "(intet billede)",
     "Shipping Wars": "(intet billede)",
     "SuperligaTilsynet": "TMDb",
     "The Machinery": "(intet billede)",
-    "UEFA Champions League: FC Barcelona - Feyenoord": "Fodbold.jpg",
-    "UEFA Champions League: Liverpool - Atletico Madrid": "Fodbold.jpg",
+    "UEFA Champions League: FC Barcelona - Feyenoord": "UEFA Champions League.jpg",
+    "UEFA Champions League: Liverpool - Atletico Madrid": "UEFA Champions League.jpg",
     "UEFA Champions League: Real Madrid - Inter": "UEFA Champions League.jpg",
     "Wrong Place": "(intet billede)"
   },
@@ -600,10 +600,10 @@
     "UEFA Champions League Goal Show": "UEFA Champions League Goal Show.jpg",
     "UEFA Champions League Goal Show: UEFA Champions League Goalshow": "UEFA Champions League Goal Show.jpg",
     "UEFA Champions League Pre-Studio": "UEFA Champions League.jpg",
-    "UEFA Champions League Pre-Studio: Liverpool - Atletico Madrid": "Fodbold.jpg",
+    "UEFA Champions League Pre-Studio: Liverpool - Atletico Madrid": "UEFA Champions League.jpg",
     "UEFA Champions League Pre-Studio: Real Madrid - Inter": "UEFA Champions League.jpg",
-    "UEFA Champions League: FC Barcelona - Feyenoord": "Fodbold.jpg",
-    "UEFA Champions League: Liverpool - Atletico Madrid": "Fodbold.jpg",
+    "UEFA Champions League: FC Barcelona - Feyenoord": "UEFA Champions League.jpg",
+    "UEFA Champions League: Liverpool - Atletico Madrid": "UEFA Champions League.jpg",
     "UEFA Champions League: Real Madrid - Inter": "UEFA Champions League.jpg",
     "Wrong Place": "(intet billede)"
   },
