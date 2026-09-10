@@ -1,0 +1,219 @@
+KANAL-ID | PROGRAMMER | DISPLAY-NAME
+========================================================================================================================
+3Sat.dk | 150 | 3Sat
+6'eren.dk | 103 | 6'eren
+ARD.dk | 139 | ARD
+ARTE.dk | 118 | ARTE
+Abu.Dhabi.TV.dk | 0 | Abu Dhabi TV
+Al.Aoula.dk | 0 | Al Aoula
+Al.Jazeera.Engelsk.dk | 153 | Al Jazeera Engelsk
+Al.Jazeera.dk | 4 | Al Jazeera
+Al.Masriyah.dk | 0 | Al Masriyah
+Animal.Planet.dk | 112 | Animal Planet
+BBC.Earth.dk | 0 | BBC Earth
+BBC.HD.dk | 0 | BBC HD
+BBC.News.dk | 226 | BBC News
+BBC.Nordic+.dk | 4 | BBC Nordic+
+BBC.Nordic.dk | 141 | BBC Nordic
+Beboer-tv.dk | 4 | Beboer-tv
+Bloomberg.News.dk | 99 | Bloomberg News
+Blue.Hustler.dk | 41 | Blue Hustler
+C.MORE.VOD.dk | 0 | C MORE VOD
+C.More.First.dk | 0 | C More First
+C.More.Hits.dk | 0 | C More Hits
+C.More.Series.dk | 0 | C More Series
+C.More.Stars.dk | 0 | C More Stars
+C.More.dk | 4 | C More
+CBS.Reality.dk | 0 | CBS Reality
+CCTV.4.dk | 4 | CCTV 4
+CNBC.dk | 166 | CNBC
+CNN.dk | 118 | CNN
+Canal.9.dk | 97 | Canal 9
+Cartoon.Network.dk | 472 | Cartoon Network
+Cartoonito.dk | 598 | Cartoonito
+DR.Ramasjang.dk | 7 | DR Ramasjang
+DR.VOD.bibliotek.dk | 0 | DR VOD bibliotek
+DR1.Synstolkning.dk | 122 | DR1 Synstolkning
+DR1.dk | 122 | DR1
+DR2.Synstolkning.dk | 95 | DR2 Synstolkning
+DR2.dk | 95 | DR2
+DRTV.dk | 4 | DRTV
+DanmarkC.TV.dk | 4 | DanmarkC TV
+Dansk.Filmskat.Tv.dk | 4 | Dansk Filmskat Tv
+Dansk.Filmskat.VOD.dk | 0 | Dansk Filmskat VOD
+Dansk.Filmskat.dk | 4 | Dansk Filmskat
+Discovery.Channel.dk | 97 | Discovery Channel
+Discovery.Science.dk | 4 | Discovery Science
+Disney+.NKU25.dk | 0 | Disney+ NKU25
+Disney+.Premium.dk | 0 | Disney+ Premium
+Disney+.Standard.dk | 0 | Disney+ Standard
+Disney+.Standard.med.reklamer.dk | 0 | Disney+ Standard med reklamer
+Disney+.dk | 0 | Disney+
+Disney.Channel.dk | 321 | Disney Channel
+Disney.Junior.dk | 0 | Disney Junior
+Disney.Pakken.dk | 0 | Disney Pakken
+Dit.Lokal.TV.dk | 4 | Dit Lokal TV
+EDTV.-.Dubai.TV.dk | 4 | EDTV - Dubai TV
+EuroSport.2.HD.dk | 0 | EuroSport 2 HD
+Euronews.dk | 345 | Euronews
+Eurosport.1.dk | 57 | Eurosport 1
+Eurosport.2.dk | 53 | Eurosport 2
+Eventkanalen.dk | 4 | Eventkanalen
+FOLKETINGET.dk | 36 | FOLKETINGET
+FOX.VOD.dk | 0 | FOX VOD
+Fox+.dk | 0 | Fox+
+France.2.dk | 150 | France 2
+GVD.Info.dk | 4 | GVD Info
+HAS-TV.dk | 0 | HAS-TV
+HBO.Max.Basis.med.reklamer.+.Sport.dk | 0 | HBO Max Basis med reklamer + Sport
+HBO.Max.Basis.med.reklamer.dk | 0 | HBO Max Basis med reklamer
+HBO.Max.Premium.+.Sport.dk | 0 | HBO Max Premium + Sport
+HBO.Max.Premium.dk | 0 | HBO Max Premium
+HBO.Max.Standard.+.Sport.dk | 4 | HBO Max Standard + Sport
+HBO.Max.Standard.dk | 4 | HBO Max Standard
+HBO.Max.dk | 0 | HBO Max
+HBO.Nordic.Tv.dk | 0 | HBO Nordic Tv
+HBO.dk | 0 | HBO
+HISTORY.dk | 127 | HISTORY
+HISTORY2.dk | 129 | HISTORY2
+HaIP.test.1.dk | 0 | HaIP test 1
+HaIP.test.2.dk | 0 | HaIP test 2
+HaIP.test.3.dk | 0 | HaIP test 3
+HaIP.test.4.dk | 4 | HaIP test 4
+Infokanalen.dk | 97 | Infokanalen
+Investigation.Discovery.dk | 99 | Investigation Discovery
+Jordan.TV.dk | 0 | Jordan TV
+Kabelfødt.lokal-tv.dk | 4 | Kabelfødt lokal-tv
+Kanal.4.dk | 116 | Kanal 4
+Kanal.5.dk | 96 | Kanal 5
+Kanal.Bornholm/Tegnsprog.dk | 16 | Kanal Bornholm/Tegnsprog
+Kanal.Fyn/Tegnsprog.dk | 97 | Kanal Fyn/Tegnsprog
+Kanal.Hovedstaden/Tegnsprog.dk | 50 | Kanal Hovedstaden/Tegnsprog
+Kanal.Midtvest/Tegnsprog.dk | 85 | Kanal Midtvest/Tegnsprog
+Kanal.Nord/Tegnsprog.dk | 85 | Kanal Nord/Tegnsprog
+Kanal.Syd/Tegnsprog.dk | 21 | Kanal Syd/Tegnsprog
+Kanal.Øst/Tegnsprog.dk | 79 | Kanal Øst/Tegnsprog
+Kanal.Østjylland/Tegnsprog.dk | 47 | Kanal Østjylland/Tegnsprog
+Kanalen/Tegnsprog.dk | 0 | Kanalen/Tegnsprog
+Kosmopol.dk | 160 | Kosmopol
+Kurdisk.TV.dk | 0 | Kurdisk TV
+Køge.tv.dk | 4 | Køge.tv
+Lokal.infokanal.2.dk | 4 | Lokal infokanal 2
+Lokalt.program.dk | 4 | Lokalt program
+MDR.dk | 4 | MDR
+MINBIO.VOD.dk | 0 | MINBIO VOD
+MTV.80s.dk | 4 | MTV 80s
+MTV.90s.dk | 2 | MTV 90s
+MTV.Hits.dk | 2 | MTV Hits
+MTV.dk | 176 | MTV
+Mezzo.dk | 49 | Mezzo
+Min.Bio.Tv.dk | 0 | Min Bio Tv
+Min.Bio.dk | 4 | Min Bio
+Motorvision.TV.dk | 179 | Motorvision TV
+MyZen.TV.dk | 145 | MyZen TV
+NDR.dk | 161 | NDR
+NRK1.dk | 114 | NRK1
+NRK2.dk | 173 | NRK2
+NatGeo+.dk | 0 | NatGeo+
+National.Geographic.Now.dk | 4 | National Geographic Now
+National.Geographic.Wild.dk | 137 | National Geographic Wild
+National.Geographic.dk | 97 | National Geographic
+Netflix.dk | 0 | Netflix
+Nick+.dk | 4 | Nick+
+Nick.Jr..dk | 297 | Nick Jr.
+Nick.Music.dk | 4 | Nick Music
+Nickelodeon.dk | 250 | Nickelodeon
+Nicktoons.dk | 275 | Nicktoons
+Nordisk.Film+.Tv.dk | 4 | Nordisk Film+ Tv
+Nordisk.Film+.dk | 4 | Nordisk Film+
+Nordisk.film.VOD.dk | 0 | Nordisk film VOD
+OTT.1.dk | 122 | OTT 1
+OTT.2.dk | 108 | OTT 2
+OTT.3.dk | 107 | OTT 3
+OTT.4.dk | 49 | OTT 4
+Prime.Video.dk | 0 | Prime Video
+ProSieben.dk | 142 | ProSieben
+RTCG.dk | 0 | RTCG
+RTL.dk | 97 | RTL
+RTL.ll.dk | 4 | RTL ll
+Radio.dk | 0 | Radio
+Rai.1.dk | 125 | Rai 1
+SF.Anytime.dk | 4 | SF Anytime
+SKYSHOWTIME.SVOD.dk | 0 | SKYSHOWTIME SVOD
+SPORT.LIVE.dk | 64 | SPORT LIVE
+SVT1.dk | 107 | SVT1
+SVT2.dk | 90 | SVT2
+Sat.1.dk | 86 | Sat.1
+See.VOD.dk | 0 | See VOD
+See.dk | 143 | See
+SkyShowtime.1.dk | 135 | SkyShowtime 1
+SkyShowtime.2.dk | 106 | SkyShowtime 2
+SkyShowtime.Select.dk | 4 | SkyShowtime Select
+SkyShowtime.dk | 4 | SkyShowtime
+Sudan.TV.dk | 0 | Sudan TV
+TLC.dk | 90 | TLC
+TV.2.Charlie.dk | 104 | TV 2 Charlie
+TV.2.Echo.dk | 115 | TV 2 Echo
+TV.2.Fri.dk | 116 | TV 2 Fri
+TV.2.Nabo.dk | 0 | TV 2 Nabo
+TV.2.News.dk | 58 | TV 2 News
+TV.2.Norge.dk | 130 | TV 2 Norge
+TV.2.Play.Favorit.+.Sport.dk | 4 | TV 2 Play Favorit + Sport
+TV.2.Play.dk | 0 | TV 2 Play
+TV.2.Region.dk | 0 | TV 2 Region
+TV.2.Sport.X.dk | 57 | TV 2 Sport X
+TV.2.Sport.dk | 73 | TV 2 Sport
+TV.2.dk | 108 | TV 2
+TV.2/Bornholm.dk | 250 | TV 2/Bornholm
+TV.2/Fyn.dk | 84 | TV 2/Fyn
+TV.MIDTVEST.dk | 170 | TV MIDTVEST
+TV.SYD.dk | 125 | TV SYD
+TV2.NORD.dk | 47 | TV2 NORD
+TV2.ØST.dk | 18 | TV2 ØST
+TV2.Østjylland.dk | 30 | TV2 Østjylland
+TV2APP_BK.dk | 4 | TV2APP_BK
+TV3+.dk | 94 | TV3+
+TV3.MAX.dk | 83 | TV3 MAX
+TV3.Puls.dk | 97 | TV3 Puls
+TV3.SPORT.dk | 65 | TV3 SPORT
+TV3.dk | 84 | TV3
+TV4.dk | 74 | TV4
+TV5MONDE.dk | 246 | TV5MONDE
+TVE.dk | 87 | TVE
+TVP.Polonia.dk | 0 | TVP Polonia
+Thai.TV.Global.Network.dk | 4 | Thai TV Global Network
+Trailerkanalen.dk | 0 | Trailerkanalen
+Travel.Channel.dk | 96 | Travel Channel
+Tv.Aarhus.dk | 0 | Tv Aarhus
+V.film.action.dk | 49 | V film action
+V.film.family.dk | 49 | V film family
+V.film.hits.dk | 49 | V film hits
+V.film.premiere.dk | 49 | V film premiere
+V.series.&.film.dk | 0 | V series & film
+V.series.dk | 160 | V series
+V.sport.golf.dk | 34 | V sport golf
+V.sport.ultra.HD.dk | 25 | V sport ultra HD
+VOX.dk | 103 | VOX
+Viaplay.Champions.League,.Film.&.Serier.dk | 0 | Viaplay Champions League, Film & Serier
+Viaplay.Champions.League,.Film.&.Serier.med.reklam.dk | 0 | Viaplay Champions League, Film & Serier med reklam
+Viaplay.Dansk.Fodbold,.Film.&.Serier.dk | 0 | Viaplay Dansk Fodbold, Film & Serier
+Viaplay.Dansk.Fodbold,.Film.&.Serier.med.reklamer.dk | 0 | Viaplay Dansk Fodbold, Film & Serier med reklamer
+Viaplay.Film.&.Serier.dk | 4 | Viaplay Film & Serier
+Viaplay.Film.&.Serier.med.reklamer.dk | 0 | Viaplay Film & Serier med reklamer
+Viaplay.Premium.dk | 0 | Viaplay Premium
+Viaplay.Premium.med.reklamer.dk | 0 | Viaplay Premium med reklamer
+Viaplay.Sport.1.dk | 26 | Viaplay Sport 1
+Viaplay.Sport.2.dk | 28 | Viaplay Sport 2
+Viaplay.Sport.3.dk | 47 | Viaplay Sport 3
+Viaplay.Sport.News.dk | 73 | Viaplay Sport News
+Viaplay.dk | 0 | Viaplay
+Viasat.Explore.dk | 100 | Viasat Explore
+Viasat.History.dk | 86 | Viasat History
+Viasat.Nature.dk | 119 | Viasat Nature
+Viascore.dk | 0 | Viascore
+VråNet.Info.dk | 4 | VråNet Info
+YouSee.Film.og.Serier.dk | 4 | YouSee Film og Serier
+YouSee.Premiere.dk | 4 | YouSee Premiere
+Youtube.dk | 4 | Youtube
+ZDF.dk | 133 | ZDF
+dk4.dk | 167 | dk4

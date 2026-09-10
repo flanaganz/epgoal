@@ -1,0 +1,27 @@
+{
+  "_readme": "EPGShare POC",
+
+  "sources": [
+    {
+      "name": "epgshare_dk1",
+      "url": "https://epgshare01.online/epgshare01/epg_ripper_DK1.xml.gz",
+      "enrich_non_sport_with_tmdb": false
+    }
+  ],
+
+  "sport": {
+    "image_base_url": "https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/",
+    "tmdb_fallback_enabled": true
+  },
+
+  "git": {
+    "enabled": false
+  },
+
+  "image": {
+    "backdrop_size": "w1280",
+    "poster_size": "w500"
+  },
+
+  "cache_max_age_days": 30
+}
