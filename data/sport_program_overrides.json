@@ -749,6 +749,10 @@
     "backdrop": "Kvindeligaen.jpg",
     "poster": "Kvindeligaen.jpg"
   },
+  "kvindeligaen: høj-ikast": {
+    "backdrop": "Kvindeligaen.jpg",
+    "poster": "Kvindeligaen.jpg"
+  },
   "kvindeligaen: ikast-odense": {
     "backdrop": "Kvindeligaen.jpg",
     "poster": "Kvindeligaen.jpg"
@@ -850,8 +854,8 @@
     "poster": null
   },
   "pdc european tour": {
-    "backdrop": "PDC European Tour.jpg",
-    "poster": "PDC European Tour.jpg"
+    "backdrop": "PDC World Series of Darts2.JPG",
+    "poster": "PDC World Series of Darts2.JPG"
   },
   "pdc european tour: czech darts open": {
     "backdrop": "PDC European Tour.jpg",
@@ -1282,6 +1286,14 @@
     "poster": "Vuelta a España.jpeg"
   },
   "vuelta a españa: 17. etape": {
+    "backdrop": "Vuelta a España.jpeg",
+    "poster": "Vuelta a España.jpeg"
+  },
+  "vuelta a españa: 18. etape": {
+    "backdrop": "Vuelta a España.jpeg",
+    "poster": "Vuelta a España.jpeg"
+  },
+  "vuelta a españa: 19. etape": {
     "backdrop": "Vuelta a España.jpeg",
     "poster": "Vuelta a España.jpeg"
   },
