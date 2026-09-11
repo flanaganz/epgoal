@@ -79,6 +79,11 @@
     "poster": null,
     "ts": 1786700758.549319
   },
+  "1. division studie: hvidovre if - aab": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1789102583.4744537
+  },
   "1. division studie: vejle boldklub - esbjerg fb": {
     "backdrop": null,
     "poster": null,
@@ -103,6 +108,11 @@
     "backdrop": null,
     "poster": null,
     "ts": 1786174008.6449022
+  },
+  "1. division: hvidovre if - aab": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1789102583.657121
   },
   "1. division: vejle boldklub - esbjerg fb": {
     "backdrop": null,
@@ -2608,6 +2618,21 @@
     "backdrop": null,
     "poster": null,
     "ts": 1785845439.665697
+  },
+  "atletik: ultimate championship": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1789102579.4831946
+  },
+  "atletik: ultimate championship - studie": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1789102579.2720017
+  },
+  "atletik: ultimate championship - studiet": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1789102585.2345364
   },
   "atp 250 - h. rune-b. van de zandschulp, finale, münchen": {
     "backdrop": null,
@@ -9619,6 +9644,11 @@
     "poster": null,
     "ts": 1788504618.1941652
   },
+  "f1 qualification: spaniens grand prix - kvalifikation": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1789102584.2797325
+  },
   "f1 training": {
     "backdrop": null,
     "poster": null,
@@ -9653,6 +9683,21 @@
     "backdrop": null,
     "poster": null,
     "ts": 1788504617.4171066
+  },
+  "f1 training: spaniens grand prix - træning 1": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1789102581.5786183
+  },
+  "f1 training: spaniens grand prix - træning 2": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1789102582.4921896
+  },
+  "f1 training: spaniens grand prix - træning 3": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1789102583.2472901
   },
   "f19 - flygaress och dubbelspioner": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/d4dBTGdcjMYpFnflw7RYqSWvS2W.jpg",
@@ -9689,6 +9734,16 @@
     "poster": null,
     "ts": 1788504618.012834
   },
+  "f2: spaniens grand prix - kvalifikation": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1789102581.9645422
+  },
+  "f2: spaniens grand prix - sprint race": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1789102583.8776417
+  },
   "f3": {
     "backdrop": null,
     "poster": null,
@@ -9708,6 +9763,21 @@
     "backdrop": null,
     "poster": null,
     "ts": 1788504617.2311683
+  },
+  "f3: spaniens grand prix - feature race": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1789102584.0922594
+  },
+  "f3: spaniens grand prix - kvalifikation": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1789102582.8584888
+  },
+  "f3: spaniens grand prix - sprint race": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1789102583.07258
   },
   "fabelaktig oppussing": {
     "backdrop": null,
@@ -10854,6 +10924,11 @@
     "poster": null,
     "ts": 1787202720.0631225
   },
+  "formula 2: chasing the dream: chasing the dream - madrid": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1789102581.7708094
+  },
   "formula 3": {
     "backdrop": null,
     "poster": null,
@@ -11981,8 +12056,8 @@
   },
   "gp confidential: gp confidential": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/4QZGyTSImQVNB3Vii7vBvmqNVSN.jpg",
-    "poster": "https://image.tmdb.org/t/p/w500/gvtEZebWSgiBY6Des1TMMUYdCtP.jpg",
-    "ts": 1785845436.7949903
+    "poster": null,
+    "ts": 1789102582.277018
   },
   "grand designs": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/1LN1YJ0eiiid9FtKWU3TU87z4vd.jpg",
@@ -18409,6 +18484,11 @@
     "poster": null,
     "ts": 1786632929.0880845
   },
+  "madrid": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1789102579.8248355
+  },
   "mads og mamma": {
     "backdrop": null,
     "poster": null,
@@ -22439,6 +22519,11 @@
     "poster": null,
     "ts": 1787808444.6396847
   },
+  "pdc european tour: flanders darts trophy": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1789102582.6761475
+  },
   "pdc european tour: hungarian darts trophy": {
     "backdrop": null,
     "poster": null,
@@ -25138,6 +25223,11 @@
     "backdrop": null,
     "poster": null,
     "ts": 1788763992.5434744
+  },
+  "serie a: venezia-fiorentina": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1789102585.4188628
   },
   "servicetid-reportage": {
     "backdrop": null,
