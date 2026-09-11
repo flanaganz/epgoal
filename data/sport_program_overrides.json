@@ -177,6 +177,10 @@
     "backdrop": "A-Liga.jpg",
     "poster": "A-Liga.jpg"
   },
+  "a-liga: kolding if-asa, aarhus": {
+    "backdrop": "A-Liga.jpg",
+    "poster": "A-Liga.jpg"
+  },
   "a-liga: kolding if-brøndby if": {
     "backdrop": "A-Liga.jpg",
     "poster": "A-Liga.jpg"
@@ -232,6 +236,18 @@
   "atletik: diamond league, zürich": {
     "backdrop": "Atletik Diamond League.jpg",
     "poster": "Atletik Diamond League.jpg"
+  },
+  "atletik: ultimate championship": {
+    "backdrop": "Ultimate Championship.jpg",
+    "poster": "Ultimate Championship.jpg"
+  },
+  "atletik: ultimate championship - studie": {
+    "backdrop": "Ultimate Championship.jpg",
+    "poster": "Ultimate Championship.jpg"
+  },
+  "atletik: ultimate championship - studiet": {
+    "backdrop": "Ultimate Championship.jpg",
+    "poster": "Ultimate Championship.jpg"
   },
   "atp tour highlights": {
     "backdrop": "ATP Tour Highlights.jpg",
@@ -366,8 +382,8 @@
     "poster": "Bundesliga Review of the Midseason.jpg"
   },
   "bundesliga saturday highlights": {
-    "backdrop": "Bundesliga_2.jpg",
-    "poster": "Bundesliga_2.jpg"
+    "backdrop": "Bundesliga Saturday Highlights.jpg",
+    "poster": "Bundesliga Saturday Highlights.jpg"
   },
   "bundesliga saturday highlights: bundesliga highlights": {
     "backdrop": "Bundesliga_2.jpg",
@@ -749,6 +765,10 @@
     "backdrop": "Herreligaen.jpg",
     "poster": "Herreligaen.jpg"
   },
+  "herreligaen: bjerringbro-silkeborg - aalborg": {
+    "backdrop": "Herreligaen.jpg",
+    "poster": "Herreligaen.jpg"
+  },
   "herreligaen: gog-skjern": {
     "backdrop": "Herreligaen.jpg",
     "poster": "Herreligaen.jpg"
@@ -766,10 +786,14 @@
     "poster": "Herreligaen.jpg"
   },
   "herreligaen: studiet": {
-    "backdrop": "Håndbold Herreligaen.jpg",
-    "poster": "Håndbold Herreligaen.jpg"
+    "backdrop": "Herreligaen.jpg",
+    "poster": "Herreligaen.jpg"
   },
   "herreligaen: tth holstebro - bjerringbro-silkeborg": {
+    "backdrop": "Herreligaen.jpg",
+    "poster": "Herreligaen.jpg"
+  },
+  "herreligaen: tth holstebro-skjern": {
     "backdrop": "Herreligaen.jpg",
     "poster": "Herreligaen.jpg"
   },
@@ -1089,6 +1113,10 @@
     "backdrop": "Fodbold Serie A.jpg",
     "poster": "Fodbold Serie A.jpg"
   },
+  "serie a: lazio-ac milan": {
+    "backdrop": "Serie A.jpg",
+    "poster": "Serie A.jpg"
+  },
   "serie a: napoli-como": {
     "backdrop": "Serie A.jpg",
     "poster": "Serie A.jpg"
@@ -1106,8 +1134,8 @@
     "poster": "Serie A.jpg"
   },
   "sky sports fan club": {
-    "backdrop": "3F Superliga.jpg",
-    "poster": "3F Superliga.jpg"
+    "backdrop": "Sky Sports Fan Club.jpg",
+    "poster": "Sky Sports Fan Club.jpg"
   },
   "sky sports: deadline day": {
     "backdrop": "Sky Sports Deadline Day.jpg",
@@ -1414,6 +1442,10 @@
     "poster": "Vuelta a España.jpeg"
   },
   "vuelta a españa: 19. etape": {
+    "backdrop": "Vuelta a España.jpeg",
+    "poster": "Vuelta a España.jpeg"
+  },
+  "vuelta a españa: 20. etape": {
     "backdrop": "Vuelta a España.jpeg",
     "poster": "Vuelta a España.jpeg"
   },
