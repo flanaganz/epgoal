@@ -12066,8 +12066,8 @@
   },
   "gp confidential": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/4QZGyTSImQVNB3Vii7vBvmqNVSN.jpg",
-    "poster": "https://image.tmdb.org/t/p/w500/gvtEZebWSgiBY6Des1TMMUYdCtP.jpg",
-    "ts": 1786632745.1993587
+    "poster": null,
+    "ts": 1789278463.1074262
   },
   "gp confidential: gp confidential": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/4QZGyTSImQVNB3Vii7vBvmqNVSN.jpg",
