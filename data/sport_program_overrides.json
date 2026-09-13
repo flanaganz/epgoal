@@ -107,6 +107,10 @@
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
   },
+  "3f superliga: før silkeborg if-viborg if": {
+    "backdrop": "Før Superligaen.jpg",
+    "poster": "Før Superligaen.jpg"
+  },
   "3f superliga: før sønderjyske-ac horsens": {
     "backdrop": "Før Superligaen.jpg",
     "poster": "Før Superligaen.jpg"
@@ -120,6 +124,14 @@
     "poster": "3F Superliga.jpg"
   },
   "3f superliga: randers fc-agf": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
+  "3f superliga: randers fc-odense boldklub": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
+  "3f superliga: silkeborg if-viborg ff": {
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
   },
@@ -1121,6 +1133,10 @@
     "backdrop": "Premier League.jpg",
     "poster": "Premier League.jpg"
   },
+  "premier league: leeds - newcastle": {
+    "backdrop": "Premier League.jpg",
+    "poster": "Premier League.jpg"
+  },
   "premier league: liverpool - fulham": {
     "backdrop": "Premier League.jpg",
     "poster": "Premier League.jpg"
@@ -1178,6 +1194,10 @@
     "poster": "Fodbold Serie A.jpg"
   },
   "serie a: lazio-ac milan": {
+    "backdrop": "Serie A.jpg",
+    "poster": "Serie A.jpg"
+  },
+  "serie a: napoli-bologna": {
     "backdrop": "Serie A.jpg",
     "poster": "Serie A.jpg"
   },
@@ -1522,6 +1542,10 @@
     "poster": "Vuelta a España.jpeg"
   },
   "vuelta a españa: 20. etape": {
+    "backdrop": "Vuelta a España.jpeg",
+    "poster": "Vuelta a España.jpeg"
+  },
+  "vuelta a españa: 21. etape": {
     "backdrop": "Vuelta a España.jpeg",
     "poster": "Vuelta a España.jpeg"
   },
