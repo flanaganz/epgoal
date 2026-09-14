@@ -25219,6 +25219,11 @@
     "poster": null,
     "ts": 1788517059.206416
   },
+  "serie a: inter-udinese": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1789369348.9702604
+  },
   "serie a: juventus-ac milan": {
     "backdrop": null,
     "poster": null,
@@ -30761,8 +30766,8 @@
   },
   "tv-udbruddet: tv-udbruddet": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/rUPYDCPqgEgMNJjoQHwWbDswsM2.jpg",
-    "poster": "https://image.tmdb.org/t/p/w500/yyCA4w7mD2b2K89t3CP1m2mNKDT.jpg",
-    "ts": 1785845437.3592508
+    "poster": null,
+    "ts": 1789369347.682226
   },
   "tv-udbruddet: tv-udbruddet: bedste cykelsæson nogensinde spoleret?": {
     "backdrop": null,
