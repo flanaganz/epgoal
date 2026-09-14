@@ -79,6 +79,10 @@
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
   },
+  "3f superliga: fc midtjylland-brøndby if": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
   "3f superliga: fc midtjylland-fc nordsjælland": {
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
@@ -96,6 +100,10 @@
     "poster": "Før Superligaen.jpg"
   },
   "3f superliga: før f.c. københavn-sønderjyske": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
+  "3f superliga: før fc midtjylland-brøndby if": {
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
   },
@@ -472,6 +480,18 @@
   "bundesliga: union berlin - schalke 04": {
     "backdrop": "Bundesliga Fodbold.jpg",
     "poster": "Bundesliga Fodbold.jpg"
+  },
+  "carabao cup: ipswich - arsenal": {
+    "backdrop": "Fodbold Carabao Cup.jpg",
+    "poster": "Fodbold Carabao Cup.jpg"
+  },
+  "carabao cup: liverpool - tottenham": {
+    "backdrop": "Fodbold Carabao Cup.jpg",
+    "poster": "Fodbold Carabao Cup.jpg"
+  },
+  "carabao cuppen": {
+    "backdrop": "Fodbold Carabao Cup.jpg",
+    "poster": "Fodbold Carabao Cup.jpg"
   },
   "champions hockey league": {
     "backdrop": "Champions Hockey League.jpg",
@@ -929,6 +949,10 @@
     "backdrop": "Kvindeligaen.jpg",
     "poster": "Kvindeligaen.jpg"
   },
+  "league cup: ipswich - arsenal": {
+    "backdrop": "EFL Championship.jpg",
+    "poster": "EFL Championship.jpg"
+  },
   "lee bowyer": {
     "backdrop": null,
     "poster": null
@@ -1185,6 +1209,10 @@
     "backdrop": "Serie A.jpg",
     "poster": "Serie A.jpg"
   },
+  "serie a: inter-udinese": {
+    "backdrop": "Serie A.jpg",
+    "poster": "Serie A.jpg"
+  },
   "serie a: juventus-ac milan": {
     "backdrop": "Serie A.jpg",
     "poster": "Serie A.jpg"
@@ -1362,6 +1390,10 @@
     "poster": "Tirsdagstrænerne.jpg"
   },
   "tv-udbruddet": {
+    "backdrop": "TV-Udbruddet.jpg",
+    "poster": "TV-Udbruddet.jpg"
+  },
+  "tv-udbruddet: tv-udbruddet": {
     "backdrop": "TV-Udbruddet.jpg",
     "poster": "TV-Udbruddet.jpg"
   },
