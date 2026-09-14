@@ -950,8 +950,12 @@
     "poster": "Kvindeligaen.jpg"
   },
   "league cup: ipswich - arsenal": {
-    "backdrop": "EFL Championship.jpg",
-    "poster": "EFL Championship.jpg"
+    "backdrop": "League Cup.jpg",
+    "poster": "League Cup.jpg"
+  },
+  "league cup: liverpool - tottenham": {
+    "backdrop": "League Cup.jpg",
+    "poster": "League Cup.jpg"
   },
   "lee bowyer": {
     "backdrop": null,
