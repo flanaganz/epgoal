@@ -593,6 +593,22 @@
     "backdrop": "EFL Championship.jpg",
     "poster": "EFL Championship.jpg"
   },
+  "ehf men's champions league": {
+    "backdrop": "EHF Mens Champions League.jpg",
+    "poster": "EHF Mens Champions League.jpg"
+  },
+  "ehf men's champions league: aalborg håndbold - paris saint-germain": {
+    "backdrop": "EHF Mens Champions League.jpg",
+    "poster": "EHF Mens Champions League.jpg"
+  },
+  "ehf men's champions league: füchse berlin - veszprem": {
+    "backdrop": "EHF Mens Champions League.jpg",
+    "poster": "EHF Mens Champions League.jpg"
+  },
+  "ehf men's champions league: gog - pick szeged": {
+    "backdrop": "EHF Mens Champions League.jpg",
+    "poster": "EHF Mens Champions League.jpg"
+  },
   "f1": {
     "backdrop": "F1.jpg",
     "poster": "F1.jpg"
@@ -861,6 +877,10 @@
     "backdrop": "Herreligaen.jpg",
     "poster": "Herreligaen.jpg"
   },
+  "herreligaen: skive-tth holstebro": {
+    "backdrop": "Herreligaen.jpg",
+    "poster": "Herreligaen.jpg"
+  },
   "herreligaen: skjern-aalborg": {
     "backdrop": "Herreligaen.jpg",
     "poster": "Herreligaen.jpg"
@@ -954,6 +974,10 @@
     "poster": "League Cup.jpg"
   },
   "league cup: liverpool - tottenham": {
+    "backdrop": "League Cup.jpg",
+    "poster": "League Cup.jpg"
+  },
+  "league cup: manchester united - brighton": {
     "backdrop": "League Cup.jpg",
     "poster": "League Cup.jpg"
   },
