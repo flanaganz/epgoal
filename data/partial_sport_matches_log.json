@@ -1,24 +1,17 @@
 {
   "TV3 MAX HD (D) (T).dk": {
-    "Carabao Cup: Ipswich - Arsenal -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold%20Carabao%20Cup.jpg": 1,
     "Carabao Cup: Manchester United - Brighton -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold%20Carabao%20Cup.jpg": 1
   },
   "TV3 Max Denmark (DK,DA).dk": {
     "Carabao Cuppen -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold%20Carabao%20Cup.jpg": 1
   },
   "TV3 Max.dk": {
-    "Carabao Cuppen -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold%20Carabao%20Cup.jpg": 2,
+    "Carabao Cuppen -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold%20Carabao%20Cup.jpg": 3,
     "League Cup: Ipswich - Arsenal -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/League%20Cup.jpg": 1,
     "League Cup: Manchester United - Brighton -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/League%20Cup.jpg": 1
   },
-  "TV3+ Denmark (DK,DA).dk": {
-    "Carabao Cuppen -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold%20Carabao%20Cup.jpg": 1
-  },
-  "TV3+ HD (D) (T).dk": {
-    "Carabao Cup: Liverpool - Tottenham -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold%20Carabao%20Cup.jpg": 1
-  },
   "TV3+.dk": {
-    "Carabao Cuppen -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold%20Carabao%20Cup.jpg": 2,
+    "Carabao Cuppen -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold%20Carabao%20Cup.jpg": 1,
     "League Cup: Liverpool - Tottenham -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/League%20Cup.jpg": 1
   }
 }
