@@ -1,17 +1,27 @@
 {
   "TV3 MAX HD (D) (T).dk": {
-    "Carabao Cup: Manchester United - Brighton -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold%20Carabao%20Cup.jpg": 1
+    "3F Superliga: Lyngby BK - Silkeborg IF -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
+    "Bundesliga Fodbold: Bayern München - Union Berlin -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 2,
+    "Champions League Weekly: UEFA Champions League Weekly -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20Hockey%20League.jpg": 1,
+    "Højdepunkter fra Dansk Motorsport: RACETV.DK -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%B8jdepunkter%20fra%20Dansk%20Motorsport.jpg": 3,
+    "Premier League: Brentford - Chelsea -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1
   },
   "TV3 Max Denmark (DK,DA).dk": {
-    "Carabao Cuppen -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold%20Carabao%20Cup.jpg": 1
+    "3F Superliga -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/3F%20Superliga.jpg": 1,
+    "Bundesliga Fodbold -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Bundesliga%20Fodbold.jpg": 2,
+    "Champions League Weekly -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20Hockey%20League.jpg": 1,
+    "Højdepunkter fra Dansk Motorsport -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%B8jdepunkter%20fra%20Dansk%20Motorsport.jpg": 3,
+    "Premier League -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League.jpg": 2
   },
   "TV3 Max.dk": {
-    "Carabao Cuppen -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold%20Carabao%20Cup.jpg": 3,
-    "League Cup: Ipswich - Arsenal -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/League%20Cup.jpg": 1,
-    "League Cup: Manchester United - Brighton -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/League%20Cup.jpg": 1
-  },
-  "TV3+.dk": {
-    "Carabao Cuppen -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold%20Carabao%20Cup.jpg": 1,
-    "League Cup: Liverpool - Tottenham -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/League%20Cup.jpg": 1
+    "3F Superliga -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/3F%20Superliga.jpg": 2,
+    "Bundesliga Fodbold -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Bundesliga%20Fodbold.jpg": 4,
+    "Bundesliga: Bayern München - Union Berlin -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20ATP%20500.jpg": 2,
+    "Champions League Weekly -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20Hockey%20League.jpg": 2,
+    "Champions League Weekly: UEFA Champions League Weekly -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20Hockey%20League.jpg": 1,
+    "Højdepunkter fra Dansk Motorsport -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%B8jdepunkter%20fra%20Dansk%20Motorsport.jpg": 9,
+    "Premier League -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League.jpg": 4,
+    "Premier League: Brentford - Chelsea -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 2,
+    "Superliga: Lyngby BK - Silkeborg IF -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1
   }
 }

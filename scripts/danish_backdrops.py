@@ -17,13 +17,42 @@ NYT (2026-08-24): DIFFERENTIERET CACHE-LEVETID
     tilføjet (fx af brugeren selv på tmdb.com), ville scriptet ikke opdage
     det nye billede i op til 30 dage - fordi "ikke fundet"-resultatet blev
     genbrugt fra cachen uden et nyt TMDb-opslag.
-
     Det er rettet: "fandt et backdrop"-resultater beholder den fulde
     cache_max_age_days-levetid (stabilt, ændrer sig praktisk talt aldrig).
     "Ikke fundet"-resultater udløber nu meget hurtigere
     (NOT_FOUND_CACHE_MAX_AGE_DAYS, default 2 dage), så scriptet automatisk
     prøver igen snart efter et nyt dansk billede er blevet tilføjet på TMDb,
     uden at du behøver slette/redigere cachen manuelt.
+
+NYT (2026-09-05): "GENOPFRISK"-LISTE (data/genopfrisk_titler.txt)
+    NOT_FOUND_CACHE_MAX_AGE_DAYS (typisk 10 dage) betyder, at der stadig kan
+    gå op til 10 dage, før scriptet selv opdager et nyt dansk backdrop, du
+    lige har tilføjet på themoviedb.org. For at kunne teste "har jeg fået
+    det nye billede med?" med det samme, uden at vente, kan du nu skrive
+    titler (én pr. linje, '#' i starten af en linje ignoreres som kommentar)
+    i data/genopfrisk_titler.txt. Disse titler får et TVUNGET, friskt
+    TMDb-opslag ved næste kørsel - uanset hvor "frisk" deres eksisterende
+    "ikke fundet"-cache-post er.
+
+    Filen er "selv-rensende": en titel, der finder et dansk backdrop under
+    kørslen, FJERNES automatisk fra filen igen (den behøver ikke
+    tvangsopfriskes mere - fundet er stabilt og caches nu normalt). Titler
+    der STADIG ikke er fundet, eller som slet ikke blev set i dette
+    EPG-vindue (helt normalt - programmet sendes måske en anden dag),
+    bevares i filen til næste kørsel. Du kan altså løbende tilføje/fjerne
+    titler i filen efter behov, uden selv at skulle holde styr på hvornår
+    noget er fundet.
+
+RETTET (2026-09-05): MINDRE ALARMERENDE OUTPUT FOR MANUELLE OVERRIDES
+    "⚠️  X manuelle overrides IKKE brugt (tjek stavning)" antydede en fejl,
+    selvom den langt hyppigste årsag bare er, at titlen ikke sendes i det
+    aktuelle EPG-vindue lige nu (Open-EPG's ~7 dages rullende vindue
+    roterer dagligt - se tidligere afklaring i projektets historik). Det er
+    lavet om til et neutralt, informativt statuslinje i stil med
+    "X ud af Y manual_artwork_overrides blev fundet i denne kørsel",
+    uden advarselsikon. Listen over ikke-fundne titler vises stadig (til
+    evt. fejlsøgning af reelle stavefejl), men nu under et neutralt ℹ️-ikon
+    i stedet for ⚠️, og med en forklarende tekst om at det er forventeligt.
 """
 from __future__ import annotations
 
@@ -50,6 +79,7 @@ DANISH_ARTWORK_CACHE_FILE = DATA_DIR / "danish_artwork_cache.json"
 DANISH_ARTWORK_REVIEW_FILE = DATA_DIR / "danish_artwork_review.xlsx"
 DANISH_BACKDROPS_RUN_LOG_FILE = DATA_DIR / "danish_backdrops_run_log.json"
 MANUAL_ARTWORK_OVERRIDES_FILE = DATA_DIR / "manual_artwork_overrides.xlsx"
+GENOPFRISK_TITLER_FILE = DATA_DIR / "genopfrisk_titler.txt"
 MAX_RUN_LOG_ENTRIES = 200
 
 # NYT: hvor længe et "ikke fundet"-resultat er gyldigt, FØR scriptet prøver
@@ -98,6 +128,34 @@ def normalize_title(title: str) -> str:
     t = INVISIBLE_CHARS_PATTERN.sub(" ", t)
     t = re.sub(r"\s+", " ", t)
     return t.strip().lower()
+
+
+def load_refresh_titles(path: Path) -> list[str]:
+    """Læser rå titel-linjer (bevarer original stavning/store bogstaver,
+    kun til visning og til at kunne skrive filen igen) fra
+    data/genopfrisk_titler.txt - én titel pr. linje. Tomme linjer og linjer
+    der starter med '#' (kommentarer) ignoreres.
+
+    Se docstring øverst i filen ("GENOPFRISK-LISTE") for hele mekanismen."""
+    if not path.exists():
+        return []
+    titles: list[str] = []
+    for raw_line in path.read_text(encoding="utf-8").splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#"):
+            continue
+        titles.append(line)
+    return titles
+
+
+def save_refresh_titles(path: Path, titles: list[str]) -> None:
+    """Skriver den opdaterede (selv-rensede) liste tilbage - se
+    docstring øverst i filen. Skriver en tom fil (ikke sletter den), så
+    filen altid findes og er let at åbne/redigere igen."""
+    if not titles:
+        path.write_text("", encoding="utf-8")
+        return
+    path.write_text("\n".join(titles) + "\n", encoding="utf-8")
 
 
 def load_manual_overrides(path: Path) -> tuple[dict[str, list[dict]], dict[str, str]]:
@@ -251,22 +309,29 @@ def tmdb_danish_backdrop(media_type: str, tmdb_id: int) -> str | None:
 
 def resolve_danish_artwork(raw_title: str, cache: dict, cache_max_age_days: int,
                             not_found_cache_max_age_days: int,
-                            backdrop_size: str) -> tuple[str | None, bool]:
+                            backdrop_size: str, force_refresh: bool = False) -> tuple[str | None, bool]:
     """Returnerer (backdrop_url eller None, from_cache).
 
-    NYT: bruger differentieret levetid. Et cachet FUND (backdrop != None)
+    Bruger differentieret levetid. Et cachet FUND (backdrop != None)
     bruges op til cache_max_age_days gammel. Et cachet "IKKE fundet"
     (backdrop == None) bruges kun op til not_found_cache_max_age_days gammel
     - herefter forsøges et nyt, friskt TMDb-opslag, så nyligt tilføjede
-    danske billeder på TMDb bliver opdaget langt hurtigere."""
+    danske billeder på TMDb bliver opdaget langt hurtigere.
+
+    NYT: force_refresh=True springer cache-tjekket helt over (uanset alder)
+    og tvinger ALTID et friskt TMDb-opslag - bruges til titler i
+    data/genopfrisk_titler.txt (se load_refresh_titles() og docstring
+    øverst i filen, "GENOPFRISK-LISTE")."""
     key = normalize_title(raw_title)
-    cached = cache.get(key)
-    if cached is not None:
-        age_days = (time.time() - cached.get("ts", 0)) / 86400
-        had_backdrop = bool(cached.get("backdrop"))
-        max_age = cache_max_age_days if had_backdrop else not_found_cache_max_age_days
-        if age_days < max_age:
-            return cached.get("backdrop"), True
+
+    if not force_refresh:
+        cached = cache.get(key)
+        if cached is not None:
+            age_days = (time.time() - cached.get("ts", 0)) / 86400
+            had_backdrop = bool(cached.get("backdrop"))
+            max_age = cache_max_age_days if had_backdrop else not_found_cache_max_age_days
+            if age_days < max_age:
+                return cached.get("backdrop"), True
 
     backdrop_url = None
     try:
@@ -289,7 +354,9 @@ def process_xml_file(xml_path: Path, cache: dict, cache_max_age_days: int,
                       backdrop_size: str, limit: int | None,
                       titles_processed_this_run: set, approved_keys: set[str] | None,
                       all_found_keys: set[str], manual_index: dict[str, list[dict]],
-                      manual_titles_matched: set[str]) -> dict:
+                      manual_titles_matched: set[str],
+                      refresh_titles_normalized: set[str],
+                      refresh_seen: set[str]) -> dict:
     tree = ET.parse(xml_path)
     root = tree.getroot()
 
@@ -297,7 +364,7 @@ def process_xml_file(xml_path: Path, cache: dict, cache_max_age_days: int,
         "programmes": 0, "already_had_artwork": 0, "checked": 0,
         "danish_found": 0, "danish_not_found": 0, "danish_injected": 0,
         "cache_hits": 0, "fresh_calls": 0, "manual_override_injected": 0,
-        "rechecked_after_not_found": 0,
+        "rechecked_after_not_found": 0, "force_refreshed": 0,
     }
     resolved_this_file: dict[str, str | None] = {}
 
@@ -324,10 +391,21 @@ def process_xml_file(xml_path: Path, cache: dict, cache_max_age_days: int,
 
         norm = normalize_title(title)
 
-        if limit is not None and norm not in titles_processed_this_run and len(titles_processed_this_run) >= limit:
+        if norm in refresh_titles_normalized:
+            refresh_seen.add(norm)
+
+        # Titler på genopfrisk-listen bypasser ALTID --limit-grænsen (se
+        # docstring "GENOPFRISK-LISTE") - brugeren har bedt eksplicit om dem.
+        if (
+            limit is not None
+            and norm not in titles_processed_this_run
+            and len(titles_processed_this_run) >= limit
+            and norm not in refresh_titles_normalized
+        ):
             continue
 
         if norm not in resolved_this_file:
+            force_refresh = norm in refresh_titles_normalized
             was_cached_not_found = (
                 norm in cache
                 and not cache[norm].get("backdrop")
@@ -335,11 +413,14 @@ def process_xml_file(xml_path: Path, cache: dict, cache_max_age_days: int,
                 and (time.time() - cache[norm].get("ts", 0)) / 86400 < cache_max_age_days
             )
             backdrop_url, from_cache = resolve_danish_artwork(
-                title, cache, cache_max_age_days, not_found_cache_max_age_days, backdrop_size
+                title, cache, cache_max_age_days, not_found_cache_max_age_days, backdrop_size,
+                force_refresh=force_refresh,
             )
             resolved_this_file[norm] = backdrop_url
             titles_processed_this_run.add(norm)
             stats["checked"] += 1
+            if force_refresh:
+                stats["force_refreshed"] += 1
             if from_cache:
                 stats["cache_hits"] += 1
             else:
@@ -475,6 +556,10 @@ def main() -> None:
     manual_index, manual_display_titles = load_manual_overrides(MANUAL_ARTWORK_OVERRIDES_FILE)
     manual_titles_matched: set[str] = set()
 
+    refresh_titles_raw = load_refresh_titles(GENOPFRISK_TITLER_FILE)
+    refresh_titles_normalized = {normalize_title(t) for t in refresh_titles_raw}
+    refresh_seen: set[str] = set()
+
     print("=== Danske TMDb-backdrops (separat sideprojekt) — skrives som <icon> ===")
     print(f"Cache indeholder {cache_size_before:,} tidligere opslag (levetid: {cache_max_age_days} dage for fund, "
           f"{not_found_cache_max_age_days} dage for 'ikke fundet')")
@@ -482,6 +567,10 @@ def main() -> None:
         print(f"Manuelle overrides indlæst: {len(manual_index):,} unikke titler")
     else:
         print(f"ℹ️  {MANUAL_ARTWORK_OVERRIDES_FILE.name} findes ikke - ingen manuelle overrides denne gang.")
+
+    if refresh_titles_raw:
+        print(f"🔄 Tvangsopfrisker {len(refresh_titles_raw):,} titel(r) fra {GENOPFRISK_TITLER_FILE.name} "
+              "(uanset cache-alder) ...")
 
     if approved_keys is None:
         print(f"⚠️  {DANISH_ARTWORK_REVIEW_FILE.name} findes IKKE endnu. Ingen TMDb-fund injiceres denne gang.")
@@ -499,7 +588,7 @@ def main() -> None:
         "programmes": 0, "already_had_artwork": 0, "checked": 0,
         "danish_found": 0, "danish_not_found": 0, "danish_injected": 0,
         "cache_hits": 0, "fresh_calls": 0, "manual_override_injected": 0,
-        "rechecked_after_not_found": 0,
+        "rechecked_after_not_found": 0, "force_refreshed": 0,
     }
     per_file_stats: dict[str, dict] = {}
 
@@ -514,6 +603,7 @@ def main() -> None:
             xml_path, cache, cache_max_age_days, not_found_cache_max_age_days, backdrop_size,
             args.limit, titles_processed_this_run, approved_keys, all_found_keys,
             manual_index, manual_titles_matched,
+            refresh_titles_normalized, refresh_seen,
         )
         save_json(DANISH_ARTWORK_CACHE_FILE, cache)
 
@@ -522,6 +612,8 @@ def main() -> None:
               f"| Dansk fundet: {stats['danish_found']:,} | Godkendt+indsat: {stats['danish_injected']:,}")
         if stats["rechecked_after_not_found"]:
             print(f"   🔄 Gen-tjekket efter tidligere 'ikke fundet': {stats['rechecked_after_not_found']:,}")
+        if stats["force_refreshed"]:
+            print(f"   🔄 Tvangsopfrisket (fra {GENOPFRISK_TITLER_FILE.name}): {stats['force_refreshed']:,}")
 
         per_file_stats[name] = stats
         for k in grand_total:
@@ -550,10 +642,16 @@ def main() -> None:
     print("--------------------------------")
     print(f"Programmer i alt              : {grand_total['programmes']:,}")
     print(f"Sprunget over (sport)          : {grand_total['already_had_artwork']:,}")
-    print(f"Manuelle overrides indsat      : {grand_total['manual_override_injected']:,} "
-          f"({len(manual_titles_matched):,} unikke ud af {len(manual_index):,} defineret)")
+    if manual_index:
+        print(f"Manuelle overrides indsat      : {grand_total['manual_override_injected']:,} "
+              f"({len(manual_titles_matched):,} ud af {len(manual_index):,} manual_artwork_overrides "
+              f"blev fundet i denne kørsel)")
+    else:
+        print(f"Manuelle overrides indsat      : {grand_total['manual_override_injected']:,}")
     if manual_unmatched_display:
-        print(f"⚠️  {len(manual_unmatched_display):,} manuelle overrides IKKE brugt (tjek stavning):")
+        print(f"ℹ️  {len(manual_unmatched_display):,} manual_artwork_overrides blev IKKE fundet i dagens "
+              "EPG-vindue (helt normalt - programmet sendes muligvis en anden dag, men tjek gerne stavning "
+              "hvis en titel bliver ved med at mangle over flere dage):")
         for t in manual_unmatched_display:
             print(f"     - {t}")
     print(f"Unikke titler med dansk backdrop: {unique_found:,} (godkendt: {unique_approved_and_found:,}, "
@@ -563,6 +661,38 @@ def main() -> None:
               f"{grand_total['rechecked_after_not_found']:,}")
     print(f"Cache voksede fra {cache_size_before:,} til {cache_size_after:,}")
     print("--------------------------------")
+
+    if refresh_titles_raw:
+        found_now: list[str] = []
+        still_pending: list[str] = []
+        not_seen: list[str] = []
+        for raw_title in refresh_titles_raw:
+            norm = normalize_title(raw_title)
+            cached_entry = cache.get(norm)
+            has_backdrop = bool(cached_entry and cached_entry.get("backdrop"))
+            if has_backdrop:
+                found_now.append(raw_title)
+            elif norm in refresh_seen:
+                still_pending.append(raw_title)
+            else:
+                not_seen.append(raw_title)
+
+        print(f"\n🔄 Status for {GENOPFRISK_TITLER_FILE.name}:")
+        print(f"   Fandt nu et dansk backdrop : {len(found_now):,} (fjernet fra listen)")
+        if found_now:
+            for t in found_now:
+                print(f"     - {t}")
+        print(f"   Stadig intet fundet        : {len(still_pending):,} (bevares på listen)")
+        if not_seen:
+            print(f"   Ikke set i denne kørsel    : {len(not_seen):,} (bevares på listen - prøves "
+                  "igen når titlen findes i EPG'en)")
+            for t in not_seen:
+                print(f"     - {t}")
+
+        remaining_titles = still_pending + not_seen
+        save_refresh_titles(GENOPFRISK_TITLER_FILE, remaining_titles)
+        print(f"   {GENOPFRISK_TITLER_FILE.name} opdateret ({len(remaining_titles):,} titel(r) tilbage).")
+        print("--------------------------------")
 
     if git_cfg.get("enabled", True):
         prefix = "Auto-sync EPG (danske backdrops)"
