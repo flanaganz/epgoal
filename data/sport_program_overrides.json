@@ -123,6 +123,10 @@
     "backdrop": "Før Superligaen.jpg",
     "poster": "Før Superligaen.jpg"
   },
+  "3f superliga: lyngby bk - silkeborg if": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
   "3f superliga: lyngby boldklub-odense boldklub": {
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
@@ -273,9 +277,17 @@
     "backdrop": "Ultimate Championship.jpg",
     "poster": "Ultimate Championship.jpg"
   },
+  "atp 250 - h. rune-b. van de zandschulp, finale, münchen": {
+    "backdrop": "ATP-1000.jpg",
+    "poster": "ATP-1000.jpg"
+  },
   "atp tour highlights": {
     "backdrop": "ATP Tour Highlights.jpg",
     "poster": "ATP Tour Highlights.jpg"
+  },
+  "atp: rune-alcaraz, finale, barcelona": {
+    "backdrop": "ATP-1000.jpg",
+    "poster": "ATP-1000.jpg"
   },
   "badminton: an-miyazaki, finale, china masters": {
     "backdrop": "Badminton.jpg",
@@ -354,8 +366,8 @@
     "poster": "Bundesliga_2.jpg"
   },
   "bundesliga fodbold": {
-    "backdrop": "Bundesliga Fodbold.jpg",
-    "poster": "Bundesliga Fodbold.jpg"
+    "backdrop": "Bundesliga_3.JPG",
+    "poster": "Bundesliga_3.JPG"
   },
   "bundesliga fodbold: augsburg - schalke 04": {
     "backdrop": "Bundesliga_2.jpg",
@@ -364,6 +376,10 @@
   "bundesliga fodbold: bayern münchen - stuttgart": {
     "backdrop": "Bundesliga Fodbold.jpg",
     "poster": "Bundesliga Fodbold.jpg"
+  },
+  "bundesliga fodbold: bayern münchen - union berlin": {
+    "backdrop": "Bundesliga_3.JPG",
+    "poster": "Bundesliga_3.JPG"
   },
   "bundesliga fodbold: dortmund - hamburger sv": {
     "backdrop": "Bundesliga_2.jpg",
@@ -440,6 +456,10 @@
   "bundesliga: bayern münchen - stuttgart": {
     "backdrop": "Bundesliga Fodbold.jpg",
     "poster": "Bundesliga Fodbold.jpg"
+  },
+  "bundesliga: bayern münchen - union berlin": {
+    "backdrop": "Bundesliga_3.JPG",
+    "poster": "Bundesliga_3.JPG"
   },
   "bundesliga: dortmund - hamburger sv": {
     "backdrop": "Bundesliga_2.jpg",
@@ -518,12 +538,12 @@
     "poster": "UEFA Champions League Goal Show.jpg"
   },
   "champions league weekly": {
-    "backdrop": "Champions Hockey League.jpg",
-    "poster": "Champions Hockey League.jpg"
+    "backdrop": "Champions League Weekly.jpg",
+    "poster": "Champions League Weekly.jpg"
   },
   "champions league weekly: uefa champions league weekly": {
-    "backdrop": "Champions Hockey League.jpg",
-    "poster": "Champions Hockey League.jpg"
+    "backdrop": "Champions League Weekly2.jpg",
+    "poster": "Champions League Weekly2.jpg"
   },
   "chasing the dream": {
     "backdrop": "TMDb",
@@ -552,6 +572,18 @@
   "danskerklubben": {
     "backdrop": "Danskerklubben.jpg",
     "poster": "Danskerklubben.jpg"
+  },
+  "davis cup": {
+    "backdrop": "Davis Cup.jpg",
+    "poster": "Davis Cup.jpg"
+  },
+  "davis cup: danmark - bulgarien, 1. single, direkte": {
+    "backdrop": "Davis Cup.jpg",
+    "poster": "Davis Cup.jpg"
+  },
+  "davis cup: danmark - bulgarien, 2. single, direkte": {
+    "backdrop": "Davis Cup.jpg",
+    "poster": "Davis Cup.jpg"
   },
   "dbu pokalen": {
     "backdrop": "DBU Pokalen.jpg",
@@ -601,11 +633,19 @@
     "backdrop": "EHF Mens Champions League.jpg",
     "poster": "EHF Mens Champions League.jpg"
   },
+  "ehf men's champions league: celje - aalborg håndbold": {
+    "backdrop": "EHF Mens Champions League.jpg",
+    "poster": "EHF Mens Champions League.jpg"
+  },
   "ehf men's champions league: füchse berlin - veszprem": {
     "backdrop": "EHF Mens Champions League.jpg",
     "poster": "EHF Mens Champions League.jpg"
   },
   "ehf men's champions league: gog - pick szeged": {
+    "backdrop": "EHF Mens Champions League.jpg",
+    "poster": "EHF Mens Champions League.jpg"
+  },
+  "ehf men's champions league: skanderborg agf - dinamo bucureşti": {
     "backdrop": "EHF Mens Champions League.jpg",
     "poster": "EHF Mens Champions League.jpg"
   },
@@ -877,6 +917,10 @@
     "backdrop": "Herreligaen.jpg",
     "poster": "Herreligaen.jpg"
   },
+  "herreligaen: ribe-esbjerg - bjerringbro-silkeborg": {
+    "backdrop": "Herreligaen.jpg",
+    "poster": "Herreligaen.jpg"
+  },
   "herreligaen: sah-gog": {
     "backdrop": "Herreligaen.jpg",
     "poster": "Herreligaen.jpg"
@@ -914,8 +958,8 @@
     "poster": "Højdepunkter fra Dansk Motorsport.jpg"
   },
   "højdepunkter fra dansk motorsport: racetv.dk": {
-    "backdrop": "Højdepunkter fra Dansk Motorsport.jpg",
-    "poster": "Højdepunkter fra Dansk Motorsport.jpg"
+    "backdrop": "Højdepunkter fra Dansk Motorsport1.jpg",
+    "poster": "Højdepunkter fra Dansk Motorsport1.jpg"
   },
   "højdepunkter fra efl championship": {
     "backdrop": "Højdepunkter fra Dansk Motorsport1.jpg",
@@ -1053,6 +1097,10 @@
     "backdrop": "Onside.jpg",
     "poster": "Onside.jpg"
   },
+  "opfølgning på pokalen": {
+    "backdrop": "Pokal-highligts.jpg",
+    "poster": "Pokal-highligts.jpg"
+  },
   "optakt til champions league: liverpool - atletico madrid": {
     "backdrop": "UEFA Champions League.jpg",
     "poster": "UEFA Champions League.jpg"
@@ -1088,6 +1136,10 @@
   "pdc world series of darts": {
     "backdrop": "PDC World Series of Darts2.JPG",
     "poster": "PDC World Series of Darts2.JPG"
+  },
+  "pdc world series of darts: world series of darts finals": {
+    "backdrop": "PDC European Tour.jpg",
+    "poster": "PDC European Tour.jpg"
   },
   "premier league": {
     "backdrop": "Premier League.jpg",
@@ -1152,6 +1204,10 @@
   "premier league: bournemouth - everton": {
     "backdrop": "Premier League.jpg",
     "poster": "Premier League.jpg"
+  },
+  "premier league: brentford - chelsea": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
   },
   "premier league: brentford - sunderland": {
     "backdrop": "Premier League.jpg",
@@ -1261,6 +1317,10 @@
     "backdrop": "Serie A.jpg",
     "poster": "Serie A.jpg"
   },
+  "serie a: monza-sassuolo": {
+    "backdrop": "Serie A.jpg",
+    "poster": "Serie A.jpg"
+  },
   "serie a: napoli-bologna": {
     "backdrop": "Serie A.jpg",
     "poster": "Serie A.jpg"
@@ -1302,8 +1362,8 @@
     "poster": "Sky Sports The Football Show.jpg"
   },
   "sky sports: total football": {
-    "backdrop": "Sky Sports The Football Show.jpg",
-    "poster": "Sky Sports The Football Show.jpg"
+    "backdrop": "Sky Sports Deadline Day.jpg",
+    "poster": "Sky Sports Deadline Day.jpg"
   },
   "sport news": {
     "backdrop": "Sport News.jpg",
@@ -1353,6 +1413,10 @@
     "backdrop": "Superliga Studiet.jpg",
     "poster": "Superliga Studiet.jpg"
   },
+  "superliga studie: lyngby bk - silkeborg if": {
+    "backdrop": "Superliga Studiet.jpg",
+    "poster": "Superliga Studiet.jpg"
+  },
   "superliga studie: lyngby bk - sønderjyske fodbold": {
     "backdrop": "Superliga Studiet.jpg",
     "poster": "Superliga Studiet.jpg"
@@ -1397,6 +1461,10 @@
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
   },
+  "superliga: lyngby bk - silkeborg if": {
+    "backdrop": "Superliga Studiet.jpg",
+    "poster": "Superliga Studiet.jpg"
+  },
   "superliga: lyngby boldklub - sønderjyske fodbold": {
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
@@ -1420,6 +1488,14 @@
   "tennis, atp 250 münchen": {
     "backdrop": "Tennis ATP 500.jpg",
     "poster": "Tennis ATP 500.jpg"
+  },
+  "tennis: atp - h. rune-n. djokovic, finale, paris": {
+    "backdrop": "ATP-1000.jpg",
+    "poster": "ATP-1000.jpg"
+  },
+  "tennis: atp - h. rune-s. tsitsipas, finale, stockholm": {
+    "backdrop": "ATP-1000.jpg",
+    "poster": "ATP-1000.jpg"
   },
   "tennis: atp - stockholm": {
     "backdrop": "Tennis ATP 500.jpg",

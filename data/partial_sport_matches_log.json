@@ -1,27 +1,36 @@
 {
+  "DR2.dk": {
+    "Davis Cup -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Davis%20Cup.jpg": 2,
+    "Davis Cup: Danmark - Bulgarien, 1. single, direkte -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Davis%20Cup.jpg": 1,
+    "Davis Cup: Danmark - Bulgarien, 2. single, direkte -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Davis%20Cup.jpg": 1
+  },
   "TV3 MAX HD (D) (T).dk": {
-    "3F Superliga: Lyngby BK - Silkeborg IF -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
-    "Bundesliga Fodbold: Bayern München - Union Berlin -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 2,
-    "Champions League Weekly: UEFA Champions League Weekly -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20Hockey%20League.jpg": 1,
-    "Højdepunkter fra Dansk Motorsport: RACETV.DK -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%B8jdepunkter%20fra%20Dansk%20Motorsport.jpg": 3,
-    "Premier League: Brentford - Chelsea -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1
+    "3F Superliga: Lyngby BK - Silkeborg IF -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/3F%20Superliga.jpg": 1,
+    "Bundesliga Fodbold: Bayern München - Union Berlin -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Bundesliga_3.JPG": 2,
+    "Champions League Weekly: UEFA Champions League Weekly -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League%20Weekly2.jpg": 1,
+    "Højdepunkter fra Dansk Motorsport: RACETV.DK -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%B8jdepunkter%20fra%20Dansk%20Motorsport1.jpg": 3,
+    "Premier League: Brentford - Chelsea -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/3F%20Superliga.jpg": 1
   },
   "TV3 Max Denmark (DK,DA).dk": {
     "3F Superliga -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/3F%20Superliga.jpg": 1,
-    "Bundesliga Fodbold -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Bundesliga%20Fodbold.jpg": 2,
-    "Champions League Weekly -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20Hockey%20League.jpg": 1,
+    "Bundesliga Fodbold -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Bundesliga_3.JPG": 2,
+    "Champions League Weekly -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League%20Weekly.jpg": 1,
     "Højdepunkter fra Dansk Motorsport -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%B8jdepunkter%20fra%20Dansk%20Motorsport.jpg": 3,
     "Premier League -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League.jpg": 2
   },
   "TV3 Max.dk": {
     "3F Superliga -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/3F%20Superliga.jpg": 2,
-    "Bundesliga Fodbold -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Bundesliga%20Fodbold.jpg": 4,
-    "Bundesliga: Bayern München - Union Berlin -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20ATP%20500.jpg": 2,
-    "Champions League Weekly -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20Hockey%20League.jpg": 2,
-    "Champions League Weekly: UEFA Champions League Weekly -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20Hockey%20League.jpg": 1,
+    "Bundesliga Fodbold -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Bundesliga_3.JPG": 4,
+    "Bundesliga: Bayern München - Union Berlin -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Bundesliga_3.JPG": 2,
+    "Champions League Weekly -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League%20Weekly.jpg": 2,
+    "Champions League Weekly: UEFA Champions League Weekly -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League%20Weekly2.jpg": 1,
     "Højdepunkter fra Dansk Motorsport -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%B8jdepunkter%20fra%20Dansk%20Motorsport.jpg": 9,
     "Premier League -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League.jpg": 4,
-    "Premier League: Brentford - Chelsea -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 2,
-    "Superliga: Lyngby BK - Silkeborg IF -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1
+    "Premier League: Brentford - Chelsea -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/3F%20Superliga.jpg": 2,
+    "Superliga: Lyngby BK - Silkeborg IF -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Superliga%20Studiet.jpg": 1
+  },
+  "dr2.dk": {
+    "Davis Cup: Danmark - Bulgarien, 1. single, direkte -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Davis%20Cup.jpg": 1,
+    "Davis Cup: Danmark - Bulgarien, 2. single, direkte -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Davis%20Cup.jpg": 1
   }
 }
