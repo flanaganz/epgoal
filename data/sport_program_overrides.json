@@ -63,6 +63,10 @@
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
   },
+  "3f superliga: efter odense boldklub-fc midtjylland": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
   "3f superliga: efter randers fc-agf": {
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
@@ -115,6 +119,10 @@
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
   },
+  "3f superliga: før odense boldklub-fc midtjylland": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
   "3f superliga: før silkeborg if-viborg if": {
     "backdrop": "Før Superligaen.jpg",
     "poster": "Før Superligaen.jpg"
@@ -132,6 +140,10 @@
     "poster": "3F Superliga.jpg"
   },
   "3f superliga: odense boldklub-f.c. københavn": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
+  "3f superliga: odense boldklub-fc midtjylland": {
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
   },
@@ -585,6 +597,26 @@
     "backdrop": "Davis Cup.jpg",
     "poster": "Davis Cup.jpg"
   },
+  "davis cup: danmark - bulgarien, 3. single, direkte": {
+    "backdrop": "Davis Cup.jpg",
+    "poster": "Davis Cup.jpg"
+  },
+  "davis cup: danmark - bulgarien, 4. single, direkte": {
+    "backdrop": "Davis Cup.jpg",
+    "poster": "Davis Cup.jpg"
+  },
+  "davis cup: danmark - bulgarien, double, direkte": {
+    "backdrop": "Davis Cup.jpg",
+    "poster": "Davis Cup.jpg"
+  },
+  "davis cup: elmer møller - grigor dimitrov, single, direkte": {
+    "backdrop": "Davis Cup.jpg",
+    "poster": "Davis Cup.jpg"
+  },
+  "davis cup: holger rune - iliyan radulov, single, direkte": {
+    "backdrop": "Davis Cup.jpg",
+    "poster": "Davis Cup.jpg"
+  },
   "dbu pokalen": {
     "backdrop": "DBU Pokalen.jpg",
     "poster": "DBU Pokalen.jpg"
@@ -620,6 +652,10 @@
   "efl championship: middlesbrough - west bromwich": {
     "backdrop": "EFL Championship Highligts.jpg",
     "poster": "EFL Championship Highligts.jpg"
+  },
+  "efl championship: millwall - west ham": {
+    "backdrop": "EFL Championship.jpg",
+    "poster": "EFL Championship.jpg"
   },
   "efl championship: preston - blackburn": {
     "backdrop": "EFL Championship.jpg",
@@ -802,8 +838,8 @@
     "poster": "Fodbold Friuli Venezia Giulia Cup - Kampe.jpg"
   },
   "fodbold: premier league-studiet": {
-    "backdrop": "Premier League Studie.jpg",
-    "poster": "Premier League Studie.jpg"
+    "backdrop": "Premier League-studiet.jpg",
+    "poster": "Premier League-studiet.jpg"
   },
   "fodbold: serie a": {
     "backdrop": "Serie A.jpg",
@@ -902,6 +938,10 @@
     "poster": "Herreligaen.jpg"
   },
   "herreligaen: bjerringbro-silkeborg - aalborg": {
+    "backdrop": "Herreligaen.jpg",
+    "poster": "Herreligaen.jpg"
+  },
+  "herreligaen: gog-fredericia": {
     "backdrop": "Herreligaen.jpg",
     "poster": "Herreligaen.jpg"
   },
@@ -1038,8 +1078,8 @@
     "poster": "Lets Be Frank.jpg"
   },
   "let’s be frank: let's be frank": {
-    "backdrop": "https://image.tmdb.org/t/p/original/tzcEiG73S5a9HtMflMQ0Z8WWms.jpg",
-    "poster": "https://image.tmdb.org/t/p/original/tzcEiG73S5a9HtMflMQ0Z8WWms.jpg"
+    "backdrop": "Lets Be Frank.jpg",
+    "poster": "Lets Be Frank.jpg"
   },
   "ligahåndbold: studiet": {
     "backdrop": "Håndbold Herreligaen.jpg",
@@ -1165,6 +1205,10 @@
     "backdrop": "Premier League-studiet.jpg",
     "poster": "Premier League-studiet.jpg"
   },
+  "premier league studie: brighton - arsenal": {
+    "backdrop": "Premier League.jpg",
+    "poster": "Premier League.jpg"
+  },
   "premier league studie: hull - aston villa": {
     "backdrop": "Premier League.jpg",
     "poster": "Premier League.jpg"
@@ -1213,6 +1257,10 @@
     "backdrop": "Premier League.jpg",
     "poster": "Premier League.jpg"
   },
+  "premier league: brighton - arsenal": {
+    "backdrop": "Premier League.jpg",
+    "poster": "Premier League.jpg"
+  },
   "premier league: chelsea - brighton": {
     "backdrop": "Premier League.jpg",
     "poster": "Premier League.jpg"
@@ -1226,6 +1274,10 @@
     "poster": "Premier League.jpg"
   },
   "premier league: crystal palace - manchester city": {
+    "backdrop": "Premier League.jpg",
+    "poster": "Premier League.jpg"
+  },
+  "premier league: everton - ipswich": {
     "backdrop": "Premier League.jpg",
     "poster": "Premier League.jpg"
   },
@@ -1269,6 +1321,14 @@
     "backdrop": "Premier League.jpg",
     "poster": "Premier League.jpg"
   },
+  "premier league: newcastle - hull": {
+    "backdrop": "Premier League.jpg",
+    "poster": "Premier League.jpg"
+  },
+  "premier league: nottingham forest - coventry": {
+    "backdrop": "Premier League.jpg",
+    "poster": "Premier League.jpg"
+  },
   "premier league: review of the season '25/26": {
     "backdrop": "Premier League Review of the Season.jpg",
     "poster": "Premier League Review of the Season.jpg"
@@ -1288,6 +1348,10 @@
   "serie a: ac milan-venezia": {
     "backdrop": "Fodbold Serie A.jpg",
     "poster": "Fodbold Serie A.jpg"
+  },
+  "serie a: bologna-torino": {
+    "backdrop": "Serie A.jpg",
+    "poster": "Serie A.jpg"
   },
   "serie a: cagliari-inter": {
     "backdrop": "Serie A.jpg",
@@ -1333,11 +1397,19 @@
     "backdrop": "Fodbold Serie A.jpg",
     "poster": "Fodbold Serie A.jpg"
   },
+  "serie a: roma-inter": {
+    "backdrop": "Serie A.jpg",
+    "poster": "Serie A.jpg"
+  },
   "serie a: udinese-lazio": {
     "backdrop": "Serie A.jpg",
     "poster": "Serie A.jpg"
   },
   "serie a: venezia-fiorentina": {
+    "backdrop": "Serie A.jpg",
+    "poster": "Serie A.jpg"
+  },
+  "serie a: venezia-lazio": {
     "backdrop": "Serie A.jpg",
     "poster": "Serie A.jpg"
   },
@@ -1504,6 +1576,10 @@
   "tennis: atp 1000 - paris - kampe": {
     "backdrop": "Tennis ATP 1000.jpg",
     "poster": "Tennis ATP 1000.jpg"
+  },
+  "tennis: davis cup": {
+    "backdrop": "Davis Cup.jpg",
+    "poster": "Davis Cup.jpg"
   },
   "the dark tower": {
     "backdrop": "Sky Sports Soccer Saturday.jpg",
