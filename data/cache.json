@@ -8954,6 +8954,11 @@
     "poster": null,
     "ts": 1787223018.8769586
   },
+  "emmas vej": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/wVFwCUZrs8rI0x8d4G8AcSXeopz.jpg",
+    "poster": null,
+    "ts": 1789710599.2415535
+  },
   "empire": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/qqy1GkfIQn9VqZxIZQnDg7O7oV.jpg",
     "poster": "https://image.tmdb.org/t/p/w500/gTrzYR6gWMhQ8yINW9JCLeoJHvf.jpg",
@@ -13103,6 +13108,11 @@
     "backdrop": null,
     "poster": null,
     "ts": 1789131578.2817733
+  },
+  "herreligaen: gog-fredericia": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1789710602.7825618
   },
   "herreligaen: gog-skjern": {
     "backdrop": null,
@@ -25224,6 +25234,11 @@
     "poster": null,
     "ts": 1787808446.4152975
   },
+  "serie a: bologna-torino": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1789710602.1444201
+  },
   "serie a: cagliari-inter": {
     "backdrop": null,
     "poster": null,
@@ -25294,6 +25309,11 @@
     "poster": null,
     "ts": 1787575380.6670227
   },
+  "serie a: roma-inter": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1789710602.3344865
+  },
   "serie a: torino-ac milan": {
     "backdrop": null,
     "poster": null,
@@ -25308,6 +25328,11 @@
     "backdrop": null,
     "poster": null,
     "ts": 1789102585.4188628
+  },
+  "serie a: venezia-lazio": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1789710602.5968935
   },
   "servicetid-reportage": {
     "backdrop": null,
