@@ -47,7 +47,15 @@
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
   },
+  "3f superliga: ac horsens -agf": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
   "3f superliga: agf-fc midtjylland": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
+  "3f superliga: brøndby if - f.c. københavn": {
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
   },
@@ -131,6 +139,10 @@
     "backdrop": "Før Superligaen.jpg",
     "poster": "Før Superligaen.jpg"
   },
+  "3f superliga: før sønderjyske-randers fc": {
+    "backdrop": "Før Superligaen.jpg",
+    "poster": "Før Superligaen.jpg"
+  },
   "3f superliga: lyngby bk - silkeborg if": {
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
@@ -163,9 +175,13 @@
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
   },
-  "3f superliga: totalfodbold": {
+  "3f superliga: sønderjyske-randers fc": {
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
+  },
+  "3f superliga: totalfodbold": {
+    "backdrop": "Totalfodbold.jpg",
+    "poster": "Totalfodbold.jpg"
   },
   "3f superliga: totalfodbold - transfervinduet lukker": {
     "backdrop": "Totalfodbold.jpg",
@@ -190,6 +206,10 @@
     "poster": "A-Liga.jpg"
   },
   "a-liga: efter kolding if-brøndby if": {
+    "backdrop": "A-Liga.jpg",
+    "poster": "A-Liga.jpg"
+  },
+  "a-liga: f.c. københavn-kolding if": {
     "backdrop": "A-Liga.jpg",
     "poster": "A-Liga.jpg"
   },
@@ -413,9 +433,21 @@
     "backdrop": "Bundesliga_2.jpg",
     "poster": "Bundesliga_2.jpg"
   },
+  "bundesliga fodbold: paderborn - hoffenheim": {
+    "backdrop": "Bundesliga_3.JPG",
+    "poster": "Bundesliga_3.JPG"
+  },
   "bundesliga fodbold: schalke 04 - bayern münchen": {
     "backdrop": "Bundesliga_2.jpg",
     "poster": "Bundesliga_2.jpg"
+  },
+  "bundesliga fodbold: schalke 04 - elversberg": {
+    "backdrop": "Bundesliga_3.JPG",
+    "poster": "Bundesliga_3.JPG"
+  },
+  "bundesliga fodbold: stuttgart - dortmund": {
+    "backdrop": "Bundesliga_3.JPG",
+    "poster": "Bundesliga_3.JPG"
   },
   "bundesliga fodbold: stuttgart - fc köln": {
     "backdrop": "Bundesliga Fodbold.jpg",
@@ -430,8 +462,8 @@
     "poster": "Bundesliga Fodbold.jpg"
   },
   "bundesliga highlights i: bundesliga highlights": {
-    "backdrop": "Bundesliga_2.jpg",
-    "poster": "Bundesliga_2.jpg"
+    "backdrop": "Bundesliga Saturday Highlights.jpg",
+    "poster": "Bundesliga Saturday Highlights.jpg"
   },
   "bundesliga håndbold": {
     "backdrop": "Bundesliga_2.jpg",
@@ -589,6 +621,10 @@
     "backdrop": "Davis Cup.jpg",
     "poster": "Davis Cup.jpg"
   },
+  "davis cup: august holmgren/carl emil overbeck - alexander donski/pyotr nesterov, double, direkte": {
+    "backdrop": "Davis Cup.jpg",
+    "poster": "Davis Cup.jpg"
+  },
   "davis cup: danmark - bulgarien, 1. single, direkte": {
     "backdrop": "Davis Cup.jpg",
     "poster": "Davis Cup.jpg"
@@ -610,6 +646,14 @@
     "poster": "Davis Cup.jpg"
   },
   "davis cup: elmer møller - grigor dimitrov, single, direkte": {
+    "backdrop": "Davis Cup.jpg",
+    "poster": "Davis Cup.jpg"
+  },
+  "davis cup: elmer møller - iliyan radoulov, single, direkte": {
+    "backdrop": "Davis Cup.jpg",
+    "poster": "Davis Cup.jpg"
+  },
+  "davis cup: holger rune - grigor dimitrov, single, direkte": {
     "backdrop": "Davis Cup.jpg",
     "poster": "Davis Cup.jpg"
   },
@@ -925,6 +969,10 @@
     "backdrop": null,
     "poster": null
   },
+  "grand prix of austria - løbet": {
+    "backdrop": "F1.jpg",
+    "poster": "F1.jpg"
+  },
   "handball bundesliga": {
     "backdrop": "Bundesliga_2.jpg",
     "poster": "Bundesliga_2.jpg"
@@ -970,6 +1018,10 @@
     "poster": "Herreligaen.jpg"
   },
   "herreligaen: skjern-aalborg": {
+    "backdrop": "Herreligaen.jpg",
+    "poster": "Herreligaen.jpg"
+  },
+  "herreligaen: skjern-skanderborg agf": {
     "backdrop": "Herreligaen.jpg",
     "poster": "Herreligaen.jpg"
   },
@@ -1121,6 +1173,14 @@
     "backdrop": "NFL.jpg",
     "poster": "NFL.jpg"
   },
+  "nfl: dallas cowboys-washington commanders": {
+    "backdrop": "NFL.jpg",
+    "poster": "NFL.jpg"
+  },
+  "nfl: new england patriots-pittsburgh steelers": {
+    "backdrop": "NFL2.jpg",
+    "poster": "NFL2.jpg"
+  },
   "nfl: philadelphia eagles-cincinnati bengals, pre-season": {
     "backdrop": "NFL.jpg",
     "poster": "NFL.jpg"
@@ -1249,6 +1309,10 @@
     "backdrop": "Premier League.jpg",
     "poster": "Premier League.jpg"
   },
+  "premier league: bournemouth - liverpool": {
+    "backdrop": "Premier League.jpg",
+    "poster": "Premier League.jpg"
+  },
   "premier league: brentford - chelsea": {
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
@@ -1289,6 +1353,10 @@
     "backdrop": "Premier League.jpg",
     "poster": "Premier League.jpg"
   },
+  "premier league: fulham - manchester united": {
+    "backdrop": "Premier League.jpg",
+    "poster": "Premier League.jpg"
+  },
   "premier league: hull-aston villa": {
     "backdrop": "Premier League.jpg",
     "poster": "Premier League.jpg"
@@ -1310,6 +1378,10 @@
     "poster": "Premier League.jpg"
   },
   "premier league: manchester city - coventry": {
+    "backdrop": "Premier League.jpg",
+    "poster": "Premier League.jpg"
+  },
+  "premier league: manchester city - sunderland": {
     "backdrop": "Premier League.jpg",
     "poster": "Premier League.jpg"
   },
@@ -1345,6 +1417,10 @@
     "backdrop": "RaceTV_DK.jpg",
     "poster": "RaceTV_DK.jpg"
   },
+  "serie a: ac milan-lecce": {
+    "backdrop": "Serie A.jpg",
+    "poster": "Serie A.jpg"
+  },
   "serie a: ac milan-venezia": {
     "backdrop": "Fodbold Serie A.jpg",
     "poster": "Fodbold Serie A.jpg"
@@ -1354,6 +1430,10 @@
     "poster": "Serie A.jpg"
   },
   "serie a: cagliari-inter": {
+    "backdrop": "Serie A.jpg",
+    "poster": "Serie A.jpg"
+  },
+  "serie a: fiorentina-napoli": {
     "backdrop": "Serie A.jpg",
     "poster": "Serie A.jpg"
   },
@@ -1470,6 +1550,10 @@
     "poster": "Superliga Studiet.jpg"
   },
   "superliga studie: agf - silkeborg if": {
+    "backdrop": "Superliga Studiet.jpg",
+    "poster": "Superliga Studiet.jpg"
+  },
+  "superliga studie: brøndby if - f.c. københavn": {
     "backdrop": "Superliga Studiet.jpg",
     "poster": "Superliga Studiet.jpg"
   },
