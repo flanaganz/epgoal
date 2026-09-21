@@ -23,6 +23,10 @@
     "backdrop": "BetiniaStudio.jpg",
     "poster": "BetiniaStudio.jpg"
   },
+  "1. division studie: hb køge - hobro ik": {
+    "backdrop": "Betinia Liga.jpg",
+    "poster": "Betinia Liga.jpg"
+  },
   "1. division studie: hvidovre if - aab": {
     "backdrop": "BetiniaStudio.jpg",
     "poster": "BetiniaStudio.jpg"
@@ -32,6 +36,10 @@
     "poster": "Betinia Liga.jpg"
   },
   "1. division: fc fredericia - esbjerg fb": {
+    "backdrop": "Betinia Liga.jpg",
+    "poster": "Betinia Liga.jpg"
+  },
+  "1. division: hb køge - hobro ik": {
     "backdrop": "Betinia Liga.jpg",
     "poster": "Betinia Liga.jpg"
   },
@@ -1601,6 +1609,10 @@
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
   },
+  "superliga: brøndby if - f.c. københavn": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
   "superliga: brøndby if - randers fc": {
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
@@ -1630,6 +1642,10 @@
     "poster": "3F Superliga.jpg"
   },
   "superliga: silkeborg if - fc midtjylland": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
+  "superliga: viborg ff - fc nordsjælland": {
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
   },
