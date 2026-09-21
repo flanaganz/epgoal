@@ -1,11 +1,24 @@
 {
-  "TV 2 Sport X Denmark (DK,DA).dk": {
-    "Nordfra - en surfer vender hjem": 1
+  "TV 2 Sport Denmark (DK,DA).dk": {
+    "Håndbold: Pokal (m) - Kampe": 2,
+    "Håndbold: Pokal - Studiet": 3,
+    "Højdepunkter - Sportsnyheder": 1
   },
-  "TV 2 Sport X HD (D) (T).dk": {
-    "Nordfra - en surfer vender hjem": 1
+  "TV 2 Sport HD (D) (T).dk": {
+    "Håndbold: Pokal (m) - Kampe": 2,
+    "Håndbold: Pokal - Studiet": 3,
+    "Højdepunkter - Sportsnyheder": 1
   },
   "TV 2 Sport X.dk": {
-    "Nordfra - en surfer vender hjem": 2
+    "Nordfra - en surfer vender hjem": 1
+  },
+  "TV 2 Sport.dk": {
+    "Håndbold: Pokal (m) - Kampe": 2,
+    "Håndbold: Pokal - Studiet": 3,
+    "Højdepunkter - Sportsnyheder": 1
+  },
+  "TV3 Sport.dk": {
+    "1. Division Studie: HB Køge - Hobro IK": 2,
+    "1. Division: HB Køge - Hobro IK": 3
   }
 }
