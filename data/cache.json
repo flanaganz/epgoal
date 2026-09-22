@@ -10277,12 +10277,12 @@
   "fifa vm 2026: brasilien-norge, 1/8-finale": {
     "backdrop": null,
     "poster": null,
-    "ts": 1786975558.1369646
+    "ts": 1790078873.3886433
   },
   "fifa vm 2026: elfenbenskysten-norge, 1/16-finale": {
     "backdrop": null,
     "poster": null,
-    "ts": 1786946643.2135584
+    "ts": 1790078873.3135755
   },
   "fifa vm 2026: frankrig-england, bronzefinale": {
     "backdrop": null,
@@ -10292,22 +10292,22 @@
   "fifa vm 2026: irak-norge": {
     "backdrop": null,
     "poster": null,
-    "ts": 1786946642.5170832
+    "ts": 1790078873.7574053
   },
   "fifa vm 2026: norge-england, kvartfinale": {
     "backdrop": null,
     "poster": null,
-    "ts": 1786975558.3138762
+    "ts": 1790078873.5428138
   },
   "fifa vm 2026: norge-frankrig": {
     "backdrop": null,
     "poster": null,
-    "ts": 1786946642.9057019
+    "ts": 1790078873.2371485
   },
   "fifa vm 2026: norge-senegal": {
     "backdrop": null,
     "poster": null,
-    "ts": 1786946642.7163062
+    "ts": 1790078873.1636748
   },
   "fifa vm 2026: spanien-argentina, finale": {
     "backdrop": null,
@@ -14264,10 +14264,20 @@
     "poster": null,
     "ts": 1787575378.492398
   },
+  "håndbold: høj-aalborg, pokal (m)": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790078874.0429373
+  },
   "håndbold: liga håndbold - studiet": {
     "backdrop": null,
     "poster": null,
     "ts": 1787575378.2826977
+  },
+  "håndbold: nordsjælland-skjern, pokal (m)": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790078873.9691556
   },
   "håndbold: pokal (m) - kampe": {
     "backdrop": null,
@@ -28598,6 +28608,11 @@
     "backdrop": null,
     "poster": null,
     "ts": 1786716237.6575403
+  },
+  "testkamp: aserbajdsjan-tadsjikistan": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790078873.4666536
   },
   "testkamp: udinese-nottingham forest": {
     "backdrop": null,
