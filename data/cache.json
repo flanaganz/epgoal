@@ -4689,6 +4689,11 @@
     "poster": null,
     "ts": 1788331239.4163804
   },
+  "bundesliga special: the legacy of manuel neuer": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790063301.4469607
+  },
   "bundesliga: hamburger sv - mainz": {
     "backdrop": null,
     "poster": null,
@@ -29344,6 +29349,11 @@
     "poster": "https://image.tmdb.org/t/p/w500/lTswUL7VPgVVLtFGadQg5VjsDzY.jpg",
     "ts": 1786632122.2425432
   },
+  "the legacy of manuel neuer": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790063299.959047
+  },
   "the legend of ochi": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/A2IBTXYCm3BLNaCRo4EXBEJxEwF.jpg",
     "poster": "https://image.tmdb.org/t/p/w500/iD0oN8wBj995IPBKzmHl9ViDAgJ.jpg",
@@ -31048,6 +31058,16 @@
     "backdrop": null,
     "poster": "https://image.tmdb.org/t/p/w500/dbtHl3rh4hsjRKsObNDeFGFuJor.jpg",
     "ts": 1786716296.546609
+  },
+  "tøffe vs graver": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/t2QdPUKErG7AGXtBWCRgOgsDooI.jpg",
+    "poster": null,
+    "ts": 1790063300.2978153
+  },
+  "tøffe vs. graver": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/t2QdPUKErG7AGXtBWCRgOgsDooI.jpg",
+    "poster": null,
+    "ts": 1790063300.5028105
   },
   "tøm køleskabet - vafler, kyllingesuppe og mayonnaise": {
     "backdrop": null,

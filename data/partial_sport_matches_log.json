@@ -1,6 +1,6 @@
 {
   "DR2 Denmark (DK,DA).dk": {
-    "Champions League fodbold (K) -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1
+    "Champions League fodbold (K) -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 2
   },
   "DR2 HD (T).dk": {
     "Champions League fodbold (K) -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1
@@ -8,14 +8,9 @@
   "DR2.dk": {
     "Champions League fodbold (K) -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
     "Champions League fodbold -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
+    "Champions League fodbold: Arsenal - HB Køge (k), direkte -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 2
+  },
+  "dr2.dk": {
     "Champions League fodbold: Arsenal - HB Køge (k), direkte -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1
-  },
-  "TV3 Max Denmark (DK,DA).dk": {
-    "Bundesliga Saturday Highlights -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Bundesliga%20Saturday%20Highlights.jpg": 1,
-    "Premier League -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League.jpg": 2
-  },
-  "TV3 Max.dk": {
-    "Bundesliga Saturday Highlights -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Bundesliga%20Saturday%20Highlights.jpg": 1,
-    "Premier League -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League.jpg": 2
   }
 }
