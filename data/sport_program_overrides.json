@@ -789,6 +789,14 @@
     "backdrop": "F1T.JPG",
     "poster": "F1T.JPG"
   },
+  "f1 training: aserbajdsjans grand prix - træning 1": {
+    "backdrop": "F1T.JPG",
+    "poster": "F1T.JPG"
+  },
+  "f1 training: aserbajdsjans grand prix - træning 2": {
+    "backdrop": "F1T.JPG",
+    "poster": "F1T.JPG"
+  },
   "f1 training: italiens grand prix - træning 1": {
     "backdrop": "F1T.JPG",
     "poster": "F1T.JPG"
@@ -826,6 +834,14 @@
     "poster": "F1.jpg"
   },
   "f2": {
+    "backdrop": "F2.jpg",
+    "poster": "F2.jpg"
+  },
+  "f2: aserbadsjans grand prix - kvalifikation": {
+    "backdrop": "F2.jpg",
+    "poster": "F2.jpg"
+  },
+  "f2: aserbajdsjans grand prix - kvalifikation": {
     "backdrop": "F2.jpg",
     "poster": "F2.jpg"
   },
@@ -889,6 +905,10 @@
     "backdrop": "Fastzone.jpg",
     "poster": "Fastzone.jpg"
   },
+  "fifa vm 2026: brasilien-norge, 1/8-finale": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
   "fodbold: 3f superligaen": {
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
@@ -909,6 +929,14 @@
     "backdrop": "Fodbold Friuli Venezia Giulia Cup - Kampe.jpg",
     "poster": "Fodbold Friuli Venezia Giulia Cup - Kampe.jpg"
   },
+  "fodbold: nations league": {
+    "backdrop": "Nations League.jpg",
+    "poster": "Nations League.jpg"
+  },
+  "fodbold: nations league - studie": {
+    "backdrop": "Nations League.jpg",
+    "poster": "Nations League.jpg"
+  },
   "fodbold: premier league-studiet": {
     "backdrop": "Premier League-studiet.jpg",
     "poster": "Premier League-studiet.jpg"
@@ -924,6 +952,10 @@
   "fodbold: totalfodbold": {
     "backdrop": "Totalfodbold.jpg",
     "poster": "Totalfodbold.jpg"
+  },
+  "fodbold: venskabskampe": {
+    "backdrop": "Nations League.jpg",
+    "poster": "Nations League.jpg"
   },
   "formel 1": {
     "backdrop": "F1.jpg",
@@ -960,6 +992,10 @@
   "formel 1: spaniens grand prix - løbet": {
     "backdrop": "F1.jpg",
     "poster": "F1.jpg"
+  },
+  "formula 2: chasing the dream: chasing the dream - baku": {
+    "backdrop": "F2.jpg",
+    "poster": "F2.jpg"
   },
   "formula 2: chasing the dream: chasing the dream - italien": {
     "backdrop": "F2.jpg",
@@ -1081,6 +1117,14 @@
     "backdrop": "Håndbold Herre Pokal.jpg",
     "poster": "Håndbold Herre Pokal.jpg"
   },
+  "håndbold: pokal (m) - kampe": {
+    "backdrop": "Håndbold Herre Pokal.jpg",
+    "poster": "Håndbold Herre Pokal.jpg"
+  },
+  "håndbold: pokal - studiet": {
+    "backdrop": "Håndbold Herre Pokal.jpg",
+    "poster": "Håndbold Herre Pokal.jpg"
+  },
   "håndbold: studiet": {
     "backdrop": "Håndbold Herreligaen.jpg",
     "poster": "Håndbold Herreligaen.jpg"
@@ -1088,6 +1132,10 @@
   "håndbold: sønderjyske-gog, pokal (m)": {
     "backdrop": "Herreligaen.jpg",
     "poster": "Herreligaen.jpg"
+  },
+  "højdepunkter - sportsnyheder": {
+    "backdrop": "Sporten.jpg",
+    "poster": "Sporten.jpg"
   },
   "højdepunkter fra dansk motorsport": {
     "backdrop": "Højdepunkter fra Dansk Motorsport.jpg",
@@ -1170,12 +1218,12 @@
     "poster": null
   },
   "let’s be frank": {
-    "backdrop": "Lets Be Frank.jpg",
-    "poster": "Lets Be Frank.jpg"
+    "backdrop": "Let's be Frank2.jpg",
+    "poster": "Let's be Frank2.jpg"
   },
   "let’s be frank: let's be frank": {
-    "backdrop": "Lets Be Frank.jpg",
-    "poster": "Lets Be Frank.jpg"
+    "backdrop": "Let's be Frank2.jpg",
+    "poster": "Let's be Frank2.jpg"
   },
   "ligahåndbold: studiet": {
     "backdrop": "Håndbold Herreligaen.jpg",
@@ -1724,6 +1772,10 @@
   "tennis: davis cup": {
     "backdrop": "Davis Cup.jpg",
     "poster": "Davis Cup.jpg"
+  },
+  "testkamp: aserbajdsjan-tadsjikistan": {
+    "backdrop": "Fodbold.jpg",
+    "poster": "Fodbold.jpg"
   },
   "the dark tower": {
     "backdrop": "Sky Sports Soccer Saturday.jpg",

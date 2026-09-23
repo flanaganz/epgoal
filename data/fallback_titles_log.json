@@ -1,35 +1,12 @@
 {
-  "TV 2 Sport Denmark (DK,DA).dk": {
-    "Håndbold: Pokal (m) - Kampe": 10,
-    "Håndbold: Pokal - Studiet": 5
-  },
-  "TV 2 Sport HD (D) (T).dk": {
-    "Håndbold: Pokal (m) - Kampe": 10,
-    "Håndbold: Pokal - Studiet": 8,
-    "Højdepunkter - Sportsnyheder": 1
-  },
   "TV 2 Sport X.dk": {
-    "FIFA VM 2026: Brasilien-Norge, 1/8-finale": 2,
     "FIFA VM 2026: Elfenbenskysten-Norge, 1/16-finale": 2,
     "FIFA VM 2026: Irak-Norge": 2,
     "FIFA VM 2026: Norge-England, kvartfinale": 2,
     "FIFA VM 2026: Norge-Frankrig": 4,
-    "FIFA VM 2026: Norge-Senegal": 4,
-    "Testkamp: Aserbajdsjan-Tadsjikistan": 4
-  },
-  "TV 2 Sport.dk": {
-    "Håndbold: Pokal (m) - Kampe": 10,
-    "Håndbold: Pokal - Studiet": 5,
-    "Højdepunkter - Sportsnyheder": 1
+    "FIFA VM 2026: Norge-Senegal": 4
   },
   "TV3 Sport HD (D) (T).dk": {
     "The Legacy of Manuel Neuer": 1
-  },
-  "TV3 Sport.dk": {
-    "F1 Training: Aserbajdsjans Grand Prix - Træning 1": 5,
-    "F1 Training: Aserbajdsjans Grand Prix - Træning 2": 4,
-    "F2: Aserbadsjans Grand Prix - Kvalifikation": 1,
-    "F2: Aserbajdsjans Grand Prix - Kvalifikation": 1,
-    "Formula 2: Chasing the Dream: Chasing The Dream - Baku": 1
   }
 }
