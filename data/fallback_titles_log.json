@@ -1,8 +1,7 @@
 {
   "TV 2 Sport Denmark (DK,DA).dk": {
     "Håndbold: Pokal (m) - Kampe": 10,
-    "Håndbold: Pokal - Studiet": 8,
-    "Højdepunkter - Sportsnyheder": 1
+    "Håndbold: Pokal - Studiet": 5
   },
   "TV 2 Sport HD (D) (T).dk": {
     "Håndbold: Pokal (m) - Kampe": 10,
@@ -20,10 +19,17 @@
   },
   "TV 2 Sport.dk": {
     "Håndbold: Pokal (m) - Kampe": 10,
-    "Håndbold: Pokal - Studiet": 8,
-    "Højdepunkter - Sportsnyheder": 2
+    "Håndbold: Pokal - Studiet": 5,
+    "Højdepunkter - Sportsnyheder": 1
   },
   "TV3 Sport HD (D) (T).dk": {
     "The Legacy of Manuel Neuer": 1
+  },
+  "TV3 Sport.dk": {
+    "F1 Training: Aserbajdsjans Grand Prix - Træning 1": 5,
+    "F1 Training: Aserbajdsjans Grand Prix - Træning 2": 4,
+    "F2: Aserbadsjans Grand Prix - Kvalifikation": 1,
+    "F2: Aserbajdsjans Grand Prix - Kvalifikation": 1,
+    "Formula 2: Chasing the Dream: Chasing The Dream - Baku": 1
   }
 }
