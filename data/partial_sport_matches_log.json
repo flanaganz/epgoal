@@ -14,10 +14,10 @@
   "TV3 Max.dk": {
     "Bundesliga Fodbold -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Bundesliga_3.JPG": 3,
     "Premier League -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League.jpg": 8,
-    "Premier League: Bournemouth - Liverpool -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League.jpg": 1,
-    "Premier League: Brentford - Chelsea -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/3F%20Superliga.jpg": 1,
-    "Premier League: Brighton - Arsenal -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League.jpg": 1,
-    "Premier League: Fulham - Manchester United -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League.jpg": 1,
+    "Premier League: Bournemouth - Liverpool -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg": 1,
+    "Premier League: Brentford - Chelsea -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg": 1,
+    "Premier League: Brighton - Arsenal -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg": 1,
+    "Premier League: Fulham - Manchester United -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg": 1,
     "Sportstalk -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Sportstalk.jpg": 3
   },
   "TV3+ Denmark (DK,DA).dk": {
@@ -26,6 +26,8 @@
   },
   "TV3+.dk": {
     "F1 Qualification Studio -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/F1Q.JPG": 4,
+    "F1 Qualification Studio: Aserbajdsjans Grand Prix - Kvalifikation -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/F1Q.JPG": 2,
+    "F1 Qualification: Aserbajdsjans Grand Prix - Kvalifikation -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/F1Q.JPG": 1,
     "Formel 1 -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/F1.jpg": 2
   }
 }

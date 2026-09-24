@@ -769,11 +769,19 @@
     "backdrop": "F1Q.JPG",
     "poster": "F1Q.JPG"
   },
+  "f1 qualification studio: aserbajdsjans grand prix - kvalifikation": {
+    "backdrop": "F1Q.JPG",
+    "poster": "F1Q.JPG"
+  },
   "f1 qualification studio: italiens grand prix - kvalifikation": {
     "backdrop": "Formel 1.jpg",
     "poster": "Formel 1.jpg"
   },
   "f1 qualification studio: spaniens grand prix - kvalifikation": {
+    "backdrop": "F1Q.JPG",
+    "poster": "F1Q.JPG"
+  },
+  "f1 qualification: aserbajdsjans grand prix - kvalifikation": {
     "backdrop": "F1Q.JPG",
     "poster": "F1Q.JPG"
   },
@@ -794,6 +802,10 @@
     "poster": "F1T.JPG"
   },
   "f1 training: aserbajdsjans grand prix - træning 2": {
+    "backdrop": "F1T.JPG",
+    "poster": "F1T.JPG"
+  },
+  "f1 training: aserbajdsjans grand prix - træning 3": {
     "backdrop": "F1T.JPG",
     "poster": "F1T.JPG"
   },
@@ -841,7 +853,15 @@
     "backdrop": "F2.jpg",
     "poster": "F2.jpg"
   },
+  "f2: aserbajdsjans grand prix - feature race": {
+    "backdrop": "F2.jpg",
+    "poster": "F2.jpg"
+  },
   "f2: aserbajdsjans grand prix - kvalifikation": {
+    "backdrop": "F2.jpg",
+    "poster": "F2.jpg"
+  },
+  "f2: aserbajdsjans grand prix - sprint race": {
     "backdrop": "F2.jpg",
     "poster": "F2.jpg"
   },
@@ -1100,6 +1120,10 @@
   "herreligaen: tth holstebro-skjern": {
     "backdrop": "Herreligaen.jpg",
     "poster": "Herreligaen.jpg"
+  },
+  "håndbold (m): em - det bedste fra dagen": {
+    "backdrop": "Håndbold Herreligaen.jpg",
+    "poster": "Håndbold Herreligaen.jpg"
   },
   "håndbold (m): håndboldligaen - kampe": {
     "backdrop": "Herreligaen.jpg",
@@ -1402,20 +1426,20 @@
     "poster": "Premier League.jpg"
   },
   "premier league: bournemouth - liverpool": {
-    "backdrop": "Premier League.jpg",
-    "poster": "Premier League.jpg"
+    "backdrop": "PL.jpg",
+    "poster": "PL.jpg"
   },
   "premier league: brentford - chelsea": {
-    "backdrop": "3F Superliga.jpg",
-    "poster": "3F Superliga.jpg"
+    "backdrop": "PL.jpg",
+    "poster": "PL.jpg"
   },
   "premier league: brentford - sunderland": {
     "backdrop": "Premier League.jpg",
     "poster": "Premier League.jpg"
   },
   "premier league: brighton - arsenal": {
-    "backdrop": "Premier League.jpg",
-    "poster": "Premier League.jpg"
+    "backdrop": "PL.jpg",
+    "poster": "PL.jpg"
   },
   "premier league: chelsea - brighton": {
     "backdrop": "Premier League.jpg",
@@ -1446,8 +1470,8 @@
     "poster": "Premier League.jpg"
   },
   "premier league: fulham - manchester united": {
-    "backdrop": "Premier League.jpg",
-    "poster": "Premier League.jpg"
+    "backdrop": "PL.jpg",
+    "poster": "PL.jpg"
   },
   "premier league: hull-aston villa": {
     "backdrop": "Premier League.jpg",
@@ -1604,6 +1628,10 @@
   "sky sports: the football show": {
     "backdrop": "Sky Sports The Football Show.jpg",
     "poster": "Sky Sports The Football Show.jpg"
+  },
+  "sky sports: the premier league show": {
+    "backdrop": "Premier League.jpg",
+    "poster": "Premier League.jpg"
   },
   "sky sports: total football": {
     "backdrop": "Sky Sports Deadline Day.jpg",
@@ -1885,11 +1913,23 @@
     "backdrop": "UEFA Champions League.jpg",
     "poster": "UEFA Champions League.jpg"
   },
+  "uefa nations league: det bedste fra dagen": {
+    "backdrop": "Nations League.jpg",
+    "poster": "Nations League.jpg"
+  },
   "uefa nations league: før norge-danmark": {
     "backdrop": "Nations League.jpg",
     "poster": "Nations League.jpg"
   },
+  "uefa nations league: georgien-nordirland": {
+    "backdrop": "Nations League.jpg",
+    "poster": "Nations League.jpg"
+  },
   "uefa nations league: holland-tyskland": {
+    "backdrop": "Nations League.jpg",
+    "poster": "Nations League.jpg"
+  },
+  "uefa nations league: italien-belgien": {
     "backdrop": "Nations League.jpg",
     "poster": "Nations League.jpg"
   },
@@ -1898,6 +1938,18 @@
     "poster": "Nations League.jpg"
   },
   "uefa nations league: portugal-wales": {
+    "backdrop": "Nations League.jpg",
+    "poster": "Nations League.jpg"
+  },
+  "uefa nations league: studiet": {
+    "backdrop": "Nations League.jpg",
+    "poster": "Nations League.jpg"
+  },
+  "uefa nations league: sverige-rumænien": {
+    "backdrop": "Nations League.jpg",
+    "poster": "Nations League.jpg"
+  },
+  "uefa nations league: tyrkiet-frankrig": {
     "backdrop": "Nations League.jpg",
     "poster": "Nations League.jpg"
   },
