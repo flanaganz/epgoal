@@ -5,5 +5,27 @@
   "TV 2.dk": {
     "Fodbold: Nations League - Studie -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Nations%20League.jpg": 2,
     "Fodbold: Nations League -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Nations%20League.jpg": 2
+  },
+  "TV3 Max Denmark (DK,DA).dk": {
+    "Bundesliga Fodbold -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Bundesliga_3.JPG": 1,
+    "Premier League -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League.jpg": 4,
+    "Sportstalk -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Sportstalk.jpg": 1
+  },
+  "TV3 Max.dk": {
+    "Bundesliga Fodbold -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Bundesliga_3.JPG": 3,
+    "Premier League -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League.jpg": 8,
+    "Premier League: Bournemouth - Liverpool -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League.jpg": 1,
+    "Premier League: Brentford - Chelsea -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/3F%20Superliga.jpg": 1,
+    "Premier League: Brighton - Arsenal -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League.jpg": 1,
+    "Premier League: Fulham - Manchester United -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League.jpg": 1,
+    "Sportstalk -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Sportstalk.jpg": 3
+  },
+  "TV3+ Denmark (DK,DA).dk": {
+    "F1 Qualification Studio -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/F1Q.JPG": 2,
+    "Formel 1 -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/F1.jpg": 1
+  },
+  "TV3+.dk": {
+    "F1 Qualification Studio -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/F1Q.JPG": 4,
+    "Formel 1 -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/F1.jpg": 2
   }
 }

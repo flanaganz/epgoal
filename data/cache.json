@@ -9664,6 +9664,11 @@
     "poster": null,
     "ts": 1788504616.2938309
   },
+  "f1 qualification: aserbajdsjans grand prix - kvalifikation": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790231498.4061198
+  },
   "f1 qualification: italiens grand prix - kvalifikation": {
     "backdrop": null,
     "poster": null,
@@ -9688,6 +9693,11 @@
     "backdrop": null,
     "poster": null,
     "ts": 1790148794.3654802
+  },
+  "f1 training: aserbajdsjans grand prix - træning 3": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790231498.0229702
   },
   "f1 training: hollands grand prix - sprint kvalifikation": {
     "backdrop": null,
@@ -9764,10 +9774,20 @@
     "poster": null,
     "ts": 1790148794.1822479
   },
+  "f2: aserbajdsjans grand prix - feature race": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790231498.2276978
+  },
   "f2: aserbajdsjans grand prix - kvalifikation": {
     "backdrop": null,
     "poster": null,
     "ts": 1790148794.0005755
+  },
+  "f2: aserbajdsjans grand prix - sprint race": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790231497.812287
   },
   "f2: italiens grand prix - feature race": {
     "backdrop": null,
@@ -13549,6 +13569,11 @@
     "poster": null,
     "ts": 1786632593.3152766
   },
+  "holger rune er tilbage på banen": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790231497.115502
+  },
   "holger sandte": {
     "backdrop": null,
     "poster": null,
@@ -14283,6 +14308,11 @@
     "backdrop": "https://image.tmdb.org/t/p/w1280/zwsCk8qJywDNjd0LjlMJyekaV0z.jpg",
     "poster": null,
     "ts": 1786632718.323717
+  },
+  "håndbold (m): em - det bedste fra dagen": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790231497.3046868
   },
   "håndbold (m): håndboldligaen - kampe": {
     "backdrop": null,
@@ -31174,15 +31204,30 @@
     "poster": null,
     "ts": 1786516323.5484772
   },
+  "uefa nations league: det bedste fra dagen": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790231499.485137
+  },
   "uefa nations league: før norge-danmark": {
     "backdrop": null,
     "poster": null,
     "ts": 1790172197.9854162
   },
+  "uefa nations league: georgien-nordirland": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790231498.9447904
+  },
   "uefa nations league: holland-tyskland": {
     "backdrop": null,
     "poster": null,
     "ts": 1790172198.1627886
+  },
+  "uefa nations league: italien-belgien": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790231499.8534584
   },
   "uefa nations league: norge-danmark": {
     "backdrop": null,
@@ -31193,6 +31238,21 @@
     "backdrop": null,
     "poster": null,
     "ts": 1790172198.059203
+  },
+  "uefa nations league: studiet": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790231499.126177
+  },
+  "uefa nations league: sverige-rumænien": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790231499.670437
+  },
+  "uefa nations league: tyrkiet-frankrig": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790231499.3071518
   },
   "uefa super cup": {
     "backdrop": null,
