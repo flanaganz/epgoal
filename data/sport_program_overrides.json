@@ -478,8 +478,8 @@
     "poster": "Bundesliga Saturday Highlights.jpg"
   },
   "bundesliga håndbold": {
-    "backdrop": "Bundesliga_2.jpg",
-    "poster": "Bundesliga_2.jpg"
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
   },
   "bundesliga review of the midseason": {
     "backdrop": "Bundesliga Review of the Midseason.jpg",
@@ -1386,16 +1386,16 @@
     "poster": "PDC World Series of Darts.jpg"
   },
   "pdc world series of darts": {
-    "backdrop": "PDC World Series of Darts2.JPG",
-    "poster": "PDC World Series of Darts2.JPG"
+    "backdrop": "PDC Darts.jpg",
+    "poster": "PDC Darts.jpg"
   },
   "pdc world series of darts: world series of darts finals": {
-    "backdrop": "PDC European Tour.jpg",
-    "poster": "PDC European Tour.jpg"
+    "backdrop": "PDC Darts.jpg",
+    "poster": "PDC Darts.jpg"
   },
   "premier league": {
-    "backdrop": "Premier League.jpg",
-    "poster": "Premier League.jpg"
+    "backdrop": "PL.jpg",
+    "poster": "PL.jpg"
   },
   "premier league goals of the season": {
     "backdrop": "Premier League Goals of the Season.jpg",
@@ -1950,60 +1950,60 @@
     "poster": "UEFA Champions League.jpg"
   },
   "uefa nations league: det bedste fra dagen": {
-    "backdrop": "Nations League.jpg",
-    "poster": "Nations League.jpg"
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
   },
   "uefa nations league: england-spanien": {
-    "backdrop": "Nations League.jpg",
-    "poster": "Nations League.jpg"
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
   },
   "uefa nations league: færøerne-kasakhstan": {
-    "backdrop": "Nations League.jpg",
-    "poster": "Nations League.jpg"
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
   },
   "uefa nations league: før norge-danmark": {
     "backdrop": "Nations League.jpg",
     "poster": "Nations League.jpg"
   },
   "uefa nations league: georgien-nordirland": {
-    "backdrop": "Nations League.jpg",
-    "poster": "Nations League.jpg"
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
   },
   "uefa nations league: holland-tyskland": {
-    "backdrop": "Nations League.jpg",
-    "poster": "Nations League.jpg"
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
   },
   "uefa nations league: italien-belgien": {
-    "backdrop": "Nations League.jpg",
-    "poster": "Nations League.jpg"
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
   },
   "uefa nations league: norge-danmark": {
-    "backdrop": "Nations League.jpg",
-    "poster": "Nations League.jpg"
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
   },
   "uefa nations league: portugal-wales": {
-    "backdrop": "Nations League.jpg",
-    "poster": "Nations League.jpg"
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
   },
   "uefa nations league: slovenien-skotland": {
-    "backdrop": "Nations League.jpg",
-    "poster": "Nations League.jpg"
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
   },
   "uefa nations league: studiet": {
-    "backdrop": "Nations League.jpg",
-    "poster": "Nations League.jpg"
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
   },
   "uefa nations league: sverige-rumænien": {
-    "backdrop": "Nations League.jpg",
-    "poster": "Nations League.jpg"
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
   },
   "uefa nations league: tjekkiet-kroatien": {
-    "backdrop": "Nations League.jpg",
-    "poster": "Nations League.jpg"
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
   },
   "uefa nations league: tyrkiet-frankrig": {
-    "backdrop": "Nations League.jpg",
-    "poster": "Nations League.jpg"
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
   },
   "uefa youth league": {
     "backdrop": "UEFA Youth League.jpg",
@@ -2026,6 +2026,14 @@
     "poster": "TmDb"
   },
   "vm i landevejscykling: linjeløb, elite (k)": {
+    "backdrop": "VM i landevejscykling.jpg",
+    "poster": "VM i landevejscykling.jpg"
+  },
+  "vm i landevejscykling: linjeløb, junior (k)": {
+    "backdrop": "VM i landevejscykling.jpg",
+    "poster": "VM i landevejscykling.jpg"
+  },
+  "vm i landevejscykling: linjeløb, u23 (m)": {
     "backdrop": "VM i landevejscykling.jpg",
     "poster": "VM i landevejscykling.jpg"
   },
