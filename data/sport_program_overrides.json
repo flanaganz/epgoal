@@ -633,6 +633,10 @@
     "backdrop": "Tour de France Femmes Studiet.jpg",
     "poster": "Tour de France Femmes Studiet.jpg"
   },
+  "cykling: vm - landevej - studie": {
+    "backdrop": "VM i landevejscykling.jpg",
+    "poster": "VM i landevejscykling.jpg"
+  },
   "cykling: vuelta a españa": {
     "backdrop": "Vuelta a España.jpeg",
     "poster": "Vuelta a España.jpeg"
@@ -833,6 +837,10 @@
     "backdrop": "F1T.JPG",
     "poster": "F1T.JPG"
   },
+  "f1: aserbajdsjans grand prix - løbet": {
+    "backdrop": "F1.jpg",
+    "poster": "F1.jpg"
+  },
   "f1: hollands grand prix - løbet": {
     "backdrop": "Formel 1.jpg",
     "poster": "Formel 1.jpg"
@@ -848,6 +856,10 @@
   "f2": {
     "backdrop": "F2.jpg",
     "poster": "F2.jpg"
+  },
+  "f2: aserbadsjans grand prix - feature race": {
+    "backdrop": "F1.jpg",
+    "poster": "F1.jpg"
   },
   "f2: aserbadsjans grand prix - kvalifikation": {
     "backdrop": "F2.jpg",
@@ -970,6 +982,10 @@
     "poster": "Fodbold Friuli Venezia Giulia Cup - Kampe.jpg"
   },
   "fodbold: nations league": {
+    "backdrop": "Nations League.jpg",
+    "poster": "Nations League.jpg"
+  },
+  "fodbold: nations league - det bedste fra dagen": {
     "backdrop": "Nations League.jpg",
     "poster": "Nations League.jpg"
   },
@@ -1937,6 +1953,14 @@
     "backdrop": "Nations League.jpg",
     "poster": "Nations League.jpg"
   },
+  "uefa nations league: england-spanien": {
+    "backdrop": "Nations League.jpg",
+    "poster": "Nations League.jpg"
+  },
+  "uefa nations league: færøerne-kasakhstan": {
+    "backdrop": "Nations League.jpg",
+    "poster": "Nations League.jpg"
+  },
   "uefa nations league: før norge-danmark": {
     "backdrop": "Nations League.jpg",
     "poster": "Nations League.jpg"
@@ -1961,11 +1985,19 @@
     "backdrop": "Nations League.jpg",
     "poster": "Nations League.jpg"
   },
+  "uefa nations league: slovenien-skotland": {
+    "backdrop": "Nations League.jpg",
+    "poster": "Nations League.jpg"
+  },
   "uefa nations league: studiet": {
     "backdrop": "Nations League.jpg",
     "poster": "Nations League.jpg"
   },
   "uefa nations league: sverige-rumænien": {
+    "backdrop": "Nations League.jpg",
+    "poster": "Nations League.jpg"
+  },
+  "uefa nations league: tjekkiet-kroatien": {
     "backdrop": "Nations League.jpg",
     "poster": "Nations League.jpg"
   },
@@ -1992,6 +2024,14 @@
   "var-rummet: var rummet": {
     "backdrop": "TmDb",
     "poster": "TmDb"
+  },
+  "vm i landevejscykling: linjeløb, elite (k)": {
+    "backdrop": "VM i landevejscykling.jpg",
+    "poster": "VM i landevejscykling.jpg"
+  },
+  "vm i landevejscykling: studiet": {
+    "backdrop": "VM i landevejscykling.jpg",
+    "poster": "VM i landevejscykling.jpg"
   },
   "vm i mtb: elite cross-country, short track (k)": {
     "backdrop": "VM i MTB.jpg",
