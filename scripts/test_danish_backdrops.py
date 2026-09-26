@@ -43,6 +43,22 @@ NYT (2026-09-05): "GENOPFRISK"-LISTE (data/genopfrisk_titler.txt)
     titler i filen efter behov, uden selv at skulle holde styr på hvornår
     noget er fundet.
 
+NYT (2026-09-08): AUTOMATISK GENOPFRISKNING AF "HVERKEN/ELLER"-RÆKKER I
+danish_artwork_review.xlsx
+    Rækker i danish_artwork_review.xlsx der HVERKEN er markeret 'Godkendt
+    (X)' ELLER 'Ignorer (X)' hang tidligere fast med det TMDb-resultat, der
+    var cachet, dengang titlen først blev slået op - typisk "ikke fundet",
+    fordi der jo endnu ikke var taget stilling til dem. Det betød i praksis
+    at man kunne stå med "gamle" (ikke fundet)-resultater i lang tid for
+    netop de titler, man stadig var i gang med at tage stilling til.
+    Det er rettet: disse "hverken/eller"-rækker behandles nu AUTOMATISK som
+    en implicit udvidelse af "GENOPFRISK-LISTE"-mekanismen ovenfor - de får
+    et TVUNGET, friskt TMDb-opslag ved HVER kørsel, uanset cache-alder,
+    indtil du markerer rækken 'Godkendt (X)' eller 'Ignorer (X)' i Excel-
+    filen. Der kræves INGEN manuel indtastning i genopfrisk_titler.txt for
+    dette - det sker helt automatisk ud fra review-filens tilstand. Se
+    load_undecided_review_keys().
+
 RETTET (2026-09-05): MINDRE ALARMERENDE OUTPUT FOR MANUELLE OVERRIDES
     "⚠️  X manuelle overrides IKKE brugt (tjek stavning)" antydede en fejl,
     selvom den langt hyppigste årsag bare er, at titlen ikke sendes i det
@@ -265,37 +281,54 @@ def load_approved_keys(review_path: Path) -> set[str] | None:
 
 
 def load_undecided_review_keys(review_path: Path) -> dict[str, str]:
-    """Rækker uden X i både Godkendt og Ignorer; opfriskes frisk."""
+    """Returnerer {nøgle (intern): titel} for rækker i danish_artwork_review.xlsx
+    der HVERKEN er markeret 'Godkendt (X)' ELLER 'Ignorer (X)'.
+
+    Se docstring øverst i filen ("AUTOMATISK GENOPFRISKNING AF
+    'HVERKEN/ELLER'-RÆKKER"). Disse nøgler behandles nedenfor i main() som en
+    automatisk udvidelse af genopfrisk-listen - de tvinges til et friskt
+    TMDb-opslag ved hver kørsel, indtil brugeren tager stilling (Godkendt
+    eller Ignorer) i Excel-filen.
+
+    "Nøgle (intern)" er allerede den normaliserede titel (samme værdi som
+    bruges som nøgle i danish_artwork_cache.json - se
+    export_danish_artwork_review.py), så den skal IKKE normaliseres igen
+    her."""
     if not review_path.exists():
         return {}
     try:
         from openpyxl import load_workbook
     except ImportError:
+        print("⚠️  openpyxl er ikke installeret.", file=sys.stderr)
         return {}
+
     wb = load_workbook(review_path, data_only=True)
     ws = wb.active
     headers = [c.value for c in ws[1]]
     try:
         key_col = headers.index("Nøgle (intern)")
-        approved_col = headers.index("Godkendt (X)")
+        godkendt_col = headers.index("Godkendt (X)")
     except ValueError:
         return {}
-    ignored_col = headers.index("Ignorer (X)") if "Ignorer (X)" in headers else None
+
     title_col = headers.index("Titel") if "Titel" in headers else None
-    result = {}
+    ignorer_col = headers.index("Ignorer (X)") if "Ignorer (X)" in headers else None
+
+    undecided: dict[str, str] = {}
     for row in ws.iter_rows(min_row=2):
-        key = row[key_col].value
-        if not key:
+        key_val = row[key_col].value
+        if not key_val:
             continue
-        approved = str(row[approved_col].value or "").strip().upper() == "X"
-        ignored = (str(row[ignored_col].value or "").strip().upper() == "X"
-                   if ignored_col is not None else False)
-        if approved or ignored:
+        godkendt_val = row[godkendt_col].value
+        ignorer_val = row[ignorer_col].value if ignorer_col is not None else None
+        is_godkendt = str(godkendt_val or "").strip().upper() == "X"
+        is_ignorer = str(ignorer_val or "").strip().upper() == "X"
+        if is_godkendt or is_ignorer:
             continue
-        norm = normalize_title(str(key))
-        title = row[title_col].value if title_col is not None else key
-        result[norm] = str(title).strip()
-    return result
+        key = str(key_val).strip()
+        title_val = row[title_col].value if title_col is not None else None
+        undecided[key] = str(title_val).strip() if title_val else key
+    return undecided
 
 
 def tmdb_search(title: str) -> tuple[str, int] | None:
@@ -390,8 +423,7 @@ def process_xml_file(xml_path: Path, cache: dict, cache_max_age_days: int,
                       all_found_keys: set[str], manual_index: dict[str, list[dict]],
                       manual_titles_matched: set[str],
                       refresh_titles_normalized: set[str],
-                      refresh_seen: set[str],
-                      force_refreshed_this_run: set[str]) -> dict:
+                      refresh_seen: set[str]) -> dict:
     tree = ET.parse(xml_path)
     root = tree.getroot()
 
@@ -440,8 +472,7 @@ def process_xml_file(xml_path: Path, cache: dict, cache_max_age_days: int,
             continue
 
         if norm not in resolved_this_file:
-            force_refresh = (norm in refresh_titles_normalized
-                             and norm not in force_refreshed_this_run)
+            force_refresh = norm in refresh_titles_normalized
             was_cached_not_found = (
                 norm in cache
                 and not cache[norm].get("backdrop")
@@ -456,7 +487,6 @@ def process_xml_file(xml_path: Path, cache: dict, cache_max_age_days: int,
             titles_processed_this_run.add(norm)
             stats["checked"] += 1
             if force_refresh:
-                force_refreshed_this_run.add(norm)
                 stats["force_refreshed"] += 1
             if from_cache:
                 stats["cache_hits"] += 1
@@ -595,10 +625,8 @@ def main() -> None:
 
     refresh_titles_raw = load_refresh_titles(GENOPFRISK_TITLER_FILE)
     undecided_review_keys = load_undecided_review_keys(DANISH_ARTWORK_REVIEW_FILE)
-    refresh_titles_normalized = ({normalize_title(t) for t in refresh_titles_raw}
-                                 | set(undecided_review_keys))
+    refresh_titles_normalized = {normalize_title(t) for t in refresh_titles_raw} | set(undecided_review_keys.keys())
     refresh_seen: set[str] = set()
-    force_refreshed_this_run: set[str] = set()
 
     print("=== Danske TMDb-backdrops (separat sideprojekt) — skrives som <icon> ===")
     print(f"Cache indeholder {cache_size_before:,} tidligere opslag (levetid: {cache_max_age_days} dage for fund, "
@@ -612,8 +640,8 @@ def main() -> None:
         print(f"🔄 Tvangsopfrisker {len(refresh_titles_raw):,} titel(r) fra {GENOPFRISK_TITLER_FILE.name} "
               "(uanset cache-alder) ...")
     if undecided_review_keys:
-        print(f"🔄 {len(undecided_review_keys):,} uafklarede titel(r) i "
-              f"{DANISH_ARTWORK_REVIEW_FILE.name} får friske TMDb-opslag ...")
+        print(f"🔄 {len(undecided_review_keys):,} titel(r) i {DANISH_ARTWORK_REVIEW_FILE.name} er hverken "
+              "'Godkendt (X)' eller 'Ignorer (X)' - tvangsopfrisker dem alle (uanset cache-alder) ...")
 
     if approved_keys is None:
         print(f"⚠️  {DANISH_ARTWORK_REVIEW_FILE.name} findes IKKE endnu. Ingen TMDb-fund injiceres denne gang.")
@@ -646,7 +674,7 @@ def main() -> None:
             xml_path, cache, cache_max_age_days, not_found_cache_max_age_days, backdrop_size,
             args.limit, titles_processed_this_run, approved_keys, all_found_keys,
             manual_index, manual_titles_matched,
-            refresh_titles_normalized, refresh_seen, force_refreshed_this_run,
+            refresh_titles_normalized, refresh_seen,
         )
         save_json(DANISH_ARTWORK_CACHE_FILE, cache)
 
@@ -656,7 +684,8 @@ def main() -> None:
         if stats["rechecked_after_not_found"]:
             print(f"   🔄 Gen-tjekket efter tidligere 'ikke fundet': {stats['rechecked_after_not_found']:,}")
         if stats["force_refreshed"]:
-            print(f"   🔄 Tvangsopfrisket (tekstliste/review): {stats['force_refreshed']:,}")
+            print(f"   🔄 Tvangsopfrisket (fra {GENOPFRISK_TITLER_FILE.name} og/eller "
+                  f"'hverken/eller'-rækker i {DANISH_ARTWORK_REVIEW_FILE.name}): {stats['force_refreshed']:,}")
 
         per_file_stats[name] = stats
         for k in grand_total:
@@ -735,6 +764,32 @@ def main() -> None:
         remaining_titles = still_pending + not_seen
         save_refresh_titles(GENOPFRISK_TITLER_FILE, remaining_titles)
         print(f"   {GENOPFRISK_TITLER_FILE.name} opdateret ({len(remaining_titles):,} titel(r) tilbage).")
+        print("--------------------------------")
+
+    if undecided_review_keys:
+        review_found_now: list[str] = []
+        review_still_pending: list[str] = []
+        review_not_seen: list[str] = []
+        for key, title in undecided_review_keys.items():
+            cached_entry = cache.get(key)
+            has_backdrop = bool(cached_entry and cached_entry.get("backdrop"))
+            if has_backdrop:
+                review_found_now.append(title)
+            elif key in refresh_seen:
+                review_still_pending.append(title)
+            else:
+                review_not_seen.append(title)
+
+        print(f"\n🔄 Status for hverken/eller-rækker i {DANISH_ARTWORK_REVIEW_FILE.name}:")
+        print(f"   Fandt nu et dansk backdrop : {len(review_found_now):,} (åbn filen og markér 'Godkendt (X)' "
+              "eller 'Ignorer (X)' for at stoppe tvangsopfriskning af disse)")
+        if review_found_now:
+            for t in sorted(review_found_now):
+                print(f"     - {t}")
+        print(f"   Stadig intet fundet        : {len(review_still_pending):,}")
+        if review_not_seen:
+            print(f"   Ikke set i denne kørsel    : {len(review_not_seen):,} (prøves igen når titlen "
+                  "findes i EPG'en)")
         print("--------------------------------")
 
     if git_cfg.get("enabled", True):
