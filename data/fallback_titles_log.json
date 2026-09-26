@@ -1,21 +1,37 @@
 {
+  "TV 2 SPORT HD.dk": {
+    "Håndbold: Euro Cup (k) - Kampe: Euro Cup: Norge-Ungarn (k), semifinale": 2
+  },
+  "TV 2 SPORT X.dk": {
+    "Holger Rune er tilbage på banen": 1
+  },
   "TV 2 Sport X Denmark (DK,DA).dk": {
     "Holger Rune er tilbage på banen": 1
   },
   "TV 2 Sport X.dk": {
-    "Holger Rune er tilbage på banen": 1
-  },
-  "TV 2 Sport.dk": {
-    "Holger Rune er tilbage på banen": 1
+    "Holger Rune er tilbage på banen": 2,
+    "UEFA Nations League: Danmark-Wales": 4,
+    "UEFA Nations League: Før Danmark-Wales": 1,
+    "UEFA Nations League: Litauen-Aserbajdsjan": 2,
+    "UEFA Nations League: Norge-Portugal": 2,
+    "UEFA Nations League: Serbien-Holland": 4,
+    "UEFA Nations League: Tyskland-Grækenland": 2
   },
   "TV3 Sport Denmark (DK,DA).dk": {
     "Scandinavian Challenge": 2
   },
-  "TV3 Sport HD (D) (T).dk": {
-    "The Legacy of Manuel Neuer": 1
+  "TV3 Sport HD (D).dk": {
+    "Chasing the Dream: Chasing The Dream - Baku": 2,
+    "Scandinavian Challenge": 2
   },
   "TV3 Sport.dk": {
-    "Scandinavian Challenge": 2,
+    "Scandinavian Challenge": 4,
     "Scandinavian Challenge 2026": 2
+  },
+  "Viaplay Sport News.dk": {
+    "Let’s Be Frank: Danish Friends klar til Norge?": 6,
+    "Sportstalk: Sportstalk: Tror spillerne stadig på Riemer?": 6,
+    "TV-Udbruddet: TV - udbruddet: Casper Pedersen gæster studiet": 5,
+    "Tøffe vs. Graver: Kom i gang Danmark og Riemer": 7
   }
 }
