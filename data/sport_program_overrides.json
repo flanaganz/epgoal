@@ -614,8 +614,8 @@
     "poster": "Champions League Weekly.jpg"
   },
   "champions league weekly: uefa champions league weekly": {
-    "backdrop": "Champions League Weekly2.jpg",
-    "poster": "Champions League Weekly2.jpg"
+    "backdrop": "Champions League Weekly.jpg",
+    "poster": "Champions League Weekly.jpg"
   },
   "chasing the dream": {
     "backdrop": "TMDb",
@@ -633,6 +633,10 @@
     "backdrop": "Tour de France Femmes Studiet.jpg",
     "poster": "Tour de France Femmes Studiet.jpg"
   },
+  "cykling: vm - landevej - etaper": {
+    "backdrop": "VM i landevejscykling.jpg",
+    "poster": "VM i landevejscykling.jpg"
+  },
   "cykling: vm - landevej - studie": {
     "backdrop": "VM i landevejscykling.jpg",
     "poster": "VM i landevejscykling.jpg"
@@ -646,8 +650,8 @@
     "poster": "Vuelta a España -  Studiet.jpg"
   },
   "danskerklubben": {
-    "backdrop": "Danskerklubben.jpg",
-    "poster": "Danskerklubben.jpg"
+    "backdrop": "Danskerklubben2.jpg",
+    "poster": "Danskerklubben2.jpg"
   },
   "davis cup": {
     "backdrop": "Davis Cup.jpg",
@@ -760,6 +764,18 @@
   "ehf men's champions league: skanderborg agf - dinamo bucureşti": {
     "backdrop": "EHF Mens Champions League.jpg",
     "poster": "EHF Mens Champions League.jpg"
+  },
+  "euro cup håndbold: studiet": {
+    "backdrop": "Håndbold  Golden League.jpg",
+    "poster": "Håndbold  Golden League.jpg"
+  },
+  "euro cup: danmark-rumænien (k), semifinale": {
+    "backdrop": "Håndbold  Golden League.jpg",
+    "poster": "Håndbold  Golden League.jpg"
+  },
+  "euro cup: norge-ungarn (k), semifinale": {
+    "backdrop": "Håndbold  Golden League.jpg",
+    "poster": "Håndbold  Golden League.jpg"
   },
   "f1": {
     "backdrop": "F1.jpg",
@@ -982,16 +998,16 @@
     "poster": "Fodbold Friuli Venezia Giulia Cup - Kampe.jpg"
   },
   "fodbold: nations league": {
-    "backdrop": "Nations League.jpg",
-    "poster": "Nations League.jpg"
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
   },
   "fodbold: nations league - det bedste fra dagen": {
-    "backdrop": "Nations League.jpg",
-    "poster": "Nations League.jpg"
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
   },
   "fodbold: nations league - studie": {
-    "backdrop": "Nations League.jpg",
-    "poster": "Nations League.jpg"
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
   },
   "fodbold: premier league-studiet": {
     "backdrop": "Premier League-studiet.jpg",
@@ -1101,6 +1117,10 @@
     "backdrop": "Bundesliga_2.jpg",
     "poster": "Bundesliga_2.jpg"
   },
+  "handball bundesliga: kiel - flensburg-handewitt": {
+    "backdrop": "HBL Håndbold.jpg",
+    "poster": "HBL Håndbold.jpg"
+  },
   "herreligaen: aalborg-tth holstebro": {
     "backdrop": "Herreligaen.jpg",
     "poster": "Herreligaen.jpg"
@@ -1164,6 +1184,10 @@
   "håndbold (m): håndboldligaen - kampe": {
     "backdrop": "Herreligaen.jpg",
     "poster": "Herreligaen.jpg"
+  },
+  "håndbold: euro cup (k) - kampe": {
+    "backdrop": "Håndbold  Golden League.jpg",
+    "poster": "Håndbold  Golden League.jpg"
   },
   "håndbold: høj-aalborg, pokal (m)": {
     "backdrop": "Håndbold Herre Pokal.jpg",
@@ -1802,8 +1826,8 @@
     "poster": "Superligaens Topchefer.jpg"
   },
   "superligaens topchefer ii": {
-    "backdrop": "Superligaens Topchefer.jpg",
-    "poster": "Superligaens Topchefer.jpg"
+    "backdrop": "Superligaens Topchefer2.jpg",
+    "poster": "Superligaens Topchefer2.jpg"
   },
   "superligatilsynet": {
     "backdrop": "Superligatilsynet.jpg",
@@ -2148,6 +2172,10 @@
   "watt the f1!?: watt the f1!?: ny ferrari-fadæse": {
     "backdrop": "https://image.tmdb.org/t/p/original/A4K7y6tBXrt0RR21wnmnS8lWWJK.jpg",
     "poster": "https://image.tmdb.org/t/p/original/A4K7y6tBXrt0RR21wnmnS8lWWJK.jpg"
+  },
+  "wta: andreeva-fernandez, kvartfinale, singapore": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
   },
   "wta: tauson-parry, kvartfinale, monterrey": {
     "backdrop": "WTA-generic.jpg",
