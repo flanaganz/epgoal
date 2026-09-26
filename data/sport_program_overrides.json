@@ -425,6 +425,10 @@
     "backdrop": "Bundesliga_3.JPG",
     "poster": "Bundesliga_3.JPG"
   },
+  "bundesliga fodbold: bayern münchen-union berlin": {
+    "backdrop": "Bundesliga_3.JPG",
+    "poster": "Bundesliga_3.JPG"
+  },
   "bundesliga fodbold: dortmund - hamburger sv": {
     "backdrop": "Bundesliga_2.jpg",
     "poster": "Bundesliga_2.jpg"
@@ -621,6 +625,10 @@
     "backdrop": "TMDb",
     "poster": "TMDb"
   },
+  "chasing the dream: chasing the dream - baku": {
+    "backdrop": "F2.jpg",
+    "poster": "F2.jpg"
+  },
   "cykling: jørgen leths mindeløb": {
     "backdrop": "Cykling-generic.jpg",
     "poster": "Cykling-generic.jpg"
@@ -637,7 +645,23 @@
     "backdrop": "VM i landevejscykling.jpg",
     "poster": "VM i landevejscykling.jpg"
   },
+  "cykling: vm - landevej - etaper: vm i landevejscykling: linjeløb, elite (k)": {
+    "backdrop": "VM i landevejscykling.jpg",
+    "poster": "VM i landevejscykling.jpg"
+  },
+  "cykling: vm - landevej - etaper: vm i landevejscykling: linjeløb, elite (m)": {
+    "backdrop": "VM i landevejscykling.jpg",
+    "poster": "VM i landevejscykling.jpg"
+  },
+  "cykling: vm - landevej - etaper: vm i landevejscykling: linjeløb, junior (k)": {
+    "backdrop": "VM i landevejscykling.jpg",
+    "poster": "VM i landevejscykling.jpg"
+  },
   "cykling: vm - landevej - studie": {
+    "backdrop": "VM i landevejscykling.jpg",
+    "poster": "VM i landevejscykling.jpg"
+  },
+  "cykling: vm - landevej - studie: vm i landevejscykling: studiet": {
     "backdrop": "VM i landevejscykling.jpg",
     "poster": "VM i landevejscykling.jpg"
   },
@@ -766,16 +790,16 @@
     "poster": "EHF Mens Champions League.jpg"
   },
   "euro cup håndbold: studiet": {
-    "backdrop": "Håndbold  Golden League.jpg",
-    "poster": "Håndbold  Golden League.jpg"
+    "backdrop": "Euro Cup Håndbold.jpg",
+    "poster": "Euro Cup Håndbold.jpg"
   },
   "euro cup: danmark-rumænien (k), semifinale": {
-    "backdrop": "Håndbold  Golden League.jpg",
-    "poster": "Håndbold  Golden League.jpg"
+    "backdrop": "Euro Cup Håndbold.jpg",
+    "poster": "Euro Cup Håndbold.jpg"
   },
   "euro cup: norge-ungarn (k), semifinale": {
-    "backdrop": "Håndbold  Golden League.jpg",
-    "poster": "Håndbold  Golden League.jpg"
+    "backdrop": "Euro Cup Håndbold.jpg",
+    "poster": "Euro Cup Håndbold.jpg"
   },
   "f1": {
     "backdrop": "F1.jpg",
@@ -993,6 +1017,10 @@
     "backdrop": "Målfesten.jpg",
     "poster": "Målfesten.jpg"
   },
+  "fodbold: a-liga (k) - målfesten: a-liga: målfesten": {
+    "backdrop": "Målfesten.jpg",
+    "poster": "Målfesten.jpg"
+  },
   "fodbold: friuli venezia giulia cup - kampe": {
     "backdrop": "Fodbold Friuli Venezia Giulia Cup - Kampe.jpg",
     "poster": "Fodbold Friuli Venezia Giulia Cup - Kampe.jpg"
@@ -1005,7 +1033,87 @@
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
+  "fodbold: nations league - det bedste fra dagen: uefa nations league: det bedste fra dagen": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
   "fodbold: nations league - studie": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "fodbold: nations league - studie: uefa nations league: efter danmark-wales": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "fodbold: nations league - studie: uefa nations league: før danmark-wales": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "fodbold: nations league - studie: uefa nations league: studiet": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "fodbold: nations league: uefa nations league: belgien-frankrig": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "fodbold: nations league: uefa nations league: danmark-wales": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "fodbold: nations league: uefa nations league: england-spanien": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "fodbold: nations league: uefa nations league: færøerne-kasakhstan": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "fodbold: nations league: uefa nations league: georgien-nordirland": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "fodbold: nations league: uefa nations league: georgien-ukraine": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "fodbold: nations league: uefa nations league: italien-belgien": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "fodbold: nations league: uefa nations league: litauen-aserbajdsjan": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "fodbold: nations league: uefa nations league: norge-portugal": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "fodbold: nations league: uefa nations league: serbien-holland": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "fodbold: nations league: uefa nations league: slovenien-skotland": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "fodbold: nations league: uefa nations league: sverige-polen": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "fodbold: nations league: uefa nations league: sverige-rumænien": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "fodbold: nations league: uefa nations league: tjekkiet-kroatien": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "fodbold: nations league: uefa nations league: tyrkiet-frankrig": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "fodbold: nations league: uefa nations league: tyskland-grækenland": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
@@ -1052,6 +1160,14 @@
   "formel 1 studie: spaniens grand prix - løbet": {
     "backdrop": "F1.jpg",
     "poster": "F1.jpg"
+  },
+  "formel 1: aserbajdsjans grand prix": {
+    "backdrop": "F1Q.JPG",
+    "poster": "F1Q.JPG"
+  },
+  "formel 1: aserbajdsjans grand prix - kvalifikation": {
+    "backdrop": "F1Q.JPG",
+    "poster": "F1Q.JPG"
   },
   "formel 1: italiens grand prix - kvalifikation": {
     "backdrop": "F1.jpg",
@@ -1186,8 +1302,20 @@
     "poster": "Herreligaen.jpg"
   },
   "håndbold: euro cup (k) - kampe": {
-    "backdrop": "Håndbold  Golden League.jpg",
-    "poster": "Håndbold  Golden League.jpg"
+    "backdrop": "Euro Cup Håndbold.jpg",
+    "poster": "Euro Cup Håndbold.jpg"
+  },
+  "håndbold: euro cup (k) - kampe: euro cup: norge-ungarn (k), semifinale": {
+    "backdrop": "Euro Cup Håndbold.jpg",
+    "poster": "Euro Cup Håndbold.jpg"
+  },
+  "håndbold: euro cup (k) - kampe: euro cup: tba-tba (k), bronzekamp": {
+    "backdrop": "Euro Cup Håndbold.jpg",
+    "poster": "Euro Cup Håndbold.jpg"
+  },
+  "håndbold: euro cup (k) - kampe: euro cup: tba-tba (k), finale": {
+    "backdrop": "Euro Cup Håndbold.jpg",
+    "poster": "Euro Cup Håndbold.jpg"
   },
   "håndbold: høj-aalborg, pokal (m)": {
     "backdrop": "Håndbold Herre Pokal.jpg",
@@ -1302,6 +1430,10 @@
     "poster": null
   },
   "let’s be frank": {
+    "backdrop": "Let's be Frank2.jpg",
+    "poster": "Let's be Frank2.jpg"
+  },
+  "let’s be frank: danish friends klar til norge?": {
     "backdrop": "Let's be Frank2.jpg",
     "poster": "Let's be Frank2.jpg"
   },
@@ -1489,6 +1621,10 @@
     "backdrop": "PL.jpg",
     "poster": "PL.jpg"
   },
+  "premier league: bournemouth-liverpool": {
+    "backdrop": "PL.jpg",
+    "poster": "PL.jpg"
+  },
   "premier league: brentford - chelsea": {
     "backdrop": "PL.jpg",
     "poster": "PL.jpg"
@@ -1497,7 +1633,15 @@
     "backdrop": "Premier League.jpg",
     "poster": "Premier League.jpg"
   },
+  "premier league: brentford-chelsea": {
+    "backdrop": "PL.jpg",
+    "poster": "PL.jpg"
+  },
   "premier league: brighton - arsenal": {
+    "backdrop": "PL.jpg",
+    "poster": "PL.jpg"
+  },
+  "premier league: brighton-arsenal": {
     "backdrop": "PL.jpg",
     "poster": "PL.jpg"
   },
@@ -1530,6 +1674,10 @@
     "poster": "Premier League.jpg"
   },
   "premier league: fulham - manchester united": {
+    "backdrop": "PL.jpg",
+    "poster": "PL.jpg"
+  },
+  "premier league: fulham-manchester united": {
     "backdrop": "PL.jpg",
     "poster": "PL.jpg"
   },
@@ -1717,6 +1865,10 @@
     "backdrop": "Sportstalk.jpg",
     "poster": "Sportstalk.jpg"
   },
+  "sportstalk: sportstalk: tror spillerne stadig på riemer?": {
+    "backdrop": "Sportstalk.jpg",
+    "poster": "Sportstalk.jpg"
+  },
   "superliga": {
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
@@ -1833,6 +1985,10 @@
     "backdrop": "Superligatilsynet.jpg",
     "poster": "Superligatilsynet.jpg"
   },
+  "superligatilsynet: om hysenis forklaringsproblem og kriserne i agf og brøndby": {
+    "backdrop": "Superligatilsynet.jpg",
+    "poster": "Superligatilsynet.jpg"
+  },
   "superligatilsynet: superligatilsynet: luis binks svarer tilbage og fck kollapser": {
     "backdrop": "Superligatilsynet.jpg",
     "poster": "Superligatilsynet.jpg"
@@ -1874,6 +2030,14 @@
     "poster": "Tirsdagstrænerne.jpg"
   },
   "tv-udbruddet": {
+    "backdrop": "TV-Udbruddet.jpg",
+    "poster": "TV-Udbruddet.jpg"
+  },
+  "tv-udbruddet: tv - udbruddet": {
+    "backdrop": "TV-Udbruddet.jpg",
+    "poster": "TV-Udbruddet.jpg"
+  },
+  "tv-udbruddet: tv - udbruddet: casper pedersen gæster studiet": {
     "backdrop": "TV-Udbruddet.jpg",
     "poster": "TV-Udbruddet.jpg"
   },
@@ -1973,6 +2137,10 @@
     "backdrop": "UEFA Champions League.jpg",
     "poster": "UEFA Champions League.jpg"
   },
+  "uefa nations league: danmark-wales": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
   "uefa nations league: det bedste fra dagen": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
@@ -1982,6 +2150,10 @@
     "poster": "Nations League1.jpg"
   },
   "uefa nations league: færøerne-kasakhstan": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "uefa nations league: før danmark-wales": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
@@ -2001,11 +2173,23 @@
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
+  "uefa nations league: litauen-aserbajdsjan": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
   "uefa nations league: norge-danmark": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
+  "uefa nations league: norge-portugal": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
   "uefa nations league: portugal-wales": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "uefa nations league: serbien-holland": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
@@ -2026,6 +2210,10 @@
     "poster": "Nations League1.jpg"
   },
   "uefa nations league: tyrkiet-frankrig": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "uefa nations league: tyskland-grækenland": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
@@ -2050,6 +2238,10 @@
     "poster": "TmDb"
   },
   "vm i landevejscykling: linjeløb, elite (k)": {
+    "backdrop": "VM i landevejscykling.jpg",
+    "poster": "VM i landevejscykling.jpg"
+  },
+  "vm i landevejscykling: linjeløb, elite (m)": {
     "backdrop": "VM i landevejscykling.jpg",
     "poster": "VM i landevejscykling.jpg"
   },
