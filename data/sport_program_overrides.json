@@ -801,6 +801,10 @@
     "backdrop": "Euro Cup Håndbold.jpg",
     "poster": "Euro Cup Håndbold.jpg"
   },
+  "euro cup: tba-tba (k), finale": {
+    "backdrop": "Euro Cup Håndbold.jpg",
+    "poster": "Euro Cup Håndbold.jpg"
+  },
   "f1": {
     "backdrop": "F1.jpg",
     "poster": "F1.jpg"
@@ -1113,6 +1117,10 @@
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
+  "fodbold: nations league: uefa nations league: tyrkiet-italien": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
   "fodbold: nations league: uefa nations league: tyskland-grækenland": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
@@ -1168,6 +1176,10 @@
   "formel 1: aserbajdsjans grand prix - kvalifikation": {
     "backdrop": "F1Q.JPG",
     "poster": "F1Q.JPG"
+  },
+  "formel 1: aserbajdsjans grand prix - løbet": {
+    "backdrop": "F1.jpg",
+    "poster": "F1.jpg"
   },
   "formel 1: italiens grand prix - kvalifikation": {
     "backdrop": "F1.jpg",
@@ -2137,6 +2149,10 @@
     "backdrop": "UEFA Champions League.jpg",
     "poster": "UEFA Champions League.jpg"
   },
+  "uefa nations league: belgien-frankrig": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
   "uefa nations league: danmark-wales": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
@@ -2162,6 +2178,10 @@
     "poster": "Nations League.jpg"
   },
   "uefa nations league: georgien-nordirland": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "uefa nations league: georgien-ukraine": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
@@ -2201,6 +2221,10 @@
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
+  "uefa nations league: sverige-polen": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
   "uefa nations league: sverige-rumænien": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
@@ -2210,6 +2234,10 @@
     "poster": "Nations League1.jpg"
   },
   "uefa nations league: tyrkiet-frankrig": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "uefa nations league: tyrkiet-italien": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
@@ -2368,6 +2396,10 @@
   "wta: andreeva-fernandez, kvartfinale, singapore": {
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
+  },
+  "wta: fernandez-gibson, finale, singapore": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
   },
   "wta: tauson-parry, kvartfinale, monterrey": {
     "backdrop": "WTA-generic.jpg",
