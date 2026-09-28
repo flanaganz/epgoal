@@ -333,6 +333,10 @@
     "backdrop": "ATP-1000.jpg",
     "poster": "ATP-1000.jpg"
   },
+  "atp: tokyo": {
+    "backdrop": "Tennis ATP 500.jpg",
+    "poster": "Tennis ATP 500.jpg"
+  },
   "badminton: an-miyazaki, finale, china masters": {
     "backdrop": "Badminton.jpg",
     "poster": "Badminton.jpg"
@@ -2253,6 +2257,10 @@
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
+  "uefa nations league: moldova-færøerne": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
   "uefa nations league: norge-danmark": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
@@ -2273,6 +2281,10 @@
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
+  "uefa nations league: spanien-kroatien": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
   "uefa nations league: studiet": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
@@ -2282,6 +2294,10 @@
     "poster": "Nations League1.jpg"
   },
   "uefa nations league: sverige-rumænien": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "uefa nations league: tjekkiet-england": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
