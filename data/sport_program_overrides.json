@@ -677,6 +677,18 @@
     "backdrop": "Danskerklubben2.jpg",
     "poster": "Danskerklubben2.jpg"
   },
+  "dart: world grand prix: world grand prix": {
+    "backdrop": "PDC Darts.jpg",
+    "poster": "PDC Darts.jpg"
+  },
+  "darts: world grand prix": {
+    "backdrop": "PDC Darts.jpg",
+    "poster": "PDC Darts.jpg"
+  },
+  "darts: world grand prix: world grand prix": {
+    "backdrop": "PDC Darts.jpg",
+    "poster": "PDC Darts.jpg"
+  },
   "davis cup": {
     "backdrop": "Davis Cup.jpg",
     "poster": "Davis Cup.jpg"
@@ -765,6 +777,14 @@
     "backdrop": "EFL Championship.jpg",
     "poster": "EFL Championship.jpg"
   },
+  "ehf european league": {
+    "backdrop": "EHF Mens Champions League.jpg",
+    "poster": "EHF Mens Champions League.jpg"
+  },
+  "ehf european league: karvina-tth holstebro (m)": {
+    "backdrop": "EHF Mens Champions League.jpg",
+    "poster": "EHF Mens Champions League.jpg"
+  },
   "ehf men's champions league": {
     "backdrop": "EHF Mens Champions League.jpg",
     "poster": "EHF Mens Champions League.jpg"
@@ -786,6 +806,10 @@
     "poster": "EHF Mens Champions League.jpg"
   },
   "ehf men's champions league: skanderborg agf - dinamo bucureşti": {
+    "backdrop": "EHF Mens Champions League.jpg",
+    "poster": "EHF Mens Champions League.jpg"
+  },
+  "ehf men's european league: hcb karvina - tth holstebro": {
     "backdrop": "EHF Mens Champions League.jpg",
     "poster": "EHF Mens Champions League.jpg"
   },
@@ -1013,6 +1037,14 @@
     "backdrop": "A-Liga.jpg",
     "poster": "A-Liga.jpg"
   },
+  "fodbold: a liga (k) - studiet: a-liga: efter ob q-agf": {
+    "backdrop": "A-Liga.jpg",
+    "poster": "A-Liga.jpg"
+  },
+  "fodbold: a liga (k) - studiet: a-liga: før ob q-agf": {
+    "backdrop": "A-Liga.jpg",
+    "poster": "A-Liga.jpg"
+  },
   "fodbold: a-liga (k) - kampe": {
     "backdrop": "A-Liga.jpg",
     "poster": "A-Liga.jpg"
@@ -1089,6 +1121,10 @@
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
+  "fodbold: nations league: uefa nations league: moldova-færøerne": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
   "fodbold: nations league: uefa nations league: norge-portugal": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
@@ -1101,11 +1137,19 @@
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
+  "fodbold: nations league: uefa nations league: spanien-kroatien": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
   "fodbold: nations league: uefa nations league: sverige-polen": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
   "fodbold: nations league: uefa nations league: sverige-rumænien": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "fodbold: nations league: uefa nations league: tjekkiet-england": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
@@ -2018,6 +2062,14 @@
     "poster": "ATP-1000.jpg"
   },
   "tennis: atp - stockholm": {
+    "backdrop": "Tennis ATP 500.jpg",
+    "poster": "Tennis ATP 500.jpg"
+  },
+  "tennis: atp - tokyo": {
+    "backdrop": "Tennis ATP 500.jpg",
+    "poster": "Tennis ATP 500.jpg"
+  },
+  "tennis: atp - tokyo: atp: tokyo": {
     "backdrop": "Tennis ATP 500.jpg",
     "poster": "Tennis ATP 500.jpg"
   },
