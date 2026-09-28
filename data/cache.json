@@ -6309,6 +6309,21 @@
     "poster": null,
     "ts": 1787223013.0005782
   },
+  "dart: world grand prix: world grand prix": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790573478.3255854
+  },
+  "darts: world grand prix": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790573476.989917
+  },
+  "darts: world grand prix: world grand prix": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790573475.0439527
+  },
   "das - den røde sofa": {
     "backdrop": null,
     "poster": null,
@@ -8693,6 +8708,21 @@
     "backdrop": "https://image.tmdb.org/t/p/w1280/sZxOTxauPPCvTHw7C3I7GZmdAYs.jpg",
     "poster": "https://image.tmdb.org/t/p/w500/6kKywvhZCdF89lIlGzQHBl3dQHI.jpg",
     "ts": 1786632565.4683182
+  },
+  "ehf european league": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790573477.194561
+  },
+  "ehf european league: karvina-tth holstebro (m)": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790573475.3603787
+  },
+  "ehf men's european league: hcb karvina - tth holstebro": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790573478.5362556
   },
   "eides språksjov": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/viwWz9qpnvUpJdB0mym59cy2Te2.jpg",
@@ -21204,6 +21234,16 @@
     "poster": null,
     "ts": 1787223173.3615174
   },
+  "nhl": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790573477.4002964
+  },
+  "nhl: carolina hurricanes - florida panthers": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790573475.6083403
+  },
   "nice to meet you, walden schmidt": {
     "backdrop": null,
     "poster": null,
@@ -28613,6 +28653,16 @@
     "backdrop": null,
     "poster": null,
     "ts": 1789539652.0900743
+  },
+  "tennis: atp - tokyo": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790573476.7358665
+  },
+  "tennis: atp - tokyo: atp: tokyo": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790573474.767438
   },
   "tennis: atp 1000 - montreal - kampe": {
     "backdrop": null,

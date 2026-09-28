@@ -1,21 +1,39 @@
 {
-  "TV 2 SPORT X.dk": {
-    "Holger Rune er tilbage på banen": 1
+  "TV 2 SPORT HD.dk": {
+    "Holger Rune er tilbage på banen": 1,
+    "Tennis: ATP - Tokyo: ATP: Tokyo": 1
   },
-  "TV 2 Sport X Denmark (DK,DA).dk": {
-    "Holger Rune er tilbage på banen": 1
+  "TV 2 Sport Denmark (DK,DA).dk": {
+    "Holger Rune er tilbage på banen": 1,
+    "Tennis: ATP - Tokyo": 1
   },
   "TV 2 Sport X.dk": {
-    "Holger Rune er tilbage på banen": 2
+    "Holger Rune er tilbage på banen": 1
+  },
+  "TV 2 Sport.dk": {
+    "Holger Rune er tilbage på banen": 1,
+    "Tennis: ATP - Tokyo": 1
   },
   "TV3 Sport Denmark (DK,DA).dk": {
+    "Darts: World Grand Prix": 1,
+    "EHF European League": 1,
+    "NHL": 1,
     "Scandinavian Challenge": 3
   },
   "TV3 Sport HD (D).dk": {
+    "Darts: World Grand Prix: World Grand Prix": 1,
+    "EHF European League: Karvina-TTH Holstebro (m)": 1,
+    "NHL: Carolina Hurricanes - Florida Panthers": 1,
     "Scandinavian Challenge": 3
   },
   "TV3 Sport.dk": {
+    "Dart: World Grand Prix: World Grand Prix": 1,
+    "Darts: World Grand Prix": 1,
+    "EHF European League": 1,
+    "EHF Men's European League: HCB Karvina - TTH Holstebro": 1,
+    "NHL": 1,
+    "NHL: Carolina Hurricanes - Florida Panthers": 1,
     "Scandinavian Challenge": 6,
-    "Scandinavian Challenge 2026": 3
+    "Scandinavian Challenge 2026": 2
   }
 }
