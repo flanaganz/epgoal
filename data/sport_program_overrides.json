@@ -489,6 +489,10 @@
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
   },
+  "bundesliga håndbold: magdeburg-kiel (m)": {
+    "backdrop": "HBL Håndbold.jpg",
+    "poster": "HBL Håndbold.jpg"
+  },
   "bundesliga review of the midseason": {
     "backdrop": "Bundesliga Review of the Midseason.jpg",
     "poster": "Bundesliga Review of the Midseason.jpg"
@@ -822,6 +826,10 @@
     "poster": "Euro Cup Håndbold.jpg"
   },
   "euro cup: danmark-rumænien (k), semifinale": {
+    "backdrop": "Euro Cup Håndbold.jpg",
+    "poster": "Euro Cup Håndbold.jpg"
+  },
+  "euro cup: norge-danmark (k), finale": {
     "backdrop": "Euro Cup Håndbold.jpg",
     "poster": "Euro Cup Håndbold.jpg"
   },
@@ -1190,8 +1198,12 @@
     "poster": "Totalfodbold.jpg"
   },
   "fodbold: venskabskampe": {
-    "backdrop": "Nations League.jpg",
-    "poster": "Nations League.jpg"
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "fodbold: venskabskampe: testkamp: litauen-andorra": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
   },
   "formel 1": {
     "backdrop": "F1.jpg",
@@ -1385,6 +1397,10 @@
     "backdrop": "Håndbold Herreligaen.jpg",
     "poster": "Håndbold Herreligaen.jpg"
   },
+  "håndbold: liga håndbold - studiet: kvindeligaen: studiet": {
+    "backdrop": "Håndbold Kvindeligaen.jpg",
+    "poster": "Håndbold Kvindeligaen.jpg"
+  },
   "håndbold: nordsjælland-skjern, pokal (m)": {
     "backdrop": "Håndbold Herre Pokal.jpg",
     "poster": "Håndbold Herre Pokal.jpg"
@@ -1556,6 +1572,14 @@
   "nfl: seattle seahawks-new england patriots": {
     "backdrop": "NFL.jpg",
     "poster": "NFL.jpg"
+  },
+  "nhl": {
+    "backdrop": "NHL.jpg",
+    "poster": "NHL.jpg"
+  },
+  "nhl: carolina hurricanes - florida panthers": {
+    "backdrop": "NHL.jpg",
+    "poster": "NHL.jpg"
   },
   "onside": {
     "backdrop": "Onside.jpg",
@@ -2088,6 +2112,10 @@
   "testkamp: aserbajdsjan-tadsjikistan": {
     "backdrop": "Fodbold.jpg",
     "poster": "Fodbold.jpg"
+  },
+  "testkamp: litauen-andorra": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
   },
   "the dark tower": {
     "backdrop": "Sky Sports Soccer Saturday.jpg",
