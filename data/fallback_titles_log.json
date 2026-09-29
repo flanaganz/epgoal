@@ -1,25 +1,32 @@
 {
   "TV 2 SPORT HD.dk": {
-    "Holger Rune er tilbage på banen": 1
+    "Holger Rune er tilbage på banen": 1,
+    "Håndbold: Liga Håndbold - studiet: Kvindeligaen: Studiet": 3
   },
   "TV 2 Sport Denmark (DK,DA).dk": {
     "Holger Rune er tilbage på banen": 1
   },
+  "TV 2 Sport X.dk": {
+    "Testkamp: Litauen-Andorra": 5
+  },
   "TV 2 Sport.dk": {
-    "Holger Rune er tilbage på banen": 2
+    "Euro Cup: Norge-Danmark (k), finale": 2,
+    "Holger Rune er tilbage på banen": 2,
+    "Kvindeligaen: Odense-Team Esbjerg": 2
   },
   "TV3 Sport Denmark (DK,DA).dk": {
     "NHL": 1,
-    "Scandinavian Challenge": 3
+    "Scandinavian Challenge": 2
   },
   "TV3 Sport HD (D).dk": {
+    "Bundesliga Håndbold: Magdeburg-Kiel (m)": 1,
     "NHL: Carolina Hurricanes - Florida Panthers": 1,
-    "Scandinavian Challenge": 3
+    "Scandinavian Challenge": 2
   },
   "TV3 Sport.dk": {
     "NHL": 2,
     "NHL: Carolina Hurricanes - Florida Panthers": 1,
-    "Scandinavian Challenge": 5,
+    "Scandinavian Challenge": 4,
     "Scandinavian Challenge 2026": 2
   }
 }
