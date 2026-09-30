@@ -329,9 +329,25 @@
     "backdrop": "ATP Tour Highlights.jpg",
     "poster": "ATP Tour Highlights.jpg"
   },
+  "atp: arnaldi-sakamoto, tokyo": {
+    "backdrop": "Tennis ATP 500.jpg",
+    "poster": "Tennis ATP 500.jpg"
+  },
+  "atp: beijing": {
+    "backdrop": "Tennis ATP 500.jpg",
+    "poster": "Tennis ATP 500.jpg"
+  },
+  "atp: fils-van assche, tokyo": {
+    "backdrop": "Tennis ATP 500.jpg",
+    "poster": "Tennis ATP 500.jpg"
+  },
   "atp: rune-alcaraz, finale, barcelona": {
     "backdrop": "ATP-1000.jpg",
     "poster": "ATP-1000.jpg"
+  },
+  "atp: tabilo-paul, tokyo": {
+    "backdrop": "Tennis ATP 500.jpg",
+    "poster": "Tennis ATP 500.jpg"
   },
   "atp: tokyo": {
     "backdrop": "Tennis ATP 500.jpg",
@@ -1089,7 +1105,15 @@
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
+  "fodbold: nations league - studie: uefa nations league: efter danmark-portugal": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
   "fodbold: nations league - studie: uefa nations league: efter danmark-wales": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "fodbold: nations league - studie: uefa nations league: før danmark-portugal": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
@@ -1101,7 +1125,15 @@
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
+  "fodbold: nations league: uefa nations league: aserbajdsjan-liechtenstein": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
   "fodbold: nations league: uefa nations league: belgien-frankrig": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "fodbold: nations league: uefa nations league: danmark-portugal": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
@@ -1125,6 +1157,10 @@
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
+  "fodbold: nations league: uefa nations league: grækenland-holland": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
   "fodbold: nations league: uefa nations league: italien-belgien": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
@@ -1134,6 +1170,10 @@
     "poster": "Nations League1.jpg"
   },
   "fodbold: nations league: uefa nations league: moldova-færøerne": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "fodbold: nations league: uefa nations league: norge-danmark": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
@@ -1178,6 +1218,10 @@
     "poster": "Nations League1.jpg"
   },
   "fodbold: nations league: uefa nations league: tyskland-grækenland": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "fodbold: nations league: uefa nations league: wales-norge": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
@@ -1277,7 +1321,15 @@
     "backdrop": "Før Superligaen.jpg",
     "poster": "Før Superligaen.jpg"
   },
+  "før superligaen aarhus gymnastikforening: før superligaen - agf": {
+    "backdrop": "Før Superligaen.jpg",
+    "poster": "Før Superligaen.jpg"
+  },
   "før superligaen brøndby if": {
+    "backdrop": "Før Superligaen.jpg",
+    "poster": "Før Superligaen.jpg"
+  },
+  "før superligaen brøndby if: før superligaen - bif": {
     "backdrop": "Før Superligaen.jpg",
     "poster": "Før Superligaen.jpg"
   },
@@ -1285,7 +1337,15 @@
     "backdrop": "Før Superligaen.jpg",
     "poster": "Før Superligaen.jpg"
   },
+  "før superligaen f.c. københavn: før superligaen - fck": {
+    "backdrop": "Før Superligaen.jpg",
+    "poster": "Før Superligaen.jpg"
+  },
   "før superligaen fc midtjylland": {
+    "backdrop": "Før Superligaen.jpg",
+    "poster": "Før Superligaen.jpg"
+  },
+  "før superligaen fc midtjylland: thomasberg møder sin gamle klub": {
     "backdrop": "Før Superligaen.jpg",
     "poster": "Før Superligaen.jpg"
   },
@@ -1306,6 +1366,10 @@
     "poster": "Bundesliga_2.jpg"
   },
   "handball bundesliga: kiel - flensburg-handewitt": {
+    "backdrop": "HBL Håndbold.jpg",
+    "poster": "HBL Håndbold.jpg"
+  },
+  "handball bundesliga: magdeburg - kiel": {
     "backdrop": "HBL Håndbold.jpg",
     "poster": "HBL Håndbold.jpg"
   },
@@ -1582,6 +1646,10 @@
     "poster": "NHL.jpg"
   },
   "nhl: carolina hurricanes - florida panthers": {
+    "backdrop": "NHL.jpg",
+    "poster": "NHL.jpg"
+  },
+  "nhl: carolina-florida": {
     "backdrop": "NHL.jpg",
     "poster": "NHL.jpg"
   },
@@ -2105,13 +2173,33 @@
     "backdrop": "Tennis ATP 500.jpg",
     "poster": "Tennis ATP 500.jpg"
   },
+  "tennis: atp - tokyo: atp: vacherot-blockx, tokyo": {
+    "backdrop": "Tennis ATP 500.jpg",
+    "poster": "Tennis ATP 500.jpg"
+  },
   "tennis: atp 1000 - paris - kampe": {
     "backdrop": "Tennis ATP 1000.jpg",
     "poster": "Tennis ATP 1000.jpg"
   },
+  "tennis: atp 500 - beijing - kampe": {
+    "backdrop": "Tennis ATP 500.jpg",
+    "poster": "Tennis ATP 500.jpg"
+  },
+  "tennis: atp 500 - beijing - kampe: atp: beijing": {
+    "backdrop": "Tennis ATP 500.jpg",
+    "poster": "Tennis ATP 500.jpg"
+  },
   "tennis: davis cup": {
     "backdrop": "Davis Cup.jpg",
     "poster": "Davis Cup.jpg"
+  },
+  "tennis: wta 1000 - beijng - kampe": {
+    "backdrop": "WTA-generic.jpg",
+    "poster": "WTA-generic.jpg"
+  },
+  "tennis: wta 1000 - beijng - kampe: wta: beijing": {
+    "backdrop": "WTA-generic.jpg",
+    "poster": "WTA-generic.jpg"
   },
   "testkamp: aserbajdsjan-tadsjikistan": {
     "backdrop": "Fodbold.jpg",
@@ -2241,7 +2329,15 @@
     "backdrop": "UEFA Champions League.jpg",
     "poster": "UEFA Champions League.jpg"
   },
+  "uefa nations league: aserbajdsjan-liechtenstein": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
   "uefa nations league: belgien-frankrig": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "uefa nations league: danmark-portugal": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
@@ -2261,6 +2357,10 @@
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
+  "uefa nations league: før danmark-portugal": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
   "uefa nations league: før danmark-wales": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
@@ -2274,6 +2374,10 @@
     "poster": "Nations League1.jpg"
   },
   "uefa nations league: georgien-ukraine": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "uefa nations league: grækenland-holland": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
@@ -2346,6 +2450,14 @@
     "poster": "Nations League1.jpg"
   },
   "uefa nations league: tyskland-grækenland": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "uefa nations league: tyskland-serbien": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "uefa nations league: wales-norge": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
