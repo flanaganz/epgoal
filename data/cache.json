@@ -2669,6 +2669,16 @@
     "poster": null,
     "ts": 1786716364.6348894
   },
+  "atp: arnaldi-sakamoto, tokyo": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790752214.6767936
+  },
+  "atp: beijing": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790752214.8638935
+  },
   "atp: djokovic-agustin tirante, cincinnati": {
     "backdrop": null,
     "poster": null,
@@ -2678,6 +2688,11 @@
     "backdrop": null,
     "poster": null,
     "ts": 1787575381.7128322
+  },
+  "atp: fils-van assche, tokyo": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790752214.4957776
   },
   "atp: finale, montreal": {
     "backdrop": null,
@@ -2753,6 +2768,11 @@
     "backdrop": null,
     "poster": null,
     "ts": 1786716363.3780766
+  },
+  "atp: tabilo-paul, tokyo": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790752214.3122811
   },
   "atp: tien-shelton, semifinale, montreal": {
     "backdrop": null,
@@ -12809,6 +12829,11 @@
     "poster": null,
     "ts": 1787292224.0149164
   },
+  "handball bundesliga: magdeburg - kiel": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790752212.9798193
+  },
   "handicap på ski": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/A0zvhUDxXeVBxB9ffq7xDj27mx5.jpg",
     "poster": null,
@@ -21269,6 +21294,11 @@
     "poster": null,
     "ts": 1790573475.6083403
   },
+  "nhl: carolina-florida": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790752212.2392945
+  },
   "nice to meet you, walden schmidt": {
     "backdrop": null,
     "poster": null,
@@ -28689,6 +28719,11 @@
     "poster": null,
     "ts": 1790573474.767438
   },
+  "tennis: atp - tokyo: atp: vacherot-blockx, tokyo": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790752212.0515811
+  },
   "tennis: atp 1000 - montreal - kampe": {
     "backdrop": null,
     "poster": null,
@@ -31364,10 +31399,20 @@
     "poster": null,
     "ts": 1786516323.5484772
   },
+  "uefa nations league: aserbajdsjan-liechtenstein": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790752213.3834004
+  },
   "uefa nations league: belgien-frankrig": {
     "backdrop": null,
     "poster": null,
     "ts": 1790499798.9380326
+  },
+  "uefa nations league: danmark-portugal": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790752214.1246388
   },
   "uefa nations league: danmark-wales": {
     "backdrop": null,
@@ -31389,6 +31434,11 @@
     "poster": null,
     "ts": 1790312044.2897894
   },
+  "uefa nations league: før danmark-portugal": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790752215.0506954
+  },
   "uefa nations league: før danmark-wales": {
     "backdrop": null,
     "poster": null,
@@ -31408,6 +31458,11 @@
     "backdrop": null,
     "poster": null,
     "ts": 1790499798.7374737
+  },
+  "uefa nations league: grækenland-holland": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790752213.74965
   },
   "uefa nations league: holland-tyskland": {
     "backdrop": null,
@@ -31498,6 +31553,16 @@
     "backdrop": null,
     "poster": null,
     "ts": 1790458497.9917338
+  },
+  "uefa nations league: tyskland-serbien": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790752213.9422638
+  },
+  "uefa nations league: wales-norge": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790752213.5649126
   },
   "uefa super cup": {
     "backdrop": null,
