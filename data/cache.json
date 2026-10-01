@@ -2669,6 +2669,11 @@
     "poster": null,
     "ts": 1786716364.6348894
   },
+  "atp: alcaraz-michelsen, tokyo": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790832622.5666893
+  },
   "atp: arnaldi-sakamoto, tokyo": {
     "backdrop": null,
     "poster": null,
@@ -2749,6 +2754,11 @@
     "poster": null,
     "ts": 1785845438.8000028
   },
+  "atp: rune-jacquet, tokyo": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790832622.361799
+  },
   "atp: semifinale, montreal": {
     "backdrop": null,
     "poster": null,
@@ -2783,6 +2793,11 @@
     "backdrop": null,
     "poster": null,
     "ts": 1790605493.4666882
+  },
+  "atp: vallejo-jodar, tokyo": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790832622.7518687
   },
   "atp: zverev-paul, cincinnati": {
     "backdrop": null,
@@ -9783,6 +9798,16 @@
     "backdrop": null,
     "poster": null,
     "ts": 1790231498.0229702
+  },
+  "f1 training: bahrains grand prix - træning 1": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790832620.314601
+  },
+  "f1 training: bahrains grand prix - træning 2": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790832620.523196
   },
   "f1 training: hollands grand prix - sprint kvalifikation": {
     "backdrop": null,
@@ -26209,6 +26234,11 @@
     "poster": "https://image.tmdb.org/t/p/w500/7wBA7sMJZoZuj0xnXARywwIe9Kl.jpg",
     "ts": 1786700756.8796997
   },
+  "sky sports: the football show: sky sports fc": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790832618.8804467
+  },
   "sky sports: the transfer show": {
     "backdrop": null,
     "poster": null,
@@ -28713,6 +28743,21 @@
     "backdrop": null,
     "poster": null,
     "ts": 1790573476.7358665
+  },
+  "tennis: atp - tokyo: atp: arnaldi-sakamoto, tokyo": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790832618.232834
+  },
+  "tennis: atp - tokyo: atp: fils-van assche, tokyo": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790832618.04887
+  },
+  "tennis: atp - tokyo: atp: rune-jacquet, tokyo": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790832618.4743319
   },
   "tennis: atp - tokyo: atp: tokyo": {
     "backdrop": null,
@@ -31339,6 +31384,11 @@
     "poster": null,
     "ts": 1790458494.990743
   },
+  "tøffe vs. graver: var højbjerg - udtalelse en fejl eller gave?": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790832618.6625588
+  },
   "tøm køleskabet - vafler, kyllingesuppe og mayonnaise": {
     "backdrop": null,
     "poster": null,
@@ -31399,6 +31449,11 @@
     "poster": null,
     "ts": 1786516323.5484772
   },
+  "uefa nations league - det bedste fra dagen": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790832621.8464592
+  },
   "uefa nations league: aserbajdsjan-liechtenstein": {
     "backdrop": null,
     "poster": null,
@@ -31408,6 +31463,16 @@
     "backdrop": null,
     "poster": null,
     "ts": 1790499798.9380326
+  },
+  "uefa nations league: belgien-tyrkiet": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790832622.062006
+  },
+  "uefa nations league: bosnien-hercegovina - sverige": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790832622.9917765
   },
   "uefa nations league: danmark-portugal": {
     "backdrop": null,
@@ -31428,6 +31493,11 @@
     "backdrop": null,
     "poster": null,
     "ts": 1790312044.4767647
+  },
+  "uefa nations league: frankrig-italien": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790832621.633898
   },
   "uefa nations league: færøerne-kasakhstan": {
     "backdrop": null,
@@ -31473,6 +31543,16 @@
     "backdrop": null,
     "poster": null,
     "ts": 1790231499.8534584
+  },
+  "uefa nations league: kasakhstan-moldova": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790832621.2350678
+  },
+  "uefa nations league: letland-montenegro": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790832621.4475405
   },
   "uefa nations league: litauen-aserbajdsjan": {
     "backdrop": null,
