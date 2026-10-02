@@ -2684,6 +2684,11 @@
     "poster": null,
     "ts": 1790752214.8638935
   },
+  "atp: bu-djokovic, beijing": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790928285.431702
+  },
   "atp: djokovic-agustin tirante, cincinnati": {
     "backdrop": null,
     "poster": null,
@@ -2744,6 +2749,11 @@
     "poster": null,
     "ts": 1785845439.0642462
   },
+  "atp: munar-faria, tokyo": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790928285.065174
+  },
   "atp: nakashima-tiafoe, semifinale, cincinnati": {
     "backdrop": null,
     "poster": null,
@@ -2759,6 +2769,11 @@
     "poster": null,
     "ts": 1790832622.361799
   },
+  "atp: semifinale, beijing": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790928286.4459844
+  },
   "atp: semifinale, montreal": {
     "backdrop": null,
     "poster": null,
@@ -2773,6 +2788,11 @@
     "backdrop": null,
     "poster": null,
     "ts": 1786633054.6768105
+  },
+  "atp: semifinale, tokyo": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790928286.2637932
   },
   "atp: shelton-nakashima, finale, montreal": {
     "backdrop": null,
@@ -2793,6 +2813,11 @@
     "backdrop": null,
     "poster": null,
     "ts": 1790605493.4666882
+  },
+  "atp: vacherot-tsitsipas, tokyo": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790928285.2432492
   },
   "atp: vallejo-jodar, tokyo": {
     "backdrop": null,
@@ -3738,6 +3763,16 @@
     "backdrop": "https://image.tmdb.org/t/p/w1280/z01estsekNPUOQrcM3ItXKq6nTU.jpg",
     "poster": "https://image.tmdb.org/t/p/w500/hKE0VO8FebDDvTSfPfRB5iro7s9.jpg",
     "ts": 1785845434.883248
+  },
+  "betinia liga: hvidovre if - aab": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790926478.6638236
+  },
+  "betinia liga: kolding if - fc fredericia": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790926479.232809
   },
   "betinia liga: vejle boldklub - esbjerg fb": {
     "backdrop": null,
@@ -6354,6 +6389,11 @@
     "poster": null,
     "ts": 1787223013.0005782
   },
+  "dart: world grand prix": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790928284.345506
+  },
   "dart: world grand prix: world grand prix": {
     "backdrop": null,
     "poster": null,
@@ -6463,6 +6503,11 @@
     "backdrop": "https://image.tmdb.org/t/p/w1280/ahVQmUEYyHHl9JhJGchN51w0g9i.jpg",
     "poster": "https://image.tmdb.org/t/p/w500/8UvcoeMJag8UWGF8sg7eYspzq0Q.jpg",
     "ts": 1786716257.6271665
+  },
+  "dbu pokalen: sundby boldklub - fc midtjylland": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790926479.032256
   },
   "dd 3way babes ride hard rod": {
     "backdrop": null,
@@ -11079,6 +11124,16 @@
     "poster": null,
     "ts": 1787223144.6944087
   },
+  "formel 2": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790926478.295569
+  },
+  "formel 3": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790926478.4877026
+  },
   "formel e: monaco eprix": {
     "backdrop": null,
     "poster": null,
@@ -13299,6 +13354,16 @@
     "poster": null,
     "ts": 1789131578.2817733
   },
+  "herreligaen: bjerringbro-silkeborg - skanderborg agf": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790928285.8567152
+  },
+  "herreligaen: gog-aalborg": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790928286.0465288
+  },
   "herreligaen: gog-fredericia": {
     "backdrop": null,
     "poster": null,
@@ -13358,6 +13423,11 @@
     "backdrop": null,
     "poster": null,
     "ts": 1789131578.5028927
+  },
+  "herreligaen: tth-skjern": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790926478.8399007
   },
   "herskabelig": {
     "backdrop": null,
@@ -18819,6 +18889,11 @@
     "poster": null,
     "ts": 1787223146.4575539
   },
+  "mads pedersens grønne tour-triumf": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790928287.5588524
+  },
   "magasin og oppsnakk": {
     "backdrop": null,
     "poster": null,
@@ -21323,6 +21398,21 @@
     "backdrop": null,
     "poster": null,
     "ts": 1790752212.2392945
+  },
+  "nhl: new york rangers - utah mammoth": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790928284.6985564
+  },
+  "nhl: philadelphia flyers - carolina hurricanes": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790928284.5244808
+  },
+  "nhl: tampa bay lightning - philadelphia flyers": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790928284.8825471
   },
   "nice to meet you, walden schmidt": {
     "backdrop": null,
@@ -31459,6 +31549,11 @@
     "poster": null,
     "ts": 1790752213.3834004
   },
+  "uefa nations league: aserbajdsjan-litauen": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790928287.1744335
+  },
   "uefa nations league: belgien-frankrig": {
     "backdrop": null,
     "poster": null,
@@ -31469,10 +31564,20 @@
     "poster": null,
     "ts": 1790832622.062006
   },
+  "uefa nations league: bosnien-hercegovina - polen": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790928289.2486956
+  },
   "uefa nations league: bosnien-hercegovina - sverige": {
     "backdrop": null,
     "poster": null,
     "ts": 1790832622.9917765
+  },
+  "uefa nations league: cypern-letland": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790928288.6549287
   },
   "uefa nations league: danmark-portugal": {
     "backdrop": null,
@@ -31493,6 +31598,16 @@
     "backdrop": null,
     "poster": null,
     "ts": 1790312044.4767647
+  },
+  "uefa nations league: finland-albanien": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790928285.6455867
+  },
+  "uefa nations league: frankrig-belgien": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790928288.8634114
   },
   "uefa nations league: frankrig-italien": {
     "backdrop": null,
@@ -31519,6 +31634,11 @@
     "poster": null,
     "ts": 1790172197.9854162
   },
+  "uefa nations league: før wales-danmark": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790928287.3803446
+  },
   "uefa nations league: georgien-nordirland": {
     "backdrop": null,
     "poster": null,
@@ -31534,6 +31654,16 @@
     "poster": null,
     "ts": 1790752213.74965
   },
+  "uefa nations league: grækenland-tyskland": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790928288.1080477
+  },
+  "uefa nations league: holland-serbien": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790928287.9271493
+  },
   "uefa nations league: holland-tyskland": {
     "backdrop": null,
     "poster": null,
@@ -31544,10 +31674,25 @@
     "poster": null,
     "ts": 1790231499.8534584
   },
+  "uefa nations league: italien-tyrkiet": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790928286.6268525
+  },
   "uefa nations league: kasakhstan-moldova": {
     "backdrop": null,
     "poster": null,
     "ts": 1790832621.2350678
+  },
+  "uefa nations league: kosovo-østrig": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790928288.4698098
+  },
+  "uefa nations league: kroatien-england": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790928286.8136606
   },
   "uefa nations league: letland-montenegro": {
     "backdrop": null,
@@ -31574,10 +31719,20 @@
     "poster": null,
     "ts": 1790458497.8057556
   },
+  "uefa nations league: portugal-norge": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790928287.7448404
+  },
   "uefa nations league: portugal-wales": {
     "backdrop": null,
     "poster": null,
     "ts": 1790172198.059203
+  },
+  "uefa nations league: rumænien-sverige": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790928289.031562
   },
   "uefa nations league: serbien-holland": {
     "backdrop": null,
@@ -31593,6 +31748,11 @@
     "backdrop": null,
     "poster": null,
     "ts": 1790605493.102644
+  },
+  "uefa nations league: spanien-tjekkiet": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790928286.991459
   },
   "uefa nations league: studiet": {
     "backdrop": null,
@@ -31638,6 +31798,11 @@
     "backdrop": null,
     "poster": null,
     "ts": 1790752213.9422638
+  },
+  "uefa nations league: wales-danmark": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1790928288.2876706
   },
   "uefa nations league: wales-norge": {
     "backdrop": null,

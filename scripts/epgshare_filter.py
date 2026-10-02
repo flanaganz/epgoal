@@ -52,7 +52,7 @@ def main():
 
     wanted_channels = load_followed_channels()
 
-    print(f"Whitelist kanaler: {len(wanted_channels)}")
+    print("Whitelist kanaler:", len(wanted_channels))
 
     tree = ET.parse(INPUT_XML)
     root = tree.getroot()
@@ -90,6 +90,13 @@ def main():
         channel_id = (programme.get("channel") or "").strip()
 
         if channel_id in kept_channel_ids:
+
+            for old in programme.findall("icon"):
+                programme.remove(old)
+
+            for old in programme.findall("backdrop"):
+                programme.remove(old)
+
             new_root.append(programme)
             programme_count += 1
 
@@ -101,9 +108,9 @@ def main():
 
     print()
     print("=== EPGShare filter ===")
-    print(f"Kanaler beholdt   : {len(kept_channel_ids):,}")
-    print(f"Programmer beholdt: {programme_count:,}")
-    print(f"Output            : {OUTPUT_XML}")
+    print("Kanaler beholdt   :", len(kept_channel_ids))
+    print("Programmer beholdt:", programme_count)
+    print("Output            :", OUTPUT_XML)
 
     print()
     print("Matched kanaler:")
