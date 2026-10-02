@@ -1,10 +1,10 @@
 {
-  "_readme": "EPGShare01 POC - koeres isoleret fra produktionens config.json. Deler cache, review-filer og sport-data med produktionen, men skriver KUN til output_epgshare/.",
+  "_readme": "EPGShare01 POC - koeres isoleret fra produktionens config.json. Deler cache, review-filer og sport-data med produktionen, men skriver KUN til output_epgshare/. 'epgshare_merged' = EPGShare suppleret med OpenEPG for kanaler med for kort/intet vindue (se epgshare_merge_openepg.py).",
 
   "sources": [
     {
-      "name": "epgshare_filtered",
-      "file": "output_epgshare/epgshare_filtered.xml",
+      "name": "epgshare_merged",
+      "file": "output_epgshare/epgshare_merged.xml",
       "enrich_non_sport_with_tmdb": false
     }
   ],

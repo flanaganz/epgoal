@@ -1,0 +1,29 @@
+{
+  "_readme": "EPGShare01 POC - koeres isoleret fra produktionens config.json. Deler cache, review-filer og sport-data med produktionen, men skriver KUN til output_epgshare/.",
+
+  "sources": [
+    {
+      "name": "epgshare_filtered",
+      "file": "output_epgshare/epgshare_filtered.xml",
+      "enrich_non_sport_with_tmdb": false
+    }
+  ],
+
+  "sport": {
+    "image_base_url": "https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/",
+    "tmdb_fallback_enabled": true
+  },
+
+  "git": {
+    "enabled": true,
+    "commit_message_prefix": "Auto-sync EPGShare POC"
+  },
+
+  "image": {
+    "backdrop_size": "w1280",
+    "poster_size": "w500"
+  },
+
+  "cache_max_age_days": 30,
+  "not_found_cache_max_age_days": 10
+}

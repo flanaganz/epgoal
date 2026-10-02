@@ -8,20 +8,25 @@ rem   1) epgshare_download.py         - henter frisk EPGShare01 DK1 (gzip, udpak
 rem   2) epgshare_filter.py           - filtrerer til kun dine X-markerede kanaler
 rem                                     (data\channel_priority.xlsx) og rydder evt.
 rem                                     icon/backdrop der allerede laa i kilden
-rem   3) enrich_epg_epgshare.py       - beriger SPORT (samme data/logik som produktion:
+rem   3) epgshare_merge_openepg.py    - supplerer/erstatter kanaler hvor EPGShare01
+rem                                     har for kort eller intet EPG-vindue med
+rem                                     frisk data fra OpenEPG (samme 6 kilder som
+rem                                     produktionen bruger) - se
+rem                                     data\epgshare_merge_log.json for detaljer
+rem   4) enrich_epg_epgshare.py       - beriger SPORT (samme data/logik som produktion:
 rem                                     sport_channels.json, sport_categories.json,
 rem                                     sport_program_overrides.json osv.)
-rem   4) danish_backdrops_epgshare.py - tilfoejer danske TMDb-backdrops (RESTEN)
+rem   5) danish_backdrops_epgshare.py - tilfoejer danske TMDb-backdrops (RESTEN)
 rem                                     + injicerer allerede GODKENDTE (X) valg fra
 rem                                     data\danish_artwork_review.xlsx (deles med
 rem                                     produktionen - samme cache, samme godkendelser)
 rem
-rem Begge trin 3 og 4 committer og pusher til GitHub automatisk (git.enabled=true
-rem i config-epgshare.json), saa output_epgshare\epgshare_filtered.xml altid
-rem ligger friskt tilgaengeligt paa GitHub bagefter.
+rem Trin 4 og 5 committer og pusher til GitHub automatisk (git.enabled=true i
+rem config-epgshare.json), saa output_epgshare\epgshare_merged.xml altid ligger
+rem friskt tilgaengeligt paa GitHub bagefter.
 rem
 rem UHF-URL (indsaet som kilde i UHF):
-rem   https://raw.githubusercontent.com/flanaganz/epgoal/main/output_epgshare/epgshare_filtered.xml
+rem   https://raw.githubusercontent.com/flanaganz/epgoal/main/output_epgshare/epgshare_merged.xml
 rem
 rem Dobbeltklik denne fil, eller koer den fra en almindelig PowerShell/CMD-prompt.
 
@@ -29,7 +34,7 @@ set SCRIPT_DIR=%~dp0
 cd /d "%SCRIPT_DIR%"
 
 echo ================================================
-echo  TRIN 1/4: Henter EPGShare01 DK1 (epgshare_download.py)
+echo  TRIN 1/5: Henter EPGShare01 DK1 (epgshare_download.py)
 echo ================================================
 echo.
 
@@ -43,7 +48,7 @@ if errorlevel 1 (
 
 echo.
 echo ================================================
-echo  TRIN 2/4: Filtrerer til dine kanaler (epgshare_filter.py)
+echo  TRIN 2/5: Filtrerer til dine kanaler (epgshare_filter.py)
 echo ================================================
 echo.
 
@@ -57,7 +62,21 @@ if errorlevel 1 (
 
 echo.
 echo ================================================
-echo  TRIN 3/4: Sport-berigelse (enrich_epg_epgshare.py)
+echo  TRIN 3/5: Supplerer huller med OpenEPG (epgshare_merge_openepg.py)
+echo ================================================
+echo.
+
+python scripts\epgshare_merge_openepg.py
+if errorlevel 1 (
+    echo.
+    echo [FEJL] epgshare_merge_openepg.py fejlede - stopper her.
+    pause
+    exit /b 1
+)
+
+echo.
+echo ================================================
+echo  TRIN 4/5: Sport-berigelse (enrich_epg_epgshare.py)
 echo ================================================
 echo.
 
@@ -72,7 +91,7 @@ if errorlevel 1 (
 
 echo.
 echo ================================================
-echo  TRIN 4/4: Danske backdrops (danish_backdrops_epgshare.py)
+echo  TRIN 5/5: Danske backdrops (danish_backdrops_epgshare.py)
 echo ================================================
 echo.
 
@@ -92,7 +111,10 @@ echo  FAERDIG! EPGShare-POC opdateret og pushet til GitHub.
 echo ================================================
 echo.
 echo UHF-URL (indsaet som kilde i UHF):
-echo   https://raw.githubusercontent.com/flanaganz/epgoal/main/output_epgshare/epgshare_filtered.xml
+echo   https://raw.githubusercontent.com/flanaganz/epgoal/main/output_epgshare/epgshare_merged.xml
+echo.
+echo Se data\epgshare_merge_log.json for hvilke kanaler der blev suppleret med
+echo OpenEPG i dag, og hvilke (hvis nogen) der stadig mangler data begge steder.
 echo.
 
 pause
