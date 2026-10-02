@@ -3,19 +3,16 @@ setlocal enabledelayedexpansion
 
 rem === opdater_epgshare.bat ===
 rem EPGShare01-POC - koerer hele kaeden isoleret fra produktionen (opdater_alt.bat).
-rem Samler EPGShare01 + OpenEPG + BSS (ultratv.one) til EEN samlet XML, og
-rem beriger den derefter med sport-artwork og danske TMDb-backdrops - praecis
-rem som produktionen goer, men paa en isoleret kilde/output.
 rem
 rem   1) epgshare_download.py         - henter frisk EPGShare01 DK1 (gzip, udpakkes)
 rem   2) epgshare_filter.py           - filtrerer til kun dine X-markerede kanaler
 rem                                     (data\channel_priority.xlsx) og rydder evt.
 rem                                     icon/backdrop der allerede laa i kilden
-rem   3) epgshare_merge_all.py        - supplerer/erstatter kanaler hvor EPGShare01
-rem                                     har for kort eller intet EPG-vindue, med
-rem                                     den BEDSTE af OpenEPG (6 kilder) og BSS
-rem                                     (ultratv.one, kraever BSS_XMLTV_URL i .env)
-rem                                     - se data\epgshare_merge_log.json for detaljer
+rem   3) epgshare_merge_openepg.py    - supplerer/erstatter kanaler hvor EPGShare01
+rem                                     har for kort eller intet EPG-vindue med
+rem                                     frisk data fra OpenEPG (samme 6 kilder som
+rem                                     produktionen bruger) - se
+rem                                     data\epgshare_merge_log.json for detaljer
 rem   4) enrich_epg_epgshare.py       - beriger SPORT (samme data/logik som produktion:
 rem                                     sport_channels.json, sport_categories.json,
 rem                                     sport_program_overrides.json osv.)
@@ -27,10 +24,6 @@ rem
 rem Trin 4 og 5 committer og pusher til GitHub automatisk (git.enabled=true i
 rem config-epgshare.json), saa output_epgshare\epgshare_merged.xml altid ligger
 rem friskt tilgaengeligt paa GitHub bagefter.
-rem
-rem VIGTIGT: BSS_XMLTV_URL (med login) maa KUN staa i .env - ALDRIG i denne
-rem .bat-fil eller i noget script, da hele repoet (inkl. denne .bat, hvis den
-rem ligger i repoet) committes og pushes offentligt via git add -A.
 rem
 rem UHF-URL (indsaet som kilde i UHF):
 rem   https://raw.githubusercontent.com/flanaganz/epgoal/main/output_epgshare/epgshare_merged.xml
@@ -69,14 +62,14 @@ if errorlevel 1 (
 
 echo.
 echo ================================================
-echo  TRIN 3/5: Samler EPGShare + OpenEPG + BSS (epgshare_merge_all.py)
+echo  TRIN 3/5: Supplerer huller med OpenEPG (epgshare_merge_openepg.py)
 echo ================================================
 echo.
 
-python scripts\epgshare_merge_all.py
+python scripts\epgshare_merge_openepg.py
 if errorlevel 1 (
     echo.
-    echo [FEJL] epgshare_merge_all.py fejlede - stopper her.
+    echo [FEJL] epgshare_merge_openepg.py fejlede - stopper her.
     pause
     exit /b 1
 )
@@ -114,15 +107,14 @@ if errorlevel 1 (
 
 echo.
 echo ================================================
-echo  FAERDIG! EPGShare-POC (EPGShare+OpenEPG+BSS) opdateret og pushet.
+echo  FAERDIG! EPGShare-POC opdateret og pushet til GitHub.
 echo ================================================
 echo.
-echo UHF-URL (indsaet som kilde i UHF - KUN denne, erstat de 3 gamle kilder):
+echo UHF-URL (indsaet som kilde i UHF):
 echo   https://raw.githubusercontent.com/flanaganz/epgoal/main/output_epgshare/epgshare_merged.xml
 echo.
-echo Se data\epgshare_merge_log.json for hvilken kilde (epgshare/openepg/bss)
-echo der blev brugt pr. kanal i dag, og hvilke (hvis nogen) der stadig mangler
-echo data i alle tre kilder.
+echo Se data\epgshare_merge_log.json for hvilke kanaler der blev suppleret med
+echo OpenEPG i dag, og hvilke (hvis nogen) der stadig mangler data begge steder.
 echo.
 
 pause

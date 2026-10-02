@@ -1,411 +1,308 @@
 {
   "kept_as_is": [
     {
-      "epgshare_ids": [
-        "6'eren.dk"
-      ],
       "kanal": "6eren.dk",
+      "kilde": "epgshare",
       "programmer": 92,
       "vindue_timer": 96.5
     },
     {
-      "epgshare_ids": [
-        "Animal.Planet.dk"
-      ],
       "kanal": "Animal Planet.dk",
+      "kilde": "epgshare",
       "programmer": 116,
       "vindue_timer": 96.4
     },
     {
-      "epgshare_ids": [
-        "BBC.News.dk"
-      ],
       "kanal": "BBC News.dk",
+      "kilde": "epgshare",
       "programmer": 213,
       "vindue_timer": 96.0
     },
     {
-      "epgshare_ids": [
-        "BBC.Nordic.dk"
-      ],
       "kanal": "BBC Nordic English (IS,EN).dk",
+      "kilde": "epgshare",
       "programmer": 142,
       "vindue_timer": 96.0
     },
     {
-      "epgshare_ids": [
-        "Canal.9.dk"
-      ],
       "kanal": "Canal9.dk",
+      "kilde": "epgshare",
       "programmer": 95,
       "vindue_timer": 95.8
     },
     {
-      "epgshare_ids": [
-        "Cartoon.Network.dk"
-      ],
       "kanal": "Cartoon.Network.dk",
+      "kilde": "epgshare",
       "programmer": 481,
       "vindue_timer": 96.0
     },
     {
-      "epgshare_ids": [
-        "Cartoonito.dk"
-      ],
       "kanal": "Cartoonito.dk",
+      "kilde": "epgshare",
       "programmer": 587,
       "vindue_timer": 96.0
     },
     {
-      "epgshare_ids": [
-        "CNN.dk"
-      ],
       "kanal": "CNN International (US,EN).dk",
+      "kilde": "epgshare",
       "programmer": 135,
       "vindue_timer": 96.0
     },
     {
-      "epgshare_ids": [
-        "Discovery.Channel.dk"
-      ],
       "kanal": "Discovery Channel.dk",
+      "kilde": "epgshare",
       "programmer": 94,
       "vindue_timer": 96.0
     },
     {
-      "epgshare_ids": [
-        "Discovery.Science.dk"
-      ],
       "kanal": "Discovery Science.dk",
+      "kilde": "epgshare",
       "programmer": 4,
       "vindue_timer": 72.0
     },
     {
-      "epgshare_ids": [
-        "Disney.Channel.dk"
-      ],
       "kanal": "Disney.Channel.dk",
+      "kilde": "epgshare",
       "programmer": 229,
       "vindue_timer": 95.7
     },
     {
-      "epgshare_ids": [
-        "DR.Ramasjang.dk"
-      ],
       "kanal": "DR Ramasjang.dk",
+      "kilde": "epgshare",
       "programmer": 288,
       "vindue_timer": 96.0
     },
     {
-      "epgshare_ids": [
-        "DR1.dk"
-      ],
       "kanal": "DR1.dk",
+      "kilde": "epgshare",
       "programmer": 133,
       "vindue_timer": 95.7
     },
     {
-      "epgshare_ids": [
-        "DR2.dk"
-      ],
       "kanal": "DR2.dk",
+      "kilde": "epgshare",
       "programmer": 104,
       "vindue_timer": 96.0
     },
     {
-      "epgshare_ids": [
-        "Eurosport.1.dk"
-      ],
       "kanal": "Eurosport.1.dk",
+      "kilde": "epgshare",
       "programmer": 56,
       "vindue_timer": 96.7
     },
     {
-      "epgshare_ids": [
-        "Eurosport.2.dk",
-        "EuroSport.2.HD.dk"
-      ],
       "kanal": "Eurosport.2.dk",
+      "kilde": "epgshare",
       "programmer": 69,
       "vindue_timer": 97.0
     },
     {
-      "epgshare_ids": [
-        "HISTORY.dk"
-      ],
       "kanal": "History.dk",
+      "kilde": "epgshare",
       "programmer": 129,
       "vindue_timer": 96.0
     },
     {
-      "epgshare_ids": [
-        "Investigation.Discovery.dk"
-      ],
       "kanal": "ID Investigation Discovery (D) (T).dk",
+      "kilde": "epgshare",
       "programmer": 100,
       "vindue_timer": 96.0
     },
     {
-      "epgshare_ids": [
-        "Investigation.Discovery.dk"
-      ],
       "kanal": "ID.dk",
+      "kilde": "epgshare",
       "programmer": 100,
       "vindue_timer": 96.0
     },
     {
-      "epgshare_ids": [
-        "Kanal.4.dk"
-      ],
       "kanal": "Kanal4.dk",
+      "kilde": "epgshare",
       "programmer": 105,
       "vindue_timer": 95.9
     },
     {
-      "epgshare_ids": [
-        "Kanal.5.dk"
-      ],
       "kanal": "Kanal5.dk",
+      "kilde": "epgshare",
       "programmer": 97,
       "vindue_timer": 96.0
     },
     {
-      "epgshare_ids": [
-        "Kosmopol.dk"
-      ],
       "kanal": "Kosmopol (Digital).dk",
+      "kilde": "epgshare",
       "programmer": 161,
       "vindue_timer": 90.2
     },
     {
-      "epgshare_ids": [
-        "National.Geographic.Wild.dk"
-      ],
       "kanal": "Nat Geo Wild.dk",
+      "kilde": "epgshare",
       "programmer": 135,
       "vindue_timer": 96.3
     },
     {
-      "epgshare_ids": [
-        "National.Geographic.dk"
-      ],
       "kanal": "National Geographic.dk",
+      "kilde": "epgshare",
       "programmer": 98,
       "vindue_timer": 96.0
     },
     {
-      "epgshare_ids": [
-        "Nick.Jr..dk"
-      ],
       "kanal": "Nick Jr.dk",
+      "kilde": "epgshare",
       "programmer": 306,
       "vindue_timer": 95.9
     },
     {
-      "epgshare_ids": [
-        "Nickelodeon.dk"
-      ],
       "kanal": "Nickelodeon.dk",
+      "kilde": "epgshare",
       "programmer": 250,
       "vindue_timer": 96.0
     },
     {
-      "epgshare_ids": [
-        "Nicktoons.dk"
-      ],
       "kanal": "Nicktoons.dk",
+      "kilde": "epgshare",
       "programmer": 277,
       "vindue_timer": 96.1
     },
     {
-      "epgshare_ids": [
-        "See.dk"
-      ],
       "kanal": "See.dk",
+      "kilde": "epgshare",
       "programmer": 135,
       "vindue_timer": 96.0
     },
     {
-      "epgshare_ids": [
-        "SkyShowtime.1.dk"
-      ],
       "kanal": "SkyShowtime 1.dk",
+      "kilde": "epgshare",
       "programmer": 118,
       "vindue_timer": 96.0
     },
     {
-      "epgshare_ids": [
-        "SkyShowtime.2.dk"
-      ],
       "kanal": "SkyShowtime 2.dk",
+      "kilde": "epgshare",
       "programmer": 85,
       "vindue_timer": 96.6
     },
     {
-      "epgshare_ids": [
-        "TLC.dk"
-      ],
       "kanal": "TLC.dk",
+      "kilde": "epgshare",
       "programmer": 86,
       "vindue_timer": 96.0
     },
     {
-      "epgshare_ids": [
-        "TV.2.Echo.dk"
-      ],
       "kanal": "TV2 Echo.dk",
+      "kilde": "epgshare",
       "programmer": 113,
       "vindue_timer": 96.6
     },
     {
-      "epgshare_ids": [
-        "TV.2.Fri.dk"
-      ],
       "kanal": "TV2 FRI.dk",
+      "kilde": "epgshare",
       "programmer": 119,
       "vindue_timer": 96.0
     },
     {
-      "epgshare_ids": [
-        "TV.2.News.dk"
-      ],
       "kanal": "TV2 News.dk",
+      "kilde": "epgshare",
       "programmer": 57,
       "vindue_timer": 89.0
     },
     {
-      "epgshare_ids": [
-        "TV.2.Sport.X.dk"
-      ],
       "kanal": "TV2 Sport X.dk",
+      "kilde": "epgshare",
       "programmer": 99,
       "vindue_timer": 95.8
     },
     {
-      "epgshare_ids": [
-        "TV.2.dk"
-      ],
       "kanal": "TV2.dk",
+      "kilde": "epgshare",
       "programmer": 110,
       "vindue_timer": 96.0
     },
     {
-      "epgshare_ids": [
-        "TV.2.Charlie.dk"
-      ],
       "kanal": "TV2Charlie.dk",
+      "kilde": "epgshare",
       "programmer": 98,
       "vindue_timer": 96.1
     },
     {
-      "epgshare_ids": [
-        "TV.2.Sport.dk"
-      ],
       "kanal": "TV2Sport.dk",
+      "kilde": "epgshare",
       "programmer": 57,
       "vindue_timer": 97.0
     },
     {
-      "epgshare_ids": [
-        "TV3.MAX.dk"
-      ],
       "kanal": "TV3 Max.dk",
+      "kilde": "epgshare",
       "programmer": 94,
       "vindue_timer": 96.0
     },
     {
-      "epgshare_ids": [
-        "TV3.Puls.dk"
-      ],
       "kanal": "TV3 Puls.dk",
+      "kilde": "epgshare",
       "programmer": 92,
       "vindue_timer": 96.0
     },
     {
-      "epgshare_ids": [
-        "TV3.SPORT.dk"
-      ],
       "kanal": "TV3 Sport.dk",
+      "kilde": "epgshare",
       "programmer": 63,
       "vindue_timer": 93.6
     },
     {
-      "epgshare_ids": [
-        "TV3.dk"
-      ],
       "kanal": "TV3.dk",
-      "programmer": 76,
-      "vindue_timer": 95.4
-    },
-    {
-      "epgshare_ids": [
-        "TV3+.dk"
-      ],
-      "kanal": "TV3+.dk",
-      "programmer": 83,
+      "kilde": "epgshare",
+      "programmer": 159,
       "vindue_timer": 95.9
     },
     {
-      "epgshare_ids": [
-        "V.film.action.dk"
-      ],
+      "kanal": "TV3+.dk",
+      "kilde": "epgshare",
+      "programmer": 159,
+      "vindue_timer": 95.9
+    },
+    {
       "kanal": "V Film Action.dk",
+      "kilde": "epgshare",
       "programmer": 48,
       "vindue_timer": 95.8
     },
     {
-      "epgshare_ids": [
-        "V.film.family.dk"
-      ],
       "kanal": "V Film Family.dk",
+      "kilde": "epgshare",
       "programmer": 49,
       "vindue_timer": 96.0
     },
     {
-      "epgshare_ids": [
-        "V.film.hits.dk"
-      ],
       "kanal": "V Film Hits.dk",
+      "kilde": "epgshare",
       "programmer": 48,
       "vindue_timer": 96.2
     },
     {
-      "epgshare_ids": [
-        "V.film.premiere.dk"
-      ],
       "kanal": "V Film Premiere.dk",
+      "kilde": "epgshare",
       "programmer": 49,
       "vindue_timer": 96.0
     },
     {
-      "epgshare_ids": [
-        "V.series.dk"
-      ],
       "kanal": "V Series.dk",
+      "kilde": "epgshare",
       "programmer": 162,
       "vindue_timer": 96.0
     },
     {
-      "epgshare_ids": [
-        "V.sport.ultra.HD.dk"
-      ],
       "kanal": "V Sport Ultra HD.dk",
+      "kilde": "epgshare",
       "programmer": 26,
       "vindue_timer": 95.5
     },
     {
-      "epgshare_ids": [
-        "Viaplay.Sport.News.dk"
-      ],
       "kanal": "Viaplay Sport News.dk",
+      "kilde": "epgshare",
       "programmer": 69,
       "vindue_timer": 96.0
     },
     {
-      "epgshare_ids": [
-        "Viasat.Nature.dk"
-      ],
       "kanal": "Viasat Nature Nordic Denmark (DK,DA).dk",
+      "kilde": "epgshare",
       "programmer": 94,
       "vindue_timer": 97.2
     }
@@ -432,121 +329,151 @@
       "epgshare_programmer_foer": 0,
       "epgshare_vindue_timer_foer": 0,
       "kanal": "Boomerang.dk",
-      "openepg_id_brugt": "boomerang.dk",
-      "openepg_programmer_indsat": 309,
-      "primaer_channel_id": "boomerang.dk"
+      "kilde_brugt": "openepg",
+      "kilde_channel_id": "boomerang.dk",
+      "primaer_channel_id": "boomerangdk.dk",
+      "programmer_indsat": 309,
+      "vindue_timer_efter": 50.4
     },
     {
       "epgshare_programmer_foer": 0,
       "epgshare_vindue_timer_foer": 0,
       "kanal": "C More Stars.dk",
-      "openepg_id_brugt": "cmorestars.dk",
-      "openepg_programmer_indsat": 82,
-      "primaer_channel_id": "cmorestars.dk"
+      "kilde_brugt": "openepg",
+      "kilde_channel_id": "cmorestars.dk",
+      "primaer_channel_id": "cmorestarsdk.dk",
+      "programmer_indsat": 82,
+      "vindue_timer_efter": 47.9
     },
     {
       "epgshare_programmer_foer": 0,
       "epgshare_vindue_timer_foer": 0,
       "kanal": "Nickelodeon Junior.dk",
-      "openepg_id_brugt": "Nickelodeon Junior.dk",
-      "openepg_programmer_indsat": 315,
-      "primaer_channel_id": "Nickelodeon Junior.dk"
+      "kilde_brugt": "openepg",
+      "kilde_channel_id": "Nickelodeon Junior.dk",
+      "primaer_channel_id": "nickelodeonjuniordk.dk",
+      "programmer_indsat": 315,
+      "vindue_timer_efter": 52.5
     },
     {
       "epgshare_programmer_foer": 0,
       "epgshare_vindue_timer_foer": 0,
       "kanal": "Oiii.dk",
-      "openepg_id_brugt": "Oiii.dk",
-      "openepg_programmer_indsat": 135,
-      "primaer_channel_id": "Oiii.dk"
+      "kilde_brugt": "openepg",
+      "kilde_channel_id": "Oiii.dk",
+      "primaer_channel_id": "oiiidk.dk",
+      "programmer_indsat": 135,
+      "vindue_timer_efter": 49.8
     },
     {
       "epgshare_programmer_foer": 0,
       "epgshare_vindue_timer_foer": 0,
       "kanal": "Play Guld.dk",
-      "openepg_id_brugt": "Play Guld.dk",
-      "openepg_programmer_indsat": 70,
-      "primaer_channel_id": "Play Guld.dk"
+      "kilde_brugt": "openepg",
+      "kilde_channel_id": "Play Guld.dk",
+      "primaer_channel_id": "playgulddk.dk",
+      "programmer_indsat": 70,
+      "vindue_timer_efter": 49.5
     },
     {
       "epgshare_programmer_foer": 0,
       "epgshare_vindue_timer_foer": 0,
       "kanal": "SF-kanalen.dk",
-      "openepg_id_brugt": "sfkanalen.dk",
-      "openepg_programmer_indsat": 32,
-      "primaer_channel_id": "SF-kanalen Denmark (DK"
+      "kilde_brugt": "openepg",
+      "kilde_channel_id": "sfkanalen.dk",
+      "primaer_channel_id": "sfkanalendk.dk",
+      "programmer_indsat": 32,
+      "vindue_timer_efter": 49.9
     },
     {
       "epgshare_programmer_foer": 0,
       "epgshare_vindue_timer_foer": 0,
       "kanal": "Sky News International (GB,EN).dk",
-      "openepg_id_brugt": "Sky News International (GB,EN).dk",
-      "openepg_programmer_indsat": 88,
-      "primaer_channel_id": "Sky News International (GB"
+      "kilde_brugt": "openepg",
+      "kilde_channel_id": "Sky News International (GB,EN).dk",
+      "primaer_channel_id": "skynewsinternationalgbendk.dk",
+      "programmer_indsat": 88,
+      "vindue_timer_efter": 51.0
     },
     {
       "epgshare_programmer_foer": 0,
       "epgshare_vindue_timer_foer": 0,
       "kanal": "Sky News.dk",
-      "openepg_id_brugt": "Sky News.dk",
-      "openepg_programmer_indsat": 84,
-      "primaer_channel_id": "Sky News.dk"
+      "kilde_brugt": "openepg",
+      "kilde_channel_id": "Sky News.dk",
+      "primaer_channel_id": "skynewsdk.dk",
+      "programmer_indsat": 84,
+      "vindue_timer_efter": 48.0
     },
     {
       "epgshare_programmer_foer": 0,
       "epgshare_vindue_timer_foer": 0,
       "kanal": "SPORT LIVE.dk",
-      "openepg_id_brugt": "sportlive.dk",
-      "openepg_programmer_indsat": 28,
-      "primaer_channel_id": "Sport Live (D) (T).dk"
+      "kilde_brugt": "openepg",
+      "kilde_channel_id": "sportlive.dk",
+      "primaer_channel_id": "sportlivedk.dk",
+      "programmer_indsat": 28,
+      "vindue_timer_efter": 50.2
     },
     {
       "epgshare_programmer_foer": 0,
       "epgshare_vindue_timer_foer": 0,
       "kanal": "TV2 Kosmopol.dk",
-      "openepg_id_brugt": "tv2kosmopol.dk",
-      "openepg_programmer_indsat": 59,
-      "primaer_channel_id": "tv2kosmopol.dk"
+      "kilde_brugt": "openepg",
+      "kilde_channel_id": "tv2kosmopol.dk",
+      "primaer_channel_id": "tv2kosmopoldk.dk",
+      "programmer_indsat": 59,
+      "vindue_timer_efter": 49.5
     },
     {
       "epgshare_programmer_foer": 0,
       "epgshare_vindue_timer_foer": 0,
       "kanal": "TV4 Hits Denmark (DK,DA).dk",
-      "openepg_id_brugt": "TV4 Hits Denmark (DK,DA).dk",
-      "openepg_programmer_indsat": 34,
-      "primaer_channel_id": "TV4 Hits Denmark (DK"
+      "kilde_brugt": "openepg",
+      "kilde_channel_id": "TV4 Hits Denmark (DK,DA).dk",
+      "primaer_channel_id": "tv4hitsdenmarkdkdadk.dk",
+      "programmer_indsat": 34,
+      "vindue_timer_efter": 49.3
     },
     {
       "epgshare_programmer_foer": 0,
       "epgshare_vindue_timer_foer": 0,
       "kanal": "Viasat Explorer.dk",
-      "openepg_id_brugt": "Viasat Explorer.dk",
-      "openepg_programmer_indsat": 103,
-      "primaer_channel_id": "Viasat Explorer.dk"
+      "kilde_brugt": "openepg",
+      "kilde_channel_id": "Viasat Explorer.dk",
+      "primaer_channel_id": "viasatexplorerdk.dk",
+      "programmer_indsat": 103,
+      "vindue_timer_efter": 52.3
     },
     {
       "epgshare_programmer_foer": 0,
       "epgshare_vindue_timer_foer": 0,
       "kanal": "Viasat Family.dk",
-      "openepg_id_brugt": "viasatfamily.dk",
-      "openepg_programmer_indsat": 27,
-      "primaer_channel_id": "viasatfamily.dk"
+      "kilde_brugt": "openepg",
+      "kilde_channel_id": "viasatfamily.dk",
+      "primaer_channel_id": "viasatfamilydk.dk",
+      "programmer_indsat": 27,
+      "vindue_timer_efter": 48.0
     },
     {
       "epgshare_programmer_foer": 0,
       "epgshare_vindue_timer_foer": 0,
       "kanal": "Viasat Film.dk",
-      "openepg_id_brugt": "Viasat Film.dk",
-      "openepg_programmer_indsat": 50,
-      "primaer_channel_id": "Viasat Film.dk"
+      "kilde_brugt": "openepg",
+      "kilde_channel_id": "Viasat Film.dk",
+      "primaer_channel_id": "viasatfilmdk.dk",
+      "programmer_indsat": 50,
+      "vindue_timer_efter": 52.0
     },
     {
       "epgshare_programmer_foer": 0,
       "epgshare_vindue_timer_foer": 0,
       "kanal": "Viasat Ultra.dk",
-      "openepg_id_brugt": "Viasat Ultra.dk",
-      "openepg_programmer_indsat": 6,
-      "primaer_channel_id": "Viasat Ultra.dk"
+      "kilde_brugt": "bss",
+      "kilde_channel_id": "viasatultra.dk",
+      "primaer_channel_id": "viasatultradk.dk",
+      "programmer_indsat": 13,
+      "vindue_timer_efter": 39.5
     }
   ]
 }
