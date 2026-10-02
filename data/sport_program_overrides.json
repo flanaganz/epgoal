@@ -341,6 +341,10 @@
     "backdrop": "Tennis ATP 500.jpg",
     "poster": "Tennis ATP 500.jpg"
   },
+  "atp: bu-djokovic, beijing": {
+    "backdrop": "ATP Tour Highlights.jpg",
+    "poster": "ATP Tour Highlights.jpg"
+  },
   "atp: fils-van assche, tokyo": {
     "backdrop": "Tennis ATP 500.jpg",
     "poster": "Tennis ATP 500.jpg"
@@ -360,6 +364,10 @@
   "atp: tokyo": {
     "backdrop": "Tennis ATP 500.jpg",
     "poster": "Tennis ATP 500.jpg"
+  },
+  "atp: vacherot-tsitsipas, tokyo": {
+    "backdrop": "ATP Tour Highlights.jpg",
+    "poster": "ATP Tour Highlights.jpg"
   },
   "atp: vallejo-jodar, tokyo": {
     "backdrop": "Tennis ATP 500.jpg",
@@ -541,6 +549,10 @@
     "backdrop": "Bundesliga Special.jpg",
     "poster": "Bundesliga Special.jpg"
   },
+  "bundesliga special: best of april": {
+    "backdrop": "Bundesliga Special.jpg",
+    "poster": "Bundesliga Special.jpg"
+  },
   "bundesliga special: bundesliga: season preview": {
     "backdrop": "Bundesliga Special.jpg",
     "poster": "Bundesliga Special.jpg"
@@ -662,6 +674,10 @@
     "poster": "TMDb"
   },
   "chasing the dream: chasing the dream - baku": {
+    "backdrop": "F2.jpg",
+    "poster": "F2.jpg"
+  },
+  "chasing the dream: chasing the dream - season climax bonus": {
     "backdrop": "F2.jpg",
     "poster": "F2.jpg"
   },
@@ -849,6 +865,14 @@
     "backdrop": "EHF Mens Champions League.jpg",
     "poster": "EHF Mens Champions League.jpg"
   },
+  "ehf women's champions league": {
+    "backdrop": "EHF Mens Champions League.jpg",
+    "poster": "EHF Mens Champions League.jpg"
+  },
+  "ehf women's champions league: metz handball - nykøbing falster": {
+    "backdrop": "EHF Mens Champions League.jpg",
+    "poster": "EHF Mens Champions League.jpg"
+  },
   "euro cup håndbold: studiet": {
     "backdrop": "Euro Cup Håndbold.jpg",
     "poster": "Euro Cup Håndbold.jpg"
@@ -885,6 +909,10 @@
     "backdrop": "F1Q.JPG",
     "poster": "F1Q.JPG"
   },
+  "f1 qualification studio: bahrains grand prix - kvalifikation": {
+    "backdrop": "F1Q.JPG",
+    "poster": "F1Q.JPG"
+  },
   "f1 qualification studio: italiens grand prix - kvalifikation": {
     "backdrop": "Formel 1.jpg",
     "poster": "Formel 1.jpg"
@@ -894,6 +922,10 @@
     "poster": "F1Q.JPG"
   },
   "f1 qualification: aserbajdsjans grand prix - kvalifikation": {
+    "backdrop": "F1Q.JPG",
+    "poster": "F1Q.JPG"
+  },
+  "f1 qualification: bahrains grand prix - kvalifikation": {
     "backdrop": "F1Q.JPG",
     "poster": "F1Q.JPG"
   },
@@ -926,6 +958,10 @@
     "poster": "F1T.JPG"
   },
   "f1 training: bahrains grand prix - træning 2": {
+    "backdrop": "F1T.JPG",
+    "poster": "F1T.JPG"
+  },
+  "f1 training: bahrains grand prix - træning 3": {
     "backdrop": "F1T.JPG",
     "poster": "F1T.JPG"
   },
@@ -1085,7 +1121,15 @@
     "backdrop": "A-Liga.jpg",
     "poster": "A-Liga.jpg"
   },
+  "fodbold: a liga (k) - studiet: a-liga: efter f.c. københavn-brøndby if": {
+    "backdrop": "A-Liga.jpg",
+    "poster": "A-Liga.jpg"
+  },
   "fodbold: a liga (k) - studiet: a-liga: efter ob q-agf": {
+    "backdrop": "A-Liga.jpg",
+    "poster": "A-Liga.jpg"
+  },
+  "fodbold: a liga (k) - studiet: a-liga: før f.c. københavn-brøndby if": {
     "backdrop": "A-Liga.jpg",
     "poster": "A-Liga.jpg"
   },
@@ -1173,6 +1217,10 @@
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
+  "fodbold: nations league: uefa nations league: finland-albanien": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
   "fodbold: nations league: uefa nations league: frankrig-italien": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
@@ -1198,6 +1246,10 @@
     "poster": "Nations League1.jpg"
   },
   "fodbold: nations league: uefa nations league: kasakhstan-moldova": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "fodbold: nations league: uefa nations league: kroatien-england": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
@@ -1230,6 +1282,10 @@
     "poster": "Nations League1.jpg"
   },
   "fodbold: nations league: uefa nations league: spanien-kroatien": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "fodbold: nations league: uefa nations league: spanien-tjekkiet": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
@@ -1325,6 +1381,10 @@
     "backdrop": "F1.jpg",
     "poster": "F1.jpg"
   },
+  "formel 1: bahrains grand prix - kvalifikation": {
+    "backdrop": "F1Q.JPG",
+    "poster": "F1Q.JPG"
+  },
   "formel 1: bahrains grand prix - træning 1": {
     "backdrop": "F1.jpg",
     "poster": "F1.jpg"
@@ -1332,6 +1392,10 @@
   "formel 1: bahrains grand prix - træning 2": {
     "backdrop": "F1.jpg",
     "poster": "F1.jpg"
+  },
+  "formel 1: bahrains grand prix - træning 3": {
+    "backdrop": "F1T.JPG",
+    "poster": "F1T.JPG"
   },
   "formel 1: italiens grand prix - kvalifikation": {
     "backdrop": "F1.jpg",
@@ -1354,6 +1418,10 @@
     "poster": "F2.jpg"
   },
   "formula 2: chasing the dream: chasing the dream - madrid": {
+    "backdrop": "F2.jpg",
+    "poster": "F2.jpg"
+  },
+  "formula 2: chasing the dream: chasing the dream - season climax bonus": {
     "backdrop": "F2.jpg",
     "poster": "F2.jpg"
   },
@@ -1429,6 +1497,14 @@
     "backdrop": "Herreligaen.jpg",
     "poster": "Herreligaen.jpg"
   },
+  "herreligaen: bjerringbro-silkeborg - skanderborg agf": {
+    "backdrop": "Håndbold Herreligaen.jpg",
+    "poster": "Håndbold Herreligaen.jpg"
+  },
+  "herreligaen: gog-aalborg": {
+    "backdrop": "Håndbold Herreligaen.jpg",
+    "poster": "Håndbold Herreligaen.jpg"
+  },
   "herreligaen: gog-fredericia": {
     "backdrop": "Herreligaen.jpg",
     "poster": "Herreligaen.jpg"
@@ -1466,8 +1542,8 @@
     "poster": "Herreligaen.jpg"
   },
   "herreligaen: studiet": {
-    "backdrop": "Herreligaen.jpg",
-    "poster": "Herreligaen.jpg"
+    "backdrop": "Håndbold Herreligaen.jpg",
+    "poster": "Håndbold Herreligaen.jpg"
   },
   "herreligaen: tth holstebro - bjerringbro-silkeborg": {
     "backdrop": "Herreligaen.jpg",
@@ -1482,6 +1558,10 @@
     "poster": "Håndbold Herreligaen.jpg"
   },
   "håndbold (m): håndboldligaen - kampe": {
+    "backdrop": "Herreligaen.jpg",
+    "poster": "Herreligaen.jpg"
+  },
+  "håndbold (m): håndboldligaen - kampe: herreligaen:": {
     "backdrop": "Herreligaen.jpg",
     "poster": "Herreligaen.jpg"
   },
@@ -1506,8 +1586,12 @@
     "poster": "Håndbold Herre Pokal.jpg"
   },
   "håndbold: liga håndbold - studiet": {
-    "backdrop": "Håndbold Herreligaen.jpg",
-    "poster": "Håndbold Herreligaen.jpg"
+    "backdrop": "Herreligaen.jpg",
+    "poster": "Herreligaen.jpg"
+  },
+  "håndbold: liga håndbold - studiet: herreligaen: studiet": {
+    "backdrop": "Herreligaen.jpg",
+    "poster": "Herreligaen.jpg"
   },
   "håndbold: liga håndbold - studiet: kvindeligaen: studiet": {
     "backdrop": "Håndbold Kvindeligaen.jpg",
@@ -1702,6 +1786,10 @@
     "poster": "NHL.jpg"
   },
   "nhl: carolina-florida": {
+    "backdrop": "NHL.jpg",
+    "poster": "NHL.jpg"
+  },
+  "nhl: philadelphia flyers - carolina hurricanes": {
     "backdrop": "NHL.jpg",
     "poster": "NHL.jpg"
   },
@@ -2077,6 +2165,10 @@
     "backdrop": "Sporten.jpg",
     "poster": "Sporten.jpg"
   },
+  "sporten: 03.10.2026 19:40.": {
+    "backdrop": "Sporten.jpg",
+    "poster": "Sporten.jpg"
+  },
   "sportsnyhederne": {
     "backdrop": "Sporten.jpg",
     "poster": "Sporten.jpg"
@@ -2233,6 +2325,10 @@
     "backdrop": "Tennis ATP 500.jpg",
     "poster": "Tennis ATP 500.jpg"
   },
+  "tennis: atp - tokyo: atp: alcaraz-michelsen, tokyo": {
+    "backdrop": "ATP Tour Highlights.jpg",
+    "poster": "ATP Tour Highlights.jpg"
+  },
   "tennis: atp - tokyo: atp: arnaldi-sakamoto, tokyo": {
     "backdrop": "Tennis ATP 500.jpg",
     "poster": "Tennis ATP 500.jpg"
@@ -2240,6 +2336,10 @@
   "tennis: atp - tokyo: atp: fils-van assche, tokyo": {
     "backdrop": "Tennis ATP 500.jpg",
     "poster": "Tennis ATP 500.jpg"
+  },
+  "tennis: atp - tokyo: atp: munar-faria, tokyo": {
+    "backdrop": "ATP Tour Highlights.jpg",
+    "poster": "ATP Tour Highlights.jpg"
   },
   "tennis: atp - tokyo: atp: rune-jacquet, tokyo": {
     "backdrop": "Tennis ATP 500.jpg",
@@ -2314,6 +2414,10 @@
     "poster": "TV-Udbruddet.jpg"
   },
   "tøffe vs. graver: kom i gang danmark og riemer": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
+  },
+  "tøffe vs. graver: var højbjerg - udtalelse en fejl eller gave?": {
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
   },
@@ -2441,6 +2545,10 @@
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
+  "uefa nations league: finland-albanien": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
   "uefa nations league: frankrig-italien": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
@@ -2485,6 +2593,10 @@
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
+  "uefa nations league: kroatien-england": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
   "uefa nations league: letland-montenegro": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
@@ -2518,6 +2630,10 @@
     "poster": "Nations League1.jpg"
   },
   "uefa nations league: spanien-kroatien": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "uefa nations league: spanien-tjekkiet": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
@@ -2717,7 +2833,15 @@
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
+  "wta: tauson-kudermetova, beijing": {
+    "backdrop": "WTA-generic.jpg",
+    "poster": "WTA-generic.jpg"
+  },
   "wta: tauson-parry, kvartfinale, monterrey": {
+    "backdrop": "WTA-generic.jpg",
+    "poster": "WTA-generic.jpg"
+  },
+  "wta: zarazua-sabalenka, beijing": {
     "backdrop": "WTA-generic.jpg",
     "poster": "WTA-generic.jpg"
   }
