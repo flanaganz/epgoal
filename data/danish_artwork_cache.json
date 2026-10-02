@@ -2355,6 +2355,11 @@
     "title": "2. verdenskrig i farver - de største begivenheder",
     "ts": 1789797101.321618
   },
+  "2. verdenskrig set fra oven": {
+    "backdrop": null,
+    "title": "2. verdenskrig set fra oven",
+    "ts": 1790928334.818547
+  },
   "2. verdenskrig: afslutningen": {
     "backdrop": null,
     "title": "2. verdenskrig: Afslutningen",
@@ -3310,7 +3315,7 @@
   "300: rise of an empire": {
     "backdrop": null,
     "title": "300: Rise of an Empire",
-    "ts": 1789102844.6375015
+    "ts": 1790928323.112781
   },
   "30:e november": {
     "backdrop": null,
@@ -4377,7 +4382,7 @@
   "8 out of 10 cats does countdown": {
     "backdrop": null,
     "title": "8 Out of 10 Cats Does Countdown",
-    "ts": 1790063344.022033
+    "ts": 1790928335.1284368
   },
   "8 out of 10 cats does countdown: avsnitt 1": {
     "backdrop": null,
@@ -5630,6 +5635,11 @@
     "title": "Ace Ventura: Pet Detective",
     "ts": 1787897012.3369224
   },
+  "ace ventura: when nature calls": {
+    "backdrop": null,
+    "title": "Ace Ventura: When Nature Calls",
+    "ts": 1790928318.3411467
+  },
   "acht tonnen spass": {
     "backdrop": null,
     "title": "Acht Tonnen Spass",
@@ -5927,15 +5937,25 @@
     "title": "Afkodning af dyr",
     "ts": 1786251398.7457192
   },
+  "africa earth's wild home": {
+    "backdrop": null,
+    "title": "Africa Earth's Wild Home",
+    "ts": 1790928331.4300191
+  },
   "africa eco race": {
     "backdrop": null,
     "title": "Africa Eco Race",
     "ts": 1790605521.3981452
   },
+  "africa enterprise": {
+    "backdrop": null,
+    "title": "Africa Enterprise",
+    "ts": 1790928335.6225944
+  },
   "africa inc.": {
     "backdrop": null,
     "title": "Africa Inc.",
-    "ts": 1789131600.0335798
+    "ts": 1790928335.829622
   },
   "africa live": {
     "backdrop": null,
@@ -5970,7 +5990,7 @@
   "african voices": {
     "backdrop": null,
     "title": "African Voices",
-    "ts": 1789972744.2446911
+    "ts": 1790928336.1640465
   },
   "african voices playmakers": {
     "backdrop": null,
@@ -6157,8 +6177,8 @@
   },
   "after": {
     "backdrop": null,
-    "poster": null,
-    "ts": 1786092663.7851481
+    "title": "After",
+    "ts": 1790928345.174375
   },
   "after earth": {
     "backdrop": null,
@@ -6207,6 +6227,11 @@
     "title": "Agatha Christie - En morder i huset",
     "ts": 1790832860.956938
   },
+  "agatha christie: det første skridt mod mord": {
+    "backdrop": null,
+    "title": "Agatha Christie: Det første skridt mod mord",
+    "ts": 1790928313.6446404
+  },
   "agatha christies hjerson": {
     "backdrop": null,
     "title": "Agatha Christies Hjerson",
@@ -6244,9 +6269,8 @@
   },
   "agents 355": {
     "backdrop": null,
-    "poster": null,
     "title": "Agents 355",
-    "ts": 1786737416.9361591
+    "ts": 1790928310.1253133
   },
   "agnes cecilia - en forunderlig historie": {
     "backdrop": null,
@@ -7233,7 +7257,7 @@
   "all the old knives": {
     "backdrop": null,
     "title": "All the Old Knives",
-    "ts": 1788682554.5774746
+    "ts": 1790928310.442812
   },
   "all the wrong moves": {
     "backdrop": null,
@@ -7296,6 +7320,11 @@
     "backdrop": "https://image.tmdb.org/t/p/w1280/3RR5K0rlnB8g1xVG0jRzZH2ofo5.jpg",
     "poster": "https://image.tmdb.org/t/p/w500/cKikIufxCbwfm3hURGQGQaoIZLT.jpg",
     "ts": 1786092961.1472127
+  },
+  "alle guds farver": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/A5IW6HXmc4ALKNh0f9T8rNSyel5.jpg",
+    "title": "Alle Guds farver",
+    "ts": 1790928309.3618383
   },
   "alle hans x-damer": {
     "backdrop": null,
@@ -7687,7 +7716,7 @@
   "alt hvad jeg ved om kærlighed": {
     "backdrop": null,
     "title": "Alt hvad jeg ved om kærlighed",
-    "ts": 1789891850.653361
+    "ts": 1790928347.335006
   },
   "alt jeg vet om kjærlighet": {
     "backdrop": null,
@@ -7886,7 +7915,7 @@
   "amanda og mormor": {
     "backdrop": null,
     "title": "Amanda og mormor",
-    "ts": 1789891936.1591284
+    "ts": 1790928368.3299913
   },
   "amandaprisen": {
     "backdrop": null,
@@ -8088,7 +8117,7 @@
   "american pie": {
     "backdrop": null,
     "title": "American Pie",
-    "ts": 1789797094.7819924
+    "ts": 1790928345.8474267
   },
   "american pie 2": {
     "backdrop": null,
@@ -8144,7 +8173,7 @@
   "americana": {
     "backdrop": null,
     "title": "Americana",
-    "ts": 1787896987.6803756
+    "ts": 1790928358.9725688
   },
   "americas now": {
     "backdrop": null,
@@ -8310,7 +8339,7 @@
   "amsterdam central 24/7": {
     "backdrop": null,
     "title": "Amsterdam Central 24/7",
-    "ts": 1789891820.7125053
+    "ts": 1790928334.4674282
   },
   "amsterdam central 24/7: amsterdams 750-års jubilæum": {
     "backdrop": null,
@@ -9099,9 +9128,9 @@
     "ts": 1788081643.4860454
   },
   "anne og anders i kina": {
-    "backdrop": null,
+    "backdrop": "https://image.tmdb.org/t/p/w1280/ad8p2I1VoBcJFEiQ5DbEDSf6Ifv.jpg",
     "title": "Anne og Anders i Kina",
-    "ts": 1789797052.125347
+    "ts": 1790928299.477066
   },
   "anne og anders i kina (1:3) - kærlighed og kameraer": {
     "backdrop": null,
@@ -9961,6 +9990,16 @@
     "title": "Arne Næss' Norwegen / Frankreich / Vietnam",
     "ts": 1786516392.9494774
   },
+  "aros skattens hemmelighed - damperen": {
+    "backdrop": null,
+    "title": "Aros Skattens Hemmelighed - Damperen",
+    "ts": 1790928300.1969693
+  },
+  "aros skattens hemmelighed - sølvmønten": {
+    "backdrop": null,
+    "title": "Aros Skattens Hemmelighed - Sølvmønten",
+    "ts": 1790928300.0149477
+  },
   "arpo": {
     "backdrop": null,
     "title": "Arpo",
@@ -10809,6 +10848,11 @@
     "backdrop": null,
     "title": "Attenborough and the Giant Sea Monster",
     "ts": 1789455360.5696535
+  },
+  "attenborough og den begravede mammut": {
+    "backdrop": null,
+    "title": "Attenborough og den begravede mammut",
+    "ts": 1790928340.5978787
   },
   "attenborough og det forhistoriske sjøuhyret": {
     "backdrop": null,
@@ -11766,7 +11810,7 @@
   "bad boys for life": {
     "backdrop": null,
     "title": "Bad Boys for Life",
-    "ts": 1787754946.3085546
+    "ts": 1790928361.1914442
   },
   "bad boys ii": {
     "backdrop": null,
@@ -12089,6 +12133,11 @@
     "title": "Ballade på Bullerborg",
     "ts": 1788081563.0042214
   },
+  "balladen om det beskidte vand": {
+    "backdrop": null,
+    "title": "Balladen om det beskidte vand",
+    "ts": 1790928303.9428425
+  },
   "balladen om morgan kane": {
     "backdrop": null,
     "title": "Balladen om Morgan Kane",
@@ -12306,6 +12355,11 @@
     "title": "Bamselægen - Kyssesyge og infektion (15)",
     "ts": 1789891960.1195266
   },
+  "bamselægen - lungebetændelse og sondemad": {
+    "backdrop": null,
+    "title": "Bamselægen - Lungebetændelse og sondemad",
+    "ts": 1790928376.3491826
+  },
   "bamselægen - lungebetændelse og sondemad (14)": {
     "backdrop": null,
     "title": "Bamselægen - Lungebetændelse og sondemad (14)",
@@ -12421,7 +12475,7 @@
   "bandidas": {
     "backdrop": null,
     "title": "Bandidas",
-    "ts": 1787727418.402008
+    "ts": 1790928361.8469086
   },
   "banditen!": {
     "backdrop": null,
@@ -12447,6 +12501,11 @@
     "backdrop": null,
     "title": "Bangkok - Hua hin",
     "ts": 1788764186.7378614
+  },
+  "banke, banke på": {
+    "backdrop": null,
+    "title": "Banke, banke på",
+    "ts": 1790928301.4669585
   },
   "barbapapa": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/zytKdrIZbwkesJZb8SBaw1QVsYh.jpg",
@@ -16411,6 +16470,11 @@
     "title": "Biler i nød",
     "ts": 1788764038.5872622
   },
+  "biler i nød: 7 dages udfordringen": {
+    "backdrop": null,
+    "title": "Biler i nød: 7 dages udfordringen",
+    "ts": 1790928333.2104306
+  },
   "biler i nød: aston martin db6": {
     "backdrop": null,
     "title": "Biler i nød: Aston Martin DB6",
@@ -17167,7 +17231,7 @@
   "black phone 2": {
     "backdrop": null,
     "title": "Black Phone 2",
-    "ts": 1787808484.056463
+    "ts": 1790928358.3184927
   },
   "black rain": {
     "backdrop": null,
@@ -17214,6 +17278,11 @@
     "backdrop": null,
     "title": "BlackJack",
     "ts": 1790752417.2218866
+  },
+  "blacklight": {
+    "backdrop": null,
+    "title": "Blacklight",
+    "ts": 1790928312.737679
   },
   "blade runner 2049": {
     "backdrop": null,
@@ -17685,13 +17754,12 @@
   "blue moon": {
     "backdrop": null,
     "title": "Blue Moon",
-    "ts": 1789972776.3867378
+    "ts": 1790928349.9281492
   },
   "blues brothers": {
     "backdrop": null,
-    "poster": null,
     "title": "Blues Brothers",
-    "ts": 1786174155.5239542
+    "ts": 1790928363.008502
   },
   "bluey": {
     "backdrop": null,
@@ -17701,7 +17769,7 @@
   "bluey iii": {
     "backdrop": null,
     "title": "Bluey III",
-    "ts": 1789972861.1379383
+    "ts": 1790928368.8865275
   },
   "bluey kortfilmer": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/iqrk0HsxhbXWK0BBE0q45IS90uG.jpg",
@@ -18205,6 +18273,11 @@
     "backdrop": null,
     "title": "Bonderøven",
     "ts": 1790832874.1327527
+  },
+  "bonderøven 2010": {
+    "backdrop": null,
+    "title": "Bonderøven 2010",
+    "ts": 1790928298.6121655
   },
   "bonderøven 2010 (1)": {
     "backdrop": null,
@@ -19013,7 +19086,7 @@
   "bridget jones dagbog": {
     "backdrop": null,
     "title": "Bridget Jones dagbog",
-    "ts": 1787897019.3300805
+    "ts": 1790928364.278575
   },
   "bridget jones dagbok": {
     "backdrop": null,
@@ -19260,7 +19333,7 @@
   "brudepiger": {
     "backdrop": null,
     "title": "Brudepiger",
-    "ts": 1788331266.0857856
+    "ts": 1790928366.0501816
   },
   "brug dine rester": {
     "backdrop": null,
@@ -19521,7 +19594,7 @@
   "building historic homes": {
     "backdrop": null,
     "title": "Building Historic Homes",
-    "ts": 1789972856.490777
+    "ts": 1790928322.0911317
   },
   "building historic homes: stor historisk hall": {
     "backdrop": null,
@@ -20169,6 +20242,11 @@
     "title": "Børns fantastiske fortællinger",
     "ts": 1786251213.2894483
   },
+  "børns fantastiske fortællinger: motor mille som fandt nogen venner": {
+    "backdrop": null,
+    "title": "Børns fantastiske fortællinger: Motor Mille som fandt nogen venner",
+    "ts": 1790928374.6038587
+  },
   "børns fantastiske fortællinger: supertrolden": {
     "backdrop": null,
     "poster": null,
@@ -20337,6 +20415,11 @@
     "backdrop": null,
     "title": "Calm Before The Storm",
     "ts": 1787127302.2059247
+  },
+  "camino": {
+    "backdrop": null,
+    "title": "CAMINO",
+    "ts": 1790928366.6403556
   },
   "cammo": {
     "backdrop": null,
@@ -22259,7 +22342,7 @@
   "clarksons farm": {
     "backdrop": null,
     "title": "Clarksons farm",
-    "ts": 1789191070.274
+    "ts": 1790928311.0964632
   },
   "clarksons gård": {
     "backdrop": null,
@@ -22672,6 +22755,11 @@
     "title": "Cody Time: Learning Month, Big Lessons!",
     "ts": 1790458749.6264832
   },
+  "cold prey": {
+    "backdrop": null,
+    "title": "Cold Prey",
+    "ts": 1790928362.3572469
+  },
   "cold pursuit": {
     "backdrop": null,
     "title": "Cold Pursuit",
@@ -23052,7 +23140,7 @@
   "cooking with wine": {
     "backdrop": null,
     "title": "Cooking with Wine",
-    "ts": 1787754571.339213
+    "ts": 1790928357.1932511
   },
   "coole karre für kickz": {
     "backdrop": null,
@@ -23301,6 +23389,11 @@
     "poster": null,
     "ts": 1786092940.587112
   },
+  "crazy, stupid, love": {
+    "backdrop": null,
+    "title": "Crazy, Stupid, Love",
+    "ts": 1790928319.8244486
+  },
   "crazy, stupid, love.": {
     "backdrop": null,
     "title": "Crazy, Stupid, Love.",
@@ -23429,13 +23522,13 @@
   },
   "croc wars: grumeti vs mara": {
     "backdrop": null,
-    "poster": null,
-    "ts": 1786092526.1163535
+    "title": "Croc Wars: Grumeti Vs Mara",
+    "ts": 1790928325.2797587
   },
   "crocodile - australia's greatest survivor": {
     "backdrop": null,
-    "poster": null,
-    "ts": 1786092529.4262202
+    "title": "Crocodile - Australia's Greatest Survivor",
+    "ts": 1790928325.598951
   },
   "crocodile australia's greatest survivor": {
     "backdrop": null,
@@ -23451,6 +23544,11 @@
     "backdrop": null,
     "poster": null,
     "ts": 1786092784.2071812
+  },
+  "crocodiles of the okavango": {
+    "backdrop": null,
+    "title": "Crocodiles of the Okavango",
+    "ts": 1790928326.0928564
   },
   "crocodiles revealed": {
     "backdrop": null,
@@ -23665,7 +23763,7 @@
   "curvy brides' boutique": {
     "backdrop": null,
     "title": "Curvy Brides' Boutique",
-    "ts": 1790063331.1448164
+    "ts": 1790928336.7860084
   },
   "custom": {
     "backdrop": null,
@@ -23853,6 +23951,11 @@
     "title": "Cykling: Clásica San Sebastián",
     "ts": 1786360815.0016925
   },
+  "cykling: coppa bernocchi (m)": {
+    "backdrop": null,
+    "title": "Cykling: Coppa Bernocchi (m)",
+    "ts": 1790928329.0218377
+  },
   "cykling: cro race": {
     "backdrop": null,
     "title": "Cykling: Cro Race",
@@ -23861,7 +23964,7 @@
   "cykling: cro race (m)": {
     "backdrop": null,
     "title": "Cykling: CRO Race (m)",
-    "ts": 1789972842.801562
+    "ts": 1790928327.3846107
   },
   "cykling: cro race: 01.10.2026 03:55.": {
     "backdrop": null,
@@ -24048,6 +24151,21 @@
     "title": "Cykling: Deutschland Tour",
     "ts": 1788682434.7404191
   },
+  "cykling: em i landevejscykling": {
+    "backdrop": null,
+    "title": "Cykling: EM i landevejscykling",
+    "ts": 1790928322.459062
+  },
+  "cykling: em i landevejscykling (k)": {
+    "backdrop": null,
+    "title": "Cykling: EM i landevejscykling (k)",
+    "ts": 1790928328.30723
+  },
+  "cykling: em i landevejscykling (m)": {
+    "backdrop": null,
+    "title": "Cykling: EM i landevejscykling (m)",
+    "ts": 1790928329.2131908
+  },
   "cykling: frederiksberg criterium": {
     "backdrop": null,
     "poster": null,
@@ -24064,6 +24182,11 @@
     "backdrop": null,
     "title": "Cykling: Giro d'Italia - højdepunkter",
     "ts": 1789455334.2381907
+  },
+  "cykling: giro dell'emilia (m)": {
+    "backdrop": null,
+    "title": "Cykling: Giro dell'Emilia (m)",
+    "ts": 1790928327.7667074
   },
   "cykling: gran premio citta di peccioli - coppa sabatini": {
     "backdrop": null,
@@ -24254,6 +24377,11 @@
     "backdrop": null,
     "title": "Cykling: Luxembourg Rundt: 28.09.2026 09:20.",
     "ts": 1790458694.9574656
+  },
+  "cykling: münsterland giro (m)": {
+    "backdrop": null,
+    "title": "Cykling: Münsterland Giro (m)",
+    "ts": 1790928327.9446626
   },
   "cykling: polen rundt": {
     "backdrop": null,
@@ -24806,6 +24934,11 @@
     "title": "Daddy's home",
     "ts": 1786700839.9722998
   },
+  "daddy's home 2": {
+    "backdrop": null,
+    "title": "Daddy's Home 2",
+    "ts": 1790928322.7617748
+  },
   "dag 2 - vegetar-lasagne": {
     "backdrop": null,
     "title": "Dag 2 - Vegetar-lasagne",
@@ -24967,6 +25100,11 @@
     "backdrop": null,
     "title": "Dalgas & Hedeselskabet",
     "ts": 1789711001.859363
+  },
+  "dalgliesh": {
+    "backdrop": null,
+    "title": "Dalgliesh",
+    "ts": 1790928313.420943
   },
   "dalis äventyrslekar": {
     "backdrop": null,
@@ -25187,6 +25325,11 @@
     "title": "Danmark ifølge Billed-Bladet (5:5)",
     "ts": 1789633982.282121
   },
+  "danmarks dejligste badehoteller": {
+    "backdrop": null,
+    "title": "Danmarks dejligste badehoteller",
+    "ts": 1790928312.1004963
+  },
   "danmarks dejligste slotshoteller": {
     "backdrop": null,
     "poster": "https://image.tmdb.org/t/p/w500/q7Pdl2ScHaAsNQfBSUjmYlZXxFL.jpg",
@@ -25363,6 +25506,11 @@
     "backdrop": "https://image.tmdb.org/t/p/w1280/hJAppttqBbYgrkqELQ74IDHIJpt.jpg",
     "title": "Dansk teater 300 år",
     "ts": 1789891813.7144053
+  },
+  "dansk teater 300 år: absurdismen og revyerne": {
+    "backdrop": null,
+    "title": "Dansk teater 300 år: Absurdismen og revyerne",
+    "ts": 1790928308.1905468
   },
   "dansk teater 300 år: holberg og det første teater": {
     "backdrop": null,
@@ -25604,7 +25752,7 @@
   "dark waters": {
     "backdrop": null,
     "title": "Dark Waters",
-    "ts": 1789278520.6238692
+    "ts": 1790928346.4948077
   },
   "dark waters: murder in the deep": {
     "backdrop": null,
@@ -25630,6 +25778,11 @@
     "backdrop": null,
     "poster": null,
     "ts": 1786092210.078458
+  },
+  "dart: world grand prix": {
+    "backdrop": null,
+    "title": "Dart: World Grand Prix",
+    "ts": 1790928366.1143208
   },
   "dart: world grand prix: world grand prix": {
     "backdrop": null,
@@ -26452,6 +26605,11 @@
     "title": "De hjemvendte",
     "ts": 1789975894.83537
   },
+  "de hurtige og de døde": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/iKzvOvWdkVutPdJqVr4TOa5ursx.jpg",
+    "title": "De hurtige og de døde",
+    "ts": 1790928318.6428077
+  },
   "de hængende havers forsvundne verden": {
     "backdrop": null,
     "title": "De hængende havers forsvundne verden",
@@ -26787,7 +26945,7 @@
   "de tre musketerer: d'artagnan": {
     "backdrop": null,
     "title": "De tre musketerer: D'artagnan",
-    "ts": 1787754630.6122549
+    "ts": 1790928350.2309034
   },
   "de tre musketerer: den legendariske stradovarius": {
     "backdrop": null,
@@ -26890,6 +27048,11 @@
     "title": "De vilde dyrs skadestue",
     "ts": 1790240539.8707275
   },
+  "de vildeste helte": {
+    "backdrop": null,
+    "title": "De vildeste helte",
+    "ts": 1790928315.2559154
+  },
   "de visionære": {
     "backdrop": null,
     "poster": null,
@@ -26950,7 +27113,7 @@
   "dead reckoning": {
     "backdrop": null,
     "title": "Dead Reckoning",
-    "ts": 1789710656.912299
+    "ts": 1790928350.9170985
   },
   "dead silent": {
     "backdrop": null,
@@ -27136,6 +27299,11 @@
     "backdrop": null,
     "poster": null,
     "ts": 1786093000.923712
+  },
+  "deadline: hvad vil christina krzyrosiak?": {
+    "backdrop": null,
+    "title": "Deadline: Hvad vil Christina Krzyrosiak?",
+    "ts": 1790928309.7120621
   },
   "deadline: hvorfor bliver børnene dummere": {
     "backdrop": null,
@@ -27381,6 +27549,11 @@
     "title": "Debatten: Kvælstof til eftertanke?",
     "ts": 1788504722.9604697
   },
+  "debatten: mindre velfærd i fremtiden?": {
+    "backdrop": null,
+    "title": "Debatten: Mindre velfærd i fremtiden?",
+    "ts": 1790928304.8311353
+  },
   "debatten: usa for evigt?": {
     "backdrop": null,
     "title": "Debatten: USA for evigt?",
@@ -27445,6 +27618,11 @@
     "backdrop": null,
     "title": "Deep thought – Das große Gespräch mit Wolf Biermann",
     "ts": 1787202851.2569044
+  },
+  "deeper and deeper": {
+    "backdrop": null,
+    "title": "Deeper And Deeper",
+    "ts": 1790928337.6308625
   },
   "deepwater horizon": {
     "backdrop": null,
@@ -28027,10 +28205,20 @@
     "title": "Den magiske klub - Forsvindingspistolen",
     "ts": 1788682916.0037265
   },
+  "den magiske klub - hypnosespillet": {
+    "backdrop": null,
+    "title": "Den magiske klub - Hypnosespillet",
+    "ts": 1790928378.7609417
+  },
   "den magiske klub - karls handsker": {
     "backdrop": null,
     "title": "Den magiske klub - Karls handsker",
     "ts": 1789891963.1371725
+  },
+  "den magiske klub - kongen af klubben": {
+    "backdrop": null,
+    "title": "Den magiske klub - Kongen af klubben",
+    "ts": 1790928378.5690904
   },
   "den magiske klub - kærlighedssukker": {
     "backdrop": null,
@@ -28829,6 +29017,11 @@
     "backdrop": "https://image.tmdb.org/t/p/w1280/dw3s2ijGQoNqHuTbtgh6WaL7PNq.jpg",
     "title": "Den utrolige Dr. Pol",
     "ts": 1788764118.3420923
+  },
+  "den utrolige dr. pol: samling": {
+    "backdrop": null,
+    "title": "Den Utrolige Dr. Pol: samling",
+    "ts": 1790928324.7846415
   },
   "den utrolige historie om den kæmpestore pære": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/xL0OLFYvg3sAyK7KxRYPr78oLuX.jpg",
@@ -29951,6 +30144,11 @@
     "title": "Det bli'r ikke bedre",
     "ts": 1787896958.3456385
   },
+  "det bliver ikke bedre": {
+    "backdrop": null,
+    "title": "Det bliver ikke bedre",
+    "ts": 1790928322.2667027
+  },
   "det danske kongeparet i australia – en dronning vender hjem": {
     "backdrop": null,
     "title": "Det danske kongeparet i Australia – en dronning vender hjem",
@@ -30858,6 +31056,11 @@
     "title": "Devil in the Family: The Fall of Ruby Franke",
     "ts": 1787035610.8505476
   },
+  "devil's road: the true story of ed and lorraine warren": {
+    "backdrop": null,
+    "title": "Devil's Road: The True Story Of Ed And Lorraine Warren",
+    "ts": 1790928351.6830049
+  },
   "devious wives": {
     "backdrop": null,
     "title": "Devious Wives",
@@ -30936,7 +31139,7 @@
   "dexters laboratorium": {
     "backdrop": null,
     "title": "Dexters Laboratorium",
-    "ts": 1787754438.4738522
+    "ts": 1790928323.925683
   },
   "dfb pokal": {
     "backdrop": null,
@@ -33242,7 +33445,7 @@
   "dogs: the untold story": {
     "backdrop": null,
     "title": "Dogs: The Untold Story",
-    "ts": 1789797109.5976691
+    "ts": 1790928330.5050514
   },
   "doing chores and s...ng ****": {
     "backdrop": null,
@@ -33327,7 +33530,7 @@
   "dolittle": {
     "backdrop": null,
     "title": "Dolittle",
-    "ts": 1789797072.5075588
+    "ts": 1790928357.5102031
   },
   "doll house, joe's 50th, and apple drama": {
     "backdrop": null,
@@ -34180,9 +34383,8 @@
   },
   "dragens dag": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/psdmgcFoBLqTJ1Xw2miEGuhnDsE.jpg",
-    "poster": null,
     "title": "Dragens dag",
-    "ts": 1786285096.083734
+    "ts": 1790928325.9020557
   },
   "drager afsløret": {
     "backdrop": null,
@@ -34294,6 +34496,11 @@
     "title": "Dragerytterne: Jern-gronklen (22)",
     "ts": 1790832912.0516543
   },
+  "dragerytterne: kapløb mod ildorme ø": {
+    "backdrop": null,
+    "title": "Dragerytterne: Kapløb mod Ildorme ø",
+    "ts": 1790928378.3452258
+  },
   "dragerytterne: kapløb mod ildorme ø (25)": {
     "backdrop": null,
     "title": "Dragerytterne: Kapløb mod Ildorme ø (25)",
@@ -34308,6 +34515,11 @@
     "backdrop": null,
     "title": "Dragerytterne: Lev og lad flyve (21)",
     "ts": 1790752459.128051
+  },
+  "dragerytterne: natten og skyggen": {
+    "backdrop": null,
+    "title": "Dragerytterne: Natten og skyggen",
+    "ts": 1790928372.5301187
   },
   "dragerytterne: natten og skyggen (23)": {
     "backdrop": null,
@@ -34363,6 +34575,11 @@
     "backdrop": null,
     "title": "Dragerytterne: Tilfrosset (34)",
     "ts": 1788414530.1074374
+  },
+  "dragerytterne: tunnelsyn": {
+    "backdrop": null,
+    "title": "Dragerytterne: Tunnelsyn",
+    "ts": 1790928375.6190736
   },
   "dragerytterne: tunnelsyn (24)": {
     "backdrop": null,
@@ -35597,6 +35814,11 @@
     "title": "Dyrenes sang - En truet lyd",
     "ts": 1789455408.5395486
   },
+  "dyrenes underverden": {
+    "backdrop": null,
+    "title": "Dyrenes underverden",
+    "ts": 1790928302.3467083
+  },
   "dyrenes utrolige evner": {
     "backdrop": null,
     "title": "Dyrenes utrolige evner",
@@ -35693,6 +35915,11 @@
     "poster": null,
     "title": "Där ingen skulle tro att någon kunde bo: Sommarstunder",
     "ts": 1786643591.807901
+  },
+  "dæknavn: anna - jagten på en krigsforbryder": {
+    "backdrop": null,
+    "title": "Dæknavn: Anna - jagten på en krigsforbryder",
+    "ts": 1790928305.391982
   },
   "dîner à la ferme - l'esprit de famille": {
     "backdrop": null,
@@ -36150,7 +36377,7 @@
   "edge of the unknown": {
     "backdrop": null,
     "title": "Edge of the Unknown",
-    "ts": 1788238258.4451323
+    "ts": 1790928332.353975
   },
   "edge of the unknown with jimmy chin": {
     "backdrop": null,
@@ -36433,6 +36660,11 @@
     "title": "EHF Women's Champions League: Krim Mercator - Team Esbjerg",
     "ts": 1789710684.1377242
   },
+  "ehf women's champions league: metz handball - nykøbing falster": {
+    "backdrop": null,
+    "title": "EHF Women's Champions League: Metz Handball - Nykøbing Falster",
+    "ts": 1790928316.4132013
+  },
   "ehf women's champions league: nykøbing falster - blomberg - lippe": {
     "backdrop": null,
     "title": "EHF Women's Champions League: Nykøbing Falster - Blomberg - Lippe",
@@ -36452,6 +36684,16 @@
     "backdrop": null,
     "title": "EHF Women's Champions League: Odense Håndbold - HC Podravka",
     "ts": 1789191071.4291973
+  },
+  "ehf women's champions league: odense håndbold - storhamar": {
+    "backdrop": null,
+    "title": "EHF Women's Champions League: Odense Håndbold - Storhamar",
+    "ts": 1790928317.3691857
+  },
+  "ehf women's champions league: team esbjerg - buducnost": {
+    "backdrop": null,
+    "title": "EHF Women's Champions League: Team Esbjerg - Buducnost",
+    "ts": 1790928317.1614482
   },
   "ehf women's champions league: team esbjerg - sola håndballklubb": {
     "backdrop": null,
@@ -37662,6 +37904,11 @@
     "title": "Emilia-Romagna - Italiens Genussregion",
     "ts": 1789797191.209819
   },
+  "emilie er tømrer": {
+    "backdrop": null,
+    "title": "Emilie er tømrer",
+    "ts": 1790928367.7400372
+  },
   "emilie meng - en efterforskning går galt": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/nod6yuR0S9b9noDkWxJmo0IDoHw.jpg",
     "title": "Emilie Meng - en efterforskning går galt",
@@ -38441,10 +38688,20 @@
     "title": "En stor dag på godset - Børglum",
     "ts": 1790752434.1636384
   },
+  "en stor dag på godset - dragsholm": {
+    "backdrop": null,
+    "title": "En stor dag på godset - Dragsholm",
+    "ts": 1790928311.7967963
+  },
   "en stor dag på godset - frederiksdal": {
     "backdrop": null,
     "title": "En stor dag på godset - Frederiksdal",
     "ts": 1790409765.582345
+  },
+  "en stor dag på godset - gavnø": {
+    "backdrop": null,
+    "title": "En stor dag på godset - Gavnø",
+    "ts": 1790928311.6059058
   },
   "en stor dag på godset - hagenskov": {
     "backdrop": null,
@@ -38536,6 +38793,11 @@
     "backdrop": null,
     "title": "En verden af ekstremer",
     "ts": 1788081574.236053
+  },
+  "en verden til forskel - med jeppe ølgaard": {
+    "backdrop": null,
+    "title": "En Verden til Forskel - med Jeppe Ølgaard",
+    "ts": 1790928366.3057964
   },
   "en vidunderlig verden af cirkus - de største stjerner, de bedste shows": {
     "backdrop": null,
@@ -38735,7 +38997,7 @@
   "endurance: racing for excellence": {
     "backdrop": null,
     "title": "Endurance: Racing for Excellence",
-    "ts": 1789972842.224939
+    "ts": 1790928327.5757496
   },
   "endurance: vm": {
     "backdrop": null,
@@ -38846,12 +39108,17 @@
   "engineering europe": {
     "backdrop": null,
     "title": "Engineering Europe",
-    "ts": 1790063319.35488
+    "ts": 1790928333.8619635
   },
   "engineering europe: germany": {
     "backdrop": null,
     "title": "Engineering Europe: Germany",
     "ts": 1790458778.758841
+  },
+  "engle & dæmoner": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/6FJYnTgPSkGq9e52zFYB6DzMYtw.jpg",
+    "title": "Engle & Dæmoner",
+    "ts": 1790928344.8405483
   },
   "englegård - alle gode gange tre": {
     "backdrop": null,
@@ -39231,6 +39498,11 @@
     "title": "Esthers have",
     "ts": 1790663726.123467
   },
+  "esthers orkester": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/9BwQPyBjcYPPgsCJ12BqCsflTDg.jpg",
+    "title": "Esthers orkester",
+    "ts": 1790928313.1027212
+  },
   "et adelsmærke at være veteran": {
     "backdrop": null,
     "title": "Et adelsmærke at være veteran",
@@ -39481,6 +39753,11 @@
     "backdrop": null,
     "title": "Et vildt år på Jorden",
     "ts": 1788842606.0855744
+  },
+  "et år i irlands natur": {
+    "backdrop": null,
+    "title": "Et år i Irlands natur",
+    "ts": 1790928342.3453608
   },
   "et år på højskole": {
     "backdrop": null,
@@ -40016,7 +40293,7 @@
   "eventyret om despero": {
     "backdrop": null,
     "title": "Eventyret om Despero",
-    "ts": 1787808484.7846005
+    "ts": 1790928356.080735
   },
   "eventyrlig oppussing": {
     "backdrop": null,
@@ -40048,6 +40325,11 @@
     "backdrop": null,
     "title": "Eventyrtid",
     "ts": 1790500199.4170723
+  },
+  "eventyrtid: side missioner": {
+    "backdrop": null,
+    "title": "Eventyrtid: Side missioner",
+    "ts": 1790928324.0991771
   },
   "everest": {
     "backdrop": null,
@@ -40591,7 +40873,7 @@
   "extreme cheapskates brazil": {
     "backdrop": null,
     "title": "Extreme Cheapskates Brazil",
-    "ts": 1789797082.7732775
+    "ts": 1790928337.822877
   },
   "extreme engineering": {
     "backdrop": null,
@@ -42012,6 +42294,11 @@
     "title": "Far til fire - til søs",
     "ts": 1790500220.997498
   },
+  "far til fire i sneen": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/rENYvf1JkNsFTNpRDqKigCWft4E.jpg",
+    "title": "Far til fire i sneen",
+    "ts": 1790928314.9339037
+  },
   "far til fire i solen": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/7YNCrt9rngwQsuhAZ5e2tWXhpNd.jpg",
     "title": "Far til fire i solen",
@@ -42019,8 +42306,8 @@
   },
   "far til fire på landet": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/k1vCxsCDiGdigpTh9TKMDxj3P6l.jpg",
-    "poster": "https://image.tmdb.org/t/p/w500/s2JhvsgfwcJ4vFpIoKRYWB4Axwg.jpg",
-    "ts": 1786092874.593252
+    "title": "Far til fire på landet",
+    "ts": 1790928315.5703099
   },
   "far til fire på toppen": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/j5ff9yuOvpTpGzAobcuAFBT2phL.jpg",
@@ -42198,7 +42485,7 @@
   "fast & furious 7": {
     "backdrop": null,
     "title": "Fast & Furious 7",
-    "ts": 1787575418.8361433
+    "ts": 1790928355.4623268
   },
   "fast & furious 8": {
     "backdrop": null,
@@ -42812,6 +43099,11 @@
     "title": "Filmperler: Io capitano",
     "ts": 1789891968.984653
   },
+  "filmperler: love lies bleeding": {
+    "backdrop": null,
+    "title": "Filmperler: Love Lies Bleeding",
+    "ts": 1790928309.0420115
+  },
   "filmperler: saltburn": {
     "backdrop": null,
     "title": "Filmperler: Saltburn",
@@ -43251,7 +43543,7 @@
   "fix my flip": {
     "backdrop": null,
     "title": "Fix My Flip",
-    "ts": 1789797082.3647273
+    "ts": 1790928337.088939
   },
   "fix my flip: slow pace in pasadena": {
     "backdrop": null,
@@ -44372,6 +44664,11 @@
     "title": "For langt væk",
     "ts": 1786103651.6139915
   },
+  "for lækker til københavn": {
+    "backdrop": null,
+    "title": "For Lækker til København",
+    "ts": 1790928316.9699287
+  },
   "for lækker til love": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/sqbH48381LDNFFCfUUxHAz8kYKl.jpg",
     "poster": "https://image.tmdb.org/t/p/w500/e0699BT8hGGY05J5KreCFNPe0Az.jpg",
@@ -44441,7 +44738,7 @@
   "forced out": {
     "backdrop": null,
     "title": "Forced Out",
-    "ts": 1787292290.176235
+    "ts": 1790928353.806283
   },
   "forelsket i en svunden tid": {
     "backdrop": null,
@@ -44513,6 +44810,16 @@
     "backdrop": null,
     "title": "Formel 1: Aserbajdsjans Grand Prix - Kvalifikation",
     "ts": 1790312224.732857
+  },
+  "formel 1: aserbajdsjans grand prix - løbet": {
+    "backdrop": null,
+    "title": "Formel 1: Aserbajdsjans Grand Prix - Løbet",
+    "ts": 1790928366.8308275
+  },
+  "formel 1: bahrain grand prix - race": {
+    "backdrop": null,
+    "title": "Formel 1: Bahrain Grand Prix - Race",
+    "ts": 1790928367.3733892
   },
   "formel 1: belgien grand prix - race": {
     "backdrop": null,
@@ -45494,6 +45801,11 @@
     "backdrop": "https://image.tmdb.org/t/p/w1280/clYO7BNBZnEfi6GTmqHNU4U6Xx8.jpg",
     "title": "Frank & Kastaniegaarden",
     "ts": 1788684117.5106187
+  },
+  "frank & kastaniegaarden - automatvanding med fjer og fåreuld": {
+    "backdrop": null,
+    "title": "Frank & Kastaniegaarden - Automatvanding med fjer og fåreuld",
+    "ts": 1790928303.543017
   },
   "frank & kastaniegaarden - bruseniche og bremser": {
     "backdrop": null,
@@ -47238,8 +47550,8 @@
   },
   "færdselspolitiet - sverige": {
     "backdrop": null,
-    "poster": null,
-    "ts": 1786092800.9146974
+    "title": "Færdselspolitiet - Sverige",
+    "ts": 1790928323.4241288
   },
   "færgen gøres klar til afgang - havnen": {
     "backdrop": null,
@@ -47447,6 +47759,11 @@
     "title": "Før søndagen: Skyerne gråner og løvet falder",
     "ts": 1790312213.6240563
   },
+  "før søndagen: sov sødt, barnlille": {
+    "backdrop": null,
+    "title": "Før søndagen: Sov sødt, barnlille",
+    "ts": 1790928299.6548376
+  },
   "før søndagen: spænd over os dit himmelsejl": {
     "backdrop": null,
     "title": "Før søndagen: Spænd over os dit himmelsejl",
@@ -47559,14 +47876,18 @@
   },
   "gabbys dukkehus: filmen": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/aG9Wj4PpAyRuwUUigtgpb5uAN2N.jpg",
-    "poster": "https://image.tmdb.org/t/p/w500/5zCckhthXuZg9csTazp2ldh6uXC.jpg",
     "title": "Gabbys dukkehus: Filmen",
-    "ts": 1786516344.2877734
+    "ts": 1790928355.7639394
   },
   "gabbys gård": {
     "backdrop": null,
     "title": "Gabbys gård",
     "ts": 1790148843.8652108
+  },
+  "gabon: earth's last chance": {
+    "backdrop": null,
+    "title": "Gabon: Earth's Last Chance",
+    "ts": 1790928354.1413975
   },
   "gadebetjentene": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/jVcxMLSeJsSfmbLKaT8jyuLiESx.jpg",
@@ -47658,6 +47979,11 @@
     "backdrop": null,
     "title": "Gallakoncert med Jonas Kaufmann",
     "ts": 1790312193.781894
+  },
+  "galopbanens hemmeligheder": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/2jXodhTnsN7BvsdrLfumbaN9S44.jpg",
+    "title": "Galopbanens hemmeligheder",
+    "ts": 1790928301.7859943
   },
   "gals grind girthy rods": {
     "backdrop": null,
@@ -48092,6 +48418,11 @@
     "title": "gennem 50 år - V. Zelenskyj",
     "ts": 1789131600.6613772
   },
+  "gennem europa med nattoget": {
+    "backdrop": null,
+    "title": "Gennem Europa med nattoget",
+    "ts": 1790928342.5359814
+  },
   "gennem nordbys snørklede gader på fanø": {
     "backdrop": null,
     "title": "Gennem Nordbys snørklede gader på Fanø",
@@ -48268,6 +48599,11 @@
     "backdrop": null,
     "title": "Gerningsstedet: Døden på gaden",
     "ts": 1787984784.0414062
+  },
+  "gerningsstedet: en uventet mistanke": {
+    "backdrop": null,
+    "title": "Gerningsstedet: En uventet mistanke",
+    "ts": 1790928314.6318262
   },
   "gerningsstedet: fortiden er ikke død": {
     "backdrop": null,
@@ -49238,6 +49574,11 @@
     "title": "Gokart: Swedish Rental Kart Championship",
     "ts": 1790320677.3185916
   },
+  "gold": {
+    "backdrop": null,
+    "title": "Gold",
+    "ts": 1790928310.7933464
+  },
   "gold als wertanlage: eine lange geschichte": {
     "backdrop": null,
     "title": "Gold als Wertanlage: Eine lange Geschichte",
@@ -50123,7 +50464,7 @@
   "greenland": {
     "backdrop": null,
     "title": "Greenland",
-    "ts": 1789102786.2005033
+    "ts": 1790928345.5088928
   },
   "gregory porter at jazzaldia 2022": {
     "backdrop": null,
@@ -50216,6 +50557,11 @@
     "backdrop": null,
     "title": "Greys hvide verden",
     "ts": 1790063386.8727446
+  },
+  "gridiron gang": {
+    "backdrop": null,
+    "title": "Gridiron Gang",
+    "ts": 1790928319.4729953
   },
   "griechenland / nantes / usa": {
     "backdrop": null,
@@ -50375,7 +50721,7 @@
   "grusomme mig": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/7goWusJARYIWhA6axtK8RNCxvge.jpg",
     "title": "Grusomme mig",
-    "ts": 1787639822.0100458
+    "ts": 1790928364.6128118
   },
   "grusomme mig 2": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/g37jgQklA4hxKZFU8eviZNbqhn4.jpg",
@@ -50662,6 +51008,11 @@
     "backdrop": null,
     "title": "Gudstjenesten: Helle Hein - De mennesker vi møder",
     "ts": 1789191141.7353005
+  },
+  "gudstjenesten: håbet og havemanden": {
+    "backdrop": null,
+    "title": "Gudstjenesten: Håbet og havemanden",
+    "ts": 1790928301.142089
   },
   "gudstjenesten: lars østergaard - nærvær som medicin": {
     "backdrop": null,
@@ -50969,6 +51320,11 @@
     "backdrop": null,
     "title": "Guldkorn - Danmark i 1962",
     "ts": 1790500274.8201785
+  },
+  "guldkorn 1970'erne:": {
+    "backdrop": null,
+    "title": "Guldkorn 1970'erne:",
+    "ts": 1790928308.6746566
   },
   "guldkorn 1980'erne:": {
     "backdrop": null,
@@ -52105,6 +52461,11 @@
     "title": "Guns Up",
     "ts": 1789797099.4843893
   },
+  "gurin med rævehalen": {
+    "backdrop": null,
+    "title": "Gurin med rævehalen",
+    "ts": 1790928365.4267085
+  },
   "gurli gris": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/oZjO5v0Pgghg61QoraP2cLk2KN4.jpg",
     "title": "Gurli Gris",
@@ -53127,6 +53488,11 @@
     "title": "Hammerslag 2022 - Populære parcelhuse",
     "ts": 1790663750.4902892
   },
+  "hammerslag 2022 - rækkehuse fra 60'erne": {
+    "backdrop": null,
+    "title": "Hammerslag 2022 - Rækkehuse fra 60'erne",
+    "ts": 1790928302.9939597
+  },
   "hamster & gretel": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/2zuHO9ZSrpZnfx2dCFYm17AyzSo.jpg",
     "title": "Hamster & Gretel",
@@ -53456,6 +53822,11 @@
     "backdrop": null,
     "title": "Happy's Place: The Name Game",
     "ts": 1790459003.565178
+  },
+  "happyish": {
+    "backdrop": null,
+    "title": "Happyish",
+    "ts": 1790928359.2909825
   },
   "harald: helt menneske – helt konge": {
     "backdrop": null,
@@ -54005,6 +54376,11 @@
     "backdrop": null,
     "title": "Heartland Docs, DVM",
     "ts": 1790752407.337792
+  },
+  "heartland docs, dvm: goat surprise! compilation season": {
+    "backdrop": null,
+    "title": "Heartland Docs, DVM: Goat Surprise! Compilation Season",
+    "ts": 1790928327.2090163
   },
   "hearts in the game": {
     "backdrop": null,
@@ -54853,7 +55229,7 @@
   "here": {
     "backdrop": null,
     "title": "Here",
-    "ts": 1790063337.4827938
+    "ts": 1790928348.332919
   },
   "herlige haver": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/fen4RY0QAnvDd1kIApElJOgH7zg.jpg",
@@ -55080,6 +55456,11 @@
     "backdrop": null,
     "title": "Herreligaen: Bjerringbro-Silkeborg - Aalborg",
     "ts": 1790885047.375912
+  },
+  "herreligaen: gog-aalborg": {
+    "backdrop": null,
+    "title": "Herreligaen: GOG-Aalborg",
+    "ts": 1790928309.7914703
   },
   "herreligaen: gog-fredericia": {
     "backdrop": null,
@@ -55801,6 +56182,11 @@
     "backdrop": null,
     "title": "History Stories: History.",
     "ts": 1790663556.8928425
+  },
+  "history's greatest machines": {
+    "backdrop": null,
+    "title": "History's Greatest Machines",
+    "ts": 1790928339.89514
   },
   "history's greatest mysteries with laurence fishburne": {
     "backdrop": null,
@@ -56573,6 +56959,11 @@
     "title": "Holger Sandte",
     "ts": 1787127310.854686
   },
+  "holgers største kamp - we are so back, baby!": {
+    "backdrop": null,
+    "title": "Holgers største kamp - We are so back, baby!",
+    "ts": 1790928303.760885
+  },
   "holiday f...": {
     "backdrop": null,
     "title": "Holiday F...",
@@ -56701,7 +57092,7 @@
   "hood": {
     "backdrop": null,
     "title": "Hood",
-    "ts": 1787727420.3788362
+    "ts": 1790928346.1818042
   },
   "hook": {
     "backdrop": null,
@@ -57899,9 +58290,8 @@
   },
   "hunden ib - finder en perle": {
     "backdrop": null,
-    "poster": null,
     "title": "Hunden Ib - finder en perle",
-    "ts": 1786700863.2372599
+    "ts": 1790928374.237865
   },
   "hunden ib - fodrer myrene": {
     "backdrop": null,
@@ -57915,15 +58305,13 @@
   },
   "hunden ib - gynger højt": {
     "backdrop": null,
-    "poster": null,
     "title": "Hunden Ib - gynger højt",
-    "ts": 1786643644.2156756
+    "ts": 1790928369.872331
   },
   "hunden ib - går langt": {
     "backdrop": null,
-    "poster": null,
     "title": "Hunden Ib - går langt",
-    "ts": 1786850265.2330053
+    "ts": 1790928377.0670178
   },
   "hunden ib - går lidt væk": {
     "backdrop": null,
@@ -58002,9 +58390,8 @@
   },
   "hunden ib - tæmmer en lang høj bold": {
     "backdrop": null,
-    "poster": null,
     "title": "Hunden Ib - tæmmer en lang høj bold",
-    "ts": 1786946789.4131515
+    "ts": 1790928379.112431
   },
   "hunden ib - tænker sig om en ekstra gang": {
     "backdrop": null,
@@ -58190,6 +58577,11 @@
     "backdrop": null,
     "title": "Husdrømmerne bygger",
     "ts": 1788504641.1304517
+  },
+  "husdyrenes hemmelige liv": {
+    "backdrop": null,
+    "title": "Husdyrenes hemmelige liv",
+    "ts": 1790928340.4067035
   },
   "huse med hemmeligheder": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/7Qa957aL0cbmPVbXtUOc4YRb7AC.jpg",
@@ -62504,6 +62896,11 @@
     "title": "Istanbul, Türkei",
     "ts": 1787897172.2260242
   },
+  "istiden: en verden i frost": {
+    "backdrop": null,
+    "title": "Istiden: En verden i frost",
+    "ts": 1790928341.4247117
+  },
   "istrien": {
     "backdrop": null,
     "title": "Istrien",
@@ -62707,7 +63104,7 @@
   "jack the giant slayer": {
     "backdrop": null,
     "title": "Jack the Giant Slayer",
-    "ts": 1787808498.5838912
+    "ts": 1790928362.1655798
   },
   "jack the ripper": {
     "backdrop": null,
@@ -62985,6 +63382,11 @@
     "backdrop": null,
     "title": "Jagt på Mallorca",
     "ts": 1789478234.3358924
+  },
+  "jagten": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/7otni2mM6NgUlxNyXVMkZ6qA72D.jpg",
+    "title": "Jagten",
+    "ts": 1790928347.1443458
   },
   "jagten på danmarkshistorien": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/mcGsTsafwAVd0fbFw6jWkcJk4mi.jpg",
@@ -63487,7 +63889,7 @@
   "jamestown": {
     "backdrop": null,
     "title": "Jamestown",
-    "ts": 1789797100.4827876
+    "ts": 1790928347.6682467
   },
   "jamie cooks the mediterranean": {
     "backdrop": null,
@@ -63543,7 +63945,7 @@
   "jane got a gun": {
     "backdrop": null,
     "title": "Jane Got a Gun",
-    "ts": 1789633810.0480108
+    "ts": 1790928318.9625313
   },
   "jane the virgin": {
     "backdrop": null,
@@ -64109,6 +64511,11 @@
     "title": "Jexi",
     "ts": 1790885062.17487
   },
+  "jfk - præsidentens sidste døgn": {
+    "backdrop": null,
+    "title": "JFK - præsidentens sidste døgn",
+    "ts": 1790928314.2191234
+  },
   "jfk de sidste timer": {
     "backdrop": null,
     "title": "JFK De sidste timer",
@@ -64285,6 +64692,11 @@
     "poster": null,
     "title": "Jocke og Jonna - Bryllupsdagen live",
     "ts": 1786285116.9100366
+  },
+  "jodi arias: from lust to murder": {
+    "backdrop": null,
+    "title": "Jodi Arias: From Lust To Murder",
+    "ts": 1790928352.529057
   },
   "joey kelly und familie - roadtrip panamericana": {
     "backdrop": null,
@@ -64977,9 +65389,8 @@
   },
   "josef: drømmenes konge": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/frcsyDTLNZudQxcbbPEGacz5P64.jpg",
-    "poster": "https://image.tmdb.org/t/p/w500/brWmwJ9BtxQLBP2AVGTH3Ds8arI.jpg",
     "title": "Josef: Drømmenes konge",
-    "ts": 1786174053.324227
+    "ts": 1790928357.0027366
   },
   "joseph prince: new creation church": {
     "backdrop": null,
@@ -65077,6 +65488,16 @@
     "backdrop": null,
     "title": "Juicy Buns On Squirting MILF",
     "ts": 1787984732.8781712
+  },
+  "jul med ernst": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/rCWaZOjZYnZwS6oRLinU9jm9VqK.jpg",
+    "title": "Jul med Ernst",
+    "ts": 1790928339.0818167
+  },
+  "jul på herregården - longleat": {
+    "backdrop": null,
+    "title": "Jul på herregården - Longleat",
+    "ts": 1790928339.2573814
   },
   "julia": {
     "backdrop": null,
@@ -66387,7 +66808,7 @@
   "kanonkongen freja": {
     "backdrop": null,
     "title": "Kanonkongen Freja",
-    "ts": 1789710649.4442534
+    "ts": 1790928373.7583055
   },
   "kanonkongen freja (1:8)": {
     "backdrop": null,
@@ -66678,7 +67099,7 @@
   "karlas fantalastiske klasse - en rigtig lortedag": {
     "backdrop": null,
     "title": "Karlas Fantalastiske Klasse - En rigtig lortedag",
-    "ts": 1788331304.868875
+    "ts": 1790928371.9907959
   },
   "karlas fantalastiske klasse - er du kylling": {
     "backdrop": null,
@@ -66728,7 +67149,7 @@
   "karlas fantalastiske klasse - hvordan får man børn?": {
     "backdrop": null,
     "title": "Karlas Fantalastiske Klasse - Hvordan får man børn?",
-    "ts": 1788414529.1677365
+    "ts": 1790928377.977139
   },
   "karlas fantalastiske klasse - ib får en usynlig ven": {
     "backdrop": null,
@@ -66849,7 +67270,7 @@
   "karlas fantalastiske klasse - soveaftalen": {
     "backdrop": null,
     "title": "Karlas Fantalastiske Klasse - Soveaftalen",
-    "ts": 1788331305.055307
+    "ts": 1790928372.165819
   },
   "karlas fantalastiske klasse - spøgelset": {
     "backdrop": null,
@@ -66859,7 +67280,7 @@
   "karlas fantalastiske klasse - ufoerne kommer": {
     "backdrop": null,
     "title": "Karlas Fantalastiske Klasse - Ufoerne kommer",
-    "ts": 1788414528.981193
+    "ts": 1790928377.8015757
   },
   "karlas fantalastiske klasse - vi bytter hjerner": {
     "backdrop": null,
@@ -67636,6 +68057,11 @@
     "title": "Kender Du Typen? 2019 - Med smør og søudsigt",
     "ts": 1790573753.2678444
   },
+  "kender du typen? 2019 - med stripperstang og biksemad": {
+    "backdrop": null,
+    "title": "Kender Du Typen? 2019 - med stripperstang og biksemad",
+    "ts": 1790928303.178533
+  },
   "kender du typen? 2019 - med tivoli og terrasse": {
     "backdrop": null,
     "title": "Kender Du Typen? 2019 - med Tivoli og terrasse",
@@ -67975,7 +68401,7 @@
   "kilden til kærlighed": {
     "backdrop": null,
     "title": "Kilden til kærlighed",
-    "ts": 1789975895.3442523
+    "ts": 1790928338.460514
   },
   "kilder til begeistring": {
     "backdrop": null,
@@ -68050,7 +68476,7 @@
   "killing faith": {
     "backdrop": null,
     "title": "Killing Faith",
-    "ts": 1789710692.814376
+    "ts": 1790928349.6090043
   },
   "kim novak badede aldrig i genesarets sø": {
     "backdrop": null,
@@ -68257,6 +68683,11 @@
     "backdrop": null,
     "title": "Kiss Me, Stupid",
     "ts": 1789369373.9601262
+  },
+  "kiss of the spider woman": {
+    "backdrop": null,
+    "title": "Kiss Of The Spider Woman",
+    "ts": 1790928348.650547
   },
   "kissinger sommer 2025 tschechische philharmonie - je ne regrette rien": {
     "backdrop": null,
@@ -68824,6 +69255,11 @@
     "backdrop": null,
     "title": "Klipfiskerne",
     "ts": 1790500221.9892004
+  },
+  "klitschko: more than a fight": {
+    "backdrop": null,
+    "title": "Klitschko: More Than a Fight",
+    "ts": 1790928360.2331598
   },
   "kloge dyr": {
     "backdrop": null,
@@ -69824,6 +70260,11 @@
     "title": "Kongernes dal: Afsløringen af den hemmelige grav",
     "ts": 1786643597.6120377
   },
+  "kongeværket - en historisk kopi": {
+    "backdrop": null,
+    "title": "Kongeværket - en historisk kopi",
+    "ts": 1790928368.5056493
+  },
   "kongoveteranene": {
     "backdrop": null,
     "title": "Kongoveteranene",
@@ -70709,20 +71150,45 @@
     "title": "Kriminalkommissær Barnaby XI: Et blodbryllup (1)",
     "ts": 1790500272.7589824
   },
+  "kriminalkommissær barnaby xi: midsomer life": {
+    "backdrop": null,
+    "title": "Kriminalkommissær Barnaby XI: Midsomer Life",
+    "ts": 1790928302.5823083
+  },
   "kriminalkommissær barnaby xi: midsomer life (4)": {
     "backdrop": null,
     "title": "Kriminalkommissær Barnaby XI: Midsomer Life (4)",
     "ts": 1790752461.6523023
+  },
+  "kriminalkommissær barnaby xi: skudt ved daggry": {
+    "backdrop": null,
+    "title": "Kriminalkommissær Barnaby XI: Skudt ved daggry",
+    "ts": 1790928298.9816756
   },
   "kriminalkommissær barnaby xi: skudt ved daggry (2)": {
     "backdrop": null,
     "title": "Kriminalkommissær Barnaby XI: Skudt ved daggry (2)",
     "ts": 1790500283.5404174
   },
+  "kriminalkommissær barnaby xi: spøgelser": {
+    "backdrop": null,
+    "title": "Kriminalkommissær Barnaby XI: Spøgelser",
+    "ts": 1790928300.7465727
+  },
   "kriminalkommissær barnaby xi: spøgelser (3)": {
     "backdrop": null,
     "title": "Kriminalkommissær Barnaby XI: Spøgelser (3)",
     "ts": 1790663750.8552575
+  },
+  "kriminalkommissær barnaby xi: teambuilding": {
+    "backdrop": null,
+    "title": "Kriminalkommissær Barnaby XI: Teambuilding",
+    "ts": 1790928303.3621693
+  },
+  "kriminalkommissær barnaby xi: troldmandens nevø": {
+    "backdrop": null,
+    "title": "Kriminalkommissær Barnaby XI: Troldmandens nevø",
+    "ts": 1790928298.8007276
   },
   "kriminalkommissær barnaby xi: troldmandens nevø (5)": {
     "backdrop": null,
@@ -71442,7 +71908,7 @@
   "kung fu panda": {
     "backdrop": null,
     "title": "Kung Fu Panda",
-    "ts": 1790063328.399227
+    "ts": 1790928364.931655
   },
   "kung fu panda 2": {
     "backdrop": null,
@@ -71714,7 +72180,7 @@
   "kunstnerkolonien på sydfyn": {
     "backdrop": null,
     "title": "Kunstnerkolonien på Sydfyn",
-    "ts": 1789972840.5901814
+    "ts": 1790928306.0659645
   },
   "kunstnerkolonien på sydfyn (1:8)": {
     "backdrop": null,
@@ -73400,7 +73866,7 @@
   "le mans '66": {
     "backdrop": null,
     "title": "Le Mans '66",
-    "ts": 1789710688.0163105
+    "ts": 1790928362.6593618
   },
   "le mans classic": {
     "backdrop": null,
@@ -73649,7 +74115,7 @@
   "legenden om tarzan": {
     "backdrop": null,
     "title": "Legenden om Tarzan",
-    "ts": 1789972850.1649754
+    "ts": 1790928371.0055757
   },
   "legenden om tarzan: den indre fjende": {
     "backdrop": null,
@@ -73726,6 +74192,11 @@
     "backdrop": null,
     "title": "LEGO City: No Limits MAX",
     "ts": 1787755168.0473611
+  },
+  "lego dreamzzz: sådan træner du din drage som the fast and the furious": {
+    "backdrop": null,
+    "title": "LEGO DREAMZzz: Sådan træner du din drage som the fast and the furious",
+    "ts": 1790928323.6065774
   },
   "lego filmen - et klodset eventyr": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/eN3TxaTHJyBgl3FgacARuVI3pQF.jpg",
@@ -75501,6 +75972,11 @@
     "title": "Livets rejse",
     "ts": 1787897166.7913911
   },
+  "livets rod": {
+    "backdrop": null,
+    "title": "Livets rod",
+    "ts": 1790928341.0788503
+  },
   "livi'n tiny": {
     "backdrop": null,
     "title": "LIVI'N TINY",
@@ -76449,6 +76925,11 @@
     "title": "Lost Sheep",
     "ts": 1786700785.7714262
   },
+  "lost ships of ww2": {
+    "backdrop": null,
+    "title": "Lost Ships of WW2",
+    "ts": 1790928331.1109524
+  },
   "lost treasures of ancient greece": {
     "backdrop": null,
     "title": "Lost Treasures of Ancient Greece",
@@ -76802,7 +77283,7 @@
   "lucky": {
     "backdrop": null,
     "title": "Lucky",
-    "ts": 1789634004.3142126
+    "ts": 1790928358.017898
   },
   "lucky anne & brad newman": {
     "backdrop": null,
@@ -76846,6 +77327,11 @@
     "poster": null,
     "ts": 1786092982.8601694
   },
+  "lucky luke - daltonbrødrene på krigsstien": {
+    "backdrop": null,
+    "title": "Lucky Luke - Daltonbrødrene på krigsstien",
+    "ts": 1790928372.339814
+  },
   "lucky luke - daltonbrødrene taber underkæben (49)": {
     "backdrop": null,
     "poster": null,
@@ -76861,6 +77347,11 @@
     "title": "Lucky Luke - Daltonbrødrenes skat (3)",
     "ts": 1789972864.375479
   },
+  "lucky luke - daltonbrødrenes stedfar": {
+    "backdrop": null,
+    "title": "Lucky Luke - Daltonbrødrenes stedfar",
+    "ts": 1790928375.429492
+  },
   "lucky luke - de sidste bisonokser (2)": {
     "backdrop": null,
     "title": "Lucky Luke - De sidste bisonokser (2)",
@@ -76870,6 +77361,16 @@
     "backdrop": null,
     "title": "Lucky Luke - Den flyvende cowboy (10)",
     "ts": 1790573749.4789147
+  },
+  "lucky luke - den mægtige daltoni": {
+    "backdrop": null,
+    "title": "Lucky Luke - Den mægtige Daltoni",
+    "ts": 1790928378.1690745
+  },
+  "lucky luke - en nævefuld daltonbrødre": {
+    "backdrop": null,
+    "title": "Lucky Luke - En nævefuld Daltonbrødre",
+    "ts": 1790928369.4744196
   },
   "lucky luke - en nævefuld daltonbrødre (13)": {
     "backdrop": null,
@@ -76957,6 +77458,11 @@
     "backdrop": null,
     "title": "Lucía Martiño's Undreamed Waters",
     "ts": 1789972796.663439
+  },
+  "ludere, lommetyve og lirekassemænd": {
+    "backdrop": null,
+    "title": "Ludere, lommetyve og lirekassemænd",
+    "ts": 1790928308.483035
   },
   "ludwig": {
     "backdrop": null,
@@ -77061,10 +77567,20 @@
     "title": "Luk op Luk i - FØDSELSDAG",
     "ts": 1790663745.9681692
   },
+  "luk op luk i - genert": {
+    "backdrop": null,
+    "title": "Luk op Luk i - GENERT",
+    "ts": 1790928374.4136472
+  },
   "luk op luk i - glad": {
     "backdrop": null,
     "title": "Luk op Luk i - GLAD",
     "ts": 1790500267.117822
+  },
+  "luk op luk i - krudt i røven": {
+    "backdrop": null,
+    "title": "Luk op Luk i - KRUDT I RØVEN",
+    "ts": 1790928377.2431216
   },
   "luk op luk i - løgn": {
     "backdrop": null,
@@ -77082,6 +77598,11 @@
     "title": "Luk op Luk i - REGLER",
     "ts": 1786174230.6254148
   },
+  "luk op luk i - sig pyt": {
+    "backdrop": null,
+    "title": "Luk op Luk i - SIG PYT",
+    "ts": 1790928370.048164
+  },
   "luk op luk i - sove ude": {
     "backdrop": null,
     "title": "Luk op Luk i - SOVE UDE",
@@ -77091,6 +77612,11 @@
     "backdrop": null,
     "title": "Luk op Luk i - STOLT",
     "ts": 1789972861.7216501
+  },
+  "luk op luk i - søskende": {
+    "backdrop": null,
+    "title": "Luk op Luk i - SØSKENDE",
+    "ts": 1790928379.304543
   },
   "luk op luk i - trist": {
     "backdrop": null,
@@ -77266,6 +77792,11 @@
     "backdrop": "https://image.tmdb.org/t/p/w1280/41t7F15a4zeRu51uKEGplZ9lizZ.jpg",
     "title": "Lykkehjulet",
     "ts": 1788764057.623491
+  },
+  "lykkehjulet - special": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/41t7F15a4zeRu51uKEGplZ9lizZ.jpg",
+    "title": "Lykkehjulet - special",
+    "ts": 1790928315.8889773
   },
   "lykkeligere kan ingen være": {
     "backdrop": null,
@@ -77771,6 +78302,11 @@
     "poster": null,
     "ts": 1786092536.3797226
   },
+  "løvernes broderskab": {
+    "backdrop": null,
+    "title": "Løvernes broderskab",
+    "ts": 1790928341.742385
+  },
   "løvernes garde": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/xehSuFUqinSKrwGXLybXbDCnEEQ.jpg",
     "title": "Løvernes garde",
@@ -77968,6 +78504,11 @@
     "backdrop": null,
     "title": "Madde og Trygg",
     "ts": 1790605524.3028667
+  },
+  "made in a day": {
+    "backdrop": null,
+    "title": "Made In A Day",
+    "ts": 1790928334.1640708
   },
   "made in dagenham": {
     "backdrop": null,
@@ -78218,6 +78759,11 @@
     "title": "Magt",
     "ts": 1789369449.4013643
   },
+  "magtfulde reptiler": {
+    "backdrop": null,
+    "title": "Magtfulde reptiler",
+    "ts": 1790928324.609557
+  },
   "magtskælvet - cdu kæmper for at overleve": {
     "backdrop": null,
     "title": "Magtskælvet - CDU kæmper for at overleve",
@@ -78453,7 +78999,7 @@
   "malin er solomor": {
     "backdrop": null,
     "title": "Malin er solomor",
-    "ts": 1789891935.986802
+    "ts": 1790928368.1384056
   },
   "mallorca - tod im paradies": {
     "backdrop": null,
@@ -80108,7 +80654,7 @@
   "meet the orangutans": {
     "backdrop": null,
     "title": "Meet The Orangutans",
-    "ts": 1789710702.263945
+    "ts": 1790928329.883206
   },
   "meet the penguins": {
     "backdrop": null,
@@ -81259,6 +81805,11 @@
     "title": "Michigan / Département Mayenne / Madagaskar",
     "ts": 1790832883.0851257
   },
+  "michigan hell house": {
+    "backdrop": null,
+    "title": "Michigan Hell House",
+    "ts": 1790928351.9863036
+  },
   "mick øgendahl - bad boy": {
     "backdrop": null,
     "title": "Mick Øgendahl - Bad Boy",
@@ -81431,6 +81982,11 @@
     "backdrop": null,
     "title": "Mig og 60'erne: Hjemmet",
     "ts": 1789191144.30651
+  },
+  "mig og 60'erne: mode": {
+    "backdrop": null,
+    "title": "Mig og 60'erne: Mode",
+    "ts": 1790928306.7676837
   },
   "mig og 60'erne: musik": {
     "backdrop": null,
@@ -82096,7 +82652,7 @@
   "minions": {
     "backdrop": null,
     "title": "Minions",
-    "ts": 1787897017.2794652
+    "ts": 1790928363.9768875
   },
   "minions: historien om gru": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/8qewUy4OfwNGGuyEqHzdGNHM2Ov.jpg",
@@ -83229,6 +83785,11 @@
     "title": "Mord ved søen: Den døde havfrue",
     "ts": 1790312160.5325706
   },
+  "mord ved søen: den glemte forbandelse": {
+    "backdrop": null,
+    "title": "Mord ved søen: Den glemte forbandelse",
+    "ts": 1790928314.4413128
+  },
   "mord ved søen: den keltiske forbindelse": {
     "backdrop": null,
     "title": "Mord ved søen: Den keltiske forbindelse",
@@ -83248,6 +83809,11 @@
     "backdrop": null,
     "title": "Mord ved søen: En farlig skat",
     "ts": 1790409761.6292617
+  },
+  "mord ved søen: et overraskende mordforsøg": {
+    "backdrop": null,
+    "title": "Mord ved søen: Et overraskende mordforsøg",
+    "ts": 1790928313.852375
   },
   "mord ved søen: fortidens synder vender tilbage": {
     "backdrop": null,
@@ -83804,6 +84370,21 @@
     "title": "Motocross:",
     "ts": 1789797054.9684432
   },
+  "motocross: motocross of nations r1": {
+    "backdrop": null,
+    "title": "Motocross: Motocross of Nations R1",
+    "ts": 1790928343.0756443
+  },
+  "motocross: motocross of nations r2": {
+    "backdrop": null,
+    "title": "Motocross: Motocross of Nations R2",
+    "ts": 1790928343.266325
+  },
+  "motocross: motocross of nations r3": {
+    "backdrop": null,
+    "title": "Motocross: Motocross of Nations R3",
+    "ts": 1790928343.4410617
+  },
   "motocross: vm": {
     "backdrop": null,
     "title": "Motocross: VM",
@@ -84060,6 +84641,11 @@
     "backdrop": null,
     "title": "Motor Mille og uniformerne - Skorstensfejer (5)",
     "ts": 1790312212.0412328
+  },
+  "motor mille og uniformerne - soldat": {
+    "backdrop": null,
+    "title": "Motor Mille og uniformerne - Soldat",
+    "ts": 1790928373.4069183
   },
   "motor mille og uniformerne - soldat (6)": {
     "backdrop": null,
@@ -84373,6 +84959,16 @@
     "backdrop": null,
     "title": "Mountain Bike: World Cup ...",
     "ts": 1789369434.6867185
+  },
+  "mountain bike: world cup lake placid (k)": {
+    "backdrop": null,
+    "title": "Mountain Bike: World Cup Lake Placid (k)",
+    "ts": 1790928329.5642896
+  },
+  "mountain bike: world cup lake placid (m)": {
+    "backdrop": null,
+    "title": "Mountain Bike: World Cup Lake Placid (m)",
+    "ts": 1790928328.1159568
   },
   "mountain men": {
     "backdrop": null,
@@ -85320,7 +85916,7 @@
   "my mother's wedding": {
     "backdrop": null,
     "title": "My Mother's Wedding",
-    "ts": 1789191063.0613866
+    "ts": 1790928359.5947537
   },
   "my murder story": {
     "backdrop": null,
@@ -85502,7 +86098,7 @@
   "mysteries unearthed with danny trejo": {
     "backdrop": null,
     "title": "Mysteries Unearthed With Danny Trejo",
-    "ts": 1790063384.2382321
+    "ts": 1790928339.5918093
   },
   "mysteries unearthed with danny trejo: hidden giants": {
     "backdrop": null,
@@ -85544,6 +86140,11 @@
     "backdrop": null,
     "title": "Mysteriet om Bayeux-tapetet",
     "ts": 1790884980.9396951
+  },
+  "mysteriet om de forsvundne huller": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/xhAZws8x6VP5TS4tecARUeE2xCv.jpg",
+    "title": "Mysteriet om de forsvundne huller",
+    "ts": 1790928374.0618727
   },
   "mysteriet om den danske nazi-donor": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/qmrHaEBw92joaP2gxP5DGweFN6Y.jpg",
@@ -85628,7 +86229,7 @@
   "mystery lane": {
     "backdrop": null,
     "title": "Mystery Lane",
-    "ts": 1789972849.8584077
+    "ts": 1790928373.0552468
   },
   "mystery lane: den hjemsøgte voliere": {
     "backdrop": null,
@@ -86028,6 +86629,11 @@
     "title": "Nak & Æd (2:4) - en muflon i Spanien",
     "ts": 1790832915.2610803
   },
+  "nak & æd - agerhøne og trøffelhund": {
+    "backdrop": null,
+    "title": "Nak & Æd - Agerhøne og trøffelhund",
+    "ts": 1790928299.8345442
+  },
   "nak & æd - en aborre i skanderborg sø (8:10)": {
     "backdrop": null,
     "title": "Nak & Æd - en aborre i Skanderborg Sø (8:10)",
@@ -86195,6 +86801,11 @@
     "backdrop": null,
     "title": "Nak & Æd - et rensdyr i Grønland (9:10)",
     "ts": 1787727446.7068057
+  },
+  "nak & æd - sika og kongen": {
+    "backdrop": null,
+    "title": "Nak & Æd - Sika og kongen",
+    "ts": 1790928302.1631534
   },
   "nak and æd": {
     "backdrop": null,
@@ -86816,7 +87427,7 @@
   "nature's strangest mysteries: solved": {
     "backdrop": null,
     "title": "Nature's Strangest Mysteries: Solved",
-    "ts": 1788238225.4526236
+    "ts": 1790928330.808661
   },
   "nature: tusker: elefanternas brödraskap": {
     "backdrop": null,
@@ -87466,9 +88077,9 @@
     "ts": 1789891906.2783966
   },
   "nelly rapp: monsteragent": {
-    "backdrop": null,
+    "backdrop": "https://image.tmdb.org/t/p/w1280/8tD14fDP6QMufWuUVamX8di1WMT.jpg",
     "title": "Nelly Rapp: Monsteragent",
-    "ts": 1789891846.0552454
+    "ts": 1790928365.730674
   },
   "nelly rapp: monsteragenten": {
     "backdrop": null,
@@ -88244,6 +88855,11 @@
     "backdrop": null,
     "title": "Nickey Huntsman & Nick Strokes MILF Tutor",
     "ts": 1788414475.9179828
+  },
+  "nicobar islands: a monkey's long tale": {
+    "backdrop": null,
+    "title": "Nicobar Islands: A Monkey's Long Tale",
+    "ts": 1790928327.0332353
   },
   "nicole kidman - australier i hollywood": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/s0z2YET6xMToMcaQJV6shGhZdFB.jpg",
@@ -89161,7 +89777,7 @@
   "nul stjerner - finder forladte steder": {
     "backdrop": null,
     "title": "Nul stjerner - Finder forladte steder",
-    "ts": 1787755151.5741925
+    "ts": 1790928308.8503926
   },
   "nul stjerner - forlænget weekend i albanien": {
     "backdrop": null,
@@ -89222,6 +89838,11 @@
     "backdrop": null,
     "title": "Nul stjerner - Storbyferie i Kairo",
     "ts": 1790573752.4482994
+  },
+  "nul stjerner - storbyferie i tokyo": {
+    "backdrop": null,
+    "title": "Nul stjerner - Storbyferie i Tokyo",
+    "ts": 1790928302.7649515
   },
   "nul stjerner - vinferie i moldova": {
     "backdrop": null,
@@ -90484,6 +91105,11 @@
     "title": "Obsession: Dark Desires: Married To The Devil",
     "ts": 1790458708.613014
   },
+  "ocean with david attenborough": {
+    "backdrop": null,
+    "title": "Ocean with David Attenborough",
+    "ts": 1790928332.0506666
+  },
   "ocean's 8": {
     "backdrop": null,
     "title": "Ocean's 8",
@@ -90492,7 +91118,7 @@
   "ocean's eleven": {
     "backdrop": null,
     "title": "Ocean's Eleven",
-    "ts": 1787808702.6459637
+    "ts": 1790928320.7834058
   },
   "ocean's thirteen": {
     "backdrop": null,
@@ -90502,7 +91128,7 @@
   "ocean's twelve": {
     "backdrop": null,
     "title": "Ocean's Twelve",
-    "ts": 1787292346.130772
+    "ts": 1790928321.4368868
   },
   "ocean's weirdest": {
     "backdrop": null,
@@ -93031,9 +93657,9 @@
     "ts": 1790499906.4996455
   },
   "paddington 2": {
-    "backdrop": null,
+    "backdrop": "https://image.tmdb.org/t/p/w1280/djSB18hqyncJ2oMH2N5pg44nKI1.jpg",
     "title": "Paddington 2",
-    "ts": 1789891845.5321193
+    "ts": 1790928365.2348683
   },
   "paddington i peru": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/sUh1mLbZNNR80wwaWwCAGaQwO12.jpg",
@@ -93167,7 +93793,7 @@
   "pan": {
     "backdrop": null,
     "title": "Pan",
-    "ts": 1787896966.04302
+    "ts": 1790928320.4796498
   },
   "panamericana: die highlights": {
     "backdrop": null,
@@ -95244,6 +95870,11 @@
     "poster": null,
     "ts": 1786092243.2140603
   },
+  "pernille satte sine børn først": {
+    "backdrop": null,
+    "title": "Pernille satte sine børn først",
+    "ts": 1790928367.9471705
+  },
   "persona": {
     "backdrop": null,
     "title": "Persona",
@@ -95484,6 +96115,11 @@
     "backdrop": "https://image.tmdb.org/t/p/w1280/nsJQIDeqdnuqO2bzwcodey4BHfB.jpg",
     "title": "Peter Pedal",
     "ts": 1788684114.9549181
+  },
+  "peter pedal - på eventyr i junglen": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/ztyEuEcE3BDCArLWM1ICfsWTxwJ.jpg",
+    "title": "Peter Pedal - På eventyr i junglen",
+    "ts": 1790928370.686631
   },
   "peter pedal v": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/nsJQIDeqdnuqO2bzwcodey4BHfB.jpg",
@@ -96345,6 +96981,11 @@
     "title": "Pippis jul",
     "ts": 1787984789.8216095
   },
+  "pirat sangen": {
+    "backdrop": null,
+    "title": "Pirat sangen",
+    "ts": 1790928375.9837036
+  },
   "pirates: behind the legends": {
     "backdrop": null,
     "title": "Pirates: Behind the Legends",
@@ -96473,8 +97114,8 @@
   },
   "plane crash recreated": {
     "backdrop": null,
-    "poster": null,
-    "ts": 1786092132.0956647
+    "title": "Plane Crash Recreated",
+    "ts": 1790928333.5438302
   },
   "planen for danmarks forsvar": {
     "backdrop": null,
@@ -96970,6 +97611,11 @@
     "title": "Politijagt",
     "ts": 1788684121.027786
   },
+  "politijagt - sverige": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/pWL5weMwRDp7Y0aGEZorJOadyVe.jpg",
+    "title": "Politijagt - Sverige",
+    "ts": 1790928321.1177156
+  },
   "politik": {
     "backdrop": null,
     "title": "Politik",
@@ -97111,8 +97757,8 @@
   },
   "pompeji": {
     "backdrop": null,
-    "poster": "https://image.tmdb.org/t/p/w500/2vD6RFn1NOYcKBGvMsulgEiHJ1g.jpg",
-    "ts": 1786092703.7019877
+    "title": "Pompeji",
+    "ts": 1790928360.5521262
   },
   "pompeji - die villa von neros kaiserin": {
     "backdrop": null,
@@ -97610,7 +98256,7 @@
   "premier league: brighton - arsenal": {
     "backdrop": null,
     "title": "Premier League: Brighton - Arsenal",
-    "ts": 1789710694.4739647
+    "ts": 1790928367.0061526
   },
   "premier league: chelsea - brighton": {
     "backdrop": null,
@@ -97645,7 +98291,7 @@
   "premier league: fulham - manchester united": {
     "backdrop": null,
     "title": "Premier League: Fulham - Manchester United",
-    "ts": 1789797100.6888106
+    "ts": 1790928367.1977715
   },
   "premier league: hull - aston villa": {
     "backdrop": null,
@@ -97675,7 +98321,7 @@
   "premier league: manchester united - manchester city": {
     "backdrop": null,
     "title": "Premier League: Manchester United - Manchester City",
-    "ts": 1789191077.5642626
+    "ts": 1790928367.5643916
   },
   "premier league: newcastle - liverpool": {
     "backdrop": null,
@@ -97812,7 +98458,7 @@
   "primal instinct": {
     "backdrop": null,
     "title": "Primal Instinct",
-    "ts": 1789891816.7524762
+    "ts": 1790928353.487326
   },
   "primal instinct: evil eye": {
     "backdrop": null,
@@ -97827,7 +98473,7 @@
   "primater": {
     "backdrop": null,
     "title": "Primater",
-    "ts": 1790500162.2648594
+    "ts": 1790928340.9006126
   },
   "primaternas rike": {
     "backdrop": null,
@@ -97963,7 +98609,7 @@
   "prinsessen og de skøre riddere": {
     "backdrop": null,
     "title": "Prinsessen og de skøre riddere",
-    "ts": 1787575432.882985
+    "ts": 1790928361.5272114
   },
   "priscilla": {
     "backdrop": null,
@@ -98512,6 +99158,11 @@
     "title": "På eit augeblikk",
     "ts": 1788929678.3291123
   },
+  "på et hængende hår": {
+    "backdrop": null,
+    "title": "På et hængende hår",
+    "ts": 1790928306.5916028
+  },
   "på et øjeblik": {
     "backdrop": null,
     "title": "På et øjeblik",
@@ -98633,6 +99284,11 @@
     "backdrop": "https://image.tmdb.org/t/p/w1280/bTKqdS1ZVCptrIxdc1NWzvxEgnZ.jpg",
     "title": "På rejse med Griff",
     "ts": 1790500178.5307698
+  },
+  "på rejse med griff - sydstaterne": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/eNFn3n9eVkcEt9cEqMzQHp8GxFJ.jpg",
+    "title": "På rejse med Griff - Sydstaterne",
+    "ts": 1790928308.0064585
   },
   "på rejse med griff - sydstaterne (1:6)": {
     "backdrop": null,
@@ -99357,6 +100013,11 @@
     "backdrop": null,
     "title": "Rainald Grebe: Ich erinnere mich - glaube ich",
     "ts": 1789891922.5473855
+  },
+  "raising cain": {
+    "backdrop": null,
+    "title": "Raising Cain",
+    "ts": 1790928355.1448624
   },
   "ralf schmitz live! schmitzfindigkeiten": {
     "backdrop": null,
@@ -101471,10 +102132,15 @@
     "title": "Ridebanespringning: Grand Slam - Spruce Meadows: 26.09.2026 09:00.",
     "ts": 1790458690.0510035
   },
+  "ridebanespringning: league of nations": {
+    "backdrop": null,
+    "title": "Ridebanespringning: League of Nations",
+    "ts": 1790928328.4905572
+  },
   "ridebanespringning: league of nations - barcelona": {
     "backdrop": null,
     "title": "Ridebanespringning: League of Nations - Barcelona",
-    "ts": 1789797055.1551416
+    "ts": 1790928344.2038202
   },
   "ridebanespringning: vm": {
     "backdrop": null,
@@ -102296,6 +102962,11 @@
     "title": "RO PÅ med DR Symfoniorkestret",
     "ts": 1789972840.954429
   },
+  "ro på med dr symfoniorkestret: dyrehaven": {
+    "backdrop": null,
+    "title": "RO PÅ med DR Symfoniorkestret: Dyrehaven",
+    "ts": 1790928307.2878954
+  },
   "ro på med dr symfoniorkestret: en sommerdag": {
     "backdrop": null,
     "title": "RO PÅ med DR Symfoniorkestret: En sommerdag",
@@ -102314,7 +102985,7 @@
   "ro på med dr symfoniorkestret: lys over havet": {
     "backdrop": null,
     "title": "RO PÅ med DR Symfoniorkestret: Lys over havet",
-    "ts": 1789191144.6733139
+    "ts": 1790928309.537139
   },
   "ro på med dr symfoniorkestret: morgendis over djursland": {
     "backdrop": null,
@@ -103020,7 +103691,7 @@
   "rovdyr v bytte": {
     "backdrop": null,
     "title": "Rovdyr v Bytte",
-    "ts": 1789633858.4477458
+    "ts": 1790928326.395243
   },
   "rovdyrenes hemmelige liv": {
     "backdrop": null,
@@ -103035,7 +103706,7 @@
   "rovdyrets sind": {
     "backdrop": null,
     "title": "Rovdyrets sind",
-    "ts": 1789891854.849516
+    "ts": 1790928342.044058
   },
   "roy cain (no. 150)": {
     "backdrop": null,
@@ -103116,6 +103787,11 @@
     "backdrop": "https://image.tmdb.org/t/p/w1280/7m2NrBKnvqMZZ1fytUCmWcAf9xO.jpg",
     "title": "Rubble & Co",
     "ts": 1788764041.0535655
+  },
+  "rubble & co.": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/7m2NrBKnvqMZZ1fytUCmWcAf9xO.jpg",
+    "title": "Rubble & Co.",
+    "ts": 1790928340.2308156
   },
   "rubble & crew": {
     "backdrop": null,
@@ -104307,6 +104983,11 @@
     "title": "Sam Smith: Live at the London Coliseum",
     "ts": 1790063342.5165079
   },
+  "samaritan": {
+    "backdrop": null,
+    "title": "Samaritan",
+    "ts": 1790928317.6883
+  },
   "samba infinito": {
     "backdrop": null,
     "title": "Samba infinito",
@@ -104481,7 +105162,7 @@
   "sange fra cirkus": {
     "backdrop": null,
     "title": "Sange fra Cirkus",
-    "ts": 1789997530.5996494
+    "ts": 1790928378.9364786
   },
   "sange fra fredagstamtam": {
     "backdrop": null,
@@ -104655,7 +105336,7 @@
   "sarah og and": {
     "backdrop": null,
     "title": "Sarah og And",
-    "ts": 1789710647.7044156
+    "ts": 1790928370.383647
   },
   "sarah og and (1)": {
     "backdrop": null,
@@ -105089,7 +105770,7 @@
   "say yes to the dress: lancashire": {
     "backdrop": null,
     "title": "Say Yes To The Dress: Lancashire",
-    "ts": 1790063381.214049
+    "ts": 1790928336.4831371
   },
   "say yes: wedding sos": {
     "backdrop": null,
@@ -105277,6 +105958,11 @@
     "backdrop": null,
     "title": "Schlösser und Burgen der Schweiz",
     "ts": 1788589838.8036187
+  },
+  "schmeichel": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/axe14BOWvdDtKKc2n21QkxYOdxt.jpg",
+    "title": "Schmeichel",
+    "ts": 1790928356.3982308
   },
   "schmidt max und der fränkische silvaner": {
     "backdrop": null,
@@ -105924,7 +106610,7 @@
   "sejlsport: sailgp - geneve": {
     "backdrop": null,
     "title": "Sejlsport: SailGP - Geneve",
-    "ts": 1790063316.6880076
+    "ts": 1790928342.885743
   },
   "sejlsport: sailgp - geneve: 01.10.2026 12:30.": {
     "backdrop": null,
@@ -105979,8 +106665,8 @@
   },
   "sejlsport: sailgp - racing on the edge": {
     "backdrop": null,
-    "poster": null,
-    "ts": 1786092089.3101237
+    "title": "Sejlsport: SailGP - Racing on the Edge",
+    "ts": 1790928329.3885999
   },
   "sejlsport: sailgp - valencia": {
     "backdrop": null,
@@ -106443,6 +107129,11 @@
     "title": "Sex, Lies and Video Date",
     "ts": 1788081553.9820879
   },
+  "sexslaver i det 21. århundrede": {
+    "backdrop": null,
+    "title": "Sexslaver i det 21. århundrede",
+    "ts": 1790928332.560271
+  },
   "sextortion - erpresst in der flirt-falle": {
     "backdrop": null,
     "poster": null,
@@ -106741,6 +107432,11 @@
     "backdrop": null,
     "title": "Sherlock Holmes",
     "ts": 1790832776.0912697
+  },
+  "sherlock holmes 2 - skyggespillet": {
+    "backdrop": null,
+    "title": "Sherlock Holmes 2 - Skyggespillet",
+    "ts": 1790928316.7784572
   },
   "sherlock holmes 2: a game of shadows": {
     "backdrop": null,
@@ -107259,7 +107955,12 @@
   "simon iii": {
     "backdrop": null,
     "title": "Simon III",
-    "ts": 1789711083.7791169
+    "ts": 1790928372.7206707
+  },
+  "simon iii - det er næsten jul": {
+    "backdrop": null,
+    "title": "Simon III - Det er næsten jul",
+    "ts": 1790928375.7932296
   },
   "simon rattle dirigerer mozart - symfoni nr. 39": {
     "backdrop": null,
@@ -107296,12 +107997,17 @@
   "simon superkanin ii": {
     "backdrop": null,
     "title": "Simon Superkanin II",
-    "ts": 1790063398.7962298
+    "ts": 1790928369.6498303
   },
   "simon talbot - damp": {
     "backdrop": null,
     "title": "Simon Talbot - Damp",
     "ts": 1789891958.6800094
+  },
+  "simon talbot - ekstra extra": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/b0ckLxvK6BFYneSQbhgxkkF2FOM.jpg",
+    "title": "Simon Talbot - Ekstra Extra",
+    "ts": 1790928312.4197795
   },
   "simon talbot - make denmark great again": {
     "backdrop": null,
@@ -107959,6 +108665,11 @@
     "title": "Skeletter i skabet: Et sidste hvilested (3:3)",
     "ts": 1786700868.0919037
   },
+  "skibby på frierfødder": {
+    "backdrop": null,
+    "title": "Skibby på frierfødder",
+    "ts": 1790928316.238552
+  },
   "skiing - shades of winter between": {
     "backdrop": null,
     "title": "Skiing - Shades of Winter Between",
@@ -108245,6 +108956,21 @@
     "backdrop": null,
     "title": "Skydning: EM - Malakasa: 02.10.2026 16:30.",
     "ts": 1790832698.3044288
+  },
+  "skydning: em - skeet duet": {
+    "backdrop": null,
+    "title": "Skydning: EM - skeet duet",
+    "ts": 1790928343.6156936
+  },
+  "skydning: em - skeet solo (k)": {
+    "backdrop": null,
+    "title": "Skydning: EM - skeet solo (k)",
+    "ts": 1790928343.8382459
+  },
+  "skydning: em - skeet solo (m)": {
+    "backdrop": null,
+    "title": "Skydning: EM - skeet solo (m)",
+    "ts": 1790928344.0284448
   },
   "skyfall": {
     "backdrop": null,
@@ -109247,10 +109973,20 @@
     "title": "Snooker: Shenzhen Open",
     "ts": 1790459057.0226748
   },
+  "snooker: shenzhen open - finale": {
+    "backdrop": null,
+    "title": "Snooker: Shenzhen Open - finale",
+    "ts": 1790928328.6714823
+  },
   "snooker: shenzhen open - kvartfinale": {
     "backdrop": null,
     "title": "Snooker: Shenzhen Open - kvartfinale",
     "ts": 1790832875.0848725
+  },
+  "snooker: shenzhen open - semifinale": {
+    "backdrop": null,
+    "title": "Snooker: Shenzhen Open - semifinale",
+    "ts": 1790928328.8472834
   },
   "snooker: shenzhen open: 01.10.2026 08:00.": {
     "backdrop": null,
@@ -110933,7 +111669,7 @@
   "spider-man: across the spider-verse": {
     "backdrop": null,
     "title": "Spider-Man: Across the Spider-Verse",
-    "ts": 1787754638.08332
+    "ts": 1790928348.9860485
   },
   "spider-man: far from home": {
     "backdrop": null,
@@ -111100,6 +111836,11 @@
     "title": "Spionflyet",
     "ts": 1789891910.351627
   },
+  "spiral: from the legacy of saw": {
+    "backdrop": null,
+    "title": "Spiral: From the Legacy of Saw",
+    "ts": 1790928363.6521423
+  },
   "spiralisene": {
     "backdrop": null,
     "title": "Spiralisene",
@@ -111217,6 +111958,11 @@
     "backdrop": null,
     "title": "Spise med Price: Nordisk Odyssé Sverige",
     "ts": 1789891938.2187362
+  },
+  "spise med price: oktoberfest": {
+    "backdrop": null,
+    "title": "Spise med Price: Oktoberfest",
+    "ts": 1790928301.9829812
   },
   "spise med price: speciel diner": {
     "backdrop": null,
@@ -111847,10 +112593,20 @@
     "title": "Sprinter Galore III - Afsked (10)",
     "ts": 1789102876.1174695
   },
+  "sprinter galore iii - babyalarm": {
+    "backdrop": null,
+    "title": "Sprinter Galore III - Babyalarm",
+    "ts": 1790928369.0931225
+  },
   "sprinter galore iii - babyalarm (4)": {
     "backdrop": null,
     "title": "Sprinter Galore III - Babyalarm (4)",
     "ts": 1790832910.1365006
+  },
+  "sprinter galore iii - dåb": {
+    "backdrop": null,
+    "title": "Sprinter Galore III - Dåb",
+    "ts": 1790928377.4340267
   },
   "sprinter galore iii - dåb (8)": {
     "backdrop": null,
@@ -111867,6 +112623,11 @@
     "title": "Sprinter Galore III - Lillesøster (1)",
     "ts": 1790663747.6888077
   },
+  "sprinter galore iii - natteroderi": {
+    "backdrop": null,
+    "title": "Sprinter Galore III - Natteroderi",
+    "ts": 1790928369.2839055
+  },
   "sprinter galore iii - natteroderi (5)": {
     "backdrop": null,
     "title": "Sprinter Galore III - Natteroderi (5)",
@@ -111877,15 +112638,30 @@
     "title": "Sprinter Galore III - Skolestart (2)",
     "ts": 1790752457.758552
   },
+  "sprinter galore iii - sundhedsplejersken": {
+    "backdrop": null,
+    "title": "Sprinter Galore III - Sundhedsplejersken",
+    "ts": 1790928371.5792565
+  },
   "sprinter galore iii - sundhedsplejersken (6)": {
     "backdrop": null,
     "title": "Sprinter Galore III - Sundhedsplejersken (6)",
     "ts": 1788929752.2085419
   },
+  "sprinter galore iii - søskendekærlighed": {
+    "backdrop": null,
+    "title": "Sprinter Galore III - Søskendekærlighed",
+    "ts": 1790928371.8002934
+  },
   "sprinter galore iii - søskendekærlighed (7)": {
     "backdrop": null,
     "title": "Sprinter Galore III - Søskendekærlighed (7)",
     "ts": 1788929752.3874145
+  },
+  "sprinter galore iii - udklædning": {
+    "backdrop": null,
+    "title": "Sprinter Galore III - Udklædning",
+    "ts": 1790928377.6100357
   },
   "sprinter galore iii - udklædning (9)": {
     "backdrop": null,
@@ -112351,6 +113127,11 @@
     "backdrop": null,
     "title": "Stacked Sweeties Stuffed",
     "ts": 1789710729.7527406
+  },
+  "stadig her": {
+    "backdrop": null,
+    "title": "Stadig her",
+    "ts": 1790928357.7008648
   },
   "stadt der spione – wien im kalten krieg": {
     "backdrop": null,
@@ -113409,6 +114190,11 @@
     "title": "Stjerner og striber: Oligark på gæstelisten",
     "ts": 1789797244.766482
   },
+  "stjerner og striber: tropernes trumps hævn": {
+    "backdrop": null,
+    "title": "Stjerner og striber: Tropernes Trumps hævn",
+    "ts": 1790928307.6399953
+  },
   "stjerner og striber: usa's nye loveboat-diplomati": {
     "backdrop": null,
     "title": "Stjerner og striber: USA's nye LoveBoat-diplomati",
@@ -113543,12 +114329,17 @@
   "stop!": {
     "backdrop": null,
     "title": "Stop!",
-    "ts": 1789710648.4883971
+    "ts": 1790928376.6843085
   },
   "stop! - doktor maja": {
     "backdrop": null,
     "poster": null,
     "ts": 1786092988.031506
+  },
+  "stop! - dronen": {
+    "backdrop": null,
+    "title": "Stop! - Dronen",
+    "ts": 1790928371.4029825
   },
   "stop! - farvel elvis": {
     "backdrop": null,
@@ -113560,6 +114351,11 @@
     "backdrop": null,
     "title": "Stop! - Forældre-frit",
     "ts": 1789711081.426832
+  },
+  "stop! - frisøren": {
+    "backdrop": null,
+    "title": "Stop! - Frisøren",
+    "ts": 1790928371.1808777
   },
   "stop! - hule": {
     "backdrop": null,
@@ -115116,6 +115912,11 @@
     "title": "Supermagternes kamp",
     "ts": 1790752432.0065742
   },
+  "supermagternes kamp: usa vs. kina": {
+    "backdrop": null,
+    "title": "Supermagternes kamp: USA vs. Kina",
+    "ts": 1790928305.8897002
+  },
   "supermagternes kamp: usa vs. kina (1:2)": {
     "backdrop": null,
     "title": "Supermagternes kamp: USA vs. Kina (1:2)",
@@ -116163,7 +116964,7 @@
   "svampebob firkant xi": {
     "backdrop": null,
     "title": "Svampebob Firkant XI",
-    "ts": 1789972865.7328036
+    "ts": 1790928376.8915253
   },
   "svampebob firkant: det glade rengøringsvanvid / kaninjagt": {
     "backdrop": null,
@@ -117324,6 +118125,11 @@
     "poster": null,
     "ts": 1786092812.18969
   },
+  "sø med alligatorer i tusindvis": {
+    "backdrop": null,
+    "title": "Sø med alligatorer i tusindvis",
+    "ts": 1790928324.9764183
+  },
   "sød køkkenmagi": {
     "backdrop": null,
     "title": "Sød køkkenmagi",
@@ -117721,6 +118527,11 @@
     "backdrop": null,
     "title": "Taking Pics And Stealing D....",
     "ts": 1788504665.4903274
+  },
+  "taking woodstock": {
+    "backdrop": null,
+    "title": "Taking Woodstock",
+    "ts": 1790928354.476596
   },
   "tale ved ursula von der leyen": {
     "backdrop": null,
@@ -119230,6 +120041,11 @@
     "title": "Tegnetrix - Pop-op fødselsdagskort",
     "ts": 1787292354.3447013
   },
+  "tegnetrix - seje dyr med bladtryk": {
+    "backdrop": null,
+    "title": "Tegnetrix - Seje dyr med bladtryk",
+    "ts": 1790928373.2311318
+  },
   "tegnetrix: dansende heks": {
     "backdrop": null,
     "poster": null,
@@ -119267,6 +120083,11 @@
     "backdrop": null,
     "title": "Tegnetrix: Onkel Rejes Superhelt",
     "ts": 1789191140.7449756
+  },
+  "tegnetrix: onkel rejes sørøver-monster": {
+    "backdrop": null,
+    "title": "Tegnetrix: Onkel Rejes Sørøver-monster",
+    "ts": 1790928376.1737258
   },
   "tegnetrix: orme i springgraven": {
     "backdrop": null,
@@ -119828,7 +120649,7 @@
   "terror comes to town": {
     "backdrop": null,
     "title": "Terror Comes To Town",
-    "ts": 1789891816.3424282
+    "ts": 1790928351.2520773
   },
   "terror comes to town: dungeon of doom": {
     "backdrop": null,
@@ -120065,7 +120886,7 @@
   "the 40 year-old virgin": {
     "backdrop": null,
     "title": "The 40 Year-Old Virgin",
-    "ts": 1788764050.9259624
+    "ts": 1790928354.7953415
   },
   "the 51 percent": {
     "backdrop": null,
@@ -120952,7 +121773,7 @@
   "the capture": {
     "backdrop": null,
     "title": "The Capture",
-    "ts": 1790766841.828466
+    "ts": 1790928304.296002
   },
   "the capture ii (2:6)": {
     "backdrop": null,
@@ -121618,7 +122439,7 @@
   "the curious case of natalia grace: the final chapter": {
     "backdrop": null,
     "title": "The Curious Case of Natalia Grace: The Final Chapter",
-    "ts": 1790063380.3511815
+    "ts": 1790928352.353121
   },
   "the curious case of natalia grace: the rescue": {
     "backdrop": null,
@@ -122113,7 +122934,7 @@
   "the expendables": {
     "backdrop": null,
     "title": "The Expendables",
-    "ts": 1789369418.9860065
+    "ts": 1790928363.3258078
   },
   "the expendables 2": {
     "backdrop": null,
@@ -122153,7 +122974,7 @@
   "the face doctors": {
     "backdrop": null,
     "title": "The Face Doctors",
-    "ts": 1789891838.375535
+    "ts": 1790928338.1570463
   },
   "the face doctors: the first thing you look at": {
     "backdrop": null,
@@ -122218,7 +123039,7 @@
   "the fall guy": {
     "backdrop": null,
     "title": "The Fall Guy",
-    "ts": 1790063334.2253501
+    "ts": 1790928347.9845448
   },
   "the fan": {
     "backdrop": null,
@@ -122317,9 +123138,8 @@
   },
   "the forever walk: china": {
     "backdrop": null,
-    "poster": null,
     "title": "The Forever Walk: China",
-    "ts": 1786103671.7336826
+    "ts": 1790928331.7326725
   },
   "the forger": {
     "backdrop": null,
@@ -122371,7 +123191,7 @@
   "the friday the 13th murders": {
     "backdrop": null,
     "title": "The Friday The 13th Murders",
-    "ts": 1789797057.295643
+    "ts": 1790928352.8480735
   },
   "the friendship algorithm": {
     "backdrop": null,
@@ -122739,7 +123559,7 @@
   "the guest": {
     "backdrop": null,
     "title": "The Guest",
-    "ts": 1789972748.1413562
+    "ts": 1790928304.638571
   },
   "the guest (1:4)": {
     "backdrop": null,
@@ -123619,7 +124439,7 @@
   "the long kiss goodnight": {
     "backdrop": null,
     "title": "The Long Kiss Goodnight",
-    "ts": 1788504655.5652525
+    "ts": 1790928318.0070188
   },
   "the lost city": {
     "backdrop": null,
@@ -124431,6 +125251,11 @@
     "title": "The Man from Toronto",
     "ts": 1789710772.5780249
   },
+  "the man who stole the scream": {
+    "backdrop": null,
+    "title": "The Man Who Stole The Scream",
+    "ts": 1790928319.1379719
+  },
   "the marine biologist": {
     "backdrop": null,
     "poster": null,
@@ -124901,6 +125726,11 @@
     "title": "The Next Karate Kid",
     "ts": 1789710756.1663241
   },
+  "the night that didn't end": {
+    "backdrop": null,
+    "title": "The Night That Didn't End",
+    "ts": 1790928353.1517053
+  },
   "the nonfat yogurt": {
     "backdrop": null,
     "poster": null,
@@ -125332,7 +126162,7 @@
   "the proposal": {
     "backdrop": null,
     "title": "The Proposal",
-    "ts": 1789191074.8703218
+    "ts": 1790928344.5370708
   },
   "the proposal proposal": {
     "backdrop": null,
@@ -126335,6 +127165,11 @@
     "title": "The Toast Derivation",
     "ts": 1789455342.2455208
   },
+  "the toe bro": {
+    "backdrop": null,
+    "title": "The Toe Bro",
+    "ts": 1790928321.7883198
+  },
   "the tom and jerry show": {
     "backdrop": null,
     "title": "The Tom and Jerry Show",
@@ -126418,7 +127253,7 @@
   "the tribute": {
     "backdrop": null,
     "title": "The Tribute",
-    "ts": 1789972762.9453816
+    "ts": 1790928359.9139886
   },
   "the tribute: adolfo y norma": {
     "backdrop": null,
@@ -126703,6 +127538,11 @@
     "title": "The War Against Gingivitis",
     "ts": 1787202794.1793573
   },
+  "the wasp": {
+    "backdrop": null,
+    "title": "The Wasp",
+    "ts": 1790928350.5661826
+  },
   "the watch": {
     "backdrop": null,
     "title": "The Watch",
@@ -126848,7 +127688,7 @@
   "the wilde wedding": {
     "backdrop": null,
     "title": "The Wilde Wedding",
-    "ts": 1787984685.846006
+    "ts": 1790928358.6355102
   },
   "the wildebeest implementation": {
     "backdrop": null,
@@ -127259,6 +128099,11 @@
     "title": "This is Spinal Tap",
     "ts": 1787808577.4857793
   },
+  "this is where i leave you": {
+    "backdrop": null,
+    "title": "This Is Where I Leave You",
+    "ts": 1790928320.150379
+  },
   "this land is your land": {
     "backdrop": null,
     "title": "This Land Is Your Land",
@@ -127531,6 +128376,11 @@
     "poster": null,
     "title": "Tigre i krig",
     "ts": 1786769359.4169207
+  },
+  "tigre og tatoveringer": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/xSTxRmhtoATlHqk2Q49ssIqLlQs.jpg",
+    "title": "Tigre og tatoveringer",
+    "ts": 1790928374.9055922
   },
   "tiki cocktails": {
     "backdrop": null,
@@ -127895,6 +128745,11 @@
     "backdrop": null,
     "title": "Tina & Bettina 2: The Comeback",
     "ts": 1788414496.7246895
+  },
+  "tina er tan-sober": {
+    "backdrop": null,
+    "title": "Tina er tan-sober",
+    "ts": 1790928368.6958337
   },
   "tinga tinga-fortellinger": {
     "backdrop": null,
@@ -129172,7 +130027,7 @@
   "trail: gt world series - myoko": {
     "backdrop": null,
     "title": "Trail: GT World Series - Myoko",
-    "ts": 1790063378.9773538
+    "ts": 1790928342.7104373
   },
   "trail: gt world series - myoko: 02.10.2026 09:00.": {
     "backdrop": null,
@@ -129523,6 +130378,11 @@
     "title": "Trekantsåndedrættet",
     "ts": 1789455410.5203705
   },
+  "tremors 4: the legend begins": {
+    "backdrop": null,
+    "title": "Tremors 4: The Legend Begins",
+    "ts": 1790928356.700843
+  },
   "tren hjernemusklane!": {
     "backdrop": null,
     "title": "Tren hjernemusklane!",
@@ -129716,6 +130576,11 @@
     "title": "Troldspejlet: Ikoniske filmbiler",
     "ts": 1789191142.3559046
   },
+  "troldspejlet: odysseens monstre": {
+    "backdrop": null,
+    "title": "Troldspejlet: Odysseens monstre",
+    "ts": 1790928307.4654279
+  },
   "troldspejlet: pokémon for voksne": {
     "backdrop": null,
     "title": "Troldspejlet: Pokémon for voksne",
@@ -129808,6 +130673,11 @@
     "backdrop": null,
     "title": "Trumps USA",
     "ts": 1790752269.0172627
+  },
+  "trumps usa: mediekrig og håb om våbenhvile": {
+    "backdrop": null,
+    "title": "Trumps USA: Mediekrig og håb om våbenhvile",
+    "ts": 1790928298.4328632
   },
   "trumps usa: rufus giffords valg": {
     "backdrop": null,
@@ -131145,7 +132015,7 @@
   "tænkepauser: fordybelse": {
     "backdrop": null,
     "title": "Tænkepauser: Fordybelse",
-    "ts": 1787984792.7529826
+    "ts": 1790928306.2737482
   },
   "tænkepauser: krig": {
     "backdrop": null,
@@ -131171,7 +132041,7 @@
   "tænkepauser: ro": {
     "backdrop": null,
     "title": "Tænkepauser: Ro",
-    "ts": 1788589873.6427717
+    "ts": 1790928305.0232484
   },
   "tænkepauser: tillid": {
     "backdrop": null,
@@ -131749,6 +132619,11 @@
     "title": "UEFA Nations League: Efter Norge-Danmark",
     "ts": 1790148870.2236302
   },
+  "uefa nations league: efter wales-danmark": {
+    "backdrop": null,
+    "title": "UEFA Nations League: Efter Wales-Danmark",
+    "ts": 1790928311.4307191
+  },
   "uefa nations league: england-spanien": {
     "backdrop": null,
     "title": "UEFA Nations League: England-Spanien",
@@ -131778,6 +132653,11 @@
     "backdrop": null,
     "title": "UEFA Nations League: Før Norge-Danmark",
     "ts": 1790148869.0766447
+  },
+  "uefa nations league: før wales-danmark": {
+    "backdrop": null,
+    "title": "UEFA Nations League: Før Wales-Danmark",
+    "ts": 1790928311.18191
   },
   "uefa nations league: georgien-nordirland": {
     "backdrop": null,
@@ -131913,6 +132793,11 @@
     "backdrop": null,
     "title": "UEFA Nations League: Tyskland-Serbien",
     "ts": 1790752433.0789359
+  },
+  "uefa nations league: wales-danmark": {
+    "backdrop": null,
+    "title": "UEFA Nations League: Wales-Danmark",
+    "ts": 1790928311.2402258
   },
   "uefa nations league: wales-norge": {
     "backdrop": null,
@@ -132058,6 +132943,11 @@
     "backdrop": null,
     "title": "Uforglemt: Mordet på Hayley Reid (3:3)",
     "ts": 1789102883.3504877
+  },
+  "uforglemt: politieleverne": {
+    "backdrop": null,
+    "title": "Uforglemt: Politieleverne",
+    "ts": 1790928300.5628304
   },
   "uforglemt: politieleverne (1:3)": {
     "backdrop": null,
@@ -132374,7 +133264,7 @@
   "uncharted": {
     "backdrop": null,
     "title": "Uncharted",
-    "ts": 1788331291.344043
+    "ts": 1790928360.8714576
   },
   "unconditional": {
     "backdrop": null,
@@ -132508,6 +133398,11 @@
     "backdrop": null,
     "title": "Under solen",
     "ts": 1790063362.5841787
+  },
+  "under sydens sol": {
+    "backdrop": null,
+    "title": "Under sydens sol",
+    "ts": 1790928300.9550908
   },
   "under the baobab": {
     "backdrop": null,
@@ -133033,7 +133928,7 @@
   "unspun world with john simpson": {
     "backdrop": null,
     "title": "Unspun World with John Simpson",
-    "ts": 1789710638.674547
+    "ts": 1790928335.4315746
   },
   "unspun world with john simpson: 26.09.2026 11:30.": {
     "backdrop": null,
@@ -133817,6 +134712,11 @@
     "title": "Van der Valk - giftigt modeshow",
     "ts": 1790884991.9418533
   },
+  "van der valk - hævnen er ikke kun sød": {
+    "backdrop": null,
+    "title": "Van der Valk - hævnen er ikke kun sød",
+    "ts": 1790928314.043365
+  },
   "van der valk: van der valk - år": {
     "backdrop": null,
     "title": "Van der Valk: Van der Valk - år",
@@ -133838,9 +134738,9 @@
     "ts": 1788081555.0185812
   },
   "vandkant til salg": {
-    "backdrop": null,
+    "backdrop": "https://image.tmdb.org/t/p/w1280/8sMrN6hohyS3z0SzlC75Es4NjrO.jpg",
     "title": "Vandkant til salg",
-    "ts": 1789711008.813601
+    "ts": 1790928338.779178
   },
   "vandring i christianias rosenhave": {
     "backdrop": null,
@@ -134450,7 +135350,7 @@
   "venom: let there be carnage": {
     "backdrop": null,
     "title": "Venom: Let There Be Carnage",
-    "ts": 1789633917.612236
+    "ts": 1790928346.8144562
   },
   "venskab med fryns": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/c079EK32aUEp2jKpVa8MKhYiX01.jpg",
@@ -134512,6 +135412,11 @@
     "backdrop": null,
     "title": "Vera: Skygger på himlen",
     "ts": 1787292357.8088088
+  },
+  "vera: sort engel": {
+    "backdrop": null,
+    "title": "Vera: Sort engel",
+    "ts": 1790928300.377636
   },
   "vera: tidevandet vender": {
     "backdrop": null,
@@ -134629,9 +135534,8 @@
   },
   "verdens mest berømte tiger": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/cdMINUMYVf9GvtC1z24miImd0qP.jpg",
-    "poster": null,
     "title": "Verdens mest berømte tiger",
-    "ts": 1786769359.8035288
+    "ts": 1790928326.7303069
   },
   "verdens mest dødbringend ...": {
     "backdrop": null,
@@ -134652,6 +135556,11 @@
     "backdrop": null,
     "title": "verdens mest efterspurgte vinhus",
     "ts": 1787897178.7183073
+  },
+  "verdens mest eftersøgte våbenhandler": {
+    "backdrop": "https://image.tmdb.org/t/p/w1280/cHL5V5NpBhlPAl5OVERj8nlwk0h.jpg",
+    "title": "Verdens mest eftersøgte våbenhandler",
+    "ts": 1790928305.7037373
   },
   "verdens mest ensomme hval": {
     "backdrop": null,
@@ -135199,6 +136108,11 @@
     "title": "Vi drukner i rod UK: The Fountains",
     "ts": 1790832773.7110302
   },
+  "vi er stjernestøv": {
+    "backdrop": null,
+    "title": "Vi er stjernestøv",
+    "ts": 1790928307.1044884
+  },
   "vi forlader ikke dette sted": {
     "backdrop": null,
     "title": "Vi forlader ikke dette sted",
@@ -135248,6 +136162,11 @@
     "backdrop": null,
     "title": "Vi var i alle fall heldige med været",
     "ts": 1790312112.8923852
+  },
+  "vi venter på godot": {
+    "backdrop": null,
+    "title": "Vi venter på Godot",
+    "ts": 1790928305.195353
   },
   "via appia": {
     "backdrop": null,
@@ -136006,7 +136925,7 @@
   "vilde jægere": {
     "backdrop": null,
     "title": "Vilde jægere",
-    "ts": 1790833771.946822
+    "ts": 1790928324.426953
   },
   "vilde jægere: afrikas dødbringende dræbere": {
     "backdrop": null,
@@ -136107,6 +137026,11 @@
     "backdrop": null,
     "title": "Vilde vidunderlige Danmark - Bæveren",
     "ts": 1789797241.003961
+  },
+  "vilde vidunderlige danmark - gråkragen": {
+    "backdrop": null,
+    "title": "Vilde vidunderlige Danmark - Gråkragen",
+    "ts": 1790928299.1599464
   },
   "vilde vidunderlige danmark - gråsælen": {
     "backdrop": null,
@@ -138666,6 +139590,11 @@
     "poster": null,
     "ts": 1786092478.9523013
   },
+  "we bury the dead": {
+    "backdrop": null,
+    "title": "We Bury The Dead",
+    "ts": 1790928349.3052127
+  },
   "we can be heroes": {
     "backdrop": null,
     "title": "We Can Be Heroes",
@@ -139737,6 +140666,11 @@
     "backdrop": null,
     "title": "Wild 20YOs Drilled & Seed-Filled",
     "ts": 1790231527.8216305
+  },
+  "wild appalachia": {
+    "backdrop": null,
+    "title": "Wild Appalachia",
+    "ts": 1790928330.2023823
   },
   "wild card": {
     "backdrop": null,
@@ -140997,6 +141931,11 @@
     "title": "You Do Know What the Lollipop's For",
     "ts": 1787808482.1964242
   },
+  "you dropped a bomb on me": {
+    "backdrop": null,
+    "title": "You Dropped A Bomb On Me",
+    "ts": 1790928337.2960672
+  },
   "you gotta believe": {
     "backdrop": null,
     "title": "You Gotta Believe",
@@ -141644,7 +142583,7 @@
   "zog": {
     "backdrop": null,
     "title": "Zog",
-    "ts": 1787984711.4884114
+    "ts": 1790928375.2546782
   },
   "zogg": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/pElhrFT5TniwHGjIlEFSQOQ3hXw.jpg",
@@ -142639,6 +143578,11 @@
     "backdrop": null,
     "title": "Øisteins blyant ABC",
     "ts": 1790500070.784538
+  },
+  "øjenvidner - katastrofen i japan": {
+    "backdrop": null,
+    "title": "Øjenvidner - Katastrofen i Japan",
+    "ts": 1790928332.8938572
   },
   "øko-kogården": {
     "backdrop": null,
