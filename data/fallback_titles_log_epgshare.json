@@ -1,29 +1,27 @@
 {
   "TV.2.Sport.X.dk": {
     "Holger Rune er tilbage på banen": 1,
-    "Mads Pedersens grønne Tour-triumf": 1,
     "UEFA Nations League: Aserbajdsjan-Litauen": 2,
-    "UEFA Nations League: Bosnien-Hercegovina - Polen": 2,
-    "UEFA Nations League: Cypern-Letland": 2,
-    "UEFA Nations League: Frankrig-Belgien": 2,
-    "UEFA Nations League: Før Wales-Danmark": 1,
-    "UEFA Nations League: Grækenland-Tyskland": 4,
-    "UEFA Nations League: Holland-Serbien": 4,
-    "UEFA Nations League: Italien-Tyrkiet": 2,
+    "UEFA Nations League: Bosnien-Hercegovina - Polen": 4,
+    "UEFA Nations League: Cypern-Letland": 4,
+    "UEFA Nations League: England-Tjekkiet": 4,
+    "UEFA Nations League: Frankrig-Belgien": 6,
+    "UEFA Nations League: Italien-Tyrkiet": 4,
+    "UEFA Nations League: Kasakhstan-Færøerne": 4,
     "UEFA Nations League: Kosovo-Østrig": 2,
-    "UEFA Nations League: Portugal-Norge": 6,
-    "UEFA Nations League: Rumænien-Sverige": 2,
-    "UEFA Nations League: Wales-Danmark": 6
+    "UEFA Nations League: Kroatien-Spanien": 2,
+    "UEFA Nations League: Rumænien-Sverige": 4
   },
   "TV.2.Sport.dk": {
-    "ATP: Munar-Faria, Tokyo": 1,
+    "ATP: Finale, Beijing": 2,
+    "ATP: Finale, Tokyo": 3,
     "ATP: Semifinale, Beijing": 1,
     "ATP: Semifinale, Tokyo": 2,
-    "UEFA Nations League: Italien-Tyrkiet": 2
+    "UEFA Nations League: Italien-Tyrkiet": 2,
+    "UEFA Nations League: Kroatien-Spanien": 2
   },
   "TV3.SPORT.dk": {
-    "Dart: World Grand Prix": 3,
-    "NHL: New York Rangers - Utah Mammoth": 1,
-    "NHL: Tampa Bay Lightning - Philadelphia Flyers": 1
+    "EHF European League: Mors - Thy - MOL Tatabanya": 1,
+    "NHL: Tampa Bay-Philadelphia": 1
   }
 }
