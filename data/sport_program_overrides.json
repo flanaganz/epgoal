@@ -329,6 +329,10 @@
     "backdrop": "ATP Tour Highlights.jpg",
     "poster": "ATP Tour Highlights.jpg"
   },
+  "atp: alcaraz-arnaldi, tokyo": {
+    "backdrop": "ATP Tour Highlights.jpg",
+    "poster": "ATP Tour Highlights.jpg"
+  },
   "atp: alcaraz-michelsen, tokyo": {
     "backdrop": "Tennis ATP 500.jpg",
     "poster": "Tennis ATP 500.jpg"
@@ -348,6 +352,10 @@
   "atp: fils-van assche, tokyo": {
     "backdrop": "Tennis ATP 500.jpg",
     "poster": "Tennis ATP 500.jpg"
+  },
+  "atp: kvartfinale, tokyo": {
+    "backdrop": "ATP Tour Highlights.jpg",
+    "poster": "ATP Tour Highlights.jpg"
   },
   "atp: rune-alcaraz, finale, barcelona": {
     "backdrop": "ATP-1000.jpg",
@@ -372,6 +380,10 @@
   "atp: vallejo-jodar, tokyo": {
     "backdrop": "Tennis ATP 500.jpg",
     "poster": "Tennis ATP 500.jpg"
+  },
+  "atp: zverev-shang, beijing": {
+    "backdrop": "ATP Tour Highlights.jpg",
+    "poster": "ATP Tour Highlights.jpg"
   },
   "badminton: an-miyazaki, finale, china masters": {
     "backdrop": "Badminton.jpg",
@@ -729,6 +741,10 @@
     "backdrop": "Danskerklubben2.jpg",
     "poster": "Danskerklubben2.jpg"
   },
+  "dart: world grand prix": {
+    "backdrop": "PDC Darts.jpg",
+    "poster": "PDC Darts.jpg"
+  },
   "dart: world grand prix: world grand prix": {
     "backdrop": "PDC Darts.jpg",
     "poster": "PDC Darts.jpg"
@@ -873,6 +889,14 @@
     "backdrop": "EHF Mens Champions League.jpg",
     "poster": "EHF Mens Champions League.jpg"
   },
+  "ehf women's champions league: odense håndbold - storhamar": {
+    "backdrop": "EHF Mens Champions League.jpg",
+    "poster": "EHF Mens Champions League.jpg"
+  },
+  "ehf women's champions league: team esbjerg - buducnost": {
+    "backdrop": "EHF Mens Champions League.jpg",
+    "poster": "EHF Mens Champions League.jpg"
+  },
   "euro cup håndbold: studiet": {
     "backdrop": "Euro Cup Håndbold.jpg",
     "poster": "Euro Cup Håndbold.jpg"
@@ -990,6 +1014,10 @@
     "poster": "F1T.JPG"
   },
   "f1: aserbajdsjans grand prix - løbet": {
+    "backdrop": "F1.jpg",
+    "poster": "F1.jpg"
+  },
+  "f1: bahrains grand prix - løbet": {
     "backdrop": "F1.jpg",
     "poster": "F1.jpg"
   },
@@ -1177,6 +1205,10 @@
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
+  "fodbold: nations league - studie: uefa nations league: efter wales-danmark": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
   "fodbold: nations league - studie: uefa nations league: før danmark-portugal": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
@@ -1185,11 +1217,19 @@
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
+  "fodbold: nations league - studie: uefa nations league: før wales-danmark": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
   "fodbold: nations league - studie: uefa nations league: studiet": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
   "fodbold: nations league: uefa nations league: aserbajdsjan-liechtenstein": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "fodbold: nations league: uefa nations league: aserbajdsjan-litauen": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
@@ -1241,6 +1281,14 @@
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
+  "fodbold: nations league: uefa nations league: grækenland-tyskland": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "fodbold: nations league: uefa nations league: holland-serbien": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
   "fodbold: nations league: uefa nations league: italien-belgien": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
@@ -1270,6 +1318,10 @@
     "poster": "Nations League1.jpg"
   },
   "fodbold: nations league: uefa nations league: norge-portugal": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "fodbold: nations league: uefa nations league: portugal-norge": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
@@ -1317,6 +1369,10 @@
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
+  "fodbold: nations league: uefa nations league: wales-danmark": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
   "fodbold: nations league: uefa nations league: wales-norge": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
@@ -1361,6 +1417,10 @@
     "backdrop": "F1Studio.jpg",
     "poster": "F1Studio.jpg"
   },
+  "formel 1 studie: bahrains grand prix - løbet": {
+    "backdrop": "F1.jpg",
+    "poster": "F1.jpg"
+  },
   "formel 1 studie: italiens grand prix - løbet": {
     "backdrop": "F1Studio.jpg",
     "poster": "F1Studio.jpg"
@@ -1378,6 +1438,10 @@
     "poster": "F1Q.JPG"
   },
   "formel 1: aserbajdsjans grand prix - løbet": {
+    "backdrop": "F1.jpg",
+    "poster": "F1.jpg"
+  },
+  "formel 1: bahrains grand prix": {
     "backdrop": "F1.jpg",
     "poster": "F1.jpg"
   },
@@ -1406,6 +1470,14 @@
     "poster": "F1.jpg"
   },
   "formel 1: spaniens grand prix - løbet": {
+    "backdrop": "F1.jpg",
+    "poster": "F1.jpg"
+  },
+  "formel 1: studiet": {
+    "backdrop": "F1.jpg",
+    "poster": "F1.jpg"
+  },
+  "formel 1: studiet: bahrains grand prix - løbet": {
     "backdrop": "F1.jpg",
     "poster": "F1.jpg"
   },
@@ -1745,6 +1817,10 @@
     "backdrop": "Ligue 1_2.jpg",
     "poster": "Ligue 1_2.jpg"
   },
+  "mads pedersens grønne tour-triumf": {
+    "backdrop": "NFL.jpg",
+    "poster": "NFL.jpg"
+  },
   "mountainbike: world cup": {
     "backdrop": "VM i MTB.jpg",
     "poster": "VM i MTB.jpg"
@@ -1777,6 +1853,10 @@
     "backdrop": "NFL.jpg",
     "poster": "NFL.jpg"
   },
+  "nfl: washington commanders-indianapolis colts": {
+    "backdrop": "NFL2.jpg",
+    "poster": "NFL2.jpg"
+  },
   "nhl": {
     "backdrop": "NHL.jpg",
     "poster": "NHL.jpg"
@@ -1786,6 +1866,14 @@
     "poster": "NHL.jpg"
   },
   "nhl: carolina-florida": {
+    "backdrop": "NHL.jpg",
+    "poster": "NHL.jpg"
+  },
+  "nhl: carolina-washington": {
+    "backdrop": "NHL.jpg",
+    "poster": "NHL.jpg"
+  },
+  "nhl: new york rangers - utah mammoth": {
     "backdrop": "NHL.jpg",
     "poster": "NHL.jpg"
   },
@@ -2177,6 +2265,10 @@
     "backdrop": "Sportstalk.jpg",
     "poster": "Sportstalk.jpg"
   },
+  "sportstalk: sportstalk: ronaldos uværdige exit": {
+    "backdrop": "Sportstalk.jpg",
+    "poster": "Sportstalk.jpg"
+  },
   "sportstalk: sportstalk: tror spillerne stadig på riemer?": {
     "backdrop": "Sportstalk.jpg",
     "poster": "Sportstalk.jpg"
@@ -2365,6 +2457,10 @@
     "backdrop": "Tennis ATP 500.jpg",
     "poster": "Tennis ATP 500.jpg"
   },
+  "tennis: atp 500 - beijing - kampe: atp: bu-djokovic, beijing": {
+    "backdrop": "ATP Tour Highlights.jpg",
+    "poster": "ATP Tour Highlights.jpg"
+  },
   "tennis: davis cup": {
     "backdrop": "Davis Cup.jpg",
     "poster": "Davis Cup.jpg"
@@ -2376,6 +2472,10 @@
   "tennis: wta 1000 - beijng - kampe: wta: beijing": {
     "backdrop": "WTA-generic.jpg",
     "poster": "WTA-generic.jpg"
+  },
+  "tennis: wta 1000 - beijng - kampe: wta: zarazua-sabalenka, beijing": {
+    "backdrop": "ATP Tour Highlights.jpg",
+    "poster": "ATP Tour Highlights.jpg"
   },
   "testkamp: aserbajdsjan-tadsjikistan": {
     "backdrop": "Fodbold.jpg",
@@ -2413,13 +2513,17 @@
     "backdrop": "TV-Udbruddet.jpg",
     "poster": "TV-Udbruddet.jpg"
   },
+  "tøffe vs graver": {
+    "backdrop": "Tøffe vs. Graver.jpg",
+    "poster": "Tøffe vs. Graver.jpg"
+  },
   "tøffe vs. graver: kom i gang danmark og riemer": {
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
   },
   "tøffe vs. graver: var højbjerg - udtalelse en fejl eller gave?": {
-    "backdrop": "3F Superliga.jpg",
-    "poster": "3F Superliga.jpg"
+    "backdrop": "Tøffe vs. Graver.jpg",
+    "poster": "Tøffe vs. Graver.jpg"
   },
   "uefa champions league": {
     "backdrop": "UEFA Champions League.jpg",
@@ -2569,6 +2673,10 @@
     "backdrop": "Nations League.jpg",
     "poster": "Nations League.jpg"
   },
+  "uefa nations league: før wales-danmark": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
   "uefa nations league: georgien-nordirland": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
@@ -2578,6 +2686,14 @@
     "poster": "Nations League1.jpg"
   },
   "uefa nations league: grækenland-holland": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "uefa nations league: grækenland-tyskland": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "uefa nations league: holland-serbien": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
@@ -2614,6 +2730,10 @@
     "poster": "Nations League1.jpg"
   },
   "uefa nations league: norge-portugal": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "uefa nations league: portugal-norge": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
@@ -2670,6 +2790,10 @@
     "poster": "Nations League1.jpg"
   },
   "uefa nations league: tyskland-serbien": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "uefa nations league: wales-danmark": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
@@ -2833,6 +2957,10 @@
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
+  "wta: rybakina-charaeva, beijing": {
+    "backdrop": "WTA-generic.jpg",
+    "poster": "WTA-generic.jpg"
+  },
   "wta: tauson-kudermetova, beijing": {
     "backdrop": "WTA-generic.jpg",
     "poster": "WTA-generic.jpg"
@@ -2842,6 +2970,10 @@
     "poster": "WTA-generic.jpg"
   },
   "wta: zarazua-sabalenka, beijing": {
+    "backdrop": "WTA-generic.jpg",
+    "poster": "WTA-generic.jpg"
+  },
+  "wta: zheng-kalinskaya, beijing": {
     "backdrop": "WTA-generic.jpg",
     "poster": "WTA-generic.jpg"
   }
