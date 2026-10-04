@@ -1,0 +1,227 @@
+﻿#EXTINF:-1 tvg-id="" tvg-name="-= Denmark =-" tvg-logo="https://cdn2.iconfinder.com/data/icons/flags-circle-3d/100/Denmark-128.png" group-title="Denmark",-= Denmark =-
+#EXTINF:-1 tvg-id="" tvg-name="N1 Info & Updates DK" tvg-logo="https://i.ibb.co/7SfPngv/e.png" group-title="Denmark",N1 Info & Updates DK
+#EXTINF:-1 tvg-id="dr1.dk" tvg-name="DR 1 DK" tvg-logo="https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/dr1-dk.png" group-title="Denmark",DR 1 DK
+#EXTINF:-1 tvg-id="dr1.dk" tvg-name="DR 1 HD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/dr1-dk.png?raw=true" group-title="Denmark",DR 1 HD DK
+#EXTINF:-1 tvg-id="dr1.dk" tvg-name="DR 1 FHD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/dr1-dk.png?raw=true" group-title="Denmark",DR 1 FHD DK
+#EXTINF:-1 tvg-id="dr2.dk" tvg-name="DR 2 DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/dr2-dk.png?raw=true" group-title="Denmark",DR 2 DK
+#EXTINF:-1 tvg-id="dr2.dk" tvg-name="DR 2 HD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/dr2-dk.png?raw=true" group-title="Denmark",DR 2 HD DK
+#EXTINF:-1 tvg-id="dr2.dk" tvg-name="DR 2 FHD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/dr2-dk.png?raw=true" group-title="Denmark",DR 2 FHD DK
+#EXTINF:-1 tvg-id="DR TV" tvg-name="DRTV HD DK" tvg-logo="https://logos.mypanel.one/NordiconeExclusive/tv-logos-main/tv-logos-main/Other/massive.png" group-title="Denmark",DRTV HD DK
+#EXTINF:-1 tvg-id="DR TV" tvg-name="DRTV FHD DK" tvg-logo="https://logos.mypanel.one/NordiconeExclusive/tv-logos-main/tv-logos-main/Other/massive.png" group-title="Denmark",DRTV FHD DK
+#EXTINF:-1 tvg-id="drramasjang.dk" tvg-name="DR Ramasjang HD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/dr-ramasjang-dk.png?raw=true" group-title="Denmark",DR Ramasjang HD DK
+#EXTINF:-1 tvg-id="drramasjang.dk" tvg-name="DR Ramasjang FHD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/dr-ramasjang-dk.png?raw=true" group-title="Denmark",DR Ramasjang FHD DK
+#EXTINF:-1 tvg-id="" tvg-name="Play 1 HD DK" tvg-logo="https://cdn-1.webcatalog.io/catalog/drtv/drtv-icon-filled-256.png?v=1701850488399" group-title="Denmark",Play 1 HD DK
+#EXTINF:-1 tvg-id="" tvg-name="Play 2 HD DK" tvg-logo="https://cdn-1.webcatalog.io/catalog/drtv/drtv-icon-filled-256.png" group-title="Denmark",Play 2 HD DK
+#EXTINF:-1 tvg-id="" tvg-name="Play 3 HD DK" tvg-logo="https://cdn-1.webcatalog.io/catalog/drtv/drtv-icon-filled-256.png?v=1701850488399" group-title="Denmark",Play 3 HD DK
+#EXTINF:-1 tvg-id="tv2.dk" tvg-name="TV2 HD DK" tvg-logo="https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/tv2-dk.png" group-title="Denmark",TV2 HD DK
+#EXTINF:-1 tvg-id="tv2.dk" tvg-name="TV2 FHD DK" tvg-logo="https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/tv2-dk.png" group-title="Denmark",TV2 FHD DK
+#EXTINF:-1 tvg-id="tv2zulu.dk" tvg-name="TV2 Echo DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/tv2-echo-dk.png?raw=true" group-title="Denmark",TV2 Echo DK
+#EXTINF:-1 tvg-id="tv2zulu.dk" tvg-name="TV2 Echo HD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/tv2-echo-dk.png?raw=true" group-title="Denmark",TV2 Echo HD DK
+#EXTINF:-1 tvg-id="tv2zulu.dk" tvg-name="TV2 Echo FHD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/tv2-echo-dk.png?raw=true" group-title="Denmark",TV2 Echo FHD DK
+#EXTINF:-1 tvg-id="tv2fri.dk" tvg-name="TV2 Fri DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/tv2-fri-dk.png?raw=true" group-title="Denmark",TV2 Fri DK
+#EXTINF:-1 tvg-id="tv2fri.dk" tvg-name="TV2 Fri HD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/tv2-fri-dk.png?raw=true" group-title="Denmark",TV2 Fri HD DK
+#EXTINF:-1 tvg-id="tv2fri.dk" tvg-name="TV2 Fri FHD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/tv2-fri-dk.png?raw=true" group-title="Denmark",TV2 Fri FHD DK
+#EXTINF:-1 tvg-id="tv2charlie.dk" tvg-name="TV2 Charlie DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/tv2-charlie-dk.png?raw=true" group-title="Denmark",TV2 Charlie DK
+#EXTINF:-1 tvg-id="tv2charlie.dk" tvg-name="TV2 Charlie HD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/tv2-charlie-dk.png?raw=true" group-title="Denmark",TV2 Charlie HD DK
+#EXTINF:-1 tvg-id="tv2charlie.dk" tvg-name="TV2 Charlie FHD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/tv2-charlie-dk.png?raw=true" group-title="Denmark",TV2 Charlie FHD DK
+#EXTINF:-1 tvg-id="tv2news.dk" tvg-name="TV2 News DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/tv2-news-dk.png?raw=true" group-title="Denmark",TV2 News DK
+#EXTINF:-1 tvg-id="tv2news.dk" tvg-name="TV2 News HD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/tv2-news-dk.png?raw=true" group-title="Denmark",TV2 News HD DK
+#EXTINF:-1 tvg-id="tv2news.dk" tvg-name="TV2 News FHD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/tv2-news-dk.png?raw=true" group-title="Denmark",TV2 News FHD DK
+#EXTINF:-1 tvg-id="tv2sport.dk" tvg-name="TV2 Sport DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/tv2-sport-dk.png?raw=true" group-title="Denmark",TV2 Sport DK
+#EXTINF:-1 tvg-id="tv2sport.dk" tvg-name="TV2 Sport HD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/tv2-sport-dk.png?raw=true" group-title="Denmark",TV2 Sport HD DK
+#EXTINF:-1 tvg-id="tv2sport.dk" tvg-name="TV2 Sport FHD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/tv2-sport-dk.png?raw=true" group-title="Denmark",TV2 Sport FHD DK
+#EXTINF:-1 tvg-id="tv2sportx.dk" tvg-name="TV2 Sport X DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/tv2-sport-x-dk.png?raw=true" group-title="Denmark",TV2 Sport X DK
+#EXTINF:-1 tvg-id="tv2sportx.dk" tvg-name="TV2 Sport X HD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/tv2-sport-x-dk.png?raw=true" group-title="Denmark",TV2 Sport X HD DK
+#EXTINF:-1 tvg-id="tv2nordsalto.dk" tvg-name="TV2 Nord HD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/tv2-nord-dk.png?raw=true" group-title="Denmark",TV2 Nord HD DK
+#EXTINF:-1 tvg-id="tv2fyn.dk" tvg-name="TV2 Fyn HD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/tv2-fyn-dk.png?raw=true" group-title="Denmark",TV2 Fyn HD DK
+#EXTINF:-1 tvg-id="tv2bornholm.dk" tvg-name="TV2 Bornholm HD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/tv2-bornholm-dk.png?raw=true" group-title="Denmark",TV2 Bornholm HD DK
+#EXTINF:-1 tvg-id="tv2bornholm.dk" tvg-name="TV2 Bornholm FHD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/tv2-bornholm-dk.png?raw=true" group-title="Denmark",TV2 Bornholm FHD DK
+#EXTINF:-1 tvg-id="tv2sydplus.dk" tvg-name="TV2 Syd HD DK" tvg-logo="https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/tv-syd-dk.png" group-title="Denmark",TV2 Syd HD DK
+#EXTINF:-1 tvg-id="" tvg-name="TV2 Øst DK" tvg-logo="https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/tv2-ost-dk.png" group-title="Denmark",TV2 Øst DK
+#EXTINF:-1 tvg-id="" tvg-name="TV2 Øst HD DK" tvg-logo="https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/tv2-ost-dk.png" group-title="Denmark",TV2 Øst HD DK
+#EXTINF:-1 tvg-id="tv2ostjylland.dk" tvg-name="TV2 Østjylland DK" tvg-logo="http://smilingavenue.com/wp-content/uploads/2016/12/logotv2%C3%B8st.png" group-title="Denmark",TV2 Østjylland DK
+#EXTINF:-1 tvg-id="tv2ostjylland.dk" tvg-name="TV2 Østjylland HD DK" tvg-logo="http://smilingavenue.com/wp-content/uploads/2016/12/logotv2%C3%B8st.png" group-title="Denmark",TV2 Østjylland HD DK
+#EXTINF:-1 tvg-id="tv2lorry.dk" tvg-name="TV2 Kosmopol HD DK" tvg-logo="https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/tv2-kosmopol-dk.png" group-title="Denmark",TV2 Kosmopol HD DK
+#EXTINF:-1 tvg-id="tv2lorry.dk" tvg-name="TV2 Kosmopol FHD DK" tvg-logo="https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/tv2-kosmopol-dk.png" group-title="Denmark",TV2 Kosmopol FHD DK
+#EXTINF:-1 tvg-id="tv2nordsalto.dk" tvg-name="TV2 Nord Salto HD DK" tvg-logo="https://images.crunchbase.com/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/cohvcnubhkxbbbywki0i" group-title="Denmark",TV2 Nord Salto HD DK
+#EXTINF:-1 tvg-id="tv2midtvest.dk" tvg-name="TV2 Midt-Vest DK" tvg-logo="http://138.199.27.237:8080/SCANDINAVIAN/TV2MIDVEST.png" group-title="Denmark",TV2 Midt-Vest DK
+#EXTINF:-1 tvg-id="" tvg-name="TV2 Play 1 HD DK" tvg-logo="https://i.ibb.co/MkK3YB8/photo-2022-02-08-16-39-23.png" group-title="Denmark",TV2 Play 1 HD DK
+#EXTINF:-1 tvg-id="" tvg-name="TV2 Play 2 HD DK" tvg-logo="https://i.ibb.co/MkK3YB8/photo-2022-02-08-16-39-23.png" group-title="Denmark",TV2 Play 2 HD DK
+#EXTINF:-1 tvg-id="" tvg-name="TV2 Play 3 FHD DK" tvg-logo="https://i.ibb.co/MkK3YB8/photo-2022-02-08-16-39-23.png" group-title="Denmark",TV2 Play 3 FHD DK
+#EXTINF:-1 tvg-id="tv2midtvest.dk" tvg-name="TV Midtvest HD DK" tvg-logo="https://imgur.com/cvzGUv3.png" group-title="Denmark",TV Midtvest HD DK
+#EXTINF:-1 tvg-id="folketinget.dk" tvg-name="Folketinget HD DK" tvg-logo="https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/folketinget-dk.png" group-title="Denmark",Folketinget HD DK
+#EXTINF:-1 tvg-id="folketinget.dk" tvg-name="Folketinget FHD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/folketinget-dk.png?raw=true" group-title="Denmark",Folketinget FHD DK
+#EXTINF:-1 tvg-id="tv3.dk" tvg-name="TV3 DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/tv3-dk.png?raw=true" group-title="Denmark",TV3 DK
+#EXTINF:-1 tvg-id="tv3.dk" tvg-name="TV3 HD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/tv3-dk.png?raw=true" group-title="Denmark",TV3 HD DK
+#EXTINF:-1 tvg-id="tv3.dk" tvg-name="TV3 FHD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/tv3-dk.png?raw=true" group-title="Denmark",TV3 FHD DK
+#EXTINF:-1 tvg-id="tv3plus.dk" tvg-name="TV3+ DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/tv3-plus-dk.png?raw=true" group-title="Denmark",TV3+ DK
+#EXTINF:-1 tvg-id="tv3plus.dk" tvg-name="TV3+ HD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/tv3-plus-dk.png?raw=true" group-title="Denmark",TV3+ HD DK
+#EXTINF:-1 tvg-id="tv3plus.dk" tvg-name="TV3+ FHD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/tv3-plus-dk.png?raw=true" group-title="Denmark",TV3+ FHD DK
+#EXTINF:-1 tvg-id="tv3puls.dk" tvg-name="TV3 Puls DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/tv3-puls-dk.png?raw=true" group-title="Denmark",TV3 Puls DK
+#EXTINF:-1 tvg-id="tv3puls.dk" tvg-name="TV3 Puls HD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/tv3-puls-dk.png?raw=true" group-title="Denmark",TV3 Puls HD DK
+#EXTINF:-1 tvg-id="tv3puls.dk" tvg-name="TV3 Puls FHD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/tv3-puls-dk.png?raw=true" group-title="Denmark",TV3 Puls FHD DK
+#EXTINF:-1 tvg-id="tv3sport.dk" tvg-name="TV3 Sport DK" tvg-logo="https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/tv3-sport-dk.png" group-title="Denmark",TV3 Sport DK
+#EXTINF:-1 tvg-id="tv3sport.dk" tvg-name="TV3 Sport HD DK" tvg-logo="https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/tv3-sport-dk.png" group-title="Denmark",TV3 Sport HD DK
+#EXTINF:-1 tvg-id="tv3sport.dk" tvg-name="TV3 Sport FHD DK" tvg-logo="https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/tv3-sport-dk.png" group-title="Denmark",TV3 Sport FHD DK
+#EXTINF:-1 tvg-id="tv3max.dk" tvg-name="TV3 Max DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/tv3-max-dk.png?raw=true" group-title="Denmark",TV3 Max DK
+#EXTINF:-1 tvg-id="tv3max.dk" tvg-name="TV3 Max HD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/tv3-max-dk.png?raw=true" group-title="Denmark",TV3 Max HD DK
+#EXTINF:-1 tvg-id="tv3max.dk" tvg-name="TV3 Max FHD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/tv3-max-dk.png?raw=true" group-title="Denmark",TV3 Max FHD DK
+#EXTINF:-1 tvg-id="" tvg-name="Fuel TV DK" tvg-logo="https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/portugal/fueltv-pt.png" group-title="Denmark",Fuel TV DK
+#EXTINF:-1 tvg-id="outdoorchannel.se" tvg-name="Outdoor Channel HD DK" tvg-logo="https://d2z1w4aiblvrwu.cloudfront.net/brand/IB2/IB2_large.png" group-title="Denmark",Outdoor Channel HD DK
+#EXTINF:-1 tvg-id="" tvg-name="TV Marineret FHD DK" tvg-logo="https://logos.mypanel.one/logos/LogoEVDTV/Other/by_category/tvmarineret.png" group-title="Denmark",TV Marineret FHD DK
+#EXTINF:-1 tvg-id="dk4.dk" tvg-name="DK 4 DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/dk4-dk.png?raw=true" group-title="Denmark",DK 4 DK
+#EXTINF:-1 tvg-id="dk4.dk" tvg-name="DK 4 HD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/dk4-dk.png?raw=true" group-title="Denmark",DK 4 HD DK
+#EXTINF:-1 tvg-id="dk4.dk" tvg-name="DK 4 FHD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/dk4-dk.png?raw=true" group-title="Denmark",DK 4 FHD DK
+#EXTINF:-1 tvg-id="kanal4.dk" tvg-name="Kanal 4 DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/kanal-4-dk.png?raw=true" group-title="Denmark",Kanal 4 DK
+#EXTINF:-1 tvg-id="kanal4.dk" tvg-name="Kanal 4 HD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/kanal-4-dk.png?raw=true" group-title="Denmark",Kanal 4 HD DK
+#EXTINF:-1 tvg-id="kanal4.dk" tvg-name="Kanal 4 FHD DK" tvg-logo="https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/kanal-4-dk.png" group-title="Denmark",Kanal 4 FHD DK
+#EXTINF:-1 tvg-id="kanal5.dk" tvg-name="Kanal 5 DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/kanal-5-dk.png?raw=true" group-title="Denmark",Kanal 5 DK
+#EXTINF:-1 tvg-id="kanal5.dk" tvg-name="Kanal 5 HD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/kanal-5-dk.png?raw=true" group-title="Denmark",Kanal 5 HD DK
+#EXTINF:-1 tvg-id="kanal5.dk" tvg-name="Kanal 5 FHD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/kanal-5-dk.png?raw=true" group-title="Denmark",Kanal 5 FHD DK
+#EXTINF:-1 tvg-id="kanalhovedstaden.dk" tvg-name="Kanal Hovedstaden DK" tvg-logo="https://pbs.twimg.com/profile_images/2220618504/kh-logo-cirkel_400x400.png" group-title="Denmark",Kanal Hovedstaden DK
+#EXTINF:-1 tvg-id="6eren.dk" tvg-name="6 Eren DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/6eren-dk.png?raw=true" group-title="Denmark",6 Eren DK
+#EXTINF:-1 tvg-id="6eren.dk" tvg-name="6 Eren HD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/6eren-dk.png?raw=true" group-title="Denmark",6 Eren HD DK
+#EXTINF:-1 tvg-id="6eren.dk" tvg-name="6 Eren FHD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/6eren-dk.png?raw=true" group-title="Denmark",6 Eren FHD DK
+#EXTINF:-1 tvg-id="canal9.dk" tvg-name="Canal 9 DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/canal-9-dk.png?raw=true" group-title="Denmark",Canal 9 DK
+#EXTINF:-1 tvg-id="canal9.dk" tvg-name="Canal 9 HD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/canal-9-dk.png?raw=true" group-title="Denmark",Canal 9 HD DK
+#EXTINF:-1 tvg-id="canal9.dk" tvg-name="Canal 9 FHD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/canal-9-dk.png?raw=true" group-title="Denmark",Canal 9 FHD DK
+#EXTINF:-1 tvg-id="foodnetwork.uk" tvg-name="Food Network FHD DK" tvg-logo="https://wpcdn.pl/ptv-stage/logo/bright/128/684.png" group-title="Denmark",Food Network FHD DK
+#EXTINF:-1 tvg-id="skyshowtime1.se" tvg-name="Sky ShowTime 1 HD DK [Multi-Sub]" tvg-logo="https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/sky-showtime-1-dk.png" group-title="Denmark",Sky ShowTime 1 HD DK [Multi-Sub]
+#EXTINF:-1 tvg-id="skyshowtime1.se" tvg-name="Sky ShowTime 1 FHD DK [Multi-Sub]" tvg-logo="https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/sky-showtime-1-dk.png" group-title="Denmark",Sky ShowTime 1 FHD DK [Multi-Sub]
+#EXTINF:-1 tvg-id="skyshowtime2.se" tvg-name="Sky ShowTime 2 HD DK [Multi-Sub]" tvg-logo="https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/sky-showtime-2-dk.png" group-title="Denmark",Sky ShowTime 2 HD DK [Multi-Sub]
+#EXTINF:-1 tvg-id="skyshowtime2.se" tvg-name="Sky ShowTime 2 FHD DK [Multi-Sub]" tvg-logo="https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/sky-showtime-2-dk.png" group-title="Denmark",Sky ShowTime 2 FHD DK [Multi-Sub]
+#EXTINF:-1 tvg-id="cmorehits.dk" tvg-name="Hits FHD DK [Multi-Sub]" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/sweden/tv4-hits-se.png" group-title="Denmark",Hits FHD DK [Multi-Sub]
+#EXTINF:-1 tvg-id="cmorehits.dk" tvg-name="Hits HD DK" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/sweden/tv4-hits-se.png" group-title="Denmark",Hits HD DK
+#EXTINF:-1 tvg-id="tv4stars.se" tvg-name="Stars FHD DK [Multi-Sub]" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/sweden/tv4-stars-se.png" group-title="Denmark",Stars FHD DK [Multi-Sub]
+#EXTINF:-1 tvg-id="travelchannel.dk" tvg-name="Travel Channel HD DK" tvg-logo="https://i.postimg.cc/RZ90q8Qy/Travel-Channel-2014.png" group-title="Denmark",Travel Channel HD DK
+#EXTINF:-1 tvg-id="" tvg-name="N1 Play PPV 1 DK  [Ajax vs Benfica @ Nov 25 6:40 PM]" tvg-logo="https://i.ibb.co/Dwg3Js3/n1-live-1.png" group-title="Denmark",N1 Play PPV 1 DK  [Ajax vs Benfica @ Nov 25 6:40 PM]
+#EXTINF:-1 tvg-id="" tvg-name="N1 Play PPV 2 DK [Man City vs Leverkusen @ Nov 25 8:55 PM]" tvg-logo="https://i.ibb.co/f0XCNgX/n1-live-2-1.png" group-title="Denmark",N1 Play PPV 2 DK [Man City vs Leverkusen @ Nov 25 8:55 PM]
+#EXTINF:-1 tvg-id="" tvg-name="N1 PLAY Box Set FHD DK" tvg-logo="https://i.ibb.co/k43FPhS/Box-Set.png" group-title="Denmark",N1 PLAY Box Set FHD DK
+#EXTINF:-1 tvg-id="" tvg-name="N1 Play Fast & Furious FHD DK" tvg-logo="https://i.ibb.co/1Zg9gzN/Fast-and-Furious.png" group-title="Denmark",N1 Play Fast & Furious FHD DK
+#EXTINF:-1 tvg-id="" tvg-name="N1 Paramount Movies FHD DK" tvg-logo="https://i.ibb.co/f09KSCn/n1-play-paramountplus-movies-2.png" group-title="Denmark",N1 Paramount Movies FHD DK
+#EXTINF:-1 tvg-id="" tvg-name="N1 Paramount Movies 2 FHD DK" tvg-logo="https://i.ibb.co/f09KSCn/n1-play-paramountplus-movies-2.png" group-title="Denmark",N1 Paramount Movies 2 FHD DK
+#EXTINF:-1 tvg-id="n1-play-multi---beck-4.dk" tvg-name="N1 Play Beck - Historien om ett brott" tvg-logo="" group-title="Denmark",N1 Play Beck - Historien om ett brott
+#EXTINF:-1 tvg-id="n1-play-multi---beck-collection.dk" tvg-name="N1 Play Beck FHD DK [MULTI-SUB]" tvg-logo="https://i.ibb.co/HqmWPWg/Beck.png" group-title="Denmark",N1 Play Beck FHD DK [MULTI-SUB]
+#EXTINF:-1 tvg-id="n1-play-jack-reacher-fhd-se-dk-fi-no.dk" tvg-name="N1 Play Jack Reacher FHD DK" tvg-logo="" group-title="Denmark",N1 Play Jack Reacher FHD DK
+#EXTINF:-1 tvg-id="" tvg-name="N1 Play Premiere FHD DK" tvg-logo="https://i.ibb.co/qg3wNy6/Premiere.png" group-title="Denmark",N1 Play Premiere FHD DK
+#EXTINF:-1 tvg-id="" tvg-name="N1 Play Action FHD DK" tvg-logo="https://i.ibb.co/Ld80R8B/Action.png" group-title="Denmark",N1 Play Action FHD DK
+#EXTINF:-1 tvg-id="" tvg-name="N1 Play Comedy FHD DK" tvg-logo="https://i.ibb.co/mvhzwYw/Comedy.png" group-title="Denmark",N1 Play Comedy FHD DK
+#EXTINF:-1 tvg-id="n1playfamilyfhddk.dk" tvg-name="N1 Play Family FHD DK" tvg-logo="https://i.ibb.co/kJ0ZJdb/Family.png" group-title="Denmark",N1 Play Family FHD DK
+#EXTINF:-1 tvg-id="" tvg-name="N1 Play Indie Film FHD DK" tvg-logo="https://i.ibb.co/BBWQSq9/Indie-Film.png" group-title="Denmark",N1 Play Indie Film FHD DK
+#EXTINF:-1 tvg-id="" tvg-name="N1 Play Horror FHD DK" tvg-logo="https://i.ibb.co/nzFWbDh/Horror.png" group-title="Denmark",N1 Play Horror FHD DK
+#EXTINF:-1 tvg-id="" tvg-name="N1 Play Friends FHD DK" tvg-logo="https://i.ibb.co/jJhvw3w/Friends.png" group-title="Denmark",N1 Play Friends FHD DK
+#EXTINF:-1 tvg-id="" tvg-name="N1 Play Rick and Morty FHD DK" tvg-logo="https://i.ibb.co/5M7CdNR/Rick-and-Morty.png" group-title="Denmark",N1 Play Rick and Morty FHD DK
+#EXTINF:-1 tvg-id="" tvg-name="N1 Play Family Guy FHD DK" tvg-logo="https://i.ibb.co/WBwtbph/Family-Guy.png" group-title="Denmark",N1 Play Family Guy FHD DK
+#EXTINF:-1 tvg-id="12" tvg-name="N1 Play Pirates of the Caribbean FHD DK" tvg-logo="https://i.ibb.co/y5WML1P/Pirates-of-the-Caribbean.png" group-title="Denmark",N1 Play Pirates of the Caribbean FHD DK
+#EXTINF:-1 tvg-id="" tvg-name="N1 Play Two and a Half Men FHD DK" tvg-logo="https://i.ibb.co/C5NfKC1V/Two-and-a-Half-Men.png" group-title="Denmark",N1 Play Two and a Half Men FHD DK
+#EXTINF:-1 tvg-id="" tvg-name="N1 Play The Simpsons FHD DK" tvg-logo="https://i.ibb.co/xtXv2YNg/The-Simpsons.png" group-title="Denmark",N1 Play The Simpsons FHD DK
+#EXTINF:-1 tvg-id="" tvg-name="N1 Play How I Met Your Mother FHD DK" tvg-logo="https://i.ibb.co/HLdRYGy8/How-I-Met-Your-Mother.png" group-title="Denmark",N1 Play How I Met Your Mother FHD DK
+#EXTINF:-1 tvg-id="" tvg-name="N1 Play The Office FHD DK" tvg-logo="https://i.ibb.co/Ndfd84tL/The-Office.png" group-title="Denmark",N1 Play The Office FHD DK
+#EXTINF:-1 tvg-id="" tvg-name="N1 Play The Big Bang Theory FHD DK" tvg-logo="https://i.ibb.co/YTq19zVC/The-Big-Bang-Theory.png" group-title="Denmark",N1 Play The Big Bang Theory FHD DK
+#EXTINF:-1 tvg-id="" tvg-name="N1 Play Hobbit & Lord Of The Rings FHD DK" tvg-logo="https://i.ibb.co/C5bMK60/Lord-of-the-Rings.png" group-title="Denmark",N1 Play Hobbit & Lord Of The Rings FHD DK
+#EXTINF:-1 tvg-id="" tvg-name="N1 Play Planet of the Apes FHD DK" tvg-logo="https://i.ibb.co/SJJwsQJ/Planet-of-the-Apes.png" group-title="Denmark",N1 Play Planet of the Apes FHD DK
+#EXTINF:-1 tvg-id="" tvg-name="N1 Play Harry Potter FHD DK" tvg-logo="https://i.ibb.co/DRrwbVB/Harry-Potter.png" group-title="Denmark",N1 Play Harry Potter FHD DK
+#EXTINF:-1 tvg-id="" tvg-name="N1 Play Johan Falk FHD DK" tvg-logo="https://i.ibb.co/hCsBLdf/Johan-Falk.png" group-title="Denmark",N1 Play Johan Falk FHD DK
+#EXTINF:-1 tvg-id="" tvg-name="N1 Play Crime FHD DK" tvg-logo="https://i.ibb.co/smcygYV/Crime.png" group-title="Denmark",N1 Play Crime FHD DK
+#EXTINF:-1 tvg-id="" tvg-name="N1 Play James Bond FHD DK" tvg-logo="https://i.ibb.co/FhN0nnm/James-Bond-2.png" group-title="Denmark",N1 Play James Bond FHD DK
+#EXTINF:-1 tvg-id="" tvg-name="N1 Play Romance FHD DK" tvg-logo="https://i.ibb.co/Yc79VcZ/Romance.png" group-title="Denmark",N1 Play Romance FHD DK
+#EXTINF:-1 tvg-id="" tvg-name="N1 Play Documentary FHD DK" tvg-logo="https://i.ibb.co/7Smnvsk/Documentary.png" group-title="Denmark",N1 Play Documentary FHD DK
+#EXTINF:-1 tvg-id="n1playstandupfhddk.dk" tvg-name="N1 Play Stand Up FHD DK" tvg-logo="https://i.ibb.co/ctRXKpV/Stand-Up.png" group-title="Denmark",N1 Play Stand Up FHD DK
+#EXTINF:-1 tvg-id="star-wars-saga.dk" tvg-name="N1 Play Star Wars FHD DK [MULTI-SUB]" tvg-logo="https://i.ibb.co/0sDqtz7/Star-Wars.png" group-title="Denmark",N1 Play Star Wars FHD DK [MULTI-SUB]
+#EXTINF:-1 tvg-id="" tvg-name="N1 Play Marvel FHD DK" tvg-logo="https://i.ibb.co/7RHRcKT/Marvel.png" group-title="Denmark",N1 Play Marvel FHD DK
+#EXTINF:-1 tvg-id="" tvg-name="N1 Play Marvel Cinematic Universe FHD DK" tvg-logo="https://i.ibb.co/Yfg5p87/Marvel-Cinematic-Universe.png" group-title="Denmark",N1 Play Marvel Cinematic Universe FHD DK
+#EXTINF:-1 tvg-id="n1playdcuniversefhddk.dk" tvg-name="N1 Play DC Universe FHD DK" tvg-logo="https://i.ibb.co/qJpQ5fZ/DC-Universe.png" group-title="Denmark",N1 Play DC Universe FHD DK
+#EXTINF:-1 tvg-id="" tvg-name="N1 Play Ice Age FHD DK" tvg-logo="https://i.ibb.co/V9Ybv14/Ice-Age.png" group-title="Denmark",N1 Play Ice Age FHD DK
+#EXTINF:-1 tvg-id="" tvg-name="N1 Play Disney Pixar FHD DK" tvg-logo="https://i.ibb.co/9bb8knj/Disney-Pixar.png" group-title="Denmark",N1 Play Disney Pixar FHD DK
+#EXTINF:-1 tvg-id="n1playtoondisneyfhddk.dk" tvg-name="N1 Play Toon Disney FHD DK" tvg-logo="https://i.ibb.co/kmJWNSD/Toon-Disney.png" group-title="Denmark",N1 Play Toon Disney FHD DK
+#EXTINF:-1 tvg-id="" tvg-name="N1 Play Pokemon Journeys FHD DK" tvg-logo="https://i.ibb.co/ZNCn32j/Pokemon-Journeys.png" group-title="Denmark",N1 Play Pokemon Journeys FHD DK
+#EXTINF:-1 tvg-id="" tvg-name="N1 Play South Park FHD DK" tvg-logo="https://i.ibb.co/WpNVzn1/South-Park.png" group-title="Denmark",N1 Play South Park FHD DK
+#EXTINF:-1 tvg-id="" tvg-name="N1 Play Bluey FHD DK" tvg-logo="https://i.ibb.co/JknfhNg/Bluey.png" group-title="Denmark",N1 Play Bluey FHD DK
+#EXTINF:-1 tvg-id="" tvg-name="N1 Play Christmas FHD DK" tvg-logo="https://i.ibb.co/rsQNt8g/Christmas.png" group-title="Denmark",N1 Play Christmas FHD DK
+#EXTINF:-1 tvg-id="117" tvg-name="N1 Play Christmas 2 FHD DK" tvg-logo="https://i.ibb.co/XFPHDs8/christmas-2.png" group-title="Denmark",N1 Play Christmas 2 FHD DK
+#EXTINF:-1 tvg-id="" tvg-name="N1 Play Christmas Animated FHD DK" tvg-logo="https://i.ibb.co/pJwckPg/Christmas-Animated.png" group-title="Denmark",N1 Play Christmas Animated FHD DK
+#EXTINF:-1 tvg-id="n1playwallanderfhddk.dk" tvg-name="N1 Play Wallander FHD DK" tvg-logo="https://i.ibb.co/FVgNy65/Wallander.png" group-title="Denmark",N1 Play Wallander FHD DK
+#EXTINF:-1 tvg-id="" tvg-name="N1 Play 1990s FHD DK" tvg-logo="https://i.ibb.co/8NBmHJd/1990s.png" group-title="Denmark",N1 Play 1990s FHD DK
+#EXTINF:-1 tvg-id="" tvg-name="N1 Play 1980s FHD DK" tvg-logo="https://i.ibb.co/jMdK9tF/1980s.png" group-title="Denmark",N1 Play 1980s FHD DK
+#EXTINF:-1 tvg-id="" tvg-name="N1 Play War DK" tvg-logo="https://i.ibb.co/K9HND8k/War.png" group-title="Denmark",N1 Play War DK
+#EXTINF:-1 tvg-id="" tvg-name="Far Til Fire FHD DK" tvg-logo="https://i.ibb.co/LhCdkMy/Far-Til-Fire.png" group-title="Denmark",Far Til Fire FHD DK
+#EXTINF:-1 tvg-id="" tvg-name="Olsen-banden FHD DK" tvg-logo="https://imgur.com/YoPIxnE.png" group-title="Denmark",Olsen-banden FHD DK
+#EXTINF:-1 tvg-id="" tvg-name="Uptown Classic HD DK" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLDcVymPCE35DEK6fI6r7TiK_YldkW-XYxow&s" group-title="Denmark",Uptown Classic HD DK
+#EXTINF:-1 tvg-id="" tvg-name="Uptown TV HD DK" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaO12LqSCXEBrTJ3OjrtO2ZqoCucOmKkjYQQ&s" group-title="Denmark",Uptown TV HD DK
+#EXTINF:-1 tvg-id="cnninternational.us" tvg-name="CNN International DK" tvg-logo="https://4.bp.blogspot.com/-095PFo_paOs/WPObKm6K-eI/AAAAAAAADiw/XArUivnCNwMZ0DZNMjcLhlHjoNaqOVBeACLcB/s1600/286.png" group-title="Denmark",CNN International DK
+#EXTINF:-1 tvg-id="cnn.uk" tvg-name="CNN FHD DK" tvg-logo="https://4.bp.blogspot.com/-095PFo_paOs/WPObKm6K-eI/AAAAAAAADiw/XArUivnCNwMZ0DZNMjcLhlHjoNaqOVBeACLcB/s1600/286.png" group-title="Denmark",CNN FHD DK
+#EXTINF:-1 tvg-id="bbcworldnews.uk" tvg-name="BBC World News HD DK" tvg-logo="https://lh5.googleusercontent.com/proxy/gsY_acbz_rCbDRIeMJ_7Ts3rP95f015kcj2oM1_x7YgumI9Gfyl11HXkz5PIMfiC1jg7u8g8o6lzPvjrSVSY_2KoKwZxkZ5XzlWfcHgo7nhFVQ=s0-d" group-title="Denmark",BBC World News HD DK
+#EXTINF:-1 tvg-id="cgtn.us" tvg-name="CGTN HD DK" tvg-logo="https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/international/cgtn-int.png" group-title="Denmark",CGTN HD DK
+#EXTINF:-1 tvg-id="cgtn-documentary.au" tvg-name="CGTN Documentary HD DK" tvg-logo="https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/international/cgtn-documentary-int.png" group-title="Denmark",CGTN Documentary HD DK
+#EXTINF:-1 tvg-id="eurosport1.dk" tvg-name="Eurosport 1 DK" tvg-logo="https://internetvergelijken.org/wp-content/uploads/2021/04/eurosport-1.png" group-title="Denmark",Eurosport 1 DK
+#EXTINF:-1 tvg-id="eurosport1.dk" tvg-name="Eurosport 1 HD DK" tvg-logo="https://internetvergelijken.org/wp-content/uploads/2021/04/eurosport-1.png" group-title="Denmark",Eurosport 1 HD DK
+#EXTINF:-1 tvg-id="eurosport1.dk" tvg-name="Eurosport 1 FHD DK" tvg-logo="https://internetvergelijken.org/wp-content/uploads/2021/04/eurosport-1.png" group-title="Denmark",Eurosport 1 FHD DK
+#EXTINF:-1 tvg-id="eurosport2.dk" tvg-name="Eurosport 2 DK" tvg-logo="https://s9.gifyu.com/images/SUzCy.png" group-title="Denmark",Eurosport 2 DK
+#EXTINF:-1 tvg-id="eurosport2.dk" tvg-name="Eurosport 2 HD DK" tvg-logo="https://s9.gifyu.com/images/SUzCy.png" group-title="Denmark",Eurosport 2 HD DK
+#EXTINF:-1 tvg-id="eurosport2.dk" tvg-name="Eurosport 2 FHD DK" tvg-logo="https://s9.gifyu.com/images/SUzCy.png" group-title="Denmark",Eurosport 2 FHD DK
+#EXTINF:-1 tvg-id="sportlive.dk" tvg-name="Sport Live DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/sport-live-dk.png?raw=true" group-title="Denmark",Sport Live DK
+#EXTINF:-1 tvg-id="sportlive.dk" tvg-name="Sport Live HD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/sport-live-dk.png?raw=true" group-title="Denmark",Sport Live HD DK
+#EXTINF:-1 tvg-id="sportlive.dk" tvg-name="Sport Live FHD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/sport-live-dk.png?raw=true" group-title="Denmark",Sport Live FHD DK
+#EXTINF:-1 tvg-id="" tvg-name="Pluto TV World Poker Tour HD DK" tvg-logo="https://logospng.org/download/pluto-tv/pluto-tv-256.png" group-title="Denmark",Pluto TV World Poker Tour HD DK
+#EXTINF:-1 tvg-id="" tvg-name="World Poker Tour FHD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/misc/vod/wpt-world-poker-tour-vod-us.png?raw=true" group-title="Denmark",World Poker Tour FHD DK
+#EXTINF:-1 tvg-id="discoverychannel.dk" tvg-name="Discovery Channel HD DK" tvg-logo="http://138.199.27.237:8080/AMERICA/CARIBBIEAN/DISCOVERY-CHANNEL.png" group-title="Denmark",Discovery Channel HD DK
+#EXTINF:-1 tvg-id="discoverychannel.dk" tvg-name="Discovery Channel FHD DK" tvg-logo="http://138.199.27.237:8080/AMERICA/CARIBBIEAN/DISCOVERY-CHANNEL.png" group-title="Denmark",Discovery Channel FHD DK
+#EXTINF:-1 tvg-id="discoveryscience.dk" tvg-name="Discovery Science HD DK" tvg-logo="https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/discovery-science-icon-uk.png" group-title="Denmark",Discovery Science HD DK
+#EXTINF:-1 tvg-id="investigationdiscovery.dk" tvg-name="Investigation Discovery DK" tvg-logo="https://assets-global.website-files.com/605a3cacba514a77ca2e6ab5/6065f6b54c6c7c38bc2c1c5f_investigation.png" group-title="Denmark",Investigation Discovery DK
+#EXTINF:-1 tvg-id="investigationdiscovery.dk" tvg-name="Investigation Discovery HD DK" tvg-logo="https://assets-global.website-files.com/605a3cacba514a77ca2e6ab5/6065f6b54c6c7c38bc2c1c5f_investigation.png" group-title="Denmark",Investigation Discovery HD DK
+#EXTINF:-1 tvg-id="investigationdiscovery.dk" tvg-name="Investigation Discovery FHD DK" tvg-logo="https://assets-global.website-files.com/605a3cacba514a77ca2e6ab5/6065f6b54c6c7c38bc2c1c5f_investigation.png" group-title="Denmark",Investigation Discovery FHD DK
+#EXTINF:-1 tvg-id="animalplanet.dk" tvg-name="Animal Planet HD DK" tvg-logo="https://static.epg.best/de/AnimalPlanet.de.png" group-title="Denmark",Animal Planet HD DK
+#EXTINF:-1 tvg-id="animalplanet.dk" tvg-name="Animal Planet FHD DK [Multi-Sub]" tvg-logo="https://static.epg.best/de/AnimalPlanet.de.png" group-title="Denmark",Animal Planet FHD DK [Multi-Sub]
+#EXTINF:-1 tvg-id="eentertainment.us" tvg-name="E! Entertainment HD DK" tvg-logo="https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/united-kingdom/e-entertainment-uk.png" group-title="Denmark",E! Entertainment HD DK
+#EXTINF:-1 tvg-id="h2.se" tvg-name="H2 HD DK" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d1/H2_channel_logo.PNG" group-title="Denmark",H2 HD DK
+#EXTINF:-1 tvg-id="history.dk" tvg-name="History HD DK" tvg-logo="https://i.pinimg.com/originals/f0/f5/85/f0f5853626e544b66b851b80af88ef9a.png" group-title="Denmark",History HD DK
+#EXTINF:-1 tvg-id="bbcnordic.dk" tvg-name="BBC Nordic HD DK" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/sweden/bbc-nordic-se.png" group-title="Denmark",BBC Nordic HD DK
+#EXTINF:-1 tvg-id="bbcnordic.dk" tvg-name="BBC Nordic FHD DK [Multi-Sub]" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/sweden/bbc-nordic-se.png" group-title="Denmark",BBC Nordic FHD DK [Multi-Sub]
+#EXTINF:-1 tvg-id="nationalgeographic.dk" tvg-name="National Geographic DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/national-geographic-dk.png?raw=true" group-title="Denmark",National Geographic DK
+#EXTINF:-1 tvg-id="nationalgeographic.dk" tvg-name="National Geographic FHD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/national-geographic-dk.png?raw=true" group-title="Denmark",National Geographic FHD DK
+#EXTINF:-1 tvg-id="natgeowild.dk" tvg-name="National Geographic Wild DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/national-geographic-wild-dk.png?raw=true" group-title="Denmark",National Geographic Wild DK
+#EXTINF:-1 tvg-id="natgeowild.dk" tvg-name="National Geographic Wild FHD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/national-geographic-wild-dk.png?raw=true" group-title="Denmark",National Geographic Wild FHD DK
+#EXTINF:-1 tvg-id="MTV.dk" tvg-name="MTV HD DK" tvg-logo="https://i.pinimg.com/originals/60/1a/4d/601a4daabd9cade6a84da68e046caf77.png" group-title="Denmark",MTV HD DK
+#EXTINF:-1 tvg-id="MTV.dk" tvg-name="MTV FHD DK" tvg-logo="https://i.pinimg.com/originals/60/1a/4d/601a4daabd9cade6a84da68e046caf77.png" group-title="Denmark",MTV FHD DK
+#EXTINF:-1 tvg-id="now90s.uk" tvg-name="MTV 90s DK" tvg-logo="https://wpcdn.pl/ptv-stage/logo/bright/128/142.png" group-title="Denmark",MTV 90s DK
+#EXTINF:-1 tvg-id="tlc.dk" tvg-name="TLC DK" tvg-logo="https://static.epg.best/tr/TLC.tr.png" group-title="Denmark",TLC DK
+#EXTINF:-1 tvg-id="tlc.dk" tvg-name="TLC HD DK" tvg-logo="https://static.epg.best/tr/TLC.tr.png" group-title="Denmark",TLC HD DK
+#EXTINF:-1 tvg-id="tlc.dk" tvg-name="TLC FHD DK" tvg-logo="https://static.epg.best/tr/TLC.tr.png" group-title="Denmark",TLC FHD DK
+#EXTINF:-1 tvg-id="see.dk" tvg-name="See HD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/see-dk.png?raw=true" group-title="Denmark",See HD DK
+#EXTINF:-1 tvg-id="see.dk" tvg-name="See FHD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/see-dk.png?raw=true" group-title="Denmark",See FHD DK
+#EXTINF:-1 tvg-id="" tvg-name="N1 Play Børn FHD DK" tvg-logo="https://i.imgur.com/ZVhpkcz.png" group-title="Denmark",N1 Play Børn FHD DK
+#EXTINF:-1 tvg-id="cartoonito.dk" tvg-name="Cartoonito HD DK" tvg-logo="http://tugapt.com/picons/cartoonitouk.png" group-title="Denmark",Cartoonito HD DK
+#EXTINF:-1 tvg-id="cartoonito.dk" tvg-name="Cartoonito DK [Multi-Audio]" tvg-logo="http://tugapt.com/picons/cartoonitouk.png" group-title="Denmark",Cartoonito DK [Multi-Audio]
+#EXTINF:-1 tvg-id="disneychannel.dk" tvg-name="Disney Channel HD DK" tvg-logo="https://logodix.com/logo/619307.png" group-title="Denmark",Disney Channel HD DK
+#EXTINF:-1 tvg-id="disneychannel.dk" tvg-name="Disney Channel FHD DK" tvg-logo="https://logodix.com/logo/619307.png" group-title="Denmark",Disney Channel FHD DK
+#EXTINF:-1 tvg-id="cartoonnetwork.dk" tvg-name="Cartoon Network HD DK" tvg-logo="https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/cartoon-network-dk.png" group-title="Denmark",Cartoon Network HD DK
+#EXTINF:-1 tvg-id="cartoonnetwork.dk" tvg-name="Cartoon Network HD DK [Multi-Audio]" tvg-logo="https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/cartoon-network-dk.png" group-title="Denmark",Cartoon Network HD DK [Multi-Audio]
+#EXTINF:-1 tvg-id="nickjr.dk" tvg-name="Nick Jr DK [Multi-Audio]" tvg-logo="https://static.epg.best/de/NickJr.de.png" group-title="Denmark",Nick Jr DK [Multi-Audio]
+#EXTINF:-1 tvg-id="nickjr.dk" tvg-name="Nick Jr HD DK" tvg-logo="https://static.epg.best/de/NickJr.de.png" group-title="Denmark",Nick Jr HD DK
+#EXTINF:-1 tvg-id="nickelodeon.dk" tvg-name="Nickelodeon HD DK" tvg-logo="https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/nickelodeon-dk.png" group-title="Denmark",Nickelodeon HD DK
+#EXTINF:-1 tvg-id="nickelodeon.dk" tvg-name="Nickelodeon FHD DK" tvg-logo="https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/nickelodeon-dk.png" group-title="Denmark",Nickelodeon FHD DK
+#EXTINF:-1 tvg-id="nicktoons.se" tvg-name="NickToons DK [Multi-Audio]" tvg-logo="https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/nick-toons-dk.png" group-title="Denmark",NickToons DK [Multi-Audio]
+#EXTINF:-1 tvg-id="sfkanalen.dk" tvg-name="SF-Kanalen DK" tvg-logo="https://2.bp.blogspot.com/-6SZj4FTfZTY/V_UrhFcjvJI/AAAAAAAACiA/YPIhWVAVt5M3FJ60f01cVUUvGDM9hNeiwCLcB/w680/sf_kanalen_111622076.png" group-title="Denmark",SF-Kanalen DK
+#EXTINF:-1 tvg-id="viaplaysportnews.dk" tvg-name="Viaplay Sport News HD DK" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/nordic/denmark/viaplay-sport-news-dk.png?raw=true" group-title="Denmark",Viaplay Sport News HD DK
+#EXTINF:-1 tvg-id="viasatgolf.dk" tvg-name="V Sport Golf DK" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/sweden/v-sport-golf-se.png" group-title="Denmark",V Sport Golf DK
+#EXTINF:-1 tvg-id="viasatgolf.dk" tvg-name="V Sport Golf HD DK" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/sweden/v-sport-golf-se.png" group-title="Denmark",V Sport Golf HD DK
+#EXTINF:-1 tvg-id="viasatgolf.dk" tvg-name="V Sport Golf FHD DK [Multi-Audio]" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/sweden/v-sport-golf-se.png" group-title="Denmark",V Sport Golf FHD DK [Multi-Audio]
+#EXTINF:-1 tvg-id="viasatultra.dk" tvg-name="V Sport Ultra 4K DK [Only On 4K Devices]" tvg-logo="https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/v-sport-ultrahd-dk.png" group-title="Denmark",V Sport Ultra 4K DK [Only On 4K Devices]
+#EXTINF:-1 tvg-id="viasatultra.dk" tvg-name="V Sport Ultra 4K DK [Multi-Audio]" tvg-logo="https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/v-sport-ultrahd-dk.png" group-title="Denmark",V Sport Ultra 4K DK [Multi-Audio]
+#EXTINF:-1 tvg-id="viasataction.dk" tvg-name="V Film Action HD DK" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/sweden/v-film-action-se.png" group-title="Denmark",V Film Action HD DK
+#EXTINF:-1 tvg-id="viasataction.dk" tvg-name="V Film Action FHD DK [Multi-Sub]" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/sweden/v-film-action-se.png" group-title="Denmark",V Film Action FHD DK [Multi-Sub]
+#EXTINF:-1 tvg-id="viasatfamily.dk" tvg-name="V Film Family DK [Multi-Sub]" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/sweden/v-film-family-se.png" group-title="Denmark",V Film Family DK [Multi-Sub]
+#EXTINF:-1 tvg-id="viasatfamily.dk" tvg-name="V Film Family HD DK" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/sweden/v-film-family-se.png" group-title="Denmark",V Film Family HD DK
+#EXTINF:-1 tvg-id="viasathits.dk" tvg-name="V Film Hits HD DK" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/sweden/v-film-hits-se.png" group-title="Denmark",V Film Hits HD DK
+#EXTINF:-1 tvg-id="viasathits.dk" tvg-name="V Film Hits FHD DK [Multi-Sub]" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/sweden/v-film-hits-se.png" group-title="Denmark",V Film Hits FHD DK [Multi-Sub]
+#EXTINF:-1 tvg-id="viasatfilmpremiere.dk" tvg-name="V Film Premiere HD DK" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/sweden/v-film-premiere-se.png" group-title="Denmark",V Film Premiere HD DK
+#EXTINF:-1 tvg-id="viasatfilmpremiere.dk" tvg-name="V Film Premiere FHD DK [Multi-Sub]" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/sweden/v-film-premiere-se.png" group-title="Denmark",V Film Premiere FHD DK [Multi-Sub]
+#EXTINF:-1 tvg-id="" tvg-name="V Crime FHD DK [Multi-Sub]" tvg-logo="https://www.allatvkanaler.se/assets/65/logo-big/v-crime-tabla.png" group-title="Denmark",V Crime FHD DK [Multi-Sub]
+#EXTINF:-1 tvg-id="viasatseries.dk" tvg-name="V Series HD DK" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/norway/v-series-no.png" group-title="Denmark",V Series HD DK
+#EXTINF:-1 tvg-id="viasatseries.dk" tvg-name="V Series FHD DK [Multi-Sub]" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/nordic/norway/v-series-no.png" group-title="Denmark",V Series FHD DK [Multi-Sub]
+#EXTINF:-1 tvg-id="viasathistory.dk" tvg-name="Viasat History HD DK" tvg-logo="https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/viasat-history-dk.png" group-title="Denmark",Viasat History HD DK
+#EXTINF:-1 tvg-id="viasathistory.dk" tvg-name="Viasat History FHD DK [Multi-Sub]" tvg-logo="https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/viasat-history-dk.png" group-title="Denmark",Viasat History FHD DK [Multi-Sub]
+#EXTINF:-1 tvg-id="viasatexplore.dk" tvg-name="Viasat Explorer HD DK" tvg-logo="https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/viasat-explore-dk.png" group-title="Denmark",Viasat Explorer HD DK
+#EXTINF:-1 tvg-id="viasatexplore.dk" tvg-name="Viasat Explorer FHD DK [Multi-Sub]" tvg-logo="https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/denmark/viasat-explore-dk.png" group-title="Denmark",Viasat Explorer FHD DK [Multi-Sub]
+#EXTINF:-1 tvg-id="viasatnature.dk" tvg-name="Viasat Nature HD DK" tvg-logo="https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/norway/viasat-nature-no.png" group-title="Denmark",Viasat Nature HD DK
+#EXTINF:-1 tvg-id="viasatnature.dk" tvg-name="Viasat Nature FHD DK [Multi-Sub]" tvg-logo="https://logo.mypanel.one/tv-logos-main/tv-logos-main/countries/nordic/norway/viasat-nature-no.png" group-title="Denmark",Viasat Nature FHD DK [Multi-Sub]
