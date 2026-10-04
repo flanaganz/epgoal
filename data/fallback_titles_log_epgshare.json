@@ -1,7 +1,8 @@
 {
   "TV.2.Sport.X.dk": {
+    "ATP: Shanghai": 4,
     "Holger Rune er tilbage på banen": 1,
-    "UEFA Nations League: Aserbajdsjan-Litauen": 2,
+    "UEFA Nations League: Aserbajdsjan-Litauen": 1,
     "UEFA Nations League: Bosnien-Hercegovina - Polen": 4,
     "UEFA Nations League: Cypern-Letland": 4,
     "UEFA Nations League: England-Tjekkiet": 4,
@@ -13,15 +14,20 @@
     "UEFA Nations League: Rumænien-Sverige": 4
   },
   "TV.2.Sport.dk": {
+    "ATP: Alcaraz-Shapovalov, kvartfinale, Tokyo": 1,
     "ATP: Finale, Beijing": 2,
-    "ATP: Finale, Tokyo": 3,
+    "ATP: Finale, Tokyo": 4,
+    "ATP: Kvartfinaler, Beijing": 1,
+    "ATP: Munar-Jacquet, kvartfinale, Tokyo": 1,
     "ATP: Semifinale, Beijing": 1,
     "ATP: Semifinale, Tokyo": 2,
+    "ATP: Vacherot-Fils, kvartfinale, Tokyo": 1,
+    "ATP: Zverev-Djokovic, kvartfinale, Beijing": 1,
+    "Kvindeligaen: Viborg-Nykøbing F.": 4,
     "UEFA Nations League: Italien-Tyrkiet": 2,
     "UEFA Nations League: Kroatien-Spanien": 2
   },
   "TV3.SPORT.dk": {
-    "EHF European League: Mors - Thy - MOL Tatabanya": 1,
-    "NHL: Tampa Bay-Philadelphia": 1
+    "EHF European League: Mors - Thy - MOL Tatabanya": 2
   }
 }
