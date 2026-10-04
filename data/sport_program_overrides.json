@@ -893,7 +893,15 @@
     "backdrop": "EHF Mens Champions League.jpg",
     "poster": "EHF Mens Champions League.jpg"
   },
+  "ehf women's champions league: odense-storhamar (k)": {
+    "backdrop": "EHF Mens Champions League.jpg",
+    "poster": "EHF Mens Champions League.jpg"
+  },
   "ehf women's champions league: team esbjerg - buducnost": {
+    "backdrop": "EHF Mens Champions League.jpg",
+    "poster": "EHF Mens Champions League.jpg"
+  },
+  "ehf women's champions league: team esbjerg-buducnost (k)": {
     "backdrop": "EHF Mens Champions League.jpg",
     "poster": "EHF Mens Champions League.jpg"
   },
@@ -1225,6 +1233,10 @@
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
+  "fodbold: nations league: rumænien-sverige": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
   "fodbold: nations league: uefa nations league: aserbajdsjan-liechtenstein": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
@@ -1241,7 +1253,15 @@
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
+  "fodbold: nations league: uefa nations league: bosnien-hercegovina - polen": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
   "fodbold: nations league: uefa nations league: bosnien-hercegovina - sverige": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "fodbold: nations league: uefa nations league: cypern-letland": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
@@ -1258,6 +1278,10 @@
     "poster": "Nations League1.jpg"
   },
   "fodbold: nations league: uefa nations league: finland-albanien": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "fodbold: nations league: uefa nations league: frankrig-belgien": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
@@ -1293,7 +1317,15 @@
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
+  "fodbold: nations league: uefa nations league: italien-tyrkiet": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
   "fodbold: nations league: uefa nations league: kasakhstan-moldova": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "fodbold: nations league: uefa nations league: kosovo-østrig": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
@@ -1412,6 +1444,10 @@
   "formel 1 360°: formel 1 360°": {
     "backdrop": "https://image.tmdb.org/t/p/original/uzNsBqsMSkKyL4bbatvCvYYpDOj.jpg",
     "poster": "https://image.tmdb.org/t/p/original/uzNsBqsMSkKyL4bbatvCvYYpDOj.jpg"
+  },
+  "formel 1 360°: miami gp": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
   },
   "formel 1 studie": {
     "backdrop": "F1Studio.jpg",
@@ -1537,9 +1573,17 @@
     "backdrop": "Før Superligaen.jpg",
     "poster": "Før Superligaen.jpg"
   },
+  "før superligaen: før superligaen: hvem er guldfavoritter?": {
+    "backdrop": "Før Superligaen.jpg",
+    "poster": "Før Superligaen.jpg"
+  },
   "gp confidential": {
     "backdrop": null,
     "poster": null
+  },
+  "gp confidential: gp confidential": {
+    "backdrop": "3F Superliga.jpg",
+    "poster": "3F Superliga.jpg"
   },
   "grand prix of austria - løbet": {
     "backdrop": "F1.jpg",
@@ -1690,6 +1734,10 @@
     "poster": "Herreligaen.jpg"
   },
   "højdepunkter - sportsnyheder": {
+    "backdrop": "Sporten.jpg",
+    "poster": "Sporten.jpg"
+  },
+  "højdepunkter - sportsnyheder: mads pedersens grønne tour-triumf": {
     "backdrop": "Sporten.jpg",
     "poster": "Sporten.jpg"
   },
@@ -1878,6 +1926,14 @@
     "poster": "NHL.jpg"
   },
   "nhl: philadelphia flyers - carolina hurricanes": {
+    "backdrop": "NHL.jpg",
+    "poster": "NHL.jpg"
+  },
+  "nhl: tampa bay lightning - philadelphia flyers": {
+    "backdrop": "NHL.jpg",
+    "poster": "NHL.jpg"
+  },
+  "nhl: tampa bay-philadelphia": {
     "backdrop": "NHL.jpg",
     "poster": "NHL.jpg"
   },
@@ -2221,6 +2277,10 @@
     "backdrop": "Sky Sports Ref Watch.jpg",
     "poster": "Sky Sports Ref Watch.jpg"
   },
+  "sky sports: ref watch: ref watch": {
+    "backdrop": "Sky Sports Ref Watch.jpg",
+    "poster": "Sky Sports Ref Watch.jpg"
+  },
   "sky sports: soccer saturday": {
     "backdrop": "Sky Sports Soccer Saturday.jpg",
     "poster": "Sky Sports Soccer Saturday.jpg"
@@ -2429,13 +2489,25 @@
     "backdrop": "Tennis ATP 500.jpg",
     "poster": "Tennis ATP 500.jpg"
   },
+  "tennis: atp - tokyo: atp: kvartfinale, tokyo": {
+    "backdrop": "ATP Tour Highlights.jpg",
+    "poster": "ATP Tour Highlights.jpg"
+  },
   "tennis: atp - tokyo: atp: munar-faria, tokyo": {
+    "backdrop": "ATP Tour Highlights.jpg",
+    "poster": "ATP Tour Highlights.jpg"
+  },
+  "tennis: atp - tokyo: atp: munar-jacquet, kvartfinale, tokyo": {
     "backdrop": "ATP Tour Highlights.jpg",
     "poster": "ATP Tour Highlights.jpg"
   },
   "tennis: atp - tokyo: atp: rune-jacquet, tokyo": {
     "backdrop": "Tennis ATP 500.jpg",
     "poster": "Tennis ATP 500.jpg"
+  },
+  "tennis: atp - tokyo: atp: semifinale, tokyo": {
+    "backdrop": "ATP Tour Highlights.jpg",
+    "poster": "ATP Tour Highlights.jpg"
   },
   "tennis: atp - tokyo: atp: tokyo": {
     "backdrop": "Tennis ATP 500.jpg",
@@ -2461,6 +2533,10 @@
     "backdrop": "ATP Tour Highlights.jpg",
     "poster": "ATP Tour Highlights.jpg"
   },
+  "tennis: atp 500 - beijing - kampe: atp: semifinale, beijing": {
+    "backdrop": "ATP Tour Highlights.jpg",
+    "poster": "ATP Tour Highlights.jpg"
+  },
   "tennis: davis cup": {
     "backdrop": "Davis Cup.jpg",
     "poster": "Davis Cup.jpg"
@@ -2473,9 +2549,17 @@
     "backdrop": "WTA-generic.jpg",
     "poster": "WTA-generic.jpg"
   },
+  "tennis: wta 1000 - beijng - kampe: wta: rybakina-charaeva, beijing": {
+    "backdrop": "WTA-generic.jpg",
+    "poster": "WTA-generic.jpg"
+  },
   "tennis: wta 1000 - beijng - kampe: wta: zarazua-sabalenka, beijing": {
     "backdrop": "ATP Tour Highlights.jpg",
     "poster": "ATP Tour Highlights.jpg"
+  },
+  "tennis: wta 1000 - beijng - kampe: wta: zheng-kalinskaya, beijing": {
+    "backdrop": "WTA-generic.jpg",
+    "poster": "WTA-generic.jpg"
   },
   "testkamp: aserbajdsjan-tadsjikistan": {
     "backdrop": "Fodbold.jpg",
