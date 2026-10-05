@@ -6,35 +6,45 @@ Erstatter den spredte kæde af enkelt-scripts (epgshare_download.py,
 epgshare_filter.py, epgshare_merge_all.py, normalize_uhf_channel_ids.py,
 enrich_epg_epgshare.py, danish_backdrops_epgshare.py) med ÉT script der
 kører alle trin i rækkefølge og ender med epgoal.xml committet og pushet
-til GitHub — samt åbner de to review-filer til manuel gennemgang, ligesom
-det gamle opdater_alt.bat gjorde.
+til GitHub.
 
 Kilde-prioritet pr. Følg(X)-kanal (fra data/channel_priority_v2.xlsx):
     1. EPGShare01   - primær kilde. Bruges uændret hvis vinduet er
                        >= MIN_WINDOW_HOURS.
     2. OpenEPG      - fallback nr. 1 (6 kilder fra config.json).
     3. BSS XMLTV    - fallback nr. 2 (ultratv.one, kræver BSS_XMLTV_URL i .env).
+Den kilde med længst vindue / flest programmer vinder, hvis EPGShare ikke
+selv er god nok.
 
-Rækkefølge (VIGTIGT - se note ved step4_sport_enrichment nedenfor):
-    1. Download EPGShare01
-    2. Filtrer til Følg(X)-kanaler
-    3. Merge EPGShare + OpenEPG + BSS (fallback pr. kanal)
-    4. Sport-artwork (på epgshare_merged.xml, FØR normalisering - se note)
-    5. Danske TMDb-backdrops (på epgshare_merged.xml, 1:1 med
-       danish_backdrops.py / danish_backdrops_epgshare.py)
-    6. Normalisering til Output/UHF tvg-id -> skriver epgoal.xml
-    7. Git commit + push
-    8. Eksporter sport_artwork_review.xlsx + danish_artwork_review.xlsx
-       (kalder dine EKSISTERENDE scripts/export_sport_review.py og
-       scripts/export_danish_artwork_review.py uændret) og åbner begge
-       filer automatisk til gennemgang.
-
-NÅR DU HAR UDFYLDT OG GEMT BEGGE REVIEW-FILER: kør "gem_epgoal_valg.py"
-for at skrive dine valg tilbage og bage dem ind i epgoal.xml.
+Herefter (VIGTIGT: sport og danske backdrops køres FØR normalisering - de
+arbejder på epgshare_merged.xml, hvor channel-id'erne stadig har deres
+oprindelige kilde-format med mellemrum/punktummer som sport_channels.json's
+match-mønstre forventer. Normalisering til kompakte UHF-id'er som
+"tv2sport.dk" sker derfor SIDST, efter al artwork allerede er sat ind -
+ellers mister sport-matcheren sine substrings og matcher næsten intet):
+    4. Sport-artwork  - samme logik/data som produktionen
+                        (sport_channels.json, sport_categories.json osv.),
+                        baseret på enrich_epg.py / enrich_epg_epgshare.py.
+                        Kører på epgshare_merged.xml (in-place).
+    5. Danske TMDb-backdrops - 1:1 portering af danish_backdrops.py /
+                        danish_backdrops_epgshare.py: samme cache med
+                        differentieret levetid, samme genopfrisk-liste,
+                        samme godkendelsesfil-logik, samme manuelle
+                        overrides, skriver KUN <icon> (ikke <backdrop>).
+                        Kører på epgshare_merged.xml (in-place).
+    6. Normalisering - alle channel-id'er omskrives til den autoritative
+                        "Output/UHF tvg-id" fra channel_priority_v2.xlsx,
+                        så normal/HD/FHD-streams i UHF peger på samme kanal.
+                        Læser epgshare_merged.xml (nu med artwork) og
+                        skriver epgoal.xml.
+    7. Git commit + push (med samme fetch/rebase-retry-logik som
+                        originalerne) af hele repoet (inkl.
+                        output_epgshare/epgoal.xml).
 
 TRIN DER IKKE ER MED HER (bevidst - kør separat ved behov):
     - build_master_channel_map_v2.py (genererer/opdaterer channel_priority_v2.xlsx)
     - analyze_channel_variants_v2.py (fejlsøgning af enkeltkanaler)
+Disse er analyseværktøjer, ikke en del af den daglige produktionskørsel.
 
 Kør:
     python scripts/opdater_epgoal.py
@@ -65,7 +75,6 @@ from openpyxl import load_workbook
 # ---------------------------------------------------------------------------
 
 ROOT = Path(__file__).resolve().parent.parent
-SCRIPTS_DIR = ROOT / "scripts"
 DATA_DIR = ROOT / "data"
 OUTPUT_DIR = ROOT / "output_epgshare"
 CONFIG_FILE = ROOT / "config.json"
@@ -87,13 +96,6 @@ SPORT_CATEGORIES_FILE = DATA_DIR / "sport_categories.json"
 SPORT_PROGRAM_OVERRIDES_FILE = DATA_DIR / "sport_program_overrides.json"
 SPORT_SKIP_TITLES_FILE = DATA_DIR / "sport_skip_titles.json"
 SPORT_PREFER_TMDB_TITLES_FILE = DATA_DIR / "sport_prefer_tmdb_titles.json"
-
-# -- Logs som export_sport_review.py forventer (se collect_candidates()) --
-FALLBACK_LOG_FILE = DATA_DIR / "fallback_titles_log.json"
-PARTIAL_SPORT_LOG_FILE = DATA_DIR / "partial_sport_matches_log.json"
-ALL_SPORT_TITLES_LOG_FILE = DATA_DIR / "all_sport_titles_log.json"
-
-SPORT_ARTWORK_REVIEW_FILE = DATA_DIR / "sport_artwork_review.xlsx"
 
 # -- Danske TMDb-backdrops (1:1 med danish_backdrops.py / danish_backdrops_epgshare.py) --
 DANISH_ARTWORK_CACHE_FILE = DATA_DIR / "danish_artwork_cache.json"
@@ -212,7 +214,7 @@ def section(title: str) -> None:
 # ---------------------------------------------------------------------------
 
 def step1_download_epgshare() -> None:
-    section("TRIN 1/8: Henter EPGShare01 DK1")
+    section("TRIN 1/7: Henter EPGShare01 DK1")
 
     print(f"Henter {EPGSHARE_URL} ...")
     resp = SESSION.get(EPGSHARE_URL, timeout=300)
@@ -259,7 +261,7 @@ def load_followed_channels_for_filter() -> set[str]:
 
 
 def step2_filter_epgshare() -> None:
-    section("TRIN 2/8: Filtrerer EPGShare til dine kanaler")
+    section("TRIN 2/7: Filtrerer EPGShare til dine kanaler")
 
     wanted_channels = load_followed_channels_for_filter()
     print(f"Whitelist kanaler: {len(wanted_channels)}")
@@ -422,7 +424,7 @@ def strip_artwork(programme_el) -> None:
 
 
 def step3_merge_sources() -> None:
-    section("TRIN 3/8: Samler EPGShare + OpenEPG + BSS (fallback pr. kanal)")
+    section("TRIN 3/7: Samler EPGShare + OpenEPG + BSS (fallback pr. kanal)")
 
     tree = ET.parse(EPGSHARE_FILTERED_FILE)
     root = tree.getroot()
@@ -534,14 +536,96 @@ def step3_merge_sources() -> None:
 
 
 # ---------------------------------------------------------------------------
-# TRIN 4: Sport-berigelse (på epgshare_merged.xml, in-place)
-#
-# VIGTIGT: Dette trin skal køre FØR normalisering (trin 6). sport_channels.
-# json's match-mønstre (fx "tv 2 sport", "viaplay sport") forventer kanal-
-# id'er med mellemrum/punktummer som kilderne (EPGShare/OpenEPG/BSS) leverer
-# dem i - IKKE de kompakte Output/UHF tvg-id'er ("tv2sport.dk") som
-# normaliseringen producerer. Kører man normalize FØR sport, matcher næsten
-# intet længere, fordi der ikke er noget mellemrum tilbage at matche på.
+# TRIN 4: Normaliser til Output/UHF tvg-id
+# ---------------------------------------------------------------------------
+
+def load_uhf_mapping() -> dict[str, str]:
+    wb = load_workbook(CHANNEL_PRIORITY_V2, data_only=True)
+    ws = wb["Kanal-prioritering v2"] if "Kanal-prioritering v2" in wb.sheetnames else wb.active
+    headers = [cell.value for cell in ws[1]]
+
+    epgshare_col = headers.index("EPGShare ID'er")
+    openepg_col = headers.index("OpenEPG ID'er")
+    bss_col = headers.index("BSS XMLTV ID'er")
+    output_col = headers.index("Output/UHF tvg-id")
+
+    mapping: dict[str, str] = {}
+    for row in ws.iter_rows(min_row=2):
+        output_id = str(row[output_col].value or "").strip()
+        if not output_id:
+            continue
+
+        source_values = []
+        for idx in (epgshare_col, openepg_col, bss_col):
+            raw = row[idx].value
+            if not raw:
+                continue
+            source_values.extend(
+                part.strip() for part in str(raw).split(",") if part.strip()
+            )
+
+        for src in source_values:
+            mapping[normalize_id(src)] = output_id
+
+    return mapping
+
+
+def step6_normalize_uhf_ids() -> None:
+    section("TRIN 6/7: Normaliserer channel-id'er til Output/UHF tvg-id")
+
+    mapping = load_uhf_mapping()
+
+    tree = ET.parse(EPGSHARE_MERGED_FILE)
+    root = tree.getroot()
+
+    remapped_channels: dict[str, str] = {}
+    new_channels: dict[str, ET.Element] = {}
+    new_programmes = []
+
+    for channel in root.findall("channel"):
+        old_id = channel.get("id") or ""
+        new_id = mapping.get(normalize_id(old_id), old_id)
+        channel.set("id", new_id)
+
+        if new_id not in new_channels:
+            new_channels[new_id] = channel
+
+        remapped_channels[old_id] = new_id
+
+    root[:] = [c for c in root if c.tag != "channel"]
+    for channel in new_channels.values():
+        root.append(channel)
+
+    seen_prog = set()
+    for programme in root.findall("programme"):
+        old_channel = programme.get("channel") or ""
+        new_channel = mapping.get(
+            normalize_id(old_channel),
+            remapped_channels.get(old_channel, old_channel),
+        )
+        programme.set("channel", new_channel)
+
+        key = (new_channel, programme.get("start", ""), programme.findtext("title", ""))
+        if key in seen_prog:
+            continue
+        seen_prog.add(key)
+        new_programmes.append(programme)
+
+    root[:] = [n for n in root if n.tag != "programme"]
+    for programme in new_programmes:
+        root.append(programme)
+
+    tree.write(EPGOAL_FILE, encoding="utf-8", xml_declaration=True)
+    save_json(NORMALIZE_LOG_FILE, remapped_channels)
+
+    print(f"Mappings  : {len(mapping):,}")
+    print(f"Kanaler   : {len(new_channels):,}")
+    print(f"Programmer: {len(new_programmes):,}")
+    print(f"Output    : {EPGOAL_FILE}")
+
+
+# ---------------------------------------------------------------------------
+# TRIN 5: Sport-berigelse (på epgoal.xml, in-place)
 # ---------------------------------------------------------------------------
 
 class SportMatcher:
@@ -681,7 +765,7 @@ def sport_tmdb_search(title: str):
 
 def sport_tmdb_images(media_type: str, tmdb_id: int):
     """Sport-fallback: bredere sprogvalg (da,en,null) end den danske
-    backdrop-logik i trin 5, da sport ofte ikke har dansksprogede billeder."""
+    backdrop-logik i trin 6, da sport ofte ikke har dansksprogede billeder."""
     resp = SESSION.get(
         f"{TMDB_BASE}/{media_type}/{tmdb_id}/images",
         params={"api_key": TMDB_API_KEY, "include_image_language": "da,en,null"},
@@ -754,29 +838,19 @@ def clear_artwork(programme) -> None:
         programme.remove(old)
 
 
-def describe_current_artwork(programme) -> str:
-    """Kort, læsbar beskrivelse af billedet programmet FAKTISK endte med -
-    bruges KUN til all_sport_titles_log.json (se export_sport_review.py)."""
-    icon = programme.find("icon")
-    backdrop = programme.find("backdrop")
-    src = None
-    if icon is not None and icon.get("src"):
-        src = icon.get("src")
-    elif backdrop is not None and backdrop.get("src"):
-        src = backdrop.get("src")
-    if not src:
-        return "(intet billede)"
-    if "/Sport/" in src:
-        from urllib.parse import unquote
-        return unquote(src.rsplit("/Sport/", 1)[-1])
-    if "image.tmdb.org" in src:
-        return "TMDb"
-    return src
+def step4_sport_enrichment() -> None:
+    section("TRIN 4/7: Sport-berigelse (epgshare_merged.xml)")
 
+    matcher = SportMatcher(SPORT_IMAGE_BASE_URL)
+    tmdb_overrides = load_json(TMDB_OVERRIDES_FILE, {})
+    cache = load_json(CACHE_FILE, {})
+    cache_before = len(cache)
 
-def run_sport_enrichment_on_tree(root, matcher: SportMatcher, tmdb_overrides: dict,
-                                  cache: dict, sport_tmdb_fallback_enabled: bool):
-    """Kerne-logikken, delt mellem opdater_epgoal.py og gem_epgoal_valg.py."""
+    sport_tmdb_fallback_enabled = bool(TMDB_API_KEY)
+
+    tree = ET.parse(EPGSHARE_MERGED_FILE)
+    root = tree.getroot()
+
     channel_role: dict[str, dict | None] = {}
     for ch in root.findall("channel"):
         cid = ch.get("id", "")
@@ -789,13 +863,6 @@ def run_sport_enrichment_on_tree(root, matcher: SportMatcher, tmdb_overrides: di
     }
     sport_cache_this_run: dict[str, dict | None] = {}
     tmdb_cache_this_run: dict[str, tuple[dict, bool]] = {}
-
-    fallback_titles_log: dict[str, dict[str, int]] = {}
-    partial_sport_matches_log: dict[str, dict[str, int]] = {}
-    all_sport_titles_log: dict[str, dict[str, str]] = {}
-
-    def log_all(chan_id: str, title: str, programme) -> None:
-        all_sport_titles_log.setdefault(chan_id, {})[title] = describe_current_artwork(programme)
 
     for programme in root.findall("programme"):
         stats["programmes"] += 1
@@ -818,17 +885,11 @@ def run_sport_enrichment_on_tree(root, matcher: SportMatcher, tmdb_overrides: di
         if result and result.get("skip"):
             clear_artwork(programme)
             stats["sport_skipped"] += 1
-            log_all(chan_id, title, programme)
             continue
 
         if result:
             set_artwork(programme, result.get("backdrop"), result.get("poster"))
             stats["sport_matched"] += 1
-            if role == "partial_sport":
-                partial_sport_matches_log.setdefault(chan_id, {})
-                key = f"{title} -> {result.get('backdrop') or result.get('poster')}"
-                partial_sport_matches_log[chan_id][key] = partial_sport_matches_log[chan_id].get(key, 0) + 1
-            log_all(chan_id, title, programme)
             continue
 
         should_try_tmdb = sport_tmdb_fallback_enabled and (
@@ -852,55 +913,20 @@ def run_sport_enrichment_on_tree(root, matcher: SportMatcher, tmdb_overrides: di
                     stats["sport_tmdb_cache_hit"] += 1
                 else:
                     stats["sport_tmdb_fresh_call"] += 1
-                if role == "partial_sport":
-                    partial_sport_matches_log.setdefault(chan_id, {})
-                    key = f"{title} -> TMDb"
-                    partial_sport_matches_log[chan_id][key] = partial_sport_matches_log[chan_id].get(key, 0) + 1
-                log_all(chan_id, title, programme)
                 continue
 
         if role == "always_sport":
             fallback_backdrop = role_entry.get("default_backdrop")
             fallback_poster = role_entry.get("default_poster")
-            fallback_titles_log.setdefault(chan_id, {})
-            fallback_titles_log[chan_id][title] = fallback_titles_log[chan_id].get(title, 0) + 1
             if fallback_backdrop or fallback_poster:
                 urls = matcher._image_urls(fallback_backdrop, fallback_poster)
                 set_artwork(programme, urls["backdrop"], urls["poster"])
                 stats["sport_defaulted"] += 1
             else:
                 stats["sport_no_image_yet"] += 1
-            log_all(chan_id, title, programme)
-            continue
-
-        log_all(chan_id, title, programme)
-
-    logs = (fallback_titles_log, partial_sport_matches_log, all_sport_titles_log)
-    return stats, logs
-
-
-def step4_sport_enrichment() -> None:
-    section("TRIN 4/8: Sport-berigelse (epgshare_merged.xml)")
-
-    matcher = SportMatcher(SPORT_IMAGE_BASE_URL)
-    tmdb_overrides = load_json(TMDB_OVERRIDES_FILE, {})
-    cache = load_json(CACHE_FILE, {})
-    cache_before = len(cache)
-
-    sport_tmdb_fallback_enabled = bool(TMDB_API_KEY)
-
-    tree = ET.parse(EPGSHARE_MERGED_FILE)
-    root = tree.getroot()
-
-    stats, (fallback_log, partial_log, all_sport_log) = run_sport_enrichment_on_tree(
-        root, matcher, tmdb_overrides, cache, sport_tmdb_fallback_enabled
-    )
 
     tree.write(EPGSHARE_MERGED_FILE, encoding="utf-8", xml_declaration=True)
     save_json(CACHE_FILE, cache)
-    save_json(FALLBACK_LOG_FILE, fallback_log)
-    save_json(PARTIAL_SPORT_LOG_FILE, partial_log)
-    save_json(ALL_SPORT_TITLES_LOG_FILE, all_sport_log)
 
     print(f"Programmer i alt        : {stats['programmes']:,}")
     print(f"Sport - specifikt match : {stats['sport_matched']:,}")
@@ -912,12 +938,11 @@ def step4_sport_enrichment() -> None:
     print(f"Sport - sprunget over   : {stats['sport_skipped']:,}")
     print(f"Sport - mangler billede : {stats['sport_no_image_yet']:,}")
     print(f"Cache voksede fra {cache_before:,} til {len(cache):,} unikke titler")
-    print(f"Logs skrevet: {FALLBACK_LOG_FILE.name}, {PARTIAL_SPORT_LOG_FILE.name}, {ALL_SPORT_TITLES_LOG_FILE.name}")
 
 
 # ---------------------------------------------------------------------------
-# TRIN 5: Danske TMDb-backdrops — 1:1 portering af danish_backdrops.py /
-#         danish_backdrops_epgshare.py, kørt direkte på epgshare_merged.xml.
+# TRIN 6: Danske TMDb-backdrops — 1:1 portering af danish_backdrops.py /
+#         danish_backdrops_epgshare.py, kørt direkte på epgoal.xml.
 # ---------------------------------------------------------------------------
 
 def load_refresh_titles(path: Path) -> list[str]:
@@ -1079,7 +1104,7 @@ def danish_tmdb_search(title: str):
 
 def tmdb_danish_backdrop(media_type: str, tmdb_id: int) -> str | None:
     """Henter bedste DANSKE backdrop (kun include_image_language=da) - IKKE
-    samme bredde som sport-fallback'en i trin 4. Posters håndteres ikke."""
+    samme bredde som sport-fallback'en i trin 5. Posters håndteres ikke."""
     resp = SESSION.get(
         f"{TMDB_BASE}/{media_type}/{tmdb_id}/images",
         params={"api_key": TMDB_API_KEY, "include_image_language": "da"},
@@ -1151,9 +1176,9 @@ def append_run_log(log_path: Path, stats: dict, cache_size_before: int, cache_si
     save_json(log_path, history)
 
 
-def run_danish_backdrops_on_tree(root):
-    """Kerne-logikken, delt mellem opdater_epgoal.py og gem_epgoal_valg.py.
-    Kører direkte på en allerede-parsed <tv>-root. Returnerer stats-dict."""
+def step5_danish_backdrops() -> None:
+    section("TRIN 5/7: Danske TMDb-backdrops (epgshare_merged.xml) - skrives som <icon>")
+
     config = load_json(CONFIG_FILE, {})
     cache_max_age_days = config.get("cache_max_age_days", CACHE_MAX_AGE_DAYS)
     not_found_cache_max_age_days = config.get(
@@ -1207,6 +1232,9 @@ def run_danish_backdrops_on_tree(root):
         "cache_hits": 0, "fresh_calls": 0, "manual_override_injected": 0,
         "rechecked_after_not_found": 0, "force_refreshed": 0,
     }
+
+    tree = ET.parse(EPGSHARE_MERGED_FILE)
+    root = tree.getroot()
 
     for programme in root.findall("programme"):
         stats["programmes"] += 1
@@ -1270,6 +1298,7 @@ def run_danish_backdrops_on_tree(root):
             ET.SubElement(programme, "icon").set("src", backdrop_url)
             stats["danish_injected"] += 1
 
+    tree.write(EPGSHARE_MERGED_FILE, encoding="utf-8", xml_declaration=True)
     save_json(DANISH_ARTWORK_CACHE_FILE, cache)
     cache_size_after = len(cache)
 
@@ -1332,106 +1361,6 @@ def run_danish_backdrops_on_tree(root):
         save_refresh_titles(GENOPFRISK_TITLER_FILE, remaining_titles)
         print(f"   {GENOPFRISK_TITLER_FILE.name} opdateret ({len(remaining_titles):,} titel(r) tilbage).")
 
-    return stats
-
-
-def step5_danish_backdrops() -> None:
-    section("TRIN 5/8: Danske TMDb-backdrops (epgshare_merged.xml) - skrives som <icon>")
-
-    tree = ET.parse(EPGSHARE_MERGED_FILE)
-    root = tree.getroot()
-    run_danish_backdrops_on_tree(root)
-    tree.write(EPGSHARE_MERGED_FILE, encoding="utf-8", xml_declaration=True)
-
-
-# ---------------------------------------------------------------------------
-# TRIN 6: Normaliser til Output/UHF tvg-id -> epgoal.xml (SIDSTE indholdstrin)
-# ---------------------------------------------------------------------------
-
-def load_uhf_mapping() -> dict[str, str]:
-    wb = load_workbook(CHANNEL_PRIORITY_V2, data_only=True)
-    ws = wb["Kanal-prioritering v2"] if "Kanal-prioritering v2" in wb.sheetnames else wb.active
-    headers = [cell.value for cell in ws[1]]
-
-    epgshare_col = headers.index("EPGShare ID'er")
-    openepg_col = headers.index("OpenEPG ID'er")
-    bss_col = headers.index("BSS XMLTV ID'er")
-    output_col = headers.index("Output/UHF tvg-id")
-
-    mapping: dict[str, str] = {}
-    for row in ws.iter_rows(min_row=2):
-        output_id = str(row[output_col].value or "").strip()
-        if not output_id:
-            continue
-
-        source_values = []
-        for idx in (epgshare_col, openepg_col, bss_col):
-            raw = row[idx].value
-            if not raw:
-                continue
-            source_values.extend(
-                part.strip() for part in str(raw).split(",") if part.strip()
-            )
-
-        for src in source_values:
-            mapping[normalize_id(src)] = output_id
-
-    return mapping
-
-
-def step6_normalize_uhf_ids() -> None:
-    section("TRIN 6/8: Normaliserer channel-id'er til Output/UHF tvg-id")
-
-    mapping = load_uhf_mapping()
-
-    tree = ET.parse(EPGSHARE_MERGED_FILE)
-    root = tree.getroot()
-
-    remapped_channels: dict[str, str] = {}
-    new_channels: dict[str, ET.Element] = {}
-    new_programmes = []
-
-    for channel in root.findall("channel"):
-        old_id = channel.get("id") or ""
-        new_id = mapping.get(normalize_id(old_id), old_id)
-        channel.set("id", new_id)
-
-        if new_id not in new_channels:
-            new_channels[new_id] = channel
-
-        remapped_channels[old_id] = new_id
-
-    root[:] = [c for c in root if c.tag != "channel"]
-    for channel in new_channels.values():
-        root.append(channel)
-
-    seen_prog = set()
-    for programme in root.findall("programme"):
-        old_channel = programme.get("channel") or ""
-        new_channel = mapping.get(
-            normalize_id(old_channel),
-            remapped_channels.get(old_channel, old_channel),
-        )
-        programme.set("channel", new_channel)
-
-        key = (new_channel, programme.get("start", ""), programme.findtext("title", ""))
-        if key in seen_prog:
-            continue
-        seen_prog.add(key)
-        new_programmes.append(programme)
-
-    root[:] = [n for n in root if n.tag != "programme"]
-    for programme in new_programmes:
-        root.append(programme)
-
-    tree.write(EPGOAL_FILE, encoding="utf-8", xml_declaration=True)
-    save_json(NORMALIZE_LOG_FILE, remapped_channels)
-
-    print(f"Mappings  : {len(mapping):,}")
-    print(f"Kanaler   : {len(new_channels):,}")
-    print(f"Programmer: {len(new_programmes):,}")
-    print(f"Output    : {EPGOAL_FILE}")
-
 
 # ---------------------------------------------------------------------------
 # TRIN 7: Git commit + push (samme fetch/rebase-retry-logik som originalerne)
@@ -1484,7 +1413,7 @@ def git_push(repo_dir: Path, commit_message: str) -> None:
 
 
 def step7_git_push() -> None:
-    section("TRIN 7/8: Git commit + push")
+    section("TRIN 7/7: Git commit + push")
 
     if not GIT_ENABLED:
         print("Git er deaktiveret (GIT_ENABLED = False) - springer over.")
@@ -1492,55 +1421,6 @@ def step7_git_push() -> None:
 
     message = f"{GIT_COMMIT_PREFIX} {time.strftime('%Y-%m-%d %H:%M:%S')}"
     git_push(ROOT, message)
-
-
-# ---------------------------------------------------------------------------
-# TRIN 8: Eksporter review-filer (genbruger dine EKSISTERENDE scripts) og
-#         åbn dem automatisk, ligesom opdater_alt.bat gjorde.
-# ---------------------------------------------------------------------------
-
-def run_script(script_name: str) -> bool:
-    script_path = SCRIPTS_DIR / script_name
-    if not script_path.exists():
-        print(f"ADVARSEL: {script_path} findes ikke - springer over.", file=sys.stderr)
-        return False
-    result = subprocess.run([sys.executable, str(script_path)], cwd=ROOT, check=False)
-    return result.returncode == 0
-
-
-def open_file_for_review(path: Path) -> None:
-    if not path.exists():
-        print(f"ADVARSEL: {path} findes ikke - kan ikke åbnes.", file=sys.stderr)
-        return
-    try:
-        if sys.platform.startswith("win"):
-            os.startfile(path)  # type: ignore[attr-defined]
-        elif sys.platform == "darwin":
-            subprocess.run(["open", str(path)], check=False)
-        else:
-            subprocess.run(["xdg-open", str(path)], check=False)
-    except OSError as exc:
-        print(f"ADVARSEL: Kunne ikke åbne {path} automatisk: {exc}", file=sys.stderr)
-
-
-def step8_export_and_open_reviews() -> None:
-    section("TRIN 8/8: Eksporterer review-filer og åbner dem")
-
-    print("Bygger sport_artwork_review.xlsx (scripts/export_sport_review.py) ...")
-    run_script("export_sport_review.py")
-
-    print("\nBygger danish_artwork_review.xlsx (scripts/export_danish_artwork_review.py) ...")
-    run_script("export_danish_artwork_review.py")
-
-    print("\nÅbner begge review-filer til gennemgang ...")
-    open_file_for_review(SPORT_ARTWORK_REVIEW_FILE)
-    open_file_for_review(DANISH_ARTWORK_REVIEW_FILE)
-
-    print()
-    print("Næste skridt:")
-    print("  1. Vælg billeder / markér godkendt (X) i BEGGE filer")
-    print("  2. GEM begge filer")
-    print("  3. Kør 'python scripts/gem_epgoal_valg.py' for at gemme valgene og opdatere epgoal.xml")
 
 
 # ---------------------------------------------------------------------------
@@ -1566,7 +1446,6 @@ def main() -> None:
     step5_danish_backdrops()
     step6_normalize_uhf_ids()
     step7_git_push()
-    step8_export_and_open_reviews()
 
     section("FÆRDIG")
     print(f"epgoal.xml er opdateret: {EPGOAL_FILE}")

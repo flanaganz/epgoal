@@ -1,8 +1,24 @@
 {
-  "TV 2 SPORT HD.dk": {
-    "Tennis: ATP - Tokyo: ATP: Finale, Tokyo": 3
+  "TV.2.Sport.X.dk": {
+    "ATP: Shanghai": 11,
+    "Holger Rune er tilbage på banen": 1,
+    "UEFA Nations League: England-Tjekkiet": 4,
+    "UEFA Nations League: Kasakhstan-Færøerne": 4,
+    "UEFA Nations League: Kroatien-Spanien": 2
   },
-  "TV3 Sport.dk": {
-    "Football Friendly: Argentina - Benin": 1
+  "TV.2.Sport.dk": {
+    "ATP: Finale, Beijing": 2,
+    "ATP: Finale, Tokyo": 4,
+    "Alcaraz-Munar, semifinale, Tokyo": 1,
+    "Bouzkova-Zheng, Beijing": 1,
+    "Djokovic-Medvedev, semifinale, Beijing": 1,
+    "Gauff-Sun, Beijing": 1,
+    "Kvindeligaen: Viborg-Nykøbing F.": 6,
+    "UEFA Nations League: Kroatien-Spanien": 2,
+    "Vacherot-Lehecka, semifinale, Tokyo": 1,
+    "Vekic-Swiatek, Beijing": 1
+  },
+  "TV3.SPORT.dk": {
+    "NHL: Tampa Bay Lightning - Minnesota Wild": 1
   }
 }
