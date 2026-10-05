@@ -7463,6 +7463,11 @@
     "title": "Albert Åberg",
     "ts": 1790148838.4164338
   },
+  "alcaraz-munar, semifinale, tokyo": {
+    "backdrop": null,
+    "title": "Alcaraz-Munar, semifinale, Tokyo",
+    "ts": 1791205681.6977122
+  },
   "aldi, rewe & co. - hvem tjener på mærkevarer?": {
     "backdrop": null,
     "title": "Aldi, Rewe & Co. - Hvem tjener på mærkevarer?",
@@ -11889,6 +11894,11 @@
     "title": "ATP: Semifinale, Tokyo",
     "ts": 1791092881.2974675
   },
+  "atp: shanghai": {
+    "backdrop": null,
+    "title": "ATP: Shanghai",
+    "ts": 1791205682.700618
+  },
   "atp: shelton-nakashima, finale, montreal": {
     "backdrop": null,
     "poster": null,
@@ -13059,6 +13069,11 @@
     "backdrop": "https://image.tmdb.org/t/p/w1280/hwNltX0MWVTH1Ikhy0veahije24.jpg",
     "title": "Badehotellet",
     "ts": 1790232129.687276
+  },
+  "badminton: arctic open": {
+    "backdrop": null,
+    "title": "Badminton: Arctic Open",
+    "ts": 1791205682.3040633
   },
   "badminton: bao/cao-nakade/takahashi, finale, china masters": {
     "backdrop": null,
@@ -21603,6 +21618,11 @@
     "backdrop": null,
     "title": "Bourne Duellen",
     "ts": 1790885088.7080867
+  },
+  "bouzkova-zheng, beijing": {
+    "backdrop": null,
+    "title": "Bouzkova-Zheng, Beijing",
+    "ts": 1791205681.6228797
   },
   "box": {
     "backdrop": null,
@@ -37581,6 +37601,11 @@
     "title": "Djingis Khans förlorade städer: Nomadernas städer",
     "ts": 1791022254.0176938
   },
+  "djokovic-medvedev, semifinale, beijing": {
+    "backdrop": null,
+    "title": "Djokovic-Medvedev, semifinale, Beijing",
+    "ts": 1791205681.8501964
+  },
   "djupet": {
     "backdrop": null,
     "title": "Djupet",
@@ -41439,6 +41464,16 @@
     "backdrop": null,
     "title": "EHF European League",
     "ts": 1790663767.5073109
+  },
+  "ehf european league: karvina-tth holstebro (m)": {
+    "backdrop": null,
+    "title": "EHF European League: Karvina-TTH Holstebro (m)",
+    "ts": 1791205680.6119864
+  },
+  "ehf european league: mors - thy - mol tatabanya": {
+    "backdrop": null,
+    "title": "EHF European League: Mors - Thy - MOL Tatabanya",
+    "ts": 1791205680.8014128
   },
   "ehf men's champions league": {
     "backdrop": null,
@@ -49944,6 +49979,11 @@
     "title": "Fodbold: Internationale Venskabskampe",
     "ts": 1791183352.9540992
   },
+  "fodbold: internationale venskabskampe: argentina - benin": {
+    "backdrop": null,
+    "title": "Fodbold: Internationale Venskabskampe: Argentina - Benin",
+    "ts": 1791205680.9822145
+  },
   "fodbold: kaiserslautern-karlsruhe": {
     "backdrop": null,
     "poster": null,
@@ -50581,6 +50621,11 @@
     "backdrop": null,
     "title": "Formel 1: Bahrain Grand Prix - Race",
     "ts": 1790928367.3733892
+  },
+  "formel 1: bahrains grand prix": {
+    "backdrop": null,
+    "title": "Formel 1: Bahrains Grand Prix",
+    "ts": 1791205679.9066992
   },
   "formel 1: bahrains grand prix - kvalifikation": {
     "backdrop": null,
@@ -54292,6 +54337,11 @@
     "backdrop": null,
     "title": "Gatsby",
     "ts": 1790928555.709215
+  },
+  "gauff-sun, beijing": {
+    "backdrop": null,
+    "title": "Gauff-Sun, Beijing",
+    "ts": 1791205681.9233184
   },
   "gautier capuçon à l'olympia": {
     "backdrop": null,
@@ -64072,7 +64122,7 @@
   "holger rune er tilbage på banen": {
     "backdrop": null,
     "title": "Holger Rune er tilbage på banen",
-    "ts": 1790312162.0379121
+    "ts": 1791205682.5154886
   },
   "holger sandte": {
     "backdrop": null,
@@ -81056,6 +81106,11 @@
     "backdrop": null,
     "title": "Kvindeligaen: Studiet",
     "ts": 1790663766.5405085
+  },
+  "kvindeligaen: viborg-nykøbing f.": {
+    "backdrop": null,
+    "title": "Kvindeligaen: Viborg-Nykøbing F.",
+    "ts": 1791205682.113044
   },
   "kvindelige pirater: havets rebeller": {
     "backdrop": null,
@@ -99514,6 +99569,21 @@
     "backdrop": null,
     "title": "NHL On The Fly",
     "ts": 1791183275.2218254
+  },
+  "nhl: tampa bay lightning - minnesota wild": {
+    "backdrop": null,
+    "title": "NHL: Tampa Bay Lightning - Minnesota Wild",
+    "ts": 1791205681.4569633
+  },
+  "nhl: tampa bay-philadelphia": {
+    "backdrop": null,
+    "title": "NHL: Tampa Bay-Philadelphia",
+    "ts": 1791205680.088087
+  },
+  "nhl: washington capitals - pittsburgh penguins": {
+    "backdrop": null,
+    "title": "NHL: Washington Capitals - Pittsburgh Penguins",
+    "ts": 1791205681.3507833
   },
   "ni chaînes ni maîtres": {
     "backdrop": null,
@@ -130230,6 +130300,11 @@
     "poster": null,
     "ts": 1786092787.5798447
   },
+  "superligaens topchefer": {
+    "backdrop": null,
+    "title": "Superligaens Topchefer",
+    "ts": 1791205680.401802
+  },
   "superligaens topchefer ii": {
     "backdrop": null,
     "title": "Superligaens Topchefer II",
@@ -137215,7 +137290,7 @@
   "the capture": {
     "backdrop": null,
     "title": "The Capture",
-    "ts": 1791201931.8588753
+    "ts": 1791205679.712978
   },
   "the capture ii (2:6)": {
     "backdrop": null,
@@ -151622,6 +151697,11 @@
     "title": "Vacation Secrets 2",
     "ts": 1790148822.9221635
   },
+  "vacherot-lehecka, semifinale, tokyo": {
+    "backdrop": null,
+    "title": "Vacherot-Lehecka, semifinale, Tokyo",
+    "ts": 1791205681.7738261
+  },
   "vad blir det för mat?": {
     "backdrop": null,
     "poster": null,
@@ -152276,6 +152356,11 @@
     "backdrop": null,
     "title": "Vejrudsigt",
     "ts": 1789131591.5064256
+  },
+  "vekic-swiatek, beijing": {
+    "backdrop": null,
+    "title": "Vekic-Swiatek, Beijing",
+    "ts": 1791205681.5471437
   },
   "vekst og fall: vendepunktene i den 2. verdenskrig": {
     "backdrop": null,
@@ -157315,7 +157400,7 @@
   "watt the f1!?": {
     "backdrop": null,
     "title": "Watt the F1!?",
-    "ts": 1790148887.32753
+    "ts": 1791205681.1600947
   },
   "watzmann ermittelt": {
     "backdrop": null,
@@ -159426,6 +159511,11 @@
     "backdrop": null,
     "title": "WTA: Gauff-Pegula, finale, Cincinnati",
     "ts": 1787639849.6931224
+  },
+  "wta: kvartfinale, beijing": {
+    "backdrop": null,
+    "title": "WTA: Kvartfinale, Beijing",
+    "ts": 1791205682.8807414
   },
   "wta: kvartfinale, cincinnati": {
     "backdrop": null,
