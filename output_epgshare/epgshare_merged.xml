@@ -2808,7 +2808,7 @@
     <title lang="da">Når vreden tager over</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'Når vreden rammer'. Fire kendte danskere åbner døren til en følelse, som de færreste har lyst til at vise frem. For hvad gemmer der sig bag de øjeblikke, hvor vreden tager over, og man mister kontrollen? Dennis Knudsen, Katerina Pitzner, Mikkel Kryger og Sanne Troelsgaard fortæller om de sider af sig selv, der er svære at tale om, og som kan få store konsekvenser for både dem selv og deres omgivelser. De deler ærligt ud af oplevelser, de normalt helst ville gemme væk, og Katerina fortæller om en episode, hvor vreden tog magten. Tilladt for: A.</desc>
     <category lang="da">Fritid</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/fAxzMWwhVkNKTRtuVE8cXwqPTo4.jpg" /></programme>
   <programme start="20261008185000 +0000" stop="20261008192000 +0000" channel="TV.2.dk">
     <title lang="da">Aften News</title>
     <desc lang="da">'Aften News'. Hvad er der sket i dag? Få seneste nyheder fra både Danmark og udlandet i 'Aften News'. Tilladt for: A.</desc>
@@ -45086,7 +45086,7 @@
       <actor>Sylvester Morand</actor>
     </credits>
     <category lang="da">Film</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/u9xArhs01IOfFQ64QRq2qGoLxWW.jpg" /></programme>
   <programme start="20261008140000 +0000" stop="20261008161000 +0000" channel="V.film.hits.dk">
     <title lang="da">The Twilight Saga: New Moon</title>
     <desc lang="da">'The Twilight Saga: New Moon'. Efter at have forelsket sig dødeligt i vampyren Edward Cullen, bliver Bella Swan helt knust over hans pludselige forsvinden. Hun bliver ven med den uimodståelige Jacob Black, men inddrages i en verden af varulve, vampyrernes dødsfjender, og hendes loyalitet bliver nu sat på en prøve. Instruktør: Chris Weitz. Medvirkende: Kristen Stewart, Robert Pattinson, Taylor Lautner, Christina Jastrzembska. Tilladt for: 11.</desc>
