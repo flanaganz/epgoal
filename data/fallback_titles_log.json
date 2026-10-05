@@ -1,11 +1,30 @@
 {
-  "TV 2 SPORT X.dk": {
-    "Holger Rune er tilbage på banen": 1
-  },
-  "TV 2 Sport X Denmark (DK,DA).dk": {
-    "Holger Rune er tilbage på banen": 1
+  "TV 2 SPORT HD.dk": {
+    "Tennis: ATP - Tokyo: ATP: Finale, Tokyo": 3
   },
   "TV 2 Sport X.dk": {
-    "Holger Rune er tilbage på banen": 2
+    "UEFA Nations League: Aserbajdsjan-Litauen": 1,
+    "UEFA Nations League: Bosnien-Hercegovina - Polen": 2,
+    "UEFA Nations League: Cypern-Letland": 4,
+    "UEFA Nations League: Frankrig-Belgien": 4,
+    "UEFA Nations League: Italien-Tyrkiet": 4,
+    "UEFA Nations League: Kosovo-Østrig": 2,
+    "UEFA Nations League: Rumænien-Sverige": 3
+  },
+  "TV 2 Sport.dk": {
+    "ATP: Alcaraz-Shapovalov, kvartfinale, Tokyo": 1,
+    "ATP: Kvartfinaler, Beijing": 1,
+    "ATP: Semifinale, Beijing": 1,
+    "ATP: Semifinale, Tokyo": 2,
+    "ATP: Vacherot-Fils, kvartfinale, Tokyo": 1,
+    "ATP: Zverev-Djokovic, kvartfinale, Beijing": 1,
+    "UEFA Nations League: Italien-Tyrkiet": 2
+  },
+  "TV3 Sport HD (D).dk": {
+    "EHF European League: Mors - Thy - MOL Tatabanya": 1
+  },
+  "TV3 Sport.dk": {
+    "EHF Men's European League: Mors-Thy - MOL Tatabanya": 1,
+    "Football Friendly: Argentina - Benin": 1
   }
 }
