@@ -93,7 +93,7 @@
     {
       "kanal": "Eurosport.2.dk",
       "kilde": "epgshare",
-      "programmer": 71,
+      "programmer": 69,
       "vindue_timer": 95.5
     },
     {
@@ -117,7 +117,7 @@
     {
       "kanal": "Kosmopol (Digital).dk",
       "kilde": "epgshare",
-      "programmer": 170,
+      "programmer": 169,
       "vindue_timer": 90.2
     },
     {
@@ -189,7 +189,7 @@
     {
       "kanal": "TV2 News.dk",
       "kilde": "epgshare",
-      "programmer": 57,
+      "programmer": 58,
       "vindue_timer": 89.0
     },
     {
@@ -310,8 +310,8 @@
       "kilde_brugt": "openepg",
       "kilde_channel_id": "boomerang.dk",
       "primaer_channel_id": "boomerangdk.dk",
-      "programmer_indsat": 314,
-      "vindue_timer_efter": 50.4
+      "programmer_indsat": 386,
+      "vindue_timer_efter": 62.2
     },
     {
       "epgshare_programmer_foer": 0,
@@ -320,8 +320,8 @@
       "kilde_brugt": "openepg",
       "kilde_channel_id": "cmorestars.dk",
       "primaer_channel_id": "cmorestarsdk.dk",
-      "programmer_indsat": 91,
-      "vindue_timer_efter": 50.4
+      "programmer_indsat": 112,
+      "vindue_timer_efter": 62.1
     },
     {
       "epgshare_programmer_foer": 0,
@@ -330,8 +330,8 @@
       "kilde_brugt": "bss",
       "kilde_channel_id": "disney_junior",
       "primaer_channel_id": "Disney.Junior.dk",
-      "programmer_indsat": 131,
-      "vindue_timer_efter": 31.8
+      "programmer_indsat": 110,
+      "vindue_timer_efter": 26.2
     },
     {
       "epgshare_programmer_foer": 0,
@@ -368,10 +368,10 @@
       "epgshare_vindue_timer_foer": 0,
       "kanal": "SF-kanalen.dk",
       "kilde_brugt": "openepg",
-      "kilde_channel_id": "SF-kanalen.dk",
+      "kilde_channel_id": "sfkanalen.dk",
       "primaer_channel_id": "sfkanalendk.dk",
-      "programmer_indsat": 34,
-      "vindue_timer_efter": 52.6
+      "programmer_indsat": 41,
+      "vindue_timer_efter": 61.6
     },
     {
       "epgshare_programmer_foer": 0,
@@ -390,8 +390,8 @@
       "kilde_brugt": "openepg",
       "kilde_channel_id": "tv2kosmopol.dk",
       "primaer_channel_id": "tv2kosmopoldk.dk",
-      "programmer_indsat": 71,
-      "vindue_timer_efter": 50.0
+      "programmer_indsat": 81,
+      "vindue_timer_efter": 62.1
     },
     {
       "epgshare_programmer_foer": 0,
@@ -410,8 +410,8 @@
       "kilde_brugt": "openepg",
       "kilde_channel_id": "viasatfamily.dk",
       "primaer_channel_id": "viasatfamilydk.dk",
-      "programmer_indsat": 27,
-      "vindue_timer_efter": 48.0
+      "programmer_indsat": 33,
+      "vindue_timer_efter": 60.0
     }
   ]
 }
