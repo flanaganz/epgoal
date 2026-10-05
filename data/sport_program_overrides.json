@@ -337,6 +337,10 @@
     "backdrop": "Tennis ATP 500.jpg",
     "poster": "Tennis ATP 500.jpg"
   },
+  "atp: alcaraz-shapovalov, kvartfinale, tokyo": {
+    "backdrop": "ATP Tour Highlights.jpg",
+    "poster": "ATP Tour Highlights.jpg"
+  },
   "atp: arnaldi-sakamoto, tokyo": {
     "backdrop": "Tennis ATP 500.jpg",
     "poster": "Tennis ATP 500.jpg"
@@ -357,6 +361,10 @@
     "backdrop": "ATP Tour Highlights.jpg",
     "poster": "ATP Tour Highlights.jpg"
   },
+  "atp: kvartfinaler, beijing": {
+    "backdrop": "ATP Tour Highlights.jpg",
+    "poster": "ATP Tour Highlights.jpg"
+  },
   "atp: rune-alcaraz, finale, barcelona": {
     "backdrop": "ATP-1000.jpg",
     "poster": "ATP-1000.jpg"
@@ -364,6 +372,14 @@
   "atp: rune-jacquet, tokyo": {
     "backdrop": "Tennis ATP 500.jpg",
     "poster": "Tennis ATP 500.jpg"
+  },
+  "atp: semifinale, beijing": {
+    "backdrop": "ATP Tour Highlights.jpg",
+    "poster": "ATP Tour Highlights.jpg"
+  },
+  "atp: semifinale, tokyo": {
+    "backdrop": "ATP Tour Highlights.jpg",
+    "poster": "ATP Tour Highlights.jpg"
   },
   "atp: tabilo-paul, tokyo": {
     "backdrop": "Tennis ATP 500.jpg",
@@ -373,6 +389,10 @@
     "backdrop": "Tennis ATP 500.jpg",
     "poster": "Tennis ATP 500.jpg"
   },
+  "atp: vacherot-fils, kvartfinale, tokyo": {
+    "backdrop": "ATP Tour Highlights.jpg",
+    "poster": "ATP Tour Highlights.jpg"
+  },
   "atp: vacherot-tsitsipas, tokyo": {
     "backdrop": "ATP Tour Highlights.jpg",
     "poster": "ATP Tour Highlights.jpg"
@@ -380,6 +400,10 @@
   "atp: vallejo-jodar, tokyo": {
     "backdrop": "Tennis ATP 500.jpg",
     "poster": "Tennis ATP 500.jpg"
+  },
+  "atp: zverev-djokovic, kvartfinale, beijing": {
+    "backdrop": "ATP Tour Highlights.jpg",
+    "poster": "ATP Tour Highlights.jpg"
   },
   "atp: zverev-shang, beijing": {
     "backdrop": "ATP Tour Highlights.jpg",
@@ -853,6 +877,10 @@
     "backdrop": "EHF Mens Champions League.jpg",
     "poster": "EHF Mens Champions League.jpg"
   },
+  "ehf european league: mors - thy - mol tatabanya": {
+    "backdrop": "EHF Mens Champions League.jpg",
+    "poster": "EHF Mens Champions League.jpg"
+  },
   "ehf men's champions league": {
     "backdrop": "EHF Mens Champions League.jpg",
     "poster": "EHF Mens Champions League.jpg"
@@ -878,6 +906,10 @@
     "poster": "EHF Mens Champions League.jpg"
   },
   "ehf men's european league: hcb karvina - tth holstebro": {
+    "backdrop": "EHF Mens Champions League.jpg",
+    "poster": "EHF Mens Champions League.jpg"
+  },
+  "ehf men's european league: mors-thy - mol tatabanya": {
     "backdrop": "EHF Mens Champions League.jpg",
     "poster": "EHF Mens Champions League.jpg"
   },
@@ -1277,6 +1309,10 @@
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
+  "fodbold: nations league: uefa nations league: england-tjekkiet": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
   "fodbold: nations league: uefa nations league: finland-albanien": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
@@ -1321,6 +1357,10 @@
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
+  "fodbold: nations league: uefa nations league: kasakhstan-færøerne": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
   "fodbold: nations league: uefa nations league: kasakhstan-moldova": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
@@ -1330,6 +1370,10 @@
     "poster": "Nations League1.jpg"
   },
   "fodbold: nations league: uefa nations league: kroatien-england": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "fodbold: nations league: uefa nations league: kroatien-spanien": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
@@ -2705,6 +2749,10 @@
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
+  "uefa nations league: aserbajdsjan-litauen": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
   "uefa nations league: belgien-frankrig": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
@@ -2713,7 +2761,15 @@
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
+  "uefa nations league: bosnien-hercegovina - polen": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
   "uefa nations league: bosnien-hercegovina - sverige": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "uefa nations league: cypern-letland": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
@@ -2734,6 +2790,10 @@
     "poster": "Nations League1.jpg"
   },
   "uefa nations league: finland-albanien": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "uefa nations league: frankrig-belgien": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
@@ -2789,7 +2849,15 @@
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
+  "uefa nations league: italien-tyrkiet": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
   "uefa nations league: kasakhstan-moldova": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "uefa nations league: kosovo-østrig": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
@@ -2822,6 +2890,10 @@
     "poster": "Nations League1.jpg"
   },
   "uefa nations league: portugal-wales": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "uefa nations league: rumænien-sverige": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
@@ -3038,6 +3110,10 @@
     "poster": "3F Superliga.jpg"
   },
   "wta: fernandez-gibson, finale, singapore": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "wta: muchova-samsonova, beijing": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
