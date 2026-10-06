@@ -12164,7 +12164,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/8QAo7kETiBXa1Sx1tKF0t8WGfKG.jpg" /></programme>
   <programme start="20261009211000 +0000" stop="20261009221500 +0000" channel="TV3.Puls.dk">
     <title lang="da">Shark Tank</title>
     <desc lang="da">Sæson: 14. Episode: 2. 'Shark Tank'. Shark Tank. Tilladt for: 11.</desc>
@@ -42345,7 +42345,7 @@
     <title lang="da">Donaufloden i billeder</title>
     <desc lang="da">'Donaufloden i billeder'. Filmmageren Braňo Molnár skaber et følelsesladet portræt af Donaufloden, hvor hundredvis af planter og dyr, der har oplevet drastiske forandringer gennem de seneste år, hører hjemme. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/Ao7JnFgub4bhYHWvztu81hnDfAH.jpg" /></programme>
   <programme start="20261009190000 +0000" stop="20261009200500 +0000" channel="Viasat.Nature.dk">
     <title lang="da">Rovdyr</title>
     <desc lang="da">'Rovdyr'. På øverste trin i fødekæden i dyreriget finder vi nogle skruppelløse dræbermaskiner. Men i vildmarken er skarpe instinkter ikke nok. Disse rovdyr har et dødeligt design, som inkluderer avancerede... Tilladt for: A.</desc>
@@ -44805,7 +44805,7 @@
       <actor>Danny Thykær</actor>
     </credits>
     <category lang="da">Film</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/dcQaM7dHhXcOUD8djhzZZsglhhu.jpg" /></programme>
   <programme start="20261009074000 +0000" stop="20261009095000 +0000" channel="V.film.hits.dk">
     <title lang="da">The Twilight Saga: New Moon</title>
     <desc lang="da">'The Twilight Saga: New Moon'. Efter at have forelsket sig dødeligt i vampyren Edward Cullen, bliver Bella Swan helt knust over hans pludselige forsvinden. Hun bliver ven med den uimodståelige Jacob Black, men inddrages i en verden af varulve, vampyrernes dødsfjender, og hendes loyalitet bliver nu sat på en prøve. Instruktør: Chris Weitz. Medvirkende: Kristen Stewart, Robert Pattinson, Taylor Lautner, Christina Jastrzembska. Tilladt for: 11.</desc>
@@ -44931,7 +44931,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/xT781WYQeoi6r1bXR2maMozwB8S.jpg" /></programme>
   <programme start="20261009200000 +0000" stop="20261009220000 +0000" channel="V.film.hits.dk">
     <title lang="da">Nattens Dæmoner</title>
     <desc lang="da">'Nattens Dæmoner'. Før Amityville var der Harrisville. The Conjuring er den grufulde historie om Ed og Lorraine Warren, de verdensberømte paranormale efterforskere hyret til at hjælpe en familie, der blev terroriseret af et dystert væsen i et hus på landet. Instruktør: James Wan. Medvirkende: Patrick Wilson, Vera Farmiga, Ron Livingston, Lili Taylor. Tilladt for: 15.</desc>
@@ -70663,7 +70663,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/1uw0rmBss3FzypF3W2BA6JVvxuH.jpg" /></programme>
   <programme start="20261009191500 +0000" stop="20261009193500 +0000" channel="DR.Ramasjang.dk">
     <title lang="da">Godnat - nu går vi i seng</title>
     <desc lang="da">'Godnat, nu går vi i seng'. Ramasjang har lagt sig til ro. Tilladt for: A.</desc>
