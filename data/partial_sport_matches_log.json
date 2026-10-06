@@ -1,8 +1,12 @@
 {
+  "TV3 MAX HD.dk": {
+    "Champions Hockey League: Kölner Haie - Herning Blue Fox -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20Hockey%20League.jpg": 1
+  },
   "TV3 Max Denmark (DK,DA).dk": {
     "Champions Hockey League -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20Hockey%20League.jpg": 1
   },
   "TV3 Max.dk": {
-    "Champions Hockey League -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20Hockey%20League.jpg": 2
+    "Champions Hockey League -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20Hockey%20League.jpg": 2,
+    "Champions Hockey League: Kölner Haie - Herning Blue Fox -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20Hockey%20League.jpg": 1
   }
 }

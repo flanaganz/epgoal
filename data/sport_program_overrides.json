@@ -333,6 +333,10 @@
     "backdrop": "ATP Tour Highlights.jpg",
     "poster": "ATP Tour Highlights.jpg"
   },
+  "atp: alcaraz-lehecka, finale, tokyo": {
+    "backdrop": "ATP_WTA Tennis.jpg",
+    "poster": "ATP_WTA Tennis.jpg"
+  },
   "atp: alcaraz-michelsen, tokyo": {
     "backdrop": "Tennis ATP 500.jpg",
     "poster": "Tennis ATP 500.jpg"
@@ -352,6 +356,10 @@
   "atp: bu-djokovic, beijing": {
     "backdrop": "ATP Tour Highlights.jpg",
     "poster": "ATP Tour Highlights.jpg"
+  },
+  "atp: de minaur-djokovic, finale, beijing": {
+    "backdrop": "ATP_WTA Tennis.jpg",
+    "poster": "ATP_WTA Tennis.jpg"
   },
   "atp: fils-van assche, tokyo": {
     "backdrop": "Tennis ATP 500.jpg",
@@ -380,6 +388,10 @@
   "atp: semifinale, tokyo": {
     "backdrop": "ATP Tour Highlights.jpg",
     "poster": "ATP Tour Highlights.jpg"
+  },
+  "atp: shanghai": {
+    "backdrop": "ATP_WTA Tennis.jpg",
+    "poster": "ATP_WTA Tennis.jpg"
   },
   "atp: tabilo-paul, tokyo": {
     "backdrop": "Tennis ATP 500.jpg",
@@ -678,6 +690,10 @@
     "poster": "Champions Hockey League.jpg"
   },
   "champions hockey league: herning blue fox - saipa": {
+    "backdrop": "Champions Hockey League.jpg",
+    "poster": "Champions Hockey League.jpg"
+  },
+  "champions hockey league: kölner haie - herning blue fox": {
     "backdrop": "Champions Hockey League.jpg",
     "poster": "Champions Hockey League.jpg"
   },
@@ -1221,6 +1237,14 @@
     "backdrop": "Fodbold Friuli Venezia Giulia Cup - Kampe.jpg",
     "poster": "Fodbold Friuli Venezia Giulia Cup - Kampe.jpg"
   },
+  "fodbold: internationale venskabskampe": {
+    "backdrop": "Venskabskamp Testkamp.jpg",
+    "poster": "Venskabskamp Testkamp.jpg"
+  },
+  "fodbold: internationale venskabskampe: argentina - benin": {
+    "backdrop": "Venskabskamp Testkamp.jpg",
+    "poster": "Venskabskamp Testkamp.jpg"
+  },
   "fodbold: nations league": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
@@ -1477,6 +1501,10 @@
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
+  "football friendly: argentina - benin": {
+    "backdrop": "Venskabskamp Testkamp.jpg",
+    "poster": "Venskabskamp Testkamp.jpg"
+  },
   "formel 1": {
     "backdrop": "F1.jpg",
     "poster": "F1.jpg"
@@ -1490,8 +1518,8 @@
     "poster": "https://image.tmdb.org/t/p/original/uzNsBqsMSkKyL4bbatvCvYYpDOj.jpg"
   },
   "formel 1 360°: miami gp": {
-    "backdrop": "3F Superliga.jpg",
-    "poster": "3F Superliga.jpg"
+    "backdrop": "360F1.jpg",
+    "poster": "360F1.jpg"
   },
   "formel 1 studie": {
     "backdrop": "F1Studio.jpg",
@@ -1853,6 +1881,10 @@
     "backdrop": "Kvindeligaen.jpg",
     "poster": "Kvindeligaen.jpg"
   },
+  "kvindeligaen: viborg-nykøbing f.": {
+    "backdrop": "Kvindeligaen.jpg",
+    "poster": "Kvindeligaen.jpg"
+  },
   "league cup: ipswich - arsenal": {
     "backdrop": "League Cup.jpg",
     "poster": "League Cup.jpg"
@@ -1984,6 +2016,10 @@
   "nhl: tampa bay-philadelphia": {
     "backdrop": "NHL.jpg",
     "poster": "NHL.jpg"
+  },
+  "nhl: washington capitals - pittsburgh penguins": {
+    "backdrop": "ATP_WTA Tennis.jpg",
+    "poster": "ATP_WTA Tennis.jpg"
   },
   "onside": {
     "backdrop": "Onside.jpg",
@@ -2522,8 +2558,8 @@
     "poster": "Tennis ATP 500.jpg"
   },
   "tennis: atp - tokyo": {
-    "backdrop": "Tennis ATP 500.jpg",
-    "poster": "Tennis ATP 500.jpg"
+    "backdrop": "ATP_WTA Tennis.jpg",
+    "poster": "ATP_WTA Tennis.jpg"
   },
   "tennis: atp - tokyo: atp: alcaraz-michelsen, tokyo": {
     "backdrop": "ATP Tour Highlights.jpg",
@@ -2536,6 +2572,10 @@
   "tennis: atp - tokyo: atp: fils-van assche, tokyo": {
     "backdrop": "Tennis ATP 500.jpg",
     "poster": "Tennis ATP 500.jpg"
+  },
+  "tennis: atp - tokyo: atp: finale, tokyo": {
+    "backdrop": "ATP_WTA Tennis.jpg",
+    "poster": "ATP_WTA Tennis.jpg"
   },
   "tennis: atp - tokyo: atp: kvartfinale, tokyo": {
     "backdrop": "ATP Tour Highlights.jpg",
@@ -2569,9 +2609,17 @@
     "backdrop": "Tennis ATP 1000.jpg",
     "poster": "Tennis ATP 1000.jpg"
   },
+  "tennis: atp 1000 - shanghai - kampe": {
+    "backdrop": "ATP_WTA Tennis.jpg",
+    "poster": "ATP_WTA Tennis.jpg"
+  },
+  "tennis: atp 1000 - shanghai - kampe: atp: shanghai": {
+    "backdrop": "ATP_WTA Tennis.jpg",
+    "poster": "ATP_WTA Tennis.jpg"
+  },
   "tennis: atp 500 - beijing - kampe": {
-    "backdrop": "Tennis ATP 500.jpg",
-    "poster": "Tennis ATP 500.jpg"
+    "backdrop": "ATP_WTA Tennis.jpg",
+    "poster": "ATP_WTA Tennis.jpg"
   },
   "tennis: atp 500 - beijing - kampe: atp: beijing": {
     "backdrop": "Tennis ATP 500.jpg",
@@ -2580,6 +2628,10 @@
   "tennis: atp 500 - beijing - kampe: atp: bu-djokovic, beijing": {
     "backdrop": "ATP Tour Highlights.jpg",
     "poster": "ATP Tour Highlights.jpg"
+  },
+  "tennis: atp 500 - beijing - kampe: atp: finale, beijing": {
+    "backdrop": "ATP_WTA Tennis.jpg",
+    "poster": "ATP_WTA Tennis.jpg"
   },
   "tennis: atp 500 - beijing - kampe: atp: semifinale, beijing": {
     "backdrop": "ATP Tour Highlights.jpg",
@@ -2590,12 +2642,12 @@
     "poster": "Davis Cup.jpg"
   },
   "tennis: wta 1000 - beijng - kampe": {
-    "backdrop": "WTA-generic.jpg",
-    "poster": "WTA-generic.jpg"
+    "backdrop": "ATP_WTA Tennis.jpg",
+    "poster": "ATP_WTA Tennis.jpg"
   },
   "tennis: wta 1000 - beijng - kampe: wta: beijing": {
-    "backdrop": "WTA-generic.jpg",
-    "poster": "WTA-generic.jpg"
+    "backdrop": "ATP_WTA Tennis.jpg",
+    "poster": "ATP_WTA Tennis.jpg"
   },
   "tennis: wta 1000 - beijng - kampe: wta: rybakina-charaeva, beijing": {
     "backdrop": "WTA-generic.jpg",
@@ -2634,6 +2686,10 @@
     "poster": "TV-Udbruddet.jpg"
   },
   "tv-udbruddet: tv - udbruddet: casper pedersen gæster studiet": {
+    "backdrop": "TV-Udbruddet.jpg",
+    "poster": "TV-Udbruddet.jpg"
+  },
+  "tv-udbruddet: tv - udbruddet: skjelmoses sæson er slut": {
     "backdrop": "TV-Udbruddet.jpg",
     "poster": "TV-Udbruddet.jpg"
   },
@@ -2793,6 +2849,10 @@
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
+  "uefa nations league: england-tjekkiet": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
   "uefa nations league: finland-albanien": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
@@ -2857,6 +2917,10 @@
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
+  "uefa nations league: kasakhstan-færøerne": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
   "uefa nations league: kasakhstan-moldova": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
@@ -2866,6 +2930,10 @@
     "poster": "Nations League1.jpg"
   },
   "uefa nations league: kroatien-england": {
+    "backdrop": "Nations League1.jpg",
+    "poster": "Nations League1.jpg"
+  },
+  "uefa nations league: kroatien-spanien": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
@@ -3113,13 +3181,25 @@
     "backdrop": "3F Superliga.jpg",
     "poster": "3F Superliga.jpg"
   },
+  "wta: beijing": {
+    "backdrop": "ATP_WTA Tennis.jpg",
+    "poster": "ATP_WTA Tennis.jpg"
+  },
   "wta: fernandez-gibson, finale, singapore": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
+  "wta: kvartfinale, beijing": {
+    "backdrop": "ATP_WTA Tennis.jpg",
+    "poster": "ATP_WTA Tennis.jpg"
+  },
   "wta: muchova-samsonova, beijing": {
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
+  },
+  "wta: noskova-alexandrova, beijing": {
+    "backdrop": "ATP_WTA Tennis.jpg",
+    "poster": "ATP_WTA Tennis.jpg"
   },
   "wta: rybakina-charaeva, beijing": {
     "backdrop": "WTA-generic.jpg",
