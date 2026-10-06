@@ -1,5 +1,11 @@
 {
+  "DR1.dk": {
+    "Fodbold: Canada - Danmark (k), direkte -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1
+  },
   "TV3.MAX.dk": {
-    "EHF Women's Champions League: Odense-Storhamar (k) -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/EHF%20Mens%20Champions%20League.jpg": 1
+    "3F Superliga: FC Nordsjælland - OB -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 2,
+    "Champions League Weekly -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League%20Weekly.jpg": 1,
+    "Let’s Be Frank -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Let%27s%20be%20Frank2.jpg": 2,
+    "PDC European Tour -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PDC%20World%20Series%20of%20Darts2.JPG": 1
   }
 }
