@@ -1,0 +1,12 @@
+﻿Status;Bemærkning;Kanalgruppe;Kvalitet;Streamnavn;Stream tvg-id;Output/UHF tvg-id;Output programmer;Kendte ID'er fra priority;Fundet i kilder
+MANGLER TVG-ID;Streamen har intet tvg-id;Boomerang.dk;NORMAL;BOOMERANG [Caribbean];;;0;boomerang.dk;
+MANGLER EPG;kendt alternativt kilde-ID, output-ID har 0 programmer;TV3.dk;NORMAL;TV3 DK [Denmark];tv3plus.dk;TV3.dk;0;DA).dk, TV3 Denmark (DK, TV3 HD (D) (T).dk, TV3+.dk, TV3.dk, tv3.dk, tv3plus.dk;"BSS:tv3plus.dk(42); OpenEPG:tv3plus.dk(43)"
+MANGLER EPG;kendt alternativt kilde-ID, output-ID har 0 programmer;TV3.dk;FHD;TV3 FHD DK [Denmark];tv3plus.dk;TV3.dk;0;DA).dk, TV3 Denmark (DK, TV3 HD (D) (T).dk, TV3+.dk, TV3.dk, tv3.dk, tv3plus.dk;"BSS:tv3plus.dk(42); OpenEPG:tv3plus.dk(43)"
+MANGLER EPG;kendt alternativt kilde-ID, output-ID har 0 programmer;TV3.dk;HD;TV3 HD DK [Denmark];tv3plus.dk;TV3.dk;0;DA).dk, TV3 Denmark (DK, TV3 HD (D) (T).dk, TV3+.dk, TV3.dk, tv3.dk, tv3plus.dk;"BSS:tv3plus.dk(42); OpenEPG:tv3plus.dk(43)"
+MANGLER TVG-ID;Streamen har intet tvg-id;TV3.dk;NORMAL;TV3+ DK [Denmark];;TV3.dk;0;DA).dk, TV3 Denmark (DK, TV3 HD (D) (T).dk, TV3+.dk, TV3.dk, tv3.dk, tv3plus.dk;
+FORKERT KANAL;TV3+-gruppen indeholder en TV3 stream;TV3+.dk;NORMAL;TV3 DK [Denmark];tv3plus.dk;TV3+.dk;180;DA).dk, TV3+ Denmark (DK, TV3+ HD (D) (T).dk, TV3+.dk, TV3.dk, tv3.dk, tv3plus.dk;"BSS:tv3plus.dk(42); OpenEPG:tv3plus.dk(43)"
+FORKERT KANAL;TV3+-gruppen indeholder en TV3 stream;TV3+.dk;FHD;TV3 FHD DK [Denmark];tv3plus.dk;TV3+.dk;180;DA).dk, TV3+ Denmark (DK, TV3+ HD (D) (T).dk, TV3+.dk, TV3.dk, tv3.dk, tv3plus.dk;"BSS:tv3plus.dk(42); OpenEPG:tv3plus.dk(43)"
+FORKERT KANAL;TV3+-gruppen indeholder en TV3 stream;TV3+.dk;HD;TV3 HD DK [Denmark];tv3plus.dk;TV3+.dk;180;DA).dk, TV3+ Denmark (DK, TV3+ HD (D) (T).dk, TV3+.dk, TV3.dk, tv3.dk, tv3plus.dk;"BSS:tv3plus.dk(42); OpenEPG:tv3plus.dk(43)"
+MANGLER TVG-ID;Streamen har intet tvg-id;TV3+.dk;NORMAL;TV3+ DK [Denmark];;TV3+.dk;180;DA).dk, TV3+ Denmark (DK, TV3+ HD (D) (T).dk, TV3+.dk, TV3.dk, tv3.dk, tv3plus.dk;
+MANGLER TVG-ID;Streamen har intet tvg-id;TV3+.dk;FHD;TV3+ FHD DK [Denmark];;TV3+.dk;180;DA).dk, TV3+ Denmark (DK, TV3+ HD (D) (T).dk, TV3+.dk, TV3.dk, tv3.dk, tv3plus.dk;
+MANGLER TVG-ID;Streamen har intet tvg-id;TV3+.dk;HD;TV3+ HD DK [Denmark];;TV3+.dk;180;DA).dk, TV3+ Denmark (DK, TV3+ HD (D) (T).dk, TV3+.dk, TV3.dk, tv3.dk, tv3plus.dk;

@@ -76,7 +76,7 @@
       "kanal": "DR1.dk",
       "kilde": "epgshare",
       "programmer": 128,
-      "vindue_timer": 96.7
+      "vindue_timer": 96.8
     },
     {
       "kanal": "DR2.dk",
@@ -141,7 +141,7 @@
     {
       "kanal": "Nickelodeon.dk",
       "kilde": "epgshare",
-      "programmer": 245,
+      "programmer": 244,
       "vindue_timer": 96.0
     },
     {
@@ -195,8 +195,8 @@
     {
       "kanal": "TV2 Sport X.dk",
       "kilde": "epgshare",
-      "programmer": 57,
-      "vindue_timer": 93.2
+      "programmer": 58,
+      "vindue_timer": 92.3
     },
     {
       "kanal": "TV2.dk",
@@ -299,11 +299,6 @@
     {
       "epgshare_programmer": 0,
       "epgshare_vindue_timer": 0,
-      "kanal": "Disney.Junior.dk"
-    },
-    {
-      "epgshare_programmer": 0,
-      "epgshare_vindue_timer": 0,
       "kanal": "Moonbug (T).dk"
     }
   ],
@@ -331,12 +326,22 @@
     {
       "epgshare_programmer_foer": 0,
       "epgshare_vindue_timer_foer": 0,
+      "kanal": "Disney.Junior.dk",
+      "kilde_brugt": "bss",
+      "kilde_channel_id": "disney_junior",
+      "primaer_channel_id": "Disney.Junior.dk",
+      "programmer_indsat": 111,
+      "vindue_timer_efter": 27.2
+    },
+    {
+      "epgshare_programmer_foer": 0,
+      "epgshare_vindue_timer_foer": 0,
       "kanal": "Nickelodeon Junior.dk",
       "kilde_brugt": "openepg",
       "kilde_channel_id": "Nickelodeon Junior.dk",
       "primaer_channel_id": "nickelodeonjuniordk.dk",
-      "programmer_indsat": 328,
-      "vindue_timer_efter": 70.4
+      "programmer_indsat": 326,
+      "vindue_timer_efter": 57.7
     },
     {
       "epgshare_programmer_foer": 0,
@@ -346,7 +351,7 @@
       "kilde_channel_id": "Oiii.dk",
       "primaer_channel_id": "oiiidk.dk",
       "programmer_indsat": 197,
-      "vindue_timer_efter": 55.2
+      "vindue_timer_efter": 54.9
     },
     {
       "epgshare_programmer_foer": 0,
@@ -356,17 +361,17 @@
       "kilde_channel_id": "Play Guld.dk",
       "primaer_channel_id": "playgulddk.dk",
       "programmer_indsat": 83,
-      "vindue_timer_efter": 54.9
+      "vindue_timer_efter": 54.6
     },
     {
       "epgshare_programmer_foer": 0,
       "epgshare_vindue_timer_foer": 0,
       "kanal": "SF-kanalen.dk",
       "kilde_brugt": "openepg",
-      "kilde_channel_id": "SF-kanalen.dk",
+      "kilde_channel_id": "sfkanalen.dk",
       "primaer_channel_id": "sfkanalendk.dk",
       "programmer_indsat": 34,
-      "vindue_timer_efter": 52.6
+      "vindue_timer_efter": 49.8
     },
     {
       "epgshare_programmer_foer": 0,

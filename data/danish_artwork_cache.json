@@ -3675,7 +3675,7 @@
   "30:e november": {
     "backdrop": null,
     "title": "30:e november",
-    "ts": 1790148841.3587768
+    "ts": 1791315295.1039095
   },
   "31.08.2026": {
     "backdrop": null,
@@ -5147,7 +5147,7 @@
   "90 day: the last resort": {
     "backdrop": null,
     "title": "90 Day: The Last Resort",
-    "ts": 1790409725.1267712
+    "ts": 1791315272.0527534
   },
   "90 day: the last resort: between the sheets: last chance": {
     "backdrop": null,
@@ -6845,7 +6845,7 @@
   "aftenshowet": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/wnFL0YZcWEAX64XVrNgyA1S8M10.jpg",
     "title": "Aftenshowet",
-    "ts": 1788684119.356517
+    "ts": 1791315268.5570421
   },
   "aftensmad med jordforbindelse": {
     "backdrop": null,
@@ -13189,7 +13189,7 @@
   "bagedyst: de professionelle": {
     "backdrop": null,
     "title": "Bagedyst: De professionelle",
-    "ts": 1790409682.7613974
+    "ts": 1791315271.7424486
   },
   "baggage battles": {
     "backdrop": null,
@@ -14691,7 +14691,7 @@
   "batbiler": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/mI2xPsroYpoSffgngQPQowKsLjK.jpg",
     "title": "Batbiler",
-    "ts": 1788684106.5648549
+    "ts": 1791315273.9295409
   },
   "batbiler - jul på is, del 2": {
     "backdrop": null,
@@ -17094,9 +17094,9 @@
     "ts": 1790409692.138274
   },
   "bering sea gold": {
-    "backdrop": "https://image.tmdb.org/t/p/w1280/wxiLAWaRzlMlznxnmpDjWUxwoTB.jpg",
+    "backdrop": null,
     "title": "Bering Sea Gold",
-    "ts": 1788684102.8743026
+    "ts": 1791315272.7177446
   },
   "bering sea gold: a viking funeral": {
     "backdrop": null,
@@ -20149,6 +20149,16 @@
     "title": "Bluey I (40)",
     "ts": 1791201963.0064096
   },
+  "bluey i (41)": {
+    "backdrop": null,
+    "title": "Bluey I (41)",
+    "ts": 1791315291.9852514
+  },
+  "bluey i (42)": {
+    "backdrop": null,
+    "title": "Bluey I (42)",
+    "ts": 1791315292.1694112
+  },
   "bluey i (49)": {
     "backdrop": null,
     "title": "Bluey I (49)",
@@ -20174,10 +20184,20 @@
     "title": "Bluey II (100)",
     "ts": 1791130543.6164296
   },
+  "bluey ii (101)": {
+    "backdrop": null,
+    "title": "Bluey II (101)",
+    "ts": 1791315284.9222252
+  },
   "bluey ii (102)": {
     "backdrop": null,
     "title": "Bluey II (102)",
     "ts": 1791130543.802483
+  },
+  "bluey ii (103)": {
+    "backdrop": null,
+    "title": "Bluey II (103)",
+    "ts": 1791315284.7273014
   },
   "bluey ii (11)": {
     "backdrop": null,
@@ -20224,10 +20244,20 @@
     "title": "Bluey II (7)",
     "ts": 1791130550.6146321
   },
+  "bluey ii (70)": {
+    "backdrop": null,
+    "title": "Bluey II (70)",
+    "ts": 1791315288.3272226
+  },
   "bluey ii (71)": {
     "backdrop": null,
     "title": "Bluey II (71)",
     "ts": 1791201965.2215154
+  },
+  "bluey ii (72)": {
+    "backdrop": null,
+    "title": "Bluey II (72)",
+    "ts": 1791315288.5394845
   },
   "bluey ii (73)": {
     "backdrop": null,
@@ -20249,10 +20279,50 @@
     "title": "Bluey II (79)",
     "ts": 1791201965.9940305
   },
+  "bluey ii (81)": {
+    "backdrop": null,
+    "title": "Bluey II (81)",
+    "ts": 1791315289.6411607
+  },
+  "bluey ii (83)": {
+    "backdrop": null,
+    "title": "Bluey II (83)",
+    "ts": 1791315289.867718
+  },
+  "bluey ii (85)": {
+    "backdrop": null,
+    "title": "Bluey II (85)",
+    "ts": 1791315290.0820596
+  },
+  "bluey ii (87)": {
+    "backdrop": null,
+    "title": "Bluey II (87)",
+    "ts": 1791315290.2679365
+  },
+  "bluey ii (89)": {
+    "backdrop": null,
+    "title": "Bluey II (89)",
+    "ts": 1791315290.4536295
+  },
   "bluey ii (9)": {
     "backdrop": null,
     "title": "Bluey II (9)",
     "ts": 1791130550.7978559
+  },
+  "bluey ii (91)": {
+    "backdrop": null,
+    "title": "Bluey II (91)",
+    "ts": 1791315290.6726525
+  },
+  "bluey ii (93)": {
+    "backdrop": null,
+    "title": "Bluey II (93)",
+    "ts": 1791315290.8579328
+  },
+  "bluey ii (95)": {
+    "backdrop": null,
+    "title": "Bluey II (95)",
+    "ts": 1791315291.0402484
   },
   "bluey ii (96)": {
     "backdrop": null,
@@ -20264,15 +20334,40 @@
     "title": "Bluey II (98)",
     "ts": 1791130543.4471104
   },
+  "bluey ii (99)": {
+    "backdrop": null,
+    "title": "Bluey II (99)",
+    "ts": 1791315285.11195
+  },
   "bluey iii": {
     "backdrop": null,
     "title": "Bluey III",
     "ts": 1790928368.8865275
   },
+  "bluey iii (104)": {
+    "backdrop": null,
+    "title": "Bluey III (104)",
+    "ts": 1791315284.5408497
+  },
+  "bluey iii (105)": {
+    "backdrop": null,
+    "title": "Bluey III (105)",
+    "ts": 1791315284.3580852
+  },
   "bluey iii (106)": {
     "backdrop": null,
     "title": "Bluey III (106)",
     "ts": 1791201959.9417443
+  },
+  "bluey iii (107)": {
+    "backdrop": null,
+    "title": "Bluey III (107)",
+    "ts": 1791315284.1752887
+  },
+  "bluey iii (108)": {
+    "backdrop": null,
+    "title": "Bluey III (108)",
+    "ts": 1791315283.9904737
   },
   "bluey iii (109)": {
     "backdrop": null,
@@ -20403,6 +20498,11 @@
     "backdrop": null,
     "title": "Bluey III (137)",
     "ts": 1791201959.0077257
+  },
+  "bluey iii (139)": {
+    "backdrop": null,
+    "title": "Bluey III (139)",
+    "ts": 1791315286.0528567
   },
   "bluey iii (140)": {
     "backdrop": null,
@@ -22945,7 +23045,7 @@
   "byttebiksen": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/zCoZsYzvE31DAoFHe0JgCeWd7Rz.jpg",
     "title": "Byttebiksen",
-    "ts": 1788684113.1224751
+    "ts": 1791315279.3160305
   },
   "byttebiksen (1)": {
     "backdrop": null,
@@ -31398,6 +31498,11 @@
     "title": "Deadline: Hvorfor bliver børnene dummere?",
     "ts": 1789102883.5458205
   },
+  "deadline: hænger danmark stadig sammen?": {
+    "backdrop": null,
+    "title": "Deadline: Hænger Danmark stadig sammen?",
+    "ts": 1791315268.241663
+  },
   "deadline: kampen om elbilerne": {
     "backdrop": null,
     "title": "Deadline: Kampen om elbilerne",
@@ -32515,7 +32620,7 @@
   "den of thieves": {
     "backdrop": null,
     "title": "Den of Thieves",
-    "ts": 1790409740.1339574
+    "ts": 1791315282.0248725
   },
   "den of thieves 2: pantera": {
     "backdrop": null,
@@ -33179,7 +33284,7 @@
   "den tapre prins ivandoes heroiske færd": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/dg0x9DzYok0PoLaHfauZxPHPkbG.jpg",
     "title": "Den tapre prins Ivandoes heroiske færd",
-    "ts": 1788684103.6917944
+    "ts": 1791315270.7876573
   },
   "den tapte byen sanxingdui": {
     "backdrop": null,
@@ -46339,7 +46444,7 @@
   "f for får": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/f9RFhEQlAUZ1eByD67YWAanRInU.jpg",
     "title": "F for Får",
-    "ts": 1788684104.5170863
+    "ts": 1791315279.6423156
   },
   "f for får (1)": {
     "backdrop": null,
@@ -47115,7 +47220,7 @@
   "falsk som vand": {
     "backdrop": null,
     "title": "Falsk som vand",
-    "ts": 1790409720.8110328
+    "ts": 1791315293.9590714
   },
   "falsk som vann": {
     "backdrop": null,
@@ -49660,7 +49765,7 @@
   "fluernes herman": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/gXhspIDD39L4J7sb2THca2g0FN2.jpg",
     "title": "Fluernes Herman",
-    "ts": 1788684114.158299
+    "ts": 1791315280.6612751
   },
   "fluernes herman: den lange vej hjem": {
     "backdrop": null,
@@ -54038,7 +54143,7 @@
   "galaktiske ella": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/vqgtFDgzSUwVSuhmCtDHQSLGnXV.jpg",
     "title": "Galaktiske Ella",
-    "ts": 1788684110.3041523
+    "ts": 1791315277.6888547
   },
   "galaktiske ella: bred månekage": {
     "backdrop": null,
@@ -59162,7 +59267,7 @@
   "gurli gris": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/oZjO5v0Pgghg61QoraP2cLk2KN4.jpg",
     "title": "Gurli Gris",
-    "ts": 1788684104.9282906
+    "ts": 1791315272.3631172
   },
   "gurli gris - julemanden": {
     "backdrop": null,
@@ -66056,7 +66161,7 @@
   "huset på christianshavn": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/xED0rpSExKKFL6QS5sdWlPqyVEx.jpg",
     "title": "Huset på Christianshavn",
-    "ts": 1788684126.4228828
+    "ts": 1791315269.216368
   },
   "huset på christianshavn (29) kontrabande": {
     "backdrop": null,
@@ -66792,7 +66897,7 @@
   "hvor er kylling?": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/rEq04kBphqijskLjC9USfYjwtnd.jpg",
     "title": "Hvor er Kylling?",
-    "ts": 1788684113.7822447
+    "ts": 1791315280.0224226
   },
   "hvor er kylling?: dækket": {
     "backdrop": null,
@@ -70506,6 +70611,11 @@
     "title": "Iron Man and His Awesome Friends",
     "ts": 1790499991.5083299
   },
+  "iron man and his awesome friends i (20)": {
+    "backdrop": null,
+    "title": "Iron Man and His Awesome Friends I (20)",
+    "ts": 1791315287.7143211
+  },
   "iron man and his awesome friends i (27)": {
     "backdrop": null,
     "title": "Iron Man and His Awesome Friends I (27)",
@@ -72983,7 +73093,7 @@
   "john dillermand": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/uxesOqNvT4GQf9SKt08wURbm5Zu.jpg",
     "title": "John Dillermand",
-    "ts": 1788684109.538011
+    "ts": 1791315277.3660972
   },
   "john dillermand (1)": {
     "backdrop": null,
@@ -73199,7 +73309,7 @@
   "jonahs dyreverden": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/8rzZw0yma7gBrAFV0GPHx1TQG4z.jpg",
     "title": "Jonahs dyreverden",
-    "ts": 1788684112.093611
+    "ts": 1791315279.0064669
   },
   "jonahs dyreverden: aber og flagermus": {
     "backdrop": null,
@@ -73271,7 +73381,7 @@
   "jordemoderen": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/qWA242gmsDASYakrdaU1Bt1z8og.jpg",
     "title": "Jordemoderen",
-    "ts": 1788684118.9293902
+    "ts": 1791315268.0539722
   },
   "jordemoderen - julespecial": {
     "backdrop": null,
@@ -73928,7 +74038,7 @@
   "jungledyret hugo - baby hugo": {
     "backdrop": null,
     "title": "Jungledyret Hugo - baby Hugo",
-    "ts": 1789015211.3039181
+    "ts": 1791315293.2341673
   },
   "jungledyret hugo - barneleg": {
     "backdrop": null,
@@ -73958,7 +74068,7 @@
   "jungledyret hugo - klovne på farten": {
     "backdrop": null,
     "title": "Jungledyret Hugo - klovne på farten",
-    "ts": 1789015211.5141232
+    "ts": 1791315293.4237394
   },
   "jungledyret hugo - milliardærens legetøj": {
     "backdrop": null,
@@ -74023,7 +74133,7 @@
   "jurassic park iii": {
     "backdrop": null,
     "title": "Jurassic Park III",
-    "ts": 1790409743.7066653
+    "ts": 1791315274.6244316
   },
   "jurassic punk": {
     "backdrop": null,
@@ -80723,7 +80833,7 @@
   "kung fu panda 3": {
     "backdrop": null,
     "title": "Kung Fu Panda 3",
-    "ts": 1790409777.3328438
+    "ts": 1791315275.6574156
   },
   "kung fu panda 4": {
     "backdrop": null,
@@ -81193,7 +81303,7 @@
   "kvinde på spring": {
     "backdrop": null,
     "title": "Kvinde på spring",
-    "ts": 1790409742.0478387
+    "ts": 1791315275.328125
   },
   "kvindeligaen: høj-ikast": {
     "backdrop": null,
@@ -82993,7 +83103,7 @@
   "leg med dylan": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/8RFHhm6P0IZdR148dcgEwD2Abc3.jpg",
     "title": "Leg med Dylan",
-    "ts": 1788684109.1182952
+    "ts": 1791315276.987196
   },
   "leg med dylan: brandmand": {
     "backdrop": null,
@@ -84059,7 +84169,7 @@
   "lille nørd": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/qjJtZ5Ry0Urpp7iiPcZ3L4o1hwy.jpg",
     "title": "Lille Nørd",
-    "ts": 1788684111.103793
+    "ts": 1791315278.2934082
   },
   "lille prinsesse": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/zcsv06GEseRCfBritga1LJ2c0Qs.jpg",
@@ -86896,7 +87006,7 @@
   "lufthavnens beredskab": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/hJHRz6emSQYYbGIBhjKgYDYneRq.jpg",
     "title": "Lufthavnens beredskab",
-    "ts": 1788684127.7590945
+    "ts": 1791315269.8545573
   },
   "luftkrieg - die naturgeschichte der zerstörung": {
     "backdrop": null,
@@ -88350,7 +88460,7 @@
   "mageløse mille": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/baNnyorwQCtSY2sXhCScEyLdPuC.jpg",
     "title": "Mageløse Mille",
-    "ts": 1788684110.7874036
+    "ts": 1791315277.9972465
   },
   "mageløse mille: de mest mageløse detektiver": {
     "backdrop": null,
@@ -88575,7 +88685,7 @@
   "maja + trix": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/wR3lviVrMY9wGcyVYY6LkK1YKXt.jpg",
     "title": "Maja + Trix",
-    "ts": 1788684108.538794
+    "ts": 1791315276.6477304
   },
   "maja + trix: blade": {
     "backdrop": null,
@@ -91174,7 +91284,7 @@
   "men in black 3": {
     "backdrop": null,
     "title": "Men in Black 3",
-    "ts": 1790409743.064956
+    "ts": 1791315274.2398124
   },
   "men in black ii": {
     "backdrop": null,
@@ -91841,15 +91951,35 @@
     "title": "Mickey Mouse Clubhouse+ I (11)",
     "ts": 1791130548.506675
   },
+  "mickey mouse clubhouse+ i (12)": {
+    "backdrop": null,
+    "title": "Mickey Mouse Clubhouse+ I (12)",
+    "ts": 1791315292.3511827
+  },
   "mickey mouse clubhouse+ i (15)": {
     "backdrop": null,
     "title": "Mickey Mouse Clubhouse+ I (15)",
     "ts": 1791201959.756777
   },
+  "mickey mouse clubhouse+ i (17)": {
+    "backdrop": null,
+    "title": "Mickey Mouse Clubhouse+ I (17)",
+    "ts": 1791315289.451415
+  },
+  "mickey mouse clubhouse+ i (19)": {
+    "backdrop": null,
+    "title": "Mickey Mouse Clubhouse+ I (19)",
+    "ts": 1791315288.725851
+  },
   "mickey mouse clubhouse+ i (2)": {
     "backdrop": null,
     "title": "Mickey Mouse Clubhouse+ I (2)",
     "ts": 1791130545.2239308
+  },
+  "mickey mouse clubhouse+ i (20)": {
+    "backdrop": null,
+    "title": "Mickey Mouse Clubhouse+ I (20)",
+    "ts": 1791315286.4247441
   },
   "mickey mouse clubhouse+ i (21)": {
     "backdrop": null,
@@ -91871,6 +92001,11 @@
     "title": "Mickey Mouse Clubhouse+ I (24)",
     "ts": 1791201959.5733955
   },
+  "mickey mouse clubhouse+ i (25)": {
+    "backdrop": null,
+    "title": "Mickey Mouse Clubhouse+ I (25)",
+    "ts": 1791315287.3500597
+  },
   "mickey mouse clubhouse+ i (26)": {
     "backdrop": null,
     "title": "Mickey Mouse Clubhouse+ I (26)",
@@ -91885,6 +92020,11 @@
     "backdrop": null,
     "title": "Mickey Mouse Clubhouse+ I (5)",
     "ts": 1791201958.0565429
+  },
+  "mickey mouse clubhouse+ i (6)": {
+    "backdrop": null,
+    "title": "Mickey Mouse Clubhouse+ I (6)",
+    "ts": 1791315285.6587412
   },
   "mickey mouse clubhouse+ i (7)": {
     "backdrop": null,
@@ -92701,7 +92841,7 @@
   "minibods": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/xXXMG5MvK44v10qVj1si2CWuzq9.jpg",
     "title": "Minibods",
-    "ts": 1788684122.9369535
+    "ts": 1791315293.034245
   },
   "miniheltene": {
     "backdrop": null,
@@ -94702,7 +94842,7 @@
   "motor mille og børnebanden": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/9lxQcswYBsTtAAcBTCBF6ItuPAj.jpg",
     "title": "Motor Mille og Børnebanden",
-    "ts": 1788684112.6176095
+    "ts": 1791315276.3295097
   },
   "motor mille og børnebanden (1)": {
     "backdrop": null,
@@ -99953,9 +100093,8 @@
   },
   "ninas resa": {
     "backdrop": null,
-    "poster": null,
     "title": "Ninas Resa",
-    "ts": 1786251301.556722
+    "ts": 1791315294.2795782
   },
   "nine magic fingers": {
     "backdrop": null,
@@ -100887,7 +101026,7 @@
   "nul tolerance": {
     "backdrop": null,
     "title": "Nul tolerance",
-    "ts": 1789102763.312351
+    "ts": 1791315294.7909648
   },
   "null stjerner": {
     "backdrop": null,
@@ -104147,7 +104286,7 @@
   "oprøret i ådalen": {
     "backdrop": null,
     "title": "Oprøret i Ådalen",
-    "ts": 1788682729.064988
+    "ts": 1791315294.4812279
   },
   "opskriften på at gøre mere selv": {
     "backdrop": null,
@@ -108087,7 +108226,7 @@
   "peter pedal": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/nsJQIDeqdnuqO2bzwcodey4BHfB.jpg",
     "title": "Peter Pedal",
-    "ts": 1788684114.9549181
+    "ts": 1791315280.9903817
   },
   "peter pedal - på eventyr i junglen": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/ztyEuEcE3BDCArLWM1ICfsWTxwJ.jpg",
@@ -109807,7 +109946,7 @@
   "politijagt": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/7p6VwO7PLShrb7ua5T9p8iNx656.jpg",
     "title": "Politijagt",
-    "ts": 1788684121.027786
+    "ts": 1791315270.4691253
   },
   "politijagt - sverige": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/pWL5weMwRDp7Y0aGEZorJOadyVe.jpg",
@@ -111163,6 +111302,11 @@
     "title": "Pupstruction III (57)",
     "ts": 1791201966.7823043
   },
+  "pupstruction iii (58)": {
+    "backdrop": null,
+    "title": "Pupstruction III (58)",
+    "ts": 1791315291.8052347
+  },
   "pupstruction: s3 splits iii (63)": {
     "backdrop": null,
     "title": "Pupstruction: S3 Splits III (63)",
@@ -111172,6 +111316,16 @@
     "backdrop": null,
     "title": "Pupstruction: S3 Splits III (64)",
     "ts": 1791201960.710215
+  },
+  "pupstruction: s3 splits iii (65)": {
+    "backdrop": null,
+    "title": "Pupstruction: S3 Splits III (65)",
+    "ts": 1791315286.7906773
+  },
+  "pupstruction: s3 splits iii (66)": {
+    "backdrop": null,
+    "title": "Pupstruction: S3 Splits III (66)",
+    "ts": 1791315286.976095
   },
   "pur+": {
     "backdrop": null,
@@ -113112,7 +113266,7 @@
   "razzia - miljø- og naturstyrelsen rykker ud": {
     "backdrop": null,
     "title": "Razzia - Miljø- og Naturstyrelsen rykker ud",
-    "ts": 1787755074.2305403
+    "ts": 1791315293.6132364
   },
   "razzia - miljøkontrollen rykker ud": {
     "backdrop": null,
@@ -116034,6 +116188,21 @@
     "title": "Robogobo: Season 1 I (12)",
     "ts": 1791201955.6743453
   },
+  "robogobo: season 1 i (13)": {
+    "backdrop": null,
+    "title": "Robogobo: Season 1 I (13)",
+    "ts": 1791315283.3522608
+  },
+  "robogobo: season 1 i (14)": {
+    "backdrop": null,
+    "title": "Robogobo: Season 1 I (14)",
+    "ts": 1791315283.602129
+  },
+  "robogobo: season 1 i (15)": {
+    "backdrop": null,
+    "title": "Robogobo: Season 1 I (15)",
+    "ts": 1791315283.7850008
+  },
   "robogobo: season 1 i (7)": {
     "backdrop": null,
     "title": "Robogobo: Season 1 I (7)",
@@ -116461,7 +116630,7 @@
   "rosa - the movie": {
     "backdrop": null,
     "title": "Rosa - The movie",
-    "ts": 1790409736.8699348
+    "ts": 1791315282.35754
   },
   "rosa elettrica": {
     "backdrop": null,
@@ -116481,7 +116650,7 @@
   "rosa fra rouladegade": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/6S6kSfxVtukvH5oR5HuiWAWSq9U.jpg",
     "title": "Rosa fra Rouladegade",
-    "ts": 1788684115.2822864
+    "ts": 1791315281.32364
   },
   "rosa fra rouladegade (1)": {
     "backdrop": null,
@@ -124167,6 +124336,11 @@
     "title": "Sofia the First: Royal Magic I (10)",
     "ts": 1791201959.382268
   },
+  "sofia the first: royal magic i (11)": {
+    "backdrop": null,
+    "title": "Sofia the First: Royal Magic I (11)",
+    "ts": 1791315288.9066243
+  },
   "sofia the first: royal magic i (2)": {
     "backdrop": null,
     "title": "Sofia the First: Royal Magic I (2)",
@@ -125714,6 +125888,36 @@
     "title": "Spidey and His Amazing Friends I (2)",
     "ts": 1791201962.6296637
   },
+  "spidey and his amazing friends i (20)": {
+    "backdrop": null,
+    "title": "Spidey and His Amazing Friends I (20)",
+    "ts": 1791315282.74375
+  },
+  "spidey and his amazing friends i (21)": {
+    "backdrop": null,
+    "title": "Spidey and His Amazing Friends I (21)",
+    "ts": 1791315282.9550238
+  },
+  "spidey and his amazing friends i (22)": {
+    "backdrop": null,
+    "title": "Spidey and His Amazing Friends I (22)",
+    "ts": 1791315283.158433
+  },
+  "spidey and his amazing friends i (23)": {
+    "backdrop": null,
+    "title": "Spidey and His Amazing Friends I (23)",
+    "ts": 1791315285.2934997
+  },
+  "spidey and his amazing friends i (24)": {
+    "backdrop": null,
+    "title": "Spidey and His Amazing Friends I (24)",
+    "ts": 1791315285.4739795
+  },
+  "spidey and his amazing friends i (3)": {
+    "backdrop": null,
+    "title": "Spidey and His Amazing Friends I (3)",
+    "ts": 1791315287.1653872
+  },
   "spidey and his amazing friends ii (28)": {
     "backdrop": null,
     "title": "Spidey and His Amazing Friends II (28)",
@@ -125724,10 +125928,25 @@
     "title": "Spidey and His Amazing Friends III (56)",
     "ts": 1791201959.196146
   },
+  "spidey and his amazing friends iii (57)": {
+    "backdrop": null,
+    "title": "Spidey and His Amazing Friends III (57)",
+    "ts": 1791315287.8978586
+  },
+  "spidey and his amazing friends iii (58)": {
+    "backdrop": null,
+    "title": "Spidey and His Amazing Friends III (58)",
+    "ts": 1791315289.0899427
+  },
   "spidey and his amazing friends iv (86)": {
     "backdrop": null,
     "title": "Spidey and His Amazing Friends IV (86)",
     "ts": 1791201966.2063336
+  },
+  "spidey and his amazing friends iv (87)": {
+    "backdrop": null,
+    "title": "Spidey and His Amazing Friends IV (87)",
+    "ts": 1791315291.2207944
   },
   "spidey and his amazing friends iv (90)": {
     "backdrop": null,
@@ -125749,6 +125968,16 @@
     "title": "Spidey and His Amazing Friends: S4 Splits IV (6)",
     "ts": 1791201964.103598
   },
+  "spidey and his amazing friends: s4 splits iv (7)": {
+    "backdrop": null,
+    "title": "Spidey and His Amazing Friends: S4 Splits IV (7)",
+    "ts": 1791315288.1215086
+  },
+  "spidey and his amazing friends: s4 splits iv (8)": {
+    "backdrop": null,
+    "title": "Spidey and His Amazing Friends: S4 Splits IV (8)",
+    "ts": 1791315289.2624407
+  },
   "spidey and his amazing friends: season 5 v (104)": {
     "backdrop": null,
     "title": "Spidey and His Amazing Friends: Season 5 V (104)",
@@ -125758,6 +125987,11 @@
     "backdrop": null,
     "title": "Spidey and His Amazing Friends: Season 5 V (105)",
     "ts": 1791201960.9204443
+  },
+  "spidey and his amazing friends: season 5 v (106)": {
+    "backdrop": null,
+    "title": "Spidey and His Amazing Friends: Season 5 V (106)",
+    "ts": 1791315286.244425
   },
   "spidey och hans fantastiska vänner": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/l9IjbcpfYRZ2wWQOHhmB6Db6qe7.jpg",
@@ -126631,7 +126865,7 @@
   "sprinter galore": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/tfJNSpZEKoVIIA1zS5PClMrFDgd.jpg",
     "title": "Sprinter Galore",
-    "ts": 1788684113.4516008
+    "ts": 1791315281.6387131
   },
   "sprinter galore (1)": {
     "backdrop": null,
@@ -128508,7 +128742,7 @@
   "stillwater": {
     "backdrop": null,
     "title": "Stillwater",
-    "ts": 1790409730.8820212
+    "ts": 1791315273.2337787
   },
   "sting": {
     "backdrop": null,
@@ -130387,10 +130621,25 @@
     "title": "SuperKitties I (15)",
     "ts": 1791130551.540893
   },
+  "superkitties i (16)": {
+    "backdrop": null,
+    "title": "SuperKitties I (16)",
+    "ts": 1791315292.5309677
+  },
   "superkitties i (17)": {
     "backdrop": null,
     "title": "SuperKitties I (17)",
     "ts": 1791201960.3015761
+  },
+  "superkitties i (18)": {
+    "backdrop": null,
+    "title": "SuperKitties I (18)",
+    "ts": 1791315292.7179525
+  },
+  "superkitties i (25)": {
+    "backdrop": null,
+    "title": "SuperKitties I (25)",
+    "ts": 1791315291.3997056
   },
   "superkitties i (7)": {
     "backdrop": null,
@@ -130411,6 +130660,11 @@
     "backdrop": null,
     "title": "SuperKitties III (61)",
     "ts": 1791130545.585144
+  },
+  "superkitties iii (62)": {
+    "backdrop": null,
+    "title": "SuperKitties III (62)",
+    "ts": 1791315287.5298514
   },
   "superkitties iii (63)": {
     "backdrop": null,
@@ -130442,6 +130696,21 @@
     "title": "SuperKitties: Su-Purr Charged II (36)",
     "ts": 1791201966.5734675
   },
+  "superkitties: su-purr charged ii (37)": {
+    "backdrop": null,
+    "title": "SuperKitties: Su-Purr Charged II (37)",
+    "ts": 1791315285.872067
+  },
+  "superkitties: su-purr charged ii (38)": {
+    "backdrop": null,
+    "title": "SuperKitties: Su-Purr Charged II (38)",
+    "ts": 1791315291.5855525
+  },
+  "superkitties: su-purr charged ii (44)": {
+    "backdrop": null,
+    "title": "SuperKitties: Su-Purr Charged II (44)",
+    "ts": 1791315286.606133
+  },
   "superkitties: su-purr charged s2 splits ii (3)": {
     "backdrop": null,
     "title": "SuperKitties: Su-Purr Charged S2 Splits II (3)",
@@ -130451,6 +130720,11 @@
     "backdrop": null,
     "title": "SuperKitties: Su-Purr Charged S2 Splits II (4)",
     "ts": 1791201954.7515805
+  },
+  "superkitties: su-purr charged s2 splits ii (5)": {
+    "backdrop": null,
+    "title": "SuperKitties: Su-Purr Charged S2 Splits II (5)",
+    "ts": 1791315282.560087
   },
   "superliga": {
     "backdrop": null,
@@ -137482,7 +137756,7 @@
   "the capture": {
     "backdrop": null,
     "title": "The Capture",
-    "ts": 1791269963.482827
+    "ts": 1791315268.897055
   },
   "the capture ii (2:6)": {
     "backdrop": null,
@@ -139945,7 +140219,7 @@
   "the irrational": {
     "backdrop": null,
     "title": "The Irrational",
-    "ts": 1790409676.6860874
+    "ts": 1791315273.5477834
   },
   "the irrational: dead woman walking": {
     "backdrop": null,
@@ -141677,7 +141951,7 @@
   "the mentalist": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/wYW8ZOfEmou6sEtlIP4MW7UR44E.jpg",
     "title": "The Mentalist",
-    "ts": 1788684119.7719777
+    "ts": 1791315269.5328178
   },
   "the mentalist: 18-5-4": {
     "backdrop": null,
@@ -144684,7 +144958,7 @@
   "the zoo": {
     "backdrop": null,
     "title": "The Zoo",
-    "ts": 1790409776.2485685
+    "ts": 1791315271.4252453
   },
   "the zoo: san diego": {
     "backdrop": null,
@@ -146902,7 +147176,7 @@
   "trail: gt world series - great wall": {
     "backdrop": null,
     "title": "Trail: GT World Series - Great Wall",
-    "ts": 1790409761.252857
+    "ts": 1791315272.9077396
   },
   "trail: gt world series - myoko": {
     "backdrop": null,
@@ -147055,7 +147329,7 @@
   "transporter 2": {
     "backdrop": null,
     "title": "Transporter 2",
-    "ts": 1790409739.8164039
+    "ts": 1791315274.9871452
   },
   "transporter 3": {
     "backdrop": null,
@@ -152775,7 +153049,7 @@
   "venner": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg",
     "title": "Venner",
-    "ts": 1788684120.2897363
+    "ts": 1791315270.1509051
   },
   "venner: the one after ross says rachel": {
     "backdrop": null,
@@ -153982,7 +154256,7 @@
   "vida - dyrenes doktor": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/sJbNkUfZ7KIQTJ3jb9E69pk3CCI.jpg",
     "title": "Vida - dyrenes doktor",
-    "ts": 1788684104.10228
+    "ts": 1791315276.0122952
   },
   "vida - dyrenes doktor: bogen om dyrlægen vida": {
     "backdrop": null,
@@ -154118,7 +154392,7 @@
   "vidundervovsen vaffel": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/d4E2DWJPrpASwrAp8vP9B1Lqzux.jpg",
     "title": "Vidundervovsen Vaffel",
-    "ts": 1788684111.576733
+    "ts": 1791315278.6528502
   },
   "vidundervovsen vaffel (1)": {
     "backdrop": null,
@@ -154735,7 +155009,7 @@
   "vilde jægere": {
     "backdrop": null,
     "title": "Vilde jægere",
-    "ts": 1791269963.5767987
+    "ts": 1791315271.1030695
   },
   "vilde jægere: afrikas dødbringende dræbere": {
     "backdrop": null,
@@ -161664,7 +161938,7 @@
   "æblerup": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/hSQMMD3fR7zC1MlIrabkWT6jMpw.jpg",
     "title": "Æblerup",
-    "ts": 1788684105.77057
+    "ts": 1791315280.3451486
   },
   "æblerup (10:20) rumvæsner i svampeskoven": {
     "backdrop": null,

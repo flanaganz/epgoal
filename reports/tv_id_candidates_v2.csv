@@ -1,0 +1,713 @@
+﻿EPGoal navn;EPGoal ID;EPGoal programmer;Kilde;Rang;Kandidatnavn;Kandidat-ID;Kandidat programmer;Første start;Sidste stop;Samlet score;Navnescore;Fælles titler;Titeloverlap pct;Matchgrund;Kildefil
+6'eren;6eren.dk;97;EPGShare;1;6'eren;6'eren.dk;97;20261006032000 +0000;20261010041000 +0000;100;100;14;100.0;priority-map, navnelighed, programoverlap;epgshare_dk1.xml
+6'eren;6eren.dk;97;BSS;1;6 Eren FHD DK;6eren.dk;52;20261001145000 +0200;20261003174000 +0200;100;100;12;85.7;priority-map, normaliseret ID, navnelighed, programoverlap;bss_epg.xml
+6'eren;6eren.dk;97;BSS;2;RTÉ One UK;rteone.ie;57;20261001150000 +0200;20261003151500 +0200;43.3;66.7;0;0.0;;bss_epg.xml
+6'eren;6eren.dk;97;BSS;3;TEN ES;ten.es;56;20261001154500 +0200;20261003150500 +0200;43.3;66.7;0;0.0;;bss_epg.xml
+6'eren;6eren.dk;97;OpenEPG;1;6'eren.dk;6'eren.dk;146;20261001232500 +0000;20261004043500 +0000;98.4;100;12;85.7;priority-map, navnelighed, programoverlap;denmark3.xml
+6'eren;6eren.dk;97;OpenEPG;2;6'eren Denmark (DK,DA).dk;6'eren Denmark (DK,DA).dk;50;20261001232500 +0000;20261004025000 +0000;91.3;100;8;57.1;priority-map, navnelighed, programoverlap;denmark2.xml
+6'eren;6eren.dk;97;OpenEPG;3;6'eren HD.dk;6'eren HD.dk;50;20261001232500 +0000;20261004025000 +0000;84.1;100;4;28.6;priority-map, navnelighed;denmark1.xml
+6'eren;6eren.dk;97;OpenEPG;4;kanal6.dk;kanal6.dk;51;20261002001000 +0000;20261004023500 +0000;46.4;20.0;12;85.7;priority-map, programoverlap;denmark6.xml
+Animal Planet;animalplanet.dk;111;EPGShare;1;Animal Planet;Animal.Planet.dk;111;20261006033800 +0000;20261010040000 +0000;100;100;30;100.0;priority-map, normaliseret ID, navnelighed, programoverlap;epgshare_dk1.xml
+Animal Planet;animalplanet.dk;111;BSS;1;Animal Planet FHD DK [Multi-Sub];animalplanet.dk;54;20261001150000 +0200;20261003150000 +0200;100;100;15;68.2;priority-map, normaliseret ID, navnelighed, programoverlap;bss_epg.xml
+Animal Planet;animalplanet.dk;111;BSS;2;Animal Planet UK;animalplanet.uk;54;20261001150000 +0200;20261003150000 +0200;87.9;100;7;43.8;priority-map, navnelighed;bss_epg.xml
+Animal Planet;animalplanet.dk;111;BSS;3;Animal Planet HD IS;animalplanet.is;54;20261001150000 +0200;20261003150000 +0200;77.9;92.3;15;71.4;navnelighed, programoverlap;bss_epg.xml
+Animal Planet;animalplanet.dk;111;BSS;4;Animal Planet SE;animalplanet.se;54;20261001150000 +0200;20261003150000 +0200;77.9;92.3;15;71.4;navnelighed, programoverlap;bss_epg.xml
+Animal Planet;animalplanet.dk;111;BSS;5;Animal Planet FHD SK;animal_planet;0;;;77;100;0;0;priority-map, normaliseret ID, navnelighed;bss_epg.xml
+Animal Planet;animalplanet.dk;111;OpenEPG;1;animalplanet.dk;animalplanet.dk;61;20261002000000 +0000;20261004030000 +0000;98.5;100;14;53.8;priority-map, normaliseret ID, navnelighed, programoverlap;denmark6.xml
+Animal Planet;animalplanet.dk;111;OpenEPG;2;Animal Planet Denmark (DK,DA).dk;Animal Planet Denmark (DK,DA).dk;61;20261001233000 +0000;20261004031500 +0000;98.0;100;13;52.0;priority-map, normaliseret ID, navnelighed, programoverlap;denmark2.xml
+Animal Planet;animalplanet.dk;111;OpenEPG;3;Animal Planet.dk;Animal Planet.dk;174;20261001233000 +0000;20261004045000 +0000;97.5;100;15;50.0;priority-map, normaliseret ID, navnelighed, programoverlap;denmark3.xml
+Animal Planet;animalplanet.dk;111;OpenEPG;4;Animal Planet Norway (NO,NO).dk;Animal Planet Norway (NO,NO).dk;61;20261001233000 +0000;20261004031500 +0000;59.8;75.0;11;44.0;;denmark2.xml
+BBC News;bbcworldnews.uk;243;EPGShare;1;BBC News;BBC.News.dk;243;20261006034500 +0000;20261010040000 +0000;100;100;25;100.0;priority-map, navnelighed, programoverlap;epgshare_dk1.xml
+BBC News;bbcworldnews.uk;243;EPGShare;2;BBC Nordic;BBC.Nordic.dk;141;20261006033000 +0000;20261010040000 +0000;57.2;88.0;0;0.0;navnelighed;epgshare_dk1.xml
+BBC News;bbcworldnews.uk;243;EPGShare;3;TV 2 News;TV.2.News.dk;58;20261006040000 +0000;20261010050000 +0000;57.2;88.0;0;0.0;navnelighed;epgshare_dk1.xml
+BBC News;bbcworldnews.uk;243;EPGShare;4;BBC Nordic+;BBC.Nordic+.dk;4;20261006040000 +0000;20261010040000 +0000;57.2;88.0;0;0.0;navnelighed;epgshare_dk1.xml
+BBC News;bbcworldnews.uk;243;EPGShare;5;BBC HD;BBC.HD.dk;0;;;49.2;88.0;0;0;navnelighed;epgshare_dk1.xml
+BBC News;bbcworldnews.uk;243;BSS;1;BBC News FHD UK;bbcnews.uk;100;20261001150000 +0200;20261003150000 +0200;94.0;100;17;68.0;priority-map, navnelighed, programoverlap;bss_epg.xml
+BBC News;bbcworldnews.uk;243;BSS;2;BBC News UHD US;bbcworldnews.us;59;20261001145500 +0200;20261002140000 +0200;83.9;92.9;16;94.1;navnelighed, programoverlap;bss_epg.xml
+BBC News;bbcworldnews.uk;243;BSS;3;BBC News FHD NL;bbcnews.nl;59;20261001145500 +0200;20261003150000 +0200;77.9;88.0;19;82.6;navnelighed, programoverlap;bss_epg.xml
+BBC News;bbcworldnews.uk;243;BSS;4;BBC News FHD DE;bbcnews.de;114;20261001145500 +0200;20261003150000 +0200;77.2;88.0;20;80.0;navnelighed, programoverlap;bss_epg.xml
+BBC News;bbcworldnews.uk;243;BSS;5;BBC World News HD IS;bbcworldnews.is;114;20261001145500 +0200;20261003150000 +0200;76.7;85.7;21;84.0;navnelighed, programoverlap;bss_epg.xml
+BBC News;bbcworldnews.uk;243;OpenEPG;1;BBC News.dk;BBC News.dk;328;20261001233000 +0000;20261004043000 +0000;98.0;100;21;84.0;priority-map, navnelighed, programoverlap;denmark1.xml
+BBC News;bbcworldnews.uk;243;OpenEPG;2;BBC News UK (GB,EN).dk;BBC News UK (GB,EN).dk;113;20261001233000 +0000;20261004030000 +0000;66.5;70.0;21;84.0;programoverlap;denmark2.xml
+BBC News;bbcworldnews.uk;243;OpenEPG;3;BBC NORDIC.dk;BBC NORDIC.dk;149;20261001230000 +0000;20261004043000 +0000;57.2;88.0;0;0.0;navnelighed;denmark4.xml
+BBC News;bbcworldnews.uk;243;OpenEPG;4;BBC Nordic Denmark (DK,DA).dk;BBC Nordic Denmark (DK,DA).dk;78;20261001230000 +0000;20261004033500 +0000;57.2;88.0;0;0.0;navnelighed;denmark2.xml
+BBC News;bbcworldnews.uk;243;OpenEPG;5;BBC Nordic HD.dk;BBC Nordic HD.dk;77;20261001230000 +0000;20261004023500 +0000;57.2;88.0;0;0.0;navnelighed;denmark1.xml
+BBC Nordic;bbcnordic.dk;141;EPGShare;1;BBC Nordic;BBC.Nordic.dk;141;20261006033000 +0000;20261010040000 +0000;100;100;19;100.0;priority-map, navnelighed, programoverlap;epgshare_dk1.xml
+BBC Nordic;bbcnordic.dk;141;EPGShare;2;BBC Nordic+;BBC.Nordic+.dk;4;20261006040000 +0000;20261010040000 +0000;77.0;100;0;0.0;priority-map, navnelighed;epgshare_dk1.xml
+BBC Nordic;bbcnordic.dk;141;EPGShare;3;BBC HD;BBC.HD.dk;0;;;69;100;0;0;priority-map, navnelighed;epgshare_dk1.xml
+BBC Nordic;bbcnordic.dk;141;EPGShare;4;BBC News;BBC.News.dk;243;20261006034500 +0000;20261010040000 +0000;57.2;88.0;0;0.0;navnelighed;epgshare_dk1.xml
+BBC Nordic;bbcnordic.dk;141;EPGShare;5;BBC Earth;BBC.Earth.dk;0;;;49.2;88.0;0;0;navnelighed;epgshare_dk1.xml
+BBC Nordic;bbcnordic.dk;141;BSS;1;BBC Nordic FHD DK [Multi-Sub];bbcnordic.dk;72;20261001150500 +0200;20261003150000 +0200;100;100;15;93.8;priority-map, normaliseret ID, navnelighed, programoverlap;bss_epg.xml
+BBC Nordic;bbcnordic.dk;141;BSS;2;BBC Nordic FHD NO [Multi-Sub];bbcnordic.no;57;20261001145000 +0200;20261003150500 +0200;72.8;90.0;8;57.1;navnelighed, programoverlap;bss_epg.xml
+BBC Nordic;bbcnordic.dk;141;BSS;3;BBC Nordic HD SE;bbcnordic.se;57;20261001145000 +0200;20261003150500 +0200;67.4;90.0;5;35.7;navnelighed;bss_epg.xml
+BBC Nordic;bbcnordic.dk;141;BSS;4;BBC Nordic HD FI [Multi-Sub];bbcnordic.fi;72;20261001150500 +0200;20261003150000 +0200;66.3;90.0;5;31.2;navnelighed;bss_epg.xml
+BBC Nordic;bbcnordic.dk;141;BSS;5;BBC CBeebies PL;bbccbeebies.pl;245;20261001145500 +0200;20261003145500 +0200;57.2;88.0;0;0.0;navnelighed;bss_epg.xml
+BBC Nordic;bbcnordic.dk;141;OpenEPG;1;BBC NORDIC.dk;BBC NORDIC.dk;149;20261001230000 +0000;20261004043000 +0000;98.1;100;16;84.2;priority-map, navnelighed, programoverlap;denmark4.xml
+BBC Nordic;bbcnordic.dk;141;OpenEPG;2;BBC Nordic Denmark (DK,DA).dk;BBC Nordic Denmark (DK,DA).dk;78;20261001230000 +0000;20261004033500 +0000;98.1;100;16;84.2;priority-map, navnelighed, programoverlap;denmark2.xml
+BBC Nordic;bbcnordic.dk;141;OpenEPG;3;BBC Nordic HD.dk;BBC Nordic HD.dk;77;20261001230000 +0000;20261004023500 +0000;77.0;100;0;0.0;priority-map, navnelighed;denmark1.xml
+BBC Nordic;bbcnordic.dk;141;OpenEPG;4;BBC Nordic Norway (NO,NO).dk;BBC Nordic Norway (NO,NO).dk;62;20261001232500 +0000;20261004025500 +0000;67.5;88.0;7;41.2;navnelighed;denmark2.xml
+BBC Nordic;bbcnordic.dk;141;OpenEPG;5;BBC Nordic English (IS,EN).dk;BBC Nordic English (IS,EN).dk;78;20261001230000 +0000;20261004033500 +0000;65.1;88.0;6;31.6;navnelighed;denmark2.xml
+Boomerang.dk;boomerangdk.dk;313;BSS;1;Cartoonito NO;boomerang.no;198;20261001144500 +0200;20261002230500 +0200;61.0;90.0;1;10.0;navnelighed;bss_epg.xml
+Boomerang.dk;boomerangdk.dk;313;BSS;2;Cartoonito HD PL;boomerang.pl;238;20261001150000 +0200;20261003150000 +0200;60.8;90.0;1;9.1;navnelighed;bss_epg.xml
+Boomerang.dk;boomerangdk.dk;313;BSS;3;Boomerang HU;boomerang.hu;132;20261001150000 +0200;20261002180000 +0200;60.8;90.0;1;9.1;navnelighed;bss_epg.xml
+Boomerang.dk;boomerangdk.dk;313;BSS;4;Boomerang HD UK;boomerang.uk;68;20261001150000 +0200;20261003150000 +0200;59.1;90.9;0;0.0;navnelighed;bss_epg.xml
+Boomerang.dk;boomerangdk.dk;313;BSS;5;Boomerang +1 UK;boomerangplus1.uk;67;20261001150000 +0200;20261003150000 +0200;59.1;90.9;0;0.0;navnelighed;bss_epg.xml
+Boomerang.dk;boomerangdk.dk;313;OpenEPG;1;boomerang.dk;boomerang.dk;309;20261002000500 +0000;20261004024000 +0000;97.5;100;9;81.8;priority-map, navnelighed, programoverlap;denmark6.xml
+C More Stars.dk;cmorestarsdk.dk;92;EPGShare;1;C More Stars;C.More.Stars.dk;0;;;69;100;0;0;priority-map, navnelighed;epgshare_dk1.xml
+C More Stars.dk;cmorestarsdk.dk;92;EPGShare;2;C More;C.More.dk;4;20261006040000 +0000;20261010040000 +0000;57.2;88.0;0;0.0;navnelighed;epgshare_dk1.xml
+C More Stars.dk;cmorestarsdk.dk;92;BSS;1;Stars FHD NO;cmorestars.no;79;20261001150500 +0200;20261003150000 +0200;68.2;88.0;11;44.0;navnelighed;bss_epg.xml
+C More Stars.dk;cmorestarsdk.dk;92;BSS;2;TV4 Stars HD SE [Multi-Sub];tv4stars.se;79;20261001150500 +0200;20261003150000 +0200;66.2;88.0;9;36.0;navnelighed;bss_epg.xml
+C More Stars.dk;cmorestarsdk.dk;92;BSS;3;M Movies Stars;mmovies3.za;19;20261001150000 +0200;20261003024000 +0200;52.0;80.0;0;0.0;navnelighed;bss_epg.xml
+C More Stars.dk;cmorestarsdk.dk;92;BSS;4;Starz Encore East US;starzencore.us;26;20261001145500 +0200;20261003145100 +0200;47.3;72.7;0;0.0;;bss_epg.xml
+C More Stars.dk;cmorestarsdk.dk;92;BSS;5;FilmBox Stars FHD HR;filmboxstars.hr;27;20261001160500 +0200;20261003052000 +0200;45.2;69.6;0;0.0;;bss_epg.xml
+C More Stars.dk;cmorestarsdk.dk;92;OpenEPG;1;cmorestars.dk;cmorestars.dk;82;20261002000500 +0000;20261004034500 +0000;86.1;94.7;12;50.0;priority-map, navnelighed, programoverlap;denmark6.xml
+C More Stars.dk;cmorestarsdk.dk;92;OpenEPG;2;TV4 Stars Norway (NO,NO).dk;TV4 Stars Norway (NO,NO).dk;80;20261001235500 +0000;20261004033500 +0000;48.9;56.0;12;50.0;programoverlap;denmark2.xml
+Canal 9;canal9.dk;94;EPGShare;1;Canal 9;Canal.9.dk;94;20261006025500 +0000;20261010041000 +0000;100;100;9;100.0;priority-map, navnelighed, programoverlap;epgshare_dk1.xml
+Canal 9;canal9.dk;94;BSS;1;Canal 9 HD DK;canal9.dk;47;20261001145500 +0200;20261003145000 +0200;100;100;8;100.0;priority-map, normaliseret ID, navnelighed, programoverlap;bss_epg.xml
+Canal 9;canal9.dk;94;BSS;2;Canal Panda PT;panda.pt;320;20261001144500 +0200;20261003145000 +0200;57.2;88.0;0;0.0;navnelighed;bss_epg.xml
+Canal 9;canal9.dk;94;BSS;3;Canal J HD FR;canalj.fr;117;20261001144500 +0200;20261003144500 +0200;57.2;88.0;0;0.0;navnelighed;bss_epg.xml
+Canal 9;canal9.dk;94;BSS;4;Canal D QC;canald.ca;108;20261001150000 +0200;20261003150000 +0200;57.2;88.0;0;0.0;navnelighed;bss_epg.xml
+Canal 9;canal9.dk;94;BSS;5;Canal 9 FHD CH;canal9.ch;88;20261001150000 +0200;20261003180000 +0200;57.2;88.0;0;0.0;navnelighed;bss_epg.xml
+Canal 9;canal9.dk;94;OpenEPG;1;Canal9.dk;Canal9.dk;98;20261001235000 +0000;20261004043000 +0000;100;100;7;77.8;priority-map, normaliseret ID, navnelighed, programoverlap;denmark4.xml
+Canal 9;canal9.dk;94;OpenEPG;2;canal9.dk;canal9.dk;51;20261002003500 +0000;20261004030000 +0000;100;100;8;100.0;priority-map, normaliseret ID, navnelighed, programoverlap;denmark6.xml
+Canal 9;canal9.dk;94;OpenEPG;3;Canal 9.dk;Canal 9.dk;47;20261002040000 +0000;20261004040500 +0000;100;100;8;100.0;priority-map, navnelighed, programoverlap;denmark3.xml
+Canal 9;canal9.dk;94;OpenEPG;4;CANAL9 HD (D).dk;CANAL9 HD (D).dk;50;20261001235000 +0000;20261004031000 +0000;98.9;100;5;55.6;priority-map, normaliseret ID, navnelighed, programoverlap;denmark1.xml
+Canal 9;canal9.dk;94;OpenEPG;5;Canal 9 Denmark (DK,DA).dk;Canal 9 Denmark (DK,DA).dk;50;20261001235000 +0000;20261004031000 +0000;96.4;100;7;77.8;priority-map, navnelighed, programoverlap;denmark2.xml
+Cartoon Network;cartoonnetwork.dk;493;EPGShare;1;Cartoon Network;Cartoon.Network.dk;493;20261006034500 +0000;20261010040000 +0000;100;100;14;100.0;priority-map, normaliseret ID, navnelighed, programoverlap;epgshare_dk1.xml
+Cartoon Network;cartoonnetwork.dk;493;EPGShare;2;Cartoonito;Cartoonito.dk;593;20261006035000 +0000;20261010040000 +0000;48.8;75.0;0;0.0;;epgshare_dk1.xml
+Cartoon Network;cartoonnetwork.dk;493;BSS;1;Cartoon Network HD DK [Multi-Audio];cartoonnetwork.dk;240;20261001145000 +0200;20261003144500 +0200;100;100;12;85.7;priority-map, normaliseret ID, navnelighed, programoverlap;bss_epg.xml
+Cartoon Network;cartoonnetwork.dk;493;BSS;2;Cartoon Network UK;cartoonnetwork.uk;71;20261001150000 +0200;20261003150000 +0200;82.4;100;3;21.4;priority-map, navnelighed;bss_epg.xml
+Cartoon Network;cartoonnetwork.dk;493;BSS;3;Cartoon Network HU;cartoonnetwork;0;;;77;100;0;0;priority-map, normaliseret ID, navnelighed;bss_epg.xml
+Cartoon Network;cartoonnetwork.dk;493;BSS;4;Cartoon Network HD NO [Multi-Audio];cartoonnetwork.no;240;20261001145000 +0200;20261003144500 +0200;73.2;93.3;7;50.0;navnelighed, programoverlap;bss_epg.xml
+Cartoon Network;cartoonnetwork.dk;493;BSS;5;Cartoon Network SE [Multi-Audio];cartoonnetwork.se;240;20261001145000 +0200;20261003144500 +0200;71.4;93.3;6;42.9;navnelighed;bss_epg.xml
+Cartoon Network;cartoonnetwork.dk;493;OpenEPG;1;Cartoon Network.dk;Cartoon Network.dk;742;20261001235000 +0000;20261004043500 +0000;100;100;12;85.7;priority-map, normaliseret ID, navnelighed, programoverlap;denmark1.xml
+Cartoon Network;cartoonnetwork.dk;493;OpenEPG;2;cartoonnetwork.dk;cartoonnetwork.dk;252;20261002000000 +0000;20261004023500 +0000;100;100;12;85.7;priority-map, normaliseret ID, navnelighed, programoverlap;denmark6.xml
+Cartoon Network;cartoonnetwork.dk;493;OpenEPG;3;Cartoon Network Denmark (DK,DA).dk;Cartoon Network Denmark (DK,DA).dk;214;20261001235000 +0000;20261004024000 +0000;100;100;11;84.6;priority-map, normaliseret ID, navnelighed, programoverlap;denmark2.xml
+Cartoon Network;cartoonnetwork.dk;493;OpenEPG;4;Cartoon Network Norway (NO,NO).dk;Cartoon Network Norway (NO,NO).dk;214;20261001235000 +0000;20261004024000 +0000;68.7;88.0;6;46.2;navnelighed;denmark2.xml
+Cartoon Network;cartoonnetwork.dk;493;OpenEPG;5;Cartoon Network Nordics English (IS,EN).dk;Cartoon Network Nordics English (IS,EN).dk;214;20261001235000 +0000;20261004024000 +0000;56.3;71.8;5;38.5;;denmark2.xml
+Cartoonito;cartoonito.dk;593;EPGShare;1;Cartoonito;Cartoonito.dk;593;20261006035000 +0000;20261010040000 +0000;100;100;13;100.0;priority-map, normaliseret ID, navnelighed, programoverlap;epgshare_dk1.xml
+Cartoonito;cartoonito.dk;593;EPGShare;2;Cartoon Network;Cartoon.Network.dk;493;20261006034500 +0000;20261010040000 +0000;48.8;75.0;0;0.0;;epgshare_dk1.xml
+Cartoonito;cartoonito.dk;593;BSS;1;Cartoonito DK [Multi-Audio];cartoonito.dk;292;20261001144500 +0200;20261003145000 +0200;100;100;10;100.0;priority-map, normaliseret ID, navnelighed, programoverlap;bss_epg.xml
+Cartoonito;cartoonito.dk;593;BSS;2;Cartoonito HD NO [Multi-Audio];cartoonito.se;292;20261001144500 +0200;20261003145000 +0200;64.1;90.9;2;20.0;navnelighed;bss_epg.xml
+Cartoonito;cartoonito.dk;593;BSS;3;Cartoonito NO;boomerang.no;198;20261001144500 +0200;20261002230500 +0200;64.1;90.9;2;20.0;navnelighed;bss_epg.xml
+Cartoonito;cartoonito.dk;593;BSS;4;Cartoonito FHD DE;cartoonito.de;241;20261001145900 +0200;20261003145900 +0200;62.9;90.9;2;15.4;navnelighed;bss_epg.xml
+Cartoonito;cartoonito.dk;593;BSS;5;Cartoonito PT;cartoonito.pt;247;20261001144500 +0200;20261003060000 +0200;61.2;90.9;1;8.3;navnelighed;bss_epg.xml
+Cartoonito;cartoonito.dk;593;OpenEPG;1;Cartoonito.dk;Cartoonito.dk;605;20261001235500 +0000;20261004043000 +0000;100;100;11;91.7;priority-map, normaliseret ID, navnelighed, programoverlap;denmark4.xml
+Cartoonito;cartoonito.dk;593;OpenEPG;2;Cartoonito Nordic Denmark (DK,DA).dk;Cartoonito Nordic Denmark (DK,DA).dk;219;20261001235500 +0000;20261004024500 +0000;100;100;10;100.0;priority-map, normaliseret ID, navnelighed, programoverlap;denmark2.xml
+Cartoonito;cartoonito.dk;593;OpenEPG;3;Cartoonito Nordic Norway (NO,NO).dk;Cartoonito Nordic Norway (NO,NO).dk;219;20261001235500 +0000;20261004024500 +0000;62.2;88.0;2;20.0;navnelighed;denmark2.xml
+Cartoonito;cartoonito.dk;593;OpenEPG;4;Cartoonito Nordic English (IS,EN).dk;Cartoonito Nordic English (IS,EN).dk;219;20261001235500 +0000;20261004024500 +0000;57.2;88.0;0;0.0;navnelighed;denmark2.xml
+Cartoonito;cartoonito.dk;593;OpenEPG;5;Cartoon Network.dk;Cartoon Network.dk;742;20261001235000 +0000;20261004043500 +0000;48.8;75.0;0;0.0;;denmark1.xml
+CNN;CNN.dk;121;EPGShare;1;CNN;CNN.dk;121;20261006030000 +0000;20261010040000 +0000;100;100;23;100.0;priority-map, normaliseret ID, navnelighed, programoverlap;epgshare_dk1.xml
+CNN;CNN.dk;121;BSS;1;CNN International HD SE;cnn.uk;61;20261001150000 +0200;20261003150000 +0200;97.7;100;19;82.6;priority-map, navnelighed, programoverlap;bss_epg.xml
+CNN;CNN.dk;121;BSS;2;CNN International DK;cnninternational.us;65;20261001150000 +0200;20261003150000 +0200;90.9;88.0;20;87.0;priority-map, navnelighed, programoverlap;bss_epg.xml
+CNN;CNN.dk;121;BSS;3;CNN International FHD ZA;cnninternational.za;63;20261001150000 +0200;20261003150000 +0200;80.0;88.0;21;91.3;navnelighed, programoverlap;bss_epg.xml
+CNN;CNN.dk;121;BSS;4;CNN HD CZ;cnn.cz;62;20261001150000 +0200;20261003150000 +0200;80.0;88.0;21;91.3;navnelighed, programoverlap;bss_epg.xml
+CNN;CNN.dk;121;BSS;5;CNN TH;cnn.th;56;20261001150000 +0200;20261003150000 +0200;80.0;88.0;21;91.3;navnelighed, programoverlap;bss_epg.xml
+CNN;CNN.dk;121;OpenEPG;1;CNN.dk;CNN.dk;136;20261001230000 +0000;20261004043000 +0000;100;100;23;100.0;priority-map, normaliseret ID, navnelighed, programoverlap;denmark4.xml
+CNN;CNN.dk;121;OpenEPG;2;CNN International.dk;CNN International.dk;68;20261001230000 +0000;20261004023000 +0000;82.2;88.0;23;100.0;navnelighed, programoverlap;denmark1.xml
+CNN;CNN.dk;121;OpenEPG;3;CNN International (US,EN).dk;CNN International (US,EN).dk;69;20261001230000 +0000;20261004030000 +0000;80.0;88.0;21;91.3;navnelighed, programoverlap;denmark2.xml
+Discovery Channel;discoverychannel.dk;95;EPGShare;1;Discovery Channel;Discovery.Channel.dk;95;20261006025000 +0000;20261010040000 +0000;100;100;22;100.0;priority-map, navnelighed, programoverlap;epgshare_dk1.xml
+Discovery Channel;discoverychannel.dk;95;EPGShare;2;Investigation Discovery;Investigation.Discovery.dk;104;20261006030000 +0000;20261010040000 +0000;57.2;88.0;0;0.0;navnelighed;epgshare_dk1.xml
+Discovery Channel;discoverychannel.dk;95;EPGShare;3;Discovery Science;Discovery.Science.dk;4;20261006040000 +0000;20261010040000 +0000;57.2;88.0;0;0.0;navnelighed;epgshare_dk1.xml
+Discovery Channel;discoverychannel.dk;95;EPGShare;4;Disney Channel;Disney.Channel.dk;215;20261006000000 +0000;20261010040000 +0000;43.3;66.7;0;0.0;;epgshare_dk1.xml
+Discovery Channel;discoverychannel.dk;95;BSS;1;Discovery Channel FHD DK;discoverychannel.dk;46;20261001150000 +0200;20261003153000 +0200;100;100;17;89.5;priority-map, normaliseret ID, navnelighed, programoverlap;bss_epg.xml
+Discovery Channel;discoverychannel.dk;95;BSS;2;Discovery Channel HD SE;discoverychannel.se;46;20261001150000 +0200;20261003153000 +0200;80.9;94.1;15;78.9;navnelighed, programoverlap;bss_epg.xml
+Discovery Channel;discoverychannel.dk;95;BSS;3;Discovery Channel FHD ZA;discoverychannel.za;63;20261001152000 +0200;20261003145500 +0200;71.5;94.1;7;41.2;navnelighed;bss_epg.xml
+Discovery Channel;discoverychannel.dk;95;BSS;4;Discovery Channel FHD UK;discoverychannel.uk;51;20261001150000 +0200;20261003150000 +0200;70.9;100;4;23.5;navnelighed;bss_epg.xml
+Discovery Channel;discoverychannel.dk;95;BSS;5;Discovery Channel CA;discoverychannel.ca;44;20261001150000 +0200;20261003150000 +0200;69.5;94.1;2;33.3;navnelighed;bss_epg.xml
+Discovery Channel;discoverychannel.dk;95;OpenEPG;1;Discovery Channel.dk;Discovery Channel.dk;138;20261001232500 +0000;20261004042500 +0000;95.2;100;16;72.7;priority-map, navnelighed, programoverlap;denmark3.xml
+Discovery Channel;discoverychannel.dk;95;OpenEPG;2;Discovery Channel Denmark (DK,DA).dk;Discovery Channel Denmark (DK,DA).dk;48;20261001232500 +0000;20261004025000 +0000;92.5;100;13;61.9;priority-map, navnelighed, programoverlap;denmark2.xml
+Discovery Channel;discoverychannel.dk;95;OpenEPG;3;Discovery Channel HD (D).dk;Discovery Channel HD (D).dk;48;20261001232500 +0000;20261004025000 +0000;82.7;100;5;22.7;priority-map, navnelighed;denmark1.xml
+Discovery Channel;discoverychannel.dk;95;OpenEPG;4;discoverychannel.dk;discoverychannel.dk;0;;;77;100;0;0;priority-map, normaliseret ID, navnelighed;denmark6.xml
+Discovery Channel;discoverychannel.dk;95;OpenEPG;5;Discovery Channel Norge (NO,NO).dk;Discovery Channel Norge (NO,NO).dk;48;20261001232500 +0000;20261004025000 +0000;69.1;88.0;10;47.6;navnelighed;denmark2.xml
+Discovery Science;Discovery.Science.dk;4;EPGShare;1;Discovery Science;Discovery.Science.dk;4;20261006040000 +0000;20261010040000 +0000;100;100;1;100.0;priority-map, normaliseret ID, navnelighed, programoverlap;epgshare_dk1.xml
+Discovery Science;Discovery.Science.dk;4;EPGShare;2;Discovery Channel;Discovery.Channel.dk;95;20261006025000 +0000;20261010040000 +0000;57.2;88.0;0;0.0;navnelighed;epgshare_dk1.xml
+Discovery Science;Discovery.Science.dk;4;BSS;1;Discovery Science HD DK;discoveryscience.dk;2;20261002060000 +0200;20261004060000 +0200;100;100;1;100.0;priority-map, normaliseret ID, navnelighed, programoverlap;bss_epg.xml
+Discovery Science;Discovery.Science.dk;4;BSS;2;Discovery Science FHD FI;discoveryscience.fi;81;20261001151400 +0200;20261003151400 +0200;61.2;94.1;0;0.0;navnelighed;bss_epg.xml
+Discovery Science;Discovery.Science.dk;4;BSS;3;Discovery Science  FHD IS;discoveryscience.is;81;20261001151400 +0200;20261003151400 +0200;61.2;94.1;0;0.0;navnelighed;bss_epg.xml
+Discovery Science;Discovery.Science.dk;4;BSS;4;Discovery Science HD NO;discoveryscience.no;81;20261001151400 +0200;20261003151400 +0200;61.2;94.1;0;0.0;navnelighed;bss_epg.xml
+Discovery Science;Discovery.Science.dk;4;BSS;5;Discovery Science FHD SE;discoveryscience.se;81;20261001151400 +0200;20261003151400 +0200;61.2;94.1;0;0.0;navnelighed;bss_epg.xml
+Discovery Science;Discovery.Science.dk;4;OpenEPG;1;Discovery Science.dk;Discovery Science.dk;236;20261001231000 +0000;20261004051200 +0000;85.0;100;0;0.0;priority-map, normaliseret ID, navnelighed;denmark3.xml
+Discovery Science;Discovery.Science.dk;4;OpenEPG;2;discoveryscience.dk;discoveryscience.dk;82;20261002002000 +0000;20261004024800 +0000;85.0;100;0;0.0;priority-map, normaliseret ID, navnelighed;denmark6.xml
+Discovery Science;Discovery.Science.dk;4;OpenEPG;3;Discovery Channel.dk;Discovery Channel.dk;138;20261001232500 +0000;20261004042500 +0000;57.2;88.0;0;0.0;navnelighed;denmark3.xml
+Discovery Science;Discovery.Science.dk;4;OpenEPG;4;Discovery Channel Denmark (DK,DA).dk;Discovery Channel Denmark (DK,DA).dk;48;20261001232500 +0000;20261004025000 +0000;57.2;88.0;0;0.0;navnelighed;denmark2.xml
+Discovery Science;Discovery.Science.dk;4;OpenEPG;5;Discovery Channel HD (D).dk;Discovery Channel HD (D).dk;48;20261001232500 +0000;20261004025000 +0000;57.2;88.0;0;0.0;navnelighed;denmark1.xml
+Disney Channel;disneychannel.dk;215;EPGShare;1;Disney Channel;Disney.Channel.dk;215;20261006000000 +0000;20261010040000 +0000;100;100;16;100.0;priority-map, navnelighed, programoverlap;epgshare_dk1.xml
+Disney Channel;disneychannel.dk;215;EPGShare;2;Disney+;Disney+.dk;0;;;69;100;0;0;priority-map, navnelighed;epgshare_dk1.xml
+Disney Channel;disneychannel.dk;215;EPGShare;3;Disney+ NKU25;Disney+.NKU25.dk;0;;;49.2;88.0;0;0;navnelighed;epgshare_dk1.xml
+Disney Channel;disneychannel.dk;215;EPGShare;4;Disney+ Premium;Disney+.Premium.dk;0;;;49.2;88.0;0;0;navnelighed;epgshare_dk1.xml
+Disney Channel;disneychannel.dk;215;EPGShare;5;Disney+ Standard;Disney+.Standard.dk;0;;;49.2;88.0;0;0;navnelighed;epgshare_dk1.xml
+Disney Channel;disneychannel.dk;215;BSS;1;Disney Channel FHD DK;disneychannel.dk;118;20261001144500 +0200;20261003144500 +0200;100;100;14;87.5;priority-map, normaliseret ID, navnelighed, programoverlap;bss_epg.xml
+Disney Channel;disneychannel.dk;215;BSS;2;Disney Channel HD IS;disneychannel.us;91;20261001145500 +0200;20261003150000 +0200;80.3;100;2;13.3;priority-map, navnelighed;bss_epg.xml
+Disney Channel;disneychannel.dk;215;BSS;3;Disney Channel HD NO;disneychannel.no;156;20261001144500 +0200;20261003144500 +0200;72.9;92.9;8;50.0;navnelighed, programoverlap;bss_epg.xml
+Disney Channel;disneychannel.dk;215;BSS;4;Disney Channel FHD SK;disney_channel;0;;;69;100;0;0;priority-map, navnelighed;bss_epg.xml
+Disney Channel;disneychannel.dk;215;BSS;5;Disney Channel SE [Multi-Audio];disneychannel.se;156;20261001144500 +0200;20261003144500 +0200;66.6;92.9;4;25.0;navnelighed;bss_epg.xml
+Disney Channel;disneychannel.dk;215;OpenEPG;1;disneychannel.dk;disneychannel.dk;113;20261002063000 +0000;20261004060000 +0000;99.1;100;9;56.2;priority-map, normaliseret ID, navnelighed, programoverlap;denmark6.xml
+Disney Channel;disneychannel.dk;215;OpenEPG;2;Disney Channel.dk;Disney Channel.dk;138;20261002040000 +0000;20261004032600 +0000;97.3;100;13;81.2;priority-map, navnelighed, programoverlap;denmark3.xml
+Disney Channel;disneychannel.dk;215;OpenEPG;3;Disney Channel Denmark (DK,DA).dk;Disney Channel Denmark (DK,DA).dk;114;20261002040000 +0000;20261003202000 +0000;91.1;100;9;56.2;priority-map, navnelighed, programoverlap;denmark2.xml
+Disney Channel;disneychannel.dk;215;OpenEPG;4;Disney Channel Sca..dk;Disney Channel Sca..dk;228;20261002040000 +0000;20261004043000 +0000;71.3;88.0;9;56.2;navnelighed, programoverlap;denmark4.xml
+Disney Channel;disneychannel.dk;215;OpenEPG;5;Disney Channel Nordics (IS,EN).dk;Disney Channel Nordics (IS,EN).dk;164;20261001235000 +0000;20261004025000 +0000;63.5;88.0;4;25.0;navnelighed;denmark2.xml
+Disney Junior;Disney.Junior.dk;0;EPGShare;1;Disney Junior;Disney.Junior.dk;0;;;77;100;0;0;priority-map, normaliseret ID, navnelighed;epgshare_dk1.xml
+Disney Junior;Disney.Junior.dk;0;EPGShare;2;Disney Channel;Disney.Channel.dk;215;20261006000000 +0000;20261010040000 +0000;57.2;88.0;0;0;navnelighed;epgshare_dk1.xml
+Disney Junior;Disney.Junior.dk;0;EPGShare;3;Disney+;Disney+.dk;0;;;49.2;88.0;0;0;navnelighed;epgshare_dk1.xml
+Disney Junior;Disney.Junior.dk;0;BSS;1;Disney Junior HD IS;disneyjunior.us;114;20261001150000 +0200;20261003153500 +0200;77;100;0;0;priority-map, navnelighed;bss_epg.xml
+Disney Junior;Disney.Junior.dk;0;BSS;2;Disney Junior SK;disney_junior;0;;;77;100;0;0;priority-map, normaliseret ID, navnelighed;bss_epg.xml
+Disney Junior;Disney.Junior.dk;0;BSS;3;Disney Junior RO;disneyjunior.ro;287;20261001150000 +0200;20261003153000 +0200;60.0;92.3;0;0;navnelighed;bss_epg.xml
+Disney Junior;Disney.Junior.dk;0;BSS;4;Disney Junior ZA;disneyjunior.za;206;20261001145000 +0200;20261003145000 +0200;60.0;92.3;0;0;navnelighed;bss_epg.xml
+Disney Junior;Disney.Junior.dk;0;BSS;5;Disney Junior HD FR;disneyjunior.fr;203;20261001150500 +0200;20261003150500 +0200;60.0;92.3;0;0;navnelighed;bss_epg.xml
+Disney Junior;Disney.Junior.dk;0;OpenEPG;1;Disney Junior.dk;Disney Junior.dk;0;;;77;100;0;0;priority-map, normaliseret ID, navnelighed;denmark5.xml
+Disney Junior;Disney.Junior.dk;0;OpenEPG;2;Disney Channel.dk;Disney Channel.dk;138;20261002040000 +0000;20261004032600 +0000;57.2;88.0;0;0;navnelighed;denmark3.xml
+Disney Junior;Disney.Junior.dk;0;OpenEPG;3;Disney Channel Denmark (DK,DA).dk;Disney Channel Denmark (DK,DA).dk;114;20261002040000 +0000;20261003202000 +0000;57.2;88.0;0;0;navnelighed;denmark2.xml
+Disney Junior;Disney.Junior.dk;0;OpenEPG;4;Disney Channel Nordics (IS,EN).dk;Disney Channel Nordics (IS,EN).dk;164;20261001235000 +0000;20261004025000 +0000;47.3;72.7;0;0;;denmark2.xml
+DR Ramasjang;drramasjang.dk;309;EPGShare;1;DR Ramasjang;DR.Ramasjang.dk;309;20261006035000 +0000;20261010040500 +0000;100;100;113;100.0;priority-map, normaliseret ID, navnelighed, programoverlap;epgshare_dk1.xml
+DR Ramasjang;drramasjang.dk;309;BSS;1;DR Ramasjang HD DK;drramasjang.dk;150;20261001145500 +0200;20261003145000 +0200;96.5;100;45;45.9;priority-map, normaliseret ID, navnelighed;bss_epg.xml
+DR Ramasjang;drramasjang.dk;309;BSS;2;DR 1 HD DK;dr1.dk;62;20261001161500 +0200;20261003151000 +0200;57.2;88.0;0;0.0;navnelighed;bss_epg.xml
+DR Ramasjang;drramasjang.dk;309;BSS;3;DR 2 HD DK;dr2.dk;55;20261001171500 +0200;20261003163500 +0200;57.2;88.0;0;0.0;navnelighed;bss_epg.xml
+DR Ramasjang;drramasjang.dk;309;BSS;4;DRTV FHD DK;DR TV;0;;;49.2;88.0;0;0;navnelighed;bss_epg.xml
+DR Ramasjang;drramasjang.dk;309;OpenEPG;1;DR Ramasjang Denmark (DK,DA).dk;DR Ramasjang Denmark (DK,DA).dk;147;20261001234500 +0000;20261004025500 +0000;99.3;100;40;57.1;priority-map, normaliseret ID, navnelighed, programoverlap;denmark2.xml
+DR Ramasjang;drramasjang.dk;309;OpenEPG;2;DR Ramasjang.dk;DR Ramasjang.dk;505;20261001234500 +0000;20261004042500 +0000;97.4;100;56;49.6;priority-map, normaliseret ID, navnelighed;denmark1.xml
+DR Ramasjang;drramasjang.dk;309;OpenEPG;3;ramasjang.dk;ramasjang.dk;145;20261002014500 +0000;20261004043500 +0000;80.5;90.0;40;40.0;priority-map, navnelighed;denmark6.xml
+DR1;dr1.dk;128;EPGShare;1;DR1;DR1.dk;128;20261006025500 +0000;20261010041000 +0000;100;100;68;100.0;priority-map, normaliseret ID, navnelighed, programoverlap;epgshare_dk1.xml
+DR1;dr1.dk;128;EPGShare;2;DR1 Synstolkning;DR1.Synstolkning.dk;128;20261006025500 +0000;20261010041000 +0000;82.2;88.0;68;100.0;navnelighed, programoverlap;epgshare_dk1.xml
+DR1;dr1.dk;128;EPGShare;3;DR2;DR2.dk;107;20261006033000 +0000;20261010040000 +0000;45.7;66.7;6;9.5;;epgshare_dk1.xml
+DR1;dr1.dk;128;EPGShare;4;NDR;NDR.dk;162;20261006031500 +0000;20261010040000 +0000;43.3;66.7;0;0.0;;epgshare_dk1.xml
+DR1;dr1.dk;128;EPGShare;5;MDR;MDR.dk;4;20261006040000 +0000;20261010040000 +0000;43.3;66.7;0;0.0;;epgshare_dk1.xml
+DR1;dr1.dk;128;BSS;1;DR 1 HD DK;dr1.dk;62;20261001161500 +0200;20261003151000 +0200;92.1;100;14;28.6;priority-map, normaliseret ID, navnelighed;bss_epg.xml
+DR1;dr1.dk;128;BSS;2;DR 2 HD DK;dr2.dk;55;20261001171500 +0200;20261003163500 +0200;60.1;88.0;5;11.6;navnelighed;bss_epg.xml
+DR1;dr1.dk;128;BSS;3;DRTV FHD DK;DR TV;0;;;49.2;88.0;0;0;navnelighed;bss_epg.xml
+DR1;dr1.dk;128;BSS;4;ORF 1 FHD AT;orf1.de;92;20261001151500 +0200;20261003145000 +0200;43.3;66.7;0;0.0;;bss_epg.xml
+DR1;dr1.dk;128;BSS;5;TF1 FHD BE;tf1.fr;87;20261001160000 +0200;20261003145000 +0200;43.3;66.7;0;0.0;;bss_epg.xml
+DR1;dr1.dk;128;OpenEPG;1;DR1 Denmark (DK,DA).dk;DR1 Denmark (DK,DA).dk;67;20261001221500 +0000;20261004024000 +0000;96.9;100;21;47.7;priority-map, normaliseret ID, navnelighed;denmark2.xml
+DR1;dr1.dk;128;OpenEPG;2;DR1.dk;DR1.dk;195;20261001221500 +0000;20261004050000 +0000;93.1;100;22;32.4;priority-map, normaliseret ID, navnelighed;denmark3.xml
+DR1;dr1.dk;128;OpenEPG;3;DR1 HD.dk;DR1 HD.dk;67;20261001221500 +0000;20261004024000 +0000;91.4;100;14;25.5;priority-map, normaliseret ID, navnelighed;denmark1.xml
+DR1;dr1.dk;128;OpenEPG;4;dr1.dk;dr1.dk;66;20261002001000 +0000;20261004023500 +0000;89.8;100;11;19.3;priority-map, normaliseret ID, navnelighed;denmark6.xml
+DR1;dr1.dk;128;OpenEPG;5;dr2.dk;dr2.dk;55;20261002001500 +0000;20261004030500 +0000;45.8;66.7;4;10.0;;denmark6.xml
+DR2;dr2.dk;107;EPGShare;1;DR2;DR2.dk;107;20261006033000 +0000;20261010040000 +0000;100;100;63;100.0;priority-map, normaliseret ID, navnelighed, programoverlap;epgshare_dk1.xml
+DR2;dr2.dk;107;EPGShare;2;DR2 Synstolkning;DR2.Synstolkning.dk;107;20261006033000 +0000;20261010040000 +0000;82.2;88.0;63;100.0;navnelighed, programoverlap;epgshare_dk1.xml
+DR2;dr2.dk;107;EPGShare;3;DR1;DR1.dk;128;20261006025500 +0000;20261010041000 +0000;45.7;66.7;6;9.5;;epgshare_dk1.xml
+DR2;dr2.dk;107;EPGShare;4;NDR;NDR.dk;162;20261006031500 +0000;20261010040000 +0000;43.3;66.7;0;0.0;;epgshare_dk1.xml
+DR2;dr2.dk;107;EPGShare;5;MDR;MDR.dk;4;20261006040000 +0000;20261010040000 +0000;43.3;66.7;0;0.0;;epgshare_dk1.xml
+DR2;dr2.dk;107;BSS;1;DR 2 HD DK;dr2.dk;55;20261001171500 +0200;20261003163500 +0200;89.7;100;8;18.6;priority-map, normaliseret ID, navnelighed;bss_epg.xml
+DR2;dr2.dk;107;BSS;2;DR 1 HD DK;dr1.dk;62;20261001161500 +0200;20261003151000 +0200;59.8;88.0;5;10.2;navnelighed;bss_epg.xml
+DR2;dr2.dk;107;BSS;3;DRTV FHD DK;DR TV;0;;;49.2;88.0;0;0;navnelighed;bss_epg.xml
+DR2;dr2.dk;107;BSS;4;ORF 2 HD AT;orf2.de;98;20261001144500 +0200;20261003145000 +0200;43.3;66.7;0;0.0;;bss_epg.xml
+DR2;dr2.dk;107;BSS;5;RTL Zwei FHD DE;rtl2.de;44;20261001150000 +0200;20261003162500 +0200;43.3;66.7;0;0.0;;bss_epg.xml
+DR2;dr2.dk;107;OpenEPG;1;DR2 Denmark (DK,DA).dk;DR2 Denmark (DK,DA).dk;55;20261001234500 +0000;20261004030500 +0000;96.8;100;18;47.4;priority-map, normaliseret ID, navnelighed;denmark2.xml
+DR2;dr2.dk;107;OpenEPG;2;DR2.dk;DR2.dk;148;20261001234500 +0000;20261004043000 +0000;94.1;100;23;36.5;priority-map, normaliseret ID, navnelighed;denmark3.xml
+DR2;dr2.dk;107;OpenEPG;3;DR2 HD.dk;DR2 HD.dk;54;20261001234500 +0000;20261004023500 +0000;91.4;100;12;25.5;priority-map, normaliseret ID, navnelighed;denmark1.xml
+DR2;dr2.dk;107;OpenEPG;4;dr2.dk;dr2.dk;55;20261002001500 +0000;20261004030500 +0000;90.6;100;9;22.5;priority-map, normaliseret ID, navnelighed;denmark6.xml
+DR2;dr2.dk;107;OpenEPG;5;dr1.dk;dr1.dk;66;20261002001000 +0000;20261004023500 +0000;44.6;66.7;3;5.3;;denmark6.xml
+Eurosport 1;eurosport1.dk;72;EPGShare;1;Eurosport 1;Eurosport.1.dk;72;20261006033000 +0000;20261010040000 +0000;100;100;36;100.0;priority-map, navnelighed, programoverlap;epgshare_dk1.xml
+Eurosport 1;eurosport1.dk;72;EPGShare;2;Eurosport 2;Eurosport.2.dk;66;20261006015500 +0000;20261010040000 +0000;91.6;100;21;58.3;priority-map, navnelighed, programoverlap;epgshare_dk1.xml
+Eurosport 1;eurosport1.dk;72;EPGShare;3;EuroSport 2 HD;EuroSport.2.HD.dk;0;;;69;100;0;0;priority-map, navnelighed;epgshare_dk1.xml
+Eurosport 1;eurosport1.dk;72;EPGShare;4;TV 2 Sport;TV.2.Sport.dk;72;20261006030000 +0000;20261010050000 +0000;57.2;88.0;0;0.0;navnelighed;epgshare_dk1.xml
+Eurosport 1;eurosport1.dk;72;EPGShare;5;TV 2 Sport X;TV.2.Sport.X.dk;57;20261006010000 +0000;20261010040000 +0000;57.2;88.0;0;0.0;navnelighed;epgshare_dk1.xml
+Eurosport 1;eurosport1.dk;72;BSS;1;Eurosport 1 HD DK;eurosport1.dk;29;20261001163000 +0200;20261003151500 +0200;89.2;100;3;16.7;priority-map, normaliseret ID, navnelighed;bss_epg.xml
+Eurosport 1;eurosport1.dk;72;BSS;2;Eurosport 2 HD DK;eurosport2.dk;44;20261001154500 +0200;20261003165500 +0200;71.9;100;5;27.8;navnelighed;bss_epg.xml
+Eurosport 1;eurosport1.dk;72;BSS;3;Eurosport 1 FHD SK;eurosport_1;0;;;69;100;0;0;priority-map, navnelighed;bss_epg.xml
+Eurosport 1;eurosport1.dk;72;BSS;4;Eurosport 2 FHD SK;eurosport_2;0;;;69;100;0;0;priority-map, navnelighed;bss_epg.xml
+Eurosport 1;eurosport1.dk;72;BSS;5;Eurosport 2 HD;eurosport2.es;43;20261001150000 +0200;20261003170000 +0200;65.0;100;0;0.0;navnelighed;bss_epg.xml
+Eurosport 1;eurosport1.dk;72;OpenEPG;1;eurosport1.dk;eurosport1.dk;31;20261002015000 +0000;20261004025500 +0000;90.9;100;4;23.5;priority-map, normaliseret ID, navnelighed;denmark6.xml
+Eurosport 1;eurosport1.dk;72;OpenEPG;2;Eurosport 1 Denmark (DK,DA).dk;Eurosport 1 Denmark (DK,DA).dk;30;20261001235000 +0000;20261004025500 +0000;82.9;100;4;23.5;priority-map, navnelighed;denmark2.xml
+Eurosport 1;eurosport1.dk;72;OpenEPG;3;Eurosport 1.dk;Eurosport 1.dk;87;20261001235000 +0000;20261004060000 +0000;82.6;100;7;22.6;priority-map, navnelighed;denmark3.xml
+Eurosport 1;eurosport1.dk;72;OpenEPG;4;Eurosport 2.dk;Eurosport 2.dk;95;20261001235500 +0000;20261004050500 +0000;82.2;100;6;20.7;priority-map, navnelighed;denmark3.xml
+Eurosport 1;eurosport1.dk;72;OpenEPG;5;Eurosport 2 Denmark (DK,DA).dk;Eurosport 2 Denmark (DK,DA).dk;33;20261001235500 +0000;20261004040000 +0000;81.7;100;3;18.8;priority-map, navnelighed;denmark2.xml
+Eurosport 2;eurosport2.dk;66;EPGShare;1;Eurosport 2;Eurosport.2.dk;66;20261006015500 +0000;20261010040000 +0000;100;100;36;100.0;priority-map, navnelighed, programoverlap;epgshare_dk1.xml
+Eurosport 2;eurosport2.dk;66;EPGShare;2;Eurosport 1;Eurosport.1.dk;72;20261006033000 +0000;20261010040000 +0000;91.6;100;21;58.3;priority-map, navnelighed, programoverlap;epgshare_dk1.xml
+Eurosport 2;eurosport2.dk;66;EPGShare;3;EuroSport 2 HD;EuroSport.2.HD.dk;0;;;69;100;0;0;priority-map, navnelighed;epgshare_dk1.xml
+Eurosport 2;eurosport2.dk;66;EPGShare;4;TV 2 Sport;TV.2.Sport.dk;72;20261006030000 +0000;20261010050000 +0000;57.2;88.0;0;0.0;navnelighed;epgshare_dk1.xml
+Eurosport 2;eurosport2.dk;66;EPGShare;5;TV 2 Sport X;TV.2.Sport.X.dk;57;20261006010000 +0000;20261010040000 +0000;57.2;88.0;0;0.0;navnelighed;epgshare_dk1.xml
+Eurosport 2;eurosport2.dk;66;BSS;1;Eurosport 2 HD DK;eurosport2.dk;44;20261001154500 +0200;20261003165500 +0200;91.9;100;5;27.8;priority-map, normaliseret ID, navnelighed;bss_epg.xml
+Eurosport 2;eurosport2.dk;66;BSS;2;Eurosport 1 HD DK;eurosport1.dk;29;20261001163000 +0200;20261003151500 +0200;71.9;100;5;27.8;navnelighed;bss_epg.xml
+Eurosport 2;eurosport2.dk;66;BSS;3;Eurosport 1 FHD SK;eurosport_1;0;;;69;100;0;0;priority-map, navnelighed;bss_epg.xml
+Eurosport 2;eurosport2.dk;66;BSS;4;Eurosport 2 FHD SK;eurosport_2;0;;;69;100;0;0;priority-map, navnelighed;bss_epg.xml
+Eurosport 2;eurosport2.dk;66;BSS;5;Eurosport 2 HD;eurosport2.es;43;20261001150000 +0200;20261003170000 +0200;65.0;100;0;0.0;navnelighed;bss_epg.xml
+Eurosport 2;eurosport2.dk;66;OpenEPG;1;eurosport2.dk;eurosport2.dk;31;20261002015500 +0000;20261004040000 +0000;88.3;100;2;13.3;priority-map, normaliseret ID, navnelighed;denmark6.xml
+Eurosport 2;eurosport2.dk;66;OpenEPG;2;Eurosport 2.dk;Eurosport 2.dk;95;20261001235500 +0000;20261004050500 +0000;82.2;100;6;20.7;priority-map, navnelighed;denmark3.xml
+Eurosport 2;eurosport2.dk;66;OpenEPG;3;Eurosport 1.dk;Eurosport 1.dk;87;20261001235000 +0000;20261004060000 +0000;80.2;100;4;12.9;priority-map, navnelighed;denmark3.xml
+Eurosport 2;eurosport2.dk;66;OpenEPG;4;Eurosport 2 Denmark (DK,DA).dk;Eurosport 2 Denmark (DK,DA).dk;33;20261001235500 +0000;20261004040000 +0000;80.1;100;2;12.5;priority-map, navnelighed;denmark2.xml
+Eurosport 2;eurosport2.dk;66;OpenEPG;5;Eurosport 1 Denmark (DK,DA).dk;Eurosport 1 Denmark (DK,DA).dk;30;20261001235000 +0000;20261004025500 +0000;79.9;100;2;11.8;priority-map, navnelighed;denmark2.xml
+Investigation Discovery;investigationdiscovery.dk;104;EPGShare;1;Investigation Discovery;Investigation.Discovery.dk;104;20261006030000 +0000;20261010040000 +0000;100;100;28;100.0;priority-map, navnelighed, programoverlap;epgshare_dk1.xml
+Investigation Discovery;investigationdiscovery.dk;104;EPGShare;2;Discovery Channel;Discovery.Channel.dk;95;20261006025000 +0000;20261010040000 +0000;57.2;88.0;0;0.0;navnelighed;epgshare_dk1.xml
+Investigation Discovery;investigationdiscovery.dk;104;BSS;1;Investigation Discovery DK;investigationdiscovery.dk;51;20261001150000 +0200;20261003150000 +0200;100;100;18;85.7;priority-map, normaliseret ID, navnelighed, programoverlap;bss_epg.xml
+Investigation Discovery;investigationdiscovery.dk;104;BSS;2;ID Investigation Discovery HD PT;investigationdiscovery.pt;51;20261001150000 +0200;20261003150000 +0200;82.2;95.7;16;80.0;navnelighed, programoverlap;bss_epg.xml
+Investigation Discovery;investigationdiscovery.dk;104;BSS;3;Investigation Discovery NO [Multi-Sub];investigationdiscovery.no;51;20261001150000 +0200;20261003150000 +0200;81.2;95.7;16;76.2;navnelighed, programoverlap;bss_epg.xml
+Investigation Discovery;investigationdiscovery.dk;104;BSS;4;Investigation Discovery SE [Multi-Sub];investigationdiscovery.se;51;20261001150000 +0200;20261003150000 +0200;80.0;95.7;15;71.4;navnelighed, programoverlap;bss_epg.xml
+Investigation Discovery;investigationdiscovery.dk;104;BSS;5;Investigation Discovery HD CA;investigationdiscovery.ca;50;20261001150000 +0200;20261003150000 +0200;68.4;95.7;2;25.0;navnelighed;bss_epg.xml
+Investigation Discovery;investigationdiscovery.dk;104;OpenEPG;1;Investigation Discovery.dk;Investigation Discovery.dk;100;20261001230000 +0000;20261004050000 +0000;93.3;100;17;65.4;priority-map, navnelighed, programoverlap;denmark4.xml
+Investigation Discovery;investigationdiscovery.dk;104;OpenEPG;2;Investigation Discovery Denmark (DK,DA).dk;Investigation Discovery Denmark (DK,DA).dk;52;20261001230000 +0000;20261004030000 +0000;93.0;100;16;64.0;priority-map, navnelighed, programoverlap;denmark2.xml
+Investigation Discovery;investigationdiscovery.dk;104;OpenEPG;3;Investigation Discovery Norway (NO,NO).dk;Investigation Discovery Norway (NO,NO).dk;52;20261001230000 +0000;20261004030000 +0000;72.2;88.0;15;60.0;navnelighed, programoverlap;denmark2.xml
+Investigation Discovery;investigationdiscovery.dk;104;OpenEPG;4;ID Investigation Discovery (D).dk;ID Investigation Discovery (D).dk;52;20261001230000 +0000;20261004030000 +0000;63.1;95.7;1;3.6;navnelighed;denmark1.xml
+Investigation Discovery;investigationdiscovery.dk;104;OpenEPG;5;Discovery Channel.dk;Discovery Channel.dk;138;20261001232500 +0000;20261004042500 +0000;57.2;88.0;0;0.0;navnelighed;denmark3.xml
+Kanal 4;kanal4.dk;121;EPGShare;1;Canal 9;Canal.9.dk;94;20261006025500 +0000;20261010041000 +0000;50.1;72.7;1;11.1;;epgshare_dk1.xml
+Kanal 4;kanal4.dk;121;EPGShare;2;Kanal 4;Kanal.4.dk;121;20261006032000 +0000;20261010040000 +0000;37.0;0;14;100.0;priority-map, programoverlap;epgshare_dk1.xml
+Kanal 4;kanal4.dk;121;BSS;1;Kanal 4 FHD DK;kanal4.dk;56;20261001145000 +0200;20261003145000 +0200;100;100;14;100.0;priority-map, normaliseret ID, navnelighed, programoverlap;bss_epg.xml
+Kanal 4;kanal4.dk;121;BSS;2;Kanal 5 FHD DK;kanal5.dk;51;20261001150000 +0200;20261003150000 +0200;61.3;83.3;4;28.6;navnelighed;bss_epg.xml
+Kanal 4;kanal4.dk;121;BSS;3;Kanal 5 HD SE;kanal5.se;50;20261001145500 +0200;20261003153500 +0200;48.2;71.4;1;7.1;;bss_epg.xml
+Kanal 4;kanal4.dk;121;BSS;4;Canal 9 HD DK;canal9.dk;47;20261001145500 +0200;20261003145000 +0200;47.3;72.7;0;0.0;;bss_epg.xml
+Kanal 4;kanal4.dk;121;BSS;5;Kanal 9 HD SE;kanal9.se;68;20261001153000 +0200;20261003152000 +0200;46.4;71.4;0;0.0;;bss_epg.xml
+Kanal 4;kanal4.dk;121;OpenEPG;1;kanal4.dk;kanal4.dk;57;20261002005500 +0000;20261004030000 +0000;100;100;12;85.7;priority-map, normaliseret ID, navnelighed, programoverlap;denmark6.xml
+Kanal 4;kanal4.dk;121;OpenEPG;2;kanal5.dk;kanal5.dk;51;20261002000500 +0000;20261004035000 +0000;59.5;83.3;3;21.4;navnelighed;denmark6.xml
+Kanal 4;kanal4.dk;121;OpenEPG;3;kanal6.dk;kanal6.dk;51;20261002001000 +0000;20261004023500 +0000;56.0;83.3;1;7.1;navnelighed;denmark6.xml
+Kanal 4;kanal4.dk;121;OpenEPG;4;Canal 9 Denmark (DK,DA).dk;Canal 9 Denmark (DK,DA).dk;50;20261001235000 +0000;20261004031000 +0000;47.3;72.7;0;0.0;;denmark2.xml
+Kanal 4;kanal4.dk;121;OpenEPG;5;Canal 9.dk;Canal 9.dk;47;20261002040000 +0000;20261004040500 +0000;47.3;72.7;0;0.0;;denmark3.xml
+Kanal 5;kanal5.dk;102;EPGShare;1;Canal 9;Canal.9.dk;94;20261006025500 +0000;20261010041000 +0000;50.1;72.7;1;11.1;;epgshare_dk1.xml
+Kanal 5;kanal5.dk;102;EPGShare;2;Kanal 5;Kanal.5.dk;102;20261006032000 +0000;20261010041000 +0000;37.0;0;19;100.0;priority-map, programoverlap;epgshare_dk1.xml
+Kanal 5;kanal5.dk;102;BSS;1;Kanal 5 FHD DK;kanal5.dk;51;20261001150000 +0200;20261003150000 +0200;100;100;16;84.2;priority-map, normaliseret ID, navnelighed, programoverlap;bss_epg.xml
+Kanal 5;kanal5.dk;102;BSS;2;Kanal 4 FHD DK;kanal4.dk;56;20261001145000 +0200;20261003145000 +0200;61.3;83.3;4;28.6;navnelighed;bss_epg.xml
+Kanal 5;kanal5.dk;102;BSS;3;Kanal 5 HD SE;kanal5.se;50;20261001145500 +0200;20261003153500 +0200;58.6;88.0;1;5.6;navnelighed;bss_epg.xml
+Kanal 5;kanal5.dk;102;BSS;4;Kanal 5 MK;kanal5.mk;32;20261001150000 +0200;20261003150000 +0200;57.2;88.0;0;0.0;navnelighed;bss_epg.xml
+Kanal 5;kanal5.dk;102;BSS;5;Canal 9 HD DK;canal9.dk;47;20261001145500 +0200;20261003145000 +0200;50.4;72.7;1;12.5;;bss_epg.xml
+Kanal 5;kanal5.dk;102;OpenEPG;1;kanal5.dk;kanal5.dk;51;20261002000500 +0000;20261004035000 +0000;100;100;15;78.9;priority-map, normaliseret ID, navnelighed, programoverlap;denmark6.xml
+Kanal 5;kanal5.dk;102;OpenEPG;2;kanal4.dk;kanal4.dk;57;20261002005500 +0000;20261004030000 +0000;58.6;83.3;3;17.6;navnelighed;denmark6.xml
+Kanal 5;kanal5.dk;102;OpenEPG;3;kanal6.dk;kanal6.dk;51;20261002001000 +0000;20261004023500 +0000;57.7;83.3;2;14.3;navnelighed;denmark6.xml
+Kanal 5;kanal5.dk;102;OpenEPG;4;Canal 9.dk;Canal 9.dk;47;20261002040000 +0000;20261004040500 +0000;50.4;72.7;1;12.5;;denmark3.xml
+Kanal 5;kanal5.dk;102;OpenEPG;5;Canal 9 Denmark (DK,DA).dk;Canal 9 Denmark (DK,DA).dk;50;20261001235000 +0000;20261004031000 +0000;50.1;72.7;1;11.1;;denmark2.xml
+Kosmopol;Kosmopol.dk;166;EPGShare;1;Kosmopol;Kosmopol.dk;166;20261006040000 +0000;20261010040000 +0000;100;100;24;100.0;priority-map, normaliseret ID, navnelighed, programoverlap;epgshare_dk1.xml
+Kosmopol;Kosmopol.dk;166;BSS;1;TV2 Kosmopol HD DK;tv2lorry.dk;115;20261001173000 +0200;20261003175500 +0200;79.8;88.0;19;90.5;navnelighed, programoverlap;bss_epg.xml
+Kosmopol;Kosmopol.dk;166;BSS;2;Canal+ Domo FHD PL;domo.pl;69;20261001150000 +0200;20261003152000 +0200;46.4;71.4;0;0.0;;bss_epg.xml
+Kosmopol;Kosmopol.dk;166;OpenEPG;1;Kosmopol (Digital).dk;Kosmopol (Digital).dk;53;20261002040000 +0000;20261004050000 +0000;88.1;100;3;12.5;priority-map, normaliseret ID, navnelighed;denmark4.xml
+Kosmopol;Kosmopol.dk;166;OpenEPG;2;tv2kosmopol.dk;tv2kosmopol.dk;59;20261002003500 +0000;20261004035000 +0000;60.3;88.0;3;12.5;navnelighed;denmark6.xml
+National Geographic;nationalgeographic.dk;97;EPGShare;1;National Geographic;National.Geographic.dk;97;20261006030000 +0000;20261010040000 +0000;100;100;27;100.0;priority-map, navnelighed, programoverlap;epgshare_dk1.xml
+National Geographic;nationalgeographic.dk;97;EPGShare;2;National Geographic Now;National.Geographic.Now.dk;4;20261006040000 +0000;20261010040000 +0000;60.0;92.3;0;0.0;navnelighed;epgshare_dk1.xml
+National Geographic;nationalgeographic.dk;97;EPGShare;3;National Geographic Wild;National.Geographic.Wild.dk;135;20261006033500 +0000;20261010040000 +0000;58.5;90.0;0;0.0;navnelighed;epgshare_dk1.xml
+National Geographic;nationalgeographic.dk;97;BSS;1;National Geographic FHD DK;nationalgeographic.dk;48;20261001150000 +0200;20261003150000 +0200;99.7;100;10;58.8;priority-map, normaliseret ID, navnelighed, programoverlap;bss_epg.xml
+National Geographic;nationalgeographic.dk;97;BSS;2;OSN Nat Geo;natgeo.sa;0;;;69;100;0;0;priority-map, navnelighed;bss_epg.xml
+National Geographic;nationalgeographic.dk;97;BSS;3;National Geographic FHD NL;nationalgeographic.nl;29;20261001161500 +0200;20261003153000 +0200;67.3;94.7;3;23.1;navnelighed;bss_epg.xml
+National Geographic;nationalgeographic.dk;97;BSS;4;National Geographic FHD BE;nationalgeographic.be;55;20261001160000 +0200;20261003153500 +0200;66.6;94.7;4;20.0;navnelighed;bss_epg.xml
+National Geographic;nationalgeographic.dk;97;BSS;5;National Geographic FHD NO;nationalgeographic.no;48;20261001150000 +0200;20261003150000 +0200;64.9;94.7;2;13.3;navnelighed;bss_epg.xml
+National Geographic;nationalgeographic.dk;97;OpenEPG;1;nationalgeographic.dk;nationalgeographic.dk;54;20261002000000 +0000;20261004030000 +0000;97.5;100;12;50.0;priority-map, normaliseret ID, navnelighed, programoverlap;denmark6.xml
+National Geographic;nationalgeographic.dk;97;OpenEPG;2;National Geographic.dk;National Geographic.dk;49;20261002040000 +0000;20261004040000 +0000;88.5;100;12;46.2;priority-map, navnelighed;denmark3.xml
+National Geographic;nationalgeographic.dk;97;OpenEPG;3;National Geographic Channel.dk;National Geographic Channel.dk;102;20261001230000 +0000;20261004050000 +0000;88.1;100;12;44.4;priority-map, navnelighed;denmark4.xml
+National Geographic;nationalgeographic.dk;97;OpenEPG;4;National Geographic Denmark (DK,DA).dk;National Geographic Denmark (DK,DA).dk;53;20261001230000 +0000;20261004030000 +0000;88.1;100;12;44.4;priority-map, navnelighed;denmark2.xml
+National Geographic;nationalgeographic.dk;97;OpenEPG;5;National Geographic HD (D).dk;National Geographic HD (D).dk;53;20261001230000 +0000;20261004030000 +0000;77.0;100;0;0.0;priority-map, navnelighed;denmark1.xml
+National Geographic Wild;natgeowild.dk;135;EPGShare;1;National Geographic Wild;National.Geographic.Wild.dk;135;20261006033500 +0000;20261010040000 +0000;100;100;23;100.0;priority-map, navnelighed, programoverlap;epgshare_dk1.xml
+National Geographic Wild;natgeowild.dk;135;EPGShare;2;National Geographic;National.Geographic.dk;97;20261006030000 +0000;20261010040000 +0000;58.5;90.0;0;0.0;navnelighed;epgshare_dk1.xml
+National Geographic Wild;natgeowild.dk;135;EPGShare;3;National Geographic Now;National.Geographic.Now.dk;4;20261006040000 +0000;20261010040000 +0000;57.4;88.4;0;0.0;navnelighed;epgshare_dk1.xml
+National Geographic Wild;natgeowild.dk;135;EPGShare;4;NatGeo+;NatGeo+.dk;0;;;49.2;88.0;0;0;navnelighed;epgshare_dk1.xml
+National Geographic Wild;natgeowild.dk;135;BSS;1;National Geographic Wild DK;natgeowild.dk;67;20261001150000 +0200;20261003150000 +0200;99.3;100;8;57.1;priority-map, normaliseret ID, navnelighed, programoverlap;bss_epg.xml
+National Geographic Wild;natgeowild.dk;135;BSS;2;National Geographic Wild FHD SK;national_geographic_wild;0;;;69;100;0;0;priority-map, navnelighed;bss_epg.xml
+National Geographic Wild;natgeowild.dk;135;BSS;3;National Geographic Wild HD NO [Multi-Sub];natgeowild.no;67;20261001150000 +0200;20261003150000 +0200;67.5;95.7;3;21.4;navnelighed;bss_epg.xml
+National Geographic Wild;natgeowild.dk;135;BSS;4;Nat Geo Wild FHD NL;natgeowild.nl;34;20261001153000 +0200;20261003144500 +0200;65.3;90.9;4;25.0;navnelighed;bss_epg.xml
+National Geographic Wild;natgeowild.dk;135;BSS;5;National Geographic Wild BE;nationalgeographicwild.be;65;20261001150500 +0200;20261003145000 +0200;63.3;95.7;1;4.3;navnelighed;bss_epg.xml
+National Geographic Wild;natgeowild.dk;135;OpenEPG;1;natgeowild.dk;natgeowild.dk;71;20261002004000 +0000;20261004030500 +0000;100;100;9;60.0;priority-map, normaliseret ID, navnelighed, programoverlap;denmark6.xml
+National Geographic Wild;natgeowild.dk;135;OpenEPG;2;National Geographic Wild Denmark (DK,DA).dk;National Geographic Wild Denmark (DK,DA).dk;72;20261001232500 +0000;20261004031500 +0000;92.0;100;9;60.0;priority-map, navnelighed, programoverlap;denmark2.xml
+National Geographic Wild;natgeowild.dk;135;OpenEPG;3;National Geographic Wild.dk;National Geographic Wild.dk;206;20261001232500 +0000;20261004044500 +0000;90.2;100;10;52.6;priority-map, navnelighed, programoverlap;denmark3.xml
+National Geographic Wild;natgeowild.dk;135;OpenEPG;4;National Geographic Wild Nordics (IS,EN).dk;National Geographic Wild Nordics (IS,EN).dk;72;20261001232500 +0000;20261004031500 +0000;69.6;91.7;6;40.0;navnelighed;denmark2.xml
+National Geographic Wild;natgeowild.dk;135;OpenEPG;5;National Geographic Wild Norway (NO,NO).dk;National Geographic Wild Norway (NO,NO).dk;72;20261001232500 +0000;20261004031500 +0000;63.3;84.6;5;33.3;navnelighed;denmark2.xml
+Nick Jr.;nickjr.dk;300;EPGShare;1;Nick Jr.;Nick.Jr..dk;300;20261006034000 +0000;20261010040000 +0000;100;100;15;100.0;priority-map, navnelighed, programoverlap;epgshare_dk1.xml
+Nick Jr.;nickjr.dk;300;EPGShare;2;Nick+;Nick+.dk;4;20261006040000 +0000;20261010040000 +0000;57.2;88.0;0;0.0;navnelighed;epgshare_dk1.xml
+Nick Jr.;nickjr.dk;300;BSS;1;Nick Jr DK [Multi-Audio];nickjr.dk;178;20261001145000 +0200;20261003145000 +0200;100;100;15;100.0;priority-map, normaliseret ID, navnelighed, programoverlap;bss_epg.xml
+Nick Jr.;nickjr.dk;300;BSS;2;OSN Nick JR;Nick Jr.;0;;;69;100;0;0;priority-map, navnelighed;bss_epg.xml
+Nick Jr.;nickjr.dk;300;BSS;3;Nick Jr SK;nick_jr;0;;;69;100;0;0;priority-map, navnelighed;bss_epg.xml
+Nick Jr.;nickjr.dk;300;BSS;4;Nick Jr;nickjunior.uk;0;;;69;100;0;0;priority-map, navnelighed;bss_epg.xml
+Nick Jr.;nickjr.dk;300;BSS;5;Nick Jr NO;nickjr.no;204;20261001145000 +0200;20261003145000 +0200;63.5;88.0;3;25.0;navnelighed;bss_epg.xml
+Nick Jr.;nickjr.dk;300;OpenEPG;1;Nick Jr. Denmark (DK,DA).dk;Nick Jr. Denmark (DK,DA).dk;161;20261001235000 +0000;20261005005500 +0000;93.7;100;8;66.7;priority-map, navnelighed, programoverlap;denmark2.xml
+Nick Jr.;nickjr.dk;300;OpenEPG;2;Nick Jr.dk;Nick Jr.dk;160;20261001235000 +0000;20261004022500 +0000;78.7;100;1;6.7;priority-map, navnelighed;denmark1.xml
+Nick Jr.;nickjr.dk;300;OpenEPG;3;nickelodeonjunior.dk;nickelodeonjunior.dk;159;20261002002000 +0000;20261004023500 +0000;69.2;52.2;14;93.3;priority-map, programoverlap;denmark6.xml
+Nick Jr.;nickjr.dk;300;OpenEPG;4;Nick Jr. Norway (NO,NO).dk;Nick Jr. Norway (NO,NO).dk;161;20261001235000 +0000;20261005005500 +0000;63.5;88.0;3;25.0;navnelighed;denmark2.xml
+Nick Jr.;nickjr.dk;300;OpenEPG;5;Nickelodeon Junior.dk;Nickelodeon Junior.dk;315;20261001235000 +0000;20261004044500 +0000;61.3;52.2;8;61.5;priority-map, programoverlap;denmark4.xml
+Nickelodeon;nickelodeon.dk;245;EPGShare;1;Nickelodeon;Nickelodeon.dk;245;20261006034500 +0000;20261010040000 +0000;100;100;17;100.0;priority-map, normaliseret ID, navnelighed, programoverlap;epgshare_dk1.xml
+Nickelodeon;nickelodeon.dk;245;EPGShare;2;Nick+;Nick+.dk;4;20261006040000 +0000;20261010040000 +0000;57.2;88.0;0;0.0;navnelighed;epgshare_dk1.xml
+Nickelodeon;nickelodeon.dk;245;EPGShare;3;Nicktoons;Nicktoons.dk;276;20261006034000 +0000;20261010040500 +0000;54.3;70.0;6;35.3;;epgshare_dk1.xml
+Nickelodeon;nickelodeon.dk;245;BSS;1;Nickelodeon HD DK;nickelodeon.dk;127;20261001145500 +0200;20261003145500 +0200;100;100;15;88.2;priority-map, normaliseret ID, navnelighed, programoverlap;bss_epg.xml
+Nickelodeon;nickelodeon.dk;245;BSS;2;Nickelodeon FHD UK;nickelodeon.uk;95;20261001150000 +0200;20261003150000 +0200;84.4;100;5;29.4;priority-map, navnelighed;bss_epg.xml
+Nickelodeon;nickelodeon.dk;245;BSS;3;Nickelodeon SK;nickelodeon;0;;;77;100;0;0;priority-map, normaliseret ID, navnelighed;bss_epg.xml
+Nickelodeon;nickelodeon.dk;245;BSS;4;Nickelodeon NO;nickelodeon.no;159;20261001145500 +0200;20261003145500 +0200;75.2;91.7;10;62.5;navnelighed, programoverlap;bss_epg.xml
+Nickelodeon;nickelodeon.dk;245;BSS;5;Nickelodeon FHD ZA;nickelodeon.za;130;20261001145900 +0200;20261003145900 +0200;72.1;91.7;8;50.0;navnelighed, programoverlap;bss_epg.xml
+Nickelodeon;nickelodeon.dk;245;OpenEPG;1;Nickelodeon.dk;Nickelodeon.dk;514;20261001234000 +0000;20261004044500 +0000;100;100;13;76.5;priority-map, normaliseret ID, navnelighed, programoverlap;denmark1.xml
+Nickelodeon;nickelodeon.dk;245;OpenEPG;2;nickelodeon.dk;nickelodeon.dk;132;20261002000500 +0000;20261004024500 +0000;100;100;13;76.5;priority-map, normaliseret ID, navnelighed, programoverlap;denmark6.xml
+Nickelodeon;nickelodeon.dk;245;OpenEPG;3;Nickelodeon Norway (NO,NO).dk;Nickelodeon Norway (NO,NO).dk;133;20261001234000 +0000;20261004024000 +0000;72.8;88.0;10;62.5;navnelighed, programoverlap;denmark2.xml
+Nickelodeon;nickelodeon.dk;245;OpenEPG;4;Nickelodeon Junior.dk;Nickelodeon Junior.dk;315;20261001235000 +0000;20261004044500 +0000;57.2;88.0;0;0.0;navnelighed;denmark4.xml
+Nickelodeon;nickelodeon.dk;245;OpenEPG;5;nickelodeonjunior.dk;nickelodeonjunior.dk;159;20261002002000 +0000;20261004023500 +0000;57.2;88.0;0;0.0;navnelighed;denmark6.xml
+Nickelodeon Junior.dk;nickelodeonjuniordk.dk;230;EPGShare;1;Nick Jr.;Nick.Jr..dk;300;20261006034000 +0000;20261010040000 +0000;61.3;52.2;8;61.5;priority-map, programoverlap;epgshare_dk1.xml
+Nickelodeon Junior.dk;nickelodeonjuniordk.dk;230;EPGShare;2;Nickelodeon;Nickelodeon.dk;245;20261006034500 +0000;20261010040000 +0000;57.2;88.0;0;0.0;navnelighed;epgshare_dk1.xml
+Nickelodeon Junior.dk;nickelodeonjuniordk.dk;230;BSS;1;Nickelodeon Junior UHD FR;nickelodeonjunior.fr;143;20261001145000 +0200;20261002185500 +0200;65.2;94.4;2;15.4;navnelighed;bss_epg.xml
+Nickelodeon Junior.dk;nickelodeonjuniordk.dk;230;BSS;2;Nick Jr DK [Multi-Audio];nickjr.dk;178;20261001145000 +0200;20261003145000 +0200;63.2;52.2;9;69.2;priority-map, programoverlap;bss_epg.xml
+Nickelodeon Junior.dk;nickelodeonjuniordk.dk;230;BSS;3;Nickelodeon PT;nickelodeon.pt;151;20261001145500 +0200;20261003145500 +0200;61.4;94.4;0;0.0;navnelighed;bss_epg.xml
+Nickelodeon Junior.dk;nickelodeonjuniordk.dk;230;BSS;4;Nickelodeon FHD UK;nickelodeon.uk;95;20261001150000 +0200;20261003150000 +0200;59.1;88.0;1;7.7;navnelighed;bss_epg.xml
+Nickelodeon Junior.dk;nickelodeonjuniordk.dk;230;BSS;5;Nickelodeon HD DK;nickelodeon.dk;127;20261001145500 +0200;20261003145500 +0200;57.2;88.0;0;0.0;navnelighed;bss_epg.xml
+Nickelodeon Junior.dk;nickelodeonjuniordk.dk;230;OpenEPG;1;Nickelodeon Junior.dk;Nickelodeon Junior.dk;315;20261001235000 +0000;20261004044500 +0000;100;100;12;92.3;priority-map, navnelighed, programoverlap;denmark4.xml
+Nickelodeon Junior.dk;nickelodeonjuniordk.dk;230;OpenEPG;2;nickelodeonjunior.dk;nickelodeonjunior.dk;159;20261002002000 +0000;20261004023500 +0000;88.8;94.4;8;61.5;priority-map, navnelighed, programoverlap;denmark6.xml
+Nickelodeon Junior.dk;nickelodeonjuniordk.dk;230;OpenEPG;3;Nick Jr. Denmark (DK,DA).dk;Nick Jr. Denmark (DK,DA).dk;161;20261001235000 +0000;20261005005500 +0000;68.8;52.2;11;91.7;priority-map, programoverlap;denmark2.xml
+Nickelodeon Junior.dk;nickelodeonjuniordk.dk;230;OpenEPG;4;Nickelodeon.dk;Nickelodeon.dk;514;20261001234000 +0000;20261004044500 +0000;57.2;88.0;0;0.0;navnelighed;denmark1.xml
+Nickelodeon Junior.dk;nickelodeonjuniordk.dk;230;OpenEPG;5;nickelodeon.dk;nickelodeon.dk;132;20261002000500 +0000;20261004024500 +0000;57.2;88.0;0;0.0;navnelighed;denmark6.xml
+Nicktoons;nicktoons.se;276;EPGShare;1;Nicktoons;Nicktoons.dk;276;20261006034000 +0000;20261010040500 +0000;100;100;27;100.0;priority-map, navnelighed, programoverlap;epgshare_dk1.xml
+Nicktoons;nicktoons.se;276;EPGShare;2;Nick+;Nick+.dk;4;20261006040000 +0000;20261010040000 +0000;57.2;88.0;0;0.0;navnelighed;epgshare_dk1.xml
+Nicktoons;nicktoons.se;276;EPGShare;3;Nickelodeon;Nickelodeon.dk;245;20261006034500 +0000;20261010040000 +0000;54.3;70.0;6;35.3;;epgshare_dk1.xml
+Nicktoons;nicktoons.se;276;BSS;1;NickToons DK [Multi-Audio];nicktoons.se;49;20261001145000 +0200;20261002071500 +0200;80.4;100;5;29.4;normaliseret ID, navnelighed;bss_epg.xml
+Nicktoons;nicktoons.se;276;BSS;2;Nicktoons UK;nicktoons.uk;104;20261001150000 +0200;20261003150000 +0200;77.0;100;0;0.0;priority-map, navnelighed;bss_epg.xml
+Nicktoons;nicktoons.se;276;BSS;3;Nicktoons SK;nicktoons;0;;;69;100;0;0;priority-map, navnelighed;bss_epg.xml
+Nicktoons;nicktoons.se;276;BSS;4;NickToons NO [Multi-Audio];nicktoons.no;211;20261001145000 +0200;20261003150000 +0200;67.6;90.0;8;36.4;navnelighed;bss_epg.xml
+Nicktoons;nicktoons.se;276;BSS;5;NickTOONS ZA;nicktoons.za;138;20261001144700 +0200;20261003144900 +0200;66.5;90.0;7;31.8;navnelighed;bss_epg.xml
+Nicktoons;nicktoons.se;276;OpenEPG;1;nicktoons.dk;nicktoons.dk;147;20261002000500 +0000;20261004023500 +0000;97.7;100;19;82.6;priority-map, navnelighed, programoverlap;denmark6.xml
+Nicktoons;nicktoons.se;276;OpenEPG;2;Nicktoons Denmark (DK,DA).dk;Nicktoons Denmark (DK,DA).dk;147;20261001235000 +0000;20261004025000 +0000;96.2;100;20;76.9;priority-map, navnelighed, programoverlap;denmark2.xml
+Nicktoons;nicktoons.se;276;OpenEPG;3;Nicktoons.dk;Nicktoons.dk;146;20261001235000 +0000;20261004022500 +0000;77.9;100;1;3.7;priority-map, navnelighed;denmark1.xml
+Nicktoons;nicktoons.se;276;OpenEPG;4;nickelodeon.dk;nickelodeon.dk;132;20261002000500 +0000;20261004024500 +0000;54.3;70.0;6;35.3;;denmark6.xml
+Nicktoons;nicktoons.se;276;OpenEPG;5;Nickelodeon.dk;Nickelodeon.dk;514;20261001234000 +0000;20261004044500 +0000;51.1;70.0;6;22.2;;denmark1.xml
+Oiii.dk;oiiidk.dk;197;BSS;1;B-TV HD ID;btv.id;32;20261001150000 +0200;20261002100000 +0200;57.2;88.0;0;0.0;navnelighed;bss_epg.xml
+Oiii.dk;oiiidk.dk;197;OpenEPG;1;Oiii.dk;Oiii.dk;135;20261002023500 +0000;20261004042500 +0000;95.8;100;33;75.0;priority-map, navnelighed, programoverlap;denmark4.xml
+Oiii.dk;oiiidk.dk;197;OpenEPG;2;ID.dk;ID.dk;48;20261002040000 +0000;20261004040000 +0000;57.2;88.0;0;0.0;navnelighed;denmark3.xml
+Oiii.dk;oiiidk.dk;197;OpenEPG;3;id.dk;id.dk;0;;;49.2;88.0;0;0;navnelighed;denmark6.xml
+Oiii.dk;oiiidk.dk;197;OpenEPG;4;TV2 Oiii.dk;TV2 Oiii.dk;0;;;49.2;88.0;0;0;navnelighed;denmark3.xml
+Play Guld.dk;playgulddk.dk;83;EPGShare;1;TV 2 Play;TV.2.Play.dk;0;;;49.2;88.0;0;0;navnelighed;epgshare_dk1.xml
+Play Guld.dk;playgulddk.dk;83;BSS;1;Gol Play TV FHD;gol.es;48;20261001150000 +0200;20261003153000 +0200;52.0;80.0;0;0.0;navnelighed;bss_epg.xml
+Play Guld.dk;playgulddk.dk;83;OpenEPG;1;Play Guld.dk;Play Guld.dk;70;20261002025000 +0000;20261004050500 +0000;94.9;100;10;71.4;priority-map, navnelighed, programoverlap;denmark4.xml
+Play Guld.dk;playgulddk.dk;83;OpenEPG;2;TV 2 PLAY 4.dk;TV 2 PLAY 4.dk;0;;;49.2;88.0;0;0;navnelighed;denmark4.xml
+Play Guld.dk;playgulddk.dk;83;OpenEPG;3;TV 2 PLAY 5.dk;TV 2 PLAY 5.dk;0;;;49.2;88.0;0;0;navnelighed;denmark4.xml
+Play Guld.dk;playgulddk.dk;83;OpenEPG;4;TV 2 PLAY 6.dk;TV 2 PLAY 6.dk;0;;;49.2;88.0;0;0;navnelighed;denmark4.xml
+Play Guld.dk;playgulddk.dk;83;OpenEPG;5;TV 2 PLAY 7.dk;TV 2 PLAY 7.dk;0;;;49.2;88.0;0;0;navnelighed;denmark4.xml
+See;see.dk;148;EPGShare;1;See;See.dk;148;20261006032500 +0000;20261010040000 +0000;100;100;14;100.0;priority-map, normaliseret ID, navnelighed, programoverlap;epgshare_dk1.xml
+See;see.dk;148;EPGShare;2;See VOD;See.VOD.dk;0;;;49.2;88.0;0;0;navnelighed;epgshare_dk1.xml
+See;see.dk;148;EPGShare;3;V series;V.series.dk;145;20261006033000 +0000;20261010040000 +0000;43.3;66.7;0;0.0;;epgshare_dk1.xml
+See;see.dk;148;BSS;1;See FHD DK;see.dk;67;20261001151500 +0200;20261003150500 +0200;100;100;12;85.7;priority-map, normaliseret ID, navnelighed, programoverlap;bss_epg.xml
+See;see.dk;148;BSS;2;Kanal 9 HD SE;kanal9.se;68;20261001153000 +0200;20261003152000 +0200;60.8;88.0;2;14.3;navnelighed;bss_epg.xml
+See;see.dk;148;BSS;3;Kanal 5 HD SE;kanal5.se;50;20261001145500 +0200;20261003153500 +0200;57.2;88.0;0;0.0;navnelighed;bss_epg.xml
+See;see.dk;148;BSS;4;V Series HD DK;viasatseries.dk;75;20261001144500 +0200;20261003150000 +0200;43.3;66.7;0;0.0;;bss_epg.xml
+See;see.dk;148;BSS;5;Tele M Sl;telemaribor.si;57;20261001164000 +0200;20261003150000 +0200;43.3;66.7;0;0.0;;bss_epg.xml
+See;see.dk;148;OpenEPG;1;See.dk;See.dk;274;20261001231500 +0000;20261004045500 +0000;100;100;12;85.7;priority-map, normaliseret ID, navnelighed, programoverlap;denmark1.xml
+See;see.dk;148;OpenEPG;2;See Denmark (DK,DA).dk;See Denmark (DK,DA).dk;71;20261001231500 +0000;20261004030500 +0000;100;100;11;78.6;priority-map, normaliseret ID, navnelighed, programoverlap;denmark2.xml
+See;see.dk;148;OpenEPG;3;V Series Denmark (DK,DA).dk;V Series Denmark (DK,DA).dk;85;20261001232000 +0000;20261004025000 +0000;43.3;66.7;0;0.0;;denmark2.xml
+See;see.dk;148;OpenEPG;4;V series HD.dk;V series HD.dk;84;20261001232000 +0000;20261004023000 +0000;43.3;66.7;0;0.0;;denmark1.xml
+See;see.dk;148;OpenEPG;5;V Series.dk;V Series.dk;80;20261002040000 +0000;20261004033000 +0000;43.3;66.7;0;0.0;;denmark3.xml
+SF-kanalen.dk;sfkanalendk.dk;34;EPGShare;1;Infokanalen;Infokanalen.dk;97;20261006030000 +0000;20261010040000 +0000;47.3;72.7;0;0.0;;epgshare_dk1.xml
+SF-kanalen.dk;sfkanalendk.dk;34;EPGShare;2;Eventkanalen;Eventkanalen.dk;4;20261006040000 +0000;20261010040000 +0000;43.3;66.7;0;0.0;;epgshare_dk1.xml
+SF-kanalen.dk;sfkanalendk.dk;34;BSS;1;SF-Kanalen DK;sfkanalen.dk;2;20261002060000 +0200;20261004060000 +0200;77.0;100;0;0.0;priority-map, navnelighed;bss_epg.xml
+SF-kanalen.dk;sfkanalendk.dk;34;BSS;2;SF-Kanalen FI [Multi-Sub];sfkanalen.fi;28;20261001145500 +0200;20261003151500 +0200;59.4;90.0;1;3.7;navnelighed;bss_epg.xml
+SF-kanalen.dk;sfkanalendk.dk;34;BSS;3;SF-Kanalen SE;sfkanalen.se;28;20261001145500 +0200;20261003151500 +0200;58.5;90.0;0;0.0;navnelighed;bss_epg.xml
+SF-kanalen.dk;sfkanalendk.dk;34;BSS;4;Kanal 9 HD SE;kanal9.se;68;20261001153000 +0200;20261003152000 +0200;45.9;70.6;0;0.0;;bss_epg.xml
+SF-kanalen.dk;sfkanalendk.dk;34;BSS;5;Kanal A SI;kanala.si;63;20261001150000 +0200;20261003151500 +0200;45.9;70.6;0;0.0;;bss_epg.xml
+SF-kanalen.dk;sfkanalendk.dk;34;OpenEPG;1;SF-kanalen.dk;SF-kanalen.dk;30;20261002043500 +0000;20261004054000 +0000;82.8;100;7;23.3;priority-map, navnelighed;denmark4.xml
+SF-kanalen.dk;sfkanalendk.dk;34;OpenEPG;2;SF-kanalen Denmark (DK,DA).dk;SF-kanalen Denmark (DK,DA).dk;31;20261001222500 +0000;20261004034500 +0000;82.6;100;7;22.6;priority-map, navnelighed;denmark2.xml
+SF-kanalen.dk;sfkanalendk.dk;34;OpenEPG;3;sfkanalen.dk;sfkanalen.dk;32;20261002002500 +0000;20261004035500 +0000;76.1;90.0;7;22.6;priority-map, navnelighed;denmark6.xml
+SF-kanalen.dk;sfkanalendk.dk;34;OpenEPG;4;SF-kanalen Norway (NO,NO).dk;SF-kanalen Norway (NO,NO).dk;31;20261001222500 +0000;20261004034500 +0000;45.8;69.2;1;3.2;;denmark2.xml
+SF-kanalen.dk;sfkanalendk.dk;34;OpenEPG;5;kanal4.dk;kanal4.dk;57;20261002005500 +0000;20261004030000 +0000;43.3;66.7;0;0.0;;denmark6.xml
+Sky News International (GB,EN).dk;skynewsinternationalgbendk.dk;88;EPGShare;1;TV 2 News;TV.2.News.dk;58;20261006040000 +0000;20261010050000 +0000;57.2;88.0;0;0.0;navnelighed;epgshare_dk1.xml
+Sky News International (GB,EN).dk;skynewsinternationalgbendk.dk;88;BSS;1;Sky News UK;skynews.uk;80;20261001150000 +0200;20261003150000 +0200;74.7;88.0;7;70.0;navnelighed, programoverlap;bss_epg.xml
+Sky News International (GB,EN).dk;skynewsinternationalgbendk.dk;88;BSS;2;Sky News SK;sky_news;0;;;49.2;88.0;0;0;navnelighed;bss_epg.xml
+Sky News International (GB,EN).dk;skynewsinternationalgbendk.dk;88;BSS;3;CNN International DK;cnninternational.us;65;20261001150000 +0200;20261003150000 +0200;46.4;71.4;0;0.0;;bss_epg.xml
+Sky News International (GB,EN).dk;skynewsinternationalgbendk.dk;88;BSS;4;CNN International FHD DE;cnninternational.de;62;20261001150000 +0200;20261003150000 +0200;46.4;71.4;0;0.0;;bss_epg.xml
+Sky News International (GB,EN).dk;skynewsinternationalgbendk.dk;88;BSS;5;CNN International HD SE;cnn.uk;61;20261001150000 +0200;20261003150000 +0200;46.4;71.4;0;0.0;;bss_epg.xml
+Sky News International (GB,EN).dk;skynewsinternationalgbendk.dk;88;OpenEPG;1;Sky News International (GB,EN).dk;Sky News International (GB,EN).dk;88;20261001230000 +0000;20261004030000 +0000;72.5;100;3;30.0;navnelighed;denmark2.xml
+Sky News International (GB,EN).dk;skynewsinternationalgbendk.dk;88;OpenEPG;2;Sky News.dk;Sky News.dk;84;20261002040000 +0000;20261004050000 +0000;64.7;88.0;3;30.0;navnelighed;denmark4.xml
+Sky News International (GB,EN).dk;skynewsinternationalgbendk.dk;88;OpenEPG;3;TV 2 News HD.dk;TV 2 News HD.dk;28;20261001210000 +0000;20261004050000 +0000;57.2;88.0;0;0.0;navnelighed;denmark1.xml
+Sky News International (GB,EN).dk;skynewsinternationalgbendk.dk;88;OpenEPG;4;CNN International (US,EN).dk;CNN International (US,EN).dk;69;20261001230000 +0000;20261004030000 +0000;47.3;72.7;0;0.0;;denmark2.xml
+Sky News International (GB,EN).dk;skynewsinternationalgbendk.dk;88;OpenEPG;5;CNN International.dk;CNN International.dk;68;20261001230000 +0000;20261004023000 +0000;45.5;70.0;0;0.0;;denmark1.xml
+SkyShowtime 1;skyshowtime1.se;151;EPGShare;1;SkyShowtime 1;SkyShowtime.1.dk;151;20261006033700 +0000;20261010040000 +0000;100;100;25;100.0;priority-map, navnelighed, programoverlap;epgshare_dk1.xml
+SkyShowtime 1;skyshowtime1.se;151;EPGShare;2;SkyShowtime 2;SkyShowtime.2.dk;98;20261006031900 +0000;20261010040000 +0000;77.0;100;0;0.0;priority-map, navnelighed;epgshare_dk1.xml
+SkyShowtime 1;skyshowtime1.se;151;EPGShare;3;SkyShowtime;SkyShowtime.dk;4;20261006040000 +0000;20261010040000 +0000;77.0;100;0;0.0;priority-map, navnelighed;epgshare_dk1.xml
+SkyShowtime 1;skyshowtime1.se;151;EPGShare;4;SkyShowtime Select;SkyShowtime.Select.dk;4;20261006040000 +0000;20261010040000 +0000;57.2;88.0;0;0.0;navnelighed;epgshare_dk1.xml
+SkyShowtime 1;skyshowtime1.se;151;EPGShare;5;SKYSHOWTIME SVOD;SKYSHOWTIME.SVOD.dk;0;;;49.2;88.0;0;0;navnelighed;epgshare_dk1.xml
+SkyShowtime 1;skyshowtime1.se;151;BSS;1;Sky ShowTime 1 FHD SE;skyshowtime1.se;64;20261001151000 +0200;20261003145500 +0200;87.1;100;13;56.5;normaliseret ID, navnelighed, programoverlap;bss_epg.xml
+SkyShowtime 1;skyshowtime1.se;151;BSS;2;Sky ShowTime 2 FHD SE;skyshowtime2.se;49;20261001153000 +0200;20261003151500 +0200;60.4;92.9;0;0.0;navnelighed;bss_epg.xml
+SkyShowtime 1;skyshowtime1.se;151;BSS;3;Showtime FHD CHL;showtime.us;25;20261001151500 +0200;20261003152500 +0200;49.5;76.2;0;0.0;;bss_epg.xml
+SkyShowtime 1;skyshowtime1.se;151;BSS;4;Showtime 2 US;showtime2.us;24;20261001164500 +0200;20261003151500 +0200;49.5;76.2;0;0.0;;bss_epg.xml
+SkyShowtime 1;skyshowtime1.se;151;BSS;5;Sky Showcase FHD DE;skyshowcase.de;64;20261001151700 +0200;20261003150700 +0200;43.3;66.7;0;0.0;;bss_epg.xml
+SkyShowtime 1;skyshowtime1.se;151;OpenEPG;1;skyshowtime1.dk;skyshowtime1.dk;65;20261002001000 +0000;20261004031000 +0000;90.2;95.7;16;64.0;priority-map, navnelighed, programoverlap;denmark6.xml
+SkyShowtime 1;skyshowtime1.se;151;OpenEPG;2;SkyShowtime 1 HD.dk;SkyShowtime 1 HD.dk;63;20261001230600 +0000;20261004024000 +0000;67.0;100;2;8.0;navnelighed;denmark1.xml
+SkyShowtime 1;skyshowtime1.se;151;OpenEPG;3;SkyShowtime 2 HD.dk;SkyShowtime 2 HD.dk;47;20261001234000 +0000;20261004022500 +0000;65.0;100;0;0.0;navnelighed;denmark1.xml
+SkyShowtime 1;skyshowtime1.se;151;OpenEPG;4;skyshowtime2.dk;skyshowtime2.dk;50;20261002004500 +0000;20261004042500 +0000;63.2;95.7;1;4.0;navnelighed;denmark6.xml
+SkyShowtime 2;skyshowtime2.se;98;EPGShare;1;SkyShowtime 2;SkyShowtime.2.dk;98;20261006031900 +0000;20261010040000 +0000;100;100;30;100.0;priority-map, navnelighed, programoverlap;epgshare_dk1.xml
+SkyShowtime 2;skyshowtime2.se;98;EPGShare;2;SkyShowtime 1;SkyShowtime.1.dk;151;20261006033700 +0000;20261010040000 +0000;77.0;100;0;0.0;priority-map, navnelighed;epgshare_dk1.xml
+SkyShowtime 2;skyshowtime2.se;98;EPGShare;3;SkyShowtime;SkyShowtime.dk;4;20261006040000 +0000;20261010040000 +0000;77.0;100;0;0.0;priority-map, navnelighed;epgshare_dk1.xml
+SkyShowtime 2;skyshowtime2.se;98;EPGShare;4;SkyShowtime Select;SkyShowtime.Select.dk;4;20261006040000 +0000;20261010040000 +0000;57.2;88.0;0;0.0;navnelighed;epgshare_dk1.xml
+SkyShowtime 2;skyshowtime2.se;98;EPGShare;5;SKYSHOWTIME SVOD;SKYSHOWTIME.SVOD.dk;0;;;49.2;88.0;0;0;navnelighed;epgshare_dk1.xml
+SkyShowtime 2;skyshowtime2.se;98;BSS;1;Sky ShowTime 2 FHD SE;skyshowtime2.se;49;20261001153000 +0200;20261003151500 +0200;78.7;100;5;22.7;normaliseret ID, navnelighed;bss_epg.xml
+SkyShowtime 2;skyshowtime2.se;98;BSS;2;Sky ShowTime 1 FHD SE;skyshowtime1.se;64;20261001151000 +0200;20261003145500 +0200;61.4;92.9;1;4.3;navnelighed;bss_epg.xml
+SkyShowtime 2;skyshowtime2.se;98;BSS;3;Showtime FHD CHL;showtime.us;25;20261001151500 +0200;20261003152500 +0200;49.5;76.2;0;0.0;;bss_epg.xml
+SkyShowtime 2;skyshowtime2.se;98;BSS;4;Showtime 2 US;showtime2.us;24;20261001164500 +0200;20261003151500 +0200;49.5;76.2;0;0.0;;bss_epg.xml
+SkyShowtime 2;skyshowtime2.se;98;BSS;5;Sky Showcase FHD DE;skyshowcase.de;64;20261001151700 +0200;20261003150700 +0200;43.3;66.7;0;0.0;;bss_epg.xml
+SkyShowtime 2;skyshowtime2.se;98;OpenEPG;1;skyshowtime2.dk;skyshowtime2.dk;50;20261002004500 +0000;20261004042500 +0000;83.2;95.7;9;36.0;priority-map, navnelighed;denmark6.xml
+SkyShowtime 2;skyshowtime2.se;98;OpenEPG;2;SkyShowtime 2 HD.dk;SkyShowtime 2 HD.dk;47;20261001234000 +0000;20261004022500 +0000;66.7;100;2;6.7;navnelighed;denmark1.xml
+SkyShowtime 2;skyshowtime2.se;98;OpenEPG;3;SkyShowtime 1 HD.dk;SkyShowtime 1 HD.dk;63;20261001230600 +0000;20261004024000 +0000;65.0;100;0;0.0;navnelighed;denmark1.xml
+SkyShowtime 2;skyshowtime2.se;98;OpenEPG;4;skyshowtime1.dk;skyshowtime1.dk;65;20261002001000 +0000;20261004031000 +0000;64.0;95.7;2;7.4;navnelighed;denmark6.xml
+TLC;tlc.dk;86;EPGShare;1;TLC;TLC.dk;86;20261006025500 +0000;20261010040000 +0000;100;100;34;100.0;priority-map, normaliseret ID, navnelighed, programoverlap;epgshare_dk1.xml
+TLC;tlc.dk;86;EPGShare;2;RTL;RTL.dk;98;20261006032000 +0000;20261010044500 +0000;43.3;66.7;0;0.0;;epgshare_dk1.xml
+TLC;tlc.dk;86;BSS;1;TLC DK;tlc.dk;41;20261001153000 +0200;20261003150000 +0200;100;100;20;76.9;priority-map, normaliseret ID, navnelighed, programoverlap;bss_epg.xml
+TLC;tlc.dk;86;BSS;2;TLC FHD SK;tlc;0;;;77;100;0;0;priority-map, normaliseret ID, navnelighed;bss_epg.xml
+TLC;tlc.dk;86;BSS;3;TLC FHD SE;tlc.se;41;20261001153000 +0200;20261003150000 +0200;76.2;88.0;19;76.0;navnelighed, programoverlap;bss_epg.xml
+TLC;tlc.dk;86;BSS;4;TLC FHD NO;tlc.no;41;20261001153000 +0200;20261003150000 +0200;74.5;88.0;18;69.2;navnelighed, programoverlap;bss_epg.xml
+TLC;tlc.dk;86;BSS;5;TLC HD CA;tlc.ca;82;20261001150000 +0200;20261003150000 +0200;66.3;88.0;4;36.4;navnelighed;bss_epg.xml
+TLC;tlc.dk;86;OpenEPG;1;tlc.dk;tlc.dk;47;20261002002500 +0000;20261004024500 +0000;100;100;20;66.7;priority-map, normaliseret ID, navnelighed, programoverlap;denmark6.xml
+TLC;tlc.dk;86;OpenEPG;2;TLC Denmark (DK,DA).dk;TLC Denmark (DK,DA).dk;46;20261001233500 +0000;20261004025500 +0000;100;100;19;63.3;priority-map, normaliseret ID, navnelighed, programoverlap;denmark2.xml
+TLC;tlc.dk;86;OpenEPG;3;TLC.dk;TLC.dk;132;20261001233500 +0000;20261004042500 +0000;99.7;100;20;58.8;priority-map, normaliseret ID, navnelighed, programoverlap;denmark3.xml
+TLC;tlc.dk;86;OpenEPG;4;TLC Danmark.dk;TLC Danmark.dk;46;20261001233500 +0000;20261004025500 +0000;86.5;100;2;5.9;priority-map, normaliseret ID, navnelighed;denmark1.xml
+TLC;tlc.dk;86;OpenEPG;5;TLC Norway (NO,NO).dk;TLC Norway (NO,NO).dk;46;20261001233500 +0000;20261004025500 +0000;72.2;88.0;18;60.0;navnelighed, programoverlap;denmark2.xml
+TV 2;tv2.dk;121;EPGShare;1;TV2 NORD;TV2.NORD.dk;68;20261006040000 +0000;20261010040000 +0000;58.8;88.0;1;6.2;navnelighed;epgshare_dk1.xml
+TV 2;tv2.dk;121;EPGShare;2;TV2 Østjylland;TV2.Østjylland.dk;27;20261006083000 +0000;20261010083000 +0000;57.2;88.0;0;0.0;navnelighed;epgshare_dk1.xml
+TV 2;tv2.dk;121;EPGShare;3;TV2 ØST;TV2.ØST.dk;20;20261006062000 +0000;20261010043000 +0000;57.2;88.0;0;0.0;navnelighed;epgshare_dk1.xml
+TV 2;tv2.dk;121;EPGShare;4;TV2APP_BK;TV2APP_BK.dk;4;20261006040000 +0000;20261010040000 +0000;57.2;88.0;0;0.0;navnelighed;epgshare_dk1.xml
+TV 2;tv2.dk;121;EPGShare;5;MTV;MTV.dk;167;20261006031500 +0000;20261010040000 +0000;43.3;66.7;0;0.0;;epgshare_dk1.xml
+TV 2;tv2.dk;121;BSS;1;TV2 FHD DK;tv2.dk;58;20261001150500 +0200;20261003150000 +0200;100;100;22;68.8;priority-map, normaliseret ID, navnelighed, programoverlap;bss_epg.xml
+TV 2;tv2.dk;121;BSS;2;TV2 News FHD DK;tv2news.dk;30;20261001160000 +0200;20261003182000 +0200;64.9;88.0;4;30.8;navnelighed;bss_epg.xml
+TV 2;tv2.dk;121;BSS;3;TV2 Echo HD DK;tv2zulu.dk;66;20261001151000 +0200;20261003144500 +0200;62.2;88.0;3;20.0;navnelighed;bss_epg.xml
+TV 2;tv2.dk;121;BSS;4;TV2 Fri HD DK;tv2fri.dk;64;20261001151000 +0200;20261003151000 +0200;59.8;88.0;2;10.5;navnelighed;bss_epg.xml
+TV 2;tv2.dk;121;BSS;5;TV2 Comedy HU;tv2comedy.hu;198;20261001150500 +0200;20261003151000 +0200;57.2;88.0;0;0.0;navnelighed;bss_epg.xml
+TV 2;tv2.dk;121;OpenEPG;1;tv2.dk;tv2.dk;59;20261002003500 +0000;20261004035000 +0000;100;100;22;61.1;priority-map, normaliseret ID, navnelighed, programoverlap;denmark6.xml
+TV 2;tv2.dk;121;OpenEPG;2;TV2.dk;TV2.dk;51;20261002040000 +0000;20261004040000 +0000;99.0;100;19;55.9;priority-map, normaliseret ID, navnelighed, programoverlap;denmark3.xml
+TV 2;tv2.dk;121;OpenEPG;3;tv2oest.dk;tv2oest.dk;58;20261002003500 +0000;20261004035000 +0000;72.5;88.0;19;61.3;navnelighed, programoverlap;denmark6.xml
+TV 2;tv2.dk;121;OpenEPG;4;TV2 Øst.dk;TV2 Øst.dk;52;20261002040000 +0000;20261004050000 +0000;71.7;88.0;18;58.1;navnelighed, programoverlap;denmark4.xml
+TV 2;tv2.dk;121;OpenEPG;5;tv2syd.dk;tv2syd.dk;59;20261002003500 +0000;20261004035000 +0000;71.2;88.0;19;55.9;navnelighed, programoverlap;denmark6.xml
+TV 2 Charlie;tv2charlie.dk;105;EPGShare;1;TV 2 Charlie;TV.2.Charlie.dk;105;20261006031500 +0000;20261010041500 +0000;100;100;29;100.0;priority-map, navnelighed, programoverlap;epgshare_dk1.xml
+TV 2 Charlie;tv2charlie.dk;105;BSS;1;TV2 Charlie DK;tv2charlie.dk;50;20261001145500 +0200;20261003151500 +0200;100;100;18;69.2;priority-map, normaliseret ID, navnelighed, programoverlap;bss_epg.xml
+TV 2 Charlie;tv2charlie.dk;105;BSS;2;RSI La 1 HD CH;rsila1.ch;84;20261001152000 +0200;20261003152500 +0200;46.4;71.4;0;0.0;;bss_epg.xml
+TV 2 Charlie;tv2charlie.dk;105;BSS;3;RSI La 2 HD CH;rsila2.ch;81;20261001162500 +0200;20261003150000 +0200;46.4;71.4;0;0.0;;bss_epg.xml
+TV 2 Charlie;tv2charlie.dk;105;BSS;4;Slice HD CA;slice.ca;71;20261001150000 +0200;20261003150000 +0200;46.4;71.4;0;0.0;;bss_epg.xml
+TV 2 Charlie;tv2charlie.dk;105;BSS;5;Slice TV CA;slicetv.ca;55;20261001150000 +0200;20261003030000 +0200;46.4;71.4;0;0.0;;bss_epg.xml
+TV 2 Charlie;tv2charlie.dk;105;OpenEPG;1;tv2charlie.dk;tv2charlie.dk;54;20261002001500 +0000;20261004032500 +0000;98.8;100;16;55.2;priority-map, normaliseret ID, navnelighed, programoverlap;denmark6.xml
+TV 2 Charlie;tv2charlie.dk;105;OpenEPG;2;TV 2 Charlie.dk;TV 2 Charlie.dk;101;20261001235000 +0000;20261004051000 +0000;89.9;100;15;51.7;priority-map, navnelighed, programoverlap;denmark4.xml
+TV 2 Charlie;tv2charlie.dk;105;OpenEPG;3;TV 2 Charlie Denmark (DK,DA).dk;TV 2 Charlie Denmark (DK,DA).dk;52;20261001235000 +0000;20261004031000 +0000;89.5;100;14;50.0;priority-map, navnelighed, programoverlap;denmark2.xml
+TV 2 Charlie;tv2charlie.dk;105;OpenEPG;4;TV2 Charlie.dk;TV2 Charlie.dk;46;20261002040000 +0000;20261004033000 +0000;82.7;88.0;14;53.8;priority-map, navnelighed, programoverlap;denmark3.xml
+TV 2 Charlie;tv2charlie.dk;105;OpenEPG;5;TV 2 Charlie HD.dk;TV 2 Charlie HD.dk;51;20261001235000 +0000;20261004022500 +0000;81.3;100;5;17.2;priority-map, navnelighed;denmark1.xml
+TV 2 Echo;tv2zulu.dk;115;EPGShare;1;TV 2 Echo;TV.2.Echo.dk;115;20261006032500 +0000;20261010043000 +0000;100;100;18;100.0;priority-map, navnelighed, programoverlap;epgshare_dk1.xml
+TV 2 Echo;tv2zulu.dk;115;BSS;1;TV2 Echo HD DK;tv2zulu.dk;66;20261001151000 +0200;20261003144500 +0200;100;100;11;73.3;priority-map, normaliseret ID, navnelighed, programoverlap;bss_epg.xml
+TV 2 Echo;tv2zulu.dk;115;BSS;2;TV2 FHD DK;tv2.dk;58;20261001150500 +0200;20261003150000 +0200;61.4;88.0;3;16.7;navnelighed;bss_epg.xml
+TV 2 Echo;tv2zulu.dk;115;BSS;3;6+ HD CH;6plus.ch;22;20261001191500 +0200;20261003191500 +0200;57.2;88.0;0;0.0;navnelighed;bss_epg.xml
+TV 2 Echo;tv2zulu.dk;115;BSS;4;3+ HD CH;3plus.ch;0;;;49.2;88.0;0;0;navnelighed;bss_epg.xml
+TV 2 Echo;tv2zulu.dk;115;BSS;5;4 + HD CH;4plus.ch;0;;;49.2;88.0;0;0;navnelighed;bss_epg.xml
+TV 2 Echo;tv2zulu.dk;115;OpenEPG;1;TV 2 Echo Denmark (DK,DA).dk;TV 2 Echo Denmark (DK,DA).dk;58;20261001232500 +0000;20261004025000 +0000;92.6;100;10;62.5;priority-map, navnelighed, programoverlap;denmark2.xml
+TV 2 Echo;tv2zulu.dk;115;OpenEPG;2;TV 2 Echo.dk;TV 2 Echo.dk;114;20261001232500 +0000;20261004043500 +0000;91.7;100;10;58.8;priority-map, navnelighed, programoverlap;denmark4.xml
+TV 2 Echo;tv2zulu.dk;115;OpenEPG;3;TV 2 Echo HD.dk;TV 2 Echo HD.dk;58;20261001232500 +0000;20261004025000 +0000;90.2;100;9;52.9;priority-map, navnelighed, programoverlap;denmark1.xml
+TV 2 Echo;tv2zulu.dk;115;OpenEPG;4;tv2echo.dk;tv2echo.dk;58;20261002003000 +0000;20261004030000 +0000;84.8;88.0;10;62.5;priority-map, navnelighed, programoverlap;denmark6.xml
+TV 2 Echo;tv2zulu.dk;115;OpenEPG;5;TV2 Echo.dk;TV2 Echo.dk;54;20261002040500 +0000;20261004032500 +0000;84.8;88.0;10;62.5;priority-map, navnelighed, programoverlap;denmark3.xml
+TV 2 Fri;tv2fri.dk;124;EPGShare;1;TV 2 Fri;TV.2.Fri.dk;124;20261006032000 +0000;20261010041500 +0000;100;100;24;100.0;priority-map, navnelighed, programoverlap;epgshare_dk1.xml
+TV 2 Fri;tv2fri.dk;124;EPGShare;2;Rai 1;Rai.1.dk;123;20261006035500 +0000;20261010040000 +0000;43.3;66.7;0;0.0;;epgshare_dk1.xml
+TV 2 Fri;tv2fri.dk;124;BSS;1;TV2 Fri HD DK;tv2fri.dk;64;20261001151000 +0200;20261003151000 +0200;100;100;14;73.7;priority-map, normaliseret ID, navnelighed, programoverlap;bss_epg.xml
+TV 2 Fri;tv2fri.dk;124;BSS;2;TV2 FHD DK;tv2.dk;58;20261001150500 +0200;20261003150000 +0200;59.3;88.0;2;8.3;navnelighed;bss_epg.xml
+TV 2 Fri;tv2fri.dk;124;BSS;3;IDF1 HD FR;idf1.fr;117;20261001150700 +0200;20261003150500 +0200;57.2;88.0;0;0.0;navnelighed;bss_epg.xml
+TV 2 Fri;tv2fri.dk;124;BSS;4;Frii HD FI;frii.fi;61;20261001145000 +0200;20261003152000 +0200;57.2;88.0;0;0.0;navnelighed;bss_epg.xml
+TV 2 Fri;tv2fri.dk;124;BSS;5;E! HD FR;e.fr;29;20261001151000 +0200;20261002141000 +0200;57.2;88.0;0;0.0;navnelighed;bss_epg.xml
+TV 2 Fri;tv2fri.dk;124;OpenEPG;1;tv2fri.dk;tv2fri.dk;67;20261002003000 +0000;20261004030500 +0000;100;100;14;73.7;priority-map, normaliseret ID, navnelighed, programoverlap;denmark6.xml
+TV 2 Fri;tv2fri.dk;124;OpenEPG;2;TV 2 Fri.dk;TV 2 Fri.dk;127;20261001235500 +0000;20261004042700 +0000;95.8;100;15;75.0;priority-map, navnelighed, programoverlap;denmark4.xml
+TV 2 Fri;tv2fri.dk;124;OpenEPG;3;TV 2 Fri Denmark (DK,DA).dk;TV 2 Fri Denmark (DK,DA).dk;65;20261001235500 +0000;20261004025000 +0000;95.8;100;15;75.0;priority-map, navnelighed, programoverlap;denmark2.xml
+TV 2 Fri;tv2fri.dk;124;OpenEPG;4;TV 2 Fri HD.dk;TV 2 Fri HD.dk;65;20261001235500 +0000;20261004025000 +0000;90.5;100;13;54.2;priority-map, navnelighed, programoverlap;denmark1.xml
+TV 2 Fri;tv2fri.dk;124;OpenEPG;5;TV2 FRI.dk;TV2 FRI.dk;61;20261002040500 +0000;20261004033000 +0000;88.9;88.0;15;78.9;priority-map, navnelighed, programoverlap;denmark3.xml
+TV 2 News;news.dk;58;EPGShare;1;TV 2 News;TV.2.News.dk;58;20261006040000 +0000;20261010050000 +0000;100;100;17;100.0;priority-map, normaliseret ID, navnelighed, programoverlap;epgshare_dk1.xml
+TV 2 News;news.dk;58;EPGShare;2;Euronews;Euronews.dk;302;20261006033000 +0000;20261010040000 +0000;57.2;88.0;0;0.0;navnelighed;epgshare_dk1.xml
+TV 2 News;news.dk;58;EPGShare;3;BBC News;BBC.News.dk;243;20261006034500 +0000;20261010040000 +0000;57.2;88.0;0;0.0;navnelighed;epgshare_dk1.xml
+TV 2 News;news.dk;58;EPGShare;4;Bloomberg News;Bloomberg.News.dk;79;20261006030000 +0000;20261010040000 +0000;57.2;88.0;0;0.0;navnelighed;epgshare_dk1.xml
+TV 2 News;news.dk;58;EPGShare;5;Viaplay Sport News;Viaplay.Sport.News.dk;77;20261006030000 +0000;20261010040000 +0000;57.2;88.0;0;0.0;navnelighed;epgshare_dk1.xml
+TV 2 News;news.dk;58;BSS;1;TV2 News FHD DK;tv2news.dk;30;20261001160000 +0200;20261003182000 +0200;90.4;88.0;11;84.6;priority-map, navnelighed, programoverlap;bss_epg.xml
+TV 2 News;news.dk;58;BSS;2;T News;t-news;0;;;65;100;0;0;normaliseret ID, navnelighed;bss_epg.xml
+TV 2 News;news.dk;58;BSS;3;BBC News FHD UK;bbcnews.uk;100;20261001150000 +0200;20261003150000 +0200;57.2;88.0;0;0.0;navnelighed;bss_epg.xml
+TV 2 News;news.dk;58;BSS;4;Sky News UK;skynews.uk;80;20261001150000 +0200;20261003150000 +0200;57.2;88.0;0;0.0;navnelighed;bss_epg.xml
+TV 2 News;news.dk;58;BSS;5;beIN SPORTS News FHD;beinsportsnews.qa;71;20261001150000 +0200;20261003150000 +0200;57.2;88.0;0;0.0;navnelighed;bss_epg.xml
+TV 2 News;news.dk;58;OpenEPG;1;TV 2 News.dk;TV 2 News.dk;55;20261001210000 +0000;20261004050000 +0000;100;100;10;71.4;priority-map, normaliseret ID, navnelighed, programoverlap;denmark4.xml
+TV 2 News;news.dk;58;OpenEPG;2;TV 2 News Denmark (DK,DA).dk;TV 2 News Denmark (DK,DA).dk;26;20261001210000 +0000;20261004050000 +0000;100;100;9;90.0;priority-map, normaliseret ID, navnelighed, programoverlap;denmark2.xml
+TV 2 News;news.dk;58;OpenEPG;3;tv2news.dk;tv2news.dk;27;20261002060000 +0000;20261004070000 +0000;88.0;88.0;9;75.0;priority-map, navnelighed, programoverlap;denmark6.xml
+TV 2 News;news.dk;58;OpenEPG;4;TV 2 News HD.dk;TV 2 News HD.dk;28;20261001210000 +0000;20261004050000 +0000;87.9;100;2;11.8;priority-map, normaliseret ID, navnelighed;denmark1.xml
+TV 2 News;news.dk;58;OpenEPG;5;TV2 News.dk;TV2 News.dk;13;20261002210000 +0000;20261004050000 +0000;86.7;88.0;7;70.0;priority-map, navnelighed, programoverlap;denmark3.xml
+TV 2 Sport;tv2sport.dk;72;EPGShare;1;TV 2 Sport;TV.2.Sport.dk;72;20261006030000 +0000;20261010050000 +0000;100;100;16;100.0;priority-map, navnelighed, programoverlap;epgshare_dk1.xml
+TV 2 Sport;tv2sport.dk;72;EPGShare;2;Viaplay Sport 2;Viaplay.Sport.2.dk;49;20261006020000 +0000;20261010040000 +0000;82.2;88.0;1;100.0;navnelighed, programoverlap;epgshare_dk1.xml
+TV 2 Sport;tv2sport.dk;72;EPGShare;3;Viaplay Sport 3;Viaplay.Sport.3.dk;49;20261006020000 +0000;20261010040000 +0000;82.2;88.0;1;100.0;navnelighed, programoverlap;epgshare_dk1.xml
+TV 2 Sport;tv2sport.dk;72;EPGShare;4;Viaplay Sport 1;Viaplay.Sport.1.dk;25;20261006020000 +0000;20261010060000 +0000;82.2;88.0;1;100.0;navnelighed, programoverlap;epgshare_dk1.xml
+TV 2 Sport;tv2sport.dk;72;EPGShare;5;TV 2 Sport X;TV.2.Sport.X.dk;57;20261006010000 +0000;20261010040000 +0000;78.7;100;1;6.7;priority-map, navnelighed;epgshare_dk1.xml
+TV 2 Sport;tv2sport.dk;72;BSS;1;TV2 Sport DK;tv2sport.dk;35;20261001150000 +0200;20261003150000 +0200;90.0;100;2;20.0;priority-map, normaliseret ID, navnelighed;bss_epg.xml
+TV 2 Sport;tv2sport.dk;72;BSS;2;TV2 Sport X HD DK;tv2sportx.dk;54;20261001145500 +0200;20261003145500 +0200;61.2;94.1;0;0.0;navnelighed;bss_epg.xml
+TV 2 Sport;tv2sport.dk;72;BSS;3;A SPOR FHD TR;aspor.tr;11;20261001170000 +0200;20261002110000 +0200;59.1;90.9;0;0.0;navnelighed;bss_epg.xml
+TV 2 Sport;tv2sport.dk;72;BSS;4;TV3 Sport DK;tv3sport.dk;27;20261001154500 +0200;20261003150000 +0200;59.0;88.0;1;7.1;navnelighed;bss_epg.xml
+TV 2 Sport;tv2sport.dk;72;BSS;5;Sport TV 4 HD PT;sporttv4.pt;90;20261001180000 +0200;20261003184000 +0200;57.2;88.0;0;0.0;navnelighed;bss_epg.xml
+TV 2 Sport;tv2sport.dk;72;OpenEPG;1;tv2sport.dk;tv2sport.dk;35;20261002014500 +0000;20261004040000 +0000;93.3;100;4;33.3;priority-map, normaliseret ID, navnelighed;denmark6.xml
+TV 2 Sport;tv2sport.dk;72;OpenEPG;2;TV 2 SPORT HD.dk;TV 2 SPORT HD.dk;34;20261001234500 +0000;20261004040000 +0000;81.2;100;2;16.7;priority-map, navnelighed;denmark1.xml
+TV 2 Sport;tv2sport.dk;72;OpenEPG;3;TV 2 Sport.dk;TV 2 Sport.dk;64;20261001234500 +0000;20261004070000 +0000;80.1;100;2;12.5;priority-map, navnelighed;denmark4.xml
+TV 2 Sport;tv2sport.dk;72;OpenEPG;4;TV 2 Sport X.dk;TV 2 Sport X.dk;101;20261001231000 +0000;20261004043000 +0000;77.0;100;0;0.0;priority-map, navnelighed;denmark4.xml
+TV 2 Sport;tv2sport.dk;72;OpenEPG;5;TV 2 Sport X Denmark (DK,DA).dk;TV 2 Sport X Denmark (DK,DA).dk;52;20261001231000 +0000;20261004033500 +0000;77.0;100;0;0.0;priority-map, navnelighed;denmark2.xml
+TV 2 Sport X;tv2sportx.dk;57;EPGShare;1;TV 2 Sport X;TV.2.Sport.X.dk;57;20261006010000 +0000;20261010040000 +0000;100;100;15;100.0;priority-map, navnelighed, programoverlap;epgshare_dk1.xml
+TV 2 Sport X;tv2sportx.dk;57;EPGShare;2;TV 2 Sport;TV.2.Sport.dk;72;20261006030000 +0000;20261010050000 +0000;78.7;100;1;6.7;priority-map, navnelighed;epgshare_dk1.xml
+TV 2 Sport X;tv2sportx.dk;57;EPGShare;3;Viaplay Sport News;Viaplay.Sport.News.dk;77;20261006030000 +0000;20261010040000 +0000;57.2;88.0;0;0.0;navnelighed;epgshare_dk1.xml
+TV 2 Sport X;tv2sportx.dk;57;EPGShare;4;Eurosport 1;Eurosport.1.dk;72;20261006033000 +0000;20261010040000 +0000;57.2;88.0;0;0.0;navnelighed;epgshare_dk1.xml
+TV 2 Sport X;tv2sportx.dk;57;EPGShare;5;TV3 SPORT;TV3.SPORT.dk;68;20261006020000 +0000;20261010040000 +0000;57.2;88.0;0;0.0;navnelighed;epgshare_dk1.xml
+TV 2 Sport X;tv2sportx.dk;57;BSS;1;TV2 Sport X HD DK;tv2sportx.dk;54;20261001145500 +0200;20261003145500 +0200;91.7;100;4;26.7;priority-map, normaliseret ID, navnelighed;bss_epg.xml
+TV 2 Sport X;tv2sportx.dk;57;BSS;2;TV2 Sport DK;tv2sport.dk;35;20261001150000 +0200;20261003150000 +0200;63.7;94.1;1;10.0;navnelighed;bss_epg.xml
+TV 2 Sport X;tv2sportx.dk;57;BSS;3;A SPOR FHD TR;aspor.tr;11;20261001170000 +0200;20261002110000 +0200;59.1;90.9;0;0.0;navnelighed;bss_epg.xml
+TV 2 Sport X;tv2sportx.dk;57;BSS;4;Sport TV 4 HD PT;sporttv4.pt;90;20261001180000 +0200;20261003184000 +0200;57.2;88.0;0;0.0;navnelighed;bss_epg.xml
+TV 2 Sport X;tv2sportx.dk;57;BSS;5;Sport TV+ PT;sporttvplus.pt;72;20261001145500 +0200;20261003150000 +0200;57.2;88.0;0;0.0;navnelighed;bss_epg.xml
+TV 2 Sport X;tv2sportx.dk;57;OpenEPG;1;tv2sportx.dk;tv2sportx.dk;54;20261002001500 +0000;20261004053500 +0000;88.3;100;2;13.3;priority-map, normaliseret ID, navnelighed;denmark6.xml
+TV 2 Sport X;tv2sportx.dk;57;OpenEPG;2;TV 2 Sport X.dk;TV 2 Sport X.dk;101;20261001231000 +0000;20261004043000 +0000;80.3;100;2;13.3;priority-map, navnelighed;denmark4.xml
+TV 2 Sport X;tv2sportx.dk;57;OpenEPG;3;TV 2 Sport.dk;TV 2 Sport.dk;64;20261001234500 +0000;20261004070000 +0000;78.7;100;1;6.7;priority-map, navnelighed;denmark4.xml
+TV 2 Sport X;tv2sportx.dk;57;OpenEPG;4;TV 2 Sport X Denmark (DK,DA).dk;TV 2 Sport X Denmark (DK,DA).dk;52;20261001231000 +0000;20261004033500 +0000;77.0;100;0;0.0;priority-map, navnelighed;denmark2.xml
+TV 2 Sport X;tv2sportx.dk;57;OpenEPG;5;TV 2 SPORT X.dk;TV 2 SPORT X.dk;51;20261001231000 +0000;20261004033500 +0000;77.0;100;0;0.0;priority-map, navnelighed;denmark1.xml
+TV2 Kosmopol.dk;tv2kosmopoldk.dk;71;EPGShare;1;Kosmopol;Kosmopol.dk;166;20261006040000 +0000;20261010040000 +0000;63.5;88.0;6;25.0;navnelighed;epgshare_dk1.xml
+TV2 Kosmopol.dk;tv2kosmopoldk.dk;71;BSS;1;TV2 Kosmopol HD DK;tv2lorry.dk;115;20261001173000 +0200;20261003175500 +0200;71.0;100;5;23.8;navnelighed;bss_epg.xml
+TV2 Kosmopol.dk;tv2kosmopoldk.dk;71;BSS;2;TV2 FHD DK;tv2.dk;58;20261001150500 +0200;20261003150000 +0200;68.9;88.0;15;46.9;navnelighed;bss_epg.xml
+TV2 Kosmopol.dk;tv2kosmopoldk.dk;71;BSS;3;TV2 Sport 2 HD NO;tv2sport2.no;43;20261001162000 +0200;20261003151500 +0200;43.3;66.7;0;0.0;;bss_epg.xml
+TV2 Kosmopol.dk;tv2kosmopoldk.dk;71;BSS;4;TV2 Sport 1 HD NO;tv2sport1.no;32;20261001160000 +0200;20261003150000 +0200;43.3;66.7;0;0.0;;bss_epg.xml
+TV2 Kosmopol.dk;tv2kosmopoldk.dk;71;OpenEPG;1;tv2kosmopol.dk;tv2kosmopol.dk;59;20261002003500 +0000;20261004035000 +0000;85.2;91.7;18;54.5;priority-map, navnelighed, programoverlap;denmark6.xml
+TV2 Kosmopol.dk;tv2kosmopoldk.dk;71;OpenEPG;2;Kosmopol (Digital).dk;Kosmopol (Digital).dk;53;20261002040000 +0000;20261004050000 +0000;70.1;88.0;17;51.5;navnelighed, programoverlap;denmark4.xml
+TV2 Kosmopol.dk;tv2kosmopoldk.dk;71;OpenEPG;3;tv2.dk;tv2.dk;59;20261002003500 +0000;20261004035000 +0000;68.6;88.0;15;45.5;navnelighed;denmark6.xml
+TV2 Kosmopol.dk;tv2kosmopoldk.dk;71;OpenEPG;4;TV2.dk;TV2.dk;51;20261002040000 +0000;20261004040000 +0000;66.3;88.0;12;36.4;navnelighed;denmark3.xml
+TV2 Kosmopol.dk;tv2kosmopoldk.dk;71;OpenEPG;5;tv2ostjylland.dk;tv2ostjylland.dk;60;20261002003500 +0000;20261004035000 +0000;46.4;53.8;15;45.5;;denmark6.xml
+TV3;TV3+.dk;180;EPGShare;1;TV3+;TV3+.dk;93;20261006025500 +0000;20261010040000 +0000;100;100;16;100.0;priority-map, normaliseret ID, navnelighed, programoverlap;epgshare_dk1.xml
+TV3;TV3+.dk;180;EPGShare;2;TV3;TV3.dk;87;20261006024000 +0000;20261010040000 +0000;100;100;27;100.0;priority-map, normaliseret ID, navnelighed, programoverlap;epgshare_dk1.xml
+TV3;TV3+.dk;180;EPGShare;3;TV3 Puls;TV3.Puls.dk;104;20261006030000 +0000;20261010040000 +0000;60.1;88.0;2;11.8;navnelighed;epgshare_dk1.xml
+TV3;TV3+.dk;180;EPGShare;4;TV3 MAX;TV3.MAX.dk;95;20261006030500 +0000;20261010040000 +0000;57.2;88.0;0;0.0;navnelighed;epgshare_dk1.xml
+TV3;TV3+.dk;180;EPGShare;5;TV3 SPORT;TV3.SPORT.dk;68;20261006020000 +0000;20261010040000 +0000;57.2;88.0;0;0.0;navnelighed;epgshare_dk1.xml
+TV3;TV3+.dk;180;BSS;1;TV3 HD DK;tv3.dk;43;20261001150000 +0200;20261003152500 +0200;100;100;12;60.0;priority-map, normaliseret ID, navnelighed, programoverlap;bss_epg.xml
+TV3;TV3+.dk;180;BSS;2;TV3+ HD DK;tv3plus.dk;42;20261001150000 +0200;20261003150000 +0200;91.3;100;8;57.1;priority-map, navnelighed, programoverlap;bss_epg.xml
+TV3;TV3+.dk;180;BSS;3;TV3+ NO;tv3plus.no;58;20261001145500 +0200;20261003145500 +0200;61.9;88.0;3;18.8;navnelighed;bss_epg.xml
+TV3;TV3+.dk;180;BSS;4;TV3 HD SE;tv3.se;49;20261001150500 +0200;20261003150000 +0200;60.3;88.0;3;12.5;navnelighed;bss_epg.xml
+TV3;TV3+.dk;180;BSS;5;TV3 Puls HD DK;tv3puls.dk;46;20261001155000 +0200;20261003150000 +0200;60.0;88.0;2;11.1;navnelighed;bss_epg.xml
+TV3;TV3+.dk;180;OpenEPG;1;TV3+ Denmark (DK,DA).dk;TV3+ Denmark (DK,DA).dk;44;20261001210000 +0000;20261004030000 +0000;99.1;100;9;56.2;priority-map, normaliseret ID, navnelighed, programoverlap;denmark2.xml
+TV3;TV3+.dk;180;OpenEPG;2;TV3+.dk;TV3+.dk;126;20261001210000 +0000;20261004043000 +0000;97.5;100;9;50.0;priority-map, normaliseret ID, navnelighed, programoverlap;denmark3.xml
+TV3;TV3+.dk;180;OpenEPG;3;tv3.dk;tv3.dk;43;20261002012500 +0000;20261004043000 +0000;97.0;100;11;47.8;priority-map, normaliseret ID, navnelighed;denmark6.xml
+TV3;TV3+.dk;180;OpenEPG;4;TV3 Denmark (DK,DA).dk;TV3 Denmark (DK,DA).dk;42;20261001232500 +0000;20261004032500 +0000;97.0;100;11;47.8;priority-map, normaliseret ID, navnelighed;denmark2.xml
+TV3;TV3+.dk;180;OpenEPG;5;TV3.dk;TV3.dk;117;20261001232500 +0000;20261004045500 +0000;96.5;100;12;46.2;priority-map, normaliseret ID, navnelighed;denmark3.xml
+TV3 MAX;tv3max.dk;95;EPGShare;1;TV3 MAX;TV3.MAX.dk;95;20261006030500 +0000;20261010040000 +0000;100;100;18;100.0;priority-map, navnelighed, programoverlap;epgshare_dk1.xml
+TV3 MAX;tv3max.dk;95;EPGShare;2;TV3+;TV3+.dk;93;20261006025500 +0000;20261010040000 +0000;57.2;88.0;0;0.0;navnelighed;epgshare_dk1.xml
+TV3 MAX;tv3max.dk;95;EPGShare;3;TV3;TV3.dk;87;20261006024000 +0000;20261010040000 +0000;57.2;88.0;0;0.0;navnelighed;epgshare_dk1.xml
+TV3 MAX;tv3max.dk;95;EPGShare;4;MTV;MTV.dk;167;20261006031500 +0000;20261010040000 +0000;43.3;66.7;0;0.0;;epgshare_dk1.xml
+TV3 MAX;tv3max.dk;95;BSS;1;TV3 Max DK;tv3max.dk;46;20261001145000 +0200;20261003160000 +0200;100;100;13;72.2;priority-map, normaliseret ID, navnelighed, programoverlap;bss_epg.xml
+TV3 MAX;tv3max.dk;95;BSS;2;TV3 HD DK;tv3.dk;43;20261001150000 +0200;20261003152500 +0200;57.2;88.0;0;0.0;navnelighed;bss_epg.xml
+TV3 MAX;tv3max.dk;95;BSS;3;TV3+ HD DK;tv3plus.dk;42;20261001150000 +0200;20261003150000 +0200;57.2;88.0;0;0.0;navnelighed;bss_epg.xml
+TV3 MAX;tv3max.dk;95;BSS;4;MTV Max HD FI;mtvmax.fi;16;20261001150000 +0200;20261002191500 +0200;46.4;71.4;0;0.0;;bss_epg.xml
+TV3 MAX;tv3max.dk;95;BSS;5;mtv.dk;mtv.dk;107;20261001150000 +0200;20261003145500 +0200;43.3;66.7;0;0.0;;bss_epg.xml
+TV3 MAX;tv3max.dk;95;OpenEPG;1;tv3max.dk;tv3max.dk;52;20261002001500 +0000;20261004041500 +0000;96.1;100;8;44.4;priority-map, normaliseret ID, navnelighed;denmark6.xml
+TV3 MAX;tv3max.dk;95;OpenEPG;2;TV3 Max.dk;TV3 Max.dk;143;20261001231500 +0000;20261004060000 +0000;89.5;100;9;50.0;priority-map, navnelighed, programoverlap;denmark3.xml
+TV3 MAX;tv3max.dk;95;OpenEPG;3;TV3 Max Denmark (DK,DA).dk;TV3 Max Denmark (DK,DA).dk;51;20261001231500 +0000;20261004040000 +0000;88.1;100;8;44.4;priority-map, navnelighed;denmark2.xml
+TV3 MAX;tv3max.dk;95;OpenEPG;4;TV3 MAX HD.dk;TV3 MAX HD.dk;51;20261001231500 +0000;20261004040000 +0000;81.2;100;3;16.7;priority-map, navnelighed;denmark1.xml
+TV3 MAX;tv3max.dk;95;OpenEPG;5;TV3+.dk;TV3+.dk;126;20261001210000 +0000;20261004043000 +0000;57.2;88.0;0;0.0;navnelighed;denmark3.xml
+TV3 Puls;tv3.puls.dk;104;EPGShare;1;TV3 Puls;TV3.Puls.dk;104;20261006030000 +0000;20261010040000 +0000;100;100;17;100.0;priority-map, normaliseret ID, navnelighed, programoverlap;epgshare_dk1.xml
+TV3 Puls;tv3.puls.dk;104;EPGShare;2;TV3;TV3.dk;87;20261006024000 +0000;20261010040000 +0000;60.1;88.0;2;11.8;navnelighed;epgshare_dk1.xml
+TV3 Puls;tv3.puls.dk;104;EPGShare;3;TV3+;TV3+.dk;93;20261006025500 +0000;20261010040000 +0000;57.2;88.0;0;0.0;navnelighed;epgshare_dk1.xml
+TV3 Puls;tv3.puls.dk;104;BSS;1;TV3 Puls HD DK;tv3puls.dk;46;20261001155000 +0200;20261003150000 +0200;97.6;100;14;82.4;priority-map, navnelighed, programoverlap;bss_epg.xml
+TV3 Puls;tv3.puls.dk;104;BSS;2;TV3 HD DK;tv3.dk;43;20261001150000 +0200;20261003152500 +0200;60.1;88.0;2;11.8;navnelighed;bss_epg.xml
+TV3 Puls;tv3.puls.dk;104;BSS;3;TV3+ HD DK;tv3plus.dk;42;20261001150000 +0200;20261003150000 +0200;57.2;88.0;0;0.0;navnelighed;bss_epg.xml
+TV3 Puls;tv3.puls.dk;104;BSS;4;TVP 3 Warszawa PL;tvp3.pl;117;20261001145000 +0200;20261003150000 +0200;50.0;76.9;0;0.0;;bss_epg.xml
+TV3 Puls;tv3.puls.dk;104;BSS;5;TV3 HD SE;tv3.se;49;20261001150500 +0200;20261003150000 +0200;44.8;66.7;1;5.9;;bss_epg.xml
+TV3 Puls;tv3.puls.dk;104;OpenEPG;1;TV3 Puls.dk;TV3 Puls.dk;135;20261001230500 +0000;20261004043000 +0000;100;100;14;82.4;priority-map, normaliseret ID, navnelighed, programoverlap;denmark3.xml
+TV3 Puls;tv3.puls.dk;104;OpenEPG;2;TV3 Puls Denmark (DK,DA).dk;TV3 Puls Denmark (DK,DA).dk;48;20261001230500 +0000;20261004031500 +0000;100;100;14;82.4;priority-map, normaliseret ID, navnelighed, programoverlap;denmark2.xml
+TV3 Puls;tv3.puls.dk;104;OpenEPG;3;TV3 Puls HD.dk;TV3 Puls HD.dk;48;20261001230500 +0000;20261004031500 +0000;100;100;11;64.7;priority-map, normaliseret ID, navnelighed, programoverlap;denmark1.xml
+TV3 Puls;tv3.puls.dk;104;OpenEPG;4;tv3puls.dk;tv3puls.dk;49;20261002000500 +0000;20261004031000 +0000;69.7;57.1;14;82.4;priority-map, programoverlap;denmark6.xml
+TV3 Puls;tv3.puls.dk;104;OpenEPG;5;TV3.dk;TV3.dk;117;20261001232500 +0000;20261004045500 +0000;60.1;88.0;2;11.8;navnelighed;denmark3.xml
+TV3 SPORT;tv3sport.dk;68;EPGShare;1;TV3 SPORT;TV3.SPORT.dk;68;20261006020000 +0000;20261010040000 +0000;100;100;26;100.0;priority-map, navnelighed, programoverlap;epgshare_dk1.xml
+TV3 SPORT;tv3sport.dk;68;EPGShare;2;Viaplay Sport 2;Viaplay.Sport.2.dk;49;20261006020000 +0000;20261010040000 +0000;64.0;60.0;1;100.0;programoverlap;epgshare_dk1.xml
+TV3 SPORT;tv3sport.dk;68;EPGShare;3;Viaplay Sport 3;Viaplay.Sport.3.dk;49;20261006020000 +0000;20261010040000 +0000;64.0;60.0;1;100.0;programoverlap;epgshare_dk1.xml
+TV3 SPORT;tv3sport.dk;68;EPGShare;4;Viaplay Sport 1;Viaplay.Sport.1.dk;25;20261006020000 +0000;20261010060000 +0000;64.0;60.0;1;100.0;programoverlap;epgshare_dk1.xml
+TV3 SPORT;tv3sport.dk;68;EPGShare;5;TV 2 Sport;TV.2.Sport.dk;72;20261006030000 +0000;20261010050000 +0000;58.8;88.0;1;6.2;navnelighed;epgshare_dk1.xml
+TV3 SPORT;tv3sport.dk;68;BSS;1;TV3 Sport DK;tv3sport.dk;27;20261001154500 +0200;20261003150000 +0200;95.7;100;6;42.9;priority-map, normaliseret ID, navnelighed;bss_epg.xml
+TV3 SPORT;tv3sport.dk;68;BSS;2;Sport TV 3 PT;sporttv3.pt;71;20261001170000 +0200;20261003175500 +0200;57.8;88.9;0;0.0;navnelighed;bss_epg.xml
+TV3 SPORT;tv3sport.dk;68;BSS;3;TV2 Sport X HD DK;tv2sportx.dk;54;20261001145500 +0200;20261003145500 +0200;56.9;87.5;0;0.0;navnelighed;bss_epg.xml
+TV3 SPORT;tv3sport.dk;68;BSS;4;TV2 Sport DK;tv2sport.dk;35;20261001150000 +0200;20261003150000 +0200;56.9;87.5;0;0.0;navnelighed;bss_epg.xml
+TV3 SPORT;tv3sport.dk;68;BSS;5;Sport TV 4 HD PT;sporttv4.pt;90;20261001180000 +0200;20261003184000 +0200;52.0;80.0;0;0.0;navnelighed;bss_epg.xml
+TV3 SPORT;tv3sport.dk;68;OpenEPG;1;tv3sport.dk;tv3sport.dk;34;20261002005000 +0000;20261004065000 +0000;99.6;100;7;58.3;priority-map, normaliseret ID, navnelighed, programoverlap;denmark6.xml
+TV3 SPORT;tv3sport.dk;68;OpenEPG;2;TV3 Sport Denmark (DK,DA).dk;TV3 Sport Denmark (DK,DA).dk;32;20261001225000 +0000;20261004020000 +0000;91.6;100;7;58.3;priority-map, navnelighed, programoverlap;denmark2.xml
+TV3 SPORT;tv3sport.dk;68;OpenEPG;3;TV3 Sport HD (D).dk;TV3 Sport HD (D).dk;35;20261001225000 +0000;20261004040000 +0000;85.8;100;6;35.3;priority-map, navnelighed;denmark1.xml
+TV3 SPORT;tv3sport.dk;68;OpenEPG;4;TV3 Sport.dk;TV3 Sport.dk;94;20261001225000 +0000;20261004045000 +0000;85.0;100;8;32.0;priority-map, navnelighed;denmark3.xml
+TV3 SPORT;tv3sport.dk;68;OpenEPG;5;TV 2 SPORT HD.dk;TV 2 SPORT HD.dk;34;20261001234500 +0000;20261004040000 +0000;59.3;88.0;1;8.3;navnelighed;denmark1.xml
+TV4 Hits Denmark (DK,DA).dk;tv4hitsdenmarkdkdadk.dk;34;EPGShare;1;TV4;TV4.dk;77;20261006034500 +0000;20261010040000 +0000;57.2;88.0;0;0.0;navnelighed;epgshare_dk1.xml
+TV4 Hits Denmark (DK,DA).dk;tv4hitsdenmarkdkdadk.dk;34;EPGShare;2;MTV Hits;MTV.Hits.dk;0;;;47.7;85.7;0;0;navnelighed;epgshare_dk1.xml
+TV4 Hits Denmark (DK,DA).dk;tv4hitsdenmarkdkdadk.dk;34;EPGShare;3;HaIP test 4;HaIP.test.4.dk;4;20261006040000 +0000;20261010040000 +0000;43.3;66.7;0;0.0;;epgshare_dk1.xml
+TV4 Hits Denmark (DK,DA).dk;tv4hitsdenmarkdkdadk.dk;34;BSS;1;TV4 Hits FHD NO;cmorehits.no;32;20261001151500 +0200;20261003160500 +0200;60.0;87.5;3;12.5;navnelighed;bss_epg.xml
+TV4 Hits Denmark (DK,DA).dk;tv4hitsdenmarkdkdadk.dk;34;BSS;2;TV4 Hits HD SE [Multi-Sub];tv4hits.se;32;20261001151500 +0200;20261003160500 +0200;59.0;87.5;2;8.3;navnelighed;bss_epg.xml
+TV4 Hits Denmark (DK,DA).dk;tv4hitsdenmarkdkdadk.dk;34;BSS;3;Hits FHD DK [Multi-Sub];cmorehits.dk;0;;;49.2;88.0;0;0;navnelighed;bss_epg.xml
+TV4 Hits Denmark (DK,DA).dk;tv4hitsdenmarkdkdadk.dk;34;BSS;4;TV4 HU;tv4.hu;57;20261001155500 +0200;20261003152000 +0200;43.3;66.7;0;0.0;;bss_epg.xml
+TV4 Hits Denmark (DK,DA).dk;tv4hitsdenmarkdkdadk.dk;34;BSS;5;TV4 FHD TR;tv4.tr;51;20261001151500 +0200;20261003151500 +0200;43.3;66.7;0;0.0;;bss_epg.xml
+TV4 Hits Denmark (DK,DA).dk;tv4hitsdenmarkdkdadk.dk;34;OpenEPG;1;TV4 Hits Denmark (DK,DA).dk;TV4 Hits Denmark (DK,DA).dk;34;20261001232000 +0000;20261004024500 +0000;86.8;100;11;39.3;priority-map, navnelighed;denmark2.xml
+TV4 Hits Denmark (DK,DA).dk;tv4hitsdenmarkdkdadk.dk;34;OpenEPG;2;TV4 HD.dk;TV4 HD.dk;39;20261001234500 +0000;20261004030000 +0000;59.0;88.0;2;7.1;navnelighed;denmark1.xml
+TV4 Hits Denmark (DK,DA).dk;tv4hitsdenmarkdkdadk.dk;34;OpenEPG;3;TV4 Hits Norway (NO,NO).dk;TV4 Hits Norway (NO,NO).dk;34;20261001232000 +0000;20261004024500 +0000;46.7;63.6;6;21.4;;denmark2.xml
+V film action;viasataction.dk;49;EPGShare;1;V film action;V.film.action.dk;49;20261006015000 +0000;20261010040000 +0000;100;100;30;100.0;priority-map, navnelighed, programoverlap;epgshare_dk1.xml
+V film action;viasataction.dk;49;BSS;1;V Film Action HD DK;viasataction.dk;24;20261001155000 +0200;20261003160000 +0200;74.5;100;1;5.9;normaliseret ID, navnelighed;bss_epg.xml
+V film action;viasataction.dk;49;BSS;2;V Film Action FHD FI [Multi-Sub];viasatfilmaction.fi;24;20261001155000 +0200;20261003160000 +0200;60.6;90.9;1;5.9;navnelighed;bss_epg.xml
+V film action;viasataction.dk;49;BSS;3;V Film Action HD NO;viasatfilmaction.no;24;20261001155000 +0200;20261003160000 +0200;60.6;90.9;1;5.9;navnelighed;bss_epg.xml
+V film action;viasataction.dk;49;BSS;4;V Film Action FHD SE [Multi-Sub];viasatfilmaction.se;24;20261001155000 +0200;20261003160000 +0200;59.1;90.9;0;0.0;navnelighed;bss_epg.xml
+V film action;viasataction.dk;49;BSS;5;Filmbox Action PL;filmboxaction.pl;26;20261001160500 +0200;20261003160000 +0200;57.2;88.0;0;0.0;navnelighed;bss_epg.xml
+V film action;viasataction.dk;49;OpenEPG;1;V Film Action Denmark (DK,DA).dk;V Film Action Denmark (DK,DA).dk;27;20261001220000 +0000;20261004040000 +0000;78.2;100;1;4.8;priority-map, navnelighed;denmark2.xml
+V film action;viasataction.dk;49;OpenEPG;2;V film action HD.dk;V film action HD.dk;27;20261001220000 +0000;20261004040000 +0000;78.2;100;1;4.8;priority-map, navnelighed;denmark1.xml
+V film action;viasataction.dk;49;OpenEPG;3;V Film Action.dk;V Film Action.dk;24;20261002040000 +0000;20261004040000 +0000;77.0;100;0;0.0;priority-map, navnelighed;denmark3.xml
+V film action;viasataction.dk;49;OpenEPG;4;Viasat Film Action.dk;Viasat Film Action.dk;51;20261001220000 +0000;20261004060000 +0000;70.4;88.0;1;4.8;priority-map, navnelighed;denmark4.xml
+V film action;viasataction.dk;49;OpenEPG;5;viasatfilmaction.dk;viasatfilmaction.dk;28;20261002000000 +0000;20261004035500 +0000;68.9;85.7;1;4.8;priority-map, navnelighed;denmark6.xml
+V film family;viasatfamily.dk;49;EPGShare;1;V film family;V.film.family.dk;49;20261006030000 +0000;20261010050000 +0000;100;100;31;100.0;priority-map, navnelighed, programoverlap;epgshare_dk1.xml
+V film family;viasatfamily.dk;49;BSS;1;V Film Family DK [Multi-Sub];viasatfamily.dk;24;20261001150000 +0200;20261003150000 +0200;73.0;100;0;0.0;normaliseret ID, navnelighed;bss_epg.xml
+V film family;viasatfamily.dk;49;BSS;2;V Film Family HD FI;viasatfilmfamily.fi;24;20261001150000 +0200;20261003150000 +0200;59.1;90.9;0;0.0;navnelighed;bss_epg.xml
+V film family;viasatfamily.dk;49;BSS;3;V Film Family NO;viasatfilmfamily.no;24;20261001150000 +0200;20261003140000 +0200;59.1;90.9;0;0.0;navnelighed;bss_epg.xml
+V film family;viasatfamily.dk;49;BSS;4;V Film Family SE;viasatfilmfamily.se;24;20261001150000 +0200;20261003150000 +0200;59.1;90.9;0;0.0;navnelighed;bss_epg.xml
+V film family;viasatfamily.dk;49;BSS;5;FilmBox Family RO;filmboxfamily.ro;42;20261001145000 +0200;20261003144459 +0200;57.2;88.0;0;0.0;navnelighed;bss_epg.xml
+V film family;viasatfamily.dk;49;OpenEPG;1;V Film Family.dk;V Film Family.dk;24;20261002050000 +0000;20261004050000 +0000;79.8;100;2;11.1;priority-map, navnelighed;denmark3.xml
+V film family;viasatfamily.dk;49;OpenEPG;2;V Film Family Denmark (DK,DA).dk;V Film Family Denmark (DK,DA).dk;26;20261001230000 +0000;20261004030000 +0000;79.4;100;2;9.5;priority-map, navnelighed;denmark2.xml
+V film family;viasatfamily.dk;49;OpenEPG;3;V film family.dk;V film family.dk;26;20261001230000 +0000;20261004030000 +0000;78.2;100;1;4.8;priority-map, navnelighed;denmark1.xml
+V film family;viasatfamily.dk;49;OpenEPG;4;viasatfamily.dk;viasatfamily.dk;27;20261002010000 +0000;20261004030000 +0000;75.4;100;2;9.5;normaliseret ID, navnelighed;denmark6.xml
+V film family;viasatfamily.dk;49;OpenEPG;5;Viasat Film Family.dk;Viasat Film Family.dk;50;20261001230000 +0000;20261004050000 +0000;71.6;88.0;2;9.5;priority-map, navnelighed;denmark4.xml
+V film hits;viasathits.dk;48;EPGShare;1;V film hits;V.film.hits.dk;48;20261006020000 +0000;20261010040000 +0000;100;100;33;100.0;priority-map, navnelighed, programoverlap;epgshare_dk1.xml
+V film hits;viasathits.dk;48;BSS;1;V Film Hits FHD DK [Multi-Sub];viasathits.dk;24;20261001160000 +0200;20261003161000 +0200;78.9;100;4;23.5;normaliseret ID, navnelighed;bss_epg.xml
+V film hits;viasathits.dk;48;BSS;2;V Film Hits HD NO;viasatfilmhits.no;24;20261001160000 +0200;20261003161000 +0200;62.2;88.9;3;17.6;navnelighed;bss_epg.xml
+V film hits;viasathits.dk;48;BSS;3;V Film Hits HD FI;viasatfilmhits.fi;24;20261001160000 +0200;20261003161000 +0200;59.2;88.9;1;5.9;navnelighed;bss_epg.xml
+V film hits;viasathits.dk;48;BSS;4;V Film Hits FHD SE [Multi-Sub];viasatfilmhits.se;24;20261001160000 +0200;20261003161000 +0200;57.8;88.9;0;0.0;navnelighed;bss_epg.xml
+V film hits;viasathits.dk;48;BSS;5;Film Hits FHD AL;filmhits.al;19;20261001160000 +0200;20261003010000 +0200;57.8;88.9;0;0.0;navnelighed;bss_epg.xml
+V film hits;viasathits.dk;48;OpenEPG;1;V Film Hits.dk;V Film Hits.dk;23;20261002040000 +0000;20261004040000 +0000;82.6;100;4;22.2;priority-map, navnelighed;denmark3.xml
+V film hits;viasathits.dk;48;OpenEPG;2;V Film Hits Denmark (DK,DA).dk;V Film Hits Denmark (DK,DA).dk;25;20261001235000 +0000;20261004040000 +0000;82.0;100;4;20.0;priority-map, navnelighed;denmark2.xml
+V film hits;viasathits.dk;48;OpenEPG;3;V film hits HD.dk;V film hits HD.dk;25;20261001235000 +0000;20261004040000 +0000;80.8;100;3;15.0;priority-map, navnelighed;denmark1.xml
+V film hits;viasathits.dk;48;OpenEPG;4;Viasat Film Hits.dk;Viasat Film Hits.dk;48;20261001235000 +0000;20261004054500 +0000;74.2;88.0;4;20.0;priority-map, navnelighed;denmark4.xml
+V film hits;viasathits.dk;48;OpenEPG;5;viasatfilm.dk;viasatfilm.dk;26;20261002015000 +0000;20261004030000 +0000;62.3;70.0;4;19.0;priority-map;denmark6.xml
+V film premiere;viasatfilmpremiere.dk;49;EPGShare;1;V film premiere;V.film.premiere.dk;49;20261006030000 +0000;20261010050000 +0000;100;100;30;100.0;priority-map, navnelighed, programoverlap;epgshare_dk1.xml
+V film premiere;viasatfilmpremiere.dk;49;BSS;1;V Film Premiere HD DK;viasatfilmpremiere.dk;24;20261001150000 +0200;20261003150000 +0200;77.7;100;3;18.8;normaliseret ID, navnelighed;bss_epg.xml
+V film premiere;viasatfilmpremiere.dk;49;BSS;2;V Film Premiere HD FI;viasatfilmpremiere.fi;24;20261001150000 +0200;20261003150000 +0200;66.3;94.7;3;18.8;navnelighed;bss_epg.xml
+V film premiere;viasatfilmpremiere.dk;49;BSS;3;V Film Premiere FHD NO [Multi-Sub];viasatfilmpremiere.no;24;20261001150000 +0200;20261003143000 +0200;66.3;94.7;3;18.8;navnelighed;bss_epg.xml
+V film premiere;viasatfilmpremiere.dk;49;BSS;4;V Film Premiere FHD SE [Multi-Sub];viasatfilmpremiere.se;24;20261001150000 +0200;20261003150000 +0200;61.6;94.7;0;0.0;navnelighed;bss_epg.xml
+V film premiere;viasatfilmpremiere.dk;49;BSS;5;Film 1 Premiere FHD NL;film1premiere.nl;12;20261001160000 +0200;20261003082500 +0200;60.0;92.3;0;0.0;navnelighed;bss_epg.xml
+V film premiere;viasatfilmpremiere.dk;49;OpenEPG;1;V Film Premiere.dk;V Film Premiere.dk;24;20261002050000 +0000;20261004050000 +0000;83.9;100;5;27.8;priority-map, navnelighed;denmark3.xml
+V film premiere;viasatfilmpremiere.dk;49;OpenEPG;2;V Film Premiere HD Denmark (DK,DA).dk;V Film Premiere HD Denmark (DK,DA).dk;26;20261001230000 +0000;20261004030000 +0000;83.0;100;5;23.8;priority-map, navnelighed;denmark2.xml
+V film premiere;viasatfilmpremiere.dk;49;OpenEPG;3;V film premiere HD.dk;V film premiere HD.dk;26;20261001230000 +0000;20261004030000 +0000;83.0;100;5;23.8;priority-map, navnelighed;denmark1.xml
+V film premiere;viasatfilmpremiere.dk;49;OpenEPG;4;viasatpremiere.dk;viasatpremiere.dk;27;20261002010000 +0000;20261004031500 +0000;74.8;87.5;5;23.8;priority-map, navnelighed;denmark6.xml
+V film premiere;viasatfilmpremiere.dk;49;OpenEPG;5;viasatfilm.dk;viasatfilm.dk;26;20261002015000 +0000;20261004030000 +0000;57.2;88.0;0;0.0;navnelighed;denmark6.xml
+V series;viasatseries.dk;145;EPGShare;1;V series;V.series.dk;145;20261006033000 +0000;20261010040000 +0000;100;100;24;100.0;priority-map, navnelighed, programoverlap;epgshare_dk1.xml
+V series;viasatseries.dk;145;EPGShare;2;C More Series;C.More.Series.dk;0;;;49.2;88.0;0;0;navnelighed;epgshare_dk1.xml
+V series;viasatseries.dk;145;EPGShare;3;V series & film;V.series.&.film.dk;0;;;49.2;88.0;0;0;navnelighed;epgshare_dk1.xml
+V series;viasatseries.dk;145;EPGShare;4;See;See.dk;148;20261006032500 +0000;20261010040000 +0000;43.3;66.7;0;0.0;;epgshare_dk1.xml
+V series;viasatseries.dk;145;BSS;1;V Series HD DK;viasatseries.dk;75;20261001144500 +0200;20261003150000 +0200;100;100;18;94.7;priority-map, normaliseret ID, navnelighed, programoverlap;bss_epg.xml
+V series;viasatseries.dk;145;BSS;2;V Series HD SE;viasatseries.se;75;20261001144500 +0200;20261003150000 +0200;83.7;92.3;18;94.7;navnelighed, programoverlap;bss_epg.xml
+V series;viasatseries.dk;145;BSS;3;V Series FHD NO [Multi-Sub];viasatseries.no;75;20261001144500 +0200;20261003150000 +0200;82.4;92.3;17;89.5;navnelighed, programoverlap;bss_epg.xml
+V series;viasatseries.dk;145;BSS;4;TNT Series CHL;tntseries.ar;66;20261001152300 +0200;20261003153300 +0200;57.2;88.0;0;0.0;navnelighed;bss_epg.xml
+V series;viasatseries.dk;145;BSS;5;A3 Series FHD ES;atreseries.es;55;20261001150000 +0200;20261003153000 +0200;57.2;88.0;0;0.0;navnelighed;bss_epg.xml
+V series;viasatseries.dk;145;OpenEPG;1;viasatseries.dk;viasatseries.dk;83;20261002002500 +0000;20261004024500 +0000;100;100;17;73.9;priority-map, normaliseret ID, navnelighed, programoverlap;denmark6.xml
+V series;viasatseries.dk;145;OpenEPG;2;V Series Denmark (DK,DA).dk;V Series Denmark (DK,DA).dk;85;20261001232000 +0000;20261004025000 +0000;96.3;100;17;77.3;priority-map, navnelighed, programoverlap;denmark2.xml
+V series;viasatseries.dk;145;OpenEPG;3;V Series.dk;V Series.dk;80;20261002040000 +0000;20261004033000 +0000;96.0;100;16;76.2;priority-map, navnelighed, programoverlap;denmark3.xml
+V series;viasatseries.dk;145;OpenEPG;4;Viasat Series.dk;Viasat Series.dk;167;20261001232000 +0000;20261004044000 +0000;88.5;88.0;17;77.3;priority-map, navnelighed, programoverlap;denmark4.xml
+V series;viasatseries.dk;145;OpenEPG;5;V series HD.dk;V series HD.dk;84;20261001232000 +0000;20261004023000 +0000;77.0;100;0;0.0;priority-map, navnelighed;denmark1.xml
+V sport ultra HD;viasatultra.dk;27;EPGShare;1;V sport ultra HD;V.sport.ultra.HD.dk;27;20261006013000 +0000;20261010053000 +0000;100;100;6;100.0;priority-map, navnelighed, programoverlap;epgshare_dk1.xml
+V sport ultra HD;viasatultra.dk;27;EPGShare;2;Viaplay Sport 2;Viaplay.Sport.2.dk;49;20261006020000 +0000;20261010040000 +0000;66.4;63.6;1;100.0;programoverlap;epgshare_dk1.xml
+V sport ultra HD;viasatultra.dk;27;EPGShare;3;Viaplay Sport 3;Viaplay.Sport.3.dk;49;20261006020000 +0000;20261010040000 +0000;66.4;63.6;1;100.0;programoverlap;epgshare_dk1.xml
+V sport ultra HD;viasatultra.dk;27;EPGShare;4;Viaplay Sport 1;Viaplay.Sport.1.dk;25;20261006020000 +0000;20261010060000 +0000;66.4;63.6;1;100.0;programoverlap;epgshare_dk1.xml
+V sport ultra HD;viasatultra.dk;27;EPGShare;5;TV 2 Sport;TV.2.Sport.dk;72;20261006030000 +0000;20261010050000 +0000;61.4;88.0;1;16.7;navnelighed;epgshare_dk1.xml
+V sport ultra HD;viasatultra.dk;27;BSS;1;V Sport Ultra 4K DK [Only On 4K Devices];viasatultra.dk;13;20261001183000 +0200;20261003183000 +0200;93.0;100;4;80.0;normaliseret ID, navnelighed, programoverlap;bss_epg.xml
+V sport ultra HD;viasatultra.dk;27;BSS;2;V Sport Ultra 4K NO [Only On 4K Devices];vsportultra.no;13;20261001183000 +0200;20261003183000 +0200;74.1;90.9;3;60.0;navnelighed, programoverlap;bss_epg.xml
+V sport ultra HD;viasatultra.dk;27;BSS;3;V Sport Ultra 4K SE [Only On 4K Devices];viasatsportultra.se;7;20261001180000 +0200;20261003180000 +0200;67.4;90.9;1;33.3;navnelighed;bss_epg.xml
+V sport ultra HD;viasatultra.dk;27;BSS;4;S Sport 2 FHD TR;ssport2.tr;67;20261001153000 +0200;20261003153000 +0200;53.5;82.4;0;0.0;navnelighed;bss_epg.xml
+V sport ultra HD;viasatultra.dk;27;BSS;5;S Sport FHD TR;ssport.tr;36;20261001163000 +0200;20261003150000 +0200;53.5;82.4;0;0.0;navnelighed;bss_epg.xml
+V sport ultra HD;viasatultra.dk;27;OpenEPG;1;V Sport Ultra HD Denmark (DK,DA).dk;V Sport Ultra HD Denmark (DK,DA).dk;6;20261002080000 +0000;20261003220000 +0000;85.3;100;1;33.3;priority-map, navnelighed;denmark2.xml
+V sport ultra HD;viasatultra.dk;27;OpenEPG;2;V Sport Ultra HD.dk;V Sport Ultra HD.dk;8;20261002080000 +0000;20261004080000 +0000;82.0;100;1;20.0;priority-map, navnelighed;denmark3.xml
+V sport ultra HD;viasatultra.dk;27;OpenEPG;3;TV 2 SPORT HD.dk;TV 2 SPORT HD.dk;34;20261001234500 +0000;20261004040000 +0000;61.4;88.0;1;16.7;navnelighed;denmark1.xml
+V sport ultra HD;viasatultra.dk;27;OpenEPG;4;TV 2 Sport X.dk;TV 2 Sport X.dk;101;20261001231000 +0000;20261004043000 +0000;57.2;88.0;0;0.0;navnelighed;denmark4.xml
+V sport ultra HD;viasatultra.dk;27;OpenEPG;5;TV 2 Sport.dk;TV 2 Sport.dk;64;20261001234500 +0000;20261004070000 +0000;57.2;88.0;0;0.0;navnelighed;denmark4.xml
+Viaplay Sport News;viaplaysportnews.dk;77;EPGShare;1;Viaplay Sport News;Viaplay.Sport.News.dk;77;20261006030000 +0000;20261010040000 +0000;100;100;15;100.0;priority-map, navnelighed, programoverlap;epgshare_dk1.xml
+Viaplay Sport News;viaplaysportnews.dk;77;EPGShare;2;TV 2 Sport;TV.2.Sport.dk;72;20261006030000 +0000;20261010050000 +0000;57.2;88.0;0;0.0;navnelighed;epgshare_dk1.xml
+Viaplay Sport News;viaplaysportnews.dk;77;EPGShare;3;TV 2 News;TV.2.News.dk;58;20261006040000 +0000;20261010050000 +0000;57.2;88.0;0;0.0;navnelighed;epgshare_dk1.xml
+Viaplay Sport News;viaplaysportnews.dk;77;EPGShare;4;TV 2 Sport X;TV.2.Sport.X.dk;57;20261006010000 +0000;20261010040000 +0000;57.2;88.0;0;0.0;navnelighed;epgshare_dk1.xml
+Viaplay Sport News;viaplaysportnews.dk;77;EPGShare;5;Viaplay Sport 2;Viaplay.Sport.2.dk;49;20261006020000 +0000;20261010040000 +0000;57.2;88.0;0;0.0;navnelighed;epgshare_dk1.xml
+Viaplay Sport News;viaplaysportnews.dk;77;BSS;1;Viaplay Sport News HD DK;viaplaysportnews.dk;40;20261001160000 +0200;20261003150000 +0200;100;100;11;100.0;priority-map, normaliseret ID, navnelighed, programoverlap;bss_epg.xml
+Viaplay Sport News;viaplaysportnews.dk;77;BSS;2;Super Sport News FHD AL [Multi-Audio];supersport1.al;3;20261001200000 +0200;20261003080000 +0200;65.6;62.5;1;100.0;programoverlap;bss_epg.xml
+Viaplay Sport News;viaplaysportnews.dk;77;BSS;3;Viaplay Sport HD SE;viaplaysport.se;29;20261001150000 +0200;20261003153000 +0200;56.3;86.7;0;0.0;navnelighed;bss_epg.xml
+Viaplay Sport News;viaplaysportnews.dk;77;BSS;4;V Sport Premium FHD SE;viasatsportpremium.se;23;20261001160000 +0200;20261003163000 +0200;49.2;75.7;0;0.0;;bss_epg.xml
+Viaplay Sport News;viaplaysportnews.dk;77;BSS;5;Play Sports 7 HD BE;play7.be;53;20261001152000 +0200;20261003150500 +0200;46.4;71.4;0;0.0;;bss_epg.xml
+Viaplay Sport News;viaplaysportnews.dk;77;OpenEPG;1;Viaplay Sport News.dk;Viaplay Sport News.dk;68;20261001220000 +0000;20261004030000 +0000;91.3;100;8;57.1;priority-map, navnelighed, programoverlap;denmark1.xml
+Viasat Family.dk;viasatfamilydk.dk;27;EPGShare;1;V film family;V.film.family.dk;49;20261006030000 +0000;20261010050000 +0000;65.2;63.6;20;95.2;programoverlap;epgshare_dk1.xml
+Viasat Family.dk;viasatfamilydk.dk;27;BSS;1;V Film Family DK [Multi-Sub];viasatfamily.dk;24;20261001150000 +0200;20261003150000 +0200;72.0;92.3;0;0.0;priority-map, navnelighed;bss_epg.xml
+Viasat Family.dk;viasatfamilydk.dk;27;BSS;2;Viasat Film HU;viasatfilm.hu;46;20261001151000 +0200;20261003150000 +0200;48.8;75.0;0;0.0;;bss_epg.xml
+Viasat Family.dk;viasatfamilydk.dk;27;BSS;3;V Film Family HD FI;viasatfilmfamily.fi;24;20261001150000 +0200;20261003150000 +0200;48.8;75.0;0;0.0;;bss_epg.xml
+Viasat Family.dk;viasatfamilydk.dk;27;BSS;4;V Film Family NO;viasatfilmfamily.no;24;20261001150000 +0200;20261003140000 +0200;48.8;75.0;0;0.0;;bss_epg.xml
+Viasat Family.dk;viasatfamilydk.dk;27;BSS;5;V Film Family SE;viasatfilmfamily.se;24;20261001150000 +0200;20261003150000 +0200;48.8;75.0;0;0.0;;bss_epg.xml
+Viasat Family.dk;viasatfamilydk.dk;27;OpenEPG;1;viasatfamily.dk;viasatfamily.dk;27;20261002010000 +0000;20261004030000 +0000;72.0;92.3;0;0.0;priority-map, navnelighed;denmark6.xml
+Viasat Family.dk;viasatfamilydk.dk;27;OpenEPG;2;Viasat Film Family.dk;Viasat Film Family.dk;50;20261001230000 +0000;20261004050000 +0000;55.7;85.7;0;0.0;navnelighed;denmark4.xml
+Viasat Family.dk;viasatfamilydk.dk;27;OpenEPG;3;Viasat Film.dk;Viasat Film.dk;50;20261001230000 +0000;20261004050000 +0000;53.2;81.8;0;0.0;navnelighed;denmark4.xml
+Viasat Family.dk;viasatfamilydk.dk;27;OpenEPG;4;viasatfilm.dk;viasatfilm.dk;26;20261002015000 +0000;20261004030000 +0000;49.9;75.0;1;4.8;;denmark6.xml
+Viasat Family.dk;viasatfamilydk.dk;27;OpenEPG;5;Viasat Film Hits.dk;Viasat Film Hits.dk;48;20261001235000 +0000;20261004054500 +0000;46.2;69.2;1;5.0;;denmark4.xml
+Viasat Nature;viasatnature.dk;92;EPGShare;1;Viasat Nature;Viasat.Nature.dk;92;20261006033000 +0000;20261010040000 +0000;100;100;18;100.0;priority-map, navnelighed, programoverlap;epgshare_dk1.xml
+Viasat Nature;viasatnature.dk;92;BSS;1;Viasat Nature HD DK;viasatnature.dk;48;20261001145500 +0200;20261003153000 +0200;98.9;100;5;55.6;priority-map, normaliseret ID, navnelighed, programoverlap;bss_epg.xml
+Viasat Nature;viasatnature.dk;92;BSS;2;Viasat Nature FHD NO [Multi-Sub];viasatnature.no;78;20261001145500 +0200;20261003153000 +0200;62.5;92.3;1;10.0;navnelighed;bss_epg.xml
+Viasat Nature;viasatnature.dk;92;BSS;3;Viasat Nature HD SI;viasatnature.si;49;20261001145500 +0200;20261003153000 +0200;60.0;92.3;0;0.0;navnelighed;bss_epg.xml
+Viasat Nature;viasatnature.dk;92;BSS;4;Viasat Nature HD GR;viasatnature.gr;48;20261001145500 +0200;20261003153000 +0200;60.0;92.3;0;0;navnelighed;bss_epg.xml
+Viasat Nature;viasatnature.dk;92;BSS;5;Viasat Nature FHD HR;viasatnature.hr;48;20261001145500 +0200;20261003153000 +0200;60.0;92.3;0;0.0;navnelighed;bss_epg.xml
+Viasat Nature;viasatnature.dk;92;OpenEPG;1;Viasat Nature.dk;Viasat Nature.dk;98;20261001231500 +0000;20261004050000 +0000;82.8;100;3;23.1;priority-map, navnelighed;denmark4.xml
+Viasat Nature;viasatnature.dk;92;OpenEPG;2;Viasat Nature Nordic Denmark (DK,DA).dk;Viasat Nature Nordic Denmark (DK,DA).dk;50;20261001231500 +0000;20261004030000 +0000;82.8;100;3;23.1;priority-map, navnelighed;denmark2.xml
+Viasat Nature;viasatnature.dk;92;OpenEPG;3;Viasat Nature HD.dk;Viasat Nature HD.dk;50;20261001231500 +0000;20261004030000 +0000;77.0;100;0;0.0;priority-map, navnelighed;denmark1.xml
+Viasat Nature;viasatnature.dk;92;OpenEPG;4;viasatnaturecrime.dk;viasatnaturecrime.dk;51;20261002001000 +0000;20261004025500 +0000;66.8;88.0;5;38.5;navnelighed;denmark6.xml
+Viasat Nature;viasatnature.dk;92;OpenEPG;5;Viasat Nature Nordic Norway (NO,NO).dk;Viasat Nature Nordic Norway (NO,NO).dk;50;20261001231500 +0000;20261004030000 +0000;50.7;75.0;1;7.7;;denmark2.xml
