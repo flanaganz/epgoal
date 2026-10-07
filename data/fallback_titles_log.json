@@ -1,4 +1,7 @@
 {
+  "TV 2 SPORT HD.dk": {
+    "Tennis: ATP - Tokyo: ATP: Alcaraz-Lehecka, finale, Tokyo": 1
+  },
   "TV 2 SPORT X.dk": {
     "Holger Rune er tilbage på banen": 1
   },
@@ -6,6 +9,15 @@
     "Holger Rune er tilbage på banen": 1
   },
   "TV 2 Sport X.dk": {
-    "Holger Rune er tilbage på banen": 2
+    "ATP: Rune-Altmaier, Shanghai": 3,
+    "Holger Rune er tilbage på banen": 1
+  },
+  "TV3 Sport HD (D).dk": {
+    "EHF European League: Mors-Thy - Tatabanya (m)": 3,
+    "NHL: Tampa Bay Lightning - Minnesota Wild": 1
+  },
+  "TV3 Sport.dk": {
+    "NHL: Tampa Bay Lightning - Minnesota Wild": 1,
+    "TV-Udbruddet: TV-Udbruddet: Skjelmoses sæson er slut": 1
   }
 }

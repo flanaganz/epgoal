@@ -1,4 +1,11 @@
 {
+  "DR2 HD.dk": {
+    "I magtens korridorer: Darfur-konflikten -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/NFL.jpg": 1
+  },
+  "DR2.dk": {
+    "I magtens korridorer (5:8) Darfur-konflikten -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/NFL.jpg": 1,
+    "I magtens korridorer Darfur-konflikten -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/NFL.jpg": 1
+  },
   "TV3 MAX HD.dk": {
     "Champions Hockey League: Kölner Haie - Herning Blue Fox -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20Hockey%20League.jpg": 1
   },
@@ -8,5 +15,8 @@
   "TV3 Max.dk": {
     "Champions Hockey League -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20Hockey%20League.jpg": 2,
     "Champions Hockey League: Kölner Haie - Herning Blue Fox -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20Hockey%20League.jpg": 1
+  },
+  "dr2.dk": {
+    "I magtens korridorer (5:8) Darfur-konflikten -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/NFL.jpg": 1
   }
 }
