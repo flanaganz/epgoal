@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-06T15:56:27",
-  "mode": "dry-run",
+  "generated": "2026-10-07T15:14:01",
+  "mode": "apply",
   "changes": [
     {
       "channel": "TV3.dk",
@@ -61,12 +61,6 @@
       "column": "BSS XMLTV ID'er",
       "before": "tv3.dk, tv3plus.dk",
       "after": "tv3plus.dk"
-    },
-    {
-      "channel": "TV3+.dk",
-      "column": "Sammenlagte kanal-ID'er (gammel reference)",
-      "before": "TV3+ Denmark (DK, DA).dk, TV3+ HD (D) (T).dk, TV3+.dk, tv3plus.dk",
-      "after": "TV3+ Denmark (DK, TV3+ HD (D) (T).dk, TV3+.dk, tv3plus.dk"
     }
   ],
   "proposals": [
@@ -79,8 +73,7 @@
         "BSS M3U stream-navne": "TV3 DK [Denmark], TV3 FHD DK [Denmark], TV3 HD DK [Denmark]",
         "EPGShare ID'er": "TV3.dk",
         "OpenEPG ID'er": "TV3.dk",
-        "BSS XMLTV ID'er": "tv3.dk",
-        "Sammenlagte kanal-ID'er (gammel reference)": "TV3 Denmark (DK, DA).dk, TV3 HD (D) (T).dk, TV3.dk"
+        "BSS XMLTV ID'er": "tv3.dk"
       },
       "kept_streams": [
         "TV3 DK [Denmark]",
@@ -100,8 +93,7 @@
         "BSS M3U stream-navne": "TV3+ DK [Denmark], TV3+ FHD DK [Denmark], TV3+ HD DK [Denmark]",
         "EPGShare ID'er": "TV3+.dk",
         "OpenEPG ID'er": "TV3+.dk, tv3plus.dk",
-        "BSS XMLTV ID'er": "tv3plus.dk",
-        "Sammenlagte kanal-ID'er (gammel reference)": "TV3+ Denmark (DK, TV3+ HD (D) (T).dk, TV3+.dk, tv3plus.dk"
+        "BSS XMLTV ID'er": "tv3plus.dk"
       },
       "kept_streams": [
         "TV3+ DK [Denmark]",

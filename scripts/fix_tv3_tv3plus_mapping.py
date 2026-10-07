@@ -98,7 +98,11 @@ def main():
 
     if args.apply:
         args.output.parent.mkdir(parents=True,exist_ok=True)
-        backup=args.report_dir/(args.input.stem+"_before_tv3_fix"+args.input.suffix)
+        backup = args.report_dir / (
+            "channel_priority_v2_backup_"
+            + datetime.now().strftime("%Y%m%d_%H%M%S")
+            + ".xlsx"
+        )   
         shutil.copy2(args.input,backup)
         wb.save(args.output)
         # Genåbn og kontrollér de to mål-rækker.

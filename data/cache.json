@@ -3849,6 +3849,14 @@
     "poster": "https://image.tmdb.org/t/p/w500/hKE0VO8FebDDvTSfPfRB5iro7s9.jpg",
     "ts": 1785845434.883248
   },
+  "betinia liga: esbjerg fb - aab": {
+    "backdrop": null,
+    "ts": 1791378912.2066264
+  },
+  "betinia liga: hobro ik - kolding if": {
+    "backdrop": null,
+    "ts": 1791378912.939803
+  },
   "betinia liga: hvidovre if - aab": {
     "backdrop": null,
     "poster": null,
@@ -13548,6 +13556,10 @@
     "poster": null,
     "ts": 1788517059.3534586
   },
+  "herreligaen: skjern-bsh": {
+    "backdrop": null,
+    "ts": 1791378912.7569394
+  },
   "herreligaen: skjern-skanderborg agf": {
     "backdrop": null,
     "poster": null,
@@ -18198,6 +18210,10 @@
     "poster": null,
     "ts": 1786769289.0477316
   },
+  "ligue 1: paris saint - germain - le mans": {
+    "backdrop": null,
+    "ts": 1791378912.3942015
+  },
   "ligue 1: paris saint-germain - monaco": {
     "backdrop": null,
     "poster": null,
@@ -21562,6 +21578,10 @@
     "backdrop": null,
     "poster": null,
     "ts": 1790752212.2392945
+  },
+  "nhl: florida panthers - minnesota wild": {
+    "backdrop": null,
+    "ts": 1791378912.5764456
   },
   "nhl: new york rangers - utah mammoth": {
     "backdrop": null,
@@ -25833,6 +25853,10 @@
     "poster": null,
     "ts": 1788517059.206416
   },
+  "serie a: inter-parma": {
+    "backdrop": null,
+    "ts": 1791378913.125557
+  },
   "serie a: inter-udinese": {
     "backdrop": null,
     "poster": null,
@@ -25867,6 +25891,10 @@
     "backdrop": null,
     "poster": null,
     "ts": 1788081527.1801422
+  },
+  "serie a: napoli-frosinone": {
+    "backdrop": null,
+    "ts": 1791378913.3150303
   },
   "serie a: roma-atalanta": {
     "backdrop": null,
