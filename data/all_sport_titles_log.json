@@ -391,8 +391,8 @@
     "Kvindeligaen": "Kvindeligaen.jpg",
     "NFL: Kansas City Chiefs-San Francisco 49'ers: GameDay": "NFL.jpg",
     "Sendeophold": "(intet billede)",
-    "Tennis: ATP - Tokyo: ATP: Alcaraz-Lehecka, finale, Tokyo": "tv2sport-generic.jpg",
-    "Tennis: ATP 500 - Beijing - Kampe: ATP: De Minaur-Djokovic, finale, Beijing": "Tennis ATP 500.jpg"
+    "Tennis: ATP - Tokyo: ATP: Alcaraz-Lehecka, finale, Tokyo": "ATP_WTA Tennis.jpg",
+    "Tennis: ATP 500 - Beijing - Kampe: ATP: De Minaur-Djokovic, finale, Beijing": "ATP_WTA Tennis.jpg"
   },
   "TV 2 SPORT X.dk": {
     "ATP Tour Highlights": "ATP Tour Highlights.jpg",
@@ -401,7 +401,7 @@
     "Holger Rune er tilbage på banen": "TV_2_Sport_X.jpg",
     "Tennis: ATP 1000 - Shanghai - Kampe: ATP: Shanghai": "ATP_WTA Tennis.jpg",
     "Tennis: WTA 1000 - Beijng - Kampe: WTA: Beijing": "ATP_WTA Tennis.jpg",
-    "Tennis: WTA 1000 - Beijng - Kampe: WTA: Kvartfinale, Beijing": "WTA-generic.jpeg"
+    "Tennis: WTA 1000 - Beijng - Kampe: WTA: Kvartfinale, Beijing": "ATP_WTA Tennis.jpg"
   },
   "TV 2 Sport Denmark (DK,DA).dk": {
     "Badminton: Arctic Open": "Badminton.jpg",
@@ -422,15 +422,15 @@
   },
   "TV 2 Sport X.dk": {
     "ATP Tour Highlights": "ATP Tour Highlights.jpg",
-    "ATP: Rune-Altmaier, Shanghai": "TV_2_Sport_X.jpg",
+    "ATP: Rune-Altmaier, Shanghai": "ATP_WTA Tennis.jpg",
     "ATP: Shanghai": "ATP_WTA Tennis.jpg",
     "Fodbold: Nations League": "Nations League1.jpg",
     "Holger Rune er tilbage på banen": "TV_2_Sport_X.jpg",
     "Tennis: ATP 1000 - Shanghai - Kampe": "ATP_WTA Tennis.jpg",
     "Tennis: WTA 1000 - Beijng - Kampe": "ATP_WTA Tennis.jpg",
-    "WTA: Gauff-Mertens, Beijing": "WTA-generic.jpeg",
+    "WTA: Gauff-Mertens, Beijing": "ATP_WTA Tennis2.jpg",
     "WTA: Kvartfinale, Beijing": "ATP_WTA Tennis.jpg",
-    "WTA: Swiatek-Jovic, Beijing": "WTA-generic.jpeg"
+    "WTA: Swiatek-Jovic, Beijing": "ATP_WTA Tennis2.jpg"
   },
   "TV 2 Sport.dk": {
     "ATP: Alcaraz-Lehecka, finale, Tokyo": "ATP_WTA Tennis.jpg",
@@ -566,7 +566,7 @@
     "Formel 1: Bahrains Grand Prix": "F1.jpg",
     "Gp Confidential: GP Confidential ": "3F Superliga.jpg",
     "Let’s Be Frank: Let's be Frank": "Let's be Frank2.jpg",
-    "NHL: Tampa Bay Lightning - Minnesota Wild": "tv3sport-generic.jpg",
+    "NHL: Tampa Bay Lightning - Minnesota Wild": "NHL.jpg",
     "NHL: Washington Capitals - Pittsburgh Penguins": "ATP_WTA Tennis.jpg",
     "Sendeophold": "(intet billede)",
     "TV-Udbruddet: TV - Udbruddet: Skjelmoses sæson er slut": "TV-Udbruddet.jpg",
@@ -594,10 +594,10 @@
     "Let’s Be Frank": "Let's be Frank2.jpg",
     "Let’s Be Frank: Let's be Frank": "Let's be Frank2.jpg",
     "NHL": "NHL.jpg",
-    "NHL: Tampa Bay Lightning - Minnesota Wild": "tv3sport-generic.jpg",
+    "NHL: Tampa Bay Lightning - Minnesota Wild": "NHL.jpg",
     "NHL: Washington Capitals - Pittsburgh Penguins": "ATP_WTA Tennis.jpg",
     "TV-Udbruddet": "TV-Udbruddet.jpg",
-    "TV-Udbruddet: TV-Udbruddet: Skjelmoses sæson er slut": "tv3sport-generic.jpg",
+    "TV-Udbruddet: TV-Udbruddet: Skjelmoses sæson er slut": "TV-Udbruddet.jpg",
     "Watt the F1!?": "Watt the F1.jpg",
     "Watt the F1!?: Watt The F1!?": "Watt the F1.jpg"
   },
@@ -685,7 +685,7 @@
     "Før Superligaen F.C. København": "Før Superligaen.jpg",
     "Før Superligaen F.C. København: Før Superligaen - FCK": "Før Superligaen.jpg",
     "Før Superligaen FC Midtjylland": "Før Superligaen.jpg",
-    "Før Superligaen FC Midtjylland: Kan skaderne koste FCM mesterskabet?": "Fodbold.jpg",
+    "Før Superligaen FC Midtjylland: Kan skaderne koste FCM mesterskabet?": "Før Superligaen.jpg",
     "Let’s Be Frank": "Let's be Frank2.jpg",
     "Let’s Be Frank: Let's be Frank": "Let's be Frank2.jpg",
     "Sky Sports: The Football Show": "Sky Sports The Football Show.jpg",

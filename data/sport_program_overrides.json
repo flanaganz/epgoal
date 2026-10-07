@@ -377,6 +377,10 @@
     "backdrop": "ATP-1000.jpg",
     "poster": "ATP-1000.jpg"
   },
+  "atp: rune-altmaier, shanghai": {
+    "backdrop": "ATP_WTA Tennis.jpg",
+    "poster": "ATP_WTA Tennis.jpg"
+  },
   "atp: rune-jacquet, tokyo": {
     "backdrop": "Tennis ATP 500.jpg",
     "poster": "Tennis ATP 500.jpg"
@@ -1641,6 +1645,10 @@
     "backdrop": "Før Superligaen.jpg",
     "poster": "Før Superligaen.jpg"
   },
+  "før superligaen fc midtjylland: kan skaderne koste fcm mesterskabet?": {
+    "backdrop": "Før Superligaen.jpg",
+    "poster": "Før Superligaen.jpg"
+  },
   "før superligaen fc midtjylland: thomasberg møder sin gamle klub": {
     "backdrop": "Før Superligaen.jpg",
     "poster": "Før Superligaen.jpg"
@@ -2006,6 +2014,10 @@
     "poster": "NHL.jpg"
   },
   "nhl: philadelphia flyers - carolina hurricanes": {
+    "backdrop": "NHL.jpg",
+    "poster": "NHL.jpg"
+  },
+  "nhl: tampa bay lightning - minnesota wild": {
     "backdrop": "NHL.jpg",
     "poster": "NHL.jpg"
   },
@@ -2561,6 +2573,10 @@
     "backdrop": "ATP_WTA Tennis.jpg",
     "poster": "ATP_WTA Tennis.jpg"
   },
+  "tennis: atp - tokyo: atp: alcaraz-lehecka, finale, tokyo": {
+    "backdrop": "ATP_WTA Tennis.jpg",
+    "poster": "ATP_WTA Tennis.jpg"
+  },
   "tennis: atp - tokyo: atp: alcaraz-michelsen, tokyo": {
     "backdrop": "ATP Tour Highlights.jpg",
     "poster": "ATP Tour Highlights.jpg"
@@ -2629,6 +2645,10 @@
     "backdrop": "ATP Tour Highlights.jpg",
     "poster": "ATP Tour Highlights.jpg"
   },
+  "tennis: atp 500 - beijing - kampe: atp: de minaur-djokovic, finale, beijing": {
+    "backdrop": "ATP_WTA Tennis.jpg",
+    "poster": "ATP_WTA Tennis.jpg"
+  },
   "tennis: atp 500 - beijing - kampe: atp: finale, beijing": {
     "backdrop": "ATP_WTA Tennis.jpg",
     "poster": "ATP_WTA Tennis.jpg"
@@ -2646,6 +2666,10 @@
     "poster": "ATP_WTA Tennis.jpg"
   },
   "tennis: wta 1000 - beijng - kampe: wta: beijing": {
+    "backdrop": "ATP_WTA Tennis.jpg",
+    "poster": "ATP_WTA Tennis.jpg"
+  },
+  "tennis: wta 1000 - beijng - kampe: wta: kvartfinale, beijing": {
     "backdrop": "ATP_WTA Tennis.jpg",
     "poster": "ATP_WTA Tennis.jpg"
   },
@@ -2698,6 +2722,10 @@
     "poster": "TV-Udbruddet.jpg"
   },
   "tv-udbruddet: tv-udbruddet: bedste cykelsæson nogensinde spoleret?": {
+    "backdrop": "TV-Udbruddet.jpg",
+    "poster": "TV-Udbruddet.jpg"
+  },
+  "tv-udbruddet: tv-udbruddet: skjelmoses sæson er slut": {
     "backdrop": "TV-Udbruddet.jpg",
     "poster": "TV-Udbruddet.jpg"
   },
@@ -3189,6 +3217,10 @@
     "backdrop": "Nations League1.jpg",
     "poster": "Nations League1.jpg"
   },
+  "wta: gauff-mertens, beijing": {
+    "backdrop": "ATP_WTA Tennis2.jpg",
+    "poster": "ATP_WTA Tennis2.jpg"
+  },
   "wta: kvartfinale, beijing": {
     "backdrop": "ATP_WTA Tennis.jpg",
     "poster": "ATP_WTA Tennis.jpg"
@@ -3204,6 +3236,10 @@
   "wta: rybakina-charaeva, beijing": {
     "backdrop": "WTA-generic.jpg",
     "poster": "WTA-generic.jpg"
+  },
+  "wta: swiatek-jovic, beijing": {
+    "backdrop": "ATP_WTA Tennis2.jpg",
+    "poster": "ATP_WTA Tennis2.jpg"
   },
   "wta: tauson-kudermetova, beijing": {
     "backdrop": "WTA-generic.jpg",
