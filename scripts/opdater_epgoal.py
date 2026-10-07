@@ -170,9 +170,22 @@ def save_json(path: Path, data) -> None:
 
 
 def normalize_id(value: str) -> str:
-    """Normaliserer et kanal-id/alias til ren a-z0-9 - gør fx OpenEPG's
-    'Kanal 4.dk', BSS's 'kanal4.dk' og EPGShare's 'Kanal.4.dk' sammenlignelige."""
-    return re.sub(r"[^a-z0-9]", "", (value or "").lower())
+    """
+    Normaliserer kanal-id'er uden at miste betydningen af +.
+
+    Eksempler:
+        TV3.dk      -> tv3dk
+        TV3+.dk     -> tv3plusdk
+        tv3plus.dk  -> tv3plusdk
+        Kanal.4.dk  -> kanal4dk
+    """
+
+    value = (value or "").lower()
+
+    # Bevar + som betydningsbærende tegn.
+    value = value.replace("+", "plus")
+
+    return re.sub(r"[^a-z0-9]", "", value)
 
 
 def normalize_title(title: str) -> str:

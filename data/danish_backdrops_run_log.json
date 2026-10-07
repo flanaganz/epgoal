@@ -1,87 +1,5 @@
 [
   {
-    "approved_count": 343,
-    "cache_size_after": 6479,
-    "cache_size_before": 6028,
-    "date_str": "2026-08-10 13:20:37",
-    "per_file": {
-      "denmark1": {
-        "already_had_artwork": 122,
-        "cache_hits": 1015,
-        "checked": 1120,
-        "danish_found": 150,
-        "danish_injected": 574,
-        "danish_not_found": 970,
-        "fresh_calls": 105,
-        "programmes": 4518
-      },
-      "denmark2": {
-        "already_had_artwork": 87,
-        "cache_hits": 2124,
-        "checked": 2328,
-        "danish_found": 190,
-        "danish_injected": 719,
-        "danish_not_found": 2138,
-        "fresh_calls": 204,
-        "programmes": 9907
-      },
-      "denmark3": {
-        "already_had_artwork": 35,
-        "cache_hits": 652,
-        "checked": 691,
-        "danish_found": 131,
-        "danish_injected": 435,
-        "danish_not_found": 560,
-        "fresh_calls": 39,
-        "programmes": 2525
-      },
-      "denmark4": {
-        "already_had_artwork": 110,
-        "cache_hits": 1872,
-        "checked": 1872,
-        "danish_found": 242,
-        "danish_injected": 922,
-        "danish_not_found": 1630,
-        "fresh_calls": 0,
-        "programmes": 6466
-      },
-      "denmark5": {
-        "already_had_artwork": 133,
-        "cache_hits": 1185,
-        "checked": 1269,
-        "danish_found": 124,
-        "danish_injected": 622,
-        "danish_not_found": 1145,
-        "fresh_calls": 84,
-        "programmes": 5446
-      },
-      "denmark6": {
-        "already_had_artwork": 0,
-        "cache_hits": 901,
-        "checked": 920,
-        "danish_found": 116,
-        "danish_injected": 419,
-        "danish_not_found": 804,
-        "fresh_calls": 19,
-        "programmes": 2533
-      }
-    },
-    "review_file_existed": true,
-    "timestamp": 1786360837.831005,
-    "totals": {
-      "already_had_artwork": 487,
-      "cache_hits": 7749,
-      "checked": 8200,
-      "danish_found": 953,
-      "danish_injected": 3691,
-      "danish_not_found": 7247,
-      "fresh_calls": 451,
-      "programmes": 31395
-    },
-    "unique_found": 316,
-    "unique_pending": 64
-  },
-  {
     "approved_count": 372,
     "cache_size_after": 6479,
     "cache_size_before": 6479,
@@ -26292,6 +26210,82 @@
       "rechecked_after_not_found": 0
     },
     "unique_found": 22,
+    "unique_pending": 8
+  },
+  {
+    "approved_count": 1165,
+    "cache_size_after": 33660,
+    "cache_size_before": 33660,
+    "date_str": "2026-10-07 16:44:58",
+    "manual_defined_count": 48,
+    "manual_titles_matched": [
+      "Christiania",
+      "Deadline",
+      "Krigens Døgn",
+      "OBS"
+    ],
+    "manual_titles_unmatched": [
+      "Ansigt til ansigt",
+      "Bad Dog",
+      "Bjerget",
+      "Bjergets helte",
+      "Body Cam",
+      "Crisis",
+      "Deja-vu med Frøkjær",
+      "Der er et yndigt land",
+      "Dyrenes Danmark",
+      "Døden i paradis",
+      "Fear Factor",
+      "Flokken",
+      "Gengangere",
+      "Herlige haver",
+      "Jorden Kalder",
+      "Kommissær Rex",
+      "Lion",
+      "Little Giants",
+      "Liv og Død",
+      "Lufthavnens Beredskab",
+      "Luksus i London",
+      "Luksus til låns",
+      "Masterchef - Danmarks største madtalenter",
+      "Mennesket",
+      "Mexico Life",
+      "Parterapi",
+      "Primal Instinct",
+      "Robin Hood",
+      "Robinson Ekspeditionen",
+      "Rovdyr",
+      "Shaolin",
+      "Sommerferie",
+      "Sporten",
+      "Stillehavet",
+      "Sunday - VM Special",
+      "The Dark",
+      "The Zoo",
+      "Til salg i 100 år",
+      "Troldspejlet",
+      "Tuva & Ronny - et lille hotel i Grækenland",
+      "Udvikling",
+      "Underdogs",
+      "dyreværnet – bag facaden",
+      "Ægyptens forsvundne skatte"
+    ],
+    "review_file_existed": true,
+    "timestamp": 1791384298.4910376,
+    "totals": {
+      "already_had_artwork": 284,
+      "cache_hits": 1328,
+      "checked": 1329,
+      "danish_found": 237,
+      "danish_injected": 1545,
+      "danish_not_found": 1092,
+      "force_refreshed": 1,
+      "fresh_calls": 1,
+      "manual_override_injected": 14,
+      "programmes": 7387,
+      "rechecked_after_not_found": 0
+    },
+    "unique_found": 237,
     "unique_pending": 8
   }
 ]

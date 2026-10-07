@@ -237,14 +237,14 @@
     {
       "kanal": "TV3.dk",
       "kilde": "epgshare",
-      "programmer": 175,
+      "programmer": 82,
       "vindue_timer": 96.3
     },
     {
       "kanal": "TV3+.dk",
       "kilde": "epgshare",
-      "programmer": 175,
-      "vindue_timer": 96.3
+      "programmer": 93,
+      "vindue_timer": 96.0
     },
     {
       "kanal": "V Film Action.dk",

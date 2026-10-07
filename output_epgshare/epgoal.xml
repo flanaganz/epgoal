@@ -29,10 +29,16 @@
     <icon src="https://s.c.dk/tvlab/tvicons/prdtv-2-charlie_1679908743_logo_large.png" />
     <url>http://www.yousee.dk</url>
   </channel>
-  <channel id="TV3+.dk">
+  <channel id="TV3.dk">
     <display-name lang="da">TV3</display-name>
     <icon src="https://i.c.dk/tvicons/tv3_logo_large.png" />
     <icon src="https://i.c.dk/tvicons/tv3_logo_large.png" />
+    <url>http://www.yousee.dk</url>
+  </channel>
+  <channel id="TV3+.dk">
+    <display-name lang="da">TV3+</display-name>
+    <icon src="https://i.c.dk/tvicons/db8_tv3plus_large.png" />
+    <icon src="https://i.c.dk/tvicons/db8_tv3plus_large.png" />
     <url>http://www.yousee.dk</url>
   </channel>
   <channel id="kanal4.dk">
@@ -5713,7 +5719,7 @@
       <value>7</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/pzEdUbUcefUVjfO22YpP3yfe3CC.jpg" /></programme>
-  <programme start="20261007030500 +0000" stop="20261007040000 +0000" channel="TV3+.dk">
+  <programme start="20261007030500 +0000" stop="20261007040000 +0000" channel="TV3.dk">
     <title lang="da">Making it Home with Kortney and Kenny</title>
     <desc lang="da">Sæson: 2. Episode: 7. 'Making it Home with Kortney and Kenny'. I 2005 flyttede Odessa og Shannon ind i det nybyggede hus og drømte om at leve et hyggeligt familieliv. Efter orkanen Katrina fik parret 29 husgæster, som havde mistet deres hjem i naturkatastrofen. Tilladt for: 7.</desc>
     <category lang="da">Fritid</category>
@@ -5721,12 +5727,12 @@
       <value>7</value>
     </rating>
   </programme>
-  <programme start="20261007040000 +0000" stop="20261007045000 +0000" channel="TV3+.dk">
+  <programme start="20261007040000 +0000" stop="20261007045000 +0000" channel="TV3.dk">
     <title lang="da">Dance Moms</title>
     <desc lang="da">Sæson: 3. Episode: 19. 'Dance Moms'. Yderst ambitiøse mødre og unge dansere kæmper for succes i et benhårdt konkurrence­miljø, hvor talent, pres og konflikter går hånd i hånd – både på scenen og bag kulisserne. Tilladt for: A.</desc>
     <category lang="da">Show</category>
     </programme>
-  <programme start="20261007045000 +0000" stop="20261007054500 +0000" channel="TV3+.dk">
+  <programme start="20261007045000 +0000" stop="20261007054500 +0000" channel="TV3.dk">
     <title lang="da">Chicago P.D.</title>
     <desc lang="da">Sæson: 13. Episode: 14. 'Meant to Be'. Burgess tager en nybegynderbetjent under sine vinger, mens holdet efterforsker en eksplosiv narkosag. Tilladt for: 15.</desc>
     <category lang="da">Serier</category>
@@ -5734,7 +5740,7 @@
       <value>15</value>
     </rating>
   </programme>
-  <programme start="20261007054500 +0000" stop="20261007063500 +0000" channel="TV3+.dk">
+  <programme start="20261007054500 +0000" stop="20261007063500 +0000" channel="TV3.dk">
     <title lang="da">Chicago P.D.</title>
     <desc lang="da">Sæson: 13. Episode: 15. 'Live or Die by Your CI'. Ruzek bliver mistænksom, da en DEA-agent kontakter ham for at få oplysninger om en forsvunden informant. Tilladt for: 15.</desc>
     <category lang="da">Serier</category>
@@ -5742,7 +5748,7 @@
       <value>15</value>
     </rating>
   </programme>
-  <programme start="20261007063500 +0000" stop="20261007073500 +0000" channel="TV3+.dk">
+  <programme start="20261007063500 +0000" stop="20261007073500 +0000" channel="TV3.dk">
     <title lang="da">Luksusfælden</title>
     <desc lang="da">Sæson: 19. Episode: 3. 'Luksusfælden'. I Alsted ved Sorø kæmper Jarl og Camilla en kamp mod tiden, for når deres ufødte barn bliver født om 6 måneder, har parret ikke længere et sted at bo. Tilladt for: 11.</desc>
     <category lang="da">Fritid</category>
@@ -5750,7 +5756,7 @@
       <value>11</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/hzv6bVy7WQR6cfooFc6ezjnuyaw.jpg" /></programme>
-  <programme start="20261007073500 +0000" stop="20261007084500 +0000" channel="TV3+.dk">
+  <programme start="20261007073500 +0000" stop="20261007084500 +0000" channel="TV3.dk">
     <title lang="da">Luksusfælden</title>
     <desc lang="da">Sæson: 19. Episode: 4. 'Luksusfælden'. I Give har Gunnar og Irene været naive nok til at investere 50.000 kroner i et anpartsfirma, som nu er endt med at blive til en gæld på 210.000 kroner. Tilladt for: 11.</desc>
     <category lang="da">Fritid</category>
@@ -5758,7 +5764,7 @@
       <value>11</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/hzv6bVy7WQR6cfooFc6ezjnuyaw.jpg" /></programme>
-  <programme start="20261007084500 +0000" stop="20261007094500 +0000" channel="TV3+.dk">
+  <programme start="20261007084500 +0000" stop="20261007094500 +0000" channel="TV3.dk">
     <title lang="da">Familien fra Bryggen</title>
     <desc lang="da">Sæson: 18. Episode: 3. 'Sæsonafslutning'. Stephanie vil gerne have taget nogle flotte gravidbilleder, og det er ved at være oppe over, hvis de skal nå det, inden lillesøster melder sin ankomst. I mellemtiden får Linse et helt nyt look. Tilladt for: 11.</desc>
     <category lang="da">Show</category>
@@ -5766,7 +5772,7 @@
       <value>11</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/fZFF63OS6gmKmFLExVucIdb8kPS.jpg" /></programme>
-  <programme start="20261007094500 +0000" stop="20261007104500 +0000" channel="TV3+.dk">
+  <programme start="20261007094500 +0000" stop="20261007104500 +0000" channel="TV3.dk">
     <title lang="da">Familien fra Bryggen</title>
     <desc lang="da">Sæson: 19. Episode: 1. 'Episode 1'. Familien fra Bryggen er tilbage. Den lille familie har det godt og har aldrig været lykkeligere. Men når spørgsmålet falder på flere børn, så er Stephanie og Cengiz ikke helt enige. Tilladt for: 11.</desc>
     <category lang="da">Show</category>
@@ -5774,7 +5780,7 @@
       <value>11</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/fZFF63OS6gmKmFLExVucIdb8kPS.jpg" /></programme>
-  <programme start="20261007104500 +0000" stop="20261007114500 +0000" channel="TV3+.dk">
+  <programme start="20261007104500 +0000" stop="20261007114500 +0000" channel="TV3.dk">
     <title lang="da">Forsidefruer</title>
     <desc lang="da">Sæson: 8. Episode: 5. 'Episode 5'. Karina og Tina vil tage speedbådskørekort sammen, men det går ikke helt let. Janni har en overraskelse til sin mand, der falder lige i Karstens smag. Desuden er den skrukke Amalie blevet gravid! Tilladt for: 11.</desc>
     <category lang="da">Show</category>
@@ -5782,7 +5788,7 @@
       <value>11</value>
     </rating>
   </programme>
-  <programme start="20261007114500 +0000" stop="20261007124500 +0000" channel="TV3+.dk">
+  <programme start="20261007114500 +0000" stop="20261007124500 +0000" channel="TV3.dk">
     <title lang="da">Forsidefruer</title>
     <desc lang="da">Sæson: 8. Episode: 6. 'Sæsonfinale'. Tina har inviteret Janni til en skønhedsbehandling, der kræver, at forsidefruen overskrider sine grænser. Gunnvør samler legesager og børnetøj ind til Red Barnet men er nervøs for at hente hos Amalie. Tilladt for: 11.</desc>
     <category lang="da">Show</category>
@@ -5790,7 +5796,7 @@
       <value>11</value>
     </rating>
   </programme>
-  <programme start="20261007124500 +0000" stop="20261007134500 +0000" channel="TV3+.dk">
+  <programme start="20261007124500 +0000" stop="20261007134500 +0000" channel="TV3.dk">
     <title lang="da">Mit plastikmareridt</title>
     <desc lang="da">Sæson: 1. Episode: 3. 'Mit plastikmareridt'. Ivana, der ikke bare endte med at bruge en million kroner i USA, men hvor lægerne tog en fatal beslutning under hendes narkose, Lotte, der har forsøgt at skjule sit ødelagte maveskind bag tatoveringer. Tilladt for: 11.</desc>
     <category lang="da">Fritid</category>
@@ -5798,7 +5804,7 @@
       <value>11</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/2juUbwG7vszYOUkTbfTIPtTdxDo.jpg" /></programme>
-  <programme start="20261007134500 +0000" stop="20261007144500 +0000" channel="TV3+.dk">
+  <programme start="20261007134500 +0000" stop="20261007144500 +0000" channel="TV3.dk">
     <title lang="da">Til Middag Hos</title>
     <desc lang="da">Sæson: 12. Episode: 10. 'Lasse Brogaard'. Make-up-guru og instagrammer Lasse Brogaard viser gæsterne sin gigantiske og værdifulde Barbie-samling. De fire nye venner opdager, at de har mange fælles smertefulde oplevelser i bagagen. Medvirkende: Steen Langeberg. Tilladt for: 11.</desc>
     <credits>
@@ -5809,7 +5815,7 @@
       <value>11</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/4AuXVOiNdhzuRZfQVQFRAs8gjOW.jpg" /></programme>
-  <programme start="20261007144500 +0000" stop="20261007154000 +0000" channel="TV3+.dk">
+  <programme start="20261007144500 +0000" stop="20261007154000 +0000" channel="TV3.dk">
     <title lang="da">Til Middag Hos</title>
     <desc lang="da">Sæson: 12. Episode: 11. 'Milo Kinnock'. Debattør Milo Kinnock må hente hjælp hos sin berømte mor Helle Thorning-Schmidt, når der skal laves hjemmelavet is. Gæsterne får en underholdende udfordring, som Lasse slet ikke forstår. Tilladt for: 11.</desc>
     <category lang="da">Fritid</category>
@@ -5817,7 +5823,7 @@
       <value>11</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/4AuXVOiNdhzuRZfQVQFRAs8gjOW.jpg" /></programme>
-  <programme start="20261007154000 +0000" stop="20261007164000 +0000" channel="TV3+.dk">
+  <programme start="20261007154000 +0000" stop="20261007164000 +0000" channel="TV3.dk">
     <title lang="da">Luksusfælden</title>
     <desc lang="da">Sæson: 26. Episode: 3. 'Luksusfælden'. Luna fra Randers er enlig mor til tre børn og har over 20.000 følgere på Instagram. Men følgerne ved ikke, at hendes økonomi er kørt i sænk. For Luna køber, hvad hun vil have – selv om der ikke er råd. Tilladt for: 11.</desc>
     <category lang="da">Fritid</category>
@@ -5825,12 +5831,12 @@
       <value>11</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/hzv6bVy7WQR6cfooFc6ezjnuyaw.jpg" /></programme>
-  <programme start="20261007164000 +0000" stop="20261007184500 +0000" channel="TV3+.dk">
+  <programme start="20261007164000 +0000" stop="20261007184500 +0000" channel="TV3.dk">
     <title lang="da">EHF Men's Champions League: Kristianstad-GOG (m)</title>
     <desc lang="da">Sæson: 2026. Episode: 7. 'Kristianstad-GOG (m)'. I 3. spillerunde i Champions League-gruppespillet er der nordisk opgør, når svenske Kristianstad tager imod GOG. Svensk klubhåndbold har længe haft det svært på den internationale scene, og værterne, der har den tidligere danske landsholdsspiller Lars Møller Madsen i staben, har også fået en vanskelig start med større nederlag til gruppens to øvrige klubber, Pick Szeged og Sporting Lissabon. Gæsterne har set stærke ud i den hjemlige liga og i Europa, hvor de har hentet 2 point mod de samme to modstandere. Ambitiøse GOG har et mål om at gå videre fra gruppespillet, og det kræver en sejr mod Kristianstad. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
     </programme>
-  <programme start="20261007184500 +0000" stop="20261007214500 +0000" channel="TV3+.dk">
+  <programme start="20261007184500 +0000" stop="20261007214500 +0000" channel="TV3.dk">
     <title lang="da">Armageddon</title>
     <desc lang="da">'Armageddon'. Jorden bombarderes af små kometstykker med enorme ødelæggelser til følge. Og det er kun en varsel om, hvad der er på vej! En kæmpekomet truer med at lægge Jorden øde. En redningsplan sættes i værk. Boreeksperten, Harry Stamper, sendes op på kometen for at bore et godt dybt hul og kaste en atomsprængladning ned i det. Stamper tager sine bedste mænd med den høj-risikable opgave. Vil det lykkes dem at forhindre Jordens undergang? Instruktør: Michael Bay. Medvirkende: Bruce Willis, Billy Bob Thornton, Ben Affleck, Liv Tyler. Tilladt for: 15.</desc>
     <credits>
@@ -5851,7 +5857,7 @@
       <value>15</value>
     </rating>
   </programme>
-  <programme start="20261007214500 +0000" stop="20261007223000 +0000" channel="TV3+.dk">
+  <programme start="20261007214500 +0000" stop="20261007223000 +0000" channel="TV3.dk">
     <title lang="da">Temptation Island Danmark</title>
     <desc lang="da">Sæson: 1. Episode: 26. 'Hvem sover hvor?'. En spirende relation udvikler sig til festen, mens en overraskende invitation i den anden villa sender chokbølger gennem gruppen og rammer især én af mændene hårdt. Tilladt for: 15.</desc>
     <category lang="da">Show</category>
@@ -5859,7 +5865,7 @@
       <value>15</value>
     </rating>
   </programme>
-  <programme start="20261007223000 +0000" stop="20261007232500 +0000" channel="TV3+.dk">
+  <programme start="20261007223000 +0000" stop="20261007232500 +0000" channel="TV3.dk">
     <title lang="da">Doc</title>
     <desc lang="da">Sæson: 2. Episode: 17. 'Good Hands'. Efter en tragedie tager Joan sig af en gammel ven og opfordrer Amy til at se sin sygdom i øjnene. Richard og TJ kommer op at skændes over en uansvarlig tech-fyr. Tilladt for: 11.</desc>
     <category lang="da">Serier</category>
@@ -5867,7 +5873,7 @@
       <value>11</value>
     </rating>
   </programme>
-  <programme start="20261007232500 +0000" stop="20261008011500 +0000" channel="TV3+.dk">
+  <programme start="20261007232500 +0000" stop="20261008011500 +0000" channel="TV3.dk">
     <title lang="da">24 Hours to Live</title>
     <desc lang="da">'24 Hours to Live'. Ethan Hawke spiller en CIA-agent, der ofrer alt for sin arbejdsgiver – inklusive sin familie og sit eget liv. Men så bliver han under mystiske omstændigheder genoplivet til em sidste opgave, som er tidsbestämt til præcis 24 timer. Når uret kommer ned på nul, skal han dø igen, hvis det ikke lykkes ham at udføre sin opgave inden da. Instruktør: Brian Smrz. Medvirkende: Ethan Hawke, Qing Xu, Paul Anderson, Rutger Hauer. Tilladt for: 15.</desc>
     <credits>
@@ -5888,7 +5894,7 @@
       <value>15</value>
     </rating>
   </programme>
-  <programme start="20261008011500 +0000" stop="20261008021500 +0000" channel="TV3+.dk">
+  <programme start="20261008011500 +0000" stop="20261008021500 +0000" channel="TV3.dk">
     <title lang="da">Besat af Bad Boys</title>
     <desc lang="da">Sæson: 1. Episode: 6. 'Sæsonafslutning'. #aldrigmerelasse&amp;amalie #Skovhuggerlove #BrevtilMatias Lasse skal hente sine sidste ting, og selvom begge to håber at kunne keep it cool, tager temperamentet over da de mødes #Sezztaber. Kia leder selv efter et Bonnie &amp; Clyde forhold, men veninde Melanie drømmer om en mand til Kia, der vil behandle hende godt. Nu tager de i byen et sted uden mænd med tusser, men mænd i jakkesæt og Kia er som ild og vand.#udafcomfortzone. Mariyah vil gøre en fyr hun ser jaloux ved at gå på date med en anden, til hendes overraskelse er han sødere end forventet, meget sødere #againstallodds. Michella styrker selvtilliden på fotoshoot og får endelig skrevet et brev til Mathias i fængslet, om hvordan hun i virkeligheden føler for ham. #hårdudenpå #blødindeni. Tilladt for: 15.</desc>
     <category lang="da">Show</category>
@@ -5896,7 +5902,7 @@
       <value>15</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/5smoaxAkZu7lzbc3TXhFVvjIwL4.jpg" /></programme>
-  <programme start="20261008021500 +0000" stop="20261008031000 +0000" channel="TV3+.dk">
+  <programme start="20261008021500 +0000" stop="20261008031000 +0000" channel="TV3.dk">
     <title lang="da">Besat af Bad Boys</title>
     <desc lang="da">Sæson: 2. Episode: 1. 'Episode 1'. Sæsonens første program starter med et brag af et reunionparty. Der gøres Bad Boy-status over en Mokai og champagne, der naturligvis skal skænkes mellem Mariyahs silikonebryster. Festen fortsætter i en partybus, hvor de overrislede piger kommer til at gøre sig godt bemærket ved at vise en del hud. Kia bryder reglerne i bussen og må tage de noget alternative konsekvenser. Nana skal have puttet noget i læberne og er ret bekymret for indgrebet. Men så er det jo godt, man har en Bad Boy som Lasse, der kan støtte. Vores andet par Christian og Pernille får trænet i fitnesscentret, men der er selvfølgelig tid til dans og tæsk! Senere går turen på indkøb i Tyskland. Den ultimative udfordring for Christian der har det svært med mange mennesker efter han har siddet i fængsel. Tilladt for: 15.</desc>
     <category lang="da">Show</category>
@@ -5904,7 +5910,7 @@
       <value>15</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/5smoaxAkZu7lzbc3TXhFVvjIwL4.jpg" /></programme>
-  <programme start="20261008031000 +0000" stop="20261008040000 +0000" channel="TV3+.dk">
+  <programme start="20261008031000 +0000" stop="20261008040000 +0000" channel="TV3.dk">
     <title lang="da">Making it Home with Kortney and Kenny</title>
     <desc lang="da">Sæson: 2. Episode: 8. 'Making it Home with Kortney and Kenny'. Denne unge familie på fem er verdensrejsende og har aldrig ejet et rigtigt hjem. Så da de besluttede, at det var på tide at slå sig ned, købte de et stort hus. Tilladt for: 7.</desc>
     <category lang="da">Fritid</category>
@@ -5912,12 +5918,12 @@
       <value>7</value>
     </rating>
   </programme>
-  <programme start="20261008040000 +0000" stop="20261008045000 +0000" channel="TV3+.dk">
+  <programme start="20261008040000 +0000" stop="20261008045000 +0000" channel="TV3.dk">
     <title lang="da">Dance Moms</title>
     <desc lang="da">Sæson: 3. Episode: 20. 'Dance Moms'. Yderst ambitiøse mødre og unge dansere kæmper for succes i et benhårdt konkurrence­miljø, hvor talent, pres og konflikter går hånd i hånd – både på scenen og bag kulisserne. Tilladt for: A.</desc>
     <category lang="da">Show</category>
     </programme>
-  <programme start="20261008045000 +0000" stop="20261008054500 +0000" channel="TV3+.dk">
+  <programme start="20261008045000 +0000" stop="20261008054500 +0000" channel="TV3.dk">
     <title lang="da">Chicago P.D.</title>
     <desc lang="da">Sæson: 13. Episode: 15. 'Live or Die by Your CI'. Ruzek bliver mistænksom, da en DEA-agent kontakter ham for at få oplysninger om en forsvunden informant. Tilladt for: 15.</desc>
     <category lang="da">Serier</category>
@@ -5925,7 +5931,7 @@
       <value>15</value>
     </rating>
   </programme>
-  <programme start="20261008054500 +0000" stop="20261008063500 +0000" channel="TV3+.dk">
+  <programme start="20261008054500 +0000" stop="20261008063500 +0000" channel="TV3.dk">
     <title lang="da">Chicago P.D.</title>
     <desc lang="da">Sæson: 13. Episode: 16. 'Chicago P.D.'. Torres forsøger at bryde voldsspiralen, efter at en teenager er blevet dræbt i en hævnaktion. Medvirkende: Jason Beghe, Patrick John Flueger, Marina Squerciati, LaRoyce Hawkins. Tilladt for: 15.</desc>
     <credits>
@@ -5945,7 +5951,7 @@
       <value>15</value>
     </rating>
   </programme>
-  <programme start="20261008063500 +0000" stop="20261008073500 +0000" channel="TV3+.dk">
+  <programme start="20261008063500 +0000" stop="20261008073500 +0000" channel="TV3.dk">
     <title lang="da">Luksusfælden</title>
     <desc lang="da">Sæson: 19. Episode: 4. 'Luksusfælden'. I Give har Gunnar og Irene været naive nok til at investere 50.000 kroner i et anpartsfirma, som nu er endt med at blive til en gæld på 210.000 kroner. Tilladt for: 11.</desc>
     <category lang="da">Fritid</category>
@@ -5953,7 +5959,7 @@
       <value>11</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/hzv6bVy7WQR6cfooFc6ezjnuyaw.jpg" /></programme>
-  <programme start="20261008073500 +0000" stop="20261008084500 +0000" channel="TV3+.dk">
+  <programme start="20261008073500 +0000" stop="20261008084500 +0000" channel="TV3.dk">
     <title lang="da">Luksusfælden</title>
     <desc lang="da">Sæson: 19. Episode: 5. 'Luksusfælden'. 26-årige Anette har brugt 52.000 kroner på dyre restauranter, gode vine og selvforkælelse det seneste år. Samtidig bor hun alene og skal betale hele forbrugsfesten med lønnen fra sit tjenerjob. Tilladt for: 11.</desc>
     <category lang="da">Fritid</category>
@@ -5961,7 +5967,7 @@
       <value>11</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/hzv6bVy7WQR6cfooFc6ezjnuyaw.jpg" /></programme>
-  <programme start="20261008084500 +0000" stop="20261008095000 +0000" channel="TV3+.dk">
+  <programme start="20261008084500 +0000" stop="20261008095000 +0000" channel="TV3.dk">
     <title lang="da">Familien fra Bryggen</title>
     <desc lang="da">Sæson: 19. Episode: 1. 'Episode 1'. Familien fra Bryggen er tilbage. Den lille familie har det godt og har aldrig været lykkeligere. Men når spørgsmålet falder på flere børn, så er Stephanie og Cengiz ikke helt enige. Tilladt for: 11.</desc>
     <category lang="da">Show</category>
@@ -5969,7 +5975,7 @@
       <value>11</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/fZFF63OS6gmKmFLExVucIdb8kPS.jpg" /></programme>
-  <programme start="20261008095000 +0000" stop="20261008105000 +0000" channel="TV3+.dk">
+  <programme start="20261008095000 +0000" stop="20261008105000 +0000" channel="TV3.dk">
     <title lang="da">Familien fra Bryggen</title>
     <desc lang="da">Sæson: 19. Episode: 2. 'Episode 2'. Linse har tilkaldt sin svigersøn, da hun har brug for lidt stylingtips fra mesteren af voks til sit korte hår. Lone kommer også på uanmeldt besøg hos Linse, og så skal Linse og Didde fryses ned. Tilladt for: 11.</desc>
     <category lang="da">Show</category>
@@ -5977,7 +5983,7 @@
       <value>11</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/fZFF63OS6gmKmFLExVucIdb8kPS.jpg" /></programme>
-  <programme start="20261008105000 +0000" stop="20261008115500 +0000" channel="TV3+.dk">
+  <programme start="20261008105000 +0000" stop="20261008115500 +0000" channel="TV3.dk">
     <title lang="da">Forsidefruer</title>
     <desc lang="da">Sæson: 8. Episode: 6. 'Sæsonfinale'. Tina har inviteret Janni til en skønhedsbehandling, der kræver, at forsidefruen overskrider sine grænser. Gunnvør samler legesager og børnetøj ind til Red Barnet men er nervøs for at hente hos Amalie. Tilladt for: 11.</desc>
     <category lang="da">Show</category>
@@ -5985,7 +5991,7 @@
       <value>11</value>
     </rating>
   </programme>
-  <programme start="20261008115500 +0000" stop="20261008125500 +0000" channel="TV3+.dk">
+  <programme start="20261008115500 +0000" stop="20261008125500 +0000" channel="TV3.dk">
     <title lang="da">Forsidefruer</title>
     <desc lang="da">Sæson: 9. Episode: 1. 'Episode 1'. Den gravide Amalie har fået taget en særlig test, der tidligt i graviditeten kan vise, hvilket køn babyen har. Nu skal kønnet afsløres over for både fruerne og Amalies mange følgere på Instagram. Tilladt for: 11.</desc>
     <category lang="da">Show</category>
@@ -5993,7 +5999,7 @@
       <value>11</value>
     </rating>
   </programme>
-  <programme start="20261008125500 +0000" stop="20261008135500 +0000" channel="TV3+.dk">
+  <programme start="20261008125500 +0000" stop="20261008135500 +0000" channel="TV3.dk">
     <title lang="da">Mit plastikmareridt</title>
     <desc lang="da">Sæson: 1. Episode: 4. 'Mit plastikmareridt'. I Mit Plastikmareridt møder vi fire ofre for plastiskkirurgiske fejloperationer. Gitte, hvis maveoperation er sunket ned i hendes underliv, Pernille, der får et kick ud af få en plastiskoperation, men hvis arme er blevet vansirret af store ar, Didde, der må slås med store gener og smerter og energiske Mille, der drømmer om, at hendes fejlopererede bryster kan rettes op inden hendes bryllup. To af landets dygtigste kirurger står nu klar til at hjælpe de ramte kvinder. Og hvis det er muligt, tilbyde dem en operation, der kan få dem ud af deres mareridt. Tilladt for: 11.</desc>
     <category lang="da">Fritid</category>
@@ -6001,7 +6007,7 @@
       <value>11</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/2juUbwG7vszYOUkTbfTIPtTdxDo.jpg" /></programme>
-  <programme start="20261008135500 +0000" stop="20261008145500 +0000" channel="TV3+.dk">
+  <programme start="20261008135500 +0000" stop="20261008145500 +0000" channel="TV3.dk">
     <title lang="da">Til Middag Hos</title>
     <desc lang="da">Sæson: 12. Episode: 11. 'Milo Kinnock'. Debattør Milo Kinnock må hente hjælp hos sin berømte mor Helle Thorning-Schmidt, når der skal laves hjemmelavet is. Gæsterne får en underholdende udfordring, som Lasse slet ikke forstår. Tilladt for: 11.</desc>
     <category lang="da">Fritid</category>
@@ -6009,7 +6015,7 @@
       <value>11</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/4AuXVOiNdhzuRZfQVQFRAs8gjOW.jpg" /></programme>
-  <programme start="20261008145500 +0000" stop="20261008160000 +0000" channel="TV3+.dk">
+  <programme start="20261008145500 +0000" stop="20261008160000 +0000" channel="TV3.dk">
     <title lang="da">Til Middag Hos</title>
     <desc lang="da">Sæson: 12. Episode: 12. 'Emil Olsen'. Vinderen skal kåres, når TV-vært Emil Olsen inviterer til finale-aften. Gæsterne testes på deres evne til at samarbejde, og de fire nye venner deler deres ubehagelige oplevelser med hadefulde beskeder. Medvirkende: Steen Langeberg. Tilladt for: 11.</desc>
     <credits>
@@ -6020,7 +6026,7 @@
       <value>11</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/4AuXVOiNdhzuRZfQVQFRAs8gjOW.jpg" /></programme>
-  <programme start="20261008160000 +0000" stop="20261008163000 +0000" channel="TV3+.dk">
+  <programme start="20261008160000 +0000" stop="20261008163000 +0000" channel="TV3.dk">
     <title lang="da">Stumble</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'Pilot'. Courteney Potter bliver fyret fra sit job efter at være blevet involveret i en cheerleading-skandale. Tilladt for: 15.</desc>
     <category lang="da">Serier</category>
@@ -6028,32 +6034,32 @@
       <value>15</value>
     </rating>
   </programme>
-  <programme start="20261008163000 +0000" stop="20261008164000 +0000" channel="TV3+.dk">
+  <programme start="20261008163000 +0000" stop="20261008164000 +0000" channel="TV3.dk">
     <title lang="da">Opfølgning på Champions League (m)</title>
     <desc lang="da">Sæson: 2026. Episode: 6. 'HC Zagreb - Aalborg Håndbold'. Se med, når vi varmer op til den forestående EHF Champiosn League-kamp mellem HC Zagreb og Aalborg Håndbold. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
     </programme>
-  <programme start="20261008164000 +0000" stop="20261008183000 +0000" channel="TV3+.dk">
+  <programme start="20261008164000 +0000" stop="20261008183000 +0000" channel="TV3.dk">
     <title lang="da">EHF Men's Champions League: HC Zagreb - Aalborg Håndbold</title>
     <desc lang="da">Sæson: 2026. Episode: 8. 'HC Zagreb - Aalborg Håndbold'. Der er lagt op til en intens europæisk aften, når HC Zagreb tager imod Aalborg Håndbold i EHF Champions League. I Arena Zagreb venter et fysisk opgør, hvor Aalborg skal stå imod hjemmeholdets pres og ramme niveauet fra første fløjt. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
     </programme>
-  <programme start="20261008183000 +0000" stop="20261008184000 +0000" channel="TV3+.dk">
+  <programme start="20261008183000 +0000" stop="20261008184000 +0000" channel="TV3.dk">
     <title lang="da">Opfølgning på Champions League (m)</title>
     <desc lang="da">Sæson: 2026. Episode: 8. 'HC Zagreb - Aalborg Håndbold'. Se med, når vi følger op på den netop færdigspillede EHF Champions League-kamp mellem HC Zagreb og Aalborg Håndbold. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
     </programme>
-  <programme start="20261008184000 +0000" stop="20261008204500 +0000" channel="TV3+.dk">
+  <programme start="20261008184000 +0000" stop="20261008204500 +0000" channel="TV3.dk">
     <title lang="da">EHF Men's Champions League: Skanderborg AGF - Montpellier</title>
     <desc lang="da">Sæson: 2026. Episode: 9. 'Skanderborg AGF - Montpellier'. Der er lagt op til en stor europæisk håndboldaften, når Skanderborg AGF møder Montpellier i EHF Champions League. I Djurslands Bank Arena venter et intenst opgør, hvor hjemmeholdet får brug for højt tempo, mod og skarphed mod den franske storklub. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
     </programme>
-  <programme start="20261008204500 +0000" stop="20261008210000 +0000" channel="TV3+.dk">
+  <programme start="20261008204500 +0000" stop="20261008210000 +0000" channel="TV3.dk">
     <title lang="da">Opfølgning på Champions League (m)</title>
     <desc lang="da">Sæson: 2026. Episode: 7. 'Skanderborg AGF - Montpellier'. Se med, når vi følger op på den netop færdigspillede EHF Champions League-kamp mellem Skanderborg AGF og Montpellier. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
     </programme>
-  <programme start="20261008210000 +0000" stop="20261008215000 +0000" channel="TV3+.dk">
+  <programme start="20261008210000 +0000" stop="20261008215000 +0000" channel="TV3.dk">
     <title lang="da">Temptation Island Danmark</title>
     <desc lang="da">Sæson: 1. Episode: 27. '"Jeg har hørt, at…"'. Under et keramikkursus forsøger Liv at blive klogere på Gonzos følelser. Om aftenen får kvinderne mulighed for at hævne sig på mændene, da en photo booth pludselig står i stuen. Tilladt for: 15.</desc>
     <category lang="da">Show</category>
@@ -6061,7 +6067,7 @@
       <value>15</value>
     </rating>
   </programme>
-  <programme start="20261008215000 +0000" stop="20261009001000 +0000" channel="TV3+.dk">
+  <programme start="20261008215000 +0000" stop="20261009001000 +0000" channel="TV3.dk">
     <title lang="da">The Gunman</title>
     <desc lang="da">'The Gunman'. Lejemorderen Jim Terrier får til opgave at likvidere en afrikansk minister. Otte år senere arbejder Terrier som nødhjælpsarbejder, da han indhentes af sin blodige fortid. Nogen fra hans gamle foretagende ønsker ham død - men hvem? Terrier må finde svaret, inden hans fjender finder ham. Instruktør: Pierre Morel. Medvirkende: Sean Penn, Idris Elba, Jasmine Trinca, Javier Bardem. Tilladt for: 15.</desc>
     <credits>
@@ -6082,7 +6088,7 @@
       <value>15</value>
     </rating>
   </programme>
-  <programme start="20261009001000 +0000" stop="20261009011000 +0000" channel="TV3+.dk">
+  <programme start="20261009001000 +0000" stop="20261009011000 +0000" channel="TV3.dk">
     <title lang="da">Besat af Bad Boys</title>
     <desc lang="da">Sæson: 2. Episode: 2. 'Episode 2'. Pernille skal holde tøseaften, så Christian må pænt skride. Som aftenen skrider frem og drinksene ryger ind, kommer sandhederne ud om bl.a. sexlivet. – og der bliver ikke lagt fingre imellem! Tilladt for: 15.</desc>
     <category lang="da">Show</category>
@@ -6090,7 +6096,7 @@
       <value>15</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/5smoaxAkZu7lzbc3TXhFVvjIwL4.jpg" /></programme>
-  <programme start="20261009011000 +0000" stop="20261009020500 +0000" channel="TV3+.dk">
+  <programme start="20261009011000 +0000" stop="20261009020500 +0000" channel="TV3.dk">
     <title lang="da">For Lækker til København</title>
     <desc lang="da">Sæson: 1. Episode: 2. 'For Lækker til København'. Gustav vil integrere jyden Kay og tager ham med på kanalrundfart. Gustav er guide og har sin helt egen udlægning af Københavns historie. Daniel har arrangeret en romantiske date, men bliver dybt skuffet. Tilladt for: 15.</desc>
     <category lang="da">Show</category>
@@ -6098,7 +6104,7 @@
       <value>15</value>
     </rating>
   </programme>
-  <programme start="20261009020500 +0000" stop="20261009032000 +0000" channel="TV3+.dk">
+  <programme start="20261009020500 +0000" stop="20261009032000 +0000" channel="TV3.dk">
     <title lang="da">Making it Home with Kortney and Kenny</title>
     <desc lang="da">Sæson: 2. Episode: 9. 'Making it Home with Kortney and Kenny'. Michael tog af sted på egen hånd og købte et hus til sin familie med tre mål: have, ranch og et sted at spille basketball. Men til hans kone Emilys ærgrelse var det alt, hvad der var i dette hus. Instruktør: Cheryl Zalameda. Tilladt for: 7.</desc>
     <credits>
@@ -6109,7 +6115,7 @@
       <value>7</value>
     </rating>
   </programme>
-  <programme start="20261009032000 +0000" stop="20261009040000 +0000" channel="TV3+.dk">
+  <programme start="20261009032000 +0000" stop="20261009040000 +0000" channel="TV3.dk">
     <title lang="da">Extended Family</title>
     <desc lang="da">Sæson: 1. Episode: 9. 'The Consequences of Helping People'. Jim beder Julia om hjælp til at få en vens barn ind på en eksklusiv privatskole. Men da hun lyver for at få det til at ske, opdager hun, at hendes uærlighed har konsekvenser. Tilladt for: 11.</desc>
     <category lang="da">Serier</category>
@@ -6117,12 +6123,12 @@
       <value>11</value>
     </rating>
   </programme>
-  <programme start="20261009040000 +0000" stop="20261009045000 +0000" channel="TV3+.dk">
+  <programme start="20261009040000 +0000" stop="20261009045000 +0000" channel="TV3.dk">
     <title lang="da">Dance Moms</title>
     <desc lang="da">Sæson: 3. Episode: 21. 'Dance Moms'. Yderst ambitiøse mødre og unge dansere kæmper for succes i et benhårdt konkurrence­miljø, hvor talent, pres og konflikter går hånd i hånd – både på scenen og bag kulisserne. Tilladt for: A.</desc>
     <category lang="da">Show</category>
     </programme>
-  <programme start="20261009045000 +0000" stop="20261009054500 +0000" channel="TV3+.dk">
+  <programme start="20261009045000 +0000" stop="20261009054500 +0000" channel="TV3.dk">
     <title lang="da">Chicago P.D.</title>
     <desc lang="da">Sæson: 13. Episode: 16. 'Chicago P.D.'. Torres forsøger at bryde voldsspiralen, efter at en teenager er blevet dræbt i en hævnaktion. Medvirkende: Jason Beghe, Patrick John Flueger, Marina Squerciati, LaRoyce Hawkins. Tilladt for: 15.</desc>
     <credits>
@@ -6142,7 +6148,7 @@
       <value>15</value>
     </rating>
   </programme>
-  <programme start="20261009054500 +0000" stop="20261009063500 +0000" channel="TV3+.dk">
+  <programme start="20261009054500 +0000" stop="20261009063500 +0000" channel="TV3.dk">
     <title lang="da">Chicago P.D.</title>
     <desc lang="da">Sæson: 13. Episode: 17. 'Partners'. Der opstår spændinger mellem Voight og Imani, da byen rammes af en række hæveautomat-røverier. Tilladt for: 15.</desc>
     <category lang="da">Serier</category>
@@ -6150,7 +6156,7 @@
       <value>15</value>
     </rating>
   </programme>
-  <programme start="20261009063500 +0000" stop="20261009073500 +0000" channel="TV3+.dk">
+  <programme start="20261009063500 +0000" stop="20261009073500 +0000" channel="TV3.dk">
     <title lang="da">Luksusfælden</title>
     <desc lang="da">Sæson: 19. Episode: 5. 'Luksusfælden'. 26-årige Anette har brugt 52.000 kroner på dyre restauranter, gode vine og selvforkælelse det seneste år. Samtidig bor hun alene og skal betale hele forbrugsfesten med lønnen fra sit tjenerjob. Tilladt for: 11.</desc>
     <category lang="da">Fritid</category>
@@ -6158,7 +6164,7 @@
       <value>11</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/hzv6bVy7WQR6cfooFc6ezjnuyaw.jpg" /></programme>
-  <programme start="20261009073500 +0000" stop="20261009084500 +0000" channel="TV3+.dk">
+  <programme start="20261009073500 +0000" stop="20261009084500 +0000" channel="TV3.dk">
     <title lang="da">Luksusfælden</title>
     <desc lang="da">Sæson: 19. Episode: 6. 'Luksusfælden'. Jan har altid været vant til at give andre skylden for sine økonomiske valg – i hvert fald, når det er gået galt, og dét er det hver gang. Tilladt for: 11.</desc>
     <category lang="da">Fritid</category>
@@ -6166,7 +6172,7 @@
       <value>11</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/hzv6bVy7WQR6cfooFc6ezjnuyaw.jpg" /></programme>
-  <programme start="20261009084500 +0000" stop="20261009095000 +0000" channel="TV3+.dk">
+  <programme start="20261009084500 +0000" stop="20261009095000 +0000" channel="TV3.dk">
     <title lang="da">Familien fra Bryggen</title>
     <desc lang="da">Sæson: 19. Episode: 2. 'Episode 2'. Linse har tilkaldt sin svigersøn, da hun har brug for lidt stylingtips fra mesteren af voks til sit korte hår. Lone kommer også på uanmeldt besøg hos Linse, og så skal Linse og Didde fryses ned. Tilladt for: 11.</desc>
     <category lang="da">Show</category>
@@ -6174,7 +6180,7 @@
       <value>11</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/fZFF63OS6gmKmFLExVucIdb8kPS.jpg" /></programme>
-  <programme start="20261009095000 +0000" stop="20261009105000 +0000" channel="TV3+.dk">
+  <programme start="20261009095000 +0000" stop="20261009105000 +0000" channel="TV3.dk">
     <title lang="da">Familien fra Bryggen</title>
     <desc lang="da">Sæson: 19. Episode: 3. 'Episode 3'. Stephanie får opfyldt en stor drøm, da hun kommer op og hænge på 30 busser i København. Linse skal til et spændende møde i Knuthenborg Safari Park, og hun har taget Didde med. Tilladt for: 11.</desc>
     <category lang="da">Show</category>
@@ -6182,7 +6188,7 @@
       <value>11</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/fZFF63OS6gmKmFLExVucIdb8kPS.jpg" /></programme>
-  <programme start="20261009105000 +0000" stop="20261009115500 +0000" channel="TV3+.dk">
+  <programme start="20261009105000 +0000" stop="20261009115500 +0000" channel="TV3.dk">
     <title lang="da">Forsidefruer</title>
     <desc lang="da">Sæson: 9. Episode: 1. 'Episode 1'. Den gravide Amalie har fået taget en særlig test, der tidligt i graviditeten kan vise, hvilket køn babyen har. Nu skal kønnet afsløres over for både fruerne og Amalies mange følgere på Instagram. Tilladt for: 11.</desc>
     <category lang="da">Show</category>
@@ -6190,7 +6196,7 @@
       <value>11</value>
     </rating>
   </programme>
-  <programme start="20261009115500 +0000" stop="20261009130000 +0000" channel="TV3+.dk">
+  <programme start="20261009115500 +0000" stop="20261009130000 +0000" channel="TV3.dk">
     <title lang="da">Forsidefruer</title>
     <desc lang="da">Sæson: 9. Episode: 2. 'Episode 2'. Karina, Amalie og Tina skal til tarotkort-sceance, hvor den skeptiske Tina får sig noget af en overraskelse. Tina og Jackie har desuden modtaget brev fra Forbrugerombudsmanden og skal til SoMe-advokat. Tilladt for: 11.</desc>
     <category lang="da">Show</category>
@@ -6198,7 +6204,7 @@
       <value>11</value>
     </rating>
   </programme>
-  <programme start="20261009130000 +0000" stop="20261009140000 +0000" channel="TV3+.dk">
+  <programme start="20261009130000 +0000" stop="20261009140000 +0000" channel="TV3.dk">
     <title lang="da">Mit plastikmareridt</title>
     <desc lang="da">Sæson: 1. Episode: 5. 'Mit plastikmareridt'. I mit plastikmareridt møder vi fire ofre for plastiskkirurgiske fejloperationer. Sabine, der fandt et tilbud på nettet, og måtte betale dyrt for en besparelse på 50 procent. Tilladt for: 11.</desc>
     <category lang="da">Fritid</category>
@@ -6206,7 +6212,7 @@
       <value>11</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/2juUbwG7vszYOUkTbfTIPtTdxDo.jpg" /></programme>
-  <programme start="20261009140000 +0000" stop="20261009150000 +0000" channel="TV3+.dk">
+  <programme start="20261009140000 +0000" stop="20261009150000 +0000" channel="TV3.dk">
     <title lang="da">Til Middag Hos</title>
     <desc lang="da">Sæson: 12. Episode: 12. 'Emil Olsen'. Vinderen skal kåres, når TV-vært Emil Olsen inviterer til finale-aften. Gæsterne testes på deres evne til at samarbejde, og de fire nye venner deler deres ubehagelige oplevelser med hadefulde beskeder. Medvirkende: Steen Langeberg. Tilladt for: 11.</desc>
     <credits>
@@ -6217,7 +6223,7 @@
       <value>11</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/4AuXVOiNdhzuRZfQVQFRAs8gjOW.jpg" /></programme>
-  <programme start="20261009150000 +0000" stop="20261009160000 +0000" channel="TV3+.dk">
+  <programme start="20261009150000 +0000" stop="20261009160000 +0000" channel="TV3.dk">
     <title lang="da">Til Middag Hos</title>
     <desc lang="da">Sæson: 13. Episode: 1. 'Gustav Salinas'. Realitystjernen og iværksætteren Gustav Salinas byder indenfor i sin eksklusive lejlighed i det indre København. Værten byder på mad fra varme lande, og lukker sine farvestrålende gæster indenfor i sit svære kærlighedsliv. Underholdningen byder på både grin, tårer og nye navne. Medvirkende: Steen Langeberg. Tilladt for: 11.</desc>
     <credits>
@@ -6228,7 +6234,7 @@
       <value>11</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/4AuXVOiNdhzuRZfQVQFRAs8gjOW.jpg" /></programme>
-  <programme start="20261009160000 +0000" stop="20261009170000 +0000" channel="TV3+.dk">
+  <programme start="20261009160000 +0000" stop="20261009170000 +0000" channel="TV3.dk">
     <title lang="da">Luksusfælden</title>
     <desc lang="da">Sæson: 26. Episode: 4. 'Luksusfælden'. Donna og Markus har et lille barn sammen, men de bor ikke sammen. For Markus er bange for, at hans kæmpe gæld, der blandt andet stammer fra et kokainmisbrug vil smadre deres fælles økonomi og fremtid. Tilladt for: 11.</desc>
     <category lang="da">Fritid</category>
@@ -6236,7 +6242,7 @@
       <value>11</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/hzv6bVy7WQR6cfooFc6ezjnuyaw.jpg" /></programme>
-  <programme start="20261009170000 +0000" stop="20261009190000 +0000" channel="TV3+.dk">
+  <programme start="20261009170000 +0000" stop="20261009190000 +0000" channel="TV3.dk">
     <title lang="da">17 Again</title>
     <desc lang="da">'17 Again'. Mike O'Donnell var stjernen på skolens baskethold og havde en lys fremtid foran sig, men den droppede han for at gifte sig med sin kæreste og opfostre deres barn. 20 år senere er Mikes ægteskab forbi og hans børn synes, han er en taber. Instruktør: Burr Steers. Medvirkende: Zac Efron, Matthew Perry, Leslie Mann, Thomas Lennon. Tilladt for: 7.</desc>
     <credits>
@@ -6257,7 +6263,7 @@
       <value>7</value>
     </rating>
   </programme>
-  <programme start="20261009190000 +0000" stop="20261009215000 +0000" channel="TV3+.dk">
+  <programme start="20261009190000 +0000" stop="20261009215000 +0000" channel="TV3.dk">
     <title lang="da">Independence Day</title>
     <desc lang="da">'Independence Day'. En morgen er himlen over verdens storbyer dækket af gigantiske rumfartøjer, der truer med at erobre planeten. Bill Pullman og Will Smith leder modstandskampen mod de fremmede. Et storslået actioneventyr af Roland Emmerich, der blandt andet stod bag "The Day After Tomorrow". Filmen fik en Oscar for bedste specialeffekter og blev i 1996 årets største succes i biograferne. Instruktør: Roland Emmerich. Medvirkende: Will Smith, Bill Pullman, Jeff Goldblum, Mary McDonnell. Tilladt for: 11.</desc>
     <credits>
@@ -6278,7 +6284,7 @@
       <value>11</value>
     </rating>
   </programme>
-  <programme start="20261009215000 +0000" stop="20261010005500 +0000" channel="TV3+.dk">
+  <programme start="20261009215000 +0000" stop="20261010005500 +0000" channel="TV3.dk">
     <title lang="da">Armageddon</title>
     <desc lang="da">'Armageddon'. Jorden bombarderes af små kometstykker med enorme ødelæggelser til følge. Og det er kun en varsel om, hvad der er på vej! En kæmpekomet truer med at lægge Jorden øde. En redningsplan sættes i værk. Boreeksperten, Harry Stamper, sendes op på kometen for at bore et godt dybt hul og kaste en atomsprængladning ned i det. Stamper tager sine bedste mænd med den høj-risikable opgave. Vil det lykkes dem at forhindre Jordens undergang? Instruktør: Michael Bay. Medvirkende: Bruce Willis, Billy Bob Thornton, Ben Affleck, Liv Tyler. Tilladt for: 15.</desc>
     <credits>
@@ -6299,7 +6305,7 @@
       <value>15</value>
     </rating>
   </programme>
-  <programme start="20261010005500 +0000" stop="20261010015000 +0000" channel="TV3+.dk">
+  <programme start="20261010005500 +0000" stop="20261010015000 +0000" channel="TV3.dk">
     <title lang="da">Besat af Bad Boys</title>
     <desc lang="da">Sæson: 2. Episode: 3. 'Episode 3'. Mariyah skal på sin anden date med den friske bad boy, Vedat. På første date tog Mariyah Vedat med på toilettet, så Vedat har høje forventninger til den anden date, som han har planlagt. Tilladt for: 15.</desc>
     <category lang="da">Show</category>
@@ -6307,7 +6313,7 @@
       <value>15</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/5smoaxAkZu7lzbc3TXhFVvjIwL4.jpg" /></programme>
-  <programme start="20261010015000 +0000" stop="20261010025000 +0000" channel="TV3+.dk">
+  <programme start="20261010015000 +0000" stop="20261010025000 +0000" channel="TV3.dk">
     <title lang="da">For Lækker til København</title>
     <desc lang="da">Sæson: 1. Episode: 3. 'For Lækker til København'. Gustav har midtvejskrise i en alder af kun 22. For Gustav er der kun en vej ud af krisen, og det er at købe en prangende Audi. Tilladt for: 15.</desc>
     <category lang="da">Show</category>
@@ -6315,7 +6321,7 @@
       <value>15</value>
     </rating>
   </programme>
-  <programme start="20261010025000 +0000" stop="20261010040000 +0000" channel="TV3+.dk">
+  <programme start="20261010025000 +0000" stop="20261010040000 +0000" channel="TV3.dk">
     <title lang="da">Making it Home with Kortney and Kenny</title>
     <desc lang="da">Sæson: 2. Episode: 10. 'Making it Home with Kortney and Kenny'. Calea og Blake har haft mange vanskeligheder, men det kan ikke ses. Med Blakes cystiske fibrose, en historie med IVF og en hektisk husjagt er parret fast besluttet på at se det positive i livet. Instruktør: Cheryl Zalameda. Tilladt for: 7.</desc>
     <credits>
@@ -6326,7 +6332,7 @@
       <value>7</value>
     </rating>
   </programme>
-  <programme start="20261010040000 +0000" stop="20261010043000 +0000" channel="TV3+.dk">
+  <programme start="20261010040000 +0000" stop="20261010043000 +0000" channel="TV3.dk">
     <title lang="da">Extended Family</title>
     <desc lang="da">Sæson: 1. Episode: 10. 'The Consequences of Familial Obligations'. Da Jimmy Juniors årlige Pinewood Derby bliver flyttet til samme aften som Graces sidste far-datter-fest, må Jim pludselig vælge mellem sine to børn. Tilladt for: 11.</desc>
     <category lang="da">Serier</category>
@@ -6334,7 +6340,7 @@
       <value>11</value>
     </rating>
   </programme>
-  <programme start="20261010043000 +0000" stop="20261010053000 +0000" channel="TV3+.dk">
+  <programme start="20261010043000 +0000" stop="20261010053000 +0000" channel="TV3.dk">
     <title lang="da">Mit plastikmareridt</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'Mit plastikmareridt'. I Mit plastikmareridt møder vi i aftenens program fire ofre for plastiskkirurgiske fejloperationer. Mille, der jagter drømmen om det perfekte, Joan, der føler, at hun har mistet sin femininitet. Tilladt for: 11.</desc>
     <category lang="da">Fritid</category>
@@ -6342,7 +6348,7 @@
       <value>11</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/2juUbwG7vszYOUkTbfTIPtTdxDo.jpg" /></programme>
-  <programme start="20261010053000 +0000" stop="20261010063000 +0000" channel="TV3+.dk">
+  <programme start="20261010053000 +0000" stop="20261010063000 +0000" channel="TV3.dk">
     <title lang="da">Mit plastikmareridt</title>
     <desc lang="da">Sæson: 1. Episode: 2. 'Mit plastikmareridt'. Mød Christina, der ikke fik de struttende silikone bryster hun altid havde drømt om. Mød også Nicole, der hver dag lever med smerter, og Mai, hvis lår er blevet ødelagt af en fedtsugning. Tilladt for: 11.</desc>
     <category lang="da">Fritid</category>
@@ -6350,7 +6356,7 @@
       <value>11</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/2juUbwG7vszYOUkTbfTIPtTdxDo.jpg" /></programme>
-  <programme start="20261010063000 +0000" stop="20261010081500 +0000" channel="TV3+.dk">
+  <programme start="20261010063000 +0000" stop="20261010081500 +0000" channel="TV3.dk">
     <title lang="da">Falling in Love in Niagara</title>
     <desc lang="da">'Falling in Love in Niagara'. Efter at hendes forlovede forlader hende kort før brylluppet, tager Madeline alene på bryllupsrejse til Niagara Falls. Her genfinder hun sin eventyrlyst, lærer at give slip og finder kærligheden på ny Tilladt for: 11.</desc>
     <category lang="da">Film</category>
@@ -6358,7 +6364,7 @@
       <value>11</value>
     </rating>
   </programme>
-  <programme start="20261010081500 +0000" stop="20261010091000 +0000" channel="TV3+.dk">
+  <programme start="20261010081500 +0000" stop="20261010091000 +0000" channel="TV3.dk">
     <title lang="da">Med Kniven for Struben</title>
     <desc lang="da">Sæson: 5. Episode: 1. 'Episode 1'. På Gesten Kro er forpagteren Tim på 34 år magtesløs. Aften efter aften står restauranten tom, og når der endelig kommer gæster, bliver de ikke længere end højest nødvendigt. Gæsterne beskriver kroen som plejehjemsagtig, kold og ikke et sted, man har lyst til at være Tilladt for: 11.</desc>
     <category lang="da">Fritid</category>
@@ -6366,7 +6372,7 @@
       <value>11</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/deoIMFoIfEAxGfEUyCyj6S7e5cM.jpg" /></programme>
-  <programme start="20261010091000 +0000" stop="20261010102000 +0000" channel="TV3+.dk">
+  <programme start="20261010091000 +0000" stop="20261010102000 +0000" channel="TV3.dk">
     <title lang="da">Med Kniven for Struben</title>
     <desc lang="da">Sæson: 5. Episode: 2. 'Episode 2'. På Orø Kro har de et blakket ry. De lokale holder sig væk, og en madanmelder har for nylig givet restauranten to stjerner i en landsdækkende avis. Tilladt for: 11.</desc>
     <category lang="da">Fritid</category>
@@ -6374,7 +6380,7 @@
       <value>11</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/deoIMFoIfEAxGfEUyCyj6S7e5cM.jpg" /></programme>
-  <programme start="20261010102000 +0000" stop="20261010112000 +0000" channel="TV3+.dk">
+  <programme start="20261010102000 +0000" stop="20261010112000 +0000" channel="TV3.dk">
     <title lang="da">Med Kniven for Struben</title>
     <desc lang="da">Sæson: 5. Episode: 3. 'Episode 3'. På restaurant Chopstix taber den 27årige ejer Mark hver måned 30.000 kr. Trods central placering i hjertet af København har restauranten ingen kunder. Tilladt for: 11.</desc>
     <category lang="da">Fritid</category>
@@ -6382,7 +6388,7 @@
       <value>11</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/deoIMFoIfEAxGfEUyCyj6S7e5cM.jpg" /></programme>
-  <programme start="20261010112000 +0000" stop="20261010122000 +0000" channel="TV3+.dk">
+  <programme start="20261010112000 +0000" stop="20261010122000 +0000" channel="TV3.dk">
     <title lang="da">Med Kniven for Struben</title>
     <desc lang="da">Sæson: 5. Episode: 4. 'Episode 4'. I Hjørring drømmer den stolte italienske restauratør Patrizio om, at hans restaurant Pane &amp; Vino skal servere en lille bid af Italien for byens borgere, men den drøm er langt fra blevet til virkelighed. Tilladt for: 11.</desc>
     <category lang="da">Fritid</category>
@@ -6390,7 +6396,7 @@
       <value>11</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/deoIMFoIfEAxGfEUyCyj6S7e5cM.jpg" /></programme>
-  <programme start="20261010122000 +0000" stop="20261010132500 +0000" channel="TV3+.dk">
+  <programme start="20261010122000 +0000" stop="20261010132500 +0000" channel="TV3.dk">
     <title lang="da">Med Kniven for Struben</title>
     <desc lang="da">Sæson: 5. Episode: 5. 'Episode 5'. På Restaurant Strandlyst i turistbyen Vig skal der tjenes mange penge om sommeren, hvis restauranten skal køre rundt. Restauranten kæmper med ikke at klare det store sommer-ryk ind i højsæsonen. Tilladt for: 11.</desc>
     <category lang="da">Fritid</category>
@@ -6398,7 +6404,7 @@
       <value>11</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/deoIMFoIfEAxGfEUyCyj6S7e5cM.jpg" /></programme>
-  <programme start="20261010132500 +0000" stop="20261010142500 +0000" channel="TV3+.dk">
+  <programme start="20261010132500 +0000" stop="20261010142500 +0000" channel="TV3.dk">
     <title lang="da">Med Kniven for Struben</title>
     <desc lang="da">Sæson: 5. Episode: 6. 'Sæsonafslutning'. Kroejeren Mads på Jerup Bette Kro er presset helt i knæ og sover ikke om natten. Kroen kører med underskud, og Mads har svært ved at betale regningerne. Tilladt for: 11.</desc>
     <category lang="da">Fritid</category>
@@ -6406,7 +6412,7 @@
       <value>11</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/deoIMFoIfEAxGfEUyCyj6S7e5cM.jpg" /></programme>
-  <programme start="20261010142500 +0000" stop="20261010163000 +0000" channel="TV3+.dk">
+  <programme start="20261010142500 +0000" stop="20261010163000 +0000" channel="TV3.dk">
     <title lang="da">17 Again</title>
     <desc lang="da">'17 Again'. Mike O'Donnell var stjernen på skolens baskethold og havde en lys fremtid foran sig, men den droppede han for at gifte sig med sin kæreste og opfostre deres barn. 20 år senere er Mikes ægteskab forbi og hans børn synes, han er en taber. Instruktør: Burr Steers. Medvirkende: Zac Efron, Matthew Perry, Leslie Mann, Thomas Lennon. Tilladt for: 7.</desc>
     <credits>
@@ -6427,7 +6433,7 @@
       <value>7</value>
     </rating>
   </programme>
-  <programme start="20261010163000 +0000" stop="20261010190000 +0000" channel="TV3+.dk">
+  <programme start="20261010163000 +0000" stop="20261010190000 +0000" channel="TV3.dk">
     <title lang="da">Click</title>
     <desc lang="da">'Click'. Arbejdsnarkoman Michael Newman har ikke tid til sin kone og børn - i hvert fald ikke, hvis han skal imponere sin utaknemmelige chef og få sin velfortjente forfremmelse. Men da han møder den tossede ekspedient Morty, bliver hans bønner hørt: Han får en magisk fjernbetjening. Instruktør: Frank Coraci. Medvirkende: Adam Sandler, Kate Beckinsale, Christopher Walken, David Hasselhoff. Tilladt for: 11.</desc>
     <credits>
@@ -6448,7 +6454,7 @@
       <value>11</value>
     </rating>
   </programme>
-  <programme start="20261010190000 +0000" stop="20261010212000 +0000" channel="TV3+.dk">
+  <programme start="20261010190000 +0000" stop="20261010212000 +0000" channel="TV3.dk">
     <title lang="da">Independence Day 2</title>
     <desc lang="da">'Independence Day 2'. De er tilbage, og i dette nye kapitel hæves niveauet yderligere. For at beskytte Jorden har verdens lande gjort brug af den teknik, rumvæsenerne efterlod. Men intet kan forberede os på rumvæsenernes avancerede og utrolige styrke. Kun nogle få mænd og kvinders opfindsomhed kan redde planeten fra total udslettelse. Instruktør: Roland Emmerich. Medvirkende: Liam Hemsworth, Jeff Goldblum, Bill Pullman, Maika Monroe. Tilladt for: 11.</desc>
     <credits>
@@ -6469,7 +6475,7 @@
       <value>11</value>
     </rating>
   </programme>
-  <programme start="20261010212000 +0000" stop="20261011001000 +0000" channel="TV3+.dk">
+  <programme start="20261010212000 +0000" stop="20261011001000 +0000" channel="TV3.dk">
     <title lang="da">Independence Day</title>
     <desc lang="da">'Independence Day'. En morgen er himlen over verdens storbyer dækket af gigantiske rumfartøjer, der truer med at erobre planeten. Bill Pullman og Will Smith leder modstandskampen mod de fremmede. Et storslået actioneventyr af Roland Emmerich, der blandt andet stod bag "The Day After Tomorrow". Filmen fik en Oscar for bedste specialeffekter og blev i 1996 årets største succes i biograferne. Instruktør: Roland Emmerich. Medvirkende: Will Smith, Bill Pullman, Jeff Goldblum, Mary McDonnell. Tilladt for: 11.</desc>
     <credits>
@@ -6490,7 +6496,7 @@
       <value>11</value>
     </rating>
   </programme>
-  <programme start="20261011001000 +0000" stop="20261011023000 +0000" channel="TV3+.dk">
+  <programme start="20261011001000 +0000" stop="20261011023000 +0000" channel="TV3.dk">
     <title lang="da">The Gunman</title>
     <desc lang="da">'The Gunman'. Lejemorderen Jim Terrier får til opgave at likvidere en afrikansk minister. Otte år senere arbejder Terrier som nødhjælpsarbejder, da han indhentes af sin blodige fortid. Nogen fra hans gamle foretagende ønsker ham død - men hvem? Terrier må finde svaret, inden hans fjender finder ham. Instruktør: Pierre Morel. Medvirkende: Sean Penn, Idris Elba, Jasmine Trinca, Javier Bardem. Tilladt for: 15.</desc>
     <credits>
@@ -6511,7 +6517,7 @@
       <value>15</value>
     </rating>
   </programme>
-  <programme start="20261011023000 +0000" stop="20261011032500 +0000" channel="TV3+.dk">
+  <programme start="20261011023000 +0000" stop="20261011032500 +0000" channel="TV3.dk">
     <title lang="da">For Lækker til København</title>
     <desc lang="da">Sæson: 1. Episode: 4. 'For Lækker til København'. Romantikeren Daniel spørger ind til sin dates sexliv og finder ud af at der gemmer sig både hemmelige piercinger og en vildkat bag hendes uskyldige ydre. Tilladt for: 15.</desc>
     <category lang="da">Show</category>
@@ -6519,7 +6525,7 @@
       <value>15</value>
     </rating>
   </programme>
-  <programme start="20261011032500 +0000" stop="20261011040000 +0000" channel="TV3+.dk">
+  <programme start="20261011032500 +0000" stop="20261011040000 +0000" channel="TV3.dk">
     <title lang="da">Extended Family</title>
     <desc lang="da">Sæson: 1. Episode: 10. 'The Consequences of Familial Obligations'. Da Jimmy Juniors årlige Pinewood Derby bliver flyttet til samme aften som Graces sidste far-datter-fest, må Jim pludselig vælge mellem sine to børn. Tilladt for: 11.</desc>
     <category lang="da">Serier</category>
