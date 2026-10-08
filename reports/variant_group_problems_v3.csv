@@ -1,5 +1,2 @@
 ﻿Status;Bemærkning;Kanalgruppe;Kvalitet;Streamnavn;Stream tvg-id;Output/UHF tvg-id;Output programmer;Kendte ID'er fra priority;Fundet i kilder
 MANGLER TVG-ID;Streamen har intet tvg-id;Boomerang.dk;NORMAL;BOOMERANG [Caribbean];;;0;boomerang.dk;
-MANGLER EPG;output-ID har 0 programmer;TV3.dk;NORMAL;TV3 DK [Denmark];tv3.dk;TV3.dk;0;DA).dk, TV3 Denmark (DK, TV3 HD (D) (T).dk, TV3.dk, tv3.dk;"EPGShare:TV3.dk(82); BSS:tv3.dk(43); OpenEPG:tv3.dk(43)"
-MANGLER EPG;output-ID har 0 programmer;TV3.dk;FHD;TV3 FHD DK [Denmark];tv3.dk;TV3.dk;0;DA).dk, TV3 Denmark (DK, TV3 HD (D) (T).dk, TV3.dk, tv3.dk;"EPGShare:TV3.dk(82); BSS:tv3.dk(43); OpenEPG:tv3.dk(43)"
-MANGLER EPG;output-ID har 0 programmer;TV3.dk;HD;TV3 HD DK [Denmark];tv3.dk;TV3.dk;0;DA).dk, TV3 Denmark (DK, TV3 HD (D) (T).dk, TV3.dk, tv3.dk;"EPGShare:TV3.dk(82); BSS:tv3.dk(43); OpenEPG:tv3.dk(43)"

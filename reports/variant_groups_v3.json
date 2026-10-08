@@ -1,9 +1,8 @@
 {
-  "generated": "2026-10-07T15:25:10",
+  "generated": "2026-10-07T16:49:52",
   "statuses": {
-    "OK": 131,
-    "MANGLER TVG-ID": 1,
-    "MANGLER EPG": 3
+    "OK": 134,
+    "MANGLER TVG-ID": 1
   },
   "groups": [
     {
@@ -693,10 +692,10 @@
       "Streamnavne": "TV3 Sport DK [Denmark], TV3 Sport FHD DK [Denmark], TV3 Sport HD DK [Denmark]"
     },
     {
-      "Status": "MANGLER EPG",
+      "Status": "OK",
       "Kanalgruppe": "TV3.dk",
       "Output/UHF tvg-id": "TV3.dk",
-      "Output programmer": 0,
+      "Output programmer": 82,
       "Streams": 3,
       "Normal": 1,
       "HD": 1,
@@ -710,7 +709,7 @@
       "Status": "OK",
       "Kanalgruppe": "TV3+.dk",
       "Output/UHF tvg-id": "TV3+.dk",
-      "Output programmer": 175,
+      "Output programmer": 93,
       "Streams": 3,
       "Normal": 1,
       "HD": 1,
@@ -873,42 +872,6 @@
       "Output programmer": 0,
       "Kendte ID'er fra priority": "boomerang.dk",
       "Fundet i kilder": ""
-    },
-    {
-      "Status": "MANGLER EPG",
-      "Bemærkning": "output-ID har 0 programmer",
-      "Kanalgruppe": "TV3.dk",
-      "Kvalitet": "NORMAL",
-      "Streamnavn": "TV3 DK [Denmark]",
-      "Stream tvg-id": "tv3.dk",
-      "Output/UHF tvg-id": "TV3.dk",
-      "Output programmer": 0,
-      "Kendte ID'er fra priority": "DA).dk, TV3 Denmark (DK, TV3 HD (D) (T).dk, TV3.dk, tv3.dk",
-      "Fundet i kilder": "EPGShare:TV3.dk(82); BSS:tv3.dk(43); OpenEPG:tv3.dk(43)"
-    },
-    {
-      "Status": "MANGLER EPG",
-      "Bemærkning": "output-ID har 0 programmer",
-      "Kanalgruppe": "TV3.dk",
-      "Kvalitet": "FHD",
-      "Streamnavn": "TV3 FHD DK [Denmark]",
-      "Stream tvg-id": "tv3.dk",
-      "Output/UHF tvg-id": "TV3.dk",
-      "Output programmer": 0,
-      "Kendte ID'er fra priority": "DA).dk, TV3 Denmark (DK, TV3 HD (D) (T).dk, TV3.dk, tv3.dk",
-      "Fundet i kilder": "EPGShare:TV3.dk(82); BSS:tv3.dk(43); OpenEPG:tv3.dk(43)"
-    },
-    {
-      "Status": "MANGLER EPG",
-      "Bemærkning": "output-ID har 0 programmer",
-      "Kanalgruppe": "TV3.dk",
-      "Kvalitet": "HD",
-      "Streamnavn": "TV3 HD DK [Denmark]",
-      "Stream tvg-id": "tv3.dk",
-      "Output/UHF tvg-id": "TV3.dk",
-      "Output programmer": 0,
-      "Kendte ID'er fra priority": "DA).dk, TV3 Denmark (DK, TV3 HD (D) (T).dk, TV3.dk, tv3.dk",
-      "Fundet i kilder": "EPGShare:TV3.dk(82); BSS:tv3.dk(43); OpenEPG:tv3.dk(43)"
     }
   ]
 }
