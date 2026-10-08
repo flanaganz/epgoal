@@ -1,17 +1,25 @@
 {
-  "TV 2 Sport X.dk": {
-    "Holger Rune er tilbage på banen": 1
+  "TV.2.Sport.X.dk": {
+    "ATP: Hurkacz-Duckworth, Shanghai": 1,
+    "ATP: Norrie-Svrcina, Shanghai": 3,
+    "ATP: Tsitsipas-Coppejans, Shanghai": 1,
+    "Holger Rune er tilbage på banen": 1,
+    "Serie A: Cagliari-Juventus": 2,
+    "Serie A: Inter-Parma": 2,
+    "Serie A: Napoli-Frosinone": 2
   },
-  "TV3 Sport HD (D).dk": {
+  "TV.2.Sport.dk": {
+    "Herreligaen: Skanderborg AGF-Fredericia": 2,
+    "Herreligaen: Skjern-BSH": 2
+  },
+  "TV3.SPORT.dk": {
+    "Betinia LIGA: Esbjerg fB - AaB": 1,
+    "Deutsche Tourenwagen Masters": 1,
     "EHF European League: Mors-Thy - Tatabanya (m)": 2,
-    "PDC European Tour: Swiss Darts Trophy": 1
+    "Ligue 1: Paris Saint - Germain - Le Mans": 1,
+    "NHL: Florida Panthers - Minnesota Wild": 1
   },
-  "TV3 Sport.dk": {
-    "F1 Training: Singapores Grand Prix - Sprint kvalifikation": 2,
-    "F1 Training: Singapores Grand Prix - Træning": 3,
-    "PDC European Tour: Swiss Darts Trophy": 1
-  },
-  "Viaplay Sport News.dk": {
-    "Sky Sports: Total Football: Total Football": 1
+  "Viaplay.Sport.News.dk": {
+    "Betinia LIGA: Hobro IK - Kolding IF": 1
   }
 }

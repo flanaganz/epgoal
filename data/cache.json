@@ -2770,6 +2770,10 @@
     "poster": null,
     "ts": 1787575381.293821
   },
+  "atp: hurkacz-duckworth, shanghai": {
+    "backdrop": null,
+    "ts": 1791472504.7333732
+  },
   "atp: jodar-cobolli, cincinnati": {
     "backdrop": null,
     "poster": null,
@@ -2814,6 +2818,10 @@
     "backdrop": null,
     "poster": null,
     "ts": 1787575381.5125806
+  },
+  "atp: norrie-svrcina, shanghai": {
+    "backdrop": null,
+    "ts": 1791472504.9214618
   },
   "atp: rune-alcaraz, finale, barcelona": {
     "backdrop": null,
@@ -2879,6 +2887,10 @@
     "backdrop": null,
     "poster": null,
     "ts": 1790605493.4666882
+  },
+  "atp: tsitsipas-coppejans, shanghai": {
+    "backdrop": null,
+    "ts": 1791472504.5485878
   },
   "atp: vacherot-fils, kvartfinale, tokyo": {
     "backdrop": null,
@@ -7536,6 +7548,10 @@
     "backdrop": "https://image.tmdb.org/t/p/w1280/ykIk4zvdflortjJIDL246i6FrIc.jpg",
     "poster": null,
     "ts": 1786716229.7638414
+  },
+  "deutsche tourenwagen masters": {
+    "backdrop": null,
+    "ts": 1791472504.1653807
   },
   "deutsche tourenwagen masters race": {
     "backdrop": null,
@@ -13555,6 +13571,10 @@
     "backdrop": null,
     "poster": null,
     "ts": 1787896934.0011978
+  },
+  "herreligaen: skanderborg agf-fredericia": {
+    "backdrop": null,
+    "ts": 1791472504.350422
   },
   "herreligaen: skive-tth holstebro": {
     "backdrop": null,
@@ -25842,6 +25862,10 @@
     "backdrop": null,
     "poster": null,
     "ts": 1788081527.3668573
+  },
+  "serie a: cagliari-juventus": {
+    "backdrop": null,
+    "ts": 1791472505.136319
   },
   "serie a: fiorentina-napoli": {
     "backdrop": null,

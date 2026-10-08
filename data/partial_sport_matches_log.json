@@ -1,43 +1,41 @@
 {
-  "DR1 Denmark (DK,DA).dk": {
-    "Fodbold (k) -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1
-  },
-  "DR1 HD.dk": {
-    "Fodbold (k): Canada - Danmark -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1
-  },
   "DR1.dk": {
-    "Fodbold: Canada - Danmark (k), direkte -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1
+    "Fodbold: Canada - Danmark (k), direkte -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
+    "Frank Hvam: Make Badminton Great Again -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg": 1
   },
-  "DR2 HD.dk": {
-    "I magtens korridorer: Darfur-konflikten -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/NFL.jpg": 1
+  "TV3+.dk": {
+    "3F Superliga: FC Midtjylland-F.C. København -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
+    "F1 Qualification Studio -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/F1Q.JPG": 2,
+    "Formel 1 360° -> https://image.tmdb.org/t/p/original/uzNsBqsMSkKyL4bbatvCvYYpDOj.jpg": 1,
+    "Formel 1 Studie -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/F1Studio.jpg": 1,
+    "Formel 1: Singapores Grand Prix - Kvalifikation -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Formel%201.jpg": 2,
+    "Formel 1: Singapores Grand Prix -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Formel%201.jpg": 1,
+    "Onside -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Onside.jpg": 1,
+    "Premier League Studie -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League%20Studie.jpg": 2,
+    "Premier League: Manchester United - Tottenham -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
+    "Sport vs. Money: The Premier League -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
+    "Superliga Studie -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Superliga%20Studiet.jpg": 1,
+    "Tøffe vs Graver -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/T%C3%B8ffe%20vs.%20Graver.jpg": 1
   },
-  "DR2.dk": {
-    "I magtens korridorer (5:8) Darfur-konflikten -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/NFL.jpg": 1,
-    "I magtens korridorer Darfur-konflikten -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/NFL.jpg": 1
-  },
-  "TV3 MAX HD.dk": {
-    "3F Superliga -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/3F%20Superliga.jpg": 2,
-    "Bundesliga Fodbold: Dortmund - Werder Bremen -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 2,
-    "Champions League Weekly: UEFA Champions League Weekly  -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League%20Weekly.jpg": 1,
-    "Let’s Be Frank: Let's be Frank -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Let%27s%20be%20Frank2.jpg": 1
-  },
-  "TV3 Max Denmark (DK,DA).dk": {
-    "3F Superliga -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/3F%20Superliga.jpg": 2,
-    "Bundesliga Fodbold -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Bundesliga_3.JPG": 2,
-    "Champions League Weekly -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League%20Weekly.jpg": 1,
+  "TV3.MAX.dk": {
+    "3F Superliga: FC Midtjylland-F.C. København -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
+    "3F Superliga: FC Nordsjælland - OB -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 3,
+    "Bundesliga Fodbold: Dortmund - Werder Bremen -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 3,
+    "Bundesliga Fodbold: Freiburg - Schalke 04 -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
+    "Champions League Weekly -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League%20Weekly.jpg": 4,
+    "Højdepunkter fra Dansk Motorsport -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%B8jdepunkter%20fra%20Dansk%20Motorsport.jpg": 1,
+    "Højdepunkter fra EFL Championship -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%B8jdepunkter%20fra%20Dansk%20Motorsport1.jpg": 2,
     "Let’s Be Frank -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Let%27s%20be%20Frank2.jpg": 2,
-    "PDC European Tour -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PDC%20World%20Series%20of%20Darts2.JPG": 1
-  },
-  "TV3 Max.dk": {
-    "Champions Hockey League -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20Hockey%20League.jpg": 2,
-    "Champions League Weekly: UEFA Champions League Weekly -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League%20Weekly.jpg": 1,
-    "Let’s Be Frank -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Let%27s%20be%20Frank2.jpg": 2,
-    "Superliga: FC Nordsjælland - OB -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 2
-  },
-  "dr1.dk": {
-    "Fodbold: Canada - Danmark (k), direkte -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1
-  },
-  "dr2.dk": {
-    "I magtens korridorer (5:8) Darfur-konflikten -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/NFL.jpg": 1
+    "PDC European Tour -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PDC%20World%20Series%20of%20Darts2.JPG": 2,
+    "Premier League Studie -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League%20Studie.jpg": 1,
+    "Premier League: Aston Villa - Brentford -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
+    "Premier League: Chelsea - Bournemouth -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 2,
+    "Premier League: Crystal Palace - Nottingham Forest -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
+    "Premier League: Hull - Everton -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 2,
+    "Premier League: Ipswich - Fulham -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
+    "Premier League: Liverpool - Manchester City -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 2,
+    "Premier League: Manchester United - Tottenham -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
+    "Premier League: Sunderland - Brighton -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg": 1,
+    "Sportstalk -> https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Sportstalk.jpg": 2
   }
 }
