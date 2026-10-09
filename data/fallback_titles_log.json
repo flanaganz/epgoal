@@ -1,36 +1,30 @@
 {
-  "TV 2 SPORT X.dk": {
-    "Holger Rune er tilbage på banen": 1
-  },
-  "TV 2 Sport X Denmark (DK,DA).dk": {
-    "Holger Rune er tilbage på banen": 1
-  },
-  "TV 2 Sport X.dk": {
+  "TV.2.Sport.X.dk": {
     "ATP: Djokovic-Hurkacz, Shanghai": 3,
+    "ATP: Norrie-Svrcina, Shanghai": 1,
     "ATP: Shelton-Altmaier, Shanghai": 1,
     "ATP: Zhou-Musetti, Shanghai": 2,
     "ATP: Zverev-Wu, Shanghai": 3,
-    "Holger Rune er tilbage på banen": 2,
+    "Holger Rune er tilbage på banen": 1,
+    "Serie A: Cagliari-Juventus": 2,
     "Serie A: Inter-Parma": 2,
     "Serie A: Napoli-Frosinone": 2
   },
-  "TV 2 Sport.dk": {
-    "Herreligaen: Skjern-BSH": 2
+  "TV.2.Sport.dk": {
+    "Herreligaen: Skanderborg AGF-Fredericia": 4,
+    "Herreligaen: Skjern-BSH": 4,
+    "Serie A: Atalanta-Venezia": 2,
+    "Serie A: Torino-Udinese": 2
   },
-  "TV3 Sport HD (D).dk": {
-    "1. Division Studie: Esbjerg fB - AaB": 2,
+  "TV3.SPORT.dk": {
     "Betinia LIGA: Esbjerg fB - AaB": 1,
+    "Deutsche Tourenwagen Masters": 1,
     "Ligue 1: Paris Saint - Germain - Le Mans": 1,
+    "NHL: Buffalo-Florida": 1,
     "NHL: Florida Panthers - Minnesota Wild": 1,
-    "PDC European Tour: Swiss Darts Trophy": 1
+    "NHL: New Jersey Devils - Ottawa Senators": 1
   },
-  "TV3 Sport.dk": {
-    "F1 Training: Singapores Grand Prix - Sprint kvalifikation": 2,
-    "F1 Training: Singapores Grand Prix - Træning": 3,
-    "PDC European Tour: Swiss Darts Trophy": 1
-  },
-  "Viaplay Sport News.dk": {
-    "Betinia LIGA: Hobro IK - Kolding IF": 1,
-    "Sky Sports: Total Football: Total Football": 1
+  "Viaplay.Sport.News.dk": {
+    "Betinia LIGA: Hobro IK - Kolding IF": 1
   }
 }
