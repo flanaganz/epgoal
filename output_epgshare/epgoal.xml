@@ -2932,7 +2932,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/42nTDBWzU4mGLgxuFWboy68y3Oe.jpg" /></programme>
   <programme start="20261012121000 +0000" stop="20261012125000 +0000" channel="tv2.dk">
     <title lang="da">Sæt pris på Danmark</title>
     <desc lang="da">Sæson: 4. Episode: 7. 'Sønderjylland'. Hans Pilgaard tager køkkenchef Dak Wichangoen og danser Thomas Evers Poulsen på en begivenhedsrig tur til Sønderjylland. Dak og Thomas lægger ud med at smage en ægte sønderjysk egnsret, nemlig solæg. Med maverne fulde af mad får Dak og Thomas testet deres viden om sønderjyderne og Sønderjylland. Klogere på egnsdelen indlogerer de sig på Hotel Sønderborg Kaserne, hvor militære kommandoer, metalskabe og køjesenge er skiftet ud med en mere moderne indretning og bløde senge. Friske og veludhvilede drager de til Christiansfeld, hvor de naturligvis skal smage honningbomber overtrukket med chokolade. De slutter i højderne, hvor de skal op på på Danmarks højeste klatrevæg, hvis de altså tør! Tilladt for: A.</desc>
@@ -3023,7 +3023,7 @@
     <title lang="da">Mesterlige ombygninger</title>
     <desc lang="da">Sæson: 3. Episode: 1. 'Møllen i Roskilde'. Et ungt par, med baggrund som bygningsingeniør og tømrer, har købt en ramponeret mølle fra 1880 i Roskilde. De får brug for alle deres håndværksmæssige talenter for at nå i mål med at omdanne den faldefærdige mølle til et moderne hjem. David Zahle inspirerer dem til at genoverveje trappens udformning, hvilket resulterer i en smuk og unik planløsning. Tilladt for: A.</desc>
     <category lang="da">Fritid</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/1myy2FcjjlGahHr5mXCfJ0GJJk2.jpg" /></programme>
   <programme start="20261012210000 +0000" stop="20261012213500 +0000" channel="tv2.dk">
     <title lang="da">Til salg i 100 år</title>
     <desc lang="da">Sæson: 2. Episode: 7. 'Skrot eller slot: optakt til finale'. Finalen er rundt om hjørnet, men efter den sidste lodtrækning, står Peder over for sin måske største udfordring. Hos Bahadir ser tingene mere optimistiske ud, da en potentiel køber dukker op ud af det blå. Tilladt for: A.</desc>
@@ -42027,7 +42027,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/fjeWHHRUFKqo6iJLXn2K1S5gYD5.jpg" /></programme>
   <programme start="20261012141500 +0000" stop="20261012161000 +0000" channel="viasathits.dk">
     <title lang="da">Anden akt</title>
     <desc lang="da">'Anden akt'. Eva har lige sagt sit job op på hospitalet. Men hun tager glad et bijob, da den excentriske teaterdiva Harald Skoog har brug for hjælp med sin genoptræning. Instruktør: Mårten Klingberg. Medvirkende: Lena Olin, Rolf Lassgård, Lars Väringer, Görel Crona. Tilladt for: A.</desc>
