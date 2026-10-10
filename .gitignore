@@ -5,3 +5,10 @@ __pycache__/
 logs/
 .DS_Store
 Add-Content .gitignore "`n*.zip`n*Backup*"
+
+EPGoalConsole/
+Manual_artwork_overrides/
+Arkiv/
+output_epgshare/
+output_stats/
+reports/

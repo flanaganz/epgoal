@@ -1,2 +1,0 @@
-nicegui>=2.0,<4
-openpyxl>=3.1
