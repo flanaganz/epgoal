@@ -181,7 +181,7 @@
     {
       "kanal": "TV2 Echo.dk",
       "kilde": "epgshare",
-      "programmer": 111,
+      "programmer": 110,
       "vindue_timer": 95.6
     },
     {
@@ -217,7 +217,7 @@
     {
       "kanal": "TV2Sport.dk",
       "kilde": "epgshare",
-      "programmer": 71,
+      "programmer": 70,
       "vindue_timer": 92.1
     },
     {
