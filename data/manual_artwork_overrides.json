@@ -1,0 +1,16 @@
+{
+  "_readme": "Manuelle overrides til FILM/SERIER/TV-PROGRAMMER (IKKE sport - se sport_program_overrides.json i stedet for sport). Bruges når TMDb's automatiske søgning i danish_backdrops.py rammer FORKERT film/serie pga. navnesammenfald (fx to shows med samme titel). Hver post springer TMDb-søgningen HELT over for den titel og indsætter din angivne backdrop-URL direkte som <icon> (samme tag som øvrige danske backdrops - bekræftet at UHF læser dette). Kræver INGEN godkendelse i danish_artwork_review.xlsx, da du selv har verificeret den korrekte kilde manuelt.",
+
+  "_felt_channel": "'channel' er VALGFRI. Udelades feltet (eller sættes til \"\"), gælder overriden for titlen på ALLE kanaler. Angives 'channel', matches den som DELSTRENG i kanal-id'et (samme princip som sport_channels.json) - brug det KUN hvis samme titel dækker over forskelligt indhold afhængigt af hvilken kanal den vises på. En kanal-specifik post vinder altid over en generel post for samme titel.",
+
+  "_felt_backdrop_url": "'backdrop_url' skal være en FULD, direkte URL til billedet - enten en TMDb-billed-URL (fx https://image.tmdb.org/t/p/w1280/xxxxx.jpg, som du selv har fundet frem til på tmdb.com) eller en URL til et selv-hostet billede (fx dit eget GitHub-repo). Begge dele virker ens.",
+
+  "overrides": [
+    {
+      "title": "EKSEMPEL - ret eller slet denne linje",
+      "channel": "",
+      "backdrop_url": "https://image.tmdb.org/t/p/w1280/EKSEMPEL_ERSTAT_MIG.jpg",
+      "note": "Kort forklaring på hvorfor TMDb rammer forkert her (valgfrit, kun til din egen dokumentation)"
+    }
+  ]
+}

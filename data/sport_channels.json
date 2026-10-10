@@ -1,0 +1,78 @@
+{
+  "_readme": "Struktur: 'exclude' tjekkes FØRST og har altid forrang. 'default_backdrop'/'default_poster' kan nu ENTEN være et rent filnavn (Sport/-mappen på GitHub) ELLER en FULD ekstern URL - se enrich_epg.py docstring.",
+  "exclude": [
+    { "match": "norway", "note": "Udelukker sport-kanaler med 'Norway' i navnet." }
+  ],
+  "channels": [
+    {
+      "match": "tv 2 sport x",
+      "role": "always_sport",
+      "note": "TV 2 Sport X - EGEN kanal, adskilt fra TV 2 Sport HD. SKAL stå før 'tv 2 sport'.",
+      "default_backdrop": "TV_2_Sport_X.jpg",
+      "default_poster": "TV_2_Sport_X.jpg"
+    },
+    {
+      "match": "tv 2 sport",
+      "role": "always_sport",
+      "note": "TV 2 Sport HD/Denmark.",
+      "default_backdrop": "tv2sport-generic.jpg",
+      "default_poster": "tv2sport-generic.jpg"
+    },
+    {
+      "match": "tv3 sport",
+      "role": "always_sport",
+      "note": "TV3 Sport - 100% sport. SKAL stå før 'tv3 max'.",
+      "default_backdrop": "tv3sport-generic.jpg",
+      "default_poster": "tv3sport-generic.jpg"
+    },
+    {
+      "match": "tv3 max",
+      "role": "partial_sport",
+      "note": "TV3 Max - overvejende underholdning, delvist simulcast af sport.",
+      "default_backdrop": null,
+      "default_poster": null
+    },
+    {
+      "match": "3+",
+      "role": "partial_sport",
+      "note": "3+ - almindelig underholdningskanal, lejlighedsvis sport.",
+      "default_backdrop": null,
+      "default_poster": null
+    },
+    {
+      "match": "viaplay sport",
+      "role": "always_sport",
+      "note": "OPDATERET (2026-08-13): kanal-fallback bruger nu den direkte eksterne Viaplay-URL for 'Sport News', angivet af bruger, i stedet for det GitHub-hostede generic-billede.",
+      "default_backdrop": "https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg",
+      "default_poster": "https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg"
+    },
+    {
+      "match": "tv 2 hd",
+      "role": "partial_sport",
+      "note": "TV 2 hovedkanal, HD-variant. Rammes KUN ved kendt match.",
+      "default_backdrop": null,
+      "default_poster": null
+    },
+    {
+      "match": "tv 2.dk",
+      "role": "partial_sport",
+      "note": "TV 2 hovedkanal, 'bare' variant uden HD.",
+      "default_backdrop": null,
+      "default_poster": null
+    },
+    {
+      "match": "dr1",
+      "role": "partial_sport",
+      "note": "DR1.",
+      "default_backdrop": null,
+      "default_poster": null
+    },
+    {
+      "match": "dr2",
+      "role": "partial_sport",
+      "note": "DR2.",
+      "default_backdrop": null,
+      "default_poster": null
+    }
+  ]
+}
