@@ -104,6 +104,11 @@
     "poster": null,
     "ts": 1787896932.3708394
   },
+  "1. division: esbjerg fb - aab": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1791623029.7010596
+  },
   "1. division: fc fredericia - esbjerg fb": {
     "backdrop": null,
     "poster": null,
@@ -2716,6 +2721,16 @@
     "backdrop": null,
     "poster": null,
     "ts": 1790928285.431702
+  },
+  "atp: carabelli - auger-aliassime, shanghai": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1791623031.024369
+  },
+  "atp: cerundolo-alcaraz, shanghai": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1791623031.2479188
   },
   "atp: de minaur-djokovic, finale, beijing": {
     "backdrop": null,
@@ -6519,6 +6534,11 @@
     "poster": null,
     "ts": 1786251170.317222
   },
+  "danskerklubben: danskerklubben: på besøg hos u21 - drengene": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1791623027.5372598
+  },
   "dansktoppen": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/1Q77G27VUjSAE0jFP0zF10yO8Qm.jpg",
     "poster": "https://image.tmdb.org/t/p/w500/fFnXOSoZu61px4jHvtR33QQG0dN.jpg",
@@ -7581,7 +7601,12 @@
   "deutsche tourenwagen masters race": {
     "backdrop": null,
     "poster": null,
-    "ts": 1786700756.5318727
+    "ts": 1791623028.806801
+  },
+  "deutsche tourenwagen masters race: dtm hockenheimring - løb 2": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1791623027.159085
   },
   "deutsche tourenwagen masters race: dtm nürburgring - løb 1": {
     "backdrop": null,
@@ -9987,6 +10012,11 @@
     "poster": null,
     "ts": 1788504618.1941652
   },
+  "f1 qualification: singapores grand prix - kvalifikation": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1791623029.8806243
+  },
   "f1 qualification: spaniens grand prix - kvalifikation": {
     "backdrop": null,
     "poster": null,
@@ -10062,6 +10092,11 @@
     "poster": null,
     "ts": 1791435965.5610337
   },
+  "f1 training: singapores grand prix - sprint race": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1791623029.5194151
+  },
   "f1 training: singapores grand prix - træning": {
     "backdrop": null,
     "poster": null,
@@ -10101,6 +10136,11 @@
     "backdrop": null,
     "poster": null,
     "ts": 1787575379.703328
+  },
+  "f1: singapores grand prix - løbet": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1791623030.2552686
   },
   "f1: spaniens grand prix - løbet": {
     "backdrop": null,
@@ -13605,6 +13645,11 @@
     "backdrop": null,
     "poster": null,
     "ts": 1789455322.259503
+  },
+  "herreligaen: skjern - bjerringbro-silkeborg": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1791623031.4318433
   },
   "herreligaen: skjern-aalborg": {
     "backdrop": null,
@@ -18268,6 +18313,11 @@
   "ligue 1: paris saint - germain - le mans": {
     "backdrop": null,
     "ts": 1791378912.3942015
+  },
+  "ligue 1: paris saint-germain - le mans": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1791623030.0629048
   },
   "ligue 1: paris saint-germain - monaco": {
     "backdrop": null,
@@ -27511,6 +27561,11 @@
     "poster": "https://image.tmdb.org/t/p/w500/8eBSn1PUCj7Ikcrfj9bMmw7kUB0.jpg",
     "ts": 1786016502.0290928
   },
+  "sportstalk: sportstalk: nøgen skuespiller gør atleter vrede": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1791623027.351038
+  },
   "sportstalk: sportstalk: ronaldos uværdige exit": {
     "backdrop": null,
     "poster": null,
@@ -31815,6 +31870,11 @@
     "backdrop": null,
     "poster": null,
     "ts": 1790458494.990743
+  },
+  "tøffe vs. graver: tillykke til danmark og er ronaldo hellig?": {
+    "backdrop": null,
+    "poster": null,
+    "ts": 1791623027.7283323
   },
   "tøffe vs. graver: var højbjerg - udtalelse en fejl eller gave?": {
     "backdrop": null,

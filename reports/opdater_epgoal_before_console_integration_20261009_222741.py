@@ -114,8 +114,6 @@ CACHE_MAX_AGE_DAYS = 30
 
 GIT_ENABLED = True
 GIT_COMMIT_PREFIX = "Auto-opdater EPGOAL"
-CONSOLE_CONFIG_DIR = ROOT / "EPGoalConsole" / "config"
-SOURCE_OVERRIDES_FILE = CONSOLE_CONFIG_DIR / "source_overrides.json"
 
 # ---------------------------------------------------------------------------
 # .env
@@ -470,131 +468,6 @@ def step3_merge_sources() -> None:
             (epgshare_stats.get(c, {}).get("span_hours", 0) for c in matched_epgshare_ids),
             default=0,
         )
-
-        # Kildevalg fra EPGoal Console. Uden aktiv override bruges normal prioritet.
-        source_overrides = load_json(SOURCE_OVERRIDES_FILE, {})
-        override = source_overrides.get(kanonisk_navn, {})
-        override_enabled = bool(override.get("enabled", True))
-        override_source = str(override.get("source", "auto")).strip().lower()
-        override_id = str(override.get("source_channel_id", "")).strip()
-
-        if override_enabled and override_source == "exclude":
-            for cid in matched_epgshare_ids:
-                for programme in list(epgshare_programmes_by_channel.get(cid, [])):
-                    if programme in root:
-                        root.remove(programme)
-                for channel in list(root.findall("channel")):
-                    if channel.get("id", "") == cid:
-                        root.remove(channel)
-            report.setdefault("excluded_by_console", []).append({
-                "kanal": kanonisk_navn,
-                "kildeoverride": "exclude",
-            })
-            print(f"Console-override: udelader {kanonisk_navn}")
-            continue
-
-        forced = None
-        if override_enabled and override_source in {"epgshare", "openepg", "bss"}:
-            if override_source == "epgshare":
-                source_map = epgshare_programmes_by_channel
-                source_stats = epgshare_stats
-                candidate_ids = matched_epgshare_ids
-            elif override_source == "openepg":
-                source_map = openepg_programmes_by_channel
-                source_stats = openepg_stats
-                candidate_ids = list(source_map)
-            else:
-                source_map = bss_programmes_by_channel
-                source_stats = bss_stats
-                candidate_ids = list(source_map)
-
-            selected_id = None
-            if override_id in source_map:
-                selected_id = override_id
-            elif override_id:
-                selected_id = next(
-                    (cid for cid in candidate_ids if normalize_id(cid) == normalize_id(override_id)),
-                    None,
-                )
-            elif override_source == "epgshare" and matched_epgshare_ids:
-                selected_id = max(
-                    matched_epgshare_ids,
-                    key=lambda cid: source_stats.get(cid, {}).get("count", 0),
-                )
-            else:
-                selected_id, _ = find_best_candidate(tokens, source_map, source_stats)
-
-            selected_stat = source_stats.get(
-                selected_id,
-                {"count": 0, "span_hours": 0},
-            ) if selected_id else {"count": 0, "span_hours": 0}
-
-            if selected_id and selected_stat["count"] > 0:
-                forced = (override_source, selected_id, selected_stat, source_map)
-            else:
-                print(
-                    f"ADVARSEL: Console-override for {kanonisk_navn} kunne ikke finde "
-                    f"{override_source}:{override_id or '(automatisk ID)'}. "
-                    "Bruger normal prioritet.",
-                    file=sys.stderr,
-                )
-
-        if forced:
-            best_source, best_id, best_stat, best_programmes_map = forced
-
-            if best_source == "epgshare":
-                report["kept_as_is"].append({
-                    "kanal": kanonisk_navn,
-                    "kilde": "epgshare",
-                    "programmer": best_stat["count"],
-                    "vindue_timer": round(best_stat["span_hours"], 1),
-                    "tvunget_kildeoverride": True,
-                    "kilde_channel_id": best_id,
-                })
-                print(f"Console-override: {kanonisk_navn} -> epgshare:{best_id}")
-                continue
-
-            if matched_epgshare_ids:
-                primary_id = max(
-                    matched_epgshare_ids,
-                    key=lambda cid: epgshare_stats.get(cid, {}).get("count", 0),
-                )
-            else:
-                primary_id = f"{normalize_id(kanonisk_navn)}.dk"
-                new_channel = ET.Element("channel", {"id": primary_id})
-                display_name = ET.SubElement(new_channel, "display-name")
-                display_name.text = kanonisk_navn
-                root.append(new_channel)
-
-            for cid in matched_epgshare_ids:
-                for programme in list(epgshare_programmes_by_channel.get(cid, [])):
-                    if programme in root:
-                        root.remove(programme)
-
-            inserted = 0
-            for programme in best_programmes_map.get(best_id, []):
-                clone = copy.deepcopy(programme)
-                clone.set("channel", primary_id)
-                strip_artwork(clone)
-                root.append(clone)
-                inserted += 1
-
-            report["supplemented"].append({
-                "kanal": kanonisk_navn,
-                "epgshare_programmer_foer": epgshare_count,
-                "epgshare_vindue_timer_foer": round(epgshare_span, 1),
-                "kilde_brugt": best_source,
-                "kilde_channel_id": best_id,
-                "programmer_indsat": inserted,
-                "vindue_timer_efter": round(best_stat["span_hours"], 1),
-                "primaer_channel_id": primary_id,
-                "tvunget_kildeoverride": True,
-            })
-            print(
-                f"Console-override: {kanonisk_navn} -> "
-                f"{best_source}:{best_id} ({inserted:,} programmer)"
-            )
-            continue
 
         if epgshare_count > 0 and epgshare_span >= MIN_WINDOW_HOURS:
             report["kept_as_is"].append({
@@ -1626,9 +1499,6 @@ def git_push(repo_dir: Path, commit_message: str) -> None:
 def step7_git_push() -> None:
     section("TRIN 7/8: Git commit + push")
 
-    if os.environ.get("EPGOAL_SKIP_GIT", "").strip().lower() in {"1", "true", "yes"}:
-        print("Git springes over: Byg og valider blev startet fra EPGoal Console.")
-        return
     if not GIT_ENABLED:
         print("Git er deaktiveret (GIT_ENABLED = False) - springer over.")
         return
@@ -1652,9 +1522,6 @@ def run_script(script_name: str) -> bool:
 
 
 def open_file_for_review(path: Path) -> None:
-    if os.environ.get("EPGOAL_CONSOLE_MODE", "").strip().lower() in {"1", "true", "yes"}:
-        print(f"Console-tilstand: åbner ikke {path.name} automatisk.")
-        return
     if not path.exists():
         print(f"ADVARSEL: {path} findes ikke - kan ikke åbnes.", file=sys.stderr)
         return
