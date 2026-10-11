@@ -405,6 +405,10 @@
     "backdrop": "ATP_WTA Tennis.jpg",
     "poster": "ATP_WTA Tennis.jpg"
   },
+  "atp: cerundolo-mensik, shanghai": {
+    "backdrop": "ATP_WTA Tennis.jpg",
+    "poster": "ATP_WTA Tennis.jpg"
+  },
   "atp: de minaur-djokovic, finale, beijing": {
     "backdrop": "ATP_WTA Tennis.jpg",
     "poster": "ATP_WTA Tennis.jpg"
@@ -412,6 +416,10 @@
   "atp: fils-van assche, tokyo": {
     "backdrop": "Tennis ATP 500.jpg",
     "poster": "Tennis ATP 500.jpg"
+  },
+  "atp: hurkacz-zhou, shanghai": {
+    "backdrop": "ATP_WTA Tennis.jpg",
+    "poster": "ATP_WTA Tennis.jpg"
   },
   "atp: kvartfinale, tokyo": {
     "backdrop": "ATP Tour Highlights.jpg",
@@ -445,6 +453,10 @@
     "backdrop": "ATP_WTA Tennis.jpg",
     "poster": "ATP_WTA Tennis.jpg"
   },
+  "atp: shelton-gea, shanghai": {
+    "backdrop": "ATP_WTA Tennis.jpg",
+    "poster": "ATP_WTA Tennis.jpg"
+  },
   "atp: tabilo-paul, tokyo": {
     "backdrop": "Tennis ATP 500.jpg",
     "poster": "Tennis ATP 500.jpg"
@@ -469,6 +481,10 @@
     "backdrop": "ATP Tour Highlights.jpg",
     "poster": "ATP Tour Highlights.jpg"
   },
+  "atp: zverev-halys, shanghai": {
+    "backdrop": "ATP_WTA Tennis.jpg",
+    "poster": "ATP_WTA Tennis.jpg"
+  },
   "atp: zverev-shang, beijing": {
     "backdrop": "ATP Tour Highlights.jpg",
     "poster": "ATP Tour Highlights.jpg"
@@ -485,6 +501,10 @@
     "backdrop": "Badminton.jpg",
     "poster": "Badminton.jpg"
   },
+  "badminton: antonsen-tanaka, finale, arctic open": {
+    "backdrop": "Badminton.jpg",
+    "poster": "Badminton.jpg"
+  },
   "badminton: antonsen-vitidsarn, kvartfinale, china masters": {
     "backdrop": "Badminton.jpg",
     "poster": "Badminton.jpg"
@@ -494,6 +514,14 @@
     "poster": "Badminton.jpg"
   },
   "badminton: bao/cao-nakade/takahashi, finale, china masters": {
+    "backdrop": "Badminton.jpg",
+    "poster": "Badminton.jpg"
+  },
+  "badminton: blichfeldt-intanon, finale, arctic open": {
+    "backdrop": "Badminton.jpg",
+    "poster": "Badminton.jpg"
+  },
+  "badminton: chen/luo-hsu/lin, finale, arctic open": {
     "backdrop": "Badminton.jpg",
     "poster": "Badminton.jpg"
   },
@@ -525,11 +553,19 @@
     "backdrop": "Badminton.jpg",
     "poster": "Badminton.jpg"
   },
+  "badminton: jiang/wei-gao/wu, finale, arctic open": {
+    "backdrop": "Badminton.jpg",
+    "poster": "Badminton.jpg"
+  },
   "badminton: kvartfinale, china masters": {
     "backdrop": "Badminton.jpg",
     "poster": "Badminton.jpg"
   },
   "badminton: semifinale, china masters": {
+    "backdrop": "Badminton.jpg",
+    "poster": "Badminton.jpg"
+  },
+  "badminton: tai/yap-lai/tsai, finale, arctic open": {
     "backdrop": "Badminton.jpg",
     "poster": "Badminton.jpg"
   },
@@ -754,6 +790,10 @@
     "poster": "Champions Hockey League.jpg"
   },
   "champions hockey league: eisbären berlin - herning blue fox": {
+    "backdrop": "Champions Hockey League.jpg",
+    "poster": "Champions Hockey League.jpg"
+  },
+  "champions hockey league: herning blue fox - fribourg - gotteron": {
     "backdrop": "Champions Hockey League.jpg",
     "poster": "Champions Hockey League.jpg"
   },
@@ -2953,6 +2993,10 @@
     "backdrop": "Champions League.jpg",
     "poster": "Champions League.jpg"
   },
+  "uefa champions league: aston villa - fenerbahce": {
+    "backdrop": "Champions League.jpg",
+    "poster": "Champions League.jpg"
+  },
   "uefa champions league: atletico madrid - manchester united": {
     "backdrop": "Champions League.jpg",
     "poster": "Champions League.jpg"
@@ -2960,6 +3004,10 @@
   "uefa champions league: bayern münchen - bodø/glimt": {
     "backdrop": "UEFA Champions League.jpg",
     "poster": "UEFA Champions League.jpg"
+  },
+  "uefa champions league: bodø/glimt - dortmund": {
+    "backdrop": "Champions League.jpg",
+    "poster": "Champions League.jpg"
   },
   "uefa champions league: club brugge - aston villa": {
     "backdrop": "UEFA Champions League.jpg",
@@ -2981,7 +3029,15 @@
     "backdrop": "UEFA Champions League.jpg",
     "poster": "UEFA Champions League.jpg"
   },
+  "uefa champions league: feyenoord - como": {
+    "backdrop": "Champions League.jpg",
+    "poster": "Champions League.jpg"
+  },
   "uefa champions league: galatasaray - fc barcelona": {
+    "backdrop": "Champions League.jpg",
+    "poster": "Champions League.jpg"
+  },
+  "uefa champions league: lask linz - liverpool": {
     "backdrop": "Champions League.jpg",
     "poster": "Champions League.jpg"
   },
@@ -2992,6 +3048,10 @@
   "uefa champions league: liverpool - atletico madrid": {
     "backdrop": "UEFA Champions League.jpg",
     "poster": "UEFA Champions League.jpg"
+  },
+  "uefa champions league: manchester city - paris saint - germain": {
+    "backdrop": "Champions League.jpg",
+    "poster": "Champions League.jpg"
   },
   "uefa champions league: manchester united - sabah baku": {
     "backdrop": "UEFA Champions League.jpg",
@@ -3008,6 +3068,10 @@
   "uefa champions league: real madrid - inter": {
     "backdrop": "UEFA Champions League.jpg",
     "poster": "UEFA Champions League.jpg"
+  },
+  "uefa champions league: roma - real madrid": {
+    "backdrop": "Champions League.jpg",
+    "poster": "Champions League.jpg"
   },
   "uefa champions league: sabah baku - slavia prag": {
     "backdrop": "Champions League.jpg",
@@ -3265,7 +3329,15 @@
     "backdrop": "UEFA Youth League.jpg",
     "poster": "UEFA Youth League.jpg"
   },
+  "uefa youth league: manchester city - paris saint - germain": {
+    "backdrop": "UEFA Youth League.jpg",
+    "poster": "UEFA Youth League.jpg"
+  },
   "uefa youth league: real madrid - inter": {
+    "backdrop": "UEFA Youth League.jpg",
+    "poster": "UEFA Youth League.jpg"
+  },
+  "uefa youth league: roma - real madrid": {
     "backdrop": "UEFA Youth League.jpg",
     "poster": "UEFA Youth League.jpg"
   },
