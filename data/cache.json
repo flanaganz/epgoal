@@ -2732,6 +2732,10 @@
     "poster": null,
     "ts": 1791623031.2479188
   },
+  "atp: cerundolo-mensik, shanghai": {
+    "backdrop": null,
+    "ts": 1791697962.0641828
+  },
   "atp: de minaur-djokovic, finale, beijing": {
     "backdrop": null,
     "ts": 1791269451.6836753
@@ -2798,6 +2802,10 @@
   "atp: hurkacz-duckworth, shanghai": {
     "backdrop": null,
     "ts": 1791472504.7333732
+  },
+  "atp: hurkacz-zhou, shanghai": {
+    "backdrop": null,
+    "ts": 1791697961.8757453
   },
   "atp: jodar-cobolli, cincinnati": {
     "backdrop": null,
@@ -2898,6 +2906,10 @@
     "poster": null,
     "ts": 1791530477.2855852
   },
+  "atp: shelton-gea, shanghai": {
+    "backdrop": null,
+    "ts": 1791697961.6696684
+  },
   "atp: shelton-nakashima, finale, montreal": {
     "backdrop": null,
     "poster": null,
@@ -2950,6 +2962,10 @@
     "backdrop": null,
     "poster": null,
     "ts": 1791130502.7274108
+  },
+  "atp: zverev-halys, shanghai": {
+    "backdrop": null,
+    "ts": 1791697962.2409234
   },
   "atp: zverev-paul, cincinnati": {
     "backdrop": null,
@@ -5253,6 +5269,10 @@
     "backdrop": null,
     "poster": null,
     "ts": 1789191033.341929
+  },
+  "champions hockey league: herning blue fox - fribourg - gotteron": {
+    "backdrop": null,
+    "ts": 1791697961.4778605
   },
   "championship": {
     "backdrop": null,
@@ -32263,10 +32283,18 @@
     "poster": null,
     "ts": 1788842589.8814726
   },
+  "uefa youth league: manchester city - paris saint - germain": {
+    "backdrop": null,
+    "ts": 1791697961.2616198
+  },
   "uefa youth league: real madrid - inter": {
     "backdrop": null,
     "poster": null,
     "ts": 1788763992.0204084
+  },
+  "uefa youth league: roma - real madrid": {
+    "backdrop": null,
+    "ts": 1791697961.0806644
   },
   "ufo files": {
     "backdrop": "https://image.tmdb.org/t/p/w1280/deLx6O9Itplo72a1mvY7OgZQd6x.jpg",
