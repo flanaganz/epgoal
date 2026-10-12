@@ -459,7 +459,7 @@
   <programme start="20261012160000 +0000" stop="20261012163000 +0000" channel="dr1.dk">
     <title lang="da">Verdenssituationen med Clement: Hvad vil Trump og Putin?</title>
     <desc lang="da">Sæson: 4. Episode: 6. 'Hvad vil Trump og Putin?'. Præsident Trump vil købe olie af Putin og opfordrer Ukraine til at udskifte Zelenskyj. Hvad gør Europa nu? Tilladt for: A.</desc>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/hnZ3nrkuGMQZTblbxteW41YJqC6.jpg" /></programme>
   <programme start="20261012163000 +0000" stop="20261012165000 +0000" channel="dr1.dk">
     <title lang="da">TVA</title>
     <desc lang="da">Sæson: 2026. '12.10.2026'. TV Avisen giver dig overblik over dagens vigtigste nyheder fra Danmark og verden omkring os. Få indblik og perspektiv på de største begivenheder og historier. Tilladt for: A.</desc>
@@ -731,7 +731,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/hFPsCT0CSI9eRRqAM3pze9MebNa.jpg" /></programme>
   <programme start="20261013163000 +0000" stop="20261013165000 +0000" channel="dr1.dk">
     <title lang="da">TVA</title>
     <desc lang="da">Sæson: 2026. '13.10.2026'. TV Avisen giver dig overblik over dagens vigtigste nyheder fra Danmark og verden omkring os. Få indblik og perspektiv på de største begivenheder og historier. Tilladt for: A.</desc>
@@ -771,7 +771,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/kgWPwLlDW6Ay8f4jvwybZKA0L9A.jpg" /></programme>
   <programme start="20261013204500 +0000" stop="20261013213500 +0000" channel="dr1.dk">
     <title lang="da">Cooper &amp; Fry: Sort lune</title>
     <sub-title lang="da">(2:2)</sub-title>
@@ -780,7 +780,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/kgWPwLlDW6Ay8f4jvwybZKA0L9A.jpg" /></programme>
   <programme start="20261013213500 +0000" stop="20261013223000 +0000" channel="dr1.dk">
     <title lang="da">Alene i vildmarken Australien</title>
     <sub-title lang="da">3 (9:13)</sub-title>
@@ -887,7 +887,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/6ewj1DRaT2B8BdfO6UqJjySpibQ.jpg" /></programme>
   <programme start="20261014072000 +0000" stop="20261014075000 +0000" channel="dr1.dk">
     <title lang="da">Min kunstige kæreste</title>
     <sub-title lang="da">(2:3) Er Vi Ikke Kærester?</sub-title>
@@ -1183,7 +1183,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/6ewj1DRaT2B8BdfO6UqJjySpibQ.jpg" /></programme>
   <programme start="20261015091000 +0000" stop="20261015100000 +0000" channel="dr1.dk">
     <title lang="da">Sporløs UK</title>
     <sub-title lang="da">11 (3:12)</sub-title>
@@ -1608,7 +1608,7 @@
     <title lang="da">Vores sange med DR Pigekoret: Dansevise</title>
     <desc lang="da">Sæson: 2. Episode: 1. 'Dansevise'. Lad DR Pigekoret runde din weekend af med smukke sange hver søndag aften. Læn dig tilbage, nyn med, og lad musikken fylde, mens efterårsmørket falder på. Tilladt for: A.</desc>
     <category lang="da">Musik</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/gq0d77iRpjxO1Z9UN4dCryWh2ag.jpg" /></programme>
   <programme start="20261013060000 +0000" stop="20261013060500 +0000" channel="dr2.dk">
     <title lang="da">Radioavisen</title>
     <desc lang="da">Sæson: 2026. '13.10.2026'. Bliv opdateret på de seneste nyheder fra ind- og udland. Tilladt for: A.</desc>
@@ -1754,7 +1754,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/rqqcUExjwlcNUr3hN5bHXd8aLzk.jpg" /></programme>
   <programme start="20261014020000 +0000" stop="20261014023000 +0000" channel="dr2.dk">
     <title lang="da">Deadline</title>
     <desc lang="da">Sæson: 2026. Episode: 157. 'Deadline'. Udfordrende og overraskende perspektiver på dagens og tidens væsentligste historier. Tilladt for: A.</desc>
@@ -1785,7 +1785,7 @@
     <title lang="da">Mens vi venter på at dø - Graver vi et hul</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'Graver vi et hul'. Med udgangspunkt i udtrykket "vi kan lige så godt have det sjovt, når vi alligevel er her" tager vennerne Jørgen Skouboe og John Dahl ud for at dyrke de små drengedrømme, som ellers så ofte drukner i hverdagens travle fornuftsrutiner. I denne uge er John og Jørgen taget ud for at grave et hul, man kan tænke tanker i. Med sig har de sjove anekdoter, gode øl, fin tobak - og ikke mindst masser af vildt og fascinerende grej, som skal prøves af. Tilladt for: A.</desc>
     <category lang="da">Fritid</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/aLsc3GlfTJpbHu28lJTJThEVziw.jpg" /></programme>
   <programme start="20261014050000 +0000" stop="20261014060000 +0000" channel="dr2.dk">
     <title lang="da">Den klassiske musikquiz</title>
     <sub-title lang="da">(3:8)</sub-title>
@@ -1858,7 +1858,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/8eKN1fI1S2BFfVAUIM3YKTOuSHH.jpg" /></programme>
   <programme start="20261014200000 +0000" stop="20261014201500 +0000" channel="dr2.dk">
     <title lang="da">TVA</title>
     <desc lang="da">Sæson: 2026. '14.10.2026 22:00.'. TV Avisen giver dig overblik over dagens vigtigste nyheder fra Danmark og verden omkring os. Få indblik og perspektiv på de største begivenheder og historier. Tilladt for: A.</desc>
@@ -1939,7 +1939,7 @@
     <title lang="da">Tænkepauser: Krig</title>
     <desc lang="da">Sæson: 1. Episode: 15. 'Krig'. Krig er ustyrlig. Den er altædende. Den kommer altid ud af kontrol, erobrer hver eneste samfundsfunktion og gør sig selv til altings endemål. Ganske destruktivt, men denne ødelæggelsestrang fyrer også op under vores skaberkraft og resulterer i teknologiske, medicinske og organisatoriske landvindinger, som det ellers havde taget en krig at nå frem til. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/h4E3IOWbAcZnHKDuLR1HeQ86hUt.jpg" /></programme>
   <programme start="20261015020000 +0000" stop="20261015023000 +0000" channel="dr2.dk">
     <title lang="da">Deadline</title>
     <desc lang="da">Sæson: 2026. Episode: 158. 'Deadline'. Udfordrende og overraskende perspektiver på dagens og tidens væsentligste historier. Tilladt for: A.</desc>
@@ -2034,7 +2034,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/3SA5zBOqofwGlmEAAUBoPmy9DTv.jpg" /></programme>
   <programme start="20261015171500 +0000" stop="20261015181000 +0000" channel="dr2.dk">
     <title lang="da">Eiffeltårnet</title>
     <desc lang="da">'Eiffeltårnet'. Siden 1889 har det raget 300 meter op i den parisiske himmel. Eiffeltårnet er et symbol på fremskridt og nytænkning og et ikon, der tiltrækker 6.000.000 besøgende hvert år. Her følger vi i ingeniøren og arkitekten Gustave Eiffels fodspor for at forstå tankerne bag konstruktio-nen. Hvordan kunne man rejse tårnet på bare to år? Og hvilke menneskelige og tekniske ud-fordringer mødte Eiffel og hans folk? Tilladt for: 7.</desc>
@@ -2118,7 +2118,7 @@
     <title lang="da">Tænkepauser: Tillid</title>
     <desc lang="da">Sæson: 1. Episode: 14. 'Tillid'. Hvis der blev afholdt VM i tillid, ville Danmark stå øverst på sejrsskamlen med en guldmedalje om halsen. Vi har et enestående velfærdssystem, fordi vi er verdensmestre i tillid. Tillid giver velstand og tryghed - mød en af Danmarks mest erfarne jagerpiloter, der har begrebet Tillid helt tæt på kroppen. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/h4E3IOWbAcZnHKDuLR1HeQ86hUt.jpg" /></programme>
   <programme start="20261016020000 +0000" stop="20261016023000 +0000" channel="dr2.dk">
     <title lang="da">Deadline</title>
     <desc lang="da">Sæson: 2026. Episode: 159. 'Deadline'. Udfordrende og overraskende perspektiver på dagens og tidens væsentligste historier. Tilladt for: A.</desc>
@@ -2753,7 +2753,7 @@
     <title lang="da">En stor dag på godset - Møllerup</title>
     <desc lang="da">Sæson: 3. Episode: 6. 'En stor dag på godset - Møllerup'. Hampen skal høstes på Møllerup Gods. Familien Gamborg er nemlig 'hampnørder', og Lene Beier er med på høstdagen, men hun er også med, når familien afholder en stor hampdag inden høsten. Familien vil gerne vise hampplantens mange muligheder og forklare forskellen på det hamp, de har stående på marken, og som man ikke kan blive skæv af at ryge, og så det medicinske cannabisprojekt, som de er en del af. Lene besøger det nyetablerede cannabisvæksthus, og tidligere hofdame Lena Lüttichau viser rundt i de smukke stuer og fortæller historien om et kongemord, der - måske - blev begået af Marsk Stig, der har boet på Møllerup. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/wIZdoKAHt8eQL101vg68j5ssfoC.jpg" /></programme>
   <programme start="20261015020000 +0000" stop="20261015040000 +0000" channel="tv2.dk">
     <title lang="da">Nyhederne og Vejret</title>
     <desc lang="da">Sæson: 2026. '15.10.2026 04:00.'. Nyhederne fra ind- og udland samt en kort gennemgang af vejret for i dag og de næste dage. Tilladt for: A.</desc>
@@ -8215,7 +8215,7 @@
     <title lang="da">Haul Out the Holly: Lit Up</title>
     <desc lang="da">'Haul Out the Holly: Lit Up'. Julen nærmer sig, og Emily og Jared glæder sig til at fejre højtiden sammen igen. Tilladt for: A.</desc>
     <category lang="da">Film</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/29qiSnPp8LN1vUomrMN3MMVwlUH.jpg" /></programme>
   <programme start="20261012220000 +0000" stop="20261012231000 +0000" channel="kanal4.dk">
     <title lang="da">Hvor ondskab bor</title>
     <desc lang="da">Sæson: 10. Episode: 7. 'My Love Put A Gun To My Head'. Mistænkelige tegn fører til chokerende afsløringer i disse historier om personer, der opdager, de bor sammen med en morder. Vikles de ind i ondskaben? Medvirkende: James M. Reilly, T.J. Craig, Robert Levey II, Kathy-Ann Hart. Tilladt for: 15.</desc>
@@ -8559,7 +8559,7 @@
     <title lang="da">Haul Out the Holly: Lit Up</title>
     <desc lang="da">'Haul Out the Holly: Lit Up'. Julen nærmer sig, og Emily og Jared glæder sig til at fejre højtiden sammen igen. Tilladt for: A.</desc>
     <category lang="da">Film</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/29qiSnPp8LN1vUomrMN3MMVwlUH.jpg" /></programme>
   <programme start="20261014142500 +0000" stop="20261014162500 +0000" channel="kanal4.dk">
     <title lang="da">Catch Me If You Claus</title>
     <desc lang="da">'Catch Me If You Claus'. På randen af sit store gennembrud fanger den håbefulde nyhedsanker Avery Quinn en ubuden gæst i sit hjem iført et rødt jakkesæt, der hævder at være julemandens søn Chris. Tilladt for: 7.</desc>
@@ -24546,7 +24546,7 @@
     <title lang="da">Killer Safari: Big Cat Battle Compilation</title>
     <desc lang="da">Sæson: 1. Episode: 3. 'Big Cat Battles'. Turister fanger de beste øyeblikkene i villmarken på telefonene sine, og de store kattedyrene står øverst på alles ønskeliste på safari. Hold deg fast når en elefant angriper med en løve på støttennene sine. Se hannleoparder i krig om revir, og vær obs på en leopardmors jaktskole. Geparder konfronterer krokodiller for å beskytte måltidet sitt. Store bøffelflokker samles når en enslig løve viser hvorfor han er kongen. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/14pL409n73bTgB2XpxSd5gCMrUj.jpg" /></programme>
   <programme start="20261014100000 +0000" stop="20261014104500 +0000" channel="natgeowild.dk">
     <title lang="da">Leoparden med jadegrønne øjne</title>
     <desc lang="da">'Leoparden med jadegrønne øjne'. I Leoparden med jadegrønne øjne følger vi Toto, en leopard med usædvanlige akvamarinblå øjne, i de første år af hendes liv, når hun lærer grundlæggende overlevelsesevner. Tilladt for: A.</desc>
@@ -24653,7 +24653,7 @@
     <title lang="da">Killer Safari: Big Cat Battle Compilation</title>
     <desc lang="da">Sæson: 1. Episode: 3. 'Big Cat Battles'. Turister fanger de beste øyeblikkene i villmarken på telefonene sine, og de store kattedyrene står øverst på alles ønskeliste på safari. Hold deg fast når en elefant angriper med en løve på støttennene sine. Se hannleoparder i krig om revir, og vær obs på en leopardmors jaktskole. Geparder konfronterer krokodiller for å beskytte måltidet sitt. Store bøffelflokker samles når en enslig løve viser hvorfor han er kongen. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/14pL409n73bTgB2XpxSd5gCMrUj.jpg" /></programme>
   <programme start="20261015001000 +0000" stop="20261015005500 +0000" channel="natgeowild.dk">
     <title lang="da">Leoparden med jadegrønne øjne</title>
     <desc lang="da">'Leoparden med jadegrønne øjne'. I Leoparden med jadegrønne øjne følger vi Toto, en leopard med usædvanlige akvamarinblå øjne, i de første år af hendes liv, når hun lærer grundlæggende overlevelsesevner. Tilladt for: A.</desc>
@@ -24673,7 +24673,7 @@
     <title lang="da">Killer Safari: Big Cat Battle Compilation</title>
     <desc lang="da">Sæson: 1. Episode: 3. 'Big Cat Battles'. Turister fanger de beste øyeblikkene i villmarken på telefonene sine, og de store kattedyrene står øverst på alles ønskeliste på safari. Hold deg fast når en elefant angriper med en løve på støttennene sine. Se hannleoparder i krig om revir, og vær obs på en leopardmors jaktskole. Geparder konfronterer krokodiller for å beskytte måltidet sitt. Store bøffelflokker samles når en enslig løve viser hvorfor han er kongen. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/14pL409n73bTgB2XpxSd5gCMrUj.jpg" /></programme>
   <programme start="20261015031500 +0000" stop="20261015040000 +0000" channel="natgeowild.dk">
     <title lang="da">Australia's Wild Woodlands</title>
     <desc lang="da">'Australia's Wild Woodlands'. Australiens enorme eukalyptusskove understøtter et bemærkelsesværdigt rigt dyreliv, der ikke findes andre steder på planeten. Selvom mange af disse ældgamle økosystemer stort set er forblevet uændrede siden dinosaurernes tidsalder, står arterne her over for en usikker fremtid. Vi afslører, hvordan klimaforandringer ændrer den skrøbelige balance i livet for de ekstraordinære dyr, der lever i disse majestætiske skove. Tilladt for: A.</desc>
@@ -26885,7 +26885,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/giqzpEYAiTbKIIqFfOBUlszfVRw.jpg" /></programme>
   <programme start="20261013200500 +0000" stop="20261013211000 +0000" channel="discoverychannel.dk">
     <title lang="da">Outback Opal Hunters</title>
     <desc lang="da">Sæson: 13. Episode: 8. 'Outback Opal Hunters'. The Bushmen bliver mødt af et vildt væsen i deres underjordiske mine. Opal Lovers får hjælp af nogle venlige backpackere. Tilladt for: 11.</desc>
@@ -26909,7 +26909,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/giqzpEYAiTbKIIqFfOBUlszfVRw.jpg" /></programme>
   <programme start="20261014003500 +0000" stop="20261014014000 +0000" channel="discoverychannel.dk">
     <title lang="da">Outback Opal Hunters</title>
     <desc lang="da">Sæson: 13. Episode: 8. 'Outback Opal Hunters'. The Bushmen bliver mødt af et vildt væsen i deres underjordiske mine. Opal Lovers får hjælp af nogle venlige backpackere. Tilladt for: 11.</desc>
@@ -47278,7 +47278,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/wdZxm1K8EnW5E8yOvxXpRMPUEcq.jpg" /></programme>
   <programme start="20261012040000 +0000" stop="20261012043000 +0000" channel="investigationdiscovery.dk">
     <title lang="da">Border Control: Europe</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'Food For Thought'. I Rom bekræfter toldvæsenet, at en passager bærer godt skjulte stoffer i sauce-pakker. I Frankfurt, Tyskland, ser det ud til, at en pakke indeholder et udstoppet krybdyr, og i Algeciras, Spanien, opdager en helikopter en båd, der aflæsser en enorm mængde stoffer. Tilladt for: A.</desc>
@@ -47466,17 +47466,17 @@
     <title lang="da">Unmasking A Monster: Aileen Wuornos</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'Face To Face With The Monster'. En person myrder mænd på Floridas motorveje. En betjent sporer seriemorderen til en bar og står pludselig ansigt til ansigt med Aileen Wuornos. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/original/72a0AYn6df9dzYjFOj5OGyNkCGM.jpg" /></programme>
   <programme start="20261012220000 +0000" stop="20261012230000 +0000" channel="investigationdiscovery.dk">
     <title lang="da">Unmasking A Monster: Aileen Wuornos</title>
     <desc lang="da">Sæson: 1. Episode: 2. 'I'm A Good Girl'. Med hjælp fra hendes ekskæreste lægger politiet en fælde for Wuornos. Hun går frivilligt med til en afhøring, og hendes historie chokerer dem. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/original/72a0AYn6df9dzYjFOj5OGyNkCGM.jpg" /></programme>
   <programme start="20261012230000 +0000" stop="20261013000000 +0000" channel="investigationdiscovery.dk">
     <title lang="da">Unmasking A Monster: Aileen Wuornos</title>
     <desc lang="da">Sæson: 1. Episode: 3. 'The World Will Learn'. Da verden endelig hører Wuornos' egen historie, hævder hun, at drabene var selvforsvar. Hvis juryen ikke tror hende, skal hun dø. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/original/72a0AYn6df9dzYjFOj5OGyNkCGM.jpg" /></programme>
   <programme start="20261013000000 +0000" stop="20261013010000 +0000" channel="investigationdiscovery.dk">
     <title lang="da">The Murder Tapes</title>
     <desc lang="da">Sæson: 5. Episode: 10. 'The Drop Off'. Politiet afdækker chokerende familiehemmeligheder i forbindelse med Ahmad "Shad" Lasters skuddrab i Flagler County, Florida. Medvirkende: Dave DeAndrea, Rob LaColla Jr.. Tilladt for: 15.</desc>
@@ -48271,17 +48271,17 @@
     <title lang="da">Unmasking A Monster: Aileen Wuornos</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'Face To Face With The Monster'. En person myrder mænd på Floridas motorveje. En betjent sporer seriemorderen til en bar og står pludselig ansigt til ansigt med Aileen Wuornos. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/original/72a0AYn6df9dzYjFOj5OGyNkCGM.jpg" /></programme>
   <programme start="20261015210000 +0000" stop="20261015220000 +0000" channel="investigationdiscovery.dk">
     <title lang="da">Unmasking A Monster: Aileen Wuornos</title>
     <desc lang="da">Sæson: 1. Episode: 2. 'I'm A Good Girl'. Med hjælp fra hendes ekskæreste lægger politiet en fælde for Wuornos. Hun går frivilligt med til en afhøring, og hendes historie chokerer dem. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/original/72a0AYn6df9dzYjFOj5OGyNkCGM.jpg" /></programme>
   <programme start="20261015220000 +0000" stop="20261015230000 +0000" channel="investigationdiscovery.dk">
     <title lang="da">Unmasking A Monster: Aileen Wuornos</title>
     <desc lang="da">Sæson: 1. Episode: 3. 'The World Will Learn'. Da verden endelig hører Wuornos' egen historie, hævder hun, at drabene var selvforsvar. Hvis juryen ikke tror hende, skal hun dø. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/original/72a0AYn6df9dzYjFOj5OGyNkCGM.jpg" /></programme>
   <programme start="20261015230000 +0000" stop="20261016000000 +0000" channel="investigationdiscovery.dk">
     <title lang="da">Horror At The Cecil Hotel</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'The Girl In The Water Tank'. Elisa Lam forsvinder efter at være checket ind på LA's kendte Cecil Hotel. Hendes mystiske forsvinden er ikke den første. Hvad skete der? Medvirkende: William Jousset, William Ryder. Tilladt for: A.</desc>
@@ -66421,7 +66421,7 @@
       <actor>Michel Modo</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/wgTsNZde9WDayQAXDmZqtgdvyg9.jpg" /></programme>
   <programme start="20261012120000 +0000" stop="20261012120500 +0000" channel="drramasjang.dk">
     <title lang="da">Æblerup</title>
     <sub-title lang="da">(20:20) Nydags Dag</sub-title>
@@ -66721,7 +66721,7 @@
     <title lang="da">Ramasjang sover - lidt endnu</title>
     <desc lang="da">'Om lidt er det morgen'. Ramasjang har lagt sig til ro. Tilladt for: A.</desc>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/z3pMJvKHN7NEADNx30DGVRhQO0C.jpg" /></programme>
   <programme start="20261013030000 +0000" stop="20261013033100 +0000" channel="drramasjang.dk">
     <title lang="da">Rosa fra Rouladegade</title>
     <sub-title lang="da">2 (11)</sub-title>
@@ -67094,7 +67094,7 @@
       <actor>Michel Modo</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/wgTsNZde9WDayQAXDmZqtgdvyg9.jpg" /></programme>
   <programme start="20261013115500 +0000" stop="20261013120000 +0000" channel="drramasjang.dk">
     <title lang="da">Æblerup</title>
     <desc lang="da">Sæson: 1. Episode: 2. 'Monsteret i stenbruddet'. Anne-Lise skal tage et foto af en sjælden fugl til en konkurrence. Men da Trafalgar får skræmt fuglen væk, tilbyder han at hjælpe hende, så Anne-Lise i stedet kan fotografere verdens sjældnest dyr - monsteret i stenbruddet. Tilladt for: A.</desc>
@@ -67388,7 +67388,7 @@
     <title lang="da">Ramasjang sover - lidt endnu</title>
     <desc lang="da">'Om lidt er det morgen'. Ramasjang har lagt sig til ro. Tilladt for: A.</desc>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/z3pMJvKHN7NEADNx30DGVRhQO0C.jpg" /></programme>
   <programme start="20261014030000 +0000" stop="20261014033000 +0000" channel="drramasjang.dk">
     <title lang="da">Rosa fra Rouladegade</title>
     <sub-title lang="da">3 (1)</sub-title>
@@ -67769,7 +67769,7 @@
       <actor>Michel Modo</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/wgTsNZde9WDayQAXDmZqtgdvyg9.jpg" /></programme>
   <programme start="20261014120500 +0000" stop="20261014121000 +0000" channel="drramasjang.dk">
     <title lang="da">Æblerup</title>
     <desc lang="da">Sæson: 1. Episode: 4. 'Hr Cements statue'. Hr. Cements vil imponere en vigtig kunde og beslutter at opføre en statue af sig selv på byens torv. Men duerne kan ikke se forskel på Hr. Cement og hans statue, så de klatter på Hr. Cement i stedet for. Og den vigtige kunde kommer lige om lidt. Tilladt for: A.</desc>
@@ -68072,7 +68072,7 @@
     <title lang="da">Ramasjang sover - lidt endnu</title>
     <desc lang="da">'Om lidt er det morgen'. Ramasjang har lagt sig til ro. Tilladt for: A.</desc>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/z3pMJvKHN7NEADNx30DGVRhQO0C.jpg" /></programme>
   <programme start="20261015030000 +0000" stop="20261015033000 +0000" channel="drramasjang.dk">
     <title lang="da">Rosa fra Rouladegade</title>
     <sub-title lang="da">3 (2)</sub-title>
@@ -68487,7 +68487,7 @@
       <actor>Michel Modo</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/wgTsNZde9WDayQAXDmZqtgdvyg9.jpg" /></programme>
   <programme start="20261015120000 +0000" stop="20261015120500 +0000" channel="drramasjang.dk">
     <title lang="da">Æblerup</title>
     <desc lang="da">Sæson: 1. Episode: 6. 'Wolters dumme hund'. Fætter Wolter vil bevise, at hans meget dumme hund faktisk er meget klog. Så han lokker Trafalgar og Pulver i en fælde, som Wolters hund skal redde dem fra. Deres liv afhænger nu af den dumme hunds evner Tilladt for: A.</desc>
@@ -68677,7 +68677,7 @@
     <title lang="da">Stop! - Tirsdagsslik</title>
     <desc lang="da">Sæson: 2. Episode: 2. 'Tirsdags-slik'. Maja tager med mor og far ud at købe stort ind, og kæmper med fristelserne fra slikhylderne. Tilfældigt møder hun en fremmed, der fortæller en velbevaret hemmelighed, der forandrer alt. Tilladt for: A.</desc>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="9RT5KXtlAIPSh1ZvsxiVFXT8zvU.jpg (3840×2160)" /></programme>
   <programme start="20261015152500 +0000" stop="20261015154000 +0000" channel="drramasjang.dk">
     <title lang="da">Sprinter Galore II - Fødselsdag</title>
     <sub-title lang="da">(2)</sub-title>
@@ -68794,7 +68794,7 @@
     <title lang="da">Ramasjang sover - lidt endnu</title>
     <desc lang="da">'Om lidt er det morgen'. Ramasjang har lagt sig til ro. Tilladt for: A.</desc>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/z3pMJvKHN7NEADNx30DGVRhQO0C.jpg" /></programme>
   <programme start="20261016030000 +0000" stop="20261016033000 +0000" channel="drramasjang.dk">
     <title lang="da">Rosa fra Rouladegade</title>
     <sub-title lang="da">3 (3)</sub-title>
@@ -69054,7 +69054,7 @@
 <programme start="20261012232500 +0000" stop="20261014000000 +0000" channel="cmorestarsdk.dk"><title>Hamilton II (8x44) 3</title><desc>Jakob Oftebro - Carl Hamilton,Annika Hallin - Amiral Astrid Bofors,Nina Zanjani - Kristin Ek,Jörgen Thorsson - Birger Hagman,Krister Henriksson - DG,Peter Andersson - Christer Näslund,Rowena King - Farrin Haig,Felice Jankell - Lykke Öjestad,Anna Sise - Sissela Lindgren,Danilo Bejarano - Rikard Ek.</desc></programme>
 <programme start="20261014000000 +0000" stop="20261014015000 +0000" channel="cmorestarsdk.dk"><title>Gunpowder Milkshake</title><desc>Gunpowder Milkshake</desc></programme>
 <programme start="20261014015000 +0000" stop="20261014033000 +0000" channel="cmorestarsdk.dk"><title>Hotet</title><desc>Hotet</desc></programme>
-<programme start="20261011182000 +0200" stop="20261011184500 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (22)</title><desc /></programme><programme start="20261011184500 +0200" stop="20261011191000 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (21)</title><desc /></programme><programme start="20261011191000 +0200" stop="20261011191500 +0200" channel="Disney.Junior.dk"><title>Bluey III (116)</title><desc /></programme><programme start="20261011191500 +0200" stop="20261011192500 +0200" channel="Disney.Junior.dk"><title>Bluey III (115)</title><desc /></programme><programme start="20261011192500 +0200" stop="20261011193500 +0200" channel="Disney.Junior.dk"><title>Bluey I (10)</title><desc /></programme><programme start="20261011193500 +0200" stop="20261011194000 +0200" channel="Disney.Junior.dk"><title>Bluey I (12)</title><desc /></programme><programme start="20261011194000 +0200" stop="20261011195000 +0200" channel="Disney.Junior.dk"><title>Bluey I (14)</title><desc /></programme><programme start="20261011195000 +0200" stop="20261011195500 +0200" channel="Disney.Junior.dk"><title>Bluey I (16)</title><desc /></programme><programme start="20261011195500 +0200" stop="20261011200500 +0200" channel="Disney.Junior.dk"><title>Bluey I (18)</title><desc /></programme><programme start="20261011200500 +0200" stop="20261011201000 +0200" channel="Disney.Junior.dk"><title>Bluey I (20)</title><desc /></programme><programme start="20261011201000 +0200" stop="20261011202000 +0200" channel="Disney.Junior.dk"><title>Bluey I (22)</title><desc /></programme><programme start="20261011202000 +0200" stop="20261011202500 +0200" channel="Disney.Junior.dk"><title>Bluey I (24)</title><desc /></programme><programme start="20261011202500 +0200" stop="20261011205000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends: Season 5 V (107)</title><desc /></programme><programme start="20261011205000 +0200" stop="20261011211500 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (10)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261011211500 +0200" stop="20261011214000 +0200" channel="Disney.Junior.dk"><title>SuperKitties I (21)</title><desc /></programme><programme start="20261011214000 +0200" stop="20261011220500 +0200" channel="Disney.Junior.dk"><title>SuperKitties: Su-Purr Charged II (48)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/svZssJM2FbpW0v0O6QbGLpL7rGf.jpg" /></programme><programme start="20261011220500 +0200" stop="20261011223000 +0200" channel="Disney.Junior.dk"><title>Pupstruction II (36)</title><desc /></programme><programme start="20261011223000 +0200" stop="20261011224000 +0200" channel="Disney.Junior.dk"><title>Bluey II (71)</title><desc /></programme><programme start="20261011224000 +0200" stop="20261011224500 +0200" channel="Disney.Junior.dk"><title>Bluey II (72)</title><desc /></programme><programme start="20261011224500 +0200" stop="20261011225000 +0200" channel="Disney.Junior.dk"><title>Bluey II (73)</title><desc /></programme><programme start="20261011225000 +0200" stop="20261011230000 +0200" channel="Disney.Junior.dk"><title>Bluey II (74)</title><desc /></programme><programme start="20261011230000 +0200" stop="20261011230500 +0200" channel="Disney.Junior.dk"><title>Bluey II (75)</title><desc /></programme><programme start="20261011230500 +0200" stop="20261011231500 +0200" channel="Disney.Junior.dk"><title>Bluey II (76)</title><desc /></programme><programme start="20261011231500 +0200" stop="20261011232500 +0200" channel="Disney.Junior.dk"><title>Bluey II (77)</title><desc /></programme><programme start="20261011232500 +0200" stop="20261011235000 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (21)</title><desc /></programme><programme start="20261011235000 +0200" stop="20261012001500 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (22)</title><desc /></programme><programme start="20261012001500 +0200" stop="20261012003500 +0200" channel="Disney.Junior.dk"><title>SuperKitties: Su-Purr Charged II (31)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/svZssJM2FbpW0v0O6QbGLpL7rGf.jpg" /></programme><programme start="20261012003500 +0200" stop="20261012005500 +0200" channel="Disney.Junior.dk"><title>SuperKitties: Su-Purr Charged II (32)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/svZssJM2FbpW0v0O6QbGLpL7rGf.jpg" /></programme><programme start="20261012005500 +0200" stop="20261012011500 +0200" channel="Disney.Junior.dk"><title>SuperKitties: Su-Purr Charged II (33)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/svZssJM2FbpW0v0O6QbGLpL7rGf.jpg" /></programme><programme start="20261012011500 +0200" stop="20261012012500 +0200" channel="Disney.Junior.dk"><title>SuperKitties: Su-Purr Charged S2 Splits II (11)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/svZssJM2FbpW0v0O6QbGLpL7rGf.jpg" /></programme><programme start="20261012012500 +0200" stop="20261012015000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends II (50)</title><desc /></programme><programme start="20261012015000 +0200" stop="20261012021500 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends II (51)</title><desc /></programme><programme start="20261012021500 +0200" stop="20261012024000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends II (52)</title><desc /></programme><programme start="20261012024000 +0200" stop="20261012030500 +0200" channel="Disney.Junior.dk"><title>RoboGobo: Season 2 II (31)</title><desc /></programme><programme start="20261012030500 +0200" stop="20261012033000 +0200" channel="Disney.Junior.dk"><title>RoboGobo: Season 2 II (32)</title><desc /></programme><programme start="20261012033000 +0200" stop="20261012035500 +0200" channel="Disney.Junior.dk"><title>Robogobo: Season 1 I (1)</title><desc /></programme><programme start="20261012035500 +0200" stop="20261012040500 +0200" channel="Disney.Junior.dk"><title>Bluey I (42)</title><desc /></programme><programme start="20261012040500 +0200" stop="20261012041000 +0200" channel="Disney.Junior.dk"><title>Bluey I (41)</title><desc /></programme><programme start="20261012041000 +0200" stop="20261012041500 +0200" channel="Disney.Junior.dk"><title>Bluey I (40)</title><desc /></programme><programme start="20261012041500 +0200" stop="20261012042500 +0200" channel="Disney.Junior.dk"><title>Bluey I (39)</title><desc /></programme><programme start="20261012042500 +0200" stop="20261012043000 +0200" channel="Disney.Junior.dk"><title>Bluey I (38)</title><desc /></programme><programme start="20261012043000 +0200" stop="20261012044000 +0200" channel="Disney.Junior.dk"><title>Bluey I (37)</title><desc /></programme><programme start="20261012044000 +0200" stop="20261012045000 +0200" channel="Disney.Junior.dk"><title>Bluey I (36)</title><desc /></programme><programme start="20261012045000 +0200" stop="20261012045500 +0200" channel="Disney.Junior.dk"><title>Bluey I (35)</title><desc /></programme><programme start="20261012045500 +0200" stop="20261012050000 +0200" channel="Disney.Junior.dk"><title>Bluey I (34)</title><desc /></programme><programme start="20261012050000 +0200" stop="20261012050500 +0200" channel="Disney.Junior.dk"><title>Bluey I (33)</title><desc /></programme><programme start="20261012050500 +0200" stop="20261012051000 +0200" channel="Disney.Junior.dk"><title>Bluey I (32)</title><desc /></programme><programme start="20261012051000 +0200" stop="20261012053500 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends II (53)</title><desc /></programme><programme start="20261012053500 +0200" stop="20261012060000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends II (54)</title><desc /></programme><programme start="20261012060000 +0200" stop="20261012062500 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (12)</title><desc /></programme><programme start="20261012062500 +0200" stop="20261012065000 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (1)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261012065000 +0200" stop="20261012071500 +0200" channel="Disney.Junior.dk"><title>SuperKitties: Su-Purr Charged II (49)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/svZssJM2FbpW0v0O6QbGLpL7rGf.jpg" /></programme><programme start="20261012071500 +0200" stop="20261012072500 +0200" channel="Disney.Junior.dk"><title>Bluey II (3)</title><desc /></programme><programme start="20261012072500 +0200" stop="20261012073000 +0200" channel="Disney.Junior.dk"><title>Bluey II (5)</title><desc /></programme><programme start="20261012073000 +0200" stop="20261012074000 +0200" channel="Disney.Junior.dk"><title>Bluey II (7)</title><desc /></programme><programme start="20261012074000 +0200" stop="20261012074500 +0200" channel="Disney.Junior.dk"><title>Bluey II (9)</title><desc /></programme><programme start="20261012074500 +0200" stop="20261012075500 +0200" channel="Disney.Junior.dk"><title>Bluey II (11)</title><desc /></programme><programme start="20261012075500 +0200" stop="20261012080000 +0200" channel="Disney.Junior.dk"><title>Bluey II (65)</title><desc /></programme><programme start="20261012080000 +0200" stop="20261012081000 +0200" channel="Disney.Junior.dk"><title>Bluey II (67)</title><desc /></programme><programme start="20261012081000 +0200" stop="20261012083500 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends II (33)</title><desc /></programme><programme start="20261012083500 +0200" stop="20261012090000 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (2)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261012090000 +0200" stop="20261012092500 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (4)</title><desc /></programme><programme start="20261012092500 +0200" stop="20261012095000 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+: Season 2 II (30)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/m1S0drszN5nhtGpG498so8NjUXv.jpg" /></programme><programme start="20261012095000 +0200" stop="20261012100000 +0200" channel="Disney.Junior.dk"><title>Bluey II (12)</title><desc /></programme><programme start="20261012100000 +0200" stop="20261012100500 +0200" channel="Disney.Junior.dk"><title>Bluey II (11)</title><desc /></programme><programme start="20261012100500 +0200" stop="20261012101500 +0200" channel="Disney.Junior.dk"><title>Bluey II (10)</title><desc /></programme><programme start="20261012101500 +0200" stop="20261012102000 +0200" channel="Disney.Junior.dk"><title>Bluey II (9)</title><desc /></programme><programme start="20261012102000 +0200" stop="20261012102500 +0200" channel="Disney.Junior.dk"><title>Bluey II (8)</title><desc /></programme><programme start="20261012102500 +0200" stop="20261012103500 +0200" channel="Disney.Junior.dk"><title>Bluey II (7)</title><desc /></programme><programme start="20261012103500 +0200" stop="20261012104000 +0200" channel="Disney.Junior.dk"><title>Bluey II (6)</title><desc /></programme><programme start="20261012104000 +0200" stop="20261012104500 +0200" channel="Disney.Junior.dk"><title>Bluey II (5)</title><desc /></programme><programme start="20261012104500 +0200" stop="20261012111000 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (11)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261012111000 +0200" stop="20261012113500 +0200" channel="Disney.Junior.dk"><title>SuperKitties: Su-Purr Charged II (28)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/svZssJM2FbpW0v0O6QbGLpL7rGf.jpg" /></programme><programme start="20261012113500 +0200" stop="20261012115000 +0200" channel="Disney.Junior.dk"><title>Pupstruction: S3 Splits III (73)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/vBv1WPEKZa5ocn26c6RVAD182d8.jpg" /></programme><programme start="20261012115000 +0200" stop="20261012120000 +0200" channel="Disney.Junior.dk"><title>Pupstruction: S3 Splits III (74)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/vBv1WPEKZa5ocn26c6RVAD182d8.jpg" /></programme><programme start="20261012120000 +0200" stop="20261012122500 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends IV (93)</title><desc /></programme><programme start="20261012122500 +0200" stop="20261012123500 +0200" channel="Disney.Junior.dk"><title>Bluey III (139)</title><desc /></programme><programme start="20261012123500 +0200" stop="20261012124000 +0200" channel="Disney.Junior.dk"><title>Bluey II (82)</title><desc /></programme><programme start="20261012124000 +0200" stop="20261012125000 +0200" channel="Disney.Junior.dk"><title>Bluey III (131)</title><desc /></programme><programme start="20261012125000 +0200" stop="20261012125500 +0200" channel="Disney.Junior.dk"><title>Bluey II (83)</title><desc /></programme><programme start="20261012125500 +0200" stop="20261012130500 +0200" channel="Disney.Junior.dk"><title>Bluey III (132)</title><desc /></programme><programme start="20261012130500 +0200" stop="20261012131000 +0200" channel="Disney.Junior.dk"><title>Bluey II (84)</title><desc /></programme><programme start="20261012131000 +0200" stop="20261012132000 +0200" channel="Disney.Junior.dk"><title>Bluey III (133)</title><desc /></programme><programme start="20261012132000 +0200" stop="20261012132500 +0200" channel="Disney.Junior.dk"><title>Bluey I (4)</title><desc /></programme><programme start="20261012132500 +0200" stop="20261012135000 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (19)</title><desc /></programme><programme start="20261012135000 +0200" stop="20261012141500 +0200" channel="Disney.Junior.dk"><title>SuperKitties III (58)</title><desc /></programme><programme start="20261012141500 +0200" stop="20261012144000 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (2)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261012144000 +0200" stop="20261012150500 +0200" channel="Disney.Junior.dk"><title>Iron Man and His Awesome Friends I (26)</title><desc /></programme><programme start="20261012150500 +0200" stop="20261012153000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends III (62)</title><desc /></programme><programme start="20261012153000 +0200" stop="20261012154500 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends: S4 Splits IV (15)</title><desc /></programme><programme start="20261012154500 +0200" stop="20261012155500 +0200" channel="Disney.Junior.dk"><title>Bluey I (5)</title><desc /></programme><programme start="20261012155500 +0200" stop="20261012160000 +0200" channel="Disney.Junior.dk"><title>Bluey I (6)</title><desc /></programme><programme start="20261012160000 +0200" stop="20261012161000 +0200" channel="Disney.Junior.dk"><title>Bluey I (7)</title><desc /></programme><programme start="20261012161000 +0200" stop="20261012161500 +0200" channel="Disney.Junior.dk"><title>Bluey I (8)</title><desc /></programme><programme start="20261012161500 +0200" stop="20261012162500 +0200" channel="Disney.Junior.dk"><title>Bluey I (9)</title><desc /></programme><programme start="20261012162500 +0200" stop="20261012163000 +0200" channel="Disney.Junior.dk"><title>Bluey II (85)</title><desc /></programme><programme start="20261012163000 +0200" stop="20261012164000 +0200" channel="Disney.Junior.dk"><title>Bluey III (134)</title><desc /></programme><programme start="20261012164000 +0200" stop="20261012170500 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+: Season 2 II (31)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/m1S0drszN5nhtGpG498so8NjUXv.jpg" /></programme><programme start="20261012170500 +0200" stop="20261012173000 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (2)</title><desc /></programme><programme start="20261012173000 +0200" stop="20261012175500 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (9)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261012175500 +0200" stop="20261012182000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends I (5)</title><desc /></programme><programme start="20261012182000 +0200" stop="20261012183500 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends: S4 Splits IV (16)</title><desc /></programme><programme start="20261012040000 +0000" stop="20261012042500 +0000" channel="nickelodeonjuniordk.dk"><title>Tim Rex i rummet</title><desc>Tommy er med i et raket-ræs, Tim hjælper sin bror. // Tim underholder Tia, mens Fante er i vaskemaskinen. // Børn bliver forældre og forældre bliver børn.</desc><episode-num system="xmltv_ns">.2.</episode-num></programme>
+<programme start="20261011182000 +0200" stop="20261011184500 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (22)</title><desc /></programme><programme start="20261011184500 +0200" stop="20261011191000 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (21)</title><desc /></programme><programme start="20261011191000 +0200" stop="20261011191500 +0200" channel="Disney.Junior.dk"><title>Bluey III (116)</title><desc /></programme><programme start="20261011191500 +0200" stop="20261011192500 +0200" channel="Disney.Junior.dk"><title>Bluey III (115)</title><desc /></programme><programme start="20261011192500 +0200" stop="20261011193500 +0200" channel="Disney.Junior.dk"><title>Bluey I (10)</title><desc /></programme><programme start="20261011193500 +0200" stop="20261011194000 +0200" channel="Disney.Junior.dk"><title>Bluey I (12)</title><desc /></programme><programme start="20261011194000 +0200" stop="20261011195000 +0200" channel="Disney.Junior.dk"><title>Bluey I (14)</title><desc /></programme><programme start="20261011195000 +0200" stop="20261011195500 +0200" channel="Disney.Junior.dk"><title>Bluey I (16)</title><desc /></programme><programme start="20261011195500 +0200" stop="20261011200500 +0200" channel="Disney.Junior.dk"><title>Bluey I (18)</title><desc /></programme><programme start="20261011200500 +0200" stop="20261011201000 +0200" channel="Disney.Junior.dk"><title>Bluey I (20)</title><desc /></programme><programme start="20261011201000 +0200" stop="20261011202000 +0200" channel="Disney.Junior.dk"><title>Bluey I (22)</title><desc /></programme><programme start="20261011202000 +0200" stop="20261011202500 +0200" channel="Disney.Junior.dk"><title>Bluey I (24)</title><desc /></programme><programme start="20261011202500 +0200" stop="20261011205000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends: Season 5 V (107)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/l9IjbcpfYRZ2wWQOHhmB6Db6qe7.jpg" /></programme><programme start="20261011205000 +0200" stop="20261011211500 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (10)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261011211500 +0200" stop="20261011214000 +0200" channel="Disney.Junior.dk"><title>SuperKitties I (21)</title><desc /></programme><programme start="20261011214000 +0200" stop="20261011220500 +0200" channel="Disney.Junior.dk"><title>SuperKitties: Su-Purr Charged II (48)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/svZssJM2FbpW0v0O6QbGLpL7rGf.jpg" /></programme><programme start="20261011220500 +0200" stop="20261011223000 +0200" channel="Disney.Junior.dk"><title>Pupstruction II (36)</title><desc /></programme><programme start="20261011223000 +0200" stop="20261011224000 +0200" channel="Disney.Junior.dk"><title>Bluey II (71)</title><desc /></programme><programme start="20261011224000 +0200" stop="20261011224500 +0200" channel="Disney.Junior.dk"><title>Bluey II (72)</title><desc /></programme><programme start="20261011224500 +0200" stop="20261011225000 +0200" channel="Disney.Junior.dk"><title>Bluey II (73)</title><desc /></programme><programme start="20261011225000 +0200" stop="20261011230000 +0200" channel="Disney.Junior.dk"><title>Bluey II (74)</title><desc /></programme><programme start="20261011230000 +0200" stop="20261011230500 +0200" channel="Disney.Junior.dk"><title>Bluey II (75)</title><desc /></programme><programme start="20261011230500 +0200" stop="20261011231500 +0200" channel="Disney.Junior.dk"><title>Bluey II (76)</title><desc /></programme><programme start="20261011231500 +0200" stop="20261011232500 +0200" channel="Disney.Junior.dk"><title>Bluey II (77)</title><desc /></programme><programme start="20261011232500 +0200" stop="20261011235000 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (21)</title><desc /></programme><programme start="20261011235000 +0200" stop="20261012001500 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (22)</title><desc /></programme><programme start="20261012001500 +0200" stop="20261012003500 +0200" channel="Disney.Junior.dk"><title>SuperKitties: Su-Purr Charged II (31)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/svZssJM2FbpW0v0O6QbGLpL7rGf.jpg" /></programme><programme start="20261012003500 +0200" stop="20261012005500 +0200" channel="Disney.Junior.dk"><title>SuperKitties: Su-Purr Charged II (32)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/svZssJM2FbpW0v0O6QbGLpL7rGf.jpg" /></programme><programme start="20261012005500 +0200" stop="20261012011500 +0200" channel="Disney.Junior.dk"><title>SuperKitties: Su-Purr Charged II (33)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/svZssJM2FbpW0v0O6QbGLpL7rGf.jpg" /></programme><programme start="20261012011500 +0200" stop="20261012012500 +0200" channel="Disney.Junior.dk"><title>SuperKitties: Su-Purr Charged S2 Splits II (11)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/svZssJM2FbpW0v0O6QbGLpL7rGf.jpg" /></programme><programme start="20261012012500 +0200" stop="20261012015000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends II (50)</title><desc /></programme><programme start="20261012015000 +0200" stop="20261012021500 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends II (51)</title><desc /></programme><programme start="20261012021500 +0200" stop="20261012024000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends II (52)</title><desc /></programme><programme start="20261012024000 +0200" stop="20261012030500 +0200" channel="Disney.Junior.dk"><title>RoboGobo: Season 2 II (31)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/a6ixPC7QmBLRp21VsYBi2dxwGra.jpg" /></programme><programme start="20261012030500 +0200" stop="20261012033000 +0200" channel="Disney.Junior.dk"><title>RoboGobo: Season 2 II (32)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/a6ixPC7QmBLRp21VsYBi2dxwGra.jpg" /></programme><programme start="20261012033000 +0200" stop="20261012035500 +0200" channel="Disney.Junior.dk"><title>Robogobo: Season 1 I (1)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/a6ixPC7QmBLRp21VsYBi2dxwGra.jpg" /></programme><programme start="20261012035500 +0200" stop="20261012040500 +0200" channel="Disney.Junior.dk"><title>Bluey I (42)</title><desc /></programme><programme start="20261012040500 +0200" stop="20261012041000 +0200" channel="Disney.Junior.dk"><title>Bluey I (41)</title><desc /></programme><programme start="20261012041000 +0200" stop="20261012041500 +0200" channel="Disney.Junior.dk"><title>Bluey I (40)</title><desc /></programme><programme start="20261012041500 +0200" stop="20261012042500 +0200" channel="Disney.Junior.dk"><title>Bluey I (39)</title><desc /></programme><programme start="20261012042500 +0200" stop="20261012043000 +0200" channel="Disney.Junior.dk"><title>Bluey I (38)</title><desc /></programme><programme start="20261012043000 +0200" stop="20261012044000 +0200" channel="Disney.Junior.dk"><title>Bluey I (37)</title><desc /></programme><programme start="20261012044000 +0200" stop="20261012045000 +0200" channel="Disney.Junior.dk"><title>Bluey I (36)</title><desc /></programme><programme start="20261012045000 +0200" stop="20261012045500 +0200" channel="Disney.Junior.dk"><title>Bluey I (35)</title><desc /></programme><programme start="20261012045500 +0200" stop="20261012050000 +0200" channel="Disney.Junior.dk"><title>Bluey I (34)</title><desc /></programme><programme start="20261012050000 +0200" stop="20261012050500 +0200" channel="Disney.Junior.dk"><title>Bluey I (33)</title><desc /></programme><programme start="20261012050500 +0200" stop="20261012051000 +0200" channel="Disney.Junior.dk"><title>Bluey I (32)</title><desc /></programme><programme start="20261012051000 +0200" stop="20261012053500 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends II (53)</title><desc /></programme><programme start="20261012053500 +0200" stop="20261012060000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends II (54)</title><desc /></programme><programme start="20261012060000 +0200" stop="20261012062500 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (12)</title><desc /></programme><programme start="20261012062500 +0200" stop="20261012065000 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (1)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261012065000 +0200" stop="20261012071500 +0200" channel="Disney.Junior.dk"><title>SuperKitties: Su-Purr Charged II (49)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/svZssJM2FbpW0v0O6QbGLpL7rGf.jpg" /></programme><programme start="20261012071500 +0200" stop="20261012072500 +0200" channel="Disney.Junior.dk"><title>Bluey II (3)</title><desc /></programme><programme start="20261012072500 +0200" stop="20261012073000 +0200" channel="Disney.Junior.dk"><title>Bluey II (5)</title><desc /></programme><programme start="20261012073000 +0200" stop="20261012074000 +0200" channel="Disney.Junior.dk"><title>Bluey II (7)</title><desc /></programme><programme start="20261012074000 +0200" stop="20261012074500 +0200" channel="Disney.Junior.dk"><title>Bluey II (9)</title><desc /></programme><programme start="20261012074500 +0200" stop="20261012075500 +0200" channel="Disney.Junior.dk"><title>Bluey II (11)</title><desc /></programme><programme start="20261012075500 +0200" stop="20261012080000 +0200" channel="Disney.Junior.dk"><title>Bluey II (65)</title><desc /></programme><programme start="20261012080000 +0200" stop="20261012081000 +0200" channel="Disney.Junior.dk"><title>Bluey II (67)</title><desc /></programme><programme start="20261012081000 +0200" stop="20261012083500 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends II (33)</title><desc /></programme><programme start="20261012083500 +0200" stop="20261012090000 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (2)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261012090000 +0200" stop="20261012092500 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (4)</title><desc /></programme><programme start="20261012092500 +0200" stop="20261012095000 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+: Season 2 II (30)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/m1S0drszN5nhtGpG498so8NjUXv.jpg" /></programme><programme start="20261012095000 +0200" stop="20261012100000 +0200" channel="Disney.Junior.dk"><title>Bluey II (12)</title><desc /></programme><programme start="20261012100000 +0200" stop="20261012100500 +0200" channel="Disney.Junior.dk"><title>Bluey II (11)</title><desc /></programme><programme start="20261012100500 +0200" stop="20261012101500 +0200" channel="Disney.Junior.dk"><title>Bluey II (10)</title><desc /></programme><programme start="20261012101500 +0200" stop="20261012102000 +0200" channel="Disney.Junior.dk"><title>Bluey II (9)</title><desc /></programme><programme start="20261012102000 +0200" stop="20261012102500 +0200" channel="Disney.Junior.dk"><title>Bluey II (8)</title><desc /></programme><programme start="20261012102500 +0200" stop="20261012103500 +0200" channel="Disney.Junior.dk"><title>Bluey II (7)</title><desc /></programme><programme start="20261012103500 +0200" stop="20261012104000 +0200" channel="Disney.Junior.dk"><title>Bluey II (6)</title><desc /></programme><programme start="20261012104000 +0200" stop="20261012104500 +0200" channel="Disney.Junior.dk"><title>Bluey II (5)</title><desc /></programme><programme start="20261012104500 +0200" stop="20261012111000 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (11)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261012111000 +0200" stop="20261012113500 +0200" channel="Disney.Junior.dk"><title>SuperKitties: Su-Purr Charged II (28)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/svZssJM2FbpW0v0O6QbGLpL7rGf.jpg" /></programme><programme start="20261012113500 +0200" stop="20261012115000 +0200" channel="Disney.Junior.dk"><title>Pupstruction: S3 Splits III (73)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/vBv1WPEKZa5ocn26c6RVAD182d8.jpg" /></programme><programme start="20261012115000 +0200" stop="20261012120000 +0200" channel="Disney.Junior.dk"><title>Pupstruction: S3 Splits III (74)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/vBv1WPEKZa5ocn26c6RVAD182d8.jpg" /></programme><programme start="20261012120000 +0200" stop="20261012122500 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends IV (93)</title><desc /></programme><programme start="20261012122500 +0200" stop="20261012123500 +0200" channel="Disney.Junior.dk"><title>Bluey III (139)</title><desc /></programme><programme start="20261012123500 +0200" stop="20261012124000 +0200" channel="Disney.Junior.dk"><title>Bluey II (82)</title><desc /></programme><programme start="20261012124000 +0200" stop="20261012125000 +0200" channel="Disney.Junior.dk"><title>Bluey III (131)</title><desc /></programme><programme start="20261012125000 +0200" stop="20261012125500 +0200" channel="Disney.Junior.dk"><title>Bluey II (83)</title><desc /></programme><programme start="20261012125500 +0200" stop="20261012130500 +0200" channel="Disney.Junior.dk"><title>Bluey III (132)</title><desc /></programme><programme start="20261012130500 +0200" stop="20261012131000 +0200" channel="Disney.Junior.dk"><title>Bluey II (84)</title><desc /></programme><programme start="20261012131000 +0200" stop="20261012132000 +0200" channel="Disney.Junior.dk"><title>Bluey III (133)</title><desc /></programme><programme start="20261012132000 +0200" stop="20261012132500 +0200" channel="Disney.Junior.dk"><title>Bluey I (4)</title><desc /></programme><programme start="20261012132500 +0200" stop="20261012135000 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (19)</title><desc /></programme><programme start="20261012135000 +0200" stop="20261012141500 +0200" channel="Disney.Junior.dk"><title>SuperKitties III (58)</title><desc /></programme><programme start="20261012141500 +0200" stop="20261012144000 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (2)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261012144000 +0200" stop="20261012150500 +0200" channel="Disney.Junior.dk"><title>Iron Man and His Awesome Friends I (26)</title><desc /></programme><programme start="20261012150500 +0200" stop="20261012153000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends III (62)</title><desc /></programme><programme start="20261012153000 +0200" stop="20261012154500 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends: S4 Splits IV (15)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/l9IjbcpfYRZ2wWQOHhmB6Db6qe7.jpg" /></programme><programme start="20261012154500 +0200" stop="20261012155500 +0200" channel="Disney.Junior.dk"><title>Bluey I (5)</title><desc /></programme><programme start="20261012155500 +0200" stop="20261012160000 +0200" channel="Disney.Junior.dk"><title>Bluey I (6)</title><desc /></programme><programme start="20261012160000 +0200" stop="20261012161000 +0200" channel="Disney.Junior.dk"><title>Bluey I (7)</title><desc /></programme><programme start="20261012161000 +0200" stop="20261012161500 +0200" channel="Disney.Junior.dk"><title>Bluey I (8)</title><desc /></programme><programme start="20261012161500 +0200" stop="20261012162500 +0200" channel="Disney.Junior.dk"><title>Bluey I (9)</title><desc /></programme><programme start="20261012162500 +0200" stop="20261012163000 +0200" channel="Disney.Junior.dk"><title>Bluey II (85)</title><desc /></programme><programme start="20261012163000 +0200" stop="20261012164000 +0200" channel="Disney.Junior.dk"><title>Bluey III (134)</title><desc /></programme><programme start="20261012164000 +0200" stop="20261012170500 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+: Season 2 II (31)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/m1S0drszN5nhtGpG498so8NjUXv.jpg" /></programme><programme start="20261012170500 +0200" stop="20261012173000 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (2)</title><desc /></programme><programme start="20261012173000 +0200" stop="20261012175500 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (9)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261012175500 +0200" stop="20261012182000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends I (5)</title><desc /></programme><programme start="20261012182000 +0200" stop="20261012183500 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends: S4 Splits IV (16)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/l9IjbcpfYRZ2wWQOHhmB6Db6qe7.jpg" /></programme><programme start="20261012040000 +0000" stop="20261012042500 +0000" channel="nickelodeonjuniordk.dk"><title>Tim Rex i rummet</title><desc>Tommy er med i et raket-ræs, Tim hjælper sin bror. // Tim underholder Tia, mens Fante er i vaskemaskinen. // Børn bliver forældre og forældre bliver børn.</desc><episode-num system="xmltv_ns">.2.</episode-num></programme>
 <programme start="20261012042500 +0000" stop="20261012044500 +0000" channel="nickelodeonjuniordk.dk"><title>Tim Rex i rummet</title><desc>Tim prøver nogle nye raketstøvler, han slet ikke kan styre. // Tim, Tommy og Tia passer Bronte-søstrenes månepapegøje. // Tim, Tommy og Tia spiller halebold med forældrene.</desc><episode-num system="xmltv_ns">.3.</episode-num></programme>
 <programme start="20261012044500 +0000" stop="20261012051000 +0000" channel="nickelodeonjuniordk.dk"><title>Rubble &amp; Co</title><desc>Rubble og co. vil gerne lave verdens største pandekage. Men der opstår problemer, da Fartmeister også vil vinde konkurrencen. // Camillas fly bliver beskidt af at flyve fugle på træk hjem, så vovserne finder en måde at vaske flyet på ... i luften!</desc><episode-num system="xmltv_ns">.8.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/7m2NrBKnvqMZZ1fytUCmWcAf9xO.jpg" /></programme>
 <programme start="20261012051000 +0000" stop="20261012055500 +0000" channel="nickelodeonjuniordk.dk"><title>Rubble &amp; Co</title><desc>Da Farmer Sonjas dyr står i vejen for skaterdagen, må Rubble og co. finde en opbyggelig løsning. // Halfdan kan risikere at miste sit hotel til Fartmeister, hvis Rubble og co. ikke kan redde hotellet med deres byggeevner.</desc><episode-num system="xmltv_ns">.9.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/7m2NrBKnvqMZZ1fytUCmWcAf9xO.jpg" /></programme>
