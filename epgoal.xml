@@ -571,7 +571,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/jbpd7AwvtwCqFW7B0bXi0IUHYSM.jpg" /></programme>
   <programme start="20261013012500 +0000" stop="20261013015000 +0000" channel="dr1.dk">
     <title lang="da">Drømmen om et liv på landet</title>
     <sub-title lang="da">2 (7:8)</sub-title>
@@ -1737,7 +1737,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/wMkwfA5HrqW45H2XjzTUL79rogB.jpg" /></programme>
   <programme start="20261014010000 +0000" stop="20261014013000 +0000" channel="dr2.dk">
     <title lang="da">Vinterkrigens piloter og dobbeltspioner</title>
     <sub-title lang="da">(3:3)</sub-title>
@@ -1905,7 +1905,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/5yk2JsoObNafsRnZzqGl7eg00g0.jpg" /></programme>
   <programme start="20261014235000 +0000" stop="20261015004000 +0000" channel="dr2.dk">
     <title lang="da">Optimistens guide til planeten</title>
     <sub-title lang="da">2 (4:6)</sub-title>
