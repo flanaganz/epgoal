@@ -1497,7 +1497,7 @@
     <title lang="da">EM bordtennis: Single (m), 1. runde, direkte</title>
     <desc lang="da">Sæson: 2026. 'Single (m), 1. runde'. Både Anders Lind og Jonathan Groth skal i aktion i 1. runde i herresingle ved EM i bordtennis i Ljubljana i Slovenien. Først møder Jonathan Groth tyskeren Wim Verdonschot og derefter skal Anders Lind op imod Panagiotis Gionis fra Grækenland. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    </programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Bordtennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Bordtennis.jpg" /></programme>
   <programme start="20261014144500 +0000" stop="20261014153500 +0000" channel="dr2.dk">
     <title lang="da">På rejse med Griff - Sydstaterne</title>
     <sub-title lang="da">(3:6)</sub-title>
@@ -2085,7 +2085,7 @@
     <title lang="da">EM bordtennis: Single (k+m), kvartfinaler, direkte</title>
     <desc lang="da">Sæson: 2026. 'Single (k+m), kvartfinaler'. Udsendelse af programmet - EM bordtennis. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    </programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Bordtennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Bordtennis.jpg" /></programme>
   <programme start="20261017125000 +0000" stop="20261017131000 +0000" channel="dr2.dk">
     <title lang="da">Der kan man se</title>
     <sub-title lang="da">(14:16)</sub-title>
@@ -2104,7 +2104,7 @@
     <title lang="da">EM bordtennis: Single (k+m), kvartfinaler, direkte</title>
     <desc lang="da">Sæson: 2026. 'Single (k+m), kvartfinaler'. Udsendelse af programmet - EM bordtennis. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    </programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Bordtennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Bordtennis.jpg" /></programme>
   <programme start="20261017165000 +0000" stop="20261017171000 +0000" channel="dr2.dk">
     <title lang="da">Troldspejlet: Odysseens monstre</title>
     <desc lang="da">Sæson: 1. Episode: 9. 'Odysseens monstre'. Odysseen er først og fremmest en monsterfilm, og Christopher Nolans nye version er ingen undtagelse. Jakob Stegelmann ser på Odysseens klassiske monstre og alle de uhyrer i andre film og computerspil, de har inspireret til. Tilladt for: 15.</desc>
@@ -6755,17 +6755,17 @@
     <title lang="da">Optakt til Champions League</title>
     <desc lang="da">Sæson: 2026. Episode: 5. 'Manchester City - Paris Saint - Germain'. Se med, når vi varmer op til den forestående UEFA Champions League-kamp mellem Manchester City og Paris Saint-Germain. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    </programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL.jpg" /></programme>
   <programme start="20261014190000 +0000" stop="20261014210000 +0000" channel="TV3+.dk">
     <title lang="da">UEFA Champions League: Manchester City-Paris SG</title>
     <desc lang="da">Sæson: 2026. Episode: 5. 'Manchester City-Paris SG'. I Champions League-ligaspillets 2. spillerunde tager Manchester City imod Paris SG's regerende mestre. Begge mandskaber vandt deres 1. kamp og er også blandt favoritterne til at gå videre til slutspillet, men i første omgang handler det om at hente point til at slutte i top-8, der giver en plads i 1/8-finalen. Værterne er under et stort pres for tiden efter anklager om økonomisk snyd, mens gæsterne har haft udfordringer i den franske liga, så det tegner tæt. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    </programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL.jpg" /></programme>
   <programme start="20261014210000 +0000" stop="20261014220000 +0000" channel="TV3+.dk">
     <title lang="da">Champions League Goal Show</title>
     <desc lang="da">Sæson: 2026. Episode: 5. 'UEFA Champions League Goalshow'. Vi følger med dybdegående analyser, mål, højdepunkter og reaktioner op på det seneste opgør i UEFA Champions League. Opfølgningen byder også på Goalshow, hvor alle mål fra aftenens kampe vises. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    </programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL%20Goal%20Show.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL%20Goal%20Show.jpg" /></programme>
   <programme start="20261014220000 +0000" stop="20261014230000 +0000" channel="TV3+.dk">
     <title lang="da">SuperligaTilsynet</title>
     <desc lang="da">Sæson: 2027. Episode: 10. 'SuperligaTilsynet'. Fodboldeksperterne Kenneth Emil Petersen og Peter Sørensen er Viaplays selvbestaltede tilsynsmyndighed, som uge efter uge fører kontrol med Superligaens aktører. Tilladt for: A.</desc>
@@ -7829,17 +7829,17 @@
     <title lang="da">Premier League Studie</title>
     <desc lang="da">Sæson: 2026. Episode: 41. 'Brentford - Liverpool'. Se med, når vi varmer op til den forestående Premier League-kamp mellem Brentford og Liverpool. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    </programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL%20studiet.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL%20studiet.jpg" /></programme>
   <programme start="20261017140000 +0000" stop="20261017160000 +0000" channel="TV3+.dk">
     <title lang="da">Premier League: Brentford - Liverpool</title>
     <desc lang="da">Sæson: 2026. Episode: 88. 'Brentford - Liverpool'. Der er lagt op til en spændende Premier League-duel på Brentford Community Stadium, når Brentford tager imod Liverpool i 7. runde. Hjemmeholdet får besøg af de røde fra Merseyside i et opgør med højt tempo og masser af intensitet. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    </programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /></programme>
   <programme start="20261017160000 +0000" stop="20261017163000 +0000" channel="TV3+.dk">
     <title lang="da">Premier League Studie</title>
     <desc lang="da">Sæson: 2026. Episode: 42. 'Brentford - Liverpool'. Se med, når vi følger op på den netop færdigspillede Premier League-kamp mellem Brentford og Liverpool. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    </programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL%20studiet.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL%20studiet.jpg" /></programme>
   <programme start="20261017163000 +0000" stop="20261017190000 +0000" channel="TV3+.dk">
     <title lang="da">Jumanji: The Next Level</title>
     <desc lang="da">'Jumanji: The Next Level'. Da banden vender tilbage til Jumanji for at redde en af deres egne, er intet som forventet. Spillereglerne har ændret sig, og for at flygte, må de forcere ukendte og uopdagede steder. Instruktør: Jake Kasdan. Medvirkende: Dwayne Johnson, Jack Black, Kevin Hart, Karen Gillan. Tilladt for: 11.</desc>
@@ -25225,17 +25225,17 @@
     <title lang="da">UEFA Champions League: Galatasaray-Barcelona</title>
     <desc lang="da">Sæson: 2026. Episode: 51. 'Galatasaray-Barcelona'. I 2. spillerunde i Champions League-ligaspillet får Galatasaray besøg af Barcelona, der desværre fortsat må undvære en skadet Andreas Christensen. Tyrkerne tabte deres 1. kamp, så de har brug for point mod spanierne, som lagde ud med en sikker sejr, og de er også favoritter i Istanbul. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL.jpg" /></programme>
   <programme start="20261014090000 +0000" stop="20261014110000 +0000" channel="tv3sport.dk">
     <title lang="da">UEFA Champions League: Atlético Madrid-Manchester United</title>
     <desc lang="da">Sæson: 2026. Episode: 4. 'Atlético Madrid-Manchester United'. I 2. spillerunde i Champions League-ligaspillet er der spansk-engelsk dyst, når Atlético Madrid tager imod Manchester United. Værterne, som har Morten Hjulmand på holdet, lagde ud med at tabe 1-2 ude til Liverpool, mens gæsterne, der har Patrick Dorgu i truppen, slog Sabah Baku med sikre 4-0 i deres 1. kamp. Atlético Madrid har derfor brug for point, og de er også godt kørende i La Liga, hvor de indtager 2.-pladsen, mens Manchester United har haft det svært i Premier League, hvor de blot er midterhold. Nu gælder det imidlertid Champions League, hvor hjemmestærke Atlético Madrid er favoritter mod Manchester United. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL.jpg" /></programme>
   <programme start="20261014110000 +0000" stop="20261014115500 +0000" channel="tv3sport.dk">
     <title lang="da">Champions League Goal Show</title>
     <desc lang="da">Sæson: 2026. Episode: 4. 'UEFA Champions League Goalshow'. Vi følger med dybdegående analyser, mål, højdepunkter og reaktioner op på det seneste opgør i UEFA Champions League. Opfølgningen byder også på Goalshow, hvor alle mål fra aftenens kampe vises. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://image.tmdb.org/t/p/w1280/5flCamMBIFaiEXhsaowPeRz66Cy.jpg" /><backdrop src="https://image.tmdb.org/t/p/w1280/5flCamMBIFaiEXhsaowPeRz66Cy.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL%20Goal%20Show.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL%20Goal%20Show.jpg" /></programme>
   <programme start="20261014115500 +0000" stop="20261014135500 +0000" channel="tv3sport.dk">
     <title lang="da">UEFA Youth League: Roma - Real Madrid</title>
     <desc lang="da">Sæson: 2026. Episode: 3. 'Roma - Real Madrid'. Der er lagt op til en spændende ungdomsduel på Stadio Tre Fontane, når Roma tager imod Real Madrid i UEFA Youth League. To af Europas store fodboldklubber mødes i en kamp, hvor unge talenter får chancen for at vise sig frem. Tilladt for: A.</desc>
@@ -25255,12 +25255,12 @@
     <title lang="da">UEFA Champions League: LASK Linz-Liverpool</title>
     <desc lang="da">Sæson: 2026. Episode: 53. 'LASK Linz-Liverpool'. I 2. spillerunde i Champions League-ligaspillet får østrigske LASK Linz besøg af Liverpool. Værterne, der har Kasper Jørgensen i truppen, lagde ud med at tabe 0-1 ude til AEK Athen, mens gæsterne slog Atlético Madrid med 2-1, og Liverpool er også favoritter mod LASK Linz. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL.jpg" /></programme>
   <programme start="20261014185500 +0000" stop="20261014210000 +0000" channel="tv3sport.dk">
     <title lang="da">UEFA Champions League: Roma - Real Madrid</title>
     <desc lang="da">Sæson: 2026. Episode: 55. 'Roma - Real Madrid'. Der er lagt op til et europæisk topopgør på Stadio Olimpico, når Roma tager imod Real Madrid i 2. runde af UEFA Champions League. To traditionsrige klubber mødes i en kamp, hvor intensitet, kvalitet og store øjeblikke kan blive afgørende. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL.jpg" /></programme>
   <programme start="20261014210000 +0000" stop="20261014233000 +0000" channel="tv3sport.dk">
     <title lang="da">Champions Hockey League: Herning Blue Fox - Fribourg - Gotteron</title>
     <desc lang="da">Sæson: 2026. Episode: 6. 'Herning Blue Fox - Fribourg - Gotteron'. Der er lagt op til en intens CHL-aften i KVIK Hockey Arena, når Herning Blue Fox tager imod schweiziske Fribourg-Gottéron. Der venter et tempofyldt opgør med masser af fysik, fart og europæisk klasse på isen. Tilladt for: A.</desc>
@@ -25290,37 +25290,37 @@
     <title lang="da">UEFA Champions League: LASK Linz-Liverpool</title>
     <desc lang="da">Sæson: 2026. Episode: 53. 'LASK Linz-Liverpool'. I 2. spillerunde i Champions League-ligaspillet får østrigske LASK Linz besøg af Liverpool. Værterne, der har Kasper Jørgensen i truppen, lagde ud med at tabe 0-1 ude til AEK Athen, mens gæsterne slog Atlético Madrid med 2-1, og Liverpool er også favoritter mod LASK Linz. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL.jpg" /></programme>
   <programme start="20261015090000 +0000" stop="20261015110000 +0000" channel="tv3sport.dk">
     <title lang="da">UEFA Champions League: Aston Villa - Fenerbahce</title>
     <desc lang="da">Sæson: 2026. Episode: 56. 'Aston Villa - Fenerbahce'. Der er lagt op til en spændende aften på Villa Park, når Aston Villa tager imod Fenerbahçe i 2. runde. To traditionsrige klubber mødes i et europæisk opgør, hvor intensitet, tempo og kvalitet bliver afgørende. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL.jpg" /></programme>
   <programme start="20261015110000 +0000" stop="20261015130000 +0000" channel="tv3sport.dk">
     <title lang="da">UEFA Champions League: Roma - Real Madrid</title>
     <desc lang="da">Sæson: 2026. Episode: 55. 'Roma - Real Madrid'. Der er lagt op til et europæisk topopgør på Stadio Olimpico, når Roma tager imod Real Madrid i 2. runde af UEFA Champions League. To traditionsrige klubber mødes i en kamp, hvor intensitet, kvalitet og store øjeblikke kan blive afgørende. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL.jpg" /></programme>
   <programme start="20261015130000 +0000" stop="20261015150000 +0000" channel="tv3sport.dk">
     <title lang="da">UEFA Champions League: Manchester City-Paris SG</title>
     <desc lang="da">Sæson: 2026. Episode: 5. 'Manchester City-Paris SG'. I Champions League-ligaspillets 2. spillerunde tager Manchester City imod Paris SG's regerende mestre. Begge mandskaber vandt deres 1. kamp og er også blandt favoritterne til at gå videre til slutspillet, men i første omgang handler det om at hente point til at slutte i top-8, der giver en plads i 1/8-finalen. Værterne er under et stort pres for tiden efter anklager om økonomisk snyd, mens gæsterne har haft udfordringer i den franske liga, så det tegner tæt. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL.jpg" /></programme>
   <programme start="20261015150000 +0000" stop="20261015160000 +0000" channel="tv3sport.dk">
     <title lang="da">Champions League Goal Show</title>
     <desc lang="da">Sæson: 2026. Episode: 5. 'UEFA Champions League Goalshow'. Vi følger med dybdegående analyser, mål, højdepunkter og reaktioner op på det seneste opgør i UEFA Champions League. Opfølgningen byder også på Goalshow, hvor alle mål fra aftenens kampe vises. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://image.tmdb.org/t/p/w1280/5flCamMBIFaiEXhsaowPeRz66Cy.jpg" /><backdrop src="https://image.tmdb.org/t/p/w1280/5flCamMBIFaiEXhsaowPeRz66Cy.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL%20Goal%20Show.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL%20Goal%20Show.jpg" /></programme>
   <programme start="20261015160000 +0000" stop="20261015175000 +0000" channel="tv3sport.dk">
     <title lang="da">Formel 1: Singapores Grand Prix</title>
     <desc lang="da">Sæson: 2026. Episode: 24. 'Singapores Grand Prix'. Så er det alvor i Singapore, når Formel 1-feltet går på jagt efter sejren i årets Grand Prix. På Marina Bay Street Circuit venter en intens udfordring under lysene, hvor strategi, præcision og fart bliver afgørende. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/F1.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/F1.jpg" /></programme>
   <programme start="20261015175000 +0000" stop="20261015190000 +0000" channel="tv3sport.dk">
     <title lang="da">Formel 1 360°</title>
     <desc lang="da">Sæson: 2026. Episode: 18. 'Formel 1 360° '. Peter Palshøj og eksperterne går i dybden med de største historier efter hvert Formel 1-løb. Du får skarpe vurderinger og analyser, spændende reportager og reaktioner fra kørerne. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://image.tmdb.org/t/p/w1280/uzNsBqsMSkKyL4bbatvCvYYpDOj.jpg" /><backdrop src="https://image.tmdb.org/t/p/w1280/uzNsBqsMSkKyL4bbatvCvYYpDOj.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/360F1.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/360F1.jpg" /></programme>
   <programme start="20261015190000 +0000" stop="20261015200000 +0000" channel="tv3sport.dk">
     <title lang="da">Watt the F1!?</title>
     <desc lang="da">Sæson: 2026. Episode: 29. 'Watt the F1!?'. Formel 1-programmet, hvor Jason Watt giver sit råt for usødede take på ugens mest opsigtsvækkende historier fra motorsportens kongeklasse. Tilladt for: A.</desc>
@@ -25365,12 +25365,12 @@
     <title lang="da">Formel 1: Singapores Grand Prix</title>
     <desc lang="da">Sæson: 2026. Episode: 24. 'Singapores Grand Prix'. Så er det alvor i Singapore, når Formel 1-feltet går på jagt efter sejren i årets Grand Prix. På Marina Bay Street Circuit venter en intens udfordring under lysene, hvor strategi, præcision og fart bliver afgørende. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/F1.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/F1.jpg" /></programme>
   <programme start="20261016085000 +0000" stop="20261016100000 +0000" channel="tv3sport.dk">
     <title lang="da">Formel 1 360°</title>
     <desc lang="da">Sæson: 2026. Episode: 18. 'Formel 1 360° '. Peter Palshøj og eksperterne går i dybden med de største historier efter hvert Formel 1-løb. Du får skarpe vurderinger og analyser, spændende reportager og reaktioner fra kørerne. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://image.tmdb.org/t/p/w1280/uzNsBqsMSkKyL4bbatvCvYYpDOj.jpg" /><backdrop src="https://image.tmdb.org/t/p/w1280/uzNsBqsMSkKyL4bbatvCvYYpDOj.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/360F1.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/360F1.jpg" /></programme>
   <programme start="20261016100000 +0000" stop="20261016110000 +0000" channel="tv3sport.dk">
     <title lang="da">Watt the F1!?</title>
     <desc lang="da">Sæson: 2026. Episode: 29. 'Watt the F1!?'. Formel 1-programmet, hvor Jason Watt giver sit råt for usødede take på ugens mest opsigtsvækkende historier fra motorsportens kongeklasse. Tilladt for: A.</desc>
@@ -25465,7 +25465,7 @@
     <title lang="da">1. Division Studie</title>
     <desc lang="da">Sæson: 26. Episode: 21. 'AaB - Vejle Boldklub'. Se med, når vi varmer op til den forestående Betinia LIGA-kamp mellem AaB og Vejle Boldklub. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/BetiniaStudio.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/BetiniaStudio.jpg" /></programme>
   <programme start="20261017112500 +0000" stop="20261017133000 +0000" channel="tv3sport.dk">
     <title lang="da">Betinia LIGA: AaB - Vejle Boldklub</title>
     <desc lang="da">Sæson: 2026. Episode: 21. 'AaB - Vejle Boldklub'. Der er lagt op til en spændende duel på Aalborg Portland Park, når AaB tager imod Vejle Boldklub i 11. runde af Betinia LIGA. Begge hold jagter vigtige point, og der venter en intens kamp med tempo, dueller og muligheder. Tilladt for: A.</desc>
@@ -25475,7 +25475,7 @@
     <title lang="da">1. Division Studie</title>
     <desc lang="da">Sæson: 26. Episode: 22. 'AaB - Vejle Boldklub'. Se med, når vi følger op på den netop færdigspillede Betinia LIGA-kamp mellem AaB og Vejle Boldklub. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/BetiniaStudio.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/BetiniaStudio.jpg" /></programme>
   <programme start="20261017140000 +0000" stop="20261017151000 +0000" channel="tv3sport.dk">
     <title lang="da">Tøffe vs Graver</title>
     <desc lang="da">Sæson: 2026. Episode: 14. 'Hvem fører guldkampen og Man City straf?'. I dagens episode følger vi op på sæsonens første guldkamp mellem FCM og FCK, og hvem der ligner nu er favoritter til at vinde denne sæson. Derudover vender vi også en eventuel dom til Man City og hvad Tøffe og Graver mener kunne være en passende straf. Tilladt for: A.</desc>
@@ -25495,7 +25495,7 @@
     <title lang="da">EHF Women's Champions League: Odense Håndbold - Györ</title>
     <desc lang="da">Sæson: 2026. Episode: 16. 'Odense Håndbold - Györ'. Der er lagt op til en håndboldfest i Sydbank Arena, når Odense Håndbold tager imod Györ i EHF Champions League. To stærke europæiske mandskaber mødes i et intenst opgør, hvor tempo, fysik og skarphed bliver afgørende. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/EHF%20Mens%20Champions%20League.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/EHF%20Mens%20Champions%20League.jpg" /></programme>
   <programme start="20261017224500 +0000" stop="20261017230500 +0000" channel="tv3sport.dk">
     <title lang="da">Chasing the Dream</title>
     <desc lang="da">Sæson: 8. Episode: 14. 'Chasing The Dream - Season Climax Bonus'. Chasing The Dream - Season Climax Bonus Medvirkende: Charles Leclerc, Pierre Gasly. Tilladt for: A.</desc>
@@ -25504,7 +25504,7 @@
       <actor>Pierre Gasly</actor>
     </credits>
     <category lang="da">Fakta</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/F2_Chasing%20the%20Dream.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/F2_Chasing%20the%20Dream.jpg" /></programme>
   <programme start="20261017230500 +0000" stop="20261018020000 +0000" channel="tv3sport.dk">
     <title lang="da">NHL: Montreal Canadiens - Buffalo Sabres</title>
     <desc lang="da">Sæson: 2026. Episode: 11. 'Montreal Canadiens - Buffalo Sabres'. Montreal Canadiens og Buffalo Sabres mødes i Bell Centre i en duel, der kan byde på masser af fart og intensitet. Hjemmeholdet får opbakningen fra et passioneret publikum, mens Buffalo kommer med ambitioner om at tage point med hjem. Tilladt for: A.</desc>
@@ -25654,12 +25654,12 @@
     <title lang="da">UEFA Champions League: Feyenoord - Como</title>
     <desc lang="da">Sæson: 2026. Episode: 54. 'Feyenoord - Como'. Der er lagt op til en intens europæisk aften på De Kuip, når Feyenoord tager imod Como i 2. runde af UEFA Champions League. Hjemmeholdet får besøg af de italienske gæster i et opgør med tempo, dueller og masser af nerve. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    </programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL.jpg" /></programme>
   <programme start="20261014185500 +0000" stop="20261014210000 +0000" channel="tv3max.dk">
     <title lang="da">UEFA Champions League: Aston Villa - Fenerbahce</title>
     <desc lang="da">Sæson: 2026. Episode: 56. 'Aston Villa - Fenerbahce'. Der er lagt op til en spændende aften på Villa Park, når Aston Villa tager imod Fenerbahçe i 2. runde. To traditionsrige klubber mødes i et europæisk opgør, hvor intensitet, tempo og kvalitet bliver afgørende. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    </programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL.jpg" /></programme>
   <programme start="20261014210000 +0000" stop="20261014220000 +0000" channel="tv3max.dk">
     <title lang="da">Richard Hammond's Workshop</title>
     <desc lang="da">Sæson: 2. Episode: 7. 'Richard Hammond's Workshop'. Teamet er på overarbejde for at gøre deres første store restaurering klar til en artikel i et stort magasin for klassiske biler. Da de går over budgettet, håber Richard, at lidt PR kan dække tabet. Instruktør: Marcus Sulley. Tilladt for: 7.</desc>
@@ -26086,7 +26086,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL%20Weekly.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL%20Weekly.jpg" /></programme>
   <programme start="20261016172500 +0000" stop="20261016182500 +0000" channel="tv3max.dk">
     <title lang="da">Bundesliga Special</title>
     <desc lang="da">Sæson: 2026. Episode: 3. 'Bundesliga Special'. Royal Blue – The Return of Schalke" fortæller den følelsesladede historie om en klub, dens by og dens mennesker. Tilladt for: A.</desc>
@@ -26111,27 +26111,27 @@
     <title lang="da">UEFA Champions League: Atlético Madrid-Manchester United</title>
     <desc lang="da">Sæson: 2026. Episode: 4. 'Atlético Madrid-Manchester United'. I 2. spillerunde i Champions League-ligaspillet er der spansk-engelsk dyst, når Atlético Madrid tager imod Manchester United. Værterne, som har Morten Hjulmand på holdet, lagde ud med at tabe 1-2 ude til Liverpool, mens gæsterne, der har Patrick Dorgu i truppen, slog Sabah Baku med sikre 4-0 i deres 1. kamp. Atlético Madrid har derfor brug for point, og de er også godt kørende i La Liga, hvor de indtager 2.-pladsen, mens Manchester United har haft det svært i Premier League, hvor de blot er midterhold. Nu gælder det imidlertid Champions League, hvor hjemmestærke Atlético Madrid er favoritter mod Manchester United. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    </programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL.jpg" /></programme>
   <programme start="20261017023000 +0000" stop="20261017043000 +0000" channel="tv3max.dk">
     <title lang="da">UEFA Champions League: Manchester City-Paris SG</title>
     <desc lang="da">Sæson: 2026. Episode: 5. 'Manchester City-Paris SG'. I Champions League-ligaspillets 2. spillerunde tager Manchester City imod Paris SG's regerende mestre. Begge mandskaber vandt deres 1. kamp og er også blandt favoritterne til at gå videre til slutspillet, men i første omgang handler det om at hente point til at slutte i top-8, der giver en plads i 1/8-finalen. Værterne er under et stort pres for tiden efter anklager om økonomisk snyd, mens gæsterne har haft udfordringer i den franske liga, så det tegner tæt. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    </programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL.jpg" /></programme>
   <programme start="20261017043000 +0000" stop="20261017063000 +0000" channel="tv3max.dk">
     <title lang="da">UEFA Champions League: Roma - Real Madrid</title>
     <desc lang="da">Sæson: 2026. Episode: 55. 'Roma - Real Madrid'. Der er lagt op til et europæisk topopgør på Stadio Olimpico, når Roma tager imod Real Madrid i 2. runde af UEFA Champions League. To traditionsrige klubber mødes i en kamp, hvor intensitet, kvalitet og store øjeblikke kan blive afgørende. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    </programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL.jpg" /></programme>
   <programme start="20261017063000 +0000" stop="20261017083000 +0000" channel="tv3max.dk">
     <title lang="da">UEFA Champions League: LASK Linz-Liverpool</title>
     <desc lang="da">Sæson: 2026. Episode: 53. 'LASK Linz-Liverpool'. I 2. spillerunde i Champions League-ligaspillet får østrigske LASK Linz besøg af Liverpool. Værterne, der har Kasper Jørgensen i truppen, lagde ud med at tabe 0-1 ude til AEK Athen, mens gæsterne slog Atlético Madrid med 2-1, og Liverpool er også favoritter mod LASK Linz. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    </programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL.jpg" /></programme>
   <programme start="20261017083000 +0000" stop="20261017102500 +0000" channel="tv3max.dk">
     <title lang="da">UEFA Champions League: Manchester City-Paris SG</title>
     <desc lang="da">Sæson: 2026. Episode: 5. 'Manchester City-Paris SG'. I Champions League-ligaspillets 2. spillerunde tager Manchester City imod Paris SG's regerende mestre. Begge mandskaber vandt deres 1. kamp og er også blandt favoritterne til at gå videre til slutspillet, men i første omgang handler det om at hente point til at slutte i top-8, der giver en plads i 1/8-finalen. Værterne er under et stort pres for tiden efter anklager om økonomisk snyd, mens gæsterne har haft udfordringer i den franske liga, så det tegner tæt. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    </programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL.jpg" /></programme>
   <programme start="20261017102500 +0000" stop="20261017105500 +0000" channel="tv3max.dk">
     <title lang="da">Champions League Weekly</title>
     <desc lang="da">Sæson: 2026. Episode: 8. 'UEFA Champions League Weekly '. Få din ugentlige opdatering på verdens største klubturnering. Se med her! Tilladt for: 7.</desc>
@@ -26139,7 +26139,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL%20Weekly.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL%20Weekly.jpg" /></programme>
   <programme start="20261017105500 +0000" stop="20261017112500 +0000" channel="tv3max.dk">
     <title lang="da">Højdepunkter fra EFL Championship</title>
     <desc lang="da">Sæson: 2026. Episode: 7. 'Championship Highlights '. Se de bedste highlights fra den seneste runde af Englands næstbedste fodboldrække lige her! Tilladt for: A.</desc>
@@ -26154,37 +26154,37 @@
     <title lang="da">Premier League: Manchester City - Ipswich</title>
     <desc lang="da">Sæson: 2026. Episode: 96. 'Manchester City - Ipswich'. Der er lagt op til en spændende Premier League-duel på Etihad Stadium, når Manchester City tager imod Ipswich i 7. runde. Hjemmeholdet møder et Ipswich-mandskab, der vil kæmpe for at stå imod, i et opgør med tempo og intensitet. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    </programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /></programme>
   <programme start="20261017162500 +0000" stop="20261017183000 +0000" channel="tv3max.dk">
     <title lang="da">Premier League: Newcastle - Aston Villa</title>
     <desc lang="da">Sæson: 2026. Episode: 97. 'Newcastle - Aston Villa'. Der er lagt op til en intens Premier League-duel på St. James' Park, når Newcastle tager imod Aston Villa i 7. runde. To stærke mandskaber mødes i et opgør med højt tempo, fysisk spil og masser af nerve fra første fløjt. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    </programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /></programme>
   <programme start="20261017183000 +0000" stop="20261017190000 +0000" channel="tv3max.dk">
     <title lang="da">Premier League Studie</title>
     <desc lang="da">Sæson: 2026. Episode: 47. 'Newcastle - Aston Villa'. Se med, når vi følger op på den netop færdigspillede Premier League-kamp mellem Newcastle og Aston Villa. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    </programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL%20studiet.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL%20studiet.jpg" /></programme>
   <programme start="20261017190000 +0000" stop="20261017210000 +0000" channel="tv3max.dk">
     <title lang="da">Premier League: Brentford - Liverpool</title>
     <desc lang="da">Sæson: 2026. Episode: 88. 'Brentford - Liverpool'. Der er lagt op til en spændende Premier League-duel på Brentford Community Stadium, når Brentford tager imod Liverpool i 7. runde. Hjemmeholdet får besøg af de røde fra Merseyside i et opgør med højt tempo og masser af intensitet. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    </programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /></programme>
   <programme start="20261017210000 +0000" stop="20261017230000 +0000" channel="tv3max.dk">
     <title lang="da">Premier League: Manchester City - Ipswich</title>
     <desc lang="da">Sæson: 2026. Episode: 96. 'Manchester City - Ipswich'. Der er lagt op til en spændende Premier League-duel på Etihad Stadium, når Manchester City tager imod Ipswich i 7. runde. Hjemmeholdet møder et Ipswich-mandskab, der vil kæmpe for at stå imod, i et opgør med tempo og intensitet. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    </programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /></programme>
   <programme start="20261017230000 +0000" stop="20261018010000 +0000" channel="tv3max.dk">
     <title lang="da">Premier League: Newcastle - Aston Villa</title>
     <desc lang="da">Sæson: 2026. Episode: 97. 'Newcastle - Aston Villa'. Der er lagt op til en intens Premier League-duel på St. James' Park, når Newcastle tager imod Aston Villa i 7. runde. To stærke mandskaber mødes i et opgør med højt tempo, fysisk spil og masser af nerve fra første fløjt. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    </programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /></programme>
   <programme start="20261018010000 +0000" stop="20261018030000 +0000" channel="tv3max.dk">
     <title lang="da">Premier League: Brentford - Liverpool</title>
     <desc lang="da">Sæson: 2026. Episode: 88. 'Brentford - Liverpool'. Der er lagt op til en spændende Premier League-duel på Brentford Community Stadium, når Brentford tager imod Liverpool i 7. runde. Hjemmeholdet får besøg af de røde fra Merseyside i et opgør med højt tempo og masser af intensitet. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    </programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /></programme>
   <programme start="20261018030000 +0000" stop="20261018040000 +0000" channel="tv3max.dk">
     <title lang="da">Bundesliga Special</title>
     <desc lang="da">Sæson: 2026. Episode: 3. 'Bundesliga Special'. Royal Blue – The Return of Schalke" fortæller den følelsesladede historie om en klub, dens by og dens mennesker. Tilladt for: A.</desc>
@@ -33633,7 +33633,7 @@
     <title lang="da">VM i banecykling, indledende</title>
     <desc lang="da">Sæson: 2026. Episode: 101. 'VM i banecykling, indledende'. Så er det tid til VM i banecykling på den topmoderne Shanghai Velodrome i Kina. Danmark stiller med et stærkt hold på ni ryttere, og der venter masser af fart, taktik og intense dueller på banen. Med seks herrer og tre kvinder til start bliver det spændende at følge de danske ryttere i kampen om medaljerne mod verdenseliten. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /></programme>
   <programme start="20261014034500 +0000" stop="20261014040500 +0000" channel="nicktoons.se">
     <title lang="da">SvampeBob Firkant</title>
     <desc lang="da">Sæson: 7. Episode: 130. 'Fedtede fjolser / Model-svampen'. Hr. Krabbe og Plankton konkurrerer om, hvilken af deres restauranter der har den mest udsøgte mad. // SvampeBob forsøger sig som model i en reklame for køkkensvampe. Instruktør: Vincent Waller. Medvirkende: Dee Bradley Baker, Clancy Brown, Rodger Bumpass, Bill Fagerbakke. Tilladt for: A.</desc>
@@ -41468,17 +41468,17 @@
     <title lang="da">Optakt til Champions League</title>
     <desc lang="da">Sæson: 2026. Episode: 5. 'Manchester City - Paris Saint - Germain'. Se med, når vi varmer op til den forestående UEFA Champions League-kamp mellem Manchester City og Paris Saint-Germain. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg" /><backdrop src="https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL.jpg" /></programme>
   <programme start="20261014185500 +0000" stop="20261014210000 +0000" channel="viaplaysportnews.dk">
     <title lang="da">UEFA Champions League: Bodø/Glimt - Dortmund</title>
     <desc lang="da">Sæson: 2026. Episode: 66. 'Bodø/Glimt - Dortmund'. Der er lagt op til en intens europæisk aften på Aspmyra Stadion, når Bodø/Glimt tager imod Dortmund i 2. runde af UEFA Champions League. Nordmændene får besøg af de tyske gæster i et opgør med højt tempo, stærke dueller og masser af nerve. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg" /><backdrop src="https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL.jpg" /></programme>
   <programme start="20261014210000 +0000" stop="20261014220000 +0000" channel="viaplaysportnews.dk">
     <title lang="da">Champions League Goal Show</title>
     <desc lang="da">Sæson: 2026. Episode: 5. 'UEFA Champions League Goalshow'. Vi følger med dybdegående analyser, mål, højdepunkter og reaktioner op på det seneste opgør i UEFA Champions League. Opfølgningen byder også på Goalshow, hvor alle mål fra aftenens kampe vises. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://image.tmdb.org/t/p/w1280/5flCamMBIFaiEXhsaowPeRz66Cy.jpg" /><backdrop src="https://image.tmdb.org/t/p/w1280/5flCamMBIFaiEXhsaowPeRz66Cy.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL%20Goal%20Show.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/CL%20Goal%20Show.jpg" /></programme>
   <programme start="20261014220000 +0000" stop="20261014230000 +0000" channel="viaplaysportnews.dk">
     <title lang="da">Tøffe vs Graver</title>
     <desc lang="da">Sæson: 2026. Episode: 14. 'Tøffe vs. Graver'. Den gamle landsholdsduo skyder brystet frem og rydder op og regerer i deres helt eget fodboldprogram. Her er bid, smil, meninger, enigheder og uenigheder om det meste. Tilladt for: A.</desc>
@@ -41626,7 +41626,7 @@
     <title lang="da">Sky Sports: Total Football</title>
     <desc lang="da">Sæson: 2026. Episode: 9. 'Total Football'. Total Football dækker hele fodboldverdenen – fra Premier League til de største internationale ligaer. Skarpe analyser, store personligheder og ægte passion for spillet. Alt, du elsker ved fodbold, samlet ét sted. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg" /><backdrop src="https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Totalfodbold.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Totalfodbold.jpg" /></programme>
   <programme start="20261016133000 +0000" stop="20261016163000 +0000" channel="viaplaysportnews.dk">
     <title lang="da">Før Superligaen</title>
     <desc lang="da">Sæson: 2026. Episode: 16. 'Før Superligaen'. Vi giver hele Superligaen en stemme i Danmarks største optakt til den kommende spillerunde i landets bedste række. Tilladt for: A.</desc>
@@ -64196,7 +64196,7 @@
     <title lang="da">VM i banecykling</title>
     <desc lang="da">Sæson: 2026. Episode: 103. 'VM i banecykling'. Så er det tid til VM i banecykling på den topmoderne Shanghai Velodrome i Kina. Danmark stiller med et stærkt hold på ni ryttere, og der venter masser af fart, taktik og intense dueller på banen. Med seks herrer og tre kvinder til start bliver det spændende at følge de danske ryttere i kampen om medaljerne mod verdenseliten. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /></programme>
   <programme start="20261014124000 +0000" stop="20261014140500 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP: Paul-Bergs, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 125. 'ATP: Paul-Bergs, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
@@ -64216,12 +64216,12 @@
     <title lang="da">Fodbold: Tirsdagstrænerne</title>
     <desc lang="da">Sæson: 2026. Episode: 118. 'Fodbold: Tirsdagstrænerne'. Carsten Werge, Dan Hammer og skiftevis Bo Henriksen eller Glen Riddersholm mødes hver uge for at debattere og perspektivere de væsentligste ting i fodboldens forunderlige verden. Panelet har igennem årtier været tæt på spillet både på og udenfor banen - og er klar til at dele ud af deres store viden om aktuelle emner i både 3F Superligaen og fodbolden generelt. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://image.tmdb.org/t/p/w1280/q7hUNnbIlwMKWUFwKqjgOb1IOkQ.jpg" /><backdrop src="https://image.tmdb.org/t/p/w1280/q7hUNnbIlwMKWUFwKqjgOb1IOkQ.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tirsdagstr%C3%A6nerne.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tirsdagstr%C3%A6nerne.jpg" /></programme>
   <programme start="20261014173500 +0000" stop="20261014200500 +0000" channel="tv2sportx.dk">
     <title lang="da">VM i banecykling</title>
     <desc lang="da">Sæson: 2026. Episode: 103. 'VM i banecykling'. Så er det tid til VM i banecykling på den topmoderne Shanghai Velodrome i Kina. Danmark stiller med et stærkt hold på ni ryttere, og der venter masser af fart, taktik og intense dueller på banen. Med seks herrer og tre kvinder til start bliver det spændende at følge de danske ryttere i kampen om medaljerne mod verdenseliten. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /></programme>
   <programme start="20261014200500 +0000" stop="20261015035500 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP: Ruud - Auger-Aliassime, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 123. 'ATP: Ruud - Auger-Aliassime, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
@@ -64231,7 +64231,7 @@
     <title lang="da">VM i banecykling</title>
     <desc lang="da">Sæson: 2026. Episode: 103. 'VM i banecykling'. Så er det tid til VM i banecykling på den topmoderne Shanghai Velodrome i Kina. Danmark stiller med et stærkt hold på ni ryttere, og der venter masser af fart, taktik og intense dueller på banen. Med seks herrer og tre kvinder til start bliver det spændende at følge de danske ryttere i kampen om medaljerne mod verdenseliten. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /></programme>
   <programme start="20261015063000 +0000" stop="20261015090000 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP: Gea-Davidovich Fokina, kvartfinale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 127. 'ATP: Gea-Davidovich Fokina, kvartfinale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
@@ -64241,7 +64241,7 @@
     <title lang="da">VM i banecykling, finaler</title>
     <desc lang="da">Sæson: 2026. Episode: 104. 'VM i banecykling, finaler'. Så er det tid til VM i banecykling på den topmoderne Shanghai Velodrome i Kina. Danmark stiller med et stærkt hold på ni ryttere, og der venter masser af fart, taktik og intense dueller på banen. Med seks herrer og tre kvinder til start bliver det spændende at følge de danske ryttere i kampen om medaljerne mod verdenseliten. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /></programme>
   <programme start="20261015124500 +0000" stop="20261015144500 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP: Zverev-De Minaur, kvartfinale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 128. 'ATP: Zverev-De Minaur, kvartfinale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
@@ -64261,12 +64261,12 @@
     <title lang="da">VM i banecykling, finaler</title>
     <desc lang="da">Sæson: 2026. Episode: 104. 'VM i banecykling, finaler'. Så er det tid til VM i banecykling på den topmoderne Shanghai Velodrome i Kina. Danmark stiller med et stærkt hold på ni ryttere, og der venter masser af fart, taktik og intense dueller på banen. Med seks herrer og tre kvinder til start bliver det spændende at følge de danske ryttere i kampen om medaljerne mod verdenseliten. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /></programme>
   <programme start="20261016022500 +0000" stop="20261016063000 +0000" channel="tv2sportx.dk">
     <title lang="da">VM i banecykling, finaler</title>
     <desc lang="da">Sæson: 2026. Episode: 104. 'VM i banecykling, finaler'. Så er det tid til VM i banecykling på den topmoderne Shanghai Velodrome i Kina. Danmark stiller med et stærkt hold på ni ryttere, og der venter masser af fart, taktik og intense dueller på banen. Med seks herrer og tre kvinder til start bliver det spændende at følge de danske ryttere i kampen om medaljerne mod verdenseliten. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /></programme>
   <programme start="20261016063000 +0000" stop="20261016084500 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP: Kvartfinale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 129. 'ATP: Kvartfinale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
@@ -64276,7 +64276,7 @@
     <title lang="da">VM i banecykling, finaler</title>
     <desc lang="da">Sæson: 2026. Episode: 105. 'VM i banecykling, finaler'. Så er det tid til VM i banecykling på den topmoderne Shanghai Velodrome i Kina. Danmark stiller med et stærkt hold på ni ryttere, og der venter masser af fart, taktik og intense dueller på banen. Med seks herrer og tre kvinder til start bliver det spændende at følge de danske ryttere i kampen om medaljerne mod verdenseliten. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /></programme>
   <programme start="20261016131500 +0000" stop="20261016151500 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP: Kvartfinale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 130. 'ATP: Kvartfinale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
@@ -64306,17 +64306,17 @@
     <title lang="da">VM i banecykling, finaler</title>
     <desc lang="da">Sæson: 2026. Episode: 105. 'VM i banecykling, finaler'. Så er det tid til VM i banecykling på den topmoderne Shanghai Velodrome i Kina. Danmark stiller med et stærkt hold på ni ryttere, og der venter masser af fart, taktik og intense dueller på banen. Med seks herrer og tre kvinder til start bliver det spændende at følge de danske ryttere i kampen om medaljerne mod verdenseliten. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /></programme>
   <programme start="20261017044000 +0000" stop="20261017091500 +0000" channel="tv2sportx.dk">
     <title lang="da">VM i banecykling, finaler</title>
     <desc lang="da">Sæson: 2026. Episode: 105. 'VM i banecykling, finaler'. Så er det tid til VM i banecykling på den topmoderne Shanghai Velodrome i Kina. Danmark stiller med et stærkt hold på ni ryttere, og der venter masser af fart, taktik og intense dueller på banen. Med seks herrer og tre kvinder til start bliver det spændende at følge de danske ryttere i kampen om medaljerne mod verdenseliten. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /></programme>
   <programme start="20261017091500 +0000" stop="20261017105500 +0000" channel="tv2sportx.dk">
     <title lang="da">VM i banecykling, finaler</title>
     <desc lang="da">Sæson: 2026. Episode: 106. 'VM i banecykling, finaler'. Så er det tid til VM i banecykling på den topmoderne Shanghai Velodrome i Kina. Danmark stiller med et stærkt hold på ni ryttere, og der venter masser af fart, taktik og intense dueller på banen. Med seks herrer og tre kvinder til start bliver det spændende at følge de danske ryttere i kampen om medaljerne mod verdenseliten. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /></programme>
   <programme start="20261017105500 +0000" stop="20261017130000 +0000" channel="tv2sportx.dk">
     <title lang="da">A-Liga: Målfesten</title>
     <desc lang="da">Sæson: 2026. Episode: 107. 'A-Liga: Målfesten'. 'Målfesten' giver dig alle mål, chancer og gode historier fra den bedste kvindelige fodboldrække, mens de sker. Vi sender rundt om lørdagens tre tidlige A-Liga-kampe - og vi lover målfest. Tilladt for: A.</desc>
@@ -64356,7 +64356,7 @@
     <title lang="da">VM i banecykling, finaler</title>
     <desc lang="da">Sæson: 2026. Episode: 106. 'VM i banecykling, finaler'. Så er det tid til VM i banecykling på den topmoderne Shanghai Velodrome i Kina. Danmark stiller med et stærkt hold på ni ryttere, og der venter masser af fart, taktik og intense dueller på banen. Med seks herrer og tre kvinder til start bliver det spændende at følge de danske ryttere i kampen om medaljerne mod verdenseliten. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /></programme>
   <programme start="20261014020000 +0000" stop="20261014060000 +0000" channel="viasatultra.dk">
     <title lang="da">Sendeophold</title>
     <desc lang="da">'Sendeophold'. Kanalen sender ikke i øjeblikket. Tilladt for: A.</desc>
