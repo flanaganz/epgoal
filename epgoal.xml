@@ -1466,7 +1466,7 @@
     <sub-title lang="da">(7:7)</sub-title>
     <desc lang="da">Sæson: 1. Episode: 7. 'De kommende generationer'. Kronprins Haakon og kronprinsesse Mette-Marits ældste datter, prinsesse Ingrid Alexandra, har allerede været med sin bedstefar kong Harald på sin første opgave, men modstandere af monarkiet i Norge mener, at det er problematisk at gøre et barn til national maskot. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/hwPv54lz5ZDuRNJZja5IviAW6Ve.jpg" /></programme>
   <programme start="20261014044000 +0000" stop="20261014050000 +0000" channel="dr2.dk">
     <title lang="da">Mens vi venter på at dø - Graver vi et hul</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'Graver vi et hul'. Med udgangspunkt i udtrykket "vi kan lige så godt have det sjovt, når vi alligevel er her" tager vennerne Jørgen Skouboe og John Dahl ud for at dyrke de små drengedrømme, som ellers så ofte drukner i hverdagens travle fornuftsrutiner. I denne uge er John og Jørgen taget ud for at grave et hul, man kan tænke tanker i. Med sig har de sjove anekdoter, gode øl, fin tobak - og ikke mindst masser af vildt og fascinerende grej, som skal prøves af. Tilladt for: A.</desc>
@@ -1889,7 +1889,7 @@
     <sub-title lang="da">(2:4)</sub-title>
     <desc lang="da">Sæson: 1. Episode: 2. 'Ulf Pilgaard fortæller'. Ulf Pilgaard fortæller om en stor periode i dansk revy, der var domineret af Dirch Passer, Jørgen Ryg og Preben Kaas. Der vises klip fra datidens film, teater og tv. Sendt første gang i 1992. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/s4qTwHHjsb9Srs4xXI79am5KQA.jpg" /></programme>
   <programme start="20261016170000 +0000" stop="20261016174000 +0000" channel="dr2.dk">
     <title lang="da">Hvornår var det nu det var</title>
     <sub-title lang="da">(8:17)</sub-title>
@@ -2196,7 +2196,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/m5UM5QjtZES55Cb5ELUZ1r86Oef.jpg" /></programme>
   <programme start="20261018022000 +0000" stop="20261018030500 +0000" channel="dr2.dk">
     <title lang="da">Sandheden om fængselseksperimentet</title>
     <sub-title lang="da">(3:3)</sub-title>
@@ -4413,7 +4413,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/poxeGJtfzgWCuo0LO0FeIDNbc5c.jpg" /></programme>
   <programme start="20261014203500 +0000" stop="20261014212000 +0000" channel="tv2charlie.dk">
     <title lang="da">Doc Martin - byens bedste læge</title>
     <desc lang="da">Sæson: 1. Episode: 9. 'Doc Martin - byens bedste læge'. Martins forældre dukker uventet op i Port Wenn. Martin frygter, at hans far lider af en alvorlig sygdom, men de må alligevel samarbejde om en operation. Tilladt for: 7.</desc>
@@ -5535,7 +5535,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/poxeGJtfzgWCuo0LO0FeIDNbc5c.jpg" /></programme>
   <programme start="20261017175500 +0000" stop="20261017185500 +0000" channel="tv2charlie.dk">
     <title lang="da">Jo færre jo bedre</title>
     <desc lang="da">Sæson: 2. Episode: 11. 'Jo færre jo bedre'. 100 danskere har givet deres bud på karakterer fra tv-serien 'Venner', og nu er det op til dagens tre vennepar at finde de svar, som færrest har gættet på. Vi skal også rundt i landet for at quizze i danske byer på præcis fire bogstaver, og så kommer deltagerne med obskure bud på danske nationalretter. Tilladt for: A.</desc>
@@ -6755,17 +6755,17 @@
     <title lang="da">Optakt til Champions League</title>
     <desc lang="da">Sæson: 2026. Episode: 5. 'Manchester City - Paris Saint - Germain'. Se med, når vi varmer op til den forestående UEFA Champions League-kamp mellem Manchester City og Paris Saint-Germain. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League.jpg" /></programme>
+    </programme>
   <programme start="20261014190000 +0000" stop="20261014210000 +0000" channel="TV3+.dk">
     <title lang="da">UEFA Champions League: Manchester City-Paris SG</title>
     <desc lang="da">Sæson: 2026. Episode: 5. 'Manchester City-Paris SG'. I Champions League-ligaspillets 2. spillerunde tager Manchester City imod Paris SG's regerende mestre. Begge mandskaber vandt deres 1. kamp og er også blandt favoritterne til at gå videre til slutspillet, men i første omgang handler det om at hente point til at slutte i top-8, der giver en plads i 1/8-finalen. Værterne er under et stort pres for tiden efter anklager om økonomisk snyd, mens gæsterne har haft udfordringer i den franske liga, så det tegner tæt. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League.jpg" /></programme>
+    </programme>
   <programme start="20261014210000 +0000" stop="20261014220000 +0000" channel="TV3+.dk">
     <title lang="da">Champions League Goal Show</title>
     <desc lang="da">Sæson: 2026. Episode: 5. 'UEFA Champions League Goalshow'. Vi følger med dybdegående analyser, mål, højdepunkter og reaktioner op på det seneste opgør i UEFA Champions League. Opfølgningen byder også på Goalshow, hvor alle mål fra aftenens kampe vises. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/UEFA%20Champions%20League%20Goal%20Show.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/UEFA%20Champions%20League%20Goal%20Show.jpg" /></programme>
+    </programme>
   <programme start="20261014220000 +0000" stop="20261014230000 +0000" channel="TV3+.dk">
     <title lang="da">SuperligaTilsynet</title>
     <desc lang="da">Sæson: 2027. Episode: 10. 'SuperligaTilsynet'. Fodboldeksperterne Kenneth Emil Petersen og Peter Sørensen er Viaplays selvbestaltede tilsynsmyndighed, som uge efter uge fører kontrol med Superligaens aktører. Tilladt for: A.</desc>
@@ -7624,7 +7624,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Sky%20Sports%20Deadline%20Day.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Sky%20Sports%20Deadline%20Day.jpg" /></programme>
+  </programme>
   <programme start="20261017040000 +0000" stop="20261017043000 +0000" channel="TV3+.dk">
     <title lang="da">Shipping Wars</title>
     <desc lang="da">Sæson: 6. Episode: 8. 'Smooth Sailin', Rough Ridin''. Marc står i spidsen for at relancere en massiv hjemmelavet husbåd, men familiens historie og Marcs stormfulde attitude truer med at ødelægge projektet, før det overhovedet kommer i vandet. I mellemtiden møder Jarrett sin ligemand, da en bizar last ledsages af en endnu mere bizar rejsekammerat. Medvirkende: Bill Lloyd. Tilladt for: 7.</desc>
@@ -7829,17 +7829,17 @@
     <title lang="da">Premier League Studie</title>
     <desc lang="da">Sæson: 2026. Episode: 41. 'Brentford - Liverpool'. Se med, når vi varmer op til den forestående Premier League-kamp mellem Brentford og Liverpool. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League%20Studie.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League%20Studie.jpg" /></programme>
+    </programme>
   <programme start="20261017140000 +0000" stop="20261017160000 +0000" channel="TV3+.dk">
     <title lang="da">Premier League: Brentford - Liverpool</title>
     <desc lang="da">Sæson: 2026. Episode: 88. 'Brentford - Liverpool'. Der er lagt op til en spændende Premier League-duel på Brentford Community Stadium, når Brentford tager imod Liverpool i 7. runde. Hjemmeholdet får besøg af de røde fra Merseyside i et opgør med højt tempo og masser af intensitet. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /></programme>
+    </programme>
   <programme start="20261017160000 +0000" stop="20261017163000 +0000" channel="TV3+.dk">
     <title lang="da">Premier League Studie</title>
     <desc lang="da">Sæson: 2026. Episode: 42. 'Brentford - Liverpool'. Se med, når vi følger op på den netop færdigspillede Premier League-kamp mellem Brentford og Liverpool. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League%20Studie.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League%20Studie.jpg" /></programme>
+    </programme>
   <programme start="20261017163000 +0000" stop="20261017190000 +0000" channel="TV3+.dk">
     <title lang="da">Jumanji: The Next Level</title>
     <desc lang="da">'Jumanji: The Next Level'. Da banden vender tilbage til Jumanji for at redde en af deres egne, er intet som forventet. Spillereglerne har ændret sig, og for at flygte, må de forcere ukendte og uopdagede steder. Instruktør: Jake Kasdan. Medvirkende: Dwayne Johnson, Jack Black, Kevin Hart, Karen Gillan. Tilladt for: 11.</desc>
@@ -25225,17 +25225,17 @@
     <title lang="da">UEFA Champions League: Galatasaray-Barcelona</title>
     <desc lang="da">Sæson: 2026. Episode: 51. 'Galatasaray-Barcelona'. I 2. spillerunde i Champions League-ligaspillet får Galatasaray besøg af Barcelona, der desværre fortsat må undvære en skadet Andreas Christensen. Tyrkerne tabte deres 1. kamp, så de har brug for point mod spanierne, som lagde ud med en sikker sejr, og de er også favoritter i Istanbul. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /></programme>
   <programme start="20261014090000 +0000" stop="20261014110000 +0000" channel="tv3sport.dk">
     <title lang="da">UEFA Champions League: Atlético Madrid-Manchester United</title>
     <desc lang="da">Sæson: 2026. Episode: 4. 'Atlético Madrid-Manchester United'. I 2. spillerunde i Champions League-ligaspillet er der spansk-engelsk dyst, når Atlético Madrid tager imod Manchester United. Værterne, som har Morten Hjulmand på holdet, lagde ud med at tabe 1-2 ude til Liverpool, mens gæsterne, der har Patrick Dorgu i truppen, slog Sabah Baku med sikre 4-0 i deres 1. kamp. Atlético Madrid har derfor brug for point, og de er også godt kørende i La Liga, hvor de indtager 2.-pladsen, mens Manchester United har haft det svært i Premier League, hvor de blot er midterhold. Nu gælder det imidlertid Champions League, hvor hjemmestærke Atlético Madrid er favoritter mod Manchester United. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /></programme>
   <programme start="20261014110000 +0000" stop="20261014115500 +0000" channel="tv3sport.dk">
     <title lang="da">Champions League Goal Show</title>
     <desc lang="da">Sæson: 2026. Episode: 4. 'UEFA Champions League Goalshow'. Vi følger med dybdegående analyser, mål, højdepunkter og reaktioner op på det seneste opgør i UEFA Champions League. Opfølgningen byder også på Goalshow, hvor alle mål fra aftenens kampe vises. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/UEFA%20Champions%20League%20Goal%20Show.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/UEFA%20Champions%20League%20Goal%20Show.jpg" /></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/5flCamMBIFaiEXhsaowPeRz66Cy.jpg" /><backdrop src="https://image.tmdb.org/t/p/w1280/5flCamMBIFaiEXhsaowPeRz66Cy.jpg" /></programme>
   <programme start="20261014115500 +0000" stop="20261014135500 +0000" channel="tv3sport.dk">
     <title lang="da">UEFA Youth League: Roma - Real Madrid</title>
     <desc lang="da">Sæson: 2026. Episode: 3. 'Roma - Real Madrid'. Der er lagt op til en spændende ungdomsduel på Stadio Tre Fontane, når Roma tager imod Real Madrid i UEFA Youth League. To af Europas store fodboldklubber mødes i en kamp, hvor unge talenter får chancen for at vise sig frem. Tilladt for: A.</desc>
@@ -25250,17 +25250,17 @@
     <title lang="da">Premier League Stories</title>
     <desc lang="da">Sæson: 2025. Episode: 1. 'Juan Mata'. Vi møder Juan Mata i Australien, hvor den tidligere Premier League-stjerne nu spiller for Western Sydney Wanderers. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg" /></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/yGDqJESqgXgFfVFJTazskzjk7xg.jpg" /><backdrop src="https://image.tmdb.org/t/p/w1280/yGDqJESqgXgFfVFJTazskzjk7xg.jpg" /></programme>
   <programme start="20261014164000 +0000" stop="20261014185500 +0000" channel="tv3sport.dk">
     <title lang="da">UEFA Champions League: LASK Linz-Liverpool</title>
     <desc lang="da">Sæson: 2026. Episode: 53. 'LASK Linz-Liverpool'. I 2. spillerunde i Champions League-ligaspillet får østrigske LASK Linz besøg af Liverpool. Værterne, der har Kasper Jørgensen i truppen, lagde ud med at tabe 0-1 ude til AEK Athen, mens gæsterne slog Atlético Madrid med 2-1, og Liverpool er også favoritter mod LASK Linz. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /></programme>
   <programme start="20261014185500 +0000" stop="20261014210000 +0000" channel="tv3sport.dk">
     <title lang="da">UEFA Champions League: Roma - Real Madrid</title>
     <desc lang="da">Sæson: 2026. Episode: 55. 'Roma - Real Madrid'. Der er lagt op til et europæisk topopgør på Stadio Olimpico, når Roma tager imod Real Madrid i 2. runde af UEFA Champions League. To traditionsrige klubber mødes i en kamp, hvor intensitet, kvalitet og store øjeblikke kan blive afgørende. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /></programme>
   <programme start="20261014210000 +0000" stop="20261014233000 +0000" channel="tv3sport.dk">
     <title lang="da">Champions Hockey League: Herning Blue Fox - Fribourg - Gotteron</title>
     <desc lang="da">Sæson: 2026. Episode: 6. 'Herning Blue Fox - Fribourg - Gotteron'. Der er lagt op til en intens CHL-aften i KVIK Hockey Arena, når Herning Blue Fox tager imod schweiziske Fribourg-Gottéron. Der venter et tempofyldt opgør med masser af fysik, fart og europæisk klasse på isen. Tilladt for: A.</desc>
@@ -25290,37 +25290,37 @@
     <title lang="da">UEFA Champions League: LASK Linz-Liverpool</title>
     <desc lang="da">Sæson: 2026. Episode: 53. 'LASK Linz-Liverpool'. I 2. spillerunde i Champions League-ligaspillet får østrigske LASK Linz besøg af Liverpool. Værterne, der har Kasper Jørgensen i truppen, lagde ud med at tabe 0-1 ude til AEK Athen, mens gæsterne slog Atlético Madrid med 2-1, og Liverpool er også favoritter mod LASK Linz. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /></programme>
   <programme start="20261015090000 +0000" stop="20261015110000 +0000" channel="tv3sport.dk">
     <title lang="da">UEFA Champions League: Aston Villa - Fenerbahce</title>
     <desc lang="da">Sæson: 2026. Episode: 56. 'Aston Villa - Fenerbahce'. Der er lagt op til en spændende aften på Villa Park, når Aston Villa tager imod Fenerbahçe i 2. runde. To traditionsrige klubber mødes i et europæisk opgør, hvor intensitet, tempo og kvalitet bliver afgørende. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /></programme>
   <programme start="20261015110000 +0000" stop="20261015130000 +0000" channel="tv3sport.dk">
     <title lang="da">UEFA Champions League: Roma - Real Madrid</title>
     <desc lang="da">Sæson: 2026. Episode: 55. 'Roma - Real Madrid'. Der er lagt op til et europæisk topopgør på Stadio Olimpico, når Roma tager imod Real Madrid i 2. runde af UEFA Champions League. To traditionsrige klubber mødes i en kamp, hvor intensitet, kvalitet og store øjeblikke kan blive afgørende. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /></programme>
   <programme start="20261015130000 +0000" stop="20261015150000 +0000" channel="tv3sport.dk">
     <title lang="da">UEFA Champions League: Manchester City-Paris SG</title>
     <desc lang="da">Sæson: 2026. Episode: 5. 'Manchester City-Paris SG'. I Champions League-ligaspillets 2. spillerunde tager Manchester City imod Paris SG's regerende mestre. Begge mandskaber vandt deres 1. kamp og er også blandt favoritterne til at gå videre til slutspillet, men i første omgang handler det om at hente point til at slutte i top-8, der giver en plads i 1/8-finalen. Værterne er under et stort pres for tiden efter anklager om økonomisk snyd, mens gæsterne har haft udfordringer i den franske liga, så det tegner tæt. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /></programme>
   <programme start="20261015150000 +0000" stop="20261015160000 +0000" channel="tv3sport.dk">
     <title lang="da">Champions League Goal Show</title>
     <desc lang="da">Sæson: 2026. Episode: 5. 'UEFA Champions League Goalshow'. Vi følger med dybdegående analyser, mål, højdepunkter og reaktioner op på det seneste opgør i UEFA Champions League. Opfølgningen byder også på Goalshow, hvor alle mål fra aftenens kampe vises. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/UEFA%20Champions%20League%20Goal%20Show.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/UEFA%20Champions%20League%20Goal%20Show.jpg" /></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/5flCamMBIFaiEXhsaowPeRz66Cy.jpg" /><backdrop src="https://image.tmdb.org/t/p/w1280/5flCamMBIFaiEXhsaowPeRz66Cy.jpg" /></programme>
   <programme start="20261015160000 +0000" stop="20261015175000 +0000" channel="tv3sport.dk">
     <title lang="da">Formel 1: Singapores Grand Prix</title>
     <desc lang="da">Sæson: 2026. Episode: 24. 'Singapores Grand Prix'. Så er det alvor i Singapore, når Formel 1-feltet går på jagt efter sejren i årets Grand Prix. På Marina Bay Street Circuit venter en intens udfordring under lysene, hvor strategi, præcision og fart bliver afgørende. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Formel%201.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Formel%201.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /></programme>
   <programme start="20261015175000 +0000" stop="20261015190000 +0000" channel="tv3sport.dk">
     <title lang="da">Formel 1 360°</title>
     <desc lang="da">Sæson: 2026. Episode: 18. 'Formel 1 360° '. Peter Palshøj og eksperterne går i dybden med de største historier efter hvert Formel 1-løb. Du får skarpe vurderinger og analyser, spændende reportager og reaktioner fra kørerne. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://image.tmdb.org/t/p/original/uzNsBqsMSkKyL4bbatvCvYYpDOj.jpg" /><backdrop src="https://image.tmdb.org/t/p/original/uzNsBqsMSkKyL4bbatvCvYYpDOj.jpg" /></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/uzNsBqsMSkKyL4bbatvCvYYpDOj.jpg" /><backdrop src="https://image.tmdb.org/t/p/w1280/uzNsBqsMSkKyL4bbatvCvYYpDOj.jpg" /></programme>
   <programme start="20261015190000 +0000" stop="20261015200000 +0000" channel="tv3sport.dk">
     <title lang="da">Watt the F1!?</title>
     <desc lang="da">Sæson: 2026. Episode: 29. 'Watt the F1!?'. Formel 1-programmet, hvor Jason Watt giver sit råt for usødede take på ugens mest opsigtsvækkende historier fra motorsportens kongeklasse. Tilladt for: A.</desc>
@@ -25365,12 +25365,12 @@
     <title lang="da">Formel 1: Singapores Grand Prix</title>
     <desc lang="da">Sæson: 2026. Episode: 24. 'Singapores Grand Prix'. Så er det alvor i Singapore, når Formel 1-feltet går på jagt efter sejren i årets Grand Prix. På Marina Bay Street Circuit venter en intens udfordring under lysene, hvor strategi, præcision og fart bliver afgørende. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Formel%201.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Formel%201.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /></programme>
   <programme start="20261016085000 +0000" stop="20261016100000 +0000" channel="tv3sport.dk">
     <title lang="da">Formel 1 360°</title>
     <desc lang="da">Sæson: 2026. Episode: 18. 'Formel 1 360° '. Peter Palshøj og eksperterne går i dybden med de største historier efter hvert Formel 1-løb. Du får skarpe vurderinger og analyser, spændende reportager og reaktioner fra kørerne. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://image.tmdb.org/t/p/original/uzNsBqsMSkKyL4bbatvCvYYpDOj.jpg" /><backdrop src="https://image.tmdb.org/t/p/original/uzNsBqsMSkKyL4bbatvCvYYpDOj.jpg" /></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/uzNsBqsMSkKyL4bbatvCvYYpDOj.jpg" /><backdrop src="https://image.tmdb.org/t/p/w1280/uzNsBqsMSkKyL4bbatvCvYYpDOj.jpg" /></programme>
   <programme start="20261016100000 +0000" stop="20261016110000 +0000" channel="tv3sport.dk">
     <title lang="da">Watt the F1!?</title>
     <desc lang="da">Sæson: 2026. Episode: 29. 'Watt the F1!?'. Formel 1-programmet, hvor Jason Watt giver sit råt for usødede take på ugens mest opsigtsvækkende historier fra motorsportens kongeklasse. Tilladt for: A.</desc>
@@ -25380,7 +25380,7 @@
     <title lang="da">PDC European Tour</title>
     <desc lang="da">Sæson: 2026. Episode: 66. 'Dutch Darts Championship'. Der er lagt op til dart i verdensklasse, når Dutch Darts Championship rammer MECC Maastricht. De bedste spillere står klar til en intens turnering, hvor præcision, nerver og stærke lukninger kan blive afgørende i jagten på titlen. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PDC%20World%20Series%20of%20Darts2.JPG" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PDC%20World%20Series%20of%20Darts2.JPG" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PDC%20European%20Tour.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PDC%20European%20Tour.jpg" /></programme>
   <programme start="20261016150000 +0000" stop="20261016153000 +0000" channel="tv3sport.dk">
     <title lang="da">Betinia LIGA Magasinet</title>
     <desc lang="da">Sæson: 2026. Episode: 10. 'Betinia LIGA Magasinet '. Glæd dig til at se alle mål samt de største højdepunkter fra den seneste runde i Betinia LIGA, Danmarks næstbedste fodboldrække, når vi har Betinia LIGA Magasinet på programmet. Tilladt for: A.</desc>
@@ -25410,7 +25410,7 @@
     <title lang="da">PDC European Tour</title>
     <desc lang="da">Sæson: 2026. Episode: 67. 'Dutch Darts Championship'. Der er lagt op til dart i verdensklasse, når Dutch Darts Championship rammer MECC Maastricht. De bedste spillere står klar til en intens turnering, hvor præcision, nerver og stærke lukninger kan blive afgørende i jagten på titlen. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PDC%20World%20Series%20of%20Darts2.JPG" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PDC%20World%20Series%20of%20Darts2.JPG" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PDC%20European%20Tour.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PDC%20European%20Tour.jpg" /></programme>
   <programme start="20261016210000 +0000" stop="20261016220000 +0000" channel="tv3sport.dk">
     <title lang="da">Let’s Be Frank</title>
     <desc lang="da">Sæson: 2026. Episode: 8. 'Let's be Frank'. Hvis du elsker Premier League lige så meget som Simo og Helmy, så er “Let’s be Frank” programmet for dig. Hver uge bliver de største - og sjoveste - historier fra verdens bedste liga vendt med højt humør og et glimt i øjet. Tilladt for: A.</desc>
@@ -25465,7 +25465,7 @@
     <title lang="da">1. Division Studie</title>
     <desc lang="da">Sæson: 26. Episode: 21. 'AaB - Vejle Boldklub'. Se med, når vi varmer op til den forestående Betinia LIGA-kamp mellem AaB og Vejle Boldklub. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/BetiniaStudio.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/BetiniaStudio.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /></programme>
   <programme start="20261017112500 +0000" stop="20261017133000 +0000" channel="tv3sport.dk">
     <title lang="da">Betinia LIGA: AaB - Vejle Boldklub</title>
     <desc lang="da">Sæson: 2026. Episode: 21. 'AaB - Vejle Boldklub'. Der er lagt op til en spændende duel på Aalborg Portland Park, når AaB tager imod Vejle Boldklub i 11. runde af Betinia LIGA. Begge hold jagter vigtige point, og der venter en intens kamp med tempo, dueller og muligheder. Tilladt for: A.</desc>
@@ -25475,7 +25475,7 @@
     <title lang="da">1. Division Studie</title>
     <desc lang="da">Sæson: 26. Episode: 22. 'AaB - Vejle Boldklub'. Se med, når vi følger op på den netop færdigspillede Betinia LIGA-kamp mellem AaB og Vejle Boldklub. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/BetiniaStudio.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/BetiniaStudio.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /></programme>
   <programme start="20261017140000 +0000" stop="20261017151000 +0000" channel="tv3sport.dk">
     <title lang="da">Tøffe vs Graver</title>
     <desc lang="da">Sæson: 2026. Episode: 14. 'Hvem fører guldkampen og Man City straf?'. I dagens episode følger vi op på sæsonens første guldkamp mellem FCM og FCK, og hvem der ligner nu er favoritter til at vinde denne sæson. Derudover vender vi også en eventuel dom til Man City og hvad Tøffe og Graver mener kunne være en passende straf. Tilladt for: A.</desc>
@@ -25485,17 +25485,17 @@
     <title lang="da">Ligue 1: Strasbourg - Paris Saint - Germain</title>
     <desc lang="da">Sæson: 2026. Episode: 9. 'Strasbourg - Paris Saint - Germain'. Der er lagt op til en spændende Ligue 1-duel på Stade de la Meinau, når Strasbourg tager imod Paris Saint-Germain i 7. runde. Hjemmeholdet får besøg af de franske mestre i en kamp, hvor tempo, intensitet og skarphed kan blive afgørende. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Ligue%201_2.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Ligue%201_2.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Ligue1.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Ligue1.jpg" /></programme>
   <programme start="20261017171500 +0000" stop="20261017210000 +0000" channel="tv3sport.dk">
     <title lang="da">PDC European Tour</title>
     <desc lang="da">Sæson: 2026. Episode: 68. 'Dutch Darts Championship'. Der er lagt op til dart i verdensklasse, når Dutch Darts Championship rammer MECC Maastricht. De bedste spillere står klar til en intens turnering, hvor præcision, nerver og stærke lukninger kan blive afgørende i jagten på titlen. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PDC%20World%20Series%20of%20Darts2.JPG" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PDC%20World%20Series%20of%20Darts2.JPG" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PDC%20European%20Tour.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PDC%20European%20Tour.jpg" /></programme>
   <programme start="20261017210000 +0000" stop="20261017224500 +0000" channel="tv3sport.dk">
     <title lang="da">EHF Women's Champions League: Odense Håndbold - Györ</title>
     <desc lang="da">Sæson: 2026. Episode: 16. 'Odense Håndbold - Györ'. Der er lagt op til en håndboldfest i Sydbank Arena, når Odense Håndbold tager imod Györ i EHF Champions League. To stærke europæiske mandskaber mødes i et intenst opgør, hvor tempo, fysik og skarphed bliver afgørende. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/EHF%20Mens%20Champions%20League.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/EHF%20Mens%20Champions%20League.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /></programme>
   <programme start="20261017224500 +0000" stop="20261017230500 +0000" channel="tv3sport.dk">
     <title lang="da">Chasing the Dream</title>
     <desc lang="da">Sæson: 8. Episode: 14. 'Chasing The Dream - Season Climax Bonus'. Chasing The Dream - Season Climax Bonus Medvirkende: Charles Leclerc, Pierre Gasly. Tilladt for: A.</desc>
@@ -25504,7 +25504,7 @@
       <actor>Pierre Gasly</actor>
     </credits>
     <category lang="da">Fakta</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/TMDb" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/TMDb" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /></programme>
   <programme start="20261017230500 +0000" stop="20261018020000 +0000" channel="tv3sport.dk">
     <title lang="da">NHL: Montreal Canadiens - Buffalo Sabres</title>
     <desc lang="da">Sæson: 2026. Episode: 11. 'Montreal Canadiens - Buffalo Sabres'. Montreal Canadiens og Buffalo Sabres mødes i Bell Centre i en duel, der kan byde på masser af fart og intensitet. Hjemmeholdet får opbakningen fra et passioneret publikum, mens Buffalo kommer med ambitioner om at tage point med hjem. Tilladt for: A.</desc>
@@ -25654,12 +25654,12 @@
     <title lang="da">UEFA Champions League: Feyenoord - Como</title>
     <desc lang="da">Sæson: 2026. Episode: 54. 'Feyenoord - Como'. Der er lagt op til en intens europæisk aften på De Kuip, når Feyenoord tager imod Como i 2. runde af UEFA Champions League. Hjemmeholdet får besøg af de italienske gæster i et opgør med tempo, dueller og masser af nerve. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League.jpg" /></programme>
+    </programme>
   <programme start="20261014185500 +0000" stop="20261014210000 +0000" channel="tv3max.dk">
     <title lang="da">UEFA Champions League: Aston Villa - Fenerbahce</title>
     <desc lang="da">Sæson: 2026. Episode: 56. 'Aston Villa - Fenerbahce'. Der er lagt op til en spændende aften på Villa Park, når Aston Villa tager imod Fenerbahçe i 2. runde. To traditionsrige klubber mødes i et europæisk opgør, hvor intensitet, tempo og kvalitet bliver afgørende. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League.jpg" /></programme>
+    </programme>
   <programme start="20261014210000 +0000" stop="20261014220000 +0000" channel="tv3max.dk">
     <title lang="da">Richard Hammond's Workshop</title>
     <desc lang="da">Sæson: 2. Episode: 7. 'Richard Hammond's Workshop'. Teamet er på overarbejde for at gøre deres første store restaurering klar til en artikel i et stort magasin for klassiske biler. Da de går over budgettet, håber Richard, at lidt PR kan dække tabet. Instruktør: Marcus Sulley. Tilladt for: 7.</desc>
@@ -26086,7 +26086,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League%20Weekly.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League%20Weekly.jpg" /></programme>
+  </programme>
   <programme start="20261016172500 +0000" stop="20261016182500 +0000" channel="tv3max.dk">
     <title lang="da">Bundesliga Special</title>
     <desc lang="da">Sæson: 2026. Episode: 3. 'Bundesliga Special'. Royal Blue – The Return of Schalke" fortæller den følelsesladede historie om en klub, dens by og dens mennesker. Tilladt for: A.</desc>
@@ -26096,7 +26096,7 @@
     <title lang="da">Bundesliga Fodbold: Frankfurt - FC Köln</title>
     <desc lang="da">Sæson: 26. Episode: 53. 'Frankfurt - FC Köln'. Der er lagt op til en intens Bundesliga-duel på Deutsche Bank Park, når Frankfurt tager imod FC Köln i 6. runde. Begge hold jagter vigtige point i et opgør, hvor tempo, fysik og skarphed kan blive afgørende fra første fløjt. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Bundesliga_3.JPG" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Bundesliga_3.JPG" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Bundesliga.JPG" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Bundesliga.JPG" /></programme>
   <programme start="20261016203000 +0000" stop="20261016223000 +0000" channel="tv3max.dk">
     <title lang="da">3F Superliga: AC Horsens - Randers FC</title>
     <desc lang="da">Sæson: 26. Episode: 54. 'AC Horsens - Randers FC'. Der er lagt op til en intens Superliga-duel på Hybel Arena Horsens, når AC Horsens tager imod Randers FC i 11. runde. Begge hold jagter vigtige point, og der venter en kamp med tempo, dueller og masser af spænding. Tilladt for: A.</desc>
@@ -26106,32 +26106,32 @@
     <title lang="da">Bundesliga Fodbold: Frankfurt - FC Köln</title>
     <desc lang="da">Sæson: 26. Episode: 53. 'Frankfurt - FC Köln'. Der er lagt op til en intens Bundesliga-duel på Deutsche Bank Park, når Frankfurt tager imod FC Köln i 6. runde. Begge hold jagter vigtige point i et opgør, hvor tempo, fysik og skarphed kan blive afgørende fra første fløjt. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Bundesliga_3.JPG" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Bundesliga_3.JPG" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Bundesliga.JPG" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Bundesliga.JPG" /></programme>
   <programme start="20261017003000 +0000" stop="20261017023000 +0000" channel="tv3max.dk">
     <title lang="da">UEFA Champions League: Atlético Madrid-Manchester United</title>
     <desc lang="da">Sæson: 2026. Episode: 4. 'Atlético Madrid-Manchester United'. I 2. spillerunde i Champions League-ligaspillet er der spansk-engelsk dyst, når Atlético Madrid tager imod Manchester United. Værterne, som har Morten Hjulmand på holdet, lagde ud med at tabe 1-2 ude til Liverpool, mens gæsterne, der har Patrick Dorgu i truppen, slog Sabah Baku med sikre 4-0 i deres 1. kamp. Atlético Madrid har derfor brug for point, og de er også godt kørende i La Liga, hvor de indtager 2.-pladsen, mens Manchester United har haft det svært i Premier League, hvor de blot er midterhold. Nu gælder det imidlertid Champions League, hvor hjemmestærke Atlético Madrid er favoritter mod Manchester United. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League.jpg" /></programme>
+    </programme>
   <programme start="20261017023000 +0000" stop="20261017043000 +0000" channel="tv3max.dk">
     <title lang="da">UEFA Champions League: Manchester City-Paris SG</title>
     <desc lang="da">Sæson: 2026. Episode: 5. 'Manchester City-Paris SG'. I Champions League-ligaspillets 2. spillerunde tager Manchester City imod Paris SG's regerende mestre. Begge mandskaber vandt deres 1. kamp og er også blandt favoritterne til at gå videre til slutspillet, men i første omgang handler det om at hente point til at slutte i top-8, der giver en plads i 1/8-finalen. Værterne er under et stort pres for tiden efter anklager om økonomisk snyd, mens gæsterne har haft udfordringer i den franske liga, så det tegner tæt. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League.jpg" /></programme>
+    </programme>
   <programme start="20261017043000 +0000" stop="20261017063000 +0000" channel="tv3max.dk">
     <title lang="da">UEFA Champions League: Roma - Real Madrid</title>
     <desc lang="da">Sæson: 2026. Episode: 55. 'Roma - Real Madrid'. Der er lagt op til et europæisk topopgør på Stadio Olimpico, når Roma tager imod Real Madrid i 2. runde af UEFA Champions League. To traditionsrige klubber mødes i en kamp, hvor intensitet, kvalitet og store øjeblikke kan blive afgørende. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League.jpg" /></programme>
+    </programme>
   <programme start="20261017063000 +0000" stop="20261017083000 +0000" channel="tv3max.dk">
     <title lang="da">UEFA Champions League: LASK Linz-Liverpool</title>
     <desc lang="da">Sæson: 2026. Episode: 53. 'LASK Linz-Liverpool'. I 2. spillerunde i Champions League-ligaspillet får østrigske LASK Linz besøg af Liverpool. Værterne, der har Kasper Jørgensen i truppen, lagde ud med at tabe 0-1 ude til AEK Athen, mens gæsterne slog Atlético Madrid med 2-1, og Liverpool er også favoritter mod LASK Linz. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League.jpg" /></programme>
+    </programme>
   <programme start="20261017083000 +0000" stop="20261017102500 +0000" channel="tv3max.dk">
     <title lang="da">UEFA Champions League: Manchester City-Paris SG</title>
     <desc lang="da">Sæson: 2026. Episode: 5. 'Manchester City-Paris SG'. I Champions League-ligaspillets 2. spillerunde tager Manchester City imod Paris SG's regerende mestre. Begge mandskaber vandt deres 1. kamp og er også blandt favoritterne til at gå videre til slutspillet, men i første omgang handler det om at hente point til at slutte i top-8, der giver en plads i 1/8-finalen. Værterne er under et stort pres for tiden efter anklager om økonomisk snyd, mens gæsterne har haft udfordringer i den franske liga, så det tegner tæt. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League.jpg" /></programme>
+    </programme>
   <programme start="20261017102500 +0000" stop="20261017105500 +0000" channel="tv3max.dk">
     <title lang="da">Champions League Weekly</title>
     <desc lang="da">Sæson: 2026. Episode: 8. 'UEFA Champions League Weekly '. Få din ugentlige opdatering på verdens største klubturnering. Se med her! Tilladt for: 7.</desc>
@@ -26139,52 +26139,52 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League%20Weekly.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League%20Weekly.jpg" /></programme>
+  </programme>
   <programme start="20261017105500 +0000" stop="20261017112500 +0000" channel="tv3max.dk">
     <title lang="da">Højdepunkter fra EFL Championship</title>
     <desc lang="da">Sæson: 2026. Episode: 7. 'Championship Highlights '. Se de bedste highlights fra den seneste runde af Englands næstbedste fodboldrække lige her! Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%B8jdepunkter%20fra%20Dansk%20Motorsport1.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%B8jdepunkter%20fra%20Dansk%20Motorsport1.jpg" /></programme>
+    </programme>
   <programme start="20261017112500 +0000" stop="20261017135500 +0000" channel="tv3max.dk">
     <title lang="da">EFL Championship: Middlesbrough - Cardiff</title>
     <desc lang="da">Sæson: 26. Episode: 8. 'Middlesbrough - Cardiff'. Der er lagt op til intens Championship-fodbold, når Middlesbrough tager imod Cardiff på Riverside Stadium i 11. runde. Begge hold jagter vigtige point i en tæt liga, hvor tempo, fysik og skarphed foran mål kan blive afgørende. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/EFL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/EFL.jpg" /></programme>
+    </programme>
   <programme start="20261017135500 +0000" stop="20261017162500 +0000" channel="tv3max.dk">
     <title lang="da">Premier League: Manchester City - Ipswich</title>
     <desc lang="da">Sæson: 2026. Episode: 96. 'Manchester City - Ipswich'. Der er lagt op til en spændende Premier League-duel på Etihad Stadium, når Manchester City tager imod Ipswich i 7. runde. Hjemmeholdet møder et Ipswich-mandskab, der vil kæmpe for at stå imod, i et opgør med tempo og intensitet. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /></programme>
+    </programme>
   <programme start="20261017162500 +0000" stop="20261017183000 +0000" channel="tv3max.dk">
     <title lang="da">Premier League: Newcastle - Aston Villa</title>
     <desc lang="da">Sæson: 2026. Episode: 97. 'Newcastle - Aston Villa'. Der er lagt op til en intens Premier League-duel på St. James' Park, når Newcastle tager imod Aston Villa i 7. runde. To stærke mandskaber mødes i et opgør med højt tempo, fysisk spil og masser af nerve fra første fløjt. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /></programme>
+    </programme>
   <programme start="20261017183000 +0000" stop="20261017190000 +0000" channel="tv3max.dk">
     <title lang="da">Premier League Studie</title>
     <desc lang="da">Sæson: 2026. Episode: 47. 'Newcastle - Aston Villa'. Se med, når vi følger op på den netop færdigspillede Premier League-kamp mellem Newcastle og Aston Villa. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League%20Studie.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Premier%20League%20Studie.jpg" /></programme>
+    </programme>
   <programme start="20261017190000 +0000" stop="20261017210000 +0000" channel="tv3max.dk">
     <title lang="da">Premier League: Brentford - Liverpool</title>
     <desc lang="da">Sæson: 2026. Episode: 88. 'Brentford - Liverpool'. Der er lagt op til en spændende Premier League-duel på Brentford Community Stadium, når Brentford tager imod Liverpool i 7. runde. Hjemmeholdet får besøg af de røde fra Merseyside i et opgør med højt tempo og masser af intensitet. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /></programme>
+    </programme>
   <programme start="20261017210000 +0000" stop="20261017230000 +0000" channel="tv3max.dk">
     <title lang="da">Premier League: Manchester City - Ipswich</title>
     <desc lang="da">Sæson: 2026. Episode: 96. 'Manchester City - Ipswich'. Der er lagt op til en spændende Premier League-duel på Etihad Stadium, når Manchester City tager imod Ipswich i 7. runde. Hjemmeholdet møder et Ipswich-mandskab, der vil kæmpe for at stå imod, i et opgør med tempo og intensitet. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /></programme>
+    </programme>
   <programme start="20261017230000 +0000" stop="20261018010000 +0000" channel="tv3max.dk">
     <title lang="da">Premier League: Newcastle - Aston Villa</title>
     <desc lang="da">Sæson: 2026. Episode: 97. 'Newcastle - Aston Villa'. Der er lagt op til en intens Premier League-duel på St. James' Park, når Newcastle tager imod Aston Villa i 7. runde. To stærke mandskaber mødes i et opgør med højt tempo, fysisk spil og masser af nerve fra første fløjt. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /></programme>
+    </programme>
   <programme start="20261018010000 +0000" stop="20261018030000 +0000" channel="tv3max.dk">
     <title lang="da">Premier League: Brentford - Liverpool</title>
     <desc lang="da">Sæson: 2026. Episode: 88. 'Brentford - Liverpool'. Der er lagt op til en spændende Premier League-duel på Brentford Community Stadium, når Brentford tager imod Liverpool i 7. runde. Hjemmeholdet får besøg af de røde fra Merseyside i et opgør med højt tempo og masser af intensitet. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /></programme>
+    </programme>
   <programme start="20261018030000 +0000" stop="20261018040000 +0000" channel="tv3max.dk">
     <title lang="da">Bundesliga Special</title>
     <desc lang="da">Sæson: 2026. Episode: 3. 'Bundesliga Special'. Royal Blue – The Return of Schalke" fortæller den følelsesladede historie om en klub, dens by og dens mennesker. Tilladt for: A.</desc>
@@ -33203,12 +33203,12 @@
     <title lang="da">Badminton: Christophersen-Letshanaa, Denmark Open</title>
     <desc lang="da">Sæson: 2026. Episode: 103. 'Badminton: Christophersen-Letshanaa, Denmark Open'. Danmarks største badmintonbegivenhed indtager SJF Bank Arena i Odense, når verdensstjerner og danske profiler tørner sammen ved Denmark Open. Arenaen vil syde af intensitet, jubel og nervepirrende dueller, når blandt andre Anders Antonsen, Rasmus Gemke, Line Christophersen og Mia Blichfeldt går på banen i jagten på den store triumf. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /></programme>
   <programme start="20261014060000 +0000" stop="20261014070000 +0000" channel="tv2sport.dk">
     <title lang="da">Badminton: Vestergaard/Lundgaard-Kim/Seo, Denmark Open</title>
     <desc lang="da">Sæson: 2026. Episode: 104. 'Badminton: Vestergaard/Lundgaard-Kim/Seo, Denmark Open'. Danmarks største badmintonbegivenhed indtager SJF Bank Arena i Odense, når verdensstjerner og danske profiler tørner sammen ved Denmark Open. Arenaen vil syde af intensitet, jubel og nervepirrende dueller, når blandt andre Anders Antonsen, Rasmus Gemke, Line Christophersen og Mia Blichfeldt går på banen i jagten på den store triumf. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /></programme>
   <programme start="20261014070000 +0000" stop="20261014080000 +0000" channel="tv2sport.dk">
     <title lang="da">Badminton: Denmark Open</title>
     <desc lang="da">Sæson: 2026. Episode: 105. 'Badminton: Denmark Open'. Danmarks største badmintonbegivenhed indtager SJF Bank Arena i Odense, når verdensstjerner og danske profiler tørner sammen ved Denmark Open. Arenaen vil syde af intensitet, jubel og nervepirrende dueller, når blandt andre Anders Antonsen, Rasmus Gemke, Line Christophersen og Mia Blichfeldt går på banen i jagten på den store triumf. Tilladt for: A.</desc>
@@ -33403,7 +33403,7 @@
     <title lang="da">NFL: GameDay</title>
     <desc lang="da">Sæson: 2026. Episode: 111. 'GameDay'. Se alle de vildeste højdepunkter fra den seneste runde i NFL. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/NFL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/NFL.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/NFL%20Gameday.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/NFL%20Gameday.jpg" /></programme>
   <programme start="20261016003100 +0000" stop="20261016042900 +0000" channel="tv2sport.dk">
     <title lang="da">Sendeophold</title>
     <desc lang="da">'Sendeophold'. Kanalen sender ikke i øjeblikket. Tilladt for: A.</desc>
@@ -33438,77 +33438,77 @@
     <title lang="da">Badminton: Kvartfinale, Denmak Open</title>
     <desc lang="da">Sæson: 2026. Episode: 129. 'Badminton: Kvartfinale, Denmak Open'. Danmarks største badmintonbegivenhed indtager SJF Bank Arena i Odense, når verdensstjerner og danske profiler tørner sammen ved Denmark Open. Arenaen vil syde af intensitet, jubel og nervepirrende dueller, når blandt andre Anders Antonsen, Rasmus Gemke, Line Christophersen og Mia Blichfeldt går på banen i jagten på den store triumf. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /></programme>
   <programme start="20261016100000 +0000" stop="20261016110000 +0000" channel="tv2sport.dk">
     <title lang="da">Badminton: Kvartfinale, Denmak Open</title>
     <desc lang="da">Sæson: 2026. Episode: 130. 'Badminton: Kvartfinale, Denmak Open'. Danmarks største badmintonbegivenhed indtager SJF Bank Arena i Odense, når verdensstjerner og danske profiler tørner sammen ved Denmark Open. Arenaen vil syde af intensitet, jubel og nervepirrende dueller, når blandt andre Anders Antonsen, Rasmus Gemke, Line Christophersen og Mia Blichfeldt går på banen i jagten på den store triumf. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /></programme>
   <programme start="20261016110000 +0000" stop="20261016120000 +0000" channel="tv2sport.dk">
     <title lang="da">Badminton: Kvartfinale, Denmak Open</title>
     <desc lang="da">Sæson: 2026. Episode: 131. 'Badminton: Kvartfinale, Denmak Open'. Danmarks største badmintonbegivenhed indtager SJF Bank Arena i Odense, når verdensstjerner og danske profiler tørner sammen ved Denmark Open. Arenaen vil syde af intensitet, jubel og nervepirrende dueller, når blandt andre Anders Antonsen, Rasmus Gemke, Line Christophersen og Mia Blichfeldt går på banen i jagten på den store triumf. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /></programme>
   <programme start="20261016120000 +0000" stop="20261016130000 +0000" channel="tv2sport.dk">
     <title lang="da">Badminton: Kvartfinale, Denmak Open</title>
     <desc lang="da">Sæson: 2026. Episode: 132. 'Badminton: Kvartfinale, Denmak Open'. Danmarks største badmintonbegivenhed indtager SJF Bank Arena i Odense, når verdensstjerner og danske profiler tørner sammen ved Denmark Open. Arenaen vil syde af intensitet, jubel og nervepirrende dueller, når blandt andre Anders Antonsen, Rasmus Gemke, Line Christophersen og Mia Blichfeldt går på banen i jagten på den store triumf. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /></programme>
   <programme start="20261016130000 +0000" stop="20261016140000 +0000" channel="tv2sport.dk">
     <title lang="da">Badminton: Kvartfinale, Denmak Open</title>
     <desc lang="da">Sæson: 2026. Episode: 133. 'Badminton: Kvartfinale, Denmak Open'. Danmarks største badmintonbegivenhed indtager SJF Bank Arena i Odense, når verdensstjerner og danske profiler tørner sammen ved Denmark Open. Arenaen vil syde af intensitet, jubel og nervepirrende dueller, når blandt andre Anders Antonsen, Rasmus Gemke, Line Christophersen og Mia Blichfeldt går på banen i jagten på den store triumf. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /></programme>
   <programme start="20261016140000 +0000" stop="20261016150000 +0000" channel="tv2sport.dk">
     <title lang="da">Badminton: Kvartfinale, Denmak Open</title>
     <desc lang="da">Sæson: 2026. Episode: 134. 'Badminton: Kvartfinale, Denmak Open'. Danmarks største badmintonbegivenhed indtager SJF Bank Arena i Odense, når verdensstjerner og danske profiler tørner sammen ved Denmark Open. Arenaen vil syde af intensitet, jubel og nervepirrende dueller, når blandt andre Anders Antonsen, Rasmus Gemke, Line Christophersen og Mia Blichfeldt går på banen i jagten på den store triumf. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /></programme>
   <programme start="20261016150000 +0000" stop="20261016160000 +0000" channel="tv2sport.dk">
     <title lang="da">Badminton: Kvartfinale, Denmak Open</title>
     <desc lang="da">Sæson: 2026. Episode: 135. 'Badminton: Kvartfinale, Denmak Open'. Danmarks største badmintonbegivenhed indtager SJF Bank Arena i Odense, når verdensstjerner og danske profiler tørner sammen ved Denmark Open. Arenaen vil syde af intensitet, jubel og nervepirrende dueller, når blandt andre Anders Antonsen, Rasmus Gemke, Line Christophersen og Mia Blichfeldt går på banen i jagten på den store triumf. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /></programme>
   <programme start="20261016160000 +0000" stop="20261016170000 +0000" channel="tv2sport.dk">
     <title lang="da">Badminton: Kvartfinale, Denmak Open</title>
     <desc lang="da">Sæson: 2026. Episode: 136. 'Badminton: Kvartfinale, Denmak Open'. Danmarks største badmintonbegivenhed indtager SJF Bank Arena i Odense, når verdensstjerner og danske profiler tørner sammen ved Denmark Open. Arenaen vil syde af intensitet, jubel og nervepirrende dueller, når blandt andre Anders Antonsen, Rasmus Gemke, Line Christophersen og Mia Blichfeldt går på banen i jagten på den store triumf. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /></programme>
   <programme start="20261016170000 +0000" stop="20261016180000 +0000" channel="tv2sport.dk">
     <title lang="da">Badminton: Kvartfinale, Denmak Open</title>
     <desc lang="da">Sæson: 2026. Episode: 137. 'Badminton: Kvartfinale, Denmak Open'. Danmarks største badmintonbegivenhed indtager SJF Bank Arena i Odense, når verdensstjerner og danske profiler tørner sammen ved Denmark Open. Arenaen vil syde af intensitet, jubel og nervepirrende dueller, når blandt andre Anders Antonsen, Rasmus Gemke, Line Christophersen og Mia Blichfeldt går på banen i jagten på den store triumf. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /></programme>
   <programme start="20261016180000 +0000" stop="20261016190500 +0000" channel="tv2sport.dk">
     <title lang="da">Badminton: Kvartfinale, Denmak Open</title>
     <desc lang="da">Sæson: 2026. Episode: 138. 'Badminton: Kvartfinale, Denmak Open'. Danmarks største badmintonbegivenhed indtager SJF Bank Arena i Odense, når verdensstjerner og danske profiler tørner sammen ved Denmark Open. Arenaen vil syde af intensitet, jubel og nervepirrende dueller, når blandt andre Anders Antonsen, Rasmus Gemke, Line Christophersen og Mia Blichfeldt går på banen i jagten på den store triumf. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /></programme>
   <programme start="20261016190500 +0000" stop="20261016200500 +0000" channel="tv2sport.dk">
     <title lang="da">Badminton: Kvartfinale, Denmak Open</title>
     <desc lang="da">Sæson: 2026. Episode: 129. 'Badminton: Kvartfinale, Denmak Open'. Danmarks største badmintonbegivenhed indtager SJF Bank Arena i Odense, når verdensstjerner og danske profiler tørner sammen ved Denmark Open. Arenaen vil syde af intensitet, jubel og nervepirrende dueller, når blandt andre Anders Antonsen, Rasmus Gemke, Line Christophersen og Mia Blichfeldt går på banen i jagten på den store triumf. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /></programme>
   <programme start="20261016200500 +0000" stop="20261016210500 +0000" channel="tv2sport.dk">
     <title lang="da">Badminton: Kvartfinale, Denmak Open</title>
     <desc lang="da">Sæson: 2026. Episode: 130. 'Badminton: Kvartfinale, Denmak Open'. Danmarks største badmintonbegivenhed indtager SJF Bank Arena i Odense, når verdensstjerner og danske profiler tørner sammen ved Denmark Open. Arenaen vil syde af intensitet, jubel og nervepirrende dueller, når blandt andre Anders Antonsen, Rasmus Gemke, Line Christophersen og Mia Blichfeldt går på banen i jagten på den store triumf. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /></programme>
   <programme start="20261016210500 +0000" stop="20261016220500 +0000" channel="tv2sport.dk">
     <title lang="da">Badminton: Kvartfinale, Denmak Open</title>
     <desc lang="da">Sæson: 2026. Episode: 131. 'Badminton: Kvartfinale, Denmak Open'. Danmarks største badmintonbegivenhed indtager SJF Bank Arena i Odense, når verdensstjerner og danske profiler tørner sammen ved Denmark Open. Arenaen vil syde af intensitet, jubel og nervepirrende dueller, når blandt andre Anders Antonsen, Rasmus Gemke, Line Christophersen og Mia Blichfeldt går på banen i jagten på den store triumf. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /></programme>
   <programme start="20261016220500 +0000" stop="20261016230500 +0000" channel="tv2sport.dk">
     <title lang="da">Badminton: Kvartfinale, Denmak Open</title>
     <desc lang="da">Sæson: 2026. Episode: 132. 'Badminton: Kvartfinale, Denmak Open'. Danmarks største badmintonbegivenhed indtager SJF Bank Arena i Odense, når verdensstjerner og danske profiler tørner sammen ved Denmark Open. Arenaen vil syde af intensitet, jubel og nervepirrende dueller, når blandt andre Anders Antonsen, Rasmus Gemke, Line Christophersen og Mia Blichfeldt går på banen i jagten på den store triumf. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /></programme>
   <programme start="20261016230500 +0000" stop="20261016235800 +0000" channel="tv2sport.dk">
     <title lang="da">Badminton: Kvartfinale, Denmak Open</title>
     <desc lang="da">Sæson: 2026. Episode: 133. 'Badminton: Kvartfinale, Denmak Open'. Danmarks største badmintonbegivenhed indtager SJF Bank Arena i Odense, når verdensstjerner og danske profiler tørner sammen ved Denmark Open. Arenaen vil syde af intensitet, jubel og nervepirrende dueller, når blandt andre Anders Antonsen, Rasmus Gemke, Line Christophersen og Mia Blichfeldt går på banen i jagten på den store triumf. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /></programme>
   <programme start="20261016235800 +0000" stop="20261017035800 +0000" channel="tv2sport.dk">
     <title lang="da">Sendeophold</title>
     <desc lang="da">'Sendeophold'. Kanalen sender ikke i øjeblikket. Tilladt for: A.</desc>
@@ -33523,12 +33523,12 @@
     <title lang="da">Badminton: Kvartfinale, Denmak Open</title>
     <desc lang="da">Sæson: 2026. Episode: 137. 'Badminton: Kvartfinale, Denmak Open'. Danmarks største badmintonbegivenhed indtager SJF Bank Arena i Odense, når verdensstjerner og danske profiler tørner sammen ved Denmark Open. Arenaen vil syde af intensitet, jubel og nervepirrende dueller, når blandt andre Anders Antonsen, Rasmus Gemke, Line Christophersen og Mia Blichfeldt går på banen i jagten på den store triumf. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /></programme>
   <programme start="20261017055000 +0000" stop="20261017070000 +0000" channel="tv2sport.dk">
     <title lang="da">Badminton: Kvartfinale, Denmak Open</title>
     <desc lang="da">Sæson: 2026. Episode: 138. 'Badminton: Kvartfinale, Denmak Open'. Danmarks største badmintonbegivenhed indtager SJF Bank Arena i Odense, når verdensstjerner og danske profiler tørner sammen ved Denmark Open. Arenaen vil syde af intensitet, jubel og nervepirrende dueller, når blandt andre Anders Antonsen, Rasmus Gemke, Line Christophersen og Mia Blichfeldt går på banen i jagten på den store triumf. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /></programme>
   <programme start="20261017070000 +0000" stop="20261017080000 +0000" channel="tv2sport.dk">
     <title lang="da">Badminton: Semifinale, Denmak Open</title>
     <desc lang="da">Sæson: 2026. Episode: 139. 'Badminton: Semifinale, Denmak Open'. Danmarks største badmintonbegivenhed indtager SJF Bank Arena i Odense, når verdensstjerner og danske profiler tørner sammen ved Denmark Open. Arenaen vil syde af intensitet, jubel og nervepirrende dueller, når blandt andre Anders Antonsen, Rasmus Gemke, Line Christophersen og Mia Blichfeldt går på banen i jagten på den store triumf. Tilladt for: A.</desc>
@@ -33633,7 +33633,7 @@
     <title lang="da">VM i banecykling, indledende</title>
     <desc lang="da">Sæson: 2026. Episode: 101. 'VM i banecykling, indledende'. Så er det tid til VM i banecykling på den topmoderne Shanghai Velodrome i Kina. Danmark stiller med et stærkt hold på ni ryttere, og der venter masser af fart, taktik og intense dueller på banen. Med seks herrer og tre kvinder til start bliver det spændende at følge de danske ryttere i kampen om medaljerne mod verdenseliten. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /></programme>
   <programme start="20261014034500 +0000" stop="20261014040500 +0000" channel="nicktoons.se">
     <title lang="da">SvampeBob Firkant</title>
     <desc lang="da">Sæson: 7. Episode: 130. 'Fedtede fjolser / Model-svampen'. Hr. Krabbe og Plankton konkurrerer om, hvilken af deres restauranter der har den mest udsøgte mad. // SvampeBob forsøger sig som model i en reklame for køkkensvampe. Instruktør: Vincent Waller. Medvirkende: Dee Bradley Baker, Clancy Brown, Rodger Bumpass, Bill Fagerbakke. Tilladt for: A.</desc>
@@ -41468,17 +41468,17 @@
     <title lang="da">Optakt til Champions League</title>
     <desc lang="da">Sæson: 2026. Episode: 5. 'Manchester City - Paris Saint - Germain'. Se med, når vi varmer op til den forestående UEFA Champions League-kamp mellem Manchester City og Paris Saint-Germain. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League.jpg" /></programme>
+    <icon src="https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg" /><backdrop src="https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg" /></programme>
   <programme start="20261014185500 +0000" stop="20261014210000 +0000" channel="viaplaysportnews.dk">
     <title lang="da">UEFA Champions League: Bodø/Glimt - Dortmund</title>
     <desc lang="da">Sæson: 2026. Episode: 66. 'Bodø/Glimt - Dortmund'. Der er lagt op til en intens europæisk aften på Aspmyra Stadion, når Bodø/Glimt tager imod Dortmund i 2. runde af UEFA Champions League. Nordmændene får besøg af de tyske gæster i et opgør med højt tempo, stærke dueller og masser af nerve. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Champions%20League.jpg" /></programme>
+    <icon src="https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg" /><backdrop src="https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg" /></programme>
   <programme start="20261014210000 +0000" stop="20261014220000 +0000" channel="viaplaysportnews.dk">
     <title lang="da">Champions League Goal Show</title>
     <desc lang="da">Sæson: 2026. Episode: 5. 'UEFA Champions League Goalshow'. Vi følger med dybdegående analyser, mål, højdepunkter og reaktioner op på det seneste opgør i UEFA Champions League. Opfølgningen byder også på Goalshow, hvor alle mål fra aftenens kampe vises. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/UEFA%20Champions%20League%20Goal%20Show.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/UEFA%20Champions%20League%20Goal%20Show.jpg" /></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/5flCamMBIFaiEXhsaowPeRz66Cy.jpg" /><backdrop src="https://image.tmdb.org/t/p/w1280/5flCamMBIFaiEXhsaowPeRz66Cy.jpg" /></programme>
   <programme start="20261014220000 +0000" stop="20261014230000 +0000" channel="viaplaysportnews.dk">
     <title lang="da">Tøffe vs Graver</title>
     <desc lang="da">Sæson: 2026. Episode: 14. 'Tøffe vs. Graver'. Den gamle landsholdsduo skyder brystet frem og rydder op og regerer i deres helt eget fodboldprogram. Her er bid, smil, meninger, enigheder og uenigheder om det meste. Tilladt for: A.</desc>
@@ -41626,7 +41626,7 @@
     <title lang="da">Sky Sports: Total Football</title>
     <desc lang="da">Sæson: 2026. Episode: 9. 'Total Football'. Total Football dækker hele fodboldverdenen – fra Premier League til de største internationale ligaer. Skarpe analyser, store personligheder og ægte passion for spillet. Alt, du elsker ved fodbold, samlet ét sted. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Sky%20Sports%20Deadline%20Day.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Sky%20Sports%20Deadline%20Day.jpg" /></programme>
+    <icon src="https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg" /><backdrop src="https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg" /></programme>
   <programme start="20261016133000 +0000" stop="20261016163000 +0000" channel="viaplaysportnews.dk">
     <title lang="da">Før Superligaen</title>
     <desc lang="da">Sæson: 2026. Episode: 16. 'Før Superligaen'. Vi giver hele Superligaen en stemme i Danmarks største optakt til den kommende spillerunde i landets bedste række. Tilladt for: A.</desc>
@@ -64181,32 +64181,32 @@
     <title lang="da">ATP: Van de Zandschulp-Jodar, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 136. 'ATP: Van de Zandschulp-Jodar, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
   <programme start="20261014060000 +0000" stop="20261014075500 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP: Ruud - Auger-Aliassime, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 123. 'ATP: Ruud - Auger-Aliassime, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP%20Tour%20Highlights.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP%20Tour%20Highlights.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
   <programme start="20261014075500 +0000" stop="20261014103000 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP: Van de Zandschulp-Jodar, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 136. 'ATP: Van de Zandschulp-Jodar, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
   <programme start="20261014103000 +0000" stop="20261014124000 +0000" channel="tv2sportx.dk">
     <title lang="da">VM i banecykling</title>
     <desc lang="da">Sæson: 2026. Episode: 103. 'VM i banecykling'. Så er det tid til VM i banecykling på den topmoderne Shanghai Velodrome i Kina. Danmark stiller med et stærkt hold på ni ryttere, og der venter masser af fart, taktik og intense dueller på banen. Med seks herrer og tre kvinder til start bliver det spændende at følge de danske ryttere i kampen om medaljerne mod verdenseliten. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
   <programme start="20261014124000 +0000" stop="20261014140500 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP: Paul-Bergs, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 125. 'ATP: Paul-Bergs, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP%20Tour%20Highlights.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP%20Tour%20Highlights.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
   <programme start="20261014140500 +0000" stop="20261014160500 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP: Medvedev-Tsitsipas, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 126. 'ATP: Medvedev-Tsitsipas, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP%20Tour%20Highlights.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP%20Tour%20Highlights.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
   <programme start="20261014160500 +0000" stop="20261014164000 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP Tour Highlights</title>
     <desc lang="da">Sæson: 2026. Episode: 140. 'ATP Tour Highlights'. Alt det bedste fra den sidste uges ATP. Oplev fantastiske dueller, eksklusive interviews og masser af unikke tennisoptagelser. Tilladt for: A.</desc>
@@ -64216,82 +64216,82 @@
     <title lang="da">Fodbold: Tirsdagstrænerne</title>
     <desc lang="da">Sæson: 2026. Episode: 118. 'Fodbold: Tirsdagstrænerne'. Carsten Werge, Dan Hammer og skiftevis Bo Henriksen eller Glen Riddersholm mødes hver uge for at debattere og perspektivere de væsentligste ting i fodboldens forunderlige verden. Panelet har igennem årtier været tæt på spillet både på og udenfor banen - og er klar til at dele ud af deres store viden om aktuelle emner i både 3F Superligaen og fodbolden generelt. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tirsdagstr%C3%A6nerne.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tirsdagstr%C3%A6nerne.jpg" /></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/q7hUNnbIlwMKWUFwKqjgOb1IOkQ.jpg" /><backdrop src="https://image.tmdb.org/t/p/w1280/q7hUNnbIlwMKWUFwKqjgOb1IOkQ.jpg" /></programme>
   <programme start="20261014173500 +0000" stop="20261014200500 +0000" channel="tv2sportx.dk">
     <title lang="da">VM i banecykling</title>
     <desc lang="da">Sæson: 2026. Episode: 103. 'VM i banecykling'. Så er det tid til VM i banecykling på den topmoderne Shanghai Velodrome i Kina. Danmark stiller med et stærkt hold på ni ryttere, og der venter masser af fart, taktik og intense dueller på banen. Med seks herrer og tre kvinder til start bliver det spændende at følge de danske ryttere i kampen om medaljerne mod verdenseliten. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
   <programme start="20261014200500 +0000" stop="20261015035500 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP: Ruud - Auger-Aliassime, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 123. 'ATP: Ruud - Auger-Aliassime, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP%20Tour%20Highlights.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP%20Tour%20Highlights.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
   <programme start="20261015035500 +0000" stop="20261015063000 +0000" channel="tv2sportx.dk">
     <title lang="da">VM i banecykling</title>
     <desc lang="da">Sæson: 2026. Episode: 103. 'VM i banecykling'. Så er det tid til VM i banecykling på den topmoderne Shanghai Velodrome i Kina. Danmark stiller med et stærkt hold på ni ryttere, og der venter masser af fart, taktik og intense dueller på banen. Med seks herrer og tre kvinder til start bliver det spændende at følge de danske ryttere i kampen om medaljerne mod verdenseliten. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
   <programme start="20261015063000 +0000" stop="20261015090000 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP: Gea-Davidovich Fokina, kvartfinale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 127. 'ATP: Gea-Davidovich Fokina, kvartfinale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/TV_2_Sport_X.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/TV_2_Sport_X.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
   <programme start="20261015090000 +0000" stop="20261015124500 +0000" channel="tv2sportx.dk">
     <title lang="da">VM i banecykling, finaler</title>
     <desc lang="da">Sæson: 2026. Episode: 104. 'VM i banecykling, finaler'. Så er det tid til VM i banecykling på den topmoderne Shanghai Velodrome i Kina. Danmark stiller med et stærkt hold på ni ryttere, og der venter masser af fart, taktik og intense dueller på banen. Med seks herrer og tre kvinder til start bliver det spændende at følge de danske ryttere i kampen om medaljerne mod verdenseliten. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
   <programme start="20261015124500 +0000" stop="20261015144500 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP: Zverev-De Minaur, kvartfinale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 128. 'ATP: Zverev-De Minaur, kvartfinale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/TV_2_Sport_X.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/TV_2_Sport_X.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
   <programme start="20261015144500 +0000" stop="20261015170500 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP: Gea-Davidovich Fokina, kvartfinale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 127. 'ATP: Gea-Davidovich Fokina, kvartfinale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/TV_2_Sport_X.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/TV_2_Sport_X.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
   <programme start="20261015170500 +0000" stop="20261015190500 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP: Zverev-De Minaur, kvartfinale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 128. 'ATP: Zverev-De Minaur, kvartfinale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/TV_2_Sport_X.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/TV_2_Sport_X.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
   <programme start="20261015190500 +0000" stop="20261016022500 +0000" channel="tv2sportx.dk">
     <title lang="da">VM i banecykling, finaler</title>
     <desc lang="da">Sæson: 2026. Episode: 104. 'VM i banecykling, finaler'. Så er det tid til VM i banecykling på den topmoderne Shanghai Velodrome i Kina. Danmark stiller med et stærkt hold på ni ryttere, og der venter masser af fart, taktik og intense dueller på banen. Med seks herrer og tre kvinder til start bliver det spændende at følge de danske ryttere i kampen om medaljerne mod verdenseliten. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
   <programme start="20261016022500 +0000" stop="20261016063000 +0000" channel="tv2sportx.dk">
     <title lang="da">VM i banecykling, finaler</title>
     <desc lang="da">Sæson: 2026. Episode: 104. 'VM i banecykling, finaler'. Så er det tid til VM i banecykling på den topmoderne Shanghai Velodrome i Kina. Danmark stiller med et stærkt hold på ni ryttere, og der venter masser af fart, taktik og intense dueller på banen. Med seks herrer og tre kvinder til start bliver det spændende at følge de danske ryttere i kampen om medaljerne mod verdenseliten. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
   <programme start="20261016063000 +0000" stop="20261016084500 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP: Kvartfinale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 129. 'ATP: Kvartfinale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
   <programme start="20261016084500 +0000" stop="20261016131500 +0000" channel="tv2sportx.dk">
     <title lang="da">VM i banecykling, finaler</title>
     <desc lang="da">Sæson: 2026. Episode: 105. 'VM i banecykling, finaler'. Så er det tid til VM i banecykling på den topmoderne Shanghai Velodrome i Kina. Danmark stiller med et stærkt hold på ni ryttere, og der venter masser af fart, taktik og intense dueller på banen. Med seks herrer og tre kvinder til start bliver det spændende at følge de danske ryttere i kampen om medaljerne mod verdenseliten. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
   <programme start="20261016131500 +0000" stop="20261016151500 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP: Kvartfinale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 130. 'ATP: Kvartfinale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
   <programme start="20261016151500 +0000" stop="20261016173000 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP: Kvartfinale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 129. 'ATP: Kvartfinale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
   <programme start="20261016173000 +0000" stop="20261016184000 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP: Kvartfinale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 130. 'ATP: Kvartfinale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
   <programme start="20261016184000 +0000" stop="20261016194500 +0000" channel="tv2sportx.dk">
     <title lang="da">Serie A: Frosinone-Sassuolo</title>
     <desc lang="da">Sæson: 2026. Episode: 399. 'Serie A: Frosinone-Sassuolo'. Følg Serie A på TV 2 Play, TV 2 Sport X og TV 2 Sport, og oplev fodbold i verdensklasse. Den bedste italienske liga byder på masser af taktik, passion og teknik på et højt niveau, og her er der hård konkurrence om at vinde Scudettoen mellem stjernespækkede mandskaber som Roma, AC Milan, Juventus, Napoli, Inter og Atalanta. Tilladt for: A.</desc>
@@ -64306,22 +64306,22 @@
     <title lang="da">VM i banecykling, finaler</title>
     <desc lang="da">Sæson: 2026. Episode: 105. 'VM i banecykling, finaler'. Så er det tid til VM i banecykling på den topmoderne Shanghai Velodrome i Kina. Danmark stiller med et stærkt hold på ni ryttere, og der venter masser af fart, taktik og intense dueller på banen. Med seks herrer og tre kvinder til start bliver det spændende at følge de danske ryttere i kampen om medaljerne mod verdenseliten. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
   <programme start="20261017044000 +0000" stop="20261017091500 +0000" channel="tv2sportx.dk">
     <title lang="da">VM i banecykling, finaler</title>
     <desc lang="da">Sæson: 2026. Episode: 105. 'VM i banecykling, finaler'. Så er det tid til VM i banecykling på den topmoderne Shanghai Velodrome i Kina. Danmark stiller med et stærkt hold på ni ryttere, og der venter masser af fart, taktik og intense dueller på banen. Med seks herrer og tre kvinder til start bliver det spændende at følge de danske ryttere i kampen om medaljerne mod verdenseliten. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
   <programme start="20261017091500 +0000" stop="20261017105500 +0000" channel="tv2sportx.dk">
     <title lang="da">VM i banecykling, finaler</title>
     <desc lang="da">Sæson: 2026. Episode: 106. 'VM i banecykling, finaler'. Så er det tid til VM i banecykling på den topmoderne Shanghai Velodrome i Kina. Danmark stiller med et stærkt hold på ni ryttere, og der venter masser af fart, taktik og intense dueller på banen. Med seks herrer og tre kvinder til start bliver det spændende at følge de danske ryttere i kampen om medaljerne mod verdenseliten. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
   <programme start="20261017105500 +0000" stop="20261017130000 +0000" channel="tv2sportx.dk">
     <title lang="da">A-Liga: Målfesten</title>
     <desc lang="da">Sæson: 2026. Episode: 107. 'A-Liga: Målfesten'. 'Målfesten' giver dig alle mål, chancer og gode historier fra den bedste kvindelige fodboldrække, mens de sker. Vi sender rundt om lørdagens tre tidlige A-Liga-kampe - og vi lover målfest. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/M%C3%A5lfesten.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/M%C3%A5lfesten.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/A-Liga.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/A-Liga.jpg" /></programme>
   <programme start="20261017130000 +0000" stop="20261017140000 +0000" channel="tv2sportx.dk">
     <title lang="da">Serie A: Venezia-Napoli</title>
     <desc lang="da">Sæson: 2026. Episode: 370. 'Serie A: Venezia-Napoli'. Følg Serie A på TV 2 Play, TV 2 Sport X og TV 2 Sport, og oplev fodbold i verdensklasse. Den bedste italienske liga byder på masser af taktik, passion og teknik på et højt niveau, og her er der hård konkurrence om at vinde Scudettoen mellem stjernespækkede mandskaber som Roma, AC Milan, Juventus, Napoli, Inter og Atalanta. Tilladt for: A.</desc>
@@ -64346,17 +64346,17 @@
     <title lang="da">ATP: Semifinale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 131. 'ATP: Semifinale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP%20Tour%20Highlights.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP%20Tour%20Highlights.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
   <programme start="20261017200000 +0000" stop="20261017220500 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP: Semifinale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 132. 'ATP: Semifinale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP%20Tour%20Highlights.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP%20Tour%20Highlights.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
   <programme start="20261017220500 +0000" stop="20261018042500 +0000" channel="tv2sportx.dk">
     <title lang="da">VM i banecykling, finaler</title>
     <desc lang="da">Sæson: 2026. Episode: 106. 'VM i banecykling, finaler'. Så er det tid til VM i banecykling på den topmoderne Shanghai Velodrome i Kina. Danmark stiller med et stærkt hold på ni ryttere, og der venter masser af fart, taktik og intense dueller på banen. Med seks herrer og tre kvinder til start bliver det spændende at følge de danske ryttere i kampen om medaljerne mod verdenseliten. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
   <programme start="20261014020000 +0000" stop="20261014060000 +0000" channel="viasatultra.dk">
     <title lang="da">Sendeophold</title>
     <desc lang="da">'Sendeophold'. Kanalen sender ikke i øjeblikket. Tilladt for: A.</desc>
@@ -68619,7 +68619,7 @@
 <programme start="20261015232000 +0000" stop="20261016000500 +0000" channel="cmorestarsdk.dk"><title>Hamilton II (8x44) 3</title><desc>Jakob Oftebro - Carl Hamilton,Annika Hallin - Amiral Astrid Bofors,Nina Zanjani - Kristin Ek,Jörgen Thorsson - Birger Hagman,Krister Henriksson - DG,Peter Andersson - Christer Näslund,Rowena King - Farrin Haig,Felice Jankell - Lykke Öjestad,Anna Sise - Sissela Lindgren,Danilo Bejarano - Rikard Ek.</desc></programme>
 <programme start="20261016000500 +0000" stop="20261016013500 +0000" channel="cmorestarsdk.dk"><title>Hamilton - Men inte om det gäller din dotter</title><desc>Hamilton - Men inte om det gäller din dotter</desc></programme>
 <programme start="20261016013500 +0000" stop="20261016033500 +0000" channel="cmorestarsdk.dk"><title>Hypnotisøren</title><desc>Hypnotisøren</desc></programme>
-<programme start="20261014040000 +0000" stop="20261014042500 +0000" channel="nickelodeonjuniordk.dk"><title>Tim Rex i rummet</title><desc>Tim, Tommy og Bedste leder efter en skat.//Der er Brølefestival og Tim vil lave byens bedste brøl.// Tim, Tommy og Tia finder en bortløbet mammut i deres hus.</desc><episode-num system="xmltv_ns">.6.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/okEw8d8WUeA9ysTlBb8bwkpojt4.jpg" /></programme>
+<programme start="20261013231500 +0200" stop="20261013232500 +0200" channel="Disney.Junior.dk"><title>Bluey II (91)</title><desc /></programme><programme start="20261013232500 +0200" stop="20261013235000 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (25)</title><desc /></programme><programme start="20261013235000 +0200" stop="20261014001500 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (26)</title><desc /></programme><programme start="20261014001500 +0200" stop="20261014003500 +0200" channel="Disney.Junior.dk"><title>SuperKitties: Su-Purr Charged II (37)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/svZssJM2FbpW0v0O6QbGLpL7rGf.jpg" /></programme><programme start="20261014003500 +0200" stop="20261014005500 +0200" channel="Disney.Junior.dk"><title>SuperKitties: Su-Purr Charged II (38)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/svZssJM2FbpW0v0O6QbGLpL7rGf.jpg" /></programme><programme start="20261014005500 +0200" stop="20261014011500 +0200" channel="Disney.Junior.dk"><title>SuperKitties: Su-Purr Charged II (39)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/svZssJM2FbpW0v0O6QbGLpL7rGf.jpg" /></programme><programme start="20261014011500 +0200" stop="20261014012500 +0200" channel="Disney.Junior.dk"><title>SuperKitties: Su-Purr Charged S2 Splits II (13)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/svZssJM2FbpW0v0O6QbGLpL7rGf.jpg" /></programme><programme start="20261014012500 +0200" stop="20261014015000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends III (60)</title><desc /></programme><programme start="20261014015000 +0200" stop="20261014021500 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends III (61)</title><desc /></programme><programme start="20261014021500 +0200" stop="20261014024000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends III (62)</title><desc /></programme><programme start="20261014024000 +0200" stop="20261014030500 +0200" channel="Disney.Junior.dk"><title>Robogobo: Season 1 I (5)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/a6ixPC7QmBLRp21VsYBi2dxwGra.jpg" /></programme><programme start="20261014030500 +0200" stop="20261014033000 +0200" channel="Disney.Junior.dk"><title>Robogobo: Season 1 I (6)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/a6ixPC7QmBLRp21VsYBi2dxwGra.jpg" /></programme><programme start="20261014033000 +0200" stop="20261014035500 +0200" channel="Disney.Junior.dk"><title>Robogobo: Season 1 I (7)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/a6ixPC7QmBLRp21VsYBi2dxwGra.jpg" /></programme><programme start="20261014035500 +0200" stop="20261014040500 +0200" channel="Disney.Junior.dk"><title>Bluey I (20)</title><desc /></programme><programme start="20261014040500 +0200" stop="20261014041000 +0200" channel="Disney.Junior.dk"><title>Bluey I (19)</title><desc /></programme><programme start="20261014041000 +0200" stop="20261014041500 +0200" channel="Disney.Junior.dk"><title>Bluey I (18)</title><desc /></programme><programme start="20261014041500 +0200" stop="20261014042500 +0200" channel="Disney.Junior.dk"><title>Bluey I (17)</title><desc /></programme><programme start="20261014042500 +0200" stop="20261014043000 +0200" channel="Disney.Junior.dk"><title>Bluey I (16)</title><desc /></programme><programme start="20261014043000 +0200" stop="20261014044000 +0200" channel="Disney.Junior.dk"><title>Bluey I (15)</title><desc /></programme><programme start="20261014044000 +0200" stop="20261014045000 +0200" channel="Disney.Junior.dk"><title>Bluey I (14)</title><desc /></programme><programme start="20261014045000 +0200" stop="20261014045500 +0200" channel="Disney.Junior.dk"><title>Bluey I (13)</title><desc /></programme><programme start="20261014045500 +0200" stop="20261014050000 +0200" channel="Disney.Junior.dk"><title>Bluey I (12)</title><desc /></programme><programme start="20261014050000 +0200" stop="20261014050500 +0200" channel="Disney.Junior.dk"><title>Bluey I (11)</title><desc /></programme><programme start="20261014050500 +0200" stop="20261014051000 +0200" channel="Disney.Junior.dk"><title>Bluey I (10)</title><desc /></programme><programme start="20261014051000 +0200" stop="20261014053500 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends III (63)</title><desc /></programme><programme start="20261014053500 +0200" stop="20261014060000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends III (64)</title><desc /></programme><programme start="20261014060000 +0200" stop="20261014062500 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (14)</title><desc /></programme><programme start="20261014062500 +0200" stop="20261014065000 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (3)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261014065000 +0200" stop="20261014071500 +0200" channel="Disney.Junior.dk"><title>SuperKitties III (53)</title><desc /></programme><programme start="20261014071500 +0200" stop="20261014072500 +0200" channel="Disney.Junior.dk"><title>Bluey II (83)</title><desc /></programme><programme start="20261014072500 +0200" stop="20261014073000 +0200" channel="Disney.Junior.dk"><title>Bluey II (85)</title><desc /></programme><programme start="20261014073000 +0200" stop="20261014074000 +0200" channel="Disney.Junior.dk"><title>Bluey II (87)</title><desc /></programme><programme start="20261014074000 +0200" stop="20261014074500 +0200" channel="Disney.Junior.dk"><title>Bluey II (89)</title><desc /></programme><programme start="20261014074500 +0200" stop="20261014075500 +0200" channel="Disney.Junior.dk"><title>Bluey II (91)</title><desc /></programme><programme start="20261014075500 +0200" stop="20261014080000 +0200" channel="Disney.Junior.dk"><title>Bluey II (93)</title><desc /></programme><programme start="20261014080000 +0200" stop="20261014081000 +0200" channel="Disney.Junior.dk"><title>Bluey II (95)</title><desc /></programme><programme start="20261014081000 +0200" stop="20261014083500 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends I (12)</title><desc /></programme><programme start="20261014083500 +0200" stop="20261014090000 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (1)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261014090000 +0200" stop="20261014092500 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (24)</title><desc /></programme><programme start="20261014092500 +0200" stop="20261014095000 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (11)</title><desc /></programme><programme start="20261014095000 +0200" stop="20261014100000 +0200" channel="Disney.Junior.dk"><title>Bluey I (48)</title><desc /></programme><programme start="20261014100000 +0200" stop="20261014100500 +0200" channel="Disney.Junior.dk"><title>Bluey I (47)</title><desc /></programme><programme start="20261014100500 +0200" stop="20261014101500 +0200" channel="Disney.Junior.dk"><title>Bluey I (46)</title><desc /></programme><programme start="20261014101500 +0200" stop="20261014102000 +0200" channel="Disney.Junior.dk"><title>Bluey I (45)</title><desc /></programme><programme start="20261014102000 +0200" stop="20261014102500 +0200" channel="Disney.Junior.dk"><title>Bluey I (44)</title><desc /></programme><programme start="20261014102500 +0200" stop="20261014103500 +0200" channel="Disney.Junior.dk"><title>Bluey I (43)</title><desc /></programme><programme start="20261014103500 +0200" stop="20261014104000 +0200" channel="Disney.Junior.dk"><title>Bluey I (42)</title><desc /></programme><programme start="20261014104000 +0200" stop="20261014104500 +0200" channel="Disney.Junior.dk"><title>Bluey I (41)</title><desc /></programme><programme start="20261014104500 +0200" stop="20261014111000 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (10)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261014111000 +0200" stop="20261014113500 +0200" channel="Disney.Junior.dk"><title>SuperKitties I (1)</title><desc /></programme><programme start="20261014113500 +0200" stop="20261014120000 +0200" channel="Disney.Junior.dk"><title>Pupstruction II (50)</title><desc /></programme><programme start="20261014120000 +0200" stop="20261014122500 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends III (64)</title><desc /></programme><programme start="20261014122500 +0200" stop="20261014123500 +0200" channel="Disney.Junior.dk"><title>Bluey I (46)</title><desc /></programme><programme start="20261014123500 +0200" stop="20261014124000 +0200" channel="Disney.Junior.dk"><title>Bluey I (47)</title><desc /></programme><programme start="20261014124000 +0200" stop="20261014125000 +0200" channel="Disney.Junior.dk"><title>Bluey I (48)</title><desc /></programme><programme start="20261014125000 +0200" stop="20261014125500 +0200" channel="Disney.Junior.dk"><title>Bluey I (49)</title><desc /></programme><programme start="20261014125500 +0200" stop="20261014130500 +0200" channel="Disney.Junior.dk"><title>Bluey I (50)</title><desc /></programme><programme start="20261014130500 +0200" stop="20261014131000 +0200" channel="Disney.Junior.dk"><title>Bluey I (51)</title><desc /></programme><programme start="20261014131000 +0200" stop="20261014132000 +0200" channel="Disney.Junior.dk"><title>Bluey I (52)</title><desc /></programme><programme start="20261014132000 +0200" stop="20261014132500 +0200" channel="Disney.Junior.dk"><title>Bluey II (92)</title><desc /></programme><programme start="20261014132500 +0200" stop="20261014135000 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (10)</title><desc /></programme><programme start="20261014040000 +0000" stop="20261014042500 +0000" channel="nickelodeonjuniordk.dk"><title>Tim Rex i rummet</title><desc>Tim, Tommy og Bedste leder efter en skat.//Der er Brølefestival og Tim vil lave byens bedste brøl.// Tim, Tommy og Tia finder en bortløbet mammut i deres hus.</desc><episode-num system="xmltv_ns">.6.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/okEw8d8WUeA9ysTlBb8bwkpojt4.jpg" /></programme>
 <programme start="20261014042500 +0000" stop="20261014044500 +0000" channel="nickelodeonjuniordk.dk"><title>Tim Rex i rummet</title><desc>Tim prøver at overholde to aftaler samtidig.//Tim prøver at finde en moseurt-fri snack til Kaia.// Tia taber hele tiden, men ender med at vinde alle festlegene.</desc><episode-num system="xmltv_ns">.7.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/okEw8d8WUeA9ysTlBb8bwkpojt4.jpg" /></programme>
 <programme start="20261014044500 +0000" stop="20261014051000 +0000" channel="nickelodeonjuniordk.dk"><title>Rubble &amp; Co</title><desc>Fartmeister får det til at regne over Byggernes Bugts sangkonkurrence, så Rubble og co. redder showet ved at bygge en kæmpeparaply over stadionet. // Rubble og co. bygger et baggagebånd i lufthavnen, da ingen kan finde deres bagage.</desc><episode-num system="xmltv_ns">.0.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/7m2NrBKnvqMZZ1fytUCmWcAf9xO.jpg" /></programme>
 <programme start="20261014051000 +0000" stop="20261014055500 +0000" channel="nickelodeonjuniordk.dk"><title>Rubble &amp; Co</title><desc>Rubble og co. skal til pyjamasfest med Sierra Sparkle, men da de overrasker Sierra med et nyt værelse, er hendes yndlingsbamse væk. // Borgmester Evigglad slår sin fod, så vovserne bygger en stol til hende, så hun kan lave et stort vandski-stunt.</desc><episode-num system="xmltv_ns">.1.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/7m2NrBKnvqMZZ1fytUCmWcAf9xO.jpg" /></programme>
@@ -69235,7 +69235,7 @@
 <programme start="20261015025500 +0000" stop="20261015030500 +0000" channel="tv4hitsdenmarkdkdadk.dk"><title>Star File</title><desc>Underholdningsprogrammet "Star File" graver dybt i Hollywood og sætter i hvert afsnit fokus på en af tidens hotteste navne blandt skuespillere og instruktører. Her får vi indblik i stjernernes op- og nedture, og hvordan det hele begyndte.</desc><episode-num system="xmltv_ns">0.49.</episode-num></programme>
 <programme start="20261015030500 +0000" stop="20261015031000 +0000" channel="tv4hitsdenmarkdkdadk.dk"><title>Star File</title><desc>Underholdningsprogrammet "Star File" graver dybt i Hollywood og sætter i hvert afsnit fokus på en af tidens hotteste navne blandt skuespillere og instruktører. Her får vi indblik i stjernernes op- og nedture, og hvordan det hele begyndte.</desc><episode-num system="xmltv_ns">0.54.</episode-num></programme>
 <programme start="20261015031000 +0000" stop="20261015034000 +0000" channel="tv4hitsdenmarkdkdadk.dk"><title>On Set</title><desc>I underholdningsprogrammet On Set får vi lov til at komme bag kulisserne i Hollywood.</desc><episode-num system="xmltv_ns">0.17.</episode-num></programme>
-<programme start="20261015034000 +0000" stop="20261015053000 +0000" channel="tv4hitsdenmarkdkdadk.dk"><title>Ondskab</title><desc>16-årige Erik lever i ondskabens og voldens greb både i hjemmet og i skolegården. Da han bliver smidt ud af skolen, kommer han til kostskolen Stjärnsberg, hvor ondskaben er sat i system forklædt som "kammeratopfostring".</desc></programme>
+<programme start="20261015034000 +0000" stop="20261015053000 +0000" channel="tv4hitsdenmarkdkdadk.dk"><title>Ondskab</title><desc>16-årige Erik lever i ondskabens og voldens greb både i hjemmet og i skolegården. Da han bliver smidt ud af skolen, kommer han til kostskolen Stjärnsberg, hvor ondskaben er sat i system forklædt som "kammeratopfostring".</desc><icon src="https://image.tmdb.org/t/p/w1280/7zKybmhr82KtJgrIFoijAx2P4YV.jpg" /></programme>
 <programme start="20261015053000 +0000" stop="20261015070500 +0000" channel="tv4hitsdenmarkdkdadk.dk"><title>Dirty Dancing</title><desc>I sommeren 1963 er doktordatteren, den 17-årige Frances Houseman møder danseinstruktøren Johnny Castle. Johnny danser på en måde, som Baby aldrig før har set! Sammen med Johnny begynder Baby at udforske dansens mysterier, og snart er de dybt forelskede i hinanden.</desc></programme>
 <programme start="20261015070500 +0000" stop="20261015083500 +0000" channel="tv4hitsdenmarkdkdadk.dk"><title>Sommerbogen</title><desc>SOMMERBOGEN er baseret på Tove Janssons elskede klassiker af samme navn og er en smuk og magisk-realistisk fortælling om den 9 årige Sophia og hendes bedstemor, der tilbringer en sommer på en lille, ubeboet ø i skærgården.</desc></programme>
 <programme start="20261015083500 +0000" stop="20261015102500 +0000" channel="tv4hitsdenmarkdkdadk.dk"><title>Hammarskjöld</title><desc>I 1961 har Dag Hammarskjöld (Mikael Persbrandt) et år tilbage på posten som FN's generalsekretær. Derefter vil han flytte til huset på Österlen og nyde sin frihed. Men det er under den kolde krig, og et af brændpunkterne er i Congo.</desc></programme>
@@ -69249,31 +69249,4 @@
 <programme start="20261015225000 +0000" stop="20261016002000 +0000" channel="tv4hitsdenmarkdkdadk.dk"><title>Beck</title><desc>Peter Haber spiller den sympatiske politimand Martin Beck i serien, der bygger på det verdensberømte forfatterpar Maj Sjöwall og Per Wahlöös romanunivers.</desc><episode-num system="xmltv_ns">8.3.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/qMOe40lxBNobowmOkOAmXvPK4RG.jpg" /></programme>
 <programme start="20261016002000 +0000" stop="20261016015500 +0000" channel="tv4hitsdenmarkdkdadk.dk"><title>Pet Sematary</title><desc>Efter at være flyttet fra Boston til Maine med sin kone Rachel og deres to børn, finder dr. Louis Creed en mystisk dyrekirkegård, gemt af vejen langt inde i skoven tæt på familiens nye hjem. Da der en ufattelig tragedie, henvender Louis sig i sin fortvivlelse til sin nabo, Jud Crandall, og starter dermed en livsfarlig kædereaktion, der sætter en uendelig ondskab fri, med frygtelige konsekvenser.</desc></programme>
 <programme start="20261016015500 +0000" stop="20261016033000 +0000" channel="tv4hitsdenmarkdkdadk.dk"><title>Beck</title><desc>Peter Haber spiller den sympatiske politimand Martin Beck i serien, der bygger på det verdensberømte forfatterpar Maj Sjöwall og Per Wahlöös romanunivers.</desc><episode-num system="xmltv_ns">8.1.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/qMOe40lxBNobowmOkOAmXvPK4RG.jpg" /></programme>
-<programme start="20261014010000 +0000" stop="20261014030000 +0000" channel="viasatfamilydk.dk"><title>Skal, skal ikke?</title><desc>Juristen Rachel (Ginnifer Goodwin) har i årevis været hemmeligt forelsket i Dex (Colin Egglesfield), som hun lærte at kende, mens hun studerede. Da Rachels veninde Darcy (Kate Hudson) møder Dex, slår hun straks kløerne i ham - til Rachels store fortrydelse. Og værre går det, da Dex og Darcy kort efter annoncerer, at de skal forloves, og Darcy gerne vil have Rachel som brudepige til det kommende bryllup. Spørgsmålet er, om Rachel skal erklære Dex sin store kærlighed, inden det er for sent,Luke Greenfield - director, Jennie Snyder Urman - writer, Emily Giffin - writer,Ginnifer Goodwin - Rachel,Kate Hudson - Darcy,Colin Egglesfield - Dex,John Krasinski - Ethan,Steve Howey - Marcus,Ashley Williams - Claire,Geoff Pierson - Dexter Thaler Sr.</desc></programme>
-<programme start="20261014030000 +0000" stop="20261014050000 +0000" channel="viasatfamilydk.dk"><title>Bridget Jones: Vild med ham</title><desc>I Bridget Jones: Vild med ham er Bridget igen alene, siden hun blev enke for fire år siden, da Mark blev dræbt under en humanitær mission i Sudan,Michael Lewis - director, Michael Morris - director, Helen Fielding - writer, Dan Mazer - writer, Abi Morgan - writer,Chiwetel Ejiofor - Mr. Walliker,Leo Woodall - Roxster McDuff,Hugh Grant - Daniel Cleaver,Isla Fisher - Rebecca,Colin Firth - Mark Darcy,Emma Thompson - Dr. Rawlings.</desc><icon src="https://image.tmdb.org/t/p/w1280/mQoBFEzLleywU2aF67TvNvd5ed1.jpg" /></programme>
-<programme start="20261014050000 +0000" stop="20261014070000 +0000" channel="viasatfamilydk.dk"><title>Spider-Man: Across the Spider-Verse</title><desc>Efter at være blevet genforenet med Gwen Stacy, bliver Brooklyns fuldtids, venlige kvarters Spider-Man slynget over Multiverset, hvor han møder et hold af Spider-mennesker, der har til opgave at beskytte dets eksistens. Indeholder blinkende lys, som kan påvirke seere med fotosensitiv epilepsi,Joaquim Dos Santos - director, Kemp Powers - director, Justin K. Thompson - director, Phil Lord - writer, Christopher Miller - writer, Dave Callaham - writer,Shameik Moore - Miles Morales,Hailee Steinfeld - Gwen Stacey,Brian Tyree Henry - Jeff Morales,Luna Lauren Vélez - Rio Morales,Jake Johnson - Peter B. Parker.</desc></programme>
-<programme start="20261014070000 +0000" stop="20261014090000 +0000" channel="viasatfamilydk.dk"><title>Lego-filmen: Et klodset eventyr</title><desc>Emmet er en almindelig minifigur, som altid har fulgt alle regler. Hans liv forandres totalt, da han pludselig anses for at være en meget dygtig mesterbygger, som er udvalgt til at redde verden. Han slår sig sammen med en flok fremmede, og de tager ud på en episk og skør rejse for at stoppe en ondskabsfuld tyran, hvilket Emmet er håbløst uforberedt på,Christopher Miller - director, Christopher Miller - writer, Phil Lord - director, Phil Lord - writer, Chris Miller - writer, Dan Hageman - writer,Chris Pratt - Emmet Brickowski,Craig Berry - Blake,Will Arnett - Batman,Elizabeth Banks - Wyldstyle,Will Ferrell - Lord Business,David Burrows - Octan Robot,Anthony Daniels - C-3PO.</desc><icon src="https://image.tmdb.org/t/p/w1280/eN3TxaTHJyBgl3FgacARuVI3pQF.jpg" /></programme>
-<programme start="20261014090000 +0000" stop="20261014110000 +0000" channel="viasatfamilydk.dk"><title>Sune - Mission Midsommer</title><desc>Sunes familie skal fejre midsommer med Sophies familie. Men lige inden de tager afsted, slår Sophie op med Sune! Nu må Sune arrangere en rigtig romantisk midsommer for at vinde hende tilbage,Erland Beskow - director, Thobias Hoffmén - writer, Sören Olsson - writer, Christoffer Sandler - writer,Elis Gerdt - Sune,Baxter Renman - Håkan,Tea Stjärne - Anna,Sissela Benn - Karin,Fredrik Hallgren - Rudolf,Lily Wahlsteen - Sophie,Olle Sarri - Ragnar,Göran Ragnerstam - Tobias,Sanna Sundqvist - Yvonne,Ana Gil de Melo Nascimento - Michelle.</desc></programme>
-<programme start="20261014110000 +0000" stop="20261014130000 +0000" channel="viasatfamilydk.dk"><title>Helt super</title><desc>Hedvig har krympet fars superheltedragt, og nu kan han ikke længere være byens Superløve. Typisk! Hedvig, som er ret klodset og er meget glad for spil. Men da far vælger den stærke og suveræne fætter Adrian som ny superhelt, MÅ Hedvig bare tage kampen op,Rasmus A. Sivertsen - director, Kamilla Krogsveen - writer,Hennika Huuse - Hedvig,Todd Bishop Monrad Vistven - Thomas,Johannes Kjærnes - Adrian,Tobias Santelmann - Super Lion,Kari Simonsen - Grandmother,Henriette Marø - Teacher,Line Verndal - Aunt,Atle Antonsen - Uncle.</desc><icon src="https://image.tmdb.org/t/p/w1280/lwh9iL3DEzc8MaUxGtxOfU9oF9C.jpg" /></programme>
-<programme start="20261014130000 +0000" stop="20261014150000 +0000" channel="viasatfamilydk.dk"><title>Maracuda</title><desc>Maracuda er søn af en respekteret stammeleder, men kæmper for at leve op til sin fars forventninger. Han vover sig ind i en mystisk skov for at bevise sit værd og møder Tink – en magisk fugl. Sammen drager de på utrolige eventyr i stenalderens skove. Midt i deres eskapader forvandler Tink uforvarende Maracudas far til en lille skabning, hvilket tvinger drengen til at lære Tink at styre sine kræfter.,Undervejs lærer Maracuda ansvar, mens faren må vise mere forståelse og medfølelse,Viktor Glukhushin - director, Aleksandr Arkhipov - writer, Ray Gower - writer,Jordan Worsley - voice,Nathan Ford - voice,Maria Smakhtina - voice,Prokhor Chekhovskoy - Marakuda,Peter Ivaschenko - Kosolapyy,Marina Lisovets - Rozovaya,Eliza Martirosova - Vesna,Diomid Vinogradov - Utyos,Sergey Selyanov - producer.</desc></programme>
-<programme start="20261014150000 +0000" stop="20261014170000 +0000" channel="viasatfamilydk.dk"><title>Kaptajn Sabeltand og den magiske diamant</title><desc>En solskoldet vampyr. En manipulerende dronning. En brutal abehær. Og verdens yngste pirat på jagt efter sin bror. Kaptajn Sabeltand har nok at slås med, når han skal finde en magisk diamant,Marit Moum Aune - director, Rasmus A. Sivertsen - director, Karsten Fullu - writer, Terje Formoe - writer,Charlotte Frogner - Sirikit,Bartek Kaminski - Maga Kahn,Ida Leonora Valestrand Eike - Marco,Leonard Valestrand Eike - Pinky,Siri Skjeggedal - Sunniva.</desc><icon src="https://image.tmdb.org/t/p/w1280/5n3Qm7FjefKdxATdVqFnVSCN0re.jpg" /></programme>
-<programme start="20261014170000 +0000" stop="20261014190000 +0000" channel="viasatfamilydk.dk"><title>Familien Addams</title><desc>I denne animerede action-komedie, baseret på Charles Addams berømte tegneserie i avisen, The New Yorker, følger man familien Addams, hvis liv langsomt dechiffreres i det direkte møde med en kløgtig vært fra et reality-TV-program, samtidigt med at de forbereder deres udvidede familie på at ankomme til en større fejring på bedste Addams-vis,Greg Tiernan - director, Conrad Vernon - director, Matt Lieberman - writer, Erica Rivinoja - writer, Conrad Vernon - writer,Oscar Isaac - Gomez Addams,Charlize Theron - Morticia Addams,Chloë Grace Moretz - Wednesday Addams,Finn Wolfhard - Pugsley Addams,Nick Kroll - Uncle Fester,Conrad Vernon - Lurch,Conrad Vernon - voice,Conrad Vernon - producer,Charlize Theron - Morticia,Chloë Grace Moretz - Wednesday,Oscar Isaac - Gomez,Snoop Dogg - It (voice).</desc><icon src="https://image.tmdb.org/t/p/w1280/gFLM7gmT1ra8UAHonmcTuHZpTC7.jpg" /></programme>
-<programme start="20261014190000 +0000" stop="20261014210000 +0000" channel="viasatfamilydk.dk"><title>Bien Maja 2 - På nye Honningeventyr</title><desc>Majas bikube summer af spænding efter at de har hørt om det store honningspil. Maya tager af sted med sin bedste ven Willi og to myrer for at deltage. Holder kæmper fast besluttet på at vinde over sin ærkefjende Viola og sikre sommerens høst. Viola overtaler sit hold til at snyde, men i stedet havner de i fare. Maja og hendes venner påtager sig den svære opgave at redde Violas hold,Noel Cleary - director, Sergio Delfino - director, Alexs Stadermann - director, Fin Edquist - writer, Adrian Bickenbach - writer, Alexs Stadermann - writer, Waldemar Bonsels - writer, Noel Cleary - writer,Coco Jack Gillies - Maya,Benson Jack Anthony - Willi,Richard Roxburgh - Flip,Justine Clarke - Queen,Marney McQueen - Empress,Linda Ngo - Violet.</desc><icon src="https://image.tmdb.org/t/p/w1280/hGBcxERlFB2PGMQCVxHW3Duqd9t.jpg" /></programme>
-<programme start="20261014210000 +0000" stop="20261014230000 +0000" channel="viasatfamilydk.dk"><title>A Dog's Purpose</title><desc>Hvad er meningen med vores eksistens? Det forsøger en helt særlig hund at finde ud af på en rejse gennem de liv, han lever og de mennesker, han møder. På vejen inspirerer han flere mennesker til både at finde håb og kærlighed, før han indser, hvad hans formål i livet egentlig er,Lasse Hallström - director, W. Bruce Cameron - writer, Cathryn Michon - writer, Audrey Wells - writer,Josh Gad - actor,Dennis Quaid - Adult Ethan,Peggy Lipton - Adult Hannah,Bryce Gheisar - 8 Jahre alt,K.J. Apa - Teen Ethan,Juliet Rylance - Ethan's Mom,Josh Gad - Bailey,Luke Kirby - Ethan's Dad,Gabrielle Rose - Grandma Fran,Michael Bofshever - Grandpa Bill,KJ Apa - Teen Ethan.</desc></programme>
-<programme start="20261014230000 +0000" stop="20261014230000 +0000" channel="viasatfamilydk.dk"><title>American Pie 2</title><desc>Et år efter deres store modgange ved gallafesten, der blev udødeliggjort i American Pie, bliver gruppen genforenet til en uforglemmelig sommer. Strandhuset med det uskyldige ydre forvandles nu til den rene partycentral,J.B. Rogers - director, Adam Herz - writer, David H. Steinberg - writer,Jason Biggs - Jim,Seann William Scott - Stifler,Shannon Elizabeth - Nadia,Alyson Hannigan - Michelle,Chris Klein - Oz,Natasha Lyonne - Jessica,Thomas Ian Nicholas - Kevin.</desc></programme>
-<programme start="20261014230000 +0000" stop="20261015010000 +0000" channel="viasatfamilydk.dk"><title>A Rainy Day In New York</title><desc>A RAINY DAY IN NEW YORK er fortællingen om de to collegekærester Gatsby og Ashleigh, hvis planer om en romantisk weekend i New York går i vasken lige så hurtigt, som sol slår over i regn,Woody Allen - director, Woody Allen - writer,Timothée Chalamet - Gatsby,Elle Fanning - Ashleigh,Liev Schreiber - Roland Pollard,Suzanne Smith - Roland's Assistant,Olivia Boreham-Wing - Roland's Assistant,Griffin Newman - Josh,Gus Birney - Student Film Crew,Natasha Romanova - actor,Liz Celeste - Socialite,Elijah Boothe - Student Film Crew.</desc></programme>
-<programme start="20261015010000 +0000" stop="20261015030000 +0000" channel="viasatfamilydk.dk"><title>Wild Child</title><desc>Wild Child</desc></programme>
-<programme start="20261015030000 +0000" stop="20261015050000 +0000" channel="viasatfamilydk.dk"><title>American Pie 2</title><desc>Et år efter deres store modgange ved gallafesten, der blev udødeliggjort i American Pie, bliver gruppen genforenet til en uforglemmelig sommer. Strandhuset med det uskyldige ydre forvandles nu til den rene partycentral,J.B. Rogers - director, Adam Herz - writer, David H. Steinberg - writer,Jason Biggs - Jim,Seann William Scott - Stifler,Shannon Elizabeth - Nadia,Alyson Hannigan - Michelle,Chris Klein - Oz,Natasha Lyonne - Jessica,Thomas Ian Nicholas - Kevin.</desc></programme>
-<programme start="20261015050000 +0000" stop="20261015070000 +0000" channel="viasatfamilydk.dk"><title>Nanny McPhee: Den fortryllende barnepige</title><desc>Nanny McPhee: Den fortryllende barnepige</desc><icon src="https://image.tmdb.org/t/p/w1280/sEWUEH1KbtFOaNXqYCaaguz017h.jpg" /></programme>
-<programme start="20261015070000 +0000" stop="20261015090000 +0000" channel="viasatfamilydk.dk"><title>Maracuda</title><desc>Maracuda er søn af en respekteret stammeleder, men kæmper for at leve op til sin fars forventninger. Han vover sig ind i en mystisk skov for at bevise sit værd og møder Tink – en magisk fugl. Sammen drager de på utrolige eventyr i stenalderens skove. Midt i deres eskapader forvandler Tink uforvarende Maracudas far til en lille skabning, hvilket tvinger drengen til at lære Tink at styre sine kræfter.,Undervejs lærer Maracuda ansvar, mens faren må vise mere forståelse og medfølelse,Viktor Glukhushin - director, Aleksandr Arkhipov - writer, Ray Gower - writer,Jordan Worsley - voice,Nathan Ford - voice,Maria Smakhtina - voice,Prokhor Chekhovskoy - Marakuda,Peter Ivaschenko - Kosolapyy,Marina Lisovets - Rozovaya,Eliza Martirosova - Vesna,Diomid Vinogradov - Utyos,Sergey Selyanov - producer.</desc></programme>
-<programme start="20261015090000 +0000" stop="20261015110000 +0000" channel="viasatfamilydk.dk"><title>Kaptajn Sabeltand og den magiske diamant</title><desc>En solskoldet vampyr. En manipulerende dronning. En brutal abehær. Og verdens yngste pirat på jagt efter sin bror. Kaptajn Sabeltand har nok at slås med, når han skal finde en magisk diamant,Marit Moum Aune - director, Rasmus A. Sivertsen - director, Karsten Fullu - writer, Terje Formoe - writer,Charlotte Frogner - Sirikit,Bartek Kaminski - Maga Kahn,Ida Leonora Valestrand Eike - Marco,Leonard Valestrand Eike - Pinky,Siri Skjeggedal - Sunniva.</desc><icon src="https://image.tmdb.org/t/p/w1280/5n3Qm7FjefKdxATdVqFnVSCN0re.jpg" /></programme>
-<programme start="20261015110000 +0000" stop="20261015130000 +0000" channel="viasatfamilydk.dk"><title>Familien Addams</title><desc>I denne animerede action-komedie, baseret på Charles Addams berømte tegneserie i avisen, The New Yorker, følger man familien Addams, hvis liv langsomt dechiffreres i det direkte møde med en kløgtig vært fra et reality-TV-program, samtidigt med at de forbereder deres udvidede familie på at ankomme til en større fejring på bedste Addams-vis,Greg Tiernan - director, Conrad Vernon - director, Matt Lieberman - writer, Erica Rivinoja - writer, Conrad Vernon - writer,Oscar Isaac - Gomez Addams,Charlize Theron - Morticia Addams,Chloë Grace Moretz - Wednesday Addams,Finn Wolfhard - Pugsley Addams,Nick Kroll - Uncle Fester,Conrad Vernon - Lurch,Conrad Vernon - voice,Conrad Vernon - producer,Charlize Theron - Morticia,Chloë Grace Moretz - Wednesday,Oscar Isaac - Gomez,Snoop Dogg - It (voice).</desc><icon src="https://image.tmdb.org/t/p/w1280/gFLM7gmT1ra8UAHonmcTuHZpTC7.jpg" /></programme>
-<programme start="20261015130000 +0000" stop="20261015150000 +0000" channel="viasatfamilydk.dk"><title>Sune - Best Man</title><desc>Sune - Best Man</desc><icon src="https://image.tmdb.org/t/p/w1280/kldXBuwRIpkZy5pcaKnHSuGwnjs.jpg" /></programme>
-<programme start="20261015150000 +0000" stop="20261015170000 +0000" channel="viasatfamilydk.dk"><title>Gurin med rævehalen</title><desc>Gurin med rævehalen</desc></programme>
-<programme start="20261015170000 +0000" stop="20261015190000 +0000" channel="viasatfamilydk.dk"><title>Croods</title><desc>Croods</desc></programme>
-<programme start="20261015190000 +0000" stop="20261015210000 +0000" channel="viasatfamilydk.dk"><title>You're Cordially Invited</title><desc>You're Cordially Invited</desc></programme>
-<programme start="20261015210000 +0000" stop="20261015230000 +0000" channel="viasatfamilydk.dk"><title>Goodrich</title><desc>Goodrich</desc></programme>
-<programme start="20261015230000 +0000" stop="20261015230000 +0000" channel="viasatfamilydk.dk"><title>A Rainy Day In New York</title><desc>A RAINY DAY IN NEW YORK er fortællingen om de to collegekærester Gatsby og Ashleigh, hvis planer om en romantisk weekend i New York går i vasken lige så hurtigt, som sol slår over i regn,Woody Allen - director, Woody Allen - writer,Timothée Chalamet - Gatsby,Elle Fanning - Ashleigh,Liev Schreiber - Roland Pollard,Suzanne Smith - Roland's Assistant,Olivia Boreham-Wing - Roland's Assistant,Griffin Newman - Josh,Gus Birney - Student Film Crew,Natasha Romanova - actor,Liz Celeste - Socialite,Elijah Boothe - Student Film Crew.</desc></programme>
-<programme start="20261015230000 +0000" stop="20261016010000 +0000" channel="viasatfamilydk.dk"><title>Bridget Jones' dagbog</title><desc>Bridget Jones' dagbog</desc></programme>
-<programme start="20261016010000 +0000" stop="20261016030000 +0000" channel="viasatfamilydk.dk"><title>A Dog's Purpose</title><desc>Hvad er meningen med vores eksistens? Det forsøger en helt særlig hund at finde ud af på en rejse gennem de liv, han lever og de mennesker, han møder. På vejen inspirerer han flere mennesker til både at finde håb og kærlighed, før han indser, hvad hans formål i livet egentlig er,Lasse Hallström - director, W. Bruce Cameron - writer, Cathryn Michon - writer, Audrey Wells - writer,Josh Gad - actor,Dennis Quaid - Adult Ethan,Peggy Lipton - Adult Hannah,Bryce Gheisar - 8 Jahre alt,K.J. Apa - Teen Ethan,Juliet Rylance - Ethan's Mom,Josh Gad - Bailey,Luke Kirby - Ethan's Dad,Gabrielle Rose - Grandma Fran,Michael Bofshever - Grandpa Bill,KJ Apa - Teen Ethan.</desc></programme>
-</tv>
+<programme start="20261013230000 +0200" stop="20261014010000 +0200" channel="viasatfamilydk.dk"><title>American Pie 2</title><desc>. Et år efter deres store modgange ved gallafesten, der blev udødeliggjort i American Pie, bliver gruppen genforenet til en uforglemmelig sommer. Strandhuset med det uskyldige ydre forvandles nu til den rene partycentral. Instruktør: J.B. Rogers. Medvirkende: Jason Biggs, Seann William Scott, Shannon Elizabeth, Alyson Hannigan. Tilladt for: 15.</desc></programme><programme start="20261014010000 +0200" stop="20261014030000 +0200" channel="viasatfamilydk.dk"><title>Skal, skal ikke</title><desc>. Juristen Rachel (Ginnifer Goodwin) har i årevis været hemmeligt forelsket i Dex (Colin Egglesfield), som hun lærte at kende, mens hun studerede. Da Rachels veninde Darcy (Kate Hudson) møder Dex, slår hun straks kløerne i ham - til Rachels store fortrydelse. Og værre går det, da Dex og Darcy kort efter annoncerer, at de skal forloves, og Darcy gerne vil have Rachel som brudepige til det kommende bryllup. Spørgsmålet er, om Rachel skal erklære Dex sin store kærlighed, inden det er for sent? Instruktør: Luke Greenfield. Medvirkende: Ginnifer Goodwin, Kate Hudson, Colin Egglesfield, John Krasinski. Tilladt for: 11.</desc></programme><programme start="20261014030000 +0200" stop="20261014050000 +0200" channel="viasatfamilydk.dk"><title>Bridget Jones: Vild med ham</title><desc>. I \"Bridget Jones: Vild med ham\" er Bridget igen alene, siden hun blev enke for fire år siden, da Mark blev dræbt under en humanitær mission i Sudan. Tilladt for: A.</desc><icon src="https://image.tmdb.org/t/p/w1280/mQoBFEzLleywU2aF67TvNvd5ed1.jpg" /></programme><programme start="20261014050000 +0200" stop="20261014070000 +0200" channel="viasatfamilydk.dk"><title>Spider-Man: Across the Spider-Verse</title><desc>. Efter at være blevet genforenet med Gwen Stacy, bliver Brooklyns fuldtids, venlige kvarters Spider-Man slynget over Multiverset, hvor han møder et hold af Spider-mennesker, der har til opgave at beskytte dets eksistens. Indeholder blinkende lys, som kan påvirke seere med fotosensitiv epilepsi. Instruktører: Joaquim Dos Santos, Kemp Powers, Justin K. Thompson. Medvirkende: Shameik Moore, Hailee Steinfeld, Brian Tyree Henry, Luna Lauren Velez. Tilladt for: 7.</desc></programme><programme start="20261014070000 +0200" stop="20261014090000 +0200" channel="viasatfamilydk.dk"><title>Lego filmen - Et klodset eventyr</title><desc>. Emmet er en almindelig minifigur, som altid har fulgt alle regler. Hans liv forandres totalt, da han pludselig anses for at være en meget dygtig mesterbygger, som er udvalgt til at redde verden. Han slår sig sammen med en flok fremmede, og de tager ud på en episk og skør rejse for at stoppe en ondskabsfuld tyran, hvilket Emmet er håbløst uforberedt på. Instruktører: Phil Lord, Christopher Miller. Medvirkende: Chris Pratt, Will Ferrell, Elizabeth Banks, Will Arnett. Tilladt for: A.</desc><icon src="https://image.tmdb.org/t/p/w1280/eN3TxaTHJyBgl3FgacARuVI3pQF.jpg" /></programme><programme start="20261014090000 +0200" stop="20261014110000 +0200" channel="viasatfamilydk.dk"><title>Sune - mission midsommer</title><desc>. Sunes familie skal fejre midsommer med Sophies familie. Men lige inden de tager afsted, slår Sophie op med Sune! Nu må Sune arrangere en rigtig romantisk midsommer for at vinde hende tilbage. Instruktør: Erland Beskow. Medvirkende: Elis Gerdt, Baxter Renman, Tea Stjärne, Sissela Benn. Tilladt for: A.</desc></programme><programme start="20261014110000 +0200" stop="20261014130000 +0200" channel="viasatfamilydk.dk"><title>Helt super</title><desc>. Hedvig har krympet fars superheltedragt, og nu kan han ikke længere være byens Superløve. Typisk! Hedvig, som er ret klodset og er meget glad for spil. Men da far vælger den stærke og suveræne fætter Adrian som ny superhelt, MÅ Hedvig bare tage kampen op. Instruktører: Rasmus A. Sivertsen, Jean-Luc Julien. Medvirkende: Hennika Huuse, Todd Bishop Monrad Vistven, Johannes Kjærnes, Tobias Santelmann. Tilladt for: 7.</desc><icon src="https://image.tmdb.org/t/p/w1280/lwh9iL3DEzc8MaUxGtxOfU9oF9C.jpg" /></programme><programme start="20261014130000 +0200" stop="20261014150000 +0200" channel="viasatfamilydk.dk"><title>Maracuda</title><desc>. Maracuda er søn af en respekteret stammeleder, men kæmper for at leve op til sin fars forventninger. Han vover sig ind i en mystisk skov for at bevise sit værd og møder Tink – en magisk fugl. Sammen drager de på utrolige eventyr i stenalderens skove. Midt i deres eskapader forvandler Tink uforvarende Maracudas far til en lille skabning, hvilket tvinger drengen til at lære Tink at styre sine kræfter. Undervejs lærer Maracuda ansvar, mens faren må vise mere forståelse og medfølelse. Tilladt for: 7.</desc></programme><programme start="20261014150000 +0200" stop="20261014170000 +0200" channel="viasatfamilydk.dk"><title>Kaptajn Sabeltand og den magiske diamant</title><desc>. En solskoldet vampyr. En manipulerende dronning. En brutal abehær. Og verdens yngste pirat på jagt efter sin bror. Kaptajn Sabeltand har nok at slås med, når han skal finde en magisk diamant. Instruktører: Marit Moum Aune, Rasmus A. Sivertsen. Medvirkende: Kyrre Haugen Sydness, Siri Skjeggedal, Leonard Valestrand Eike, Ida Leonora Valestrand Eike. Tilladt for: A.</desc><icon src="https://image.tmdb.org/t/p/w1280/5n3Qm7FjefKdxATdVqFnVSCN0re.jpg" /></programme><programme start="20261014170000 +0200" stop="20261014190000 +0200" channel="viasatfamilydk.dk"><title>Familien Addams</title><desc>. I denne animerede action-komedie, baseret på Charles Addams berømte tegneserie i avisen, The New Yorker, følger man familien Addams, hvis liv langsomt dechiffreres i det direkte møde med en kløgtig vært fra et reality-TV-program, samtidigt med at de forbereder deres udvidede familie på at ankomme til en større fejring på bedste Addams-vis. Instruktører: Greg Tiernan, Conrad Vernon. Medvirkende: Oscar Isaac, Charlize Theron, Chloë Grace Moretz, Finn Wolfhard. Tilladt for: 7.</desc><icon src="https://image.tmdb.org/t/p/w1280/gFLM7gmT1ra8UAHonmcTuHZpTC7.jpg" /></programme><programme start="20261014190000 +0200" stop="20261014210000 +0200" channel="viasatfamilydk.dk"><title>Bien Maja 2 - På nye Honningeventyr</title><desc>. Majas bikube summer af spænding efter at de har hørt om det store honningspil. Maya tager af sted med sin bedste ven Willi og to myrer for at deltage. Holder kæmper fast besluttet på at vinde over sin ærkefjende Viola og sikre sommerens høst. Viola overtaler sit hold til at snyde, men i stedet havner de i fare. Maja og hendes venner påtager sig den svære opgave at redde Violas hold. Instruktører: Noel Cleary, Sergio Delfino, Alexs Stadermann. Medvirkende: Coco Jack Gillies, Benson Jack Anthony, Richard Roxburgh, Justine Clarke. Tilladt for: A.</desc><icon src="https://image.tmdb.org/t/p/w1280/hGBcxERlFB2PGMQCVxHW3Duqd9t.jpg" /></programme><programme start="20261014210000 +0200" stop="20261014230000 +0200" channel="viasatfamilydk.dk"><title>A Dog’s Purpose</title><desc>. Hvad er meningen med vores eksistens? Det forsøger en helt særlig hund at finde ud af på en rejse gennem de liv, han lever og de mennesker, han møder. På vejen inspirerer han flere mennesker til både at finde håb og kærlighed, før han indser, hvad hans formål i livet egentlig er. Instruktør: Lasse Hallström. Medvirkende: Josh Gad, Dennis Quaid, Peggy Lipton, Bryce Gheisar. Tilladt for: 7.</desc></programme><programme start="20261014230000 +0200" stop="20261015010000 +0200" channel="viasatfamilydk.dk"><title>A Rainy Day In New York</title><desc>. A RAINY DAY IN NEW YORK er fortællingen om de to collegekærester Gatsby og Ashleigh, hvis planer om en romantisk weekend i New York går i vasken lige så hurtigt, som sol slår over i regn. Instruktør: Woody Allen. Medvirkende: Timothée Chalamet, Elle Fanning, Liev Schreiber, Suzanne Smith. Tilladt for: 11.</desc></programme><programme start="20261015010000 +0200" stop="20261015030000 +0200" channel="viasatfamilydk.dk"><title>Wild Child</title><desc>. Poppy er en forkælet teenager, der siden hendes mor forlod dem, har presset sin rige far til det yderste. Men faren får endelig nok, og Poppy bliver sendt på sin mors gamle engelske kostskole. Instruktør: Nick Moore. Medvirkende: Emma Roberts, Aidan Quinn, Natasha Richardson, Lexi Ainsworth. Tilladt for: 11.</desc></programme><programme start="20261015030000 +0200" stop="20261015050000 +0200" channel="viasatfamilydk.dk"><title>American Pie 2</title><desc>. Et år efter deres store modgange ved gallafesten, der blev udødeliggjort i American Pie, bliver gruppen genforenet til en uforglemmelig sommer. Strandhuset med det uskyldige ydre forvandles nu til den rene partycentral. Instruktør: J.B. Rogers. Medvirkende: Jason Biggs, Seann William Scott, Shannon Elizabeth, Alyson Hannigan. Tilladt for: 15.</desc></programme><programme start="20261015050000 +0200" stop="20261015070000 +0200" channel="viasatfamilydk.dk"><title>Nanny McPhee - Den Fortryllende Barnepige</title><desc>. En enkemand med syv uregerlige børn,som opfører sig så forfærdeligt, at de har fået 17 barnepiger til at sige op i desperation, ansætter en barnepige med magiske evner. Instruktør: Kirk Jones. Medvirkende: Emma Thompson, Colin Firth, Angela Lansbury, Kelly Macdonald. Tilladt for: A.</desc><icon src="https://image.tmdb.org/t/p/w1280/sEWUEH1KbtFOaNXqYCaaguz017h.jpg" /></programme><programme start="20261015070000 +0200" stop="20261015090000 +0200" channel="viasatfamilydk.dk"><title>Maracuda</title><desc>. Maracuda er søn af en respekteret stammeleder, men kæmper for at leve op til sin fars forventninger. Han vover sig ind i en mystisk skov for at bevise sit værd og møder Tink – en magisk fugl. Sammen drager de på utrolige eventyr i stenalderens skove. Midt i deres eskapader forvandler Tink uforvarende Maracudas far til en lille skabning, hvilket tvinger drengen til at lære Tink at styre sine kræfter. Undervejs lærer Maracuda ansvar, mens faren må vise mere forståelse og medfølelse. Tilladt for: 7.</desc></programme><programme start="20261015090000 +0200" stop="20261015110000 +0200" channel="viasatfamilydk.dk"><title>Kaptajn Sabeltand og den magiske diamant</title><desc>. En solskoldet vampyr. En manipulerende dronning. En brutal abehær. Og verdens yngste pirat på jagt efter sin bror. Kaptajn Sabeltand har nok at slås med, når han skal finde en magisk diamant. Instruktører: Marit Moum Aune, Rasmus A. Sivertsen. Medvirkende: Kyrre Haugen Sydness, Siri Skjeggedal, Leonard Valestrand Eike, Ida Leonora Valestrand Eike. Tilladt for: A.</desc><icon src="https://image.tmdb.org/t/p/w1280/5n3Qm7FjefKdxATdVqFnVSCN0re.jpg" /></programme><programme start="20261015110000 +0200" stop="20261015130000 +0200" channel="viasatfamilydk.dk"><title>Familien Addams</title><desc>. I denne animerede action-komedie, baseret på Charles Addams berømte tegneserie i avisen, The New Yorker, følger man familien Addams, hvis liv langsomt dechiffreres i det direkte møde med en kløgtig vært fra et reality-TV-program, samtidigt med at de forbereder deres udvidede familie på at ankomme til en større fejring på bedste Addams-vis. Instruktører: Greg Tiernan, Conrad Vernon. Medvirkende: Oscar Isaac, Charlize Theron, Chloë Grace Moretz, Finn Wolfhard. Tilladt for: 7.</desc><icon src="https://image.tmdb.org/t/p/w1280/gFLM7gmT1ra8UAHonmcTuHZpTC7.jpg" /></programme><programme start="20261015130000 +0200" stop="20261015150000 +0200" channel="viasatfamilydk.dk"><title>Sune - Best Man</title><desc>. Sunes klasse skal på en hemmelig lejrskole, men det går pludselig op for Sune, at lejrskolen foregår samme weekend som morfars bryllup. Panik! Skal han vælge lejrskolen eller morfar? Instruktør: Jon Holmberg. Medvirkende: Elis Gerdt, Baxter Renman, Tea Stjärne, Sissela Benn. Tilladt for: 7.</desc><icon src="https://image.tmdb.org/t/p/w1280/kldXBuwRIpkZy5pcaKnHSuGwnjs.jpg" /></programme><programme start="20261015150000 +0200" stop="20261015170000 +0200" channel="viasatfamilydk.dk"><title>Gurin med rævehalen</title><desc>. En nisse ved navn Gurin vågner op med en rævehale som straf for sine drillerier. Instruktører: John M. Jacobsen, Nille Tystad. Medvirkende: Toralv Maurstad, Grethe Kausland, Pia Borgli, Wenche Foss. Tilladt for: A.</desc></programme><programme start="20261015170000 +0200" stop="20261015190000 +0200" channel="viasatfamilydk.dk"><title>Croods</title><desc>. Crood er navnet på en neandertaler-familie, der har levet hele deres liv i en hule. Da deres hule styrter sammen, må Familien Crood vove sig ud på en rejse gennem et landskab præget af mærkelige planter og et forunderligt dyreliv for at finde et nyt hjem. Instruktører: Kirk DeMicco, Chris Sanders. Medvirkende: Nicolas Cage, Ryan Reynolds, Emma Stone, Catherine Keener. Tilladt for: A.</desc></programme><programme start="20261015190000 +0200" stop="20261015210000 +0200" channel="viasatfamilydk.dk"><title>You're Cordially Invited</title><desc>re Cordially Invited'. Da to bryllupper ved en fejl bliver booket på samme dag og sted, tvinges de to bryllupsselskaber at få det bedste ud af den uventede og uønskede situation for at bevare deres egne specielle bryllupsoplevelser. Da den ene bruds far og den anden bruds søster støder sammen, opstår en humoristisk kamp mellem stædighed og viljestyrke. Begge er villige til at gøre alt for at sikre en uforglemmelig fest for deres nære og kære. Instruktør: Nicholas Stoller. Medvirkende: Geraldine Viswanathan, Will Ferrell, Reese Witherspoon, Jimmy Tatro. Tilladt for: 15.</desc></programme><programme start="20261015210000 +0200" stop="20261015230000 +0200" channel="viasatfamilydk.dk"><title>Goodrich</title><desc>. Kunsthandler Andy Goodrichs liv ændrer sig drastisk, da hans unge kone skal på afvænning i 90 dage og samtidig truer ham med skilsmisse. Instruktør: Hallie Meyers-Shyer. Medvirkende: Poorna Jagannathan, Laura Benanti, Michael Keaton, Mila Kunis. Tilladt for: 11.</desc></programme><programme start="20261015230000 +0200" stop="20261016010000 +0200" channel="viasatfamilydk.dk"><title>Bridget Jones dagbog</title><desc>. Bridget er 32 og stadig single. Hun er begyndt at frygte, at hun vil dø fed, fordrukken og ensom. Hun beslutter sig for at få kontrol over sit noget kaotiske liv - tabe sig 10 kilo, finde sig en fornuftig kæreste og holde op med at savle over sin lækre chef, Daniel. Hendes mor præsenterer hende for advokaten Mark Darcy, men mødet falder mildt sagt ikke heldigt ud. Og stik imod alle sine løfter til sig selv indleder Bridget i stedet en katastrofal affære med Daniel. Instruktør: Sharon Maguire. Medvirkende: Renée Zellweger, Colin Firth, Hugh Grant, Gemma Jones. Tilladt for: 15.</desc></programme></tv>
