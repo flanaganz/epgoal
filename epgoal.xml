@@ -2142,7 +2142,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/lLbtO5Kd52d8MBNzov5foyhlJCG.jpg" /></programme>
   <programme start="20261017222500 +0000" stop="20261018000000 +0000" channel="dr2.dk">
     <title lang="da">Exodus</title>
     <desc lang="da">'Exodus'. Et drama om tolv-årige Amal, der er på flugt fra Syrien og tvinges til at stole på menneskesmugleren Sam. Han er den, der kan redde hende fra farerne ved både krig og menneskehandel, mens Amal er den, der kan oplyse Sams mørke sind med hendes fantasi og legesyge. Måske kan hun endda få ham til at affinde sig med sin fortid? Instruktør: Abbe Hassan. Medvirkende: Jwan Alqatami, Khaled Alqatami, Aliki Andriomenou, Isa Aouifia. Tilladt for: 15.</desc>
@@ -5368,7 +5368,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/vzHASZxylY7AkNm6YqyvQtLBFep.jpg" /></programme>
   <programme start="20261017054000 +0000" stop="20261017063500 +0000" channel="tv2charlie.dk">
     <title lang="da">Emma - en kvindes kamp</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'Forbudt kærlighed'. Den ambitiøse tjenestepige Emma indleder et forbudt forhold til husets søn. Hun drømmer om at rejse væk og skabe et bedre liv, men forelskelsen ændrer alt. Tilladt for: 15.</desc>
@@ -5376,7 +5376,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/tY53KZd1k1liH3jIBCkSBLLv1OO.jpg" /></programme>
   <programme start="20261017063500 +0000" stop="20261017081500 +0000" channel="tv2charlie.dk">
     <title lang="da">Agatha Christie: Det caribiske mysterium</title>
     <desc lang="da">'Agatha Christie: Det caribiske mysterium'. Under en ferie på de vestindiske øer stifter Miss Marple (Helen Hayes) bekendtskab med major Palgrave (Maurice Evans), en charmerende ældre forfatter, der betror sig til hende og fortæller, at en af de andre beboere på hotellet er morder. Inden han når at fortælle morderens identitet til hende, bliver han selv myrdet, og så tager Miss Marple affære. Hun er sikker på at seriemorderen har slået til igen - og vil myrde flere, hvis hun ikke når at stoppe ham eller hende inden da! Instruktør: Robert Michael Lewis. Medvirkende: Helen Hayes, Barnard Hughes, Jameson Parker, Season Hubley. Tilladt for: 7.</desc>
@@ -7819,7 +7819,7 @@
     <title lang="da">Premier League: Brentford - Liverpool</title>
     <desc lang="da">Sæson: 2026. Episode: 88. 'Brentford - Liverpool'. Der er lagt op til en spændende Premier League-duel på Brentford Community Stadium, når Brentford tager imod Liverpool i 7. runde. Hjemmeholdet får besøg af de røde fra Merseyside i et opgør med højt tempo og masser af intensitet. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /></programme>
   <programme start="20261017160000 +0000" stop="20261017163000 +0000" channel="TV3+.dk">
     <title lang="da">Premier League Studie</title>
     <desc lang="da">Sæson: 2026. Episode: 42. 'Brentford - Liverpool'. Se med, når vi følger op på den netop færdigspillede Premier League-kamp mellem Brentford og Liverpool. Tilladt for: A.</desc>
@@ -11341,7 +11341,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/9yHqr0q4kM5TnT6HatJ8vA4R0VK.jpg" /></programme>
   <programme start="20261017212000 +0000" stop="20261017233000 +0000" channel="tv3.puls.dk">
     <title lang="da">A Beautiful Day In The Neighborhood</title>
     <desc lang="da">'A Beautiful Day In The Neighborhood'. Tom Hanks spiller Mister Rogers i A Beautiful Day in the Neighborhood, en varmhjertet fortælling om, hvordan venlighed triumferer over kynisme, baseret på den sande historie om venskabet mellem Fred Rogers og journalisten Tom Junod. Efter en nedslidt bladskribent (Emmy®-vinder Matthew Rhys, 2018 bedste skuespiller i en dramaserie, The Americans) bliver bedt om at skrive en profil om Fred Rogers, overvinder han sin skepsis og lærer om venlighed, kærlighed og tilgivelse fra USA’s mest elskede nabo. Instruktør: Marielle Heller. Medvirkende: Matthew Rhys, Tom Hanks, Chris Cooper, Susan Kelechi Watson. Tilladt for: 7.</desc>
@@ -15538,7 +15538,7 @@
       <actor>Dan Brumm</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261014050500 +0000" stop="20261014051500 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 2. Episode: 34. 'Svømmeskolen'. Mor, Far og Bingo skal fuldføre begge hold for at bestå svømmeskolen, men det er svært at gøre den strenge svømmelærer Margrete (Bluey) tilfreds. Instruktør: Richard Jeffery. Medvirkende: Melanie Zanetti, David McCormack. Tilladt for: A.</desc>
@@ -15548,7 +15548,7 @@
       <actor>David McCormack</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261014051500 +0000" stop="20261014052000 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 2. Episode: 42. 'Ud med skraldet'. Bluey, Bingo og Far tager altid skraldet ud sammen. Instruktør: Richard Jeffery. Medvirkende: Melanie Zanetti, David McCormack, Kelly Butler. Tilladt for: A.</desc>
@@ -15559,7 +15559,7 @@
       <actor>Kelly Butler</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261014052000 +0000" stop="20261014052500 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 2. Episode: 85. 'Dårligt humør'. Bingo leger „Dårligt Humør” med Far. Hun står på hans fødder mens han tramper rundt i huset og styrer alt hvad Bingo laver med kaos til følge. Instruktør: Richard Jeffery. Medvirkende: David McCormack, Melanie Zanetti. Tilladt for: A.</desc>
@@ -15569,7 +15569,7 @@
       <actor>Melanie Zanetti</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261014052500 +0000" stop="20261014053000 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 2. Episode: 47. 'Is'. Bluey og Bingo vil smage på hinandens is. Men de er så optaget af, at de begge får smagt lige meget, at de ikke opdager, at deres is smelter. Instruktør: Richard Jeffery. Medvirkende: David McCormack, Dan Brumm, Leigh Sales. Tilladt for: A.</desc>
@@ -15580,7 +15580,7 @@
       <actor>Leigh Sales</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261014053000 +0000" stop="20261014055500 +0000" channel="disneychannel.dk">
     <title lang="da">Iron Man og hans utrolige venner</title>
     <desc lang="da">Sæson: 1. Episode: 12. 'Iron Man og hans utrolige venner'. Amadeus viser sin højteknologiske bikube, men da Swarm angriber, må Iron-vennerne redde dagen og bierne. Iron-vennerne stopper Ultron, der får alle folk til at svæve væk. Tilladt for: A.</desc>
@@ -15610,7 +15610,7 @@
       <actor>Melanie Zanetti</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261014073000 +0000" stop="20261014074000 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 3. Episode: 12. 'Sheepdog'. Far går med til at lege sheepdog med Bluey og Bingo for at forhindre dem i at forstyrre mor, der tager et velfortjent hvil. Men at passe får er hårdere, end de troede. Instruktør: Richard Jeffery. Medvirkende: Melanie Zanetti, David McCormack, Brad Elliott, Darren Hanlon. Tilladt for: A.</desc>
@@ -15623,7 +15623,7 @@
       <actor>Emily Taheny</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261014074000 +0000" stop="20261014074500 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 3. Episode: 13. 'Rengøring'. Mor og Far sværger at genoptage den kedelige rengøring hvis ungerne holder op med at fjolle omkring, men ungerne bliver ved og ved og fjollerierne ender med at smitte af på Mor og Far. Instruktør: Richard Jeffery. Medvirkende: David McCormack, Melanie Zanetti. Tilladt for: A.</desc>
@@ -15633,7 +15633,7 @@
       <actor>Melanie Zanetti</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261014074500 +0000" stop="20261014075000 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 3. Episode: 14. 'Pakkeleg'. Luckys far er forarget over, at nutidens Giv pakken videre har en gave i hvert lag, så han ændrer reglerne tilbage, så den kun har en præmie i midten. Men Bingo taber alligevel. Instruktør: Richard Jeffery. Medvirkende: Melanie Zanetti, David McCormack, Jess Harris, Brad Elliott. Tilladt for: A.</desc>
@@ -15648,7 +15648,7 @@
       <actor>Greta Lee Jackson</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261014075000 +0000" stop="20261014080000 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 3. Episode: 1. 'Perfekt'. Blueys fars dag-kort skal bare være perfekt, men hun kan ikke bestemme sig for, hvad hun skal tegne! Mor minder hende om alle de gode minder, hun har haft sammen med far, og at han heller ikke selv er perfekt. Instruktør: Richard Jeffery. Medvirkende: Melanie Zanetti, David McCormack, Eliot Fish. Tilladt for: A.</desc>
@@ -15659,7 +15659,7 @@
       <actor>Eliot Fish</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261014080000 +0000" stop="20261014080500 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 3. Episode: 15. 'Opdagelsesrejsende'. Mens han venter på at blive hentet fra skole, leger Jack, at han er en sømand, der forsøger at finde vej hjem fra Australien. I mellemtiden er Jacks far faret vild på vejen for at hente ham. Instruktør: Richard Jeffery. Medvirkende: Jane Hall, Hamish Blake, Shauna Corrigan, Leigh Sales. Tilladt for: A.</desc>
@@ -15677,7 +15677,7 @@
       <actor>Frederique Sims</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261014080500 +0000" stop="20261014081500 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 3. Episode: 16. 'Mobiler'. Bluey og Bingo vil lege restaurant med Bedstefar, men alt er lidt anderledes end han er vandt til.. han får brug for en app til at bestille maden! Instruktør: Richard Jeffery. Medvirkende: Melanie Zanetti, David McCormack, Matt Brown, Laurie Newman. Tilladt for: A.</desc>
@@ -15690,7 +15690,7 @@
       <actor>Brad Elliott</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261014081500 +0000" stop="20261014082000 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 3. Episode: 17. 'Pavlova'. Ungerne leger Café så Bingo kan spise Pavlova, men Far Kok kludrer lidt med bestillingerne! Da Bluey fyrer ham, starter Far sin egen konkurrerende Café lige ved siden af Blueys. Instruktør: Richard Jeffery. Medvirkende: David McCormack, Melanie Zanetti. Tilladt for: A.</desc>
@@ -15700,7 +15700,7 @@
       <actor>Melanie Zanetti</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261014082000 +0000" stop="20261014085000 +0000" channel="disneychannel.dk">
     <title lang="da">Phineas og Ferb</title>
     <desc lang="da">Sæson: 4. Episode: 14. 'Tak, men nej tak / Den trojanske kæphest'. Carl får Montys hjælp til at få Major Monogram til at sige tak til ham. Alt i mens, tror Candace endelig hun har fundet en måde at afsløre sine brødre med lidt hjælp fra Peggy McGee, en mærkelig ældre nabo. Og Phineas og Ferb nyder en række af forskellige pyramideformede lege. / Efter Candace har fået sagt, at hun skal læse Iliaden til hendes bogklub, rekonstruerer Phineas og Ferb den legendariske belejring af Troja. Alt i mens, hjælper Perry uforvarende Doktor Doofenshmirtz med at rydde op i hans lejlighed. Instruktører: George Elliott, Robert Hughes, Keith Oliver. Medvirkende: Vincent Martella, Ashley Tisdale, Thomas Brodie-Sangster, Caroline Rhea. Tilladt for: A.</desc>
@@ -15761,7 +15761,7 @@
       <actor>Ninthe van Schie</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261014111500 +0000" stop="20261014112000 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 1. Episode: 23. 'Butik'. Bluey og hendes venner elsker at lege Butik – hvis de da kan komme i gang. Bluey stiller spørgsmål ved alting og ændrer hvem der er hvem hele tiden og det ser ud til at det vil vare hele dagen. Instruktør: Joe Brumm. Medvirkende: Jack Simmons, Ninthe van Schie, Charlotte Stent. Tilladt for: A.</desc>
@@ -15772,7 +15772,7 @@
       <actor>Charlotte Stent</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261014112000 +0000" stop="20261014113000 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 1. Episode: 24. 'Trækvogn'. Bluey glæder sig til at komme hen til klatreringene og Far kører hende og Bingo til parken i trækvogn. Men hendes tålmodighed kommer på en prøve for Far stopper hele tiden og taler med andre voksne. Instruktør: Joe Brumm. Medvirkende: David McCormack, Melanie Zanetti, Richard Jeffery, Hsiao Ling Tang. Tilladt for: A.</desc>
@@ -15786,7 +15786,7 @@
       <actor>Ninthe van Schie</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261014113000 +0000" stop="20261014115500 +0000" channel="disneychannel.dk">
     <title lang="da">Sofia den første: Kongelig magi</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'Velkommen til Charmelille'. Det er første skoledag for Sofia på den kongelige magiske skole, hvor hun slår sig sammen med nye venner om at vinde en konkurrence, og får et magisk besøg af Rapunzel. Tilladt for: A.</desc>
@@ -15917,7 +15917,7 @@
       <actor>Jane Hall</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261014180000 +0000" stop="20261014180500 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 3. Episode: 30. 'Skildpaddedreng'. Bingo finder en legetøjsskildpadde på legepladsen og vil tage ham med hjem, men Far siger at det ikke er god stil. Instruktør: Richard Jeffery. Medvirkende: David McCormack, Miranda Tapsell. Tilladt for: A.</desc>
@@ -15927,7 +15927,7 @@
       <actor>Miranda Tapsell</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261014180500 +0000" stop="20261014181500 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 3. Episode: 31. 'Heldragter'. Da Mors søster Brandy kommer på besøg, har de heldragter hun har med til pigerne som gave en uventet virkning på Bingo! Instruktør: Richard Jeffery. Medvirkende: David McCormack, Melanie Zanetti, Rose Byrne. Tilladt for: A.</desc>
@@ -15938,7 +15938,7 @@
       <actor>Rose Byrne</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261014181500 +0000" stop="20261014182500 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 3. Episode: 32. 'Håndværkere'. Fantasien har ingen grænser - og ingen har mere fantasi end den 6-årige hundehvalp Bluey, der sammen med sin lillesøster Bingo hver dag forvandler dagligdagen til et eventyr i denne fantastiske australske animationsserie. Instruktør: Richard Jeffery. Medvirkende: Melanie Zanetti, Sam Cotton, Mick Molloy, Leigh Sales. Tilladt for: A.</desc>
@@ -15950,7 +15950,7 @@
       <actor>Leigh Sales</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261014182500 +0000" stop="20261014183000 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 3. Episode: 33. 'Mimremobil'. Muffin leger sur gammel dame på loppemarked og får Far til at skubbe hende på en gammel el-scooter. Men da en ægte sur gammel dame vil købe den, bliver Muffin stædig. Instruktør: Richard Jeffery. Medvirkende: David McCormack, Melanie Zanetti, Kelly Butler, Margot Knight. Tilladt for: A.</desc>
@@ -15963,7 +15963,7 @@
       <actor>David Murry</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261014183000 +0000" stop="20261014184000 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 3. Episode: 34. 'Rummet'. Mackenzie, Jack og Rusty leger astronauter på en mission til Mars. Men på deres rejse, bliver Mackenzie hele tiden væk og ingen ved hvorfor - selv ikke Mackenzie! Instruktør: Richard Jeffery. Medvirkende: Meg Washington, Loren Taylor, Charlotte Stent. Tilladt for: A.</desc>
@@ -15974,7 +15974,7 @@
       <actor>Charlotte Stent</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261014184000 +0000" stop="20261014190500 +0000" channel="disneychannel.dk">
     <title lang="da">Sofia den første: Kongelig magi</title>
     <desc lang="da">Sæson: 1. Episode: 4. 'Magisk kaos / Kongelig ryst posen'. Camilla vil gerne være Cedrics lærling, men kommer til at skabe kaos med avancerede besværgelser. Sofia må samarbejde med Sørens søster, men de har ikke meget til fælles. Tilladt for: A.</desc>
@@ -16035,7 +16035,7 @@
       <actor>Claudia O'Doherty</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261015050500 +0000" stop="20261015051500 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 2. Episode: 37. 'Stilleleg'. Bluey og Bingo leger stilleleg og vil ikke bruge ord for at fortælle Far hvad for noget legetøj han skal købe. Desperat, rekrutterer Far den nye butiksassistent, Alfie, til at hjælpe med at oversætte hvad det er, pigerne mimer. Instruktør: Richard Jeffery. Medvirkende: David McCormack, Melanie Zanetti, Robert Clarence Irwin, Caitlin Hill. Tilladt for: A.</desc>
@@ -16049,7 +16049,7 @@
       <actor>Anne Pearson</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261015051500 +0000" stop="20261015052000 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 2. Episode: 36. 'Postbud'. Da Mor og Far bliver uenige, får Bluey Far til at skrive et kærlighedsbrev til Mor så de kan blive gode venner igen. Og Bluey må finde ud af at aflevere brevet til Mor. Instruktør: Richard Jeffery. Medvirkende: Melanie Zanetti, David McCormack. Tilladt for: A.</desc>
@@ -16059,7 +16059,7 @@
       <actor>David McCormack</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261015052000 +0000" stop="20261015052500 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 2. Episode: 43. 'Muffins krave'. Muffin er nødt til at gå med krave fordi hun ikke kan lade være med at sutte på sin tommelfinger. Men kraven kommer i vejen så hun ikke kan lege „Sandwich Butik” med Bluey og Bingo. Instruktør: Richard Jeffery. Medvirkende: Melanie Zanetti, Dan Brumm, Myf Warhurst. Tilladt for: A.</desc>
@@ -16070,7 +16070,7 @@
       <actor>Myf Warhurst</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261015052500 +0000" stop="20261015053000 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 2. Episode: 35. 'Café'. Bluey møder en ny legekammerat i parken; Winnie. Men da Bluey vil invitere hende og hendes far med hjem til morgenmad, finder hun ud af, at voksne er lidt længere om at bliver venner. Instruktør: Richard Jeffery. Medvirkende: David McCormack, Melanie Zanetti, Eliot Fish. Tilladt for: A.</desc>
@@ -16081,7 +16081,7 @@
       <actor>Eliot Fish</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261015053000 +0000" stop="20261015055500 +0000" channel="disneychannel.dk">
     <title lang="da">Iron Man og hans utrolige venner</title>
     <desc lang="da">Sæson: 1. Episode: 13. 'Iron Man og hans fantastiske venner'. Iron-vennerne tager på camping. Swarms fårekyllinger skaber kaos. Tilladt for: A.</desc>
@@ -16112,7 +16112,7 @@
       <actor>Natalie Portman</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261015073000 +0000" stop="20261015074000 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 3. Episode: 24. 'Videochat'. Bluey og Bingo videochatter med Muffin og Socks. Instruktør: Richard Jeffery. Medvirkende: David McCormack, Melanie Zanetti, Dan Brumm, Myf Warhurst. Tilladt for: A.</desc>
@@ -16124,7 +16124,7 @@
       <actor>Myf Warhurst</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261015074000 +0000" stop="20261015074500 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 3. Episode: 25. 'Kludedukke'. Far går med til at tage Bluey og Bingo med i butikkerne for at købe en is, hvis de kan få ham ind i bilen. Problemet er bare, at han lige er gået i 'Ragdoll'-tilstand. Instruktør: Richard Jeffery. Medvirkende: David McCormack, Emily Taheny. Tilladt for: A.</desc>
@@ -16134,7 +16134,7 @@
       <actor>Emily Taheny</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261015074500 +0000" stop="20261015075000 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 3. Episode: 26. 'Eventyr'. Far fortæller Bluey og Bingo et eventyr fra det virkelige liv om hvordan det var at vokse op i en vild tid der hed Firserne og om en dreng der blev forbandet fordi han var ond ved sin lillebror. Instruktør: Richard Jeffery. Medvirkende: Melanie Zanetti, David McCormack, Chris Brumm, Sam Simmons. Tilladt for: A.</desc>
@@ -16146,7 +16146,7 @@
       <actor>Sam Simmons</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261015075000 +0000" stop="20261015080000 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 3. Episode: 36. 'Jord'. Judo vil lege med jord sammen med Bluey og Bingo, men hun må ikke blive beskidt. Instruktør: Richard Jeffery. Medvirkende: David McCormack, Emily Taheny. Tilladt for: A.</desc>
@@ -16156,7 +16156,7 @@
       <actor>Emily Taheny</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261015080000 +0000" stop="20261015080500 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 3. Episode: 47. 'Cricket'. Ingen af fædrene kan kaste Rusty ud da de spiller en gang venskabs-cricket i parken. Rusty har nemlig brugt lang tid på at blive den perfekte batter. Instruktør: Richard Jeffery. Medvirkende: David McCormack, Dan Brumm, Brad Elliott, Anthony Field. Tilladt for: A.</desc>
@@ -16169,7 +16169,7 @@
       <actor>Jane Hall</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261015080500 +0000" stop="20261015081500 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 3. Episode: 30. 'Skildpaddedreng'. Bingo finder en legetøjsskildpadde på legepladsen og vil tage ham med hjem, men Far siger at det ikke er god stil. Instruktør: Richard Jeffery. Medvirkende: David McCormack, Miranda Tapsell. Tilladt for: A.</desc>
@@ -16179,7 +16179,7 @@
       <actor>Miranda Tapsell</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261015081500 +0000" stop="20261015082000 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 3. Episode: 31. 'Heldragter'. Da Mors søster Brandy kommer på besøg, har de heldragter hun har med til pigerne som gave en uventet virkning på Bingo! Instruktør: Richard Jeffery. Medvirkende: David McCormack, Melanie Zanetti, Rose Byrne. Tilladt for: A.</desc>
@@ -16190,7 +16190,7 @@
       <actor>Rose Byrne</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261015082000 +0000" stop="20261015085000 +0000" channel="disneychannel.dk">
     <title lang="da">Phineas og Ferb</title>
     <desc lang="da">Sæson: 4. Episode: 12. 'Kærlighed ved første bip / Det drejer sig om mig'. Norm prøver at slå benene væk under en kvindelig robot ved navn Chloe, som han møder til vejfesten som mor organiserer. / Doofenshmirtz bruger sin seneste inator til at prøve at få sin bror, borgmesteren, til at fornærme en besøende politiker. Alt i mens deltager Candace og Stacy i Phineas og Ferbs forhindringsløb. Instruktører: Zac Moncrief, George Elliott, Robert Hughes. Medvirkende: Vincent Martella, Ashley Tisdale, Thomas Brodie-Sangster, Caroline Rhea. Tilladt for: A.</desc>
@@ -16260,7 +16260,7 @@
       <actor>Ninthe van Schie</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261015111500 +0000" stop="20261015112000 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 1. Episode: 26. 'Stranden'. Da Mor går en tur langs stranden, følger Bluey efter hende. På vejen møder hun en masse forskellige ting der både glæder og udfordrer hende på hendes første soloeventyr. Instruktør: Joe Brumm. Medvirkende: David McCormack, Melanie Zanetti, Layne Beachley, Ninthe van Schie. Tilladt for: A.</desc>
@@ -16272,7 +16272,7 @@
       <actor>Ninthe van Schie</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261015112000 +0000" stop="20261015113000 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 1. Episode: 27. 'Pirater'. Den står på eventyr ude på de vilde vover da Bingo, Bluey og Missy leger pirater på hængekøjegyngen, men de skal finde modet frem for at modstå vilde storme og hvalangreb. Instruktør: Joe Brumm. Medvirkende: David McCormack, Melanie Zanetti. Tilladt for: A.</desc>
@@ -16282,7 +16282,7 @@
       <actor>Melanie Zanetti</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261015113000 +0000" stop="20261015115500 +0000" channel="disneychannel.dk">
     <title lang="da">Sofia den første: Kongelig magi</title>
     <desc lang="da">Sæson: 1. Episode: 2. 'Abra-ka-duperet / Vis og fortryl'. Sofia deltager i en magisk udfordring mod elever fra de andre slotte. Laila tester en svæve-besværgelse, men opdager at hun i stedet kan få sommerfuglevinger. Tilladt for: A.</desc>
@@ -16425,7 +16425,7 @@
       <actor>Adam Hills</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261015180000 +0000" stop="20261015180500 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 3. Episode: 27. 'Statuedans'. Efter en lang dag, er Bluey og hendes familie helt ude af takt, så Mor får alle til at lege Statuedans. Instruktør: Richard Jeffery. Medvirkende: Melanie Zanetti, David McCormack. Tilladt for: A.</desc>
@@ -16435,7 +16435,7 @@
       <actor>David McCormack</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261015180500 +0000" stop="20261015181500 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 3. Episode: 28. 'Historier'. Indy synes ikke at hun duer til noget fordi hendes vokshest ligner en ko, men Calypso opfordrer hende til ikke at give op, så hun prøver at fikse den med lidt hjælp fra Winton. Instruktør: Richard Jeffery. Medvirkende: Meg Washington, Lin-Manuel Miranda, Charlotte Stent. Tilladt for: A.</desc>
@@ -16446,7 +16446,7 @@
       <actor>Charlotte Stent</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261015181500 +0000" stop="20261015182500 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 3. Episode: 29. 'Bluey'. Bluey og Bingo lærer Enhjørting at opføre sig pænt. Instruktører: Richard Jeffery, Tony Walsh. Medvirkende: David McCormack, Melanie Zanetti. Tilladt for: A.</desc>
@@ -16457,7 +16457,7 @@
       <actor>Melanie Zanetti</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261015182500 +0000" stop="20261015183000 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 2. Episode: 15. 'Tog'. Bingo er den eksemplariske passager, som pendler med Far-toget når hun skal aflevere sit barn i børnehave og på arbejde som dyrlæge. Men Bluey vil meget hellere lave sjov og ballade. Instruktør: Richard Jeffery. Medvirkende: David McCormack, Melanie Zanetti. Tilladt for: A.</desc>
@@ -16467,7 +16467,7 @@
       <actor>Melanie Zanetti</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261015183000 +0000" stop="20261015184000 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 3. Episode: 41. 'PindFugl'. På en tur til stranden, lærer Mor Bluey at kaste med pinde mens Bingo og Far bygger en pindfugl med en pind som de finder og som ligner et fuglehoved. Instruktør: Richard Jeffery. Medvirkende: Melanie Zanetti, David McCormack. Tilladt for: A.</desc>
@@ -16477,7 +16477,7 @@
       <actor>David McCormack</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261015184000 +0000" stop="20261015190500 +0000" channel="disneychannel.dk">
     <title lang="da">Sofia den første: Kongelig magi</title>
     <desc lang="da">Sæson: 1. Episode: 5. 'En kongelig familieudflugt / Kongelig legeaftale'. På en familieudflugt, vil Andrea bevise at hun er lige så fantastisk som Sofia. Laila møder Sofias søskende, Andrea og Johan, og vil gøre alt for at imponere dem. Tilladt for: A.</desc>
@@ -16551,7 +16551,7 @@
       <actor>Frederique Sims</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261016050500 +0000" stop="20261016051500 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 2. Episode: 46. 'Biltur'. Familien Heeler skal på biltur. Instruktør: Richard Jeffery. Medvirkende: Melanie Zanetti, David McCormack, Bob Brumm, Judy Newman. Tilladt for: A.</desc>
@@ -16563,7 +16563,7 @@
       <actor>Judy Newman</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261016051500 +0000" stop="20261016052000 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 2. Episode: 48. 'Potte'. Mor vil ikke have at pigerne siger ordet „potte” fordi det ikke er noget ord som dronningen af England ville bruge, men pigerne narrer hende til at sige det alligevel. Instruktør: Richard Jeffery. Medvirkende: Melanie Zanetti, David McCormack. Tilladt for: A.</desc>
@@ -16573,7 +16573,7 @@
       <actor>David McCormack</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261016052000 +0000" stop="20261016052500 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 2. Episode: 45. 'Stå på hænder'. Bingo vil rigtigt gerne have at nogen ser hende stå på hænder til festen og Bedstemor vil rigtigt gerne hjælpe til. Men deres anstrengelser lykkedes først for dem da de finder hinanden. Instruktør: Richard Jeffery. Medvirkende: Melanie Zanetti, David McCormack, Chris Brumm, Dan Brumm. Tilladt for: A.</desc>
@@ -16586,7 +16586,7 @@
       <actor>Myf Warhurst</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261016052500 +0000" stop="20261016053000 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 2. Episode: 94. 'Ande-kage'. Bluey vil hjælpe Far med at lave Bingos fødselsdagskage, men først skal hun rydde op. Intet kan dog få hende til at rydde op af sig selv, før Far taber kagen. Instruktør: Richard Jeffery. Medvirkende: David McCormack, Melanie Zanetti. Tilladt for: A.</desc>
@@ -16596,7 +16596,7 @@
       <actor>Melanie Zanetti</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261016053000 +0000" stop="20261016055500 +0000" channel="disneychannel.dk">
     <title lang="da">Iron Man og hans utrolige venner</title>
     <desc lang="da">Sæson: 1. Episode: 14. 'Redwings første flyvetur / Absorbing Man skinner'. Cap og Iron Man prøver at arbejde sammen, da Ultron angriber centeret. Absorbing Man stjæler en sten, der afleder Iron-vennernes stråler, hvilket tvinger dem til at finde nye måder at stoppe ham. Tilladt for: A.</desc>
@@ -16638,7 +16638,7 @@
       <actor>David McCormack</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261016073000 +0000" stop="20261016074000 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 3. Episode: 28. 'Historier'. Indy synes ikke at hun duer til noget fordi hendes vokshest ligner en ko, men Calypso opfordrer hende til ikke at give op, så hun prøver at fikse den med lidt hjælp fra Winton. Instruktør: Richard Jeffery. Medvirkende: Meg Washington, Lin-Manuel Miranda, Charlotte Stent. Tilladt for: A.</desc>
@@ -16649,7 +16649,7 @@
       <actor>Charlotte Stent</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261016074000 +0000" stop="20261016074500 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 3. Episode: 29. 'Bluey'. Bluey og Bingo lærer Enhjørting at opføre sig pænt. Instruktører: Richard Jeffery, Tony Walsh. Medvirkende: David McCormack, Melanie Zanetti. Tilladt for: A.</desc>
@@ -16660,7 +16660,7 @@
       <actor>Melanie Zanetti</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261016074500 +0000" stop="20261016075000 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 2. Episode: 15. 'Tog'. Bingo er den eksemplariske passager, som pendler med Far-toget når hun skal aflevere sit barn i børnehave og på arbejde som dyrlæge. Men Bluey vil meget hellere lave sjov og ballade. Instruktør: Richard Jeffery. Medvirkende: David McCormack, Melanie Zanetti. Tilladt for: A.</desc>
@@ -16670,7 +16670,7 @@
       <actor>Melanie Zanetti</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261016075000 +0000" stop="20261016080000 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 3. Episode: 41. 'PindFugl'. På en tur til stranden, lærer Mor Bluey at kaste med pinde mens Bingo og Far bygger en pindfugl med en pind som de finder og som ligner et fuglehoved. Instruktør: Richard Jeffery. Medvirkende: Melanie Zanetti, David McCormack. Tilladt for: A.</desc>
@@ -16680,7 +16680,7 @@
       <actor>David McCormack</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261016080000 +0000" stop="20261016080500 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 3. Episode: 40. 'Slap af'. Bluey og Bingo vil hellere lege og udforske deres ferielejlighed end at slappe af på stranden sammen med Mor. Instruktør: Richard Jeffery. Medvirkende: David McCormack, Melanie Zanetti. Tilladt for: A.</desc>
@@ -16690,7 +16690,7 @@
       <actor>Melanie Zanetti</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261016080500 +0000" stop="20261016081500 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 3. Episode: 42. 'Vis og Fortæl'. Da Far beder Bluey om at spise sin pølse, vil Bluey vide hvorfor Far hele tiden kommanderer med hende. Instruktør: Richard Jeffery. Medvirkende: Melanie Zanetti, David McCormack, Shauna Corrigan, Mick Fanning. Tilladt for: A.</desc>
@@ -16702,7 +16702,7 @@
       <actor>Mick Fanning</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261016081500 +0000" stop="20261016082000 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 3. Episode: 44. 'Vilde Piger'. I skolen vil Coco lege Vilde Piger med Indy men Chloe vil have at hun skal lege en anden leg. Instruktør: Richard Jeffery. Medvirkende: Meg Washington. Tilladt for: A.</desc>
@@ -16711,7 +16711,7 @@
       <actor>Meg Washington</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261016082000 +0000" stop="20261016085000 +0000" channel="disneychannel.dk">
     <title lang="da">Phineas og Ferb</title>
     <desc lang="da">Sæson: 4. Episode: 17. 'Fryd med frygt / Lige mit held'. Da Candace ikke ved, hvad hun skal give Jeremy i fødselsdagsgave, beslutter hun modstræbende at bede Phineas og Ferb om hjælp. Samtidig planlægger Doofenshmirtz at gøre frygt til virkelighed med sin værste-frygt-inator, men det giver bagslag og tvinger ham til at se sin egen frygt i øjnene. Da Candace ved et tilfælde bliver zappet af Doofenshmirtz' held-og-lykke-inator, indser hun, at hun har en chance for at afsløre Phineas og Ferb. Instruktører: Zac Moncrief, George Elliott, Keith Oliver. Medvirkende: Vincent Martella, Ashley Tisdale, Thomas Brodie-Sangster, Caroline Rhea. Tilladt for: A.</desc>
@@ -16791,7 +16791,7 @@
       <actor>Ian McFadyen</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261016111500 +0000" stop="20261016112000 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 1. Episode: 29. 'Floden'. Da de begynder at kede sig på legepladsen, tager Far og ungerne på tur ned til floden. Bluey føler sig først meget utryg, men hun får snart øjnene op for hvor skønt der er i naturen. Instruktør: Joe Brumm. Medvirkende: David McCormack. Tilladt for: A.</desc>
@@ -16800,7 +16800,7 @@
       <actor>David McCormack</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261016112000 +0000" stop="20261016113000 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 1. Episode: 30. 'Alfer'. Der er alfer i Blueys hus! Haler flettes, der er klistermærker alle vegne, og Mor får et klemmeskæg. Familien må stå sammen for at finde de usynlige ballademagere. Instruktører: Beth Harvey, Joe Brumm. Medvirkende: David McCormack, Melanie Zanetti, Brad Elliott. Tilladt for: A.</desc>
@@ -16812,7 +16812,7 @@
       <actor>Brad Elliott</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261016113000 +0000" stop="20261016115500 +0000" channel="disneychannel.dk">
     <title lang="da">Sofia den første: Kongelig magi</title>
     <desc lang="da">Sæson: 1. Episode: 3. 'Hvirvel-paraden / Steppeti-step-dans'. Sofia og Laila samarbejder om at udføre en magisk parade, men de er uenige om alt. Søren bruger magi for at blive en bedre danser, men da besværgelsen bliver til en forbandelse, må Sofia hjælpe til. Tilladt for: A.</desc>
@@ -16970,7 +16970,7 @@
       <actor>Mick Fanning</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261016180500 +0000" stop="20261016181500 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 3. Episode: 44. 'Vilde Piger'. I skolen vil Coco lege Vilde Piger med Indy men Chloe vil have at hun skal lege en anden leg. Instruktør: Richard Jeffery. Medvirkende: Meg Washington. Tilladt for: A.</desc>
@@ -16979,7 +16979,7 @@
       <actor>Meg Washington</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261016181500 +0000" stop="20261016182500 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 3. Episode: 37. 'Afgørelsen'. Fantasien har ingen grænser - og ingen har mere fantasi end den 6-årige hundehvalp Bluey, der sammen med sin lillesøster Bingo hver dag forvandler dagligdagen til et eventyr i denne fantastiske australske animationsserie. Instruktør: Richard Jeffery. Medvirkende: David McCormack, Melanie Zanetti, Brad Elliott, Anna Daniels. Tilladt for: A.</desc>
@@ -16995,7 +16995,7 @@
       <actor>Gordon Bray</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261016182500 +0000" stop="20261016183000 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 3. Episode: 45. 'Fjernsynsbiks'. Bluey og Bingo og deres venner morer sig med at lege med overvågningsskærmene hos materialisten. Instruktør: Richard Jeffery. Medvirkende: David McCormack, Carrie Bickmore. Tilladt for: A.</desc>
@@ -17005,7 +17005,7 @@
       <actor>Carrie Bickmore</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261016183000 +0000" stop="20261016184000 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 3. Episode: 43. 'Drage'. Bluey beder Far hjælpe hende med at tegne en drage. Instruktør: Richard Jeffery. Medvirkende: Melanie Zanetti, David McCormack, Kate Miller-Heidke. Tilladt for: A.</desc>
@@ -17016,7 +17016,7 @@
       <actor>Kate Miller-Heidke</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261016184000 +0000" stop="20261016190500 +0000" channel="disneychannel.dk">
     <title lang="da">Sofia den første: Kongelig magi</title>
     <desc lang="da">Sæson: 1. Episode: 6. 'Ny hest på banen / Det grønøjede monster'. Sofia og hendes nye hest, Fyrflamme, konkurrerer i Charmelilles flyvende derby. Søren vil være god til at brygge eliksirer, men ved et uheld, kommer han til at skabe grønøjede monstre som er helt ude af kontrol. Tilladt for: A.</desc>
@@ -17075,7 +17075,7 @@
       <actor>Jack Simmons</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261017050500 +0000" stop="20261017051500 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 2. Episode: 41. 'Blæksprutte'. Da Chloe prøver at lære sin far at improvisere og lege Blueys blæksprutteleg, har han svært ved at forstå legen, indtil både han og Chloe finder ud af at lege den på deres helt egen måde. Instruktør: Richard Jeffery. Medvirkende: David McCormack, Francis Stanton, Charlotte Stent. Tilladt for: A.</desc>
@@ -17086,7 +17086,7 @@
       <actor>Charlotte Stent</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261017051500 +0000" stop="20261017052000 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 2. Episode: 98. 'Baby-kapløb'. Mor mindes hvordan Bluey og Judo var da de var helt små. Instruktør: Richard Jeffery. Medvirkende: Melanie Zanetti, David McCormack, Chris Brumm, Leigh Sales. Tilladt for: A.</desc>
@@ -17101,7 +17101,7 @@
       <actor>Grant Sundin</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261017052000 +0000" stop="20261017052500 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 2. Episode: 49. 'Skrivemaskine'. Bluey, Snickers og Winton vil finde Calypso så hun kan hjælp dem med deres problemer, men de bliver angrebet af Terrierne undervejs. Så de tre venner bliver nødt til at bruge deres helt unikke evner for at kunne slippe forbi Terrierne. Instruktør: Richard Jeffery. Medvirkende: Samson Hyland, Meg Washington. Tilladt for: A.</desc>
@@ -17111,7 +17111,7 @@
       <actor>Meg Washington</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261017052500 +0000" stop="20261017053000 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 2. Episode: 99. 'Hr. Abehylere'. Far synes at Bluey og Bingo har for meget legetøj! Instruktør: Richard Jeffery. Medvirkende: David McCormack, Melanie Zanetti, Bishanyia Vincent. Tilladt for: A.</desc>
@@ -17122,7 +17122,7 @@
       <actor>Bishanyia Vincent</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261017053000 +0000" stop="20261017055500 +0000" channel="disneychannel.dk">
     <title lang="da">Iron Man og hans utrolige venner</title>
     <desc lang="da">Sæson: 1. Episode: 16. 'Historien om Hawkeye/Jern-overnatning'. Jernvennerne tager til Beachside Mall, hvor Hawkeye afslører, at Absorberende Man står bag tyverierne; Jernvennernes pyjamasfest bliver afbrudt af Ultron, der stjæler Buereaktoren. Tilladt for: A.</desc>
@@ -17152,7 +17152,7 @@
       <actor>David McCormack</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261017073000 +0000" stop="20261017074000 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 3. Episode: 23. 'Familiemøde'. Da Far bliver anklaget for at fimse Bluey i hovedet, kalder Mor til familiemøde for at afgøre sagen. Instruktør: Richard Jeffery. Medvirkende: David McCormack, Melanie Zanetti. Tilladt for: A.</desc>
@@ -17162,7 +17162,7 @@
       <actor>Melanie Zanetti</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261017074000 +0000" stop="20261017074500 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'Magisk xylofon'. Bluey og Bingo genopdager en magisk xylofon der har evnen til at fryse Far fast på stedet, så de kan stille ham i en masse sjove og pinlige stillinger. Men den spændende xylofon gør det svært for Bluey at deles om at bruge den med Bingo og på trods af Mors trussel om at tage den fra dem, og Bingos fortsatte plageri, vil Bluey styre legen. Da deres småskænderier giver Far muligheden for at snuppe xylofonen og fryse Bluey, bliver Bingo hendes eneste håb. Pigerne bliver enige om hvordan de skal lege og samarbejder om at få den magiske xylofon tilbage så Far igen bliver magtesløs. Instruktør: Joe Brumm. Medvirkende: David McCormack, Melanie Zanetti, Ninthe van Schie. Tilladt for: A.</desc>
@@ -17173,7 +17173,7 @@
       <actor>Ninthe van Schie</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261017074500 +0000" stop="20261017075000 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 1. Episode: 2. 'Hospital'. Doktor Bluey bliver tilkaldt da Far får taget et meget alvorligt røntgenbillede af sygeplejerske Bingo. Det ser ud til, at han har en kat i maven og Bluey bliver nødt til at operere ham med det samme! Instruktør: Joe Brumm. Medvirkende: David McCormack, Ninthe van Schie, Melanie Zanetti. Tilladt for: A.</desc>
@@ -17184,7 +17184,7 @@
       <actor>Melanie Zanetti</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261017075000 +0000" stop="20261017080000 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 1. Episode: 3. 'Holde oppe'. Bluey, Bingo og Mor leger Holde Oppe i huset med deres sidste ballon, og legen bliver ekstra udfordrende, da Far begynder at lege med. Instruktør: Joe Brumm. Medvirkende: Melanie Zanetti, David McCormack, Brad Elliott, Ninthe van Schie. Tilladt for: A.</desc>
@@ -17196,7 +17196,7 @@
       <actor>Ninthe van Schie</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261017080000 +0000" stop="20261017080500 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 1. Episode: 4. 'Farmand Robot'. Bluey og Bingo vil ikke rydde op i legerummet, så de får Farmand Robot til at gøre det for dem. Men da Bluey går lidt for vidt, begynder Farmand Robot at gå i stykker med katastrofale konsekvenser. Instruktør: Joe Brumm. Medvirkende: David McCormack, Melanie Zanetti, Ninthe van Schie. Tilladt for: A.</desc>
@@ -17207,7 +17207,7 @@
       <actor>Ninthe van Schie</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261017080500 +0000" stop="20261017081500 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 1. Episode: 5. 'Skyggeland'. Mens de er på skovtur i parken leger Bluey og hendes venner Skyggeland. Men da Coco hele tiden prøver at ændre reglerne må Bluey vise hende at legen kan blive endnu sjovere hvis man følger reglerne. Instruktør: Joe Brumm. Medvirkende: Melanie Zanetti, Hsiao Ling Tang, Frederique Sims, Ninthe van Schie. Tilladt for: A.</desc>
@@ -17219,7 +17219,7 @@
       <actor>Ninthe van Schie</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261017081500 +0000" stop="20261017082000 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 1. Episode: 6. 'Weekend'. I weekenden leger Bluey og Bingo i haven med Far. Men Bingo bliver ked af det, da hun opdager et gående blad-insekt, som Far har for travlt med at lege til at se. Instruktør: Joe Brumm. Medvirkende: David McCormack, Melanie Zanetti, Ninthe van Schie. Tilladt for: A.</desc>
@@ -17230,7 +17230,7 @@
       <actor>Ninthe van Schie</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261017082000 +0000" stop="20261017085000 +0000" channel="disneychannel.dk">
     <title lang="da">Miraculous: Ladybug &amp; Cat Noir på eventyr</title>
     <desc lang="da">Sæson: 6. Episode: 152. 'Miraculous: Ladybug &amp; Cat Noir på eventyr'. Marinettes eventyr, når hun bliver til Ladybug. Medvirkende: Cristina Valenzuela, Bryce Papenbrook, Keith Silverstein, Max Mittelman. Tilladt for: A.</desc>
@@ -17411,7 +17411,7 @@
       <actor>David McCormack</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261017180000 +0000" stop="20261017180500 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 3. Episode: 35. 'Kyssemøs'. Bluey og Bingo vil have Far helt for dem selv indtil de opdager at han har nogle klamme vaner. Instruktør: Richard Jeffery. Medvirkende: Melanie Zanetti, David McCormack. Tilladt for: A.</desc>
@@ -17421,7 +17421,7 @@
       <actor>David McCormack</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261017180500 +0000" stop="20261017181500 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 3. Episode: 23. 'Familiemøde'. Da Far bliver anklaget for at fimse Bluey i hovedet, kalder Mor til familiemøde for at afgøre sagen. Instruktør: Richard Jeffery. Medvirkende: David McCormack, Melanie Zanetti. Tilladt for: A.</desc>
@@ -17431,7 +17431,7 @@
       <actor>Melanie Zanetti</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261017181500 +0000" stop="20261017182500 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'Magisk xylofon'. Bluey og Bingo genopdager en magisk xylofon der har evnen til at fryse Far fast på stedet, så de kan stille ham i en masse sjove og pinlige stillinger. Men den spændende xylofon gør det svært for Bluey at deles om at bruge den med Bingo og på trods af Mors trussel om at tage den fra dem, og Bingos fortsatte plageri, vil Bluey styre legen. Da deres småskænderier giver Far muligheden for at snuppe xylofonen og fryse Bluey, bliver Bingo hendes eneste håb. Pigerne bliver enige om hvordan de skal lege og samarbejder om at få den magiske xylofon tilbage så Far igen bliver magtesløs. Instruktør: Joe Brumm. Medvirkende: David McCormack, Melanie Zanetti, Ninthe van Schie. Tilladt for: A.</desc>
@@ -17442,7 +17442,7 @@
       <actor>Ninthe van Schie</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261017182500 +0000" stop="20261017183000 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 1. Episode: 2. 'Hospital'. Doktor Bluey bliver tilkaldt da Far får taget et meget alvorligt røntgenbillede af sygeplejerske Bingo. Det ser ud til, at han har en kat i maven og Bluey bliver nødt til at operere ham med det samme! Instruktør: Joe Brumm. Medvirkende: David McCormack, Ninthe van Schie, Melanie Zanetti. Tilladt for: A.</desc>
@@ -17453,7 +17453,7 @@
       <actor>Melanie Zanetti</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261017183000 +0000" stop="20261017184000 +0000" channel="disneychannel.dk">
     <title lang="da">Bluey</title>
     <desc lang="da">Sæson: 1. Episode: 3. 'Holde oppe'. Bluey, Bingo og Mor leger Holde Oppe i huset med deres sidste ballon, og legen bliver ekstra udfordrende, da Far begynder at lege med. Instruktør: Joe Brumm. Medvirkende: Melanie Zanetti, David McCormack, Brad Elliott, Ninthe van Schie. Tilladt for: A.</desc>
@@ -17465,7 +17465,7 @@
       <actor>Ninthe van Schie</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/tWdNZ3xuFBhJ2ZoQ9vShNGHTb85.jpg" /></programme>
   <programme start="20261017184000 +0000" stop="20261017190500 +0000" channel="disneychannel.dk">
     <title lang="da">Sofia den første: Kongelig magi</title>
     <desc lang="da">Sæson: 1. Episode: 7. 'Sengetids-besværgelsen / Helten Søren'. Sofia, Camilla og Laila overnatter på Sofias slot, hvor tøjdyr kommer til live på magisk vis. En gnaven drage er på fri fod i Charmelille, og Søren må forsøge at tæmme bæstet. Tilladt for: A.</desc>
@@ -23596,7 +23596,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/cTCI5myK3rkvidsFP7JZCV2MZPK.jpg" /></programme>
   <programme start="20261017222000 +0000" stop="20261017224500 +0000" channel="cartoonnetwork.dk">
     <title lang="da">Ko og Kylling</title>
     <desc lang="da">Sæson: 1. Episode: 13. 'Hoved-jæger ferie/Kongen og dronningen af ost/D.R. arkitekt'. Ko og Kylling lokkes ud i junglen af hovedjægere, og Ko vil bruge sit liv på at lave ost. / Ko tager til Cornflake i Arkansas, hvor hun prøver at hjælpe Morten Mangelbuks (Den Røde Fyr) med at blive konge og dronning af ost. / Væsel og Bavian kommer ud for en ulykke, og de er nødt til at droppe deres hjerner og være bevidstløse et stykke tid. Medvirkende: Charlie Adler, Candi Milo, Dee Bradley Baker, Michael Dorn. Tilladt for: 7.</desc>
@@ -23616,7 +23616,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/5tOKcHWHmnyIiHt2GHVxqIiODej.jpg" /></programme>
   <programme start="20261017224500 +0000" stop="20261017225500 +0000" channel="cartoonnetwork.dk">
     <title lang="da">Gumballs (for)underlige verden</title>
     <desc lang="da">Sæson: 1. Episode: 9. 'Kedsomhed'. Gumball og Darwin må gøre brug af Mollys evne til at bremse tiden (fordi hun er så kedelig) for at undgå at få bank af Tina efter skole. Tilladt for: A.</desc>
@@ -25466,7 +25466,7 @@
     <title lang="da">Betinia LIGA: AaB - Vejle Boldklub</title>
     <desc lang="da">Sæson: 2026. Episode: 21. 'AaB - Vejle Boldklub'. Der er lagt op til en spændende duel på Aalborg Portland Park, når AaB tager imod Vejle Boldklub i 11. runde af Betinia LIGA. Begge hold jagter vigtige point, og der venter en intens kamp med tempo, dueller og muligheder. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Betinia%20Liga.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Betinia%20Liga.jpg" /></programme>
   <programme start="20261017133000 +0000" stop="20261017140000 +0000" channel="tv3sport.dk">
     <title lang="da">1. Division Studie</title>
     <desc lang="da">Sæson: 26. Episode: 22. 'AaB - Vejle Boldklub'. Se med, når vi følger op på den netop færdigspillede Betinia LIGA-kamp mellem AaB og Vejle Boldklub. Tilladt for: A.</desc>
@@ -25481,7 +25481,7 @@
     <title lang="da">Ligue 1: Strasbourg - Paris Saint - Germain</title>
     <desc lang="da">Sæson: 2026. Episode: 9. 'Strasbourg - Paris Saint - Germain'. Der er lagt op til en spændende Ligue 1-duel på Stade de la Meinau, når Strasbourg tager imod Paris Saint-Germain i 7. runde. Hjemmeholdet får besøg af de franske mestre i en kamp, hvor tempo, intensitet og skarphed kan blive afgørende. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv3sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Ligue%201_2.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Ligue%201_2.jpg" /></programme>
   <programme start="20261017171500 +0000" stop="20261017210000 +0000" channel="tv3sport.dk">
     <title lang="da">PDC European Tour</title>
     <desc lang="da">Sæson: 2026. Episode: 68. 'Dutch Darts Championship'. Der er lagt op til dart i verdensklasse, når Dutch Darts Championship rammer MECC Maastricht. De bedste spillere står klar til en intens turnering, hvor præcision, nerver og stærke lukninger kan blive afgørende i jagten på titlen. Tilladt for: A.</desc>
@@ -25491,7 +25491,7 @@
     <title lang="da">EHF Women's Champions League: Odense Håndbold - Györ</title>
     <desc lang="da">Sæson: 2026. Episode: 16. 'Odense Håndbold - Györ'. Der er lagt op til en håndboldfest i Sydbank Arena, når Odense Håndbold tager imod Györ i EHF Champions League. To stærke europæiske mandskaber mødes i et intenst opgør, hvor tempo, fysik og skarphed bliver afgørende. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/EHF%20Mens%20Champions%20League.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/EHF%20Mens%20Champions%20League.jpg" /></programme>
   <programme start="20261017224500 +0000" stop="20261017230500 +0000" channel="tv3sport.dk">
     <title lang="da">Chasing the Dream</title>
     <desc lang="da">Sæson: 8. Episode: 14. 'Chasing The Dream - Season Climax Bonus'. Chasing The Dream - Season Climax Bonus Medvirkende: Charles Leclerc, Pierre Gasly. Tilladt for: A.</desc>
@@ -25505,7 +25505,7 @@
     <title lang="da">NHL: Montreal Canadiens - Buffalo Sabres</title>
     <desc lang="da">Sæson: 2026. Episode: 11. 'Montreal Canadiens - Buffalo Sabres'. Montreal Canadiens og Buffalo Sabres mødes i Bell Centre i en duel, der kan byde på masser af fart og intensitet. Hjemmeholdet får opbakningen fra et passioneret publikum, mens Buffalo kommer med ambitioner om at tage point med hjem. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20ATP%201000.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20ATP%201000.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/NHL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/NHL.jpg" /></programme>
   <programme start="20261018020000 +0000" stop="20261018060000 +0000" channel="tv3sport.dk">
     <title lang="da">Sendeophold</title>
     <desc lang="da">'Sendeophold'. Kanalen sender ikke i øjeblikket. Tilladt for: A.</desc>
@@ -26145,17 +26145,17 @@
     <title lang="da">EFL Championship: Middlesbrough - Cardiff</title>
     <desc lang="da">Sæson: 26. Episode: 8. 'Middlesbrough - Cardiff'. Der er lagt op til intens Championship-fodbold, når Middlesbrough tager imod Cardiff på Riverside Stadium i 11. runde. Begge hold jagter vigtige point i en tæt liga, hvor tempo, fysik og skarphed foran mål kan blive afgørende. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    </programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/EFL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/EFL.jpg" /></programme>
   <programme start="20261017135500 +0000" stop="20261017162500 +0000" channel="tv3max.dk">
     <title lang="da">Premier League: Manchester City - Ipswich</title>
     <desc lang="da">Sæson: 2026. Episode: 96. 'Manchester City - Ipswich'. Der er lagt op til en spændende Premier League-duel på Etihad Stadium, når Manchester City tager imod Ipswich i 7. runde. Hjemmeholdet møder et Ipswich-mandskab, der vil kæmpe for at stå imod, i et opgør med tempo og intensitet. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /></programme>
   <programme start="20261017162500 +0000" stop="20261017183000 +0000" channel="tv3max.dk">
     <title lang="da">Premier League: Newcastle - Aston Villa</title>
     <desc lang="da">Sæson: 2026. Episode: 97. 'Newcastle - Aston Villa'. Der er lagt op til en intens Premier League-duel på St. James' Park, når Newcastle tager imod Aston Villa i 7. runde. To stærke mandskaber mødes i et opgør med højt tempo, fysisk spil og masser af nerve fra første fløjt. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /></programme>
   <programme start="20261017183000 +0000" stop="20261017190000 +0000" channel="tv3max.dk">
     <title lang="da">Premier League Studie</title>
     <desc lang="da">Sæson: 2026. Episode: 47. 'Newcastle - Aston Villa'. Se med, når vi følger op på den netop færdigspillede Premier League-kamp mellem Newcastle og Aston Villa. Tilladt for: A.</desc>
@@ -26165,22 +26165,22 @@
     <title lang="da">Premier League: Brentford - Liverpool</title>
     <desc lang="da">Sæson: 2026. Episode: 88. 'Brentford - Liverpool'. Der er lagt op til en spændende Premier League-duel på Brentford Community Stadium, når Brentford tager imod Liverpool i 7. runde. Hjemmeholdet får besøg af de røde fra Merseyside i et opgør med højt tempo og masser af intensitet. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /></programme>
   <programme start="20261017210000 +0000" stop="20261017230000 +0000" channel="tv3max.dk">
     <title lang="da">Premier League: Manchester City - Ipswich</title>
     <desc lang="da">Sæson: 2026. Episode: 96. 'Manchester City - Ipswich'. Der er lagt op til en spændende Premier League-duel på Etihad Stadium, når Manchester City tager imod Ipswich i 7. runde. Hjemmeholdet møder et Ipswich-mandskab, der vil kæmpe for at stå imod, i et opgør med tempo og intensitet. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /></programme>
   <programme start="20261017230000 +0000" stop="20261018010000 +0000" channel="tv3max.dk">
     <title lang="da">Premier League: Newcastle - Aston Villa</title>
     <desc lang="da">Sæson: 2026. Episode: 97. 'Newcastle - Aston Villa'. Der er lagt op til en intens Premier League-duel på St. James' Park, når Newcastle tager imod Aston Villa i 7. runde. To stærke mandskaber mødes i et opgør med højt tempo, fysisk spil og masser af nerve fra første fløjt. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /></programme>
   <programme start="20261018010000 +0000" stop="20261018030000 +0000" channel="tv3max.dk">
     <title lang="da">Premier League: Brentford - Liverpool</title>
     <desc lang="da">Sæson: 2026. Episode: 88. 'Brentford - Liverpool'. Der er lagt op til en spændende Premier League-duel på Brentford Community Stadium, når Brentford tager imod Liverpool i 7. runde. Hjemmeholdet får besøg af de røde fra Merseyside i et opgør med højt tempo og masser af intensitet. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Fodbold.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /></programme>
   <programme start="20261018030000 +0000" stop="20261018040000 +0000" channel="tv3max.dk">
     <title lang="da">Bundesliga Special</title>
     <desc lang="da">Sæson: 2026. Episode: 3. 'Bundesliga Special'. Royal Blue – The Return of Schalke" fortæller den følelsesladede historie om en klub, dens by og dens mennesker. Tilladt for: A.</desc>
@@ -33574,12 +33574,12 @@
     <title lang="da">Herreligaen: Sønderjyske-Skjern</title>
     <desc lang="da">Sæson: 2026. Episode: 164. 'Herreligaen:'. Er du bidt af en gal harpiksbold og hurtigt stregspil? Og elsker du at se benhårde håndboldspillere i aktion? Så kan du følge kampene i den danske Herreliga uge efter uge på TV 2 Play, TV 2 Sport og TV 2. Glæd dig til masser af spændende kampe fra de danske håndboldhaller, hvor holdene vil give alt for at vinde medaljer og hæder. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Herreligaen.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Herreligaen.jpg" /></programme>
   <programme start="20261017175000 +0000" stop="20261017183500 +0000" channel="tv2sport.dk">
     <title lang="da">Herreligaen: Sønderjyske-Skjern</title>
     <desc lang="da">Sæson: 2026. Episode: 164. 'Herreligaen:'. Er du bidt af en gal harpiksbold og hurtigt stregspil? Og elsker du at se benhårde håndboldspillere i aktion? Så kan du følge kampene i den danske Herreliga uge efter uge på TV 2 Play, TV 2 Sport og TV 2. Glæd dig til masser af spændende kampe fra de danske håndboldhaller, hvor holdene vil give alt for at vinde medaljer og hæder. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Herreligaen.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Herreligaen.jpg" /></programme>
   <programme start="20261017183500 +0000" stop="20261017193500 +0000" channel="tv2sport.dk">
     <title lang="da">Badminton: Semifinale, Denmak Open</title>
     <desc lang="da">Sæson: 2026. Episode: 141. 'Badminton: Semifinale, Denmak Open'. Danmarks største badmintonbegivenhed indtager SJF Bank Arena i Odense, når verdensstjerner og danske profiler tørner sammen ved Denmark Open. Arenaen vil syde af intensitet, jubel og nervepirrende dueller, når blandt andre Anders Antonsen, Rasmus Gemke, Line Christophersen og Mia Blichfeldt går på banen i jagten på den store triumf. Tilladt for: A.</desc>
@@ -42854,7 +42854,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/3C059oAycUYg99ZxV7rbTHbjcim.jpg" /></programme>
   <programme start="20261017140000 +0000" stop="20261017155000 +0000" channel="viasathits.dk">
     <title lang="da">Bridget Jones - På randen af fornuft</title>
     <desc lang="da">'Bridget Jones - På randen af fornuft'. Bridget Jones forelsker sig i den flotte advokat Mark Darcy og tror, at hun endelig har fundet den rette. Hun tror dog, at han bedrager hende, og da ekskæresten Daniel Cleaver dukker op og lover bod og bedring, ved Bridget hverken ud eller ind. Da Bridget ved en fejltagelse havner i et thailandsk fængsel, og Mark redder hende ud, forstår hun, at han trods alt elsker hende. Instruktør: Beeban Kidron. Medvirkende: Renée Zellweger, Colin Firth, Hugh Grant, Gemma Jones. Tilladt for: 15.</desc>
@@ -46767,7 +46767,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/U1RPu5uQYtjwzgjshWNHDE8wwS.jpg" /></programme>
   <programme start="20261017130000 +0000" stop="20261017150000 +0000" channel="viasatfilmpremiere.dk">
     <title lang="da">No Hard Feelings</title>
     <desc lang="da">'No Hard Feelings'. Maddie tror, hun har fundet svaret på sine økonomiske problemer, da hun får øje på en spændende jobannonce: Et par velhavende forældrene leder efter en, der mod betaling kan "date" deres søn Percy. Instruktør: Gene Stupnitsky. Medvirkende: Jennifer Lawrence, Andrew Barth Feldman, Laura Benanti, Matthew Broderick. Tilladt for: 15.</desc>
@@ -56960,7 +56960,7 @@
       <actor>Dee Bradley Baker</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/aaF2E6ZkMsJkamE5kwGEFQ6IrBC.jpg" /></programme>
   <programme start="20261017042500 +0000" stop="20261017045000 +0000" channel="skyshowtime2.se">
     <title lang="da">Legenden om Korra</title>
     <desc lang="da">Sæson: 3. Episode: 9. 'Overvågningen'. Korra opsøger Tenzin for at få hjælp til at besøge Åndeverdenen for første gang. Instruktør: Ian Graham. Medvirkende: Janet Varney, David Faustino, Seychelle Gabriel, P.J. Byrne. Tilladt for: A.</desc>
@@ -56978,7 +56978,7 @@
       <actor>Grey Griffin</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/aaF2E6ZkMsJkamE5kwGEFQ6IrBC.jpg" /></programme>
   <programme start="20261017045000 +0000" stop="20261017051500 +0000" channel="skyshowtime2.se">
     <title lang="da">Legenden om Korra</title>
     <desc lang="da">Sæson: 3. Episode: 10. 'Længe leve dronningen'. Asami og Korra er strandet ude i ørkenen. Medvirkende: Janet Varney, P.J. Byrne, David Faustino, J.K. Simmons. Tilladt for: A.</desc>
@@ -56995,7 +56995,7 @@
       <actor>Kiernan Shipka</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/aaF2E6ZkMsJkamE5kwGEFQ6IrBC.jpg" /></programme>
   <programme start="20261017051500 +0000" stop="20261017054000 +0000" channel="skyshowtime2.se">
     <title lang="da">Legenden om Korra</title>
     <desc lang="da">Sæson: 3. Episode: 11. 'Ultimatummet'. Mako og Bolin overleverer en ildevarslende besked fra Zaheer. Medvirkende: Janet Varney, P.J. Byrne, David Faustino, J.K. Simmons. Tilladt for: A.</desc>
@@ -57012,7 +57012,7 @@
       <actor>Kiernan Shipka</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/aaF2E6ZkMsJkamE5kwGEFQ6IrBC.jpg" /></programme>
   <programme start="20261017054000 +0000" stop="20261017060500 +0000" channel="skyshowtime2.se">
     <title lang="da">Legenden om Korra</title>
     <desc lang="da">Sæson: 3. Episode: 12. 'Omfavn intetheden'. Korra beslutter sig for at ofre alt. Medvirkende: Janet Varney, P.J. Byrne, David Faustino, J.K. Simmons. Tilladt for: A.</desc>
@@ -57029,7 +57029,7 @@
       <actor>Kiernan Shipka</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/aaF2E6ZkMsJkamE5kwGEFQ6IrBC.jpg" /></programme>
   <programme start="20261017060500 +0000" stop="20261017063000 +0000" channel="skyshowtime2.se">
     <title lang="da">Legenden om Korra</title>
     <desc lang="da">Sæson: 3. Episode: 13. 'Den Røde Lotus' gift'. Zaheer iværksætter sin dødelige plan. Instruktør: Melchior Zwyer. Medvirkende: Janet Varney, David Faustino, Seychelle Gabriel, P.J. Byrne. Tilladt for: A.</desc>
@@ -57047,7 +57047,7 @@
       <actor>Skyler Brigmann</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/aaF2E6ZkMsJkamE5kwGEFQ6IrBC.jpg" /></programme>
   <programme start="20261017063000 +0000" stop="20261017081500 +0000" channel="skyshowtime2.se">
     <title lang="da">My Mother's Wedding</title>
     <desc lang="da">'My Mother's Wedding'. Alle elsker et bryllup … og et familieopgør. Tre søstre fra vidt forskellige samfundslag vender tilbage til deres barndomshjem for at fejre en stor begivenhed: Det tredje bryllup for deres mor, Diana, som er blevet enke to gange. Instruktør: Kristin Scott Thomas. Medvirkende: Scarlett Johansson, Sienna Miller, Kristin Scott Thomas, Emily Beecham. Tilladt for: 11.</desc>
@@ -59294,7 +59294,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/babZCSHO2Ypu10KiS510BmtnmI2.jpg" /></programme>
   <programme start="20261017082000 +0000" stop="20261017100500 +0000" channel="skyshowtime1.se">
     <title lang="da">Beethovens store gennembrud</title>
     <desc lang="da">'Beethovens store gennembrud'. Eddie er dyrepasser og arbejder altid med dyr, men derhjemme har han strenge regler og vil ikke have nogen som helst dyr i huset. Da hans søn Billy finder den herreløse hund Beethoven og hans hvalpe, siger Eddie bestemt nej til, at de kan bo hjemme hos dem. Instruktør: Mike Elliott. Medvirkende: Jonathan Silverman, Jennifer Finnigan, Moises Arias, Eddie Griffin. Tilladt for: A.</desc>
@@ -61257,7 +61257,7 @@
       <actor>Johan Glans</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/t2ePofDZ9JGbFbxSOJqAheEFfJy.jpg" /></programme>
   <programme start="20261017130000 +0000" stop="20261017150000 +0000" channel="viasatfamily.dk">
     <title lang="da">Ainbo: Amazonas' Vogter</title>
     <desc lang="da">'Ainbo: Amazonas' Vogter'. Ainbo er en fortælling om en ung pige der vokser op i den dybeste jungle i Amazonas. En dag opdager hun, at junglen er truet. Med hjælp fra bæltedyret Dillo og tapiren Vaca, rejser hun ud for at finde hjælp. Instruktører: Richard Claus, Jose Zelada. Medvirkende: Lola Raie, Naomi Serrano, Dino Andrade, Joe Hernandez. Tilladt for: 7.</desc>
@@ -64159,7 +64159,7 @@
     <title lang="da">ATP: Ruud - Auger-Aliassime, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 123. 'ATP: Ruud - Auger-Aliassime, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/TV_2_Sport_X.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/TV_2_Sport_X.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP%20Tour%20Highlights.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP%20Tour%20Highlights.jpg" /></programme>
   <programme start="20261014075500 +0000" stop="20261014101500 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP: Van de Zandschulp-Jodar, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 136. 'ATP: Van de Zandschulp-Jodar, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
@@ -64174,12 +64174,12 @@
     <title lang="da">ATP: Paul-Bergs, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 125. 'ATP: Paul-Bergs, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/TV_2_Sport_X.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/TV_2_Sport_X.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP%20Tour%20Highlights.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP%20Tour%20Highlights.jpg" /></programme>
   <programme start="20261014140500 +0000" stop="20261014160500 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP: Medvedev-Tsitsipas, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 126. 'ATP: Medvedev-Tsitsipas, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/TV_2_Sport_X.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/TV_2_Sport_X.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP%20Tour%20Highlights.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP%20Tour%20Highlights.jpg" /></programme>
   <programme start="20261014160500 +0000" stop="20261014164000 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP Tour Highlights</title>
     <desc lang="da">Sæson: 2026. Episode: 140. 'ATP Tour Highlights'. Alt det bedste fra den sidste uges ATP. Oplev fantastiske dueller, eksklusive interviews og masser af unikke tennisoptagelser. Tilladt for: A.</desc>
@@ -64199,7 +64199,7 @@
     <title lang="da">ATP: Ruud - Auger-Aliassime, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 123. 'ATP: Ruud - Auger-Aliassime, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/TV_2_Sport_X.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/TV_2_Sport_X.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP%20Tour%20Highlights.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP%20Tour%20Highlights.jpg" /></programme>
   <programme start="20261015035500 +0000" stop="20261015063000 +0000" channel="tv2sportx.dk">
     <title lang="da">VM i banecykling</title>
     <desc lang="da">Sæson: 2026. Episode: 103. 'VM i banecykling'. Så er det tid til VM i banecykling på den topmoderne Shanghai Velodrome i Kina. Danmark stiller med et stærkt hold på ni ryttere, og der venter masser af fart, taktik og intense dueller på banen. Med seks herrer og tre kvinder til start bliver det spændende at følge de danske ryttere i kampen om medaljerne mod verdenseliten. Tilladt for: A.</desc>
@@ -64299,32 +64299,32 @@
     <title lang="da">Serie A: Venezia-Napoli</title>
     <desc lang="da">Sæson: 2026. Episode: 370. 'Serie A: Venezia-Napoli'. Følg Serie A på TV 2 Play, TV 2 Sport X og TV 2 Sport, og oplev fodbold i verdensklasse. Den bedste italienske liga byder på masser af taktik, passion og teknik på et højt niveau, og her er der hård konkurrence om at vinde Scudettoen mellem stjernespækkede mandskaber som Roma, AC Milan, Juventus, Napoli, Inter og Atalanta. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/TV_2_Sport_X.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/TV_2_Sport_X.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Serie%20A.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Serie%20A.jpg" /></programme>
   <programme start="20261017140000 +0000" stop="20261017155500 +0000" channel="tv2sportx.dk">
     <title lang="da">Serie A: Venezia-Napoli</title>
     <desc lang="da">Sæson: 2026. Episode: 370. 'Serie A: Venezia-Napoli'. Følg Serie A på TV 2 Play, TV 2 Sport X og TV 2 Sport, og oplev fodbold i verdensklasse. Den bedste italienske liga byder på masser af taktik, passion og teknik på et højt niveau, og her er der hård konkurrence om at vinde Scudettoen mellem stjernespækkede mandskaber som Roma, AC Milan, Juventus, Napoli, Inter og Atalanta. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/TV_2_Sport_X.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/TV_2_Sport_X.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Serie%20A.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Serie%20A.jpg" /></programme>
   <programme start="20261017155500 +0000" stop="20261017165500 +0000" channel="tv2sportx.dk">
     <title lang="da">Serie A: Bologna-Inter</title>
     <desc lang="da">Sæson: 2026. Episode: 371. 'Serie A: Bologna-Inter'. Følg Serie A på TV 2 Play, TV 2 Sport X og TV 2 Sport, og oplev fodbold i verdensklasse. Den bedste italienske liga byder på masser af taktik, passion og teknik på et højt niveau, og her er der hård konkurrence om at vinde Scudettoen mellem stjernespækkede mandskaber som Roma, AC Milan, Juventus, Napoli, Inter og Atalanta. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/TV_2_Sport_X.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/TV_2_Sport_X.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Serie%20A.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Serie%20A.jpg" /></programme>
   <programme start="20261017165500 +0000" stop="20261017180000 +0000" channel="tv2sportx.dk">
     <title lang="da">Serie A: Bologna-Inter</title>
     <desc lang="da">Sæson: 2026. Episode: 371. 'Serie A: Bologna-Inter'. Følg Serie A på TV 2 Play, TV 2 Sport X og TV 2 Sport, og oplev fodbold i verdensklasse. Den bedste italienske liga byder på masser af taktik, passion og teknik på et højt niveau, og her er der hård konkurrence om at vinde Scudettoen mellem stjernespækkede mandskaber som Roma, AC Milan, Juventus, Napoli, Inter og Atalanta. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/TV_2_Sport_X.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/TV_2_Sport_X.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Serie%20A.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Serie%20A.jpg" /></programme>
   <programme start="20261017180000 +0000" stop="20261017200000 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP: Semifinale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 131. 'ATP: Semifinale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/TV_2_Sport_X.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/TV_2_Sport_X.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP%20Tour%20Highlights.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP%20Tour%20Highlights.jpg" /></programme>
   <programme start="20261017200000 +0000" stop="20261017220500 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP: Semifinale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 132. 'ATP: Semifinale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/TV_2_Sport_X.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/TV_2_Sport_X.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP%20Tour%20Highlights.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP%20Tour%20Highlights.jpg" /></programme>
   <programme start="20261017220500 +0000" stop="20261018042500 +0000" channel="tv2sportx.dk">
     <title lang="da">VM i banecykling, finaler</title>
     <desc lang="da">Sæson: 2026. Episode: 106. 'VM i banecykling, finaler'. Så er det tid til VM i banecykling på den topmoderne Shanghai Velodrome i Kina. Danmark stiller med et stærkt hold på ni ryttere, og der venter masser af fart, taktik og intense dueller på banen. Med seks herrer og tre kvinder til start bliver det spændende at følge de danske ryttere i kampen om medaljerne mod verdenseliten. Tilladt for: A.</desc>
@@ -67475,7 +67475,7 @@
       <actor>Tony Clarke</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/hS9A6fezUsOjg9Vka5d2qSuG45f.jpg" /></programme>
   <programme start="20261017045500 +0000" stop="20261017050000 +0000" channel="drramasjang.dk">
     <title lang="da">F for Får</title>
     <sub-title lang="da">(5)</sub-title>
@@ -67557,7 +67557,7 @@
       <director>William John Ashurst</director>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/d5mZleXZGg7pbiOxAQ0UTrSiCY7.jpg" /></programme>
   <programme start="20261017063900 +0000" stop="20261017065000 +0000" channel="drramasjang.dk">
     <title lang="da">Dino-ranchen III</title>
     <desc lang="da">Sæson: 3. Episode: 14. 'Tango Rokketand'. Hvad ville du sige til at bo på en gård, hvor alle dyrene er dinosaurer? Besøg familien Cassidys ranch, hvor hver dag byder på nye eventyr, spænding og godt kammeratskab mellem Cassidy-børnene og deres dino'er. Canadisk animationsserie. Medvirkende: Stephanie Filiadi, Ava Ro, Scott Gorman, Athena Karkanis. Tilladt for: A.</desc>
@@ -67935,7 +67935,7 @@
       <actor>Barbara Scaff</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/A5fsLo47PNEAnj01J3SGMLdm77c.jpg" /></programme>
   <programme start="20261017133000 +0000" stop="20261017135000 +0000" channel="drramasjang.dk">
     <title lang="da">Mystery Lane</title>
     <desc lang="da">Sæson: 1. Episode: 3. 'Et tomt bur på Wimbledon Stadium'. Der sker underlige ting i London. Og kun ét dyr er i stand til at løse gåderne, som grænser til det overnaturlige: En hamsterdetektiv ved navn Clara. Hun har en utrolig observations- og deduktionsevne, der kan få de fleste dyr til at måbe. Nogle gange går tingene dog ikke efter planen... men så kan hun regne med sin seje lillebror Bro, som altid er klar til at tage chancer og kæmpe mod modstandere, der er langt større end ham selv. Kan de opklare sagerne, som fortsætter med at forbløffe Scotland Yard? Instruktør: Cedric Lachenaud. Medvirkende: Andy Chase, Kaycie Chase, Rudi James Jephcott, Doug Rand. Tilladt for: A.</desc>
@@ -67948,7 +67948,7 @@
       <actor>Barbara Scaff</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/A5fsLo47PNEAnj01J3SGMLdm77c.jpg" /></programme>
   <programme start="20261017135000 +0000" stop="20261017141500 +0000" channel="drramasjang.dk">
     <title lang="da">Hotel Transylvania</title>
     <desc lang="da">Sæson: 1. Episode: 6. 'Store æggeforventninger'. Store æggeforventninger + Hotel Pennsylvania Medvirkende: Bryn McAuley, Evany Rosen, Gage Munroe, Joseph Motiki. Tilladt for: 7.</desc>
