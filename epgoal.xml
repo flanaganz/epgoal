@@ -304,28 +304,23 @@
     <desc lang="da">Sæson: 2022. 'Udsendelsesophør'. Udsendelsesophør. Tilladt for: A.</desc>
     <category lang="da">Ukendt</category>
     </programme>
-  <programme start="20261015042000 +0000" stop="20261015050000 +0000" channel="dr1.dk">
+  <programme start="20261015042000 +0000" stop="20261015051000 +0000" channel="dr1.dk">
     <title lang="da">Jens i Canada</title>
     <sub-title lang="da">(1:5)</sub-title>
     <desc lang="da">Sæson: 1. Episode: 1. 'Jens i Canada'. Jens har i mange år haft en drøm, nu vil han realisere den. Han har sagt sit job som økonom op for i stedet at se om han kan klare sig igennem den hårde vinter i Sylan, et stort fjeldlandskab nordøst for Oslo, helt uden for civilisationen. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     <icon src="https://image.tmdb.org/t/p/original/t6XFpCcYSngcYdybJfHtpQqKAYs.jpg" /></programme>
-  <programme start="20261015050000 +0000" stop="20261015051500 +0000" channel="dr1.dk">
-    <title lang="da">TVA</title>
-    <desc lang="da">Sæson: 2026. '15.10.2026'. TV Avisen giver dig overblik over dagens vigtigste nyheder fra Danmark og verden omkring os. Få indblik og perspektiv på de største begivenheder og historier. Tilladt for: A.</desc>
-    <category lang="da">Nyheder</category>
-    <icon src="https://image.tmdb.org/t/p/w1280/oatDMRd9S211wRcWhOF2fsyfUrZ.jpg" /></programme>
-  <programme start="20261015051500 +0000" stop="20261015063000 +0000" channel="dr1.dk">
+  <programme start="20261015051000 +0000" stop="20261015063000 +0000" channel="dr1.dk">
     <title lang="da">Seneste nyt fra TVA</title>
     <desc lang="da">Sæson: 2026. '15.10.2026'. TV Avisen giver dig overblik over dagens vigtigste nyheder fra Danmark og verden omkring os. Få indblik og perspektiv på de største begivenheder og historier. Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     <icon src="https://image.tmdb.org/t/p/w1280/fBcRe2ZiDv1zHXuaLyX3WnuCV9g.jpg" /></programme>
-  <programme start="20261015063000 +0000" stop="20261015065500 +0000" channel="dr1.dk">
+  <programme start="20261015063000 +0000" stop="20261015070000 +0000" channel="dr1.dk">
     <title lang="da">Krigens døgn: Kamprobotter bag fjendens linjer</title>
     <desc lang="da">Sæson: 5. Episode: 30. 'Kamprobotter bag fjendens linjer'. Ved brug af særlige kamprobotter bag fjendens linjer har ukrainerne gennembrudt russiske stillinger. Og mens tabstallene er enorme på begge sider, så foregår der et farefuldt arbejde med at finde de døde og sende dem hjem. Tilladt for: A.</desc>
     <category lang="da">Politik</category>
     <icon src="https://image.tmdb.org/t/p/original/yDhXEZoGn1cobsOFUgFT3p1h9uA.jpg" /></programme>
-  <programme start="20261015065500 +0000" stop="20261015073000 +0000" channel="dr1.dk">
+  <programme start="20261015070000 +0000" stop="20261015073000 +0000" channel="dr1.dk">
     <title lang="da">En barndom fuld af druk</title>
     <sub-title lang="da">(4:4) Konstant I Alarmberedskab</sub-title>
     <desc lang="da">Sæson: 1. Episode: 4. 'Konstant i alarmberedskab'. Lizanne får angstanfald, når hun skal forholde sig til sine drikkende forældre. Hun er nødt til at tage et valg. Kasper har besluttet at konfrontere sin far med hans drikkeri. Kaspers far tror ikke, at hans drikkeri har betydet noget for Kasper, fordi han først begyndte at drikke, da Kasper blev voksen. Simones opvækst med en alkoholiseret far har givet hende en følelse af ikke at være noget værd, og hun tager nærmest for givet, at de andre i gruppen nok ikke kan lide hende. Tilladt for: 15.</desc>
@@ -364,7 +359,7 @@
   <icon src="https://image.tmdb.org/t/p/w1280/iuI9GvtbZg0gip6xppWKszti6OU.jpg" /></programme>
   <programme start="20261015100000 +0000" stop="20261015101500 +0000" channel="dr1.dk">
     <title lang="da">TVA</title>
-    <desc lang="da">Sæson: 2026. '15.10.2026'. TV Avisen giver dig overblik over dagens vigtigste nyheder fra Danmark og verden omkring os. Få indblik og perspektiv på de største begivenheder og historier. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 2026. 'Zelenskyj trodser Trump og angriber olieraffinaderier igen'. Ukraine har pauset sine angreb på russiske olieraffinaderier i tre dage, fordi Trump ønskede en energivåbenhvile. Rusland fortsatte dog med at bombe energianlæg, så nu genoptager Ukraine sine angreb. TV Avisen giver dig overblik over dagens vigtigste nyheder fra Danmark og verden omkring os. Få indblik og perspektiv på de største begivenheder og historier. Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     <icon src="https://image.tmdb.org/t/p/w1280/oatDMRd9S211wRcWhOF2fsyfUrZ.jpg" /></programme>
   <programme start="20261015101500 +0000" stop="20261015104500 +0000" channel="dr1.dk">
@@ -443,13 +438,13 @@
     <category lang="da">Nyheder</category>
     <icon src="https://image.tmdb.org/t/p/w1280/oatDMRd9S211wRcWhOF2fsyfUrZ.jpg" /></programme>
   <programme start="20261015153000 +0000" stop="20261015160000 +0000" channel="dr1.dk">
-    <title lang="da">Deadline</title>
-    <desc lang="da">Sæson: 2026. Episode: 159. '15.10.2026'. Udfordrende og overraskende perspektiver på dagens og tidens væsentligste historier. Tilladt for: A.</desc>
+    <title lang="da">Deadline: Ufrivillig abort, tragedie eller biologi?</title>
+    <desc lang="da">Sæson: 2026. Episode: 159. 'Ufrivillig abort, tragedie eller biologi?'. Hvordan forklarer man en spontan abort til skuffede par? Det spørgsmål splitter landets eksperter. Er det naturens gang, som skal følges op med et 'prøv igen'? Eller et sorgfuldt tab, hvor årsagen skal granskes? Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     <icon src="https://image.tmdb.org/t/p/original/kRzWgP8rb2MXkEVPIRHfoczGKiD.jpg" /></programme>
   <programme start="20261015160000 +0000" stop="20261015163000 +0000" channel="dr1.dk">
-    <title lang="da">Trumps USA</title>
-    <desc lang="da">Sæson: 2026. Episode: 27. 'Trumps USA'. I "Trumps USA" stiller vi skarpt på de afgørende udviklinger, personopgør og dagsordener, der udspiller sig i amerikansk politik. Tilladt for: A.</desc>
+    <title lang="da">Trumps USA: Alle præsidentens syndebukke</title>
+    <desc lang="da">Sæson: 2026. Episode: 27. 'Alle præsidentens syndebukke'. Trump siger, at det er Ukraines skyld, at amerikanere har ondt i pengepungen, og at demokraternes El Sayed er jihadist. Samtidig er Elon Musk trådt ind i valgkampen og bruger millioner og megafonen X til politiske angreb. Men virker det så sent i kampagnen? Og hvem er Trumps nye talskvinde? Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     </programme>
   <programme start="20261015163000 +0000" stop="20261015165000 +0000" channel="dr1.dk">
@@ -525,7 +520,7 @@
       <value>11</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/d5kCx42cOit6yTAHKTlpXy3wvdM.jpg" /></programme>
-  <programme start="20261015215500 +0000" stop="20261015234000 +0000" channel="dr1.dk">
+  <programme start="20261015215500 +0000" stop="20261015233500 +0000" channel="dr1.dk">
     <title lang="da">De tre musketerer</title>
     <desc lang="da">'De tre musketerer'. Mads Mikkelsen (Clash of the Titans), Milla Jovovich (Resident Evil), Orlando Bloom (Pirates of the Carribean) og Christoph Waltz (Inglourious Basterds) spiller hovedrollerne i denne storslåede og moderne action-version af Alexandre Dumas' klassiske eventyr De tre musketerer. Instruktør: Paul W.S. Anderson. Medvirkende: Logan Lerman, Matthew Macfadyen, Ray Stevenson, Milla Jovovich. Tilladt for: 11.</desc>
     <credits>
@@ -546,7 +541,7 @@
       <value>11</value>
     </rating>
   </programme>
-  <programme start="20261015234000 +0000" stop="20261016011500 +0000" channel="dr1.dk">
+  <programme start="20261015233500 +0000" stop="20261016011000 +0000" channel="dr1.dk">
     <title lang="da">Kriminalkommissær Barnaby XII: Bristen</title>
     <sub-title lang="da">(4)</sub-title>
     <desc lang="da">Sæson: 12. Episode: 4. 'Bristen'. Midsomers sportsvognsentusiaster og medlemmerne af den lokale cykelklub er ikke de bedste venner. Cyklisterne mener, at bilisterne kører hensynsløst. Måske er det derfor, at en ukendt gerningsmand er begyndt at overhælde områdets sportsvogne med lim og maling? Mens Barnaby leder efter den skyldige, bliver en cyklist dræbt af en flugtbilist. Skyldes det den verserende strid? Eller er der et helt andet motiv for forbrydelsen? Instruktør: Richard Holthouse. Medvirkende: John Nettles, Jason Hughes, Jane Wymark, Laura Howard. Tilladt for: 11.</desc>
@@ -568,7 +563,7 @@
       <value>11</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/n5jS6keha4R1rRpjO8NhN8sF1aB.jpg" /></programme>
-  <programme start="20261016011500 +0000" stop="20261016020000 +0000" channel="dr1.dk">
+  <programme start="20261016011000 +0000" stop="20261016015500 +0000" channel="dr1.dk">
     <title lang="da">Sporløs UK - Sådan gik det</title>
     <sub-title lang="da">(6:7)</sub-title>
     <desc lang="da">Sæson: 10. Episode: 6. 'Sporløs UK'. At finde forsvundne slægtninge er kun begyndelsen. Hvor let er det at opbygge en relation efter et helt liv adskilt? Her genbesøges nogle af de historier og mennesker, hvis liv er blevet forandret for altid. Tilladt for: 7.</desc>
@@ -577,13 +572,13 @@
       <value>7</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/iuI9GvtbZg0gip6xppWKszti6OU.jpg" /></programme>
-  <programme start="20261016020000 +0000" stop="20261016023500 +0000" channel="dr1.dk">
+  <programme start="20261016015500 +0000" stop="20261016023000 +0000" channel="dr1.dk">
     <title lang="da">Team Bachstad på hjemmebane</title>
     <sub-title lang="da">(3:4)</sub-title>
     <desc lang="da">Sæson: 1. Episode: 3. 'Team Bachstad - På hjemmebane'. Der er stadig langt til Nordkapp. Team Bachstad kører mod den coronalukkede svenske grænse, hvor der ikke er megen grænsehandel. I Lofoten besøger de gamle venner - og en friture-ekspert giver dem gode råd. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     <icon src="https://image.tmdb.org/t/p/original/uy5yACS7eCjik1Ut1wRlci6qFzF.jpg" /></programme>
-  <programme start="20261016023500 +0000" stop="20261016042000 +0000" channel="dr1.dk">
+  <programme start="20261016023000 +0000" stop="20261016042000 +0000" channel="dr1.dk">
     <title lang="da">Udsendelsesophør</title>
     <desc lang="da">Sæson: 2022. 'Udsendelsesophør'. Udsendelsesophør. Tilladt for: A.</desc>
     <category lang="da">Ukendt</category>
@@ -594,24 +589,24 @@
     <desc lang="da">Sæson: 1. Episode: 2. 'Jens i Canada'. Den 400 kilometer lange Snowdrift River er fattig på fisk, og Jens er konstant sulten. Han får en stor gedde på krogen, men er uheldig og skærer sig i hånden. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     <icon src="https://image.tmdb.org/t/p/original/t6XFpCcYSngcYdybJfHtpQqKAYs.jpg" /></programme>
-  <programme start="20261016050000 +0000" stop="20261016051500 +0000" channel="dr1.dk">
+  <programme start="20261016050000 +0000" stop="20261016051000 +0000" channel="dr1.dk">
     <title lang="da">TVA</title>
     <desc lang="da">Sæson: 2026. '16.10.2026'. TV Avisen giver dig overblik over dagens vigtigste nyheder fra Danmark og verden omkring os. Få indblik og perspektiv på de største begivenheder og historier. Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     <icon src="https://image.tmdb.org/t/p/w1280/oatDMRd9S211wRcWhOF2fsyfUrZ.jpg" /></programme>
-  <programme start="20261016051500 +0000" stop="20261016063000 +0000" channel="dr1.dk">
+  <programme start="20261016051000 +0000" stop="20261016063100 +0000" channel="dr1.dk">
     <title lang="da">Seneste nyt fra TVA</title>
     <desc lang="da">Sæson: 2026. '16.10.2026'. TV Avisen giver dig overblik over dagens vigtigste nyheder fra Danmark og verden omkring os. Få indblik og perspektiv på de største begivenheder og historier. Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     <icon src="https://image.tmdb.org/t/p/w1280/fBcRe2ZiDv1zHXuaLyX3WnuCV9g.jpg" /></programme>
-  <programme start="20261016063000 +0000" stop="20261016063500 +0000" channel="dr1.dk">
+  <programme start="20261016063100 +0000" stop="20261016063500 +0000" channel="dr1.dk">
     <title lang="da">OBS</title>
     <desc lang="da">Episode: 14. 'OBS'. Oplysning til borgerne om samfundet.\r Demens - Det nationale demenssymbol\r Fuglene synger \r Værnsfælles Forsvarskommando - Havfald Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     <icon src="https://image.tmdb.org/t/p/original/fGkE8te8soAwDaCrWFLVnTPhuNp.jpg" /></programme>
   <programme start="20261016063500 +0000" stop="20261016070500 +0000" channel="dr1.dk">
-    <title lang="da">Trumps USA</title>
-    <desc lang="da">Sæson: 2026. Episode: 27. 'Trumps USA'. I "Trumps USA" stiller vi skarpt på de afgørende udviklinger, personopgør og dagsordener, der udspiller sig i amerikansk politik. Tilladt for: A.</desc>
+    <title lang="da">Trumps USA: Alle præsidentens syndebukke</title>
+    <desc lang="da">Sæson: 2026. Episode: 27. 'Alle præsidentens syndebukke'. Trump siger, at det er Ukraines skyld, at amerikanere har ondt i pengepungen, og at demokraternes El Sayed er jihadist. Samtidig er Elon Musk trådt ind i valgkampen og bruger millioner og megafonen X til politiske angreb. Men virker det så sent i kampagnen? Og hvem er Trumps nye talskvinde? Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     </programme>
   <programme start="20261016070500 +0000" stop="20261016073500 +0000" channel="dr1.dk">
@@ -1523,7 +1518,7 @@
       <value>11</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/93hvfP6pVHGcUblME84bztYtaBk.jpg" /></programme>
-  <programme start="20261015155500 +0000" stop="20261015163500 +0000" channel="dr2.dk">
+  <programme start="20261015155500 +0000" stop="20261015163000 +0000" channel="dr2.dk">
     <title lang="da">Danmark i Den Kolde Krig</title>
     <sub-title lang="da">(3:12)</sub-title>
     <desc lang="da">Sæson: 1. Episode: 3. 'Da bomben mistede sin uskyld'. Atombomben bliver modtaget med begejstring, da den springer første gang og sætter en stopper for 2. verdenskrig. Og der går mange år, før protesterne mod bomber og oprustning for alvor begynder. Mærkeligt nok er videnskabsmændene, der opfandt bomben, de første til at protestere. Senere følger befolkningen med, og i starten af 60'erne begynder de første marcher mod atomvåben i Danmark. Medvirkende: Grete Tulinius. Tilladt for: 11.</desc>
@@ -1535,7 +1530,7 @@
       <value>11</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/93hvfP6pVHGcUblME84bztYtaBk.jpg" /></programme>
-  <programme start="20261015163500 +0000" stop="20261015171500 +0000" channel="dr2.dk">
+  <programme start="20261015163000 +0000" stop="20261015171000 +0000" channel="dr2.dk">
     <title lang="da">Justitsmord - Johan Friederich Struensee</title>
     <sub-title lang="da">(2:2)</sub-title>
     <desc lang="da">Sæson: 1. Episode: 2. 'Johan Friederich Struensee'. En dronning og hendes elsker er på anklagebænken. Struensee tager ikke blot Christian den 7.'s magt, han tager også kongens kone, dronning Caroline Mathilde. Det bliver hans død. Og sagen mod Struensee er også en sag mod Caroline Mathilde. Piet Van Deurs, statsadvokat Erik Merlung og forsvarsadvokat Jørgen Jacobsen indkalder igen en række vidner for at undersøge, om der i virkeligheden er tale om justitsmord. Tilladt for: 11.</desc>
@@ -1544,14 +1539,11 @@
       <value>11</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/3SA5zBOqofwGlmEAAUBoPmy9DTv.jpg" /></programme>
-  <programme start="20261015171500 +0000" stop="20261015181000 +0000" channel="dr2.dk">
-    <title lang="da">Eiffeltårnet</title>
-    <desc lang="da">'Eiffeltårnet'. Siden 1889 har det raget 300 meter op i den parisiske himmel. Eiffeltårnet er et symbol på fremskridt og nytænkning og et ikon, der tiltrækker 6.000.000 besøgende hvert år. Her følger vi i ingeniøren og arkitekten Gustave Eiffels fodspor for at forstå tankerne bag konstruktio-nen. Hvordan kunne man rejse tårnet på bare to år? Og hvilke menneskelige og tekniske ud-fordringer mødte Eiffel og hans folk? Tilladt for: 7.</desc>
-    <category lang="da">Fakta</category>
-    <rating system="DK">
-      <value>7</value>
-    </rating>
-  <icon src="https://image.tmdb.org/t/p/w1280/1IWeGULLGnBOP3EdQ3IRf210dnR.jpg" /></programme>
+  <programme start="20261015171000 +0000" stop="20261015181000 +0000" channel="dr2.dk">
+    <title lang="da">EM bordtennis; Herresingle, 2. runde, direkte</title>
+    <desc lang="da">'Herresingle, 2. runde'. Jonathan Groth skal forsøge at spille sig videre til 1/8-finalerne ved EM i bordtennis i Ljuljana i Slovenien. Her møder han Dang Qiu fra Tyskland. Tilladt for: A.</desc>
+    <category lang="da">Sport</category>
+    </programme>
   <programme start="20261015181000 +0000" stop="20261015190000 +0000" channel="dr2.dk">
     <title lang="da">Optimistens guide til planeten</title>
     <sub-title lang="da">2 (5:6)</sub-title>
@@ -1580,8 +1572,8 @@
     <category lang="da">Nyheder</category>
     <icon src="https://image.tmdb.org/t/p/original/kRzWgP8rb2MXkEVPIRHfoczGKiD.jpg" /></programme>
   <programme start="20261015204500 +0000" stop="20261015211500 +0000" channel="dr2.dk">
-    <title lang="da">Trumps USA</title>
-    <desc lang="da">Sæson: 2026. Episode: 27. 'Trumps USA'. I "Trumps USA" stiller vi skarpt på de afgørende udviklinger, personopgør og dagsordener, der udspiller sig i amerikansk politik. Tilladt for: A.</desc>
+    <title lang="da">Trumps USA: Alle præsidentens syndebukke</title>
+    <desc lang="da">Sæson: 2026. Episode: 27. 'Alle præsidentens syndebukke'. Trump siger, at det er Ukraines skyld, at amerikanere har ondt i pengepungen, og at demokraternes El Sayed er jihadist. Samtidig er Elon Musk trådt ind i valgkampen og bruger millioner og megafonen X til politiske angreb. Men virker det så sent i kampagnen? Og hvem er Trumps nye talskvinde? Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     </programme>
   <programme start="20261015211500 +0000" stop="20261015230500 +0000" channel="dr2.dk">
@@ -2152,7 +2144,7 @@
     <icon src="https://image.tmdb.org/t/p/w1280/y9KK5ncsZjSRJzjG0OnS3yqEgzN.jpg" /></programme>
   <programme start="20261018210500 +0000" stop="20261018225500 +0000" channel="dr2.dk">
     <title lang="da">A Simple Favor</title>
-    <desc lang="da">'A Simple Favor'. Moderbloggeren Stephanie forsøger at finde frem til sandheden bag sin ven Emilys pludselige forsvinden fra deres lille by. Stephanie får hjælp af Emilys mand Sean i en thriller fuld af drejninger og bedrag, hemmeligheder og afsløringer, kærlighed og loyalitet, mord og hævn. Instruktør: Paul Feig. Medvirkende: Anna Kendrick, Blake Lively, Henry Golding, Andrew Rannells. Tilladt for: 15.</desc>
+    <desc lang="da">'A Simple Favor'. Moderbloggeren Stephanie forsøger at finde frem til sandheden bag sin ven Emilys pludselige forsvinden fra deres lille by. Stephanie får hjælp af Emilys mand Sean i en thriller fuld af drejninger og bedrag, hemmeligheder og afsløringer, kærlighed og loyalitet, mord og hævn. Instruktør: Paul Feig. Medvirkende: Anna Kendrick, Blake Lively, Henry Golding, Andrew Rannells. Tilladt for: 11.</desc>
     <credits>
       <director>Paul Feig</director>
       <actor>Anna Kendrick</actor>
@@ -2168,7 +2160,7 @@
     </credits>
     <category lang="da">Film</category>
     <rating system="DK">
-      <value>15</value>
+      <value>11</value>
     </rating>
   </programme>
   <programme start="20261018225500 +0000" stop="20261019010000 +0000" channel="dr2.dk">
@@ -2998,7 +2990,7 @@
     <desc lang="da">Sæson: 1. Episode: 7. 'Har direktører sexlegetøj?'. Abdel Aziz, Mads Christensen og Twerk Queen kæmper imod Cecilie Beck, Jasper Ritz og Chris Pedersen, når holdene sættes ansigt til ansigt med deres fordomme i mødet med fire modige danskere. Mikkel Kryger er vært i 'Menneskekender', hvor fordommene kommer først og svarene lige bagefter. Tilladt for: A.</desc>
     <category lang="da">Show</category>
     </programme>
-  <programme start="20261015045000 +0000" stop="20261015054500 +0000" channel="tv2zulu.dk">
+  <programme start="20261015045000 +0000" stop="20261015054000 +0000" channel="tv2zulu.dk">
     <title lang="da">24 timer på skadestuen</title>
     <desc lang="da">Sæson: 16. Episode: 4. 'Because the Night...'. Den 37-årige Lisa lider af svær autisme og har klemt sin finger i en dør. Den 82-årige Alec har muligvis udviklet en livstruende reaktion efter en brystsygdom. Instruktører: Jonathan Low, Joe John, Sophie Waldron. Tilladt for: 11.</desc>
     <credits>
@@ -3011,7 +3003,7 @@
       <value>11</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/rJ6EaKrmgWJ09QHAmL2RSWvPxap.jpg" /></programme>
-  <programme start="20261015054500 +0000" stop="20261015064000 +0000" channel="tv2zulu.dk">
+  <programme start="20261015054000 +0000" stop="20261015064000 +0000" channel="tv2zulu.dk">
     <title lang="da">24 timer på skadestuen</title>
     <desc lang="da">Sæson: 16. Episode: 5. 'One of the Family'. Den 51-årige Maria bliver hastet til skadestuen, da hun har påkørt en lysmast med sin bil, og den 85-årige Ronald har slået sig efter et fald derhjemme. Medvirkende: Anthony Philipson. Tilladt for: 11.</desc>
     <credits>
@@ -6010,7 +6002,7 @@
   <icon src="https://image.tmdb.org/t/p/w1280/vLBXHFQNVZZK4gyikZsCmMDGJSD.jpg" /></programme>
   <programme start="20261018090000 +0000" stop="20261018100000 +0000" channel="TV3.dk">
     <title lang="da">Doc</title>
-    <desc lang="da">Sæson: 2. Episode: 18. 'DOC'. Da Amy og Michael kører Katie til orienteringsmødet, standser de ved en sti og finder en alvorligt såret mand. Da der ikke er mobildækning, er det op til dem at redde ham. Tilladt for: 11.</desc>
+    <desc lang="da">Sæson: 2. Episode: 18. 'Orientation'. Da Amy og Michael kører Katie til orienteringsmødet, standser de ved en sti og finder en alvorligt såret mand. Da der ikke er mobildækning, er det op til dem at redde ham. Tilladt for: 11.</desc>
     <category lang="da">Serier</category>
     <rating system="DK">
       <value>11</value>
@@ -7794,22 +7786,22 @@
     <icon src="https://image.tmdb.org/t/p/w1280/hhmjhepn8TuUDMYuYBAYYZPDKyo.jpg" /></programme>
   <programme start="20261016061500 +0000" stop="20261016064000 +0000" channel="kanal4.dk">
     <title lang="da">My Lottery Dream Home</title>
-    <desc lang="da">Sæson: 12. Episode: 4. 'Mortgage Free in Atlanta'. De fleste drømmer om at vinde den helt store lottogevinst - og for dem, der vinder, bliver drømmehjemmet med fem soveværelser pludselig en mulighed. I ’’My Lottery Dream Home’’ følger vi folk, der for nylig har vundet en formue i lotto, og som vil spendere pengene på et nyt, fantastisk hjem Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 12. Episode: 4. 'Mortgage Free in Atlanta'. De fleste drømmer om at vinde den helt store lottogevinst - og for dem, der vinder, bliver drømmehjemmet pludselig en mulighed. Serien følger vi folk, der for nylig har vundet en formue i lotto, og som vil bruge pengene på et nyt, fantastisk hjem. Tilladt for: A.</desc>
     <category lang="da">Show</category>
     <icon src="https://image.tmdb.org/t/p/w1280/9CuJKEBva4zIYByxGUOproULZyr.jpg" /></programme>
   <programme start="20261016064000 +0000" stop="20261016070500 +0000" channel="kanal4.dk">
     <title lang="da">My Lottery Dream Home</title>
-    <desc lang="da">Sæson: 12. Episode: 5. 'To Son, With Love'. De fleste drømmer om at vinde den helt store lottogevinst - og for dem, der vinder, bliver drømmehjemmet med fem soveværelser pludselig en mulighed. I ’’My Lottery Dream Home’’ følger vi folk, der for nylig har vundet en formue i lotto, og som vil spendere pengene på et nyt, fantastisk hjem Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 12. Episode: 5. 'To Son, With Love'. De fleste drømmer om at vinde den helt store lottogevinst - og for dem, der vinder, bliver drømmehjemmet pludselig en mulighed. Serien følger vi folk, der for nylig har vundet en formue i lotto, og som vil bruge pengene på et nyt, fantastisk hjem. Tilladt for: A.</desc>
     <category lang="da">Show</category>
     <icon src="https://image.tmdb.org/t/p/w1280/9CuJKEBva4zIYByxGUOproULZyr.jpg" /></programme>
   <programme start="20261016070500 +0000" stop="20261016073500 +0000" channel="kanal4.dk">
     <title lang="da">My Lottery Dream Home</title>
-    <desc lang="da">Sæson: 12. Episode: 6. 'Seven Million Big Ones'. David hjælper to reddere fra New York med at finde deres drømmehjem i Cape Coral i Florida, hvor det varme badevand ikke er langt fra deres hoveddør. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 12. Episode: 6. 'Seven Million Big Ones'. De fleste drømmer om at vinde den helt store lottogevinst - og for dem, der vinder, bliver drømmehjemmet pludselig en mulighed. Serien følger vi folk, der for nylig har vundet en formue i lotto, og som vil bruge pengene på et nyt, fantastisk hjem. Tilladt for: A.</desc>
     <category lang="da">Show</category>
     <icon src="https://image.tmdb.org/t/p/w1280/9CuJKEBva4zIYByxGUOproULZyr.jpg" /></programme>
   <programme start="20261016073500 +0000" stop="20261016081000 +0000" channel="kanal4.dk">
     <title lang="da">My Lottery Dream Home</title>
-    <desc lang="da">Sæson: 12. Episode: 7. 'Cashed Up in Cartersville'. David hjælper en heldig familie med at vælge mellem en have på to hektar og et hus med seks soveværelser lige uden for Atlanta. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 12. Episode: 7. 'Cashed Up in Cartersville'. De fleste drømmer om at vinde den helt store lottogevinst - og for dem, der vinder, bliver drømmehjemmet pludselig en mulighed. Serien følger vi folk, der for nylig har vundet en formue i lotto, og som vil bruge pengene på et nyt, fantastisk hjem. Tilladt for: A.</desc>
     <category lang="da">Show</category>
     <icon src="https://image.tmdb.org/t/p/w1280/9CuJKEBva4zIYByxGUOproULZyr.jpg" /></programme>
   <programme start="20261016081000 +0000" stop="20261016091000 +0000" channel="kanal4.dk">
@@ -7981,37 +7973,37 @@
     <icon src="https://image.tmdb.org/t/p/w1280/horfRNp8unZCy9P11X3crtnKfdo.jpg" /></programme>
   <programme start="20261017040000 +0000" stop="20261017042000 +0000" channel="kanal4.dk">
     <title lang="da">My Lottery Dream Home</title>
-    <desc lang="da">Sæson: 11. Episode: 10. 'My Lottery Dream Home'. De fleste drømmer om at vinde den helt store lottogevinst - og for dem, der vinder, bliver drømmehjemmet med fem soveværelser pludselig en mulighed. I ’’My Lottery Dream Home’’ følger vi folk, der for nylig har vundet en formue i lotto, og som vil spendere pengene på et nyt, fantastisk hjem Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 11. Episode: 10. 'My Lottery Dream Home'. De fleste drømmer om at vinde den helt store lottogevinst - og for dem, der vinder, bliver drømmehjemmet pludselig en mulighed. Serien følger vi folk, der for nylig har vundet en formue i lotto, og som vil bruge pengene på et nyt, fantastisk hjem. Tilladt for: A.</desc>
     <category lang="da">Show</category>
     <icon src="https://image.tmdb.org/t/p/w1280/9CuJKEBva4zIYByxGUOproULZyr.jpg" /></programme>
   <programme start="20261017042000 +0000" stop="20261017044500 +0000" channel="kanal4.dk">
     <title lang="da">My Lottery Dream Home</title>
-    <desc lang="da">Sæson: 11. Episode: 11. 'My Lottery Dream Home'. De fleste drømmer om at vinde den helt store lottogevinst - og for dem, der vinder, bliver drømmehjemmet med fem soveværelser pludselig en mulighed. I ’’My Lottery Dream Home’’ følger vi folk, der for nylig har vundet en formue i lotto, og som vil spendere pengene på et nyt, fantastisk hjem Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 11. Episode: 11. 'My Lottery Dream Home'. De fleste drømmer om at vinde den helt store lottogevinst - og for dem, der vinder, bliver drømmehjemmet pludselig en mulighed. Serien følger vi folk, der for nylig har vundet en formue i lotto, og som vil bruge pengene på et nyt, fantastisk hjem. Tilladt for: A.</desc>
     <category lang="da">Show</category>
     <icon src="https://image.tmdb.org/t/p/w1280/9CuJKEBva4zIYByxGUOproULZyr.jpg" /></programme>
   <programme start="20261017044500 +0000" stop="20261017053000 +0000" channel="kanal4.dk">
     <title lang="da">Mother &amp; Daughter Renovate</title>
-    <desc lang="da">Sæson: 5. Episode: 4. 'Old Biker Bar'. Mina og Karen arbejder på at forvandle en gammel bikerbar til en familieegnet bolig. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 5. Episode: 4. 'Old Biker Bar'. Mor-datter-duoen Karen og Mina har købt og renoveret op mod 20 huse rundt omkring i Fountain Squares nærområde. De har håndplukket deres naboer og fået ejendomsværdien til at stige, hvilket har resulteret i et stærkt fællesskab blandt beboerne. Nu er de klar til at tage hånd om endnu område og der er nok at gå i gang med, når de både skal overholde tider og budgetter. Tilladt for: A.</desc>
     <category lang="da">Fritid</category>
     <icon src="https://image.tmdb.org/t/p/w1280/hhmjhepn8TuUDMYuYBAYYZPDKyo.jpg" /></programme>
   <programme start="20261017053000 +0000" stop="20261017061500 +0000" channel="kanal4.dk">
     <title lang="da">Mother &amp; Daughter Renovate</title>
-    <desc lang="da">Sæson: 5. Episode: 5. 'Free House, Expensive Reno'. Mor-datter-duoen Karen og Mina har købt og renoveret op mod 20 huse rundt omkring i Fountain Squares nærområde. De har håndplukket deres naboer og fået ejendomsværdien til at stige, hvilket har resulteret i et stærkt fællesskab blandt beboerne. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 5. Episode: 5. 'Free House, Expensive Reno'. Mor-datter-duoen Karen og Mina har købt og renoveret op mod 20 huse rundt omkring i Fountain Squares nærområde. De har håndplukket deres naboer og fået ejendomsværdien til at stige, hvilket har resulteret i et stærkt fællesskab blandt beboerne. Nu er de klar til at tage hånd om endnu område og der er nok at gå i gang med, når de både skal overholde tider og budgetter. Tilladt for: A.</desc>
     <category lang="da">Fritid</category>
     <icon src="https://image.tmdb.org/t/p/w1280/hhmjhepn8TuUDMYuYBAYYZPDKyo.jpg" /></programme>
   <programme start="20261017061500 +0000" stop="20261017070500 +0000" channel="kanal4.dk">
     <title lang="da">Mother &amp; Daughter Renovate</title>
-    <desc lang="da">Sæson: 5. Episode: 6. 'MJ's Dream Home'. Mina og Karen gør forstadsdrømme til virkelighed for deres firmas designassistent. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 5. Episode: 6. 'MJ's Dream Home'. Mor-datter-duoen Karen og Mina har købt og renoveret op mod 20 huse rundt omkring i Fountain Squares nærområde. De har håndplukket deres naboer og fået ejendomsværdien til at stige, hvilket har resulteret i et stærkt fællesskab blandt beboerne. Nu er de klar til at tage hånd om endnu område og der er nok at gå i gang med, når de både skal overholde tider og budgetter. Tilladt for: A.</desc>
     <category lang="da">Fritid</category>
     <icon src="https://image.tmdb.org/t/p/w1280/hhmjhepn8TuUDMYuYBAYYZPDKyo.jpg" /></programme>
   <programme start="20261017070500 +0000" stop="20261017081000 +0000" channel="kanal4.dk">
     <title lang="da">Mother &amp; Daughter Renovate</title>
-    <desc lang="da">Sæson: 5. Episode: 7. 'The Boho Bungalow'. Mina og Karen må få hold på deres kreative årer for at forvandle en lillebitte ejendom til en bohemisk bungalow. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 5. Episode: 7. 'The Boho Bungalow'. Mor-datter-duoen Karen og Mina har købt og renoveret op mod 20 huse rundt omkring i Fountain Squares nærområde. De har håndplukket deres naboer og fået ejendomsværdien til at stige, hvilket har resulteret i et stærkt fællesskab blandt beboerne. Nu er de klar til at tage hånd om endnu område og der er nok at gå i gang med, når de både skal overholde tider og budgetter. Tilladt for: A.</desc>
     <category lang="da">Fritid</category>
     <icon src="https://image.tmdb.org/t/p/w1280/hhmjhepn8TuUDMYuYBAYYZPDKyo.jpg" /></programme>
   <programme start="20261017081000 +0000" stop="20261017091500 +0000" channel="kanal4.dk">
     <title lang="da">Mother &amp; Daughter Renovate</title>
-    <desc lang="da">Sæson: 5. Episode: 8. 'Cottage Becomes Artistic Oasis'. Mina og Karen renoverer en faldefærdig ejendom til ejerne af en velgørenhedsorganisation. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 5. Episode: 8. 'Cottage Becomes Artistic Oasis'. Mor-datter-duoen Karen og Mina har købt og renoveret op mod 20 huse rundt omkring i Fountain Squares nærområde. De har håndplukket deres naboer og fået ejendomsværdien til at stige, hvilket har resulteret i et stærkt fællesskab blandt beboerne. Nu er de klar til at tage hånd om endnu område og der er nok at gå i gang med, når de både skal overholde tider og budgetter. Tilladt for: A.</desc>
     <category lang="da">Fritid</category>
     <icon src="https://image.tmdb.org/t/p/w1280/hhmjhepn8TuUDMYuYBAYYZPDKyo.jpg" /></programme>
   <programme start="20261017091500 +0000" stop="20261017102500 +0000" channel="kanal4.dk">
@@ -8166,12 +8158,12 @@
     <icon src="https://image.tmdb.org/t/p/w1280/horfRNp8unZCy9P11X3crtnKfdo.jpg" /></programme>
   <programme start="20261018040000 +0000" stop="20261018042000 +0000" channel="kanal4.dk">
     <title lang="da">My Lottery Dream Home</title>
-    <desc lang="da">Sæson: 11. Episode: 12. 'My Lottery Dream Home'. De fleste drømmer om at vinde den helt store lottogevinst - og for dem, der vinder, bliver drømmehjemmet med fem soveværelser pludselig en mulighed. I ’’My Lottery Dream Home’’ følger vi folk, der for nylig har vundet en formue i lotto, og som vil spendere pengene på et nyt, fantastisk hjem Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 11. Episode: 12. 'My Lottery Dream Home'. De fleste drømmer om at vinde den helt store lottogevinst - og for dem, der vinder, bliver drømmehjemmet pludselig en mulighed. Serien følger vi folk, der for nylig har vundet en formue i lotto, og som vil bruge pengene på et nyt, fantastisk hjem. Tilladt for: A.</desc>
     <category lang="da">Show</category>
     <icon src="https://image.tmdb.org/t/p/w1280/9CuJKEBva4zIYByxGUOproULZyr.jpg" /></programme>
   <programme start="20261018042000 +0000" stop="20261018044500 +0000" channel="kanal4.dk">
     <title lang="da">My Lottery Dream Home</title>
-    <desc lang="da">Sæson: 11. Episode: 13. 'My Lottery Dream Home'. De fleste drømmer om at vinde den helt store lottogevinst - og for dem der vinder, bliver drømmehjemmet med fem soveværelser, pludselig en mulighed. I ’’My Lottery Dream Home’’ følger vi folk der for nyligt har vundet en formue i lotto, og som vil spendere pengene på et nyt fantastisk hjem. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 11. Episode: 13. 'My Lottery Dream Home'. De fleste drømmer om at vinde den helt store lottogevinst - og for dem, der vinder, bliver drømmehjemmet pludselig en mulighed. Serien følger vi folk, der for nylig har vundet en formue i lotto, og som vil bruge pengene på et nyt, fantastisk hjem. Tilladt for: A.</desc>
     <category lang="da">Show</category>
     <icon src="https://image.tmdb.org/t/p/w1280/9CuJKEBva4zIYByxGUOproULZyr.jpg" /></programme>
   <programme start="20261018044500 +0000" stop="20261018053000 +0000" channel="kanal4.dk">
@@ -11279,17 +11271,17 @@
     <category lang="da">Show</category>
     <icon src="https://image.tmdb.org/t/p/w1280/hyQR0V7UGpkvjSQ5F4qmwtWW1sB.jpg" /></programme>
   <programme start="20261017024000 +0000" stop="20261017031500 +0000" channel="6eren.dk">
-    <title lang="da">Diners, Drive-ins, And Dives</title>
+    <title lang="da">Diners, Drive-Ins, and Dives</title>
     <desc lang="da">Sæson: 31. Episode: 5. 'Smokin' Hot BBQ'. Tag med, når Guy Fieri begiver sig ud på en kulinarisk rejse gennem Amerikas bedste diners, drive-ins og dives. Alt imens at seeren inviteres indenfor, bliver ejerne interviewet og menuerne prøvesmagt. Tilladt for: A.</desc>
     <category lang="da">Fritid</category>
     <icon src="https://image.tmdb.org/t/p/w1280/tKtxE1KzqKDg3HIXNnlr7VpuWzd.jpg" /></programme>
   <programme start="20261017031500 +0000" stop="20261017041500 +0000" channel="6eren.dk">
-    <title lang="da">Diners, Drive-ins, And Dives</title>
+    <title lang="da">Diners, Drive-Ins, and Dives</title>
     <desc lang="da">Sæson: 31. Episode: 5. 'Smokin' Hot BBQ'. Tag med, når Guy Fieri begiver sig ud på en kulinarisk rejse gennem Amerikas bedste diners, drive-ins og dives. Alt imens at seeren inviteres indenfor, bliver ejerne interviewet og menuerne prøvesmagt. Tilladt for: A.</desc>
     <category lang="da">Fritid</category>
     <icon src="https://image.tmdb.org/t/p/w1280/tKtxE1KzqKDg3HIXNnlr7VpuWzd.jpg" /></programme>
   <programme start="20261017041500 +0000" stop="20261017043500 +0000" channel="6eren.dk">
-    <title lang="da">Diners, Drive-ins, And Dives</title>
+    <title lang="da">Diners, Drive-Ins, and Dives</title>
     <desc lang="da">Sæson: 31. Episode: 7. 'Diners, Drive-ins, And Dives'. Tag med, når Guy Fieri begiver sig ud på en kulinarisk rejse gennem Amerikas bedste diners, drive-ins og dives. Alt imens at seeren inviteres indenfor, bliver ejerne interviewet og menuerne prøvesmagt. Tilladt for: A.</desc>
     <category lang="da">Fritid</category>
     <icon src="https://image.tmdb.org/t/p/w1280/tKtxE1KzqKDg3HIXNnlr7VpuWzd.jpg" /></programme>
@@ -13142,7 +13134,7 @@
     <icon src="https://image.tmdb.org/t/p/w1280/2AV8nTUXzJZOLokPeSwkK4ZzOmq.jpg" /></programme>
   <programme start="20261016214500 +0000" stop="20261016221000 +0000" channel="nickelodeon.dk">
     <title lang="da">SvampeBob Firkant</title>
-    <desc lang="da">Sæson: 12. Episode: 248. 'Den Knasende Bøtte / Blæksprutte i bussen'. Plankton skaber en klon af sig selv og Hr. Krabbe, men ingen af restauranterne er i sikkerhed for den nye. // Blækward skifter glædeligt sit job med en buschauffør, i håb en hyggelig køretur... Lige indtil SvampeBob og Patrick stiger ombord. Instruktør: Dave Cunningham. Medvirkende: Tom Kenny, Bill Fagerbakke, Rodger Bumpass, Clancy Brown. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 12. Episode: 7. 'Den Knasende Bøtte / Blæksprutte i bussen'. Plankton skaber en klon af sig selv og Hr. Krabbe, men ingen af restauranterne er i sikkerhed for den nye. // Blækward skifter glædeligt sit job med en buschauffør, i håb en hyggelig køretur... Lige indtil SvampeBob og Patrick stiger ombord. Instruktør: Dave Cunningham. Medvirkende: Tom Kenny, Bill Fagerbakke, Rodger Bumpass, Clancy Brown. Tilladt for: A.</desc>
     <credits>
       <director>Dave Cunningham</director>
       <actor>Tom Kenny</actor>
@@ -19767,13 +19759,7 @@
     <icon src="https://image.tmdb.org/t/p/w1280/dg0x9DzYok0PoLaHfauZxPHPkbG.jpg" /></programme>
   <programme start="20261017001500 +0000" stop="20261017003000 +0000" channel="cartoonnetwork.dk">
     <title lang="da">Den tapre prins Ivandoes heroiske færd</title>
-    <desc lang="da">Sæson: 2. Episode: 32. 'Prinsen og den drømmende trold, 2. del'. Prins Ivandoe må ind i det Underjordiske Trolde Kongerige og finde en hemmelig passage. Imens planlægger den ikke værdsatte Prins Gyldenlok, at stikke af til det ovenpå. Så, i et anderledes musical-scenarie, hjælper de hinanden med at slippe væk. Medvirkende: Rasmus Hardiker, David Dawson, Alex Jordan, Steve Furst. Tilladt for: A.</desc>
-    <credits>
-      <actor>Rasmus Hardiker</actor>
-      <actor>David Dawson</actor>
-      <actor>Alex Jordan</actor>
-      <actor>Steve Furst</actor>
-    </credits>
+    <desc lang="da">Sæson: 4. Episode: 8. 'Prinsen og den drømmende trold, 2. del'. Prins Ivandoe må ind i det Underjordiske Trolde Kongerige og finde en hemmelig passage. Imens planlægger den ikke værdsatte Prins Gyldenlok, at stikke af til det ovenpå. Så, i et anderledes musical-scenarie, hjælper de hinanden med at slippe væk. Tilladt for: A.</desc>
     <category lang="da">Børn</category>
     <icon src="https://image.tmdb.org/t/p/w1280/dg0x9DzYok0PoLaHfauZxPHPkbG.jpg" /></programme>
   <programme start="20261017003000 +0000" stop="20261017004000 +0000" channel="cartoonnetwork.dk">
@@ -23573,7 +23559,7 @@
     </programme>
   <programme start="20261017040000 +0000" stop="20261017044500 +0000" channel="natgeowild.dk">
     <title lang="da">Killer Safari</title>
-    <desc lang="da">Sæson: 1. Episode: 3. 'Tooth V Claws'. Når savannen bliver til en slagmark, ser vi med fra kanten af vores safarisæder, mens en leopard bliver omkranset af en flok løver. Imens bliver en ung impala slynget op i luften af en flodhest, og to hyæner forsøger at drukne hinanden. Så er det tand mod klo, når et jordsvin står ansigt til ansigt med en brun hyæne. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 1. Episode: 3. 'Tooth V Claw'. Når savannen bliver til en slagmark, ser vi med fra kanten af vores safarisæder, mens en leopard bliver omkranset af en flok løver. Imens bliver en ung impala slynget op i luften af en flodhest, og to hyæner forsøger at drukne hinanden. Så er det tand mod klo, når et jordsvin står ansigt til ansigt med en brun hyæne. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     <icon src="https://image.tmdb.org/t/p/w1280/14pL409n73bTgB2XpxSd5gCMrUj.jpg" /></programme>
   <programme start="20261017044500 +0000" stop="20261017050500 +0000" channel="natgeowild.dk">
@@ -23606,7 +23592,7 @@
     </programme>
   <programme start="20261017070000 +0000" stop="20261017074500 +0000" channel="natgeowild.dk">
     <title lang="da">Killer Safari</title>
-    <desc lang="da">Sæson: 1. Episode: 3. 'Tooth V Claws'. Når savannen bliver til en slagmark, ser vi med fra kanten af vores safarisæder, mens en leopard bliver omkranset af en flok løver. Imens bliver en ung impala slynget op i luften af en flodhest, og to hyæner forsøger at drukne hinanden. Så er det tand mod klo, når et jordsvin står ansigt til ansigt med en brun hyæne. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 1. Episode: 3. 'Tooth V Claw'. Når savannen bliver til en slagmark, ser vi med fra kanten af vores safarisæder, mens en leopard bliver omkranset af en flok løver. Imens bliver en ung impala slynget op i luften af en flodhest, og to hyæner forsøger at drukne hinanden. Så er det tand mod klo, når et jordsvin står ansigt til ansigt med en brun hyæne. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     <icon src="https://image.tmdb.org/t/p/w1280/14pL409n73bTgB2XpxSd5gCMrUj.jpg" /></programme>
   <programme start="20261017074500 +0000" stop="20261017083000 +0000" channel="natgeowild.dk">
@@ -24468,8 +24454,8 @@
     <category lang="da">Sport</category>
     <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Superliga%20Studiet.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Superliga%20Studiet.jpg" /></programme>
   <programme start="20261016165500 +0000" stop="20261016190000 +0000" channel="tv3sport.dk">
-    <title lang="da">3F Superliga: AC Horsens - Randers FC</title>
-    <desc lang="da">Sæson: 26. Episode: 54. 'AC Horsens - Randers FC'. Der er lagt op til en intens Superliga-duel på Hybel Arena Horsens, når AC Horsens tager imod Randers FC i 11. runde. Begge hold jagter vigtige point, og der venter en kamp med tempo, dueller og masser af spænding. Tilladt for: A.</desc>
+    <title lang="da">3F Superliga: AC Horsens-Randers</title>
+    <desc lang="da">Sæson: 26. Episode: 54. 'AC Horsens-Randers'. 3F Superligaens 11. spillerunde sparkes i gang, når oprykkerne fra AC Horsens får besøg af Randers. Værterne har fået en overraskende fin sæsonstart og er med omkring top-6 i en sæson, hvor deres mål er at undgå en hurtig returbillet til 1. division. Gæsterne ser ud til at have fundet mere stabilitet efter en lidt ujævn sæsonstart, og de er nummer 8 med lige langt op til slutspilspladserne som ned til nedrykningsstregen. Der er dermed meget vigtige point på spil i den østjyske duel, hvor AC Horsens med en sejr kan styrke deres position i top-6, mens Randers med fuld gevinst kan skabe luft til bunden og rykke frem i den sjove ende af tabellen. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
     <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/3F%20Superliga.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/3F%20Superliga.jpg" /></programme>
   <programme start="20261016190000 +0000" stop="20261016193000 +0000" channel="tv3sport.dk">
@@ -24484,7 +24470,7 @@
     <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PDC%20European%20Tour.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PDC%20European%20Tour.jpg" /></programme>
   <programme start="20261016210000 +0000" stop="20261016220000 +0000" channel="tv3sport.dk">
     <title lang="da">Let’s Be Frank</title>
-    <desc lang="da">Sæson: 2026. Episode: 8. 'Let's be Frank'. Hvis du elsker Premier League lige så meget som Simo og Helmy, så er “Let’s be Frank” programmet for dig. Hver uge bliver de største - og sjoveste - historier fra verdens bedste liga vendt med højt humør og et glimt i øjet. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 2026. Episode: 8. 'Let's be Frank: Er Wirtz et flop?'. 15.10.26 – Lisandro Martinez kaster med bomber i Man Utd, Simo smider Wildcardet – og hvor rangerer Florian Wirtz egentlig blandt de største Premier League-flops? Tilladt for: A.</desc>
     <category lang="da">Sport</category>
     <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Let%27s%20be%20Frank2.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Let%27s%20be%20Frank2.jpg" /></programme>
   <programme start="20261016220000 +0000" stop="20261016230000 +0000" channel="tv3sport.dk">
@@ -24518,8 +24504,8 @@
     <category lang="da">Sport</category>
     <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/T%C3%B8ffe%20vs.%20Graver.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/T%C3%B8ffe%20vs.%20Graver.jpg" /></programme>
   <programme start="20261017080000 +0000" stop="20261017100000 +0000" channel="tv3sport.dk">
-    <title lang="da">3F Superliga: AC Horsens - Randers FC</title>
-    <desc lang="da">Sæson: 26. Episode: 54. 'AC Horsens - Randers FC'. Der er lagt op til en intens Superliga-duel på Hybel Arena Horsens, når AC Horsens tager imod Randers FC i 11. runde. Begge hold jagter vigtige point, og der venter en kamp med tempo, dueller og masser af spænding. Tilladt for: A.</desc>
+    <title lang="da">3F Superliga: AC Horsens-Randers</title>
+    <desc lang="da">Sæson: 26. Episode: 54. 'AC Horsens-Randers'. 3F Superligaens 11. spillerunde sparkes i gang, når oprykkerne fra AC Horsens får besøg af Randers. Værterne har fået en overraskende fin sæsonstart og er med omkring top-6 i en sæson, hvor deres mål er at undgå en hurtig returbillet til 1. division. Gæsterne ser ud til at have fundet mere stabilitet efter en lidt ujævn sæsonstart, og de er nummer 8 med lige langt op til slutspilspladserne som ned til nedrykningsstregen. Der er dermed meget vigtige point på spil i den østjyske duel, hvor AC Horsens med en sejr kan styrke deres position i top-6, mens Randers med fuld gevinst kan skabe luft til bunden og rykke frem i den sjove ende af tabellen. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
     <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/3F%20Superliga.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/3F%20Superliga.jpg" /></programme>
   <programme start="20261017100000 +0000" stop="20261017103000 +0000" channel="tv3sport.dk">
@@ -24563,8 +24549,8 @@
     <category lang="da">Sport</category>
     <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PDC%20European%20Tour.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PDC%20European%20Tour.jpg" /></programme>
   <programme start="20261017210000 +0000" stop="20261017224500 +0000" channel="tv3sport.dk">
-    <title lang="da">EHF Women's Champions League: Odense Håndbold - Györ</title>
-    <desc lang="da">Sæson: 2026. Episode: 16. 'Odense Håndbold - Györ'. Der er lagt op til en håndboldfest i Sydbank Arena, når Odense Håndbold tager imod Györ i EHF Champions League. To stærke europæiske mandskaber mødes i et intenst opgør, hvor tempo, fysik og skarphed bliver afgørende. Tilladt for: A.</desc>
+    <title lang="da">EHF Women's Champions League: Odense-Györ (k)</title>
+    <desc lang="da">Sæson: 2026. Episode: 16. 'Odense-Györ (k)'. I Champions League-gruppespillets 6. spillerunde er der danskeropgør, når Odense tager imod ungarske Györ. Fynboerne har haft en lidt blandet sæson og har også skiftet træner, og nu skal de forsøge at komme tilbage på sporet mod de stærke gæster, som jagter titlen og har Sandra Toft og Helena Elver i deres stærke trup. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
     <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/EHF%20Mens%20Champions%20League.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/EHF%20Mens%20Champions%20League.jpg" /></programme>
   <programme start="20261017224500 +0000" stop="20261017230500 +0000" channel="tv3sport.dk">
@@ -24577,7 +24563,7 @@
     <category lang="da">Fakta</category>
     <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/F2_Chasing%20the%20Dream.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/F2_Chasing%20the%20Dream.jpg" /></programme>
   <programme start="20261017230500 +0000" stop="20261018020000 +0000" channel="tv3sport.dk">
-    <title lang="da">NHL</title>
+    <title lang="da">NHL: Montreal Canadiens - Buffalo Sabres</title>
     <desc lang="da">Sæson: 2026. Episode: 11. 'Montreal Canadiens - Buffalo Sabres'. Montreal Canadiens og Buffalo Sabres mødes i Bell Centre i en duel, der kan byde på masser af fart og intensitet. Hjemmeholdet får opbakningen fra et passioneret publikum, mens Buffalo kommer med ambitioner om at tage point med hjem. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
     <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/NHL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/NHL.jpg" /></programme>
@@ -25148,13 +25134,13 @@
     <category lang="da">Sport</category>
     <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Bundesliga%20Special.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Bundesliga%20Special.jpg" /></programme>
   <programme start="20261018040000 +0000" stop="20261018060000 +0000" channel="tv3max.dk">
-    <title lang="da">Bundesliga Fodbold: Hamburger SV - Stuttgart</title>
-    <desc lang="da">Sæson: 26. Episode: 27. 'Hamburger SV - Stuttgart'. Der er lagt op til en intens Bundesliga-duel på Volksparkstadion, når Hamburger SV tager imod Stuttgart i 6. runde. Hjemmeholdet får besøg af et stærkt Stuttgart-mandskab i et opgør med tempo, fysik og masser af nerve. Tilladt for: A.</desc>
+    <title lang="da">Bundesliga Fodbold: Hamburger SV-VfB Stuttgart</title>
+    <desc lang="da">Sæson: 26. Episode: 27. 'Hamburger SV-VfB Stuttgart'. I Bundesligaens 6. spillerunde får Hamburger SV besøg af VfB Stuttgart, som begge er midterhold. Værterne, der har Yussuf Poulsen og Albert Grønbæk i truppen, fik en miserabel start med store nederlag i deres tre første kampe, men siden har de fået vendt bøtten med to sejre. Gæsterne, som har Nikolas Nartey i truppen, har lagt skuffende ud med 6 point, og måske har Champions League-deltagelsen kostet dem kræfter. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
     <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Bundesliga.JPG" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Bundesliga.JPG" /></programme>
   <programme start="20261018060000 +0000" stop="20261018080000 +0000" channel="tv3max.dk">
-    <title lang="da">Bundesliga Fodbold: Bayern München - RB Leipzig</title>
-    <desc lang="da">Sæson: 26. Episode: 28. 'Bayern München - RB Leipzig'. Der er lagt op til et tysk topopgør på Allianz Arena, når Bayern München tager imod RB Leipzig i 6. runde. To stærke mandskaber mødes i en kamp, hvor højt tempo, intensitet og skarphed kan blive afgørende. Tilladt for: A.</desc>
+    <title lang="da">Bundesliga Fodbold: Bayern München-RB Leipzig</title>
+    <desc lang="da">Sæson: 26. Episode: 28. 'Bayern München-RB Leipzig'. I Bundesligaens 6. spillerunde er der topopgør, når Bayern Münchens regerende mestre, som har vist lidt svaghedstegn, tager imod RB Leipzig, der ikke har været helt overbevisende, men de kommer med en frisk 6-0-sejr. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
     <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Bundesliga.JPG" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Bundesliga.JPG" /></programme>
   <programme start="20261018080000 +0000" stop="20261018090000 +0000" channel="tv3max.dk">
@@ -25168,8 +25154,8 @@
     <category lang="da">Sport</category>
     <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /></programme>
   <programme start="20261018110000 +0000" stop="20261018125500 +0000" channel="tv3max.dk">
-    <title lang="da">Premier League: Brentford - Liverpool</title>
-    <desc lang="da">Sæson: 2026. Episode: 88. 'Brentford - Liverpool'. Der er lagt op til en spændende Premier League-duel på Brentford Community Stadium, når Brentford tager imod Liverpool i 7. runde. Hjemmeholdet får besøg af de røde fra Merseyside i et opgør med højt tempo og masser af intensitet. Tilladt for: A.</desc>
+    <title lang="da">Premier League: Brentford-Liverpool</title>
+    <desc lang="da">Sæson: 2026. Episode: 88. 'Brentford-Liverpool'. I 7. spillerunde i Premier League tager Mikkel Damsgaard, Mathias Jensen og Brentford imod Liverpool. Begge klubber har været gode til at spille uafgjort i deres første seks kampe, men på trods af det er de i top-10, så der er lagt op til en tæt dyst om vigtige point mellem de hjemmestærke værter og gæsterne, som ikke helt har de foregående sæsoners niveau. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
     <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/PL.jpg" /></programme>
   <programme start="20261018125500 +0000" stop="20261018152500 +0000" channel="tv3max.dk">
@@ -25418,7 +25404,7 @@
   </programme>
   <programme start="20261015211000 +0000" stop="20261015221500 +0000" channel="discoverychannel.dk">
     <title lang="da">Alaska: The Last Frontier</title>
-    <desc lang="da">Sæson: 5. Episode: 16. 'Alaska: The Last Frontier - Specials'. I programmet følger vi familien Kilcher, der lever et ekstraordinært liv midt i Alaskas barske natur. De har ingen moderne bekvemmeligheder som varme eller VVS, og de overlever ved enten at dyrke deres egen mad eller gå på jagt i vildnisset. Kilcher har levet på deres jord i fire generationer, og alle familiemedlemmer ved præcis, hvordan de skal forberede sig på de lange, hårde vintre, som altid hærger her på på kanten af verden. Medvirkende: Bray Poor. Tilladt for: 11.</desc>
+    <desc lang="da">Sæson: 5. Episode: 16. 'Alaska: The Last Frontier - Specials'. Atz Lees tilbagekomst til jagthytten afbrydes pludseligt, og han beder en erfaren gårdmand om hjælp. Og familien Kilcher slår sig sammen om at beskyttes Shanes hytte. Medvirkende: Bray Poor. Tilladt for: 11.</desc>
     <credits>
       <actor>Bray Poor</actor>
     </credits>
@@ -30108,10 +30094,10 @@
     <category lang="da">Nyheder</category>
     </programme>
   <programme start="20261015040000 +0000" stop="20261015053000 +0000" channel="CNN.dk">
-    <title lang="da">The Story Is with Elex Michaelson</title>
-    <desc lang="da">Sæson: 2026. Episode: 409. 'The Story Is with Elex Michaelson'. Tilladt for: A.</desc>
+    <title lang="da">CNN Newsroom</title>
+    <desc lang="da">Sæson: 2026. Episode: 1. 'CNN Newsroom'. Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/zBa6Md2WlPiwgWegULOZClaPHl4.jpg" /></programme>
   <programme start="20261015053000 +0000" stop="20261015063000 +0000" channel="CNN.dk">
     <title lang="da">The Story Is with Elex Michaelson</title>
     <desc lang="da">Sæson: 2026. Episode: 409. 'The Story Is with Elex Michaelson'. Tilladt for: A.</desc>
@@ -31530,22 +31516,22 @@
     <desc lang="da">Sæson: 6. Episode: 4. 'Værkstedet (UK)'. En særlig lænestol har set bedre dage, så nu er det op til teamet at redde den. Og en kasse af messing og et lille armbånd er ikke, som de har været. Tilladt for: A.</desc>
     <category lang="da">Show</category>
     <icon src="https://image.tmdb.org/t/p/w1280/uQKjMZADLiwrLtr0ffWCgnsQbqY.jpg" /></programme>
-  <programme start="20261015224500 +0000" stop="20261015234000 +0000" channel="tv2fri.dk">
+  <programme start="20261015224500 +0000" stop="20261015232500 +0000" channel="tv2fri.dk">
     <title lang="da">Skat eller skrammel</title>
     <desc lang="da">Sæson: 6. Episode: 9. 'Chapter 9:10'. Søskendeparret Samuel og Magdalena stiller altid op og støtter hinanden, og derfor håber de også på at vinde en masse penge i dagens antikvitetsquiz, så Samuel kan få råd til det helt store bryllup. Tilladt for: A.</desc>
     <category lang="da">Show</category>
     <icon src="https://image.tmdb.org/t/p/w1280/oI5q0xYsAb3AExHuewHgE7J8Bme.jpg" /></programme>
-  <programme start="20261015234000 +0000" stop="20261016003000 +0000" channel="tv2fri.dk">
+  <programme start="20261015232500 +0000" stop="20261016001500 +0000" channel="tv2fri.dk">
     <title lang="da">Skat eller skrammel</title>
     <desc lang="da">Sæson: 6. Episode: 10. 'Chapter 10:10'. Hvad kan en gammel mønt fra 1700-tallet være værd? Og hvad skal en olympisk fakkel mon koste? Det skal den tidligere guldsmed Karam og hans datter, Zakka, forsøge at finde ud af, når de dyster om hovedpræmien på 500.000 kroner. Renée Nyberg er vært og Karin Laserow ekspert. Tilladt for: A.</desc>
     <category lang="da">Show</category>
     <icon src="https://image.tmdb.org/t/p/w1280/oI5q0xYsAb3AExHuewHgE7J8Bme.jpg" /></programme>
-  <programme start="20261016003000 +0000" stop="20261016012000 +0000" channel="tv2fri.dk">
+  <programme start="20261016001500 +0000" stop="20261016010000 +0000" channel="tv2fri.dk">
     <title lang="da">Bordets bedste bud</title>
     <desc lang="da">Sæson: 4. Episode: 1. 'Bordets bedste bud'. Vært Nigel Havers styrer slagets gang, når fem opkøbere kæmper om en legetøjsbil, en overraskende nøgle og victorianske børnesko. Tilladt for: A.</desc>
     <category lang="da">Kunst</category>
     <icon src="https://image.tmdb.org/t/p/w1280/cNKcuz4NHP7i2KX6n5yYbxUHGEK.jpg" /></programme>
-  <programme start="20261016012000 +0000" stop="20261016021000 +0000" channel="tv2fri.dk">
+  <programme start="20261016010000 +0000" stop="20261016015000 +0000" channel="tv2fri.dk">
     <title lang="da">Franske drømmeslotte - jul på slottet</title>
     <desc lang="da">Sæson: 4. Episode: 31. 'Christmas 1'. Ben og Billie går i gang med en ambitiøs staldrenovering for at skabe et sted til julefest, og Anna og Edward fælder massevis af træer. Medvirkende: Adjoa Andoh. Tilladt for: A.</desc>
     <credits>
@@ -31553,7 +31539,7 @@
     </credits>
     <category lang="da">Fritid</category>
     <icon src="https://image.tmdb.org/t/p/w1280/9aK9vZp7Hr7l0k2mM4DNw4rBh08.jpg" /></programme>
-  <programme start="20261016021000 +0000" stop="20261016030500 +0000" channel="tv2fri.dk">
+  <programme start="20261016015000 +0000" stop="20261016023500 +0000" channel="tv2fri.dk">
     <title lang="da">Franske drømmeslotte - jul på slottet</title>
     <desc lang="da">Sæson: 4. Episode: 32. 'Christmas 2'. Janet og Philip kaster sig ud i at bygge en flyvende slæde, og Alison og Zion går i gang med den massive restaurering af deres forladte jagthytte. Medvirkende: Adjoa Andoh. Tilladt for: A.</desc>
     <credits>
@@ -31561,12 +31547,12 @@
     </credits>
     <category lang="da">Fritid</category>
     <icon src="https://image.tmdb.org/t/p/w1280/9aK9vZp7Hr7l0k2mM4DNw4rBh08.jpg" /></programme>
-  <programme start="20261016030500 +0000" stop="20261016035000 +0000" channel="tv2fri.dk">
+  <programme start="20261016023500 +0000" stop="20261016032500 +0000" channel="tv2fri.dk">
     <title lang="da">Fantasifulde rum UK</title>
     <desc lang="da">Sæson: 11. Episode: 3. 'Fantasifulde rum (UK)'. To familier slipper fantasien løs, når de forvandler en vintage bus og bygger en træhytte. George besøger en farm, og hans rejse tager ham til Jerusalem. Tilladt for: A.</desc>
     <category lang="da">Fritid</category>
     </programme>
-  <programme start="20261016035000 +0000" stop="20261016043500 +0000" channel="tv2fri.dk">
+  <programme start="20261016032500 +0000" stop="20261016043500 +0000" channel="tv2fri.dk">
     <title lang="da">Godnat</title>
     <desc lang="da">'Godnat'. Godnat. Tilladt for: A.</desc>
     <category lang="da">Ukendt</category>
@@ -31669,7 +31655,7 @@
     <icon src="https://image.tmdb.org/t/p/w1280/sbLA5YkF0tYEaYQZ9wAmV48K8yP.jpg" /></programme>
   <programme start="20261016191000 +0000" stop="20261016202500 +0000" channel="tv2fri.dk">
     <title lang="da">Den store britiske bagedyst</title>
-    <desc lang="da">Sæson: 16. Episode: 3. 'The Great British Bake Off'. Brødeksperten Paul er klar til at teste deltagernes kompetencer i gær og hævning, når de skal dyste i brødbagning. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 16. Episode: 3. 'Den store britiske bagedyst'. Brødeksperten Paul er klar til at teste deltagernes kompetencer i gær og hævning, når de skal dyste i brødbagning. Tilladt for: A.</desc>
     <category lang="da">Show</category>
     <icon src="https://image.tmdb.org/t/p/w1280/cZdEN0mRmusEfsPgHp0O2YDlCpz.jpg" /></programme>
   <programme start="20261016202500 +0000" stop="20261016210000 +0000" channel="tv2fri.dk">
@@ -32126,38 +32112,38 @@
     <category lang="da">Sport</category>
     <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /></programme>
   <programme start="20261015170000 +0000" stop="20261015180000 +0000" channel="tv2sport.dk">
-    <title lang="da">Badminton: Christophersen-Young, Denmark Open</title>
-    <desc lang="da">Sæson: 2026. Episode: 127. 'Badminton: Christophersen-Young, Denmark Open'. Danmarks største badmintonbegivenhed indtager SJF Bank Arena i Odense, når verdensstjerner og danske profiler tørner sammen ved Denmark Open. Arenaen vil syde af intensitet, jubel og nervepirrende dueller, når blandt andre Anders Antonsen, Rasmus Gemke, Line Christophersen og Mia Blichfeldt går på banen i jagten på den store triumf. Tilladt for: A.</desc>
+    <title lang="da">Badminton: Christophersen-An, Denmark Open</title>
+    <desc lang="da">Sæson: 2026. Episode: 127. 'Badminton: Christophersen-An, Denmark Open'. Danmarks største badmintonbegivenhed indtager SJF Bank Arena i Odense, når verdensstjerner og danske profiler tørner sammen ved Denmark Open. Arenaen vil syde af intensitet, jubel og nervepirrende dueller, når blandt andre Anders Antonsen, Rasmus Gemke, Line Christophersen og Mia Blichfeldt går på banen i jagten på den store triumf. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
     <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /></programme>
   <programme start="20261015180000 +0000" stop="20261015190500 +0000" channel="tv2sport.dk">
-    <title lang="da">Badminton: Gemke-Angus, Denmark Open</title>
+    <title lang="da">Badminton: Gemke-Ng, Denmark Open</title>
     <desc lang="da">Sæson: 2026. Episode: 128. 'Badminton: Gemke-Angus, Denmark Open'. Danmarks største badmintonbegivenhed indtager SJF Bank Arena i Odense, når verdensstjerner og danske profiler tørner sammen ved Denmark Open. Arenaen vil syde af intensitet, jubel og nervepirrende dueller, når blandt andre Anders Antonsen, Rasmus Gemke, Line Christophersen og Mia Blichfeldt går på banen i jagten på den store triumf. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
     <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /></programme>
   <programme start="20261015190500 +0000" stop="20261015200500 +0000" channel="tv2sport.dk">
-    <title lang="da">Badminton: Denmark Open</title>
-    <desc lang="da">Sæson: 2026. Episode: 117. 'Badminton: Denmark Open'. Danmarks største badmintonbegivenhed indtager SJF Bank Arena i Odense, når verdensstjerner og danske profiler tørner sammen ved Denmark Open. Arenaen vil syde af intensitet, jubel og nervepirrende dueller, når blandt andre Anders Antonsen, Rasmus Gemke, Line Christophersen og Mia Blichfeldt går på banen i jagten på den store triumf. Tilladt for: A.</desc>
+    <title lang="da">Badminton: Christiansen/Bøje-Goh/Lai, Denmark Open</title>
+    <desc lang="da">Sæson: 2026. Episode: 123. 'Badminton: Christiansen/Bøje-Goh/Lai, Denmark Open'. Danmarks største badmintonbegivenhed indtager SJF Bank Arena i Odense, når verdensstjerner og danske profiler tørner sammen ved Denmark Open. Arenaen vil syde af intensitet, jubel og nervepirrende dueller, når blandt andre Anders Antonsen, Rasmus Gemke, Line Christophersen og Mia Blichfeldt går på banen i jagten på den store triumf. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
     <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /></programme>
   <programme start="20261015200500 +0000" stop="20261015210500 +0000" channel="tv2sport.dk">
-    <title lang="da">Badminton: Denmark Open</title>
-    <desc lang="da">Sæson: 2026. Episode: 118. 'Badminton: Denmark Open'. Danmarks største badmintonbegivenhed indtager SJF Bank Arena i Odense, når verdensstjerner og danske profiler tørner sammen ved Denmark Open. Arenaen vil syde af intensitet, jubel og nervepirrende dueller, når blandt andre Anders Antonsen, Rasmus Gemke, Line Christophersen og Mia Blichfeldt går på banen i jagten på den store triumf. Tilladt for: A.</desc>
+    <title lang="da">Badminton: Kjær/Kjær-Alfian/Fikri, Denmark Open</title>
+    <desc lang="da">Sæson: 2026. Episode: 124. 'Badminton: Kjær/Kjær-Alfian/Fikri, Denmark Open'. Danmarks største badmintonbegivenhed indtager SJF Bank Arena i Odense, når verdensstjerner og danske profiler tørner sammen ved Denmark Open. Arenaen vil syde af intensitet, jubel og nervepirrende dueller, når blandt andre Anders Antonsen, Rasmus Gemke, Line Christophersen og Mia Blichfeldt går på banen i jagten på den store triumf. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
     <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /></programme>
   <programme start="20261015210500 +0000" stop="20261015220500 +0000" channel="tv2sport.dk">
-    <title lang="da">Badminton: Denmark Open</title>
-    <desc lang="da">Sæson: 2026. Episode: 119. 'Badminton: Denmark Open'. Danmarks største badmintonbegivenhed indtager SJF Bank Arena i Odense, når verdensstjerner og danske profiler tørner sammen ved Denmark Open. Arenaen vil syde af intensitet, jubel og nervepirrende dueller, når blandt andre Anders Antonsen, Rasmus Gemke, Line Christophersen og Mia Blichfeldt går på banen i jagten på den store triumf. Tilladt for: A.</desc>
+    <title lang="da">Badminton: Antonsen-Gunawan, Denmark Open</title>
+    <desc lang="da">Sæson: 2026. Episode: 126. 'Badminton: Antonsen-Gunawan, Denmark Open'. Danmarks største badmintonbegivenhed indtager SJF Bank Arena i Odense, når verdensstjerner og danske profiler tørner sammen ved Denmark Open. Arenaen vil syde af intensitet, jubel og nervepirrende dueller, når blandt andre Anders Antonsen, Rasmus Gemke, Line Christophersen og Mia Blichfeldt går på banen i jagten på den store triumf. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
     <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /></programme>
   <programme start="20261015220500 +0000" stop="20261015230500 +0000" channel="tv2sport.dk">
-    <title lang="da">Badminton: Denmark Open</title>
-    <desc lang="da">Sæson: 2026. Episode: 120. 'Badminton: Denmark Open'. Danmarks største badmintonbegivenhed indtager SJF Bank Arena i Odense, når verdensstjerner og danske profiler tørner sammen ved Denmark Open. Arenaen vil syde af intensitet, jubel og nervepirrende dueller, når blandt andre Anders Antonsen, Rasmus Gemke, Line Christophersen og Mia Blichfeldt går på banen i jagten på den store triumf. Tilladt for: A.</desc>
+    <title lang="da">Badminton: Christophersen-An, Denmark Open</title>
+    <desc lang="da">Sæson: 2026. Episode: 127. 'Badminton: Christophersen-An, Denmark Open'. Danmarks største badmintonbegivenhed indtager SJF Bank Arena i Odense, når verdensstjerner og danske profiler tørner sammen ved Denmark Open. Arenaen vil syde af intensitet, jubel og nervepirrende dueller, når blandt andre Anders Antonsen, Rasmus Gemke, Line Christophersen og Mia Blichfeldt går på banen i jagten på den store triumf. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
     <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /></programme>
   <programme start="20261015230500 +0000" stop="20261016000500 +0000" channel="tv2sport.dk">
-    <title lang="da">Badminton: Denmark Open</title>
-    <desc lang="da">Sæson: 2026. Episode: 121. 'Badminton: Denmark Open'. Danmarks største badmintonbegivenhed indtager SJF Bank Arena i Odense, når verdensstjerner og danske profiler tørner sammen ved Denmark Open. Arenaen vil syde af intensitet, jubel og nervepirrende dueller, når blandt andre Anders Antonsen, Rasmus Gemke, Line Christophersen og Mia Blichfeldt går på banen i jagten på den store triumf. Tilladt for: A.</desc>
+    <title lang="da">Badminton: Gemke-Ng, Denmark Open</title>
+    <desc lang="da">Sæson: 2026. Episode: 128. 'Badminton: Gemke-Angus, Denmark Open'. Danmarks største badmintonbegivenhed indtager SJF Bank Arena i Odense, når verdensstjerner og danske profiler tørner sammen ved Denmark Open. Arenaen vil syde af intensitet, jubel og nervepirrende dueller, når blandt andre Anders Antonsen, Rasmus Gemke, Line Christophersen og Mia Blichfeldt går på banen i jagten på den store triumf. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
     <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /></programme>
   <programme start="20261016000500 +0000" stop="20261016023900 +0000" channel="tv2sport.dk">
@@ -35248,7 +35234,7 @@
     <icon src="https://image.tmdb.org/t/p/w1280/fAyuKYT0U5RUwtagBhUTx85wCzT.jpg" /></programme>
   <programme start="20261018054500 +0000" stop="20261018060500 +0000" channel="nicktoons.se">
     <title lang="da">SvampeBob Firkant</title>
-    <desc lang="da">Sæson: 13. Episode: 19. 'Kowboy Krabbes Agerngrill / Sir Pindsvin og Snegl Fejl'. Sandys hjemmelavede snack bliver et kæmpehit på Den Knasende Krabbe. // SvampeBob og Patricks yndlingskomikerpar bliver uvenner for åben skærm. Instruktører: Sherm Cohen, Dave Cunningham. Medvirkende: Dee Bradley Baker, Clancy Brown, Rodger Bumpass, Bill Fagerbakke. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 13. Episode: 286. 'Kowboy Krabbes Agerngrill / Sir Pindsvin og Snegl Fejl'. Sandys hjemmelavede snack bliver et kæmpehit på Den Knasende Krabbe. // SvampeBob og Patricks yndlingskomikerpar bliver uvenner for åben skærm. Instruktører: Sherm Cohen, Dave Cunningham. Medvirkende: Dee Bradley Baker, Clancy Brown, Rodger Bumpass, Bill Fagerbakke. Tilladt for: A.</desc>
     <credits>
       <director>Sherm Cohen</director>
       <director>Dave Cunningham</director>
@@ -36112,12 +36098,23 @@
     </credits>
     <category lang="da">Børn</category>
     <icon src="https://image.tmdb.org/t/p/w1280/7m2NrBKnvqMZZ1fytUCmWcAf9xO.jpg" /></programme>
-  <programme start="20261015055500 +0000" stop="20261015064000 +0000" channel="nickjr.dk">
+  <programme start="20261015055500 +0000" stop="20261015062000 +0000" channel="nickjr.dk">
     <title lang="da">Team Hjort</title>
     <desc lang="da">Sæson: 3. Episode: 1. 'titel Superspiseren Nubble / Skræmmende Sten'. Bobbi bliver venner med et sulten rumvæsen, som han kalder Nubble. Men der opstår problemer, da Nubble spiser skrald ombord på Team Hjorts rumstation. // Kaj og Lola konkurrerer om at sætte en bjergbestigningsrekord på Isbjerget. Tilladt for: A.</desc>
     <category lang="da">Børn</category>
     <icon src="https://image.tmdb.org/t/p/w1280/rV6Dfl4zf57namY63053o9ccoEg.jpg" /></programme>
-  <programme start="20261015064000 +0000" stop="20261015070000 +0000" channel="nickjr.dk">
+  <programme start="20261015062000 +0000" stop="20261015064000 +0000" channel="nickjr.dk">
+    <title lang="da">Dora</title>
+    <desc lang="da">Sæson: 2. Episode: 8. 'Plantesitterne / Alebrijen Andrea'. Dora og Boots passer blomsterbørnene Bulder-Bellis, Hopsa Hørblå og Lille Rosetta, så Lene kan komme til kongeligt teselskab. / Dora og Boots hjælper lille Andrea med at finde et magisk blad, så hun kan få sine magiske kræfter og passe på regnskoven. Medvirkende: Marc Weiner, Sasha Toro, Navia Ziraili Robinson, Quvenzhané Wallis. Tilladt for: A.</desc>
+    <credits>
+      <actor>Marc Weiner</actor>
+      <actor>Sasha Toro</actor>
+      <actor>Navia Ziraili Robinson</actor>
+      <actor>Quvenzhané Wallis</actor>
+    </credits>
+    <category lang="da">Børn</category>
+    <icon src="https://image.tmdb.org/t/p/w1280/m8rTwmdwchHXKFLaz2UnGKXotbf.jpg" /></programme>
+  <programme start="20261015064000 +0000" stop="20261015070500 +0000" channel="nickjr.dk">
     <title lang="da">Hav-kaptajnen Santiago</title>
     <desc lang="da">Sæson: 1. Episode: 9. 'El Bravos skat'. Da Enrique stjæler El Bravos hjerte, findes der kun en person, der kan hjælpe Santi og redde situationen: Tomás' lillesøster Prima Tina! Instruktør: Christofer Graham. Medvirkende: Kevin Chacon, Alyssa Cheatham, Justice Quiroz, John Leguizamo. Tilladt for: A.</desc>
     <credits>
@@ -36135,7 +36132,7 @@
     </credits>
     <category lang="da">Børn</category>
     <icon src="https://image.tmdb.org/t/p/w1280/j3Qq5lkGhQ78cSJZY1riLZcwgB3.jpg" /></programme>
-  <programme start="20261015070000 +0000" stop="20261015073500 +0000" channel="nickjr.dk">
+  <programme start="20261015070500 +0000" stop="20261015073500 +0000" channel="nickjr.dk">
     <title lang="da">Tim Rex i rummet Sæson 2</title>
     <desc lang="da">Sæson: 2. Episode: 7. 'Bliv her, bedstemor; Fastlåst; Raketbanen'. Tim, Tommy &amp; Tia vil forhindre Bedste i at rejse, så de kan få mere tid sammen. // Da Terri og Tommy bliver låst inde i Havekuplen, må de se stort på deres forskelligheder. // Tim hjælper Tia med at finde modet til at prøve den nye raketbane. Tilladt for: A.</desc>
     <category lang="da">Børn</category>
@@ -36157,12 +36154,12 @@
     </credits>
     <category lang="da">Børn</category>
     <icon src="https://image.tmdb.org/t/p/w1280/ofNbWXNtRrPB1oe7w7ugSCKJyua.jpg" /></programme>
-  <programme start="20261015075500 +0000" stop="20261015081500 +0000" channel="nickjr.dk">
+  <programme start="20261015075500 +0000" stop="20261015082000 +0000" channel="nickjr.dk">
     <title lang="da">Barbapapa og familien</title>
     <desc lang="da">Sæson: 2. Episode: 2. 'Prinsesse for en dag / Barbarøds odyssé'. Barbalilla oplyser stolt sin familie om, at hun gerne vil være en prinsesse. // Barbarød keder sig helt vildt, for hans brødre og søstre har ikke tid, og der er ingen, der gider at lege med ham. Tilladt for: A.</desc>
     <category lang="da">Børn</category>
     <icon src="https://image.tmdb.org/t/p/w1280/btX0545v3Zvkmb5G1UCbLAmZrF6.jpg" /></programme>
-  <programme start="20261015081500 +0000" stop="20261015084000 +0000" channel="nickjr.dk">
+  <programme start="20261015082000 +0000" stop="20261015084000 +0000" channel="nickjr.dk">
     <title lang="da">Barbapapa og familien</title>
     <desc lang="da">Sæson: 2. Episode: 19. 'Rebellerne / Barbavidenskab'. Barbarød og Barbagrøn bliver små rebeller. // Hvem er Barbapapa? Tilladt for: A.</desc>
     <category lang="da">Børn</category>
@@ -36221,12 +36218,12 @@
     <desc lang="da">Sæson: 2. Episode: 22. 'Jeg er ikke længere et Barbabarn / Roboksmand'. Nej! Det er slut. Barbarød er ikke længere et barn, Han er en stor dreng nu. // Barbabørnene tager til markedet for første gang. Tilladt for: A.</desc>
     <category lang="da">Børn</category>
     <icon src="https://image.tmdb.org/t/p/w1280/btX0545v3Zvkmb5G1UCbLAmZrF6.jpg" /></programme>
-  <programme start="20261015120500 +0000" stop="20261015122500 +0000" channel="nickjr.dk">
+  <programme start="20261015120500 +0000" stop="20261015123000 +0000" channel="nickjr.dk">
     <title lang="da">Barbapapa og familien</title>
     <desc lang="da">Sæson: 3. Episode: 12. 'Barbapapas familie / Barbapapas hjem'. Barbapapa søger tilflugt i huset, som Frederiks forældre har bygget til ham. // Barbapapas hus er alt for lille, nu hvor Barbamama og Barbabørnene er blevet en del af hans liv. Tilladt for: A.</desc>
     <category lang="da">Børn</category>
     <icon src="https://image.tmdb.org/t/p/w1280/btX0545v3Zvkmb5G1UCbLAmZrF6.jpg" /></programme>
-  <programme start="20261015122500 +0000" stop="20261015125000 +0000" channel="nickjr.dk">
+  <programme start="20261015123000 +0000" stop="20261015125500 +0000" channel="nickjr.dk">
     <title lang="da">Hav-kaptajnen Santiago</title>
     <desc lang="da">Sæson: 1. Episode: 11. 'Skrumpede skibe / Sørøverparaden'. Da Escarlata gør alle på holdet bittesmå, må de finde en lillebitte måde at klare ærterne på. // Den årlige sørøverparade er lige om hjørnet. Det vil sige, medmindre Escarlata har nogen indflydelse derpå. Medvirkende: Sil van der Zwan, Dave Droxler, Dean Scott Vazquez, Justice Quiroz. Tilladt for: A.</desc>
     <credits>
@@ -36243,7 +36240,7 @@
     </credits>
     <category lang="da">Børn</category>
     <icon src="https://image.tmdb.org/t/p/w1280/j3Qq5lkGhQ78cSJZY1riLZcwgB3.jpg" /></programme>
-  <programme start="20261015125000 +0000" stop="20261015131500 +0000" channel="nickjr.dk">
+  <programme start="20261015125500 +0000" stop="20261015131500 +0000" channel="nickjr.dk">
     <title lang="da">Hav-kaptajnen Santiago</title>
     <desc lang="da">Sæson: 1. Episode: 15. 'Den fortryllede melodi / Kyllinge-Abuelo'. Escarlata bruger en fortryllet guitar til at styre undervandsskabninger; Abuelo bliver til en kylling. Medvirkende: Sil van der Zwan, Dave Droxler, Dean Scott Vazquez, Justice Quiroz. Tilladt for: A.</desc>
     <credits>
@@ -36336,7 +36333,19 @@
     <icon src="https://image.tmdb.org/t/p/w1280/oZjO5v0Pgghg61QoraP2cLk2KN4.jpg" /></programme>
   <programme start="20261015142000 +0000" stop="20261015142500 +0000" channel="nickjr.dk">
     <title lang="da">Gurli Gris</title>
-    <desc lang="da">Sæson: 5. Episode: 50. 'Freja tager afsted'. Følg med i hverdagens små og store eventyr hos den elskelige og lattermilde familien Gris og alle deres venner. Britiske tegnefilm med dansk tale. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 7. Episode: 40. 'Freja tager afsted'. Mor Får får et nyt job langt væk, så nu ved Freja og Gurli ikke hvordan de kan blive ved med at være bedste venner. Medvirkende: John Sparkes, Morwenna Banks, Richard Ridings, Oliver May. Tilladt for: A.</desc>
+    <credits>
+      <actor>John Sparkes</actor>
+      <actor>Morwenna Banks</actor>
+      <actor>Richard Ridings</actor>
+      <actor>Oliver May</actor>
+      <actor>Alice May</actor>
+      <actor>Meg Hall</actor>
+      <actor>Lily Snowden-Fine</actor>
+      <actor>David Graham</actor>
+      <actor>Harley Bird</actor>
+      <actor>Sarah Ann Kennedy</actor>
+    </credits>
     <category lang="da">Børn</category>
     <icon src="https://image.tmdb.org/t/p/w1280/oZjO5v0Pgghg61QoraP2cLk2KN4.jpg" /></programme>
   <programme start="20261015142500 +0000" stop="20261015143000 +0000" channel="nickjr.dk">
@@ -36344,7 +36353,7 @@
     <desc lang="da">Sæson: 5. Episode: 52. 'Frimærker'. Bedstefar Gris viser Gurli og Gustav sin store frimærkesamling, og de får lyst til at sende deres eget postkort! Tilladt for: A.</desc>
     <category lang="da">Børn</category>
     <icon src="https://image.tmdb.org/t/p/w1280/oZjO5v0Pgghg61QoraP2cLk2KN4.jpg" /></programme>
-  <programme start="20261015143000 +0000" stop="20261015150000 +0000" channel="nickjr.dk">
+  <programme start="20261015143000 +0000" stop="20261015150500 +0000" channel="nickjr.dk">
     <title lang="da">Dora</title>
     <desc lang="da">Sæson: 4. Episode: 7. 'Den hemmelige pyramide / Grandmother-eventyrdag'. Dora, Boots og Mommy leder efter magiske juveler og en hemmelig pyramide med deres nye ven, Patli. // Dora og vennerne redder deres grandmothers og fejrer grandmother-eventyrdag. Medvirkende: Marc Weiner, Sasha Toro, Navia Ziraili Robinson, Quvenzhané Wallis. Tilladt for: A.</desc>
     <credits>
@@ -36355,7 +36364,7 @@
     </credits>
     <category lang="da">Børn</category>
     <icon src="https://image.tmdb.org/t/p/w1280/m8rTwmdwchHXKFLaz2UnGKXotbf.jpg" /></programme>
-  <programme start="20261015150000 +0000" stop="20261015152500 +0000" channel="nickjr.dk">
+  <programme start="20261015150500 +0000" stop="20261015152500 +0000" channel="nickjr.dk">
     <title lang="da">Hr. Krokodille</title>
     <desc lang="da">Sæson: 2. Episode: 5. 'Bare Gigi / Dille-gemme'. Daisy og Hr. Krokodille tror, at Gigi er ensom, og forsøger at være sammen med hende hele tiden. // Hr Krokodille gemmer Teddys bamse under en gemmeleg, men så kan han ikke finde den igen. Tilladt for: A.</desc>
     <category lang="da">Børn</category>
@@ -36370,7 +36379,7 @@
     <desc lang="da">Sæson: 1. Episode: 8. 'Præmien / Overdådige overskæg'. Barbababyerne vinder en touchpad. De vil alle have fingrene i den og bruge den en efter en. // Barbagul samler på billeder af berømtheder med overskæg. Uheldigvis er det umuligt af finde den sidste: Charles Charmeskæg. Han mistænker et komplot. Tilladt for: A.</desc>
     <category lang="da">Børn</category>
     <icon src="https://image.tmdb.org/t/p/w1280/btX0545v3Zvkmb5G1UCbLAmZrF6.jpg" /></programme>
-  <programme start="20261015160000 +0000" stop="20261015165000 +0000" channel="nickjr.dk">
+  <programme start="20261015160000 +0000" stop="20261015165500 +0000" channel="nickjr.dk">
     <title lang="da">Rubble og co.</title>
     <desc lang="da">Sæson: 1. Episode: 12. 'Rubble og co. og Marshall bygger en brandstation'. Rubble og co. bygger Byggernes Bugts allerførste brandstation, der afsluttes med en inspektion af Paw Patrols Marshall! Men da Fartmeisters snedige sabotage fanger Marshalls brandbil, må vovserne arbejde sammen om at slukke en byggebrand. Medvirkende: Alessandro Pugiotto. Tilladt for: A.</desc>
     <credits>
@@ -36378,7 +36387,7 @@
     </credits>
     <category lang="da">Børn</category>
     <icon src="https://image.tmdb.org/t/p/w1280/7m2NrBKnvqMZZ1fytUCmWcAf9xO.jpg" /></programme>
-  <programme start="20261015165000 +0000" stop="20261015170500 +0000" channel="nickjr.dk">
+  <programme start="20261015165500 +0000" stop="20261015170500 +0000" channel="nickjr.dk">
     <title lang="da">Paw Patrol</title>
     <desc lang="da">Sæson: 3. Episode: 10. 'Vovserne redder en Stinkende Blomst / Vovserne redder en Abe-stronaut'. Borgmester Humdinger har efterladt en 'gave' tilborgmester Godglad: En blomst, der stinker forfærdeligt! Godglad havner i problemer og må reddes af Paw Patrol. // En UFO er plasket ned i bugten og Paw Patrol finder en astronautabe ombord. Medvirkende: Solomon Brown, Max Calinescu, Devan Cohen, Drew Davis. Tilladt for: A.</desc>
     <credits>
@@ -36564,7 +36573,7 @@
     <desc lang="da">Sæson: 2. Episode: 15. 'Rubble og co. bygger et indendørs skydiving-center / Rubble og co. bygger en rulleskøjtebane'. Borgmester Evigglad og Rasmus Rapand vil vise deres udspringsevner. Men da vinden kommer i vejen, hjælper vovserne dem med skydive på jorden! // Da Wheeler og Trøffel ikke kan skøjte, finder holdet en opbyggelig løsning med hjul! Tilladt for: A.</desc>
     <category lang="da">Børn</category>
     <icon src="https://image.tmdb.org/t/p/w1280/7m2NrBKnvqMZZ1fytUCmWcAf9xO.jpg" /></programme>
-  <programme start="20261015232500 +0000" stop="20261015235000 +0000" channel="nickjr.dk">
+  <programme start="20261015232500 +0000" stop="20261015234500 +0000" channel="nickjr.dk">
     <title lang="da">Paw Patrol</title>
     <desc lang="da">Sæson: 9. Episode: 15. 'Hvalpe redder en T-Rex-unge/Hvalpe redder en legesyg elefantkalv'. En T-Rex-unge farer vild, så Ryder og vovserne må tage på en risikabel mission i Dinoskoven for at hjælpe med at finde ham. / Everest tager med Paw Patrol ud i junglen og bliver venner med en klodset elefantunge, som hun må hjælpe med at redde. Medvirkende: Justin Paul Kelly, Lucas Miranda, Jackson Reid, Berkley Silverman. Tilladt for: A.</desc>
     <credits>
@@ -36575,7 +36584,7 @@
     </credits>
     <category lang="da">Børn</category>
     <icon src="https://image.tmdb.org/t/p/w1280/7OrV2aAH5Yp7hA9zCCvUloLvZtl.jpg" /></programme>
-  <programme start="20261015235000 +0000" stop="20261016001000 +0000" channel="nickjr.dk">
+  <programme start="20261015234500 +0000" stop="20261016001000 +0000" channel="nickjr.dk">
     <title lang="da">Team Hjort</title>
     <desc lang="da">Sæson: 3. Episode: 3. 'Koloenorm Hamsterbold / Rengøringsdille'. Steel bruger ved et uheld vækststrålen på Svend og Sofias kæledyrshamster og forvandler hende til en kæmpe trampende hamster! // Don Stål og Fru Pufærme bliver involveret i en oprydningsrobot, når Kai gør Robotler til den mest ryddelige robot i byen. Medvirkende: Juliet Rusche, Connor Andrade, Dorah Fine, Holden Thomas. Tilladt for: A.</desc>
     <credits>
@@ -36686,12 +36695,12 @@
     <desc lang="da">Sæson: 1. Episode: 8. 'Præmien / Overdådige overskæg'. Barbababyerne vinder en touchpad. De vil alle have fingrene i den og bruge den en efter en. // Barbagul samler på billeder af berømtheder med overskæg. Uheldigvis er det umuligt af finde den sidste: Charles Charmeskæg. Han mistænker et komplot. Tilladt for: A.</desc>
     <category lang="da">Børn</category>
     <icon src="https://image.tmdb.org/t/p/w1280/btX0545v3Zvkmb5G1UCbLAmZrF6.jpg" /></programme>
-  <programme start="20261016031500 +0000" stop="20261016033500 +0000" channel="nickjr.dk">
+  <programme start="20261016031500 +0000" stop="20261016034000 +0000" channel="nickjr.dk">
     <title lang="da">BARBAPAPA og familien</title>
     <desc lang="da">Sæson: 1. Episode: 9. 'Lad retfærdigheden ske fyldest / Forårsrengøring'. Barbapjuske glemte at aflevere en bog på biblioteket. Da bibliotekaren hr. Strengesen besøger Barbapapa i dag, vælger Barbapjuske at stikke af. // Barbamama vil have barbababyerne til at rydde op. De gemmer sig for at slippe for det slid og slæb. Tilladt for: A.</desc>
     <category lang="da">Børn</category>
     <icon src="https://image.tmdb.org/t/p/w1280/btX0545v3Zvkmb5G1UCbLAmZrF6.jpg" /></programme>
-  <programme start="20261016033500 +0000" stop="20261016040000 +0000" channel="nickjr.dk">
+  <programme start="20261016034000 +0000" stop="20261016040000 +0000" channel="nickjr.dk">
     <title lang="da">Tim Rex i rummet</title>
     <desc lang="da">Sæson: 1. Episode: 3. 'Raket-ræs / Trylleri / Forældre'. Tommy er med i et raket-ræs, Tim hjælper sin bror. // Tim underholder Tia, mens Fante er i vaskemaskinen. // Børn bliver forældre og forældre bliver børn. Tilladt for: A.</desc>
     <category lang="da">Børn</category>
@@ -37784,7 +37793,7 @@
     <icon src="https://image.tmdb.org/t/p/w1280/oZjO5v0Pgghg61QoraP2cLk2KN4.jpg" /></programme>
   <programme start="20261017173000 +0000" stop="20261017173500 +0000" channel="nickjr.dk">
     <title lang="da">Gurli Gris</title>
-    <desc lang="da">Sæson: 3. Episode: 16. 'Herlufs piratfest'. Det er Herluf Hunds fødselsdag, og med lidt hjælp fra Bedstefar Hund og Bedstefar Gris, kan børnene være med i en skattejagt. Instruktører: Neville Astley, Mark Baker. Medvirkende: Harley Bird, John Sparkes, Morwenna Banks, Oliver May. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 3. Episode: 16. 'Dannys søvrøverfest'. Det er Herluf Hunds fødselsdag, og med lidt hjælp fra Bedstefar Hund og Bedstefar Gris, kan børnene være med i en skattejagt. Instruktører: Neville Astley, Mark Baker. Medvirkende: Harley Bird, John Sparkes, Morwenna Banks, Oliver May. Tilladt for: A.</desc>
     <credits>
       <director>Neville Astley</director>
       <director>Mark Baker</director>
@@ -39705,7 +39714,7 @@
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/jQD4XN0FFDElt9e8tFswiL7mibU.jpg" /></programme>
   <programme start="20261016095000 +0000" stop="20261016115500 +0000" channel="canal9.dk">
-    <title lang="da">Homestead Rescue: Home Sweet Homestead</title>
+    <title lang="da">Homestead Rescue</title>
     <desc lang="da">Sæson: 4. Episode: 1. 'A Golden Opportunity'. Raney-familien omdanner en gammel lade til et fiskekøkken. Men da Marty tvinges til at gå karantæne, gør Matt og Misty en gylden opdagelse. Tilladt for: A.</desc>
     <category lang="da">Show</category>
     <icon src="https://image.tmdb.org/t/p/w1280/giqzpEYAiTbKIIqFfOBUlszfVRw.jpg" /></programme>
@@ -39863,16 +39872,13 @@
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/7pWfwtREzL47QvYbZxerGKwIUE9.jpg" /></programme>
   <programme start="20261017031500 +0000" stop="20261017041000 +0000" channel="canal9.dk">
-    <title lang="da">How Do They Do it?</title>
-    <desc lang="da">Sæson: 15. Episode: 16. 'How Do They Do it?'. Mange ting i den moderne verden er resultatet af sofistikerede beregninger og produktionsprocesser. Hvordan gør de det? Medvirkende: Jeff Wilburn. Tilladt for: 11.</desc>
+    <title lang="da">How Do They Do It?</title>
+    <desc lang="da">Sæson: 15. Episode: 16. 'How Do They Do it?'. Mange ting i den moderne verden er resultatet af sofistikerede beregninger og produktionsprocesser. Hvordan gør de det? Medvirkende: Jeff Wilburn. Tilladt for: A.</desc>
     <credits>
       <actor>Jeff Wilburn</actor>
     </credits>
     <category lang="da">Fakta</category>
-    <rating system="DK">
-      <value>11</value>
-    </rating>
-  <icon src="https://image.tmdb.org/t/p/w1280/gFBHzqK4zRT0lFZkvPtLYSGJOWU.jpg" /></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/gFBHzqK4zRT0lFZkvPtLYSGJOWU.jpg" /></programme>
   <programme start="20261017041000 +0000" stop="20261017050000 +0000" channel="canal9.dk">
     <title lang="da">Bering Sea Gold</title>
     <desc lang="da">Sæson: 4. Episode: 3. 'Bering Sea Gold'. I Nome, Alaska raser guldfeberen! Mød graverne, som er drevet af feberen, og til tider nød, når de dykker i det iskolde og uforudsigeligt Beringstræde i håb om at ramme den gyldne åre. Medvirkende: Mike Rowe. Tilladt for: 7.</desc>
@@ -39923,7 +39929,7 @@
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/jQD4XN0FFDElt9e8tFswiL7mibU.jpg" /></programme>
   <programme start="20261017083000 +0000" stop="20261017103500 +0000" channel="canal9.dk">
-    <title lang="da">Homestead Rescue: Home Sweet Homestead</title>
+    <title lang="da">Homestead Rescue</title>
     <desc lang="da">Sæson: 4. Episode: 1. 'A Golden Opportunity'. Raney-familien omdanner en gammel lade til et fiskekøkken. Men da Marty tvinges til at gå karantæne, gør Matt og Misty en gylden opdagelse. Tilladt for: A.</desc>
     <category lang="da">Show</category>
     <icon src="https://image.tmdb.org/t/p/w1280/giqzpEYAiTbKIIqFfOBUlszfVRw.jpg" /></programme>
@@ -40074,8 +40080,8 @@
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/7pWfwtREzL47QvYbZxerGKwIUE9.jpg" /></programme>
   <programme start="20261018031000 +0000" stop="20261018041500 +0000" channel="canal9.dk">
-    <title lang="da">How Do They Do it?</title>
-    <desc lang="da">Sæson: 15. Episode: 17. 'How Do They Do it?'. Mange ting i den moderne verden er resultatet af sofistikerede beregninger og produktionsprocesser. Hvordan gør de det? Medvirkende: Jeff Wilburn. Tilladt for: 11.</desc>
+    <title lang="da">How Do They Do It?</title>
+    <desc lang="da">Sæson: 15. Episode: 17. 'How Do They Do it?'. Mange ting i den moderne verden er resultatet af sofistikerede beregninger og produktionsprocesser, som vi oftest tager for givet. Men hvordan gør de det, hvordan produceres de og hvad er tanken bag dem? Dette program giver et helt særligt indblik i alverdens produkter og mekanismer. Medvirkende: Jeff Wilburn. Tilladt for: 11.</desc>
     <credits>
       <actor>Jeff Wilburn</actor>
     </credits>
@@ -40383,7 +40389,7 @@
     <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Sport%20News.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Sport%20News.jpg" /></programme>
   <programme start="20261015080000 +0000" stop="20261015090000 +0000" channel="viaplaysportnews.dk">
     <title lang="da">Let’s Be Frank</title>
-    <desc lang="da">Sæson: 2026. Episode: 8. 'Let's be Frank'. Hvis du elsker Premier League lige så meget som Simo og Helmy, så er “Let’s be Frank” programmet for dig. Hver uge bliver de største - og sjoveste - historier fra verdens bedste liga vendt med højt humør og et glimt i øjet. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 2026. Episode: 8. 'Let's be Frank: Er Wirtz et flop?'. 15.10.26 – Lisandro Martinez kaster med bomber i Man Utd, Simo smider Wildcardet – og hvor rangerer Florian Wirtz egentlig blandt de største Premier League-flops? Tilladt for: A.</desc>
     <category lang="da">Sport</category>
     <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Let%27s%20be%20Frank2.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Let%27s%20be%20Frank2.jpg" /></programme>
   <programme start="20261015090000 +0000" stop="20261015110000 +0000" channel="viaplaysportnews.dk">
@@ -40403,7 +40409,7 @@
     <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Sport%20News.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Sport%20News.jpg" /></programme>
   <programme start="20261015160000 +0000" stop="20261015170000 +0000" channel="viaplaysportnews.dk">
     <title lang="da">Let’s Be Frank</title>
-    <desc lang="da">Sæson: 2026. Episode: 8. 'Let's be Frank'. Hvis du elsker Premier League lige så meget som Simo og Helmy, så er “Let’s be Frank” programmet for dig. Hver uge bliver de største - og sjoveste - historier fra verdens bedste liga vendt med højt humør og et glimt i øjet. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 2026. Episode: 8. 'Let's be Frank: Er Wirtz et flop?'. 15.10.26 – Lisandro Martinez kaster med bomber i Man Utd, Simo smider Wildcardet – og hvor rangerer Florian Wirtz egentlig blandt de største Premier League-flops? Tilladt for: A.</desc>
     <category lang="da">Sport</category>
     <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Let%27s%20be%20Frank2.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Let%27s%20be%20Frank2.jpg" /></programme>
   <programme start="20261015170000 +0000" stop="20261015190000 +0000" channel="viaplaysportnews.dk">
@@ -40413,7 +40419,7 @@
     <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Sport%20News.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Sport%20News.jpg" /></programme>
   <programme start="20261015190000 +0000" stop="20261015200000 +0000" channel="viaplaysportnews.dk">
     <title lang="da">Let’s Be Frank</title>
-    <desc lang="da">Sæson: 2026. Episode: 8. 'Let's be Frank'. Hvis du elsker Premier League lige så meget som Simo og Helmy, så er “Let’s be Frank” programmet for dig. Hver uge bliver de største - og sjoveste - historier fra verdens bedste liga vendt med højt humør og et glimt i øjet. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 2026. Episode: 8. 'Let's be Frank: Er Wirtz et flop?'. 15.10.26 – Lisandro Martinez kaster med bomber i Man Utd, Simo smider Wildcardet – og hvor rangerer Florian Wirtz egentlig blandt de største Premier League-flops? Tilladt for: A.</desc>
     <category lang="da">Sport</category>
     <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Let%27s%20be%20Frank2.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Let%27s%20be%20Frank2.jpg" /></programme>
   <programme start="20261015200000 +0000" stop="20261015203000 +0000" channel="viaplaysportnews.dk">
@@ -40466,7 +40472,7 @@
     <icon src="https://image.tmdb.org/t/p/w1280/rU4GMcTXcOmU6CMdDEkPeGGaV65.jpg" /><backdrop src="https://image.tmdb.org/t/p/w1280/rU4GMcTXcOmU6CMdDEkPeGGaV65.jpg" /></programme>
   <programme start="20261016040000 +0000" stop="20261016050000 +0000" channel="viaplaysportnews.dk">
     <title lang="da">Let’s Be Frank</title>
-    <desc lang="da">Sæson: 2026. Episode: 8. 'Let's be Frank'. Hvis du elsker Premier League lige så meget som Simo og Helmy, så er “Let’s be Frank” programmet for dig. Hver uge bliver de største - og sjoveste - historier fra verdens bedste liga vendt med højt humør og et glimt i øjet. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 2026. Episode: 8. 'Let's be Frank: Er Wirtz et flop?'. 15.10.26 – Lisandro Martinez kaster med bomber i Man Utd, Simo smider Wildcardet – og hvor rangerer Florian Wirtz egentlig blandt de største Premier League-flops? Tilladt for: A.</desc>
     <category lang="da">Sport</category>
     <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Let%27s%20be%20Frank2.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Let%27s%20be%20Frank2.jpg" /></programme>
   <programme start="20261016050000 +0000" stop="20261016073000 +0000" channel="viaplaysportnews.dk">
@@ -40493,7 +40499,7 @@
     <title lang="da">Sky Sports: Total Football</title>
     <desc lang="da">Sæson: 2026. Episode: 9. 'Total Football'. Total Football dækker hele fodboldverdenen – fra Premier League til de største internationale ligaer. Skarpe analyser, store personligheder og ægte passion for spillet. Alt, du elsker ved fodbold, samlet ét sted. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Totalfodbold.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Totalfodbold.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Sky%20Sports%20Total%20Football.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Sky%20Sports%20Total%20Football.jpg" /></programme>
   <programme start="20261016133000 +0000" stop="20261016163000 +0000" channel="viaplaysportnews.dk">
     <title lang="da">Før Superligaen</title>
     <desc lang="da">Sæson: 2026. Episode: 16. 'Før Superligaen'. Vi giver hele Superligaen en stemme i Danmarks største optakt til den kommende spillerunde i landets bedste række. Tilladt for: A.</desc>
@@ -40586,7 +40592,7 @@
     <title lang="da">Sky Sports Fan Club</title>
     <desc lang="da">Sæson: 2026. Episode: 5. 'Premier League Weekend'. Premier League Weekend byder på drama, intensitet og fodbold fra øverste hylde. Følg de største opgør, de afgørende øjeblikke og historierne fra en weekend, hvor hvert point kan få betydning. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg" /><backdrop src="https://i-viaplay-com.akamaized.net/viaplay-prod/155/944/Sport_News1920x1080_SportNews_ok.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Sky%20Sports%20Fan%20Club.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Sky%20Sports%20Fan%20Club.jpg" /></programme>
   <programme start="20261017103000 +0000" stop="20261017135500 +0000" channel="viaplaysportnews.dk">
     <title lang="da">Sky Sports: Soccer Saturday</title>
     <desc lang="da">Sæson: 2026. Episode: 16. 'Sky Sports: Soccer Saturday'. Soccer Saturday er britisk fodbold-tv, når det er mest levende: hurtige opdateringer, skarpe meninger og masser af energi. Med mål, drama og ekspertanalyse fra hele England er du helt tæt på kampene – også når du ikke selv kan se dem. Tilladt for: A.</desc>
@@ -40830,21 +40836,21 @@
     <category lang="da">Sport</category>
     </programme>
   <programme start="20261016065500 +0000" stop="20261016085500 +0000" channel="eurosport2.dk">
-    <title lang="da">Cykling: UCI Track Cycling World Championships</title>
+    <title lang="da">Cykling: UCI Track Cycling World Championships - Shanghai</title>
     <desc lang="da">Sæson: 2026. '16.10.2026 08:55.'. Udsendelse af programmet - Cykling: Tissot UCI Track World Championships. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
     </programme>
   <programme start="20261016085500 +0000" stop="20261016125500 +0000" channel="eurosport2.dk">
-    <title lang="da">Cykling: UCI Track Cycling World Championships</title>
+    <title lang="da">Cykling: UCI Track Cycling World Championships - Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 3. '16.10.2026 10:55.'. Udsendelse af programmet - Cykling: Tissot UCI Track World Championships. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
     </programme>
-  <programme start="20261016125500 +0000" stop="20261016133000 +0000" channel="eurosport2.dk">
+  <programme start="20261016125500 +0000" stop="20261016133500 +0000" channel="eurosport2.dk">
     <title lang="da">Sejlsport: SailGP - Racing on the Edge</title>
     <desc lang="da">'16.10.2026 14:55.'. Udsendelse af programmet - Sejlsport: SailGP - Racing on the Edge. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     </programme>
-  <programme start="20261016133000 +0000" stop="20261016152000 +0000" channel="eurosport2.dk">
+  <programme start="20261016133500 +0000" stop="20261016152000 +0000" channel="eurosport2.dk">
     <title lang="da">Snooker: British Open - finale</title>
     <desc lang="da">Sæson: 2026. '16.10.2026 15:00.'. Udsendelse af programmet - Snooker: British Open. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
@@ -40855,39 +40861,39 @@
     <date>2026</date>
     <category lang="da">Sport</category>
     </programme>
-  <programme start="20261016162500 +0000" stop="20261016173500 +0000" channel="eurosport2.dk">
+  <programme start="20261016162500 +0000" stop="20261016173000 +0000" channel="eurosport2.dk">
     <title lang="da">Endurance: 6 Hours of Fuji</title>
     <desc lang="da">Sæson: 2026. '16.10.2026 18:25.'. Udsendelse af programmet - Endurance: 6 Hours of Fuji. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
     </programme>
-  <programme start="20261016173500 +0000" stop="20261016191500 +0000" channel="eurosport2.dk">
+  <programme start="20261016173000 +0000" stop="20261016183500 +0000" channel="eurosport2.dk">
     <title lang="da">Ridebanespringning: World Cup - Oslo</title>
-    <desc lang="da">Sæson: 2026. '16.10.2026 19:35.'. Udsendelse af programmet - Ridebanespringning: World Cup - Washington. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 2026. '16.10.2026 19:30.'. Udsendelse af programmet - Ridebanespringning: World Cup - Washington. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
     </programme>
-  <programme start="20261016191500 +0000" stop="20261016211500 +0000" channel="eurosport2.dk">
+  <programme start="20261016183500 +0000" stop="20261016203000 +0000" channel="eurosport2.dk">
     <title lang="da">Cykling: UCI Track Cycling World Championships</title>
-    <desc lang="da">Sæson: 2026. '16.10.2026 21:15.'. Udsendelse af programmet - Cykling: Tissot UCI Track World Championships. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 2026. '16.10.2026 20:35.'. Udsendelse af programmet - Cykling: Tissot UCI Track World Championships. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
     </programme>
-  <programme start="20261016211500 +0000" stop="20261016220000 +0000" channel="eurosport2.dk">
+  <programme start="20261016203000 +0000" stop="20261016212000 +0000" channel="eurosport2.dk">
     <title lang="da">Radio Tour – i udbrud</title>
-    <desc lang="da">Sæson: 2026. Episode: 9. '16.10.2026 23:15.'. 'Radio Tour – i udbrud' er et nyt format af det velkendte cykelprogram 'Radio Tour', hvor vært Anders Mielke forlader studiet og besøger cykeldanmark for at interviewe gæster i deres egne omgivelser. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 2026. Episode: 9. '16.10.2026 22:30.'. 'Radio Tour – i udbrud' er et nyt format af det velkendte cykelprogram 'Radio Tour', hvor vært Anders Mielke forlader studiet og besøger cykeldanmark for at interviewe gæster i deres egne omgivelser. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
     </programme>
-  <programme start="20261016220000 +0000" stop="20261017000000 +0000" channel="eurosport2.dk">
+  <programme start="20261016212000 +0000" stop="20261016235500 +0000" channel="eurosport2.dk">
     <title lang="da">Snooker: Shenzhen Open - finale</title>
-    <desc lang="da">Sæson: 2026. 'Snooker: Shenzhen Open - finale'. Udsendelse af programmet - Snooker: Shenzhen Open. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 2026. '16.10.2026 23:20.'. Udsendelse af programmet - Snooker: Shenzhen Open. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
     </programme>
-  <programme start="20261017000000 +0000" stop="20261017020000 +0000" channel="eurosport2.dk">
+  <programme start="20261016235500 +0000" stop="20261017015500 +0000" channel="eurosport2.dk">
     <title lang="da">Golf: PGA Tour - Japan Championship</title>
-    <desc lang="da">Sæson: 2026. '17.10.2026 02:00.'. Udsendelse af programmet - Golf: PGA Tour - Japan Championship. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 2026. '17.10.2026 01:55.'. Udsendelse af programmet - Golf: PGA Tour - Japan Championship. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
     </programme>
-  <programme start="20261017020000 +0000" stop="20261017025500 +0000" channel="eurosport2.dk">
+  <programme start="20261017015500 +0000" stop="20261017025500 +0000" channel="eurosport2.dk">
     <title lang="da">Gravel: UCI Gravel World Championships (k)</title>
-    <desc lang="da">Sæson: 2026. '17.10.2026 04:00.'. Kvinder Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 2026. '17.10.2026 03:55.'. Kvinder Tilladt for: A.</desc>
     <category lang="da">Sport</category>
     </programme>
   <programme start="20261017025500 +0000" stop="20261017040000 +0000" channel="eurosport2.dk">
@@ -56228,7 +56234,7 @@
       <value>11</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/mLyW3UTgi2lsMdtueYODcfAB9Ku.jpg" /></programme>
-  <programme start="20261015040000 +0000" stop="20261015042000 +0000" channel="skyshowtime1.se">
+  <programme start="20261015040000 +0000" stop="20261015042500 +0000" channel="skyshowtime1.se">
     <title lang="da">Top Wing</title>
     <desc lang="da">Sæson: 1. Episode: 19. 'Ernas overnatningseventyr; På afveje'. Erna overnatter, mens kadetterne redder hendes hjem; Betty McMus udfordrer Rod til et løb. Medvirkende: Ethan Pugiotto, Lucas Kalechstein, Abigail Journey Oliver, Colin Doyle. Tilladt for: A.</desc>
     <credits>
@@ -56245,7 +56251,7 @@
     </credits>
     <category lang="da">Børn</category>
     <icon src="https://image.tmdb.org/t/p/w1280/xdJjf3QsYyMPCGjfbuL4CJsg0GW.jpg" /></programme>
-  <programme start="20261015042000 +0000" stop="20261015044000 +0000" channel="skyshowtime1.se">
+  <programme start="20261015042500 +0000" stop="20261015044700 +0000" channel="skyshowtime1.se">
     <title lang="da">Top Wing</title>
     <desc lang="da">Sæson: 1. Episode: 20. 'Skildpaddeskraldetoget / Anyus venskabsfest'. Kadetterne gør rent og rydder op på Sukkertopøen. Da toget som er læsset med genbrugsmateriale løber løbsk, må Top Wing redde det. // Pennys ven Anyu holder en venskabsfest! Team Top Wing DRØNER afsted for at sikre, at alle kommer til tiden. Medvirkende: Ethan Pugiotto, Lucas Kalechstein, Abigail Journey Oliver, Colin Doyle. Tilladt for: A.</desc>
     <credits>
@@ -56262,7 +56268,7 @@
     </credits>
     <category lang="da">Børn</category>
     <icon src="https://image.tmdb.org/t/p/w1280/xdJjf3QsYyMPCGjfbuL4CJsg0GW.jpg" /></programme>
-  <programme start="20261015044000 +0000" stop="20261015050500 +0000" channel="skyshowtime1.se">
+  <programme start="20261015044700 +0000" stop="20261015051000 +0000" channel="skyshowtime1.se">
     <title lang="da">Rusty Rivets</title>
     <desc lang="da">Sæson: 2. Episode: 17. 'Rusty og tempelballaden'. Da Liam er fanget i et elefanttempel, redder Rusty og Ruby ham ved hjælp af en ny robot. Medvirkende: Kyle Breitkopf, Ava Preston, Samuel Faraci, Aaliyah Cinello. Tilladt for: A.</desc>
     <credits>
@@ -56279,7 +56285,7 @@
     </credits>
     <category lang="da">Børn</category>
     </programme>
-  <programme start="20261015050500 +0000" stop="20261015053000 +0000" channel="skyshowtime1.se">
+  <programme start="20261015051000 +0000" stop="20261015053200 +0000" channel="skyshowtime1.se">
     <title lang="da">Rusty Rivets</title>
     <desc lang="da">Sæson: 2. Episode: 18. 'Rustys Dinorutsjebane; Rustys værdsæt din lærer-dag'. Liam og Emily vil køre i en rutsjebane; Rusty og Ruby giver Betty en robotassistent. Medvirkende: Kyle Breitkopf, Ava Preston, Samuel Faraci, Aaliyah Cinello. Tilladt for: A.</desc>
     <credits>
@@ -56296,7 +56302,7 @@
     </credits>
     <category lang="da">Børn</category>
     </programme>
-  <programme start="20261015053000 +0000" stop="20261015055500 +0000" channel="skyshowtime1.se">
+  <programme start="20261015053200 +0000" stop="20261015062500 +0000" channel="skyshowtime1.se">
     <title lang="da">Bubble Guppies</title>
     <desc lang="da">Sæson: 2. Episode: 2. 'Vild med byggeri!'. Guppies forsøger at lære deres gnavne nabo glæden ved juletiden. Instruktører: Mark Salisbury, Jeff Astolfo, Robert Scull. Medvirkende: Christopher Borger, Brianna Gentilella, Selena Gonzalez, Zachary Gordon. Tilladt for: A.</desc>
     <credits>
@@ -56316,27 +56322,6 @@
     </credits>
     <category lang="da">Børn</category>
     </programme>
-  <programme start="20261015055500 +0000" stop="20261015062500 +0000" channel="skyshowtime1.se">
-    <title lang="da">Brooklyn Nine-Nine</title>
-    <desc lang="da">Sæson: 1. Episode: 7. '48 Hours'. Holdet fra det 99. distrikt er vred på Jake. På trods af manglende beviser og et vandtæt alibi har han arresteret en mistænkt for et smykkerøveri. For at undgå en retssag mod NYPD skal enheden løse sagen inden for 48 timer. Indtil da gælder: Ingen kan gå hjem. Instruktør: Peter Lauer. Medvirkende: Andy Samberg, Stephanie Beatriz, Terry Crews, Melissa Fumero. Tilladt for: 11.</desc>
-    <credits>
-      <director>Peter Lauer</director>
-      <actor>Andy Samberg</actor>
-      <actor>Stephanie Beatriz</actor>
-      <actor>Terry Crews</actor>
-      <actor>Melissa Fumero</actor>
-      <actor>Joe Lo Truglio</actor>
-      <actor>Chelsea Peretti</actor>
-      <actor>Andre Braugher</actor>
-      <actor>Kid Cudi</actor>
-      <actor>Dirk Blocker</actor>
-      <actor>Joel McKinnon Miller</actor>
-    </credits>
-    <category lang="da">Serier</category>
-    <rating system="DK">
-      <value>11</value>
-    </rating>
-  <icon src="https://image.tmdb.org/t/p/w1280/9AeiA1XtP5sel2tAf9LaGeUjhDb.jpg" /></programme>
   <programme start="20261015062500 +0000" stop="20261015065500 +0000" channel="skyshowtime1.se">
     <title lang="da">Brooklyn Nine-Nine</title>
     <desc lang="da">Sæson: 1. Episode: 8. 'Old School'. Jakes drøm går i opfyldelse, da han tilbringer en dag sammen med sin helt, der er tidligere retskorrespondent. Instruktør: Beth McCarthy-Miller. Medvirkende: Andy Samberg, Stephanie Beatriz, Terry Crews, Melissa Fumero. Tilladt for: 11.</desc>
@@ -59351,7 +59336,7 @@
     </programme>
   <programme start="20261016110000 +0000" stop="20261016130000 +0000" channel="viasatfamily.dk">
     <title lang="da">Kung Fu Panda</title>
-    <desc lang="da">'Kung Fu Panda'. Kan en stor, klodset panda, bliver den bedste i verden til Kung Fu? Po lægger sit hjerte og sit korpus i opgaven, og den usædvanlige helt finder ud af, at hans største svaghed er hans største styrke. Instruktører: Mark Osborne, John Stevenson. Medvirkende: Jack Black, Ian McShane, Angelina Jolie, Dustin Hoffman. Tilladt for: A.</desc>
+    <desc lang="da">'Kung Fu Panda'. Kan en stor, klodset panda, bliver den bedste i verden til Kung Fu? Po lægger sit hjerte og sit korpus i opgaven, og den usædvanlige helt finder ud af, at hans største svaghed er hans største styrke. Instruktører: Mark Osborne, John Stevenson. Medvirkende: Jack Black, Ian McShane, Angelina Jolie, Dustin Hoffman. Tilladt for: 7.</desc>
     <credits>
       <director>Mark Osborne</director>
       <director>John Stevenson</director>
@@ -59367,7 +59352,10 @@
       <actor>James Hong</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <rating system="DK">
+      <value>7</value>
+    </rating>
+  </programme>
   <programme start="20261016130000 +0000" stop="20261016150000 +0000" channel="viasatfamily.dk">
     <title lang="da">Kung Fu Panda 2</title>
     <desc lang="da">'Kung Fu Panda 2'. Po og vennerne må rejse tværs over Kina for at tage kampen op. Men hvordan kan Po bekæmpe et våben, der kan neutralisere kung fu? Han må finde svaret i sin fortid og lære hemmeligheden om sin mystiske herkomst. Instruktør: Jennifer Yuh Nelson. Medvirkende: Jack Black, Angelina Jolie, Jackie Chan, Dustin Hoffman. Tilladt for: 7.</desc>
@@ -59524,7 +59512,7 @@
   </programme>
   <programme start="20261017050000 +0000" stop="20261017070000 +0000" channel="viasatfamily.dk">
     <title lang="da">Kung Fu Panda</title>
-    <desc lang="da">'Kung Fu Panda'. Kan en stor, klodset panda, bliver den bedste i verden til Kung Fu? Po lægger sit hjerte og sit korpus i opgaven, og den usædvanlige helt finder ud af, at hans største svaghed er hans største styrke. Instruktører: Mark Osborne, John Stevenson. Medvirkende: Jack Black, Ian McShane, Angelina Jolie, Dustin Hoffman. Tilladt for: A.</desc>
+    <desc lang="da">'Kung Fu Panda'. Kan en stor, klodset panda, bliver den bedste i verden til Kung Fu? Po lægger sit hjerte og sit korpus i opgaven, og den usædvanlige helt finder ud af, at hans største svaghed er hans største styrke. Instruktører: Mark Osborne, John Stevenson. Medvirkende: Jack Black, Ian McShane, Angelina Jolie, Dustin Hoffman. Tilladt for: 7.</desc>
     <credits>
       <director>Mark Osborne</director>
       <director>John Stevenson</director>
@@ -59540,7 +59528,10 @@
       <actor>James Hong</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <rating system="DK">
+      <value>7</value>
+    </rating>
+  </programme>
   <programme start="20261017070000 +0000" stop="20261017090000 +0000" channel="viasatfamily.dk">
     <title lang="da">Kung Fu Panda 2</title>
     <desc lang="da">'Kung Fu Panda 2'. Po og vennerne må rejse tværs over Kina for at tage kampen op. Men hvordan kan Po bekæmpe et våben, der kan neutralisere kung fu? Han må finde svaret i sin fortid og lære hemmeligheden om sin mystiske herkomst. Instruktør: Jennifer Yuh Nelson. Medvirkende: Jack Black, Angelina Jolie, Jackie Chan, Dustin Hoffman. Tilladt for: 7.</desc>
@@ -62526,7 +62517,7 @@
     <title lang="da">ATP: Gea-Davidovich Fokina, kvartfinale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 127. 'ATP: Gea-Davidovich Fokina, kvartfinale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20ATP.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20ATP.jpg" /></programme>
   <programme start="20261015090000 +0000" stop="20261015124500 +0000" channel="tv2sportx.dk">
     <title lang="da">VM i banecykling, finaler</title>
     <desc lang="da">Sæson: 2026. Episode: 104. 'VM i banecykling, finaler'. Så er det tid til VM i banecykling på den topmoderne Shanghai Velodrome i Kina. Danmark stiller med et stærkt hold på ni ryttere, og der venter masser af fart, taktik og intense dueller på banen. Med seks herrer og tre kvinder til start bliver det spændende at følge de danske ryttere i kampen om medaljerne mod verdenseliten. Tilladt for: A.</desc>
@@ -62536,17 +62527,17 @@
     <title lang="da">ATP: Zverev-De Minaur, kvartfinale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 128. 'ATP: Zverev-De Minaur, kvartfinale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20ATP.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20ATP.jpg" /></programme>
   <programme start="20261015144500 +0000" stop="20261015170500 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP: Gea-Davidovich Fokina, kvartfinale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 127. 'ATP: Gea-Davidovich Fokina, kvartfinale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20ATP.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20ATP.jpg" /></programme>
   <programme start="20261015170500 +0000" stop="20261015190500 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP: Zverev-De Minaur, kvartfinale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 128. 'ATP: Zverev-De Minaur, kvartfinale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20ATP.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20ATP.jpg" /></programme>
   <programme start="20261015190500 +0000" stop="20261016022500 +0000" channel="tv2sportx.dk">
     <title lang="da">VM i banecykling, finaler</title>
     <desc lang="da">Sæson: 2026. Episode: 104. 'VM i banecykling, finaler'. Så er det tid til VM i banecykling på den topmoderne Shanghai Velodrome i Kina. Danmark stiller med et stærkt hold på ni ryttere, og der venter masser af fart, taktik og intense dueller på banen. Med seks herrer og tre kvinder til start bliver det spændende at følge de danske ryttere i kampen om medaljerne mod verdenseliten. Tilladt for: A.</desc>
@@ -62561,7 +62552,7 @@
     <title lang="da">ATP: Kvartfinale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 129. 'ATP: Kvartfinale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20ATP.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20ATP.jpg" /></programme>
   <programme start="20261016090000 +0000" stop="20261016131500 +0000" channel="tv2sportx.dk">
     <title lang="da">VM i banecykling, finaler</title>
     <desc lang="da">Sæson: 2026. Episode: 105. 'VM i banecykling, finaler'. Så er det tid til VM i banecykling på den topmoderne Shanghai Velodrome i Kina. Danmark stiller med et stærkt hold på ni ryttere, og der venter masser af fart, taktik og intense dueller på banen. Med seks herrer og tre kvinder til start bliver det spændende at følge de danske ryttere i kampen om medaljerne mod verdenseliten. Tilladt for: A.</desc>
@@ -62571,17 +62562,17 @@
     <title lang="da">ATP: Kvartfinale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 130. 'ATP: Kvartfinale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20ATP.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20ATP.jpg" /></programme>
   <programme start="20261016151500 +0000" stop="20261016173000 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP: Kvartfinale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 129. 'ATP: Kvartfinale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20ATP.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20ATP.jpg" /></programme>
   <programme start="20261016173000 +0000" stop="20261016184000 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP: Kvartfinale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 130. 'ATP: Kvartfinale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20ATP.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20ATP.jpg" /></programme>
   <programme start="20261016184000 +0000" stop="20261016194500 +0000" channel="tv2sportx.dk">
     <title lang="da">Serie A: Frosinone-Sassuolo</title>
     <desc lang="da">Sæson: 2026. Episode: 399. 'Serie A: Frosinone-Sassuolo'. Følg Serie A på TV 2 Play, TV 2 Sport X og TV 2 Sport, og oplev fodbold i verdensklasse. Den bedste italienske liga byder på masser af taktik, passion og teknik på et højt niveau, og her er der hård konkurrence om at vinde Scudettoen mellem stjernespækkede mandskaber som Roma, AC Milan, Juventus, Napoli, Inter og Atalanta. Tilladt for: A.</desc>
@@ -62617,11 +62608,16 @@
     <desc lang="da">Sæson: 2026. Episode: 370. 'Serie A: Venezia-Napoli'. Følg Serie A på TV 2 Play, TV 2 Sport X og TV 2 Sport, og oplev fodbold i verdensklasse. Den bedste italienske liga byder på masser af taktik, passion og teknik på et højt niveau, og her er der hård konkurrence om at vinde Scudettoen mellem stjernespækkede mandskaber som Roma, AC Milan, Juventus, Napoli, Inter og Atalanta. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
     <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Serie%20A.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Serie%20A.jpg" /></programme>
-  <programme start="20261017140000 +0000" stop="20261017155500 +0000" channel="tv2sportx.dk">
+  <programme start="20261017140000 +0000" stop="20261017145500 +0000" channel="tv2sportx.dk">
     <title lang="da">Serie A: Venezia-Napoli</title>
     <desc lang="da">Sæson: 2026. Episode: 370. 'Serie A: Venezia-Napoli'. Følg Serie A på TV 2 Play, TV 2 Sport X og TV 2 Sport, og oplev fodbold i verdensklasse. Den bedste italienske liga byder på masser af taktik, passion og teknik på et højt niveau, og her er der hård konkurrence om at vinde Scudettoen mellem stjernespækkede mandskaber som Roma, AC Milan, Juventus, Napoli, Inter og Atalanta. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
     <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Serie%20A.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Serie%20A.jpg" /></programme>
+  <programme start="20261017145500 +0000" stop="20261017155500 +0000" channel="tv2sportx.dk">
+    <title lang="da">VM i banecykling, finaler</title>
+    <desc lang="da">Sæson: 2026. Episode: 106. 'VM i banecykling, finaler'. Så er det tid til VM i banecykling på den topmoderne Shanghai Velodrome i Kina. Danmark stiller med et stærkt hold på ni ryttere, og der venter masser af fart, taktik og intense dueller på banen. Med seks herrer og tre kvinder til start bliver det spændende at følge de danske ryttere i kampen om medaljerne mod verdenseliten. Tilladt for: A.</desc>
+    <category lang="da">Sport</category>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Cykling-generic.jpg" /></programme>
   <programme start="20261017155500 +0000" stop="20261017165500 +0000" channel="tv2sportx.dk">
     <title lang="da">Serie A: Bologna-Inter</title>
     <desc lang="da">Sæson: 2026. Episode: 371. 'Serie A: Bologna-Inter'. Følg Serie A på TV 2 Play, TV 2 Sport X og TV 2 Sport, og oplev fodbold i verdensklasse. Den bedste italienske liga byder på masser af taktik, passion og teknik på et højt niveau, og her er der hård konkurrence om at vinde Scudettoen mellem stjernespækkede mandskaber som Roma, AC Milan, Juventus, Napoli, Inter og Atalanta. Tilladt for: A.</desc>
@@ -62636,12 +62632,12 @@
     <title lang="da">ATP: Semifinale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 131. 'ATP: Semifinale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20ATP.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20ATP.jpg" /></programme>
   <programme start="20261017200000 +0000" stop="20261017220500 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP: Semifinale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 132. 'ATP: Semifinale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20ATP.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20ATP.jpg" /></programme>
   <programme start="20261017220500 +0000" stop="20261018042500 +0000" channel="tv2sportx.dk">
     <title lang="da">VM i banecykling, finaler</title>
     <desc lang="da">Sæson: 2026. Episode: 106. 'VM i banecykling, finaler'. Så er det tid til VM i banecykling på den topmoderne Shanghai Velodrome i Kina. Danmark stiller med et stærkt hold på ni ryttere, og der venter masser af fart, taktik og intense dueller på banen. Med seks herrer og tre kvinder til start bliver det spændende at følge de danske ryttere i kampen om medaljerne mod verdenseliten. Tilladt for: A.</desc>
@@ -62651,22 +62647,22 @@
     <title lang="da">ATP: Semifinale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 131. 'ATP: Semifinale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20ATP.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20ATP.jpg" /></programme>
   <programme start="20261018062500 +0000" stop="20261018083000 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP: Semifinale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 132. 'ATP: Semifinale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20ATP.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20ATP.jpg" /></programme>
   <programme start="20261018083000 +0000" stop="20261018103000 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP: Finale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 133. 'ATP: Finale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20ATP.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20ATP.jpg" /></programme>
   <programme start="20261018103000 +0000" stop="20261018113000 +0000" channel="tv2sportx.dk">
     <title lang="da">WTA: Finale, Wuhan</title>
     <desc lang="da">Sæson: 2026. Episode: 101. 'WTA: Finale, Wuhan'. Verdenseliten samles i Wuhan, hvor der er vigtige point og prestige på spil. Følg med, når stjernerne kæmper om titlen i WTA-turneringen. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/WTA-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/WTA-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20WTA.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20WTA.jpg" /></programme>
   <programme start="20261018113000 +0000" stop="20261018115500 +0000" channel="tv2sportx.dk">
     <title lang="da">3F Superliga: Før Sønderjyske-Silkeborg IF</title>
     <desc lang="da">Sæson: 2026. Episode: 221. '3F Superliga: Før Sønderjyske-Silkeborg IF'. TV 2s værter, eksperter og reportere er klar til at levere nyheder, analyser og interviews fra 3F Superliga. Find altid artikler, analyser og sidste nyt om 3F Superliga på TV2.dk. Tilladt for: A.</desc>
@@ -62692,16 +62688,21 @@
     <desc lang="da">Sæson: 2026. Episode: 201. '3F Superliga: Odense Boldklub-Brøndby IF'. Efter fire nederlag på stribe i Superligaen fandt Brøndby tilbage på sejrskurs med en overbevisende 5-2-sejr over Lyngby. Kan vestegnsklubben bygge videre på den stærke præstation og tage endnu tre point på udebane mod OB i Odense? Tilladt for: A.</desc>
     <category lang="da">Sport</category>
     <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/3F%20Superliga.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/3F%20Superliga.jpg" /></programme>
-  <programme start="20261018160000 +0000" stop="20261018163500 +0000" channel="tv2sportx.dk">
+  <programme start="20261018160000 +0000" stop="20261018163000 +0000" channel="tv2sportx.dk">
     <title lang="da">3F Superliga: Efter Odense Boldklub-Brøndby IF</title>
     <desc lang="da">Sæson: 2026. Episode: 222. '3F Superliga: Efter Odense Boldklub-Brøndby IF'. TV 2s værter, eksperter og reportere er klar til at levere nyheder, analyser og interviews fra 3F Superliga. Find altid artikler, analyser og sidste nyt om 3F Superliga på TV2.dk. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
     <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/3F%20Superliga.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/3F%20Superliga.jpg" /></programme>
-  <programme start="20261018163500 +0000" stop="20261018181500 +0000" channel="tv2sportx.dk">
-    <title lang="da">ATP: Finale, Shanghai</title>
-    <desc lang="da">Sæson: 2026. Episode: 133. 'ATP: Finale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
+  <programme start="20261018163000 +0000" stop="20261018172000 +0000" channel="tv2sportx.dk">
+    <title lang="da">A-Liga: FC Midtjylland-FC Nordsjælland</title>
+    <desc lang="da">Sæson: 2026. Episode: 176. 'A-Liga: FC Midtjylland-FC Nordsjælland'. A-Liga samler Danmarks stærkeste kvindehold i en intens kamp om ære og mesterskab. Ligaen byder på teknik, tempo og talent, hvor klubber som Fortuna Hjørring og FC Nordsjælland sætter standarden. En ny æra venter, og publikum kan forvente passion og drama i topklasse. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/A-Liga.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/A-Liga.jpg" /></programme>
+  <programme start="20261018172000 +0000" stop="20261018181500 +0000" channel="tv2sportx.dk">
+    <title lang="da">A-Liga: FC Midtjylland-FC Nordsjælland</title>
+    <desc lang="da">Sæson: 2026. Episode: 176. 'A-Liga: FC Midtjylland-FC Nordsjælland'. A-Liga samler Danmarks stærkeste kvindehold i en intens kamp om ære og mesterskab. Ligaen byder på teknik, tempo og talent, hvor klubber som Fortuna Hjørring og FC Nordsjælland sætter standarden. En ny æra venter, og publikum kan forvente passion og drama i topklasse. Tilladt for: A.</desc>
+    <category lang="da">Sport</category>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/A-Liga.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/A-Liga.jpg" /></programme>
   <programme start="20261018181500 +0000" stop="20261018184000 +0000" channel="tv2sportx.dk">
     <title lang="da">Serie A: Før Juventus-Lazio</title>
     <desc lang="da">Sæson: 2026. Episode: 101. 'Fodbold: LaLiga og Serie A - Studiet'. TV 2s værter, eksperter og reportere er klar med nyheder og analyser om Serie A-kampene. Bliv altid opdateret om Serie A på TV 2.dk. Tilladt for: A.</desc>
@@ -62722,21 +62723,16 @@
     <desc lang="da">Sæson: 2026. Episode: 102. 'Efter Juventus-Lazio'. TV 2s værter, eksperter og reportere er klar med nyheder og analyser om Serie A-kampene. Bliv altid opdateret om Serie A på TV 2.dk. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
     <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Serie%20A.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Serie%20A.jpg" /></programme>
-  <programme start="20261018210000 +0000" stop="20261018215500 +0000" channel="tv2sportx.dk">
-    <title lang="da">A-Liga: FC Midtjylland-FC Nordsjælland</title>
-    <desc lang="da">Sæson: 2026. Episode: 176. 'A-Liga: FC Midtjylland-FC Nordsjælland'. A-Liga samler Danmarks stærkeste kvindehold i en intens kamp om ære og mesterskab. Ligaen byder på teknik, tempo og talent, hvor klubber som Fortuna Hjørring og FC Nordsjælland sætter standarden. En ny æra venter, og publikum kan forvente passion og drama i topklasse. Tilladt for: A.</desc>
-    <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/A-Liga.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/A-Liga.jpg" /></programme>
-  <programme start="20261018215500 +0000" stop="20261018225000 +0000" channel="tv2sportx.dk">
-    <title lang="da">A-Liga: FC Midtjylland-FC Nordsjælland</title>
-    <desc lang="da">Sæson: 2026. Episode: 176. 'A-Liga: FC Midtjylland-FC Nordsjælland'. A-Liga samler Danmarks stærkeste kvindehold i en intens kamp om ære og mesterskab. Ligaen byder på teknik, tempo og talent, hvor klubber som Fortuna Hjørring og FC Nordsjælland sætter standarden. En ny æra venter, og publikum kan forvente passion og drama i topklasse. Tilladt for: A.</desc>
-    <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/A-Liga.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/A-Liga.jpg" /></programme>
-  <programme start="20261018225000 +0000" stop="20261019044000 +0000" channel="tv2sportx.dk">
+  <programme start="20261018210000 +0000" stop="20261018230500 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP: Finale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 133. 'ATP: Finale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20ATP.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20ATP.jpg" /></programme>
+  <programme start="20261018230500 +0000" stop="20261019044000 +0000" channel="tv2sportx.dk">
+    <title lang="da">WTA: Finale, Wuhan</title>
+    <desc lang="da">Sæson: 2026. Episode: 101. 'WTA: Finale, Wuhan'. Verdenseliten samles i Wuhan, hvor der er vigtige point og prestige på spil. Følg med, når stjernerne kæmper om titlen i WTA-turneringen. Tilladt for: A.</desc>
+    <category lang="da">Sport</category>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20WTA.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20WTA.jpg" /></programme>
   <programme start="20261015020000 +0000" stop="20261015060000 +0000" channel="viasatultra.dk">
     <title lang="da">Sendeophold</title>
     <desc lang="da">'Sendeophold'. Kanalen sender ikke i øjeblikket. Tilladt for: A.</desc>
@@ -63001,7 +62997,7 @@
   <programme start="20261015180500 +0000" stop="20261015181500 +0000" channel="Kosmopol.dk">
     <title lang="da">Kosmopol afdækker</title>
     <desc lang="da">'Alt for billige neglesaloner'. Udefra ser neglesaloner ganske fredelige ud. Men bag facaderne bliver udenlandske ansatte underbetalt og groft udnyttet. Tilladt for: A.</desc>
-    <category lang="da">Nyheder</category>
+    <category lang="da">Fakta</category>
     </programme>
   <programme start="20261015181500 +0000" stop="20261015184500 +0000" channel="Kosmopol.dk">
     <title lang="da">Future of Work</title>
@@ -63051,7 +63047,7 @@
   <programme start="20261015205000 +0000" stop="20261015205500 +0000" channel="Kosmopol.dk">
     <title lang="da">Elisa bliver den skaldede kæreste</title>
     <desc lang="da">'Elisa bliver den skaldede kæreste'. Elisa og Thor har været kærester i kun 8 måneder, da Elisa får stillet den værst tænkelige diagnose. Tilladt for: A.</desc>
-    <category lang="da">Ukendt</category>
+    <category lang="da">Fakta</category>
     </programme>
   <programme start="20261015205500 +0000" stop="20261015210500 +0000" channel="Kosmopol.dk">
     <title lang="da">Tina er tan-sober</title>
@@ -63424,7 +63420,7 @@
   <programme start="20261017191500 +0000" stop="20261017192000 +0000" channel="Kosmopol.dk">
     <title lang="da">Elisa bliver den skaldede kæreste</title>
     <desc lang="da">'Elisa bliver den skaldede kæreste'. Elisa og Thor har været kærester i kun 8 måneder, da Elisa får stillet den værst tænkelige diagnose. Tilladt for: A.</desc>
-    <category lang="da">Ukendt</category>
+    <category lang="da">Fakta</category>
     </programme>
   <programme start="20261017192000 +0000" stop="20261017193000 +0000" channel="Kosmopol.dk">
     <title lang="da">OPLEV</title>
@@ -64183,7 +64179,7 @@
     <icon src="https://image.tmdb.org/t/p/w1280/mI2xPsroYpoSffgngQPQowKsLjK.jpg" /></programme>
   <programme start="20261015135000 +0000" stop="20261015141500 +0000" channel="drramasjang.dk">
     <title lang="da">Hotel Transylvania</title>
-    <desc lang="da">Sæson: 1. Episode: 4. 'Vampyrsitter-eventyr'. Vampyrsitter-eventyr + Slimbold Medvirkende: Bryn McAuley, Evany Rosen, Gage Munroe, Joseph Motiki. Tilladt for: 7.</desc>
+    <desc lang="da">Sæson: 1. Episode: 4. 'Vampyrsitter-eventyr'. Vampyrsitter-eventyr + Slimbold. Medvirkende: Bryn McAuley, Evany Rosen, Gage Munroe, Joseph Motiki. Tilladt for: 7.</desc>
     <credits>
       <actor>Bryn McAuley</actor>
       <actor>Evany Rosen</actor>
@@ -64878,7 +64874,7 @@
     <icon src="https://image.tmdb.org/t/p/w1280/mI2xPsroYpoSffgngQPQowKsLjK.jpg" /></programme>
   <programme start="20261016135000 +0000" stop="20261016141500 +0000" channel="drramasjang.dk">
     <title lang="da">Hotel Transylvania</title>
-    <desc lang="da">Sæson: 1. Episode: 5. 'Store lille Wendy'. Store lille Wendy + Dobbeltfanger Medvirkende: Bryn McAuley, Evany Rosen, Gage Munroe, Joseph Motiki. Tilladt for: 7.</desc>
+    <desc lang="da">Sæson: 1. Episode: 5. 'Store lille Wendy'. Store lille Wendy + Dobbeltfanger. Medvirkende: Bryn McAuley, Evany Rosen, Gage Munroe, Joseph Motiki. Tilladt for: 7.</desc>
     <credits>
       <actor>Bryn McAuley</actor>
       <actor>Evany Rosen</actor>
@@ -65699,7 +65695,7 @@
     <icon src="https://image.tmdb.org/t/p/w1280/A5fsLo47PNEAnj01J3SGMLdm77c.jpg" /></programme>
   <programme start="20261017135000 +0000" stop="20261017141500 +0000" channel="drramasjang.dk">
     <title lang="da">Hotel Transylvania</title>
-    <desc lang="da">Sæson: 1. Episode: 6. 'Store æggeforventninger'. Store æggeforventninger + Hotel Pennsylvania Medvirkende: Bryn McAuley, Evany Rosen, Gage Munroe, Joseph Motiki. Tilladt for: 7.</desc>
+    <desc lang="da">Sæson: 1. Episode: 6. 'Store æggeforventninger'. Store æggeforventninger + Hotel Pennsylvania. Medvirkende: Bryn McAuley, Evany Rosen, Gage Munroe, Joseph Motiki. Tilladt for: 7.</desc>
     <credits>
       <actor>Bryn McAuley</actor>
       <actor>Evany Rosen</actor>
@@ -66882,7 +66878,7 @@
 <programme start="20261015232000 +0000" stop="20261017000500 +0000" channel="cmorestarsdk.dk"><title>Hamilton II (8x44) 3</title><desc>Svensk thrillerserie der vi møter den populære karakteren fra Jan Guillous suksessbøker. Den unge agenten Carl Hamilton vender tilbake til Sverige etter en lang Navy SEAL-utdanning i USA. Samtidig rystes Stockholm av en rekke terrorangrep,Jakob Oftebro - Carl Hamilton,Annika Hallin - Amiral Astrid Bofors,Nina Zanjani - Kristin Ek,Jörgen Thorsson - Birger Hagman,Krister Henriksson - DG,Peter Andersson - Christer Näslund,Rowena King - Farrin Haig,Felice Jankell - Lykke Öjestad,Anna Sise - Sissela Lindgren,Danilo Bejarano - Rikard Ek.</desc></programme>
 <programme start="20261017000500 +0000" stop="20261017014500 +0000" channel="cmorestarsdk.dk"><title>Jag vet vad du gjorde förra sommaren</title><desc>Jag vet vad du gjorde förra sommaren</desc></programme>
 <programme start="20261017014500 +0000" stop="20261017032500 +0000" channel="cmorestarsdk.dk"><title>Maktens män</title><desc>Maktens män</desc></programme>
-<programme start="20261014120000 +0200" stop="20261014122500 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends III (64)</title><desc /></programme><programme start="20261014122500 +0200" stop="20261014123500 +0200" channel="Disney.Junior.dk"><title>Bluey I (46)</title><desc /></programme><programme start="20261014123500 +0200" stop="20261014124000 +0200" channel="Disney.Junior.dk"><title>Bluey I (47)</title><desc /></programme><programme start="20261014124000 +0200" stop="20261014125000 +0200" channel="Disney.Junior.dk"><title>Bluey I (48)</title><desc /></programme><programme start="20261014125000 +0200" stop="20261014125500 +0200" channel="Disney.Junior.dk"><title>Bluey I (49)</title><desc /></programme><programme start="20261014125500 +0200" stop="20261014130500 +0200" channel="Disney.Junior.dk"><title>Bluey I (50)</title><desc /></programme><programme start="20261014130500 +0200" stop="20261014131000 +0200" channel="Disney.Junior.dk"><title>Bluey I (51)</title><desc /></programme><programme start="20261014131000 +0200" stop="20261014132000 +0200" channel="Disney.Junior.dk"><title>Bluey I (52)</title><desc /></programme><programme start="20261014132000 +0200" stop="20261014132500 +0200" channel="Disney.Junior.dk"><title>Bluey II (92)</title><desc /></programme><programme start="20261014132500 +0200" stop="20261014135000 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (10)</title><desc /></programme><programme start="20261015040000 +0000" stop="20261015042500 +0000" channel="nickelodeonjuniordk.dk"><title>Tim Rex i rummet</title><desc>Tim gør alt, hvad han kan, for at få fat i den nye Dinostjerne-figur.// Det er dagen, hvor man laver løjer med hinanden, men Tim ved ikke, hvornår man stopper.// Tim og far skal fange en drilagtig muldvarp.</desc><episode-num system="xmltv_ns">.8.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/okEw8d8WUeA9ysTlBb8bwkpojt4.jpg" /></programme>
+<programme start="20261015040000 +0000" stop="20261015042500 +0000" channel="nickelodeonjuniordk.dk"><title>Tim Rex i rummet</title><desc>Tim gør alt, hvad han kan, for at få fat i den nye Dinostjerne-figur.// Det er dagen, hvor man laver løjer med hinanden, men Tim ved ikke, hvornår man stopper.// Tim og far skal fange en drilagtig muldvarp.</desc><episode-num system="xmltv_ns">.8.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/okEw8d8WUeA9ysTlBb8bwkpojt4.jpg" /></programme>
 <programme start="20261015042500 +0000" stop="20261015044500 +0000" channel="nickelodeonjuniordk.dk"><title>Tim Rex i rummet</title><desc>Tim og Kai tager ud at surfe; Tim og Kai prøver at genopbygge fars rumskib; Tim møder en edderkop.</desc><episode-num system="xmltv_ns">.9.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/okEw8d8WUeA9ysTlBb8bwkpojt4.jpg" /></programme>
 <programme start="20261015044500 +0000" stop="20261015051000 +0000" channel="nickelodeonjuniordk.dk"><title>Rubble &amp; Co</title><desc>Rubble og hans byggevovser gør sig parat til at bygge en bro, men de finder ud af, at den skurkagtige Fartmeister har en anden plan. Det er op til Rubble og co. at arbejde sammen og redde dagen ved at bygge en ny, sikker bro til Byggernes bugt.</desc><episode-num system="xmltv_ns">.0.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/7m2NrBKnvqMZZ1fytUCmWcAf9xO.jpg" /></programme>
 <programme start="20261015051000 +0000" stop="20261015055500 +0000" channel="nickelodeonjuniordk.dk"><title>Rubble &amp; Co</title><desc>Rubble og vovserne vil bygge en stor cykelbutik i tide til cykelfestivalen ... medmindre Fartmeister når det før dem. // Da Motor ikke vil i bad inden familieportrættet skal tages, er det op til Rubble og vovserne at komme på en opbyggelig løsning.</desc><episode-num system="xmltv_ns">.1.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/7m2NrBKnvqMZZ1fytUCmWcAf9xO.jpg" /></programme>
@@ -67384,7 +67380,7 @@
 <programme start="20261016154000 +0000" stop="20261016171500 +0000" channel="sfkanalendk.dk"><title>Filip &amp; Fredrik presenterar Trevligt folk</title><desc>Filip &amp; Fredrik følger det inspirerende arbejde med Somalias landshold i bandy. Det er et hold nybegyndere, der bor i Borlänge, som skal deltage i VM.</desc></programme>
 <programme start="20261016171500 +0000" stop="20261016190500 +0000" channel="sfkanalendk.dk"><title>Paradiset</title><desc>Ugebladsjournalisten Annika Bengtzon har mistanke om, at et hjem for voldsramte kvinder ikke er, hvad det udgiver sig for.</desc></programme>
 <programme start="20261016190500 +0000" stop="20261016205500 +0000" channel="sfkanalendk.dk"><title>Den sidste kontrakt</title><desc>Betjenten Roger Nyman rekrutteres til sikkerhedstjenesten efter at være blevet såret i tjeneste. Han får et tip om en person, der skal være rejst ind i landet under falsk navn. Efterforskningen fører frem til en person, der tilsyneladende har planer om at udføre et mord - på den svenske statsminister, Olof Palme.</desc></programme>
-<programme start="20261016205500 +0000" stop="20261016225000 +0000" channel="sfkanalendk.dk"><title>Brænd alle mine breve</title><desc>Svensk drama baseret på Alex Schulmans virkelighedsbaserede bog om en periode i hans bedsteforældres liv i 1930'erne. Her skildres Karin Stolpes forhold til sin mand Sven Stolpe og hendes kærlighedsforhold til Olof Lagercrantz.</desc></programme>
+<programme start="20261016205500 +0000" stop="20261016225000 +0000" channel="sfkanalendk.dk"><title>Brænd alle mine breve</title><desc>Svensk drama baseret på Alex Schulmans virkelighedsbaserede bog om en periode i hans bedsteforældres liv i 1930'erne. Her skildres Karin Stolpes forhold til sin mand Sven Stolpe og hendes kærlighedsforhold til Olof Lagercrantz.</desc><icon src="https://image.tmdb.org/t/p/w1280/gnFHKfOB7aCzAx8XsayjeFOeQV4.jpg" /></programme>
 <programme start="20261016225000 +0000" stop="20261017004000 +0000" channel="sfkanalendk.dk"><title>Oprøret i Ådalen</title><desc>Bo Widerbergs drama om de skæbnesvangre strejker i Ådalen i sommeren 1931, hvor blandt andet fem arbejdere skydes og dræbes af militæret ved en demonstration. Fortællingen handler om arbejderfamilierne og deres hårde kamp mod fattigdom.</desc></programme>
 <programme start="20261017004000 +0000" stop="20261017034500 +0000" channel="sfkanalendk.dk"><title>1939</title><desc>Drama pigen Annika der kommer til Stockholm, omkring Anden Verdenskrigs begyndelse, hvor hun indleder en kærlighedsaffære med en velhavende mand.</desc></programme>
 <programme start="20261017034500 +0000" stop="20261017052000 +0000" channel="sfkanalendk.dk"><title>Kalabaliken i Bender</title><desc>Året er 1713 og Karl XII sidder som konge uden for den lille tyrkiske by Bender. Han nægter at give op, og storvisiren gør alt for at slippe af med ham.</desc></programme>
@@ -67555,4 +67551,4 @@
 <programme start="20261017001000 +0000" stop="20261017014500 +0000" channel="tv4hitsdenmarkdkdadk.dk"><title>Beck</title><desc>Peter Haber spiller den sympatiske politimand Martin Beck i serien, der bygger på det verdensberømte forfatterpar Maj Sjöwall og Per Wahlöös romanunivers.</desc><episode-num system="xmltv_ns">8.2.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/qMOe40lxBNobowmOkOAmXvPK4RG.jpg" /></programme>
 <programme start="20261017014500 +0000" stop="20261017023000 +0000" channel="tv4hitsdenmarkdkdadk.dk"><title>Från och med Herr Gunnar Papphammar</title><desc>Komedieklassiker med Gösta Ekman som Gunnar Papphammar, en mand, der konstant kommer i problemer.</desc></programme>
 <programme start="20261017023000 +0000" stop="20261017030000 +0000" channel="tv4hitsdenmarkdkdadk.dk"><title>On Set</title><desc>I underholdningsprogrammet On Set får vi lov til at komme bag kulisserne i Hollywood.</desc><episode-num system="xmltv_ns">0.62.</episode-num></programme>
-<programme start="20261014110000 +0200" stop="20261014130000 +0200" channel="viasatfamilydk.dk"><title>Helt super</title><desc>. Hedvig har krympet fars superheltedragt, og nu kan han ikke længere være byens Superløve. Typisk! Hedvig, som er ret klodset og er meget glad for spil. Men da far vælger den stærke og suveræne fætter Adrian som ny superhelt, MÅ Hedvig bare tage kampen op. Instruktører: Rasmus A. Sivertsen, Jean-Luc Julien. Medvirkende: Hennika Huuse, Todd Bishop Monrad Vistven, Johannes Kjærnes, Tobias Santelmann. Tilladt for: 7.</desc><icon src="https://image.tmdb.org/t/p/w1280/lwh9iL3DEzc8MaUxGtxOfU9oF9C.jpg" /></programme><programme start="20261014130000 +0200" stop="20261014150000 +0200" channel="viasatfamilydk.dk"><title>Maracuda</title><desc>. Maracuda er søn af en respekteret stammeleder, men kæmper for at leve op til sin fars forventninger. Han vover sig ind i en mystisk skov for at bevise sit værd og møder Tink – en magisk fugl. Sammen drager de på utrolige eventyr i stenalderens skove. Midt i deres eskapader forvandler Tink uforvarende Maracudas far til en lille skabning, hvilket tvinger drengen til at lære Tink at styre sine kræfter. Undervejs lærer Maracuda ansvar, mens faren må vise mere forståelse og medfølelse. Tilladt for: 7.</desc></programme><programme start="20261014150000 +0200" stop="20261014170000 +0200" channel="viasatfamilydk.dk"><title>Kaptajn Sabeltand og den magiske diamant</title><desc>. En solskoldet vampyr. En manipulerende dronning. En brutal abehær. Og verdens yngste pirat på jagt efter sin bror. Kaptajn Sabeltand har nok at slås med, når han skal finde en magisk diamant. Instruktører: Marit Moum Aune, Rasmus A. Sivertsen. Medvirkende: Kyrre Haugen Sydness, Siri Skjeggedal, Leonard Valestrand Eike, Ida Leonora Valestrand Eike. Tilladt for: A.</desc><icon src="https://image.tmdb.org/t/p/w1280/5n3Qm7FjefKdxATdVqFnVSCN0re.jpg" /></programme><programme start="20261014170000 +0200" stop="20261014190000 +0200" channel="viasatfamilydk.dk"><title>Familien Addams</title><desc>. I denne animerede action-komedie, baseret på Charles Addams berømte tegneserie i avisen, The New Yorker, følger man familien Addams, hvis liv langsomt dechiffreres i det direkte møde med en kløgtig vært fra et reality-TV-program, samtidigt med at de forbereder deres udvidede familie på at ankomme til en større fejring på bedste Addams-vis. Instruktører: Greg Tiernan, Conrad Vernon. Medvirkende: Oscar Isaac, Charlize Theron, Chloë Grace Moretz, Finn Wolfhard. Tilladt for: 7.</desc><icon src="https://image.tmdb.org/t/p/w1280/gFLM7gmT1ra8UAHonmcTuHZpTC7.jpg" /></programme><programme start="20261014190000 +0200" stop="20261014210000 +0200" channel="viasatfamilydk.dk"><title>Bien Maja 2 - På nye Honningeventyr</title><desc>. Majas bikube summer af spænding efter at de har hørt om det store honningspil. Maya tager af sted med sin bedste ven Willi og to myrer for at deltage. Holder kæmper fast besluttet på at vinde over sin ærkefjende Viola og sikre sommerens høst. Viola overtaler sit hold til at snyde, men i stedet havner de i fare. Maja og hendes venner påtager sig den svære opgave at redde Violas hold. Instruktører: Noel Cleary, Sergio Delfino, Alexs Stadermann. Medvirkende: Coco Jack Gillies, Benson Jack Anthony, Richard Roxburgh, Justine Clarke. Tilladt for: A.</desc><icon src="https://image.tmdb.org/t/p/w1280/hGBcxERlFB2PGMQCVxHW3Duqd9t.jpg" /></programme><programme start="20261014210000 +0200" stop="20261014230000 +0200" channel="viasatfamilydk.dk"><title>A Dog’s Purpose</title><desc>. Hvad er meningen med vores eksistens? Det forsøger en helt særlig hund at finde ud af på en rejse gennem de liv, han lever og de mennesker, han møder. På vejen inspirerer han flere mennesker til både at finde håb og kærlighed, før han indser, hvad hans formål i livet egentlig er. Instruktør: Lasse Hallström. Medvirkende: Josh Gad, Dennis Quaid, Peggy Lipton, Bryce Gheisar. Tilladt for: 7.</desc><icon src="https://image.tmdb.org/t/p/w1280/sLjeApi5odpyEoCzAnbr5DycL3z.jpg" /></programme><programme start="20261014230000 +0200" stop="20261015010000 +0200" channel="viasatfamilydk.dk"><title>A Rainy Day In New York</title><desc>. A RAINY DAY IN NEW YORK er fortællingen om de to collegekærester Gatsby og Ashleigh, hvis planer om en romantisk weekend i New York går i vasken lige så hurtigt, som sol slår over i regn. Instruktør: Woody Allen. Medvirkende: Timothée Chalamet, Elle Fanning, Liev Schreiber, Suzanne Smith. Tilladt for: 11.</desc><icon src="https://image.tmdb.org/t/p/w1280/qTiayMD5zccMGKjUQkO9hwZVVcw.jpg" /></programme><programme start="20261015010000 +0200" stop="20261015030000 +0200" channel="viasatfamilydk.dk"><title>Wild Child</title><desc>. Poppy er en forkælet teenager, der siden hendes mor forlod dem, har presset sin rige far til det yderste. Men faren får endelig nok, og Poppy bliver sendt på sin mors gamle engelske kostskole. Instruktør: Nick Moore. Medvirkende: Emma Roberts, Aidan Quinn, Natasha Richardson, Lexi Ainsworth. Tilladt for: 11.</desc></programme><programme start="20261015030000 +0200" stop="20261015050000 +0200" channel="viasatfamilydk.dk"><title>American Pie 2</title><desc>. Et år efter deres store modgange ved gallafesten, der blev udødeliggjort i American Pie, bliver gruppen genforenet til en uforglemmelig sommer. Strandhuset med det uskyldige ydre forvandles nu til den rene partycentral. Instruktør: J.B. Rogers. Medvirkende: Jason Biggs, Seann William Scott, Shannon Elizabeth, Alyson Hannigan. Tilladt for: 15.</desc></programme><programme start="20261015050000 +0200" stop="20261015070000 +0200" channel="viasatfamilydk.dk"><title>Nanny McPhee - Den Fortryllende Barnepige</title><desc>. En enkemand med syv uregerlige børn,som opfører sig så forfærdeligt, at de har fået 17 barnepiger til at sige op i desperation, ansætter en barnepige med magiske evner. Instruktør: Kirk Jones. Medvirkende: Emma Thompson, Colin Firth, Angela Lansbury, Kelly Macdonald. Tilladt for: A.</desc><icon src="https://image.tmdb.org/t/p/w1280/sEWUEH1KbtFOaNXqYCaaguz017h.jpg" /></programme><programme start="20261015070000 +0200" stop="20261015090000 +0200" channel="viasatfamilydk.dk"><title>Maracuda</title><desc>. Maracuda er søn af en respekteret stammeleder, men kæmper for at leve op til sin fars forventninger. Han vover sig ind i en mystisk skov for at bevise sit værd og møder Tink – en magisk fugl. Sammen drager de på utrolige eventyr i stenalderens skove. Midt i deres eskapader forvandler Tink uforvarende Maracudas far til en lille skabning, hvilket tvinger drengen til at lære Tink at styre sine kræfter. Undervejs lærer Maracuda ansvar, mens faren må vise mere forståelse og medfølelse. Tilladt for: 7.</desc></programme><programme start="20261015090000 +0200" stop="20261015110000 +0200" channel="viasatfamilydk.dk"><title>Kaptajn Sabeltand og den magiske diamant</title><desc>. En solskoldet vampyr. En manipulerende dronning. En brutal abehær. Og verdens yngste pirat på jagt efter sin bror. Kaptajn Sabeltand har nok at slås med, når han skal finde en magisk diamant. Instruktører: Marit Moum Aune, Rasmus A. Sivertsen. Medvirkende: Kyrre Haugen Sydness, Siri Skjeggedal, Leonard Valestrand Eike, Ida Leonora Valestrand Eike. Tilladt for: A.</desc><icon src="https://image.tmdb.org/t/p/w1280/5n3Qm7FjefKdxATdVqFnVSCN0re.jpg" /></programme><programme start="20261015110000 +0200" stop="20261015130000 +0200" channel="viasatfamilydk.dk"><title>Familien Addams</title><desc>. I denne animerede action-komedie, baseret på Charles Addams berømte tegneserie i avisen, The New Yorker, følger man familien Addams, hvis liv langsomt dechiffreres i det direkte møde med en kløgtig vært fra et reality-TV-program, samtidigt med at de forbereder deres udvidede familie på at ankomme til en større fejring på bedste Addams-vis. Instruktører: Greg Tiernan, Conrad Vernon. Medvirkende: Oscar Isaac, Charlize Theron, Chloë Grace Moretz, Finn Wolfhard. Tilladt for: 7.</desc><icon src="https://image.tmdb.org/t/p/w1280/gFLM7gmT1ra8UAHonmcTuHZpTC7.jpg" /></programme><programme start="20261015130000 +0200" stop="20261015150000 +0200" channel="viasatfamilydk.dk"><title>Sune - Best Man</title><desc>. Sunes klasse skal på en hemmelig lejrskole, men det går pludselig op for Sune, at lejrskolen foregår samme weekend som morfars bryllup. Panik! Skal han vælge lejrskolen eller morfar? Instruktør: Jon Holmberg. Medvirkende: Elis Gerdt, Baxter Renman, Tea Stjärne, Sissela Benn. Tilladt for: 7.</desc><icon src="https://image.tmdb.org/t/p/w1280/kldXBuwRIpkZy5pcaKnHSuGwnjs.jpg" /></programme><programme start="20261015150000 +0200" stop="20261015170000 +0200" channel="viasatfamilydk.dk"><title>Gurin med rævehalen</title><desc>. En nisse ved navn Gurin vågner op med en rævehale som straf for sine drillerier. Instruktører: John M. Jacobsen, Nille Tystad. Medvirkende: Toralv Maurstad, Grethe Kausland, Pia Borgli, Wenche Foss. Tilladt for: A.</desc><icon src="https://image.tmdb.org/t/p/w1280/l2in83G9AMaarFpjEfoxMbmaZrW.jpg" /></programme><programme start="20261015170000 +0200" stop="20261015190000 +0200" channel="viasatfamilydk.dk"><title>Croods</title><desc>. Crood er navnet på en neandertaler-familie, der har levet hele deres liv i en hule. Da deres hule styrter sammen, må Familien Crood vove sig ud på en rejse gennem et landskab præget af mærkelige planter og et forunderligt dyreliv for at finde et nyt hjem. Instruktører: Kirk DeMicco, Chris Sanders. Medvirkende: Nicolas Cage, Ryan Reynolds, Emma Stone, Catherine Keener. Tilladt for: A.</desc></programme><programme start="20261015190000 +0200" stop="20261015210000 +0200" channel="viasatfamilydk.dk"><title>You're Cordially Invited</title><desc>re Cordially Invited'. Da to bryllupper ved en fejl bliver booket på samme dag og sted, tvinges de to bryllupsselskaber at få det bedste ud af den uventede og uønskede situation for at bevare deres egne specielle bryllupsoplevelser. Da den ene bruds far og den anden bruds søster støder sammen, opstår en humoristisk kamp mellem stædighed og viljestyrke. Begge er villige til at gøre alt for at sikre en uforglemmelig fest for deres nære og kære. Instruktør: Nicholas Stoller. Medvirkende: Geraldine Viswanathan, Will Ferrell, Reese Witherspoon, Jimmy Tatro. Tilladt for: 15.</desc></programme><programme start="20261015210000 +0200" stop="20261015230000 +0200" channel="viasatfamilydk.dk"><title>Goodrich</title><desc>. Kunsthandler Andy Goodrichs liv ændrer sig drastisk, da hans unge kone skal på afvænning i 90 dage og samtidig truer ham med skilsmisse. Instruktør: Hallie Meyers-Shyer. Medvirkende: Poorna Jagannathan, Laura Benanti, Michael Keaton, Mila Kunis. Tilladt for: 11.</desc><icon src="https://image.tmdb.org/t/p/w1280/1jXebnKdnb580YOzGuyhuujSGbc.jpg" /></programme><programme start="20261015230000 +0200" stop="20261016010000 +0200" channel="viasatfamilydk.dk"><title>Bridget Jones dagbog</title><desc>. Bridget er 32 og stadig single. Hun er begyndt at frygte, at hun vil dø fed, fordrukken og ensom. Hun beslutter sig for at få kontrol over sit noget kaotiske liv - tabe sig 10 kilo, finde sig en fornuftig kæreste og holde op med at savle over sin lækre chef, Daniel. Hendes mor præsenterer hende for advokaten Mark Darcy, men mødet falder mildt sagt ikke heldigt ud. Og stik imod alle sine løfter til sig selv indleder Bridget i stedet en katastrofal affære med Daniel. Instruktør: Sharon Maguire. Medvirkende: Renée Zellweger, Colin Firth, Hugh Grant, Gemma Jones. Tilladt for: 15.</desc><icon src="https://image.tmdb.org/t/p/w1280/9rSpxsMhG1FnFtUDdvSAXdtLtb3.jpg" /></programme><programme start="20261016010000 +0200" stop="20261016030000 +0200" channel="viasatfamilydk.dk"><title>A Dog’s Purpose</title><desc>. Hvad er meningen med vores eksistens? Det forsøger en helt særlig hund at finde ud af på en rejse gennem de liv, han lever og de mennesker, han møder. På vejen inspirerer han flere mennesker til både at finde håb og kærlighed, før han indser, hvad hans formål i livet egentlig er. Instruktør: Lasse Hallström. Medvirkende: Josh Gad, Dennis Quaid, Peggy Lipton, Bryce Gheisar. Tilladt for: 7.</desc><icon src="https://image.tmdb.org/t/p/w1280/sLjeApi5odpyEoCzAnbr5DycL3z.jpg" /></programme><programme start="20261016030000 +0200" stop="20261016050000 +0200" channel="viasatfamilydk.dk"><title>A Rainy Day In New York</title><desc>. A RAINY DAY IN NEW YORK er fortællingen om de to collegekærester Gatsby og Ashleigh, hvis planer om en romantisk weekend i New York går i vasken lige så hurtigt, som sol slår over i regn. Instruktør: Woody Allen. Medvirkende: Timothée Chalamet, Elle Fanning, Liev Schreiber, Suzanne Smith. Tilladt for: 11.</desc><icon src="https://image.tmdb.org/t/p/w1280/qTiayMD5zccMGKjUQkO9hwZVVcw.jpg" /></programme><programme start="20261016050000 +0200" stop="20261016070000 +0200" channel="viasatfamilydk.dk"><title>Bien Maja 2 - På nye Honningeventyr</title><desc>. Majas bikube summer af spænding efter at de har hørt om det store honningspil. Maya tager af sted med sin bedste ven Willi og to myrer for at deltage. Holder kæmper fast besluttet på at vinde over sin ærkefjende Viola og sikre sommerens høst. Viola overtaler sit hold til at snyde, men i stedet havner de i fare. Maja og hendes venner påtager sig den svære opgave at redde Violas hold. Instruktører: Noel Cleary, Sergio Delfino, Alexs Stadermann. Medvirkende: Coco Jack Gillies, Benson Jack Anthony, Richard Roxburgh, Justine Clarke. Tilladt for: A.</desc><icon src="https://image.tmdb.org/t/p/w1280/hGBcxERlFB2PGMQCVxHW3Duqd9t.jpg" /></programme><programme start="20261016070000 +0200" stop="20261016090000 +0200" channel="viasatfamilydk.dk"><title>Sune - Best Man</title><desc>. Sunes klasse skal på en hemmelig lejrskole, men det går pludselig op for Sune, at lejrskolen foregår samme weekend som morfars bryllup. Panik! Skal han vælge lejrskolen eller morfar? Instruktør: Jon Holmberg. Medvirkende: Elis Gerdt, Baxter Renman, Tea Stjärne, Sissela Benn. Tilladt for: 7.</desc><icon src="https://image.tmdb.org/t/p/w1280/kldXBuwRIpkZy5pcaKnHSuGwnjs.jpg" /></programme><programme start="20261016090000 +0200" stop="20261016110000 +0200" channel="viasatfamilydk.dk"><title>Gurin med rævehalen</title><desc>. En nisse ved navn Gurin vågner op med en rævehale som straf for sine drillerier. Instruktører: John M. Jacobsen, Nille Tystad. Medvirkende: Toralv Maurstad, Grethe Kausland, Pia Borgli, Wenche Foss. Tilladt for: A.</desc><icon src="https://image.tmdb.org/t/p/w1280/l2in83G9AMaarFpjEfoxMbmaZrW.jpg" /></programme><programme start="20261016110000 +0200" stop="20261016130000 +0200" channel="viasatfamilydk.dk"><title>Croods</title><desc>. Crood er navnet på en neandertaler-familie, der har levet hele deres liv i en hule. Da deres hule styrter sammen, må Familien Crood vove sig ud på en rejse gennem et landskab præget af mærkelige planter og et forunderligt dyreliv for at finde et nyt hjem. Instruktører: Kirk DeMicco, Chris Sanders. Medvirkende: Nicolas Cage, Ryan Reynolds, Emma Stone, Catherine Keener. Tilladt for: A.</desc></programme></tv>
+<programme start="20261014210000 +0200" stop="20261014230000 +0200" channel="viasatfamilydk.dk"><title>A Dog’s Purpose</title><desc>. Hvad er meningen med vores eksistens? Det forsøger en helt særlig hund at finde ud af på en rejse gennem de liv, han lever og de mennesker, han møder. På vejen inspirerer han flere mennesker til både at finde håb og kærlighed, før han indser, hvad hans formål i livet egentlig er. Instruktør: Lasse Hallström. Medvirkende: Josh Gad, Dennis Quaid, Peggy Lipton, Bryce Gheisar. Tilladt for: 7.</desc><icon src="https://image.tmdb.org/t/p/w1280/sLjeApi5odpyEoCzAnbr5DycL3z.jpg" /></programme><programme start="20261014230000 +0200" stop="20261015010000 +0200" channel="viasatfamilydk.dk"><title>A Rainy Day In New York</title><desc>. A RAINY DAY IN NEW YORK er fortællingen om de to collegekærester Gatsby og Ashleigh, hvis planer om en romantisk weekend i New York går i vasken lige så hurtigt, som sol slår over i regn. Instruktør: Woody Allen. Medvirkende: Timothée Chalamet, Elle Fanning, Liev Schreiber, Suzanne Smith. Tilladt for: 11.</desc><icon src="https://image.tmdb.org/t/p/w1280/qTiayMD5zccMGKjUQkO9hwZVVcw.jpg" /></programme><programme start="20261015010000 +0200" stop="20261015030000 +0200" channel="viasatfamilydk.dk"><title>Wild Child</title><desc>. Poppy er en forkælet teenager, der siden hendes mor forlod dem, har presset sin rige far til det yderste. Men faren får endelig nok, og Poppy bliver sendt på sin mors gamle engelske kostskole. Instruktør: Nick Moore. Medvirkende: Emma Roberts, Aidan Quinn, Natasha Richardson, Lexi Ainsworth. Tilladt for: 11.</desc></programme><programme start="20261015030000 +0200" stop="20261015050000 +0200" channel="viasatfamilydk.dk"><title>American Pie 2</title><desc>. Et år efter deres store modgange ved gallafesten, der blev udødeliggjort i American Pie, bliver gruppen genforenet til en uforglemmelig sommer. Strandhuset med det uskyldige ydre forvandles nu til den rene partycentral. Instruktør: J.B. Rogers. Medvirkende: Jason Biggs, Seann William Scott, Shannon Elizabeth, Alyson Hannigan. Tilladt for: 15.</desc></programme><programme start="20261015050000 +0200" stop="20261015070000 +0200" channel="viasatfamilydk.dk"><title>Nanny McPhee - Den Fortryllende Barnepige</title><desc>. En enkemand med syv uregerlige børn,som opfører sig så forfærdeligt, at de har fået 17 barnepiger til at sige op i desperation, ansætter en barnepige med magiske evner. Instruktør: Kirk Jones. Medvirkende: Emma Thompson, Colin Firth, Angela Lansbury, Kelly Macdonald. Tilladt for: A.</desc><icon src="https://image.tmdb.org/t/p/w1280/sEWUEH1KbtFOaNXqYCaaguz017h.jpg" /></programme><programme start="20261015070000 +0200" stop="20261015090000 +0200" channel="viasatfamilydk.dk"><title>Maracuda</title><desc>. Maracuda er søn af en respekteret stammeleder, men kæmper for at leve op til sin fars forventninger. Han vover sig ind i en mystisk skov for at bevise sit værd og møder Tink – en magisk fugl. Sammen drager de på utrolige eventyr i stenalderens skove. Midt i deres eskapader forvandler Tink uforvarende Maracudas far til en lille skabning, hvilket tvinger drengen til at lære Tink at styre sine kræfter. Undervejs lærer Maracuda ansvar, mens faren må vise mere forståelse og medfølelse. Tilladt for: 7.</desc></programme><programme start="20261015090000 +0200" stop="20261015110000 +0200" channel="viasatfamilydk.dk"><title>Kaptajn Sabeltand og den magiske diamant</title><desc>. En solskoldet vampyr. En manipulerende dronning. En brutal abehær. Og verdens yngste pirat på jagt efter sin bror. Kaptajn Sabeltand har nok at slås med, når han skal finde en magisk diamant. Instruktører: Marit Moum Aune, Rasmus A. Sivertsen. Medvirkende: Kyrre Haugen Sydness, Siri Skjeggedal, Leonard Valestrand Eike, Ida Leonora Valestrand Eike. Tilladt for: A.</desc><icon src="https://image.tmdb.org/t/p/w1280/5n3Qm7FjefKdxATdVqFnVSCN0re.jpg" /></programme><programme start="20261015110000 +0200" stop="20261015130000 +0200" channel="viasatfamilydk.dk"><title>Familien Addams</title><desc>. I denne animerede action-komedie, baseret på Charles Addams berømte tegneserie i avisen, The New Yorker, følger man familien Addams, hvis liv langsomt dechiffreres i det direkte møde med en kløgtig vært fra et reality-TV-program, samtidigt med at de forbereder deres udvidede familie på at ankomme til en større fejring på bedste Addams-vis. Instruktører: Greg Tiernan, Conrad Vernon. Medvirkende: Oscar Isaac, Charlize Theron, Chloë Grace Moretz, Finn Wolfhard. Tilladt for: 7.</desc><icon src="https://image.tmdb.org/t/p/w1280/gFLM7gmT1ra8UAHonmcTuHZpTC7.jpg" /></programme><programme start="20261015130000 +0200" stop="20261015150000 +0200" channel="viasatfamilydk.dk"><title>Sune - Best Man</title><desc>. Sunes klasse skal på en hemmelig lejrskole, men det går pludselig op for Sune, at lejrskolen foregår samme weekend som morfars bryllup. Panik! Skal han vælge lejrskolen eller morfar? Instruktør: Jon Holmberg. Medvirkende: Elis Gerdt, Baxter Renman, Tea Stjärne, Sissela Benn. Tilladt for: 7.</desc><icon src="https://image.tmdb.org/t/p/w1280/kldXBuwRIpkZy5pcaKnHSuGwnjs.jpg" /></programme><programme start="20261015150000 +0200" stop="20261015170000 +0200" channel="viasatfamilydk.dk"><title>Gurin med rævehalen</title><desc>. En nisse ved navn Gurin vågner op med en rævehale som straf for sine drillerier. Instruktører: John M. Jacobsen, Nille Tystad. Medvirkende: Toralv Maurstad, Grethe Kausland, Pia Borgli, Wenche Foss. Tilladt for: A.</desc><icon src="https://image.tmdb.org/t/p/w1280/l2in83G9AMaarFpjEfoxMbmaZrW.jpg" /></programme><programme start="20261015170000 +0200" stop="20261015190000 +0200" channel="viasatfamilydk.dk"><title>Croods</title><desc>. Crood er navnet på en neandertaler-familie, der har levet hele deres liv i en hule. Da deres hule styrter sammen, må Familien Crood vove sig ud på en rejse gennem et landskab præget af mærkelige planter og et forunderligt dyreliv for at finde et nyt hjem. Instruktører: Kirk DeMicco, Chris Sanders. Medvirkende: Nicolas Cage, Ryan Reynolds, Emma Stone, Catherine Keener. Tilladt for: A.</desc></programme><programme start="20261015190000 +0200" stop="20261015210000 +0200" channel="viasatfamilydk.dk"><title>You're Cordially Invited</title><desc>re Cordially Invited'. Da to bryllupper ved en fejl bliver booket på samme dag og sted, tvinges de to bryllupsselskaber at få det bedste ud af den uventede og uønskede situation for at bevare deres egne specielle bryllupsoplevelser. Da den ene bruds far og den anden bruds søster støder sammen, opstår en humoristisk kamp mellem stædighed og viljestyrke. Begge er villige til at gøre alt for at sikre en uforglemmelig fest for deres nære og kære. Instruktør: Nicholas Stoller. Medvirkende: Geraldine Viswanathan, Will Ferrell, Reese Witherspoon, Jimmy Tatro. Tilladt for: 15.</desc></programme><programme start="20261015210000 +0200" stop="20261015230000 +0200" channel="viasatfamilydk.dk"><title>Goodrich</title><desc>. Kunsthandler Andy Goodrichs liv ændrer sig drastisk, da hans unge kone skal på afvænning i 90 dage og samtidig truer ham med skilsmisse. Instruktør: Hallie Meyers-Shyer. Medvirkende: Poorna Jagannathan, Laura Benanti, Michael Keaton, Mila Kunis. Tilladt for: 11.</desc><icon src="https://image.tmdb.org/t/p/w1280/1jXebnKdnb580YOzGuyhuujSGbc.jpg" /></programme><programme start="20261015230000 +0200" stop="20261016010000 +0200" channel="viasatfamilydk.dk"><title>Bridget Jones dagbog</title><desc>. Bridget er 32 og stadig single. Hun er begyndt at frygte, at hun vil dø fed, fordrukken og ensom. Hun beslutter sig for at få kontrol over sit noget kaotiske liv - tabe sig 10 kilo, finde sig en fornuftig kæreste og holde op med at savle over sin lækre chef, Daniel. Hendes mor præsenterer hende for advokaten Mark Darcy, men mødet falder mildt sagt ikke heldigt ud. Og stik imod alle sine løfter til sig selv indleder Bridget i stedet en katastrofal affære med Daniel. Instruktør: Sharon Maguire. Medvirkende: Renée Zellweger, Colin Firth, Hugh Grant, Gemma Jones. Tilladt for: 15.</desc><icon src="https://image.tmdb.org/t/p/w1280/9rSpxsMhG1FnFtUDdvSAXdtLtb3.jpg" /></programme><programme start="20261016010000 +0200" stop="20261016030000 +0200" channel="viasatfamilydk.dk"><title>A Dog’s Purpose</title><desc>. Hvad er meningen med vores eksistens? Det forsøger en helt særlig hund at finde ud af på en rejse gennem de liv, han lever og de mennesker, han møder. På vejen inspirerer han flere mennesker til både at finde håb og kærlighed, før han indser, hvad hans formål i livet egentlig er. Instruktør: Lasse Hallström. Medvirkende: Josh Gad, Dennis Quaid, Peggy Lipton, Bryce Gheisar. Tilladt for: 7.</desc><icon src="https://image.tmdb.org/t/p/w1280/sLjeApi5odpyEoCzAnbr5DycL3z.jpg" /></programme><programme start="20261016030000 +0200" stop="20261016050000 +0200" channel="viasatfamilydk.dk"><title>A Rainy Day In New York</title><desc>. A RAINY DAY IN NEW YORK er fortællingen om de to collegekærester Gatsby og Ashleigh, hvis planer om en romantisk weekend i New York går i vasken lige så hurtigt, som sol slår over i regn. Instruktør: Woody Allen. Medvirkende: Timothée Chalamet, Elle Fanning, Liev Schreiber, Suzanne Smith. Tilladt for: 11.</desc><icon src="https://image.tmdb.org/t/p/w1280/qTiayMD5zccMGKjUQkO9hwZVVcw.jpg" /></programme><programme start="20261016050000 +0200" stop="20261016070000 +0200" channel="viasatfamilydk.dk"><title>Bien Maja 2 - På nye Honningeventyr</title><desc>. Majas bikube summer af spænding efter at de har hørt om det store honningspil. Maya tager af sted med sin bedste ven Willi og to myrer for at deltage. Holder kæmper fast besluttet på at vinde over sin ærkefjende Viola og sikre sommerens høst. Viola overtaler sit hold til at snyde, men i stedet havner de i fare. Maja og hendes venner påtager sig den svære opgave at redde Violas hold. Instruktører: Noel Cleary, Sergio Delfino, Alexs Stadermann. Medvirkende: Coco Jack Gillies, Benson Jack Anthony, Richard Roxburgh, Justine Clarke. Tilladt for: A.</desc><icon src="https://image.tmdb.org/t/p/w1280/hGBcxERlFB2PGMQCVxHW3Duqd9t.jpg" /></programme><programme start="20261016070000 +0200" stop="20261016090000 +0200" channel="viasatfamilydk.dk"><title>Sune - Best Man</title><desc>. Sunes klasse skal på en hemmelig lejrskole, men det går pludselig op for Sune, at lejrskolen foregår samme weekend som morfars bryllup. Panik! Skal han vælge lejrskolen eller morfar? Instruktør: Jon Holmberg. Medvirkende: Elis Gerdt, Baxter Renman, Tea Stjärne, Sissela Benn. Tilladt for: 7.</desc><icon src="https://image.tmdb.org/t/p/w1280/kldXBuwRIpkZy5pcaKnHSuGwnjs.jpg" /></programme><programme start="20261016090000 +0200" stop="20261016110000 +0200" channel="viasatfamilydk.dk"><title>Gurin med rævehalen</title><desc>. En nisse ved navn Gurin vågner op med en rævehale som straf for sine drillerier. Instruktører: John M. Jacobsen, Nille Tystad. Medvirkende: Toralv Maurstad, Grethe Kausland, Pia Borgli, Wenche Foss. Tilladt for: A.</desc><icon src="https://image.tmdb.org/t/p/w1280/l2in83G9AMaarFpjEfoxMbmaZrW.jpg" /></programme><programme start="20261016110000 +0200" stop="20261016130000 +0200" channel="viasatfamilydk.dk"><title>Croods</title><desc>. Crood er navnet på en neandertaler-familie, der har levet hele deres liv i en hule. Da deres hule styrter sammen, må Familien Crood vove sig ud på en rejse gennem et landskab præget af mærkelige planter og et forunderligt dyreliv for at finde et nyt hjem. Instruktører: Kirk DeMicco, Chris Sanders. Medvirkende: Nicolas Cage, Ryan Reynolds, Emma Stone, Catherine Keener. Tilladt for: A.</desc></programme><programme start="20261016130000 +0200" stop="20261016150000 +0200" channel="viasatfamilydk.dk"><title>Kung Fu Panda</title><desc>. Kan en stor, klodset panda, bliver den bedste i verden til Kung Fu? Po lægger sit hjerte og sit korpus i opgaven, og den usædvanlige helt finder ud af, at hans største svaghed er hans største styrke. Instruktører: Mark Osborne, John Stevenson. Medvirkende: Jack Black, Ian McShane, Angelina Jolie, Dustin Hoffman. Tilladt for: A.</desc></programme><programme start="20261016150000 +0200" stop="20261016170000 +0200" channel="viasatfamilydk.dk"><title>Kung Fu Panda 2</title><desc>. Po og vennerne må rejse tværs over Kina for at tage kampen op. Men hvordan kan Po bekæmpe et våben, der kan neutralisere kung fu? Han må finde svaret i sin fortid og lære hemmeligheden om sin mystiske herkomst. Instruktør: Jennifer Yuh Nelson. Medvirkende: Jack Black, Angelina Jolie, Jackie Chan, Dustin Hoffman. Tilladt for: 7.</desc></programme><programme start="20261016170000 +0200" stop="20261016190000 +0200" channel="viasatfamilydk.dk"><title>Kung Fu Panda 3</title><desc>. Pandaen Po lever et idyllisk liv i Fredens dal med vennerne Trane, Hugorm, Knæler, Abe og Tiger. Altså lige indtil Pos far, Li, pludselig dukker op igen. Den genforende duo drager afsted mod et hemmeligt paradis fyldt med andre pandaer. Men da den skurkagtige yakokse Kai begynder at hærge Kina, må Po trække i arbejdstøjet og træne de kluntede bamser i at mestre Kung Fu. Danske Stemmer: Po: Rune Klan, Li: Morten Staugaard, Kai: Torbjørn Hummel, Tiger: Trine Appel Instruktører: Alessandro Carloni, Jennifer Yuh Nelson. Medvirkende: Jack Black, Bryan Cranston, Dustin Hoffman, Angelina Jolie. Tilladt for: 7.</desc></programme><programme start="20261016190000 +0200" stop="20261016210000 +0200" channel="viasatfamilydk.dk"><title>Kung Fu Panda 4</title><desc>. Den klodsede Po skal opgive sin titel som Dragekriger for at sætte tempoet ned og blive spirituel leder i Fredens Dal. Men først er han nødt til at bekæmpe en magtfuld formskiftende kamæleon, som er ude efter hans visdomsstav. Det får han hjælp til af en ny allieret. Instruktører: Mike Mitchell, Stephanie Stine. Medvirkende: Angelina Jolie, Jackie Chan, Seth Rogen, Jack Black. Tilladt for: 7.</desc></programme><programme start="20261016210000 +0200" stop="20261016230000 +0200" channel="viasatfamilydk.dk"><title>Anaconda</title><desc>. Barndomsvennerne Doug (Jack Black) og Griff (Paul Rudd) kaster sig endelig ud i deres længe nærede drøm om at genindspille deres yndlingskultklassiker, Anaconda, i Amazonas' dybder. Men kaoset bliver alvor, da en ægte kæmpeanaconda dukker op og forvandler deres komiske filmoptagelse til en dødsensfarlig situation. Filmen, de brænder for at lave? Den kan ende med at koste dem livet... Tilladt for: 11.</desc></programme><programme start="20261016230000 +0200" stop="20261017010000 +0200" channel="viasatfamilydk.dk"><title>Kvinde på spring</title><desc>. Kate Reddy er nærmest gift med sit arbejde hos et stort finansieringsfirma i Boston. Når arbejdsdagen er slut, tager hun hjem til sin hengivne mand Richard,og deres to små børn. Instruktør: Douglas McGrath. Medvirkende: Sarah Jessica Parker, Pierce Brosnan, Kelsey Grammer, Greg Kinnear. Tilladt for: 11.</desc></programme></tv>
