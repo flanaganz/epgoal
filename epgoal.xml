@@ -1543,7 +1543,7 @@
     <title lang="da">EM bordtennis; Herresingle, 2. runde, direkte</title>
     <desc lang="da">'Herresingle, 2. runde'. Jonathan Groth skal forsøge at spille sig videre til 1/8-finalerne ved EM i bordtennis i Ljuljana i Slovenien. Her møder han Dang Qiu fra Tyskland. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    </programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Bordtennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Bordtennis.jpg" /></programme>
   <programme start="20261015181000 +0000" stop="20261015190000 +0000" channel="dr2.dk">
     <title lang="da">Optimistens guide til planeten</title>
     <sub-title lang="da">2 (5:6)</sub-title>
@@ -33208,7 +33208,7 @@
     <title lang="da">Max &amp; Halvvejs-Ridderne</title>
     <desc lang="da">Sæson: 1. Episode: 2. 'Mød Halv-Ridderne'. Onkel Budrick bliver holdt fanget som Kong Gyseligs hofnar, og Max må forsøge at befri ham fra slottets fangekælder sammen med sine nye venner Simon, Millie, Kevyn og den verdensberømte troldmand Mumlin. Tilladt for: A.</desc>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/xv0c1N5YtDbLLQygQBgHvuJWfR2.jpg" /></programme>
   <programme start="20261016001000 +0000" stop="20261016003500 +0000" channel="nicktoons.se">
     <title lang="da">Dora Udforskeren</title>
     <desc lang="da">Sæson: 8. Episode: 6. 'Rutschebanebjerget'. Dora, Boots og bedstemor leder efter den hemmelige dør, der fører til Eventyrskoven. Tilladt for: A.</desc>
