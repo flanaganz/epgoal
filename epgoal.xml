@@ -2117,7 +2117,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/ueROWcsoHD6DydgXKnM1yIhqrBt.jpg" /></programme>
   <programme start="20261018174500 +0000" stop="20261018180000 +0000" channel="dr2.dk">
     <title lang="da">Vores sange med DR Pigekoret: Fred hviler over land og by</title>
     <desc lang="da">Sæson: 2. Episode: 2. 'Fred hviler over land og by'. DR Pigekoret synger Northern lights og Fred hviler over land og by. Optaget i Holmens Kirke i marts 2025. Tilladt for: A.</desc>
@@ -7503,7 +7503,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/4Fih3ozS7INGXE9i5umkRkcG9KD.jpg" /></programme>
   <programme start="20261018220000 +0000" stop="20261019002500 +0000" channel="TV3+.dk">
     <title lang="da">Dødbringende våben 3</title>
     <desc lang="da">'Dødbringende våben 3'. Martin Riggs møder endelig sin ligemand! Eller rettere ligekvinde, for der er nemlig tale om den smukke men benhårde politikvinde Lorna Cole. Og i selskab med sin tro følgesvend Roger, og nu også Lorna, forsøger Riggs at afsløre en tidligere politimand, Jack Travis, der nu giver sig af med ulovlig våbenhandel. Instruktør: Richard Donner. Medvirkende: Mel Gibson, Danny Glover, Joe Pesci, Rene Russo. Tilladt for: 15.</desc>
@@ -22751,7 +22751,7 @@
       <actor>Eddie Deezen</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/qgGKhtJv7nCSLCFQ0Ikh0BGoHX7.jpg" /></programme>
   <programme start="20261018224500 +0000" stop="20261018225500 +0000" channel="cartoonnetwork.dk">
     <title lang="da">Gumballs (for)underlige verden</title>
     <desc lang="da">Sæson: 1. Episode: 11. 'Appen'. Gumball og Darwin må stoppe en ondskabsfuld social medie-app fra at forvandle alle børn i Elmore til tankeløse internet-trends-maskiner. Tilladt for: A.</desc>
@@ -41901,7 +41901,7 @@
       <actor>David Alan Grier</actor>
     </credits>
     <category lang="da">Film</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/AdzPCGA5WkpxPvkW2SvPSmBF3Hg.jpg" /></programme>
   <programme start="20261018180000 +0000" stop="20261018204000 +0000" channel="viasathits.dk">
     <title lang="da">Once Upon a Time... in Hollywood</title>
     <desc lang="da">'Once Upon a Time... in Hollywood'. I Los Angeles i 1969 kæmper en tidligere stjerne fra en westernserie og hans faste stuntmand for at opnå berømmelse og succes i filmindustrien under den sidste tid af Hollywoods gyldne tid. Instruktør: Quentin Tarantino. Medvirkende: Leonardo DiCaprio, Brad Pitt, Margot Robbie, Emile Hirsch. Tilladt for: 15.</desc>
@@ -56033,7 +56033,7 @@
       <actor>Rihanna</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/3Fa1GVYiV4Ta7TnBQYWPZlHeE7U.jpg" /></programme>
   <programme start="20261018053000 +0000" stop="20261018070500 +0000" channel="skyshowtime2.se">
     <title lang="da">Kæledyrenes Hemmelige Liv 2</title>
     <desc lang="da">'Kæledyrenes Hemmelige Liv 2'. Terrieren Max forsøger at håndtere nogle store forandringer. Hans ejer er blevet gift og har fået et lille barn, Liam. Max har et så stort behov for at passe på drengen, at han får nervøse ticks. På en familierejse til en gård møder Max og Duke hundeintolerante køer, fjendtlige ræve og en skræmmende kalkun, som kun gør Max's angst større. Heldigvis får Max lidt vedledning fra veteranen Rooster, som pusher Max til at glemme neuroserne, finde sin indre alfahan og give Liam lidt mere frihed. Instruktører: Chris Renaud, Jonathan del Val. Medvirkende: Patton Oswalt, Kevin Hart, Harrison Ford, Eric Stonestreet. Tilladt for: A.</desc>
@@ -56060,7 +56060,7 @@
       <director>Derek Drymon</director>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/5vCHoukaZOGbDUza5gdSNAX3OoQ.jpg" /></programme>
   <programme start="20261018084000 +0000" stop="20261018102000 +0000" channel="skyshowtime2.se">
     <title lang="da">Trolls på verdensturné</title>
     <desc lang="da">'Trolls på verdensturné'. Poppy og Branch opdager at deres rige kun er en af seks musikalske verdener -- Funk, Country, Techno, Klassisk, Pop og Rock -- der tidligere var en harmonisk enhed. Instruktører: Walt Dohrn, David P. Smith. Medvirkende: Anna Kendrick, Justin Timberlake, Rachel Bloom, James Corden. Tilladt for: A.</desc>
@@ -62526,7 +62526,7 @@
     <title lang="da">ATP: Gea-Davidovich Fokina, kvartfinale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 127. 'ATP: Gea-Davidovich Fokina, kvartfinale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
   <programme start="20261015090000 +0000" stop="20261015124500 +0000" channel="tv2sportx.dk">
     <title lang="da">VM i banecykling, finaler</title>
     <desc lang="da">Sæson: 2026. Episode: 104. 'VM i banecykling, finaler'. Så er det tid til VM i banecykling på den topmoderne Shanghai Velodrome i Kina. Danmark stiller med et stærkt hold på ni ryttere, og der venter masser af fart, taktik og intense dueller på banen. Med seks herrer og tre kvinder til start bliver det spændende at følge de danske ryttere i kampen om medaljerne mod verdenseliten. Tilladt for: A.</desc>
@@ -62536,17 +62536,17 @@
     <title lang="da">ATP: Zverev-De Minaur, kvartfinale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 128. 'ATP: Zverev-De Minaur, kvartfinale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
   <programme start="20261015144500 +0000" stop="20261015170500 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP: Gea-Davidovich Fokina, kvartfinale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 127. 'ATP: Gea-Davidovich Fokina, kvartfinale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
   <programme start="20261015170500 +0000" stop="20261015190500 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP: Zverev-De Minaur, kvartfinale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 128. 'ATP: Zverev-De Minaur, kvartfinale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
   <programme start="20261015190500 +0000" stop="20261016022500 +0000" channel="tv2sportx.dk">
     <title lang="da">VM i banecykling, finaler</title>
     <desc lang="da">Sæson: 2026. Episode: 104. 'VM i banecykling, finaler'. Så er det tid til VM i banecykling på den topmoderne Shanghai Velodrome i Kina. Danmark stiller med et stærkt hold på ni ryttere, og der venter masser af fart, taktik og intense dueller på banen. Med seks herrer og tre kvinder til start bliver det spændende at følge de danske ryttere i kampen om medaljerne mod verdenseliten. Tilladt for: A.</desc>
@@ -62561,7 +62561,7 @@
     <title lang="da">ATP: Kvartfinale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 129. 'ATP: Kvartfinale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
   <programme start="20261016090000 +0000" stop="20261016131500 +0000" channel="tv2sportx.dk">
     <title lang="da">VM i banecykling, finaler</title>
     <desc lang="da">Sæson: 2026. Episode: 105. 'VM i banecykling, finaler'. Så er det tid til VM i banecykling på den topmoderne Shanghai Velodrome i Kina. Danmark stiller med et stærkt hold på ni ryttere, og der venter masser af fart, taktik og intense dueller på banen. Med seks herrer og tre kvinder til start bliver det spændende at følge de danske ryttere i kampen om medaljerne mod verdenseliten. Tilladt for: A.</desc>
@@ -62571,17 +62571,17 @@
     <title lang="da">ATP: Kvartfinale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 130. 'ATP: Kvartfinale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
   <programme start="20261016151500 +0000" stop="20261016173000 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP: Kvartfinale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 129. 'ATP: Kvartfinale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
   <programme start="20261016173000 +0000" stop="20261016184000 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP: Kvartfinale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 130. 'ATP: Kvartfinale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
   <programme start="20261016184000 +0000" stop="20261016194500 +0000" channel="tv2sportx.dk">
     <title lang="da">Serie A: Frosinone-Sassuolo</title>
     <desc lang="da">Sæson: 2026. Episode: 399. 'Serie A: Frosinone-Sassuolo'. Følg Serie A på TV 2 Play, TV 2 Sport X og TV 2 Sport, og oplev fodbold i verdensklasse. Den bedste italienske liga byder på masser af taktik, passion og teknik på et højt niveau, og her er der hård konkurrence om at vinde Scudettoen mellem stjernespækkede mandskaber som Roma, AC Milan, Juventus, Napoli, Inter og Atalanta. Tilladt for: A.</desc>
@@ -62636,12 +62636,12 @@
     <title lang="da">ATP: Semifinale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 131. 'ATP: Semifinale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
   <programme start="20261017200000 +0000" stop="20261017220500 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP: Semifinale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 132. 'ATP: Semifinale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
   <programme start="20261017220500 +0000" stop="20261018042500 +0000" channel="tv2sportx.dk">
     <title lang="da">VM i banecykling, finaler</title>
     <desc lang="da">Sæson: 2026. Episode: 106. 'VM i banecykling, finaler'. Så er det tid til VM i banecykling på den topmoderne Shanghai Velodrome i Kina. Danmark stiller med et stærkt hold på ni ryttere, og der venter masser af fart, taktik og intense dueller på banen. Med seks herrer og tre kvinder til start bliver det spændende at følge de danske ryttere i kampen om medaljerne mod verdenseliten. Tilladt for: A.</desc>
@@ -62651,17 +62651,17 @@
     <title lang="da">ATP: Semifinale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 131. 'ATP: Semifinale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
   <programme start="20261018062500 +0000" stop="20261018083000 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP: Semifinale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 132. 'ATP: Semifinale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
   <programme start="20261018083000 +0000" stop="20261018103000 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP: Finale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 133. 'ATP: Finale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
   <programme start="20261018103000 +0000" stop="20261018113000 +0000" channel="tv2sportx.dk">
     <title lang="da">WTA: Finale, Wuhan</title>
     <desc lang="da">Sæson: 2026. Episode: 101. 'WTA: Finale, Wuhan'. Verdenseliten samles i Wuhan, hvor der er vigtige point og prestige på spil. Følg med, når stjernerne kæmper om titlen i WTA-turneringen. Tilladt for: A.</desc>
@@ -62701,7 +62701,7 @@
     <title lang="da">ATP: Finale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 133. 'ATP: Finale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
   <programme start="20261018181500 +0000" stop="20261018184000 +0000" channel="tv2sportx.dk">
     <title lang="da">Serie A: Før Juventus-Lazio</title>
     <desc lang="da">Sæson: 2026. Episode: 101. 'Fodbold: LaLiga og Serie A - Studiet'. TV 2s værter, eksperter og reportere er klar med nyheder og analyser om Serie A-kampene. Bliv altid opdateret om Serie A på TV 2.dk. Tilladt for: A.</desc>
@@ -62736,7 +62736,7 @@
     <title lang="da">ATP: Finale, Shanghai</title>
     <desc lang="da">Sæson: 2026. Episode: 133. 'ATP: Finale, Shanghai'. Holger Rune, Carlos Alcaraz og Novak Djokovic er blot nogle af dem, du kan opleve i turneringen fra Shanghai. Der er basis for tennis fra øverste hylde. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
   <programme start="20261015020000 +0000" stop="20261015060000 +0000" channel="viasatultra.dk">
     <title lang="da">Sendeophold</title>
     <desc lang="da">'Sendeophold'. Kanalen sender ikke i øjeblikket. Tilladt for: A.</desc>
@@ -66099,7 +66099,7 @@
       <actor>Juan Perucho</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/wfZYwIVrzX6dVIno88RqBCxG6I.jpg" /></programme>
   <programme start="20261018070100 +0000" stop="20261018071000 +0000" channel="drramasjang.dk">
     <title lang="da">Dino-ranchen III</title>
     <desc lang="da">Sæson: 3. Episode: 16. 'Kloge hjerner tænker som Ike'. Hvad ville du sige til at bo på en gård, hvor alle dyrene er dinosaurer? Besøg familien Cassidys ranch, hvor hver dag byder på nye eventyr, spænding og godt kammeratskab mellem Cassidy-børnene og deres dino'er. Canadisk animationsserie. Medvirkende: Stephanie Filiadi, Ava Ro, Scott Gorman, Athena Karkanis. Tilladt for: A.</desc>
@@ -66478,7 +66478,7 @@
       <actor>Juni Viitanen</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/9RT5KXtlAIPSh1ZvsxiVFXT8zvU.jpg" /></programme>
   <programme start="20261018160000 +0000" stop="20261018160500 +0000" channel="drramasjang.dk">
     <title lang="da">F for Får</title>
     <sub-title lang="da">(14)</sub-title>
@@ -67469,7 +67469,7 @@
 <programme start="20261016093500 +0000" stop="20261016115000 +0000" channel="tv4hitsdenmarkdkdadk.dk"><title>Open Range</title><desc>Charley Waite er cowboy, en fåmælt mand med en fortid, man ikke taler om. Sammen med Mose og den unge mand Button arbejder han for ranchejeren Boss Spearman. Livet er barskt, men fredeligt, indtil de i den lille by Harmonville støder på tyrannen Baxter, og Charley tvinges til at trække på alle sine færdigheder fra sin fortid for at forsvare den kvinde, han elsker.</desc></programme>
 <programme start="20261016115000 +0000" stop="20261016134000 +0000" channel="tv4hitsdenmarkdkdadk.dk"><title>Et sidste race</title><desc>Stjernespækket actionkomedie om streetracinglegenden Dennis, som sammen med ekskonen Tove vil forsøge at afholde teenagedatteren Hanna fra et deltage i et gaderæs. Det bliver starten på et hæsblæsende sidste race igennem Sverige.</desc><icon src="https://image.tmdb.org/t/p/w1280/vydpSD1iKjaNhRpyXeE9WBuLsbT.jpg" /></programme>
 <programme start="20261016134000 +0000" stop="20261016155500 +0000" channel="tv4hitsdenmarkdkdadk.dk"><title>Jerry Maguire</title><desc>Sportsagenten Jerry Maguire er på toppen i en benhård, skruppelløs branche, hvor idrætstalenter sælges som kvæg for uhyrlige beløb til højestbydende.</desc></programme>
-<programme start="20261016155500 +0000" stop="20261016172500 +0000" channel="tv4hitsdenmarkdkdadk.dk"><title>Hachiko - en ven for livet</title><desc>Hver dag venter hunden Hachiko trofast på togstationen på, at hans far kommer hjem. En dag sker der en tragedie, og faren dukker ikke op. Men Hachiko nægter at forlade stationen. Han fortsætter med at vente på stedet i ti år, og historien om den trofaste hund er blevet en legende.</desc></programme>
+<programme start="20261016155500 +0000" stop="20261016172500 +0000" channel="tv4hitsdenmarkdkdadk.dk"><title>Hachiko - en ven for livet</title><desc>Hver dag venter hunden Hachiko trofast på togstationen på, at hans far kommer hjem. En dag sker der en tragedie, og faren dukker ikke op. Men Hachiko nægter at forlade stationen. Han fortsætter med at vente på stedet i ti år, og historien om den trofaste hund er blevet en legende.</desc><icon src="https://image.tmdb.org/t/p/w1280/aM9mqTfQpc9w618hKK6SclJNUcU.jpg" /></programme>
 <programme start="20261016172500 +0000" stop="20261016190000 +0000" channel="tv4hitsdenmarkdkdadk.dk"><title>My Spy</title><desc>Da CIA-agent Jason Jones, JJ blandt venner, degraderes til en lille overvågningsopgave, møder han Sophie, en sød niårig pige med ben i næsen. Modvilligt opdager JJ, at han ikke kan modstå Sophies charme, intelligens og talent for spionage.</desc></programme>
 <programme start="20261016190000 +0000" stop="20261016203000 +0000" channel="tv4hitsdenmarkdkdadk.dk"><title>Maria Wern</title><desc>"Det er en rigtig krimi, som er ondsindet spændende.” skrev Politiken om krimiserien Maria Wern. Hun er en skarp kriminalinspektør på ferieøen Gotland. Og så er hun også enlig mor til to børn, efter at hendes mand omkom i polititjeneste. Maria har evnen til at se bag om facaden og er ikke bange for at tage utraditionelle midler i brug.</desc><episode-num system="xmltv_ns">9.0.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/oE3asL35AgZo7IZ3jPAfz3qXIyQ.jpg" /></programme>
 <programme start="20261016203000 +0000" stop="20261016222500 +0000" channel="tv4hitsdenmarkdkdadk.dk"><title>Cold Pursuit</title><desc>Snerydderen Nels (Liam Neeson) er en helt almindelig mand, der arbejder som snerydder i Colorado. Men da hans søn bliver myrdet, begiver han sig ud på hævntogt efter et narkokartel i Denver, som snart tror, at en rivaliserende bande vil starte en krig. Actionthriller med sort humor hvor også Laura Dern medvirker.</desc></programme>
