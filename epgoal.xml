@@ -331,7 +331,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/8ZO3RSlKnffZkoJ3bk3A3OlUt2j.jpg" /></programme>
   <programme start="20261020072000 +0000" stop="20261020074500 +0000" channel="dr1.dk">
     <title lang="da">Jorden kalder: Problemet med plastik?</title>
     <desc lang="da">Sæson: 2. Episode: 4. 'Problemet med plastik?'. Sorterer du dit skrald? Eller hvad gør du med al den plastik, som du slæber hjem fra supermarkedet? Thøger Kirk følger plastikskraldets rejse hjemme fra sin egen skraldespand og hele vejen til endestationen. For nytter det egentligt noget at vi står og sorterer hjemme i køkkenet med flere forskellige skraldespande? Tilladt for: A.</desc>
@@ -1789,7 +1789,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/b17gdbqd9gTCyofyhRRZTj5wd4I.jpg" /></programme>
   <programme start="20261022225500 +0000" stop="20261022234500 +0000" channel="dr2.dk">
     <title lang="da">Rusland i krig</title>
     <sub-title lang="da">(2:3) Sovjetunionen</sub-title>
@@ -29603,7 +29603,7 @@
       <director>Nathan Williams</director>
     </credits>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/fZPTXnST3c1CIhzR9j97zlOIZSx.jpg" /></programme>
   <programme start="20261023090000 +0000" stop="20261023100000 +0000" channel="nationalgeographic.dk">
     <title lang="da">Vintervejens helte</title>
     <desc lang="da">Sæson: 1. Episode: 10. 'Ekstreme redningsaktioner'. Thord, Bjorn og gutterne samles for at se tilbage på sæsonen. Tilladt for: A.</desc>
@@ -70472,7 +70472,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/f47WxFXQERZocu7DTb1Oy59a1XC.jpg" /></programme>
   <programme start="20261023192000 +0000" stop="20261023193500 +0000" channel="drramasjang.dk">
     <title lang="da">Godnat - nu går vi i seng</title>
     <desc lang="da">'Godnat, nu går vi i seng'. Ramasjang har lagt sig til ro. Tilladt for: A.</desc>
