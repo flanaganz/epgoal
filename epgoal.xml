@@ -5516,7 +5516,7 @@
     <title lang="da">Dance Moms</title>
     <desc lang="da">Sæson: 3. Episode: 29. 'Dance Moms'. Yderst ambitiøse mødre og unge dansere kæmper for succes i et benhårdt konkurrence­miljø, hvor talent, pres og konflikter går hånd i hånd – både på scenen og bag kulisserne. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/dvRovLPE2LJvmdEP4n0jojLBlur.jpg" /></programme>
   <programme start="20261021045000 +0000" stop="20261021054000 +0000" channel="TV3.dk">
     <title lang="da">Chicago Med</title>
     <desc lang="da">Sæson: 11. Episode: 4. 'Found Family'. Charles skynder sig at overbevise en patient om at tage imod behandling, inden det er for sent. Frost knytter bånd til en ung pige, der kæmper med et svækket immunforsvar. Tilladt for: 11.</desc>
@@ -5718,7 +5718,7 @@
     <title lang="da">Dance Moms</title>
     <desc lang="da">Sæson: 3. Episode: 30. 'Dance Moms'. Yderst ambitiøse mødre og unge dansere kæmper for succes i et benhårdt konkurrence­miljø, hvor talent, pres og konflikter går hånd i hånd – både på scenen og bag kulisserne. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/dvRovLPE2LJvmdEP4n0jojLBlur.jpg" /></programme>
   <programme start="20261022045000 +0000" stop="20261022054000 +0000" channel="TV3.dk">
     <title lang="da">Chicago Med</title>
     <desc lang="da">Sæson: 11. Episode: 5. 'What's Hiding in the Dark'. En personlig konflikt mellem Asher og Archer når sit bristepunkt. Tilladt for: 11.</desc>
@@ -5917,7 +5917,7 @@
     <title lang="da">Dance Moms</title>
     <desc lang="da">Sæson: 3. Episode: 31. 'Dance Moms'. Yderst ambitiøse mødre og unge dansere kæmper for succes i et benhårdt konkurrence­miljø, hvor talent, pres og konflikter går hånd i hånd – både på scenen og bag kulisserne. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/dvRovLPE2LJvmdEP4n0jojLBlur.jpg" /></programme>
   <programme start="20261023045000 +0000" stop="20261023054000 +0000" channel="TV3.dk">
     <title lang="da">Chicago Med</title>
     <desc lang="da">Sæson: 11. Episode: 6. 'The Story of Us'. Hemmeligheder afsløres, da Goodwins familie samles for Bert. Ripley og Frost behandler to børn, der er blevet stukket af hvepse i et træhus. Tilladt for: 11.</desc>
@@ -8815,7 +8815,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg" /></programme>
   <programme start="20261021130000 +0000" stop="20261021140000 +0000" channel="kanal5.dk">
     <title lang="da">CSI: NY</title>
     <desc lang="da">Sæson: 9. Episode: 4. 'Unspoken'. Da Lindsay bliver skudt og såret i et attentatforsøg mod en politiker, må CSI-holdet forsøge at finde frem til gerningsmanden, inden han slår til igen. Instruktør: Duane Clark. Medvirkende: Gary Sinise, Sela Ward, Carmine Giovinazzo, Anna Belknap. Tilladt for: 11.</desc>
@@ -8836,7 +8836,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg" /></programme>
   <programme start="20261021140000 +0000" stop="20261021150500 +0000" channel="kanal5.dk">
     <title lang="da">CSI: Miami</title>
     <desc lang="da">Sæson: 6. Episode: 9. 'Stand your ground'. Calleigh er muligvis i store vanskeligheder, da hun er blevet involveret i et skyderi i sin fritid. Imens fører sagen detektiverne på sporet af et andet mord, der er forbundet til narkohandlere. Instruktør: Joe Chappelle. Medvirkende: David Caruso, Emily Procter, Adam Rodriguez, Khandi Alexander. Tilladt for: 11.</desc>
@@ -9033,7 +9033,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg" /></programme>
   <programme start="20261022013500 +0000" stop="20261022024500 +0000" channel="kanal5.dk">
     <title lang="da">Hvor ondskab bor</title>
     <desc lang="da">Sæson: 10. Episode: 9. 'Trapped Abroad With A Psychopath'. Da Eline begynder at date Matthew, virker han charmerende, men snart afslører han sit uhyggelige, hemmelige liv, og hun må kæmpe for at overleve. Tilladt for: 15.</desc>
@@ -9197,7 +9197,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg" /></programme>
   <programme start="20261022130000 +0000" stop="20261022140500 +0000" channel="kanal5.dk">
     <title lang="da">CSI: NY</title>
     <desc lang="da">Sæson: 9. Episode: 7. 'Clue: si'. I forbindelse med opklaringen af en række mord, går det op for CSI-holdet, at gerningsmanden forsøger at udleve brætspillet ”Clue” i virkeligheden – hvor efterforskerne skal forsøge at finde morderens identitet, inden han slår alle de andre deltagere ihjel. Instruktør: Oz Scott. Medvirkende: Gary Sinise, Sela Ward, Carmine Giovinazzo, Anna Belknap. Tilladt for: 11.</desc>
@@ -9218,7 +9218,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg" /></programme>
   <programme start="20261022140500 +0000" stop="20261022151000 +0000" channel="kanal5.dk">
     <title lang="da">CSI: Miami</title>
     <desc lang="da">Sæson: 6. Episode: 10. 'My Nanny'. En barnepige bliver myrdet og blandt de mistænkte i sagen er både medlemmer af den familie, hun arbejdede for, hendes chef, andre barnepiger og hendes ekskæreste. Instruktør: Jonathan Glassner. Medvirkende: David Caruso, Emily Procter, Adam Rodriguez, Khandi Alexander. Tilladt for: 15.</desc>
@@ -9402,7 +9402,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg" /></programme>
   <programme start="20261023013500 +0000" stop="20261023024000 +0000" channel="kanal5.dk">
     <title lang="da">Hvor ondskab bor</title>
     <desc lang="da">Sæson: 10. Episode: 10. 'Like A Monster From The Movies'. Patrick er frygtet af sin søster Misty og kæresten Lena. De undslipper begge med livet i behold, men ikke alle er lige så heldige ... Tilladt for: 15.</desc>
@@ -9570,7 +9570,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg" /></programme>
   <programme start="20261023130500 +0000" stop="20261023140000 +0000" channel="kanal5.dk">
     <title lang="da">CSI: NY</title>
     <desc lang="da">Sæson: 9. Episode: 9. 'Blood out'. Lovatos fortid som undercoveragent indhenter hende i en sag om et dræbt bandemedlem, som hun engang var forelsket i. Instruktør: Sam Hill. Medvirkende: Gary Sinise, Sela Ward, Carmine Giovinazzo, Anna Belknap. Tilladt for: 11.</desc>
@@ -9591,7 +9591,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg" /></programme>
   <programme start="20261023140000 +0000" stop="20261023150500 +0000" channel="kanal5.dk">
     <title lang="da">CSI: Miami</title>
     <desc lang="da">Sæson: 6. Episode: 11. 'Guerillas in the Mist'. Holdet undersøger en sag, hvor tre våbenhandlere er blevet slået ihjel af et nyt højteknologisk våben kaldet ”The Vaporizer”. Og efter Horatio har afhørt direktøren for firmaet, der står bag produktionen af våbnet, dukker hans lig også op. Instruktør: Carey Meyer. Medvirkende: David Caruso, Emily Procter, Adam Rodriguez, Khandi Alexander. Tilladt for: 15.</desc>
@@ -10076,7 +10076,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg" /></programme>
   <programme start="20261025030000 +0000" stop="20261025035000 +0000" channel="kanal5.dk">
     <title lang="da">Hvor ondskab bor</title>
     <desc lang="da">Sæson: 19. Episode: 2. 'I Am Not My Father'. En ung mand vidste, at hans far var et monster og en morder, men han kender han ikke omfanget af sin fars forfærdelige forbrydelser. Tilladt for: 15.</desc>
@@ -10182,7 +10182,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/7rvXsGLwKFc7hVImRciwhW69nwq.jpg" /></programme>
   <programme start="20261021093000 +0000" stop="20261021103000 +0000" channel="tv3.puls.dk">
     <title lang="da">Bitte små hjem</title>
     <desc lang="da">Sæson: 4. Episode: 8. 'Bitte små hjem'. I 'Bitte små hjem' rejser renoveringseksperterne John Weisbarth og Zack Griffinh rundt i hele Amerika for at hjælpe med at indrette og konstruere små drømmeboliger under 50 kvadratmeter. Tilladt for: 11.</desc>
@@ -10381,12 +10381,12 @@
     <title lang="da">Dance Moms</title>
     <desc lang="da">Sæson: 7. Episode: 21. 'Dance Moms'. Yderst ambitiøse mødre og unge dansere kæmper for succes i et benhårdt konkurrence­miljø, hvor talent, pres og konflikter går hånd i hånd – både på scenen og bag kulisserne. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/dvRovLPE2LJvmdEP4n0jojLBlur.jpg" /></programme>
   <programme start="20261022013000 +0000" stop="20261022024000 +0000" channel="tv3.puls.dk">
     <title lang="da">Dance Moms</title>
     <desc lang="da">Sæson: 7. Episode: 22. 'Dance Moms'. Yderst ambitiøse mødre og unge dansere kæmper for succes i et benhårdt konkurrence­miljø, hvor talent, pres og konflikter går hånd i hånd – både på scenen og bag kulisserne. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/dvRovLPE2LJvmdEP4n0jojLBlur.jpg" /></programme>
   <programme start="20261022024000 +0000" stop="20261022040000 +0000" channel="tv3.puls.dk">
     <title lang="da">Shark Tank</title>
     <desc lang="da">Sæson: 14. Episode: 10. 'Shark Tank'. Shark Tank. Medvirkende: Phil Crowley. Tilladt for: 11.</desc>
@@ -10465,7 +10465,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/7rvXsGLwKFc7hVImRciwhW69nwq.jpg" /></programme>
   <programme start="20261022093000 +0000" stop="20261022103000 +0000" channel="tv3.puls.dk">
     <title lang="da">Bitte små hjem</title>
     <desc lang="da">Sæson: 4. Episode: 9. 'Bitte små hjem'. I 'Bitte små hjem' rejser renoveringseksperterne John Weisbarth og Zack Griffinh rundt i hele Amerika for at hjælpe med at indrette og konstruere små drømmeboliger under 50 kvadratmeter. Medvirkende: Brooke Hau. Tilladt for: 11.</desc>
@@ -10668,12 +10668,12 @@
     <title lang="da">Dance Moms</title>
     <desc lang="da">Sæson: 7. Episode: 22. 'Dance Moms'. Yderst ambitiøse mødre og unge dansere kæmper for succes i et benhårdt konkurrence­miljø, hvor talent, pres og konflikter går hånd i hånd – både på scenen og bag kulisserne. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/dvRovLPE2LJvmdEP4n0jojLBlur.jpg" /></programme>
   <programme start="20261023013000 +0000" stop="20261023024000 +0000" channel="tv3.puls.dk">
     <title lang="da">Dance Moms</title>
     <desc lang="da">Sæson: 7. Episode: 23. 'Dance Moms'. Yderst ambitiøse mødre og unge dansere kæmper for succes i et benhårdt konkurrence­miljø, hvor talent, pres og konflikter går hånd i hånd – både på scenen og bag kulisserne. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/dvRovLPE2LJvmdEP4n0jojLBlur.jpg" /></programme>
   <programme start="20261023024000 +0000" stop="20261023040000 +0000" channel="tv3.puls.dk">
     <title lang="da">Shark Tank</title>
     <desc lang="da">Sæson: 14. Episode: 11. 'Shark Tank'. Shark Tank er den amerikanske udgave af "Løvens hule". Investor sidder klar, når nye modige iværksættere træder ind for at lande en investering. Medvirkende: Phil Crowley. Tilladt for: 11.</desc>
@@ -10752,7 +10752,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/7rvXsGLwKFc7hVImRciwhW69nwq.jpg" /></programme>
   <programme start="20261023093000 +0000" stop="20261023103000 +0000" channel="tv3.puls.dk">
     <title lang="da">Bitte små hjem</title>
     <desc lang="da">Sæson: 4. Episode: 10. 'Bitte små hjem'. I 'Bitte små hjem' rejser renoveringseksperterne John Weisbarth og Zack Griffinh rundt i hele Amerika for at hjælpe med at indrette og konstruere små drømmeboliger under 50 kvadratmeter. Medvirkende: Brooke Hau. Tilladt for: 11.</desc>
@@ -10949,12 +10949,12 @@
     <title lang="da">Dance Moms</title>
     <desc lang="da">Sæson: 7. Episode: 23. 'Dance Moms'. Yderst ambitiøse mødre og unge dansere kæmper for succes i et benhårdt konkurrence­miljø, hvor talent, pres og konflikter går hånd i hånd – både på scenen og bag kulisserne. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/dvRovLPE2LJvmdEP4n0jojLBlur.jpg" /></programme>
   <programme start="20261024013000 +0000" stop="20261024024000 +0000" channel="tv3.puls.dk">
     <title lang="da">Dance Moms</title>
     <desc lang="da">Sæson: 7. Episode: 24. 'Dance Moms'. Yderst ambitiøse mødre og unge dansere kæmper for succes i et benhårdt konkurrence­miljø, hvor talent, pres og konflikter går hånd i hånd – både på scenen og bag kulisserne. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/dvRovLPE2LJvmdEP4n0jojLBlur.jpg" /></programme>
   <programme start="20261024024000 +0000" stop="20261024040000 +0000" channel="tv3.puls.dk">
     <title lang="da">Shark Tank</title>
     <desc lang="da">Sæson: 14. Episode: 12. 'Shark Tank'. Shark Tank er den amerikanske udgave af "Løvens hule". Investor sidder klar, når nye modige iværksættere træder ind for at lande en investering. Medvirkende: Phil Crowley. Tilladt for: 11.</desc>
@@ -10995,7 +10995,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/7rvXsGLwKFc7hVImRciwhW69nwq.jpg" /></programme>
   <programme start="20261024062500 +0000" stop="20261024072500 +0000" channel="tv3.puls.dk">
     <title lang="da">Ramsay's Kitchen Nightmares USA</title>
     <desc lang="da">Sæson: 5. Episode: 5. 'Ramsay's Kitchen Nightmares USA'. Gordon revisits three restaurants to find out if they have continued to follow his advice. How have Down City, Classic American and Davide fared in his absence? Medvirkende: Arthur Smith, Kim Seeley, Michael Cabbibo, Gordon Kennedy. Tilladt for: 11.</desc>
@@ -11010,7 +11010,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/7rvXsGLwKFc7hVImRciwhW69nwq.jpg" /></programme>
   <programme start="20261024072500 +0000" stop="20261024083000 +0000" channel="tv3.puls.dk">
     <title lang="da">Ramsay's Kitchen Nightmares USA</title>
     <desc lang="da">Sæson: 5. Episode: 6. 'Ramsay's Kitchen Nightmares USA'. Burger Kitchen køres af en inkompetent ejer, der bruger penge fra sin søns opsparing, for at holde restauranten oppe. Oven i det har han en frustreret kok, dårlig mad, der er for lidt tilberedt og et underskud på flere tusinde dollars hver måned. Medvirkende: Arthur Smith, Kim Seeley, Michael Cabbibo, Gordon Kennedy. Tilladt for: 11.</desc>
@@ -11025,7 +11025,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/7rvXsGLwKFc7hVImRciwhW69nwq.jpg" /></programme>
   <programme start="20261024083000 +0000" stop="20261024094000 +0000" channel="tv3.puls.dk">
     <title lang="da">Ramsay's Kitchen Nightmares USA</title>
     <desc lang="da">Sæson: 5. Episode: 7. 'Ramsay's Kitchen Nightmares USA'. Og nu en afgørelse i Burger Kitchen. Kan restauranten komme oven vande eller ender det hele i en gigantisk fiasko? Medvirkende: Arthur Smith, Kim Seeley, Michael Cabbibo, Gordon Kennedy. Tilladt for: 11.</desc>
@@ -11040,7 +11040,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/7rvXsGLwKFc7hVImRciwhW69nwq.jpg" /></programme>
   <programme start="20261024094000 +0000" stop="20261024104000 +0000" channel="tv3.puls.dk">
     <title lang="da">Ramsay's Kitchen Nightmares USA</title>
     <desc lang="da">Sæson: 5. Episode: 8. 'Greek at the Harbour'. Mickey opnåede den amerikanske drøm, da han åbnede " The Greek at the Harbor", og det startede godt, men de senere år er kvaliteten faldet i samme hastighed, som antallet af gæster. Hvis Ikke Ramsay kan hjælpe, ligner det mest af alt en græsk tragedie. Medvirkende: Arthur Smith, Kim Seeley, Michael Cabbibo, Gordon Kennedy. Tilladt for: 11.</desc>
@@ -11055,7 +11055,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/7rvXsGLwKFc7hVImRciwhW69nwq.jpg" /></programme>
   <programme start="20261024104000 +0000" stop="20261024123500 +0000" channel="tv3.puls.dk">
     <title lang="da">A Godwink Christmas: Miracle of Love</title>
     <desc lang="da">'A Godwink Christmas: Miracle of Love'. Joy og Eric leder begge efter en følelse af mening i livet og mødes under et frivilligt arbejde, hvor Joy gør brug af sine evner som sygeplejerske, og Eric sætter sin skrivefærdigheder på prøve. Instruktør: Heather Hawthorn Doyle. Medvirkende: Katherine Barrell, Alberto Frezza, Josh Ssettuba, Faith Wright. Tilladt for: A.</desc>
@@ -11270,12 +11270,12 @@
     <title lang="da">Diners, Drive-Ins, and Dives</title>
     <desc lang="da">Sæson: 30. Episode: 2. 'Diners, Drive-Ins, and Dives'. Tag med, når Guy Fieri begiver sig ud på en kulinarisk rejse gennem Amerikas bedste diners, drive-ins og dives. Alt imens at seeren inviteres indenfor, bliver ejerne interviewet og menuerne prøvesmagt. Tilladt for: A.</desc>
     <category lang="da">Fritid</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/cghF8jx5p5JOX4Cor5zY1Gmn7xM.jpg" /></programme>
   <programme start="20261021042000 +0000" stop="20261021044000 +0000" channel="6eren.dk">
     <title lang="da">Diners, Drive-Ins, and Dives</title>
     <desc lang="da">Sæson: 32. Episode: 2. 'Takeout: Flavortown Comes Home'. Tag med, når Guy Fieri begiver sig ud på en kulinarisk rejse gennem Amerikas bedste diners, drive-ins og dives. Alt imens at seeren inviteres indenfor, bliver ejerne interviewet og menuerne prøvesmagt. Tilladt for: A.</desc>
     <category lang="da">Fritid</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/cghF8jx5p5JOX4Cor5zY1Gmn7xM.jpg" /></programme>
   <programme start="20261021044000 +0000" stop="20261021053000 +0000" channel="6eren.dk">
     <title lang="da">Deadliest Catch</title>
     <desc lang="da">Sæson: 16. Episode: 10. 'Deadliest Catch'. At være krabbefisker i Alaska er et af verdens farligste jobs. De drager ud på de lunefulde bølger i Beringshavet i jagten på de værdifulde troldkrabber. Medvirkende: Mike Rowe. Tilladt for: 11.</desc>
@@ -11449,7 +11449,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/6cVyVmnIFxqZnCDFd8RR0lcxnY1.jpg" /></programme>
   <programme start="20261021220000 +0000" stop="20261021231000 +0000" channel="6eren.dk">
     <title lang="da">Fast N' Loud</title>
     <desc lang="da">Sæson: 5. Episode: 6. 'Fast N' Loud'. Richard Rawlings gennemsøger de fjerneste egne af Texas i jagten på glemte klassiske biler, han kan købe og restaurere på Gas Monkey Garage i Dallas. Tilladt for: 7.</desc>
@@ -11473,7 +11473,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/6cVyVmnIFxqZnCDFd8RR0lcxnY1.jpg" /></programme>
   <programme start="20261022013500 +0000" stop="20261022024000 +0000" channel="6eren.dk">
     <title lang="da">Salvage Hunters</title>
     <desc lang="da">Sæson: 9. Episode: 11. 'Vintage Retro'. I Tyne og Wear prøver Drew at leve op til en kundes smag for 50'er stil, og han fortrylles af et tidligere munkekloster, hvor et sjældent bakspejl fanger hans opmærksomhed. Tilladt for: A.</desc>
@@ -11488,12 +11488,12 @@
     <title lang="da">Diners, Drive-Ins, and Dives</title>
     <desc lang="da">Sæson: 32. Episode: 3. 'Takeout: Home Delivery'. Tag med, når Guy Fieri begiver sig ud på en kulinarisk rejse gennem Amerikas bedste diners, drive-ins og dives. Alt imens at seeren inviteres indenfor, bliver ejerne interviewet og menuerne prøvesmagt. Tilladt for: A.</desc>
     <category lang="da">Fritid</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/cghF8jx5p5JOX4Cor5zY1Gmn7xM.jpg" /></programme>
   <programme start="20261022042000 +0000" stop="20261022044000 +0000" channel="6eren.dk">
     <title lang="da">Diners, Drive-Ins, and Dives</title>
     <desc lang="da">Sæson: 32. Episode: 4. 'Diners, Drive-Ins, and Dives'. Tag med, når Guy Fieri begiver sig ud på en kulinarisk rejse gennem Amerikas bedste diners, drive-ins og dives. Alt imens at seeren inviteres indenfor, bliver ejerne interviewet og menuerne prøvesmagt. Tilladt for: A.</desc>
     <category lang="da">Fritid</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/cghF8jx5p5JOX4Cor5zY1Gmn7xM.jpg" /></programme>
   <programme start="20261022044000 +0000" stop="20261022053000 +0000" channel="6eren.dk">
     <title lang="da">Deadliest Catch</title>
     <desc lang="da">Sæson: 16. Episode: 12. 'Deadliest Catch'. At være krabbefisker i Alaska er et af verdens farligste jobs. De drager ud på de lunefulde bølger i Beringshavet i jagten på de værdifulde troldkrabber. Medvirkende: Mike Rowe. Tilladt for: 11.</desc>
@@ -11659,7 +11659,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/6cVyVmnIFxqZnCDFd8RR0lcxnY1.jpg" /></programme>
   <programme start="20261022220000 +0000" stop="20261022231500 +0000" channel="6eren.dk">
     <title lang="da">Fast N' Loud</title>
     <desc lang="da">Sæson: 5. Episode: 8. 'Fast N' Loud'. Richard Rawlings gennemsøger de fjerneste egne af Texas i jagten på glemte klassiske biler, som han kan købe og restaurere på Gas Monkey Garage i Dallas. Tilladt for: 7.</desc>
@@ -11680,7 +11680,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/6cVyVmnIFxqZnCDFd8RR0lcxnY1.jpg" /></programme>
   <programme start="20261023013000 +0000" stop="20261023024000 +0000" channel="6eren.dk">
     <title lang="da">Salvage Hunters</title>
     <desc lang="da">Sæson: 9. Episode: 13. 'Vintage Garage'. Drew spiser kirsebær med de store i Cornwall, hvor han overvældes af en samling af klassiske biler, og i Newark finder han en kæmpe samling emaljeskilte fra oliebranchen. Tilladt for: A.</desc>
@@ -11695,12 +11695,12 @@
     <title lang="da">Diners, Drive-Ins, and Dives</title>
     <desc lang="da">Sæson: 30. Episode: 5. 'Standout Seafood'. Tag med, når Guy Fieri begiver sig ud på en kulinarisk rejse gennem Amerikas bedste diners, drive-ins og dives. Alt imens at seeren inviteres indenfor, bliver ejerne interviewet og menuerne prøvesmagt. Tilladt for: A.</desc>
     <category lang="da">Fritid</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/cghF8jx5p5JOX4Cor5zY1Gmn7xM.jpg" /></programme>
   <programme start="20261023042000 +0000" stop="20261023044000 +0000" channel="6eren.dk">
     <title lang="da">Diners, Drive-Ins, and Dives</title>
     <desc lang="da">Sæson: 30. Episode: 5. 'Standout Seafood'. Tag med, når Guy Fieri begiver sig ud på en kulinarisk rejse gennem Amerikas bedste diners, drive-ins og dives. Alt imens at seeren inviteres indenfor, bliver ejerne interviewet og menuerne prøvesmagt. Tilladt for: A.</desc>
     <category lang="da">Fritid</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/cghF8jx5p5JOX4Cor5zY1Gmn7xM.jpg" /></programme>
   <programme start="20261023044000 +0000" stop="20261023053000 +0000" channel="6eren.dk">
     <title lang="da">Deadliest Catch</title>
     <desc lang="da">Sæson: 16. Episode: 14. 'Bering Sea Crash'. At være krabbefisker i Alaska er et af verdens farligste jobs. De drager ud på de lunefulde bølger i Beringshavet i jagten på de værdifulde troldkrabber. Tilladt for: 11.</desc>
@@ -11860,7 +11860,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/6cVyVmnIFxqZnCDFd8RR0lcxnY1.jpg" /></programme>
   <programme start="20261023220000 +0000" stop="20261023231500 +0000" channel="6eren.dk">
     <title lang="da">Fast N' Loud</title>
     <desc lang="da">Sæson: 5. Episode: 10. 'Fast N' Loud'. Richard Rawlings gennemsøger de fjerneste egne af Texas i jagten på glemte klassiske biler, som han kan købe og restaurere på Gas Monkey Garage i Dallas. Tilladt for: A.</desc>
@@ -11873,7 +11873,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/6cVyVmnIFxqZnCDFd8RR0lcxnY1.jpg" /></programme>
   <programme start="20261024002500 +0000" stop="20261024013000 +0000" channel="6eren.dk">
     <title lang="da">Ghost Adventures</title>
     <desc lang="da">Sæson: 11. Episode: 13. 'The Haunted Museum'. Ghost Adventures udfører en helt særlig undersøgelse på Zak Bagans nye museum i Las Vegas. Tilladt for: 15.</desc>
@@ -11881,7 +11881,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/6cVyVmnIFxqZnCDFd8RR0lcxnY1.jpg" /></programme>
   <programme start="20261024013000 +0000" stop="20261024023500 +0000" channel="6eren.dk">
     <title lang="da">Salvage Hunters</title>
     <desc lang="da">Sæson: 9. Episode: 15. 'Cornwall At War'. Drew finder en skat, da han dykker ned i trykkerihistorien i Fleet Street i London, og i Devon plejer han sin lidenskab for genbrugs-arkitektur. Tilladt for: A.</desc>
@@ -11896,12 +11896,12 @@
     <title lang="da">Diners, Drive-Ins, and Dives</title>
     <desc lang="da">Sæson: 32. Episode: 7. 'Takeout: Cross-Country Delivery'. Tag med, når Guy Fieri begiver sig ud på en kulinarisk rejse gennem Amerikas bedste diners, drive-ins og dives. Alt imens at seeren inviteres indenfor, bliver ejerne interviewet og menuerne prøvesmagt. Tilladt for: A.</desc>
     <category lang="da">Fritid</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/cghF8jx5p5JOX4Cor5zY1Gmn7xM.jpg" /></programme>
   <programme start="20261024042000 +0000" stop="20261024044000 +0000" channel="6eren.dk">
     <title lang="da">Diners, Drive-Ins, and Dives</title>
     <desc lang="da">Sæson: 32. Episode: 8. 'International Infusion'. Tag med, når Guy Fieri begiver sig ud på en kulinarisk rejse gennem Amerikas bedste diners, drive-ins og dives. Alt imens at seeren inviteres indenfor, bliver ejerne interviewet og menuerne prøvesmagt. Tilladt for: A.</desc>
     <category lang="da">Fritid</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/cghF8jx5p5JOX4Cor5zY1Gmn7xM.jpg" /></programme>
   <programme start="20261024044000 +0000" stop="20261024052500 +0000" channel="6eren.dk">
     <title lang="da">Wheeler Dealers</title>
     <desc lang="da">Sæson: 9. Episode: 3. 'Wheeler Dealers'. Mike køber en af de billigste M5'ere i Storbritannien - men den er i dårlig stand og mangler akut kærlighed. Edd må restaurere den nænsomt og billigt for at tjene på den. Medvirkende: Paul Brackley, David Cashion. Tilladt for: A.</desc>
@@ -12067,7 +12067,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/6cVyVmnIFxqZnCDFd8RR0lcxnY1.jpg" /></programme>
   <programme start="20261025001000 +0000" stop="20261025005500 +0000" channel="6eren.dk">
     <title lang="da">Fast N' Loud</title>
     <desc lang="da">Sæson: 5. Episode: 12. 'Fast N' Loud'. Richard Rawlings gennemsøger de fjerneste egne af Texas, i jagten på glemte klassiske biler, som han kan købe og restaurere på Gas Monkey Garage i Dallas. Tilladt for: 11.</desc>
@@ -12091,7 +12091,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/6cVyVmnIFxqZnCDFd8RR0lcxnY1.jpg" /></programme>
   <programme start="20261025023000 +0000" stop="20261025031500 +0000" channel="6eren.dk">
     <title lang="da">Deadliest Catch</title>
     <desc lang="da">Sæson: 16. Episode: 5. 'Deadliest Catch'. At være krabbefisker i Alaska er et af verdens farligste jobs. De drager ud på de lunefulde bølger i Beringshavet i jagten på de værdifulde troldkrabber. Medvirkende: Mike Rowe. Tilladt for: 11.</desc>
@@ -12577,7 +12577,7 @@
       <actor>Chelsea Alden</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/e50cOSOZAlshvaYuE22LecYfSKg.jpg" /></programme>
   <programme start="20261021192500 +0000" stop="20261021195000 +0000" channel="nickelodeon.dk">
     <title lang="da">iCarly</title>
     <desc lang="da">Sæson: 3. Episode: 18. 'Hedebølge'. Da en hedebølge rammer Seattle og strømmen går, kommer Spencer til undsætning med et norsk klimaanlæg. Instruktør: Steve Hoefer. Medvirkende: Miranda Cosgrove, Jennette McCurdy, Nathan Kress, Jerry Trainor. Tilladt for: 7.</desc>
@@ -12598,7 +12598,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/e50cOSOZAlshvaYuE22LecYfSKg.jpg" /></programme>
   <programme start="20261021195000 +0000" stop="20261021201500 +0000" channel="nickelodeon.dk">
     <title lang="da">Victorious</title>
     <desc lang="da">Sæson: 3. Episode: 12. 'Blondinebanden'. Til en filmoptagelse har Cat en blod paryk og blå kontaktlinser. Hun møder en dreng, og de kan med det samme lide hinanden. Men da Cat opdager, at han tror hun ser sådan ud rigtigt, er hun bange for at han ikke kan lide den rigtige Cat. Instruktør: Steve Hoefer. Medvirkende: Victoria Justice, Leon Thomas III, Matt Bennett, Elizabeth Gillies. Tilladt for: A.</desc>
@@ -13283,7 +13283,7 @@
       <actor>Dorian Kingi</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/e50cOSOZAlshvaYuE22LecYfSKg.jpg" /></programme>
   <programme start="20261022192000 +0000" stop="20261022194500 +0000" channel="nickelodeon.dk">
     <title lang="da">iCarly</title>
     <desc lang="da">Sæson: 4. Episode: 5. 'På frierfødder'. Efter en iCarly-fan frier til sin kæreste live på netshowet, bliver slænget nærmest tvunget til at gå med til brylluppet. Men da bruden får kolde fødder, må Carly komme til undsætning. Instruktør: Steve Hoefer. Medvirkende: Miranda Cosgrove, Jennette McCurdy, Nathan Kress, Jerry Trainor. Tilladt for: A.</desc>
@@ -13301,7 +13301,7 @@
       <actor>Joe Dietl</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/e50cOSOZAlshvaYuE22LecYfSKg.jpg" /></programme>
   <programme start="20261022194500 +0000" stop="20261022201000 +0000" channel="nickelodeon.dk">
     <title lang="da">Victorious</title>
     <desc lang="da">Sæson: 4. Episode: 2. 'Hambone-kongen'. Efter Robbie har lagt en video ud på nettet med hamboning (rytmiske klask på lår og knæ), bliver han udfordret til titlen Hambone King. Instruktør: Russ Reinsel. Medvirkende: Victoria Justice, Leon Thomas III, Matt Bennett, Elizabeth Gillies. Tilladt for: A.</desc>
@@ -14009,7 +14009,7 @@
       <actor>Jason Karasev</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/e50cOSOZAlshvaYuE22LecYfSKg.jpg" /></programme>
   <programme start="20261023192500 +0000" stop="20261023195000 +0000" channel="nickelodeon.dk">
     <title lang="da">iCarly</title>
     <desc lang="da">Sæson: 4. Episode: 3. 'iLaver drengestreger'. Da de andre driller Carly med, at hun aldrig har lavet fis, beder hun Spencer om hjælp med at lave fis med Sam og Freddie. Men da Spencer får smag for det, kan han ikke stoppe igen. Vennerne må finde en måde at stoppe ham på. Instruktør: Adam Weissman. Medvirkende: Miranda Cosgrove, Jennette McCurdy, Nathan Kress, Jerry Trainor. Tilladt for: A.</desc>
@@ -14027,7 +14027,7 @@
       <actor>Caroline Choi</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/e50cOSOZAlshvaYuE22LecYfSKg.jpg" /></programme>
   <programme start="20261023195000 +0000" stop="20261023201500 +0000" channel="nickelodeon.dk">
     <title lang="da">Victorious</title>
     <desc lang="da">Sæson: 4. Episode: 3. 'Ikke en date!'. Tori vinder en konkurrence om at synge til åbningen af et stort music-awardshow, men produceren vil ændre både hendes udseende og hendes væremåde. Tori går med til det, men hun kan ikke lide sit nye image. Instruktør: Steve Hoefer. Medvirkende: Victoria Justice, Leon Thomas III, Matt Bennett, Elizabeth Gillies. Tilladt for: A.</desc>
@@ -14761,7 +14761,7 @@
       <actor>Kayslee Collins</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/e50cOSOZAlshvaYuE22LecYfSKg.jpg" /></programme>
   <programme start="20261024192500 +0000" stop="20261024195000 +0000" channel="nickelodeon.dk">
     <title lang="da">iCarly</title>
     <desc lang="da">Sæson: 4. Episode: 8. 'iSkam på Nevel'. En onlinevideo om Nevel Papperman, der verbalt overfuser en lille pige i et supermarked, gør ham til en af verdens mest forhadte børn. Instruktør: Russ Reinsel. Medvirkende: Miranda Cosgrove, Jennette McCurdy, Nathan Kress, Jerry Trainor. Tilladt for: A.</desc>
@@ -14779,7 +14779,7 @@
       <actor>Angel Garcia</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/e50cOSOZAlshvaYuE22LecYfSKg.jpg" /></programme>
   <programme start="20261024195000 +0000" stop="20261024201000 +0000" channel="nickelodeon.dk">
     <title lang="da">Victorious</title>
     <desc lang="da">Sæson: 4. Episode: 5. 'Offline'. Sikowitz udfordrer eleverne til at gå en uge uden deres telefoner, bærbare eller andre elektroniske apparater. De accepter udfordringen, men det er ikke så let, som de troede. Instruktør: Adam Weissman. Medvirkende: Victoria Justice, Leon Thomas III, Matt Bennett, Elizabeth Gillies. Tilladt for: A.</desc>
@@ -26434,7 +26434,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/utkP2wpXIxu6R1NZaxq2DHYOd3e.jpg" /></programme>
   <programme start="20261021083500 +0000" stop="20261021093000 +0000" channel="tv3max.dk">
     <title lang="da">Skrotjægerne</title>
     <desc lang="da">Sæson: 12. Episode: 7. 'American Pickers'. Fyrene sætter tusinder af dollars på linjen i håbet om at slå en handel af med en hård sælger, og så møder de også Hubba, en rockabilly-præst med mange talenter. Tilladt for: 11.</desc>
@@ -26509,7 +26509,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/utkP2wpXIxu6R1NZaxq2DHYOd3e.jpg" /></programme>
   <programme start="20261021154000 +0000" stop="20261021164000 +0000" channel="tv3max.dk">
     <title lang="da">Skrotjægerne</title>
     <desc lang="da">Sæson: 18. Episode: 14. 'Bombshells and Silk'. Mike og Frank er skrotjægere, der rejser landet rundt, og er bogstaveligt talt klar til at rejse hvorhen det skal være, for at finde antikt guld. Med Danielle hjælp, lander de ofte i en komisk suppedas. Tilladt for: 11.</desc>
@@ -26615,7 +26615,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/utkP2wpXIxu6R1NZaxq2DHYOd3e.jpg" /></programme>
   <programme start="20261022064500 +0000" stop="20261022074000 +0000" channel="tv3max.dk">
     <title lang="da">Ice Road Truckers</title>
     <desc lang="da">Sæson: 10. Episode: 5. 'The Rookie'. Grønskoldningen Steph Custance forsøger at færdiggøre sin første opgave i sin karriere som lastbilschauffør. Alex Debogorski kører ind i en vejspærre. Tilladt for: 7.</desc>
@@ -26636,7 +26636,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/utkP2wpXIxu6R1NZaxq2DHYOd3e.jpg" /></programme>
   <programme start="20261022083500 +0000" stop="20261022093000 +0000" channel="tv3max.dk">
     <title lang="da">Skrotjægerne</title>
     <desc lang="da">Sæson: 17. Episode: 3. 'My Sweet Ford'. Mike og Frank finder en klassisk 33 Ford, der har ligget hen så længe, at et træ har vokset sig omkring den. Men der er ikke noget, der kan standse fyrene fra at redde denne sjældne bil. Instruktør: Jason Romeo. Tilladt for: 11.</desc>
@@ -26713,7 +26713,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/utkP2wpXIxu6R1NZaxq2DHYOd3e.jpg" /></programme>
   <programme start="20261022160000 +0000" stop="20261022170000 +0000" channel="tv3max.dk">
     <title lang="da">Skrotjægerne</title>
     <desc lang="da">Sæson: 18. Episode: 15. 'Brothers and Burlesque'. Mike og Frank er skrotjægere, der rejser landet rundt, og er bogstaveligt talt klar til at rejse hvorhen det skal være, for at finde antikt guld. Med Danielle hjælp, lander de ofte i en komisk suppedas. Tilladt for: 11.</desc>
@@ -26809,7 +26809,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/utkP2wpXIxu6R1NZaxq2DHYOd3e.jpg" /></programme>
   <programme start="20261023055000 +0000" stop="20261023064500 +0000" channel="tv3max.dk">
     <title lang="da">Pawn Stars</title>
     <desc lang="da">Sæson: 20. Episode: 2. 'Triple Crown Pawn'. Corey satser alt på et originalt Triple Crown-trofæ. Senere tilkalder drengene Rick Dale for at redde, hvad der kunne være en af de første forlystelser fra Coney Island. Medvirkende: Steve Grad. Tilladt for: 7.</desc>
@@ -26820,7 +26820,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/utkP2wpXIxu6R1NZaxq2DHYOd3e.jpg" /></programme>
   <programme start="20261023064500 +0000" stop="20261023074000 +0000" channel="tv3max.dk">
     <title lang="da">Rust Valley Restorers</title>
     <desc lang="da">Sæson: 1. Episode: 4. 'Fra Rustang til Mustang'. Mike restaurerer en Mustang fra 1966 i håbet om at finde en køber med dybe lommer og Connor hjælper sin far med at sælge en Plymouth Satellite fra 1968. Instruktører: Matthew Shewchuk, Tyson Hepburn. Medvirkende: Michael Daingerfield. Tilladt for: A.</desc>
@@ -26843,7 +26843,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/utkP2wpXIxu6R1NZaxq2DHYOd3e.jpg" /></programme>
   <programme start="20261023083500 +0000" stop="20261023093000 +0000" channel="tv3max.dk">
     <title lang="da">Skrotjægerne</title>
     <desc lang="da">Sæson: 12. Episode: 12. 'Skrotjægerne'. Mike falder over en hundrede år gammel Jell-O-isbil, som er flere tusind dollars værd, og Robbie lægger et stort bud på en ikonisk Ford. Tilladt for: 11.</desc>
@@ -26909,7 +26909,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/utkP2wpXIxu6R1NZaxq2DHYOd3e.jpg" /></programme>
   <programme start="20261023160000 +0000" stop="20261023182500 +0000" channel="tv3max.dk">
     <title lang="da">Sportstalk</title>
     <desc lang="da">Sæson: 2026. Episode: 36. 'Sportstalk'. Sportstalk er det ugentlige fredagsmagasin, der med et stærkt panel bestående af store personligheder tager fat i de sportshistorier fra ugens løb, som for alvor har sat gang i snakken ved kaffeautomaten. Vi garanterer gode grin og skarpe holdninger! Tilladt for: A.</desc>
@@ -27827,12 +27827,12 @@
     <title lang="da">My Cat From Hell</title>
     <desc lang="da">Sæson: 9. Episode: 12. 'Meow Mates'. Jackson besøger en "kat-bassadør", der sammen med sin ejer hjælper katte med særlige behov med at finde blivende hjem. Og Jackson besøger et utroligt fængselsprogram. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/ty2mOZa6ilRNr00G8NSWqCMsTpa.jpg" /></programme>
   <programme start="20261021040000 +0000" stop="20261021045000 +0000" channel="animalplanet.dk">
     <title lang="da">Crikey! It's the Irwins</title>
     <desc lang="da">Sæson: 1. Episode: 7. 'It's A Baby Giraffe!'. Dokumentarserie. Terry, Bindi og Robert Irwin fører Steve Irwins arv videre med deres arbejde i den omfattende australske zoo. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/xYeFIhvHUoQyzGMctGhbEdqBbH6.jpg" /></programme>
   <programme start="20261021045000 +0000" stop="20261021054000 +0000" channel="animalplanet.dk">
     <title lang="da">The Zoo</title>
     <desc lang="da">Sæson: 4. Episode: 13. 'Great Snakes!'. Efter at mere end 100 giftige slanger bliver fjernet fra et privat hjem, er det op til zoo'en at tage sig af dem. Vi møder også to nye kalve! Tilladt for: A.</desc>
@@ -27847,7 +27847,7 @@
     <title lang="da">Dr. Jeff: Rocky Mountain Vet</title>
     <desc lang="da">Sæson: 2. Episode: 7. 'Tender Loving Care'. Dr. Jeff kæmper for at redde en skægagame, der har fået et slagtilfælde, og Dr. Amy sættes på prøve, da en rutinemæssig kastrering af en kat bliver kompliceret. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/bXH1poyfvo3QqR5oJH2a2cAHskh.jpg" /></programme>
   <programme start="20261021072500 +0000" stop="20261021082000 +0000" channel="animalplanet.dk">
     <title lang="da">Tanked</title>
     <desc lang="da">Sæson: 7. Episode: 15. 'Anthony Davis' High Brow Tank'. NBA-superstjernen Anthony Davis beder Wayde og Brett om at omdanne et helt lokale til et akvarium! Kan de levere vinderakvariet? Tilladt for: 11.</desc>
@@ -27913,17 +27913,17 @@
     <title lang="da">My Cat From Hell</title>
     <desc lang="da">Sæson: 5. Episode: 15. 'Hungry Like The Wolf'. Jackson konfronterer Marley, som efterlader et blodbad overalt - og et hold hunkatte, som virker fast besluttede på at ødelægge deres hjem. Se Jackson udrette mirakler. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/ty2mOZa6ilRNr00G8NSWqCMsTpa.jpg" /></programme>
   <programme start="20261021150000 +0000" stop="20261021160000 +0000" channel="animalplanet.dk">
     <title lang="da">Crikey! It's the Irwins</title>
     <desc lang="da">Sæson: 1. Episode: 7. 'It's A Baby Giraffe!'. Dokumentarserie. Terry, Bindi og Robert Irwin fører Steve Irwins arv videre med deres arbejde i den omfattende australske zoo. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/xYeFIhvHUoQyzGMctGhbEdqBbH6.jpg" /></programme>
   <programme start="20261021160000 +0000" stop="20261021170000 +0000" channel="animalplanet.dk">
     <title lang="da">Dr. Jeff: Rocky Mountain Vet</title>
     <desc lang="da">Sæson: 2. Episode: 6. 'Mission Beyond'. Dr. Jeff og hans hold drager til Mexico, hvor mange dyr lider nød, og dyrlægen er for dyr for de fleste, for at drive en mobil klinik, hvor de hjælper så mange, de kan. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/bXH1poyfvo3QqR5oJH2a2cAHskh.jpg" /></programme>
   <programme start="20261021170000 +0000" stop="20261021180000 +0000" channel="animalplanet.dk">
     <title lang="da">Insane Pools: Off The Deep End</title>
     <desc lang="da">Sæson: 2. Episode: 6. 'Zen &amp; The Art Of Pools'. Prisvindende swinningpool-designer Lucas Congdon laver helt almindelige haver om til eksotiske oaser. I Parrish, Florida ønsker et par ro og afslapning til at finde deres indre ro, men Lucas' hold er ikke helt så meget i zen.. Kun fantasien og kundens økonomi sætter grænsen. Det sidste er til tider Lucas' største udfordring. Tilladt for: A.</desc>
@@ -27948,7 +27948,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/63m3hIBRTSV8ZemUtdL7IsmIwC5.jpg" /></programme>
   <programme start="20261021200000 +0000" stop="20261021210000 +0000" channel="animalplanet.dk">
     <title lang="da">Caught Red Handed</title>
     <desc lang="da">Sæson: 1. Episode: 2. 'Caught Red Handed'. Texas Vildtvogtere går undercover for at standse sortbørshandel med vilde dyr - og en sortbørshandler går amok, da han bliver taget. Medvirkende: Rider. Tilladt for: A.</desc>
@@ -28030,7 +28030,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/63m3hIBRTSV8ZemUtdL7IsmIwC5.jpg" /></programme>
   <programme start="20261022031500 +0000" stop="20261022040000 +0000" channel="animalplanet.dk">
     <title lang="da">My Cat From Hell</title>
     <desc lang="da">Sæson: 2. Episode: 1. 'Terrorizing My Clients'. Kan adfærdseksperten Jackson Galaxy hjælpe et par, hvis aggressive kat ødelægger deres forhold, og en arrig mis, som truer sin ejers kunder? Tilladt for: 7.</desc>
@@ -28038,12 +28038,12 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/ty2mOZa6ilRNr00G8NSWqCMsTpa.jpg" /></programme>
   <programme start="20261022040000 +0000" stop="20261022045000 +0000" channel="animalplanet.dk">
     <title lang="da">Crikey! It's the Irwins</title>
     <desc lang="da">Sæson: 1. Episode: 8. 'Robert's Baby Kangaroo'. Terry, Bindi og Rober Irwin fører Steve Irwins arv videre med deres arbejde i den omfattende australske zoo. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/xYeFIhvHUoQyzGMctGhbEdqBbH6.jpg" /></programme>
   <programme start="20261022045000 +0000" stop="20261022054000 +0000" channel="animalplanet.dk">
     <title lang="da">The Zoo</title>
     <desc lang="da">Sæson: 4. Episode: 14. 'Wild Dogs On The Move'. Tre sjældne, asiatiske vildhunde ankommer til zoo'en. En tinamu-kylling bliver håndopdrættet, og et værktøj bliver gjort klar til at udtrække en stødtand fra et sødt hjortesvin. Tilladt for: A.</desc>
@@ -28061,7 +28061,7 @@
     <title lang="da">Dr. Jeff: Rocky Mountain Vet</title>
     <desc lang="da">Sæson: 2. Episode: 8. 'Risky Business'. Der er ikke noget, der hedder "en almindelig dag" på dyreklinikken Planned Pethood Plus. For utallige klienter og deres kæledyr er den specielle dyrlæge, dr. Jeff Young sidste håb. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/bXH1poyfvo3QqR5oJH2a2cAHskh.jpg" /></programme>
   <programme start="20261022072500 +0000" stop="20261022082000 +0000" channel="animalplanet.dk">
     <title lang="da">Tanked</title>
     <desc lang="da">Sæson: 12. Episode: 14. 'Adrian Petersons MVP-tank'. ATM tager fat på endnu en tank, og denne gang er det til en af NFL's mest værdifulde spillere, Adrian Peterson, som ønsker sig et unikt akvarium. De skal ikke kun imponere Adrian, men også hans kone. Hun vil have, at tanken skal være fuldstændig "bling-out" og stadig passe perfekt ind i deres væg. Tilladt for: A.</desc>
@@ -28119,17 +28119,17 @@
     <title lang="da">My Cat From Hell</title>
     <desc lang="da">Sæson: 5. Episode: 16. 'Chloe The Bully'. Jackson har travlt med to katte, en som mobber og en anden som skider utroligt meget. En tredje kat gør sit bedste for at ødeægge sit hjem. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/ty2mOZa6ilRNr00G8NSWqCMsTpa.jpg" /></programme>
   <programme start="20261022150000 +0000" stop="20261022160000 +0000" channel="animalplanet.dk">
     <title lang="da">Crikey! It's the Irwins</title>
     <desc lang="da">Sæson: 1. Episode: 8. 'Robert's Baby Kangaroo'. Terry, Bindi og Rober Irwin fører Steve Irwins arv videre med deres arbejde i den omfattende australske zoo. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/xYeFIhvHUoQyzGMctGhbEdqBbH6.jpg" /></programme>
   <programme start="20261022160000 +0000" stop="20261022170000 +0000" channel="animalplanet.dk">
     <title lang="da">Dr. Jeff: Rocky Mountain Vet</title>
     <desc lang="da">Sæson: 2. Episode: 7. 'Tender Loving Care'. Dr. Jeff kæmper for at redde en skægagame, der har fået et slagtilfælde, og Dr. Amy sættes på prøve, da en rutinemæssig kastrering af en kat bliver kompliceret. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/bXH1poyfvo3QqR5oJH2a2cAHskh.jpg" /></programme>
   <programme start="20261022170000 +0000" stop="20261022180000 +0000" channel="animalplanet.dk">
     <title lang="da">Insane Pools: Off The Deep End</title>
     <desc lang="da">Sæson: 2. Episode: 10. 'Castle by the sea'. Lucas skal bygge en pool, der er et romersk palads værdigt, ved den Mexicanske Golf. Det er langt uden for hans komfortområde, og han søger hjælp hos kejser Caesar. Tilladt for: A.</desc>
@@ -28147,7 +28147,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/63m3hIBRTSV8ZemUtdL7IsmIwC5.jpg" /></programme>
   <programme start="20261022200000 +0000" stop="20261022210000 +0000" channel="animalplanet.dk">
     <title lang="da">Calm Before The Storm</title>
     <desc lang="da">Sæson: 1. Episode: 3. 'Calm Before The Storm'. På tværs af Texas standses patruljebåde af rekord voldsomme storme og oversvømmelser. Redningshold redder adskillige mennesker fra farlige vandstrømme. Medvirkende: Rider, Kegan Gould. Tilladt for: A.</desc>
@@ -28227,7 +28227,7 @@
     <title lang="da">Alaskan Bush People</title>
     <desc lang="da">Sæson: 3. Episode: 18. 'Bear With Us'. Langt ude i Alaskas vildmark bor en familie født og opvokset i naturen. Billy og Amy Brown og deres 7 børn bor uden forbindelse til omverdenen og må samarbejde for at overleve. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/63m3hIBRTSV8ZemUtdL7IsmIwC5.jpg" /></programme>
   <programme start="20261023031500 +0000" stop="20261023040000 +0000" channel="animalplanet.dk">
     <title lang="da">My Cat From Hell</title>
     <desc lang="da">Sæson: 2. Episode: 2. 'Mad Max'. En bengalkat forstyrrer freden mellem vennerne Shanna og Lori, og en hankat med en grim side bekymrer en kommende mor. Kan Jackson hjælpe dem ud af deres kattepine? Tilladt for: 7.</desc>
@@ -28235,7 +28235,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/ty2mOZa6ilRNr00G8NSWqCMsTpa.jpg" /></programme>
   <programme start="20261023040000 +0000" stop="20261023045000 +0000" channel="animalplanet.dk">
     <title lang="da">Crikey! It's the Irwins</title>
     <desc lang="da">Sæson: 1. Episode: 9. 'Race To Save The Platypus'. Dokumentarserie. Terry, Bindi og Robert Irwin fører Steve Irwins arv videre med deres arbejde i den omfattende australske zoo. Instruktør: Steve Geddes. Tilladt for: A.</desc>
@@ -28243,7 +28243,7 @@
       <director>Steve Geddes</director>
     </credits>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/xYeFIhvHUoQyzGMctGhbEdqBbH6.jpg" /></programme>
   <programme start="20261023045000 +0000" stop="20261023054000 +0000" channel="animalplanet.dk">
     <title lang="da">The Zoo</title>
     <desc lang="da">Sæson: 4. Episode: 3. 'Tiger's Day At The Dentist'. Personalet håber på en succesrig avlssæson, da giraffen Mshangao møder flokkens hunner. Der skal bruges elværktøj til en rodbehandling på en amurtiger. Tilladt for: A.</desc>
@@ -28264,7 +28264,7 @@
       <actor>John Schwab</actor>
     </credits>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/bXH1poyfvo3QqR5oJH2a2cAHskh.jpg" /></programme>
   <programme start="20261023072500 +0000" stop="20261023082000 +0000" channel="animalplanet.dk">
     <title lang="da">Tanked</title>
     <desc lang="da">Sæson: 7. Episode: 13. 'Tanked'. Direktøren for en familieejet vingård efterspørger et smukt akvarium med et rev til sin stue - og det skal stå klar inden høstsæsonen. Kan gutterne klare opgaven til tiden? Medvirkende: Heather King. Tilladt for: A.</desc>
@@ -28319,7 +28319,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/ty2mOZa6ilRNr00G8NSWqCMsTpa.jpg" /></programme>
   <programme start="20261023150000 +0000" stop="20261023160000 +0000" channel="animalplanet.dk">
     <title lang="da">Crikey! It's the Irwins</title>
     <desc lang="da">Sæson: 1. Episode: 9. 'Race To Save The Platypus'. Dokumentarserie. Terry, Bindi og Robert Irwin fører Steve Irwins arv videre med deres arbejde i den omfattende australske zoo. Instruktør: Steve Geddes. Tilladt for: A.</desc>
@@ -28327,12 +28327,12 @@
       <director>Steve Geddes</director>
     </credits>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/xYeFIhvHUoQyzGMctGhbEdqBbH6.jpg" /></programme>
   <programme start="20261023160000 +0000" stop="20261023170000 +0000" channel="animalplanet.dk">
     <title lang="da">Dr. Jeff: Rocky Mountain Vet</title>
     <desc lang="da">Sæson: 2. Episode: 8. 'Risky Business'. Der er ikke noget, der hedder "en almindelig dag" på dyreklinikken Planned Pethood Plus. For utallige klienter og deres kæledyr er den specielle dyrlæge, dr. Jeff Young sidste håb. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/bXH1poyfvo3QqR5oJH2a2cAHskh.jpg" /></programme>
   <programme start="20261023170000 +0000" stop="20261023180000 +0000" channel="animalplanet.dk">
     <title lang="da">Insane Pools: Off The Deep End</title>
     <desc lang="da">Sæson: 2. Episode: 8. 'Hidden party zone'. Lucas påtager sig en nærmest umulig opgave med at omdanne en lillebitte baghave til et luksuriøst, femstjernet poolområde, der er et feriested værdigt. Tilladt for: A.</desc>
@@ -28347,7 +28347,7 @@
     <title lang="da">Alaskan Bush People</title>
     <desc lang="da">Sæson: 3. Episode: 18. 'Bear With Us'. Langt ude i Alaskas vildmark bor en familie født og opvokset i naturen. Billy og Amy Brown og deres 7 børn bor uden forbindelse til omverdenen og må samarbejde for at overleve. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/63m3hIBRTSV8ZemUtdL7IsmIwC5.jpg" /></programme>
   <programme start="20261023200000 +0000" stop="20261023210000 +0000" channel="animalplanet.dk">
     <title lang="da">Gulf Recon</title>
     <desc lang="da">Sæson: 1. Episode: 4. 'Gulf Recon'. Et specialteam af texanske vildtvogtere bruger en uge i en flydende hytte for at standse narkotikasmugling over grænsen. Medvirkende: Rider. Tilladt for: A.</desc>
@@ -28408,12 +28408,12 @@
     <title lang="da">Alaskan Bush People</title>
     <desc lang="da">Sæson: 13. Episode: 6. 'Browntown Boomtown'. Mens familien bygger en ny "Boomtown"-inspireret basecamp, rammer en uventet tragedie, og familien må sørge over en af sine egne. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/63m3hIBRTSV8ZemUtdL7IsmIwC5.jpg" /></programme>
   <programme start="20261024031500 +0000" stop="20261024040000 +0000" channel="animalplanet.dk">
     <title lang="da">My Cat From Hell</title>
     <desc lang="da">Sæson: 2. Episode: 3. 'On the War Path'. Voldelige katte forhindrer et par i at flytte sammen, og en krigsveterans kat er voldelig over for hans kærestes hund. De søger råd hos Jackson. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/ty2mOZa6ilRNr00G8NSWqCMsTpa.jpg" /></programme>
   <programme start="20261024040000 +0000" stop="20261024045000 +0000" channel="animalplanet.dk">
     <title lang="da">Pit Bulls &amp; Parolees</title>
     <desc lang="da">Sæson: 8. Episode: 1. 'New Frontiers'. En ny sæson betyder nye udfordringer, da Villalobos Rescue Center udvider uden for New Orleans med et sattelit-internat i det nærliggende Assumption Parish. Tilladt for: A.</desc>
@@ -28455,7 +28455,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/bXH1poyfvo3QqR5oJH2a2cAHskh.jpg" /></programme>
   <programme start="20261024091500 +0000" stop="20261024101000 +0000" channel="animalplanet.dk">
     <title lang="da">Dr. Jeff: Rocky Mountain Vet</title>
     <desc lang="da">Sæson: 1. Episode: 9. 'Miracle Cat'. Dyrlæge Dr. Jeff Young og hans team redder tusindvis af dyr på en af USA's travleste dyrlægekliniker. Medvirkende: John Schwab. Tilladt for: A.</desc>
@@ -28463,17 +28463,17 @@
       <actor>John Schwab</actor>
     </credits>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/bXH1poyfvo3QqR5oJH2a2cAHskh.jpg" /></programme>
   <programme start="20261024101000 +0000" stop="20261024110500 +0000" channel="animalplanet.dk">
     <title lang="da">Crikey! It's the Irwins</title>
     <desc lang="da">Sæson: 3. Episode: 9. 'Komodo Connection'. Robert ser nervøst til da komodovaranen Indah møder en potentiel parringspartner. Plus, Terri håndterer en pytonslange med en usædvanlig knude. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/xYeFIhvHUoQyzGMctGhbEdqBbH6.jpg" /></programme>
   <programme start="20261024110500 +0000" stop="20261024120000 +0000" channel="animalplanet.dk">
     <title lang="da">Crikey! It's the Irwins</title>
     <desc lang="da">Sæson: 3. Episode: 10. 'Baghave Krokodilleredning'. Det er en stor dag for den zoologiske have da de tager imod fire sumatraelefanter. Robert redder en krokodille fra en forstadshave og Bindi og Chandler har en overraskelse. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/xYeFIhvHUoQyzGMctGhbEdqBbH6.jpg" /></programme>
   <programme start="20261024120000 +0000" stop="20261024130000 +0000" channel="animalplanet.dk">
     <title lang="da">Return Of The Outback Beast</title>
     <desc lang="da">Sæson: 1. Episode: 3. 'Return Of The Outback Beast'. Fiskeren Jeremy Wade tager til Australien for at undersøge et kæmpe ferskvandsrovdyr, som mange troede var uddød. Hvad mon han finder? Instruktør: Jody Bourton. Tilladt for: A.</desc>
@@ -28491,7 +28491,7 @@
     <title lang="da">My Cat From Hell</title>
     <desc lang="da">Sæson: 5. Episode: 18. '911, My Cat's Holding Me Hostage!'. Jackson rejser til Portland for at hjælpe Lee og Teresa, der har ringet til alarmcentralen om deres kat Lux. Da deres søn, Jesse, rykkede Lux i halen, rev den ham. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/ty2mOZa6ilRNr00G8NSWqCMsTpa.jpg" /></programme>
   <programme start="20261024150000 +0000" stop="20261024160000 +0000" channel="animalplanet.dk">
     <title lang="da">Insane Pools: Off The Deep End</title>
     <desc lang="da">Sæson: 2. Episode: 4. 'Fiesta de laguna'. Det er tid til "fiesta", da pooldesigner Lucas Congdon og hans hold udfordres til at genskabe et mexikansk feriested i en baghave i et boligområde i Venice i Florida. Tilladt for: A.</desc>
@@ -28602,7 +28602,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/63m3hIBRTSV8ZemUtdL7IsmIwC5.jpg" /></programme>
   <programme start="20261025033000 +0000" stop="20261025041500 +0000" channel="animalplanet.dk">
     <title lang="da">Alaskan Bush People</title>
     <desc lang="da">Sæson: 4. Episode: 7. 'Alaskan Bush People'. Kom med til Alaska med familien Brown - de har syv børn, som bor uden for samfundet og er afhængige af hinanden for at kunne overleve i ødemarken. Medvirkende: Asa Siegel. Tilladt for: A.</desc>
@@ -28610,7 +28610,7 @@
       <actor>Asa Siegel</actor>
     </credits>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/63m3hIBRTSV8ZemUtdL7IsmIwC5.jpg" /></programme>
   <programme start="20261025041500 +0000" stop="20261025043800 +0000" channel="animalplanet.dk">
     <title lang="da">Acrobatic Cats And Butterfly Wings</title>
     <desc lang="da">Sæson: 1. Episode: 28. 'Acrobatic Cats And Butterfly Wings'. Kender underjordiske tunnellevende muldvarperotter hemmeligheden bag et langt og sundt liv, eller har de en tilpasning, der hjælper dem? Hvordan overlever katte fald fra højder og lander altid på benene? Hvordan flyver kolibrier, når det regner? Sommerfuglevinger får dem ikke kun rundt, men markeringer forvirrer også rovdyr. Medvirkende: Eric Meyers. Tilladt for: A.</desc>
@@ -44703,7 +44703,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/5WTx4TxwQaS7VxRFnI2O2wJg8Q3.jpg" /></programme>
   <programme start="20261021150000 +0000" stop="20261021154500 +0000" channel="viasatseries.dk">
     <title lang="da">Weeds</title>
     <desc lang="da">Sæson: 3. Episode: 2. 'A Pool and His Money'. Sanjay oplever noget helt nyt. Nancy slår sig. Conrad har ikke lyst til at modtage ordrer fra U-Turn. Lupita vil stadig ikke adlyde. Heylia er ude for at handle ind, og så får Andy problemer med et par, som tror, at han er børnelokker. Instruktør: Craig Zisk. Medvirkende: Mary-Louise Parker, Elizabeth Perkins, Tonye Patano, Romany Malco. Tilladt for: 15.</desc>
@@ -44808,7 +44808,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/fY1RW2oaABBJNoPZT1tJb7vOgAi.jpg" /></programme>
   <programme start="20261021190000 +0000" stop="20261021200000 +0000" channel="viasatseries.dk">
     <title lang="da">Scandal</title>
     <desc lang="da">Sæson: 1. Episode: 7. 'Sæsonafslutning - Grant: For The People'. Da Quinn befinder sig i en tragisk og belastende situation, iler Olivia og teamet hende til undsætning. En modvillig Cyrus må bede Olivia om hjælp, da Billy Chambers kommer med en udtalelse, som ryster Fitz' præsidentembede. Instruktør: Roxann Dawson. Medvirkende: Kerry Washington, Henry Ian Cusick, Columbus Short, Darby Stanchfield. Tilladt for: 15.</desc>
@@ -45372,7 +45372,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/5WTx4TxwQaS7VxRFnI2O2wJg8Q3.jpg" /></programme>
   <programme start="20261022150000 +0000" stop="20261022154500 +0000" channel="viasatseries.dk">
     <title lang="da">Weeds</title>
     <desc lang="da">Sæson: 3. Episode: 3. 'The Brick Dance'. Nancy bliver sendt ud for at hente en pakke fra Guillermo. Andys fodskade forhindrer ham ikke i at opfylde sine militære pligter, mens Silas begynder sin samfundstjeneste. Instruktør: Lev L. Spiro. Medvirkende: Mary-Louise Parker, Elizabeth Perkins, Tonye Patano, Romany Malco. Tilladt for: 15.</desc>
@@ -45477,7 +45477,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/fY1RW2oaABBJNoPZT1tJb7vOgAi.jpg" /></programme>
   <programme start="20261022190000 +0000" stop="20261022200000 +0000" channel="viasatseries.dk">
     <title lang="da">Heroes</title>
     <desc lang="da">Sæson: 1. Episode: 15. 'Run!'. Claire lærer sandheden om sin biologiske far at kende; Hiro vender tilbage til Las Vegas. Instruktør: Roxann Dawson. Medvirkende: Jack Coleman, Noah Gray-Cabey, Greg Grunberg, Ali Larter. Tilladt for: 15.</desc>
@@ -46071,7 +46071,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/5WTx4TxwQaS7VxRFnI2O2wJg8Q3.jpg" /></programme>
   <programme start="20261023150000 +0000" stop="20261023154500 +0000" channel="viasatseries.dk">
     <title lang="da">Weeds</title>
     <desc lang="da">Sæson: 3. Episode: 4. 'Lortevejen'. Narkopolitiet bliver ved med at udspørge Nancy. Shane skaffer Nancy et job. Conrad og Heylia indretter deres nye drivhus. Mens Silas udfører samfundstjeneste, render han ind i Pam. Instruktør: Martha Coolidge. Medvirkende: Mary-Louise Parker, Elizabeth Perkins, Tonye Patano, Romany Malco. Tilladt for: 15.</desc>
@@ -46176,7 +46176,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/fY1RW2oaABBJNoPZT1tJb7vOgAi.jpg" /></programme>
   <programme start="20261023190000 +0000" stop="20261023200000 +0000" channel="viasatseries.dk">
     <title lang="da">Mad Men</title>
     <desc lang="da">Sæson: 1. Episode: 8. 'The Hobo Code'. Don er plaget, da hemmeligheder fra hans fortid begynder at hjemsøge ham. Peggys nyvundne succes på arbejdet truer hendes forhold til kollegerne. Salvatore kommer lidt for tæt på en klient. Instruktør: Phil Abraham. Medvirkende: Jon Hamm, Elisabeth Moss, Vincent Kartheiser, January Jones. Tilladt for: 11.</desc>
@@ -46728,7 +46728,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/5WTx4TxwQaS7VxRFnI2O2wJg8Q3.jpg" /></programme>
   <programme start="20261024144000 +0000" stop="20261024150000 +0000" channel="viasatseries.dk">
     <title lang="da">Ghosts</title>
     <desc lang="da">Sæson: 4. Episode: 22. 'The Devil Went Down to Woodstone'. Sam og Jay holder en stor fest i forbindelse med lanceringen af Sam og Isaacs vampyrbog. Medvirkende: Rose McIver, Utkarsh Ambudkar, Brandon Scott Jones, Danielle Pinnock. Tilladt for: 11.</desc>
@@ -46748,7 +46748,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/5WTx4TxwQaS7VxRFnI2O2wJg8Q3.jpg" /></programme>
   <programme start="20261024150000 +0000" stop="20261024152000 +0000" channel="viasatseries.dk">
     <title lang="da">Ghosts</title>
     <desc lang="da">Sæson: 5. Episode: 1. 'Soul Custody'. Sam, Jay og spøgelserne forsøger at få Jay ud af sin aftale med djævelen. Samtidig hjælper Isaac Patience gennem en krise i selvtilliden, og Pete og Alberta håndterer følgerne af deres kys. Tilladt for: 11.</desc>
@@ -46756,7 +46756,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/5WTx4TxwQaS7VxRFnI2O2wJg8Q3.jpg" /></programme>
   <programme start="20261024152000 +0000" stop="20261024154000 +0000" channel="viasatseries.dk">
     <title lang="da">Ghosts</title>
     <desc lang="da">Sæson: 5. Episode: 2. 'Viking Wedding'. Sam og Jay forsøger at imponere deres smarte storbyvenner, mens en fejlplaceret bogreol truer Thors mulighed for at holde en vigtig tale. Samtidig samler Isaac spøgelserne for at hjælpe parret gennem en besværlig kundeservice-situation. Tilladt for: 11.</desc>
@@ -46764,7 +46764,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/5WTx4TxwQaS7VxRFnI2O2wJg8Q3.jpg" /></programme>
   <programme start="20261024154000 +0000" stop="20261024160500 +0000" channel="viasatseries.dk">
     <title lang="da">Ghosts</title>
     <desc lang="da">Sæson: 5. Episode: 3. 'Halloween 5: The Mummy'. Sam og Jays halloween tager en uhyggelig drejning, da de ved et uheld slipper et mumiespøgelse løs. Tilladt for: 11.</desc>
@@ -46772,7 +46772,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/5WTx4TxwQaS7VxRFnI2O2wJg8Q3.jpg" /></programme>
   <programme start="20261024160500 +0000" stop="20261024164500 +0000" channel="viasatseries.dk">
     <title lang="da">Chicago Med</title>
     <desc lang="da">Sæson: 6. Episode: 11. 'At slippe for igen at samles'. Ethan slår sig sammen med en uventet person for at behandle en berømt tennisspiller, der er bange for, at hans karriere måske er slut. Goodwins nye regler vækker opsigt. Instruktør: SJ Main Muñoz. Medvirkende: Nick Gehlfuss, Yaya DaCosta, Torrey DeVitto, Brian Tee. Tilladt for: 11.</desc>
@@ -56940,7 +56940,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/fY1RW2oaABBJNoPZT1tJb7vOgAi.jpg" /></programme>
   <programme start="20261022005500 +0000" stop="20261022014500 +0000" channel="skyshowtime2.se">
     <title lang="da">Bates Motel</title>
     <desc lang="da">Sæson: 1. Episode: 3. 'Hvad er der galt med Norman'. Dylan begynder sit nye arbejde, og Emma og Norman gør en chokerende opdagelse. Instruktør: Paul A. Edwards. Medvirkende: Vera Farmiga, Freddie Highmore, Max Thieriot, Olivia Cooke. Tilladt for: 15.</desc>
@@ -56961,7 +56961,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/fY1RW2oaABBJNoPZT1tJb7vOgAi.jpg" /></programme>
   <programme start="20261022014500 +0000" stop="20261022034500 +0000" channel="skyshowtime2.se">
     <title lang="da">The Chronicles of Riddick</title>
     <desc lang="da">'The Chronicles of Riddick'. Riddick fem år senere som en flygtet fange, der har evnen til at se, når det er helt mørkt. Han havner midt i en krig mellem to stærke kræfter, end ond sekt der kalder sig Necromongers, og de gode The Elemental, hvor Riddick bliver hjulpet af Aereon. Instruktør: David Twohy. Medvirkende: Vin Diesel, Judi Dench, Colm Feore, Thandiwe Newton. Tilladt for: 11.</desc>
@@ -57242,7 +57242,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/fY1RW2oaABBJNoPZT1tJb7vOgAi.jpg" /></programme>
   <programme start="20261023005500 +0000" stop="20261023014500 +0000" channel="skyshowtime2.se">
     <title lang="da">Bates Motel</title>
     <desc lang="da">Sæson: 1. Episode: 5. 'Havudsigt'. Mens Norma får hjælp, venter Norman på, at hun skal komme tilbage. Emma og Norman gør en kæmpe opdagelse i deres efterforskning. Instruktør: David Straiton. Medvirkende: Vera Farmiga, Freddie Highmore, Max Thieriot, Olivia Cooke. Tilladt for: 15.</desc>
@@ -57263,7 +57263,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/fY1RW2oaABBJNoPZT1tJb7vOgAi.jpg" /></programme>
   <programme start="20261023014500 +0000" stop="20261023032000 +0000" channel="skyshowtime2.se">
     <title lang="da">Honey Don't!</title>
     <desc lang="da">'Honey Don't!'. Honey Don't! er en sort komedie om Honey O’Donahue, en privatdetektiv i en mindre by, som efterforsker en serie af mystiske dødsfald, alle forbundet til en hemmelighedsfuld kirke. Tilladt for: 15.</desc>
@@ -57636,7 +57636,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/fY1RW2oaABBJNoPZT1tJb7vOgAi.jpg" /></programme>
   <programme start="20261024010000 +0000" stop="20261024015000 +0000" channel="skyshowtime2.se">
     <title lang="da">Bates Motel</title>
     <desc lang="da">Sæson: 1. Episode: 7. 'Manden i nummer 9'. Bates Motels byder sin første gæst velkommen, og Norman lærer, at populære piger kan være komplicerede. Instruktør: S.J. Clarkson. Medvirkende: Vera Farmiga, Freddie Highmore, Max Thieriot, Olivia Cooke. Tilladt for: 15.</desc>
@@ -57657,7 +57657,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/fY1RW2oaABBJNoPZT1tJb7vOgAi.jpg" /></programme>
   <programme start="20261024015000 +0000" stop="20261024040000 +0000" channel="skyshowtime2.se">
     <title lang="da">Millers in Marriage</title>
     <desc lang="da">'Millers in Marriage'. Tre søskende må navigere gennem livets næste kapitel. Det handler om alt fra at finde ud af, hvordan man dater igen, til hvordan man genopliver gamle drømme, og hvordan hverdagen ser ud, når børnene flytter hjemmefra. Tilladt for: A.</desc>
@@ -58448,7 +58448,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/psGCCdGOp25G3UcH44lzCMNKd1c.jpg" /></programme>
   <programme start="20261021190200 +0000" stop="20261021195300 +0000" channel="skyshowtime1.se">
     <title lang="da">Possession</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'Episode 1'. Claudia rejser til Kingston for at løse en arvestrid for en adelig familie. Tilladt for: 11.</desc>
@@ -58530,7 +58530,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/psGCCdGOp25G3UcH44lzCMNKd1c.jpg" /></programme>
   <programme start="20261022012700 +0000" stop="20261022020000 +0000" channel="skyshowtime1.se">
     <title lang="da">Nurse Jackie</title>
     <desc lang="da">Sæson: 1. Episode: 9. 'Næseblod'. Jackie indlægger en døende patient, opdager O'Hara har brudt fortroligheden, får næseblod og forfalsker en organdonation. Instruktør: Paul Feig. Medvirkende: Edie Falco, Eve Best, Merritt Wever, Haaz Sleiman. Tilladt for: 11.</desc>
@@ -59089,7 +59089,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/psGCCdGOp25G3UcH44lzCMNKd1c.jpg" /></programme>
   <programme start="20261022190000 +0000" stop="20261022194500 +0000" channel="skyshowtime1.se">
     <title lang="da">Lioness</title>
     <desc lang="da">Sæson: 2. Episode: 1. 'Beware the Old Soldier'. Kidnapningen af en embedsmand syd for grænsen fremtvinger en redningsmission. Tilladt for: 15.</desc>
@@ -59166,7 +59166,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/psGCCdGOp25G3UcH44lzCMNKd1c.jpg" /></programme>
   <programme start="20261023021000 +0000" stop="20261023024500 +0000" channel="skyshowtime1.se">
     <title lang="da">Nurse Jackie</title>
     <desc lang="da">Sæson: 1. Episode: 12. 'Sundhed &amp; Biograf'. Kevin inviterer Jackie på en midnatsdate. En filmanmelder i koma vågner op. Instruktør: Scott Ellis. Medvirkende: Edie Falco, Eve Best, Merritt Wever, Haaz Sleiman. Tilladt for: 11.</desc>
@@ -59719,7 +59719,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/psGCCdGOp25G3UcH44lzCMNKd1c.jpg" /></programme>
   <programme start="20261023190000 +0000" stop="20261023195000 +0000" channel="skyshowtime1.se">
     <title lang="da">MobLand</title>
     <desc lang="da">Sæson: 2. Episode: 3. 'Bonzo Goes to Bitburg'. Maeve gør sig klar til at håndtere nogle trusler. Kevin og Harry analyserer deres strategi. Tilladt for: 15.</desc>
@@ -59787,7 +59787,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/psGCCdGOp25G3UcH44lzCMNKd1c.jpg" /></programme>
   <programme start="20261024013000 +0000" stop="20261024020500 +0000" channel="skyshowtime1.se">
     <title lang="da">Nurse Jackie</title>
     <desc lang="da">Sæson: 2. Episode: 1. 'Trøstemad'. Jackie er fast besluttet på at tilbringe mere tid med sin familie. Coop indgiver en klage. Instruktør: Paul Feig. Medvirkende: Edie Falco, Eve Best, Merritt Wever, Paul Schulze. Tilladt for: 11.</desc>
@@ -60099,7 +60099,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/psGCCdGOp25G3UcH44lzCMNKd1c.jpg" /></programme>
   <programme start="20261025033000 +0000" stop="20261025041500 +0000" channel="skyshowtime1.se">
     <title lang="da">SkyMed</title>
     <desc lang="da">Sæson: 4. Episode: 1. 'Incoming'. Hayley og Wheezer holder jobsamtaler med nye læger og piloter; Crystal kommer i konflikt med en flot sygeplejer. Tilladt for: 11.</desc>
@@ -60107,7 +60107,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/psGCCdGOp25G3UcH44lzCMNKd1c.jpg" /></programme>
   <programme start="20261025041500 +0000" stop="20261025050000 +0000" channel="skyshowtime1.se">
     <title lang="da">SkyMed</title>
     <desc lang="da">Sæson: 4. Episode: 2. 'Teambuilding'. Wheezers eksforlovede lægger pres på ham; Piper har det svært efter Wyatts ulykke. Tilladt for: 11.</desc>
@@ -60115,7 +60115,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/psGCCdGOp25G3UcH44lzCMNKd1c.jpg" /></programme>
   <programme start="20261021020000 +0000" stop="20261021040000 +0000" channel="viasataction.dk">
     <title lang="da">American Made</title>
     <desc lang="da">'American Made'. Den fanden-i-voldske ruteflypilot Barry Seal keder sig i sit job. Så da CIA beder ham flyve undercover for dem i stedet, siger han straks ja. Snart er Barry i gang med en af de største hemmelige operationer i USA's historie. Han bliver en vigtig spiller i 80'ernes Iran-Contra-skandale og scorer en formue på at smugle kokain for det colombianske Medellín-kartel. Instruktør: Doug Liman. Medvirkende: Tom Cruise, Domhnall Gleeson, Sarah Wright, Jesse Plemons. Tilladt for: 15.</desc>
@@ -62179,7 +62179,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/3uSBgu00raIhAjdVf0x4ysxq1nv.jpg" /></programme>
   <programme start="20261021063000 +0000" stop="20261021065500 +0000" channel="see.dk">
     <title lang="da">Community</title>
     <desc lang="da">Sæson: 5. Episode: 13. 'Basic Sandwich'. For at redde Greendale fra at blive solgt, leder Jeff et forsøg på at finde en legendarisk skat, der forsvandt fra campus sammen med en excentrisk IT-professor for 40 år siden. Gæsteoptræden fra Chris Elliott. Instruktør: Rob Schrab. Medvirkende: Joel McHale, Gillian Jacobs, Danny Pudi, Yvette Nicole Brown. Tilladt for: 11.</desc>
@@ -62939,7 +62939,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/3uSBgu00raIhAjdVf0x4ysxq1nv.jpg" /></programme>
   <programme start="20261022063000 +0000" stop="20261022070000 +0000" channel="see.dk">
     <title lang="da">Community</title>
     <desc lang="da">Sæson: 6. Episode: 1. 'Ladders'. Studiegruppen, der er vendt tilbage til Greendale, støder hurtigt sammen med den nye administrator, “Frankie” Dart, efter at dekan Pelton har hyret hende, da taget kollapser under et ton af frisbee's.. Instruktør: Rob Schrab. Medvirkende: Joel McHale, Gillian Jacobs, Danny Pudi, Alison Brie. Tilladt for: 11.</desc>
@@ -63702,7 +63702,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/3uSBgu00raIhAjdVf0x4ysxq1nv.jpg" /></programme>
   <programme start="20261023063000 +0000" stop="20261023070000 +0000" channel="see.dk">
     <title lang="da">Community</title>
     <desc lang="da">Sæson: 6. Episode: 2. 'Lawnmower Maintenance &amp; Postnatal Care'. Vedligeholdelse af plæneklipper &amp; postnatal pleje. Jeff og Frankie må "hjælpe" Dean, da han ikke vil forlade et virtual reality-system, som skolen ikke har råd til. Britta gør et chokerende fund om sine forældre og venner. Instruktører: Nat Faxon, Jim Rash. Medvirkende: Joel McHale, Gillian Jacobs, Danny Pudi, Alison Brie. Tilladt for: 11.</desc>
@@ -64414,7 +64414,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/3uSBgu00raIhAjdVf0x4ysxq1nv.jpg" /></programme>
   <programme start="20261024061500 +0000" stop="20261024064000 +0000" channel="see.dk">
     <title lang="da">St. Denis Medical</title>
     <desc lang="da">Sæson: 2. Episode: 5. 'A Strong Cup Of Coffee'. Alex er ivrig efter at gøre indtryk på sin tidligere afdelingssygeplejerske, Pam, der vender tilbage til St. Denis. Serena og Matt forsøger at løse gåden om en patients mystiske sygdom. Tilladt for: 11.</desc>
@@ -64422,7 +64422,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/3uSBgu00raIhAjdVf0x4ysxq1nv.jpg" /></programme>
   <programme start="20261024064000 +0000" stop="20261024071000 +0000" channel="see.dk">
     <title lang="da">St. Denis Medical</title>
     <desc lang="da">Sæson: 2. Episode: 6. 'I Left A Woman On The Table'. Matt har svært ved at håndtere en patient fra sin fortid. Bruce forsøger at genoplive romantikken med en tidligere flamme. Joyce tager sig af patienterne for at afhjælpe manglen på sygeplejersker. Tilladt for: 11.</desc>
@@ -64430,7 +64430,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/3uSBgu00raIhAjdVf0x4ysxq1nv.jpg" /></programme>
   <programme start="20261024071000 +0000" stop="20261024074000 +0000" channel="see.dk">
     <title lang="da">St. Denis Medical</title>
     <desc lang="da">Sæson: 2. Episode: 7. 'No Wonder His Kidney Wants Out'. Ron og Alex reagerer meget forskelligt på en tilsyneladende uselvisk patient. Joyce støder ind i en gammel flamme. Matt hjælper Bruce med at finde en ny bedste ven. Tilladt for: 11.</desc>
@@ -64438,7 +64438,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/3uSBgu00raIhAjdVf0x4ysxq1nv.jpg" /></programme>
   <programme start="20261024074000 +0000" stop="20261024081500 +0000" channel="see.dk">
     <title lang="da">St. Denis Medical</title>
     <desc lang="da">Sæson: 2. Episode: 8. 'A Waste Of Time And Marble'. Med truslen om en sygeplejerskestrejke står Alex i et dilemma mellem sine kolleger og Joyce. Ron og Bruce gør alt, hvad de kan, for at hjælpe en uventet patient. Medvirkende: Wendi McLendon-Covey, Mekki Leeper, Allison Tolman, David Alan Grier. Tilladt for: 11.</desc>
@@ -64458,7 +64458,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/3uSBgu00raIhAjdVf0x4ysxq1nv.jpg" /></programme>
   <programme start="20261024081500 +0000" stop="20261024085000 +0000" channel="see.dk">
     <title lang="da">The Big Bang Theory</title>
     <desc lang="da">Sæson: 6. Episode: 14. 'The Cooper/Kripke Inversion'. Howards nørdede hobby ender med nærmest at ruinere ham. Sheldon er tvunget til at arbejde sammen med sin ærkerival, Barry Kripke. Howard og Raj får lavet actionman-figurer af dem selv - til 1000 dollars stykket! Instruktør: Mark Cendrowski. Medvirkende: Johnny Galecki, Jim Parsons, Kaley Cuoco, Simon Helberg. Tilladt for: 15.</desc>
@@ -69919,7 +69919,7 @@
 <programme start="20261024013600 +0000" stop="20261024022400 +0000" channel="discoveryscience.dk"><title>Secrets Of The Underground</title><desc>Rob Nelson undersøger de mystiske sten på bunden af Lake Michigan - også kaldet "Underwater Stonehenge". Og vi leder efter flugttunneller fra Alcatraz.</desc></programme>
 <programme start="20261024022400 +0000" stop="20261024031200 +0000" channel="discoveryscience.dk"><title>The Dino Hunters</title><desc>Clay vender tilbage til sin ranch i Montana for at søge hurtige fund ved Old Faithful. I Wyoming fortsætter Mike og hans hold med deres triceratops-udgravning.</desc></programme>
 <programme start="20261024031200 +0000" stop="20261024040000 +0000" channel="discoveryscience.dk"><title>The Dino Hunters</title><desc>Moderne pionerer i det vestlige USA søger skrøbelige knogler fra de dinosaurer, der engang levede her, og prøver at tjene store penge undervejs.</desc></programme>
-<programme start="20261023092500 +0200" stop="20261023095000 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (25)</title><desc /></programme><programme start="20261023095000 +0200" stop="20261023100000 +0200" channel="Disney.Junior.dk"><title>Bluey III (128)</title><desc /></programme><programme start="20261023100000 +0200" stop="20261023100500 +0200" channel="Disney.Junior.dk"><title>Bluey III (127)</title><desc /></programme><programme start="20261023100500 +0200" stop="20261023101500 +0200" channel="Disney.Junior.dk"><title>Bluey III (126)</title><desc /></programme><programme start="20261023101500 +0200" stop="20261023102000 +0200" channel="Disney.Junior.dk"><title>Bluey III (125)</title><desc /></programme><programme start="20261023102000 +0200" stop="20261023102500 +0200" channel="Disney.Junior.dk"><title>Bluey III (124)</title><desc /></programme><programme start="20261023102500 +0200" stop="20261023103500 +0200" channel="Disney.Junior.dk"><title>Bluey III (123)</title><desc /></programme><programme start="20261023103500 +0200" stop="20261023104000 +0200" channel="Disney.Junior.dk"><title>Bluey III (122)</title><desc /></programme><programme start="20261023104000 +0200" stop="20261023104500 +0200" channel="Disney.Junior.dk"><title>Bluey III (149)</title><desc /></programme><programme start="20261023104500 +0200" stop="20261023111000 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (1)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261023111000 +0200" stop="20261023113500 +0200" channel="Disney.Junior.dk"><title>SuperKitties I (4)</title><desc /></programme><programme start="20261023113500 +0200" stop="20261023120000 +0200" channel="Disney.Junior.dk"><title>Pupstruction III (53)</title><desc /></programme><programme start="20261023120000 +0200" stop="20261023122500 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends III (76)</title><desc /></programme><programme start="20261023122500 +0200" stop="20261023123500 +0200" channel="Disney.Junior.dk"><title>Bluey III (120)</title><desc /></programme><programme start="20261023123500 +0200" stop="20261023124000 +0200" channel="Disney.Junior.dk"><title>Bluey II (73)</title><desc /></programme><programme start="20261023124000 +0200" stop="20261023125000 +0200" channel="Disney.Junior.dk"><title>Bluey III (121)</title><desc /></programme><programme start="20261023125000 +0200" stop="20261023125500 +0200" channel="Disney.Junior.dk"><title>Bluey II (67)</title><desc /></programme><programme start="20261023125500 +0200" stop="20261023130500 +0200" channel="Disney.Junior.dk"><title>Bluey III (122)</title><desc /></programme><programme start="20261023130500 +0200" stop="20261023131000 +0200" channel="Disney.Junior.dk"><title>Bluey I (1)</title><desc /></programme><programme start="20261023131000 +0200" stop="20261023132000 +0200" channel="Disney.Junior.dk"><title>Bluey I (2)</title><desc /></programme><programme start="20261023132000 +0200" stop="20261023132500 +0200" channel="Disney.Junior.dk"><title>Bluey I (3)</title><desc /></programme><programme start="20261023132500 +0200" stop="20261023135000 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (26)</title><desc /></programme><programme start="20261023135000 +0200" stop="20261023141500 +0200" channel="Disney.Junior.dk"><title>SuperKitties: Su-Purr Charged II (46)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/svZssJM2FbpW0v0O6QbGLpL7rGf.jpg" /></programme><programme start="20261023141500 +0200" stop="20261023144000 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (2)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261023144000 +0200" stop="20261023150500 +0200" channel="Disney.Junior.dk"><title>Iron Man and His Awesome Friends I (11)</title><desc /></programme><programme start="20261023150500 +0200" stop="20261023153000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends II (53)</title><desc /></programme><programme start="20261023153000 +0200" stop="20261023154500 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends: S4 Splits IV (33)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/l9IjbcpfYRZ2wWQOHhmB6Db6qe7.jpg" /></programme><programme start="20261023154500 +0200" stop="20261023155500 +0200" channel="Disney.Junior.dk"><title>Bluey I (4)</title><desc /></programme><programme start="20261023155500 +0200" stop="20261023160000 +0200" channel="Disney.Junior.dk"><title>Bluey II (66)</title><desc /></programme><programme start="20261023160000 +0200" stop="20261023161000 +0200" channel="Disney.Junior.dk"><title>Bluey III (123)</title><desc /></programme><programme start="20261023161000 +0200" stop="20261023161500 +0200" channel="Disney.Junior.dk"><title>Bluey II (65)</title><desc /></programme><programme start="20261023161500 +0200" stop="20261023162500 +0200" channel="Disney.Junior.dk"><title>Bluey III (124)</title><desc /></programme><programme start="20261023162500 +0200" stop="20261023163000 +0200" channel="Disney.Junior.dk"><title>Bluey II (74)</title><desc /></programme><programme start="20261023163000 +0200" stop="20261023164000 +0200" channel="Disney.Junior.dk"><title>Bluey III (125)</title><desc /></programme><programme start="20261023164000 +0200" stop="20261023170500 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (23)</title><desc /></programme><programme start="20261023170500 +0200" stop="20261023173000 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (22)</title><desc /></programme><programme start="20261023173000 +0200" stop="20261023175500 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (10)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261023175500 +0200" stop="20261023182000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends I (21)</title><desc /></programme><programme start="20261023182000 +0200" stop="20261023183500 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends: S4 Splits IV (34)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/l9IjbcpfYRZ2wWQOHhmB6Db6qe7.jpg" /></programme><programme start="20261023183500 +0200" stop="20261023190000 +0200" channel="Disney.Junior.dk"><title>SuperKitties: Su-Purr Charged II (43)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/svZssJM2FbpW0v0O6QbGLpL7rGf.jpg" /></programme><programme start="20261023190000 +0200" stop="20261023192500 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (21)</title><desc /></programme><programme start="20261023192500 +0200" stop="20261023193500 +0200" channel="Disney.Junior.dk"><title>Bluey I (49)</title><desc /></programme><programme start="20261023193500 +0200" stop="20261023194000 +0200" channel="Disney.Junior.dk"><title>Bluey I (51)</title><desc /></programme><programme start="20261023194000 +0200" stop="20261023195000 +0200" channel="Disney.Junior.dk"><title>Bluey II (1)</title><desc /></programme><programme start="20261023195000 +0200" stop="20261023195500 +0200" channel="Disney.Junior.dk"><title>Bluey II (3)</title><desc /></programme><programme start="20261023195500 +0200" stop="20261023200500 +0200" channel="Disney.Junior.dk"><title>Bluey II (5)</title><desc /></programme><programme start="20261023200500 +0200" stop="20261023201000 +0200" channel="Disney.Junior.dk"><title>Bluey II (7)</title><desc /></programme><programme start="20261023201000 +0200" stop="20261023202000 +0200" channel="Disney.Junior.dk"><title>Bluey II (9)</title><desc /></programme><programme start="20261023202000 +0200" stop="20261023202500 +0200" channel="Disney.Junior.dk"><title>Bluey II (11)</title><desc /></programme><programme start="20261023202500 +0200" stop="20261023205000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends II (54)</title><desc /></programme><programme start="20261023205000 +0200" stop="20261023211500 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (9)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261023211500 +0200" stop="20261023214000 +0200" channel="Disney.Junior.dk"><title>SuperKitties: Su-Purr Charged II (34)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/svZssJM2FbpW0v0O6QbGLpL7rGf.jpg" /></programme><programme start="20261023214000 +0200" stop="20261023220500 +0200" channel="Disney.Junior.dk"><title>SuperKitties I (7)</title><desc /></programme><programme start="20261023220500 +0200" stop="20261023223000 +0200" channel="Disney.Junior.dk"><title>Pupstruction II (26)</title><desc /></programme><programme start="20261023223000 +0200" stop="20261023224000 +0200" channel="Disney.Junior.dk"><title>Bluey I (3)</title><desc /></programme><programme start="20261023224000 +0200" stop="20261023224500 +0200" channel="Disney.Junior.dk"><title>Bluey I (4)</title><desc /></programme><programme start="20261023224500 +0200" stop="20261023225000 +0200" channel="Disney.Junior.dk"><title>Bluey I (5)</title><desc /></programme><programme start="20261023225000 +0200" stop="20261023230000 +0200" channel="Disney.Junior.dk"><title>Bluey I (6)</title><desc /></programme><programme start="20261023230000 +0200" stop="20261023230500 +0200" channel="Disney.Junior.dk"><title>Bluey I (7)</title><desc /></programme><programme start="20261023230500 +0200" stop="20261023231500 +0200" channel="Disney.Junior.dk"><title>Bluey I (8)</title><desc /></programme><programme start="20261023231500 +0200" stop="20261023232500 +0200" channel="Disney.Junior.dk"><title>Bluey I (9)</title><desc /></programme><programme start="20261023232500 +0200" stop="20261023235000 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (17)</title><desc /></programme><programme start="20261023235000 +0200" stop="20261024001500 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (18)</title><desc /></programme><programme start="20261024021500 +0200" stop="20261024024000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends I (4)</title><desc /></programme><programme start="20261024024000 +0200" stop="20261024030500 +0200" channel="Disney.Junior.dk"><title>Robogobo: Season 1 I (3)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/b4NWfvpWvHJ0YrNLdTk2BtzCo9X.jpg" /></programme><programme start="20261024030500 +0200" stop="20261024033000 +0200" channel="Disney.Junior.dk"><title>Robogobo: Season 1 I (4)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/b4NWfvpWvHJ0YrNLdTk2BtzCo9X.jpg" /></programme><programme start="20261024033000 +0200" stop="20261024035500 +0200" channel="Disney.Junior.dk"><title>Robogobo: Season 1 I (5)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/b4NWfvpWvHJ0YrNLdTk2BtzCo9X.jpg" /></programme><programme start="20261024035500 +0200" stop="20261024040500 +0200" channel="Disney.Junior.dk"><title>Bluey II (10)</title><desc /></programme><programme start="20261024040500 +0200" stop="20261024041000 +0200" channel="Disney.Junior.dk"><title>Bluey II (9)</title><desc /></programme><programme start="20261024041000 +0200" stop="20261024041500 +0200" channel="Disney.Junior.dk"><title>Bluey II (8)</title><desc /></programme><programme start="20261024041500 +0200" stop="20261024042500 +0200" channel="Disney.Junior.dk"><title>Bluey II (7)</title><desc /></programme><programme start="20261024042500 +0200" stop="20261024043000 +0200" channel="Disney.Junior.dk"><title>Bluey II (6)</title><desc /></programme><programme start="20261024043000 +0200" stop="20261024044000 +0200" channel="Disney.Junior.dk"><title>Bluey II (5)</title><desc /></programme><programme start="20261024044000 +0200" stop="20261024045000 +0200" channel="Disney.Junior.dk"><title>Bluey II (4)</title><desc /></programme><programme start="20261024045000 +0200" stop="20261024045500 +0200" channel="Disney.Junior.dk"><title>Bluey II (3)</title><desc /></programme><programme start="20261024045500 +0200" stop="20261024050000 +0200" channel="Disney.Junior.dk"><title>Bluey II (2)</title><desc /></programme><programme start="20261024050000 +0200" stop="20261024050500 +0200" channel="Disney.Junior.dk"><title>Bluey II (1)</title><desc /></programme><programme start="20261024050500 +0200" stop="20261024051000 +0200" channel="Disney.Junior.dk"><title>Bluey I (52)</title><desc /></programme><programme start="20261024051000 +0200" stop="20261024053500 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends I (5)</title><desc /></programme><programme start="20261024053500 +0200" stop="20261024060000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends I (6)</title><desc /></programme><programme start="20261024060000 +0200" stop="20261024062500 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (24)</title><desc /></programme><programme start="20261024062500 +0200" stop="20261024065000 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (2)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261024065000 +0200" stop="20261024071500 +0200" channel="Disney.Junior.dk"><title>SuperKitties I (8)</title><desc /></programme><programme start="20261024071500 +0200" stop="20261024072500 +0200" channel="Disney.Junior.dk"><title>Bluey II (72)</title><desc /></programme><programme start="20261024072500 +0200" stop="20261024073000 +0200" channel="Disney.Junior.dk"><title>Bluey II (74)</title><desc /></programme><programme start="20261024073000 +0200" stop="20261024074000 +0200" channel="Disney.Junior.dk"><title>Bluey II (76)</title><desc /></programme><programme start="20261024074000 +0200" stop="20261024074500 +0200" channel="Disney.Junior.dk"><title>Bluey II (78)</title><desc /></programme><programme start="20261024074500 +0200" stop="20261024075500 +0200" channel="Disney.Junior.dk"><title>Bluey II (80)</title><desc /></programme><programme start="20261024075500 +0200" stop="20261024080000 +0200" channel="Disney.Junior.dk"><title>Bluey II (82)</title><desc /></programme><programme start="20261024080000 +0200" stop="20261024081000 +0200" channel="Disney.Junior.dk"><title>Bluey II (84)</title><desc /></programme><programme start="20261024081000 +0200" stop="20261024083500 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (9)</title><desc /></programme><programme start="20261024083500 +0200" stop="20261024090000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends III (81)</title><desc /></programme><programme start="20261024090000 +0200" stop="20261024092500 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (3)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261024092500 +0200" stop="20261024095000 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (5)</title><desc /></programme><programme start="20261024095000 +0200" stop="20261024100000 +0200" channel="Disney.Junior.dk"><title>Bluey III (120)</title><desc /></programme><programme start="20261024100000 +0200" stop="20261024100500 +0200" channel="Disney.Junior.dk"><title>Bluey III (119)</title><desc /></programme><programme start="20261024100500 +0200" stop="20261024101500 +0200" channel="Disney.Junior.dk"><title>Bluey III (118)</title><desc /></programme><programme start="20261024101500 +0200" stop="20261024102000 +0200" channel="Disney.Junior.dk"><title>Bluey III (117)</title><desc /></programme><programme start="20261024102000 +0200" stop="20261024102500 +0200" channel="Disney.Junior.dk"><title>Bluey III (116)</title><desc /></programme><programme start="20261024102500 +0200" stop="20261024103500 +0200" channel="Disney.Junior.dk"><title>Bluey III (115)</title><desc /></programme><programme start="20261024103500 +0200" stop="20261024104000 +0200" channel="Disney.Junior.dk"><title>Bluey III (114)</title><desc /></programme><programme start="20261024104000 +0200" stop="20261024104500 +0200" channel="Disney.Junior.dk"><title>Bluey III (113)</title><desc /></programme><programme start="20261024104500 +0200" stop="20261024111000 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (2)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261024111000 +0200" stop="20261024113500 +0200" channel="Disney.Junior.dk"><title>SuperKitties III (55)</title><desc /></programme><programme start="20261024113500 +0200" stop="20261024120000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends III (80)</title><desc /></programme><programme start="20261024120000 +0200" stop="20261024122500 +0200" channel="Disney.Junior.dk"><title>Iron Man and His Awesome Friends I (22)</title><desc /></programme><programme start="20261024122500 +0200" stop="20261024125000 +0200" channel="Disney.Junior.dk"><title>Robogobo: Season 1 I (20)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/b4NWfvpWvHJ0YrNLdTk2BtzCo9X.jpg" /></programme><programme start="20261024125000 +0200" stop="20261024131500 +0200" channel="Disney.Junior.dk"><title>Robogobo: Season 1 I (19)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/b4NWfvpWvHJ0YrNLdTk2BtzCo9X.jpg" /></programme><programme start="20261024131500 +0200" stop="20261024132500 +0200" channel="Disney.Junior.dk"><title>RoboGobo S1 Splits I (44)</title><desc /></programme><programme start="20261024132500 +0200" stop="20261024135000 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+: Season 2 II (30)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/m1S0drszN5nhtGpG498so8NjUXv.jpg" /></programme><programme start="20261024135000 +0200" stop="20261024141500 +0200" channel="Disney.Junior.dk"><title>Disney Junior Ariel: The Little Mermaid II (34)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/7pNdReYwYkba5qWvFRHevFt9O2x.jpg" /></programme><programme start="20261024141500 +0200" stop="20261024144000 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (3)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261024144000 +0200" stop="20261024150500 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (1)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261024150500 +0200" stop="20261024154500 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse: Mickey’s Pirate Adventure</title><desc /></programme><programme start="20261024154500 +0200" stop="20261024160500 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends IV (90)</title><desc /></programme><programme start="20261024160500 +0200" stop="20261024162500 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends IV (93)</title><desc /></programme><programme start="20261024162500 +0200" stop="20261024165000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends IV (95)</title><desc /></programme><programme start="20261024165000 +0200" stop="20261024171000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends IV (97)</title><desc /></programme><programme start="20261024171000 +0200" stop="20261024173000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends IV (99)</title><desc /></programme><programme start="20261024173000 +0200" stop="20261024175500 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (11)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261024175500 +0200" stop="20261024182000 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (10)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261024182000 +0200" stop="20261024184500 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (16)</title><desc /></programme><programme start="20261024184500 +0200" stop="20261024191000 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (15)</title><desc /></programme><programme start="20261024191000 +0200" stop="20261024191500 +0200" channel="Disney.Junior.dk"><title>Bluey II (95)</title><desc /></programme><programme start="20261024191500 +0200" stop="20261024192500 +0200" channel="Disney.Junior.dk"><title>Bluey II (94)</title><desc /></programme><programme start="20261024192500 +0200" stop="20261024193500 +0200" channel="Disney.Junior.dk"><title>Bluey II (65)</title><desc /></programme><programme start="20261024193500 +0200" stop="20261024194000 +0200" channel="Disney.Junior.dk"><title>Bluey II (67)</title><desc /></programme><programme start="20261024194000 +0200" stop="20261024195000 +0200" channel="Disney.Junior.dk"><title>Bluey II (69)</title><desc /></programme><programme start="20261024195000 +0200" stop="20261024195500 +0200" channel="Disney.Junior.dk"><title>Bluey II (71)</title><desc /></programme><programme start="20261024195500 +0200" stop="20261024200500 +0200" channel="Disney.Junior.dk"><title>Bluey II (73)</title><desc /></programme><programme start="20261024200500 +0200" stop="20261024201000 +0200" channel="Disney.Junior.dk"><title>Bluey II (75)</title><desc /></programme><programme start="20261024201000 +0200" stop="20261024202000 +0200" channel="Disney.Junior.dk"><title>Bluey II (77)</title><desc /></programme><programme start="20261024202000 +0200" stop="20261024202500 +0200" channel="Disney.Junior.dk"><title>Bluey II (79)</title><desc /></programme><programme start="20261024202500 +0200" stop="20261024205000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends III (79)</title><desc /></programme><programme start="20261024205000 +0200" stop="20261024211500 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (11)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261024211500 +0200" stop="20261024214000 +0200" channel="Disney.Junior.dk"><title>SuperKitties III (53)</title><desc /></programme><programme start="20261024214000 +0200" stop="20261024220500 +0200" channel="Disney.Junior.dk"><title>SuperKitties I (9)</title><desc /></programme><programme start="20261024220500 +0200" stop="20261024223000 +0200" channel="Disney.Junior.dk"><title>Pupstruction I (25)</title><desc /></programme><programme start="20261024223000 +0200" stop="20261024224000 +0200" channel="Disney.Junior.dk"><title>Bluey I (10)</title><desc /></programme><programme start="20261024224000 +0200" stop="20261024224500 +0200" channel="Disney.Junior.dk"><title>Bluey I (11)</title><desc /></programme><programme start="20261024224500 +0200" stop="20261024225000 +0200" channel="Disney.Junior.dk"><title>Bluey I (12)</title><desc /></programme><programme start="20261024225000 +0200" stop="20261024230000 +0200" channel="Disney.Junior.dk"><title>Bluey I (13)</title><desc /></programme><programme start="20261024230000 +0200" stop="20261024230500 +0200" channel="Disney.Junior.dk"><title>Bluey I (14)</title><desc /></programme><programme start="20261024230500 +0200" stop="20261024231500 +0200" channel="Disney.Junior.dk"><title>Bluey I (15)</title><desc /></programme><programme start="20261024231500 +0200" stop="20261024232500 +0200" channel="Disney.Junior.dk"><title>Bluey I (16)</title><desc /></programme><programme start="20261024232500 +0200" stop="20261024235000 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (19)</title><desc /></programme><programme start="20261024235000 +0200" stop="20261025001500 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (20)</title><desc /></programme><programme start="20261024040000 +0000" stop="20261024042500 +0000" channel="nickelodeonjuniordk.dk"><title>Tim Rex i rummet</title><desc>Tim gør alt, hvad han kan, for at få fat i den nye Dinostjerne-figur.// Det er dagen, hvor man laver løjer med hinanden, men Tim ved ikke, hvornår man stopper.// Tim og far skal fange en drilagtig muldvarp.</desc><episode-num system="xmltv_ns">.8.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/85KVExNzP8zgEMUp6q6FV5HfKTC.jpg" /></programme>
+<programme start="20261023144000 +0200" stop="20261023150500 +0200" channel="Disney.Junior.dk"><title>Iron Man and His Awesome Friends I (11)</title><desc /></programme><programme start="20261023150500 +0200" stop="20261023153000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends II (53)</title><desc /></programme><programme start="20261023153000 +0200" stop="20261023154500 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends: S4 Splits IV (33)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/l9IjbcpfYRZ2wWQOHhmB6Db6qe7.jpg" /></programme><programme start="20261023154500 +0200" stop="20261023155500 +0200" channel="Disney.Junior.dk"><title>Bluey I (4)</title><desc /></programme><programme start="20261023155500 +0200" stop="20261023160000 +0200" channel="Disney.Junior.dk"><title>Bluey II (66)</title><desc /></programme><programme start="20261023160000 +0200" stop="20261023161000 +0200" channel="Disney.Junior.dk"><title>Bluey III (123)</title><desc /></programme><programme start="20261023161000 +0200" stop="20261023161500 +0200" channel="Disney.Junior.dk"><title>Bluey II (65)</title><desc /></programme><programme start="20261023161500 +0200" stop="20261023162500 +0200" channel="Disney.Junior.dk"><title>Bluey III (124)</title><desc /></programme><programme start="20261023162500 +0200" stop="20261023163000 +0200" channel="Disney.Junior.dk"><title>Bluey II (74)</title><desc /></programme><programme start="20261023163000 +0200" stop="20261023164000 +0200" channel="Disney.Junior.dk"><title>Bluey III (125)</title><desc /></programme><programme start="20261023164000 +0200" stop="20261023170500 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (23)</title><desc /></programme><programme start="20261023170500 +0200" stop="20261023173000 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (22)</title><desc /></programme><programme start="20261023173000 +0200" stop="20261023175500 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (10)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261023175500 +0200" stop="20261023182000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends I (21)</title><desc /></programme><programme start="20261023182000 +0200" stop="20261023183500 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends: S4 Splits IV (34)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/l9IjbcpfYRZ2wWQOHhmB6Db6qe7.jpg" /></programme><programme start="20261023183500 +0200" stop="20261023190000 +0200" channel="Disney.Junior.dk"><title>SuperKitties: Su-Purr Charged II (43)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/svZssJM2FbpW0v0O6QbGLpL7rGf.jpg" /></programme><programme start="20261023190000 +0200" stop="20261023192500 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (21)</title><desc /></programme><programme start="20261023192500 +0200" stop="20261023193500 +0200" channel="Disney.Junior.dk"><title>Bluey I (49)</title><desc /></programme><programme start="20261023193500 +0200" stop="20261023194000 +0200" channel="Disney.Junior.dk"><title>Bluey I (51)</title><desc /></programme><programme start="20261023194000 +0200" stop="20261023195000 +0200" channel="Disney.Junior.dk"><title>Bluey II (1)</title><desc /></programme><programme start="20261023195000 +0200" stop="20261023195500 +0200" channel="Disney.Junior.dk"><title>Bluey II (3)</title><desc /></programme><programme start="20261023195500 +0200" stop="20261023200500 +0200" channel="Disney.Junior.dk"><title>Bluey II (5)</title><desc /></programme><programme start="20261023200500 +0200" stop="20261023201000 +0200" channel="Disney.Junior.dk"><title>Bluey II (7)</title><desc /></programme><programme start="20261023201000 +0200" stop="20261023202000 +0200" channel="Disney.Junior.dk"><title>Bluey II (9)</title><desc /></programme><programme start="20261023202000 +0200" stop="20261023202500 +0200" channel="Disney.Junior.dk"><title>Bluey II (11)</title><desc /></programme><programme start="20261023202500 +0200" stop="20261023205000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends II (54)</title><desc /></programme><programme start="20261023205000 +0200" stop="20261023211500 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (9)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261023211500 +0200" stop="20261023214000 +0200" channel="Disney.Junior.dk"><title>SuperKitties: Su-Purr Charged II (34)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/svZssJM2FbpW0v0O6QbGLpL7rGf.jpg" /></programme><programme start="20261023214000 +0200" stop="20261023220500 +0200" channel="Disney.Junior.dk"><title>SuperKitties I (7)</title><desc /></programme><programme start="20261023220500 +0200" stop="20261023223000 +0200" channel="Disney.Junior.dk"><title>Pupstruction II (26)</title><desc /></programme><programme start="20261023223000 +0200" stop="20261023224000 +0200" channel="Disney.Junior.dk"><title>Bluey I (3)</title><desc /></programme><programme start="20261023224000 +0200" stop="20261023224500 +0200" channel="Disney.Junior.dk"><title>Bluey I (4)</title><desc /></programme><programme start="20261023224500 +0200" stop="20261023225000 +0200" channel="Disney.Junior.dk"><title>Bluey I (5)</title><desc /></programme><programme start="20261023225000 +0200" stop="20261023230000 +0200" channel="Disney.Junior.dk"><title>Bluey I (6)</title><desc /></programme><programme start="20261023230000 +0200" stop="20261023230500 +0200" channel="Disney.Junior.dk"><title>Bluey I (7)</title><desc /></programme><programme start="20261023230500 +0200" stop="20261023231500 +0200" channel="Disney.Junior.dk"><title>Bluey I (8)</title><desc /></programme><programme start="20261023231500 +0200" stop="20261023232500 +0200" channel="Disney.Junior.dk"><title>Bluey I (9)</title><desc /></programme><programme start="20261023232500 +0200" stop="20261023235000 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (17)</title><desc /></programme><programme start="20261023235000 +0200" stop="20261024001500 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (18)</title><desc /></programme><programme start="20261024021500 +0200" stop="20261024024000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends I (4)</title><desc /></programme><programme start="20261024024000 +0200" stop="20261024030500 +0200" channel="Disney.Junior.dk"><title>Robogobo: Season 1 I (3)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/b4NWfvpWvHJ0YrNLdTk2BtzCo9X.jpg" /></programme><programme start="20261024030500 +0200" stop="20261024033000 +0200" channel="Disney.Junior.dk"><title>Robogobo: Season 1 I (4)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/b4NWfvpWvHJ0YrNLdTk2BtzCo9X.jpg" /></programme><programme start="20261024033000 +0200" stop="20261024035500 +0200" channel="Disney.Junior.dk"><title>Robogobo: Season 1 I (5)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/b4NWfvpWvHJ0YrNLdTk2BtzCo9X.jpg" /></programme><programme start="20261024035500 +0200" stop="20261024040500 +0200" channel="Disney.Junior.dk"><title>Bluey II (10)</title><desc /></programme><programme start="20261024040500 +0200" stop="20261024041000 +0200" channel="Disney.Junior.dk"><title>Bluey II (9)</title><desc /></programme><programme start="20261024041000 +0200" stop="20261024041500 +0200" channel="Disney.Junior.dk"><title>Bluey II (8)</title><desc /></programme><programme start="20261024041500 +0200" stop="20261024042500 +0200" channel="Disney.Junior.dk"><title>Bluey II (7)</title><desc /></programme><programme start="20261024042500 +0200" stop="20261024043000 +0200" channel="Disney.Junior.dk"><title>Bluey II (6)</title><desc /></programme><programme start="20261024043000 +0200" stop="20261024044000 +0200" channel="Disney.Junior.dk"><title>Bluey II (5)</title><desc /></programme><programme start="20261024044000 +0200" stop="20261024045000 +0200" channel="Disney.Junior.dk"><title>Bluey II (4)</title><desc /></programme><programme start="20261024045000 +0200" stop="20261024045500 +0200" channel="Disney.Junior.dk"><title>Bluey II (3)</title><desc /></programme><programme start="20261024045500 +0200" stop="20261024050000 +0200" channel="Disney.Junior.dk"><title>Bluey II (2)</title><desc /></programme><programme start="20261024050000 +0200" stop="20261024050500 +0200" channel="Disney.Junior.dk"><title>Bluey II (1)</title><desc /></programme><programme start="20261024050500 +0200" stop="20261024051000 +0200" channel="Disney.Junior.dk"><title>Bluey I (52)</title><desc /></programme><programme start="20261024051000 +0200" stop="20261024053500 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends I (5)</title><desc /></programme><programme start="20261024053500 +0200" stop="20261024060000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends I (6)</title><desc /></programme><programme start="20261024060000 +0200" stop="20261024062500 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (24)</title><desc /></programme><programme start="20261024062500 +0200" stop="20261024065000 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (2)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261024065000 +0200" stop="20261024071500 +0200" channel="Disney.Junior.dk"><title>SuperKitties I (8)</title><desc /></programme><programme start="20261024071500 +0200" stop="20261024072500 +0200" channel="Disney.Junior.dk"><title>Bluey II (72)</title><desc /></programme><programme start="20261024072500 +0200" stop="20261024073000 +0200" channel="Disney.Junior.dk"><title>Bluey II (74)</title><desc /></programme><programme start="20261024073000 +0200" stop="20261024074000 +0200" channel="Disney.Junior.dk"><title>Bluey II (76)</title><desc /></programme><programme start="20261024074000 +0200" stop="20261024074500 +0200" channel="Disney.Junior.dk"><title>Bluey II (78)</title><desc /></programme><programme start="20261024074500 +0200" stop="20261024075500 +0200" channel="Disney.Junior.dk"><title>Bluey II (80)</title><desc /></programme><programme start="20261024075500 +0200" stop="20261024080000 +0200" channel="Disney.Junior.dk"><title>Bluey II (82)</title><desc /></programme><programme start="20261024080000 +0200" stop="20261024081000 +0200" channel="Disney.Junior.dk"><title>Bluey II (84)</title><desc /></programme><programme start="20261024081000 +0200" stop="20261024083500 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (9)</title><desc /></programme><programme start="20261024083500 +0200" stop="20261024090000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends III (81)</title><desc /></programme><programme start="20261024090000 +0200" stop="20261024092500 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (3)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261024092500 +0200" stop="20261024095000 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (5)</title><desc /></programme><programme start="20261024095000 +0200" stop="20261024100000 +0200" channel="Disney.Junior.dk"><title>Bluey III (120)</title><desc /></programme><programme start="20261024100000 +0200" stop="20261024100500 +0200" channel="Disney.Junior.dk"><title>Bluey III (119)</title><desc /></programme><programme start="20261024100500 +0200" stop="20261024101500 +0200" channel="Disney.Junior.dk"><title>Bluey III (118)</title><desc /></programme><programme start="20261024101500 +0200" stop="20261024102000 +0200" channel="Disney.Junior.dk"><title>Bluey III (117)</title><desc /></programme><programme start="20261024102000 +0200" stop="20261024102500 +0200" channel="Disney.Junior.dk"><title>Bluey III (116)</title><desc /></programme><programme start="20261024102500 +0200" stop="20261024103500 +0200" channel="Disney.Junior.dk"><title>Bluey III (115)</title><desc /></programme><programme start="20261024103500 +0200" stop="20261024104000 +0200" channel="Disney.Junior.dk"><title>Bluey III (114)</title><desc /></programme><programme start="20261024104000 +0200" stop="20261024104500 +0200" channel="Disney.Junior.dk"><title>Bluey III (113)</title><desc /></programme><programme start="20261024104500 +0200" stop="20261024111000 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (2)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261024111000 +0200" stop="20261024113500 +0200" channel="Disney.Junior.dk"><title>SuperKitties III (55)</title><desc /></programme><programme start="20261024113500 +0200" stop="20261024120000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends III (80)</title><desc /></programme><programme start="20261024120000 +0200" stop="20261024122500 +0200" channel="Disney.Junior.dk"><title>Iron Man and His Awesome Friends I (22)</title><desc /></programme><programme start="20261024122500 +0200" stop="20261024125000 +0200" channel="Disney.Junior.dk"><title>Robogobo: Season 1 I (20)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/b4NWfvpWvHJ0YrNLdTk2BtzCo9X.jpg" /></programme><programme start="20261024125000 +0200" stop="20261024131500 +0200" channel="Disney.Junior.dk"><title>Robogobo: Season 1 I (19)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/b4NWfvpWvHJ0YrNLdTk2BtzCo9X.jpg" /></programme><programme start="20261024131500 +0200" stop="20261024132500 +0200" channel="Disney.Junior.dk"><title>RoboGobo S1 Splits I (44)</title><desc /></programme><programme start="20261024132500 +0200" stop="20261024135000 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+: Season 2 II (30)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/m1S0drszN5nhtGpG498so8NjUXv.jpg" /></programme><programme start="20261024135000 +0200" stop="20261024141500 +0200" channel="Disney.Junior.dk"><title>Disney Junior Ariel: The Little Mermaid II (34)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/7pNdReYwYkba5qWvFRHevFt9O2x.jpg" /></programme><programme start="20261024141500 +0200" stop="20261024144000 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (3)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261024144000 +0200" stop="20261024150500 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (1)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261024150500 +0200" stop="20261024154500 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse: Mickey’s Pirate Adventure</title><desc /></programme><programme start="20261024154500 +0200" stop="20261024160500 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends IV (90)</title><desc /></programme><programme start="20261024160500 +0200" stop="20261024162500 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends IV (93)</title><desc /></programme><programme start="20261024162500 +0200" stop="20261024165000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends IV (95)</title><desc /></programme><programme start="20261024165000 +0200" stop="20261024171000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends IV (97)</title><desc /></programme><programme start="20261024171000 +0200" stop="20261024173000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends IV (99)</title><desc /></programme><programme start="20261024173000 +0200" stop="20261024175500 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (11)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261024175500 +0200" stop="20261024182000 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (10)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261024182000 +0200" stop="20261024184500 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (16)</title><desc /></programme><programme start="20261024184500 +0200" stop="20261024191000 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (15)</title><desc /></programme><programme start="20261024191000 +0200" stop="20261024191500 +0200" channel="Disney.Junior.dk"><title>Bluey II (95)</title><desc /></programme><programme start="20261024191500 +0200" stop="20261024192500 +0200" channel="Disney.Junior.dk"><title>Bluey II (94)</title><desc /></programme><programme start="20261024192500 +0200" stop="20261024193500 +0200" channel="Disney.Junior.dk"><title>Bluey II (65)</title><desc /></programme><programme start="20261024193500 +0200" stop="20261024194000 +0200" channel="Disney.Junior.dk"><title>Bluey II (67)</title><desc /></programme><programme start="20261024194000 +0200" stop="20261024195000 +0200" channel="Disney.Junior.dk"><title>Bluey II (69)</title><desc /></programme><programme start="20261024195000 +0200" stop="20261024195500 +0200" channel="Disney.Junior.dk"><title>Bluey II (71)</title><desc /></programme><programme start="20261024195500 +0200" stop="20261024200500 +0200" channel="Disney.Junior.dk"><title>Bluey II (73)</title><desc /></programme><programme start="20261024200500 +0200" stop="20261024201000 +0200" channel="Disney.Junior.dk"><title>Bluey II (75)</title><desc /></programme><programme start="20261024201000 +0200" stop="20261024202000 +0200" channel="Disney.Junior.dk"><title>Bluey II (77)</title><desc /></programme><programme start="20261024202000 +0200" stop="20261024202500 +0200" channel="Disney.Junior.dk"><title>Bluey II (79)</title><desc /></programme><programme start="20261024202500 +0200" stop="20261024205000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends III (79)</title><desc /></programme><programme start="20261024205000 +0200" stop="20261024211500 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (11)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261024211500 +0200" stop="20261024214000 +0200" channel="Disney.Junior.dk"><title>SuperKitties III (53)</title><desc /></programme><programme start="20261024214000 +0200" stop="20261024220500 +0200" channel="Disney.Junior.dk"><title>SuperKitties I (9)</title><desc /></programme><programme start="20261024220500 +0200" stop="20261024223000 +0200" channel="Disney.Junior.dk"><title>Pupstruction I (25)</title><desc /></programme><programme start="20261024223000 +0200" stop="20261024224000 +0200" channel="Disney.Junior.dk"><title>Bluey I (10)</title><desc /></programme><programme start="20261024224000 +0200" stop="20261024224500 +0200" channel="Disney.Junior.dk"><title>Bluey I (11)</title><desc /></programme><programme start="20261024224500 +0200" stop="20261024225000 +0200" channel="Disney.Junior.dk"><title>Bluey I (12)</title><desc /></programme><programme start="20261024225000 +0200" stop="20261024230000 +0200" channel="Disney.Junior.dk"><title>Bluey I (13)</title><desc /></programme><programme start="20261024230000 +0200" stop="20261024230500 +0200" channel="Disney.Junior.dk"><title>Bluey I (14)</title><desc /></programme><programme start="20261024230500 +0200" stop="20261024231500 +0200" channel="Disney.Junior.dk"><title>Bluey I (15)</title><desc /></programme><programme start="20261024231500 +0200" stop="20261024232500 +0200" channel="Disney.Junior.dk"><title>Bluey I (16)</title><desc /></programme><programme start="20261024232500 +0200" stop="20261024235000 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (19)</title><desc /></programme><programme start="20261024235000 +0200" stop="20261025001500 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (20)</title><desc /></programme><programme start="20261024040000 +0000" stop="20261024042500 +0000" channel="nickelodeonjuniordk.dk"><title>Tim Rex i rummet</title><desc>Tim gør alt, hvad han kan, for at få fat i den nye Dinostjerne-figur.// Det er dagen, hvor man laver løjer med hinanden, men Tim ved ikke, hvornår man stopper.// Tim og far skal fange en drilagtig muldvarp.</desc><episode-num system="xmltv_ns">.8.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/85KVExNzP8zgEMUp6q6FV5HfKTC.jpg" /></programme>
 <programme start="20261024042500 +0000" stop="20261024044500 +0000" channel="nickelodeonjuniordk.dk"><title>Tim Rex i rummet</title><desc>Tim og Kai tager ud at surfe; Tim og Kai prøver at genopbygge fars rumskib; Tim møder en edderkop.</desc><episode-num system="xmltv_ns">.9.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/85KVExNzP8zgEMUp6q6FV5HfKTC.jpg" /></programme>
 <programme start="20261024044500 +0000" stop="20261024051000 +0000" channel="nickelodeonjuniordk.dk"><title>Rubble &amp; Co</title><desc>Da en statue af alle folk i byen pludselig forsvinder, tager Chase ud med Rubble og co. for at løse sagen om den forsvundne statue ... og for at bygge et splinternyt videnskabscenter, der kan hjælpe efterforskningen.</desc><episode-num system="xmltv_ns">.19.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/7m2NrBKnvqMZZ1fytUCmWcAf9xO.jpg" /></programme>
 <programme start="20261024051000 +0000" stop="20261024053500 +0000" channel="nickelodeonjuniordk.dk"><title>Rubble &amp; Co</title><desc>Fartmeister får det til at regne over Byggernes Bugts sangkonkurrence, så Rubble og co. redder showet ved at bygge en kæmpeparaply over stadionet. // Rubble og co. bygger et baggagebånd i lufthavnen, da ingen kan finde deres bagage.</desc><episode-num system="xmltv_ns">.0.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/7m2NrBKnvqMZZ1fytUCmWcAf9xO.jpg" /></programme>
