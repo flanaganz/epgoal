@@ -324,7 +324,7 @@
   <icon src="https://image.tmdb.org/t/p/w1280/d5kCx42cOit6yTAHKTlpXy3wvdM.jpg" /></programme>
   <programme start="20261025070000 +0000" stop="20261025071500 +0000" channel="dr1.dk">
     <title lang="da">TVA</title>
-    <desc lang="da">Sæson: 2026. '25.10.2026'. TV Avisen giver dig overblik over dagens vigtigste nyheder fra Danmark og verden omkring os. Få indblik og perspektiv på de største begivenheder og historier. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 2026. 'Kraftigt blæsevejr rammer Danmark'. Over store dele af landet er er der søndag morgen kraftig blæst med vindstød af stormstyrke. Flere færger er aflyst, broer fraråder kørsel med vindfølsomme køretøjer, og politiet advarer om væltede træer på vejene. TV Avisen giver dig overblik over dagens vigtigste nyheder fra Danmark og verden omkring os. Få indblik og perspektiv på de største begivenheder og historier. Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     </programme>
   <programme start="20261025071500 +0000" stop="20261025080000 +0000" channel="dr1.dk">
@@ -336,13 +336,13 @@
       <value>7</value>
     </rating>
   </programme>
-  <programme start="20261025080000 +0000" stop="20261025085400 +0000" channel="dr1.dk">
+  <programme start="20261025080000 +0000" stop="20261025085300 +0000" channel="dr1.dk">
     <title lang="da">Irlands fantastiske øer</title>
     <sub-title lang="da">(1:2)</sub-title>
     <desc lang="da">Sæson: 2. Episode: 1. 'Vinterens vildnis'. Udhold vinteren og det tidlige forår på vestkysten, hvor dyr lever en kølig tilværelse. Se kronhjortene kæmpe på det vindomsuste Inishvickillane, byd sælungerne velkommen midt i hylende storme på Inishkea-øerne, og se hajernes tilbagevenden. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     </programme>
-  <programme start="20261025085400 +0000" stop="20261025090000 +0000" channel="dr1.dk">
+  <programme start="20261025085300 +0000" stop="20261025090000 +0000" channel="dr1.dk">
     <title lang="da">Vilde vidunderlige Danmark - Bæveren</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'Bæveren'. Bæveren er en flittig handyman, der konstant arbejder på sin dæmning. Det kræver vedholdenhed at holde vandstanden oppe, så indgangen til hans hule kan forblive under vand. Medvirkende: Lars Mikkelsen. Tilladt for: A.</desc>
     <credits>
@@ -363,7 +363,7 @@
     </programme>
   <programme start="20261025110000 +0000" stop="20261025111500 +0000" channel="dr1.dk">
     <title lang="da">TVA</title>
-    <desc lang="da">Sæson: 2026. '25.10.2026'. TV Avisen giver dig overblik over dagens vigtigste nyheder fra Danmark og verden omkring os. Få indblik og perspektiv på de største begivenheder og historier. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 2026. 'Venstre holder ekstraordinært møde i hovedbestyrelsen'. Efter de seneste ugers interne splid i Venstre holder partiet i dag ekstraordinært møde i hovedbestyrelsen. Her vil partiformand forsøge at få opbakning til sin politiske linje. TV Avisen giver dig overblik over dagens vigtigste nyheder fra Danmark og verden omkring os. Få indblik og perspektiv på de største begivenheder og historier. Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     </programme>
   <programme start="20261025111500 +0000" stop="20261025120500 +0000" channel="dr1.dk">
@@ -541,7 +541,7 @@
   <icon src="https://image.tmdb.org/t/p/w1280/qMOe40lxBNobowmOkOAmXvPK4RG.jpg" /></programme>
   <programme start="20261026003000 +0000" stop="20261026025500 +0000" channel="dr1.dk">
     <title lang="da">Da Vinci-mysteriet</title>
-    <desc lang="da">'Da Vinci-mysteriet'. Følg med symbolforskeren Robert Langdon og kryptologen Sophie Neveu på deres halsbrækkende jagt efter løsningen på et bizart mord der tager dem fra Frankrig til England og lige ind i et mystisk, ældgammelt broderskab, hvor de opdager en hemmelighed der er blevet bevaret helt fra Kristi tid. Instruktør: Ron Howard. Medvirkende: Tom Hanks, Audrey Tautou, Jean Reno, Ian McKellen. Tilladt for: A.</desc>
+    <desc lang="da">'Da Vinci-mysteriet'. Følg med symbolforskeren Robert Langdon og kryptologen Sophie Neveu på deres halsbrækkende jagt efter løsningen på et bizart mord der tager dem fra Frankrig til England og lige ind i et mystisk, ældgammelt broderskab, hvor de opdager en hemmelighed der er blevet bevaret helt fra Kristi tid. Instruktør: Ron Howard. Medvirkende: Tom Hanks, Audrey Tautou, Jean Reno, Ian McKellen. Tilladt for: 15.</desc>
     <credits>
       <director>Ron Howard</director>
       <actor>Tom Hanks</actor>
@@ -556,7 +556,10 @@
       <actor>Jean-Pierre Marielle</actor>
     </credits>
     <category lang="da">Film</category>
-    <icon src="https://image.tmdb.org/t/p/w1280/lqvXHOkRKVOQuNIGm3SflqxZYNy.jpg" /></programme>
+    <rating system="DK">
+      <value>15</value>
+    </rating>
+  <icon src="https://image.tmdb.org/t/p/w1280/lqvXHOkRKVOQuNIGm3SflqxZYNy.jpg" /></programme>
   <programme start="20261026025500 +0000" stop="20261026031500 +0000" channel="dr1.dk">
     <title lang="da">Drømmen om et liv på landet</title>
     <sub-title lang="da">3 (6:8)</sub-title>
@@ -746,7 +749,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/6WJIUENeyUlp2tyiiuoe3MDS7R4.jpg" /></programme>
   <programme start="20261026200000 +0000" stop="20261026202500 +0000" channel="dr1.dk">
     <title lang="da">TVA</title>
     <desc lang="da">Sæson: 2026. '26.10.2026'. TV Avisen giver dig overblik over dagens vigtigste nyheder fra Danmark og verden omkring os. Få indblik og perspektiv på de største begivenheder og historier. Tilladt for: A.</desc>
@@ -1252,7 +1255,7 @@
     <title lang="da">Krigens døgn</title>
     <desc lang="da">Sæson: 5. Episode: 32. 'Krigens døgn'. Forstå krigen mellem Ukraine og Rusland helt ned i detaljen. Med udgangspunkt i den seneste uges begivenheder zoomer vi sammen med Danmarks førende eksperter ind på krigens afgørende elementer. Tilladt for: A.</desc>
     <category lang="da">Politik</category>
-    <icon src="https://image.tmdb.org/t/p/original/yDhXEZoGn1cobsOFUgFT3p1h9uA.jpg" /></programme>
+    </programme>
   <programme start="20261028173000 +0000" stop="20261028175000 +0000" channel="dr1.dk">
     <title lang="da">TVA</title>
     <desc lang="da">Sæson: 2026. '28.10.2026'. TV Avisen giver dig overblik over dagens vigtigste nyheder fra Danmark og verden omkring os. Få indblik og perspektiv på de største begivenheder og historier. Tilladt for: A.</desc>
@@ -1398,28 +1401,25 @@
     <desc lang="da">Sæson: 1. Episode: 1. 'Storbyens puls'. Kan Indien lære Rob Rinder og Rylan Clark at leve det gode liv? De to kendisvenner rejser gennem en af verdens ældste civilisationer. Med E.M. Forsters banebrydende roman 'Vejen til Indien' som inspiration følger de i forfatterens fodspor gennem landet - og oplever dets kunst, kultur og historie. I Delhi besøger de det prægtige Humayuns gravsted, møder milliardæren og kunstsamleren Shalini Passi og slutter rejsen i Kathputli Colony, hvor de optræder med dukketeater. BBC-dokumentarserie fra 2025. Tilladt for: A.</desc>
     <category lang="da">Show</category>
     </programme>
-  <programme start="20261025050000 +0000" stop="20261025053000 +0000" channel="dr2.dk">
+  <programme start="20261025050000 +0000" stop="20261025060000 +0000" channel="dr2.dk">
     <title lang="da">Kunstnerkolonien på Sydfyn</title>
     <sub-title lang="da">(7:8)</sub-title>
     <desc lang="da">Sæson: 3. Episode: 7. 'Kuratoren ankommer til Sydfyn'. Kurator Michael Thouber ser for første gang kunstnernes værker til udstillingen, men Adam er langt fra færdig, mens Eske afslører sit nye eksperiment. Vil det lykkes at skabe et nyt kunstværk? Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     </programme>
-  <programme start="20261025053000 +0000" stop="20261025060100 +0000" channel="dr2.dk">
-    <title lang="da">Værtshushistorier: Drop Inn</title>
-    <desc lang="da">Sæson: 1. Episode: 4. 'Drop inn'. I 1970 er værtshuset Drop Inn centrum for Københavns bohemer - og stedet, hvor det storstilede eksperiment Thy-Lejren bliver født over en flok øl. Men for eksperimentets bagmand udvikler lejren sig katastrofalt. Tilladt for: 7.</desc>
-    <category lang="da">Fakta</category>
-    <rating system="DK">
-      <value>7</value>
-    </rating>
-  <icon src="https://image.tmdb.org/t/p/w1280/rqqcUExjwlcNUr3hN5bHXd8aLzk.jpg" /></programme>
-  <programme start="20261025060100 +0000" stop="20261025070000 +0000" channel="dr2.dk">
+  <programme start="20261025060000 +0000" stop="20261025070000 +0000" channel="dr2.dk">
     <title lang="da">Kunsten at bygge en metro</title>
     <desc lang="da">'Kunsten at bygge en metro'. For første gang i Danmarkshistorien er kunst en del af et stationsbyggeri helt fra starten. Over syv år følger vi kunstnere som Superflex, Pernille With Madsen og Christian Schmidt-Rasmussen bringe liv, farve og identitet ind i stationerne på den nye metrolinje til Sydhavnen. Kæmpestore værker skabt i samarbejde med ingeniører, der kulminerer med Kong Frederiks åbning af de nye stationer. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     <icon src="https://image.tmdb.org/t/p/w1280/e8ZNZ8d74EyT1Iob5sUSBXXykR4.jpg" /></programme>
-  <programme start="20261025070000 +0000" stop="20261025110000 +0000" channel="dr2.dk">
+  <programme start="20261025070000 +0000" stop="20261025083000 +0000" channel="dr2.dk">
     <title lang="da">Seneste nyt fra TVA</title>
     <desc lang="da">Sæson: 2026. '25.10.2026 08:00.'. TV Avisen giver dig overblik over dagens vigtigste nyheder fra Danmark og verden omkring os. Få indblik og perspektiv på de største begivenheder og historier. Tilladt for: A.</desc>
+    <category lang="da">Nyheder</category>
+    <icon src="https://image.tmdb.org/t/p/w1280/fBcRe2ZiDv1zHXuaLyX3WnuCV9g.jpg" /></programme>
+  <programme start="20261025083000 +0000" stop="20261025110000 +0000" channel="dr2.dk">
+    <title lang="da">Seneste nyt fra TVA</title>
+    <desc lang="da">Sæson: 2026. '25.10.2026 09:30.'. TV Avisen giver dig overblik over dagens vigtigste nyheder fra Danmark og verden omkring os. Få indblik og perspektiv på de største begivenheder og historier. Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     <icon src="https://image.tmdb.org/t/p/w1280/fBcRe2ZiDv1zHXuaLyX3WnuCV9g.jpg" /></programme>
   <programme start="20261025110000 +0000" stop="20261025115500 +0000" channel="dr2.dk">
@@ -1533,7 +1533,7 @@
       <value>15</value>
     </rating>
   </programme>
-  <programme start="20261025235500 +0000" stop="20261026013000 +0000" channel="dr2.dk">
+  <programme start="20261025235500 +0000" stop="20261026013500 +0000" channel="dr2.dk">
     <title lang="da">Dream Scenario</title>
     <desc lang="da">'Dream Scenario'. Filmen 'Dream Scenario' er en sort komedie om en helt almindelig mand, der opnår kendisstatus da han på besynderlig vis begynder at dukke op i alles drømme. Nicolas Cage spiller universitetslæreren Paul, hvis liv ændres markant fra den ene dag til den anden. Instruktør: Kristoffer Borgli. Medvirkende: Nicolas Cage, Michael Cera, Julianne Nicholson, Kate Berlant. Tilladt for: 15.</desc>
     <credits>
@@ -1554,7 +1554,7 @@
       <value>15</value>
     </rating>
   </programme>
-  <programme start="20261026013000 +0000" stop="20261026022000 +0000" channel="dr2.dk">
+  <programme start="20261026013500 +0000" stop="20261026022500 +0000" channel="dr2.dk">
     <title lang="da">Optimistens guide til planeten</title>
     <sub-title lang="da">2 (6:6)</sub-title>
     <desc lang="da">Sæson: 2. Episode: 6. 'Fremtiden'. Hvor går vi hen herfra? Nikolaj Coster-Waldau rejser til Indien, Finland og Peru for at møde mennesker, der udfordrer gamle forestillinger og finder nye veje til en bæredygtig fremtid. I Indien lærer man at leve sikkert med slanger, i Finland gentænkes atomkraft som en del af løsningen på klimakrisen, og i Peru plantes millioner af træer for at bringe vandet tilbage til Andesbjergene. Kan fælles handling skabe forandring? Canadisk dokumentarserie fra 2025. Tilladt for: 7.</desc>
@@ -1563,7 +1563,7 @@
       <value>7</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/45l1LZIKgymsHYpiXpkKTTojDVj.jpg" /></programme>
-  <programme start="20261026022000 +0000" stop="20261026031500 +0000" channel="dr2.dk">
+  <programme start="20261026022500 +0000" stop="20261026031500 +0000" channel="dr2.dk">
     <title lang="da">Frankrig mellem to verdenskrige</title>
     <sub-title lang="da">(1:2)</sub-title>
     <desc lang="da">Sæson: 1. Episode: 1. 'De brølende 20'ere'. 1919. Efter fire år i helvede er 1. verdenskrig endelig slut. Familier genforenes og landet bliver genopbygget. Den franske nation træder ind i det 20. århundrede med selvtillid og drømme om evig fred. Ingen forventer, at de brølende 1920'ere kun er et kortvarigt mellemspil. Snart ser franskmændene atter krigens skygge dukke op. Instruktør: Romain Icard. Tilladt for: 11.</desc>
@@ -2039,7 +2039,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/4tq55Qg7mTOAVPtI3S6gceOTSTj.jpg" /></programme>
   <programme start="20261028203000 +0000" stop="20261028210000 +0000" channel="dr2.dk">
     <title lang="da">De ville dø for sagen: Ellen &amp; Vorherre</title>
     <desc lang="da">Sæson: 1. Episode: 3. 'Ellen &amp; vorherre'. Ellen Kirstine Marie Nielsen var overbevist om, at kristendommen var den sande tro og skulle udbredes til hele verden. Derfor drog hun i starten af 1900-tallet til Kina og blev der i 60 år. Hun var parat til at ofre sig selv for at omvende de vantro. Sammen med en række historikere forsøger Liv Thomsen at forstå hvorfor. Tilladt for: 7.</desc>
@@ -2071,7 +2071,7 @@
     <title lang="da">Krigens døgn</title>
     <desc lang="da">Sæson: 5. Episode: 32. 'Krigens døgn'. Forstå krigen mellem Ukraine og Rusland helt ned i detaljen. Med udgangspunkt i den seneste uges begivenheder zoomer vi sammen med Danmarks førende eksperter ind på krigens afgørende elementer. Tilladt for: A.</desc>
     <category lang="da">Politik</category>
-    <icon src="https://image.tmdb.org/t/p/original/yDhXEZoGn1cobsOFUgFT3p1h9uA.jpg" /></programme>
+    </programme>
   <programme start="20261028230500 +0000" stop="20261029004500 +0000" channel="dr2.dk">
     <title lang="da">Subject</title>
     <desc lang="da">'Subject'. Hvordan er det at dele sit liv med hele verden? Her fortæller tidligere medvirkende fra fem af de største dokumentarer i nyere tid: "The Staircase.</desc>
@@ -2503,7 +2503,7 @@
     <title lang="da">Fotovognen</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'Fotovognen'. Alt kan ske, når Vibeke og Anders dukker uanmeldt op. De drikker kaffe med to midaldrende kvinder, der sælger sexlegetøj. Og det går helt galt, da de møder to tyskere. Tilladt for: A.</desc>
     <category lang="da">Fritid</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/A0b64eS20xhWhu47RL0kIiRVMxz.jpg" /></programme>
   <programme start="20261027015500 +0000" stop="20261027022500 +0000" channel="tv2.dk">
     <title lang="da">Grænsepatruljen Australien</title>
     <desc lang="da">Sæson: 9. Episode: 18. 'Grænsepatruljen Australien AU'. Hver dag rejser flere end 20.000 passagerer ind i Australien med skib eller fly, og de skal alle igennem grænsekontrollen, før de bliver lukket ind i landet. De mange kvinder og mænd, der bogstavelig talt udgør Australiens frontlinje, er bl.a. på udkig efter rejsende, der måske ikke er, hvad de udgiver sig for, narkokurerer, illegale immigranter og mulige terrorister. Tilladt for: 11.</desc>
@@ -2688,7 +2688,7 @@
     <title lang="da">Fotovognen</title>
     <desc lang="da">Sæson: 1. Episode: 2. 'En næsten nøgen mand'. Denne gang bliver Vibeke og Anders noget overraskede, da de møder en næsten nøgen mand en vinterdag. Men smilet stivner, da Fotovognen ikke vil starte. Tilladt for: A.</desc>
     <category lang="da">Fritid</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/A0b64eS20xhWhu47RL0kIiRVMxz.jpg" /></programme>
   <programme start="20261028015500 +0000" stop="20261028022000 +0000" channel="tv2.dk">
     <title lang="da">Grænsepatruljen Australien</title>
     <desc lang="da">Sæson: 10. Episode: 19. 'Border Security: Australia's Front Line'. Hver dag rejser flere end 20.000 passagerer ind i Australien med skib eller fly, og de skal alle igennem grænsekontrollen, før de bliver lukket ind i landet. De mange kvinder og mænd, der bogstavelig talt udgør Australiens frontlinje, er bl.a. på udkig efter rejsende, der måske ikke er, hvad de udgiver sig for, narkokurerer, illegale immigranter og mulige terrorister. Medvirkende: Grant Bowler, Chris Spradlin, Andy Trieu. Tilladt for: 11.</desc>
@@ -2881,7 +2881,7 @@
     <title lang="da">Fotovognen</title>
     <desc lang="da">Sæson: 1. Episode: 3. 'Fotovognen'. Vibeke og Anders lægger vejen forbi Joakim, der bramfrit fortæller, at han både er til kvinder og mænd. Og en vindblæst postkasse giver et godt grin. Tilladt for: A.</desc>
     <category lang="da">Fritid</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/A0b64eS20xhWhu47RL0kIiRVMxz.jpg" /></programme>
   <programme start="20261029013000 +0000" stop="20261029015500 +0000" channel="tv2.dk">
     <title lang="da">Grænsepatruljen Australien</title>
     <desc lang="da">Sæson: 9. Episode: 20. 'Border Security: Australia's Front Line'. Hver dag rejser flere end 20.000 passagerer ind i Australien med skib eller fly, og de skal alle igennem grænsekontrollen, før de bliver lukket ind i landet. De mange kvinder og mænd, der bogstavelig talt udgør Australiens frontlinje, er bl.a. på udkig efter rejsende, der måske ikke er, hvad de udgiver sig for, narkokurerer, illegale immigranter og mulige terrorister. Medvirkende: Grant Bowler, Chris Spradlin, Andy Trieu. Tilladt for: 11.</desc>
@@ -3030,7 +3030,7 @@
     <icon src="https://image.tmdb.org/t/p/w1280/cctzlmS01z6Oc4W3cyev0vvMXxw.jpg" /></programme>
   <programme start="20261025194500 +0000" stop="20261025212000 +0000" channel="tv2zulu.dk">
     <title lang="da">Source Code</title>
-    <desc lang="da">'Source Code'. Da officeren Colter Stevens vågner fra sin lur på toget mod Chicago, ser han til sin udelte forvirring en anden mands ansigt i spejlet. Otte minutter senere sprænger en bombemand toget i smadder, og vupti vender Stevens tilbage til sin egen krop i en kold betoncelle. Langsomt går det op for ham, at han er på en eksperimental mission, hvor han oplever de samme minutter om og om igen i jagten på bombemanden. Instruktør: Duncan Jones. Medvirkende: Jake Gyllenhaal, Michelle Monaghan, Vera Farmiga, Jeffrey Wright. Tilladt for: 15.</desc>
+    <desc lang="da">'Source Code'. Da officeren Colter Stevens vågner fra sin lur på toget mod Chicago, ser han til sin udelte forvirring en anden mands ansigt i spejlet. Otte minutter senere sprænger en bombemand toget i smadder, og vupti vender Stevens tilbage til sin egen krop i en kold betoncelle. Langsomt går det op for ham, at han er på en eksperimental mission, hvor han oplever de samme minutter om og om igen i jagten på bombemanden. Instruktør: Duncan Jones. Medvirkende: Jake Gyllenhaal, Michelle Monaghan, Vera Farmiga, Jeffrey Wright. Tilladt for: 11.</desc>
     <credits>
       <director>Duncan Jones</director>
       <actor>Jake Gyllenhaal</actor>
@@ -3046,7 +3046,7 @@
     </credits>
     <category lang="da">Film</category>
     <rating system="DK">
-      <value>15</value>
+      <value>11</value>
     </rating>
   </programme>
   <programme start="20261025212000 +0000" stop="20261025222500 +0000" channel="tv2zulu.dk">
@@ -3309,7 +3309,7 @@
     <title lang="da">Alle elsker Rasmus</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'Tys, tys'. Rasmus Wallbridge tror, han udvikler en spillefilm med sin ven Martin Johannes Larsen, men i virkeligheden er han hovedpersonen i sin egen tv-serie. Han ved det bare ikke selv. De to venner får en unik chance for at pitche deres filmidé for Nordisk Film, men de kommer på glatis, da Esben Pretzmann tilfældigt dukker op. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/gb7c2Bq34U5lICDiLlqMN2WQslP.jpg" /></programme>
   <programme start="20261026201500 +0000" stop="20261026221500 +0000" channel="tv2zulu.dk">
     <title lang="da">Hannibal Rising</title>
     <desc lang="da">'Hannibal Rising'. Den skræmmende og fascinerende beretning om den menneskeædende seriemorder Hannibal Lecters barndom. Hvordan formes man til en af historiens mest berygtede mordere? Instruktør: Peter Webber. Medvirkende: Gaspard Ulliel, Rhys Ifans, Gong Li, Aaran Thomas. Tilladt for: 15.</desc>
@@ -3577,7 +3577,7 @@
     <title lang="da">Jomfruernes Ø</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'I det røde felt'. 11 unge voksne med én ting til fælles: De er jomfruer. Sammen kaster de sig ud i alt det sårbare, sjove og akavede ved sex, kærlighed og intimitet, mens de udfordrer det, der indtil nu har stået i vejen. For hvordan lærer man at lukke et andet menneske ind, når man aldrig har prøvet det før? Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/dbO2C8w9MKLcelzpPv8VW2a0qJQ.jpg" /></programme>
   <programme start="20261027202000 +0000" stop="20261027221500 +0000" channel="tv2zulu.dk">
     <title lang="da">Letters to Juliet</title>
     <desc lang="da">'Letters to Juliet'. Tror du på den ultimative kærlighed? Sophie er på ferie med sin italienske kæreste i Verona – Romeo og Julies hjemby – da hun falder over et støvet kærestebrev, skrevet for halvtreds år siden. Instruktør: Gary Winick. Medvirkende: Amanda Seyfried, Gael García Bernal, Vanessa Redgrave, Marcia DeBonis. Tilladt for: A.</desc>
@@ -3807,7 +3807,7 @@
     <title lang="da">Jomfruernes Ø</title>
     <desc lang="da">Sæson: 1. Episode: 2. 'Grænser'. Hvor går ens grænse, når man ikke er vant til at mærke efter? Jomfruerne skal øve sig i at give slip, stole på hinanden og sige fra. For nogle bliver berøring overraskende rart, og lysten vækkes lettere end forventet, mens andre må trække sig, når øvelserne kommer for tæt på. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/dbO2C8w9MKLcelzpPv8VW2a0qJQ.jpg" /></programme>
   <programme start="20261028202500 +0000" stop="20261028220000 +0000" channel="tv2zulu.dk">
     <title lang="da">Johnny English</title>
     <desc lang="da">'Johnny English'. Han mangler både nerver og sund fornuft - Johnny English, Storbritanniens sidste håb. Sammen med Bough får han til opgave at undersøge det mystiske tyveri af de britiske kronjuveler. Øverst på listen over mistænkte står Pascal Savage, en mystisk franskmand, og den forføreriske Lorna Campbell. Johnny må finde sandheden at plette hverken nationen ære eller sin Aston Martin. Instruktør: Peter Howitt. Medvirkende: Rowan Atkinson, John Malkovich, Natalie Imbruglia, Tasha de Vasconcelos. Tilladt for: 7.</desc>
@@ -4257,7 +4257,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/egGlodrVmKwZn4TqMawqFawKXh9.jpg" /></programme>
   <programme start="20261026094500 +0000" stop="20261026103500 +0000" channel="tv2charlie.dk">
     <title lang="da">Mord i Melbourne</title>
     <desc lang="da">Sæson: 1. Episode: 2. 'Mord i Melbourne'. En mand bliver fundet død på et motelværelse. Nogen slog manden ihjel og flygtede på mystiskvis, mens døren blev låst indefra. Instruktør: Mat King. Medvirkende: Lucy Lawless, Bernard Curry, Ebony Vagulans, Kate McCartney. Tilladt for: 7.</desc>
@@ -4278,7 +4278,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/egGlodrVmKwZn4TqMawqFawKXh9.jpg" /></programme>
   <programme start="20261026103500 +0000" stop="20261026112500 +0000" channel="tv2charlie.dk">
     <title lang="da">Bjerglægen</title>
     <desc lang="da">Sæson: 13. Episode: 9. 'Zeit des Erwachens 1'. Den passionerede helikopterpilot Maike Schlüte er i store vanskeligheder. Hun har helbredsmæssige problemer og er desuden plaget af dårlig samvittighed. På grund af en mislykket redningsaktion ligger den unge kvinde Suse nu i koma, og Maike har samtidig indledt et hemmeligt forhold til Suses mand, Max. Doktor Gruber frygter, at alt håb er ude for Suse - lige indtil hun mirakuløst vågner op. Medvirkende: Hans Sigl, Heiko Ruprecht, Monika Baumgartner, Ronja Forcher. Tilladt for: 7.</desc>
@@ -4473,7 +4473,7 @@
       <actor>Arthur Jensen</actor>
     </credits>
     <category lang="da">Film</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/9ph7uV14hWosUrGnhoMqpa61yQ8.jpg" /></programme>
   <programme start="20261026222000 +0000" stop="20261026231000 +0000" channel="tv2charlie.dk">
     <title lang="da">Hvem vil være millionær? Classic</title>
     <desc lang="da">Sæson: 17. Episode: 6. 'Mig og min allerbedste ven'. Steffen synes, Torben er en fantastisk kammerat, og det vil han gerne sige tak for. Da Steffen sidste år mistede sin mor, påtog han sig forældremyndigheden over sin lillesøster og følte sig pludselig meget voksen. Torben har altid været der for ham og hjulpet ham gennem den svære tid. Derfor har Steffen nu taget Torben med en tur i de varme stole hos Hans Pilgaard og håber, at det bliver til en god slat penge, som kan forsøde tilværelsen lidt. De to venner er godt på vej, for i sidste uge nåede de op på 12.000 kroner, og der er stadig en livline tilbage. Tilladt for: A.</desc>
@@ -4682,7 +4682,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/egGlodrVmKwZn4TqMawqFawKXh9.jpg" /></programme>
   <programme start="20261027094000 +0000" stop="20261027103000 +0000" channel="tv2charlie.dk">
     <title lang="da">Mord i Melbourne</title>
     <desc lang="da">Sæson: 1. Episode: 3. 'Mord i Melbourne'. Cykling er godt for både krop og sjæl, men da økonomidirektøren for et velgørenhedsimperie dør under sin morgentur, må Alexa i sadlen og infiltrere en verden af lycra og buksepuder. Instruktør: Leah Purcell. Medvirkende: Lucy Lawless, Bernard Curry, Ebony Vagulans, Kate McCartney. Tilladt for: 7.</desc>
@@ -4703,7 +4703,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/egGlodrVmKwZn4TqMawqFawKXh9.jpg" /></programme>
   <programme start="20261027103000 +0000" stop="20261027112000 +0000" channel="tv2charlie.dk">
     <title lang="da">Bjerglægen</title>
     <desc lang="da">Sæson: 13. Episode: 10. 'Zeit des Erwachens 2'. Mens Suse vågner fra koma, forværres Maikes tilstand. Men hvorfor er hun syg? Og hvad stille hun og Max op med deres forhold? På gården får Anne et tilbud fra Gregor, der næsten for godt til at være sandt, så hun konfronterer ham med sin mistanke om, at der ligger andre motiver bag hans tilbud. Samtidig vender Franziska tilbage fra München og søger straks støtte hos Martin. Medvirkende: Hans Sigl, Heiko Ruprecht, Monika Baumgartner, Ronja Forcher. Tilladt for: 7.</desc>
@@ -5124,7 +5124,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/egGlodrVmKwZn4TqMawqFawKXh9.jpg" /></programme>
   <programme start="20261028094000 +0000" stop="20261028103000 +0000" channel="tv2charlie.dk">
     <title lang="da">Mord i Melbourne</title>
     <desc lang="da">Sæson: 1. Episode: 4. 'Mord i Melbourne'. Alexa kastes ind i en kulinarisk verden, da hun undersøger et dødsfald på en kokkeskole, der er godt krydret med løgne, rivalisering og hemmeligheder. Instruktør: Mat King. Medvirkende: Lucy Lawless, Bernard Curry, Ebony Vagulans, Alex Andreas. Tilladt for: 7.</desc>
@@ -5145,7 +5145,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/egGlodrVmKwZn4TqMawqFawKXh9.jpg" /></programme>
   <programme start="20261028103000 +0000" stop="20261028112500 +0000" channel="tv2charlie.dk">
     <title lang="da">Bjerglægen</title>
     <desc lang="da">Sæson: 13. Episode: 11. 'Die grosse Kälte 1'. Martin Gruber redde en ung mand fra at blive kvalt på politistationen, og kort tid efter anklages politiinspektøren for at være ansvarlig for hændelsen. Inspektør Herbert Sattler har dog andet at slås med. Han døjer med konstante mavesmerte, og Martin frygter det værste. Samtidig går det op for Martin, at den advokat der står bag anklagerne mod Sattler, er mandens egen datter. Medvirkende: Hans Sigl, Heiko Ruprecht, Monika Baumgartner, Ronja Forcher. Tilladt for: 7.</desc>
@@ -5535,7 +5535,7 @@
   <icon src="https://image.tmdb.org/t/p/w1280/vLBXHFQNVZZK4gyikZsCmMDGJSD.jpg" /></programme>
   <programme start="20261025123000 +0000" stop="20261025133000 +0000" channel="TV3.dk">
     <title lang="da">Doc</title>
-    <desc lang="da">Sæson: 2. Episode: 19. 'Next'. På sin sidste dag på Westside udpeger Joan en overraskende efterfølger og overlæge og deler sine erfaringer. Gina hjælper TJ’s patient, mens Amy og Jake kommer op at skændes. Tilladt for: 11.</desc>
+    <desc lang="da">Sæson: 2. Episode: 19. 'Doc'. På sin sidste dag på Westside udpeger Joan en overraskende efterfølger og overlæge og deler sine erfaringer. Gina hjælper TJ’s patient, mens Amy og Jake kommer op at skændes. Tilladt for: 11.</desc>
     <category lang="da">Serier</category>
     <rating system="DK">
       <value>11</value>
@@ -8861,7 +8861,7 @@
   </programme>
   <programme start="20261026034000 +0000" stop="20261026051500 +0000" channel="kanal5.dk">
     <title lang="da">Hvor ondskab bor</title>
-    <desc lang="da">Sæson: 10. Episode: 15. 'Badge of Evil'. Tonys stedfar, vicebetjent Dave Rogers, virkede perfekt for hans mor – indtil illusionen brister og afslører en korrupt betjent, der er i stand til ufattelig ondskab. Medvirkende: James M. Reilly, T.J. Craig, Robert Levey II, Kathy-Ann Hart. Tilladt for: 15.</desc>
+    <desc lang="da">Sæson: 10. Episode: 15. 'Hvor ondskab bor'. Tony er overbevist om, at hans mor har fundet lykken med Dave Rogers, indtil han ser den uhyggelige sandhed om en mand, der misbruger sit politiskilt. Medvirkende: James M. Reilly, T.J. Craig, Robert Levey II, Kathy-Ann Hart. Tilladt for: 15.</desc>
     <credits>
       <actor>James M. Reilly</actor>
       <actor>T.J. Craig</actor>
@@ -11647,7 +11647,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/y4uQ34MIQnovTrneGuCY1idHEci.jpg" /></programme>
   <programme start="20261027190000 +0000" stop="20261027195000 +0000" channel="6eren.dk">
     <title lang="da">Helicopter ER</title>
     <desc lang="da">Sæson: 5. Episode: 1. 'Episode 1'. En motorcyklist kæmper for livet med flere skader, og Dr. Neil må forvandle vejkanten til en operationsstue. Tilladt for: 11.</desc>
@@ -11843,7 +11843,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/y4uQ34MIQnovTrneGuCY1idHEci.jpg" /></programme>
   <programme start="20261028175000 +0000" stop="20261028190000 +0000" channel="6eren.dk">
     <title lang="da">Oslo Politi</title>
     <desc lang="da">Sæson: 1. Episode: 2. 'Episode 2'. Frode og Marius standser en bil, der kører alt for stærkt, hvor chaufføren bliver rasende. Situationen eskalerer, da spyttesten viser kokain. Inge er på tur med motorcyklen og stopper cyklister, der ikke respekterer det røde lys i trafikken. Marius og Frode rykker ud til et røveri på Grorud – eller er det et narkosalg, der er gået galt? Tilladt for: 11.</desc>
@@ -11851,7 +11851,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/y4uQ34MIQnovTrneGuCY1idHEci.jpg" /></programme>
   <programme start="20261028190000 +0000" stop="20261028195000 +0000" channel="6eren.dk">
     <title lang="da">Helicopter ER</title>
     <desc lang="da">Sæson: 5. Episode: 2. 'Episode 2'. En mand tager desperate midler i brug for at redde sin bror efter en ulykke på en BMX-cykel. En golfspiller kollapser, og holdet begynder genoplivning. Tilladt for: 11.</desc>
@@ -13888,7 +13888,7 @@
     <icon src="https://image.tmdb.org/t/p/w1280/2AV8nTUXzJZOLokPeSwkK4ZzOmq.jpg" /></programme>
   <programme start="20261027154000 +0000" stop="20261027160000 +0000" channel="nickelodeon.dk">
     <title lang="da">SvampeBob Firkant</title>
-    <desc lang="da">Sæson: 16. Episode: 1. 'Bizarbund; Blækwards hårde skæbne'. SvampeBob falder i søvn på bussen og ender i en mærkelig by fuld af Bikini-Bunden-dobbetgængere. // Blækward mister hukommelsen og tillægger sig en ny bøllepersonlighed. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 16. Episode: 1. 'Zucchini-bunden / Blækward, den barske bølle'. SvampeBob falder i søvn på bussen og ender i en mærkelig by fuld af Bikini-Bunden-dobbetgængere. // Blækward mister hukommelsen og tillægger sig en ny bøllepersonlighed. Tilladt for: A.</desc>
     <category lang="da">Børn</category>
     <icon src="https://image.tmdb.org/t/p/w1280/2AV8nTUXzJZOLokPeSwkK4ZzOmq.jpg" /></programme>
   <programme start="20261027160000 +0000" stop="20261027163000 +0000" channel="nickelodeon.dk">
@@ -23729,7 +23729,7 @@
       <actor>Ari Rubin</actor>
     </credits>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/dw3s2ijGQoNqHuTbtgh6WaL7PNq.jpg" /></programme>
   <programme start="20261025115000 +0000" stop="20261025123500 +0000" channel="natgeowild.dk">
     <title lang="da">Den utrolige Dr. Pol</title>
     <desc lang="da">Sæson: 20. Episode: 8. 'De rimelige fornødenheder'. Isabella County Fair er i fuld gang! Dr. Pol fortsætter sin rolle som den uofficielle dyrlæge på messen, og hjælper børn med at holde deres gårddyr friske og sunde til auktionen. Charles introducerer sin lille datter for messens højdepunkter. Tilbage på PVS har holdet travlt med mavesmerter, bistik og babyer. Derudover hjælper dr. Nicole en Shih Tzu i nød. Medvirkende: Ari Rubin. Tilladt for: A.</desc>
@@ -23737,7 +23737,7 @@
       <actor>Ari Rubin</actor>
     </credits>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/dw3s2ijGQoNqHuTbtgh6WaL7PNq.jpg" /></programme>
   <programme start="20261025123500 +0000" stop="20261025131500 +0000" channel="natgeowild.dk">
     <title lang="da">Den utrolige Dr. Pol</title>
     <desc lang="da">Sæson: 19. Episode: 10. 'Ny Pol i gaden'. Dyrlægene håndterer en lang række sommerproblemer. Dr. Nicole hjælper en hund med alvorlige rifter, og dr. Pol behandler en kat, der er blevet ramt af en bil. Medvirkende: Ari Rubin. Tilladt for: A.</desc>
@@ -23745,7 +23745,7 @@
       <actor>Ari Rubin</actor>
     </credits>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/dw3s2ijGQoNqHuTbtgh6WaL7PNq.jpg" /></programme>
   <programme start="20261025131500 +0000" stop="20261025140000 +0000" channel="natgeowild.dk">
     <title lang="da">Seen on Safari</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'Baboons in Charge'. 50 bavianer kæmper mod en sulten leopard, og en elefantfamilie samarbejder for at redde den mindste i flokken. Når tørketiden topper, betyder det at tage på safari, at man tjekker de resterende vandhuller. En leopard jager bizarre fisk i mudderet, mens bavianer plyndrer reder ved flodbredden. Hver begivenhed klarlægges og forklares og byder på en stærk, følelsesladet og informativ tur. Tilladt for: A.</desc>
@@ -23798,7 +23798,7 @@
       <actor>Ari Rubin</actor>
     </credits>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/dw3s2ijGQoNqHuTbtgh6WaL7PNq.jpg" /></programme>
   <programme start="20261025203500 +0000" stop="20261025212000 +0000" channel="natgeowild.dk">
     <title lang="da">Den utrolige Dr. Pol</title>
     <desc lang="da">Sæson: 20. Episode: 8. 'De rimelige fornødenheder'. Isabella County Fair er i fuld gang! Dr. Pol fortsætter sin rolle som den uofficielle dyrlæge på messen, og hjælper børn med at holde deres gårddyr friske og sunde til auktionen. Charles introducerer sin lille datter for messens højdepunkter. Tilbage på PVS har holdet travlt med mavesmerter, bistik og babyer. Derudover hjælper dr. Nicole en Shih Tzu i nød. Medvirkende: Ari Rubin. Tilladt for: A.</desc>
@@ -23806,7 +23806,7 @@
       <actor>Ari Rubin</actor>
     </credits>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/dw3s2ijGQoNqHuTbtgh6WaL7PNq.jpg" /></programme>
   <programme start="20261025212000 +0000" stop="20261025220000 +0000" channel="natgeowild.dk">
     <title lang="da">Den utrolige Dr. Pol</title>
     <desc lang="da">Sæson: 19. Episode: 10. 'Ny Pol i gaden'. Dyrlægene håndterer en lang række sommerproblemer. Dr. Nicole hjælper en hund med alvorlige rifter, og dr. Pol behandler en kat, der er blevet ramt af en bil. Medvirkende: Ari Rubin. Tilladt for: A.</desc>
@@ -23814,7 +23814,7 @@
       <actor>Ari Rubin</actor>
     </credits>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/dw3s2ijGQoNqHuTbtgh6WaL7PNq.jpg" /></programme>
   <programme start="20261025220000 +0000" stop="20261025224500 +0000" channel="natgeowild.dk">
     <title lang="da">Wild Crocs of the Caribbean</title>
     <desc lang="da">'Wild Crocs of the Caribbean'. I Caribien er to bemærkelsesværdige krokodillearter på rejser, der krydser hinanden. I Cubas enorme Zapata-sump holder den sjældne cubanske krokodille fast i en af deres sidste vilde tilflugtssteder, mens deres vidt udbredte amerikanske slægtninge bevæger sig mellem mangrover, rev og åbent vand. Omkring dem fylder et spektakulært udvalg af dyreliv denne tropiske verden med farver og liv. Men efterhånden som levestederne ændrer sig, og disse to krokodiller i stigende grad krydser veje, kan de kræfter, der omformer deres verden, ikke blot være afgørende for, hvordan de overlever, men også hvad de bliver til. Tilladt for: A.</desc>
@@ -23962,7 +23962,7 @@
       <actor>Ari Rubin</actor>
     </credits>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/dw3s2ijGQoNqHuTbtgh6WaL7PNq.jpg" /></programme>
   <programme start="20261026161500 +0000" stop="20261026170000 +0000" channel="natgeowild.dk">
     <title lang="da">Den utrolige Dr. Pol</title>
     <desc lang="da">Sæson: 20. Episode: 11. 'Marco Pol-O'. Pol Veterinary Services er overrendt af hvalpe, der ikke vil tage deres medicin. Dr. Pol behandler tre geder og en yndig hest, mens Dr. Brenda møder sit match i et kækt rensdyr. Dyrlægerne skal arbejde over for at hjælpe den energiske pitbull Tater, efter at han har spist noget mystisk og livsfarligt. Medvirkende: Ari Rubin. Tilladt for: A.</desc>
@@ -23970,7 +23970,7 @@
       <actor>Ari Rubin</actor>
     </credits>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/dw3s2ijGQoNqHuTbtgh6WaL7PNq.jpg" /></programme>
   <programme start="20261026170000 +0000" stop="20261026174500 +0000" channel="natgeowild.dk">
     <title lang="da">Heartland Docs</title>
     <desc lang="da">Sæson: 2. Episode: 6. 'Hvo intet vover!'. Schroeder-dyrlægeparret samarbejder om en række tilfælde, herunder en ged, som skal føde, en hest i hypotermi og en ko, der har det svært, efter den har født. Andre patienter omfatter en hund, der skal have en øjenoperation, og en kanin, der ikke kan gå. Da dr. Ben ikke tager sig af dyr i nød, hyrer han sønnerne Charlie og Chase til at finde på en plan for at fejre dr. Erins fødselsdag. Tilladt for: A.</desc>
@@ -23998,7 +23998,7 @@
       <actor>Ari Rubin</actor>
     </credits>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/dw3s2ijGQoNqHuTbtgh6WaL7PNq.jpg" /></programme>
   <programme start="20261026204000 +0000" stop="20261026212500 +0000" channel="natgeowild.dk">
     <title lang="da">Den utrolige Dr. Pol</title>
     <desc lang="da">Sæson: 20. Episode: 11. 'Marco Pol-O'. Pol Veterinary Services er overrendt af hvalpe, der ikke vil tage deres medicin. Dr. Pol behandler tre geder og en yndig hest, mens Dr. Brenda møder sit match i et kækt rensdyr. Dyrlægerne skal arbejde over for at hjælpe den energiske pitbull Tater, efter at han har spist noget mystisk og livsfarligt. Medvirkende: Ari Rubin. Tilladt for: A.</desc>
@@ -24006,7 +24006,7 @@
       <actor>Ari Rubin</actor>
     </credits>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/dw3s2ijGQoNqHuTbtgh6WaL7PNq.jpg" /></programme>
   <programme start="20261026212500 +0000" stop="20261026221000 +0000" channel="natgeowild.dk">
     <title lang="da">Wild, Smart and Deadly</title>
     <desc lang="da">Sæson: 1. Episode: 2. 'Den Sjette Sans'. For at overleve vilde landskaber, mangel på føde og farlige rovdyr har væsner brug for mere end bare råstyrke for at overleve. Disse dyr har en super sjette sans der lader dem fange bytte der bevæger sig hurtigt, overleve barsk vejr og finde mad på usandsynlige steder. Tilladt for: A.</desc>
@@ -24126,7 +24126,7 @@
     </programme>
   <programme start="20261027104000 +0000" stop="20261027111500 +0000" channel="natgeowild.dk">
     <title lang="da">Lion</title>
-    <desc lang="da">Sæson: 1. Episode: 3. 'Lion'. Efter en desperat søgen genforenes Kio og Summer med brødrene – men livet i udkanten af løvernes territorium er ubarmhjertigt. Summer kæmper for at skaffe mad til sine uerfarne sønner og forberede dem på et liv alene, og overlevelseskampen tærer på kræfterne. Da et let måltid bliver for fristende, ændres Kios liv for altid. Han tvinges til at blive selvstændig langt tidligere end ventet, og nu må han og hans brødre lære at overleve på egen hånd. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 1. Episode: 3. 'Chapter Three: The Greatest Sacrifice'. Efter en desperat søgen genforenes Kio og Summer med brødrene – men livet i udkanten af løvernes territorium er ubarmhjertigt. Summer kæmper for at skaffe mad til sine uerfarne sønner og forberede dem på et liv alene, og overlevelseskampen tærer på kræfterne. Da et let måltid bliver for fristende, ændres Kios liv for altid. Han tvinges til at blive selvstændig langt tidligere end ventet, og nu må han og hans brødre lære at overleve på egen hånd. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     </programme>
   <programme start="20261027111500 +0000" stop="20261027115500 +0000" channel="natgeowild.dk">
@@ -24166,7 +24166,7 @@
       <actor>Ari Rubin</actor>
     </credits>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/dw3s2ijGQoNqHuTbtgh6WaL7PNq.jpg" /></programme>
   <programme start="20261027161500 +0000" stop="20261027170000 +0000" channel="natgeowild.dk">
     <title lang="da">Den utrolige Dr. Pol</title>
     <desc lang="da">Sæson: 21. Episode: 1. 'Chutes and Bladders'. Dyrlægerne må håndtere på flere nødsituationer; en hest , der er alvorligt traumatiseret i en ulykke med en sød lille hund, der har pådraget sig en meget slem skade på øjet efter et slagsmål. Dr. Pol behandler en væddeløbshest med en karrieretruende hovskade, og dr. Nicole og Brenda tager ud til nogle patienter. Et kraftigt han-rensdyr har et hårdt flækket gevir, og en perlehøne har brug for dr. Pols hjælp. Medvirkende: Ari Rubin. Tilladt for: A.</desc>
@@ -24174,7 +24174,7 @@
       <actor>Ari Rubin</actor>
     </credits>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/dw3s2ijGQoNqHuTbtgh6WaL7PNq.jpg" /></programme>
   <programme start="20261027170000 +0000" stop="20261027174500 +0000" channel="natgeowild.dk">
     <title lang="da">Havets vidundere</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'Øer af liv'. Stillehavsøerne spænder fra koralatoller og rygende vulkaner til dele af et tabt kontinent. Opdag de vildeste historier om tilpasning og overlevelse på disse Øer af liv. Tilladt for: A.</desc>
@@ -24202,7 +24202,7 @@
       <actor>Ari Rubin</actor>
     </credits>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/dw3s2ijGQoNqHuTbtgh6WaL7PNq.jpg" /></programme>
   <programme start="20261027204000 +0000" stop="20261027212500 +0000" channel="natgeowild.dk">
     <title lang="da">Den utrolige Dr. Pol</title>
     <desc lang="da">Sæson: 21. Episode: 1. 'Chutes and Bladders'. Dyrlægerne må håndtere på flere nødsituationer; en hest , der er alvorligt traumatiseret i en ulykke med en sød lille hund, der har pådraget sig en meget slem skade på øjet efter et slagsmål. Dr. Pol behandler en væddeløbshest med en karrieretruende hovskade, og dr. Nicole og Brenda tager ud til nogle patienter. Et kraftigt han-rensdyr har et hårdt flækket gevir, og en perlehøne har brug for dr. Pols hjælp. Medvirkende: Ari Rubin. Tilladt for: A.</desc>
@@ -24210,7 +24210,7 @@
       <actor>Ari Rubin</actor>
     </credits>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/dw3s2ijGQoNqHuTbtgh6WaL7PNq.jpg" /></programme>
   <programme start="20261027212500 +0000" stop="20261027221000 +0000" channel="natgeowild.dk">
     <title lang="da">Into The Carpathian Wild</title>
     <desc lang="da">Sæson: 1. Episode: 2. 'Summer'. Sommeren skænker overflod, men i kapløbet om at udnytte et kort øjebliks varme fører den også konkurrence, aggression og fare med sig. Højt oppe på bjergenes enge kæmper alpemurmeldyr om de bedste skjulesteder til at opfostre unger i, men kan de undslippe de sultne bjørne? Bjørneungerne i Karpaterne vokser hurtigt, men risikerer at blive angrebet af konkurrerende voksne hanner. Kan deres mødres snedige strategier beskytte dem? Flokke af bisoner tordner gennem de gamle skove på jagt efter føde og vand. De er en sejr for naturgenoprettelsen, fordi deres trampen styrker livet i hele skoven, som insekterne, der formerer sig i milliardvis. Disse insekter må derefter finde mad og vender sig mod flokke af kronhjorte. Plaget af de bidende insekter løber hjortene op i bjergene for at flygte, men risikerer at blive bytte for sjældne vilde kattedyr. Tilladt for: A.</desc>
@@ -24233,7 +24233,7 @@
     </programme>
   <programme start="20261028001500 +0000" stop="20261028005500 +0000" channel="natgeowild.dk">
     <title lang="da">Lion</title>
-    <desc lang="da">Sæson: 1. Episode: 3. 'Lion'. Efter en desperat søgen genforenes Kio og Summer med brødrene – men livet i udkanten af løvernes territorium er ubarmhjertigt. Summer kæmper for at skaffe mad til sine uerfarne sønner og forberede dem på et liv alene, og overlevelseskampen tærer på kræfterne. Da et let måltid bliver for fristende, ændres Kios liv for altid. Han tvinges til at blive selvstændig langt tidligere end ventet, og nu må han og hans brødre lære at overleve på egen hånd. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 1. Episode: 3. 'Chapter Three: The Greatest Sacrifice'. Efter en desperat søgen genforenes Kio og Summer med brødrene – men livet i udkanten af løvernes territorium er ubarmhjertigt. Summer kæmper for at skaffe mad til sine uerfarne sønner og forberede dem på et liv alene, og overlevelseskampen tærer på kræfterne. Da et let måltid bliver for fristende, ændres Kios liv for altid. Han tvinges til at blive selvstændig langt tidligere end ventet, og nu må han og hans brødre lære at overleve på egen hånd. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     </programme>
   <programme start="20261028005500 +0000" stop="20261028013500 +0000" channel="natgeowild.dk">
@@ -24253,7 +24253,7 @@
     </programme>
   <programme start="20261028025500 +0000" stop="20261028033500 +0000" channel="natgeowild.dk">
     <title lang="da">Lion</title>
-    <desc lang="da">Sæson: 1. Episode: 3. 'Lion'. Efter en desperat søgen genforenes Kio og Summer med brødrene – men livet i udkanten af løvernes territorium er ubarmhjertigt. Summer kæmper for at skaffe mad til sine uerfarne sønner og forberede dem på et liv alene, og overlevelseskampen tærer på kræfterne. Da et let måltid bliver for fristende, ændres Kios liv for altid. Han tvinges til at blive selvstændig langt tidligere end ventet, og nu må han og hans brødre lære at overleve på egen hånd. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 1. Episode: 3. 'Chapter Three: The Greatest Sacrifice'. Efter en desperat søgen genforenes Kio og Summer med brødrene – men livet i udkanten af løvernes territorium er ubarmhjertigt. Summer kæmper for at skaffe mad til sine uerfarne sønner og forberede dem på et liv alene, og overlevelseskampen tærer på kræfterne. Da et let måltid bliver for fristende, ændres Kios liv for altid. Han tvinges til at blive selvstændig langt tidligere end ventet, og nu må han og hans brødre lære at overleve på egen hånd. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     </programme>
   <programme start="20261028033500 +0000" stop="20261028042000 +0000" channel="natgeowild.dk">
@@ -24358,7 +24358,7 @@
     <title lang="da">Den utrolige Dr. Pol</title>
     <desc lang="da">Sæson: 21. Episode: 5. 'Pol på patrulje'. Når en syg hund næsten ikke kan gå, er PVS-dyrlægerne på sagen. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/dw3s2ijGQoNqHuTbtgh6WaL7PNq.jpg" /></programme>
   <programme start="20261028161500 +0000" stop="20261028170000 +0000" channel="natgeowild.dk">
     <title lang="da">Den utrolige Dr. Pol</title>
     <desc lang="da">Sæson: 21. Episode: 3. 'A Hard Day's Bite'. PVS's ekspertdyrlæger behandler en række tilfælde fra en leguan uden appetit til en schæferhunds dinglende ben. Med dygtige hænder behandler dr. Lisa en hest, der er ved at blive kvalt, og derefter en fødende gylte. Dr. Nicoles undersøgelser hjælper en shih tzus mystiske sår og en hævet ged. Dr. Brenda tilser en kat, mens dr. Pol foretager graviditetstjek af kameler. Medvirkende: Ari Rubin. Tilladt for: A.</desc>
@@ -24366,7 +24366,7 @@
       <actor>Ari Rubin</actor>
     </credits>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/dw3s2ijGQoNqHuTbtgh6WaL7PNq.jpg" /></programme>
   <programme start="20261028170000 +0000" stop="20261028174500 +0000" channel="natgeowild.dk">
     <title lang="da">Hunters of the Reef</title>
     <desc lang="da">'Hunters of the Reef'. Tropiske koralrev er billedet på farverig, lysplettet ro – men det er en dykkers perspektiv. For de skællede og gællede beboere er det et fisk-spiser-fisk-miljø styret af delfinflokke, der patruljerer området ved spisetid, mens alle andre kryber i ly. Utrolige våben, camouflage, giftige forsvar og enestående strategier er blevet udviklet blandt de mindre jægere i konstant konkurrence. Løvefisk jager i flok og sprøjter gift ud over alle modstandere med deres frynsede pigge. Knælerrejen har polariseret syn og det hurtigste slag på planeten. Blæksprutter ændrer deres hud, så den matcher sandet, og angriber derefter med fangarme som harpuner. Jagten er i gang i det skiftende tidevand! Tilladt for: A.</desc>
@@ -24391,7 +24391,7 @@
     <title lang="da">Den utrolige Dr. Pol</title>
     <desc lang="da">Sæson: 21. Episode: 5. 'Pol på patrulje'. Når en syg hund næsten ikke kan gå, er PVS-dyrlægerne på sagen. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/dw3s2ijGQoNqHuTbtgh6WaL7PNq.jpg" /></programme>
   <programme start="20261028204000 +0000" stop="20261028212500 +0000" channel="natgeowild.dk">
     <title lang="da">Den utrolige Dr. Pol</title>
     <desc lang="da">Sæson: 21. Episode: 3. 'A Hard Day's Bite'. PVS's ekspertdyrlæger behandler en række tilfælde fra en leguan uden appetit til en schæferhunds dinglende ben. Med dygtige hænder behandler dr. Lisa en hest, der er ved at blive kvalt, og derefter en fødende gylte. Dr. Nicoles undersøgelser hjælper en shih tzus mystiske sår og en hævet ged. Dr. Brenda tilser en kat, mens dr. Pol foretager graviditetstjek af kameler. Medvirkende: Ari Rubin. Tilladt for: A.</desc>
@@ -24399,7 +24399,7 @@
       <actor>Ari Rubin</actor>
     </credits>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/dw3s2ijGQoNqHuTbtgh6WaL7PNq.jpg" /></programme>
   <programme start="20261028212500 +0000" stop="20261028221000 +0000" channel="natgeowild.dk">
     <title lang="da">Big Little Giants</title>
     <desc lang="da">'Big Little Giants'. ”Big Little Giants” foregår i Botswanas enorme og utæmmede vildmark og følger Afrikas yngste dyr, idet de tager deres første skridt ind i en udfordrende verden formet af tørke, rovdyr og gamle migrationsruter. Fra en nyfødt elefant, der lærer at følge med sin flok, til sjakalunger, der tester deres instinkter, og gepardunger, der forbereder sig på et liv i et forbløffende tempo, udfolder hver historie sig gennem intime øjeblikke præget af læring og tab. Guidet af forældre, søskende og instinkt må disse unge dyr hurtigt tilpasse sig eller sakke bagud. Gennem betagende landskaber og nærbilleder vil du se, hvordan mod, familiebånd og modstandskraft former overlevelse i den mest skrøbelige livsfase i naturen. Tilladt for: A.</desc>
@@ -31140,7 +31140,7 @@
     </programme>
   <programme start="20261028050000 +0000" stop="20261028054500 +0000" channel="CNN.dk">
     <title lang="da">The Story Is with Elex Michaelson</title>
-    <desc lang="da">Sæson: 2026. Episode: 42. 'The Story Is with Elex Michaelson'. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 2026. Episode: 42. 'The Story Is with Elex Michaelson'. Elex Michaelson tackles the breaking stories making headlines with sharp analysis, fresh perspective, and a dose of humor. Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     </programme>
   <programme start="20261028054500 +0000" stop="20261028060000 +0000" channel="CNN.dk">
@@ -31210,12 +31210,12 @@
     </programme>
   <programme start="20261028150000 +0000" stop="20261028160000 +0000" channel="CNN.dk">
     <title lang="da">One World</title>
-    <desc lang="da">Sæson: 2026. Episode: 215. 'One World'. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 2026. Episode: 215. 'One World'. Zain Asher and Bianna Golodryga cover the top global and national issues of the day. Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     </programme>
   <programme start="20261028160000 +0000" stop="20261028170000 +0000" channel="CNN.dk">
     <title lang="da">One World</title>
-    <desc lang="da">Sæson: 2026. Episode: 476. 'One World'. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 2026. Episode: 476. 'One World'. Zain Asher and Bianna Golodryga cover the top global and national issues of the day. Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     </programme>
   <programme start="20261028170000 +0000" stop="20261028180000 +0000" channel="CNN.dk">
@@ -31225,7 +31225,7 @@
     </programme>
   <programme start="20261028180000 +0000" stop="20261028190000 +0000" channel="CNN.dk">
     <title lang="da">Isa Soares Tonight</title>
-    <desc lang="da">Sæson: 2026. Episode: 214. 'Isa Soares Tonight'. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 2026. Episode: 214. 'Isa Soares Tonight'. Isa Soares deep dives into today's top stories with insightful conversations and reports from around the world. Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     </programme>
   <programme start="20261028190000 +0000" stop="20261028200000 +0000" channel="CNN.dk">
@@ -31265,7 +31265,7 @@
     </programme>
   <programme start="20261029010000 +0000" stop="20261029020000 +0000" channel="CNN.dk">
     <title lang="da">The Source with Kaitlan Collins</title>
-    <desc lang="da">Sæson: 2026. Episode: 215. 'The Source with Kaitlan Collins'. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 2026. Episode: 215. 'The Source with Kaitlan Collins'. Kaitlan Collins goes straight to the source for the best reporting on the day's biggest stories. Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     </programme>
   <programme start="20261029020000 +0000" stop="20261029030000 +0000" channel="CNN.dk">
@@ -31275,12 +31275,12 @@
     </programme>
   <programme start="20261029030000 +0000" stop="20261029040000 +0000" channel="CNN.dk">
     <title lang="da">Laura Coates Live</title>
-    <desc lang="da">Sæson: 2026. Episode: 215. 'Laura Coates Live'. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 2026. Episode: 215. 'Laura Coates Live'. Laura Coates goes inside the story with a relentless pursuit of the facts. Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     </programme>
   <programme start="20261029040000 +0000" stop="20261029050000 +0000" channel="CNN.dk">
     <title lang="da">The Story Is with Elex Michaelson</title>
-    <desc lang="da">Sæson: 2026. Episode: 429. 'The Story Is with Elex Michaelson'. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 2026. Episode: 429. 'The Story Is with Elex Michaelson'. Elex Michaelson tackles the breaking stories making headlines with sharp analysis, fresh perspective, and a dose of humor. Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     </programme>
   <programme start="20261025035500 +0000" stop="20261025050000 +0000" channel="tlc.dk">
@@ -32017,7 +32017,7 @@
     <title lang="da">Fantasifulde rum UK</title>
     <desc lang="da">Sæson: 12. Episode: 1. 'Fantasifulde rum (UK)'. George rejser i denne sæson til Danmark, hvor han oplever dansk arkitektur af øverste skuffe, og første stop på hans tur er et langhus i Randers. Samtidig har han en vild ide til et nyt byggeprojekt. Tilladt for: A.</desc>
     <category lang="da">Fritid</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/gf4fbabbAojsVqITAbEqhDQJo6s.jpg" /></programme>
   <programme start="20261025053000 +0000" stop="20261025054500 +0000" channel="tv2fri.dk">
     <title lang="da">Godnat</title>
     <desc lang="da">'Godnat'. Godnat. Tilladt for: A.</desc>
@@ -32177,7 +32177,7 @@
     <title lang="da">Fantasifulde rum UK</title>
     <desc lang="da">Sæson: 12. Episode: 2. 'Fantasifulde rum (UK)'. George besøger Thyborøn, hvor en lokal fisker har skabt noget helt unikt. Samtidig får et hjem på fire hjul en luksuriøs renovering, og en togvogn bliver forvandlet til et hundevenligt feriested. Tilladt for: A.</desc>
     <category lang="da">Fritid</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/gf4fbabbAojsVqITAbEqhDQJo6s.jpg" /></programme>
   <programme start="20261026053500 +0000" stop="20261026055500 +0000" channel="tv2fri.dk">
     <title lang="da">Godnat</title>
     <desc lang="da">'Godnat'. Godnat. Tilladt for: A.</desc>
@@ -32337,7 +32337,7 @@
     <title lang="da">Fantasifulde rum UK</title>
     <desc lang="da">Sæson: 12. Episode: 3. 'Fantasifulde rum (UK)'. George besøger et kage-inspireret byggeri, og hans arkitektoniske rejse gennem Danmark når til Aalborg. En gammel kending viser også sit seneste projekt frem. Tilladt for: A.</desc>
     <category lang="da">Fritid</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/gf4fbabbAojsVqITAbEqhDQJo6s.jpg" /></programme>
   <programme start="20261027052000 +0000" stop="20261027053500 +0000" channel="tv2fri.dk">
     <title lang="da">Godnat</title>
     <desc lang="da">'Godnat'. Godnat. Tilladt for: A.</desc>
@@ -32496,7 +32496,7 @@
     <title lang="da">Fantasifulde rum UK</title>
     <desc lang="da">Sæson: 12. Episode: 4. 'Fantasifulde rum (UK)'. Et par forsøger at kombinere en militærlastbil og en gammel campingvogn. I Vejle udforsker George en bygning, der er designet til både at være kunst og kontor. Tilladt for: A.</desc>
     <category lang="da">Fritid</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/gf4fbabbAojsVqITAbEqhDQJo6s.jpg" /></programme>
   <programme start="20261028051000 +0000" stop="20261028054000 +0000" channel="tv2fri.dk">
     <title lang="da">Godnat</title>
     <desc lang="da">'Godnat'. Godnat. Tilladt for: A.</desc>
@@ -32603,7 +32603,7 @@
     <title lang="da">Jul på alpehotellet</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'Vi må bare ikke ødelægge julemaden!'. Med kun få dage til jul knokler alle på Hotel Edelweiss med at få hotellet klar til årets julegæster. En af familiens nye lokale venner Hans Jürg har bestilt dansk julefrokost til over 35 personer, og Lene har ansvaret for, at alt forløber efter planen. Det giver stress i køkkenet, hvor alle hjælper til, og Anders og mor Jytte er garant for den gode, danske julesmag. Tilladt for: A.</desc>
     <category lang="da">Fritid</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/wrPsinM3mWxzlZCaepbs3efzboC.jpg" /></programme>
   <programme start="20261028202000 +0000" stop="20261028205500 +0000" channel="tv2fri.dk">
     <title lang="da">Sæt pris på Danmark</title>
     <desc lang="da">Sæson: 10. Episode: 7. 'Nordøstfyn'. Ulla Vejby og Anna Stokholm prøver kræfter med strandfitness, smager brunsviger på en ny måde og overnatter på Danmarks mindste badehotel, når de tager til Fyn. Tilladt for: A.</desc>
@@ -38714,7 +38714,7 @@
     <icon src="https://image.tmdb.org/t/p/w1280/oZjO5v0Pgghg61QoraP2cLk2KN4.jpg" /></programme>
   <programme start="20261027184000 +0000" stop="20261027184500 +0000" channel="nickjr.dk">
     <title lang="da">Gurli Gris</title>
-    <desc lang="da">Sæson: 4. Episode: 9. 'Regnvejrsdag-legen'. Gurli er en sød lille gris som bor sammen med sin bror, mor og far. Gurli elsker at lege, klæde sig ud og naturligvis bade i mudder. Hun tager tit på eventyr og ofte tager hun sine bedste venner med. Medvirkende: John Sparkes. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 4. Episode: 9. 'Gurli Gris'. Gurli er en sød lille gris som bor sammen med sin bror, mor og far. Gurli elsker at lege, klæde sig ud og naturligvis bade i mudder. Hun tager tit på eventyr og ofte tager hun sine bedste venner med. Medvirkende: John Sparkes. Tilladt for: A.</desc>
     <credits>
       <actor>John Sparkes</actor>
     </credits>
@@ -40249,7 +40249,7 @@
     <title lang="da">Skotland: Tilbage til naturen</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'Highlands'. Highlands er et enormt landskab domineret af bakker, skove og dale. Det er et sted, der ligger under for menneskelige forandringer og klimaet, men huser også nogle af Skotlands mest ikoniske arter. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/fVCckXVDBu8T6Fqbx1VHh4QbXiF.jpg" /></programme>
   <programme start="20261028200000 +0000" stop="20261028211000 +0000" channel="viasatnature.dk">
     <title lang="da">Dyrenes kampplads</title>
     <desc lang="da">Sæson: 2. Episode: 4. 'Kysternes kampplads'. Vi udforsker naturens hårdeste rivaliseringer, hvor hav møder land. Hvidhajer ligger på lur efter sæler, isbjørne kæmper mod hvalrosser, og kun de stærkeste overlever. Tilladt for: A.</desc>
@@ -40377,7 +40377,7 @@
     <icon src="https://image.tmdb.org/t/p/w1280/bLzINTjc4568L7CcfkT0t5c3MyR.jpg" /></programme>
   <programme start="20261025110500 +0000" stop="20261025121000 +0000" channel="canal9.dk">
     <title lang="da">Alaska: The Last Frontier</title>
-    <desc lang="da">Sæson: 5. Episode: 16. 'Alaska: The Last Frontier'. Atz Lees tilbagekomst til jagthytten afbrydes pludseligt, og han beder en erfaren gårdmand om hjælp. Og familien Kilcher slår sig sammen om at beskyttes Shanes hytte. Medvirkende: Bray Poor. Tilladt for: 11.</desc>
+    <desc lang="da">Sæson: 5. Episode: 16. 'Alaska: The Last Frontier'. I programmet følger vi familien Kilcher, der lever et ekstraordinært liv midt i Alaskas barske natur. De har ingen moderne bekvemmeligheder som varme eller VVS, og de overlever ved enten at dyrke deres egen mad eller gå på jagt i vildnisset. Kilcher har levet på deres jord i fire generationer, og alle familiemedlemmer ved præcis, hvordan de skal forberede sig på de lange, hårde vintre, som altid hærger her på på kanten af verden. Medvirkende: Bray Poor. Tilladt for: 11.</desc>
     <credits>
       <actor>Bray Poor</actor>
     </credits>
@@ -40432,10 +40432,7 @@
   <icon src="https://image.tmdb.org/t/p/w1280/hnayj6rLzKIXCz7ul68aAQ7Y24w.jpg" /></programme>
   <programme start="20261025164500 +0000" stop="20261025175000 +0000" channel="canal9.dk">
     <title lang="da">Alaska: The Last Frontier</title>
-    <desc lang="da">Sæson: 6. Episode: 5. 'Alaska: The Last Frontier'. I programmet følger vi familien Kilcher, der lever et ekstraordinært liv midt i Alaskas barske natur. De har ingen moderne bekvemmeligheder som varme eller VVS, og de overlever ved enten at dyrke deres egen mad eller gå på jagt i vildnisset. Kilcher har levet på deres jord i fire generationer, og alle familiemedlemmer ved præcis, hvordan de skal forberede sig på de lange, hårde vintre, som altid hærger her på på kanten af verden. Medvirkende: Bray Poor. Tilladt for: 11.</desc>
-    <credits>
-      <actor>Bray Poor</actor>
-    </credits>
+    <desc lang="da">Sæson: 6. Episode: 5. 'Under The Knife'. I programmet følger vi familien Kilcher, der lever et ekstraordinært liv midt i Alaskas barske natur. De har ingen moderne bekvemmeligheder som varme eller VVS, og de overlever ved enten at dyrke deres egen mad eller gå på jagt i vildnisset. Kilcher har levet på deres jord i fire generationer, og alle familiemedlemmer ved præcis, hvordan de skal forberede sig på de lange, hårde vintre, som altid hærger her på på kanten af verden. Tilladt for: 11.</desc>
     <category lang="da">Show</category>
     <rating system="DK">
       <value>11</value>
@@ -40610,13 +40607,17 @@
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/8KnPiTcfaB9dsuKBRRvp0ZLgKMZ.jpg" /></programme>
   <programme start="20261026103000 +0000" stop="20261026113500 +0000" channel="canal9.dk">
-    <title lang="da">Homestead Rescue</title>
+    <title lang="da">Homestead Rescue: Home Sweet Homestead</title>
     <desc lang="da">Sæson: 4. Episode: 6. 'Tropic Thunder'. Familier, der flytter ud i vildmarken, har meget at lære. I et sidste forsøg på at redde landstederne henter de hjælp fra eksperter, der skal forberede dem på det værste i naturen. Tilladt for: A.</desc>
     <category lang="da">Show</category>
     <icon src="https://image.tmdb.org/t/p/w1280/bLzINTjc4568L7CcfkT0t5c3MyR.jpg" /></programme>
   <programme start="20261026113500 +0000" stop="20261026125000 +0000" channel="canal9.dk">
-    <title lang="da">Homestead Rescue</title>
-    <desc lang="da">Sæson: 4. Episode: 13. 'Back In The Saddle'. Med et stort tilbageslag i Mistys bygning kæmper familien Raney mod uret for at redde et hus i Texas. Matt bygger en svinefælde som en ekstra føderessource. Tilladt for: A.</desc>
+    <title lang="da">Homestead Rescue: Home Sweet Homestead</title>
+    <desc lang="da">Sæson: 4. Episode: 13. 'Homestead Rescue'. Nybyggere overalt i landet søger hjælp ved eksperten Marty Raney, der kan lære dem det, der kræves, for at overleve i vildmarken. Mange af familierne har hverken evner, erfaring eller viden til at klare sig på egen hånd. Men familien Raneys hjælp byder både på en håndfuld håb og en ekstra chance. Medvirkende: Rick Robles, Jerald A. Hanson. Tilladt for: A.</desc>
+    <credits>
+      <actor>Rick Robles</actor>
+      <actor>Jerald A. Hanson</actor>
+    </credits>
     <category lang="da">Show</category>
     <icon src="https://image.tmdb.org/t/p/w1280/bLzINTjc4568L7CcfkT0t5c3MyR.jpg" /></programme>
   <programme start="20261026125000 +0000" stop="20261026135500 +0000" channel="canal9.dk">
@@ -40852,7 +40853,7 @@
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/8KnPiTcfaB9dsuKBRRvp0ZLgKMZ.jpg" /></programme>
   <programme start="20261027104500 +0000" stop="20261027125000 +0000" channel="canal9.dk">
-    <title lang="da">Homestead Rescue</title>
+    <title lang="da">Homestead Rescue: Home Sweet Homestead</title>
     <desc lang="da">Sæson: 4. Episode: 14. 'Home Is Where the Yurt Is Part 2 of 2'. Nybyggere overalt i landet søger hjælp ved eksperten Marty Raney, der kan lære dem det, der kræves, for at overleve i vildmarken. Familien Raneys hjælp byder både på en håndfuld håb og en ekstra chance. Medvirkende: Rick Robles, Jerald A. Hanson. Tilladt for: A.</desc>
     <credits>
       <actor>Rick Robles</actor>
@@ -40862,10 +40863,7 @@
     <icon src="https://image.tmdb.org/t/p/w1280/bLzINTjc4568L7CcfkT0t5c3MyR.jpg" /></programme>
   <programme start="20261027125000 +0000" stop="20261027135500 +0000" channel="canal9.dk">
     <title lang="da">Alaska: The Last Frontier</title>
-    <desc lang="da">Sæson: 6. Episode: 7. 'Alaska: The Last Frontier'. I programmet følger vi familien Kilcher, der lever et ekstraordinært liv midt i Alaskas barske natur. De har ingen moderne bekvemmeligheder som varme eller VVS, og de overlever ved enten at dyrke deres egen mad eller gå på jagt i vildnisset. Kilcher har levet på deres jord i fire generationer, og alle familiemedlemmer ved præcis, hvordan de skal forberede sig på de lange, hårde vintre, som altid hærger her på på kanten af verden. Medvirkende: Bray Poor. Tilladt for: 11.</desc>
-    <credits>
-      <actor>Bray Poor</actor>
-    </credits>
+    <desc lang="da">Sæson: 6. Episode: 7. 'Kilchergiving'. I programmet følger vi familien Kilcher, der lever et ekstraordinært liv midt i Alaskas barske natur. De har ingen moderne bekvemmeligheder som varme eller VVS, og de overlever ved enten at dyrke deres egen mad eller gå på jagt i vildnisset. Kilcher har levet på deres jord i fire generationer, og alle familiemedlemmer ved præcis, hvordan de skal forberede sig på de lange, hårde vintre, som altid hærger her på på kanten af verden. Tilladt for: 11.</desc>
     <category lang="da">Show</category>
     <rating system="DK">
       <value>11</value>
@@ -40911,7 +40909,7 @@
   <icon src="https://image.tmdb.org/t/p/w1280/hnayj6rLzKIXCz7ul68aAQ7Y24w.jpg" /></programme>
   <programme start="20261027180500 +0000" stop="20261027190000 +0000" channel="canal9.dk">
     <title lang="da">Alaska: The Last Frontier</title>
-    <desc lang="da">Sæson: 6. Episode: 10. 'Alaska: The Last Frontier'. I programmet følger vi familien Kilcher, der lever et ekstraordinært liv midt i Alaskas barske natur. De har ingen moderne bekvemmeligheder som varme eller VVS, og de overlever ved enten at dyrke deres egen mad eller gå på jagt i vildnisset. Kilcher har levet på deres jord i fire generationer, og alle familiemedlemmer ved præcis, hvordan de skal forberede sig på de lange, hårde vintre, som altid hærger her på på kanten af verden. Medvirkende: Bray Poor. Tilladt for: 11.</desc>
+    <desc lang="da">Sæson: 6. Episode: 10. 'Chopper Rescue'. I programmet følger vi familien Kilcher, der lever et ekstraordinært liv midt i Alaskas barske natur. De har ingen moderne bekvemmeligheder som varme eller VVS, og de overlever ved enten at dyrke deres egen mad eller gå på jagt i vildnisset. Kilcher har levet på deres jord i fire generationer, og alle familiemedlemmer ved præcis, hvordan de skal forberede sig på de lange, hårde vintre, som altid hærger her på på kanten af verden. Medvirkende: Bray Poor. Tilladt for: 11.</desc>
     <credits>
       <actor>Bray Poor</actor>
     </credits>
@@ -41094,7 +41092,7 @@
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/8KnPiTcfaB9dsuKBRRvp0ZLgKMZ.jpg" /></programme>
   <programme start="20261028105000 +0000" stop="20261028125000 +0000" channel="canal9.dk">
-    <title lang="da">Homestead Rescue</title>
+    <title lang="da">Homestead Rescue: Home Sweet Homestead</title>
     <desc lang="da">Sæson: 4. Episode: 15. 'Bone Dry in Big Sky Part 2 of 2'. Familien Raney redder en enlig far, der står over for trusler om klippeskred og bjørne i Montana. Marty og Misty står over for en stor udfordring. Medvirkende: Rick Robles, Jerald A. Hanson. Tilladt for: A.</desc>
     <credits>
       <actor>Rick Robles</actor>
@@ -41112,7 +41110,7 @@
   <icon src="https://image.tmdb.org/t/p/w1280/hnayj6rLzKIXCz7ul68aAQ7Y24w.jpg" /></programme>
   <programme start="20261028135500 +0000" stop="20261028150000 +0000" channel="canal9.dk">
     <title lang="da">Alaska: The Last Frontier</title>
-    <desc lang="da">Sæson: 6. Episode: 10. 'Alaska: The Last Frontier'. I programmet følger vi familien Kilcher, der lever et ekstraordinært liv midt i Alaskas barske natur. De har ingen moderne bekvemmeligheder som varme eller VVS, og de overlever ved enten at dyrke deres egen mad eller gå på jagt i vildnisset. Kilcher har levet på deres jord i fire generationer, og alle familiemedlemmer ved præcis, hvordan de skal forberede sig på de lange, hårde vintre, som altid hærger her på på kanten af verden. Medvirkende: Bray Poor. Tilladt for: 11.</desc>
+    <desc lang="da">Sæson: 6. Episode: 10. 'Chopper Rescue'. I programmet følger vi familien Kilcher, der lever et ekstraordinært liv midt i Alaskas barske natur. De har ingen moderne bekvemmeligheder som varme eller VVS, og de overlever ved enten at dyrke deres egen mad eller gå på jagt i vildnisset. Kilcher har levet på deres jord i fire generationer, og alle familiemedlemmer ved præcis, hvordan de skal forberede sig på de lange, hårde vintre, som altid hærger her på på kanten af verden. Medvirkende: Bray Poor. Tilladt for: 11.</desc>
     <credits>
       <actor>Bray Poor</actor>
     </credits>
@@ -47010,7 +47008,7 @@
     <title lang="da">Police 911: Michigan</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'Fight Club'. Efter drabet på den 15-årige Milli Penn efterforsker politiet den maskerede skytte, som rygtet siger er endnu en teenager med link til en kampklub. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/nFQA0mqyZ96ZUhchKfgjw9XVRfi.jpg" /></programme>
   <programme start="20261027010000 +0000" stop="20261027020000 +0000" channel="investigationdiscovery.dk">
     <title lang="da">The Murder Tapes</title>
     <desc lang="da">Sæson: 4. Episode: 20. 'Smokescreen'. Kriminalbetjente i Waynesfield, Ohio, finder liget af Erin Mulcahy i hendes bruser. Kan politiet fange dem der er ansvarlige for byens første mord i 50 år? Medvirkende: Dave DeAndrea, Rob LaColla Jr.. Tilladt for: A.</desc>
@@ -59378,7 +59376,7 @@
       <actor>Sam James Page</actor>
     </credits>
     <category lang="da">Film</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/pRKY051LhRCEhjLoDG18emqyw6i.jpg" /></programme>
   <programme start="20261026171000 +0000" stop="20261026190000 +0000" channel="viasataction.dk">
     <title lang="da">Med livet som indsats</title>
     <desc lang="da">'Med livet som indsats'. Tør du tage det næste skridt? Flugtfangen Nick Cassidy dukker pludselig op på kanten af en skyskraber i New York. Vil han springe? Inden længe har han alle medierne og hele byens opmærksomhed. Og mens alle kigger op, ser ingen det udspekulerede kup, der finder sted på den anden side af gaden. Hænger de to begivenheder sammen? Kommer politipsykologen Lydia på sporet af sandheden? Og har Nick i virkeligheden en helt anden dagsorden? Instruktør: Asger Leth. Medvirkende: Sam Worthington, Elizabeth Banks, Jamie Bell, Mandy Gonzalez. Tilladt for: 11.</desc>
@@ -59551,7 +59549,7 @@
       <actor>Sam James Page</actor>
     </credits>
     <category lang="da">Film</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/pRKY051LhRCEhjLoDG18emqyw6i.jpg" /></programme>
   <programme start="20261027111000 +0000" stop="20261027131500 +0000" channel="viasataction.dk">
     <title lang="da">Transcendence</title>
     <desc lang="da">'Transcendence'. Videnskabsmanden dr. Will Caster er det vigtigste mål for en anti-teknik-organisation, eftersom han i sit arbejde forsøger at udvikle en maskine med bl.a. menneskelige følelser. Et forsøg på at dræbe Will bliver endnu et trin i Wills forskning, hvor han kan anvende sin egen bevidsthed. Instruktør: Wally Pfister. Medvirkende: Johnny Depp, Rebecca Hall, Morgan Freeman, Cillian Murphy. Tilladt for: 11.</desc>
@@ -60425,7 +60423,7 @@
   </programme>
   <programme start="20261027000000 +0000" stop="20261027020000 +0000" channel="viasatfamily.dk">
     <title lang="da">Bridget Jones dagbog</title>
-    <desc lang="da">'Bridget Jones dagbog'. Bridget er 32 og stadig single. Hun er begyndt at frygte, at hun vil dø fed, fordrukken og ensom. Hun beslutter sig for at få kontrol over sit noget kaotiske liv - tabe sig 10 kilo, finde sig en fornuftig kæreste og holde op med at savle over sin lækre chef, Daniel. Hendes mor præsenterer hende for advokaten Mark Darcy, men mødet falder mildt sagt ikke heldigt ud. Og stik imod alle sine løfter til sig selv indleder Bridget i stedet en katastrofal affære med Daniel. Instruktør: Sharon Maguire. Medvirkende: Renée Zellweger, Colin Firth, Hugh Grant, Gemma Jones. Tilladt for: 11.</desc>
+    <desc lang="da">'Bridget Jones dagbog'. Bridget er 32 og stadig single. Hun er begyndt at frygte, at hun vil dø fed, fordrukken og ensom. Hun beslutter sig for at få kontrol over sit noget kaotiske liv - tabe sig 10 kilo, finde sig en fornuftig kæreste og holde op med at savle over sin lækre chef, Daniel. Hendes mor præsenterer hende for advokaten Mark Darcy, men mødet falder mildt sagt ikke heldigt ud. Og stik imod alle sine løfter til sig selv indleder Bridget i stedet en katastrofal affære med Daniel. Instruktør: Sharon Maguire. Medvirkende: Renée Zellweger, Colin Firth, Hugh Grant, Gemma Jones. Tilladt for: 15.</desc>
     <credits>
       <director>Sharon Maguire</director>
       <actor>Renée Zellweger</actor>
@@ -60441,7 +60439,7 @@
     </credits>
     <category lang="da">Film</category>
     <rating system="DK">
-      <value>11</value>
+      <value>15</value>
     </rating>
   </programme>
   <programme start="20261027020000 +0000" stop="20261027040000 +0000" channel="viasatfamily.dk">
@@ -64237,12 +64235,12 @@
     <desc lang="da">Sæson: 2026. 'Nyheder fra tv2kosmopol.dk'. Nyheder fra tv2kosmopol.dk Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     </programme>
-  <programme start="20261025063000 +0000" stop="20261025065000 +0000" channel="Kosmopol.dk">
+  <programme start="20261025063000 +0000" stop="20261025064000 +0000" channel="Kosmopol.dk">
     <title lang="da">Nyheder 19:30</title>
     <desc lang="da">Sæson: 2026. 'Nyheder 19.30'. Regionale nyheder Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     </programme>
-  <programme start="20261025065000 +0000" stop="20261025073000 +0000" channel="Kosmopol.dk">
+  <programme start="20261025064000 +0000" stop="20261025073000 +0000" channel="Kosmopol.dk">
     <title lang="da">Nyheder fra tv2kosmopol.dk</title>
     <desc lang="da">Sæson: 2026. 'Nyheder fra tv2kosmopol.dk'. Nyheder fra tv2kosmopol.dk Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
@@ -64258,32 +64256,32 @@
     <desc lang="da">Sæson: 2026. 'Nyheder fra tv2kosmopol.dk'. Nyheder fra tv2kosmopol.dk Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     </programme>
-  <programme start="20261025083000 +0000" stop="20261025085000 +0000" channel="Kosmopol.dk">
+  <programme start="20261025083000 +0000" stop="20261025084000 +0000" channel="Kosmopol.dk">
     <title lang="da">Nyheder 19:30</title>
     <desc lang="da">Sæson: 2026. 'Nyheder 19.30'. Regionale nyheder Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     </programme>
-  <programme start="20261025085000 +0000" stop="20261025093000 +0000" channel="Kosmopol.dk">
+  <programme start="20261025084000 +0000" stop="20261025093000 +0000" channel="Kosmopol.dk">
     <title lang="da">Nyheder fra tv2kosmopol.dk</title>
     <desc lang="da">Sæson: 2026. 'Nyheder fra tv2kosmopol.dk'. Nyheder fra tv2kosmopol.dk Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     </programme>
-  <programme start="20261025093000 +0000" stop="20261025095000 +0000" channel="Kosmopol.dk">
+  <programme start="20261025093000 +0000" stop="20261025094000 +0000" channel="Kosmopol.dk">
     <title lang="da">Nyheder 19:30</title>
     <desc lang="da">Sæson: 2026. 'Nyheder 19.30'. Regionale nyheder Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     </programme>
-  <programme start="20261025095000 +0000" stop="20261025103000 +0000" channel="Kosmopol.dk">
+  <programme start="20261025094000 +0000" stop="20261025103000 +0000" channel="Kosmopol.dk">
     <title lang="da">Nyheder fra tv2kosmopol.dk</title>
     <desc lang="da">Sæson: 2026. 'Nyheder fra tv2kosmopol.dk'. Nyheder fra tv2kosmopol.dk Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     </programme>
-  <programme start="20261025103000 +0000" stop="20261025105000 +0000" channel="Kosmopol.dk">
+  <programme start="20261025103000 +0000" stop="20261025104000 +0000" channel="Kosmopol.dk">
     <title lang="da">Nyheder 19:30</title>
     <desc lang="da">Sæson: 2026. 'Nyheder 19.30'. Regionale nyheder Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     </programme>
-  <programme start="20261025105000 +0000" stop="20261025163000 +0000" channel="Kosmopol.dk">
+  <programme start="20261025104000 +0000" stop="20261025163000 +0000" channel="Kosmopol.dk">
     <title lang="da">Nyheder fra tv2kosmopol.dk</title>
     <desc lang="da">Sæson: 2026. 'Nyheder fra tv2kosmopol.dk'. Nyheder fra tv2kosmopol.dk Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
@@ -64309,37 +64307,37 @@
     <desc lang="da">Sæson: 2026. 'Nyheder 18:30'. Kort nyhedsoversigt fra hovedstadsregionen. Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     </programme>
-  <programme start="20261025173500 +0000" stop="20261025174400 +0000" channel="Kosmopol.dk">
+  <programme start="20261025173500 +0000" stop="20261025174500 +0000" channel="Kosmopol.dk">
     <title lang="da">Kosmopol forklarer</title>
     <desc lang="da">'Brugte knipler mod aktivister'. I foråret anvendte betjente fra Københavns Politi stave mod en gruppe aktivister, der demonstrerede mod Mærsk ved rederiets hovedindgang. En politiforsker kalder efterfølgende situationen for et "nederlag for dansk demonstrationskultur". Tilladt for: +15 Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     </programme>
-  <programme start="20261025174400 +0000" stop="20261025174500 +0000" channel="Kosmopol.dk">
+  <programme start="20261025174500 +0000" stop="20261025175000 +0000" channel="Kosmopol.dk">
     <title lang="da">Spørg os</title>
     <desc lang="da">'Spørg os - om Arresø'. Arresø er grøn af alger efter årtiers forurening. Men nu har et nyt samarbejde fået penge til at tage de første skridt mod en genopretning. Tilladt for: A.</desc>
     <category lang="da">Ukendt</category>
     </programme>
-  <programme start="20261025174500 +0000" stop="20261025180000 +0000" channel="Kosmopol.dk">
+  <programme start="20261025175000 +0000" stop="20261025180500 +0000" channel="Kosmopol.dk">
     <title lang="da">OPLEV</title>
     <desc lang="da">'OPLEV - En hemmelig spang i Lejre'. Vi går en tur på en meget smuk natursti i Lejre, spiser pitabrød hos Banzo og udlever vores indre luksusdyr på det nye Rox i Køge. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     </programme>
-  <programme start="20261025180000 +0000" stop="20261025180200 +0000" channel="Kosmopol.dk">
+  <programme start="20261025180500 +0000" stop="20261025181000 +0000" channel="Kosmopol.dk">
     <title lang="da">Nyheder 18:30</title>
     <desc lang="da">Sæson: 2026. 'Nyheder 18:30'. Kort nyhedsoversigt fra hovedstadsregionen. Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     </programme>
-  <programme start="20261025180200 +0000" stop="20261025182000 +0000" channel="Kosmopol.dk">
+  <programme start="20261025181000 +0000" stop="20261025181500 +0000" channel="Kosmopol.dk">
     <title lang="da">Koncentrat</title>
     <desc lang="da">'Koncentrat'. Hvad skete der i sidste uge i hovedstadsregionen? Bliv opdateret på nogle at de vigtigste nyhedshistorer i vores magasin "Koncentrat". Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     </programme>
-  <programme start="20261025182000 +0000" stop="20261025182500 +0000" channel="Kosmopol.dk">
+  <programme start="20261025181500 +0000" stop="20261025182000 +0000" channel="Kosmopol.dk">
     <title lang="da">Vores klima</title>
     <desc lang="da">'Vi køber større biler'. Super lækker, god komfort og masser af plads. Man sidder højt og har godt overblik. De seneste 15 år har bilerne vokset sig større og større, men det går hårdt ud over miljøet. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     </programme>
-  <programme start="20261025182500 +0000" stop="20261025183000 +0000" channel="Kosmopol.dk">
+  <programme start="20261025182000 +0000" stop="20261025183000 +0000" channel="Kosmopol.dk">
     <title lang="da">Spørg os</title>
     <desc lang="da">'Spørg os - om lastbilstøv'. Når man cykler rundt i København og bliver overhalet af en lastbil, der hvirvler en masse støv op bag sig, så tænker mange nok på, hvad man indånder af partikler. Tilladt for: A.</desc>
     <category lang="da">Ukendt</category>
@@ -64364,12 +64362,12 @@
     <desc lang="da">Sæson: 2026. 'Nyheder 19.30'. TV 2 Kosmopol sender nyheder, reportager og interviews fra hele regionen. Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     </programme>
-  <programme start="20261025200000 +0000" stop="20261025201200 +0000" channel="Kosmopol.dk">
+  <programme start="20261025200000 +0000" stop="20261025201000 +0000" channel="Kosmopol.dk">
     <title lang="da">RUC undersøger</title>
     <desc lang="da">'RUC undersøger - Kræft og kærlighed'. Hver tredje dansker får kræft, og mange står uden en partner i forløbet. Forskning viser, at en partner kan gøre en afgørende forskel. Winnie Topp kæmper mod kræft og leder samtidig efter kærligheden. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     </programme>
-  <programme start="20261025201200 +0000" stop="20261025201500 +0000" channel="Kosmopol.dk">
+  <programme start="20261025201000 +0000" stop="20261025201500 +0000" channel="Kosmopol.dk">
     <title lang="da">Spørg os</title>
     <desc lang="da">'Spørg os - om Arresø'. Arresø er grøn af alger efter årtiers forurening. Men nu har et nyt samarbejde fået penge til at tage de første skridt mod en genopretning. Tilladt for: A.</desc>
     <category lang="da">Ukendt</category>
@@ -64380,57 +64378,57 @@
     <date>2026</date>
     <category lang="da">Sport</category>
     </programme>
-  <programme start="20261025204000 +0000" stop="20261025205500 +0000" channel="Kosmopol.dk">
+  <programme start="20261025204000 +0000" stop="20261025210000 +0000" channel="Kosmopol.dk">
     <title lang="da">Future of Work</title>
     <desc lang="da">'Future of Work - AI er komplet uansvarlig'. AI er din spritstive onkel - den bekymrer sig ikke, føler ikke ansvar, er skide ligeglad med alt og kommer aldrig til at løse de svære moralske dilemmaer for os. Sådan siger Irina Shklovski, forsker i tech og etik. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     </programme>
-  <programme start="20261025205500 +0000" stop="20261025210500 +0000" channel="Kosmopol.dk">
+  <programme start="20261025210000 +0000" stop="20261025211000 +0000" channel="Kosmopol.dk">
     <title lang="da">OPLEV</title>
     <desc lang="da">'OPLEV - En hemmelig spang i Lejre'. Vi går en tur på en meget smuk natursti i Lejre, spiser pitabrød hos Banzo og udlever vores indre luksusdyr på det nye Rox i Køge. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     </programme>
-  <programme start="20261025210500 +0000" stop="20261025213000 +0000" channel="Kosmopol.dk">
+  <programme start="20261025211000 +0000" stop="20261025213000 +0000" channel="Kosmopol.dk">
     <title lang="da">Velkommen til magten</title>
     <desc lang="da">'Velkommen til magten - med Sisse Marie Welling (SF)'. Den nye overborgmester tror ikke, at dårlige parkeringsforhold er det, der skal få københavnerne til at sælge bilen og stoppe trængslen på vejene. Tilladt for: A.</desc>
     <category lang="da">Politik</category>
     </programme>
-  <programme start="20261025213000 +0000" stop="20261025215000 +0000" channel="Kosmopol.dk">
+  <programme start="20261025213000 +0000" stop="20261025215500 +0000" channel="Kosmopol.dk">
     <title lang="da">Nyheder 19:30</title>
     <desc lang="da">Sæson: 2026. 'Nyheder 19.30'. TV 2 Kosmopol sender nyheder, reportager og interviews fra hele regionen. Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     </programme>
-  <programme start="20261025215000 +0000" stop="20261025221100 +0000" channel="Kosmopol.dk">
+  <programme start="20261025215500 +0000" stop="20261025221000 +0000" channel="Kosmopol.dk">
     <title lang="da">Kosmopol forklarer</title>
     <desc lang="da">'Dyrenes KZ-lejr'. Hegnet rundt om Gribskov Naturnationalpark har gjort mange mennesker rasende. Parken kaldes dyrenes KZ-lejr, og hegnet bliver saboteret og klippet i stykker. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     </programme>
-  <programme start="20261025221100 +0000" stop="20261025221500 +0000" channel="Kosmopol.dk">
+  <programme start="20261025221000 +0000" stop="20261025221500 +0000" channel="Kosmopol.dk">
     <title lang="da">Tina er tan-sober</title>
     <desc lang="da">'Tina er tan-sober'. Tina Maria Nielsen var besat af at være brun. Hun havde det ikke godt med sig selv, hvis ikke kun var smurt i selvbruner fra top til tå. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     </programme>
-  <programme start="20261025221500 +0000" stop="20261025221800 +0000" channel="Kosmopol.dk">
+  <programme start="20261025221500 +0000" stop="20261025222000 +0000" channel="Kosmopol.dk">
     <title lang="da">Pernille satte sine børn først</title>
     <desc lang="da">'Pernille satte sine børn først'. Pernille Lotus var mor til to, millionær og direktør. Men så tog hun en dramatisk beslutning. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     </programme>
-  <programme start="20261025221800 +0000" stop="20261025222200 +0000" channel="Kosmopol.dk">
+  <programme start="20261025222000 +0000" stop="20261025222500 +0000" channel="Kosmopol.dk">
     <title lang="da">Mihi taler dansk med fremmede</title>
     <desc lang="da">'Mihi taler dansk med fremmede'. Japanske Mihi Kudo har fundet sin egen måde at øve det danske sprog på. Hun stopper danskere på gaden og spørger, om de vil tale dansk med hende. Tilladt for: A.</desc>
     <category lang="da">Fritid</category>
     </programme>
-  <programme start="20261025222200 +0000" stop="20261025222500 +0000" channel="Kosmopol.dk">
+  <programme start="20261025222500 +0000" stop="20261025223000 +0000" channel="Kosmopol.dk">
     <title lang="da">Elisa bliver den skaldede kæreste</title>
     <desc lang="da">'Elisa bliver den skaldede kæreste'. Elisa og Thor har været kærester i kun 8 måneder, da Elisa får stillet den værst tænkelige diagnose. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     </programme>
-  <programme start="20261025222500 +0000" stop="20261025223500 +0000" channel="Kosmopol.dk">
+  <programme start="20261025223000 +0000" stop="20261025224000 +0000" channel="Kosmopol.dk">
     <title lang="da">OPLEV</title>
     <desc lang="da">'OPLEV - En hemmelig spang i Lejre'. Vi går en tur på en meget smuk natursti i Lejre, spiser pitabrød hos Banzo og udlever vores indre luksusdyr på det nye Rox i Køge. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     </programme>
-  <programme start="20261025223500 +0000" stop="20261026050000 +0000" channel="Kosmopol.dk">
+  <programme start="20261025224000 +0000" stop="20261026050000 +0000" channel="Kosmopol.dk">
     <title lang="da">Nyhederne for præcis 30 år siden</title>
     <desc lang="da">Sæson: 2026. 'Nyhederne for præcis 30 år siden'. Hvad skete der i hovedstadsområdet for 30 år siden? Vi har været i arkivet og fundet den nyhedsudsendelse frem, som blev vist på denne dag for præcis 30 år siden. Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
@@ -64491,22 +64489,27 @@
     <desc lang="da">Sæson: 2026. 'Nyheder fra tv2kosmopol.dk'. Nyheder fra tv2kosmopol.dk Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     </programme>
-  <programme start="20261026163000 +0000" stop="20261026165500 +0000" channel="Kosmopol.dk">
+  <programme start="20261026163000 +0000" stop="20261026163500 +0000" channel="Kosmopol.dk">
     <title lang="da">Nyheder 17:30</title>
     <desc lang="da">Sæson: 2026. 'Nyheder 17:30.'. Kort nyhedsoversigt fra hovedstadsregionen. Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     </programme>
-  <programme start="20261026165500 +0000" stop="20261026171300 +0000" channel="Kosmopol.dk">
+  <programme start="20261026163500 +0000" stop="20261026165500 +0000" channel="Kosmopol.dk">
+    <title lang="da">Nyheder fra tv2kosmopol.dk</title>
+    <desc lang="da">Sæson: 2026. 'Nyheder fra tv2kosmopol.dk'. Nyheder fra tv2kosmopol.dk Tilladt for: A.</desc>
+    <category lang="da">Nyheder</category>
+    </programme>
+  <programme start="20261026165500 +0000" stop="20261026171000 +0000" channel="Kosmopol.dk">
     <title lang="da">Klædt på</title>
     <desc lang="da">'Q&amp;A - Thor Møller Seidler'. Thor Møller Seidler startede med et misbrug af opioid-piller og blev afhængig af heroin som 21-årig. I dag er Thor et helt andet sted i sit liv. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     </programme>
-  <programme start="20261026171300 +0000" stop="20261026171500 +0000" channel="Kosmopol.dk">
+  <programme start="20261026171000 +0000" stop="20261026172000 +0000" channel="Kosmopol.dk">
     <title lang="da">Spørg os</title>
     <desc lang="da">'Spørg os - om Arresø'. Arresø er grøn af alger efter årtiers forurening. Men nu har et nyt samarbejde fået penge til at tage de første skridt mod en genopretning. Tilladt for: A.</desc>
     <category lang="da">Ukendt</category>
     </programme>
-  <programme start="20261026171500 +0000" stop="20261026173000 +0000" channel="Kosmopol.dk">
+  <programme start="20261026172000 +0000" stop="20261026173000 +0000" channel="Kosmopol.dk">
     <title lang="da">Koncentrat</title>
     <desc lang="da">'Koncentrat'. Hvad skete der i sidste uge i hovedstadsregionen? Bliv opdateret på nogle at de vigtigste nyhedshistorer i vores magasin "Koncentrat". Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
@@ -64516,72 +64519,62 @@
     <desc lang="da">Sæson: 2026. 'Nyheder 18:30'. Kort nyhedsoversigt fra hovedstadsregionen. Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     </programme>
-  <programme start="20261026173500 +0000" stop="20261026174200 +0000" channel="Kosmopol.dk">
+  <programme start="20261026173500 +0000" stop="20261026175000 +0000" channel="Kosmopol.dk">
     <title lang="da">Kosmopol forklarer</title>
     <desc lang="da">'Q&amp;A - OSINT-specialist'. Dele af internettet kan myndighederne ikke censurere, og det giver spillerum for kriminelle markeder og ekstreme netværk. Valdemar Balle er specialist i open source intelligence og efterforsker digitalt på de mørke dele af internettet. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     </programme>
-  <programme start="20261026174200 +0000" stop="20261026175000 +0000" channel="Kosmopol.dk">
+  <programme start="20261026175000 +0000" stop="20261026175500 +0000" channel="Kosmopol.dk">
     <title lang="da">Spørg os</title>
     <desc lang="da">'Spørg os - om Arresø'. Arresø er grøn af alger efter årtiers forurening. Men nu har et nyt samarbejde fået penge til at tage de første skridt mod en genopretning. Tilladt for: A.</desc>
     <category lang="da">Ukendt</category>
     </programme>
-  <programme start="20261026175000 +0000" stop="20261026180000 +0000" channel="Kosmopol.dk">
+  <programme start="20261026175500 +0000" stop="20261026181000 +0000" channel="Kosmopol.dk">
     <title lang="da">OPLEV</title>
     <desc lang="da">'OPLEV - Frisk fjæsing og sprød blæksprutte'. Vi spiser fisk, kigger på den nye danske film Løvehjerte og lytter til operaen Innocence, der handler om skoleskyderi. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     </programme>
-  <programme start="20261026180000 +0000" stop="20261026180200 +0000" channel="Kosmopol.dk">
+  <programme start="20261026181000 +0000" stop="20261026181500 +0000" channel="Kosmopol.dk">
     <title lang="da">Nyheder 18:30</title>
     <desc lang="da">Sæson: 2026. 'Nyheder 18:30'. Kort nyhedsoversigt fra hovedstadsregionen. Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     </programme>
-  <programme start="20261026180200 +0000" stop="20261026180700 +0000" channel="Kosmopol.dk">
+  <programme start="20261026181500 +0000" stop="20261026182000 +0000" channel="Kosmopol.dk">
     <title lang="da">Koncentrat</title>
     <desc lang="da">'Koncentrat'. Hvad skete der i sidste uge i hovedstadsregionen? Bliv opdateret på nogle at de vigtigste nyhedshistorer i vores magasin "Koncentrat". Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     </programme>
-  <programme start="20261026180700 +0000" stop="20261026182000 +0000" channel="Kosmopol.dk">
-    <title lang="da">Vokseværk</title>
-    <desc lang="da">'Vokseværk - Vikingeskibsmuseet'. Vikingeskibsmuseet i Roskilde står foran en omfattende transformation. Tilladt for: A.</desc>
-    <category lang="da">Kunst</category>
-    </programme>
-  <programme start="20261026182000 +0000" stop="20261026182500 +0000" channel="Kosmopol.dk">
+  <programme start="20261026182000 +0000" stop="20261026183000 +0000" channel="Kosmopol.dk">
     <title lang="da">Vores klima</title>
     <desc lang="da">'Skatterabat på cykler'. Skatterabat til cyklister skal få flere til at tage cyklen. Skatteministeren fik til opgave at sørge for det for to år siden, men intet er sket, og flere partier retter nu skarp kritik. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     </programme>
-  <programme start="20261026182500 +0000" stop="20261026183000 +0000" channel="Kosmopol.dk">
-    <title lang="da">Spørg os</title>
-    <desc lang="da">'Spørg os - om buslinje 5C'. Den populære buslinje 5C i København overgik for nylig til at køre på el. Det har affødt en masse spørgsmål fra passagererne. Tilladt for: A.</desc>
-    <category lang="da">Ukendt</category>
-    </programme>
-  <programme start="20261026183000 +0000" stop="20261026185500 +0000" channel="Kosmopol.dk">
+  <programme start="20261026183000 +0000" stop="20261026185000 +0000" channel="Kosmopol.dk">
     <title lang="da">Nyheder 19:30</title>
     <desc lang="da">Sæson: 2026. 'Nyheder 19.30'. TV 2 Kosmopol sender nyheder, reportager og interviews fra hele regionen. Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     </programme>
-  <programme start="20261026185500 +0000" stop="20261026190000 +0000" channel="Kosmopol.dk">
+  <programme start="20261026185000 +0000" stop="20261026185500 +0000" channel="Kosmopol.dk">
     <title lang="da">Mihi taler dansk med fremmede</title>
     <desc lang="da">'Mihi taler dansk med fremmede'. Japanske Mihi Kudo har fundet sin egen måde at øve det danske sprog på. Hun stopper danskere på gaden og spørger, om de vil tale dansk med hende. Tilladt for: A.</desc>
     <category lang="da">Fritid</category>
     </programme>
-  <programme start="20261026190000 +0000" stop="20261026190500 +0000" channel="Kosmopol.dk">
+  <programme start="20261026185500 +0000" stop="20261026190000 +0000" channel="Kosmopol.dk">
     <title lang="da">Elisa bliver den skaldede kæreste</title>
     <desc lang="da">'Elisa bliver den skaldede kæreste'. Elisa og Thor har været kærester i kun 8 måneder, da Elisa får stillet den værst tænkelige diagnose. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     </programme>
-  <programme start="20261026190500 +0000" stop="20261026191000 +0000" channel="Kosmopol.dk">
+  <programme start="20261026190000 +0000" stop="20261026190500 +0000" channel="Kosmopol.dk">
     <title lang="da">Tina er tan-sober</title>
     <desc lang="da">'Tina er tan-sober'. Tina Maria Nielsen var besat af at være brun. Hun havde det ikke godt med sig selv, hvis ikke kun var smurt i selvbruner fra top til tå. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     </programme>
-  <programme start="20261026191000 +0000" stop="20261026191500 +0000" channel="Kosmopol.dk">
+  <programme start="20261026190500 +0000" stop="20261026191000 +0000" channel="Kosmopol.dk">
     <title lang="da">Amin har købt et forsamlingshus</title>
     <desc lang="da">'Amin har købt et forsamlingshus'. Amin Jensen har altid drømt om at eje et forsamlingshus på landet, og endelig er dømmen blevet til virkelighed. Tilladt for: A.</desc>
     <category lang="da">Ukendt</category>
     </programme>
-  <programme start="20261026191500 +0000" stop="20261026193000 +0000" channel="Kosmopol.dk">
+  <programme start="20261026191000 +0000" stop="20261026193000 +0000" channel="Kosmopol.dk">
     <title lang="da">Københavneriet</title>
     <desc lang="da">'Madkæde-epidemien - med Adam Haugsted'. Ifølge madanmelder Adam Haugsted udvikler den københavnske madscene sig i en forkert retning. Flere kæder og mindre særpræg gør byens udbud af mad mere ensartet. Tilladt for: A.</desc>
     <category lang="da">Show</category>
@@ -64596,50 +64589,50 @@
     <desc lang="da">'Spørg os - om Arresø'. Arresø er grøn af alger efter årtiers forurening. Men nu har et nyt samarbejde fået penge til at tage de første skridt mod en genopretning. Tilladt for: A.</desc>
     <category lang="da">Ukendt</category>
     </programme>
-  <programme start="20261026200000 +0000" stop="20261026200800 +0000" channel="Kosmopol.dk">
+  <programme start="20261026200000 +0000" stop="20261026200500 +0000" channel="Kosmopol.dk">
     <title lang="da">Koncentrat</title>
     <desc lang="da">'Koncentrat'. Hvad skete der i sidste uge i hovedstadsregionen? Bliv opdateret på nogle at de vigtigste nyhedshistorer i vores magasin "Koncentrat". Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     </programme>
-  <programme start="20261026200800 +0000" stop="20261026202000 +0000" channel="Kosmopol.dk">
+  <programme start="20261026200500 +0000" stop="20261026202000 +0000" channel="Kosmopol.dk">
     <title lang="da">OPLEV</title>
     <desc lang="da">'OPLEV - Frisk fjæsing og sprød blæksprutte'. Vi spiser fisk, kigger på den nye danske film Løvehjerte og lytter til operaen Innocence, der handler om skoleskyderi. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     </programme>
-  <programme start="20261026202000 +0000" stop="20261026203500 +0000" channel="Kosmopol.dk">
+  <programme start="20261026202000 +0000" stop="20261026203000 +0000" channel="Kosmopol.dk">
     <title lang="da">Nyheder 21:20</title>
     <desc lang="da">Sæson: 2026. 'Nyheder 21:20.'. Seneste regionale nyheder fra TV 2 Kosmopol. Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     </programme>
-  <programme start="20261026203500 +0000" stop="20261026210000 +0000" channel="Kosmopol.dk">
+  <programme start="20261026203000 +0000" stop="20261026204500 +0000" channel="Kosmopol.dk">
     <title lang="da">Kosmopol afdækker</title>
     <desc lang="da">'Theis kom på D20'. Psykisk udsatte borgere kan have så store udfordringer, at de kommer på kant med deres omgivelser. På afdeling D20 på Psykiatrisk Center Glostrup har de succes med en længerevarende behandling af patienterne. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     </programme>
-  <programme start="20261026210000 +0000" stop="20261026213000 +0000" channel="Kosmopol.dk">
+  <programme start="20261026204500 +0000" stop="20261026211000 +0000" channel="Kosmopol.dk">
     <title lang="da">Kongeværket - en historisk kopi</title>
     <desc lang="da">'Kongeværket - en historisk kopi'. Kongeværket er det største tagspær i Børsens tagkonstruktion. Den bærende midterstolpe repræsenterer en 1000 år gammel byggemetode, men hvordan blev det originale tagelement fremstillet med datidens værktøjer tilbage i år 1620? Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     </programme>
-  <programme start="20261026213000 +0000" stop="20261026215000 +0000" channel="Kosmopol.dk">
+  <programme start="20261026211000 +0000" stop="20261026213500 +0000" channel="Kosmopol.dk">
     <title lang="da">Nyheder 19:30</title>
     <desc lang="da">Sæson: 2026. 'Nyheder 19.30'. TV 2 Kosmopol sender nyheder, reportager og interviews fra hele regionen. Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     </programme>
-  <programme start="20261026215000 +0000" stop="20261026221500 +0000" channel="Kosmopol.dk">
+  <programme start="20261026213500 +0000" stop="20261026215000 +0000" channel="Kosmopol.dk">
     <title lang="da">RUC undersøger</title>
     <desc lang="da">'RUC undersøger - Kræft og kærlighed'. Hver tredje dansker får kræft, og mange står uden en partner i forløbet. Forskning viser, at en partner kan gøre en afgørende forskel. Winnie Topp kæmper mod kræft og leder samtidig efter kærligheden. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     </programme>
-  <programme start="20261026221500 +0000" stop="20261026231500 +0000" channel="Kosmopol.dk">
+  <programme start="20261026215000 +0000" stop="20261026221500 +0000" channel="Kosmopol.dk">
     <title lang="da">Søndagsræs</title>
     <desc lang="da">Sæson: 2026. Episode: 2. 'Dansk Super Rally 5. afd.'. Reportage fra Dansk Super Rally 5. afdeling, der blev kørt ved Aabenraa. Tilladt for: A.</desc>
     <date>2026</date>
     <category lang="da">Sport</category>
     </programme>
-  <programme start="20261026231500 +0000" stop="20261027050000 +0000" channel="Kosmopol.dk">
-    <title lang="da">Nyhederne for præcis 30 år siden</title>
-    <desc lang="da">Sæson: 2026. 'Nyhederne for præcis 30 år siden'. Hvad skete der i hovedstadsområdet for 30 år siden? Vi har været i arkivet og fundet den nyhedsudsendelse frem, som blev vist på denne dag for præcis 30 år siden. Tilladt for: A.</desc>
+  <programme start="20261026221500 +0000" stop="20261027050000 +0000" channel="Kosmopol.dk">
+    <title lang="da">Nyheder fra tv2kosmopol.dk</title>
+    <desc lang="da">Sæson: 2026. 'Nyheder fra tv2kosmopol.dk'. Nyheder fra tv2kosmopol.dk Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     </programme>
   <programme start="20261027050000 +0000" stop="20261027063000 +0000" channel="Kosmopol.dk">
@@ -65211,7 +65204,7 @@
       <actor>Martin Spinhayer</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/mwkEWa5vdBvBoSTvB18Mvatc9sm.jpg" /></programme>
   <programme start="20261025073700 +0000" stop="20261025075000 +0000" channel="drramasjang.dk">
     <title lang="da">Dino-ranchen III</title>
     <desc lang="da">Sæson: 3. Episode: 25. 'På rette spor'. Hvad ville du sige til at bo på en gård, hvor alle dyrene er dinosaurer? Besøg familien Cassidys ranch, hvor hver dag byder på nye eventyr, spænding og godt kammeratskab mellem Cassidy-børnene og deres dino'er. Canadisk animationsserie. Medvirkende: Stephanie Filiadi, Ava Ro, Scott Gorman, Athena Karkanis. Tilladt for: A.</desc>
@@ -68611,7 +68604,7 @@
 <programme start="20261025041200 +0000" stop="20261025043600 +0000" channel="discoveryscience.dk"><title>How It's Made: Dream Cars</title><desc>Fra en Maserati til en Audi R8 og fra en Morgan Aero Coupe til en Porsche 911 - tag med på rejse ind i bilhimlen, og se, hvordan disse imponerende maskiner designes og konstrueres.</desc></programme>
 <programme start="20261025043600 +0000" stop="20261025050000 +0000" channel="discoveryscience.dk"><title>How It's Made: Dream Cars</title><desc>Forestil dig din drømmebil: den ligner sikkert en Jaguar F-Type. Har du nogensinde spekuleret over, hvordan den maskine blev lavet? Tag med "How It's Made"-holdet, når vi tager til dens fødested og afslører dens indre funktioner og smukke ydre.</desc></programme>
 <programme start="20261026050000 +0000" stop="20261026052400 +0000" channel="discoveryscience.dk"><title>How Do They Do it?</title><desc>Hvordan laver man bilruder, der holder vind, regn, sten, tyve og selv støj og skadelige UV-stråler ude, og hvordan får den perfekte læbestiftfarve til at skinne?</desc><icon src="https://image.tmdb.org/t/p/w1280/vT3CGfixxJCNqddxec0OPnDyS7t.jpg" /></programme>
-<programme start="20261024090000 +0200" stop="20261024092500 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (3)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261024092500 +0200" stop="20261024095000 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (5)</title><desc /></programme><programme start="20261024095000 +0200" stop="20261024100000 +0200" channel="Disney.Junior.dk"><title>Bluey III (120)</title><desc /></programme><programme start="20261024100000 +0200" stop="20261024100500 +0200" channel="Disney.Junior.dk"><title>Bluey III (119)</title><desc /></programme><programme start="20261024100500 +0200" stop="20261024101500 +0200" channel="Disney.Junior.dk"><title>Bluey III (118)</title><desc /></programme><programme start="20261024101500 +0200" stop="20261024102000 +0200" channel="Disney.Junior.dk"><title>Bluey III (117)</title><desc /></programme><programme start="20261024102000 +0200" stop="20261024102500 +0200" channel="Disney.Junior.dk"><title>Bluey III (116)</title><desc /></programme><programme start="20261024102500 +0200" stop="20261024103500 +0200" channel="Disney.Junior.dk"><title>Bluey III (115)</title><desc /></programme><programme start="20261024103500 +0200" stop="20261024104000 +0200" channel="Disney.Junior.dk"><title>Bluey III (114)</title><desc /></programme><programme start="20261024104000 +0200" stop="20261024104500 +0200" channel="Disney.Junior.dk"><title>Bluey III (113)</title><desc /></programme><programme start="20261024104500 +0200" stop="20261024111000 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (2)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261024111000 +0200" stop="20261024113500 +0200" channel="Disney.Junior.dk"><title>SuperKitties III (55)</title><desc /></programme><programme start="20261024113500 +0200" stop="20261024120000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends III (80)</title><desc /></programme><programme start="20261024120000 +0200" stop="20261024122500 +0200" channel="Disney.Junior.dk"><title>Iron Man and His Awesome Friends I (22)</title><desc /></programme><programme start="20261024122500 +0200" stop="20261024125000 +0200" channel="Disney.Junior.dk"><title>Robogobo: Season 1 I (20)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/b4NWfvpWvHJ0YrNLdTk2BtzCo9X.jpg" /></programme><programme start="20261024125000 +0200" stop="20261024131500 +0200" channel="Disney.Junior.dk"><title>Robogobo: Season 1 I (19)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/b4NWfvpWvHJ0YrNLdTk2BtzCo9X.jpg" /></programme><programme start="20261024131500 +0200" stop="20261024132500 +0200" channel="Disney.Junior.dk"><title>RoboGobo S1 Splits I (44)</title><desc /></programme><programme start="20261024132500 +0200" stop="20261024135000 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+: Season 2 II (30)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/m1S0drszN5nhtGpG498so8NjUXv.jpg" /></programme><programme start="20261024135000 +0200" stop="20261024141500 +0200" channel="Disney.Junior.dk"><title>Disney Junior Ariel: The Little Mermaid II (34)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/7pNdReYwYkba5qWvFRHevFt9O2x.jpg" /></programme><programme start="20261024141500 +0200" stop="20261024144000 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (3)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261024144000 +0200" stop="20261024150500 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (1)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261024150500 +0200" stop="20261024154500 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse: Mickey’s Pirate Adventure</title><desc /></programme><programme start="20261024154500 +0200" stop="20261024160500 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends IV (90)</title><desc /></programme><programme start="20261024160500 +0200" stop="20261024162500 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends IV (93)</title><desc /></programme><programme start="20261024162500 +0200" stop="20261024165000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends IV (95)</title><desc /></programme><programme start="20261024165000 +0200" stop="20261024171000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends IV (97)</title><desc /></programme><programme start="20261024171000 +0200" stop="20261024173000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends IV (99)</title><desc /></programme><programme start="20261024173000 +0200" stop="20261024175500 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (11)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261024175500 +0200" stop="20261024182000 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (10)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261024182000 +0200" stop="20261024184500 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (16)</title><desc /></programme><programme start="20261024184500 +0200" stop="20261024191000 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (15)</title><desc /></programme><programme start="20261024191000 +0200" stop="20261024191500 +0200" channel="Disney.Junior.dk"><title>Bluey II (95)</title><desc /></programme><programme start="20261024191500 +0200" stop="20261024192500 +0200" channel="Disney.Junior.dk"><title>Bluey II (94)</title><desc /></programme><programme start="20261024192500 +0200" stop="20261024193500 +0200" channel="Disney.Junior.dk"><title>Bluey II (65)</title><desc /></programme><programme start="20261024193500 +0200" stop="20261024194000 +0200" channel="Disney.Junior.dk"><title>Bluey II (67)</title><desc /></programme><programme start="20261024194000 +0200" stop="20261024195000 +0200" channel="Disney.Junior.dk"><title>Bluey II (69)</title><desc /></programme><programme start="20261024195000 +0200" stop="20261024195500 +0200" channel="Disney.Junior.dk"><title>Bluey II (71)</title><desc /></programme><programme start="20261024195500 +0200" stop="20261024200500 +0200" channel="Disney.Junior.dk"><title>Bluey II (73)</title><desc /></programme><programme start="20261024200500 +0200" stop="20261024201000 +0200" channel="Disney.Junior.dk"><title>Bluey II (75)</title><desc /></programme><programme start="20261024201000 +0200" stop="20261024202000 +0200" channel="Disney.Junior.dk"><title>Bluey II (77)</title><desc /></programme><programme start="20261024202000 +0200" stop="20261024202500 +0200" channel="Disney.Junior.dk"><title>Bluey II (79)</title><desc /></programme><programme start="20261024202500 +0200" stop="20261024205000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends III (79)</title><desc /></programme><programme start="20261024205000 +0200" stop="20261024211500 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (11)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261024211500 +0200" stop="20261024214000 +0200" channel="Disney.Junior.dk"><title>SuperKitties III (53)</title><desc /></programme><programme start="20261024214000 +0200" stop="20261024220500 +0200" channel="Disney.Junior.dk"><title>SuperKitties I (9)</title><desc /></programme><programme start="20261024220500 +0200" stop="20261024223000 +0200" channel="Disney.Junior.dk"><title>Pupstruction I (25)</title><desc /></programme><programme start="20261024223000 +0200" stop="20261024224000 +0200" channel="Disney.Junior.dk"><title>Bluey I (10)</title><desc /></programme><programme start="20261024224000 +0200" stop="20261024224500 +0200" channel="Disney.Junior.dk"><title>Bluey I (11)</title><desc /></programme><programme start="20261024224500 +0200" stop="20261024225000 +0200" channel="Disney.Junior.dk"><title>Bluey I (12)</title><desc /></programme><programme start="20261024225000 +0200" stop="20261024230000 +0200" channel="Disney.Junior.dk"><title>Bluey I (13)</title><desc /></programme><programme start="20261024230000 +0200" stop="20261024230500 +0200" channel="Disney.Junior.dk"><title>Bluey I (14)</title><desc /></programme><programme start="20261024230500 +0200" stop="20261024231500 +0200" channel="Disney.Junior.dk"><title>Bluey I (15)</title><desc /></programme><programme start="20261024231500 +0200" stop="20261024232500 +0200" channel="Disney.Junior.dk"><title>Bluey I (16)</title><desc /></programme><programme start="20261024232500 +0200" stop="20261024235000 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (19)</title><desc /></programme><programme start="20261024235000 +0200" stop="20261025001500 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (20)</title><desc /></programme><programme start="20261025021500 +0200" stop="20261025024000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends I (9)</title><desc /></programme><programme start="20261025024000 +0200" stop="20261025030500 +0100" channel="Disney.Junior.dk"><title>Robogobo: Season 1 I (6)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/b4NWfvpWvHJ0YrNLdTk2BtzCo9X.jpg" /></programme><programme start="20261025030500 +0100" stop="20261025033000 +0100" channel="Disney.Junior.dk"><title>Robogobo: Season 1 I (7)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/b4NWfvpWvHJ0YrNLdTk2BtzCo9X.jpg" /></programme><programme start="20261025033000 +0100" stop="20261025035500 +0100" channel="Disney.Junior.dk"><title>Robogobo: Season 1 I (8)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/b4NWfvpWvHJ0YrNLdTk2BtzCo9X.jpg" /></programme><programme start="20261025035500 +0100" stop="20261025040500 +0100" channel="Disney.Junior.dk"><title>Bluey I (51)</title><desc /></programme><programme start="20261025040500 +0100" stop="20261025041000 +0100" channel="Disney.Junior.dk"><title>Bluey I (50)</title><desc /></programme><programme start="20261025041000 +0100" stop="20261025041500 +0100" channel="Disney.Junior.dk"><title>Bluey I (49)</title><desc /></programme><programme start="20261025041500 +0100" stop="20261025042500 +0100" channel="Disney.Junior.dk"><title>Bluey I (48)</title><desc /></programme><programme start="20261025042500 +0100" stop="20261025043000 +0100" channel="Disney.Junior.dk"><title>Bluey I (47)</title><desc /></programme><programme start="20261025043000 +0100" stop="20261025044000 +0100" channel="Disney.Junior.dk"><title>Bluey I (46)</title><desc /></programme><programme start="20261025044000 +0100" stop="20261025045000 +0100" channel="Disney.Junior.dk"><title>Bluey I (45)</title><desc /></programme><programme start="20261025045000 +0100" stop="20261025045500 +0100" channel="Disney.Junior.dk"><title>Bluey I (44)</title><desc /></programme><programme start="20261025045500 +0100" stop="20261025050000 +0100" channel="Disney.Junior.dk"><title>Bluey I (43)</title><desc /></programme><programme start="20261025050000 +0100" stop="20261025050500 +0100" channel="Disney.Junior.dk"><title>Bluey I (42)</title><desc /></programme><programme start="20261025050500 +0100" stop="20261025051000 +0100" channel="Disney.Junior.dk"><title>Bluey I (41)</title><desc /></programme><programme start="20261025051000 +0100" stop="20261025053500 +0100" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends I (10)</title><desc /></programme><programme start="20261025053500 +0100" stop="20261025060000 +0100" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends I (11)</title><desc /></programme><programme start="20261025060000 +0100" stop="20261025062500 +0100" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (25)</title><desc /></programme><programme start="20261025062500 +0100" stop="20261025065000 +0100" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (3)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261025065000 +0100" stop="20261025071500 +0100" channel="Disney.Junior.dk"><title>SuperKitties I (10)</title><desc /></programme><programme start="20261025071500 +0100" stop="20261025072500 +0100" channel="Disney.Junior.dk"><title>Bluey II (86)</title><desc /></programme><programme start="20261025072500 +0100" stop="20261025073000 +0100" channel="Disney.Junior.dk"><title>Bluey II (88)</title><desc /></programme><programme start="20261025073000 +0100" stop="20261025074000 +0100" channel="Disney.Junior.dk"><title>Bluey II (90)</title><desc /></programme><programme start="20261025074000 +0100" stop="20261025074500 +0100" channel="Disney.Junior.dk"><title>Bluey II (92)</title><desc /></programme><programme start="20261025074500 +0100" stop="20261025075500 +0100" channel="Disney.Junior.dk"><title>Bluey II (94)</title><desc /></programme><programme start="20261025075500 +0100" stop="20261025080000 +0100" channel="Disney.Junior.dk"><title>Bluey II (96)</title><desc /></programme><programme start="20261025080000 +0100" stop="20261025081000 +0100" channel="Disney.Junior.dk"><title>Bluey II (98)</title><desc /></programme><programme start="20261025081000 +0100" stop="20261025083500 +0100" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (5)</title><desc /></programme><programme start="20261025083500 +0100" stop="20261025090000 +0100" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends III (79)</title><desc /></programme><programme start="20261025090000 +0100" stop="20261025092500 +0100" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (9)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261025092500 +0100" stop="20261025095000 +0100" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (3)</title><desc /></programme><programme start="20261025095000 +0100" stop="20261025100000 +0100" channel="Disney.Junior.dk"><title>Bluey III (112)</title><desc /></programme><programme start="20261025100000 +0100" stop="20261025100500 +0100" channel="Disney.Junior.dk"><title>Bluey III (111)</title><desc /></programme><programme start="20261025100500 +0100" stop="20261025101500 +0100" channel="Disney.Junior.dk"><title>Bluey III (110)</title><desc /></programme><programme start="20261025101500 +0100" stop="20261025102000 +0100" channel="Disney.Junior.dk"><title>Bluey III (109)</title><desc /></programme><programme start="20261025102000 +0100" stop="20261025102500 +0100" channel="Disney.Junior.dk"><title>Bluey III (108)</title><desc /></programme><programme start="20261025102500 +0100" stop="20261025103500 +0100" channel="Disney.Junior.dk"><title>Bluey III (107)</title><desc /></programme><programme start="20261025103500 +0100" stop="20261025104000 +0100" channel="Disney.Junior.dk"><title>Bluey III (106)</title><desc /></programme><programme start="20261025104000 +0100" stop="20261025104500 +0100" channel="Disney.Junior.dk"><title>Bluey III (105)</title><desc /></programme><programme start="20261025104500 +0100" stop="20261025111000 +0100" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (8)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261025111000 +0100" stop="20261025113500 +0100" channel="Disney.Junior.dk"><title>SuperKitties III (54)</title><desc /></programme><programme start="20261025113500 +0100" stop="20261025120000 +0100" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends III (78)</title><desc /></programme><programme start="20261025120000 +0100" stop="20261025122500 +0100" channel="Disney.Junior.dk"><title>Iron Man and His Awesome Friends I (21)</title><desc /></programme><programme start="20261025122500 +0100" stop="20261025125000 +0100" channel="Disney.Junior.dk"><title>Robogobo: Season 1 I (18)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/b4NWfvpWvHJ0YrNLdTk2BtzCo9X.jpg" /></programme><programme start="20261025125000 +0100" stop="20261025131500 +0100" channel="Disney.Junior.dk"><title>Robogobo: Season 1 I (17)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/b4NWfvpWvHJ0YrNLdTk2BtzCo9X.jpg" /></programme><programme start="20261025131500 +0100" stop="20261025132500 +0100" channel="Disney.Junior.dk"><title>RoboGobo S1 Splits I (43)</title><desc /></programme><programme start="20261025132500 +0100" stop="20261025135000 +0100" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (13)</title><desc /></programme><programme start="20261025135000 +0100" stop="20261025141500 +0100" channel="Disney.Junior.dk"><title>Disney Junior Ariel: The Little Mermaid II (33)</title><desc /></programme><programme start="20261025141500 +0100" stop="20261025144000 +0100" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (4)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261025144000 +0100" stop="20261025150500 +0100" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (7)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261025150500 +0100" stop="20261025151000 +0100" channel="Disney.Junior.dk"><title>Minnie's Bow-Toons I (9)</title><desc /></programme><programme start="20261025151000 +0100" stop="20261025151500 +0100" channel="Disney.Junior.dk"><title>Minnie's Bow-Toons I (10)</title><desc /></programme><programme start="20261025151500 +0100" stop="20261025152000 +0100" channel="Disney.Junior.dk"><title>Minnie's Bow-Toons II (11)</title><desc /></programme><programme start="20261025152000 +0100" stop="20261025152500 +0100" channel="Disney.Junior.dk"><title>Minnie's Bow-Toons II (12)</title><desc /></programme><programme start="20261025152500 +0100" stop="20261025153000 +0100" channel="Disney.Junior.dk"><title>Minnie's Bow-Toons II (13)</title><desc /></programme><programme start="20261025153000 +0100" stop="20261025153500 +0100" channel="Disney.Junior.dk"><title>Minnie's Bow-Toons II (14)</title><desc /></programme><programme start="20261025153500 +0100" stop="20261025154000 +0100" channel="Disney.Junior.dk"><title>Minnie's Bow-Toons II (15)</title><desc /></programme><programme start="20261025154000 +0100" stop="20261025154500 +0100" channel="Disney.Junior.dk"><title>Minnie's Bow-Toons II (16)</title><desc /></programme><programme start="20261025154500 +0100" stop="20261025155000 +0100" channel="Disney.Junior.dk"><title>Bluey II (93)</title><desc /></programme><programme start="20261025155000 +0100" stop="20261025155500 +0100" channel="Disney.Junior.dk"><title>Bluey II (92)</title><desc /></programme><programme start="20261025155500 +0100" stop="20261025160500 +0100" channel="Disney.Junior.dk"><title>Bluey II (91)</title><desc /></programme><programme start="20261025160500 +0100" stop="20261025161000 +0100" channel="Disney.Junior.dk"><title>Bluey II (90)</title><desc /></programme><programme start="20261025161000 +0100" stop="20261025161500 +0100" channel="Disney.Junior.dk"><title>Bluey II (89)</title><desc /></programme><programme start="20261025161500 +0100" stop="20261025162500 +0100" channel="Disney.Junior.dk"><title>Bluey II (88)</title><desc /></programme><programme start="20261025162500 +0100" stop="20261025163000 +0100" channel="Disney.Junior.dk"><title>Bluey II (87)</title><desc /></programme><programme start="20261025163000 +0100" stop="20261025163500 +0100" channel="Disney.Junior.dk"><title>Bluey II (86)</title><desc /></programme><programme start="20261025163500 +0100" stop="20261025164500 +0100" channel="Disney.Junior.dk"><title>Bluey II (85)</title><desc /></programme><programme start="20261025164500 +0100" stop="20261025165000 +0100" channel="Disney.Junior.dk"><title>Bluey II (84)</title><desc /></programme><programme start="20261025165000 +0100" stop="20261025165500 +0100" channel="Disney.Junior.dk"><title>Bluey II (83)</title><desc /></programme><programme start="20261025165500 +0100" stop="20261025170500 +0100" channel="Disney.Junior.dk"><title>Bluey II (82)</title><desc /></programme><programme start="20261025170500 +0100" stop="20261025171000 +0100" channel="Disney.Junior.dk"><title>Bluey II (81)</title><desc /></programme><programme start="20261025171000 +0100" stop="20261025172000 +0100" channel="Disney.Junior.dk"><title>Bluey II (80)</title><desc /></programme><programme start="20261025172000 +0100" stop="20261025173000 +0100" channel="Disney.Junior.dk"><title>Bluey II (79)</title><desc /></programme><programme start="20261025173000 +0100" stop="20261025175500 +0100" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (6)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261025175500 +0100" stop="20261025182000 +0100" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (5)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261025182000 +0100" stop="20261025184500 +0100" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (14)</title><desc /></programme><programme start="20261025184500 +0100" stop="20261025191000 +0100" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (13)</title><desc /></programme><programme start="20261025191000 +0100" stop="20261025191500 +0100" channel="Disney.Junior.dk"><title>Bluey II (78)</title><desc /></programme><programme start="20261025191500 +0100" stop="20261025192500 +0100" channel="Disney.Junior.dk"><title>Bluey II (77)</title><desc /></programme><programme start="20261025192500 +0100" stop="20261025193500 +0100" channel="Disney.Junior.dk"><title>Bluey II (81)</title><desc /></programme><programme start="20261025193500 +0100" stop="20261025194000 +0100" channel="Disney.Junior.dk"><title>Bluey II (83)</title><desc /></programme><programme start="20261025194000 +0100" stop="20261025195000 +0100" channel="Disney.Junior.dk"><title>Bluey II (85)</title><desc /></programme><programme start="20261025195000 +0100" stop="20261025195500 +0100" channel="Disney.Junior.dk"><title>Bluey II (87)</title><desc /></programme><programme start="20261025195500 +0100" stop="20261025200500 +0100" channel="Disney.Junior.dk"><title>Bluey II (89)</title><desc /></programme><programme start="20261025200500 +0100" stop="20261025201000 +0100" channel="Disney.Junior.dk"><title>Bluey II (91)</title><desc /></programme><programme start="20261025201000 +0100" stop="20261025202000 +0100" channel="Disney.Junior.dk"><title>Bluey II (93)</title><desc /></programme><programme start="20261025202000 +0100" stop="20261025202500 +0100" channel="Disney.Junior.dk"><title>Bluey II (95)</title><desc /></programme><programme start="20261025202500 +0100" stop="20261025205000 +0100" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends: Season 5 V (105)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/l9IjbcpfYRZ2wWQOHhmB6Db6qe7.jpg" /></programme><programme start="20261025205000 +0100" stop="20261025211500 +0100" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (6)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261025211500 +0100" stop="20261025214000 +0100" channel="Disney.Junior.dk"><title>SuperKitties: Su-Purr Charged II (36)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/svZssJM2FbpW0v0O6QbGLpL7rGf.jpg" /></programme><programme start="20261025214000 +0100" stop="20261025220500 +0100" channel="Disney.Junior.dk"><title>SuperKitties I (11)</title><desc /></programme><programme start="20261025220500 +0100" stop="20261025223000 +0100" channel="Disney.Junior.dk"><title>Pupstruction I (24)</title><desc /></programme><programme start="20261025223000 +0100" stop="20261025224000 +0100" channel="Disney.Junior.dk"><title>Bluey I (17)</title><desc /></programme><programme start="20261025224000 +0100" stop="20261025224500 +0100" channel="Disney.Junior.dk"><title>Bluey I (18)</title><desc /></programme><programme start="20261025224500 +0100" stop="20261025225000 +0100" channel="Disney.Junior.dk"><title>Bluey I (19)</title><desc /></programme><programme start="20261025225000 +0100" stop="20261025230000 +0100" channel="Disney.Junior.dk"><title>Bluey I (20)</title><desc /></programme><programme start="20261025230000 +0100" stop="20261025230500 +0100" channel="Disney.Junior.dk"><title>Bluey I (21)</title><desc /></programme><programme start="20261025050000 +0000" stop="20261025052500 +0000" channel="nickelodeonjuniordk.dk"><title>Tim Rex i rummet</title><desc>Tim udforsker Rumbleton; Tim og Kai hjælper Parky; Rex-familien sidder fast i en storm.</desc><episode-num system="xmltv_ns">.0.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/85KVExNzP8zgEMUp6q6FV5HfKTC.jpg" /></programme>
+<programme start="20261024192500 +0200" stop="20261024193500 +0200" channel="Disney.Junior.dk"><title>Bluey II (65)</title><desc /></programme><programme start="20261024193500 +0200" stop="20261024194000 +0200" channel="Disney.Junior.dk"><title>Bluey II (67)</title><desc /></programme><programme start="20261024194000 +0200" stop="20261024195000 +0200" channel="Disney.Junior.dk"><title>Bluey II (69)</title><desc /></programme><programme start="20261024195000 +0200" stop="20261024195500 +0200" channel="Disney.Junior.dk"><title>Bluey II (71)</title><desc /></programme><programme start="20261024195500 +0200" stop="20261024200500 +0200" channel="Disney.Junior.dk"><title>Bluey II (73)</title><desc /></programme><programme start="20261024200500 +0200" stop="20261024201000 +0200" channel="Disney.Junior.dk"><title>Bluey II (75)</title><desc /></programme><programme start="20261024201000 +0200" stop="20261024202000 +0200" channel="Disney.Junior.dk"><title>Bluey II (77)</title><desc /></programme><programme start="20261024202000 +0200" stop="20261024202500 +0200" channel="Disney.Junior.dk"><title>Bluey II (79)</title><desc /></programme><programme start="20261024202500 +0200" stop="20261024205000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends III (79)</title><desc /></programme><programme start="20261024205000 +0200" stop="20261024211500 +0200" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (11)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261024211500 +0200" stop="20261024214000 +0200" channel="Disney.Junior.dk"><title>SuperKitties III (53)</title><desc /></programme><programme start="20261024214000 +0200" stop="20261024220500 +0200" channel="Disney.Junior.dk"><title>SuperKitties I (9)</title><desc /></programme><programme start="20261024220500 +0200" stop="20261024223000 +0200" channel="Disney.Junior.dk"><title>Pupstruction I (25)</title><desc /></programme><programme start="20261024223000 +0200" stop="20261024224000 +0200" channel="Disney.Junior.dk"><title>Bluey I (10)</title><desc /></programme><programme start="20261024224000 +0200" stop="20261024224500 +0200" channel="Disney.Junior.dk"><title>Bluey I (11)</title><desc /></programme><programme start="20261024224500 +0200" stop="20261024225000 +0200" channel="Disney.Junior.dk"><title>Bluey I (12)</title><desc /></programme><programme start="20261024225000 +0200" stop="20261024230000 +0200" channel="Disney.Junior.dk"><title>Bluey I (13)</title><desc /></programme><programme start="20261024230000 +0200" stop="20261024230500 +0200" channel="Disney.Junior.dk"><title>Bluey I (14)</title><desc /></programme><programme start="20261024230500 +0200" stop="20261024231500 +0200" channel="Disney.Junior.dk"><title>Bluey I (15)</title><desc /></programme><programme start="20261024231500 +0200" stop="20261024232500 +0200" channel="Disney.Junior.dk"><title>Bluey I (16)</title><desc /></programme><programme start="20261024232500 +0200" stop="20261024235000 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (19)</title><desc /></programme><programme start="20261024235000 +0200" stop="20261025001500 +0200" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (20)</title><desc /></programme><programme start="20261025021500 +0200" stop="20261025024000 +0200" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends I (9)</title><desc /></programme><programme start="20261025024000 +0200" stop="20261025030500 +0100" channel="Disney.Junior.dk"><title>Robogobo: Season 1 I (6)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/b4NWfvpWvHJ0YrNLdTk2BtzCo9X.jpg" /></programme><programme start="20261025030500 +0100" stop="20261025033000 +0100" channel="Disney.Junior.dk"><title>Robogobo: Season 1 I (7)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/b4NWfvpWvHJ0YrNLdTk2BtzCo9X.jpg" /></programme><programme start="20261025033000 +0100" stop="20261025035500 +0100" channel="Disney.Junior.dk"><title>Robogobo: Season 1 I (8)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/b4NWfvpWvHJ0YrNLdTk2BtzCo9X.jpg" /></programme><programme start="20261025035500 +0100" stop="20261025040500 +0100" channel="Disney.Junior.dk"><title>Bluey I (51)</title><desc /></programme><programme start="20261025040500 +0100" stop="20261025041000 +0100" channel="Disney.Junior.dk"><title>Bluey I (50)</title><desc /></programme><programme start="20261025041000 +0100" stop="20261025041500 +0100" channel="Disney.Junior.dk"><title>Bluey I (49)</title><desc /></programme><programme start="20261025041500 +0100" stop="20261025042500 +0100" channel="Disney.Junior.dk"><title>Bluey I (48)</title><desc /></programme><programme start="20261025042500 +0100" stop="20261025043000 +0100" channel="Disney.Junior.dk"><title>Bluey I (47)</title><desc /></programme><programme start="20261025043000 +0100" stop="20261025044000 +0100" channel="Disney.Junior.dk"><title>Bluey I (46)</title><desc /></programme><programme start="20261025044000 +0100" stop="20261025045000 +0100" channel="Disney.Junior.dk"><title>Bluey I (45)</title><desc /></programme><programme start="20261025045000 +0100" stop="20261025045500 +0100" channel="Disney.Junior.dk"><title>Bluey I (44)</title><desc /></programme><programme start="20261025045500 +0100" stop="20261025050000 +0100" channel="Disney.Junior.dk"><title>Bluey I (43)</title><desc /></programme><programme start="20261025050000 +0100" stop="20261025050500 +0100" channel="Disney.Junior.dk"><title>Bluey I (42)</title><desc /></programme><programme start="20261025050500 +0100" stop="20261025051000 +0100" channel="Disney.Junior.dk"><title>Bluey I (41)</title><desc /></programme><programme start="20261025051000 +0100" stop="20261025053500 +0100" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends I (10)</title><desc /></programme><programme start="20261025053500 +0100" stop="20261025060000 +0100" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends I (11)</title><desc /></programme><programme start="20261025060000 +0100" stop="20261025062500 +0100" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (25)</title><desc /></programme><programme start="20261025062500 +0100" stop="20261025065000 +0100" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (3)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261025065000 +0100" stop="20261025071500 +0100" channel="Disney.Junior.dk"><title>SuperKitties I (10)</title><desc /></programme><programme start="20261025071500 +0100" stop="20261025072500 +0100" channel="Disney.Junior.dk"><title>Bluey II (86)</title><desc /></programme><programme start="20261025072500 +0100" stop="20261025073000 +0100" channel="Disney.Junior.dk"><title>Bluey II (88)</title><desc /></programme><programme start="20261025073000 +0100" stop="20261025074000 +0100" channel="Disney.Junior.dk"><title>Bluey II (90)</title><desc /></programme><programme start="20261025074000 +0100" stop="20261025074500 +0100" channel="Disney.Junior.dk"><title>Bluey II (92)</title><desc /></programme><programme start="20261025074500 +0100" stop="20261025075500 +0100" channel="Disney.Junior.dk"><title>Bluey II (94)</title><desc /></programme><programme start="20261025075500 +0100" stop="20261025080000 +0100" channel="Disney.Junior.dk"><title>Bluey II (96)</title><desc /></programme><programme start="20261025080000 +0100" stop="20261025081000 +0100" channel="Disney.Junior.dk"><title>Bluey II (98)</title><desc /></programme><programme start="20261025081000 +0100" stop="20261025083500 +0100" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (5)</title><desc /></programme><programme start="20261025083500 +0100" stop="20261025090000 +0100" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends III (79)</title><desc /></programme><programme start="20261025090000 +0100" stop="20261025092500 +0100" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (9)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261025092500 +0100" stop="20261025095000 +0100" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (3)</title><desc /></programme><programme start="20261025095000 +0100" stop="20261025100000 +0100" channel="Disney.Junior.dk"><title>Bluey III (112)</title><desc /></programme><programme start="20261025100000 +0100" stop="20261025100500 +0100" channel="Disney.Junior.dk"><title>Bluey III (111)</title><desc /></programme><programme start="20261025100500 +0100" stop="20261025101500 +0100" channel="Disney.Junior.dk"><title>Bluey III (110)</title><desc /></programme><programme start="20261025101500 +0100" stop="20261025102000 +0100" channel="Disney.Junior.dk"><title>Bluey III (109)</title><desc /></programme><programme start="20261025102000 +0100" stop="20261025102500 +0100" channel="Disney.Junior.dk"><title>Bluey III (108)</title><desc /></programme><programme start="20261025102500 +0100" stop="20261025103500 +0100" channel="Disney.Junior.dk"><title>Bluey III (107)</title><desc /></programme><programme start="20261025103500 +0100" stop="20261025104000 +0100" channel="Disney.Junior.dk"><title>Bluey III (106)</title><desc /></programme><programme start="20261025104000 +0100" stop="20261025104500 +0100" channel="Disney.Junior.dk"><title>Bluey III (105)</title><desc /></programme><programme start="20261025104500 +0100" stop="20261025111000 +0100" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (8)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261025111000 +0100" stop="20261025113500 +0100" channel="Disney.Junior.dk"><title>SuperKitties III (54)</title><desc /></programme><programme start="20261025113500 +0100" stop="20261025120000 +0100" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends III (78)</title><desc /></programme><programme start="20261025120000 +0100" stop="20261025122500 +0100" channel="Disney.Junior.dk"><title>Iron Man and His Awesome Friends I (21)</title><desc /></programme><programme start="20261025122500 +0100" stop="20261025125000 +0100" channel="Disney.Junior.dk"><title>Robogobo: Season 1 I (18)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/b4NWfvpWvHJ0YrNLdTk2BtzCo9X.jpg" /></programme><programme start="20261025125000 +0100" stop="20261025131500 +0100" channel="Disney.Junior.dk"><title>Robogobo: Season 1 I (17)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/b4NWfvpWvHJ0YrNLdTk2BtzCo9X.jpg" /></programme><programme start="20261025131500 +0100" stop="20261025132500 +0100" channel="Disney.Junior.dk"><title>RoboGobo S1 Splits I (43)</title><desc /></programme><programme start="20261025132500 +0100" stop="20261025135000 +0100" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (13)</title><desc /></programme><programme start="20261025135000 +0100" stop="20261025141500 +0100" channel="Disney.Junior.dk"><title>Disney Junior Ariel: The Little Mermaid II (33)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/7pNdReYwYkba5qWvFRHevFt9O2x.jpg" /></programme><programme start="20261025141500 +0100" stop="20261025144000 +0100" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (4)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261025144000 +0100" stop="20261025150500 +0100" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (7)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261025150500 +0100" stop="20261025151000 +0100" channel="Disney.Junior.dk"><title>Minnie's Bow-Toons I (9)</title><desc /></programme><programme start="20261025151000 +0100" stop="20261025151500 +0100" channel="Disney.Junior.dk"><title>Minnie's Bow-Toons I (10)</title><desc /></programme><programme start="20261025151500 +0100" stop="20261025152000 +0100" channel="Disney.Junior.dk"><title>Minnie's Bow-Toons II (11)</title><desc /></programme><programme start="20261025152000 +0100" stop="20261025152500 +0100" channel="Disney.Junior.dk"><title>Minnie's Bow-Toons II (12)</title><desc /></programme><programme start="20261025152500 +0100" stop="20261025153000 +0100" channel="Disney.Junior.dk"><title>Minnie's Bow-Toons II (13)</title><desc /></programme><programme start="20261025153000 +0100" stop="20261025153500 +0100" channel="Disney.Junior.dk"><title>Minnie's Bow-Toons II (14)</title><desc /></programme><programme start="20261025153500 +0100" stop="20261025154000 +0100" channel="Disney.Junior.dk"><title>Minnie's Bow-Toons II (15)</title><desc /></programme><programme start="20261025154000 +0100" stop="20261025154500 +0100" channel="Disney.Junior.dk"><title>Minnie's Bow-Toons II (16)</title><desc /></programme><programme start="20261025154500 +0100" stop="20261025155000 +0100" channel="Disney.Junior.dk"><title>Bluey II (93)</title><desc /></programme><programme start="20261025155000 +0100" stop="20261025155500 +0100" channel="Disney.Junior.dk"><title>Bluey II (92)</title><desc /></programme><programme start="20261025155500 +0100" stop="20261025160500 +0100" channel="Disney.Junior.dk"><title>Bluey II (91)</title><desc /></programme><programme start="20261025160500 +0100" stop="20261025161000 +0100" channel="Disney.Junior.dk"><title>Bluey II (90)</title><desc /></programme><programme start="20261025161000 +0100" stop="20261025161500 +0100" channel="Disney.Junior.dk"><title>Bluey II (89)</title><desc /></programme><programme start="20261025161500 +0100" stop="20261025162500 +0100" channel="Disney.Junior.dk"><title>Bluey II (88)</title><desc /></programme><programme start="20261025162500 +0100" stop="20261025163000 +0100" channel="Disney.Junior.dk"><title>Bluey II (87)</title><desc /></programme><programme start="20261025163000 +0100" stop="20261025163500 +0100" channel="Disney.Junior.dk"><title>Bluey II (86)</title><desc /></programme><programme start="20261025163500 +0100" stop="20261025164500 +0100" channel="Disney.Junior.dk"><title>Bluey II (85)</title><desc /></programme><programme start="20261025164500 +0100" stop="20261025165000 +0100" channel="Disney.Junior.dk"><title>Bluey II (84)</title><desc /></programme><programme start="20261025165000 +0100" stop="20261025165500 +0100" channel="Disney.Junior.dk"><title>Bluey II (83)</title><desc /></programme><programme start="20261025165500 +0100" stop="20261025170500 +0100" channel="Disney.Junior.dk"><title>Bluey II (82)</title><desc /></programme><programme start="20261025170500 +0100" stop="20261025171000 +0100" channel="Disney.Junior.dk"><title>Bluey II (81)</title><desc /></programme><programme start="20261025171000 +0100" stop="20261025172000 +0100" channel="Disney.Junior.dk"><title>Bluey II (80)</title><desc /></programme><programme start="20261025172000 +0100" stop="20261025173000 +0100" channel="Disney.Junior.dk"><title>Bluey II (79)</title><desc /></programme><programme start="20261025173000 +0100" stop="20261025175500 +0100" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (6)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261025175500 +0100" stop="20261025182000 +0100" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (5)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261025182000 +0100" stop="20261025184500 +0100" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (14)</title><desc /></programme><programme start="20261025184500 +0100" stop="20261025191000 +0100" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (13)</title><desc /></programme><programme start="20261025191000 +0100" stop="20261025191500 +0100" channel="Disney.Junior.dk"><title>Bluey II (78)</title><desc /></programme><programme start="20261025191500 +0100" stop="20261025192500 +0100" channel="Disney.Junior.dk"><title>Bluey II (77)</title><desc /></programme><programme start="20261025192500 +0100" stop="20261025193500 +0100" channel="Disney.Junior.dk"><title>Bluey II (81)</title><desc /></programme><programme start="20261025193500 +0100" stop="20261025194000 +0100" channel="Disney.Junior.dk"><title>Bluey II (83)</title><desc /></programme><programme start="20261025194000 +0100" stop="20261025195000 +0100" channel="Disney.Junior.dk"><title>Bluey II (85)</title><desc /></programme><programme start="20261025195000 +0100" stop="20261025195500 +0100" channel="Disney.Junior.dk"><title>Bluey II (87)</title><desc /></programme><programme start="20261025195500 +0100" stop="20261025200500 +0100" channel="Disney.Junior.dk"><title>Bluey II (89)</title><desc /></programme><programme start="20261025200500 +0100" stop="20261025201000 +0100" channel="Disney.Junior.dk"><title>Bluey II (91)</title><desc /></programme><programme start="20261025201000 +0100" stop="20261025202000 +0100" channel="Disney.Junior.dk"><title>Bluey II (93)</title><desc /></programme><programme start="20261025202000 +0100" stop="20261025202500 +0100" channel="Disney.Junior.dk"><title>Bluey II (95)</title><desc /></programme><programme start="20261025202500 +0100" stop="20261025205000 +0100" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends: Season 5 V (105)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/l9IjbcpfYRZ2wWQOHhmB6Db6qe7.jpg" /></programme><programme start="20261025205000 +0100" stop="20261025211500 +0100" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (6)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261025211500 +0100" stop="20261025214000 +0100" channel="Disney.Junior.dk"><title>SuperKitties: Su-Purr Charged II (36)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/svZssJM2FbpW0v0O6QbGLpL7rGf.jpg" /></programme><programme start="20261025214000 +0100" stop="20261025220500 +0100" channel="Disney.Junior.dk"><title>SuperKitties I (11)</title><desc /></programme><programme start="20261025220500 +0100" stop="20261025223000 +0100" channel="Disney.Junior.dk"><title>Pupstruction I (24)</title><desc /></programme><programme start="20261025223000 +0100" stop="20261025224000 +0100" channel="Disney.Junior.dk"><title>Bluey I (17)</title><desc /></programme><programme start="20261025224000 +0100" stop="20261025224500 +0100" channel="Disney.Junior.dk"><title>Bluey I (18)</title><desc /></programme><programme start="20261025224500 +0100" stop="20261025225000 +0100" channel="Disney.Junior.dk"><title>Bluey I (19)</title><desc /></programme><programme start="20261025225000 +0100" stop="20261025230000 +0100" channel="Disney.Junior.dk"><title>Bluey I (20)</title><desc /></programme><programme start="20261025230000 +0100" stop="20261025230500 +0100" channel="Disney.Junior.dk"><title>Bluey I (21)</title><desc /></programme><programme start="20261025050000 +0000" stop="20261025052500 +0000" channel="nickelodeonjuniordk.dk"><title>Tim Rex i rummet</title><desc>Tim udforsker Rumbleton; Tim og Kai hjælper Parky; Rex-familien sidder fast i en storm.</desc><episode-num system="xmltv_ns">.0.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/85KVExNzP8zgEMUp6q6FV5HfKTC.jpg" /></programme>
 <programme start="20261025052500 +0000" stop="20261025054500 +0000" channel="nickelodeonjuniordk.dk"><title>Tim Rex i rummet</title><desc>Kais far kunne være DinoStar; Tim vil slappe af; Tim deler særlige småkager ud.</desc><episode-num system="xmltv_ns">.1.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/85KVExNzP8zgEMUp6q6FV5HfKTC.jpg" /></programme>
 <programme start="20261025054500 +0000" stop="20261025061000 +0000" channel="nickelodeonjuniordk.dk"><title>Rubble &amp; Co</title><desc>Rubble og co. skal redde Byggernes Bugt, da et voldsomt regnvejr truer med at oversvømme byen. // Rubble og Motor kommer på snu, opbyggelige løsninger, der skal løse Farmer Zoes egernproblem inden Gård-dagen.</desc><episode-num system="xmltv_ns">.21.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/7m2NrBKnvqMZZ1fytUCmWcAf9xO.jpg" /></programme>
 <programme start="20261025061000 +0000" stop="20261025063500 +0000" channel="nickelodeonjuniordk.dk"><title>Rubble &amp; Co</title><desc>Rubble og co. skal til pyjamasfest med Sierra Sparkle, men da de overrasker Sierra med et nyt værelse, er hendes yndlingsbamse væk. // Borgmester Evigglad slår sin fod, så vovserne bygger en stol til hende, så hun kan lave et stort vandski-stunt.</desc><episode-num system="xmltv_ns">.1.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/7m2NrBKnvqMZZ1fytUCmWcAf9xO.jpg" /></programme>
@@ -68970,7 +68963,7 @@
 <programme start="20261025085500 +0000" stop="20261025103500 +0000" channel="sfkanalendk.dk"><title>Rasmus på farten</title><desc>Rasmus bor på børnehjem, og hans største ønske er at få en mor og en far. En dag beslutter han sig for at stikke af. Allerede den første dag møder han en vagabond, som meget gerne vil følges med Rasmus. Det bliver begyndelsen på en spændende rejse og et stærkt venskab.</desc></programme>
 <programme start="20261025103500 +0000" stop="20261025121500 +0000" channel="sfkanalendk.dk"><title>Tisdagsklubben</title><desc>Karins eksistens bliver pludselig vendt på hovedet. På et madlavningskursus opdager hun, at det aldrig er for sent at turde følge sine drømme.</desc></programme>
 <programme start="20261025121500 +0000" stop="20261025140000 +0000" channel="sfkanalendk.dk"><title>En enkelbillet til Antibes</title><desc>Drama om enkemanden George, der får nok af folk omkring sig, pakker en taske og drager afsted på en forunderlig rejse.</desc></programme>
-<programme start="20261025140000 +0000" stop="20261025153500 +0000" channel="sfkanalendk.dk"><title>Tidsrejsen</title><desc>Efter charter-, ski-, sejl-, golf- og helserejser er Stig-Helmer tilbage. Denne gang på en tidsrejse – tilbage til Stig-Helmers børne- og ungdomsår, hvor vi får svar på, hvorfor han blev han som han blev? Hvordan var han som ung? Har livet kuet ham eller er hans totale mangel på udstråling medfødt?</desc></programme>
+<programme start="20261025140000 +0000" stop="20261025153500 +0000" channel="sfkanalendk.dk"><title>Tidsrejsen</title><desc>Efter charter-, ski-, sejl-, golf- og helserejser er Stig-Helmer tilbage. Denne gang på en tidsrejse – tilbage til Stig-Helmers børne- og ungdomsår, hvor vi får svar på, hvorfor han blev han som han blev? Hvordan var han som ung? Har livet kuet ham eller er hans totale mangel på udstråling medfødt?</desc><icon src="https://image.tmdb.org/t/p/w1280/u2rMDLVgcIj0hxHqalgX8SoxEiG.jpg" /></programme>
 <programme start="20261025153500 +0000" stop="20261025174000 +0000" channel="sfkanalendk.dk"><title>Arn: Riket vid vägens slut</title><desc>I den anden film efter Jan Guillous fortælling om Arn forlader tempelridderen Jerusalem og vender hjem til Cecilia. De gifter sig og får endnu et barn. Men Arn ved, at sverkerne fortsat planlægger at generobre magten, og at krigen kan bryde ud nårsomhelst.</desc></programme>
 <programme start="20261025174000 +0000" stop="20261025192500 +0000" channel="sfkanalendk.dk"><title>Fågelfångarens son</title><desc>Livia hjælper sine venner, fuglefangeren Esmar og Johanna med at få en søn, da de ifølge færøsk lov ellers risikerer at miste deres hjem og marker.</desc></programme>
 <programme start="20261025192500 +0000" stop="20261025210000 +0000" channel="sfkanalendk.dk"><title>Vidunderlige elskede</title><desc>Lægen Lars forsøger at komme af med sin sorg og fortvivlelse efter at have mistet sin hustru og yngste søn i en bilulykke. I håb om bedre at komme på talefod med sin tilbageværende søn, Jonas, tager Lars ham med til deres sommerhus i Skærgården.</desc></programme>
@@ -69138,7 +69131,7 @@
 <programme start="20261026235000 +0000" stop="20261027001500 +0000" channel="tv2kosmopoldk.dk"><title>Den som dræber - Fanget af mørket</title><desc>Jan Michelsen efterforsker en sag, hvor en ung kvinde er forsvundet i Greve. Da Jan opdager en lignende sag, som er 10 år gammel, bliver ekspert på seriemordere, Louise Bergstein sat på sagen.</desc><icon src="https://image.tmdb.org/t/p/w1280/RsNKtMsJyJW9iseUs8r5huaOJL.jpg" /></programme>
 <programme start="20261027001500 +0000" stop="20261027012000 +0000" channel="tv2kosmopoldk.dk"><title>Ambulancen - liv eller død</title><desc>Redderne Nagina og Mo kaldes ud til en situation, hvor politiet prøver at stoppe en belejring. En mand truer med at skade både sig selv og betjentene på stedet.</desc><icon src="https://image.tmdb.org/t/p/w1280/fAOTVGgvoMA1fySrIXHjR9HQAE1.jpg" /></programme>
 <programme start="20261027012000 +0000" stop="20261027021500 +0000" channel="tv2kosmopoldk.dk"><title>Alarmcentralen</title><desc>Alarmcentralen</desc></programme>
-<programme start="20261027021500 +0000" stop="20261027025000 +0000" channel="tv2kosmopoldk.dk"><title>Fotovognen</title><desc>Fotovognen</desc></programme>
+<programme start="20261027021500 +0000" stop="20261027025000 +0000" channel="tv2kosmopoldk.dk"><title>Fotovognen</title><desc>Fotovognen</desc><icon src="https://image.tmdb.org/t/p/w1280/A0b64eS20xhWhu47RL0kIiRVMxz.jpg" /></programme>
 <programme start="20261024225000 +0000" stop="20261025003000 +0000" channel="tv4hitsdenmarkdkdadk.dk"><title>Together</title><desc>Tim og Millie flytter på landet og forlader alt, hvad de kender i deres liv, bortset fra hinanden. Kort tid efter starter spændingerne mellem dem at blusse op og samtidig bliver de truet af en mareridtsagtig, mystisk og unaturlig kraft, som truer med at ødelægge deres liv, deres kærlighed og deres kød og blod...</desc></programme>
 <programme start="20261025003000 +0000" stop="20261025030000 +0000" channel="tv4hitsdenmarkdkdadk.dk"><title>Beck</title><desc>Peter Haber spiller den sympatiske politimand Martin Beck i serien, der bygger på det verdensberømte forfatterpar Maj Sjöwall og Per Wahlöös romanunivers.</desc><episode-num system="xmltv_ns">9.3.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/qMOe40lxBNobowmOkOAmXvPK4RG.jpg" /></programme>
 <programme start="20261025030000 +0000" stop="20261025033000 +0000" channel="tv4hitsdenmarkdkdadk.dk"><title>On Set</title><desc>I underholdningsprogrammet On Set får vi lov til at komme bag kulisserne i Hollywood.</desc></programme>
