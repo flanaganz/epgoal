@@ -6533,7 +6533,7 @@
     <title lang="da">Formel 1 Studie</title>
     <desc lang="da">Sæson: 2026. Episode: 19. 'USA’s Grand Prix - Løbet'. Se med, når vi varmer op til USA's Grand Prix og giver dig alt det seneste nyt forud for kørernes kamp om VM-point. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    </programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/F1.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/F1.jpg" /></programme>
   <programme start="20261025200000 +0000" stop="20261025220000 +0000" channel="TV3+.dk">
     <title lang="da">Formel 1: USA’s Grand Prix - Løbet</title>
     <desc lang="da">Sæson: 2026. Episode: 25. 'USA’s Grand Prix - Løbet'. Så er det alvor på Circuit of The Americas, når Formel 1-feltet går på jagt efter sejren i USA’s Grand Prix. Strategi, dækslid og dueller bliver afgørende, når kørerne kæmper om positionerne gennem de krævende sving i Austin. Tilladt for: A.</desc>
@@ -32908,37 +32908,37 @@
     <title lang="da">Håndbold: Studiet</title>
     <desc lang="da">Sæson: 2026. Episode: 109. 'Håndbold: Studiet'. TV 2s eksperter og kommentatorer vender dagens håndboldkamp og får reaktioner fra spillere og trænere i studiet. Find altid artikler, analyser og sidste nyt fra håndboldens verden på sport.tv2.dk. #tv2haandbold. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%A5ndbold%20Herre%20Pokal.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%A5ndbold%20Herre%20Pokal.jpg" /></programme>
   <programme start="20261028172500 +0000" stop="20261028182000 +0000" channel="tv2sport.dk">
     <title lang="da">Håndbold: Horsens-Sønderjyske, kvartfinale, pokal (k)</title>
     <desc lang="da">Sæson: 2026. Episode: 101. 'Håndbold: Horsens-Sønderjyske, kvartfinale, pokal (k)'. Horsens Håndboldklub Elite møder SønderjyskE Damehåndbold i Cup - Denmark. Kvartfinalerne. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%A5ndbold%20Herre%20Pokal.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%A5ndbold%20Herre%20Pokal.jpg" /></programme>
   <programme start="20261028182000 +0000" stop="20261028191000 +0000" channel="tv2sport.dk">
     <title lang="da">Håndbold: Horsens-Sønderjyske, kvartfinale, pokal (k)</title>
     <desc lang="da">Sæson: 2026. Episode: 101. 'Håndbold: Horsens-Sønderjyske, kvartfinale, pokal (k)'. Horsens Håndboldklub Elite møder SønderjyskE Damehåndbold i Cup - Denmark. Kvartfinalerne. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%A5ndbold%20Herre%20Pokal.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%A5ndbold%20Herre%20Pokal.jpg" /></programme>
   <programme start="20261028191000 +0000" stop="20261028192500 +0000" channel="tv2sport.dk">
     <title lang="da">Håndbold: Studiet</title>
     <desc lang="da">Sæson: 2026. Episode: 112. 'Håndbold: Studiet'. TV 2s eksperter og kommentatorer vender dagens håndboldkamp og får reaktioner fra spillere og trænere i studiet. Find altid artikler, analyser og sidste nyt fra håndboldens verden på sport.tv2.dk. #tv2haandbold. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%A5ndbold%20Herre%20Pokal.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%A5ndbold%20Herre%20Pokal.jpg" /></programme>
   <programme start="20261028192500 +0000" stop="20261028202000 +0000" channel="tv2sport.dk">
     <title lang="da">Håndbold: Odense-Nykøbing F., kvartfinale, pokal (k)</title>
     <desc lang="da">Sæson: 2026. Episode: 102. 'Håndbold: Odense-Nykøbing F., kvartfinale, pokal (k)'. Odense Håndbold møder Nykøbing Falster Håndboldklub i Cup - Denmark. Kvartfinalerne. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%A5ndbold%20Herre%20Pokal.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%A5ndbold%20Herre%20Pokal.jpg" /></programme>
   <programme start="20261028202000 +0000" stop="20261028211000 +0000" channel="tv2sport.dk">
     <title lang="da">Håndbold: Odense-Nykøbing F., kvartfinale, pokal (k)</title>
     <desc lang="da">Sæson: 2026. Episode: 102. 'Håndbold: Odense-Nykøbing F., kvartfinale, pokal (k)'. Odense Håndbold møder Nykøbing Falster Håndboldklub i Cup - Denmark. Kvartfinalerne. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%A5ndbold%20Herre%20Pokal.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%A5ndbold%20Herre%20Pokal.jpg" /></programme>
   <programme start="20261028211000 +0000" stop="20261028214500 +0000" channel="tv2sport.dk">
     <title lang="da">Håndbold: Studiet</title>
     <desc lang="da">Sæson: 2026. Episode: 111. 'Håndbold: Studiet'. TV 2s eksperter og kommentatorer vender dagens håndboldkamp og får reaktioner fra spillere og trænere i studiet. Find altid artikler, analyser og sidste nyt fra håndboldens verden på sport.tv2.dk. #tv2haandbold. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%A5ndbold%20Herre%20Pokal.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%A5ndbold%20Herre%20Pokal.jpg" /></programme>
   <programme start="20261028214500 +0000" stop="20261028222000 +0000" channel="tv2sport.dk">
     <title lang="da">TV 2 Cykling Podcast: Med Schwung på</title>
     <desc lang="da">Sæson: 2026. Episode: 102. 'Cykling-vodcast'. Udsendelse af programmet - TV 2 Cykling Podcast: Med Schwung på. Tilladt for: A.</desc>
@@ -63721,7 +63721,7 @@
     <title lang="da">Rybakina-Fernandez, finale, Ningbo</title>
     <desc lang="da">Sæson: 2026. Episode: 101. 'Rybakina-Fernandez, finale, Ningbo'. Udsendelse af programmet - Tennis: WTA 500 - Ningbo - Kampe. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
   <programme start="20261025105500 +0000" stop="20261025123000 +0000" channel="tv2sportx.dk">
     <title lang="da">ATP: Cobolli-Musetti, semifinale, Lyon</title>
     <desc lang="da">Sæson: 2026. Episode: 118. 'ATP: Cobolli-Musetti, semifinale, Lyon'. ATP-tennis vender tilbage til Lyon, hvor Flavio Cobolli, Taylor Fritz og Stan Wawrinka jagter titlen på det hurtige indendørs hardcourt. Tilladt for: A.</desc>
@@ -63761,7 +63761,7 @@
     <title lang="da">Musetti-Fritz, finale, Lyon</title>
     <desc lang="da">Sæson: 2026. Episode: 119. 'Musetti-Fritz, finale, Lyon'. ATP-tennis vender tilbage til Lyon, hvor Flavio Cobolli, Taylor Fritz og Stan Wawrinka jagter titlen på det hurtige indendørs hardcourt. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20ATP.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20ATP.jpg" /></programme>
   <programme start="20261025194000 +0000" stop="20261025204500 +0000" channel="tv2sportx.dk">
     <title lang="da">Serie A: Udinese-AC Milan</title>
     <desc lang="da">Sæson: 2026. Episode: 379. 'Serie A: Udinese-AC Milan'. Følg Serie A på TV 2 Play, TV 2 Sport X og TV 2 Sport, og oplev fodbold i verdensklasse. Den bedste italienske liga byder på masser af taktik, passion og teknik på et højt niveau, og her er der hård konkurrence om at vinde Scudettoen mellem stjernespækkede mandskaber som Roma, AC Milan, Juventus, Napoli, Inter og Atalanta. Tilladt for: A.</desc>
@@ -63786,7 +63786,7 @@
     <title lang="da">Rybakina-Fernandez, finale, Ningbo</title>
     <desc lang="da">Sæson: 2026. Episode: 101. 'Rybakina-Fernandez, finale, Ningbo'. Udsendelse af programmet - Tennis: WTA 500 - Ningbo - Kampe. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport_x-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/ATP_WTA%20Tennis.jpg" /></programme>
   <programme start="20261026053000 +0000" stop="20261026062500 +0000" channel="tv2sportx.dk">
     <title lang="da">3F Superliga: FC Midtjylland-Lyngby Boldklub</title>
     <desc lang="da">Sæson: 2026. Episode: 204. '3F Superliga: FC Midtjylland-Lyngby Boldklub'. FC Midtjylland jagter endnu en sejr, når Lyngby gæster MCH Arena. Midtjyderne er fortsat ubesejrede efter elleve superligakampe og har været særdeles stærke på hjemmebane med fire sejre og en enkelt uafgjort. For Lyngby, der indtager sidstepladsen i tabellen, venter en svær opgave i Herning. Kan bundholdet overraske, eller fortsætter FC Midtjyllands imponerende stime? Tilladt for: A.</desc>
