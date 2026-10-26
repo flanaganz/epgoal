@@ -1258,7 +1258,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/sFhriaT9lCA9TAZKqB2Cb6VLX6W.jpg" /></programme>
   <programme start="20261029161500 +0000" stop="20261029163000 +0000" channel="dr1.dk">
     <title lang="da">TVA</title>
     <desc lang="da">Sæson: 2026. '29.10.2026'. TV Avisen giver dig overblik over dagens vigtigste nyheder fra Danmark og verden omkring os. Få indblik og perspektiv på de største begivenheder og historier. Tilladt for: A.</desc>
@@ -2038,7 +2038,7 @@
     <sub-title lang="da">(1:2)</sub-title>
     <desc lang="da">Sæson: 1. Episode: 1. 'Mægtige Etna'. BBC-dokumentarserie fra 2025 Med røg og flammer former vulkaner Jordens overflade. De er uforudsigelige og blandt de mest destruktive naturkræfter - altid klar til at gå i udbrud. Deres enorme kraft giver genlyd og minder os om, hvor skrøbelige vi mennesker er. Tag med til Sicilien og oplev den mægtige vulkan Etna, der er mere end tre kilometer høj og ikke blot er Europas største vulkan, men også en af de mest aktive på kloden. Hvordan kan folk leve side om side med så stor kraft og så stor fare? Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/331j2TvoYhQNNv2S39kMpCZtGbF.jpg" /></programme>
   <programme start="20261029183000 +0000" stop="20261029193000 +0000" channel="dr2.dk">
     <title lang="da">Ud i vildmarken med Simon Reeve</title>
     <sub-title lang="da">2 (1:4)</sub-title>
@@ -2052,12 +2052,12 @@
     <title lang="da">Champions League fodbold: HB Køge - Barcelona (k), direkte</title>
     <desc lang="da">Sæson: 2026. Episode: 6. 'HB Køge - Barcelona'. HB Køge møder Barcelona i UEFA Women's Champions League. Kampen spilles på Capelli Sport Stadion i Køge. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    </programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Women%20CL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Women%20CL.jpg" /></programme>
   <programme start="20261029204500 +0000" stop="20261029221500 +0000" channel="dr2.dk">
     <title lang="da">Champions League fodbold: HB Køge - Barcelona (k), direkte</title>
     <desc lang="da">Sæson: 2026. Episode: 6. 'HB Køge - Barcelona'. HB Køge møder Barcelona i UEFA Women's Champions League. Kampen spilles på Capelli Sport Stadion i Køge. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    </programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Women%20CL.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Women%20CL.jpg" /></programme>
   <programme start="20261029221500 +0000" stop="20261029223000 +0000" channel="dr2.dk">
     <title lang="da">TVA</title>
     <desc lang="da">Sæson: 2026. '29.10.2026 23:15.'. TV Avisen giver dig overblik over dagens vigtigste nyheder fra Danmark og verden omkring os. Få indblik og perspektiv på de største begivenheder og historier. Tilladt for: A.</desc>
@@ -4242,7 +4242,7 @@
     <title lang="da">Ordet er mit</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'Hvem haret bedste ord?'. Vært Christian Degn står klar med masser af spørgsmål til dagens tre skarpe deltagere. Hvem er bedst til ordlegen, hvor de skal gætte hinandens hemmelige ord, inden de får afsløret deres eget ord? Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/A54QBXqL5cv2e2ETEfuZqQEbwUc.jpg" /></programme>
   <programme start="20261026234500 +0000" stop="20261027004500 +0000" channel="tv2charlie.dk">
     <title lang="da">Fornyet mistanke</title>
     <desc lang="da">Sæson: 2. Episode: 6. 'Eyes Down for a Full House'. Gerry afpresses til at genåbne en gammel sag efter at have tabt et større beløb i poker til bookmakeren Michael Jacobs, hvis far blev myrdet af to ukendte gerningsmænd i 1983. I stedet for penge vil Michael nemlig hellere have opklaret mordet på sin far. Der er bare lige det, at Pullmans team allerede er midt i efterforskningen af en anden presserende sag, hvor en dømts kone til stor gene demonstrerer højlydt uden for politistationen. Sideløbende med den første sag indleder holdet dog i smug opklaringen, som fører dem ind i en spilleverden, hvor beskidte kneb og penge på kistebunden vægter højere end mord. Instruktør: Juliet May. Medvirkende: Alun Armstrong, James Bolam, Amanda Redman, Dennis Waterman. Tilladt for: 11.</desc>
@@ -4687,7 +4687,7 @@
     <title lang="da">Ordet er mit</title>
     <desc lang="da">Sæson: 1. Episode: 2. 'Hvem har det bedste ord?'. Det bliver den rene ordfest, når Christian Degn igen byder på bunkevis af spørgsmål og tre hemmelige ord. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/A54QBXqL5cv2e2ETEfuZqQEbwUc.jpg" /></programme>
   <programme start="20261027234000 +0000" stop="20261028003500 +0000" channel="tv2charlie.dk">
     <title lang="da">Fornyet mistanke</title>
     <desc lang="da">Sæson: 2. Episode: 7. 'Fluke of Luck'. Kidnapningen af to børn får Pullmans hold til at genåbne en anden 25 år gammel uopklaret sag, hvor to 10årige drenge blev bortført under en fisketur, men slap væk i god behold. Alan, en af drengene, kan ikke huske meget fra dengang, så Pullman tyer til alternative metoder i jagten på spor på gerningsmanden. Under hypnose fortæller Alan om de uhyggelige minder fra dengang, han og hans ven blev holdt fanget i en garage med et bizart indhold, og holdet frygter, at en seriemorder er på spil. Instruktør: Jon East. Medvirkende: Alun Armstrong, James Bolam, Amanda Redman, Dennis Waterman. Tilladt for: 11.</desc>
@@ -5133,7 +5133,7 @@
     <title lang="da">Ordet er mit</title>
     <desc lang="da">Sæson: 1. Episode: 3. 'Hvem har det bedste ord?'. Kan du gætte et ord på otte bogstaver under kategorien ’Om vinteren’? Vi tester, om dagens tre deltagere er hurtige på ordkløveren. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/A54QBXqL5cv2e2ETEfuZqQEbwUc.jpg" /></programme>
   <programme start="20261029000000 +0000" stop="20261029005500 +0000" channel="tv2charlie.dk">
     <title lang="da">Fornyet mistanke</title>
     <desc lang="da">Sæson: 2. Episode: 8. '17 Years of Nothing'. Professor Reynard Mears sætter Pullmans hold på noget af en prøve, da han præsenterer dem for et uopklaret mord fra 1987, hvor en ung skoledreng fandt afgnavede ligrester fra en kvinde i en skov. Dengang var patologerne ikke i stand til at identificere kvinden ud fra de få dissekerede ligdele, så sagen blev opgivet. Men med den nuværende teknologi og holdets skarpsindighed finder de hurtigt nye spor i sagen, og fortidens makabre hændelser kommer snart frem i lyset. Instruktør: Graham Theakston. Medvirkende: Alun Armstrong, James Bolam, Amanda Redman, Dennis Waterman. Tilladt for: 11.</desc>
@@ -5562,7 +5562,7 @@
     <title lang="da">Deja-vu med Frøkjær</title>
     <desc lang="da">Sæson: 2. Episode: 4. 'Deja-vu med Frøkjær'. I 1998 mødte balletmester Nikolaj Hübbe og Cecilie Frøkjær hinanden for første gang på skærmen. Hør Nikolaj Hübbe fortælle om en usædvanlig krop, der blev pensioneret som 40-årig, hård kritik på teatret og om forholdet til sin mor, som bringer tårer frem. Skuespillerinde, filminstruktør og forfatter Anne-Grethe Bjarup Riis har altid imponeret Cecilie Frøkjær med sit store temperament, sin indignation og mødet til at være ærlig. Sammen får de et deja-vu med både skænderier og et nøgenbillede. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/hFs94KCBkHRdo1tNgALpxjk75n9.jpg" /></programme>
   <programme start="20261029223500 +0000" stop="20261029232500 +0000" channel="tv2charlie.dk">
     <title lang="da">Hvem vil være millionær? Classic</title>
     <desc lang="da">Sæson: 17. Episode: 5. 'Nikolaj Lie Kaas/ Birgitte Hjort, Anna David &amp; Morten Hemmingsen - I en god sags tjeneste'. Først et dejligt gensyn når skuespillerne Nikolaj Lie Kaas og Birgitte Hjort tager plads i de varme stole. Og spændende bliver det, for de to er allerede kravlet et godt stykke op ad beløbsstigen og har spillet hele 75.000 kroner hjem til fordel for Mødrehjælpen. Bagefter quizzer sanger Anna David og skuespiller Morten Hemmingsen. De drømmer om at spille rigtig langt i den gode sags tjeneste, så Børnecancerfonden kan blive begavet med en rigtig stor check, men først er der lige noget Hans Pilgaard gerne vil have svar på. Tilladt for: A.</desc>
@@ -5572,7 +5572,7 @@
     <title lang="da">Ordet er mit</title>
     <desc lang="da">Sæson: 1. Episode: 4. 'Ugefinalen'. Der bliver quizzet og gættet ord til den store guldmedalje, når Christian Degn finder sæsonens første ordknuser, der kan gå hjem med 10.000 kroner. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/A54QBXqL5cv2e2ETEfuZqQEbwUc.jpg" /></programme>
   <programme start="20261030000000 +0000" stop="20261030010000 +0000" channel="tv2charlie.dk">
     <title lang="da">Fornyet mistanke</title>
     <desc lang="da">Sæson: 1. Episode: 16. 'Lady's Pleasure'. Pullman falder over en avisoverskrift, der har forbindelse til en af hendes egne gamle sager, hvor en kvinde kørte galt og døde under mistænksomme omstændigheder. Som dengang er Pullman stadig overbevist om, at det er kvindens mand, der i sin tid stod bag ulykken, men det kunne ikke bevises, da bilen blev totalskadet. Resten af holdet mener dog, at Pullman er for forudindtaget og iværksætter en nærmere undersøgelse af de trusselsbreve, som kvinden modtog kort før sin død, samt af en stak pornografiske fotos af kvinden og en uidentificeret mand. Medvirkende: Dennis Waterman, Amanda Redman, Alun Armstrong, James Bolam. Tilladt for: 11.</desc>
@@ -65975,7 +65975,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/wnMcUJdjub3boSXj6EKDopgV1Nd.jpg" /></programme>
   <programme start="20261026053000 +0000" stop="20261026062500 +0000" channel="tv2sportx.dk">
     <title lang="da">3F Superliga: FC Midtjylland-Lyngby Boldklub</title>
     <desc lang="da">Sæson: 2026. Episode: 204. '3F Superliga: FC Midtjylland-Lyngby Boldklub'. FC Midtjylland jagter endnu en sejr, når Lyngby gæster MCH Arena. Midtjyderne er fortsat ubesejrede efter elleve superligakampe og har været særdeles stærke på hjemmebane med fire sejre og en enkelt uafgjort. For Lyngby, der indtager sidstepladsen i tabellen, venter en svær opgave i Herning. Kan bundholdet overraske, eller fortsætter FC Midtjyllands imponerende stime? Tilladt for: A.</desc>
