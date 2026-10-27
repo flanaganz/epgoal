@@ -2090,7 +2090,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/sLs7HgwcFSzsKT4PEbGohe7HW2c.jpg" /></programme>
   <programme start="20261030235500 +0000" stop="20261031013000 +0000" channel="dr2.dk">
     <title lang="da">Besat</title>
     <desc lang="da">'Besat'. Der ankommer en mand fra Rumænien i København, han lider umiddelbart af svær sygdom, og bliver indlagt. Snart begynder der dog at ske mærkelige ting i byen, og mens mandens liv ikke står til at redde, sætter den unge læge Søren alt ind på at opklare hans symptoner, og dermed redde verden fra en epidemi. Han står dog overfor noget mere uventet. Instruktør: Anders Rønnow Klarlund. Medvirkende: Ole Lemmeke, Kirsti Eline Torhaug, Ole Ernst, Niels Anders Thorn. Tilladt for: 15.</desc>
@@ -34316,12 +34316,12 @@
     <title lang="da">Håndbold: Team Esbjerg-København, kvartfinale, pokal (k)</title>
     <desc lang="da">Sæson: 2026. Episode: 103. 'Håndbold: Team Esbjerg-København, kvartfinale, pokal (k)'. Team Esbjerg møder København Håndbold i Cup - Denmark. Kvartfinalerne. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%A5ndbold%20Herre%20Pokal.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%A5ndbold%20Herre%20Pokal.jpg" /></programme>
   <programme start="20261029182000 +0000" stop="20261029191000 +0000" channel="tv2sport.dk">
     <title lang="da">Håndbold: Team Esbjerg-København, kvartfinale, pokal (k)</title>
     <desc lang="da">Sæson: 2026. Episode: 103. 'Håndbold: Team Esbjerg-København, kvartfinale, pokal (k)'. Team Esbjerg møder København Håndbold i Cup - Denmark. Kvartfinalerne. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%A5ndbold%20Herre%20Pokal.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%A5ndbold%20Herre%20Pokal.jpg" /></programme>
   <programme start="20261029191000 +0000" stop="20261029192500 +0000" channel="tv2sport.dk">
     <title lang="da">Håndbold: Studiet</title>
     <desc lang="da">Sæson: 2026. Episode: 116. 'Håndbold: Studiet'. TV 2s eksperter og kommentatorer vender dagens håndboldkamp og får reaktioner fra spillere og trænere i studiet. Find altid artikler, analyser og sidste nyt fra håndboldens verden på sport.tv2.dk. #tv2haandbold. Tilladt for: A.</desc>
@@ -34331,12 +34331,12 @@
     <title lang="da">Håndbold: Viborg-Ikast, kvartfinale, pokal (k)</title>
     <desc lang="da">Sæson: 2026. Episode: 104. 'Håndbold: Viborg-Ikast, kvartfinale, pokal (k)'. Viborg Håndboldklub møder Ikast Håndbold i Cup - Denmark. Kvartfinalerne. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%A5ndbold%20Herre%20Pokal.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%A5ndbold%20Herre%20Pokal.jpg" /></programme>
   <programme start="20261029202000 +0000" stop="20261029211000 +0000" channel="tv2sport.dk">
     <title lang="da">Håndbold: Viborg-Ikast, kvartfinale, pokal (k)</title>
     <desc lang="da">Sæson: 2026. Episode: 104. 'Håndbold: Viborg-Ikast, kvartfinale, pokal (k)'. Viborg Håndboldklub møder Ikast Håndbold i Cup - Denmark. Kvartfinalerne. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%A5ndbold%20Herre%20Pokal.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%A5ndbold%20Herre%20Pokal.jpg" /></programme>
   <programme start="20261029211000 +0000" stop="20261029214500 +0000" channel="tv2sport.dk">
     <title lang="da">Håndbold: Studiet</title>
     <desc lang="da">Sæson: 2026. Episode: 114. 'Håndbold: Studiet'. TV 2s eksperter og kommentatorer vender dagens håndboldkamp og får reaktioner fra spillere og trænere i studiet. Find altid artikler, analyser og sidste nyt fra håndboldens verden på sport.tv2.dk. #tv2haandbold. Tilladt for: A.</desc>
@@ -34381,22 +34381,22 @@
     <title lang="da">Håndbold: Team Esbjerg-København, kvartfinale, pokal (k)</title>
     <desc lang="da">Sæson: 2026. Episode: 103. 'Håndbold: Team Esbjerg-København, kvartfinale, pokal (k)'. Team Esbjerg møder København Håndbold i Cup - Denmark. Kvartfinalerne. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%A5ndbold%20Herre%20Pokal.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%A5ndbold%20Herre%20Pokal.jpg" /></programme>
   <programme start="20261030063500 +0000" stop="20261030072000 +0000" channel="tv2sport.dk">
     <title lang="da">Håndbold: Team Esbjerg-København, kvartfinale, pokal (k)</title>
     <desc lang="da">Sæson: 2026. Episode: 103. 'Håndbold: Team Esbjerg-København, kvartfinale, pokal (k)'. Team Esbjerg møder København Håndbold i Cup - Denmark. Kvartfinalerne. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%A5ndbold%20Herre%20Pokal.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%A5ndbold%20Herre%20Pokal.jpg" /></programme>
   <programme start="20261030072000 +0000" stop="20261030081000 +0000" channel="tv2sport.dk">
     <title lang="da">Håndbold: Viborg-Ikast, kvartfinale, pokal (k)</title>
     <desc lang="da">Sæson: 2026. Episode: 104. 'Håndbold: Viborg-Ikast, kvartfinale, pokal (k)'. Viborg Håndboldklub møder Ikast Håndbold i Cup - Denmark. Kvartfinalerne. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%A5ndbold%20Herre%20Pokal.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%A5ndbold%20Herre%20Pokal.jpg" /></programme>
   <programme start="20261030081000 +0000" stop="20261030085500 +0000" channel="tv2sport.dk">
     <title lang="da">Håndbold: Viborg-Ikast, kvartfinale, pokal (k)</title>
     <desc lang="da">Sæson: 2026. Episode: 104. 'Håndbold: Viborg-Ikast, kvartfinale, pokal (k)'. Viborg Håndboldklub møder Ikast Håndbold i Cup - Denmark. Kvartfinalerne. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%A5ndbold%20Herre%20Pokal.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%A5ndbold%20Herre%20Pokal.jpg" /></programme>
   <programme start="20261030085500 +0000" stop="20261030095500 +0000" channel="tv2sport.dk">
     <title lang="da">Badminton: Hylo Open</title>
     <desc lang="da">Sæson: 2026. Episode: 106. 'Badminton: Hylo Open'. Udsendelse af programmet - Badminton: Hylo Open Tilladt for: A.</desc>
@@ -70577,7 +70577,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/808VXx05TJzaJZpXeZB89LUD7PN.jpg" /></programme>
   <programme start="20261030202000 +0000" stop="20261030203000 +0000" channel="drramasjang.dk">
     <title lang="da">Godnat - nu går vi i seng</title>
     <desc lang="da">'Godnat, nu går vi i seng'. Ramasjang har lagt sig til ro. Tilladt for: A.</desc>
