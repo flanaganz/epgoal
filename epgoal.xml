@@ -460,7 +460,7 @@
     <sub-title lang="da">(2:3): 'vi Skider I En Pose, Skat'</sub-title>
     <desc lang="da">Sæson: 1. Episode: 2. ''Vi skider i en pose, skat''. Deltagerne er nu uden strøm, vand, telefon, varme og internet. Men hvordan går man egentlig på toilettet, når man ikke kan skylle ud? Og har man lyst til at dele sin mad, hvis butikkerne har lukket? Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/yjgGSqD4F0GXbWxlTZd3yEL51Kr.jpg" /></programme>
   <programme start="20261028194500 +0000" stop="20261028200000 +0000" channel="dr1.dk">
     <title lang="da">DRs bedste - kort fortalt: På besøg og vejret</title>
     <desc lang="da">Sæson: 2025. 'På besøg og vejret'. Vi elsker at tale om vejret, og vi elsker at komme rundt i hele landet og se mange forskellige mennesker på tv. Her får du DRs bedste, kort fortalt. Tilladt for: 7.</desc>
@@ -2962,12 +2962,12 @@
     <title lang="da">Om lidt er det dig</title>
     <desc lang="da">'Om lidt er det dig'. Usynlig, ubrugelig eller bare for gammel? Sarah Grünewald inviterer fem danskere, der oplever at blive dømt ude alene på grund af deres alder, til at åbne op og ærligt dele deres oplevelser og refleksioner. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/gNIMK9c5vKbXBIJWi6sIquIVDUp.jpg" /></programme>
   <programme start="20261031161000 +0000" stop="20261031170000 +0000" channel="tv2.dk">
     <title lang="da">Manfred alene hjemme</title>
     <desc lang="da">'Manfred alene hjemme'. Manfred har mistet al tillid til myndighederne. Han har autisme og ADHD og bor alene og isoleret i store affaldsdynger, og dem, der skulle hjælpe ham, vil nu flytte ham ud af huset på Fyn. Men Manfred nægter at flytte. Hvorfor er det så svært at hjælpe udsatte borgere som Manfred? Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/sH3A4v6zg4BMX7AcU7znW7HB15G.jpg" /></programme>
   <programme start="20261031170000 +0000" stop="20261031171300 +0000" channel="tv2.dk">
     <title lang="da">18 News</title>
     <desc lang="da">Sæson: 2026. '31.10.2026 18:00.'. Nyhederne fra TV 2 News kl. 18. Tilladt for: A.</desc>
@@ -60754,7 +60754,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/xf7L8NKQFTtE34wxEvfbj2IoK2X.jpg" /></programme>
   <programme start="20261031090000 +0000" stop="20261031110000 +0000" channel="viasataction.dk">
     <title lang="da">Jack the Giant Slayer</title>
     <desc lang="da">'Jack the Giant Slayer'. Da en prinsesse kidnappes, trues den skrøbelige frem mellem mennesker og jætter, og en ung bonde leder en ekspedition ind i jætternes rige for at finde hende. Instruktør: Bryan Singer. Medvirkende: Nicholas Hoult, Stanley Tucci, Ewan McGregor, Bill Nighy. Tilladt for: 11.</desc>
@@ -68291,7 +68291,7 @@
       <actor>Mille Gori</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/xwgrSrXQD3t1QjZNCBKF1xuslgW.jpg" /></programme>
   <programme start="20261031054500 +0000" stop="20261031055500 +0000" channel="drramasjang.dk">
     <title lang="da">Sarah og And</title>
     <sub-title lang="da">(15)</sub-title>
