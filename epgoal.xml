@@ -4885,7 +4885,7 @@
       <actor>Lili Heglund</actor>
     </credits>
     <category lang="da">Film</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/ab9hd0P5Va57Bo13KxA80LTy1d2.jpg" /></programme>
   <programme start="20261102223000 +0000" stop="20261102234000 +0000" channel="tv2charlie.dk">
     <title lang="da">Feltet - Danmarks største quizkamp</title>
     <desc lang="da">Sæson: 5. Episode: 1. 'Holdene indtager spillebrættet'. 32 kendte danskere indtager quizgulvet, og denne gang skal de dyste i hold. Sportsfolk kæmper mod komikere, tv-værter krydser klinger med skuespillere, og alle har medbragt overraskende nicheviden til Danmarks største quizkamp. Tilladt for: A.</desc>
@@ -59100,7 +59100,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/8iCsvZhyeWBhNtG1Mj7PA0sTxO1.jpg" /></programme>
   <programme start="20261103200000 +0000" stop="20261103220000 +0000" channel="viasatfamily.dk">
     <title lang="da">Forever My Girl</title>
     <desc lang="da">'Forever My Girl'. For otte år siden forlod Liam Page (Alex Roe) sin brud, Josie (Jessica Rothe), ved alteret for at jagte drømmen om at blive countrystjerne. Drømmen er gået i opfyldelse, men Liam har aldrig glemt Josie. Da han uventet vender tilbage til sin hjemby for at begrave sin bedste ven, Mason (Terayle Hill), bliver Liam med ét konfronteret med alt det, han har efterladt. Instruktør: Bethany Ashton Wolf. Medvirkende: Alex Roe, Jessica Rothe, Abby Ryder Fortson, Travis Tritt. Tilladt for: 7.</desc>
@@ -66207,7 +66207,7 @@
 <programme start="20261031223000 +0000" stop="20261031231500 +0000" channel="cmorestarsdk.dk"><title>Sanningen</title><desc>Svensk krimdrama om Iris Broman, nyansatt leder ved avdelingen for uløste saker i Malmö. I hovedrollene: Sofia Helin og Hedda Stiernstedt,Johan Lundin - director,Sofia Helin - Iris,Håkan Bengtsson - Jens,Kajsa Ernst - Kerstin,Hedda Stiernstedt - Kattis,Sofia Helin - Iris Broman.</desc></programme>
 <programme start="20261031231500 +0000" stop="20261031235900 +0000" channel="cmorestarsdk.dk"><title>The Hunting Party</title><desc>Et spesialteam jakter på noen av USAs farligste seriemordere. De har rømt fra et fengsel som offisielt ikke eksisterer,Melissa Roxburgh - Rebecca Henderson,Nick Wechsler - Oliver Odell,Patrick Sabongui - Jacob Hassani,Josh McKenzie - Shane Florence,Sara Garcia - Jennifer Morales.</desc></programme>
 <programme start="20261102000000 +0000" stop="20261102014500 +0000" channel="cmorestarsdk.dk"><title>St. Elmo's Fire</title><desc>St. Elmo's Fire</desc></programme>
-<programme start="20261102014500 +0000" stop="20261102035000 +0000" channel="cmorestarsdk.dk"><title>Snabba Cash III - Livet Deluxe</title><desc>Snabba Cash III - Livet Deluxe</desc></programme>
+<programme start="20261102014500 +0000" stop="20261102035000 +0000" channel="cmorestarsdk.dk"><title>Snabba Cash III - Livet Deluxe</title><desc>Snabba Cash III - Livet Deluxe</desc><icon src="https://image.tmdb.org/t/p/w1280/f9QVN2cJCJykTcz9MYXKAC5T9iX.jpg" /></programme>
 <programme start="20261102035000 +0000" stop="20261102053200 +0000" channel="cmorestarsdk.dk"><title>Sing Street</title><desc>Sing Street</desc></programme>
 <programme start="20261102053200 +0000" stop="20261102053500 +0000" channel="cmorestarsdk.dk"><title>Star file</title><desc>Star file</desc></programme>
 <programme start="20261102053500 +0000" stop="20261102054500 +0000" channel="cmorestarsdk.dk"><title>Star file</title><desc>Star file</desc></programme>
