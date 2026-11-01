@@ -2058,7 +2058,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/qVjewbz1FTsS2PVOF2Q75rM8tW7.jpg" /></programme>
   <programme start="20261104203000 +0000" stop="20261104210000 +0000" channel="dr2.dk">
     <title lang="da">De ville dø for sagen: Lise &amp; antifascismen</title>
     <desc lang="da">Sæson: 1. Episode: 4. 'Lise &amp; antifascismen'. Lise Lindbæk var krigsreporter og glødende antifascist. I første halvdel af 1900-tallet befandt hun sig i begivenhedernes centrum i Europa, og kæmpede med sin pen mod tidens fascister f.eks. general Franco i den spanske borgerkrig. Hun var parat til at dø for sagen. Liv Thomsen forsøger sammen med en række historikere at finde ud af hvorfor. Tilladt for: 7.</desc>
@@ -2100,7 +2100,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/l7v7nxh409rH9lYOtYTNuKHgxqN.jpg" /></programme>
   <programme start="20261105004000 +0000" stop="20261105013000 +0000" channel="dr2.dk">
     <title lang="da">Concorde - Højt at flyve dybt at falde</title>
     <sub-title lang="da">(2:2)</sub-title>
@@ -29402,7 +29402,7 @@
       <director>Andy Robbins</director>
     </credits>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/xsJTqf5CNRpuptBEdXgOMF78AKo.jpg" /></programme>
   <programme start="20261105031000 +0000" stop="20261105035500 +0000" channel="bbcnordic.dk">
     <title lang="da">Bridge of Lies</title>
     <desc lang="da">Sæson: 4. Episode: 18. 'Afsnit 18'. Vennerne Alison, Sarah Jane, Ciaran og Alan forsøger sig med Løgnenes bro. Tilladt for: A.</desc>
@@ -32798,7 +32798,7 @@
     <title lang="da">Euro Cup: Studiet</title>
     <desc lang="da">Sæson: 2026. Episode: 103. 'Håndbold: Euro Cup (m) - Studiet'. TV 2s eksperter og kommentatorer ser nærmere på dagens Euro Cup-kampe. Find altid artikler, analyser og sidste nyt fra håndboldens verden på sport.tv2.dk. #tv2haandbold. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Euro%20Cup%20H%C3%A5ndbold.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Euro%20Cup%20H%C3%A5ndbold.jpg" /></programme>
   <programme start="20261104190000 +0000" stop="20261104195000 +0000" channel="tv2sport.dk">
     <title lang="da">Badminton: Finale, Hylo Open</title>
     <desc lang="da">Sæson: 2026. Episode: 126. 'Badminton: Finale, Hylo Open'. En lang række af verdens bedste badmintonspillere er klar til at henrykke det badmintonhungrende publikum, når det går løs i Tyskland. En række danskere er med, blandt andre Anders Antonsen, Rasmus Gemke og okke mindst Mia Blichfeldt, der er forsvarende mester. Tilladt for: A.</desc>
@@ -32818,17 +32818,17 @@
     <title lang="da">Euro Cup: Studiet</title>
     <desc lang="da">Sæson: 2026. Episode: 104. 'Håndbold: Euro Cup (m) - Studiet'. TV 2s eksperter og kommentatorer ser nærmere på dagens Euro Cup-kampe. Find altid artikler, analyser og sidste nyt fra håndboldens verden på sport.tv2.dk. #tv2haandbold. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Euro%20Cup%20H%C3%A5ndbold.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Euro%20Cup%20H%C3%A5ndbold.jpg" /></programme>
   <programme start="20261104213000 +0000" stop="20261104221500 +0000" channel="tv2sport.dk">
     <title lang="da">Euro Cup: Danmark-Spanien (h)</title>
     <desc lang="da">Sæson: 2026. Episode: 101. 'Euro Cup: Danmark-Spanien (h)'. De danske verdensmestre skruer op for VM-forberedelserne! Med kurs mod januar og slutrunden i Tyskland tager Nikolaj Jacobsens hold imod Spanien i Jyske Bank Boxen i Herning i den første af novembers to Euro Cup-kampe. Ved EM i januar vandt Danmark det seneste møde med 36-31. Kan danskerne igen sætte spanierne til vægs? Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Euro%20Cup%20H%C3%A5ndbold.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Euro%20Cup%20H%C3%A5ndbold.jpg" /></programme>
   <programme start="20261104221500 +0000" stop="20261104230000 +0000" channel="tv2sport.dk">
     <title lang="da">Euro Cup: Danmark-Spanien (h)</title>
     <desc lang="da">Sæson: 2026. Episode: 101. 'Euro Cup: Danmark-Spanien (h)'. De danske verdensmestre skruer op for VM-forberedelserne! Med kurs mod januar og slutrunden i Tyskland tager Nikolaj Jacobsens hold imod Spanien i Jyske Bank Boxen i Herning i den første af novembers to Euro Cup-kampe. Ved EM i januar vandt Danmark det seneste møde med 36-31. Kan danskerne igen sætte spanierne til vægs? Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Euro%20Cup%20H%C3%A5ndbold.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Euro%20Cup%20H%C3%A5ndbold.jpg" /></programme>
   <programme start="20261104230000 +0000" stop="20261104233000 +0000" channel="tv2sport.dk">
     <title lang="da">TV 2 Cykling Podcast: Med Schwung på</title>
     <desc lang="da">Sæson: 2026. Episode: 103. 'Cykling-vodcast'. Kom helt ind i cykelfeltet med Frederik Muff, Rolf Sørensen og Lars Bak. Hver uge vender de de største løb, de vigtigste historier og alt det, der rører sig i cykelsporten - med erfaring, holdninger og historier fra livet i feltet. Lyt med hver mandag. Tilladt for: A.</desc>
@@ -59427,7 +59427,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/4Ne8AY3hJO4LEnmc0p1zir4csDL.jpg" /></programme>
   <programme start="20261104230000 +0000" stop="20261105010000 +0000" channel="viasataction.dk">
     <title lang="da">American Assassin</title>
     <desc lang="da">'American Assassin'. Mitch har mistet sin kæreste i et terrorangreb. For at få hævn tager han ud på en voldsom menneskejagt. CIA holder øje med ham og rekrutterer ham til et hemmeligt træningsprogram for elitesoldater. Instruktør: Michael Cuesta. Medvirkende: Dylan O'Brien, Michael Keaton, Sanaa Lathan, Taylor Kitsch. Tilladt for: 15.</desc>
@@ -67782,7 +67782,7 @@
 <programme start="20261101203500 +0000" stop="20261101210000 +0000" channel="cmorestarsdk.dk"><title>Tabitas Tattoo</title><desc>På et lite tettsted i Värmland driver trebarnsmoren Tabita et tatoveringsstudio. Huset er fullt av kvinner i nød, men pengene har tatt slutt. Samtidig er frisøren Gulletussan ute etter eksmannen og fast bestemt på å få det hun vil ha,Mia Skäringer - Gulletussan,Sanna Persson Halapi - Jeanette,Sissela Benn - Charlotta,Roland Møller - Søren,Hanna Ardéhn - Sandra,Linus Wahlgren - Mattias,Adam Lundgren - Björn,Gustaf Hammarsten - Gunnar.</desc></programme>
 <programme start="20261101210000 +0000" stop="20261101214500 +0000" channel="cmorestarsdk.dk"><title>Knutby</title><desc>Virkelighetsbasert dramaserie med Alba August og Aliette Opheim om den såkalte Knutby-saken, som rystet Sverige i 2004. Historien skildrer perioden som endte med et mord og et mordforsøk i en liten frikirkemenighet. Serien er regissert av Goran Kapetanović, kjent for suksesserien Kalifat,Alba August - Anna,Edvin Bredefeldt - Pär Flodquist,Einar Bredefeldt - Sindre,Amy Deasismont - Lilian,neo Gillinger - Jonathan.</desc><icon src="https://image.tmdb.org/t/p/w1280/ajQX0VEh5LsqcUlYZmbUdnWdMQw.jpg" /></programme>
 <programme start="20261101214500 +0000" stop="20261101223000 +0000" channel="cmorestarsdk.dk"><title>Ondskan</title><desc>Svensk dramaserie basert på Jan Guillous suksessroman med samme navn. Ondskapen foregår på slutten av 1950-tallet og handler om unge Erik Pontis turbulente år på internatskolen Stjärnsberg, en lukket verden der selvjustisen råder,Isac Calmroth - Erik Ponti,Thea Sofie Loch Næss - Marja,Alexander Gustavsson - Pierre Tanguy,Christian Fandango Sundgren - Otto Silverhielm,Björn Mosten - Leffler.</desc><icon src="https://image.tmdb.org/t/p/w1280/7zKybmhr82KtJgrIFoijAx2P4YV.jpg" /></programme>
-<programme start="20261101223000 +0000" stop="20261101231500 +0000" channel="cmorestarsdk.dk"><title>Kapningen</title><desc>I denne frittstående oppfølgeren til «Sthlm Rekviem» møtes Fredrika Bergman og Alex Recht igjen. De må kjempe mot klokken for å redde Alex’ sønn Erik og passasjerene om bord på et kapret fly,Jonas Karlsson - Alex Recht,Liv Mjönes - Fredrika Bergman,Ana Gil de Melo Nascimento - Eden Lundell,Adam Lundgren - Erik Recht,Zardasht Rad - Karim Sassi.</desc></programme>
+<programme start="20261101223000 +0000" stop="20261101231500 +0000" channel="cmorestarsdk.dk"><title>Kapningen</title><desc>I denne frittstående oppfølgeren til «Sthlm Rekviem» møtes Fredrika Bergman og Alex Recht igjen. De må kjempe mot klokken for å redde Alex’ sønn Erik og passasjerene om bord på et kapret fly,Jonas Karlsson - Alex Recht,Liv Mjönes - Fredrika Bergman,Ana Gil de Melo Nascimento - Eden Lundell,Adam Lundgren - Erik Recht,Zardasht Rad - Karim Sassi.</desc><icon src="https://image.tmdb.org/t/p/w1280/rjCnGpwPZ9cVOOW4O2PLIL7LYm9.jpg" /></programme>
 <programme start="20261101231500 +0000" stop="20261102000000 +0000" channel="cmorestarsdk.dk"><title>The Hunting Party</title><desc>Et spesialteam jakter på noen av USAs farligste seriemordere. De har rømt fra et fengsel som offisielt ikke eksisterer,Melissa Roxburgh - Rebecca Henderson,Nick Wechsler - Oliver Odell,Patrick Sabongui - Jacob Hassani,Josh McKenzie - Shane Florence,Sara Garcia - Jennifer Morales.</desc></programme>
 <programme start="20261102000000 +0000" stop="20261102014500 +0000" channel="cmorestarsdk.dk"><title>St. Elmo's Fire</title><desc>St. Elmo's Fire</desc></programme>
 <programme start="20261102014500 +0000" stop="20261102035000 +0000" channel="cmorestarsdk.dk"><title>Snabba Cash III - Livet Deluxe</title><desc>Snabba Cash III - Livet Deluxe</desc><icon src="https://image.tmdb.org/t/p/w1280/f9QVN2cJCJykTcz9MYXKAC5T9iX.jpg" /></programme>
@@ -67824,7 +67824,7 @@
 <programme start="20261102203500 +0000" stop="20261102210000 +0000" channel="cmorestarsdk.dk"><title>Ture Sventon och Bermudatriangelns hemlighet</title><desc>Mesterdetektiven Ture Sventon blir kontaktet av søsknene Dante og Ylva når foreldrene deres blir kidnappet. Kan Ville Vessla være på ferde – igjen,Robert Gustafsson - Ture Sventon,Helena Bergström - Matilda Jansson,Johan Glans - Ville Vessla,Björn Gustafsson - Agent-Pär,Maja Kin - Joanna Silver,Lycke Martin - Ylva,John Österlund - Dante,Anna Thiam - Marie.</desc></programme>
 <programme start="20261102210000 +0000" stop="20261102214500 +0000" channel="cmorestarsdk.dk"><title>Headhunters</title><desc>Headhunters</desc></programme>
 <programme start="20261102214500 +0000" stop="20261102223000 +0000" channel="cmorestarsdk.dk"><title>Ondskan</title><desc>Svensk dramaserie basert på Jan Guillous suksessroman med samme navn. Ondskapen foregår på slutten av 1950-tallet og handler om unge Erik Pontis turbulente år på internatskolen Stjärnsberg, en lukket verden der selvjustisen råder,Isac Calmroth - Erik Ponti,Thea Sofie Loch Næss - Marja,Alexander Gustavsson - Pierre Tanguy,Christian Fandango Sundgren - Otto Silverhielm,Björn Mosten - Leffler.</desc><icon src="https://image.tmdb.org/t/p/w1280/7zKybmhr82KtJgrIFoijAx2P4YV.jpg" /></programme>
-<programme start="20261102223000 +0000" stop="20261102231500 +0000" channel="cmorestarsdk.dk"><title>Kapningen</title><desc>I denne frittstående oppfølgeren til «Sthlm Rekviem» møtes Fredrika Bergman og Alex Recht igjen. De må kjempe mot klokken for å redde Alex’ sønn Erik og passasjerene om bord på et kapret fly,Jonas Karlsson - Alex Recht,Liv Mjönes - Fredrika Bergman,Ana Gil de Melo Nascimento - Eden Lundell,Adam Lundgren - Erik Recht,Zardasht Rad - Karim Sassi.</desc></programme>
+<programme start="20261102223000 +0000" stop="20261102231500 +0000" channel="cmorestarsdk.dk"><title>Kapningen</title><desc>I denne frittstående oppfølgeren til «Sthlm Rekviem» møtes Fredrika Bergman og Alex Recht igjen. De må kjempe mot klokken for å redde Alex’ sønn Erik og passasjerene om bord på et kapret fly,Jonas Karlsson - Alex Recht,Liv Mjönes - Fredrika Bergman,Ana Gil de Melo Nascimento - Eden Lundell,Adam Lundgren - Erik Recht,Zardasht Rad - Karim Sassi.</desc><icon src="https://image.tmdb.org/t/p/w1280/rjCnGpwPZ9cVOOW4O2PLIL7LYm9.jpg" /></programme>
 <programme start="20261102231500 +0000" stop="20261102235500 +0000" channel="cmorestarsdk.dk"><title>The Hunting Party</title><desc>Et spesialteam jakter på noen av USAs farligste seriemordere. De har rømt fra et fengsel som offisielt ikke eksisterer,Melissa Roxburgh - Rebecca Henderson,Nick Wechsler - Oliver Odell,Patrick Sabongui - Jacob Hassani,Josh McKenzie - Shane Florence,Sara Garcia - Jennifer Morales.</desc></programme>
 <programme start="20261102235500 +0000" stop="20261103013000 +0000" channel="cmorestarsdk.dk"><title>Den demokratiske terroristen</title><desc>Den demokratiske terroristen</desc></programme>
 <programme start="20261103013000 +0000" stop="20261103030000 +0000" channel="cmorestarsdk.dk"><title>Beck - Undercover</title><desc>Beck - Undercover</desc><icon src="https://image.tmdb.org/t/p/w1280/qMOe40lxBNobowmOkOAmXvPK4RG.jpg" /></programme>
