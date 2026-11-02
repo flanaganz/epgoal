@@ -1278,7 +1278,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/k6NysnhUQrpB4y3zdiLCcCKIPIk.jpg" /></programme>
   <programme start="20261105221000 +0000" stop="20261105230000 +0000" channel="dr1.dk">
     <title lang="da">Den, der slap væk</title>
     <sub-title lang="da">(2:6)</sub-title>
@@ -1287,7 +1287,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/k6NysnhUQrpB4y3zdiLCcCKIPIk.jpg" /></programme>
   <programme start="20261105230000 +0000" stop="20261106000000 +0000" channel="dr1.dk">
     <title lang="da">Alene i vildmarken Australien</title>
     <sub-title lang="da">4 (10:10)</sub-title>
@@ -2769,7 +2769,7 @@
     <title lang="da">Det sidste store ja</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'Det sidste store ja'. I første program møder Cecilie Frøkjær tre par, der har valgt at give hinanden det sidste store ja. Joan og Knud-Aage fandt uventet kærligheden i en sorggruppe. Annemarie faldt for Johns ihærdige bejleri, selv om han ikke var hendes type. Trine og Søren planlægger et utraditionelt havebryllup med brudevals i poolen. Tilladt for: A.</desc>
     <category lang="da">Fritid</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/qL6Vcnu2XBjiV87XO6pZgSWXn4C.jpg" /></programme>
   <programme start="20261105195000 +0000" stop="20261105202000 +0000" channel="tv2.dk">
     <title lang="da">Aften News</title>
     <desc lang="da">'Aften News'. Hvad er der sket i dag? Få seneste nyheder fra både Danmark og udlandet i 'Aften News'. Tilladt for: A.</desc>
@@ -7940,7 +7940,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/ctPEG43AwjJSnGCwRSwRJyJfoqx.jpg" /></programme>
   <programme start="20261105225500 +0000" stop="20261106013500 +0000" channel="TV3+.dk">
     <title lang="da">Creed II</title>
     <desc lang="da">'Creed II'. Den unge bokser Adonis Johnson (Michael B. Jordan) bliver trænet af bokselegenden Rocky Balboa (Sylvester Stallone) og er blevet verdensmester. Da de forbereder sig til Adonis næste kamp, opdager de til deres store overraskelse, at Adonis modstander er søn af den russiske bokser Ivan Drago (Dolph Lundgren). Han dræbte i 1980'erne Adonis far og Rockys ven Apollo Creed i bokseringen. Rocky mener, de skal droppe kampen, da der er for meget personligt på spil for dem - men Adonis vil have den kamp. Instruktør: Steven Caple Jr.. Medvirkende: Michael B. Jordan, Sylvester Stallone, Tessa Thompson, Phylicia Rashad. Tilladt for: 11.</desc>
@@ -43427,7 +43427,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/jho2aIlBAJuCj3MQ8gB9ccpdezw.jpg" /></programme>
   <programme start="20261105215000 +0000" stop="20261105233000 +0000" channel="viasathits.dk">
     <title lang="da">Råzone</title>
     <desc lang="da">'Råzone'. Omdrejningspunkter i filmen er fire barske teenagepiger, der drikker, scorer drenge og tager stoffer. De har et stærkt sammenhold, men det revner da Christina bliver anholdt for et røveri og nævner de andre under afhøringen hos politiet. Instruktør: Christian E. Christiansen. Medvirkende: Laura Christensen, Stephanie Leon, Julie R. Ølgaard, Sara Møller Olsen. Tilladt for: A.</desc>
