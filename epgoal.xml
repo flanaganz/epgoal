@@ -2371,7 +2371,7 @@
     <title lang="da">Nyhederne og Vejret</title>
     <desc lang="da">Sæson: 2026. '05.11.2026 04:00.'. Nyhederne fra ind- og udland samt en kort gennemgang af vejret for i dag og de næste dage. Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/6QAP7lcf44DFdGF9ZU6Py2IITTa.jpg" /></programme>
   <programme start="20261105050000 +0000" stop="20261105053000 +0000" channel="tv2.dk">
     <title lang="da">Nyhederne, Sporten og Vejret</title>
     <desc lang="da">Sæson: 2026. '05.11.2026 06:00.'. Nyhederne, sporten og vejret. Tilladt for: A.</desc>
@@ -2584,7 +2584,7 @@
     <title lang="da">Nyhederne og Vejret</title>
     <desc lang="da">Sæson: 2026. '06.11.2026 04:00.'. Nyhederne fra ind- og udland samt en kort gennemgang af vejret for i dag og de næste dage. Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/6QAP7lcf44DFdGF9ZU6Py2IITTa.jpg" /></programme>
   <programme start="20261106050000 +0000" stop="20261106053000 +0000" channel="tv2.dk">
     <title lang="da">Nyhederne, Sporten og Vejret</title>
     <desc lang="da">Sæson: 2026. '06.11.2026 06:00.'. Nyhederne, sporten og vejret. Tilladt for: A.</desc>
@@ -2796,12 +2796,12 @@
     <title lang="da">Nyhederne og Vejret</title>
     <desc lang="da">Sæson: 2026. '07.11.2026 06:00.'. Nyhederne fra ind- og udland samt en kort gennemgang af vejret for i dag og de næste dage. Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/6QAP7lcf44DFdGF9ZU6Py2IITTa.jpg" /></programme>
   <programme start="20261107060000 +0000" stop="20261107070000 +0000" channel="tv2.dk">
     <title lang="da">Nyhederne og Vejret</title>
     <desc lang="da">Sæson: 2026. '07.11.2026 07:00.'. Nyhederne fra ind- og udland samt en kort gennemgang af vejret for i dag og de næste dage. Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/6QAP7lcf44DFdGF9ZU6Py2IITTa.jpg" /></programme>
   <programme start="20261107070000 +0000" stop="20261107110000 +0000" channel="tv2.dk">
     <title lang="da">Go' morgen Danmark</title>
     <desc lang="da">Sæson: 2026. Episode: 81. 'Go' morgen Danmark'. 'Go' morgen Danmark' er hele Danmarks aktualitet- og livsstilsprogram. Start dagen med hygge og høje grin - og få stof til eftertanke og samtaleemner, man har lyst til at dele resten af dagen. Tilladt for: A.</desc>
@@ -7747,7 +7747,7 @@
     <title lang="da">Mexico Life</title>
     <desc lang="da">Sæson: 2. Episode: 14. 'Drawn to Isla Mujeres'. Nysgerrige huskøbere realiserer deres tropiske drømme om sol, sand og vamd på Mexicos kyst. Med hjælp fra lokale ejendomsmæglere finder de frem til deres private paradis og lige nøjagtigt det, de drømmer om - et livligt natteliv, kulinariske oplevelser eller blot et afsides sted, hvor man kan slappe af. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/vITrPPV6B25S0EEWebfouZf8YoL.jpg" /></programme>
   <programme start="20261104050000 +0000" stop="20261104052500 +0000" channel="kanal4.dk">
     <title lang="da">My Lottery Dream Home</title>
     <desc lang="da">Sæson: 14. Episode: 11. 'Bustle to the 'Burbs'. De fleste drømmer om at vinde den helt store lottogevinst - og for dem, der vinder, bliver drømmehjemmet med fem soveværelser pludselig en mulighed. Vi folk, der har vundet en formue i lotto, og som vil bruge pengene på et nyt, fantastisk hjem. Tilladt for: A.</desc>
@@ -7945,7 +7945,7 @@
     <title lang="da">Mexico Life</title>
     <desc lang="da">Sæson: 2. Episode: 12. 'Adventures in Riviera Maya'. Nysgerrige huskøbere realiserer deres tropiske drømme om sol, sand og vand på Mexicos kyst. Med hjælp fra lokale ejendomsmæglere finder de deres private paradis. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/vITrPPV6B25S0EEWebfouZf8YoL.jpg" /></programme>
   <programme start="20261105050000 +0000" stop="20261105052500 +0000" channel="kanal4.dk">
     <title lang="da">My Lottery Dream Home</title>
     <desc lang="da">Sæson: 15. Episode: 3. 'I'm Italian, I Cook Sauce!'. De fleste drømmer om at vinde den helt store lottogevinst - og for dem, der vinder, bliver drømmehjemmet med fem soveværelser pludselig en mulighed. Vi folk, der har vundet en formue i lotto, og som vil bruge pengene på et nyt, fantastisk hjem. Tilladt for: A.</desc>
@@ -8142,7 +8142,7 @@
     <title lang="da">Mexico Life</title>
     <desc lang="da">Sæson: 2. Episode: 15. 'Carrying On in Mazatlan'. Nysgerrige huskøbere realiserer deres tropiske drømme om sol, sand og vamd på Mexicos kyst. Med hjælp fra lokale ejendomsmæglere finder de frem til deres private paradis og lige nøjagtigt det, de drømmer om - et livligt natteliv, kulinariske oplevelser eller blot et afsides sted, hvor man kan slappe af. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/vITrPPV6B25S0EEWebfouZf8YoL.jpg" /></programme>
   <programme start="20261106050500 +0000" stop="20261106053000 +0000" channel="kanal4.dk">
     <title lang="da">My Lottery Dream Home</title>
     <desc lang="da">Sæson: 15. Episode: 1. 'Nova Scotia Homecoming Queen'. De fleste drømmer om at vinde den helt store lottogevinst - og for dem, der vinder, bliver drømmehjemmet med fem soveværelser pludselig en mulighed. Vi folk, der har vundet en formue i lotto, og som vil bruge pengene på et nyt, fantastisk hjem. Tilladt for: A.</desc>
@@ -8337,7 +8337,7 @@
     <title lang="da">Mexico Life</title>
     <desc lang="da">Sæson: 2. Episode: 7. 'Two Views in Puerto Vallarta'. Nysgerrige huskøbere realiserer deres tropiske drømme om sol, sand og vamd på Mexicos kyst. Med hjælp fra lokale ejendomsmæglere finder de frem til deres private paradis og lige nøjagtigt det, de drømmer om - et livligt natteliv, kulinariske oplevelser eller blot et afsides sted, hvor man kan slappe af. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/vITrPPV6B25S0EEWebfouZf8YoL.jpg" /></programme>
   <programme start="20261107050000 +0000" stop="20261107052500 +0000" channel="kanal4.dk">
     <title lang="da">My Lottery Dream Home</title>
     <desc lang="da">Sæson: 15. Episode: 2. 'Second Home Sanctuary'. De fleste drømmer om at vinde den helt store lottogevinst - og for dem, der vinder, bliver drømmehjemmet med fem soveværelser pludselig en mulighed. Vi folk, der har vundet en formue i lotto, og som vil bruge pengene på et nyt, fantastisk hjem. Tilladt for: A.</desc>
@@ -8511,7 +8511,7 @@
     <title lang="da">Mexico Life</title>
     <desc lang="da">Sæson: 2. Episode: 17. 'Keeping it Spicy in Cabo'. Nysgerrige huskøbere realiserer deres tropiske drømme om sol, sand og vamd på Mexicos kyst. Med hjælp fra lokale ejendomsmæglere finder de frem til deres private paradis og lige nøjagtigt det, de drømmer om - et livligt natteliv, kulinariske oplevelser eller blot et afsides sted, hvor man kan slappe af. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/vITrPPV6B25S0EEWebfouZf8YoL.jpg" /></programme>
   <programme start="20261104043000 +0000" stop="20261104051500 +0000" channel="kanal5.dk">
     <title lang="da">House Hunters</title>
     <desc lang="da">Sæson: 113. Episode: 8. 'House Hunters'. Vi følger mennesker, der leder efter det perfekte drømmehus. De vurderer fordele og ulemper ved tre forskellige ejendomme - før de bestemmer sig for hvilket sted, de er mest interesseret i. Medvirkende: Andromeda Dunker, Grace Patalano. Tilladt for: 7.</desc>
@@ -23659,7 +23659,7 @@
       <actor>Keston John</actor>
     </credits>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/8FoSZbIoFkrsLpr39VK6a6LJHXS.jpg" /></programme>
   <programme start="20261104073500 +0000" stop="20261104082000 +0000" channel="natgeowild.dk">
     <title lang="da">Big Little Giants</title>
     <desc lang="da">'Big Little Giants'. ”Big Little Giants” foregår i Botswanas enorme og utæmmede vildmark og følger Afrikas yngste dyr, idet de tager deres første skridt ind i en udfordrende verden formet af tørke, rovdyr og gamle migrationsruter. Fra en nyfødt elefant, der lærer at følge med sin flok, til sjakalunger, der tester deres instinkter, og gepardunger, der forbereder sig på et liv i et forbløffende tempo, udfolder hver historie sig gennem intime øjeblikke præget af læring og tab. Guidet af forældre, søskende og instinkt må disse unge dyr hurtigt tilpasse sig eller sakke bagud. Gennem betagende landskaber og nærbilleder vil du se, hvordan mod, familiebånd og modstandskraft former overlevelse i den mest skrøbelige livsfase i naturen. Tilladt for: A.</desc>
@@ -23677,7 +23677,7 @@
       <actor>Keston John</actor>
     </credits>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/8FoSZbIoFkrsLpr39VK6a6LJHXS.jpg" /></programme>
   <programme start="20261104094500 +0000" stop="20261104102500 +0000" channel="natgeowild.dk">
     <title lang="da">Big Little Giants</title>
     <desc lang="da">'Big Little Giants'. ”Big Little Giants” foregår i Botswanas enorme og utæmmede vildmark og følger Afrikas yngste dyr, idet de tager deres første skridt ind i en udfordrende verden formet af tørke, rovdyr og gamle migrationsruter. Fra en nyfødt elefant, der lærer at følge med sin flok, til sjakalunger, der tester deres instinkter, og gepardunger, der forbereder sig på et liv i et forbløffende tempo, udfolder hver historie sig gennem intime øjeblikke præget af læring og tab. Guidet af forældre, søskende og instinkt må disse unge dyr hurtigt tilpasse sig eller sakke bagud. Gennem betagende landskaber og nærbilleder vil du se, hvordan mod, familiebånd og modstandskraft former overlevelse i den mest skrøbelige livsfase i naturen. Tilladt for: A.</desc>
@@ -23720,7 +23720,7 @@
       <actor>Keston John</actor>
     </credits>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/8FoSZbIoFkrsLpr39VK6a6LJHXS.jpg" /></programme>
   <programme start="20261104153000 +0000" stop="20261104161500 +0000" channel="natgeowild.dk">
     <title lang="da">Den utrolige Dr. Pol</title>
     <desc lang="da">Sæson: 13. Episode: 5. 'Gadens nye katte'. I denne sæson af Den utrolige Dr. Pol har lægerne poterne fulde, når de løber fra den ene nødsituation til den anden. Tilladt for: A.</desc>
@@ -23751,7 +23751,7 @@
       <actor>Keston John</actor>
     </credits>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/8FoSZbIoFkrsLpr39VK6a6LJHXS.jpg" /></programme>
   <programme start="20261104191500 +0000" stop="20261104200000 +0000" channel="natgeowild.dk">
     <title lang="da">Wild, Smart and Deadly</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'Mørke'. I planetens vilde landskaber bruger voldsomme rovdyr mere end bare magt til at blive i toppen af fødekæden. For mange kan det betyde forskellen mellem liv og død at vide, hvad der lurer i mørket. Vi møder de væsner, der kan prale af ekstraordinære kræfter, der giver dem en fordel, når mørket falder på. Tilladt for: A.</desc>
@@ -23807,7 +23807,7 @@
       <actor>Keston John</actor>
     </credits>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/8FoSZbIoFkrsLpr39VK6a6LJHXS.jpg" /></programme>
   <programme start="20261105024000 +0000" stop="20261105032500 +0000" channel="natgeowild.dk">
     <title lang="da">Big Little Giants</title>
     <desc lang="da">'Big Little Giants'. ”Big Little Giants” foregår i Botswanas enorme og utæmmede vildmark og følger Afrikas yngste dyr, idet de tager deres første skridt ind i en udfordrende verden formet af tørke, rovdyr og gamle migrationsruter. Fra en nyfødt elefant, der lærer at følge med sin flok, til sjakalunger, der tester deres instinkter, og gepardunger, der forbereder sig på et liv i et forbløffende tempo, udfolder hver historie sig gennem intime øjeblikke præget af læring og tab. Guidet af forældre, søskende og instinkt må disse unge dyr hurtigt tilpasse sig eller sakke bagud. Gennem betagende landskaber og nærbilleder vil du se, hvordan mod, familiebånd og modstandskraft former overlevelse i den mest skrøbelige livsfase i naturen. Tilladt for: A.</desc>
@@ -24183,7 +24183,7 @@
     <title lang="da">South America's Weirdest Animals</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'South America's Weirdest Animals'. Sydamerika er ekstremernes land. Mange hundredetusind kvadratkilometer af skove, græsstepper og bjerge. Overlevelse er enorm udfordring. Men når det bliver svært, transformerer de vilde indbyggere sig til særlinge. Årtusinder af mærkelig evolution har gjort dette kæmpemæssige kontinent til mutanternes land. Forvent det uventede, for her er bizart det nye normale. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/k1jHE9V8ZtehuntS9Z0Xuoca1QS.jpg" /></programme>
   <programme start="20261106084500 +0000" stop="20261106093000 +0000" channel="natgeowild.dk">
     <title lang="da">Vilde Argentina</title>
     <desc lang="da">Sæson: 1. Episode: 3. 'Vandets land'. I Argentinas nordlige territorier findes Ibera-reservatet, et kæmpe områder med sumpe og laguner og en imponerende biodiversitet. Tilladt for: A.</desc>
@@ -24217,12 +24217,12 @@
     <title lang="da">South America's Weirdest Animals</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'South America's Weirdest Animals'. Sydamerika er ekstremernes land. Mange hundredetusind kvadratkilometer af skove, græsstepper og bjerge. Overlevelse er enorm udfordring. Men når det bliver svært, transformerer de vilde indbyggere sig til særlinge. Årtusinder af mærkelig evolution har gjort dette kæmpemæssige kontinent til mutanternes land. Forvent det uventede, for her er bizart det nye normale. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/k1jHE9V8ZtehuntS9Z0Xuoca1QS.jpg" /></programme>
   <programme start="20261106123000 +0000" stop="20261106131500 +0000" channel="natgeowild.dk">
     <title lang="da">South America's Weirdest Animals</title>
     <desc lang="da">Sæson: 1. Episode: 2. 'Land of Giants And Pygmies'. Sydamerika er et land af ekstremer. Mange hundredtusinder kvadratkilometer af skove, sletter og bjerge. At leve her har skræmmende udsigter, og nogle velkendte dyr har tilpasset sig ved at vokse sig store eller meget små - hver strategi maksimerer deres chance for overlevelse. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/k1jHE9V8ZtehuntS9Z0Xuoca1QS.jpg" /></programme>
   <programme start="20261106131500 +0000" stop="20261106140000 +0000" channel="natgeowild.dk">
     <title lang="da">Vilde Argentina</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'Det vilde Argentina'. Uanset om det er sandhvaler, pingviner eller søløver: når de skal føde drager de til Argentinas næsten 5.000 kilometer lange kystlinje. Fra deres allerførste åndedrag handler det om én ting for de små: at overleve. Spækhuggere jager unge søløver med en særlig teknik, og måger laver nådesløse luftangreb på hvalungerne. Flotte undervandsbilleder og imponerende dyreadfærd gør filmen af Christian Baumeister til en visuel oplevelse. Tilladt for: A.</desc>
@@ -24288,7 +24288,7 @@
     <title lang="da">South America's Weirdest Animals</title>
     <desc lang="da">Sæson: 1. Episode: 2. 'Land of Giants And Pygmies'. Sydamerika er et land af ekstremer. Mange hundredtusinder kvadratkilometer af skove, sletter og bjerge. At leve her har skræmmende udsigter, og nogle velkendte dyr har tilpasset sig ved at vokse sig store eller meget små - hver strategi maksimerer deres chance for overlevelse. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/k1jHE9V8ZtehuntS9Z0Xuoca1QS.jpg" /></programme>
   <programme start="20261106221500 +0000" stop="20261106230000 +0000" channel="natgeowild.dk">
     <title lang="da">Portugal's Wild Wonders</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'The Land'. I den vestlige ende af Middelhavet ligger Portugal, fuld af mangfoldige økosystemer, der fremviser et imponerende udvalg af både store og små arter, hvoraf mange er endemiske for regionen. Dets sammenkoblede net giver hvert dyr en måde at overleve på i den barske natur. En ildsalamander, der kan leve op til 50 år, nyder sit første måltid efter at have tilbragt en sommer i dvale under jorden. En af de sjældneste vilde katte på planeten, den iberiske los, jager sit yndlingsbytte: kaninen. Kongeørne og ræve, kendt for at være fjender, tolererer hinanden længe nok til at dele deres bytte. Og unge spanske stenbukke øver sig til voksenalderen ved at slå deres gevir sammen i en imponerende styrkedemonstration. Tilladt for: A.</desc>
@@ -24298,7 +24298,7 @@
     <title lang="da">South America's Weirdest Animals</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'South America's Weirdest Animals'. Sydamerika er ekstremernes land. Mange hundredetusind kvadratkilometer af skove, græsstepper og bjerge. Overlevelse er enorm udfordring. Men når det bliver svært, transformerer de vilde indbyggere sig til særlinge. Årtusinder af mærkelig evolution har gjort dette kæmpemæssige kontinent til mutanternes land. Forvent det uventede, for her er bizart det nye normale. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/k1jHE9V8ZtehuntS9Z0Xuoca1QS.jpg" /></programme>
   <programme start="20261106234500 +0000" stop="20261107003000 +0000" channel="natgeowild.dk">
     <title lang="da">Equator's Wild Secrets</title>
     <desc lang="da">Sæson: 1. Episode: 2. 'Borneo And Sumatra'. To øer er de sidste bastioner for Sydøstasiens regnskove. Borneo og Sumatra huser hver især nogle af de mest enestående, men undvigende arter på Jorden. Fra dværgelefanter til kæmpe træer, flyvende øgler til svingende røde aber, kampen om pladsen påvirker alle. Medvirkende: Stefan Booth. Tilladt for: A.</desc>
@@ -28290,7 +28290,7 @@
     <title lang="da">22 News</title>
     <desc lang="da">Sæson: 2026. '04.11.2026'. 22News Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/h60wEB4iVbtA0wpY9rCqwJt5bS5.jpg" /></programme>
   <programme start="20261104211500 +0000" stop="20261104213000 +0000" channel="tv2news.dk">
     <title lang="da">Aften News</title>
     <desc lang="da">'Aften News'. Hvad er der sket i dag? Få seneste nyheder fra både Danmark og udlandet i 'Aften News'. Tilladt for: A.</desc>
@@ -28370,7 +28370,7 @@
     <title lang="da">22 News</title>
     <desc lang="da">Sæson: 2026. '05.11.2026'. 22News Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/h60wEB4iVbtA0wpY9rCqwJt5bS5.jpg" /></programme>
   <programme start="20261105220000 +0000" stop="20261106050000 +0000" channel="tv2news.dk">
     <title lang="da">Nyheder, sport, vejr</title>
     <desc lang="da">Sæson: 2026. '05.11.2026 23:00.'. Nyheder, sport, vejr. Tilladt for: A.</desc>
@@ -28425,7 +28425,7 @@
     <title lang="da">22 News</title>
     <desc lang="da">Sæson: 2026. '06.11.2026'. 22News Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/h60wEB4iVbtA0wpY9rCqwJt5bS5.jpg" /></programme>
   <programme start="20261106220000 +0000" stop="20261107060000 +0000" channel="tv2news.dk">
     <title lang="da">Nyheder, sport, vejr</title>
     <desc lang="da">Sæson: 2026. '06.11.2026 23:00.'. Nyheder, sport, vejr. Tilladt for: A.</desc>
@@ -28495,7 +28495,7 @@
     <title lang="da">22 News</title>
     <desc lang="da">Sæson: 2026. '07.11.2026'. 22News Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/h60wEB4iVbtA0wpY9rCqwJt5bS5.jpg" /></programme>
   <programme start="20261107220000 +0000" stop="20261108060000 +0000" channel="tv2news.dk">
     <title lang="da">Nyheder, sport, vejr</title>
     <desc lang="da">Sæson: 2026. '07.11.2026 23:00.'. Nyheder, sport, vejr. Tilladt for: A.</desc>
@@ -29158,7 +29158,7 @@
     <title lang="da">Alan Davies: As Yet Untitled</title>
     <desc lang="da">Sæson: 7. Episode: 6. 'Afsnit 6'. QI-veteranens faste program om alt, hvad der er aktuelt - og ikke aktuelt - byder denne gang på besøg af Jo Brand, Ola Labib, Jack Rooke og Darren Harriott. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/nBf2ZHA0nmVTF6xJpGtjkX5VliB.jpg" /></programme>
   <programme start="20261106225000 +0000" stop="20261106232000 +0000" channel="bbcnordic.dk">
     <title lang="da">QI</title>
     <desc lang="da">Sæson: 15. Episode: 8. 'Afsnit 8'. Sandi Toksvig ser på "operationer". Har du tænkt på, om en kage kan være et dødbringende våben? For så er det programmet her lige noget for dig. Med Bill Bailey, Katherine Ryan, Rhod Gilbert og Alan Davies. Instruktør: Ian Lorimer. Tilladt for: A.</desc>
@@ -29192,7 +29192,7 @@
     <title lang="da">Alan Davies: As Yet Untitled</title>
     <desc lang="da">Sæson: 7. Episode: 6. 'Afsnit 6'. QI-veteranens faste program om alt, hvad der er aktuelt - og ikke aktuelt - byder denne gang på besøg af Jo Brand, Ola Labib, Jack Rooke og Darren Harriott. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/nBf2ZHA0nmVTF6xJpGtjkX5VliB.jpg" /></programme>
   <programme start="20261107021000 +0000" stop="20261107025500 +0000" channel="bbcnordic.dk">
     <title lang="da">Verdens smukkeste togrejser</title>
     <desc lang="da">Sæson: 1. Episode: 4. 'Wales, Cambrian Line'. Tag plads i Cambrian Line og bliv ført væk på en uforglemmelig rejse til en forsvunden tid med majestætiske slotte og opfindsom victoriansk byggeteknik. Instruktør: Andy Robbins. Tilladt for: A.</desc>
@@ -29442,7 +29442,7 @@
     <title lang="da">Alan Davies: As Yet Untitled</title>
     <desc lang="da">Sæson: 7. Episode: 5. 'Episode 5'. QI-favoritten Alan Davies har inviteret fire af sine komikerkolleger til en hylende morsom snak uden manuskript. Denne gang får Alan besøg af Al Murray, Fern Brady, London Hughes og Russell Kane. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/nBf2ZHA0nmVTF6xJpGtjkX5VliB.jpg" /></programme>
   <programme start="20261107225500 +0000" stop="20261107234500 +0000" channel="bbcnordic.dk">
     <title lang="da">The Graham Norton Show</title>
     <desc lang="da">Sæson: 34. Episode: 6. 'Afsnit 6'. Graham Norton præsenterer et livligt chatshow med Michael Douglas, Glenn Close, Kieran Culkin, Naomi Ackie og Sugababes. Tilladt for: A.</desc>
@@ -29497,7 +29497,7 @@
     <title lang="da">Alan Davies: As Yet Untitled</title>
     <desc lang="da">Sæson: 7. Episode: 5. 'Episode 5'. QI-favoritten Alan Davies har inviteret fire af sine komikerkolleger til en hylende morsom snak uden manuskript. Denne gang får Alan besøg af Al Murray, Fern Brady, London Hughes og Russell Kane. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/nBf2ZHA0nmVTF6xJpGtjkX5VliB.jpg" /></programme>
   <programme start="20261108040000 +0000" stop="20261108050000 +0000" channel="bbcnordic.dk">
     <title lang="da">Ud i vildmarken med Simon Reeve</title>
     <desc lang="da">Sæson: 2. Episode: 1. 'Afsnit 1'. Simon Reeve begiver sig gennem den tabte verden i Papua Ny Guineas tropiske regnskov i jagten på den sorte trækænguru, et af de sjældneste dyr på Jorden. Tilladt for: A.</desc>
@@ -56934,7 +56934,7 @@
       <actor>Stuart Ralston</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/lXmq5qJRxJq2t06PtUErMHMIw5D.jpg" /></programme>
   <programme start="20261105060500 +0000" stop="20261105063000 +0000" channel="skyshowtime1.se">
     <title lang="da">Abby Hatcher</title>
     <desc lang="da">Sæson: 1. Episode: 2. 'Prinsesse Flugs blomsterskulptur; Fusslingernes talentshow'. Der forsvinder roser på hotellet. Teeny Terry vil optræde til hotellets talentshow. Medvirkende: Wyatt White, Macy Drouin, Christian Dal Dosso, Laaibah Alvi. Tilladt for: A.</desc>
@@ -56951,7 +56951,7 @@
       <actor>John M. Knowles</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/lXmq5qJRxJq2t06PtUErMHMIw5D.jpg" /></programme>
   <programme start="20261105063000 +0000" stop="20261105065500 +0000" channel="skyshowtime1.se">
     <title lang="da">Bubble Guppies</title>
     <desc lang="da">Sæson: 2. Episode: 15. 'Bubble-ællinger!'. Velkommen til Bubbletuckys Store Flyvestævne! I dag skal Bubble Guppies se rigtig mange fugle på vingerne! Men da en flyvende andefamilie bliver væk i en tordensky, er det op til Molly, Gil og Beep at flyve ind og redde dem! Instruktør: Robert Scull. Medvirkende: Charlie Adler, Jacob Bertrand, Christopher Borger, Brianna Gentilella. Tilladt for: A.</desc>
@@ -57589,7 +57589,7 @@
       <actor>Wyatt White</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/lXmq5qJRxJq2t06PtUErMHMIw5D.jpg" /></programme>
   <programme start="20261106060500 +0000" stop="20261106063000 +0000" channel="skyshowtime1.se">
     <title lang="da">Abby Hatcher</title>
     <desc lang="da">Sæson: 1. Episode: 4. 'Hår-hejs fusslingerne / Fusslingerne på loftet'. Fru Melvins hårbørste bliver væk, og Abby sporer den til en helt ny fussling, som elsker at sætte hår. // Da Fusslingetvillingerne Mo og Bo bliver separeret fra hinanden på hotellet, må Abby sørge for at føre dem sammen igen. Instruktører: Kyran Kelly, Charles E. Bastien. Medvirkende: Laaibah Alvi, Christian Dal Dosso, Macy Drouin, Josette Jorge. Tilladt for: A.</desc>
@@ -57608,7 +57608,7 @@
       <actor>Wyatt White</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/lXmq5qJRxJq2t06PtUErMHMIw5D.jpg" /></programme>
   <programme start="20261106063000 +0000" stop="20261106065500 +0000" channel="skyshowtime1.se">
     <title lang="da">Bubble Guppies</title>
     <desc lang="da">Sæson: 2. Episode: 18. 'Lige en tand til!'. Bubble Guppies hjælper et gammeldags damplokomotiv med at konkurrere i et togløb. Medvirkende: Brianna Gentilella, Cynthia de Graaff, Tino Insana, Solomon Brown. Tilladt for: A.</desc>
@@ -59596,7 +59596,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/80ikG9NYl4hAqQ4ozoPDV54uRYA.jpg" /></programme>
   <programme start="20261104220000 +0000" stop="20261105000000 +0000" channel="viasatfamily.dk">
     <title lang="da">American Pie 2</title>
     <desc lang="da">'American Pie 2'. Et år efter deres store modgange ved gallafesten, der blev udødeliggjort i American Pie, bliver gruppen genforenet til en uforglemmelig sommer. Strandhuset med det uskyldige ydre forvandles nu til den rene partycentral. Instruktør: J.B. Rogers. Medvirkende: Jason Biggs, Seann William Scott, Shannon Elizabeth, Alyson Hannigan. Tilladt for: 15.</desc>
@@ -59879,7 +59879,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/80ikG9NYl4hAqQ4ozoPDV54uRYA.jpg" /></programme>
   <programme start="20261106020000 +0000" stop="20261106040000 +0000" channel="viasatfamily.dk">
     <title lang="da">American Pie 2</title>
     <desc lang="da">'American Pie 2'. Et år efter deres store modgange ved gallafesten, der blev udødeliggjort i American Pie, bliver gruppen genforenet til en uforglemmelig sommer. Strandhuset med det uskyldige ydre forvandles nu til den rene partycentral. Instruktør: J.B. Rogers. Medvirkende: Jason Biggs, Seann William Scott, Shannon Elizabeth, Alyson Hannigan. Tilladt for: 15.</desc>
@@ -68059,8 +68059,8 @@
 <programme start="20261104042600 +0000" stop="20261104043000 +0000" channel="oiiidk.dk"><title>Lillefinger</title><desc>Lillefingers bedstefar kommer med påskeæg, der er fulde af slik.</desc><episode-num system="xmltv_ns">.46.</episode-num></programme>
 <programme start="20261104043000 +0000" stop="20261104043500 +0000" channel="oiiidk.dk"><title>Hjørnebjørne</title><desc>Georg Grævling er den mindste i familien, og han synes. at alle er irriterende. Så nu går han hjemmefra. Men i skoven er der ingen, der vil lege og intet mad.</desc><episode-num system="xmltv_ns">.24.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/l2kdaeCcwH29UoKKtpxuaXZSvuV.jpg" /></programme>
 <programme start="20261104043500 +0000" stop="20261104044500 +0000" channel="oiiidk.dk"><title>Hjørnebjørne</title><desc>Line Lemmings mor har snart fødselsdag, og Line har lavet en fin gave til hende - et flettet græshjerte. Men Lines lillebror finder den og spiser den.</desc><episode-num system="xmltv_ns">.25.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/l2kdaeCcwH29UoKKtpxuaXZSvuV.jpg" /></programme>
-<programme start="20261104044500 +0000" stop="20261104045000 +0000" channel="oiiidk.dk"><title>Kiwi &amp; Strit</title><desc>Strit kommer ved et uheld til at ødelægge en kage til en fest. Kiwi og Strit beslutter at bage en kage, der måske indeholder ingredienser ud over de sædvanlige.</desc><episode-num system="xmltv_ns">.1.</episode-num></programme>
-<programme start="20261104045000 +0000" stop="20261104045500 +0000" channel="oiiidk.dk"><title>Kiwi &amp; Strit</title><desc>Der er fødselsdagsfest i skoven, og Strit har ødelagt gaven med en slangebøsse. Hvordan kan Kiwi og Strit reparere gaven og redde dagen?</desc><episode-num system="xmltv_ns">.2.</episode-num></programme>
+<programme start="20261104044500 +0000" stop="20261104045000 +0000" channel="oiiidk.dk"><title>Kiwi &amp; Strit</title><desc>Strit kommer ved et uheld til at ødelægge en kage til en fest. Kiwi og Strit beslutter at bage en kage, der måske indeholder ingredienser ud over de sædvanlige.</desc><episode-num system="xmltv_ns">.1.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/a6EPGIbCwoDCiHO56diSB1fukW7.jpg" /></programme>
+<programme start="20261104045000 +0000" stop="20261104045500 +0000" channel="oiiidk.dk"><title>Kiwi &amp; Strit</title><desc>Der er fødselsdagsfest i skoven, og Strit har ødelagt gaven med en slangebøsse. Hvordan kan Kiwi og Strit reparere gaven og redde dagen?</desc><episode-num system="xmltv_ns">.2.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/a6EPGIbCwoDCiHO56diSB1fukW7.jpg" /></programme>
 <programme start="20261104045500 +0000" stop="20261104045900 +0000" channel="oiiidk.dk"><title>Cocomelon</title><episode-num system="xmltv_ns">.156.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/zTDwrUS5ZjS20swYerIJR8cFqwv.jpg" /></programme>
 <programme start="20261104045900 +0000" stop="20261104050200 +0000" channel="oiiidk.dk"><title>Cocomelon</title><episode-num system="xmltv_ns">.157.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/zTDwrUS5ZjS20swYerIJR8cFqwv.jpg" /></programme>
 <programme start="20261104050200 +0000" stop="20261104050500 +0000" channel="oiiidk.dk"><title>Cocomelon</title><episode-num system="xmltv_ns">.158.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/zTDwrUS5ZjS20swYerIJR8cFqwv.jpg" /></programme>
@@ -68131,8 +68131,8 @@
 <programme start="20261105042800 +0000" stop="20261105043000 +0000" channel="oiiidk.dk"><title>Lillefinger</title><desc>Myren har ikke tid til at lege med Lillefinger. Han leger nemlig med flueungerne inde i sit hus.</desc><episode-num system="xmltv_ns">.49.</episode-num></programme>
 <programme start="20261105043000 +0000" stop="20261105044000 +0000" channel="oiiidk.dk"><title>Hjørnebjørne</title><desc>Ernst Elg er en meget nysgerrig lille elg, men pludselig er mor væk. Eller måske er det Ernst, der er blevet væk? Men Ernst bevarer roen og møder nye venner.</desc><episode-num system="xmltv_ns">.0.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/l2kdaeCcwH29UoKKtpxuaXZSvuV.jpg" /></programme>
 <programme start="20261105044000 +0000" stop="20261105044700 +0000" channel="oiiidk.dk"><title>Hjørnebjørne</title><desc>Mille kan ikke lide lav, men på tundraen, hvor hun bor, er der ikke andet. Og mor siger, hun skal spise, hvad der bliver serveret. Men Mille vil selv bestemme.</desc><episode-num system="xmltv_ns">.1.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/l2kdaeCcwH29UoKKtpxuaXZSvuV.jpg" /></programme>
-<programme start="20261105044700 +0000" stop="20261105045200 +0000" channel="oiiidk.dk"><title>Kiwi &amp; Strit</title><desc>En skov-ko er meget sulten og spiser alt, den kan få øje på. Kiwi vil gerne have den til at stoppe, men Strit nyder synet og bliver ved med at fodre den.</desc><episode-num system="xmltv_ns">.3.</episode-num></programme>
-<programme start="20261105045200 +0000" stop="20261105045700 +0000" channel="oiiidk.dk"><title>Kiwi &amp; Strit</title><desc>Kiwi har en sej hat. Strit er jaloux og laver sin egen hat, men den er alt for stor og tung. Strit har lyst til at nuppe Kiwis hat...</desc><episode-num system="xmltv_ns">.4.</episode-num></programme>
+<programme start="20261105044700 +0000" stop="20261105045200 +0000" channel="oiiidk.dk"><title>Kiwi &amp; Strit</title><desc>En skov-ko er meget sulten og spiser alt, den kan få øje på. Kiwi vil gerne have den til at stoppe, men Strit nyder synet og bliver ved med at fodre den.</desc><episode-num system="xmltv_ns">.3.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/a6EPGIbCwoDCiHO56diSB1fukW7.jpg" /></programme>
+<programme start="20261105045200 +0000" stop="20261105045700 +0000" channel="oiiidk.dk"><title>Kiwi &amp; Strit</title><desc>Kiwi har en sej hat. Strit er jaloux og laver sin egen hat, men den er alt for stor og tung. Strit har lyst til at nuppe Kiwis hat...</desc><episode-num system="xmltv_ns">.4.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/a6EPGIbCwoDCiHO56diSB1fukW7.jpg" /></programme>
 <programme start="20261105045700 +0000" stop="20261105050000 +0000" channel="oiiidk.dk"><title>Cocomelon</title><episode-num system="xmltv_ns">.160.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/zTDwrUS5ZjS20swYerIJR8cFqwv.jpg" /></programme>
 <programme start="20261105050000 +0000" stop="20261105050300 +0000" channel="oiiidk.dk"><title>Cocomelon</title><episode-num system="xmltv_ns">.161.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/zTDwrUS5ZjS20swYerIJR8cFqwv.jpg" /></programme>
 <programme start="20261105050300 +0000" stop="20261105050700 +0000" channel="oiiidk.dk"><title>Cocomelon</title><episode-num system="xmltv_ns">.162.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/zTDwrUS5ZjS20swYerIJR8cFqwv.jpg" /></programme>
@@ -68202,8 +68202,8 @@
 <programme start="20261106042600 +0000" stop="20261106043000 +0000" channel="oiiidk.dk"><title>Lillefinger</title><desc>Lillefinger er for lille til at være med til noget som helst. Heldigvis møder Lillefinger en, der synes, at Lillefinger er stor.</desc><episode-num system="xmltv_ns">.0.</episode-num></programme>
 <programme start="20261106043000 +0000" stop="20261106043500 +0000" channel="oiiidk.dk"><title>Hjørnebjørne</title><desc>Emma Ørn skal starte i børnehave, og derfor skal hun lære at flyve. Men Emma tør ikke, og hun kommer med mange undskyldninger. Vil det lykkes hende til sidst?</desc><episode-num system="xmltv_ns">.2.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/l2kdaeCcwH29UoKKtpxuaXZSvuV.jpg" /></programme>
 <programme start="20261106043500 +0000" stop="20261106044500 +0000" channel="oiiidk.dk"><title>Hjørnebjørne</title><desc>Mogens Myg er træt og sulten. Han er så træt, at han ikke kan huske, hvad en myg spiser. Derfor må han rundt og spørge de andre dyr. hvad de spiser.</desc><episode-num system="xmltv_ns">.3.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/l2kdaeCcwH29UoKKtpxuaXZSvuV.jpg" /></programme>
-<programme start="20261106044500 +0000" stop="20261106045000 +0000" channel="oiiidk.dk"><title>Kiwi &amp; Strit</title><desc>En skov-kalv sidder fast i et træ og kan ikke komme ned. Kiwi og Strit kommer på en masse idéer til at få kalven ned, men ingen af dem virker...</desc><episode-num system="xmltv_ns">.5.</episode-num></programme>
-<programme start="20261106045000 +0000" stop="20261106045500 +0000" channel="oiiidk.dk"><title>Kiwi &amp; Strit</title><desc>Kiwi og Strit leger, men Strits fætter forstyrrer, da han kommer brasende i en tønde. Han forsøger at se, hvor langt han kan rulle, og Strit vil gerne være med.</desc><episode-num system="xmltv_ns">.6.</episode-num></programme>
+<programme start="20261106044500 +0000" stop="20261106045000 +0000" channel="oiiidk.dk"><title>Kiwi &amp; Strit</title><desc>En skov-kalv sidder fast i et træ og kan ikke komme ned. Kiwi og Strit kommer på en masse idéer til at få kalven ned, men ingen af dem virker...</desc><episode-num system="xmltv_ns">.5.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/a6EPGIbCwoDCiHO56diSB1fukW7.jpg" /></programme>
+<programme start="20261106045000 +0000" stop="20261106045500 +0000" channel="oiiidk.dk"><title>Kiwi &amp; Strit</title><desc>Kiwi og Strit leger, men Strits fætter forstyrrer, da han kommer brasende i en tønde. Han forsøger at se, hvor langt han kan rulle, og Strit vil gerne være med.</desc><episode-num system="xmltv_ns">.6.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/a6EPGIbCwoDCiHO56diSB1fukW7.jpg" /></programme>
 <programme start="20261106045500 +0000" stop="20261106045900 +0000" channel="oiiidk.dk"><title>Cocomelon</title><episode-num system="xmltv_ns">.164.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/zTDwrUS5ZjS20swYerIJR8cFqwv.jpg" /></programme>
 <programme start="20261106045900 +0000" stop="20261106050200 +0000" channel="oiiidk.dk"><title>Cocomelon</title><episode-num system="xmltv_ns">.165.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/zTDwrUS5ZjS20swYerIJR8cFqwv.jpg" /></programme>
 <programme start="20261106050200 +0000" stop="20261106050500 +0000" channel="oiiidk.dk"><title>Cocomelon</title><episode-num system="xmltv_ns">.166.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/zTDwrUS5ZjS20swYerIJR8cFqwv.jpg" /></programme>
@@ -68466,7 +68466,7 @@
 <programme start="20261105023500 +0000" stop="20261105030500 +0000" channel="tv2kosmopoldk.dk"><title>Grænsepatruljen</title><desc>Hver dag rejser flere end 20.000 passagerer ind i Australien med skib eller fly, og de skal alle igennem grænsekontrollen, før de bliver lukket ind i landet. De mange kvinder og mænd, der bogstavelig talt udgør Australiens frontlinje, er bl.a. på udkig efter rejsende, der måske ikke er, hvad de udgiver sig for, narkokurerer, illegale immigranter og mulige terrorister.</desc></programme>
 <programme start="20261105030500 +0000" stop="20261105033000 +0000" channel="tv2kosmopoldk.dk"><title>Grænsepatruljen</title><desc>Hver dag rejser flere end 20.000 passagerer ind i Australien med skib eller fly, og de skal alle igennem grænsekontrollen, før de bliver lukket ind i landet. De mange kvinder og mænd, der bogstavelig talt udgør Australiens frontlinje, er bl.a. på udkig efter rejsende, der måske ikke er, hvad de udgiver sig for, narkokurerer, illegale immigranter og mulige terrorister.</desc></programme>
 <programme start="20261105033000 +0000" stop="20261105040000 +0000" channel="tv2kosmopoldk.dk"><title>Grænsepatruljen</title><desc>Hver dag rejser flere end 20.000 passagerer ind i Australien med skib eller fly, og de skal alle igennem grænsekontrollen, før de bliver lukket ind i landet. De mange kvinder og mænd, der bogstavelig talt udgør Australiens frontlinje, er bl.a. på udkig efter rejsende, der måske ikke er, hvad de udgiver sig for, narkokurerer, illegale immigranter og mulige terrorister.</desc></programme>
-<programme start="20261105040000 +0000" stop="20261105060000 +0000" channel="tv2kosmopoldk.dk"><title>Nyhederne og Vejret</title><desc>Nyhederne og Vejret</desc></programme>
+<programme start="20261105040000 +0000" stop="20261105060000 +0000" channel="tv2kosmopoldk.dk"><title>Nyhederne og Vejret</title><desc>Nyhederne og Vejret</desc><icon src="https://image.tmdb.org/t/p/w1280/6QAP7lcf44DFdGF9ZU6Py2IITTa.jpg" /></programme>
 <programme start="20261105060000 +0000" stop="20261105063000 +0000" channel="tv2kosmopoldk.dk"><title>Nyhederne, Sporten og Vejret</title><desc>Nyhederne, Sporten og Vejret</desc></programme>
 <programme start="20261105063000 +0000" stop="20261105120000 +0000" channel="tv2kosmopoldk.dk"><title>Go' morgen Danmark</title><desc>'Go' morgen Danmark' er hele Danmarks aktualitet- og livsstilsprogram. Start dagen med hygge og høje grin - og få stof til eftertanke og samtaleemner, man har lyst til at dele resten af dagen.</desc><icon src="https://image.tmdb.org/t/p/w1280/fy54FNDjCWb0bGIRcTL6bCcthga.jpg" /></programme>
 <programme start="20261105120000 +0000" stop="20261105123000 +0000" channel="tv2kosmopoldk.dk"><title>12 News</title><desc>12 Nyhederne, Sporten og Vejret.</desc><icon src="https://image.tmdb.org/t/p/w1280/i9CraG4nX0mBzotoatV2Xp70nfK.jpg" /></programme>
@@ -68540,7 +68540,7 @@
 <programme start="20261104150000 +0000" stop="20261104170000 +0000" channel="viasatfamilydk.dk"><title>Dyrene i Hakkebakkeskoven</title><desc>I skoven bor en mus sammen med sine venner. De er bange for at blive ædt af rovdyr og må finde en måde at leve sammen i fred,Rasmus A . Sivertsen - director, Karsten Fullu - writer, Thorbjørn Egner - writer,Wenche Myhre - actor,Espen Bråten Kristoffersen - Klatremus ,Stig Henrik Hoff - Mikkel Rev,Nils Jørgen Kaalstad - Morten Skogmus,Jan Martin Johnsen - Bakermester Harepus.</desc><icon src="https://image.tmdb.org/t/p/w1280/9T1JCB5pGN3GS1EEOuUegxkjAvd.jpg" /></programme>
 <programme start="20261104170000 +0000" stop="20261104190000 +0000" channel="viasatfamilydk.dk"><title>Hulemanden Sten</title><desc>Hulemanden Sten og hans venner må bekæmpe en fjende fra bronzealderen i en komedie af manden bag Walter og Trofast og F for får,Nick Park - director,Rob Brydon - Message Bird / Brian / Bryan / Gonad the Gaul (voice),Kayvan Novak - Dino / Jurgend (voice),Selina Griffiths - Magma / Additional Voices,Johnny Vegas - Asbo,Gina Yashere - Gravelle (voice),Kayvan Novak - Dino and Jurgend,Rob Brydon - The Message Bird.</desc><icon src="https://image.tmdb.org/t/p/w1280/yxI6cjJtzrI9nHs8iAJiTrxfEmr.jpg" /></programme>
 <programme start="20261104190000 +0000" stop="20261104210000 +0000" channel="viasatfamilydk.dk"><title>Nanny McPhee: Den fortryllende barnepige</title><desc>En enkemand med syv uregerlige børn,som opfører sig så forfærdeligt, at de har fået 17 barnepiger til at sige op i desperation, ansætter en barnepige med magiske evner,Kirk Jones - director, Emma Thompson - writer, Christianna Brand - writer,Emma Thompson - Nanny McPhee,Angela Lansbury - Aunt Adelaide,Kelly MacDonald - Evangeline,Thomas Brodie-Sangster - Simon,Lindsay Doran - producer.</desc><icon src="https://image.tmdb.org/t/p/w1280/sEWUEH1KbtFOaNXqYCaaguz017h.jpg" /></programme>
-<programme start="20261104210000 +0000" stop="20261104230000 +0000" channel="viasatfamilydk.dk"><title>27 Bryllupper</title><desc>Jane er håbløs romantiker og elsker bryllupper. Hun har været brudepige 27 gange, men hun håber på snart selv at blive gift - og meget gerne med sin chef som brudgom. Men Janes lillesøster Tess vil det anderledes og forfører Janes chef og beder Jane om at stable endnu et bryllup på benene. Det kommer som en chok for Jane, og hun beslutter sig for at gøre noget, så hun ikke skal være brudepige for 28. gang. Nu starter et nyt kapitel i Janes liv, hvor hun selv er hovedpersonen,Anne Fletcher - director,Brian Kerwin - Hal,Charli Barcena - Young Tess,Peyton List - Young Jane,Jane Pfitsch - Cousin Lisa,Katherine Heigl - Jane,Jennifer Lim - Bridal Salesgirl #1,James Marsden - Kevin.</desc></programme>
+<programme start="20261104210000 +0000" stop="20261104230000 +0000" channel="viasatfamilydk.dk"><title>27 Bryllupper</title><desc>Jane er håbløs romantiker og elsker bryllupper. Hun har været brudepige 27 gange, men hun håber på snart selv at blive gift - og meget gerne med sin chef som brudgom. Men Janes lillesøster Tess vil det anderledes og forfører Janes chef og beder Jane om at stable endnu et bryllup på benene. Det kommer som en chok for Jane, og hun beslutter sig for at gøre noget, så hun ikke skal være brudepige for 28. gang. Nu starter et nyt kapitel i Janes liv, hvor hun selv er hovedpersonen,Anne Fletcher - director,Brian Kerwin - Hal,Charli Barcena - Young Tess,Peyton List - Young Jane,Jane Pfitsch - Cousin Lisa,Katherine Heigl - Jane,Jennifer Lim - Bridal Salesgirl #1,James Marsden - Kevin.</desc><icon src="https://image.tmdb.org/t/p/w1280/80ikG9NYl4hAqQ4ozoPDV54uRYA.jpg" /></programme>
 <programme start="20261104230000 +0000" stop="20261104230000 +0000" channel="viasatfamilydk.dk"><title>You Gotta Believe</title><desc>Baseret på den inspirerende, sande historie om et ungdoms-baseballhold, der trodsede alle odds og kæmpede sig vej til Little League World Series. Efter at have dedikeret sæsonen til en holdkammerats syge far, tager en gruppe undervurderede unge spillere på et vaskeægte eventyr, som kulminerer i et rekordbrydende opgør i Little League World Series i 2002, der straks blev en klassiker på ESPN,Ty Roberts - director,Luke Wilson - Bobby Ratliff,Greg Kinnear - Coach Jon Kelly,Sarah Gadon - Patti Ratliff,Molly Parker - Kathy Kelly,Lew Temple - Coach Mitch Belew,Joaquin Roberts - Peanut,Martin Roach - Sam Knight.</desc></programme>
 <programme start="20261104230000 +0000" stop="20261105010000 +0000" channel="viasatfamilydk.dk"><title>American Pie 2</title><desc>Et år efter deres store modgange ved gallafesten, der blev udødeliggjort i American Pie, bliver gruppen genforenet til en uforglemmelig sommer. Strandhuset med det uskyldige ydre forvandles nu til den rene partycentral,J.B. Rogers - director,Jason Biggs - Jim,Seann William Scott - Stifler,Shannon Elizabeth - Nadia,Alyson Hannigan - Michelle,Chris Klein - Oz,Natasha Lyonne - Jessica,Thomas Ian Nicholas - Kevin.</desc></programme>
 <programme start="20261105010000 +0000" stop="20261105030000 +0000" channel="viasatfamilydk.dk"><title>Forever My Girl</title><desc>Forever My Girl</desc></programme>
@@ -68556,5 +68556,5 @@
 <programme start="20261105210000 +0000" stop="20261105230000 +0000" channel="viasatfamilydk.dk"><title>Forelsket i New York</title><desc>Forelsket i New York</desc></programme>
 <programme start="20261105230000 +0000" stop="20261105230000 +0000" channel="viasatfamilydk.dk"><title>American Pie 2</title><desc>Et år efter deres store modgange ved gallafesten, der blev udødeliggjort i American Pie, bliver gruppen genforenet til en uforglemmelig sommer. Strandhuset med det uskyldige ydre forvandles nu til den rene partycentral,J.B. Rogers - director,Jason Biggs - Jim,Seann William Scott - Stifler,Shannon Elizabeth - Nadia,Alyson Hannigan - Michelle,Chris Klein - Oz,Natasha Lyonne - Jessica,Thomas Ian Nicholas - Kevin.</desc></programme>
 <programme start="20261105230000 +0000" stop="20261106010000 +0000" channel="viasatfamilydk.dk"><title>Celeste and Jesse Forever</title><desc>Celeste and Jesse Forever</desc></programme>
-<programme start="20261106010000 +0000" stop="20261106030000 +0000" channel="viasatfamilydk.dk"><title>27 Bryllupper</title><desc>Jane er håbløs romantiker og elsker bryllupper. Hun har været brudepige 27 gange, men hun håber på snart selv at blive gift - og meget gerne med sin chef som brudgom. Men Janes lillesøster Tess vil det anderledes og forfører Janes chef og beder Jane om at stable endnu et bryllup på benene. Det kommer som en chok for Jane, og hun beslutter sig for at gøre noget, så hun ikke skal være brudepige for 28. gang. Nu starter et nyt kapitel i Janes liv, hvor hun selv er hovedpersonen,Anne Fletcher - director,Brian Kerwin - Hal,Charli Barcena - Young Tess,Peyton List - Young Jane,Jane Pfitsch - Cousin Lisa,Katherine Heigl - Jane,Jennifer Lim - Bridal Salesgirl #1,James Marsden - Kevin.</desc></programme>
+<programme start="20261106010000 +0000" stop="20261106030000 +0000" channel="viasatfamilydk.dk"><title>27 Bryllupper</title><desc>Jane er håbløs romantiker og elsker bryllupper. Hun har været brudepige 27 gange, men hun håber på snart selv at blive gift - og meget gerne med sin chef som brudgom. Men Janes lillesøster Tess vil det anderledes og forfører Janes chef og beder Jane om at stable endnu et bryllup på benene. Det kommer som en chok for Jane, og hun beslutter sig for at gøre noget, så hun ikke skal være brudepige for 28. gang. Nu starter et nyt kapitel i Janes liv, hvor hun selv er hovedpersonen,Anne Fletcher - director,Brian Kerwin - Hal,Charli Barcena - Young Tess,Peyton List - Young Jane,Jane Pfitsch - Cousin Lisa,Katherine Heigl - Jane,Jennifer Lim - Bridal Salesgirl #1,James Marsden - Kevin.</desc><icon src="https://image.tmdb.org/t/p/w1280/80ikG9NYl4hAqQ4ozoPDV54uRYA.jpg" /></programme>
 </tv>
