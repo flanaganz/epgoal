@@ -3000,7 +3000,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/naMEADmJDjImEBj7dcDlZD8IPAg.jpg" /></programme>
   <programme start="20261108220000 +0000" stop="20261108225500 +0000" channel="tv2.dk">
     <title lang="da">Den som dræber - Fanget af mørket</title>
     <desc lang="da">Sæson: 1. Episode: 5. 'Afsnit 5'. En kjole, som tilhørte det første offer Natasha, bliver fundet, og det viser sig at Anders Kjeldsen har holdt den skjult. Stine er ved at miste forstanden. Medvirkende: Natalie Madueño, Tobias Santelmann, Kenneth M. Christensen, Signe Egholm Olsen. Tilladt for: 15.</desc>
@@ -3058,7 +3058,7 @@
     <title lang="da">Det rullende auktionshus</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'Det rullende auktionshus'. Angus og hans team hjælper søstrene Kay og Tracey, der rydder op i deres tantes hjem. Særligt nogle små, oversete genstande overrasker, da hammeren falder. Teamets næste opgave afslører lukrative skatte, der har været gemt i mere end 50 år. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/rK8etsvfxjwkWi6VE4GjcHi7Knv.jpg" /></programme>
   <programme start="20261109022500 +0000" stop="20261109030000 +0000" channel="tv2.dk">
     <title lang="da">Vild indretning ved verdens ende</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'Vild indretning ved verdens ende'. Australske Banjo Beale starter en indretningsvirksomhed op på Isle of Mull, hvor han bor sammen med sin mand, Ro. I seks episoder følger vi Banjo på opgaver i det ekstreme klima, som de små, skotske øer ofte oplever, og han får hjælp af lokale håndværkere. Banjo og hans team får først til opgave at renovere en families fiskebutik. Spørgsmålet er, om han kan få dem med på sine vilde ideer? Tilladt for: A.</desc>
@@ -5362,7 +5362,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/oYrEiDT1PoAaNBX8jGPcSLomEVW.jpg" /></programme>
   <programme start="20261109041000 +0000" stop="20261109042000 +0000" channel="tv2charlie.dk">
     <title lang="da">Godnat</title>
     <desc lang="da">'Godnat'. Godnat. Tilladt for: A.</desc>
@@ -9471,7 +9471,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/1NOb32Gg3fS5ANke0EdyL6MRyzC.jpg" /></programme>
   <programme start="20261108160000 +0000" stop="20261108170500 +0000" channel="kanal5.dk">
     <title lang="da">Politijagt - Sverige</title>
     <desc lang="da">Sæson: 1. Episode: 5. 'Ulykke på el-løbehjul'. I Umeå bliver Marcus kaldt ud til et trafikuheld, der involverer en bil og to unge på el-løbehjul. Linnea og August standser en håndværker, der er påvirket. Tilladt for: 11.</desc>
@@ -16990,7 +16990,7 @@
       <actor>Max Mittelman</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/fXWTmVUUdjqa9PTyzp73eueExmU.jpg" /></programme>
   <programme start="20261108105500 +0000" stop="20261108111000 +0000" channel="disneychannel.dk">
     <title lang="da">Superkillinger</title>
     <desc lang="da">Sæson: 1. Episode: 39. 'Superkillinger'. Amandas tiara forsvinder. Medvirkende: Emma Berman, Jecobi Swain, Pyper Braun, Cruz Flateau. Tilladt for: A.</desc>
@@ -41597,7 +41597,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/s4f5p9L3vGRDZULNdmYdaORWzNC.jpg" /></programme>
   <programme start="20261108233000 +0000" stop="20261109024000 +0000" channel="viasathits.dk">
     <title lang="da">Titanic</title>
     <desc lang="da">'Titanic'. Leonardo DiCaprio og Kate Winslet har hovedrollerne i James Camerons klassiske katastrofefilm. Et forelsket par mødes på et berømt skib og begiver sig ud i en romance, mens katastrofen udfolder sig. Instruktør: Kim Harrington. Medvirkende: James B.. Tilladt for: 11.</desc>
@@ -54052,7 +54052,7 @@
       <actor>Teryl Rothery</actor>
     </credits>
     <category lang="da">Film</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/qO0mS5vXgK4fZEriTmdgxz31xlX.jpg" /></programme>
   <programme start="20261105182500 +0000" stop="20261105200000 +0000" channel="skyshowtime2.se">
     <title lang="da">Germanwings: What Happened on Flight 9525?</title>
     <desc lang="da">'Germanwings: What Happened on Flight 9525?'. Efterforskere, eksperter og pårørende til ofre gransker et fatalt flystyrt. Tilladt for: 11.</desc>
@@ -55035,7 +55035,7 @@
       <actor>Teryl Rothery</actor>
     </credits>
     <category lang="da">Film</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/qO0mS5vXgK4fZEriTmdgxz31xlX.jpg" /></programme>
   <programme start="20261108135500 +0000" stop="20261108152500 +0000" channel="skyshowtime2.se">
     <title lang="da">Hr. Peabody &amp; Sherman</title>
     <desc lang="da">'Hr. Peabody &amp; Sherman'. Mr. Peabody er opfinder, videnskabsmand, geni…og hund! Sammen med sin søn Sherman begiver han sig ud på de mest utrolige eventyr, når de i kapløb med tiden kæmper for at reparere verdenshistorien og redde fremtiden. Instruktør: Rob Minkoff. Medvirkende: Ty Burrell, Max Charles, Stephen Colbert, Leslie Mann. Tilladt for: A.</desc>
