@@ -2250,7 +2250,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/j088tqc8cksYIpI2vCZWs2lox4Y.jpg" /></programme>
   <programme start="20261109224000 +0000" stop="20261109231000 +0000" channel="dr2.dk">
     <title lang="da">Det danske filmmirakel</title>
     <sub-title lang="da">(2:6) Revolution På Skolebænken</sub-title>
@@ -57321,7 +57321,7 @@
       <actor>William Øksnevad</actor>
     </credits>
     <category lang="da">Film</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/sbdFPJ22U3MvSMhgr3kNktQ8mok.jpg" /></programme>
   <programme start="20261109130000 +0000" stop="20261109150000 +0000" channel="viasataction.dk">
     <title lang="da">Jack the Giant Slayer</title>
     <desc lang="da">'Jack the Giant Slayer'. Da en prinsesse kidnappes, trues den skrøbelige frem mellem mennesker og jætter, og en ung bonde leder en ekspedition ind i jætternes rige for at finde hende. Instruktør: Bryan Singer. Medvirkende: Nicholas Hoult, Stanley Tucci, Ewan McGregor, Bill Nighy. Tilladt for: 11.</desc>
