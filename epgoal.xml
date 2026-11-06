@@ -406,7 +406,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/zRf6m12VimuxzRJ1myco9DDwiTn.jpg" /></programme>
   <programme start="20261106144000 +0000" stop="20261106161000 +0000" channel="dr1.dk">
     <title lang="da">Kriminalkommissær Barnaby</title>
     <sub-title lang="da">14 (7)</sub-title>
@@ -915,7 +915,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/zRf6m12VimuxzRJ1myco9DDwiTn.jpg" /></programme>
   <programme start="20261108080000 +0000" stop="20261108085000 +0000" channel="dr1.dk">
     <title lang="da">Nordamerikas kæmpesøer</title>
     <sub-title lang="da">(1:3)</sub-title>
@@ -1059,7 +1059,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/zRf6m12VimuxzRJ1myco9DDwiTn.jpg" /></programme>
   <programme start="20261108190000 +0000" stop="20261108194500 +0000" channel="dr1.dk">
     <title lang="da">Høst</title>
     <sub-title lang="da">(5:7) Vi Var Forelskede</sub-title>
@@ -3435,7 +3435,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/tgLwwIuQL31c72iijTAWd5hmKBO.jpg" /></programme>
   <programme start="20261107162500 +0000" stop="20261107172500 +0000" channel="tv2zulu.dk">
     <title lang="da">Korpset - gjort af det rette stof</title>
     <desc lang="da">Sæson: 9. Episode: 4. 'Holdet først'. Ingen vinder en krig alene. Derfor skal aspiranterne bevise, at de kan samarbejde, når de inddeles i to hold, som skal kæmpe mod hinanden i ubarmhjertige konkurrencer, hvor det har store konsekvenser at tabe. Inden dagen er omme, er færre tilbage på kurset. Tilladt for: 11.</desc>
@@ -3443,7 +3443,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/tgLwwIuQL31c72iijTAWd5hmKBO.jpg" /></programme>
   <programme start="20261107172500 +0000" stop="20261107184000 +0000" channel="tv2zulu.dk">
     <title lang="da">Stormester</title>
     <desc lang="da">Sæson: 7. Episode: 5. 'Kålmesteren'. Hvad har verdens bedste kok, udenrigsministeren og den røde Power Ranger tilfælles? Og hvorfor er kål grønsagernes svar på en hund? Tilladt for: A.</desc>
@@ -3652,7 +3652,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/tgLwwIuQL31c72iijTAWd5hmKBO.jpg" /></programme>
   <programme start="20261108162000 +0000" stop="20261108171500 +0000" channel="tv2zulu.dk">
     <title lang="da">Korpset - gjort af det rette stof</title>
     <desc lang="da">Sæson: 9. Episode: 6. 'Sandhedens time'. Aspiranterne skal på mission, hvor de skal løse en kompleks opgave. Øvelsen kræver mod, og aspiranterne skal bevise, at de forstår at udnytte alt det, de har lært indtil nu. Efter missionen er det ikke alle aspiranter, der kan fortsætte på kurset. Tilladt for: 11.</desc>
@@ -3660,7 +3660,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/tgLwwIuQL31c72iijTAWd5hmKBO.jpg" /></programme>
   <programme start="20261108171500 +0000" stop="20261108182500 +0000" channel="tv2zulu.dk">
     <title lang="da">Stormester</title>
     <desc lang="da">Sæson: 7. Episode: 6. 'Rutsjebaner og padde'. Hvilken deltager er sejest, hvis vi spørger en 12-årig? Og hvorfor har Mark frygtet en urinvejsinfektion i ugevis? Se også, om Mark får sit livs rutsjetur. Tilladt for: A.</desc>
@@ -25424,7 +25424,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/wesPqyYvmMJPYg9mhFgWDYlMIv9.jpg" /></programme>
   <programme start="20261108002500 +0000" stop="20261108013500 +0000" channel="discoverychannel.dk">
     <title lang="da">Roadworthy Rescues</title>
     <desc lang="da">Sæson: 3. Episode: 11. 'Roadworthy Rescues'. Derek har ikke opgivet Barneville, den Pontiac Bonneville fra 1962, han trak ud af en lade. Han er fast besluttet på at få den tilbage på vejen. Tilladt for: 7.</desc>
@@ -25808,7 +25808,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/wesPqyYvmMJPYg9mhFgWDYlMIv9.jpg" /></programme>
   <programme start="20261109221000 +0000" stop="20261109231500 +0000" channel="discoverychannel.dk">
     <title lang="da">Alaska: The Last Frontier</title>
     <desc lang="da">Sæson: 6. Episode: 13. 'Alaska: Den sidste ødemark'. I programmet følger vi familien Kilcher, der lever et ekstraordinært liv midt i Alaskas barske natur. De har ingen moderne bekvemmeligheder som varme eller VVS, og de overlever ved enten at dyrke deres egen mad eller gå på jagt i vildnisset. Kilcher har levet på deres jord i fire generationer, og alle familiemedlemmer ved præcis, hvordan de skal forberede sig på de lange, hårde vintre, som altid hærger her på på kanten af verden. Medvirkende: Bray Poor. Tilladt for: 11.</desc>
@@ -25846,7 +25846,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/wesPqyYvmMJPYg9mhFgWDYlMIv9.jpg" /></programme>
   <programme start="20261110024000 +0000" stop="20261110035000 +0000" channel="discoverychannel.dk">
     <title lang="da">Expedition X</title>
     <desc lang="da">Sæson: 4. Episode: 3. 'Niagara Nightmare'. Jess og Phil dykker ned i mysterierne omkring Niagara Falls og dets historie med voldelige dødsfald. De undersøger rapporter om foruroligende paranormal aktivitet. Tilladt for: 15.</desc>
@@ -62182,7 +62182,7 @@
       <actor>Mads Geertsen</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/kqFC9dtBlkIRD5EjpMc6FeU8zzu.jpg" /></programme>
   <programme start="20261106072500 +0000" stop="20261106073500 +0000" channel="drramasjang.dk">
     <title lang="da">Paddington III</title>
     <desc lang="da">Sæson: 3. Episode: 13. 'Paddingtons sommerferie begynder'. Familie Brown vil på stranden i deres ferie, og de møder fyrmesteren Shantee, da de ankommer. Medvirkende: Sabrina Newton-Fisher, Ben Whishaw, Morwenna Banks, Darren Boyd. Tilladt for: A.</desc>
@@ -65711,10 +65711,10 @@
 <programme start="20261107032500 +0000" stop="20261107035400 +0000" channel="playgulddk.dk"><title>Helt sort</title><desc>Det gælder om at råbe NEJ, når Melvin prøver kræfter med feministisk selvforsvar. I Kalundborg tilbyder Flemming en man-i-cure, som man kun kan takke ja til. Melvin får også et overraskende indblik i kønsskifte-fisk, og med den vandrende strikker Kasper får Melvin en ny forståelse for den jyske mand.</desc><episode-num system="xmltv_ns">.3.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/jYdSUDkRudviRjCHvZoTSvZl1r1.jpg" /></programme>
 <programme start="20261107040500 +0000" stop="20261107050500 +0000" channel="playgulddk.dk"><title>Hvem byder bedst?</title><desc>Køberpanelet står klar til budkrig i Frederiksværk. De kæmper blandt andet om et Hans Scherfig-litografi og en Hans Wegner-stol.</desc><episode-num system="xmltv_ns">.0.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/sbLA5YkF0tYEaYQZ9wAmV48K8yP.jpg" /></programme>
 <programme start="20261107050500 +0000" stop="20261107061000 +0000" channel="playgulddk.dk"><title>Hvem byder bedst?</title><desc>Køberpanelet tager turen til Horsens, hvor der blandt andet er et Asger Jorn-litografi og et Peter Løvig-skrivebord på spil.</desc><episode-num system="xmltv_ns">.1.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/sbLA5YkF0tYEaYQZ9wAmV48K8yP.jpg" /></programme>
-<programme start="20261107061000 +0000" stop="20261107065000 +0000" channel="playgulddk.dk"><title>Ingemann - Hitler, Stalin og Churchill</title><desc>Adolf, Winston og Josef står nu på egne ben. Og de lever tre vidt forskellige liv. Josef er bankrøver i Georgien, Winston er verdens bedst betalte krigskorrespondent, mens Adolf er hjemløs i Wien. Peter Ingemann tager blandt andet til Flandern og oplever en rørende tradition fra Første Verdenskrig.</desc><episode-num system="xmltv_ns">.2.</episode-num></programme>
-<programme start="20261107065000 +0000" stop="20261107073500 +0000" channel="playgulddk.dk"><title>Ingemann - Hitler, Stalin og Churchill</title><desc>Peter Ingemann tager på bierstube i München, hvor Hitlers vej til magten bliver skabt. I London finder Peter ud af, at Churchill er fascineret af fascismen. Sammen med Leif Davidsen bliver Peter klogere på Stalins brutale vej til magten i Rusland.</desc><episode-num system="xmltv_ns">.3.</episode-num></programme>
-<programme start="20261107073500 +0000" stop="20261107082000 +0000" channel="playgulddk.dk"><title>Ingemann - Hitler, Stalin og Churchill</title><desc>Peter Ingemann rejser til Alperne, hvor Adolf Hitler havde sit sommerhus. Peter går i Hitlers fodspor, og besøger de steder, hvorfra den tyske diktator tog nogle af sine mest betydningsfulde beslutninger, der leder til Anden Verdenskrig. Hitler og Stalin indgår en pagt, mens Churchill går på pension.</desc><episode-num system="xmltv_ns">.4.</episode-num></programme>
-<programme start="20261107082000 +0000" stop="20261107090500 +0000" channel="playgulddk.dk"><title>Ingemann - Hitler, Stalin og Churchill</title><desc>I London besøger Peter Ingemann bunkeren, hvorfra Churchill kæmpede mod Hitler under Anden Verdenskrig. Peter tager også til Ulveskansen i Polen, hvor et attentat er tæt på at slå Hitler ihjel. I Berlin slutter Peter sin rejse ved Stalins mindesmærke og Hitlers førerbunker, der i dag er en parkeringsplads.</desc><episode-num system="xmltv_ns">.5.</episode-num></programme>
+<programme start="20261107061000 +0000" stop="20261107065000 +0000" channel="playgulddk.dk"><title>Ingemann - Hitler, Stalin og Churchill</title><desc>Adolf, Winston og Josef står nu på egne ben. Og de lever tre vidt forskellige liv. Josef er bankrøver i Georgien, Winston er verdens bedst betalte krigskorrespondent, mens Adolf er hjemløs i Wien. Peter Ingemann tager blandt andet til Flandern og oplever en rørende tradition fra Første Verdenskrig.</desc><episode-num system="xmltv_ns">.2.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/q20cIUVRQ4cmvAwhxFGZXhTXdJa.jpg" /></programme>
+<programme start="20261107065000 +0000" stop="20261107073500 +0000" channel="playgulddk.dk"><title>Ingemann - Hitler, Stalin og Churchill</title><desc>Peter Ingemann tager på bierstube i München, hvor Hitlers vej til magten bliver skabt. I London finder Peter ud af, at Churchill er fascineret af fascismen. Sammen med Leif Davidsen bliver Peter klogere på Stalins brutale vej til magten i Rusland.</desc><episode-num system="xmltv_ns">.3.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/q20cIUVRQ4cmvAwhxFGZXhTXdJa.jpg" /></programme>
+<programme start="20261107073500 +0000" stop="20261107082000 +0000" channel="playgulddk.dk"><title>Ingemann - Hitler, Stalin og Churchill</title><desc>Peter Ingemann rejser til Alperne, hvor Adolf Hitler havde sit sommerhus. Peter går i Hitlers fodspor, og besøger de steder, hvorfra den tyske diktator tog nogle af sine mest betydningsfulde beslutninger, der leder til Anden Verdenskrig. Hitler og Stalin indgår en pagt, mens Churchill går på pension.</desc><episode-num system="xmltv_ns">.4.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/q20cIUVRQ4cmvAwhxFGZXhTXdJa.jpg" /></programme>
+<programme start="20261107082000 +0000" stop="20261107090500 +0000" channel="playgulddk.dk"><title>Ingemann - Hitler, Stalin og Churchill</title><desc>I London besøger Peter Ingemann bunkeren, hvorfra Churchill kæmpede mod Hitler under Anden Verdenskrig. Peter tager også til Ulveskansen i Polen, hvor et attentat er tæt på at slå Hitler ihjel. I Berlin slutter Peter sin rejse ved Stalins mindesmærke og Hitlers førerbunker, der i dag er en parkeringsplads.</desc><episode-num system="xmltv_ns">.5.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/q20cIUVRQ4cmvAwhxFGZXhTXdJa.jpg" /></programme>
 <programme start="20261107090500 +0000" stop="20261107094500 +0000" channel="playgulddk.dk"><title>Ingemann og kongerækken</title><desc>Hvad har middelalderen til fælles med tv-serien 'Game of Thrones'? Hvem stod bag det sagnomspundne kongemord i Finderup Lade? Og hvordan kan én konges elskovssyge ende med, at hele Danmark går bankerot? Dét og meget mere får vi svar på i 'Ingemann og Kongerækken', hvor Peter Ingemann tager på en historisk rejse tilbage i tiden. I første program om kongerækken skal vi møde de otte konger, som regerer Danmark frem til 1076. Vi befinder os omtrent halvvejs i vikingetiden. En tid præget af barbariske vikingetogter, men det er også her, at kristendommen gør sit indtog i Danmark. I landet hersker hundredvis af høvdinge, men i midten af 900-tallet er høvdingen Gorm blevet så stærk, at han kan tvinge de andre til at pege på ham som deres overhoved.</desc><episode-num system="xmltv_ns">.0.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/5k3xeItd8XkdjjeJimFa0yh6BKt.jpg" /></programme>
 <programme start="20261107094500 +0000" stop="20261107102500 +0000" channel="playgulddk.dk"><title>Ingemann og kongerækken</title><desc>Danmark som kongerige er endnu ungt og sårbart, og landet er endnu befolket af de sidste vikinger. Stormændene har fortsat meget magt, da det er dem, der vælger kongen. Men gradvist får kirken mere og mere indflydelse, og kirken og kronen begynder så småt at gå hånd i hånd. Men perioden er præget af kaos, rivalisering og endda borgerkrig, og kongerne bestiller stort set ikke andet end at bekrige og endda myrde hinanden i deres begær efter kongemagten.</desc><episode-num system="xmltv_ns">.1.</episode-num><icon src="https://image.tmdb.org/t/p/w1280/5k3xeItd8XkdjjeJimFa0yh6BKt.jpg" /></programme>
 <programme start="20261107102500 +0000" stop="20261107110000 +0000" channel="playgulddk.dk"><title>Rungsted 4ever</title><desc>De forsvarende danmarksmestre fra Rungsted ishockeyklub gør tingene på deres egen måde - også selvom de andre klubber hader 'de rige svin' fra Nordsjælland. Rosie er holdets store stjerne og søn af klubbens ejer og er derfor under et kæmpe pres. Slagsbroren Gade langer håndmadder ud på banen og prøver at finde sin vej i livet udenfor isen, mens Guffe drømmer om at komme til udlandet. Forude venter holdets hidtil sværeste modstander, når de skal til kamp i Schweiz om en plads blandt Europas bedste.</desc><episode-num system="xmltv_ns">.0.</episode-num></programme>
