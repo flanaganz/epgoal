@@ -324,7 +324,7 @@
   <icon src="https://image.tmdb.org/t/p/w1280/d5kCx42cOit6yTAHKTlpXy3wvdM.jpg" /></programme>
   <programme start="20261108070000 +0000" stop="20261108071500 +0000" channel="dr1.dk">
     <title lang="da">TVA</title>
-    <desc lang="da">Sæson: 2026. '08.11.2026'. TV Avisen giver dig overblik over dagens vigtigste nyheder fra Danmark og verden omkring os. Få indblik og perspektiv på de største begivenheder og historier. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 2026. 'Tre fundet døde i mistænktes hus i Krakow'. I den polske by blev seks personer i går dræbt og 16 såret, da en 25-årig mand skød fra sin bil på en central plads i byen. Udover de dræbte og sårede er tre personer fundet døde hjemme hos den mistænkte gerningsmand. TV Avisen giver dig overblik over dagens vigtigste nyheder fra Danmark og verden omkring os. Få indblik og perspektiv på de største begivenheder og historier. Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     </programme>
   <programme start="20261108071500 +0000" stop="20261108080000 +0000" channel="dr1.dk">
@@ -367,7 +367,7 @@
     <icon src="https://image.tmdb.org/t/p/w1280/sAd7PNF6pcq3UpqZH7mxGAccFhf.jpg" /></programme>
   <programme start="20261108110000 +0000" stop="20261108111500 +0000" channel="dr1.dk">
     <title lang="da">TVA</title>
-    <desc lang="da">Sæson: 2026. '08.11.2026'. TV Avisen giver dig overblik over dagens vigtigste nyheder fra Danmark og verden omkring os. Få indblik og perspektiv på de største begivenheder og historier. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 2026. 'Landesorg efter skyderi i Kraków'. Chok og sorg fylder i Krakow i dag - dagen efter angrebet, der kostede 6 mennesker livet og sårede 16. Et angreb, der af myndigheder betegnes som et terrorangreb. Der er erklæret to dages landesorg i Polen. TV Avisen giver dig overblik over dagens vigtigste nyheder fra Danmark og verden omkring os. Få indblik og perspektiv på de største begivenheder og historier. Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     </programme>
   <programme start="20261108111500 +0000" stop="20261108115500 +0000" channel="dr1.dk">
@@ -402,7 +402,7 @@
       <value>11</value>
     </rating>
   </programme>
-  <programme start="20261108141500 +0000" stop="20261108144700 +0000" channel="dr1.dk">
+  <programme start="20261108141500 +0000" stop="20261108144800 +0000" channel="dr1.dk">
     <title lang="da">The Other Bennet Sister</title>
     <sub-title lang="da">(4:10)</sub-title>
     <desc lang="da">Sæson: 1. Episode: 4. 'The Other Bennet Sister'. Britisk romantisk komediedramaserie fra 2026. Netop som Mary er ved at finde sine fødder i London, hører hun noget, som truer hendes nyfundne selvtillid. Mr. Hayward lærer hende om poesi, men deres spirende relation kompliceres af det faktum, at mr. Hayward er forlovet. Tilladt for: 11.</desc>
@@ -411,7 +411,7 @@
       <value>11</value>
     </rating>
   </programme>
-  <programme start="20261108144700 +0000" stop="20261108145500 +0000" channel="dr1.dk">
+  <programme start="20261108144800 +0000" stop="20261108145500 +0000" channel="dr1.dk">
     <title lang="da">Vilde haver - gør det selv: Sådan laver du et kvashegn</title>
     <desc lang="da">Sæson: 1. Episode: 6. 'Sådan laver du et kvashegn'. Kvas er haveaffald, der normalt ender på genbrugsstationen. Men hvorfor ikke spare køreturen, og anvende dit kvas som fødekilder og skjulesteder for insekter og dyr i din have. I dette program viser havedesigner og biolog Katrine Turner, hvordan du selv kan lave et kvashegn og kvasbunker, så insekter og dyr får de bedste betingelser for at leve. Tilladt for: A.</desc>
     <category lang="da">Fritid</category>
@@ -470,7 +470,7 @@
     <title lang="da">Det søde liv - Citronmåne</title>
     <desc lang="da">Sæson: 2010. Episode: 26. 'Det søde liv'. Mette Blomsterberg inspirerer dig til at gå i gang med at lave dejlige desserter og kager. - Se opskrift m.m. på www.dr.dk/DR1/det-soede-liv Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    <icon src="https://image.tmdb.org/t/p/w1280/iyPl8F0YTgxj1FvHjF0cOqlFCpk.jpg" /></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/sU6v9tcI7m2L8nLHipmpLmi0jrD.jpg" /></programme>
   <programme start="20261108181000 +0000" stop="20261108190000 +0000" channel="dr1.dk">
     <title lang="da">Kinas smukke natur</title>
     <sub-title lang="da">(5:5)</sub-title>
@@ -551,7 +551,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/reaNiZb8DjDuHZPl2LVRYN4g2kd.jpg" /></programme>
   <programme start="20261108230500 +0000" stop="20261108235000 +0000" channel="dr1.dk">
     <title lang="da">Kragepigen</title>
     <sub-title lang="da">2 (2:6)</sub-title>
@@ -583,7 +583,7 @@
   <icon src="https://image.tmdb.org/t/p/w1280/qMOe40lxBNobowmOkOAmXvPK4RG.jpg" /></programme>
   <programme start="20261109012000 +0000" stop="20261109031500 +0000" channel="dr1.dk">
     <title lang="da">Inferno</title>
-    <desc lang="da">'Inferno'. Da Robert Langdon vågner op på et italiensk sygehus med hukommelsestab, må han slå sig sammen med lægen Sienna Brooks, som forhåbentlig kan hjælpe ham med at få hukommelsen tilbage. Sammen, og i tæt kamp mod uret, rejser de på kryds og tværs gennem Europa for at forsøge at stoppe en global konspiration. Landon er faldet over et spor, som kan føre ham til selveste Dante. Instruktør: Ron Howard. Medvirkende: Tom Hanks, Felicity Jones, Irrfan Khan, Ben Foster. Tilladt for: 15.</desc>
+    <desc lang="da">'Inferno'. Da Robert Langdon vågner op på et italiensk sygehus med hukommelsestab, må han slå sig sammen med lægen Sienna Brooks, som forhåbentlig kan hjælpe ham med at få hukommelsen tilbage. Sammen, og i tæt kamp mod uret, rejser de på kryds og tværs gennem Europa for at forsøge at stoppe en global konspiration. Landon er faldet over et spor, som kan føre ham til selveste Dante. Instruktør: Ron Howard. Medvirkende: Tom Hanks, Felicity Jones, Irrfan Khan, Ben Foster. Tilladt for: 11.</desc>
     <credits>
       <director>Ron Howard</director>
       <actor>Tom Hanks</actor>
@@ -599,7 +599,7 @@
     </credits>
     <category lang="da">Film</category>
     <rating system="DK">
-      <value>15</value>
+      <value>11</value>
     </rating>
   </programme>
   <programme start="20261109031500 +0000" stop="20261109040000 +0000" channel="dr1.dk">
@@ -621,7 +621,7 @@
     <sub-title lang="da">(3:6)</sub-title>
     <desc lang="da">Sæson: 1. Episode: 3. 'Island på kryds - og tværs'. Andri og hans firbenede ven Tomas er på en sælsom rejse rundt på Island. De vil opleve landets mangfoldige natur, men først og fremmest vil de hilse på en masse forskellige mennesker rundt omkring i det smukke, barske land. På hver deres måde får de charmeret sig ind på livet af alle, de møder. I dag møder Andri en meget interessant dame, som går rundt med en vædder i snor fulgt af en fåreflok, han hilser på en bilentusiast og efter et bad i et ostekar går turen videre, for der er meget mere på dagens program. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/mae8RsmtNWFYAvwkLOy0HwxXHUy.jpg" /></programme>
   <programme start="20261109055500 +0000" stop="20261109060000 +0000" channel="dr1.dk">
     <title lang="da">OBS</title>
     <desc lang="da">Episode: 16. 'OBS'. OBS Oplysning til Borgerne om samfundet\r Spar på energien - Energistyrelsen\r Fuglene synger \r Ældresagen - Telefonvenner Tilladt for: A.</desc>
@@ -893,7 +893,7 @@
     <sub-title lang="da">(4:6)</sub-title>
     <desc lang="da">Sæson: 1. Episode: 4. 'Island på kryds - og tværs'. Andri og hans firbenede ven Tomas er på en sælsom rejse rundt på Island. De vil opleve landets mangfoldige natur, men først og fremmest vil de hilse på en masse forskellige mennesker rundt omkring i det smukke, barske land. På hver deres måde får de charmeret sig ind på livet af alle, de møder. I dag skal Andri først til barber, senere skal han i nærkontakt med en kajak inden turen går videre i hans og Tomas' autocamper, for nu skal de ud og se på uhyrer og fabeldyr. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/mae8RsmtNWFYAvwkLOy0HwxXHUy.jpg" /></programme>
   <programme start="20261110060000 +0000" stop="20261110061000 +0000" channel="dr1.dk">
     <title lang="da">TVA</title>
     <desc lang="da">Sæson: 2026. '10.11.2026'. TV Avisen giver dig overblik over dagens vigtigste nyheder fra Danmark og verden omkring os. Få indblik og perspektiv på de største begivenheder og historier. Tilladt for: A.</desc>
@@ -975,7 +975,7 @@
     <title lang="da">Kender Du Typen? 2021 - Med rævehaler og kælerejer</title>
     <desc lang="da">Sæson: 2021. Episode: 1. 'Med rævehaler og kælerejer'. Hvem er det, der pynter sine gardiner med rævehaler, holder rejer i et akvarium og hellere vil gå nøgen end gå med uægte pels? Det skal livsstilseksperterne Anne Glad Wagner og Flemming Møldrup regne ud, når Kender Du Typen? besøger en topstylet lejlighed i centrum af København, hvor næsten alle møbler er hjemmefabrikerede. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/9AxRPfZqBTyrVxxKhRLpcZs81m8.jpg" /></programme>
   <programme start="20261110135500 +0000" stop="20261110152500 +0000" channel="dr1.dk">
     <title lang="da">Kriminalkommissær Barnaby</title>
     <sub-title lang="da">15 (1)</sub-title>
@@ -1130,7 +1130,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/reaNiZb8DjDuHZPl2LVRYN4g2kd.jpg" /></programme>
   <programme start="20261111013500 +0000" stop="20261111022500 +0000" channel="dr1.dk">
     <title lang="da">Den, der slap væk</title>
     <sub-title lang="da">(1:6)</sub-title>
@@ -1165,7 +1165,7 @@
     <sub-title lang="da">(5:6)</sub-title>
     <desc lang="da">Sæson: 1. Episode: 5. 'Island på kryds - og tværs'. Andri og hans firbenede ven Tomas er på en sælsom rejse rundt på Island. De vil opleve landets mangfoldige natur, men først og fremmest vil de hilse på en masse forskellige mennesker rundt omkring i det smukke, barske land. På hver deres måde får de charmeret sig ind på livet af alle, de møder. I dag er vejret smukt, og Andri og Tomas skal spise frokost hos kokken Keli "Rock". Her bliver Andri tvunget til at filetere friskfangede fisk, men fiskestanken er så slem, at han med stor glæde dykker ned i et skønt svømmebassin. Nu skal det gå stærkt , for der er meget mere på dagens program. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/mae8RsmtNWFYAvwkLOy0HwxXHUy.jpg" /></programme>
   <programme start="20261111060000 +0000" stop="20261111061000 +0000" channel="dr1.dk">
     <title lang="da">TVA</title>
     <desc lang="da">Sæson: 2026. '11.11.2026'. TV Avisen giver dig overblik over dagens vigtigste nyheder fra Danmark og verden omkring os. Få indblik og perspektiv på de største begivenheder og historier. Tilladt for: A.</desc>
@@ -1238,12 +1238,12 @@
     <title lang="da">Hammerslag 2024 - Husbåden</title>
     <desc lang="da">Sæson: 2024. Episode: 2. 'Husbåden'. Husbåde i København er på programmet, når Sofie Østergaard byder velkommen indenfor i to meget forskellige hjem. Kristine Virén og Lars Lyng konkurrerer mod Mira Lie Nielsen og Christian Torp Carlsen om at gætte prisen på en gammel flodpram fra Holland, der nu er omdannet til 50 kvadratmeter husbåd. Til slut bliver eksperterne blæst bagover af begejstring over en gammel bilfærge, der er blevet forvandlet til et hjem med et utal af kreative løsninger. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/pBpFpTFSSYwzosZFXxIoKPT8qwU.jpg" /></programme>
   <programme start="20261111132500 +0000" stop="20261111135500 +0000" channel="dr1.dk">
     <title lang="da">Kender Du Typen? 2021 - Med nypudsede sko og lakridspiber</title>
     <desc lang="da">Sæson: 2021. Episode: 2. 'Med nypudsede sko og lakridspiber'. Hvem er det, der aldrig falder i søvn foran fjernsynet og som elsker lakridspiber? Det skal livsstilseksperterne Anne Glad Wagner og Flemming Møldrup regne ud, når Kender Du Typen? besøger en herskabslejlighed på Frederiksberg, der rummer et utal af nypudsede sko og masser af bøger. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/9AxRPfZqBTyrVxxKhRLpcZs81m8.jpg" /></programme>
   <programme start="20261111135500 +0000" stop="20261111152500 +0000" channel="dr1.dk">
     <title lang="da">Kriminalkommissær Barnaby</title>
     <sub-title lang="da">15 (2)</sub-title>
@@ -1331,7 +1331,7 @@
     <title lang="da">Kender Du Typen? 2025 - Pool og panikknap</title>
     <desc lang="da">Sæson: 2025. Episode: 1. 'Pool og panikknap'. Hvem springer året rundt i sin egen infinity pool i baghaven? Og boltrer sig på 400 kvadratmeter i Varde i et hjem fyldt med stærke kvinder? Det skal livsstilseksperterne Anne Glad Wagner og Jacob Holst Mouritzen regne ud, når Kender Du Typen? besøger Margrethe Vestagers tidligere gymnasiekammerat. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/9AxRPfZqBTyrVxxKhRLpcZs81m8.jpg" /></programme>
   <programme start="20261111200000 +0000" stop="20261111202500 +0000" channel="dr1.dk">
     <title lang="da">TVA</title>
     <desc lang="da">Sæson: 2026. '11.11.2026'. TV Avisen giver dig overblik over dagens vigtigste nyheder fra Danmark og verden omkring os. Få indblik og perspektiv på de største begivenheder og historier. Tilladt for: A.</desc>
@@ -2521,7 +2521,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/7otoQ4JleLw3qZnMCqT4uqH7svo.jpg" /></programme>
   <programme start="20261109225500 +0000" stop="20261109235000 +0000" channel="tv2.dk">
     <title lang="da">24 timer på skadestuen</title>
     <desc lang="da">Sæson: 19. Episode: 10. '24 timer på skadestuen'. Leah er kommet slemt til skade efter en rideulykke, mens femårige Emlyn behandles på akutmodtagelsen efter at have skåret sig i hånden. Medvirkende: Anthony Philipson. Tilladt for: 11.</desc>
@@ -2718,7 +2718,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/7otoQ4JleLw3qZnMCqT4uqH7svo.jpg" /></programme>
   <programme start="20261110222000 +0000" stop="20261110231500 +0000" channel="tv2.dk">
     <title lang="da">24 timer på skadestuen</title>
     <desc lang="da">Sæson: 19. Episode: 12. '24 timer på skadestuen'. 35-årige Richard er kollapset derhjemme, og lægerne frygter, at årsagen er alvorlig. En tagreparation er gået helt galt, og Colin må en tur på skadestuen. Medvirkende: Anthony Philipson. Tilladt for: 11.</desc>
@@ -2897,7 +2897,7 @@
     <title lang="da">Operation X: Mad, magt og rottelort</title>
     <desc lang="da">'Operation X: Mad, magt og rottelort'. Korn fra et lager massivt forurenet med rottelort, mug og skimmel er blevet til mel og brød, som danskerne har købt og spist. Morten Spiegelhauer undersøger, hvordan det kunne ske. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/cxO9QcWwFtGWHxJACJWrKhcst6I.jpg" /></programme>
   <programme start="20261111200000 +0000" stop="20261111203000 +0000" channel="tv2.dk">
     <title lang="da">Aften News</title>
     <desc lang="da">'Aften News'. Hvad er der sket i dag? Få seneste nyheder fra både Danmark og udlandet i 'Aften News'. Tilladt for: A.</desc>
@@ -2920,7 +2920,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/7otoQ4JleLw3qZnMCqT4uqH7svo.jpg" /></programme>
   <programme start="20261111222500 +0000" stop="20261111232000 +0000" channel="tv2.dk">
     <title lang="da">24 timer på skadestuen</title>
     <desc lang="da">Sæson: 19. Episode: 12. '24 timer på skadestuen'. 35-årige Richard er kollapset derhjemme, og lægerne frygter, at årsagen er alvorlig. En tagreparation er gået helt galt, og Colin må en tur på skadestuen. Medvirkende: Anthony Philipson. Tilladt for: 11.</desc>
@@ -2993,7 +2993,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/7otoQ4JleLw3qZnMCqT4uqH7svo.jpg" /></programme>
   <programme start="20261108054000 +0000" stop="20261108063500 +0000" channel="tv2zulu.dk">
     <title lang="da">Alarmcentralen</title>
     <desc lang="da">Sæson: 3. Episode: 8. 'Moment O Madness'. Døgnet rundt står brandmænd og ambulance-reddere klar til at rykke ud, når folk ringer til alarmcentralen for at få hjælp. Blot et enkelt telefonopkald kan betyde liv og død. Tilladt for: 11.</desc>
@@ -3001,7 +3001,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/7otoQ4JleLw3qZnMCqT4uqH7svo.jpg" /></programme>
   <programme start="20261108063500 +0000" stop="20261108073000 +0000" channel="tv2zulu.dk">
     <title lang="da">24 timer på skadestuen</title>
     <desc lang="da">Sæson: 16. Episode: 13. 'Field of Dreams'. Den 42-årige Mark er blevet ramt af en bil, og den 56-årige John er kommet slemt til skade med sine tæer, da han slog græssplænen med sin plæneklipper. Medvirkende: Anthony Philipson. Tilladt for: 11.</desc>
@@ -3179,7 +3179,7 @@
   <icon src="https://image.tmdb.org/t/p/w1280/dFQtj8FZ2ULwgKuvOp19zEU1ZTO.jpg" /></programme>
   <programme start="20261109001500 +0000" stop="20261109005000 +0000" channel="tv2zulu.dk">
     <title lang="da">Grænsepatruljen Australien</title>
-    <desc lang="da">Sæson: 8. Episode: 1. 'Grænsepatruljen'. Hver dag rejser flere end 20.000 passagerer ind i Australien med skib eller fly, og de skal alle igennem grænsekontrollen, før de bliver lukket ind i landet. De mange kvinder og mænd, der bogstavelig talt udgør Australiens frontlinje, er bl.a. på udkig efter rejsende, der måske ikke er, hvad de udgiver sig for, narkokurerer, illegale immigranter og mulige terrorister. Medvirkende: Grant Bowler, Chris Spradlin, Andy Trieu. Tilladt for: 11.</desc>
+    <desc lang="da">Sæson: 8. Episode: 1. 'Grænsepatruljen'. Hver dag rejser flere end 20.000 passagerer ind i Australien med skib eller fly, og de skal alle igennem grænsekontrollen, før de bliver lukket ind i landet. De mange kvinder og mænd, der bogstagelig talt udgør Australiens frontlinje, er bl.a. på udkig efter rejsende, der måske ikke er, hvad de udgiver sig for, narkokurerer, illegale immigranter og mulige terrorister. Medvirkende: Grant Bowler, Chris Spradlin, Andy Trieu. Tilladt for: 11.</desc>
     <credits>
       <actor>Grant Bowler</actor>
       <actor>Chris Spradlin</actor>
@@ -3207,7 +3207,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/7otoQ4JleLw3qZnMCqT4uqH7svo.jpg" /></programme>
   <programme start="20261109032000 +0000" stop="20261109040000 +0000" channel="tv2zulu.dk">
     <title lang="da">Verdensmænd</title>
     <desc lang="da">Sæson: 5. Episode: 4. 'Can you make my friend not shit in his pants?'. Andrea har arrangeret naturbad og en velsignelse. Semi-spirituelle aktiviteter, som Tobias tager overraskende afslappet. Bo er naturligvis stærkt udfordret af at skulle sidde ned og ikke sige noget. Tilladt for: A.</desc>
@@ -3230,7 +3230,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/7otoQ4JleLw3qZnMCqT4uqH7svo.jpg" /></programme>
   <programme start="20261109060500 +0000" stop="20261109070000 +0000" channel="tv2zulu.dk">
     <title lang="da">24 timer på skadestuen</title>
     <desc lang="da">Sæson: 17. Episode: 6. 'Someone To Talk To'. Manden Basil er faldet ned ad trapperne derhjemme, den lille Robyn har fået en stor splint bagi, og kvinden Alexandra har en mystisk gevækst på skulderen. Instruktører: Jonathan Low, Helen Crampton, Joe John. Tilladt for: 11.</desc>
@@ -3475,7 +3475,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/7otoQ4JleLw3qZnMCqT4uqH7svo.jpg" /></programme>
   <programme start="20261110033500 +0000" stop="20261110041500 +0000" channel="tv2zulu.dk">
     <title lang="da">Verdensmænd</title>
     <desc lang="da">Sæson: 5. Episode: 6. 'Endelig er vi nøgne sammen'. Turen fortsætter fra Canada mod New York, og undervejs afsløres det, at Tobias' barndom var ganske kummerlig. Især set med Mark Le Fevres øjne! Tilladt for: A.</desc>
@@ -3493,7 +3493,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/7otoQ4JleLw3qZnMCqT4uqH7svo.jpg" /></programme>
   <programme start="20261110061500 +0000" stop="20261110071000 +0000" channel="tv2zulu.dk">
     <title lang="da">24 timer på skadestuen</title>
     <desc lang="da">Sæson: 17. Episode: 8. 'Kith &amp; Kin'. Tre kæmper for livet på skadestuen - Gus på 49 år er faldet ned af en stige, Daisy på 19 år er dårlig efter en operation, og Leonard på 93 år har slået hovedet. Medvirkende: Anthony Philipson. Tilladt for: 11.</desc>
@@ -3741,7 +3741,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/7otoQ4JleLw3qZnMCqT4uqH7svo.jpg" /></programme>
   <programme start="20261111040500 +0000" stop="20261111043800 +0000" channel="tv2zulu.dk">
     <title lang="da">Verdensmænd</title>
     <desc lang="da">Sæson: 5. Episode: 8. 'Verdensmænd'. Tobias' udfordring kommer nærmere, og snart skal han stå på en comedy klub i New York og optræde på engelsk. En disciplin, han aldrig selv har turdet kaste sig ud i. Tilladt for: A.</desc>
@@ -3762,7 +3762,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/7otoQ4JleLw3qZnMCqT4uqH7svo.jpg" /></programme>
   <programme start="20261111061500 +0000" stop="20261111071000 +0000" channel="tv2zulu.dk">
     <title lang="da">24 timer på skadestuen</title>
     <desc lang="da">Sæson: 17. Episode: 10. 'Sliding Doors'. Skolepigen Meldred hastes til skadestuen, da hun er blevet stukket ned på vej til skole. Sportskommentatoren Andrew har en hævet ankel og har svært ved at gå. Medvirkende: Anthony Philipson. Tilladt for: 11.</desc>
@@ -4012,7 +4012,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/7otoQ4JleLw3qZnMCqT4uqH7svo.jpg" /></programme>
   <programme start="20261112041000 +0000" stop="20261112052500 +0000" channel="tv2zulu.dk">
     <title lang="da">Verdensmænd</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'Finland: Fuck, det starter dårligt!'. Tobias Dybvad har sat sig for at teste Nikolaj Stokholms eventyrlyst, men Nikolaj er ikke meget for at slippe kontrollen og sine elskede vante rammer. Første destination tager ham heldigvis ikke særlig langt, men til en tryg, lille havn, Nikolaj kender særdeles godt. Tilladt for: A.</desc>
@@ -4526,7 +4526,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/4pIpf4VRuiadvrkNe3YbdWMmPuO.jpg" /></programme>
   <programme start="20261109164500 +0000" stop="20261109174500 +0000" channel="tv2charlie.dk">
     <title lang="da">Death in Paradise</title>
     <desc lang="da">Sæson: 13. 'Livsfarlig fest'. Det er blevet jul på den caribiske paradis-ø, men efterforskeren Neville må hurtigt sande, at ikke alle har været artige i år. En rig forretningsmand bliver nemlig fundet død i bunden af en kløft, og hans sidste ord indikerer, at der ikke bare er tale om en ulykke. Medvirkende: Elizabeth Bourgine, Don Warrington, Danny John-Jules, Tobi Bakare. Tilladt for: 11.</desc>
@@ -4546,7 +4546,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/4pIpf4VRuiadvrkNe3YbdWMmPuO.jpg" /></programme>
   <programme start="20261109174500 +0000" stop="20261109184000 +0000" channel="tv2charlie.dk">
     <title lang="da">Hudson og Rex</title>
     <desc lang="da">Sæson: 5. Episode: 7. 'Hudson og Rex'. To mordere flygter fra St. Johns kvinde-fængsel. Banden må nu forsøge at få fat i dem, men det bliver lettere sagt end gjort, når kvindernes narrestreger forvandler dem til moderne folkehelte. Instruktør: Eleanore Lindo. Medvirkende: John Reardon, Mayko Nguyen, Kevin Hanchard, Justin Kelly. Tilladt for: 7.</desc>
@@ -4965,7 +4965,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/4pIpf4VRuiadvrkNe3YbdWMmPuO.jpg" /></programme>
   <programme start="20261110164500 +0000" stop="20261110174500 +0000" channel="tv2charlie.dk">
     <title lang="da">Death in Paradise</title>
     <desc lang="da">Sæson: 13. Episode: 2. 'Døden i paradis'. I bowlinghallen bliver en lokal plejehjemsbeboer fundet myrdet, stukket ihjel med sine egne strikkepinde, og med et mystisk billede af en død mand i hånden. Tilladt for: 11.</desc>
@@ -4973,7 +4973,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/4pIpf4VRuiadvrkNe3YbdWMmPuO.jpg" /></programme>
   <programme start="20261110174500 +0000" stop="20261110184000 +0000" channel="tv2charlie.dk">
     <title lang="da">Hudson og Rex</title>
     <desc lang="da">Sæson: 5. Episode: 8. 'Hudson og Rex'. Donovans datter Camilla finder en myrdet studerende til en fest. Charlie, Sarah og Jesse går på jagt efter gerningsmanden, mens Camilla ønsker at skrive en artikel om det til sin praktik som journalist. Instruktør: Jenna Neepin. Medvirkende: John Reardon, Mayko Nguyen, Kevin Hanchard, Justin Kelly. Tilladt for: 7.</desc>
@@ -5385,7 +5385,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/4pIpf4VRuiadvrkNe3YbdWMmPuO.jpg" /></programme>
   <programme start="20261111164500 +0000" stop="20261111175000 +0000" channel="tv2charlie.dk">
     <title lang="da">Death in Paradise</title>
     <desc lang="da">Sæson: 13. Episode: 3. 'Døden i paradis'. Da en berømt kok bliver forgiftet, forvirres teamet og må sætte spørgsmålstegn ved, hvordan og hvornår giften blev forvaltet. Tilladt for: 11.</desc>
@@ -5393,7 +5393,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/4pIpf4VRuiadvrkNe3YbdWMmPuO.jpg" /></programme>
   <programme start="20261111175000 +0000" stop="20261111184500 +0000" channel="tv2charlie.dk">
     <title lang="da">Hudson og Rex</title>
     <desc lang="da">Sæson: 5. Episode: 9. 'Hudson og Rex'. En vigtig retssag bringes i fare, da Sarahs vidnesbyrd bliver udfordret af en tidligere rival. Charlie, Rex og resten af teamet må skynde sig at finde nye beviser, før det er for sent. Instruktør: Harvey Crossland. Medvirkende: John Reardon, Mayko Nguyen, Kevin Hanchard, Justin Kelly. Tilladt for: 7.</desc>
@@ -6816,19 +6816,18 @@
   </programme>
   <programme start="20261109150500 +0000" stop="20261109160500 +0000" channel="TV3+.dk">
     <title lang="da">NCIS</title>
-    <desc lang="da">Sæson: 15. Episode: 4. 'Skeleton Crew'. Vance byder velkommen til en ny mand til NCIS, Sloane, en retsmedicinsk psykolog, som han har trukket i mange tråde for at få flyttet fra Californien, til hovedkvarteret. Instruktør: Rocky Carroll. Medvirkende: Mark Harmon, Pauley Perrette, Sean Murray, Wilmer Valderrama. Tilladt for: 15.</desc>
+    <desc lang="da">Sæson: 15. Episode: 4. 'NCIS'. Vance byder velkommen til en ny mand til NCIS, Sloane, en retsmedicinsk psykolog, som han har trukket i mange tråde for at få flyttet fra Californien, til hovedkvarteret. Medvirkende: David McCallum, Sean Murray, Mark Harmon, Brian Dietzen. Tilladt for: 15.</desc>
     <credits>
-      <director>Rocky Carroll</director>
-      <actor>Mark Harmon</actor>
-      <actor>Pauley Perrette</actor>
-      <actor>Sean Murray</actor>
-      <actor>Wilmer Valderrama</actor>
-      <actor>Emily Wickersham</actor>
-      <actor>Brian Dietzen</actor>
-      <actor>Duane Henry</actor>
-      <actor>Rocky Carroll</actor>
       <actor>David McCallum</actor>
-      <actor>Trevor Donovan</actor>
+      <actor>Sean Murray</actor>
+      <actor>Mark Harmon</actor>
+      <actor>Brian Dietzen</actor>
+      <actor>Pauley Perrette</actor>
+      <actor>Rocky Carroll</actor>
+      <actor>Michael Weatherly</actor>
+      <actor>Cote de Pablo</actor>
+      <actor>Emily Wickersham</actor>
+      <actor>Wilmer Valderrama</actor>
     </credits>
     <category lang="da">Serier</category>
     <rating system="DK">
@@ -12877,7 +12876,7 @@
     <icon src="https://image.tmdb.org/t/p/w1280/bhteeIlmhSv2rw52as2gsnX47GC.jpg" /></programme>
   <programme start="20261109111500 +0000" stop="20261109113500 +0000" channel="nickelodeon.dk">
     <title lang="da">Henry Danger</title>
-    <desc lang="da">Sæson: 5. Episode: 15. 'Jeg drømmer om fare'. Da Charlotte har en drøm, hvor hun næsten kysser Faredrengen, undgår hun efterfølgende Henry af frygt for, at drømmen bliver til virkelighed. Instruktør: Adam Weissman. Medvirkende: Jace Norman, Cooper Barnes, Sean Ryan Fox, Riele Downs. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 5. Episode: 16. 'Jeg drømmer om fare'. Da Charlotte har en drøm, hvor hun næsten kysser Faredrengen, undgår hun efterfølgende Henry af frygt for, at drømmen bliver til virkelighed. Instruktør: Adam Weissman. Medvirkende: Jace Norman, Cooper Barnes, Sean Ryan Fox, Riele Downs. Tilladt for: A.</desc>
     <credits>
       <director>Adam Weissman</director>
       <actor>Jace Norman</actor>
@@ -18442,7 +18441,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/5ZZzdNEQ1a0tV6vUiEh87Y1FUps.jpg" /></programme>
   <programme start="20261108103000 +0000" stop="20261108104500 +0000" channel="cartoonnetwork.dk">
     <title lang="da">Gumball: Darwins blå bog</title>
     <desc lang="da">Sæson: 1. Episode: 2. 'Clayton'. Darwin skal finde et foto af Clayton han kan lægge på forsiden af skolen blå bog – men han begår den fejl at bede om hjælp fra Tobias der selv har udset sig en plads på forsiden! Indeholder hylemorsomme klip fra de første seks sæsoner af 'Gumballs fantastiske verden'. Medvirkende: Hugo Harold-Harrison, Jacob Hopkins, Christian J. Simon. Tilladt for: 7.</desc>
@@ -18455,7 +18454,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/5ZZzdNEQ1a0tV6vUiEh87Y1FUps.jpg" /></programme>
   <programme start="20261108104500 +0000" stop="20261108105500 +0000" channel="cartoonnetwork.dk">
     <title lang="da">Gumball: Darwins blå bog</title>
     <desc lang="da">Sæson: 1. Episode: 3. 'Carrie'. Darwin prøver at finde et foto af Carrie til forsiden af skolens blå bog – men de ender med at mindes alle de spøgelsesløjer de gennem tiden har lavet sammen. Indeholder hylemorsomme klip fra de første seks sæsoner af 'Gumballs fantastiske verden'. Medvirkende: Mic Graves, Hugo Harold-Harrison, Jacob Hopkins, Jessica McDonald. Tilladt for: 7.</desc>
@@ -18470,7 +18469,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/5ZZzdNEQ1a0tV6vUiEh87Y1FUps.jpg" /></programme>
   <programme start="20261108105500 +0000" stop="20261108111000 +0000" channel="cartoonnetwork.dk">
     <title lang="da">Gumball: Darwins blå bog</title>
     <desc lang="da">Sæson: 1. Episode: 4. 'Alan'. Darwin vil placere Alan på forsiden af skolens årbog – men Alans påståede beskedenhed kommer i vejen. Indeholder hylemorsomme klip fra de første seks sæsoner af 'Gumballs fantastiske verden'. Medvirkende: Hugo Harold-Harrison, Jacob Hopkins, Jessica McDonald, Christian J. Simon. Tilladt for: 7.</desc>
@@ -18484,7 +18483,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/5ZZzdNEQ1a0tV6vUiEh87Y1FUps.jpg" /></programme>
   <programme start="20261108111000 +0000" stop="20261108112500 +0000" channel="cartoonnetwork.dk">
     <title lang="da">Gumball: Darwins blå bog</title>
     <desc lang="da">Sæson: 1. Episode: 5. 'Sarah'. Darwin beder Sarah om et foto som han kan lægge på skolens blå bog. Men da Sarah prøver at hjælpe, går der kludder i det. Indeholder hylemorsomme klip fra de første seks sæsoner af 'Gumballs fantastiske verden'. Medvirkende: Jacob Hopkins, Jessica McDonald, Christian J. Simon. Tilladt for: 7.</desc>
@@ -18497,7 +18496,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/5ZZzdNEQ1a0tV6vUiEh87Y1FUps.jpg" /></programme>
   <programme start="20261108112500 +0000" stop="20261108113500 +0000" channel="cartoonnetwork.dk">
     <title lang="da">Gumball: Darwins blå bog</title>
     <desc lang="da">Sæson: 1. Episode: 6. 'Lærerne'. Darwin spørger sine venner hvilken lærer der fortjener at komme på forsiden af skolens blå bog, og de har et hyr med at finde en værdig kandidat. Indeholder hylemorsomme klip fra de første seks sæsoner af 'Gumballs fantastiske verden'. Medvirkende: Nicolas Cantu, Hugo Harold-Harrison, Jacob Hopkins, Jessica McDonald. Tilladt for: 7.</desc>
@@ -18513,7 +18512,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/5ZZzdNEQ1a0tV6vUiEh87Y1FUps.jpg" /></programme>
   <programme start="20261108113500 +0000" stop="20261108115000 +0000" channel="cartoonnetwork.dk">
     <title lang="da">Gumballs (for)underlige verden</title>
     <desc lang="da">Sæson: 1. Episode: 11. 'Appen'. Gumball og Darwin må stoppe en ondskabsfuld social medie-app fra at forvandle alle børn i Elmore til tankeløse internet-trends-maskiner. Tilladt for: A.</desc>
@@ -23846,7 +23845,7 @@
     <title lang="da">Botswana - højdepunkter</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'Født til at kæmpe'. Fra sårbare løveunger til deres bytte, der er født klar til at løbe, kan du opleve Botswanas vildmark gennem øjnene på dens yngste "indbyggere". Nogle familiedynamikker er fyldt med konkurrence, mens andre, som elefantflokkene, trives med urokkelig hengivenhed. Oplev historierne om Botswanas yngste dyr - stærke, dramatiske og fulde af håb. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/zhZ4QSYfvG2W2pIaycHnRygYRpj.jpg" /></programme>
   <programme start="20261108144000 +0000" stop="20261108152500 +0000" channel="natgeowild.dk">
     <title lang="da">Crocodiles of the Okavango</title>
     <desc lang="da">'Crocodiles of the Okavango'. I Botswanas Okavango-delta påbegynder en ung nilkrokodille sin første sæson som mor. Efter at have fået chancen for at yngle står hun over for hård konkurrence om et område til redebygning og udfordringen med at beskytte sine æg gennem flere måneder med oversvømmelser, brændende hede og nådesløse rovdyr. Varaner, manguster, bavianer og rivaliserende krokodiller truer alle sammen hendes rede, mens hun holder vagt. Da hendes unger endelig udklækkes, bærer hun dem i sikkerhed i sine kæber, men deres rejse er kun lige begyndt. I en verden domineret af vand, hvor selv krokodiller jager deres egen slags, vil kun få af hendes unger overleve. For denne førstegangsmor er hvert valg afgørende på et udklækningssted, hvor overlevelse langtfra er garanteret. Tilladt for: A.</desc>
@@ -23915,7 +23914,7 @@
     <title lang="da">Botswana - højdepunkter</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'Født til at kæmpe'. Fra sårbare løveunger til deres bytte, der er født klar til at løbe, kan du opleve Botswanas vildmark gennem øjnene på dens yngste "indbyggere". Nogle familiedynamikker er fyldt med konkurrence, mens andre, som elefantflokkene, trives med urokkelig hengivenhed. Oplev historierne om Botswanas yngste dyr - stærke, dramatiske og fulde af håb. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/zhZ4QSYfvG2W2pIaycHnRygYRpj.jpg" /></programme>
   <programme start="20261108233500 +0000" stop="20261109002000 +0000" channel="natgeowild.dk">
     <title lang="da">Crocodiles of the Okavango</title>
     <desc lang="da">'Crocodiles of the Okavango'. I Botswanas Okavango-delta påbegynder en ung nilkrokodille sin første sæson som mor. Efter at have fået chancen for at yngle står hun over for hård konkurrence om et område til redebygning og udfordringen med at beskytte sine æg gennem flere måneder med oversvømmelser, brændende hede og nådesløse rovdyr. Varaner, manguster, bavianer og rivaliserende krokodiller truer alle sammen hendes rede, mens hun holder vagt. Da hendes unger endelig udklækkes, bærer hun dem i sikkerhed i sine kæber, men deres rejse er kun lige begyndt. I en verden domineret af vand, hvor selv krokodiller jager deres egen slags, vil kun få af hendes unger overleve. For denne førstegangsmor er hvert valg afgørende på et udklækningssted, hvor overlevelse langtfra er garanteret. Tilladt for: A.</desc>
@@ -23978,7 +23977,7 @@
     <title lang="da">10 dyr, der kan slå dig ihjel: Dødbringende møder</title>
     <desc lang="da">Sæson: 1. Episode: 1. '10 dyr, der kan slå dig ihjel: Dødbringende møder'. Fra spækhuggere til elge - der er mange måder at dø på derude. Chancen for at blive dræbt af et dyr er måske lille, men for en sikkerheds skyld... her er ti måder, man kan dø på, og måske hvordan man undgår det. Yukon-dyrlæge Michelle Oakley og naturfilmskaber Filipe DeAndrade trækker på deres egen viden og personlige anekdoter for at lære os en ting eller to om væsner, der kan slå dig ihjel. Men har dyrene lyst til det... virkelig? Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/rYiyWUTvFvyEoNbw3bFIBsX5Eun.jpg" /></programme>
   <programme start="20261109080000 +0000" stop="20261109084500 +0000" channel="natgeowild.dk">
     <title lang="da">Seen on Safari</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'Baboons in Charge'. 50 bavianer kæmper mod en sulten leopard, og en elefantfamilie samarbejder for at redde den mindste i flokken. Når tørketiden topper, betyder det at tage på safari, at man tjekker de resterende vandhuller. En leopard jager bizarre fisk i mudderet, mens bavianer plyndrer reder ved flodbredden. Hver begivenhed klarlægges og forklares og byder på en stærk, følelsesladet og informativ tur. Tilladt for: A.</desc>
@@ -23993,7 +23992,7 @@
     <title lang="da">10 dyr, der kan slå dig ihjel: Dødbringende møder</title>
     <desc lang="da">Sæson: 1. Episode: 1. '10 dyr, der kan slå dig ihjel: Dødbringende møder'. Fra spækhuggere til elge - der er mange måder at dø på derude. Chancen for at blive dræbt af et dyr er måske lille, men for en sikkerheds skyld... her er ti måder, man kan dø på, og måske hvordan man undgår det. Yukon-dyrlæge Michelle Oakley og naturfilmskaber Filipe DeAndrade trækker på deres egen viden og personlige anekdoter for at lære os en ting eller to om væsner, der kan slå dig ihjel. Men har dyrene lyst til det... virkelig? Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/rYiyWUTvFvyEoNbw3bFIBsX5Eun.jpg" /></programme>
   <programme start="20261109101500 +0000" stop="20261109110000 +0000" channel="natgeowild.dk">
     <title lang="da">Afrikas Big Five</title>
     <desc lang="da">'Afrikas Big Five'. Afrikas mest ikoniske dyr er blevet kaldt "The Big Five" af trofæjægere. Se disse fantastiske skabninger kæmpe mod elementerne og hinanden for at overleve. Tilladt for: A.</desc>
@@ -24044,7 +24043,7 @@
     <icon src="https://image.tmdb.org/t/p/w1280/dw3s2ijGQoNqHuTbtgh6WaL7PNq.jpg" /></programme>
   <programme start="20261109170000 +0000" stop="20261109174500 +0000" channel="natgeowild.dk">
     <title lang="da">Critter Fixers: Country Vets: Compilations</title>
-    <desc lang="da">Sæson: 5. Episode: 2. 'Critter Fixers: Country Vets: Compilations'. Fra akutte kontorbesøg til opkald fra bondegårde i hele det landlige Georgia behandler Critter Fixers veterinærteam unikke tilfælde, man kun finder ude på landet. Medvirkende: Sullivan Jones, Joe Cernaro, Sylvia Moore Myers. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 5. Episode: 2. 'Critter Fixers: Country Vets: Compilations'. Critter Fixer-holdet hjælper nogle bedste venner, der bider over mere, end de kan tygge. Hunden Olive har ædt en hel tennisbold, puddelen Casper har spist en hårelastik, og en højtelsket tegu-øgle har et farligt gastronomisk problem. En hund fisker efter problemer med en krog i munden, en hvalp piber sig ud af ballade, og en anden hund formår at sluge et sæt undertøj. Til sidst kæmper de mod uret for at fjerne et helt stykke legetøj fra en hunds mave, før det forårsager uoprettelig skade. Medvirkende: Sullivan Jones, Joe Cernaro, Sylvia Moore Myers. Tilladt for: A.</desc>
     <credits>
       <actor>Sullivan Jones</actor>
       <actor>Joe Cernaro</actor>
@@ -24054,7 +24053,7 @@
     </programme>
   <programme start="20261109174500 +0000" stop="20261109182500 +0000" channel="natgeowild.dk">
     <title lang="da">Critter Fixers: Country Vets: Compilations</title>
-    <desc lang="da">Sæson: 5. Episode: 1. 'Critter Fixers: Country Vets: Compilations'. Fra akutte kontorbesøg til opkald fra bondegårde i hele det landlige Georgia behandler Critter Fixers veterinærteam unikke tilfælde, man kun finder ude på landet. Medvirkende: Sullivan Jones, Joe Cernaro, Sylvia Moore Myers. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 5. Episode: 1. 'Critter Fixers: Country Vets: Compilations'. Dyrlægerne hos Critter Fixers står over for den ene nødsituation efter den anden. Hunden Max ankommer faretruende overophedet, og årsagen er uklar. Hvalpen Sunny skal opereres efter en ulykke med et pizzabud. Hunden Koda begynder at ryste, og en skraldespand kan indeholde en ledetråd. Zoeys toiletproblemer fører til et chokerende røntgenbillede for den gamle hund, mens en anden hunds klapperslangebid bliver mere presserende, efter at hendes familie må ringe rundt for at skaffe en modgift. Charlotte, en hårdt såret hvalp fundet bag en skole, modtager akut behandling og begynder en lang vej mod bedring. Efterhånden som sagerne fortsætter med at komme ind, handler teamet hurtigt, finder svar og giver hver patient den pleje, de har brug for, for at komme på benene igen. Medvirkende: Sullivan Jones, Joe Cernaro, Sylvia Moore Myers. Tilladt for: A.</desc>
     <credits>
       <actor>Sullivan Jones</actor>
       <actor>Joe Cernaro</actor>
@@ -24069,7 +24068,7 @@
     </programme>
   <programme start="20261109191500 +0000" stop="20261109200000 +0000" channel="natgeowild.dk">
     <title lang="da">Critter Fixers: Country Vets: Compilations</title>
-    <desc lang="da">Sæson: 5. Episode: 2. 'Critter Fixers: Country Vets: Compilations'. Fra akutte kontorbesøg til opkald fra bondegårde i hele det landlige Georgia behandler Critter Fixers veterinærteam unikke tilfælde, man kun finder ude på landet. Medvirkende: Sullivan Jones, Joe Cernaro, Sylvia Moore Myers. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 5. Episode: 2. 'Critter Fixers: Country Vets: Compilations'. Critter Fixer-holdet hjælper nogle bedste venner, der bider over mere, end de kan tygge. Hunden Olive har ædt en hel tennisbold, puddelen Casper har spist en hårelastik, og en højtelsket tegu-øgle har et farligt gastronomisk problem. En hund fisker efter problemer med en krog i munden, en hvalp piber sig ud af ballade, og en anden hund formår at sluge et sæt undertøj. Til sidst kæmper de mod uret for at fjerne et helt stykke legetøj fra en hunds mave, før det forårsager uoprettelig skade. Medvirkende: Sullivan Jones, Joe Cernaro, Sylvia Moore Myers. Tilladt for: A.</desc>
     <credits>
       <actor>Sullivan Jones</actor>
       <actor>Joe Cernaro</actor>
@@ -24094,7 +24093,7 @@
     </programme>
   <programme start="20261109221000 +0000" stop="20261109225500 +0000" channel="natgeowild.dk">
     <title lang="da">Critter Fixers: Country Vets: Compilations</title>
-    <desc lang="da">Sæson: 5. Episode: 2. 'Critter Fixers: Country Vets: Compilations'. Fra akutte kontorbesøg til opkald fra bondegårde i hele det landlige Georgia behandler Critter Fixers veterinærteam unikke tilfælde, man kun finder ude på landet. Medvirkende: Sullivan Jones, Joe Cernaro, Sylvia Moore Myers. Tilladt for: A.</desc>
+    <desc lang="da">Sæson: 5. Episode: 2. 'Critter Fixers: Country Vets: Compilations'. Critter Fixer-holdet hjælper nogle bedste venner, der bider over mere, end de kan tygge. Hunden Olive har ædt en hel tennisbold, puddelen Casper har spist en hårelastik, og en højtelsket tegu-øgle har et farligt gastronomisk problem. En hund fisker efter problemer med en krog i munden, en hvalp piber sig ud af ballade, og en anden hund formår at sluge et sæt undertøj. Til sidst kæmper de mod uret for at fjerne et helt stykke legetøj fra en hunds mave, før det forårsager uoprettelig skade. Medvirkende: Sullivan Jones, Joe Cernaro, Sylvia Moore Myers. Tilladt for: A.</desc>
     <credits>
       <actor>Sullivan Jones</actor>
       <actor>Joe Cernaro</actor>
@@ -24111,7 +24110,7 @@
     <title lang="da">10 dyr, der kan slå dig ihjel: Dødbringende møder</title>
     <desc lang="da">Sæson: 1. Episode: 1. '10 dyr, der kan slå dig ihjel: Dødbringende møder'. Fra spækhuggere til elge - der er mange måder at dø på derude. Chancen for at blive dræbt af et dyr er måske lille, men for en sikkerheds skyld... her er ti måder, man kan dø på, og måske hvordan man undgår det. Yukon-dyrlæge Michelle Oakley og naturfilmskaber Filipe DeAndrade trækker på deres egen viden og personlige anekdoter for at lære os en ting eller to om væsner, der kan slå dig ihjel. Men har dyrene lyst til det... virkelig? Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/rYiyWUTvFvyEoNbw3bFIBsX5Eun.jpg" /></programme>
   <programme start="20261110002500 +0000" stop="20261110011000 +0000" channel="natgeowild.dk">
     <title lang="da">Afrikas Big Five</title>
     <desc lang="da">'Afrikas Big Five'. Afrikas mest ikoniske dyr er blevet kaldt "The Big Five" af trofæjægere. Se disse fantastiske skabninger kæmpe mod elementerne og hinanden for at overleve. Tilladt for: A.</desc>
@@ -24134,7 +24133,7 @@
     <title lang="da">10 dyr, der kan slå dig ihjel: Dødbringende møder</title>
     <desc lang="da">Sæson: 1. Episode: 1. '10 dyr, der kan slå dig ihjel: Dødbringende møder'. Fra spækhuggere til elge - der er mange måder at dø på derude. Chancen for at blive dræbt af et dyr er måske lille, men for en sikkerheds skyld... her er ti måder, man kan dø på, og måske hvordan man undgår det. Yukon-dyrlæge Michelle Oakley og naturfilmskaber Filipe DeAndrade trækker på deres egen viden og personlige anekdoter for at lære os en ting eller to om væsner, der kan slå dig ihjel. Men har dyrene lyst til det... virkelig? Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/rYiyWUTvFvyEoNbw3bFIBsX5Eun.jpg" /></programme>
   <programme start="20261110032500 +0000" stop="20261110041000 +0000" channel="natgeowild.dk">
     <title lang="da">Afrikas Big Five</title>
     <desc lang="da">'Afrikas Big Five'. Afrikas mest ikoniske dyr er blevet kaldt "The Big Five" af trofæjægere. Se disse fantastiske skabninger kæmpe mod elementerne og hinanden for at overleve. Tilladt for: A.</desc>
@@ -24314,12 +24313,12 @@
     <desc lang="da">Sæson: 1. Episode: 2. 'Romantic Central Uplands'. Den diskrete charme ved Tysklands Mittelgebirge ligger i de gamle skove og den vilde skønhed. Gennem efterårsskoven lyder en hjorts rungende kald gennem tågen. Det er brunstsæson! I det saksiske Schweiz lever vandrefalke og sorte storke på pittoreske klipper. Den sky los strejfer omkring i skovene, mens der i Harzen vokser en ny og vildere skov op i det foranderlige klima. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     </programme>
-  <programme start="20261111032500 +0000" stop="20261111041000 +0000" channel="natgeowild.dk">
+  <programme start="20261111032500 +0000" stop="20261111041500 +0000" channel="natgeowild.dk">
     <title lang="da">Portugal's Wild Wonders</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'The Land'. I den vestlige ende af Middelhavet ligger Portugal, fuld af mangfoldige økosystemer, der fremviser et imponerende udvalg af både store og små arter, hvoraf mange er endemiske for regionen. Dets sammenkoblede net giver hvert dyr en måde at overleve på i den barske natur. En ildsalamander, der kan leve op til 50 år, nyder sit første måltid efter at have tilbragt en sommer i dvale under jorden. En af de sjældneste vilde katte på planeten, den iberiske los, jager sit yndlingsbytte: kaninen. Kongeørne og ræve, kendt for at være fjender, tolererer hinanden længe nok til at dele deres bytte. Og unge spanske stenbukke øver sig til voksenalderen ved at slå deres gevir sammen i en imponerende styrkedemonstration. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     <icon src="https://image.tmdb.org/t/p/w1280/oR2ORbxZgGLmCq2DRO1XmVz7OhH.jpg" /></programme>
-  <programme start="20261111041000 +0000" stop="20261111050000 +0000" channel="natgeowild.dk">
+  <programme start="20261111041500 +0000" stop="20261111050000 +0000" channel="natgeowild.dk">
     <title lang="da">Into The Carpathian Wild</title>
     <desc lang="da">Sæson: 1. Episode: 4. 'Winter'. Vinteren favoriserer dyr, der på snedig vis kan tilpasse sig for at overleve. Selv om Karpaterne er præget af sne og is, vrimler de stadig med liv. Gemsen, et dyr nedstammet fra istiden, har særlige hove til at løbe over stejle skråninger uden at glide, hvilket er perfekt til at jage hunner lodret ned ad bakke med en vanvittigt høj hastighed på 50 kilometer i timen. Korsnæb har krogede næb til at plukke frø fra grankogler. Og den sjældne tjuv fordøjer fyrrenåle ved at spise sten, der maler nålene i deres fordøjelsessystem. På trods af de udfordrende, men sæsonbestemte, vejrforhold er vinteren parringssæson for Karpaternes mest sky beboer og sjældneste dyr: lossen. Den er næsten udryddet i resten af Europa, men Karpaternes enorme vildmark hjælper arten med at overleve og trives. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
@@ -24557,8 +24556,8 @@
     </programme>
   <programme start="20261108085500 +0000" stop="20261108093000 +0000" channel="eurosport1.dk">
     <title lang="da">Sejlsport: SailGP - Racing on the Edge</title>
-    <desc lang="da">'08.11.2026 09:55.'. Tilladt for: A.</desc>
-    <category lang="da">Sport</category>
+    <desc lang="da">Sæson: 2026. '08.11.2026 09:55.'. Racing On The Edge giver eksklusiv adgang til sejlsportens største profiler, deres historier, indre kampe og alt det drama, der samles ved startlinjen i Sail Grand Prix. Tilladt for: A.</desc>
+    <category lang="da">Fakta</category>
     </programme>
   <programme start="20261108093000 +0000" stop="20261108164000 +0000" channel="eurosport1.dk">
     <title lang="da">Endurance: VM</title>
@@ -27193,9 +27192,8 @@
     <icon src="https://image.tmdb.org/t/p/w1280/lxxf6xi7uU9i5PMqPkElkKRRQBM.jpg" /></programme>
   <programme start="20261110033000 +0000" stop="20261110041500 +0000" channel="animalplanet.dk">
     <title lang="da">Alaskan Bush People</title>
-    <desc lang="da">Sæson: 2. Episode: 1. 'Alaskan Bush People: A Very Bush Christmas'. Familien Brown afslører deres unikke juletraditioner i Alaskas vildmark. Instruktør: T.J. Shanks. Medvirkende: Asa Siegel. Tilladt for: 7.</desc>
+    <desc lang="da">Sæson: 2. Episode: 1. 'Alaskan Bush People'. Tag til Alaskas vildmark med familien Brown - en familie med syv børn, som er selvforsynende og afhængige af hinanden, hvis de skal overleve i vildmarken. Medvirkende: Asa Siegel. Tilladt for: 7.</desc>
     <credits>
-      <director>T.J. Shanks</director>
       <actor>Asa Siegel</actor>
     </credits>
     <category lang="da">Show</category>
@@ -28804,7 +28802,7 @@
     <title lang="da">Bageren fra Hebriderne: De nordiske øer</title>
     <desc lang="da">Sæson: 1. Episode: 2. 'Bornholm'. Coinneach udforsker Bornholms dristige, traditionsrige og Michelin-belønnede madkultur. Han møder den anerkendte kok Mikkel Marschall, der står bag madfestivalen Sol over Gudhjem. Tilladt for: A.</desc>
     <category lang="da">Fritid</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/zdBGLFWRKkpN8Q4Ig5MopiL1dZZ.jpg" /></programme>
   <programme start="20261108185500 +0000" stop="20261108194500 +0000" channel="bbcnordic.dk">
     <title lang="da">Bagedyst: De professionelle</title>
     <desc lang="da">Sæson: 3. Episode: 9. 'Afsnit 9'. Det er semifinalen, og de fire tilbageværende hold får en udfordring med en ukendt opskrift før de skal lave en magisk Charlotte Russe og noget live-"teater" i deres bestræbelser på at komme i finalen. Tilladt for: A.</desc>
@@ -28829,7 +28827,7 @@
     <title lang="da">Bageren fra Hebriderne: De nordiske øer</title>
     <desc lang="da">Sæson: 1. Episode: 2. 'Bornholm'. Coinneach udforsker Bornholms dristige, traditionsrige og Michelin-belønnede madkultur. Han møder den anerkendte kok Mikkel Marschall, der står bag madfestivalen Sol over Gudhjem. Tilladt for: A.</desc>
     <category lang="da">Fritid</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/zdBGLFWRKkpN8Q4Ig5MopiL1dZZ.jpg" /></programme>
   <programme start="20261108225000 +0000" stop="20261108233500 +0000" channel="bbcnordic.dk">
     <title lang="da">Alaska - Et liv under frysepunktet</title>
     <desc lang="da">Sæson: 22. Episode: 9. 'Afsnit 9'. Solen svinder over det ganske land, og beboerne i Alaska gør klar til vinterens tilbagevenden. Medvirkende: James Franzo. Tilladt for: A.</desc>
@@ -28889,7 +28887,7 @@
     <title lang="da">Bageren fra Hebriderne: De nordiske øer</title>
     <desc lang="da">Sæson: 1. Episode: 2. 'Bornholm'. Coinneach udforsker Bornholms dristige, traditionsrige og Michelin-belønnede madkultur. Han møder den anerkendte kok Mikkel Marschall, der står bag madfestivalen Sol over Gudhjem. Tilladt for: A.</desc>
     <category lang="da">Fritid</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/zdBGLFWRKkpN8Q4Ig5MopiL1dZZ.jpg" /></programme>
   <programme start="20261109044000 +0000" stop="20261109045000 +0000" channel="bbcnordic.dk">
     <title lang="da">Planet Earth II Diaries</title>
     <desc lang="da">Sæson: 1. Episode: 3. 'Afsnit 3'. Holdet drager til den brasilianske jungle for at finde frem til en nyligt opdaget art af floddelfiner, men edderkopper, aggressive røde myrer og skybrud vanskeliggør deres mission. Tilladt for: A.</desc>
@@ -29558,7 +29556,7 @@
     <title lang="da">Bageren fra Hebriderne: De nordiske øer</title>
     <desc lang="da">Sæson: 1. Episode: 3. 'Lofoten'. Den norske øgruppe Lofoten nord for polarcirklen er kendt for deres dramatiske bjerglandskaber. Coinneach hjælper med at losse dagens fangst af arktisk torsk og nyder en middag, hvori det lokalt producerede og internationalt beskyttede Lofoten-lam indgår. Tilladt for: A.</desc>
     <category lang="da">Fritid</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/zdBGLFWRKkpN8Q4Ig5MopiL1dZZ.jpg" /></programme>
   <programme start="20261111221000 +0000" stop="20261111230000 +0000" channel="bbcnordic.dk">
     <title lang="da">Joanna Lumleys rejse ad Silkevejen</title>
     <desc lang="da">Sæson: 1. Episode: 3. 'Afsnit 3'. Den britiske skuespiller Joanna Lumley er kommet til Iran på sin rejse langs den legendariske Silkevej - det 10.000 km lange netværk af ruter, som i middelalderen blev brugt til at transportere handelsvarer på tværs af kontinentet. Hun starter i hovedstaden Teheran og rejser derefter mod syd til Kashan og Isfahan. Efter et smut til ørkenbyen Yazd og til Shiraz ender denne etape af rejsen i Persepolis, fortidens ceremonielle hovedstad og symbolet på det persiske imperiums magt og indflydelse. Tilladt for: A.</desc>
@@ -29589,7 +29587,7 @@
     <title lang="da">Bageren fra Hebriderne: De nordiske øer</title>
     <desc lang="da">Sæson: 1. Episode: 3. 'Lofoten'. Den norske øgruppe Lofoten nord for polarcirklen er kendt for deres dramatiske bjerglandskaber. Coinneach hjælper med at losse dagens fangst af arktisk torsk og nyder en middag, hvori det lokalt producerede og internationalt beskyttede Lofoten-lam indgår. Tilladt for: A.</desc>
     <category lang="da">Fritid</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/zdBGLFWRKkpN8Q4Ig5MopiL1dZZ.jpg" /></programme>
   <programme start="20261112014000 +0000" stop="20261112023000 +0000" channel="bbcnordic.dk">
     <title lang="da">Joanna Lumleys rejse ad Silkevejen</title>
     <desc lang="da">Sæson: 1. Episode: 3. 'Afsnit 3'. Den britiske skuespiller Joanna Lumley er kommet til Iran på sin rejse langs den legendariske Silkevej - det 10.000 km lange netværk af ruter, som i middelalderen blev brugt til at transportere handelsvarer på tværs af kontinentet. Hun starter i hovedstaden Teheran og rejser derefter mod syd til Kashan og Isfahan. Efter et smut til ørkenbyen Yazd og til Shiraz ender denne etape af rejsen i Persepolis, fortidens ceremonielle hovedstad og symbolet på det persiske imperiums magt og indflydelse. Tilladt for: A.</desc>
@@ -32638,7 +32636,7 @@
     <title lang="da">Hvem byder bedst? - Julespecial</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'Julepynt og julegaver'. Julen nærmer sig, og 'Hvem byder bedst' er rykket indenfor i varmen i Gjethuset i Frederiksværk - for inden julefreden sænker sig, går køberne i budkrig om både pynt og gaver. Hvem byder bedst på et fodboldstrategispil - og hvem vinder den hemmelige gave? Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/sbLA5YkF0tYEaYQZ9wAmV48K8yP.jpg" /></programme>
   <programme start="20261111210000 +0000" stop="20261111214000 +0000" channel="tv2fri.dk">
     <title lang="da">Krejlerkongen - julespecial</title>
     <desc lang="da">Sæson: 4. Episode: 3. 'Med Adam Ild Rohweder og Anne Sofie Espersen'. Lasse Rimmer styrer løjerne, når skuespillerne Adam Ild Rohweder og Anne Sofie Espersen dyster om, hvem der har det mest velsignede bud. Tilladt for: A.</desc>
@@ -32865,13 +32863,13 @@
     <category lang="da">Sport</category>
     <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20WTA%20Finals.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Tennis%20WTA%20Finals.jpg" /></programme>
   <programme start="20261110090500 +0000" stop="20261110100500 +0000" channel="tv2sport.dk">
-    <title lang="da">Badminton: Finale, Korea Open</title>
-    <desc lang="da">Sæson: 2026. Episode: 128. 'Badminton: Finale, Korea Open'. En række af verdens bedste badmintonspillere mødes til Korea Open. Glæd dig til badminton i verdensklasse. Tilladt for: A.</desc>
+    <title lang="da">Badminton: Gunawan-Lai, finale, Korea Open</title>
+    <desc lang="da">Sæson: 2026. Episode: 128. 'Badminton: Gunawan-Lai, finale, Korea Open'. En række af verdens bedste badmintonspillere mødes til Korea Open. Glæd dig til badminton i verdensklasse. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
     <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /></programme>
   <programme start="20261110100500 +0000" stop="20261110110500 +0000" channel="tv2sport.dk">
-    <title lang="da">Badminton: Finale, Korea Open</title>
-    <desc lang="da">Sæson: 2026. Episode: 129. 'Badminton: Finale, Korea Open'. En række af verdens bedste badmintonspillere mødes til Korea Open. Glæd dig til badminton i verdensklasse. Tilladt for: A.</desc>
+    <title lang="da">Badminton: Kim/Seo-Hoki/Kobayashi, finale, Korea Open</title>
+    <desc lang="da">Sæson: 2026. Episode: 129. 'Badminton: Kim/Seo-Hoki/Kobayashi, finale, Korea Open'. En række af verdens bedste badmintonspillere mødes til Korea Open. Glæd dig til badminton i verdensklasse. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
     <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/Badminton.jpg" /></programme>
   <programme start="20261110110500 +0000" stop="20261110130500 +0000" channel="tv2sport.dk">
@@ -39360,17 +39358,17 @@
     <title lang="da">Kimberley-regionen: Australiens vilde vesten</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'Livets flod'. Undgå skællede og fjerklædte farer med wallabyer, se kraveagamer kæmpe om en mage, og fest med krokodilleunger. Trods farlige strømfald, og forstå den kulturelle og biologiske betydning af en lokal flod, når regntiden kommer. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/loAsQBEqJNFGY4ey7WRIMoaHRix.jpg" /></programme>
   <programme start="20261108094000 +0000" stop="20261108105000 +0000" channel="viasatnature.dk">
     <title lang="da">Kimberley-regionen: Australiens vilde vesten</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'Livets flod'. Undgå skællede og fjerklædte farer med wallabyer, se kraveagamer kæmpe om en mage, og fest med krokodilleunger. Trods farlige strømfald, og forstå den kulturelle og biologiske betydning af en lokal flod, når regntiden kommer. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/loAsQBEqJNFGY4ey7WRIMoaHRix.jpg" /></programme>
   <programme start="20261108105000 +0000" stop="20261108115000 +0000" channel="viasatnature.dk">
     <title lang="da">Kimberley-regionen: Australiens vilde vesten</title>
     <desc lang="da">Sæson: 1. Episode: 3. 'I ilden'. Oplev den største intakte savanne på kloden, hvor pattedyr og insekter bevæger sig gennem luften med største lethed. Undersøg traditionelle metoder til håndtering af skovbrande, udforsk en sandstenshule, og se en sukkerseglflyver forsøge at flygte fra flammerne. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/loAsQBEqJNFGY4ey7WRIMoaHRix.jpg" /></programme>
   <programme start="20261108115000 +0000" stop="20261108131000 +0000" channel="viasatnature.dk">
     <title lang="da">New Zealand: Jordens mystiske øer</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'Sejle i egen sø'. Isoleret siden dinosaurernes tid har New Zealands dyreliv fået lov til at udvikle sig på egen hånd, med overraskende konsekvenser. Det er også et af de mest geologisk aktive lande på jorden. Instruktør: Mark Flowers. Tilladt for: A.</desc>
@@ -39436,17 +39434,17 @@
     <title lang="da">Kimberley-regionen: Australiens vilde vesten</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'Livets flod'. Undgå skællede og fjerklædte farer med wallabyer, se kraveagamer kæmpe om en mage, og fest med krokodilleunger. Trods farlige strømfald, og forstå den kulturelle og biologiske betydning af en lokal flod, når regntiden kommer. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/loAsQBEqJNFGY4ey7WRIMoaHRix.jpg" /></programme>
   <programme start="20261108232000 +0000" stop="20261109003000 +0000" channel="viasatnature.dk">
     <title lang="da">Kimberley-regionen: Australiens vilde vesten</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'Livets flod'. Undgå skællede og fjerklædte farer med wallabyer, se kraveagamer kæmpe om en mage, og fest med krokodilleunger. Trods farlige strømfald, og forstå den kulturelle og biologiske betydning af en lokal flod, når regntiden kommer. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/loAsQBEqJNFGY4ey7WRIMoaHRix.jpg" /></programme>
   <programme start="20261109003000 +0000" stop="20261109013500 +0000" channel="viasatnature.dk">
     <title lang="da">Kimberley-regionen: Australiens vilde vesten</title>
     <desc lang="da">Sæson: 1. Episode: 3. 'I ilden'. Oplev den største intakte savanne på kloden, hvor pattedyr og insekter bevæger sig gennem luften med største lethed. Undersøg traditionelle metoder til håndtering af skovbrande, udforsk en sandstenshule, og se en sukkerseglflyver forsøge at flygte fra flammerne. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/loAsQBEqJNFGY4ey7WRIMoaHRix.jpg" /></programme>
   <programme start="20261109013500 +0000" stop="20261109025500 +0000" channel="viasatnature.dk">
     <title lang="da">New Zealand: Jordens mystiske øer</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'Sejle i egen sø'. Isoleret siden dinosaurernes tid har New Zealands dyreliv fået lov til at udvikle sig på egen hånd, med overraskende konsekvenser. Det er også et af de mest geologisk aktive lande på jorden. Instruktør: Mark Flowers. Tilladt for: A.</desc>
@@ -64241,19 +64239,7 @@
     <icon src="https://image.tmdb.org/t/p/w1280/5QI96l4XziuRUToXOFslQpGJnqY.jpg" /></programme>
   <programme start="20261108165000 +0000" stop="20261108170000 +0000" channel="drramasjang.dk">
     <title lang="da">Stop! - Hule</title>
-    <desc lang="da">Sæson: 2. Episode: 3. 'Hule'. Maja vil bygge en hyggelig hule, men hendes værelse er alt for lille. I stuen er der masser af plads og ting at bygge med. Men farmor skal komme på besøg, og far vil have at huset skal være opryddet. Han bliver ikke glad, da han opdager Majas store planer. Medvirkende: Adam Huldt, Samy Karlsson Fariat, Julia Marko-Nord, Joakim Gräns. Tilladt for: A.</desc>
-    <credits>
-      <actor>Adam Huldt</actor>
-      <actor>Samy Karlsson Fariat</actor>
-      <actor>Julia Marko-Nord</actor>
-      <actor>Joakim Gräns</actor>
-      <actor>Angelina Lam</actor>
-      <actor>Sanna Sundqvist</actor>
-      <actor>Luzia Catomeris Medina</actor>
-      <actor>Joakim Sikberg</actor>
-      <actor>Rihanna Jendoubi</actor>
-      <actor>Juni Viitanen</actor>
-    </credits>
+    <desc lang="da">Sæson: 2. Episode: 3. 'Hule'. Maja vil bygge en hyggelig hule, men hendes værelse er alt for lille. I stuen er der masser af plads og ting at bygge med. Men farmor skal komme på besøg, og far vil have at huset skal være opryddet. Han bliver ikke glad, da han opdager Majas store planer. Tilladt for: A.</desc>
     <category lang="da">Børn</category>
     <icon src="https://image.tmdb.org/t/p/original/9RT5KXtlAIPSh1ZvsxiVFXT8zvU.jpg" /></programme>
   <programme start="20261108170000 +0000" stop="20261108170500 +0000" channel="drramasjang.dk">
@@ -64533,7 +64519,7 @@
     <sub-title lang="da">(3)</sub-title>
     <desc lang="da">Sæson: 1. Episode: 3. 'Skjaldemjøden er væk!'. Skjaldemjøden er væk! Den guddommelige drik, der gør guderne i stand til at synge og skrive sang så smukke og skønne, at man tror det er løgn. Kærlighedsgudinden Freja er ulykkelig, for hun elsker at synge og optræde! Sammen med den modige, jordiske heltinde Sifka drager hun ud for at skaffe den magiske mjød tilbage. Tilladt for: A.</desc>
     <category lang="da">Børn</category>
-    <icon src="https://image.tmdb.org/t/p/w1280/bdiKupfEiutwf5sILlEm3Kln0uK.jpg" /></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/o12RT94DdyvviX6uTinWVwXDXfF.jpg" /></programme>
   <programme start="20261109065500 +0000" stop="20261109071000 +0000" channel="drramasjang.dk">
     <title lang="da">Leg med Dylan</title>
     <desc lang="da">Sæson: 1. Episode: 29. 'Sanger'. Hvad skal Dylan være i dag? Pizzabud, læge eller frisør? - Dylan prøver det hele, og du lan lege med! Den stribede hund elsker at lege, og hver gang leger han, at han er noget nyt. Tegnefilmserie bygget over bøgerne af Guy Parker-Rees. Tilladt for: A.</desc>
@@ -65286,7 +65272,7 @@
     <sub-title lang="da">(4)</sub-title>
     <desc lang="da">Sæson: 1. Episode: 4. 'Fenrisulvens lænke er i stykker!'. Fenrisulvens lænke er i stykker! Den magiske lænke, der holder det enorme, glubske monster fanget. Det er ikke så godt, hvis Fenrisulven slipper løs. Den skal nemlig dræbe Odin på dommens dag Ragnarok. Alfaderen Odin må sørge for, at lænken bliver repareret. Sammen med den modige, jordiske heltinde Mahtob drager han ud på mission for at skaffe de helt særlige materialer, der skal til for at lave en ny stærk lænke. Tilladt for: A.</desc>
     <category lang="da">Børn</category>
-    <icon src="https://image.tmdb.org/t/p/w1280/bdiKupfEiutwf5sILlEm3Kln0uK.jpg" /></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/o12RT94DdyvviX6uTinWVwXDXfF.jpg" /></programme>
   <programme start="20261110065500 +0000" stop="20261110071000 +0000" channel="drramasjang.dk">
     <title lang="da">Leg med Dylan</title>
     <desc lang="da">Sæson: 1. Episode: 30. 'Blikkenslager'. Hvad skal Dylan være i dag? Pizzabud, læge eller frisør? - Dylan prøver det hele, og du lan lege med! Den stribede hund elsker at lege, og hver gang leger han, at han er noget nyt. Tegnefilmserie bygget over bøgerne af Guy Parker-Rees. Tilladt for: A.</desc>
@@ -66045,7 +66031,7 @@
     <sub-title lang="da">(5)</sub-title>
     <desc lang="da">Sæson: 1. Episode: 5. 'Iduns æbler er blevet forbyttet!'. Iduns æbler er blevet forbyttet! De magiske æbler, der holder guderne unge og raske og klar til kamp imod de onde jætter. Med ragnarok lige om hjørnet, er det ikke så godt, hvis guderne ikke er i topform. Ungdommens gudinde Idun må sammen med den modige, jordiske helt Esaiah drage ud for at skaffe de magiske æbler tilbage. For Valhalla! Tilladt for: A.</desc>
     <category lang="da">Børn</category>
-    <icon src="https://image.tmdb.org/t/p/w1280/bdiKupfEiutwf5sILlEm3Kln0uK.jpg" /></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/o12RT94DdyvviX6uTinWVwXDXfF.jpg" /></programme>
   <programme start="20261111065500 +0000" stop="20261111071000 +0000" channel="drramasjang.dk">
     <title lang="da">Leg med Dylan</title>
     <desc lang="da">Sæson: 1. Episode: 31. 'Skolepedel'. Hvad skal Dylan være i dag? Pizzabud, læge eller frisør? - Dylan prøver det hele, og du lan lege med! Den stribede hund elsker at lege, og hver gang leger han, at han er noget nyt. Tegnefilmserie bygget over bøgerne af Guy Parker-Rees. Tilladt for: A.</desc>
@@ -66542,7 +66528,7 @@
     <title lang="da">Spørg Kristian - Kan man svømme til Sverige?</title>
     <desc lang="da">Sæson: 2. Episode: 5. 'Kan man svømme til Sverige?'. Hvorfor er citroner sure? Er det rigtigt, at bjørne spiser honning? Og kan man svømme fra Danmark til Sverige? Se med når Kristian og hans seks eksperter finder svarene! Tilladt for: A.</desc>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/qbTz2U614daBrGmP6B7nJbAl5Hs.jpg" /></programme>
   <programme start="20261111170000 +0000" stop="20261111170500 +0000" channel="drramasjang.dk">
     <title lang="da">F for Får</title>
     <sub-title lang="da">(36)</sub-title>
@@ -67237,7 +67223,7 @@
 <programme start="20261108041200 +0000" stop="20261108043600 +0000" channel="discoveryscience.dk"><title>How It's Made: Dream Cars</title><desc>Forestil dig din drømmebil - ligner den en Chevrolet Camaro? Holdet tager tilbage til dens oprindelsessted og afslører de indre mekanismer og det smukke ydre.</desc></programme>
 <programme start="20261108043600 +0000" stop="20261108050000 +0000" channel="discoveryscience.dk"><title>How It's Made: Dream Cars</title><desc>Forestil dig din drømmebil - ligner den en Porche Panamera? Holdet tager tilbage til dens oprindelsessted og afslører de indre mekanismer og det smukke ydre.</desc></programme>
 <programme start="20261109050000 +0000" stop="20261109052400 +0000" channel="discoveryscience.dk"><title>Hvordan bliver det lavet?</title><desc>Se, hvordan man laver neglefile, kanoer, bådsdæk og stærkstrømsafbrydere.</desc><icon src="https://image.tmdb.org/t/p/w1280/wVN7zz1u18uNjbYFkyoAYAJ8MWY.jpg" /></programme>
-<programme start="20261108050000 +0000" stop="20261108065000 +0000" channel="eurosport2.dk"><title>Ridebanespringning: Glob ...</title><episode-num system="xmltv_ns">7.8.</episode-num></programme>
+<programme start="20261108155000 +0100" stop="20261108155500 +0100" channel="Disney.Junior.dk"><title>Bluey II (103)</title><desc /></programme><programme start="20261108155500 +0100" stop="20261108160500 +0100" channel="Disney.Junior.dk"><title>Bluey I (50)</title><desc /></programme><programme start="20261108160500 +0100" stop="20261108161000 +0100" channel="Disney.Junior.dk"><title>Bluey II (101)</title><desc /></programme><programme start="20261108161000 +0100" stop="20261108161500 +0100" channel="Disney.Junior.dk"><title>Bluey III (148)</title><desc /></programme><programme start="20261108161500 +0100" stop="20261108162500 +0100" channel="Disney.Junior.dk"><title>Bluey I (47)</title><desc /></programme><programme start="20261108162500 +0100" stop="20261108163000 +0100" channel="Disney.Junior.dk"><title>Bluey I (45)</title><desc /></programme><programme start="20261108163000 +0100" stop="20261108163500 +0100" channel="Disney.Junior.dk"><title>Bluey III (147)</title><desc /></programme><programme start="20261108163500 +0100" stop="20261108164500 +0100" channel="Disney.Junior.dk"><title>Bluey II (98)</title><desc /></programme><programme start="20261108164500 +0100" stop="20261108165000 +0100" channel="Disney.Junior.dk"><title>Bluey I (43)</title><desc /></programme><programme start="20261108165000 +0100" stop="20261108165500 +0100" channel="Disney.Junior.dk"><title>Bluey III (145)</title><desc /></programme><programme start="20261108165500 +0100" stop="20261108170500 +0100" channel="Disney.Junior.dk"><title>Bluey II (95)</title><desc /></programme><programme start="20261108170500 +0100" stop="20261108171000 +0100" channel="Disney.Junior.dk"><title>Bluey III (142)</title><desc /></programme><programme start="20261108171000 +0100" stop="20261108172000 +0100" channel="Disney.Junior.dk"><title>Bluey II (92)</title><desc /></programme><programme start="20261108172000 +0100" stop="20261108173000 +0100" channel="Disney.Junior.dk"><title>Bluey I (40)</title><desc /></programme><programme start="20261108173000 +0100" stop="20261108175500 +0100" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (11)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261108175500 +0100" stop="20261108182000 +0100" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (4)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261108182000 +0100" stop="20261108184500 +0100" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+: Season 2 II (32)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/m1S0drszN5nhtGpG498so8NjUXv.jpg" /></programme><programme start="20261108184500 +0100" stop="20261108191000 +0100" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (13)</title><desc /></programme><programme start="20261108191000 +0100" stop="20261108191500 +0100" channel="Disney.Junior.dk"><title>Bluey III (108)</title><desc /></programme><programme start="20261108191500 +0100" stop="20261108192500 +0100" channel="Disney.Junior.dk"><title>Bluey III (107)</title><desc /></programme><programme start="20261108192500 +0100" stop="20261108193000 +0100" channel="Disney.Junior.dk"><title>Bluey III (106)</title><desc /></programme><programme start="20261108193000 +0100" stop="20261108194000 +0100" channel="Disney.Junior.dk"><title>Bluey III (105)</title><desc /></programme><programme start="20261108194000 +0100" stop="20261108194500 +0100" channel="Disney.Junior.dk"><title>Bluey III (104)</title><desc /></programme><programme start="20261108194500 +0100" stop="20261108195500 +0100" channel="Disney.Junior.dk"><title>Bluey II (103)</title><desc /></programme><programme start="20261108195500 +0100" stop="20261108200000 +0100" channel="Disney.Junior.dk"><title>Bluey II (102)</title><desc /></programme><programme start="20261108200000 +0100" stop="20261108201000 +0100" channel="Disney.Junior.dk"><title>Bluey II (101)</title><desc /></programme><programme start="20261108201000 +0100" stop="20261108201500 +0100" channel="Disney.Junior.dk"><title>Bluey II (100)</title><desc /></programme><programme start="20261108201500 +0100" stop="20261108202500 +0100" channel="Disney.Junior.dk"><title>Bluey II (99)</title><desc /></programme><programme start="20261108202500 +0100" stop="20261108205000 +0100" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends III (82)</title><desc /></programme><programme start="20261108205000 +0100" stop="20261108211500 +0100" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (6)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261108211500 +0100" stop="20261108214000 +0100" channel="Disney.Junior.dk"><title>SuperKitties III (70)</title><desc /></programme><programme start="20261108214000 +0100" stop="20261108220500 +0100" channel="Disney.Junior.dk"><title>SuperKitties III (69)</title><desc /></programme><programme start="20261108220500 +0100" stop="20261108223000 +0100" channel="Disney.Junior.dk"><title>Pupstruction II (47)</title><desc /></programme><programme start="20261108223000 +0100" stop="20261108224000 +0100" channel="Disney.Junior.dk"><title>Bluey III (153)</title><desc /></programme><programme start="20261108224000 +0100" stop="20261108224500 +0100" channel="Disney.Junior.dk"><title>Bluey I (2)</title><desc /></programme><programme start="20261108224500 +0100" stop="20261108225500 +0100" channel="Disney.Junior.dk"><title>Bluey I (4)</title><desc /></programme><programme start="20261108225500 +0100" stop="20261108230000 +0100" channel="Disney.Junior.dk"><title>Bluey I (6)</title><desc /></programme><programme start="20261108230000 +0100" stop="20261108231000 +0100" channel="Disney.Junior.dk"><title>Bluey I (8)</title><desc /></programme><programme start="20261108231000 +0100" stop="20261108231500 +0100" channel="Disney.Junior.dk"><title>Bluey I (10)</title><desc /></programme><programme start="20261108231500 +0100" stop="20261108232500 +0100" channel="Disney.Junior.dk"><title>Bluey I (12)</title><desc /></programme><programme start="20261108232500 +0100" stop="20261108235000 +0100" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (1)</title><desc /></programme><programme start="20261108235000 +0100" stop="20261109001500 +0100" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (11)</title><desc /></programme><programme start="20261109001500 +0100" stop="20261109003500 +0100" channel="Disney.Junior.dk"><title>SuperKitties I (2)</title><desc /></programme><programme start="20261109003500 +0100" stop="20261109005500 +0100" channel="Disney.Junior.dk"><title>SuperKitties: Su-Purr Charged II (48)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/svZssJM2FbpW0v0O6QbGLpL7rGf.jpg" /></programme><programme start="20261109005500 +0100" stop="20261109011500 +0100" channel="Disney.Junior.dk"><title>SuperKitties: Su-Purr Charged II (32)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/svZssJM2FbpW0v0O6QbGLpL7rGf.jpg" /></programme><programme start="20261109011500 +0100" stop="20261109013000 +0100" channel="Disney.Junior.dk"><title>SuperKitties: Su-Purr Charged S2 Splits II (8)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/svZssJM2FbpW0v0O6QbGLpL7rGf.jpg" /></programme><programme start="20261109013000 +0100" stop="20261109015000 +0100" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends I (9)</title><desc /></programme><programme start="20261109015000 +0100" stop="20261109021500 +0100" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends IV (98)</title><desc /></programme><programme start="20261109021500 +0100" stop="20261109024500 +0100" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends III (84)</title><desc /></programme><programme start="20261109024500 +0100" stop="20261109030500 +0100" channel="Disney.Junior.dk"><title>RoboGobo: Season 2 II (31)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/b4NWfvpWvHJ0YrNLdTk2BtzCo9X.jpg" /></programme><programme start="20261109030500 +0100" stop="20261109033000 +0100" channel="Disney.Junior.dk"><title>Robogobo: Season 1 I (19)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/b4NWfvpWvHJ0YrNLdTk2BtzCo9X.jpg" /></programme><programme start="20261109033000 +0100" stop="20261109035500 +0100" channel="Disney.Junior.dk"><title>Robogobo: Season 1 I (7)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/b4NWfvpWvHJ0YrNLdTk2BtzCo9X.jpg" /></programme><programme start="20261109035500 +0100" stop="20261109040000 +0100" channel="Disney.Junior.dk"><title>Bluey II (78)</title><desc /></programme><programme start="20261109040000 +0100" stop="20261109041000 +0100" channel="Disney.Junior.dk"><title>Bluey II (79)</title><desc /></programme><programme start="20261109041000 +0100" stop="20261109041500 +0100" channel="Disney.Junior.dk"><title>Bluey II (80)</title><desc /></programme><programme start="20261109041500 +0100" stop="20261109042000 +0100" channel="Disney.Junior.dk"><title>Bluey II (81)</title><desc /></programme><programme start="20261109042000 +0100" stop="20261109042500 +0100" channel="Disney.Junior.dk"><title>Bluey II (82)</title><desc /></programme><programme start="20261109042500 +0100" stop="20261109043500 +0100" channel="Disney.Junior.dk"><title>Bluey II (83)</title><desc /></programme><programme start="20261109043500 +0100" stop="20261109044000 +0100" channel="Disney.Junior.dk"><title>Bluey II (84)</title><desc /></programme><programme start="20261109044000 +0100" stop="20261109044500 +0100" channel="Disney.Junior.dk"><title>Bluey II (85)</title><desc /></programme><programme start="20261109044500 +0100" stop="20261109045500 +0100" channel="Disney.Junior.dk"><title>Bluey II (86)</title><desc /></programme><programme start="20261109045500 +0100" stop="20261109050000 +0100" channel="Disney.Junior.dk"><title>Bluey II (87)</title><desc /></programme><programme start="20261109050000 +0100" stop="20261109051000 +0100" channel="Disney.Junior.dk"><title>Bluey II (88)</title><desc /></programme><programme start="20261109051000 +0100" stop="20261109053500 +0100" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends III (70)</title><desc /></programme><programme start="20261109053500 +0100" stop="20261109060000 +0100" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends I (10)</title><desc /></programme><programme start="20261109060000 +0100" stop="20261109062500 +0100" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (10)</title><desc /></programme><programme start="20261109062500 +0100" stop="20261109065000 +0100" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (5)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261109065000 +0100" stop="20261109071500 +0100" channel="Disney.Junior.dk"><title>SuperKitties III (68)</title><desc /></programme><programme start="20261109071500 +0100" stop="20261109072500 +0100" channel="Disney.Junior.dk"><title>Bluey I (13)</title><desc /></programme><programme start="20261109072500 +0100" stop="20261109073000 +0100" channel="Disney.Junior.dk"><title>Bluey I (15)</title><desc /></programme><programme start="20261109073000 +0100" stop="20261109074000 +0100" channel="Disney.Junior.dk"><title>Bluey I (17)</title><desc /></programme><programme start="20261109074000 +0100" stop="20261109074500 +0100" channel="Disney.Junior.dk"><title>Bluey I (19)</title><desc /></programme><programme start="20261109074500 +0100" stop="20261109075500 +0100" channel="Disney.Junior.dk"><title>Bluey I (21)</title><desc /></programme><programme start="20261109075500 +0100" stop="20261109080000 +0100" channel="Disney.Junior.dk"><title>Bluey I (23)</title><desc /></programme><programme start="20261109080000 +0100" stop="20261109081000 +0100" channel="Disney.Junior.dk"><title>Bluey I (25)</title><desc /></programme><programme start="20261109081000 +0100" stop="20261109083500 +0100" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends III (82)</title><desc /></programme><programme start="20261109083500 +0100" stop="20261109090000 +0100" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (1)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261109090000 +0100" stop="20261109092500 +0100" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (12)</title><desc /></programme><programme start="20261109092500 +0100" stop="20261109095000 +0100" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (22)</title><desc /></programme><programme start="20261109095000 +0100" stop="20261109100000 +0100" channel="Disney.Junior.dk"><title>Bluey III (146)</title><desc /></programme><programme start="20261109100000 +0100" stop="20261109100500 +0100" channel="Disney.Junior.dk"><title>Bluey III (131)</title><desc /></programme><programme start="20261109100500 +0100" stop="20261109101000 +0100" channel="Disney.Junior.dk"><title>Bluey III (133)</title><desc /></programme><programme start="20261109101000 +0100" stop="20261109102000 +0100" channel="Disney.Junior.dk"><title>Bluey III (124)</title><desc /></programme><programme start="20261109102000 +0100" stop="20261109102500 +0100" channel="Disney.Junior.dk"><title>Bluey III (150)</title><desc /></programme><programme start="20261109102500 +0100" stop="20261109103000 +0100" channel="Disney.Junior.dk"><title>Bluey III (138)</title><desc /></programme><programme start="20261109103000 +0100" stop="20261109104000 +0100" channel="Disney.Junior.dk"><title>Bluey III (141)</title><desc /></programme><programme start="20261109104000 +0100" stop="20261109104500 +0100" channel="Disney.Junior.dk"><title>Bluey III (135)</title><desc /></programme><programme start="20261109104500 +0100" stop="20261109111000 +0100" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (13)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261109111000 +0100" stop="20261109113500 +0100" channel="Disney.Junior.dk"><title>SuperKitties I (19)</title><desc /></programme><programme start="20261109113500 +0100" stop="20261109120000 +0100" channel="Disney.Junior.dk"><title>Pupstruction II (31)</title><desc /></programme><programme start="20261109120000 +0100" stop="20261109122500 +0100" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends III (81)</title><desc /></programme><programme start="20261109122500 +0100" stop="20261109123500 +0100" channel="Disney.Junior.dk"><title>Bluey III (152)</title><desc /></programme><programme start="20261109123500 +0100" stop="20261109124000 +0100" channel="Disney.Junior.dk"><title>Bluey III (148)</title><desc /></programme><programme start="20261109124000 +0100" stop="20261109124500 +0100" channel="Disney.Junior.dk"><title>Bluey III (143)</title><desc /></programme><programme start="20261109124500 +0100" stop="20261109125500 +0100" channel="Disney.Junior.dk"><title>Bluey III (114)</title><desc /></programme><programme start="20261109125500 +0100" stop="20261109130000 +0100" channel="Disney.Junior.dk"><title>Bluey III (142)</title><desc /></programme><programme start="20261109130000 +0100" stop="20261109130500 +0100" channel="Disney.Junior.dk"><title>Bluey III (121)</title><desc /></programme><programme start="20261109130500 +0100" stop="20261109131500 +0100" channel="Disney.Junior.dk"><title>Bluey III (127)</title><desc /></programme><programme start="20261109131500 +0100" stop="20261109132500 +0100" channel="Disney.Junior.dk"><title>Bluey III (139)</title><desc /></programme><programme start="20261109132500 +0100" stop="20261109135000 +0100" channel="Disney.Junior.dk"><title>Mickey Mouse Clubhouse+ I (2)</title><desc /></programme><programme start="20261109135000 +0100" stop="20261109141500 +0100" channel="Disney.Junior.dk"><title>SuperKitties I (13)</title><desc /></programme><programme start="20261109141500 +0100" stop="20261109144000 +0100" channel="Disney.Junior.dk"><title>Sofia the First: Royal Magic I (12)</title><desc /><icon src="https://image.tmdb.org/t/p/w1280/oV7MFwl3YcT5iBu85OjGYfojyJS.jpg" /></programme><programme start="20261109144000 +0100" stop="20261109150500 +0100" channel="Disney.Junior.dk"><title>Iron Man and His Awesome Friends I (12)</title><desc /></programme><programme start="20261109150500 +0100" stop="20261109153000 +0100" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends III (80)</title><desc /></programme><programme start="20261109153000 +0100" stop="20261109154500 +0100" channel="Disney.Junior.dk"><title>Spidey and His Amazing Friends II (64)</title><desc /></programme><programme start="20261109154500 +0100" stop="20261109155500 +0100" channel="Disney.Junior.dk"><title>Bluey III (106)</title><desc /></programme><programme start="20261108050000 +0000" stop="20261108065000 +0000" channel="eurosport2.dk"><title>Ridebanespringning: Glob ...</title><episode-num system="xmltv_ns">7.8.</episode-num></programme>
 <programme start="20261108065000 +0000" stop="20261108075500 +0000" channel="eurosport2.dk"><title>Skydning: Shooting Sports Show</title><episode-num system="xmltv_ns">6.1.</episode-num></programme>
 <programme start="20261108075500 +0000" stop="20261108082000 +0000" channel="eurosport2.dk"><title>Cykling: Højdepunkter 2026</title><episode-num system="xmltv_ns">6.1.</episode-num></programme>
 <programme start="20261108082000 +0000" stop="20261108101000 +0000" channel="eurosport2.dk"><title>Cykling: Singapore Criterium (m)</title><episode-num system="xmltv_ns">6.1.</episode-num></programme>
@@ -67901,7 +67887,7 @@
 <programme start="20261109212000 +0000" stop="20261109213500 +0000" channel="tv2kosmopoldk.dk"><title>Nyheder 21:20.</title><desc>Nyheder 21:20.</desc></programme>
 <programme start="20261109213500 +0000" stop="20261109222500 +0000" channel="tv2kosmopoldk.dk"><title>Malte Ebert hyrer stjernerne</title><desc>Malte Ebert hyrer stjernerne</desc></programme>
 <programme start="20261109222500 +0000" stop="20261109230500 +0000" channel="tv2kosmopoldk.dk"><title>Mesterlige ombygninger</title><desc>Mesterlige ombygninger</desc><icon src="https://image.tmdb.org/t/p/w1280/1myy2FcjjlGahHr5mXCfJ0GJJk2.jpg" /></programme>
-<programme start="20261109230500 +0000" stop="20261109235500 +0000" channel="tv2kosmopoldk.dk"><title>Alarmcentralen - jagten på sandheden</title><desc>Alarmcentralen - jagten på sandheden</desc></programme>
+<programme start="20261109230500 +0000" stop="20261109235500 +0000" channel="tv2kosmopoldk.dk"><title>Alarmcentralen - jagten på sandheden</title><desc>Alarmcentralen - jagten på sandheden</desc><icon src="https://image.tmdb.org/t/p/w1280/7otoQ4JleLw3qZnMCqT4uqH7svo.jpg" /></programme>
 <programme start="20261109235500 +0000" stop="20261109235500 +0000" channel="tv2kosmopoldk.dk"><title>Den som dræber - Fanget af mørket</title><desc>En kjole, som tilhørte det første offer Natasha, bliver fundet, og det viser sig at Anders Kjeldsen har holdt den skjult. Stine er ved at miste forstanden.</desc><icon src="https://image.tmdb.org/t/p/w1280/RsNKtMsJyJW9iseUs8r5huaOJL.jpg" /></programme>
 <programme start="20261109235500 +0000" stop="20261110005000 +0000" channel="tv2kosmopoldk.dk"><title>24 timer på skadestuen</title><desc>Den 86-årige Fillipo bliver hastet ind på skadestuen, da der er mistanke om, at han har fået et slagtilfælde. Og 80-årige Susan har fået åbent benbrud. Instruktører: Jonathan Low, Sam Wildman, Joe John. Tilladt for: 11,Jonathan Low, Sam Wildman, Joe John, Sophie Waldron.</desc><icon src="https://image.tmdb.org/t/p/w1280/rJ6EaKrmgWJ09QHAmL2RSWvPxap.jpg" /></programme>
 <programme start="20261110005000 +0000" stop="20261110014500 +0000" channel="tv2kosmopoldk.dk"><title>Motorvejspatruljen</title><desc>Der opstår kaos, da en stjålet bil påkører en patruljevogn under en politiaktion. Flere patruljer rykker ud i en intens jagt på at få standset flugtbilisten.</desc><icon src="https://image.tmdb.org/t/p/w1280/cg84E3zmsP08yIZScA7s0IV6Kny.jpg" /></programme>
@@ -67943,7 +67929,7 @@
 <programme start="20261110012500 +0000" stop="20261110030500 +0000" channel="tv4hitsdenmarkdkdadk.dk"><title>Non-Stop</title><desc>U.S. Air Marshall Bill Marks (Liam Neeson) får i 12 kilometers højde på et fly fra New York til London en SMS-besked om, at han skal få flyselskabet til at overføre 150 mio. dollars. Sker det ikke, vil en passager dø hvert 20. minut. Bill Marks forsøger nu at finde ud af, hvem der står bag denne trussel, men har har ikke meget tid at løbe på.</desc></programme>
 <programme start="20261108010000 +0000" stop="20261108031000 +0000" channel="viasatfamilydk.dk"><title>Brudepiger</title><desc>Kristen Wiig får som både medforfatter og skuespiller den anerkendelse, hun altid har fortjent i denne morsomme komedie, der illustrerer, at piger sagtens kan være lige så smarte og rå som fyre,Paul Feig - director,Kristen Wiig - Annie,Maya Rudolph - Lillian,Rose Byrne - Helen,Terry Crews - Boot Camp Instructor,Ellie Kemper - Becca,Chris O'Dowd - Nathan Rhodes,Melissa McCarthy - Megan.</desc></programme>
 <programme start="20261108031000 +0000" stop="20261108050000 +0000" channel="viasatfamilydk.dk"><title>Oh, Hi!</title><desc>På en romantisk ferie er Iris desperat efter at overbevise Isaac om, at de er soulmates.</desc></programme>
-<programme start="20261108050000 +0000" stop="20261108070000 +0000" channel="viasatfamilydk.dk"><title>GOAT - Drøm Stort</title><desc>En ged med store drømme får chancen for at spille brølbold og revolutionere sporten.</desc></programme>
+<programme start="20261108050000 +0000" stop="20261108070000 +0000" channel="viasatfamilydk.dk"><title>GOAT - Drøm Stort</title><desc>En ged med store drømme får chancen for at spille brølbold og revolutionere sporten.</desc><icon src="https://image.tmdb.org/t/p/w1280/6aAsTVPSsqyD2bqYfAnOdG9g4rF.jpg" /></programme>
 <programme start="20261108070000 +0000" stop="20261108090000 +0000" channel="viasatfamilydk.dk"><title>Operation Arktis</title><desc>Julia og hendes tvillingesøstre Sindre og Ida smyger sig om om bord på en helikopter, som dog ikke flyver dem til det sted, de troede. I stedet havner søstrene på en øde ø, og her må de kæmpe for at overleve blandt snestorme, isbjørne og andre uhyggelige farer,Grethe Bøe-Waal - director,Kaisa Gurine Antonsen - Julia,Ida Leonora Valestrand Eike - Ida,Leonard Valestrand Eike - Sindre,Line Verndal - Mor,Nicolai Cleve Broch - Far,Kristofer Hivju - Fangstmann,Lars Arentz-Hansen - Oberst Holm.</desc><icon src="https://image.tmdb.org/t/p/w1280/4xLIf8BfIrI4MsujRp0nFOSa1wM.jpg" /></programme>
 <programme start="20261108090000 +0000" stop="20261108110000 +0000" channel="viasatfamilydk.dk"><title>Far til fire i solen</title><desc>Familien rejser på solferie. Alt er fryd og gammen, indtil børnene vil deltage i konkurrencen ”Årets solfamilie”. Far ser sin chance for at slå konkurrenten: Bjørn, en mobber fra skoletiden,Martin Miehe-Renard - director,Martin Brygmann - Far,Thomas Bo Larsen - Onkel Anders,Elton Rokahaim Møller - Lille Per,Laura Lavigne Bie-Olsen - Mie,Coco Hjardemaal - Søs,Mingus Hassing Hellemann - Ole,Lukas Toya - Peter.</desc><icon src="https://image.tmdb.org/t/p/w1280/7YNCrt9rngwQsuhAZ5e2tWXhpNd.jpg" /></programme>
 <programme start="20261108110000 +0000" stop="20261108130000 +0000" channel="viasatfamilydk.dk"><title>Robotbror</title><desc>Als Alberte voor haar verjaardag het allernieuwste robotmodel krijgt, wordt ze het populairste meisje op school. Kan de band met een robot echter opwegen tegen echte vriendschap,Frederik Meldal Nørgaard - director,Selma Iljazovski - Alberte,Philip Elbech Andresen - Konrad,Kristian Holm Joensen - Robbi, krop,Lise Baastrup - Tine,Kristian Ibler - Torben,Sophia Johar - Solfryd,Emilý Rós Margrétardóttir - Ingeborg.</desc><icon src="https://image.tmdb.org/t/p/w1280/q6PAQU17S4m256rSJE6Pb8gbicg.jpg" /></programme>
