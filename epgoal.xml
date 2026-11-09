@@ -2038,7 +2038,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/v07J666HYNouDoLdIWUqmZv7IVX.jpg" /></programme>
   <programme start="20261113004500 +0000" stop="20261113014000 +0000" channel="dr2.dk">
     <title lang="da">Verden ifølge Kim Jong-un</title>
     <desc lang="da">'Verden ifølge Kim Jong-un'. Han er besat af atomvåben. Nordkoreas diktator Kim Jong-un er lige så despotisk som sine forgængere. Det er lykkedes ham at bryde landets diplomatiske isolation. Han har skaffet Nordkorea en plads ved bordet sammen med de store nationer. Men først og fremmest har han gjort sin nation til en atommagt, som udgør en stor trussel mod verden. Hvor seriøst skal vi tage denne nye trussel? Det her er historien om Kim Jong-un: arving til verdens farligste diktatur. Tilladt for: 11.</desc>
@@ -33600,7 +33600,7 @@
     <title lang="da">Jul på Hindsgavl</title>
     <desc lang="da">Sæson: 2. Episode: 1. 'Når træet bliver tændt'. Den sidste uge i november bliver et kæmpe juletræ rejst midt på gårdspladsen på Hindsgavl Slot. Alt skal være klar til første søndag i advent, for her bliver træet tændt. Det er en populær tradition, der signalerer, at nu går julen for alvor i gang på det gamle slot. Adventssøndagen trækker et stort og trofast stampublikum - og i dagene inden har slotskøkkenet ekstra travlt med at bage småkager og lave konfekt til de mange gæster. Især fordi der også skal serveres 700 hjemmelavede æbleskiver. Tilladt for: A.</desc>
     <category lang="da">Fritid</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/9TnzAZgC6U2y60ILv4dwdE2MrzJ.jpg" /></programme>
   <programme start="20261112202500 +0000" stop="20261112210000 +0000" channel="tv2fri.dk">
     <title lang="da">Sæt pris på Danmark - julespecial</title>
     <desc lang="da">'Sæt pris på Danmark - julespecial'. Mens vi venter på juleaften, tager Hans Pilgaard skuespillerveninderne Merete Mærkedahl og Johanne Louise Schmidt på juleeventyr i Skagen og omegn. Julebarometeret stiger, når de skal puste deres egne julekugler, drikke kold gløgg og på kanetur. De finder også ud af, hvordan et juletræ smager. Tilladt for: A.</desc>
@@ -34030,12 +34030,12 @@
     <title lang="da">Håndbold: TTH Holstebro-Fredericia, pokalkvartfinale (m)</title>
     <desc lang="da">Sæson: 2026. Episode: 106. 'Håndbold: TTH Holstebro-Fredericia, pokalkvartfinale (m)'. Nu gælder det pokalen! Danmarks bedste håndboldhold kæmper om ære, hæder og en plads i historiebøgerne. Glæd dig til intense opgør og store øjeblikke. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%A5ndbold%20Herre%20Pokal.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%A5ndbold%20Herre%20Pokal.jpg" /></programme>
   <programme start="20261112182000 +0000" stop="20261112191000 +0000" channel="tv2sport.dk">
     <title lang="da">Håndbold: TTH Holstebro-Fredericia, pokalkvartfinale (m)</title>
     <desc lang="da">Sæson: 2026. Episode: 106. 'Håndbold: TTH Holstebro-Fredericia, pokalkvartfinale (m)'. Nu gælder det pokalen! Danmarks bedste håndboldhold kæmper om ære, hæder og en plads i historiebøgerne. Glæd dig til intense opgør og store øjeblikke. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%A5ndbold%20Herre%20Pokal.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%A5ndbold%20Herre%20Pokal.jpg" /></programme>
   <programme start="20261112191000 +0000" stop="20261112192500 +0000" channel="tv2sport.dk">
     <title lang="da">Håndbold: Studiet</title>
     <desc lang="da">Sæson: 2026. Episode: 118. 'Håndbold: Studiet'. TV 2s eksperter og kommentatorer vender dagens håndboldkamp og får reaktioner fra spillere og trænere i studiet. Find altid artikler, analyser og sidste nyt fra håndboldens verden på sport.tv2.dk. #tv2haandbold. Tilladt for: A.</desc>
@@ -34045,12 +34045,12 @@
     <title lang="da">Håndbold: Bjerringbro-Silkeborg - Skjern, pokalkvartfinale (m)</title>
     <desc lang="da">Sæson: 2026. Episode: 107. 'Håndbold: Bjerringbro-Silkeborg - Skjern, pokalkvartfinale (m)'. Nu gælder det pokalen! Danmarks bedste håndboldhold kæmper om ære, hæder og en plads i historiebøgerne. Glæd dig til intense opgør og store øjeblikke. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%A5ndbold%20Herre%20Pokal.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%A5ndbold%20Herre%20Pokal.jpg" /></programme>
   <programme start="20261112202000 +0000" stop="20261112211000 +0000" channel="tv2sport.dk">
     <title lang="da">Håndbold: Bjerringbro-Silkeborg - Skjern, pokalkvartfinale (m)</title>
     <desc lang="da">Sæson: 2026. Episode: 107. 'Håndbold: Bjerringbro-Silkeborg - Skjern, pokalkvartfinale (m)'. Nu gælder det pokalen! Danmarks bedste håndboldhold kæmper om ære, hæder og en plads i historiebøgerne. Glæd dig til intense opgør og store øjeblikke. Tilladt for: A.</desc>
     <category lang="da">Sport</category>
-    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/tv2sport-generic.jpg" /></programme>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%A5ndbold%20Herre%20Pokal.jpg" /><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/H%C3%A5ndbold%20Herre%20Pokal.jpg" /></programme>
   <programme start="20261112211000 +0000" stop="20261112213000 +0000" channel="tv2sport.dk">
     <title lang="da">Håndbold: Studiet</title>
     <desc lang="da">Sæson: 2026. Episode: 120. 'Håndbold: Studiet'. TV 2s eksperter og kommentatorer vender dagens håndboldkamp og får reaktioner fra spillere og trænere i studiet. Find altid artikler, analyser og sidste nyt fra håndboldens verden på sport.tv2.dk. #tv2haandbold. Tilladt for: A.</desc>
