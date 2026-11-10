@@ -328,7 +328,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/dSjYKsg43Hlp07g0IIQ1wIQuhsF.jpg" /></programme>
   <programme start="20261110081500 +0000" stop="20261110082000 +0000" channel="dr1.dk">
     <title lang="da">P3 Essensen - Besøger underjordisk atomfort</title>
     <desc lang="da">Sæson: 2. Episode: 6. 'Besøger underjordisk atomfort'. Trusselsbilledet i Danmark er det mest alvorlige i over 30 år, siden Den Kolde Krig sidst var over os. Dengang frygtede man en atomkrig mellem Østen og Vesten, og derfor byggede man over 1400 koldkrigsanlæg rundt omkring i Danmark. Et af dem er det atomsikrede Stevnsfortet, der var NATOs allerforreste frontlinje, hvis krigen skulle bryde ud og spillede derfor en central rolle for Danmarks og NATOs forsvar. Vi er taget derud for er undersøge, hvorfor stedet var så vigtigt, og hvilken betydning det har i dag. Tilladt for: 11.</desc>
@@ -1204,7 +1204,7 @@
     <sub-title lang="da">(1:6)</sub-title>
     <desc lang="da">Sæson: 1. Episode: 1. '1. episode'. Fem fantastisk dygtige møbeldesignere skal i de kommende seks programmer forsøge at skabe Danmarks næste klassiker - og de får deres sag for i første afsnit, hvor vi starter med en af de allersværeste; nemlig spisebordsstolen! Vært Mette Bluhme Rieck styrer slagets gang, mens de to dommere Anne-Louise Sommer og Kasper Salto står klar til at bedømme kreationerne. Designerne presses til det yderste i løbet af de blot tre uger de har til at lave stolen, men viser til sidst også på flotteste vis, hvorfor Danmark er kendt i hele verden for vores smukke design. Tilladt for: A.</desc>
     <category lang="da">Fritid</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/5F18aRqabAcW2Rq7JoxMoUmqFTP.jpg" /></programme>
   <programme start="20261113125500 +0000" stop="20261113132500 +0000" channel="dr1.dk">
     <title lang="da">Hammerslag 2024 - Rækkehuse i byen</title>
     <desc lang="da">Sæson: 18. Episode: 4. 'Rækkehuse i byen'. Kvadratmeterne er dyre i København, og især hvis man vil bo i hus. Men hvad skal det så koste at eje et rækkehus i hovedstaden? Det skal Kristine Virén og Lars Lyng finde ud af, når de dyster mod Mira Lie Nielsen og Christian Torp Carlsen, når prisen skal gættes på et charmerende rækkehus i Københavns Nordvest kvarter. Vært Sofie Østergaard inviterer afslutningsvist indenfor i et nyopført, moderne rækkehus med den vildeste udsigt over Teglholmen i København. Tilladt for: A.</desc>
@@ -1336,7 +1336,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/gUaFiCypyIJ4WS8DWFKEZN1be1D.jpg" /></programme>
   <programme start="20261113223500 +0000" stop="20261114001000 +0000" channel="dr1.dk">
     <title lang="da">Book Club</title>
     <desc lang="da">'Book Club'. Romantisk dramakomedie om fire nære veninder, som har en bogklub. Da de læser den erotiske roman "Fifty Shades of Grey", får det uanede konsekvenser. Hovedrollerne i Book Club spilles af Diane Keaton, Jane Fonda, Candice Bergen og Mary Steenburgen. Instruktør: Bill Holderman. Medvirkende: Diane Keaton, Jane Fonda, Candice Bergen, Mary Steenburgen. Tilladt for: A.</desc>
@@ -68285,7 +68285,7 @@
       <actor>Denis Akiyama</actor>
     </credits>
     <category lang="da">Børn</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/8xCAySATiitXdLQsiUi5CN5gsMA.jpg" /></programme>
   <programme start="20261113125500 +0000" stop="20261113130000 +0000" channel="drramasjang.dk">
     <title lang="da">Æblerup</title>
     <desc lang="da">Sæson: 1. Episode: 20. 'Papirpiloter'. Den nye trend blandt børnene i Æblerup er at kaste med papirfly. Men da pigerne vil have den bakke, som Trafalgar og Pulver bruger som startbane, så beslutter de at afgøre det med en konkurrence. Hvem kan lave det vildeste papirfly kast? Tilladt for: A.</desc>
