@@ -1513,7 +1513,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/zyEIbOvOcGR4J6XKxCmrw0auzXc.jpg" /></programme>
   <programme start="20261111103000 +0000" stop="20261111113000 +0000" channel="dr2.dk">
     <title lang="da">Megaportrætter - kampen for ligestilling</title>
     <desc lang="da">'Megaportrætter - kampen for ligestilling'. Maria Torp maler tidens største kvindeforkæmpere. Mød nogle af verdens største ildsjæle, der kæmper for kvinders rettigheder. Den danske kunstner Maria Torp har gennem syv år rejst ud og besøgt aktivister, politikere og nobelpristagere for at male deres portrætter. Trods de alvorlige emner som omskæring, barnebrude og vold er projektet en livsbekræftende fortælling om håb. Tilladt for: 15.</desc>
@@ -1610,7 +1610,7 @@
     <rating system="DK">
       <value>15</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/bLWVrRUmgNY3k5DGrOyajnslFuM.jpg" /></programme>
   <programme start="20261112013500 +0000" stop="20261112022000 +0000" channel="dr2.dk">
     <title lang="da">Vores vidunderlige vulkaner</title>
     <sub-title lang="da">(2:2)</sub-title>
@@ -2212,7 +2212,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  </programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/yNN5HmAxJlhqEJwICT2M9vDnern.jpg" /></programme>
   <programme start="20261115004500 +0000" stop="20261115014000 +0000" channel="dr2.dk">
     <title lang="da">Robert De Niro - Skjult foran kameraet</title>
     <desc lang="da">'Robert De Niro - Skjult foran kameraet'. 'Gaden uden nåde', 'Taxi Driver' og 'The Deer Hunter'. Han er en af de største skuespillere i vor tid. Uanset om Robert De Niro spiller gangster eller krigsveteran, formår han at nuancere sine karakterer. De kan være voldelige og sårbare på samme tid. Uddannet på Actors Studio og Oscar-belønnet for 'Raging Bull' og 'The Godfather Part II'. Hvem er skuespilleren, der lever sig helt ind i sine roller, men værner om sit privatliv? Tilladt for: 11.</desc>
@@ -27825,12 +27825,12 @@
     <title lang="da">Gordon Ramsay: På fremmed grund</title>
     <desc lang="da">Sæson: 3. Episode: 10. 'Finlands midnatssol'. Kokken Ramsay udforsker de spredte vådområder i Lappland i Nordfinland midt på sommeren for at lære de kulinariske hemmeligheder. Han spiller sumpfodbold, navigerer i voldsomme strømfald i en tømmerflåde, fisker efter hvid fisk og laver mad i en sauna. Efter at have smagt tjære og myreurin og samlet mad i sumpe møder han Michelin- kokken Kim Mikkola for at tilberede et festmåltid ved floden. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/9K7KIOMXgaZjvfQPV8JQeIvb7JE.jpg" /></programme>
   <programme start="20261114130000 +0000" stop="20261114140000 +0000" channel="nationalgeographic.dk">
     <title lang="da">Gordon Ramsay: På fremmed grund</title>
     <desc lang="da">Sæson: 3. Episode: 6. 'Utrolige Island'. Gordon Ramsay udforsker ildens og isens land under den islandske sommer for at lære de traditionelle teknikker bag vulkansk madlavning. Først kommer den anerkendte kok på prøve, da han fisker efter vildlaks i en gletscherflod og laver mad i et geotermisk basin, inden han drager nordpå mod det tyndtbefolkede vestlige fjordområde. Efter at have smagt fermenteret haj og dykket efter kammuslinger i de iskolde fjorde, mødes Gordon med Islands første Michelin-belønnede kok, Ragnar Eiríksson, for at lave et festmåltid i stormende regnvejr. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/9K7KIOMXgaZjvfQPV8JQeIvb7JE.jpg" /></programme>
   <programme start="20261114140000 +0000" stop="20261114150000 +0000" channel="nationalgeographic.dk">
     <title lang="da">Gordon Ramsay: På fremmed grund</title>
     <desc lang="da">Sæson: 2. Episode: 7. 'Norges vikingeland'. I det nordvestlige Norge mestrer kokken Ramsay de utilgivelige elementer og stærke vikingetraditioner, når han opdager hemmelighederne i det nordiske køkken. Instruktør: Neil DeGroot. Tilladt for: A.</desc>
@@ -27838,7 +27838,7 @@
       <director>Neil DeGroot</director>
     </credits>
     <category lang="da">Fakta</category>
-    </programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/9K7KIOMXgaZjvfQPV8JQeIvb7JE.jpg" /></programme>
   <programme start="20261114150000 +0000" stop="20261114160000 +0000" channel="nationalgeographic.dk">
     <title lang="da">Undersøgelse af flystyrt</title>
     <desc lang="da">Sæson: 26. Episode: 2. 'Norsk mareridt'. Kort efter start fra en vindomsust ø i Norge hører piloterne på Widerøe-flyvning 839 en foruroligende lyd og kæmper derefter for at holde flyet i vandret position. Og efter kun 65 sekunder i luften styrter deres dobbelte turbopropfly ned i Nordatlanten og alle ombord omkommer. I vraget opdager efterforskerne skader på en kritisk styrekomponent. Og da de får at vide, at et andet Widerøe-fly næsten led samme skæbne på Værøys notorisk vanskelige lufthavn, konkluderer de, at en række kontroversielle beslutninger har udsat menneskeliv for fare. Tilladt for: A.</desc>
