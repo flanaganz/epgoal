@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<tv><!-- EPGoal5 UHF test 3: icon/backdrop retained; TMDb logo kept as image type=logo; selected programmes also carry English/original title alias to test UHF HERO identity matching. --><channel id="dr1.dk">
+<tv><!-- EPGoal5 UHF test 4: original/English title first and Danish display title last; icon/backdrop retained; TMDb logo remains image type=logo. --><channel id="dr1.dk">
     <display-name lang="da">DR1</display-name>
     <icon src="https://s.c.dk/tvlab/tvicons/prddr1_1577861013_logo_large.png"/>
     <icon src="https://s.c.dk/tvlab/tvicons/prddr1_1577861013_logo_large.png"/>
@@ -111,8 +111,7 @@
     <category lang="da">Show</category>
     <icon src="https://image.tmdb.org/t/p/w1280/9AxRPfZqBTyrVxxKhRLpcZs81m8.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/9AxRPfZqBTyrVxxKhRLpcZs81m8.jpg</image></programme>
   <programme start="20261112135500 +0000" stop="20261112152500 +0000" channel="dr1.dk">
-    <title lang="da">Kriminalkommissær Barnaby</title>
-    <title lang="en">Midsomer Murders</title><sub-title lang="da">15 (2)</sub-title>
+    <title lang="en">Midsomer Murders</title><title lang="da">Kriminalkommissær Barnaby</title><sub-title lang="da">15 (2)</sub-title>
     <desc lang="da">Sæson: 15. Episode: 2. 'Afsnit 2 Mordet på uskylden'. "Mordet på uskylden". Efter 18 år i fængsel for mord vender Grady Felton hjem til sin fødeegn. Det vækker vrede, ikke mindst blandt mordofferets familie. Da advokaten, der forsvarede Grady, findes myrdet, havner Grady igen i politiets søgelys. Men denne gang er Gradys alibi solidt. Har han mon en medsammensvoren? Barnaby og Jones går på jagt efter svaret. Instruktør: Renny Rye. Medvirkende: Neil Dudgeon, Jason Hughes, Fiona Dolman, Tamzin Malleson. Tilladt for: 11.</desc>
     <credits>
       <director>Renny Rye</director>
@@ -133,8 +132,7 @@
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/6rmZQrnJ71HXkrqap1gUbiJ5GO0.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/6rmZQrnJ71HXkrqap1gUbiJ5GO0.jpg</image><image type="logo" orient="L" system="tmdb" lang="da">https://image.tmdb.org/t/p/original/iuQHBMFa5Xc6twiVy6cvSmsoGNo.png</image></programme>
   <programme start="20261112152500 +0000" stop="20261112161500 +0000" channel="dr1.dk">
-    <title lang="da">Min familie og andre dyr</title>
-    <sub-title lang="da">2 (3:6)</sub-title>
+    <title lang="en">The Durrells</title><title lang="da">Min familie og andre dyr</title><sub-title lang="da">2 (3:6)</sub-title>
     <desc lang="da">Sæson: 2. Episode: 3. 'Min familie og andre dyr II'. Hvornår er det Louisas fødselsdag? Hun kender ikke svaret, men pludselig begynder hun at føle sig gammel. Hun beslutter sig for at få et yngre look - med blandet held. Samtidig bestemmer Leslie sig for at blive portrætfotograf, mens Larry indleder en affære med Vasilia - der kun er ude på at afpresse Louisa til at holde sig fra Hugh. Instruktør: Steve Barron. Medvirkende: Keeley Hawes, Josh O'Connor, Milo Parker, Daisy Waterstone. Tilladt for: 11.</desc>
     <credits>
       <director>Steve Barron</director>
@@ -254,8 +252,7 @@
     </rating>
   </programme>
   <programme start="20261113013500 +0000" stop="20261113030500 +0000" channel="dr1.dk">
-    <title lang="da">Kriminalkommissær Barnaby</title>
-    <title lang="en">Midsomer Murders</title><sub-title lang="da">14 (8)</sub-title>
+    <title lang="en">Midsomer Murders</title><title lang="da">Kriminalkommissær Barnaby</title><sub-title lang="da">14 (8)</sub-title>
     <desc lang="da">Sæson: 14. Episode: 8. 'En sjælden fugl'. "Nedlagt". Ornitologen Ralph Ford hævder, at han har set en sjælden afrikansk fugl i Midsomer. Det skaber splid blandt egnens fuglekendere. Formanden for den lokale ornitologforening nægter at anerkende observeringen, og Ralph forlader foreningsmødet i vrede. Næste dag findes formanden død. Er det Ralph, der står bag? Barnaby og Jones går på jagt efter svaret. Instruktør: Nicholas Laughland. Medvirkende: Neil Dudgeon, Jason Hughes, Fiona Dolman, Tamzin Malleson. Tilladt for: 11.</desc>
     <credits>
       <director>Nicholas Laughland</director>
@@ -397,8 +394,7 @@
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/zRf6m12VimuxzRJ1myco9DDwiTn.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/zRf6m12VimuxzRJ1myco9DDwiTn.jpg</image></programme>
   <programme start="20261113144000 +0000" stop="20261113161000 +0000" channel="dr1.dk">
-    <title lang="da">Kriminalkommissær Barnaby</title>
-    <title lang="en">Midsomer Murders</title><sub-title lang="da">15 (3)</sub-title>
+    <title lang="en">Midsomer Murders</title><title lang="da">Kriminalkommissær Barnaby</title><sub-title lang="da">15 (3)</sub-title>
     <desc lang="da">Sæson: 15. Episode: 4. 'Døden og divaerne'. "Døden og divaerne". Livet - og døden - efterligner kunsten, da Midsomer rammes af en række bizarre mord. Mordene er kopier af mordene i en række gyserfilm fra 60'erne. Alle filmene havde de to rivaliserende søstre Stella Harris og Diana Davenport i hovedrollerne. Efter mere end 40 år er de to søstre stadig bitre rivaler. Men har de noget med mordene at gøre? Instruktør: Nicholas Laughland. Medvirkende: Neil Dudgeon, Jason Hughes, Fiona Dolman, Tamzin Malleson. Tilladt for: 11.</desc>
     <credits>
       <director>Nicholas Laughland</director>
@@ -419,8 +415,7 @@
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/6rmZQrnJ71HXkrqap1gUbiJ5GO0.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/6rmZQrnJ71HXkrqap1gUbiJ5GO0.jpg</image><image type="logo" orient="L" system="tmdb" lang="da">https://image.tmdb.org/t/p/original/iuQHBMFa5Xc6twiVy6cvSmsoGNo.png</image></programme>
   <programme start="20261113161000 +0000" stop="20261113170000 +0000" channel="dr1.dk">
-    <title lang="da">Min familie og andre dyr</title>
-    <sub-title lang="da">2 (4:6)</sub-title>
+    <title lang="en">The Durrells</title><title lang="da">Min familie og andre dyr</title><sub-title lang="da">2 (4:6)</sub-title>
     <desc lang="da">Sæson: 2. Episode: 4. 'Min familie og andre dyr II'. Larry er vendt hjem. Han har fået fåresyge, og han mener, det er Vasilias skyld. Samtidig dukker tante Hermione op igen sammen med sin veninde mrs. Haddock. Mrs. Haddock er et medium, så kan hun sætte Louisa i forbindelse med hendes afdøde mand? Instruktør: Edward Hall. Medvirkende: Keeley Hawes, Josh O'Connor, Milo Parker, Daisy Waterstone. Tilladt for: 11.</desc>
     <credits>
       <director>Edward Hall</director>
@@ -549,8 +544,7 @@
     </rating>
   </programme>
   <programme start="20261114014500 +0000" stop="20261114031000 +0000" channel="dr1.dk">
-    <title lang="da">Kriminalkommissær Barnaby</title>
-    <title lang="en">Midsomer Murders</title><sub-title lang="da">15 (1)</sub-title>
+    <title lang="en">Midsomer Murders</title><title lang="da">Kriminalkommissær Barnaby</title><sub-title lang="da">15 (1)</sub-title>
     <desc lang="da">Sæson: 15. Episode: 1. 'Afsnit 1 Den hovedløse rytter'. "Den mørke rytter". Bentham DeQuetteville styrter i døden, da han ser en hovedløs rytter fra taget af familiens herregård. Og han bliver ikke det sidste medlem af den adelige familie, der omkommer efter et møde med den gådefulde rytter. Hvilke hemmeligheder gemmer familien DeQuetteville på? Og hvem er den hovedløse rytter? Kriminalkommissær Barnaby går på jagt efter svarene. Instruktør: Alex Pillai. Medvirkende: Neil Dudgeon, Jason Hughes, Fiona Dolman, Tamzin Malleson. Tilladt for: 11.</desc>
     <credits>
       <director>Alex Pillai</director>
@@ -851,8 +845,7 @@
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/7CHCOlvIkt46rdKAyCgtPIO1wiP.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/7CHCOlvIkt46rdKAyCgtPIO1wiP.jpg</image><image type="logo" orient="L" system="tmdb" lang="da">https://image.tmdb.org/t/p/original/jqh8ArccrJZR5l70T90skCgvwYW.png</image></programme>
   <programme start="20261115013500 +0000" stop="20261115030000 +0000" channel="dr1.dk">
-    <title lang="da">Kriminalkommissær Barnaby</title>
-    <title lang="en">Midsomer Murders</title><sub-title lang="da">15 (2)</sub-title>
+    <title lang="en">Midsomer Murders</title><title lang="da">Kriminalkommissær Barnaby</title><sub-title lang="da">15 (2)</sub-title>
     <desc lang="da">Sæson: 15. Episode: 2. 'Afsnit 2 Mordet på uskylden'. "Mordet på uskylden". Efter 18 år i fængsel for mord vender Grady Felton hjem til sin fødeegn. Det vækker vrede, ikke mindst blandt mordofferets familie. Da advokaten, der forsvarede Grady, findes myrdet, havner Grady igen i politiets søgelys. Men denne gang er Gradys alibi solidt. Har han mon en medsammensvoren? Barnaby og Jones går på jagt efter svaret. Instruktør: Renny Rye. Medvirkende: Neil Dudgeon, Jason Hughes, Fiona Dolman, Tamzin Malleson. Tilladt for: 11.</desc>
     <credits>
       <director>Renny Rye</director>
@@ -1154,8 +1147,7 @@
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/qMOe40lxBNobowmOkOAmXvPK4RG.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/qMOe40lxBNobowmOkOAmXvPK4RG.jpg</image></programme>
   <programme start="20261116012000 +0000" stop="20261116025000 +0000" channel="dr1.dk">
-    <title lang="da">Kriminalkommissær Barnaby</title>
-    <title lang="en">Midsomer Murders</title><sub-title lang="da">15 (3)</sub-title>
+    <title lang="en">Midsomer Murders</title><title lang="da">Kriminalkommissær Barnaby</title><sub-title lang="da">15 (3)</sub-title>
     <desc lang="da">Sæson: 15. Episode: 4. 'Døden og divaerne'. "Døden og divaerne". Livet - og døden - efterligner kunsten, da Midsomer rammes af en række bizarre mord. Mordene er kopier af mordene i en række gyserfilm fra 60'erne. Alle filmene havde de to rivaliserende søstre Stella Harris og Diana Davenport i hovedrollerne. Efter mere end 40 år er de to søstre stadig bitre rivaler. Men har de noget med mordene at gøre? Instruktør: Nicholas Laughland. Medvirkende: Neil Dudgeon, Jason Hughes, Fiona Dolman, Tamzin Malleson. Tilladt for: 11.</desc>
     <credits>
       <director>Nicholas Laughland</director>
@@ -1289,8 +1281,7 @@
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/3SA5zBOqofwGlmEAAUBoPmy9DTv.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/3SA5zBOqofwGlmEAAUBoPmy9DTv.jpg</image></programme>
   <programme start="20261112190500 +0000" stop="20261112200500 +0000" channel="dr2.dk">
-    <title lang="da">Ud i vildmarken med Simon Reeve</title>
-    <title lang="en">Wilderness with Simon Reeve</title><sub-title lang="da">2 (3:4)</sub-title>
+    <title lang="en">Wilderness with Simon Reeve</title><title lang="da">Ud i vildmarken med Simon Reeve</title><sub-title lang="da">2 (3:4)</sub-title>
     <desc lang="da">Sæson: 2. Episode: 3. 'Yukon-territoriet'. Majestætiske bjerge, enorme gletsjere, tætte, grønne skove og store floddale. Denne gang rejser Simon Reeve til Yukon - et af Nordamerikas mest ikoniske og afsidesliggende vildmarksområder. Området er næsten på størrelse med Spanien, men har færre end 50.000 indbyggere. Turen begynder ved Yukonflodens udspring. Her udforsker han floden i kano, møder First Nations-folk, der har hjemme her - og leder efter grizzlybjørne tæt på polarcirklen. BBC-naturserie fra 2026. Tilladt for: 7.</desc>
     <category lang="da">Fritid</category>
     <rating system="DK">
@@ -1795,8 +1786,7 @@
     </rating>
   </programme>
   <programme start="20261115040000 +0000" stop="20261115050000 +0000" channel="dr2.dk">
-    <title lang="da">Ud i vildmarken med Simon Reeve</title>
-    <title lang="en">Wilderness with Simon Reeve</title><sub-title lang="da">2 (2:4)</sub-title>
+    <title lang="en">Wilderness with Simon Reeve</title><title lang="da">Ud i vildmarken med Simon Reeve</title><sub-title lang="da">2 (2:4)</sub-title>
     <desc lang="da">Episode: 2. 'Cortéshavet'. Kolonier af søløver, legesyge delfiner, unikke havfugle og sjældne hajer. Denne gang udforsker Simon Reeve Cortéshavet i det vestlige Mexico, også kendt som 'verdens akvarium'. Her findes næsten en tredjedel af Jordens havpattedyrarter, og havet er også berømt for hajer såsom tyrehajer og de truede hammerhajer. BBC-naturserie fra 2026. Tilladt for: 7.</desc>
     <category lang="da">Fritid</category>
     <rating system="DK">
@@ -2054,8 +2044,7 @@
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/sJQ5qKWnqAsNLA53Vsu6SIw4T2C.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/sJQ5qKWnqAsNLA53Vsu6SIw4T2C.jpg</image><image type="logo" orient="L" system="tmdb" lang="da">https://image.tmdb.org/t/p/original/nUjq7mKVQubBtC5xAcOjUox0XIx.png</image></programme>
   <programme start="20261112075500 +0000" stop="20261112082500 +0000" channel="kanal5.dk">
-    <title lang="da">Venner</title>
-    <title lang="en">Friends</title><desc lang="da">Sæson: 7. Episode: 22. 'The One With Chandler's Dad'. Chandler genser sin far, som går i dametøj. Rachel får problemer, da hun kører i Monicas Porsche. Instruktører: Kevin Bright, Gary Halvorson. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
+    <title lang="en">Friends</title><title lang="da">Venner</title><desc lang="da">Sæson: 7. Episode: 22. 'The One With Chandler's Dad'. Chandler genser sin far, som går i dametøj. Rachel får problemer, da hun kører i Monicas Porsche. Instruktører: Kevin Bright, Gary Halvorson. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
     <credits>
       <director>Kevin Bright</director>
       <director>Gary Halvorson</director>
@@ -2073,8 +2062,7 @@
     <category lang="da">Serier</category>
     <icon src="https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg</image><image type="logo" orient="L" system="tmdb" lang="da">https://image.tmdb.org/t/p/original/1duDsGwJt2dLagjDYNQdcifS4RV.png</image></programme>
   <programme start="20261112082500 +0000" stop="20261112090000 +0000" channel="kanal5.dk">
-    <title lang="da">Venner</title>
-    <title lang="en">Friends</title><desc lang="da">Sæson: 7. Episode: 23. 'The One With Chandler and Monica's Wedding - Del 1'. Mens slægtningene samles til Monicas og Chandlers bryllup, går omfanget af det han er i gang med endelig op for Chandler. Instruktør: Kevin Bright. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
+    <title lang="en">Friends</title><title lang="da">Venner</title><desc lang="da">Sæson: 7. Episode: 23. 'The One With Chandler and Monica's Wedding - Del 1'. Mens slægtningene samles til Monicas og Chandlers bryllup, går omfanget af det han er i gang med endelig op for Chandler. Instruktør: Kevin Bright. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
     <credits>
       <director>Kevin Bright</director>
       <actor>Jennifer Aniston</actor>
@@ -2253,8 +2241,7 @@
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/1bHwR01romsllmpBJ4FlPgG8tYs.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/1bHwR01romsllmpBJ4FlPgG8tYs.jpg</image><image type="logo" orient="L" system="tmdb" lang="da">https://image.tmdb.org/t/p/original/t22kdGuReeEHxWZCx7unZP3GQhL.png</image></programme>
   <programme start="20261112180000 +0000" stop="20261112183000 +0000" channel="kanal5.dk">
-    <title lang="da">Venner</title>
-    <title lang="en">Friends</title><desc lang="da">Sæson: 7. Episode: 24. 'The One With Chandler and Monicas Wedding - Del 2'. Monica er helt uvidende om de potentielle katastrofer på hendes bryllupsdag. Instruktør: Kevin Bright. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
+    <title lang="en">Friends</title><title lang="da">Venner</title><desc lang="da">Sæson: 7. Episode: 24. 'The One With Chandler and Monicas Wedding - Del 2'. Monica er helt uvidende om de potentielle katastrofer på hendes bryllupsdag. Instruktør: Kevin Bright. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
     <credits>
       <director>Kevin Bright</director>
       <actor>Jennifer Aniston</actor>
@@ -2271,8 +2258,7 @@
     <category lang="da">Serier</category>
     <icon src="https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg</image><image type="logo" orient="L" system="tmdb" lang="da">https://image.tmdb.org/t/p/original/1duDsGwJt2dLagjDYNQdcifS4RV.png</image></programme>
   <programme start="20261112183000 +0000" stop="20261112190000 +0000" channel="kanal5.dk">
-    <title lang="da">Venner</title>
-    <title lang="en">Friends</title><desc lang="da">Sæson: 8. Episode: 1. 'The One After "I Do"'. Monicas og Chandlers bryllupsreception sættes næsten i baggrunden af nyheden om, at Rachel er gravid. Instruktør: Kevin Bright. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
+    <title lang="en">Friends</title><title lang="da">Venner</title><desc lang="da">Sæson: 8. Episode: 1. 'The One After "I Do"'. Monicas og Chandlers bryllupsreception sættes næsten i baggrunden af nyheden om, at Rachel er gravid. Instruktør: Kevin Bright. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
     <credits>
       <director>Kevin Bright</director>
       <actor>Jennifer Aniston</actor>
@@ -2457,8 +2443,7 @@
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/sJQ5qKWnqAsNLA53Vsu6SIw4T2C.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/sJQ5qKWnqAsNLA53Vsu6SIw4T2C.jpg</image><image type="logo" orient="L" system="tmdb" lang="da">https://image.tmdb.org/t/p/original/nUjq7mKVQubBtC5xAcOjUox0XIx.png</image></programme>
   <programme start="20261113075500 +0000" stop="20261113082500 +0000" channel="kanal5.dk">
-    <title lang="da">Venner</title>
-    <title lang="en">Friends</title><desc lang="da">Sæson: 7. Episode: 24. 'The One With Chandler and Monicas Wedding - Del 2'. Monica er helt uvidende om de potentielle katastrofer på hendes bryllupsdag. Instruktør: Kevin Bright. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
+    <title lang="en">Friends</title><title lang="da">Venner</title><desc lang="da">Sæson: 7. Episode: 24. 'The One With Chandler and Monicas Wedding - Del 2'. Monica er helt uvidende om de potentielle katastrofer på hendes bryllupsdag. Instruktør: Kevin Bright. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
     <credits>
       <director>Kevin Bright</director>
       <actor>Jennifer Aniston</actor>
@@ -2475,8 +2460,7 @@
     <category lang="da">Serier</category>
     <icon src="https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg</image><image type="logo" orient="L" system="tmdb" lang="da">https://image.tmdb.org/t/p/original/1duDsGwJt2dLagjDYNQdcifS4RV.png</image></programme>
   <programme start="20261113082500 +0000" stop="20261113085500 +0000" channel="kanal5.dk">
-    <title lang="da">Venner</title>
-    <title lang="en">Friends</title><desc lang="da">Sæson: 8. Episode: 1. 'The One After "I Do"'. Monicas og Chandlers bryllupsreception sættes næsten i baggrunden af nyheden om, at Rachel er gravid. Instruktør: Kevin Bright. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
+    <title lang="en">Friends</title><title lang="da">Venner</title><desc lang="da">Sæson: 8. Episode: 1. 'The One After "I Do"'. Monicas og Chandlers bryllupsreception sættes næsten i baggrunden af nyheden om, at Rachel er gravid. Instruktør: Kevin Bright. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
     <credits>
       <director>Kevin Bright</director>
       <actor>Jennifer Aniston</actor>
@@ -2655,8 +2639,7 @@
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/1bHwR01romsllmpBJ4FlPgG8tYs.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/1bHwR01romsllmpBJ4FlPgG8tYs.jpg</image><image type="logo" orient="L" system="tmdb" lang="da">https://image.tmdb.org/t/p/original/t22kdGuReeEHxWZCx7unZP3GQhL.png</image></programme>
   <programme start="20261113180000 +0000" stop="20261113183000 +0000" channel="kanal5.dk">
-    <title lang="da">Venner</title>
-    <title lang="en">Friends</title><desc lang="da">Sæson: 8. Episode: 2. 'The One With The Red Sweater'. Mens de forbereder sig på at forlade bryllupshotellet, spekulerer en spændt Monica og Phoebe på, hvem der mon er faderen til gravide Rachels barn. Instruktør: David Schwimmer. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
+    <title lang="en">Friends</title><title lang="da">Venner</title><desc lang="da">Sæson: 8. Episode: 2. 'The One With The Red Sweater'. Mens de forbereder sig på at forlade bryllupshotellet, spekulerer en spændt Monica og Phoebe på, hvem der mon er faderen til gravide Rachels barn. Instruktør: David Schwimmer. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
     <credits>
       <director>David Schwimmer</director>
       <actor>Jennifer Aniston</actor>
@@ -2673,8 +2656,7 @@
     <category lang="da">Serier</category>
     <icon src="https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg</image><image type="logo" orient="L" system="tmdb" lang="da">https://image.tmdb.org/t/p/original/1duDsGwJt2dLagjDYNQdcifS4RV.png</image></programme>
   <programme start="20261113183000 +0000" stop="20261113190000 +0000" channel="kanal5.dk">
-    <title lang="da">Venner</title>
-    <title lang="en">Friends</title><desc lang="da">Sæson: 8. Episode: 3. 'The One Where Rachel Tells Ross'. Alle synes at vide hvem faderen til Rachels ufødte barn er, undtaget manden selv: Ross. Instruktør: Sheldon Epps. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
+    <title lang="en">Friends</title><title lang="da">Venner</title><desc lang="da">Sæson: 8. Episode: 3. 'The One Where Rachel Tells Ross'. Alle synes at vide hvem faderen til Rachels ufødte barn er, undtaget manden selv: Ross. Instruktør: Sheldon Epps. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
     <credits>
       <director>Sheldon Epps</director>
       <actor>Jennifer Aniston</actor>
@@ -2874,8 +2856,7 @@
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/fDAZ9z7B4ukQoMX3yMqIFctHY5O.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/fDAZ9z7B4ukQoMX3yMqIFctHY5O.jpg</image><image type="logo" orient="L" system="tmdb" lang="da">https://image.tmdb.org/t/p/original/81fDtfS8BQszCzG53GPBZmjaBRJ.png</image></programme>
   <programme start="20261114090000 +0000" stop="20261114093000 +0000" channel="kanal5.dk">
-    <title lang="da">Venner</title>
-    <title lang="en">Friends</title><desc lang="da">Sæson: 7. Episode: 18. 'The One With Joey's Award'. Joey er ovenud lykkelig, da han bliver nomineret til en tredjerangs skuespillerpris for sæbeopera-stjerner, men pris-ceremonien går ikke helt, som hverken arrangørerne eller Joey havde forventet. For Joey ved godt, hvordan en vinder smiler og takker, men ikke hvordan en taber skal opføre sig. Ross bliver temmeligt forbløffet, da en mandlig studerende forklarer, at hans dårlige karakterer skyldes, at han har forelsket sig - i Ross. Instruktør: Gary Halvorson. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
+    <title lang="en">Friends</title><title lang="da">Venner</title><desc lang="da">Sæson: 7. Episode: 18. 'The One With Joey's Award'. Joey er ovenud lykkelig, da han bliver nomineret til en tredjerangs skuespillerpris for sæbeopera-stjerner, men pris-ceremonien går ikke helt, som hverken arrangørerne eller Joey havde forventet. For Joey ved godt, hvordan en vinder smiler og takker, men ikke hvordan en taber skal opføre sig. Ross bliver temmeligt forbløffet, da en mandlig studerende forklarer, at hans dårlige karakterer skyldes, at han har forelsket sig - i Ross. Instruktør: Gary Halvorson. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
     <credits>
       <director>Gary Halvorson</director>
       <actor>Jennifer Aniston</actor>
@@ -2892,8 +2873,7 @@
     <category lang="da">Serier</category>
     <icon src="https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg</image><image type="logo" orient="L" system="tmdb" lang="da">https://image.tmdb.org/t/p/original/1duDsGwJt2dLagjDYNQdcifS4RV.png</image></programme>
   <programme start="20261114093000 +0000" stop="20261114100000 +0000" channel="kanal5.dk">
-    <title lang="da">Venner</title>
-    <title lang="en">Friends</title><desc lang="da">Sæson: 7. Episode: 19. 'The One With Ross And Monica's Cousin'. Monicas lækre kusine kommer uforvarende til t lave ravage med Chandler og Ross. Rachel og Phoebe planlægger i al hast en surprise-brudefest for Monica. Instruktør: Gary Halvorson. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
+    <title lang="en">Friends</title><title lang="da">Venner</title><desc lang="da">Sæson: 7. Episode: 19. 'The One With Ross And Monica's Cousin'. Monicas lækre kusine kommer uforvarende til t lave ravage med Chandler og Ross. Rachel og Phoebe planlægger i al hast en surprise-brudefest for Monica. Instruktør: Gary Halvorson. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
     <credits>
       <director>Gary Halvorson</director>
       <actor>Jennifer Aniston</actor>
@@ -2910,8 +2890,7 @@
     <category lang="da">Serier</category>
     <icon src="https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg</image><image type="logo" orient="L" system="tmdb" lang="da">https://image.tmdb.org/t/p/original/1duDsGwJt2dLagjDYNQdcifS4RV.png</image></programme>
   <programme start="20261114100000 +0000" stop="20261114103500 +0000" channel="kanal5.dk">
-    <title lang="da">Venner</title>
-    <title lang="en">Friends</title><desc lang="da">Sæson: 7. Episode: 20. 'The One With Rachel's Big Kiss'. Rachel afslører en fræk hemmelighed om sig selv og en tidligere studiekammerat. Ross og Chandler kappes om at have den sejeste smoking til brylluppet. Instruktør: Gary Halvorson. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
+    <title lang="en">Friends</title><title lang="da">Venner</title><desc lang="da">Sæson: 7. Episode: 20. 'The One With Rachel's Big Kiss'. Rachel afslører en fræk hemmelighed om sig selv og en tidligere studiekammerat. Ross og Chandler kappes om at have den sejeste smoking til brylluppet. Instruktør: Gary Halvorson. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
     <credits>
       <director>Gary Halvorson</director>
       <actor>Jennifer Aniston</actor>
@@ -2927,8 +2906,7 @@
     <category lang="da">Serier</category>
     <icon src="https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg</image><image type="logo" orient="L" system="tmdb" lang="da">https://image.tmdb.org/t/p/original/1duDsGwJt2dLagjDYNQdcifS4RV.png</image></programme>
   <programme start="20261114103500 +0000" stop="20261114110500 +0000" channel="kanal5.dk">
-    <title lang="da">Venner</title>
-    <title lang="en">Friends</title><desc lang="da">Sæson: 7. Episode: 21. 'The One With The Vows'. Mens Monica og Chandler skriver bryllupsløfter, tænker de og vennerne tilbage. Der vises talrige klip fra tidligere afsnit. Instruktør: Gary Halvorson. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
+    <title lang="en">Friends</title><title lang="da">Venner</title><desc lang="da">Sæson: 7. Episode: 21. 'The One With The Vows'. Mens Monica og Chandler skriver bryllupsløfter, tænker de og vennerne tilbage. Der vises talrige klip fra tidligere afsnit. Instruktør: Gary Halvorson. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
     <credits>
       <director>Gary Halvorson</director>
       <actor>Jennifer Aniston</actor>
@@ -2942,8 +2920,7 @@
     <category lang="da">Serier</category>
     <icon src="https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg</image><image type="logo" orient="L" system="tmdb" lang="da">https://image.tmdb.org/t/p/original/1duDsGwJt2dLagjDYNQdcifS4RV.png</image></programme>
   <programme start="20261114110500 +0000" stop="20261114113500 +0000" channel="kanal5.dk">
-    <title lang="da">Venner</title>
-    <title lang="en">Friends</title><desc lang="da">Sæson: 7. Episode: 22. 'The One With Chandler's Dad'. Chandler genser sin far, som går i dametøj. Rachel får problemer, da hun kører i Monicas Porsche. Instruktører: Kevin Bright, Gary Halvorson. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
+    <title lang="en">Friends</title><title lang="da">Venner</title><desc lang="da">Sæson: 7. Episode: 22. 'The One With Chandler's Dad'. Chandler genser sin far, som går i dametøj. Rachel får problemer, da hun kører i Monicas Porsche. Instruktører: Kevin Bright, Gary Halvorson. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
     <credits>
       <director>Kevin Bright</director>
       <director>Gary Halvorson</director>
@@ -3189,8 +3166,7 @@
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/1NOb32Gg3fS5ANke0EdyL6MRyzC.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/1NOb32Gg3fS5ANke0EdyL6MRyzC.jpg</image><image type="logo" orient="L" system="tmdb" lang="da">https://image.tmdb.org/t/p/original/4YZ0v9aMNa5HQ3kQuUQTOku2tG3.png</image></programme>
   <programme start="20261115131500 +0000" stop="20261115135500 +0000" channel="kanal5.dk">
-    <title lang="da">Venner</title>
-    <title lang="en">Friends</title><desc lang="da">Sæson: 7. Episode: 23. 'The One With Chandler and Monica's Wedding - Del 1'. Mens slægtningene samles til Monicas og Chandlers bryllup, går omfanget af det han er i gang med endelig op for Chandler. Instruktør: Kevin Bright. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
+    <title lang="en">Friends</title><title lang="da">Venner</title><desc lang="da">Sæson: 7. Episode: 23. 'The One With Chandler and Monica's Wedding - Del 1'. Mens slægtningene samles til Monicas og Chandlers bryllup, går omfanget af det han er i gang med endelig op for Chandler. Instruktør: Kevin Bright. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
     <credits>
       <director>Kevin Bright</director>
       <actor>Jennifer Aniston</actor>
@@ -3207,8 +3183,7 @@
     <category lang="da">Serier</category>
     <icon src="https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg</image><image type="logo" orient="L" system="tmdb" lang="da">https://image.tmdb.org/t/p/original/1duDsGwJt2dLagjDYNQdcifS4RV.png</image></programme>
   <programme start="20261115135500 +0000" stop="20261115142500 +0000" channel="kanal5.dk">
-    <title lang="da">Venner</title>
-    <title lang="en">Friends</title><desc lang="da">Sæson: 7. Episode: 24. 'The One With Chandler and Monicas Wedding - Del 2'. Monica er helt uvidende om de potentielle katastrofer på hendes bryllupsdag. Instruktør: Kevin Bright. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
+    <title lang="en">Friends</title><title lang="da">Venner</title><desc lang="da">Sæson: 7. Episode: 24. 'The One With Chandler and Monicas Wedding - Del 2'. Monica er helt uvidende om de potentielle katastrofer på hendes bryllupsdag. Instruktør: Kevin Bright. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
     <credits>
       <director>Kevin Bright</director>
       <actor>Jennifer Aniston</actor>
@@ -3225,8 +3200,7 @@
     <category lang="da">Serier</category>
     <icon src="https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg</image><image type="logo" orient="L" system="tmdb" lang="da">https://image.tmdb.org/t/p/original/1duDsGwJt2dLagjDYNQdcifS4RV.png</image></programme>
   <programme start="20261115142500 +0000" stop="20261115145500 +0000" channel="kanal5.dk">
-    <title lang="da">Venner</title>
-    <title lang="en">Friends</title><desc lang="da">Sæson: 8. Episode: 1. 'The One After "I Do"'. Monicas og Chandlers bryllupsreception sættes næsten i baggrunden af nyheden om, at Rachel er gravid. Instruktør: Kevin Bright. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
+    <title lang="en">Friends</title><title lang="da">Venner</title><desc lang="da">Sæson: 8. Episode: 1. 'The One After "I Do"'. Monicas og Chandlers bryllupsreception sættes næsten i baggrunden af nyheden om, at Rachel er gravid. Instruktør: Kevin Bright. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
     <credits>
       <director>Kevin Bright</director>
       <actor>Jennifer Aniston</actor>
@@ -3243,8 +3217,7 @@
     <category lang="da">Serier</category>
     <icon src="https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg</image><image type="logo" orient="L" system="tmdb" lang="da">https://image.tmdb.org/t/p/original/1duDsGwJt2dLagjDYNQdcifS4RV.png</image></programme>
   <programme start="20261115145500 +0000" stop="20261115153000 +0000" channel="kanal5.dk">
-    <title lang="da">Venner</title>
-    <title lang="en">Friends</title><desc lang="da">Sæson: 8. Episode: 2. 'The One With The Red Sweater'. Mens de forbereder sig på at forlade bryllupshotellet, spekulerer en spændt Monica og Phoebe på, hvem der mon er faderen til gravide Rachels barn. Instruktør: David Schwimmer. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
+    <title lang="en">Friends</title><title lang="da">Venner</title><desc lang="da">Sæson: 8. Episode: 2. 'The One With The Red Sweater'. Mens de forbereder sig på at forlade bryllupshotellet, spekulerer en spændt Monica og Phoebe på, hvem der mon er faderen til gravide Rachels barn. Instruktør: David Schwimmer. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
     <credits>
       <director>David Schwimmer</director>
       <actor>Jennifer Aniston</actor>
@@ -3261,8 +3234,7 @@
     <category lang="da">Serier</category>
     <icon src="https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg</image><image type="logo" orient="L" system="tmdb" lang="da">https://image.tmdb.org/t/p/original/1duDsGwJt2dLagjDYNQdcifS4RV.png</image></programme>
   <programme start="20261115153000 +0000" stop="20261115160000 +0000" channel="kanal5.dk">
-    <title lang="da">Venner</title>
-    <title lang="en">Friends</title><desc lang="da">Sæson: 8. Episode: 3. 'The One Where Rachel Tells Ross'. Alle synes at vide hvem faderen til Rachels ufødte barn er, undtaget manden selv: Ross. Instruktør: Sheldon Epps. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
+    <title lang="en">Friends</title><title lang="da">Venner</title><desc lang="da">Sæson: 8. Episode: 3. 'The One Where Rachel Tells Ross'. Alle synes at vide hvem faderen til Rachels ufødte barn er, undtaget manden selv: Ross. Instruktør: Sheldon Epps. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
     <credits>
       <director>Sheldon Epps</director>
       <actor>Jennifer Aniston</actor>
@@ -3459,8 +3431,7 @@
     <category lang="da">Fakta</category>
     <icon src="https://image.tmdb.org/t/p/w1280/qSxXb0Yz8t63HxFxuxuCKtTh3rx.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/qSxXb0Yz8t63HxFxuxuCKtTh3rx.jpg</image><image type="logo" orient="L" system="tmdb" lang="da">https://image.tmdb.org/t/p/original/f4TbY7xhHjoDT1Geu62cWyBj807.png</image></programme>
   <programme start="20261112060000 +0000" stop="20261112070000 +0000" channel="nationalgeographic.dk">
-    <title lang="da">Biler i nød</title>
-    <title lang="en">Car S.O.S.</title><desc lang="da">Sæson: 14. Episode: 8. 'Land Rover Defender'. Tim og Fuzz hjælper en velgørenhedsorganisation med at redde deres Defender fra skrotpladsen. Medvirkende: Jim Smallman, Ross Kemp, Rick Wakeman. Tilladt for: A.</desc>
+    <title lang="en">Car S.O.S.</title><title lang="da">Biler i nød</title><desc lang="da">Sæson: 14. Episode: 8. 'Land Rover Defender'. Tim og Fuzz hjælper en velgørenhedsorganisation med at redde deres Defender fra skrotpladsen. Medvirkende: Jim Smallman, Ross Kemp, Rick Wakeman. Tilladt for: A.</desc>
     <credits>
       <actor>Jim Smallman</actor>
       <actor>Ross Kemp</actor>
@@ -3469,8 +3440,7 @@
     <category lang="da">Show</category>
     <icon src="https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg</image><image type="logo" orient="L" system="tmdb" lang="da">https://image.tmdb.org/t/p/original/unFSKmYjQiGKOM4PogSl6oLUfPe.png</image></programme>
   <programme start="20261112070000 +0000" stop="20261112080000 +0000" channel="nationalgeographic.dk">
-    <title lang="da">Biler i nød</title>
-    <title lang="en">Car S.O.S.</title><desc lang="da">Sæson: 14. Episode: 9. 'Rover P4'. Tim og Fuzz tager til Shrewsbury med et højere kald: at redde Adams Rover P4 med kælenavnet "Wilbur". Som præst dedikerer Adam sit liv til at hjælpe tusindvis af mænd med at åbne op om deres mentale helbred gennem en fælles kærlighed til biler. Da dette tager meget af hans tid, kombineret med begrænsede midler og det krævende arbejde, er Wilbur blevet efterladt forsømt i garagen. Nu er Wilburs eneste chance for at overleve, at SOS-holdet træder til. Mens Tim planlægger at omdanne interiøret til et mobilt rådgivningsrum - der skaber et trygt sted til personlige samtaler på vejen - må Fuzz tage den store udfordring op at forvandle den rustne Rover til den markante resto-mod-bil, Adam engang designede selv. Kan de realisere Adams drøm og give Wilbur et stærkt nyt formål? Medvirkende: Jim Smallman, Ross Kemp, Rick Wakeman. Tilladt for: A.</desc>
+    <title lang="en">Car S.O.S.</title><title lang="da">Biler i nød</title><desc lang="da">Sæson: 14. Episode: 9. 'Rover P4'. Tim og Fuzz tager til Shrewsbury med et højere kald: at redde Adams Rover P4 med kælenavnet "Wilbur". Som præst dedikerer Adam sit liv til at hjælpe tusindvis af mænd med at åbne op om deres mentale helbred gennem en fælles kærlighed til biler. Da dette tager meget af hans tid, kombineret med begrænsede midler og det krævende arbejde, er Wilbur blevet efterladt forsømt i garagen. Nu er Wilburs eneste chance for at overleve, at SOS-holdet træder til. Mens Tim planlægger at omdanne interiøret til et mobilt rådgivningsrum - der skaber et trygt sted til personlige samtaler på vejen - må Fuzz tage den store udfordring op at forvandle den rustne Rover til den markante resto-mod-bil, Adam engang designede selv. Kan de realisere Adams drøm og give Wilbur et stærkt nyt formål? Medvirkende: Jim Smallman, Ross Kemp, Rick Wakeman. Tilladt for: A.</desc>
     <credits>
       <actor>Jim Smallman</actor>
       <actor>Ross Kemp</actor>
@@ -3514,23 +3484,19 @@
     <category lang="da">Fakta</category>
     </programme>
   <programme start="20261112130000 +0000" stop="20261112140000 +0000" channel="nationalgeographic.dk">
-    <title lang="da">Undersøgelse af flystyrt</title>
-    <title lang="en">Mayday</title><desc lang="da">Sæson: 26. Episode: 7. 'Splittet af krise'. Et Boeing 737 styrter ned kort efter at være lettet fra en algerisk ørkenlufthavn. Tilladt for: A.</desc>
+    <title lang="en">Mayday</title><title lang="da">Undersøgelse af flystyrt</title><desc lang="da">Sæson: 26. Episode: 7. 'Splittet af krise'. Et Boeing 737 styrter ned kort efter at være lettet fra en algerisk ørkenlufthavn. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     <icon src="https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg</image><image type="logo" orient="L" system="tmdb" lang="da">https://image.tmdb.org/t/p/original/k4Vc6Dbrq0p1R9KWeCSGbORistf.png</image></programme>
   <programme start="20261112140000 +0000" stop="20261112150000 +0000" channel="nationalgeographic.dk">
-    <title lang="da">Biler i nød</title>
-    <title lang="en">Car S.O.S.</title><desc lang="da">Sæson: 8. Episode: 2. 'Healey 3000'. Tim og Fuzz tager til Durham for at hente en af de største britiske efterkrigstidssportsbiler, der nogensinde er lavet - en Austin Healey 3000 fra 1961. Den 76-årige tidligere ingeniør John har ejet den fra ny, men planerne om at restaurere den blev sat til side af Parkinsons-sygdom. Efter at have brugt en formue på den uden succes, kan drengene træde til og få sportsklassikeren ud at køre igen? Tilladt for: A.</desc>
+    <title lang="en">Car S.O.S.</title><title lang="da">Biler i nød</title><desc lang="da">Sæson: 8. Episode: 2. 'Healey 3000'. Tim og Fuzz tager til Durham for at hente en af de største britiske efterkrigstidssportsbiler, der nogensinde er lavet - en Austin Healey 3000 fra 1961. Den 76-årige tidligere ingeniør John har ejet den fra ny, men planerne om at restaurere den blev sat til side af Parkinsons-sygdom. Efter at have brugt en formue på den uden succes, kan drengene træde til og få sportsklassikeren ud at køre igen? Tilladt for: A.</desc>
     <category lang="da">Show</category>
     <icon src="https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg</image><image type="logo" orient="L" system="tmdb" lang="da">https://image.tmdb.org/t/p/original/unFSKmYjQiGKOM4PogSl6oLUfPe.png</image></programme>
   <programme start="20261112150000 +0000" stop="20261112160000 +0000" channel="nationalgeographic.dk">
-    <title lang="da">Biler i nød</title>
-    <title lang="en">Car S.O.S.</title><desc lang="da">Sæson: 8. Episode: 3. 'Lotus Esprit'. Denne gang er drengene i Benfleet i Essex for at hente en superbil fra 1970'erne, en Lotus Esprit S1, der blev berømt, da den forvandlede sig til en ubåd i James Bond-filmen "Spionen, der elskede mig." Men da drengene ankommer opdager de, at de ikke har en opmærksomhedsskabende sportsvogn. I stedet har de en sølle bil, der ikke er blevet startet i 20 år. Tilladt for: A.</desc>
+    <title lang="en">Car S.O.S.</title><title lang="da">Biler i nød</title><desc lang="da">Sæson: 8. Episode: 3. 'Lotus Esprit'. Denne gang er drengene i Benfleet i Essex for at hente en superbil fra 1970'erne, en Lotus Esprit S1, der blev berømt, da den forvandlede sig til en ubåd i James Bond-filmen "Spionen, der elskede mig." Men da drengene ankommer opdager de, at de ikke har en opmærksomhedsskabende sportsvogn. I stedet har de en sølle bil, der ikke er blevet startet i 20 år. Tilladt for: A.</desc>
     <category lang="da">Show</category>
     <icon src="https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg</image><image type="logo" orient="L" system="tmdb" lang="da">https://image.tmdb.org/t/p/original/unFSKmYjQiGKOM4PogSl6oLUfPe.png</image></programme>
   <programme start="20261112160000 +0000" stop="20261112170000 +0000" channel="nationalgeographic.dk">
-    <title lang="da">Undersøgelse af flystyrt</title>
-    <title lang="en">Mayday</title><desc lang="da">Sæson: 25. Episode: 4. 'Nødlanding'. Under en regional pendlerflyvning i New Zealand kæmper piloterne på Eagle Airways Flight 2300 med at sænke landingsstellet. De cirkler rundt om lufthavnen for at finde årsagen til problemet. Da de er ved at løbe tør for brændstof, har de ikke andet valg end at forsøge at lande uden landingsstel. Med redningsmandskab klar til at rykke ud, lander deres tomotorers turbopropfly blidt, glider hen ad midten af landingsbanen og standser – bemærkelsesværdigt nok uden personskader og med minimale skader på flyet. Da en potentiel katastrofe er blevet afværget i sidste øjeblik, undersøger efterforskerne, hvad der kan have forårsaget landingsstellets svigt. De sporer hurtigt en hydraulisk lækage til en mindre del med en større fejl. Da de senere tester hele flåden af Beechcraft turbopropfly, afdækker de et systemisk problem, der bringer passagerer verden over i fare. Medvirkende: Jonathan Aris, Stephen Bogaert. Tilladt for: A.</desc>
+    <title lang="en">Mayday</title><title lang="da">Undersøgelse af flystyrt</title><desc lang="da">Sæson: 25. Episode: 4. 'Nødlanding'. Under en regional pendlerflyvning i New Zealand kæmper piloterne på Eagle Airways Flight 2300 med at sænke landingsstellet. De cirkler rundt om lufthavnen for at finde årsagen til problemet. Da de er ved at løbe tør for brændstof, har de ikke andet valg end at forsøge at lande uden landingsstel. Med redningsmandskab klar til at rykke ud, lander deres tomotorers turbopropfly blidt, glider hen ad midten af landingsbanen og standser – bemærkelsesværdigt nok uden personskader og med minimale skader på flyet. Da en potentiel katastrofe er blevet afværget i sidste øjeblik, undersøger efterforskerne, hvad der kan have forårsaget landingsstellets svigt. De sporer hurtigt en hydraulisk lækage til en mindre del med en større fejl. Da de senere tester hele flåden af Beechcraft turbopropfly, afdækker de et systemisk problem, der bringer passagerer verden over i fare. Medvirkende: Jonathan Aris, Stephen Bogaert. Tilladt for: A.</desc>
     <credits>
       <actor>Jonathan Aris</actor>
       <actor>Stephen Bogaert</actor>
@@ -3571,8 +3537,7 @@
     <category lang="da">Fakta</category>
     <icon src="https://image.tmdb.org/t/p/w1280/k7WoxCfOBwalKncsoHaPdzXopFc.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/k7WoxCfOBwalKncsoHaPdzXopFc.jpg</image><image type="logo" orient="L" system="tmdb" lang="da">https://image.tmdb.org/t/p/original/odVfyvFun32D0VrWCdiAEGXjfBf.png</image></programme>
   <programme start="20261112220000 +0000" stop="20261112230000 +0000" channel="nationalgeographic.dk">
-    <title lang="da">Undersøgelse af flystyrt</title>
-    <title lang="en">Mayday</title><desc lang="da">Sæson: 14. Episode: 10. 'Da døden ramte Arktis'. Flight 6560 fra First Air brager ind i en bjergside i nærheden af Resolute Bay, en af de mest afsidesliggende lufthavne i verden. Instruktør: Tim Wolochatiuk. Medvirkende: Jonathan Aris, Stephen Bogaert, Glen Gaston, Nic Rhind. Tilladt for: A.</desc>
+    <title lang="en">Mayday</title><title lang="da">Undersøgelse af flystyrt</title><desc lang="da">Sæson: 14. Episode: 10. 'Da døden ramte Arktis'. Flight 6560 fra First Air brager ind i en bjergside i nærheden af Resolute Bay, en af de mest afsidesliggende lufthavne i verden. Instruktør: Tim Wolochatiuk. Medvirkende: Jonathan Aris, Stephen Bogaert, Glen Gaston, Nic Rhind. Tilladt for: A.</desc>
     <credits>
       <director>Tim Wolochatiuk</director>
       <actor>Jonathan Aris</actor>
@@ -3589,8 +3554,7 @@
     <category lang="da">Fakta</category>
     <icon src="https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg</image><image type="logo" orient="L" system="tmdb" lang="da">https://image.tmdb.org/t/p/original/k4Vc6Dbrq0p1R9KWeCSGbORistf.png</image></programme>
   <programme start="20261112230000 +0000" stop="20261113000000 +0000" channel="nationalgeographic.dk">
-    <title lang="da">Biler i nød</title>
-    <title lang="en">Car S.O.S.</title><desc lang="da">Sæson: 10. Episode: 8. 'Citroen HY Van'. Tim og Fuzz tager til Manchester for at redde en rusten Citroën HY varevogn, der oprindeligt blev købt, så 19-årige Darcie og hendes mor Alison kunne starte deres egen mobile cateringvirksomhed. Desværre blev drømmen knust, da Alison blev dræbt under selvmordsbomben i Manchester Arena i 2017. Vil drengene være i stand til at udøve deres magi og få Citroënen tilbage på vejen? Medvirkende: Jim Smallman, Ross Kemp, Rick Wakeman. Tilladt for: A.</desc>
+    <title lang="en">Car S.O.S.</title><title lang="da">Biler i nød</title><desc lang="da">Sæson: 10. Episode: 8. 'Citroen HY Van'. Tim og Fuzz tager til Manchester for at redde en rusten Citroën HY varevogn, der oprindeligt blev købt, så 19-årige Darcie og hendes mor Alison kunne starte deres egen mobile cateringvirksomhed. Desværre blev drømmen knust, da Alison blev dræbt under selvmordsbomben i Manchester Arena i 2017. Vil drengene være i stand til at udøve deres magi og få Citroënen tilbage på vejen? Medvirkende: Jim Smallman, Ross Kemp, Rick Wakeman. Tilladt for: A.</desc>
     <credits>
       <actor>Jim Smallman</actor>
       <actor>Ross Kemp</actor>
@@ -3656,8 +3620,7 @@
     <category lang="da">Fakta</category>
     <icon src="https://image.tmdb.org/t/p/w1280/qSxXb0Yz8t63HxFxuxuCKtTh3rx.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/qSxXb0Yz8t63HxFxuxuCKtTh3rx.jpg</image><image type="logo" orient="L" system="tmdb" lang="da">https://image.tmdb.org/t/p/original/f4TbY7xhHjoDT1Geu62cWyBj807.png</image></programme>
   <programme start="20261113060000 +0000" stop="20261113070000 +0000" channel="nationalgeographic.dk">
-    <title lang="da">Biler i nød</title>
-    <title lang="en">Car S.O.S.</title><desc lang="da">Sæson: 14. Episode: 9. 'Rover P4'. Tim og Fuzz tager til Shrewsbury med et højere kald: at redde Adams Rover P4 med kælenavnet "Wilbur". Som præst dedikerer Adam sit liv til at hjælpe tusindvis af mænd med at åbne op om deres mentale helbred gennem en fælles kærlighed til biler. Da dette tager meget af hans tid, kombineret med begrænsede midler og det krævende arbejde, er Wilbur blevet efterladt forsømt i garagen. Nu er Wilburs eneste chance for at overleve, at SOS-holdet træder til. Mens Tim planlægger at omdanne interiøret til et mobilt rådgivningsrum - der skaber et trygt sted til personlige samtaler på vejen - må Fuzz tage den store udfordring op at forvandle den rustne Rover til den markante resto-mod-bil, Adam engang designede selv. Kan de realisere Adams drøm og give Wilbur et stærkt nyt formål? Medvirkende: Jim Smallman, Ross Kemp, Rick Wakeman. Tilladt for: A.</desc>
+    <title lang="en">Car S.O.S.</title><title lang="da">Biler i nød</title><desc lang="da">Sæson: 14. Episode: 9. 'Rover P4'. Tim og Fuzz tager til Shrewsbury med et højere kald: at redde Adams Rover P4 med kælenavnet "Wilbur". Som præst dedikerer Adam sit liv til at hjælpe tusindvis af mænd med at åbne op om deres mentale helbred gennem en fælles kærlighed til biler. Da dette tager meget af hans tid, kombineret med begrænsede midler og det krævende arbejde, er Wilbur blevet efterladt forsømt i garagen. Nu er Wilburs eneste chance for at overleve, at SOS-holdet træder til. Mens Tim planlægger at omdanne interiøret til et mobilt rådgivningsrum - der skaber et trygt sted til personlige samtaler på vejen - må Fuzz tage den store udfordring op at forvandle den rustne Rover til den markante resto-mod-bil, Adam engang designede selv. Kan de realisere Adams drøm og give Wilbur et stærkt nyt formål? Medvirkende: Jim Smallman, Ross Kemp, Rick Wakeman. Tilladt for: A.</desc>
     <credits>
       <actor>Jim Smallman</actor>
       <actor>Ross Kemp</actor>
@@ -3666,8 +3629,7 @@
     <category lang="da">Show</category>
     <icon src="https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg</image><image type="logo" orient="L" system="tmdb" lang="da">https://image.tmdb.org/t/p/original/unFSKmYjQiGKOM4PogSl6oLUfPe.png</image></programme>
   <programme start="20261113070000 +0000" stop="20261113080000 +0000" channel="nationalgeographic.dk">
-    <title lang="da">Biler i nød</title>
-    <title lang="en">Car S.O.S.</title><desc lang="da">Sæson: 14. Episode: 10. 'Lamborghini Silhouette'. Tim og Fuzz tager til Essex for at redde en Lamborghini, der er på randen til at blive udryddet. Raymonds Silhouette fra 1970'erne er en af kun ti biler med rattet i højre side, der nogensinde er bygget - og under fem eksisterer stadig i dag. Da han er fyldt 79, frygter Raymond, at han aldrig vil se sin drømmebil tilbage på vejen og høre den mægtige V8-motor brøle igen. Med dele så sjældne som hønsetænder og et forvirrende motorproblem vender Fuzz sig mod Lamborghinis motoreksperter for at få hjælp, mens Tim kæmper for at redde den sjældne lakering. En tur til Italien giver drengene tiltrængt inspiration, men vil de kunne få styr på det hele i tide til en stor musikalsk finale og give Raymond - og denne truede rasende tyr - det comeback, de fortjener? Medvirkende: Jim Smallman, Ross Kemp, Rick Wakeman. Tilladt for: A.</desc>
+    <title lang="en">Car S.O.S.</title><title lang="da">Biler i nød</title><desc lang="da">Sæson: 14. Episode: 10. 'Lamborghini Silhouette'. Tim og Fuzz tager til Essex for at redde en Lamborghini, der er på randen til at blive udryddet. Raymonds Silhouette fra 1970'erne er en af kun ti biler med rattet i højre side, der nogensinde er bygget - og under fem eksisterer stadig i dag. Da han er fyldt 79, frygter Raymond, at han aldrig vil se sin drømmebil tilbage på vejen og høre den mægtige V8-motor brøle igen. Med dele så sjældne som hønsetænder og et forvirrende motorproblem vender Fuzz sig mod Lamborghinis motoreksperter for at få hjælp, mens Tim kæmper for at redde den sjældne lakering. En tur til Italien giver drengene tiltrængt inspiration, men vil de kunne få styr på det hele i tide til en stor musikalsk finale og give Raymond - og denne truede rasende tyr - det comeback, de fortjener? Medvirkende: Jim Smallman, Ross Kemp, Rick Wakeman. Tilladt for: A.</desc>
     <credits>
       <actor>Jim Smallman</actor>
       <actor>Ross Kemp</actor>
@@ -3709,8 +3671,7 @@
     <category lang="da">Fakta</category>
     </programme>
   <programme start="20261113130000 +0000" stop="20261113140000 +0000" channel="nationalgeographic.dk">
-    <title lang="da">Undersøgelse af flystyrt</title>
-    <title lang="en">Mayday</title><desc lang="da">Sæson: 25. Episode: 4. 'Nødlanding'. Under en regional pendlerflyvning i New Zealand kæmper piloterne på Eagle Airways Flight 2300 med at sænke landingsstellet. De cirkler rundt om lufthavnen for at finde årsagen til problemet. Da de er ved at løbe tør for brændstof, har de ikke andet valg end at forsøge at lande uden landingsstel. Med redningsmandskab klar til at rykke ud, lander deres tomotorers turbopropfly blidt, glider hen ad midten af landingsbanen og standser – bemærkelsesværdigt nok uden personskader og med minimale skader på flyet. Da en potentiel katastrofe er blevet afværget i sidste øjeblik, undersøger efterforskerne, hvad der kan have forårsaget landingsstellets svigt. De sporer hurtigt en hydraulisk lækage til en mindre del med en større fejl. Da de senere tester hele flåden af Beechcraft turbopropfly, afdækker de et systemisk problem, der bringer passagerer verden over i fare. Medvirkende: Jonathan Aris, Stephen Bogaert. Tilladt for: A.</desc>
+    <title lang="en">Mayday</title><title lang="da">Undersøgelse af flystyrt</title><desc lang="da">Sæson: 25. Episode: 4. 'Nødlanding'. Under en regional pendlerflyvning i New Zealand kæmper piloterne på Eagle Airways Flight 2300 med at sænke landingsstellet. De cirkler rundt om lufthavnen for at finde årsagen til problemet. Da de er ved at løbe tør for brændstof, har de ikke andet valg end at forsøge at lande uden landingsstel. Med redningsmandskab klar til at rykke ud, lander deres tomotorers turbopropfly blidt, glider hen ad midten af landingsbanen og standser – bemærkelsesværdigt nok uden personskader og med minimale skader på flyet. Da en potentiel katastrofe er blevet afværget i sidste øjeblik, undersøger efterforskerne, hvad der kan have forårsaget landingsstellets svigt. De sporer hurtigt en hydraulisk lækage til en mindre del med en større fejl. Da de senere tester hele flåden af Beechcraft turbopropfly, afdækker de et systemisk problem, der bringer passagerer verden over i fare. Medvirkende: Jonathan Aris, Stephen Bogaert. Tilladt for: A.</desc>
     <credits>
       <actor>Jonathan Aris</actor>
       <actor>Stephen Bogaert</actor>
@@ -3718,18 +3679,15 @@
     <category lang="da">Fakta</category>
     <icon src="https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg</image><image type="logo" orient="L" system="tmdb" lang="da">https://image.tmdb.org/t/p/original/k4Vc6Dbrq0p1R9KWeCSGbORistf.png</image></programme>
   <programme start="20261113140000 +0000" stop="20261113150000 +0000" channel="nationalgeographic.dk">
-    <title lang="da">Biler i nød</title>
-    <title lang="en">Car S.O.S.</title><desc lang="da">Sæson: 8. Episode: 3. 'Lotus Esprit'. Denne gang er drengene i Benfleet i Essex for at hente en superbil fra 1970'erne, en Lotus Esprit S1, der blev berømt, da den forvandlede sig til en ubåd i James Bond-filmen "Spionen, der elskede mig." Men da drengene ankommer opdager de, at de ikke har en opmærksomhedsskabende sportsvogn. I stedet har de en sølle bil, der ikke er blevet startet i 20 år. Tilladt for: A.</desc>
+    <title lang="en">Car S.O.S.</title><title lang="da">Biler i nød</title><desc lang="da">Sæson: 8. Episode: 3. 'Lotus Esprit'. Denne gang er drengene i Benfleet i Essex for at hente en superbil fra 1970'erne, en Lotus Esprit S1, der blev berømt, da den forvandlede sig til en ubåd i James Bond-filmen "Spionen, der elskede mig." Men da drengene ankommer opdager de, at de ikke har en opmærksomhedsskabende sportsvogn. I stedet har de en sølle bil, der ikke er blevet startet i 20 år. Tilladt for: A.</desc>
     <category lang="da">Show</category>
     <icon src="https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg</image><image type="logo" orient="L" system="tmdb" lang="da">https://image.tmdb.org/t/p/original/unFSKmYjQiGKOM4PogSl6oLUfPe.png</image></programme>
   <programme start="20261113150000 +0000" stop="20261113160000 +0000" channel="nationalgeographic.dk">
-    <title lang="da">Biler i nød</title>
-    <title lang="en">Car S.O.S.</title><desc lang="da">Sæson: 8. Episode: 4. 'Hillman Imp'. Tim og Fuzz tager til Stroud i Gloucestershire for at restaurere en Hillman Imp fra 1973, som i årtier har stået i en støvet lade. Bilen tilhører 70-årige tidligere sygeplejerske Margaret, som har ejet og elsket Imp'er, siden hun lærte at køre bil. Hun gjorde sit bedste for at holde sin elskede 'Tin Lizzie' kørende, men nu er den så rusten, at den dårligt er en bil. Kan drengene få den ud at køre? Tilladt for: A.</desc>
+    <title lang="en">Car S.O.S.</title><title lang="da">Biler i nød</title><desc lang="da">Sæson: 8. Episode: 4. 'Hillman Imp'. Tim og Fuzz tager til Stroud i Gloucestershire for at restaurere en Hillman Imp fra 1973, som i årtier har stået i en støvet lade. Bilen tilhører 70-årige tidligere sygeplejerske Margaret, som har ejet og elsket Imp'er, siden hun lærte at køre bil. Hun gjorde sit bedste for at holde sin elskede 'Tin Lizzie' kørende, men nu er den så rusten, at den dårligt er en bil. Kan drengene få den ud at køre? Tilladt for: A.</desc>
     <category lang="da">Show</category>
     <icon src="https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg</image><image type="logo" orient="L" system="tmdb" lang="da">https://image.tmdb.org/t/p/original/unFSKmYjQiGKOM4PogSl6oLUfPe.png</image></programme>
   <programme start="20261113160000 +0000" stop="20261113170000 +0000" channel="nationalgeographic.dk">
-    <title lang="da">Undersøgelse af flystyrt</title>
-    <title lang="en">Mayday</title><desc lang="da">Sæson: 26. Episode: 3. 'En perfekt storm'. Et turboprop, der er kommet ud af kontrol, går i stykker under et landingsforsøg i Düsseldorf lufthavn, hvilket øjeblikkeligt dræber alle ombordværende. Tyske efterforskere lokaliserer hvert eneste stykke af vraget inden for det enorme ulykkessted og rekonstruerer derefter omhyggeligt hele flyet for at fastslå, hvad der gik galt om bord på Nürnberg Flight 108. Efter kort tid opdager efterforskerne et stykke af vraget med tydelige tegn på et lynnedslag. Og efterhånden som de graver dybere, finder de afgørende beviser for, at det kraftige stød sprang fra skroget til det elektriske system, hvilket forårsagede et totalt strømsvigt, der satte kritisk udstyr ud af funktion og kastede cockpittet ud i mørke. Over for et katastrofescenarie, der kun forekommer én gang i en million, og som ingen havde forudset, mistede den desorienterede besætning kontrollen over deres fly. Efterforskerne konkluderer, at der ikke var noget, de kunne have gjort for at redde flyet. Tilladt for: A.</desc>
+    <title lang="en">Mayday</title><title lang="da">Undersøgelse af flystyrt</title><desc lang="da">Sæson: 26. Episode: 3. 'En perfekt storm'. Et turboprop, der er kommet ud af kontrol, går i stykker under et landingsforsøg i Düsseldorf lufthavn, hvilket øjeblikkeligt dræber alle ombordværende. Tyske efterforskere lokaliserer hvert eneste stykke af vraget inden for det enorme ulykkessted og rekonstruerer derefter omhyggeligt hele flyet for at fastslå, hvad der gik galt om bord på Nürnberg Flight 108. Efter kort tid opdager efterforskerne et stykke af vraget med tydelige tegn på et lynnedslag. Og efterhånden som de graver dybere, finder de afgørende beviser for, at det kraftige stød sprang fra skroget til det elektriske system, hvilket forårsagede et totalt strømsvigt, der satte kritisk udstyr ud af funktion og kastede cockpittet ud i mørke. Over for et katastrofescenarie, der kun forekommer én gang i en million, og som ingen havde forudset, mistede den desorienterede besætning kontrollen over deres fly. Efterforskerne konkluderer, at der ikke var noget, de kunne have gjort for at redde flyet. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     <icon src="https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg</image><image type="logo" orient="L" system="tmdb" lang="da">https://image.tmdb.org/t/p/original/k4Vc6Dbrq0p1R9KWeCSGbORistf.png</image></programme>
   <programme start="20261113170000 +0000" stop="20261113180000 +0000" channel="nationalgeographic.dk">
@@ -3743,8 +3701,7 @@
     <category lang="da">Show</category>
     <icon src="https://image.tmdb.org/t/p/w1280/lv8c1Ek1ARE0HqUNqZUxa5V6MzX.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/lv8c1Ek1ARE0HqUNqZUxa5V6MzX.jpg</image><image type="logo" orient="L" system="tmdb" lang="da">https://image.tmdb.org/t/p/original/d2xuW3hN0bOhAZp0ShIqGMWRtoy.png</image></programme>
   <programme start="20261113190000 +0000" stop="20261113200000 +0000" channel="nationalgeographic.dk">
-    <title lang="da">Undersøgelse af flystyrt</title>
-    <title lang="en">Mayday</title><desc lang="da">Sæson: 20. Episode: 2. 'Umulig landingsbane'. Et fragtfly styrter til jorden i det svenske Arktis. Under efterforskernes undersøgelse af beviserne toner et gruopvækkende billede af kaos og forvirring frem. Instruktør: Mark Mainguy. Medvirkende: Jonathan Aris, Daniel DeSanto, Philip Van Martin, Daniel Falk. Tilladt for: A.</desc>
+    <title lang="en">Mayday</title><title lang="da">Undersøgelse af flystyrt</title><desc lang="da">Sæson: 20. Episode: 2. 'Umulig landingsbane'. Et fragtfly styrter til jorden i det svenske Arktis. Under efterforskernes undersøgelse af beviserne toner et gruopvækkende billede af kaos og forvirring frem. Instruktør: Mark Mainguy. Medvirkende: Jonathan Aris, Daniel DeSanto, Philip Van Martin, Daniel Falk. Tilladt for: A.</desc>
     <credits>
       <director>Mark Mainguy</director>
       <actor>Jonathan Aris</actor>
@@ -3786,8 +3743,7 @@
     <category lang="da">Fakta</category>
     <icon src="https://image.tmdb.org/t/p/w1280/f876tKjmqwUbSdALcgZYPW0LtWe.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/f876tKjmqwUbSdALcgZYPW0LtWe.jpg</image></programme>
   <programme start="20261113230000 +0000" stop="20261114000000 +0000" channel="nationalgeographic.dk">
-    <title lang="da">Biler i nød</title>
-    <title lang="en">Car S.O.S.</title><desc lang="da">Sæson: 10. Episode: 9. 'Vauxhall Cavalier Turbo'. Tim og Fuzz tager til Stockport for at tage imod en 1994 Vauxhall Cavalier Turbo, der er ejet af Darren. Efter en forfærdelig ulykke blev Darren efterladt tetraplegisk og ude af stand til at bevæge sig fra nakken og ned. Instruktører: Stuart Readfern, Stephen Taylor Woodrow. Tilladt for: A.</desc>
+    <title lang="en">Car S.O.S.</title><title lang="da">Biler i nød</title><desc lang="da">Sæson: 10. Episode: 9. 'Vauxhall Cavalier Turbo'. Tim og Fuzz tager til Stockport for at tage imod en 1994 Vauxhall Cavalier Turbo, der er ejet af Darren. Efter en forfærdelig ulykke blev Darren efterladt tetraplegisk og ude af stand til at bevæge sig fra nakken og ned. Instruktører: Stuart Readfern, Stephen Taylor Woodrow. Tilladt for: A.</desc>
     <credits>
       <director>Stuart Readfern</director>
       <director>Stephen Taylor Woodrow</director>
@@ -3841,8 +3797,7 @@
     <category lang="da">Fakta</category>
     </programme>
   <programme start="20261114060000 +0000" stop="20261114070000 +0000" channel="nationalgeographic.dk">
-    <title lang="da">Biler i nød</title>
-    <title lang="en">Car S.O.S.</title><desc lang="da">Sæson: 14. Episode: 7. 'Alfa Romeo Spider'. Tim og Fuzz står over for deres mest rustne udfordring. En Alfa Romeo Spider fra 1968. Medvirkende: Jim Smallman, Ross Kemp, Rick Wakeman. Tilladt for: A.</desc>
+    <title lang="en">Car S.O.S.</title><title lang="da">Biler i nød</title><desc lang="da">Sæson: 14. Episode: 7. 'Alfa Romeo Spider'. Tim og Fuzz står over for deres mest rustne udfordring. En Alfa Romeo Spider fra 1968. Medvirkende: Jim Smallman, Ross Kemp, Rick Wakeman. Tilladt for: A.</desc>
     <credits>
       <actor>Jim Smallman</actor>
       <actor>Ross Kemp</actor>
@@ -3851,8 +3806,7 @@
     <category lang="da">Show</category>
     <icon src="https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg</image><image type="logo" orient="L" system="tmdb" lang="da">https://image.tmdb.org/t/p/original/unFSKmYjQiGKOM4PogSl6oLUfPe.png</image></programme>
   <programme start="20261114070000 +0000" stop="20261114080000 +0000" channel="nationalgeographic.dk">
-    <title lang="da">Biler i nød</title>
-    <title lang="en">Car S.O.S.</title><desc lang="da">Sæson: 14. Episode: 8. 'Land Rover Defender'. Tim og Fuzz hjælper en velgørenhedsorganisation med at redde deres Defender fra skrotpladsen. Medvirkende: Jim Smallman, Ross Kemp, Rick Wakeman. Tilladt for: A.</desc>
+    <title lang="en">Car S.O.S.</title><title lang="da">Biler i nød</title><desc lang="da">Sæson: 14. Episode: 8. 'Land Rover Defender'. Tim og Fuzz hjælper en velgørenhedsorganisation med at redde deres Defender fra skrotpladsen. Medvirkende: Jim Smallman, Ross Kemp, Rick Wakeman. Tilladt for: A.</desc>
     <credits>
       <actor>Jim Smallman</actor>
       <actor>Ross Kemp</actor>
@@ -3902,8 +3856,7 @@
     <category lang="da">Fakta</category>
     <icon src="https://image.tmdb.org/t/p/w1280/9K7KIOMXgaZjvfQPV8JQeIvb7JE.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/9K7KIOMXgaZjvfQPV8JQeIvb7JE.jpg</image></programme>
   <programme start="20261114150000 +0000" stop="20261114160000 +0000" channel="nationalgeographic.dk">
-    <title lang="da">Undersøgelse af flystyrt</title>
-    <title lang="en">Mayday</title><desc lang="da">Sæson: 26. Episode: 2. 'Norsk mareridt'. Kort efter start fra en vindomsust ø i Norge hører piloterne på Widerøe-flyvning 839 en foruroligende lyd og kæmper derefter for at holde flyet i vandret position. Og efter kun 65 sekunder i luften styrter deres dobbelte turbopropfly ned i Nordatlanten og alle ombord omkommer. I vraget opdager efterforskerne skader på en kritisk styrekomponent. Og da de får at vide, at et andet Widerøe-fly næsten led samme skæbne på Værøys notorisk vanskelige lufthavn, konkluderer de, at en række kontroversielle beslutninger har udsat menneskeliv for fare. Tilladt for: A.</desc>
+    <title lang="en">Mayday</title><title lang="da">Undersøgelse af flystyrt</title><desc lang="da">Sæson: 26. Episode: 2. 'Norsk mareridt'. Kort efter start fra en vindomsust ø i Norge hører piloterne på Widerøe-flyvning 839 en foruroligende lyd og kæmper derefter for at holde flyet i vandret position. Og efter kun 65 sekunder i luften styrter deres dobbelte turbopropfly ned i Nordatlanten og alle ombord omkommer. I vraget opdager efterforskerne skader på en kritisk styrekomponent. Og da de får at vide, at et andet Widerøe-fly næsten led samme skæbne på Værøys notorisk vanskelige lufthavn, konkluderer de, at en række kontroversielle beslutninger har udsat menneskeliv for fare. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
     <icon src="https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg</image><image type="logo" orient="L" system="tmdb" lang="da">https://image.tmdb.org/t/p/original/k4Vc6Dbrq0p1R9KWeCSGbORistf.png</image></programme>
   <programme start="20261114160000 +0000" stop="20261114170000 +0000" channel="nationalgeographic.dk">
@@ -4013,13 +3966,11 @@
     <category lang="da">Fakta</category>
     </programme>
   <programme start="20261115080000 +0000" stop="20261115090000 +0000" channel="nationalgeographic.dk">
-    <title lang="da">Biler i nød</title>
-    <title lang="en">Car S.O.S.</title><desc lang="da">Sæson: 13. Episode: 10. 'Ferrari 308 GTS'. Car S.O.S. tager fat på en Ferrari 308 GTS fra 1984, en bil gjort berømt af 80'ernes hitserie Magnum P.I. Bilen er købt af den pensionerede politibetjent John til hans 50-års fødselsdag, men restaureringen blev sat på standby, da denne hengivne far til tre dedikerede sig til at støtte sin familie og sine nærmeste. Kan drengene redde denne sjældne perle, og vil en skeptisk Fuzz falde for den springende hests tiltrækningskraft? Tilladt for: A.</desc>
+    <title lang="en">Car S.O.S.</title><title lang="da">Biler i nød</title><desc lang="da">Sæson: 13. Episode: 10. 'Ferrari 308 GTS'. Car S.O.S. tager fat på en Ferrari 308 GTS fra 1984, en bil gjort berømt af 80'ernes hitserie Magnum P.I. Bilen er købt af den pensionerede politibetjent John til hans 50-års fødselsdag, men restaureringen blev sat på standby, da denne hengivne far til tre dedikerede sig til at støtte sin familie og sine nærmeste. Kan drengene redde denne sjældne perle, og vil en skeptisk Fuzz falde for den springende hests tiltrækningskraft? Tilladt for: A.</desc>
     <category lang="da">Show</category>
     <icon src="https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg</image><image type="logo" orient="L" system="tmdb" lang="da">https://image.tmdb.org/t/p/original/unFSKmYjQiGKOM4PogSl6oLUfPe.png</image></programme>
   <programme start="20261115090000 +0000" stop="20261115100000 +0000" channel="nationalgeographic.dk">
-    <title lang="da">Undersøgelse af flystyrt</title>
-    <title lang="en">Mayday</title><desc lang="da">Sæson: 7. Episode: 3. 'Den dyreste pris'. Norges værste flykatastrofe nogensinde skete i 1989 - hvor et fly styrtede i havet. Hvad var årsagen til den tragiske nedstyrtning. Medvirkende: Jonathan Aris, Stephen Bogaert. Tilladt for: A.</desc>
+    <title lang="en">Mayday</title><title lang="da">Undersøgelse af flystyrt</title><desc lang="da">Sæson: 7. Episode: 3. 'Den dyreste pris'. Norges værste flykatastrofe nogensinde skete i 1989 - hvor et fly styrtede i havet. Hvad var årsagen til den tragiske nedstyrtning. Medvirkende: Jonathan Aris, Stephen Bogaert. Tilladt for: A.</desc>
     <credits>
       <actor>Jonathan Aris</actor>
       <actor>Stephen Bogaert</actor>
@@ -4067,8 +4018,7 @@
     <category lang="da">Fakta</category>
     </programme>
   <programme start="20261115180000 +0000" stop="20261115190000 +0000" channel="nationalgeographic.dk">
-    <title lang="da">Biler i nød</title>
-    <title lang="en">Car S.O.S.</title><desc lang="da">Sæson: 14. Episode: 5. 'Triumph Bonneville'. Tim og Fuzz giver sig i kast med deres allerførste motorcykel, en Triumph Bonneville fra 1973. Medvirkende: Jim Smallman, Ross Kemp, Rick Wakeman. Tilladt for: A.</desc>
+    <title lang="en">Car S.O.S.</title><title lang="da">Biler i nød</title><desc lang="da">Sæson: 14. Episode: 5. 'Triumph Bonneville'. Tim og Fuzz giver sig i kast med deres allerførste motorcykel, en Triumph Bonneville fra 1973. Medvirkende: Jim Smallman, Ross Kemp, Rick Wakeman. Tilladt for: A.</desc>
     <credits>
       <actor>Jim Smallman</actor>
       <actor>Ross Kemp</actor>
@@ -4077,8 +4027,7 @@
     <category lang="da">Show</category>
     <icon src="https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg</image><image type="logo" orient="L" system="tmdb" lang="da">https://image.tmdb.org/t/p/original/unFSKmYjQiGKOM4PogSl6oLUfPe.png</image></programme>
   <programme start="20261115190000 +0000" stop="20261115200000 +0000" channel="nationalgeographic.dk">
-    <title lang="da">Undersøgelse af flystyrt</title>
-    <title lang="en">Mayday</title><desc lang="da">Sæson: 25. Episode: 5. 'Panik over Pakistan'. Airblue Flight 202 er i slutfasen af indflyvningen til Islamabad i tæt tåge. Og selvom flyveledere guider besætningen gennem den komplekse visuelle indflyvning, ser de med rædsel til, mens Airbus A-321'eren flyver forbi lufthavnen – og brager ind i Himalayas forbjerge. Med alle 152 personer døde ved nedstyrtningen er det Pakistans værste luftfartskatastrofe nogensinde. Efterforskere finder intet galt med flyet og fastslår, at besætningen modtog 21 separate advarsler om det farlige terræn forude. CVR'en bekræfter, at piloterne vidste, at de var i fare, og tog skridt til at manøvrere væk fra bjergene. Den afslører også, hvordan en aggressiv kaptajn brød reglerne, begik en række uforståelige fejl og satte sin førsteofficer ud af spillet – netop da han havde mest brug for ham. Medvirkende: Jonathan Aris, Stephen Bogaert. Tilladt for: A.</desc>
+    <title lang="en">Mayday</title><title lang="da">Undersøgelse af flystyrt</title><desc lang="da">Sæson: 25. Episode: 5. 'Panik over Pakistan'. Airblue Flight 202 er i slutfasen af indflyvningen til Islamabad i tæt tåge. Og selvom flyveledere guider besætningen gennem den komplekse visuelle indflyvning, ser de med rædsel til, mens Airbus A-321'eren flyver forbi lufthavnen – og brager ind i Himalayas forbjerge. Med alle 152 personer døde ved nedstyrtningen er det Pakistans værste luftfartskatastrofe nogensinde. Efterforskere finder intet galt med flyet og fastslår, at besætningen modtog 21 separate advarsler om det farlige terræn forude. CVR'en bekræfter, at piloterne vidste, at de var i fare, og tog skridt til at manøvrere væk fra bjergene. Den afslører også, hvordan en aggressiv kaptajn brød reglerne, begik en række uforståelige fejl og satte sin førsteofficer ud af spillet – netop da han havde mest brug for ham. Medvirkende: Jonathan Aris, Stephen Bogaert. Tilladt for: A.</desc>
     <credits>
       <actor>Jonathan Aris</actor>
       <actor>Stephen Bogaert</actor>
