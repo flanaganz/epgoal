@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<tv><!-- EPGoal5 matrix test: A=icon wall+icon logo+poster+backdrop; B=icon logo+icon wall+poster+backdrop; C=icon wall+poster+backdrop; D=icon wall+backdrop; E=icon logo+backdrop; K=control. Danish titles unchanged. --><channel id="dr1.dk">
+<tv><!-- EPGoal5 identifier test: Danish titles retained. Tests themoviedb.org episode-num, tmdb URL, both, IMDb episode-num, and unchanged controls. --><channel id="dr1.dk">
     <display-name lang="da">DR1</display-name>
     <icon src="https://s.c.dk/tvlab/tvicons/prddr1_1577861013_logo_large.png"/>
     <icon src="https://s.c.dk/tvlab/tvicons/prddr1_1577861013_logo_large.png"/>
@@ -21,6 +21,148 @@
     <display-name lang="da">National Geographic</display-name>
     <url>http://www.yousee.dk</url>
   </channel>
+  <programme start="20261115041500 +0000" stop="20261115051000 +0000" channel="dr1.dk">
+    <title lang="da">Udsendelsesophør</title>
+    <desc lang="da">Sæson: 2022. 'Udsendelsesophør'. Udsendelsesophør. Tilladt for: A.</desc>
+    <category lang="da">Ukendt</category>
+    </programme>
+  <programme start="20261115051000 +0000" stop="20261115060500 +0000" channel="dr1.dk">
+    <title lang="da">Hotel Romantik Sverige</title>
+    <sub-title lang="da">(2:8)</sub-title>
+    <desc lang="da">Sæson: 1. Episode: 2. 'Sæson 1 – 2. episode'. Det første par vender tilbage til hotellet efter en nat i den romantiske alpehytte. Alle er nysgerrige efter at vide, hvordan det er gået. Deltagerne tager på et eventyr, de sent vil glemme. Og senere sætter et lokalt salsaband gang i dansen. Hvem bliver aftenens par? Tilladt for: 7.</desc>
+    <category lang="da">Show</category>
+    <rating system="DK">
+      <value>7</value>
+    </rating>
+  <icon src="https://image.tmdb.org/t/p/w1280/9VAxT23hw6NUlnqwBbwzQc8Gcrq.jpg"/></programme>
+  <programme start="20261115060500 +0000" stop="20261115070000 +0000" channel="dr1.dk">
+    <title lang="da">Hotel Romantik Sverige</title>
+    <sub-title lang="da">(3:8)</sub-title>
+    <desc lang="da">Sæson: 1. Episode: 3. 'Hotel Romantik Sverige'. Det nye kærlighedspar bader og snakker om at flytte sammen. Der er kamp i dagens trillebørløb og totalt kollaps i køkkenet, når holdet skal tilberede dessert. Aftenens par overrasker alle. Kommer de til at tage livet af hinanden? Tilladt for: 7.</desc>
+    <category lang="da">Show</category>
+    <rating system="DK">
+      <value>7</value>
+    </rating>
+  <icon src="https://image.tmdb.org/t/p/w1280/9VAxT23hw6NUlnqwBbwzQc8Gcrq.jpg"/></programme>
+  <programme start="20261115070000 +0000" stop="20261115071500 +0000" channel="dr1.dk">
+    <title lang="da">TVA</title>
+    <desc lang="da">Sæson: 2026. Episode: 1350. '15.11.2026'. TV Avisen giver dig overblik over dagens vigtigste nyheder fra Danmark og verden omkring os. Få indblik og perspektiv på de største begivenheder og historier. Tilladt for: A.</desc>
+    <category lang="da">Nyheder</category>
+    </programme>
+  <programme start="20261115071500 +0000" stop="20261115080000 +0000" channel="dr1.dk">
+    <title lang="da">Kinas smukke natur</title>
+    <sub-title lang="da">(5:5)</sub-title>
+    <desc lang="da">Sæson: 1. Episode: 5. 'De mytiske bjerge'. I det sydøstlige Kina rejser Wuyi-bjergene sig over en af verdens mest uberørte subtropiske skove. Skoven har eksisteret i millioner af år og er i dag på UNESCO's verdensarvsliste. Bjergene er ofte indhyllet i tåge og omgærdet af mange sagn og myter. Det varme, fugtige og iltrige klima skaber ideelle betingelser for en mangfoldighed af liv - fra sjældne og unikke dyr som den sortkindede pygmæfalk til urgamle og geniale planter som ligblomsten. Kinesisk dokumentarserie fra 2025. Tilladt for: 7.</desc>
+    <category lang="da">Fakta</category>
+    <rating system="DK">
+      <value>7</value>
+    </rating>
+  <icon src="https://image.tmdb.org/t/p/w1280/zRf6m12VimuxzRJ1myco9DDwiTn.jpg"/></programme>
+  <programme start="20261115080000 +0000" stop="20261115084500 +0000" channel="dr1.dk">
+    <title lang="da">Nordamerikas kæmpesøer</title>
+    <sub-title lang="da">(2:3)</sub-title>
+    <desc lang="da">Sæson: 1. Episode: 2. 'Den store frost'. Vinteren er brutal ved De Store Søer i Nordamerika. Her må dyrelivet tilpasse sig de ekstreme temperaturer for at overleve. Mød en oddermor, der lærer sine unger at fiske under isdækket. Flyveegern, der lyser i mørket. Ulve, der jager et rådyr fanget i en frosset sø og bjørneunger, der bruger sne som isolation. Instruktør: Nicholas de Pencier. Medvirkende: Allegra Fulton. Tilladt for: A.</desc>
+    <credits>
+      <director>Nicholas de Pencier</director>
+      <actor>Allegra Fulton</actor>
+    </credits>
+    <category lang="da">Fakta</category>
+    <icon src="https://image.tmdb.org/t/p/w1280/sVtTc5GwYtyFL0rffeyFAWaWxxj.jpg"/></programme>
+  <programme start="20261115084500 +0000" stop="20261115090000 +0000" channel="dr1.dk">
+    <title lang="da">Havetips med Søren Vester - Besøg ved Tom Stuart-Smith</title>
+    <desc lang="da">Sæson: 1. Episode: 2. 'Besøg ved Tom Stuart-Smith'. Søren besøger sit helt store have-idol, Tom Stuart-Smith, i England. Tilladt for: A.</desc>
+    <category lang="da">Fritid</category>
+    <icon src="https://image.tmdb.org/t/p/w1280/5Nb6ULrfEkOlLRcB9qUS11TjOyV.jpg"/></programme>
+  <programme start="20261115090000 +0000" stop="20261115100000 +0000" channel="dr1.dk">
+    <title lang="da">Gudstjenesten: Karsten Møller Hansen og Kristina Miskowiak Beckvard - Den danske kirke i London</title>
+    <desc lang="da">Sæson: 2026. Episode: 47. 'Karsten Møller Hansen og Kristina Miskowiak Beckvard - Den danske kirke i London'. Sofie Østergaard tager til gudstjeneste i Den Danske Kirke i London, hvor præst Karsten Møller Hansen samler danskere langt hjemmefra. Her er danske salmer, smørrebrød og fællesskab med til at skabe følelsen af at høre til og høre hjemme. Men præstens arbejde rækker også uden for kirken, når danskere har brug for hjælp. Sammen med den danske ambassadør Kristina Miskowiak Beckvard fortæller han om kirkens og ambassadens samarbejde - og om betydningen af, at nogen bekymrer sig om én. Tilladt for: A.</desc>
+    <category lang="da">Kunst</category>
+    <icon src="https://image.tmdb.org/t/p/w1280/gUcuDkGZZrbBxSVZEb3zlUgDmUu.jpg"/></programme>
+  <programme start="20261115100000 +0000" stop="20261115110000 +0000" channel="dr1.dk">
+    <title lang="da">Kyst til kyst - Østjyllands kyst</title>
+    <sub-title lang="da">(3:8)</sub-title>
+    <desc lang="da">Sæson: 1. Episode: 3. 'Østjyllands kyst'. Dansk programserie om eventyr, hemmeligheder og glemte historier langs de danske kyster. Hver episode viser Danmark til lands, til vands og i luften som det aldrig før er set på dansk tv. I dagens program er vores ekspertværter taget til området omkring Århus og Djursland. Biolog Anders Drud kommer helt tæt på havets kæmper, containerskibene, og deres betydning, når de anløber en af verdens vigtigste havne - Århus Havn. Botaniker Flemming Rune stifter nærmere bekendtskab med den livsfarlige tjære, lokale fiskere brugte til garn. Biolog og eventyrer Line Friis Frederiksen sejler på krebsejagt med dansk stjernekok. Og geograf Mai Maskell måler Danmarks dybeste sted, som har stor indflydelse på skibstrafikken. Instruktør: Ulrik Gutt-Nielsen. Tilladt for: A.</desc>
+    <credits>
+      <director>Ulrik Gutt-Nielsen</director>
+    </credits>
+    <category lang="da">Fakta</category>
+    <icon src="https://image.tmdb.org/t/p/w1280/sAd7PNF6pcq3UpqZH7mxGAccFhf.jpg"/></programme>
+  <programme start="20261115110000 +0000" stop="20261115111500 +0000" channel="dr1.dk">
+    <title lang="da">TVA</title>
+    <desc lang="da">Sæson: 2026. Episode: 1351. '15.11.2026'. TV Avisen giver dig overblik over dagens vigtigste nyheder fra Danmark og verden omkring os. Få indblik og perspektiv på de største begivenheder og historier. Tilladt for: A.</desc>
+    <category lang="da">Nyheder</category>
+    </programme>
+  <programme start="20261115111500 +0000" stop="20261115114500 +0000" channel="dr1.dk">
+    <title lang="da">SoMe-krigerne på Borgen</title>
+    <sub-title lang="da">(1:3) Gør Noget Sjovt</sub-title>
+    <desc lang="da">Sæson: 1. Episode: 1. 'Gør noget sjovt'. Valget er udskrevet, og Shuki fra Enhedslisten forsøger at få Rosa Lund til at gå viralt med madvideoer. Hos Moderaterne får SoMe-chefen Cecilie en skeptisk Lars Løkke ned i metroen til sort-hvide "aura-fotos" til TikTok. I Aarhus kæmper Alex Vanopslagh og hans SoMe-team med strips og tidspres, mens Mitchel fra Dansk Folkeparti forsøger at vinde unge vælgere med partybus og high energy SoMe-videoer. Tilladt for: A.</desc>
+    <category lang="da">Fakta</category>
+    </programme>
+  <programme start="20261115114500 +0000" stop="20261115122000 +0000" channel="dr1.dk">
+    <title lang="da">Superkræsen: Fy for f... Det er FISK!!</title>
+    <desc lang="da">Sæson: 1. Episode: 3. 'Fy for f... Det er FISK!!'. Tid til eksamen! Michelle står ansigt til ansigt med en frugt, som hun ellers har nægtet at blive konfronteret med - også på sit arbejde! Men det værste venter bagefter, når flokken bliver præsenteret for deres mareridt: en hel fisk, som de både skal have fingrene i - og GYS... spise! Tilladt for: A.</desc>
+    <category lang="da">Fritid</category>
+    <icon src="https://image.tmdb.org/t/p/w1280/kzFjp2SXPXhjjhDpbdo3Vf8aGaH.jpg"/></programme>
+  <programme start="20261115122000 +0000" stop="20261115125000 +0000" channel="dr1.dk">
+    <title lang="da">Du skulle høre dig selv</title>
+    <sub-title lang="da">(1:6) Er Du Sur, Skat?</sub-title>
+    <desc lang="da">Sæson: 1. Episode: 1. 'Er du sur, skat?'. En ny hverdag begynder for parrene Amanda og Jacob, Emil og Jonas samt Rikke og Ole. De har sagt ja til at lade to eksperter kigge dem over skuldrene og dissekere de hverdagskonflikter, der kører i ring. For selvom kærligheden er stor, går kommunikation ofte i hårdknude. Nøglen er ikke at finde ud af, hvem der har ret, men at forstå den dynamik, der udløser konflikten. Tilladt for: 7.</desc>
+    <category lang="da">Show</category>
+    <rating system="DK">
+      <value>7</value>
+    </rating>
+  </programme>
+  <programme start="20261115125000 +0000" stop="20261115132000 +0000" channel="dr1.dk">
+    <title lang="da">Mændenes Paradis - Kærlighed &amp; forbrydelse</title>
+    <sub-title lang="da">(2:3)</sub-title>
+    <desc lang="da">Sæson: 1. Episode: 2. 'Kærlighed &amp; forbrydelse'. Henning har kort efter sin ankomst været på date med en thailandsk kvinde, som han er faldet pladask for. Nu oplever han for første gang at have en kæreste. Men han ved godt, at det også handler om hans penge. Per havde boet sammen med sin thailandske kone og hendes familie i mange år, da han pludselig blev forsøgt myrdet. Dommeren idømte Pers kone livstid. Jens og Dew fandt hinanden på en datingsite. Han havde aldrig været i Thailand. Fem måneder senere var de gift og bor nu langt inde i junglen. Tilladt for: A.</desc>
+    <category lang="da">Fakta</category>
+    <icon src="https://image.tmdb.org/t/p/w1280/n6hJJbEntZzSof3JhMtMIgyPVCX.jpg"/></programme>
+  <programme start="20261115132000 +0000" stop="20261115135500 +0000" channel="dr1.dk">
+    <title lang="da">Kongehuse i krise: Norge</title>
+    <desc lang="da">Sæson: 1. Episode: 1. 'Kongehuse i krise: Norge'. Voldtægtsdomme, en shaman, Epstein-forbindelser og et nyt kongepar - udfordringerne i det norske kongehus har stået i kø, og folkeopbakningen til monarkiet har været historisk lav. Og med et helt nyt kongepar i spidsen, er spørgsmålet om de kan få vendt stemningen og populariteten til deres fordel. Tilladt for: A.</desc>
+    <category lang="da">Fakta</category>
+    <icon src="https://image.tmdb.org/t/p/w1280/niXsZpMYu61ORhQqA26CqSqDf0R.jpg"/></programme>
+  <programme start="20261115135500 +0000" stop="20261115142500 +0000" channel="dr1.dk">
+    <title lang="da">The Other Bennet Sister</title>
+    <sub-title lang="da">(5:10)</sub-title>
+    <desc lang="da">Sæson: 1. Episode: 5. 'The Other Bennet Sister'. Mary forbereder sig til sin debut i Londons selskabsliv, opmuntret af sit venskab med Ann og af mr. Ryders opmærksomhed. Men en kontrovers med hendes gamle rival Caroline Bingley rammer hende på selvtilliden. Tilladt for: 11.</desc>
+    <category lang="da">Serier</category>
+    <rating system="DK">
+      <value>11</value>
+    </rating>
+  </programme>
+  <programme start="20261115142500 +0000" stop="20261115145500 +0000" channel="dr1.dk">
+    <title lang="da">The Other Bennet Sister</title>
+    <sub-title lang="da">(6:10)</sub-title>
+    <desc lang="da">Sæson: 1. Episode: 6. 'The Other Bennet Sister'. Mary frygter, at hendes mor er alvorligt syg, så hun tager hjem til Pembleton. Hun føler, at hun er blevet slået tilbage til start, for snart bliver hun trukket tilbage ind i sit gamle familieliv. Mary begynder at miste håbet om at vende tilbage til London. Men da mr. Ryder uventet dukker op, ryster det op i tingene. Tilladt for: 11.</desc>
+    <category lang="da">Serier</category>
+    <rating system="DK">
+      <value>11</value>
+    </rating>
+  </programme>
+  <programme start="20261115145500 +0000" stop="20261115154000 +0000" channel="dr1.dk">
+    <title lang="da">Med på legen - Live fra Langeland</title>
+    <desc lang="da">Sæson: 1. Episode: 2. 'Live fra Langeland'. Turen går til Langeland, hvor der skal tænkes kreativt - og måske lidt alternativt - med en masse småkager. Senere skal holdene finde den indre journalist frem og levere breaking news direkte fra Langeland. Se med, når komikerne Lars Hjortshøj og Lasse Madsen dyster mod youtuberne Paluch og Momme og det tredje hold, der består af skuespiller Zelma Lewerissa og podcastvært Emma Thomsen. Tilladt for: A.</desc>
+    <category lang="da">Show</category>
+    <icon src="https://image.tmdb.org/t/p/w1280/fkbH1jhmCOqtxKV9r1ibp6pmfTn.jpg"/></programme>
+  <programme start="20261115154000 +0000" stop="20261115161000 +0000" channel="dr1.dk">
+    <title lang="da">Landevejens konger: Godt øl i hanerne</title>
+    <desc lang="da">Sæson: 1. Episode: 2. 'Godt øl i hanerne'. DSV er konger af grusgraven - men Leif Tullberg drømmer større! Han vil tage DSV til det næste niveau, og jagten på den rette partner går ind. Men hvem tør sige ja til midtsjællandske bondeknolde med bissemetoder? Imens nyder chaufførerne det vilde liv på Europas landeveje, hvor frihed, fest og kammeratskab sætter kursen. Tilladt for: 7.</desc>
+    <category lang="da">Fakta</category>
+    <rating system="DK">
+      <value>7</value>
+    </rating>
+  <icon src="https://image.tmdb.org/t/p/w1280/rJviymUJDELsotRY5nB1mnKDADQ.jpg"/></programme>
+  <programme start="20261115161000 +0000" stop="20261115170000 +0000" channel="dr1.dk">
+    <title lang="da">Folk og fæ</title>
+    <sub-title lang="da">5 (6:7)</sub-title>
+    <desc lang="da">Sæson: 5. Episode: 6. 'Glasset halvt fuldt'. James må indtage sygesengen, og det bringer begravede følelser frem til overfladen. Siegfried og Tristans bil bryder sammen. De må begive sig hjemad til fods, med en flaske hjemmelavet vin som selskab, og det bringer nogle sandheder frem i lyset. Tilladt for: 7.</desc>
+    <category lang="da">Serier</category>
+    <rating system="DK">
+      <value>7</value>
+    </rating>
+  <icon src="https://image.tmdb.org/t/p/w1280/kgXf9hKRmS30YzRfMVpW6DZEs2B.jpg"/></programme>
   <programme start="20261115170000 +0000" stop="20261115173000 +0000" channel="dr1.dk">
     <title lang="da">Spise med Price: 1700-tallet - En bid af Danmarkshistorien</title>
     <desc lang="da">Sæson: 18. Episode: 2. '1700-tallet - En bid af Danmarkshistorien'. James og Adam Price rejser tilbage i Danmarkshistorien hvor kongemagt, krudtrøg og kogekunst går hånd i hånd. I "1700-tallet - En bid af Danmarkshistorien" lander vi midt i oplysningstiden og talrige skandaler i kongehuset. Brødrene Price guider os med ind i et århundrede med masser af historie og hvor der for alvor kommer smør og fløde på bordet... Og det kan smages, når der laves legendarisk kalvefrikassé og abrikostærte over åben ild. Medvirkende: Torben Wiese, Robert Thomsen, Rebecca Rønde Kiilerich, Jennifer Wagstaffe. Tilladt for: A.</desc>
@@ -148,10 +290,10 @@
       <actor>Joseph Beattie</actor>
     </credits>
     <category lang="da">Serier</category>
-    <rating system="DK">
+    <icon src="https://image.tmdb.org/t/p/w1280/6rmZQrnJ71HXkrqap1gUbiJ5GO0.jpg"/><rating system="DK">
       <value>11</value>
     </rating>
-  <icon src="https://image.tmdb.org/t/p/w1280/6rmZQrnJ71HXkrqap1gUbiJ5GO0.jpg"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/eoXdrlZAyFlPdEbSBFHqmxw764I.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/6rmZQrnJ71HXkrqap1gUbiJ5GO0.jpg</image></programme>
+  <url system="tmdb">https://www.themoviedb.org/tv/764</url><episode-num system="themoviedb.org">tv/764</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/6rmZQrnJ71HXkrqap1gUbiJ5GO0.jpg</image></programme>
   <programme start="20261116025000 +0000" stop="20261116033500 +0000" channel="dr1.dk">
     <title lang="da">Sporløs Uk - Sådan gik det</title>
     <sub-title lang="da">(8:9)</sub-title>
@@ -275,10 +417,10 @@
       <actor>Joseph Beattie</actor>
     </credits>
     <category lang="da">Serier</category>
-    <rating system="DK">
+    <icon src="https://image.tmdb.org/t/p/w1280/6rmZQrnJ71HXkrqap1gUbiJ5GO0.jpg"/><rating system="DK">
       <value>11</value>
     </rating>
-  <icon src="https://image.tmdb.org/t/p/w1280/6rmZQrnJ71HXkrqap1gUbiJ5GO0.jpg"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/eoXdrlZAyFlPdEbSBFHqmxw764I.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/6rmZQrnJ71HXkrqap1gUbiJ5GO0.jpg</image></programme>
+  <url system="tmdb">https://www.themoviedb.org/tv/764</url><episode-num system="themoviedb.org">tv/764</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/6rmZQrnJ71HXkrqap1gUbiJ5GO0.jpg</image></programme>
   <programme start="20261116152500 +0000" stop="20261116161500 +0000" channel="dr1.dk">
     <title lang="da">Min familie og andre dyr</title>
     <sub-title lang="da">2 (5:6)</sub-title>
@@ -297,10 +439,10 @@
       <actor>Alexis Georgoulis</actor>
     </credits>
     <category lang="da">Serier</category>
-    <rating system="DK">
+    <icon src="https://image.tmdb.org/t/p/w1280/sFhriaT9lCA9TAZKqB2Cb6VLX6W.jpg"/><rating system="DK">
       <value>11</value>
     </rating>
-  <icon src="https://image.tmdb.org/t/p/w1280/sFhriaT9lCA9TAZKqB2Cb6VLX6W.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/sFhriaT9lCA9TAZKqB2Cb6VLX6W.jpg</image></programme>
+  <episode-num system="imdb.com">title/tt5014882</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/sFhriaT9lCA9TAZKqB2Cb6VLX6W.jpg</image></programme>
   <programme start="20261116161500 +0000" stop="20261116163000 +0000" channel="dr1.dk">
     <title lang="da">TVA</title>
     <desc lang="da">Sæson: 2026. Episode: 1356. '16.11.2026'. TV Avisen giver dig overblik over dagens vigtigste nyheder fra Danmark og verden omkring os. Få indblik og perspektiv på de største begivenheder og historier. Tilladt for: A.</desc>
@@ -330,7 +472,7 @@
     <title lang="da">Aftenshowet</title>
     <desc lang="da">Sæson: 2026. Episode: 170. 'Episode 170'. DR1s journalistiske talkshow direkte fra Rådhuspladsen i København. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    <icon src="https://image.tmdb.org/t/p/w1280/wnFL0YZcWEAX64XVrNgyA1S8M10.jpg"/><icon src="https://image.tmdb.org/t/p/original/vUjoBRW33GdfyYtSif5G6Z66qHi.png"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/gLy5UrGsRrEZqnf7Kkdz7GS6K5m.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/wnFL0YZcWEAX64XVrNgyA1S8M10.jpg</image></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/wnFL0YZcWEAX64XVrNgyA1S8M10.jpg"/></programme>
   <programme start="20261116190000 +0000" stop="20261116193000 +0000" channel="dr1.dk">
     <title lang="da">Frank &amp; Kastaniegaarden - Efterår i den norske vildmark 1:2</title>
     <desc lang="da">Sæson: 2026. Episode: 18. 'Efterår i den norske vildmark 1:2'. Frank har pakket rygsækken for anden gang for at tage op til sin veninde Gea, som udlever sin drøm om at bo et år i de norske fjelde. For to måneder siden hjalp han hende med at etablere lejr, og nu kan han ikke vente med at se, hvordan hun klarer sig. De skal på jagt, sætte garn og malke geder, så hun kan samle forråd til den kommende vinter. Men første udfordring er overhovedet at finde Gea, for da Frank ankommer til lejren, er det blevet mørkt, og hun har efterladt sin canadiske husky Konrad alene tilbage. Tilladt for: A.</desc>
@@ -424,10 +566,10 @@
       <actor>Joseph Beattie</actor>
     </credits>
     <category lang="da">Serier</category>
-    <rating system="DK">
+    <icon src="https://image.tmdb.org/t/p/w1280/6rmZQrnJ71HXkrqap1gUbiJ5GO0.jpg"/><rating system="DK">
       <value>11</value>
     </rating>
-  <icon src="https://image.tmdb.org/t/p/w1280/6rmZQrnJ71HXkrqap1gUbiJ5GO0.jpg"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/eoXdrlZAyFlPdEbSBFHqmxw764I.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/6rmZQrnJ71HXkrqap1gUbiJ5GO0.jpg</image></programme>
+  <url system="tmdb">https://www.themoviedb.org/tv/764</url><episode-num system="themoviedb.org">tv/764</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/6rmZQrnJ71HXkrqap1gUbiJ5GO0.jpg</image></programme>
   <programme start="20261117030000 +0000" stop="20261117034000 +0000" channel="dr1.dk">
     <title lang="da">Jens i vildmarken</title>
     <sub-title lang="da">(5:6)</sub-title>
@@ -471,7 +613,7 @@
     <title lang="da">Aftenshowet</title>
     <desc lang="da">Sæson: 2026. Episode: 170. 'Episode 170'. DR1s journalistiske talkshow direkte fra Rådhuspladsen i København. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    <icon src="https://image.tmdb.org/t/p/w1280/wnFL0YZcWEAX64XVrNgyA1S8M10.jpg"/><icon src="https://image.tmdb.org/t/p/original/vUjoBRW33GdfyYtSif5G6Z66qHi.png"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/gLy5UrGsRrEZqnf7Kkdz7GS6K5m.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/wnFL0YZcWEAX64XVrNgyA1S8M10.jpg</image></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/wnFL0YZcWEAX64XVrNgyA1S8M10.jpg"/></programme>
   <programme start="20261117091500 +0000" stop="20261117101000 +0000" channel="dr1.dk">
     <title lang="da">Ryd op, før du dør</title>
     <sub-title lang="da">(8:8)</sub-title>
@@ -541,10 +683,10 @@
       <actor>Nicholas Rowe</actor>
     </credits>
     <category lang="da">Serier</category>
-    <rating system="DK">
+    <icon src="https://image.tmdb.org/t/p/w1280/6rmZQrnJ71HXkrqap1gUbiJ5GO0.jpg"/><rating system="DK">
       <value>11</value>
     </rating>
-  <icon src="https://image.tmdb.org/t/p/w1280/6rmZQrnJ71HXkrqap1gUbiJ5GO0.jpg"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/eoXdrlZAyFlPdEbSBFHqmxw764I.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/6rmZQrnJ71HXkrqap1gUbiJ5GO0.jpg</image></programme>
+  <url system="tmdb">https://www.themoviedb.org/tv/764</url><episode-num system="themoviedb.org">tv/764</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/6rmZQrnJ71HXkrqap1gUbiJ5GO0.jpg</image></programme>
   <programme start="20261117152500 +0000" stop="20261117161500 +0000" channel="dr1.dk">
     <title lang="da">Min familie og andre dyr</title>
     <sub-title lang="da">2 (6:6)</sub-title>
@@ -563,10 +705,10 @@
       <actor>Alexis Georgoulis</actor>
     </credits>
     <category lang="da">Serier</category>
-    <rating system="DK">
+    <icon src="https://image.tmdb.org/t/p/w1280/sFhriaT9lCA9TAZKqB2Cb6VLX6W.jpg"/><rating system="DK">
       <value>11</value>
     </rating>
-  <icon src="https://image.tmdb.org/t/p/w1280/sFhriaT9lCA9TAZKqB2Cb6VLX6W.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/sFhriaT9lCA9TAZKqB2Cb6VLX6W.jpg</image></programme>
+  <episode-num system="imdb.com">title/tt5014882</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/sFhriaT9lCA9TAZKqB2Cb6VLX6W.jpg</image></programme>
   <programme start="20261117161500 +0000" stop="20261117163000 +0000" channel="dr1.dk">
     <title lang="da">TVA</title>
     <desc lang="da">Sæson: 2026. Episode: 1361. '17.11.2026'. TV Avisen giver dig overblik over dagens vigtigste nyheder fra Danmark og verden omkring os. Få indblik og perspektiv på de største begivenheder og historier. Tilladt for: A.</desc>
@@ -599,7 +741,7 @@
     <title lang="da">Aftenshowet</title>
     <desc lang="da">Sæson: 2026. Episode: 171. 'Episode 171'. DR1s journalistiske talkshow direkte fra Rådhuspladsen i København. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    <icon src="https://image.tmdb.org/t/p/w1280/wnFL0YZcWEAX64XVrNgyA1S8M10.jpg"/><icon src="https://image.tmdb.org/t/p/original/vUjoBRW33GdfyYtSif5G6Z66qHi.png"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/gLy5UrGsRrEZqnf7Kkdz7GS6K5m.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/wnFL0YZcWEAX64XVrNgyA1S8M10.jpg</image></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/wnFL0YZcWEAX64XVrNgyA1S8M10.jpg"/></programme>
   <programme start="20261117190000 +0000" stop="20261117193000 +0000" channel="dr1.dk">
     <title lang="da">Superkræsen: Nu synes jeg, Speederen er helt i bund!</title>
     <desc lang="da">Sæson: 1. Episode: 4. 'Nu synes jeg, Speederen er helt i bund!'. Efter en lang sommerferie med alvorlige lektier skal de fem deltagere se, hvor langt de egentlig er kommet. Har Stefan kunnet holde nallerne væk fra pølseskuffen? Er Sebastian blevet venner med sit hadedyr - fisk! Og er de blevet mindre kræsne, når de nu skal til generalprøve på det måltid, de fra starten har drømt om at spise med deres allerkæreste? Tilladt for: A.</desc>
@@ -741,7 +883,7 @@
     <title lang="da">Aftenshowet</title>
     <desc lang="da">Sæson: 2026. Episode: 171. 'Episode 171'. DR1s journalistiske talkshow direkte fra Rådhuspladsen i København. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    <icon src="https://image.tmdb.org/t/p/w1280/wnFL0YZcWEAX64XVrNgyA1S8M10.jpg"/><icon src="https://image.tmdb.org/t/p/original/vUjoBRW33GdfyYtSif5G6Z66qHi.png"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/gLy5UrGsRrEZqnf7Kkdz7GS6K5m.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/wnFL0YZcWEAX64XVrNgyA1S8M10.jpg</image></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/wnFL0YZcWEAX64XVrNgyA1S8M10.jpg"/></programme>
   <programme start="20261118091000 +0000" stop="20261118101000 +0000" channel="dr1.dk">
     <title lang="da">Husdrømme</title>
     <sub-title lang="da">7 (1:10)</sub-title>
@@ -807,10 +949,10 @@
       <actor>Nick Hendrix</actor>
     </credits>
     <category lang="da">Serier</category>
-    <rating system="DK">
+    <icon src="https://image.tmdb.org/t/p/w1280/6rmZQrnJ71HXkrqap1gUbiJ5GO0.jpg"/><rating system="DK">
       <value>11</value>
     </rating>
-  <icon src="https://image.tmdb.org/t/p/w1280/6rmZQrnJ71HXkrqap1gUbiJ5GO0.jpg"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/eoXdrlZAyFlPdEbSBFHqmxw764I.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/6rmZQrnJ71HXkrqap1gUbiJ5GO0.jpg</image></programme>
+  <url system="tmdb">https://www.themoviedb.org/tv/764</url><episode-num system="themoviedb.org">tv/764</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/6rmZQrnJ71HXkrqap1gUbiJ5GO0.jpg</image></programme>
   <programme start="20261118152500 +0000" stop="20261118161500 +0000" channel="dr1.dk">
     <title lang="da">Min familie og andre dyr</title>
     <sub-title lang="da">3 (1:8)</sub-title>
@@ -829,10 +971,10 @@
       <actor>Erifili Kitzoglou</actor>
     </credits>
     <category lang="da">Serier</category>
-    <rating system="DK">
+    <icon src="https://image.tmdb.org/t/p/w1280/sFhriaT9lCA9TAZKqB2Cb6VLX6W.jpg"/><rating system="DK">
       <value>11</value>
     </rating>
-  <icon src="https://image.tmdb.org/t/p/w1280/sFhriaT9lCA9TAZKqB2Cb6VLX6W.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/sFhriaT9lCA9TAZKqB2Cb6VLX6W.jpg</image></programme>
+  <episode-num system="imdb.com">title/tt5014882</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/sFhriaT9lCA9TAZKqB2Cb6VLX6W.jpg</image></programme>
   <programme start="20261118161500 +0000" stop="20261118163000 +0000" channel="dr1.dk">
     <title lang="da">TVA</title>
     <desc lang="da">Sæson: 2026. Episode: 1364. '18.11.2026'. TV Avisen giver dig overblik over dagens vigtigste nyheder fra Danmark og verden omkring os. Få indblik og perspektiv på de største begivenheder og historier. Tilladt for: A.</desc>
@@ -862,7 +1004,7 @@
     <title lang="da">Aftenshowet</title>
     <desc lang="da">Sæson: 2026. Episode: 172. 'Episode 172'. DR1s journalistiske talkshow direkte fra Rådhuspladsen i København. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    <icon src="https://image.tmdb.org/t/p/w1280/wnFL0YZcWEAX64XVrNgyA1S8M10.jpg"/><icon src="https://image.tmdb.org/t/p/original/vUjoBRW33GdfyYtSif5G6Z66qHi.png"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/gLy5UrGsRrEZqnf7Kkdz7GS6K5m.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/wnFL0YZcWEAX64XVrNgyA1S8M10.jpg</image></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/wnFL0YZcWEAX64XVrNgyA1S8M10.jpg"/></programme>
   <programme start="20261118190000 +0000" stop="20261118193000 +0000" channel="dr1.dk">
     <title lang="da">Du skulle høre dig selv</title>
     <sub-title lang="da">(2:6) Hvorfor Er Du Der Ikke, Jacob?</sub-title>
@@ -972,6 +1114,97 @@
     <desc lang="da">Sæson: 2022. 'Udsendelsesophør'. Udsendelsesophør. Tilladt for: A.</desc>
     <category lang="da">Ukendt</category>
     </programme>
+  <programme start="20261115040000 +0000" stop="20261115050000 +0000" channel="dr2.dk">
+    <title lang="da">Ud i vildmarken med Simon Reeve</title>
+    <sub-title lang="da">2 (2:4)</sub-title>
+    <desc lang="da">Episode: 2. 'Cortéshavet'. Kolonier af søløver, legesyge delfiner, unikke havfugle og sjældne hajer. Denne gang udforsker Simon Reeve Cortéshavet i det vestlige Mexico, også kendt som 'verdens akvarium'. Her findes næsten en tredjedel af Jordens havpattedyrarter, og havet er også berømt for hajer såsom tyrehajer og de truede hammerhajer. BBC-naturserie fra 2026. Tilladt for: 7.</desc>
+    <category lang="da">Fakta</category>
+    <rating system="DK">
+      <value>7</value>
+    </rating>
+  <icon src="https://image.tmdb.org/t/p/w1280/5aJF6Se2pR5BwUwpYE3Y0S02dE8.jpg"/></programme>
+  <programme start="20261115050000 +0000" stop="20261115053000 +0000" channel="dr2.dk">
+    <title lang="da">Kunstnerkolonien i Italien</title>
+    <sub-title lang="da">(2:8) Gensyn Med Krøyer</sub-title>
+    <desc lang="da">Sæson: 4. Episode: 2. 'Gensyn med Krøyer'. Sophia Luna Portra kommer endelig til Amalfi og beslutter sig for at gå i sin fjerne slægtning Marie Krøyers fodspor. Kirsten Justesen får højdeskræk i sit nye arbejdsrum, mens Mette Riise møder uventede problemer. Jo Hedegaard får fingrene i en rød scooter og vækker opsigt blandt de lokale. Tilladt for: A.</desc>
+    <category lang="da">Fakta</category>
+    </programme>
+  <programme start="20261115053000 +0000" stop="20261115060000 +0000" channel="dr2.dk">
+    <title lang="da">Din for altid</title>
+    <sub-title lang="da">(2) Jesper Og Vibeke</sub-title>
+    <desc lang="da">Sæson: 1. Episode: 2. 'Jesper og Vibeke'. Dansk dokumentarserie fra 2017 Hvordan er det at dele seng, bord og fjernbetjening dag ud og dag ind et helt liv? Kan man elske den samme hele livet? Jesper og Vibeke overlevede en midtvejskrise og i dag blomstrer kærligheden - på alle måder. Carls kærlighed til Lilli er ikke blevet mindre, selvom en demenssygdom trækker hende længere væk fra ham for hver dag der går. Ny dokumentarserie undersøger opskriften på den langvarige ægteskabelige succes. Instruktør: Carsten Sønder. Medvirkende: Jens Albinus, Birgitte Raaberg, Gbatokai Dakinah, Josephine Akvama. Tilladt for: A.</desc>
+    <credits>
+      <director>Carsten Sønder</director>
+      <actor>Jens Albinus</actor>
+      <actor>Birgitte Raaberg</actor>
+      <actor>Gbatokai Dakinah</actor>
+      <actor>Josephine Akvama</actor>
+      <actor>Preben Harris</actor>
+      <actor>Bende Harris</actor>
+      <actor>Julie Wieth</actor>
+      <actor>Christian Hetland Jepsen</actor>
+      <actor>Hans Henrik Clemensen</actor>
+      <actor>Mira Wanting</actor>
+    </credits>
+    <category lang="da">Fakta</category>
+    </programme>
+  <programme start="20261115060000 +0000" stop="20261115070000 +0000" channel="dr2.dk">
+    <title lang="da">En by i provinsen</title>
+    <sub-title lang="da">(3:17)</sub-title>
+    <desc lang="da">Sæson: 1. Episode: 3. 'Den skøre svensker'. En uforskammet svensker brokker sig voldsomt hos den lokale urmagerforretning. Da han er gået, er flere dyre schweizerure forsvundet. Kriminalinspektør Eriksen kommer på sporet af et udspekuleret par. Imens forsøger kriminalassistent Samuelsen at finde ejeren til en stjålet kuffert. Instruktør: Bent Christensen. Medvirkende: Henning Moritzen, Jens Okking, Birgit Sadolin, Tommy Kenter. Tilladt for: 15.</desc>
+    <credits>
+      <director>Bent Christensen</director>
+      <actor>Henning Moritzen</actor>
+      <actor>Jens Okking</actor>
+      <actor>Birgit Sadolin</actor>
+      <actor>Tommy Kenter</actor>
+      <actor>Dirch Passer</actor>
+      <actor>Ulla Jessen</actor>
+      <actor>Bjørn Watt-Boolsen</actor>
+      <actor>Lars Lunøe</actor>
+      <actor>Benny Juhlin</actor>
+      <actor>Ulf Brunnberg</actor>
+    </credits>
+    <category lang="da">Serier</category>
+    <rating system="DK">
+      <value>15</value>
+    </rating>
+  <icon src="https://image.tmdb.org/t/p/w1280/wB9dMCy2xRBBQHuiaNmxAHxtHQD.jpg"/></programme>
+  <programme start="20261115070000 +0000" stop="20261115110000 +0000" channel="dr2.dk">
+    <title lang="da">Seneste nyt fra TVA</title>
+    <desc lang="da">Sæson: 2026. Episode: 6234. '15.11.2026 08:00.'. TV Avisen giver dig overblik over dagens vigtigste nyheder fra Danmark og verden omkring os. Få indblik og perspektiv på de største begivenheder og historier. Tilladt for: A.</desc>
+    <category lang="da">Nyheder</category>
+    <icon src="https://image.tmdb.org/t/p/w1280/fBcRe2ZiDv1zHXuaLyX3WnuCV9g.jpg"/></programme>
+  <programme start="20261115110000 +0000" stop="20261115130000 +0000" channel="dr2.dk">
+    <title lang="da">Seneste nyt fra TVA</title>
+    <desc lang="da">Sæson: 2026. Episode: 6234. '15.11.2026 12:00.'. TV Avisen giver dig overblik over dagens vigtigste nyheder fra Danmark og verden omkring os. Få indblik og perspektiv på de største begivenheder og historier. Tilladt for: A.</desc>
+    <category lang="da">Nyheder</category>
+    <icon src="https://image.tmdb.org/t/p/w1280/fBcRe2ZiDv1zHXuaLyX3WnuCV9g.jpg"/></programme>
+  <programme start="20261115130000 +0000" stop="20261115140000 +0000" channel="dr2.dk">
+    <title lang="da">Gudstjenesten: Karsten Møller Hansen og Kristina Miskowiak Beckvard - Den danske kirke i London</title>
+    <desc lang="da">Episode: 47. 'Karsten Møller Hansen og Kristina Miskowiak Beckvard - Den danske kirke i London'. Sofie Østergaard tager til gudstjeneste i Den Danske Kirke i London, hvor præst Karsten Møller Hansen samler danskere langt hjemmefra. Her er danske salmer, smørrebrød og fællesskab med til at skabe følelsen af at høre til og høre hjemme. Men præstens arbejde rækker også uden for kirken, når danskere har brug for hjælp. Sammen med den danske ambassadør Kristina Miskowiak Beckvard fortæller han om kirkens og ambassadens samarbejde - og om betydningen af, at nogen bekymrer sig om én. Tilladt for: A.</desc>
+    <category lang="da">Kunst</category>
+    <icon src="https://image.tmdb.org/t/p/w1280/gUcuDkGZZrbBxSVZEb3zlUgDmUu.jpg"/></programme>
+  <programme start="20261115140000 +0000" stop="20261115143500 +0000" channel="dr2.dk">
+    <title lang="da">VM ishockey: USA - Finland, Semifinale (k), direkte</title>
+    <desc lang="da">Sæson: 2026. Episode: 6. 'USA - Finland, Semifinale (k)'. De forsvarende verdensmestre og olympiske mestre fra USA møder Finland i søndagens første VM-semifinale i Hockey Arena Herning. Amerikanerne slog Danmark 14-0 i kvartfinalen, mens Finland vandt 6-0 over Tyskland. Der er stadig et dansk islæt i semifinalen, for på det finske hold spiller den Rødovre-fødte angriber Michelle Karvinen, der har vundet tre OL-bronzemedaljer for Finland. Tilladt for: A.</desc>
+    <category lang="da">Sport</category>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/VM%20Ishockey%20Kvinder%20%28k%29.jpg"/><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/VM%20Ishockey%20Kvinder%20%28k%29.jpg"/></programme>
+  <programme start="20261115143500 +0000" stop="20261115152500 +0000" channel="dr2.dk">
+    <title lang="da">VM ishockey: USA - Finland, Semifinale (k), direkte</title>
+    <desc lang="da">Sæson: 2026. Episode: 6. 'USA - Finland, Semifinale (k)'. De forsvarende verdensmestre og olympiske mestre fra USA møder Finland i søndagens første VM-semifinale i Hockey Arena Herning. Amerikanerne slog Danmark 14-0 i kvartfinalen, mens Finland vandt 6-0 over Tyskland. Der er stadig et dansk islæt i semifinalen, for på det finske hold spiller den Rødovre-fødte angriber Michelle Karvinen, der har vundet tre OL-bronzemedaljer for Finland. Tilladt for: A.</desc>
+    <category lang="da">Sport</category>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/VM%20Ishockey%20Kvinder%20%28k%29.jpg"/><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/VM%20Ishockey%20Kvinder%20%28k%29.jpg"/></programme>
+  <programme start="20261115152500 +0000" stop="20261115163500 +0000" channel="dr2.dk">
+    <title lang="da">VM ishockey: USA - Finland, Semifinale (k), direkte</title>
+    <desc lang="da">Sæson: 2026. Episode: 6. 'USA - Finland, Semifinale (k)'. De forsvarende verdensmestre og olympiske mestre fra USA møder Finland i søndagens første VM-semifinale i Hockey Arena Herning. Amerikanerne slog Danmark 14-0 i kvartfinalen, mens Finland vandt 6-0 over Tyskland. Der er stadig et dansk islæt i semifinalen, for på det finske hold spiller den Rødovre-fødte angriber Michelle Karvinen, der har vundet tre OL-bronzemedaljer for Finland. Tilladt for: A.</desc>
+    <category lang="da">Sport</category>
+    <icon src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/VM%20Ishockey%20Kvinder%20%28k%29.jpg"/><backdrop src="https://raw.githubusercontent.com/flanaganz/epgoal/main/Sport/VM%20Ishockey%20Kvinder%20%28k%29.jpg"/></programme>
+  <programme start="20261115163500 +0000" stop="20261115165500 +0000" channel="dr2.dk">
+    <title lang="da">Mens vi venter på at dø - Gemmer vi en øl</title>
+    <desc lang="da">Sæson: 1. Episode: 2. 'Gemmer vi en øl'. Med udgangspunkt i udtrykket "vi kan lige så godt have det sjovt, når vi alligevel er her" tager vennerne Jørgen Skouboe og John Dahl ud for at dyrke de små drengedrømme, som ellers så ofte drukner i hverdagens travle fornuftsrutiner. I denne uge er John og Jørgen taget i skoven for at bygge et øldepot. Med sig har de sjove anekdoter, gode øl, fin tobak - og ikke mindst masser af vildt og fascinerende grej, som skal prøves af. Tilladt for: A.</desc>
+    <category lang="da">Fritid</category>
+    <icon src="https://image.tmdb.org/t/p/w1280/aLsc3GlfTJpbHu28lJTJThEVziw.jpg"/></programme>
   <programme start="20261115165500 +0000" stop="20261115174500 +0000" channel="dr2.dk">
     <title lang="da">En by i provinsen</title>
     <sub-title lang="da">(4:17)</sub-title>
@@ -1294,7 +1527,7 @@
     <rating system="DK">
       <value>7</value>
     </rating>
-  <icon src="https://image.tmdb.org/t/p/w1280/5aJF6Se2pR5BwUwpYE3Y0S02dE8.jpg"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/5aJF6Se2pR5BwUwpYE3Y0S02dE8.jpg</image></programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/5aJF6Se2pR5BwUwpYE3Y0S02dE8.jpg"/></programme>
   <programme start="20261117063000 +0000" stop="20261117070000 +0000" channel="dr2.dk">
     <title lang="da">Vilde Hoteller - Norge</title>
     <desc lang="da">Sæson: 1. Episode: 5. 'Norge'. I dag handler hotelluksus om oplevelser - vilde og unikke oplevelser, som ikke er guldvandhaner og silkelagener, men mening og indhold. Trendeksperten Mads Arlien-Søborg undersøger, hvad det unikke giver os i stedet for den gammeldags hotelluksus. I dag er han taget til Norge for at besøge et landskabshotel. Tilladt for: A.</desc>
@@ -1632,6 +1865,192 @@
     <desc lang="da">Sæson: 2026. Episode: 175. 'Hvem stoler Jacob Harris på?'. Han har været i vælten hele ugen: Tirsdag mødtes han med den russiske ambassadør, onsdag nægtede han at rejse sig op for Zelenskyj, og nu anklager løsgængeren Jacob Harris statsministeren for korruption. Christian Bennike spørger ham, hvem der udgør det system, han kæmper mod, og hvem Jacob Harris selv stoler på. Tilladt for: A.</desc>
     <category lang="da">Nyheder</category>
     <icon src="https://image.tmdb.org/t/p/original/kRzWgP8rb2MXkEVPIRHfoczGKiD.jpg"/></programme>
+  <programme start="20261115043000 +0000" stop="20261115050500 +0000" channel="kanal5.dk">
+    <title lang="da">House Hunters</title>
+    <desc lang="da">Sæson: 115. Episode: 5. 'Young Couple Disagrees on 1 or 2 Story in Vancouver'. Vi følger mennesker, der leder efter det perfekte drømmehus. De vurderer fordele og ulemper ved tre forskellige ejendomme - før de bestemmer sig for hvilket sted, de er mest interesseret i. Medvirkende: Andromeda Dunker, Grace Patalano. Tilladt for: A.</desc>
+    <credits>
+      <actor>Andromeda Dunker</actor>
+      <actor>Grace Patalano</actor>
+    </credits>
+    <category lang="da">Show</category>
+    <icon src="https://image.tmdb.org/t/p/w1280/p6d5HMCEM4ngAowki6lBOGEs6xG.jpg"/></programme>
+  <programme start="20261115050500 +0000" stop="20261115053000 +0000" channel="kanal5.dk">
+    <title lang="da">House Hunters</title>
+    <desc lang="da">Sæson: 115. Episode: 6. 'Tampa Couple Goes Head-to-head on Style of First Home'. Vi følger mennesker, der leder efter det perfekte drømmehus. De vurderer fordele og ulemper ved tre forskellige ejendomme - før de bestemmer sig for hvilket sted, de er mest interesseret i. Medvirkende: Andromeda Dunker, Grace Patalano. Tilladt for: A.</desc>
+    <credits>
+      <actor>Andromeda Dunker</actor>
+      <actor>Grace Patalano</actor>
+    </credits>
+    <category lang="da">Show</category>
+    <icon src="https://image.tmdb.org/t/p/w1280/p6d5HMCEM4ngAowki6lBOGEs6xG.jpg"/></programme>
+  <programme start="20261115053000 +0000" stop="20261115061500 +0000" channel="kanal5.dk">
+    <title lang="da">Lufthavnens beredskab</title>
+    <desc lang="da">Sæson: 1. Episode: 7. 'Episode 7'. Et stort cruiseskibe er lagt til i Københavns havn og da der er mange, der skal rejse hjem fra Københavns Lufthavn på samme tid, er en paniksituation under opsejling ved paskontrollen. Søren og Martin fra Brand og Redning må rykke ud til et fly, da en passager ombord har fået et ildebefindende. En bil er kørt ind i et hegn ind til Lufthavnens sikrede område og Security må bevogte ulykkesstedet. Og endelig må Charlotte og David skynde sig til terminal 2, da operationscenteret har spottet en stærk beruset kvinde, der ikke har en gyldig grund til at opholde sig i lufthavnen. Tilladt for: 11.</desc>
+    <category lang="da">Fakta</category>
+    <rating system="DK">
+      <value>11</value>
+    </rating>
+  <icon src="https://image.tmdb.org/t/p/w1280/sJQ5qKWnqAsNLA53Vsu6SIw4T2C.jpg"/></programme>
+  <programme start="20261115061500 +0000" stop="20261115070000 +0000" channel="kanal5.dk">
+    <title lang="da">Lufthavnens beredskab</title>
+    <desc lang="da">Sæson: 1. Episode: 8. 'Episode 8'. Charlotte og David fra Security forsøger at hjælpe en meget beruset mand, der er blevet afvist fra sit fly mod Wien. Men da manden begynder at tage fat i Charlotte, ser de ingen anden udvej end at tage fat i ham og tilkalde politiet. Tilladt for: 11.</desc>
+    <category lang="da">Fakta</category>
+    <rating system="DK">
+      <value>11</value>
+    </rating>
+  <icon src="https://image.tmdb.org/t/p/w1280/sJQ5qKWnqAsNLA53Vsu6SIw4T2C.jpg"/></programme>
+  <programme start="20261115070000 +0000" stop="20261115075000 +0000" channel="kanal5.dk">
+    <title lang="da">Helicopter ER</title>
+    <desc lang="da">Sæson: 5. Episode: 19. 'Episode 19'. Tæt tåge komplicerer luftambulancens forsøg på at hjælpe en mand, der er faldet slemt. Derudover bliver en motorcyklist behandlet for benskader. Tilladt for: 11.</desc>
+    <category lang="da">Fakta</category>
+    <rating system="DK">
+      <value>11</value>
+    </rating>
+  <icon src="https://image.tmdb.org/t/p/w1280/7rt5jvg9c3YKvijVy1Q8dPwDkmv.jpg"/></programme>
+  <programme start="20261115075000 +0000" stop="20261115085500 +0000" channel="kanal5.dk">
+    <title lang="da">Helicopter ER</title>
+    <desc lang="da">Sæson: 5. Episode: 20. 'Episode 20'. Luftambulancen rykker ud for at hjælpe en mand, der er klemt fast under sin egen bil. Flere mennesker har brug for juridisk hjælp efter en alvorlig bilulykke. Tilladt for: 11.</desc>
+    <category lang="da">Fakta</category>
+    <rating system="DK">
+      <value>11</value>
+    </rating>
+  <icon src="https://image.tmdb.org/t/p/w1280/7rt5jvg9c3YKvijVy1Q8dPwDkmv.jpg"/></programme>
+  <programme start="20261115085500 +0000" stop="20261115100000 +0000" channel="kanal5.dk">
+    <title lang="da">Helicopter ER</title>
+    <desc lang="da">Sæson: 5. Episode: 21. 'Episode 21'. Dr. Becky bliver tilkaldt for at hjælpe en kritisk tilskadekommen fodgænger. En person er kollapset på en gåtur og har brug for øjeblikkelig behandling. Tilladt for: 11.</desc>
+    <category lang="da">Fakta</category>
+    <rating system="DK">
+      <value>11</value>
+    </rating>
+  <icon src="https://image.tmdb.org/t/p/w1280/7rt5jvg9c3YKvijVy1Q8dPwDkmv.jpg"/></programme>
+  <programme start="20261115100000 +0000" stop="20261115111000 +0000" channel="kanal5.dk">
+    <title lang="da">Helicopter ER</title>
+    <desc lang="da">Sæson: 5. Episode: 22. 'Episode 22'. Redningsfolkene udfører en kritisk medicinsk procedure på en ældre bilist. Holdet haster til stedet for en alvorlig ulykke med en cyklist. Tilladt for: 11.</desc>
+    <category lang="da">Fakta</category>
+    <rating system="DK">
+      <value>11</value>
+    </rating>
+  <icon src="https://image.tmdb.org/t/p/w1280/7rt5jvg9c3YKvijVy1Q8dPwDkmv.jpg"/></programme>
+  <programme start="20261115111000 +0000" stop="20261115131500 +0000" channel="kanal5.dk">
+    <title lang="da">DC League af Superkæledyrene</title>
+    <desc lang="da">'DC League af Superkæledyrene'. Superhunden Krypto og Superman er uadskillelige venner og bekæmper kriminalitet i Metropolis side om side. Da Superman og resten af Justice League bliver kidnappet, samler Krypto en gruppe af kæledyr med superkræfter for at redde dem. Instruktører: Jared Stern, Sam J. Levine. Medvirkende: Dwayne Johnson, Kevin Hart, Kate McKinnon, John Krasinski. Tilladt for: 7.</desc>
+    <credits>
+      <director>Jared Stern</director>
+      <director>Sam J. Levine</director>
+      <actor>Dwayne Johnson</actor>
+      <actor>Kevin Hart</actor>
+      <actor>Kate McKinnon</actor>
+      <actor>John Krasinski</actor>
+      <actor>Vanessa Bayer</actor>
+      <actor>Natasha Lyonne</actor>
+      <actor>Diego Luna</actor>
+      <actor>Marc Maron</actor>
+      <actor>Keanu Reeves</actor>
+      <actor>Thomas Middleditch</actor>
+    </credits>
+    <category lang="da">Børn</category>
+    <rating system="DK">
+      <value>7</value>
+    </rating>
+  <icon src="https://image.tmdb.org/t/p/w1280/1NOb32Gg3fS5ANke0EdyL6MRyzC.jpg"/></programme>
+  <programme start="20261115131500 +0000" stop="20261115135500 +0000" channel="kanal5.dk">
+    <title lang="da">Venner</title>
+    <desc lang="da">Sæson: 7. Episode: 23. 'The One With Chandler and Monica's Wedding - Del 1'. Mens slægtningene samles til Monicas og Chandlers bryllup, går omfanget af det han er i gang med endelig op for Chandler. Instruktør: Kevin Bright. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
+    <credits>
+      <director>Kevin Bright</director>
+      <actor>Jennifer Aniston</actor>
+      <actor>Courteney Cox</actor>
+      <actor>Lisa Kudrow</actor>
+      <actor>Matt LeBlanc</actor>
+      <actor>Matthew Perry</actor>
+      <actor>David Schwimmer</actor>
+      <actor>Gary Oldman</actor>
+      <actor>Kathleen Turner</actor>
+      <actor>Elliott Gould</actor>
+      <actor>Morgan Fairchild</actor>
+    </credits>
+    <category lang="da">Serier</category>
+    <icon src="https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg"/><episode-num system="themoviedb.org">tv/1668</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg</image></programme>
+  <programme start="20261115135500 +0000" stop="20261115142500 +0000" channel="kanal5.dk">
+    <title lang="da">Venner</title>
+    <desc lang="da">Sæson: 7. Episode: 24. 'The One With Chandler and Monicas Wedding - Del 2'. Monica forbliver lykkeligt uvidende om de potentielle katastrofer på sin bryllupsdag. Instruktør: Kevin Bright. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
+    <credits>
+      <director>Kevin Bright</director>
+      <actor>Jennifer Aniston</actor>
+      <actor>Courteney Cox</actor>
+      <actor>Lisa Kudrow</actor>
+      <actor>Matt LeBlanc</actor>
+      <actor>Matthew Perry</actor>
+      <actor>David Schwimmer</actor>
+      <actor>Gary Oldman</actor>
+      <actor>Kathleen Turner</actor>
+      <actor>Elliott Gould</actor>
+      <actor>Morgan Fairchild</actor>
+    </credits>
+    <category lang="da">Serier</category>
+    <icon src="https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg"/><episode-num system="themoviedb.org">tv/1668</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg</image></programme>
+  <programme start="20261115142500 +0000" stop="20261115145500 +0000" channel="kanal5.dk">
+    <title lang="da">Venner</title>
+    <desc lang="da">Sæson: 8. Episode: 1. 'The One After "I Do"'. Monicas og Chandlers bryllupsreception sættes næsten i baggrunden af nyheden om, at Rachel er gravid. Instruktør: Kevin Bright. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
+    <credits>
+      <director>Kevin Bright</director>
+      <actor>Jennifer Aniston</actor>
+      <actor>Courteney Cox</actor>
+      <actor>Lisa Kudrow</actor>
+      <actor>Matt LeBlanc</actor>
+      <actor>Matthew Perry</actor>
+      <actor>David Schwimmer</actor>
+      <actor>Elliott Gould</actor>
+      <actor>Morgan Fairchild</actor>
+      <actor>Bonnie Somerville</actor>
+      <actor>Jim Piddock</actor>
+    </credits>
+    <category lang="da">Serier</category>
+    <icon src="https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg"/><episode-num system="themoviedb.org">tv/1668</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg</image></programme>
+  <programme start="20261115145500 +0000" stop="20261115153000 +0000" channel="kanal5.dk">
+    <title lang="da">Venner</title>
+    <desc lang="da">Sæson: 8. Episode: 2. 'The One With The Red Sweater'. Mens de forbereder sig på at forlade bryllupshotellet, spekulerer en spændt Monica og Phoebe på, hvem der mon er faderen til gravide Rachels barn. Instruktør: David Schwimmer. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
+    <credits>
+      <director>David Schwimmer</director>
+      <actor>Jennifer Aniston</actor>
+      <actor>Courteney Cox</actor>
+      <actor>Lisa Kudrow</actor>
+      <actor>Matt LeBlanc</actor>
+      <actor>Matthew Perry</actor>
+      <actor>David Schwimmer</actor>
+      <actor>Eddie Cahill</actor>
+      <actor>Phil Abrams</actor>
+      <actor>Harry S. Murphy</actor>
+      <actor>Teresa Parente</actor>
+    </credits>
+    <category lang="da">Serier</category>
+    <icon src="https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg"/><episode-num system="themoviedb.org">tv/1668</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg</image></programme>
+  <programme start="20261115153000 +0000" stop="20261115160000 +0000" channel="kanal5.dk">
+    <title lang="da">Venner</title>
+    <desc lang="da">Sæson: 8. Episode: 3. 'The One Where Rachel Tells Ross'. Alle synes at vide hvem faderen til Rachels ufødte barn er, undtaget manden selv: Ross. Instruktør: Sheldon Epps. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
+    <credits>
+      <director>Sheldon Epps</director>
+      <actor>Jennifer Aniston</actor>
+      <actor>Courteney Cox</actor>
+      <actor>Lisa Kudrow</actor>
+      <actor>Matt LeBlanc</actor>
+      <actor>Matthew Perry</actor>
+      <actor>David Schwimmer</actor>
+      <actor>Mike Hagerty</actor>
+      <actor>Amanda Carlin</actor>
+      <actor>Lyn Alicia Henderson</actor>
+      <actor>Evie Peck</actor>
+    </credits>
+    <category lang="da">Serier</category>
+    <icon src="https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg"/><episode-num system="themoviedb.org">tv/1668</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg</image></programme>
+  <programme start="20261115160000 +0000" stop="20261115170500 +0000" channel="kanal5.dk">
+    <title lang="da">Politijagt - Sverige</title>
+    <desc lang="da">Sæson: 1. Episode: 6. 'Forsvundet fører'. En bus har været involveret i en påkørsel, hvor føreren er flygtet fra stedet. Jonna standser en kvinde, der drikker stærk øl inde i en hestetrailer. Tilladt for: 11.</desc>
+    <category lang="da">Fakta</category>
+    <rating system="DK">
+      <value>11</value>
+    </rating>
+  <icon src="https://image.tmdb.org/t/p/w1280/pWL5weMwRDp7Y0aGEZorJOadyVe.jpg"/></programme>
   <programme start="20261115170500 +0000" stop="20261115175500 +0000" channel="kanal5.dk">
     <title lang="da">Grænsevagterne - Sverige</title>
     <desc lang="da">Sæson: 9. Episode: 7. 'Mistanke i Landvetter'. I Landvetter-lufthavnen mistænker Bella menneskehandel, da hun tjekker en mand og kvinde fra Rumænien, der benægter, at de rejser sammen. Tilladt for: 11.</desc>
@@ -1639,7 +2058,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  <icon src="https://image.tmdb.org/t/p/w1280/1bHwR01romsllmpBJ4FlPgG8tYs.jpg"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/akBVXSyEuwat3MrdDEcp2srFyEM.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/1bHwR01romsllmpBJ4FlPgG8tYs.jpg</image></programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/1bHwR01romsllmpBJ4FlPgG8tYs.jpg"/></programme>
   <programme start="20261115175500 +0000" stop="20261115190000 +0000" channel="kanal5.dk">
     <title lang="da">Politijagt - Sverige</title>
     <desc lang="da">Sæson: 1. Episode: 7. 'Påvirkede bilister'. Linnea og Cissi stopper to bilister, der tydeligvis er påvirkede. Jonna kontrollerer en bil, der skal beslaglægges. Tilladt for: 11.</desc>
@@ -1721,10 +2140,10 @@
       <actor>James MacDonald</actor>
     </credits>
     <category lang="da">Serier</category>
-    <rating system="DK">
+    <icon src="https://image.tmdb.org/t/p/w1280/etF3VRTZAH9qYME3wGNsvCFkfSq.jpg"/><rating system="DK">
       <value>15</value>
     </rating>
-  <icon src="https://image.tmdb.org/t/p/original/rIYtDaVCHhydUJTQ2qZqXpFVK6k.png"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/etF3VRTZAH9qYME3wGNsvCFkfSq.jpg</image></programme>
+  <url system="tmdb">https://www.themoviedb.org/tv/1620</url><episode-num system="themoviedb.org">tv/1620</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/etF3VRTZAH9qYME3wGNsvCFkfSq.jpg</image></programme>
   <programme start="20261116010500 +0000" stop="20261116021000 +0000" channel="kanal5.dk">
     <title lang="da">CSI: NY</title>
     <desc lang="da">Sæson: 1. Episode: 6. 'Outside Man'. Detektiverne arbejdet på to sager. Den ene involverer flere drab på en restaurant. Den anden starter ud med fundet af et amptureret ben. Instruktør: Rob Bailey. Medvirkende: Gary Sinise, Melina Kanakaredes, Carmine Giovinazzo, Vanessa Ferlito. Tilladt for: 15.</desc>
@@ -1742,10 +2161,10 @@
       <actor>Michael B. Silver</actor>
     </credits>
     <category lang="da">Serier</category>
-    <rating system="DK">
+    <icon src="https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg"/><rating system="DK">
       <value>15</value>
     </rating>
-  <icon src="https://image.tmdb.org/t/p/original/2RAm39Xe82KjAu2hlCIMCkoJNgd.png"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg</image></programme>
+  <url system="tmdb">https://www.themoviedb.org/tv/2458</url><episode-num system="themoviedb.org">tv/2458</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg</image></programme>
   <programme start="20261116021000 +0000" stop="20261116031500 +0000" channel="kanal5.dk">
     <title lang="da">CSI: NY</title>
     <desc lang="da">Sæson: 6. Episode: 3. 'Lat 40° 47' N/Long 73° 58' W'. Da to lig bliver opdaget i den nordlige og sydlige del af byen, arbejder Mac og hans team sig møjsommeligt igennem det spor af beviser, som morderen efterlader sig. Instruktør: Matt Earl Beesley. Medvirkende: Gary Sinise, Melina Kanakaredes, Carmine Giovinazzo, Anna Belknap. Tilladt for: 11.</desc>
@@ -1763,10 +2182,10 @@
       <actor>James Martin Kelly</actor>
     </credits>
     <category lang="da">Serier</category>
-    <rating system="DK">
+    <icon src="https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg"/><rating system="DK">
       <value>11</value>
     </rating>
-  <icon src="https://image.tmdb.org/t/p/original/2RAm39Xe82KjAu2hlCIMCkoJNgd.png"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg</image></programme>
+  <url system="tmdb">https://www.themoviedb.org/tv/2458</url><episode-num system="themoviedb.org">tv/2458</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg</image></programme>
   <programme start="20261116031500 +0000" stop="20261116042500 +0000" channel="kanal5.dk">
     <title lang="da">Still a Mystery</title>
     <desc lang="da">Sæson: 5. Episode: 6. 'TV Dreams Cut Short'. To unge kvinder, der drømmer om stor succes som tv-værter, er i starten af deres karrierer, da deres planer bliver brutalt standset. Hvad skete der med dem? Medvirkende: Benita Alexander-Noel. Tilladt for: 15.</desc>
@@ -1841,7 +2260,7 @@
       <actor>Teresa Parente</actor>
     </credits>
     <category lang="da">Serier</category>
-    <icon src="https://image.tmdb.org/t/p/original/1duDsGwJt2dLagjDYNQdcifS4RV.png"/><icon src="https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/iZRm6n9XIC7NlMJfAEh8iug3JWS.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg</image></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg"/><episode-num system="themoviedb.org">tv/1668</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg</image></programme>
   <programme start="20261116082500 +0000" stop="20261116085500 +0000" channel="kanal5.dk">
     <title lang="da">Venner</title>
     <desc lang="da">Sæson: 8. Episode: 3. 'The One Where Rachel Tells Ross'. Alle synes at vide hvem faderen til Rachels ufødte barn er, undtaget manden selv: Ross. Instruktør: Sheldon Epps. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
@@ -1859,7 +2278,7 @@
       <actor>Evie Peck</actor>
     </credits>
     <category lang="da">Serier</category>
-    <icon src="https://image.tmdb.org/t/p/original/1duDsGwJt2dLagjDYNQdcifS4RV.png"/><icon src="https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/iZRm6n9XIC7NlMJfAEh8iug3JWS.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg</image></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg"/><episode-num system="themoviedb.org">tv/1668</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg</image></programme>
   <programme start="20261116085500 +0000" stop="20261116095500 +0000" channel="kanal5.dk">
     <title lang="da">Vejens helte - Sverige</title>
     <desc lang="da">Sæson: 1. Episode: 4. 'Vejens helte - Sverige'. En personbil er standset i Årstatunnelen, et meget sårbart sted at holde. Soffan bliver advaret om en bil, der er væltet, og skynder sig derhen. Gojan opdager en ulykke på Järva værtshus, hvor fire biler og en lastbil er involveret, og der er børn i et køretøj. Medvirkende: Bertil Silwing, Roiene Ulfves, Per Tumlare, Benny Ljung. Tilladt for: 11.</desc>
@@ -1946,10 +2365,10 @@
       <actor>Jude Ciccolella</actor>
     </credits>
     <category lang="da">Serier</category>
-    <rating system="DK">
+    <icon src="https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg"/><rating system="DK">
       <value>11</value>
     </rating>
-  <icon src="https://image.tmdb.org/t/p/original/2RAm39Xe82KjAu2hlCIMCkoJNgd.png"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg</image></programme>
+  <url system="tmdb">https://www.themoviedb.org/tv/2458</url><episode-num system="themoviedb.org">tv/2458</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg</image></programme>
   <programme start="20261116140000 +0000" stop="20261116150000 +0000" channel="kanal5.dk">
     <title lang="da">CSI: NY</title>
     <desc lang="da">Sæson: 1. Episode: 10. 'Night mother'. Mac og Stella efterforsker et mord, hvor en kvinde blev dolket i hjertet med en træpæl. Politiet arresterer en kvinde, der blev fundet knælende over liget og dækket i blod, men Mac er ikke overbevist om, at hun er den skyldige. Instruktør: Deran Sarafian. Medvirkende: Gary Sinise, Melina Kanakaredes, Carmine Giovinazzo, Vanessa Ferlito. Tilladt for: 11.</desc>
@@ -1967,10 +2386,10 @@
       <actor>Jamie Burton-Oare</actor>
     </credits>
     <category lang="da">Serier</category>
-    <rating system="DK">
+    <icon src="https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg"/><rating system="DK">
       <value>11</value>
     </rating>
-  <icon src="https://image.tmdb.org/t/p/original/2RAm39Xe82KjAu2hlCIMCkoJNgd.png"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg</image></programme>
+  <url system="tmdb">https://www.themoviedb.org/tv/2458</url><episode-num system="themoviedb.org">tv/2458</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg</image></programme>
   <programme start="20261116150000 +0000" stop="20261116160500 +0000" channel="kanal5.dk">
     <title lang="da">CSI: Miami</title>
     <desc lang="da">Sæson: 7. Episode: 8. 'Gone Baby Gone'. Da en baby snuppes fra sin mors arme ved højlys dag, må CSI holdet rykke ekstremt hurtigt ud for at opklare forbrydelsen. Instruktør: Carey Meyer. Medvirkende: David Caruso, Emily Procter, Adam Rodriguez, Jonathan Togo. Tilladt for: 11.</desc>
@@ -1988,10 +2407,10 @@
       <actor>Mark Humphrey</actor>
     </credits>
     <category lang="da">Serier</category>
-    <rating system="DK">
+    <icon src="https://image.tmdb.org/t/p/w1280/etF3VRTZAH9qYME3wGNsvCFkfSq.jpg"/><rating system="DK">
       <value>11</value>
     </rating>
-  <icon src="https://image.tmdb.org/t/p/original/rIYtDaVCHhydUJTQ2qZqXpFVK6k.png"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/etF3VRTZAH9qYME3wGNsvCFkfSq.jpg</image></programme>
+  <url system="tmdb">https://www.themoviedb.org/tv/1620</url><episode-num system="themoviedb.org">tv/1620</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/etF3VRTZAH9qYME3wGNsvCFkfSq.jpg</image></programme>
   <programme start="20261116160500 +0000" stop="20261116171000 +0000" channel="kanal5.dk">
     <title lang="da">The Mentalist</title>
     <desc lang="da">Sæson: 4. Episode: 8. 'Pink Tops'. Jane og CBI-teamet må følge deres egne spor, for at finde ud af hvem der dræbte en narkobetjent som arbejdede undercover. Instruktør: Tom Verica. Medvirkende: Simon Baker, Robin Tunney, Tim Kang, Owain Yeoman. Tilladt for: 15.</desc>
@@ -2020,7 +2439,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  <icon src="https://image.tmdb.org/t/p/w1280/1bHwR01romsllmpBJ4FlPgG8tYs.jpg"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/akBVXSyEuwat3MrdDEcp2srFyEM.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/1bHwR01romsllmpBJ4FlPgG8tYs.jpg</image></programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/1bHwR01romsllmpBJ4FlPgG8tYs.jpg"/></programme>
   <programme start="20261116180000 +0000" stop="20261116183000 +0000" channel="kanal5.dk">
     <title lang="da">Venner</title>
     <desc lang="da">Sæson: 8. Episode: 4. 'The One With The Videotape'. Ross' og Rachels forsøg på at forklare alle, hvordan de endte i sengen sammen seks uger tidligere ændres hurtigt til et skænderi om, hvem der jagtede hvem. Instruktør: Kevin Bright. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
@@ -2035,7 +2454,7 @@
       <actor>Lisa Thornhill</actor>
     </credits>
     <category lang="da">Serier</category>
-    <icon src="https://image.tmdb.org/t/p/original/1duDsGwJt2dLagjDYNQdcifS4RV.png"/><icon src="https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/iZRm6n9XIC7NlMJfAEh8iug3JWS.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg</image></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg"/><episode-num system="themoviedb.org">tv/1668</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg</image></programme>
   <programme start="20261116183000 +0000" stop="20261116190000 +0000" channel="kanal5.dk">
     <title lang="da">Venner</title>
     <desc lang="da">Sæson: 8. Episode: 5. 'The One With Rachel's Date'. Ross er skrækslagen over at få at vide, at Rachel skal på en date med en flot skuespiller, Kash, især fordi hun er gravid med Ross' barn. Instruktør: Gary Halvorson. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
@@ -2053,7 +2472,7 @@
       <actor>Geoff Pierson</actor>
     </credits>
     <category lang="da">Serier</category>
-    <icon src="https://image.tmdb.org/t/p/original/1duDsGwJt2dLagjDYNQdcifS4RV.png"/><icon src="https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/iZRm6n9XIC7NlMJfAEh8iug3JWS.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg</image></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg"/><episode-num system="themoviedb.org">tv/1668</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg</image></programme>
   <programme start="20261116190000 +0000" stop="20261116200000 +0000" channel="kanal5.dk">
     <title lang="da">Fanget på Politiets kamera</title>
     <desc lang="da">Sæson: 9. Episode: 11. 'Ulovligt gaderæs i Ringe'. I et industrikvarter i Ringe foregår et stort Striben-arrangement og her køres ulovligt gaderæs. Men videobilen er på plads og klar til at køre efter de hurtige biler. Tilladt for: 11.</desc>
@@ -2129,10 +2548,10 @@
       <actor>Mark Humphrey</actor>
     </credits>
     <category lang="da">Serier</category>
-    <rating system="DK">
+    <icon src="https://image.tmdb.org/t/p/w1280/etF3VRTZAH9qYME3wGNsvCFkfSq.jpg"/><rating system="DK">
       <value>11</value>
     </rating>
-  <icon src="https://image.tmdb.org/t/p/original/rIYtDaVCHhydUJTQ2qZqXpFVK6k.png"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/etF3VRTZAH9qYME3wGNsvCFkfSq.jpg</image></programme>
+  <url system="tmdb">https://www.themoviedb.org/tv/1620</url><episode-num system="themoviedb.org">tv/1620</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/etF3VRTZAH9qYME3wGNsvCFkfSq.jpg</image></programme>
   <programme start="20261117024000 +0000" stop="20261117034000 +0000" channel="kanal5.dk">
     <title lang="da">CSI: NY</title>
     <desc lang="da">Sæson: 1. Episode: 10. 'Night mother'. Mac og Stella efterforsker et mord, hvor en kvinde blev dolket i hjertet med en træpæl. Politiet arresterer en kvinde, der blev fundet knælende over liget og dækket i blod, men Mac er ikke overbevist om, at hun er den skyldige. Instruktør: Deran Sarafian. Medvirkende: Gary Sinise, Melina Kanakaredes, Carmine Giovinazzo, Vanessa Ferlito. Tilladt for: 11.</desc>
@@ -2150,10 +2569,10 @@
       <actor>Jamie Burton-Oare</actor>
     </credits>
     <category lang="da">Serier</category>
-    <rating system="DK">
+    <icon src="https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg"/><rating system="DK">
       <value>11</value>
     </rating>
-  <icon src="https://image.tmdb.org/t/p/original/2RAm39Xe82KjAu2hlCIMCkoJNgd.png"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg</image></programme>
+  <url system="tmdb">https://www.themoviedb.org/tv/2458</url><episode-num system="themoviedb.org">tv/2458</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg</image></programme>
   <programme start="20261117034000 +0000" stop="20261117051000 +0000" channel="kanal5.dk">
     <title lang="da">CSI: Miami</title>
     <desc lang="da">Sæson: 1. Episode: 5. 'Ashes To Ashes'. En præst er blevet skudt, og læbeaftryk på et glas placerer den 12-årige alterdreng, Cameron Medina, på gerningsstedet som hovedmistænkt. Hjemme hos Cameron finder C.S.I. beviser for fysisk mishandling, men da de vil afhøre Camerons far, finder de ham myrdet. Instruktør: Bryan Spicer. Medvirkende: David Caruso, Emily Procter, Adam Rodriguez, Khandi Alexander. Tilladt for: 15.</desc>
@@ -2171,10 +2590,10 @@
       <actor>Ruth Zalduondo</actor>
     </credits>
     <category lang="da">Serier</category>
-    <rating system="DK">
+    <icon src="https://image.tmdb.org/t/p/w1280/etF3VRTZAH9qYME3wGNsvCFkfSq.jpg"/><rating system="DK">
       <value>15</value>
     </rating>
-  <icon src="https://image.tmdb.org/t/p/original/rIYtDaVCHhydUJTQ2qZqXpFVK6k.png"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/etF3VRTZAH9qYME3wGNsvCFkfSq.jpg</image></programme>
+  <url system="tmdb">https://www.themoviedb.org/tv/1620</url><episode-num system="themoviedb.org">tv/1620</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/etF3VRTZAH9qYME3wGNsvCFkfSq.jpg</image></programme>
   <programme start="20261117051000 +0000" stop="20261117053000 +0000" channel="kanal5.dk">
     <title lang="da">House Hunters</title>
     <desc lang="da">Sæson: 115. Episode: 8. 'Single Mom Looks for Home in Pricey Oakland'. Vi følger mennesker, der leder efter det perfekte drømmehus. De vurderer fordele og ulemper ved tre forskellige ejendomme - før de bestemmer sig for hvilket sted, de er mest interesseret i. Medvirkende: Andromeda Dunker, Grace Patalano. Tilladt for: A.</desc>
@@ -2226,7 +2645,7 @@
       <actor>Lisa Thornhill</actor>
     </credits>
     <category lang="da">Serier</category>
-    <icon src="https://image.tmdb.org/t/p/original/1duDsGwJt2dLagjDYNQdcifS4RV.png"/><icon src="https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/iZRm6n9XIC7NlMJfAEh8iug3JWS.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg</image></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg"/><episode-num system="themoviedb.org">tv/1668</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg</image></programme>
   <programme start="20261117082500 +0000" stop="20261117085500 +0000" channel="kanal5.dk">
     <title lang="da">Venner</title>
     <desc lang="da">Sæson: 8. Episode: 5. 'The One With Rachel's Date'. Ross er skrækslagen over at få at vide, at Rachel skal på en date med en flot skuespiller, Kash, især fordi hun er gravid med Ross' barn. Instruktør: Gary Halvorson. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
@@ -2244,7 +2663,7 @@
       <actor>Geoff Pierson</actor>
     </credits>
     <category lang="da">Serier</category>
-    <icon src="https://image.tmdb.org/t/p/original/1duDsGwJt2dLagjDYNQdcifS4RV.png"/><icon src="https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/iZRm6n9XIC7NlMJfAEh8iug3JWS.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg</image></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg"/><episode-num system="themoviedb.org">tv/1668</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg</image></programme>
   <programme start="20261117085500 +0000" stop="20261117100000 +0000" channel="kanal5.dk">
     <title lang="da">Vejens helte - Sverige</title>
     <desc lang="da">Sæson: 1. Episode: 5. 'Vejens helte - Sverige'. Redningsmanden Lisa skal tage sig af flere biler, der blev beskadiget i en større brand i en garage i to etager. Flere biler er kollideret på Essingeleden og de involverede står midt i trafikken. Medvirkende: Bertil Silwing, Roiene Ulfves, Per Tumlare, Benny Ljung. Tilladt for: 11.</desc>
@@ -2332,10 +2751,10 @@
       <actor>Jamie Burton-Oare</actor>
     </credits>
     <category lang="da">Serier</category>
-    <rating system="DK">
+    <icon src="https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg"/><rating system="DK">
       <value>11</value>
     </rating>
-  <icon src="https://image.tmdb.org/t/p/original/2RAm39Xe82KjAu2hlCIMCkoJNgd.png"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg</image></programme>
+  <url system="tmdb">https://www.themoviedb.org/tv/2458</url><episode-num system="themoviedb.org">tv/2458</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg</image></programme>
   <programme start="20261117140000 +0000" stop="20261117150000 +0000" channel="kanal5.dk">
     <title lang="da">CSI: NY</title>
     <desc lang="da">Sæson: 1. Episode: 11. 'Tri-borough'. En ung mand dør af et elektrisk stød i metroen i New York, og sagen fører Mac Taylor og Stella Bonasera ind ekstremsportens verden, hvor risici er en del af spillet. Instruktør: Greg Yaitanes. Medvirkende: Gary Sinise, Melina Kanakaredes, Carmine Giovinazzo, Vanessa Ferlito. Tilladt for: 15.</desc>
@@ -2353,10 +2772,10 @@
       <actor>T.J. Thyne</actor>
     </credits>
     <category lang="da">Serier</category>
-    <rating system="DK">
+    <icon src="https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg"/><rating system="DK">
       <value>15</value>
     </rating>
-  <icon src="https://image.tmdb.org/t/p/original/2RAm39Xe82KjAu2hlCIMCkoJNgd.png"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg</image></programme>
+  <url system="tmdb">https://www.themoviedb.org/tv/2458</url><episode-num system="themoviedb.org">tv/2458</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg</image></programme>
   <programme start="20261117150000 +0000" stop="20261117160500 +0000" channel="kanal5.dk">
     <title lang="da">CSI: Miami</title>
     <desc lang="da">Sæson: 7. Episode: 10. 'The deluca motel'. Horatio dykker ned i Delkos fortid for at finde frem til en morder, som har det motel som Delko bor på som næste mål. Instruktør: Gina Lamar. Medvirkende: David Caruso, Emily Procter, Adam Rodriguez, Jonathan Togo. Tilladt for: 11.</desc>
@@ -2374,10 +2793,10 @@
       <actor>Nicki Aycox</actor>
     </credits>
     <category lang="da">Serier</category>
-    <rating system="DK">
+    <icon src="https://image.tmdb.org/t/p/w1280/etF3VRTZAH9qYME3wGNsvCFkfSq.jpg"/><rating system="DK">
       <value>11</value>
     </rating>
-  <icon src="https://image.tmdb.org/t/p/original/rIYtDaVCHhydUJTQ2qZqXpFVK6k.png"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/etF3VRTZAH9qYME3wGNsvCFkfSq.jpg</image></programme>
+  <url system="tmdb">https://www.themoviedb.org/tv/1620</url><episode-num system="themoviedb.org">tv/1620</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/etF3VRTZAH9qYME3wGNsvCFkfSq.jpg</image></programme>
   <programme start="20261117160500 +0000" stop="20261117171000 +0000" channel="kanal5.dk">
     <title lang="da">The Mentalist</title>
     <desc lang="da">Sæson: 4. Episode: 9. 'The Redshirt'. Jane og Lisbon efterforskermordet på en NFL-stjerne, der døde af en bilbombe. Imens tager Rigsby og Harrigan deres forhold videre til næste niveau. Instruktør: Eric Laneuville. Medvirkende: Simon Baker, Robin Tunney, Tim Kang, Owain Yeoman. Tilladt for: 11.</desc>
@@ -2406,7 +2825,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  <icon src="https://image.tmdb.org/t/p/w1280/1bHwR01romsllmpBJ4FlPgG8tYs.jpg"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/akBVXSyEuwat3MrdDEcp2srFyEM.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/1bHwR01romsllmpBJ4FlPgG8tYs.jpg</image></programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/1bHwR01romsllmpBJ4FlPgG8tYs.jpg"/></programme>
   <programme start="20261117180000 +0000" stop="20261117183000 +0000" channel="kanal5.dk">
     <title lang="da">Venner</title>
     <desc lang="da">Sæson: 8. Episode: 6. 'The One With The Halloween Party'. Phoebe møder sin viltre tvillingesøster Ursulas venlige forlovede, Eric, til Monicas Halloween-fest. Instruktør: Gary Halvorson. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
@@ -2424,7 +2843,7 @@
       <actor>Daniel E. Smith</actor>
     </credits>
     <category lang="da">Serier</category>
-    <icon src="https://image.tmdb.org/t/p/original/1duDsGwJt2dLagjDYNQdcifS4RV.png"/><icon src="https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/iZRm6n9XIC7NlMJfAEh8iug3JWS.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg</image></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg"/><episode-num system="themoviedb.org">tv/1668</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg</image></programme>
   <programme start="20261117183000 +0000" stop="20261117190000 +0000" channel="kanal5.dk">
     <title lang="da">Venner</title>
     <desc lang="da">Sæson: 8. Episode: 7. 'The One With The Stain'. Ross er glad for at høre, at gravide Rachel gerne vil finde sin egen lejlighed. Instruktør: Kevin Bright. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
@@ -2442,7 +2861,7 @@
       <actor>Dale Raoul</actor>
     </credits>
     <category lang="da">Serier</category>
-    <icon src="https://image.tmdb.org/t/p/original/1duDsGwJt2dLagjDYNQdcifS4RV.png"/><icon src="https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/iZRm6n9XIC7NlMJfAEh8iug3JWS.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg</image></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg"/><episode-num system="themoviedb.org">tv/1668</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg</image></programme>
   <programme start="20261117190000 +0000" stop="20261117200000 +0000" channel="kanal5.dk">
     <title lang="da">Fanget på Politiets kamera</title>
     <desc lang="da">Sæson: 9. Episode: 12. 'Farlige overhalinger'. På den københavnske vestegn spotter videobilen en Mercedes, som laver flere farlige overhalinger. En Mercedes kører langt over det tilladte på en mørk motorvej, men da bilen standses, opstår der nye problemer, for her udgiver føreren sig for at være en anden. Og så ligger en lille Kia ualmindelig tæt på en bus midt på motorvejen. Tilladt for: 11.</desc>
@@ -2529,10 +2948,10 @@
       <actor>Nicki Aycox</actor>
     </credits>
     <category lang="da">Serier</category>
-    <rating system="DK">
+    <icon src="https://image.tmdb.org/t/p/w1280/etF3VRTZAH9qYME3wGNsvCFkfSq.jpg"/><rating system="DK">
       <value>11</value>
     </rating>
-  <icon src="https://image.tmdb.org/t/p/original/rIYtDaVCHhydUJTQ2qZqXpFVK6k.png"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/etF3VRTZAH9qYME3wGNsvCFkfSq.jpg</image></programme>
+  <url system="tmdb">https://www.themoviedb.org/tv/1620</url><episode-num system="themoviedb.org">tv/1620</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/etF3VRTZAH9qYME3wGNsvCFkfSq.jpg</image></programme>
   <programme start="20261118013000 +0000" stop="20261118023500 +0000" channel="kanal5.dk">
     <title lang="da">CSI: NY</title>
     <desc lang="da">Sæson: 1. Episode: 11. 'Tri-borough'. En ung mand dør af et elektrisk stød i metroen i New York, og sagen fører Mac Taylor og Stella Bonasera ind ekstremsportens verden, hvor risici er en del af spillet. Instruktør: Greg Yaitanes. Medvirkende: Gary Sinise, Melina Kanakaredes, Carmine Giovinazzo, Vanessa Ferlito. Tilladt for: 15.</desc>
@@ -2550,10 +2969,10 @@
       <actor>T.J. Thyne</actor>
     </credits>
     <category lang="da">Serier</category>
-    <rating system="DK">
+    <icon src="https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg"/><rating system="DK">
       <value>15</value>
     </rating>
-  <icon src="https://image.tmdb.org/t/p/original/2RAm39Xe82KjAu2hlCIMCkoJNgd.png"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg</image></programme>
+  <url system="tmdb">https://www.themoviedb.org/tv/2458</url><episode-num system="themoviedb.org">tv/2458</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg</image></programme>
   <programme start="20261118023500 +0000" stop="20261118034000 +0000" channel="kanal5.dk">
     <title lang="da">CSI: Miami</title>
     <desc lang="da">Sæson: 1. Episode: 6. 'Broken'. Hele holdet undersøger et gerningssted i en indendørs forlystelsespark, da en ung pige bliver fundet død på badeværelset. Instruktør: Deran Sarafian. Medvirkende: David Caruso, Emily Procter, Adam Rodriguez, Khandi Alexander. Tilladt for: 15.</desc>
@@ -2571,10 +2990,10 @@
       <actor>Channon Roe</actor>
     </credits>
     <category lang="da">Serier</category>
-    <rating system="DK">
+    <icon src="https://image.tmdb.org/t/p/w1280/etF3VRTZAH9qYME3wGNsvCFkfSq.jpg"/><rating system="DK">
       <value>15</value>
     </rating>
-  <icon src="https://image.tmdb.org/t/p/original/rIYtDaVCHhydUJTQ2qZqXpFVK6k.png"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/etF3VRTZAH9qYME3wGNsvCFkfSq.jpg</image></programme>
+  <url system="tmdb">https://www.themoviedb.org/tv/1620</url><episode-num system="themoviedb.org">tv/1620</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/etF3VRTZAH9qYME3wGNsvCFkfSq.jpg</image></programme>
   <programme start="20261118034000 +0000" stop="20261118051000 +0000" channel="kanal5.dk">
     <title lang="da">Still a Mystery</title>
     <desc lang="da">Sæson: 5. Episode: 7. 'Still a Mystery'. En 19-årig forsvinder efter en fest. Alt håb slukkes, da man finder liget af hende på en mark 15 måneder efter. Hvem kunne tænkes at stå bag? Medvirkende: Benita Alexander-Noel, Andrew McPherson, Selma Eikelenboom. Tilladt for: 15.</desc>
@@ -2638,7 +3057,7 @@
       <actor>Daniel E. Smith</actor>
     </credits>
     <category lang="da">Serier</category>
-    <icon src="https://image.tmdb.org/t/p/original/1duDsGwJt2dLagjDYNQdcifS4RV.png"/><icon src="https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/iZRm6n9XIC7NlMJfAEh8iug3JWS.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg</image></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg"/><episode-num system="themoviedb.org">tv/1668</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg</image></programme>
   <programme start="20261118082500 +0000" stop="20261118085500 +0000" channel="kanal5.dk">
     <title lang="da">Venner</title>
     <desc lang="da">Sæson: 8. Episode: 7. 'The One With The Stain'. Ross er glad for at høre, at gravide Rachel gerne vil finde sin egen lejlighed. Instruktør: Kevin Bright. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
@@ -2656,7 +3075,7 @@
       <actor>Dale Raoul</actor>
     </credits>
     <category lang="da">Serier</category>
-    <icon src="https://image.tmdb.org/t/p/original/1duDsGwJt2dLagjDYNQdcifS4RV.png"/><icon src="https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/iZRm6n9XIC7NlMJfAEh8iug3JWS.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg</image></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg"/><episode-num system="themoviedb.org">tv/1668</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg</image></programme>
   <programme start="20261118085500 +0000" stop="20261118100000 +0000" channel="kanal5.dk">
     <title lang="da">Vejens helte - Sverige</title>
     <desc lang="da">Sæson: 1. Episode: 6. 'Vejens helte'. Midt i morgenrushet får Benny en alarm om en stillestående bil på Essingeleden. Bilen udgør en stor fare for sig selv og andre biler. Bennys kollega Soffan tager på en mission, hvor to biler har været ude for en ulykke midt i Årsta-tunnelen. Medvirkende: Bertil Silwing, Roiene Ulfves, Per Tumlare, Benny Ljung. Tilladt for: 11.</desc>
@@ -2744,10 +3163,10 @@
       <actor>T.J. Thyne</actor>
     </credits>
     <category lang="da">Serier</category>
-    <rating system="DK">
+    <icon src="https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg"/><rating system="DK">
       <value>15</value>
     </rating>
-  <icon src="https://image.tmdb.org/t/p/original/2RAm39Xe82KjAu2hlCIMCkoJNgd.png"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg</image></programme>
+  <url system="tmdb">https://www.themoviedb.org/tv/2458</url><episode-num system="themoviedb.org">tv/2458</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg</image></programme>
   <programme start="20261118140000 +0000" stop="20261118150000 +0000" channel="kanal5.dk">
     <title lang="da">CSI: NY</title>
     <desc lang="da">Sæson: 1. Episode: 12. 'Recycling'. Detektiv Taylor undersøger en sag med en kvinde, der er død under et hundeshow. I en anden sag er et cykelbud blevet skukket i benet på sin rute. Instruktør: Alex Zakrzewski. Medvirkende: Gary Sinise, Melina Kanakaredes, Carmine Giovinazzo, Vanessa Ferlito. Tilladt for: A.</desc>
@@ -2765,7 +3184,7 @@
       <actor>Steve Hytner</actor>
     </credits>
     <category lang="da">Serier</category>
-    <icon src="https://image.tmdb.org/t/p/original/2RAm39Xe82KjAu2hlCIMCkoJNgd.png"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg</image></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg"/><url system="tmdb">https://www.themoviedb.org/tv/2458</url><episode-num system="themoviedb.org">tv/2458</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg</image></programme>
   <programme start="20261118150000 +0000" stop="20261118160500 +0000" channel="kanal5.dk">
     <title lang="da">CSI: Miami</title>
     <desc lang="da">Sæson: 7. Episode: 11. 'Tipping point'. CSI-holdet får uventet hjælp i kampen mod en voldelig gadebande, der hærger et helt kvarter. Instruktør: Marco Black. Medvirkende: David Caruso, Emily Procter, Adam Rodriguez, Jonathan Togo. Tilladt for: 11.</desc>
@@ -2783,10 +3202,10 @@
       <actor>Cara Santana</actor>
     </credits>
     <category lang="da">Serier</category>
-    <rating system="DK">
+    <icon src="https://image.tmdb.org/t/p/w1280/etF3VRTZAH9qYME3wGNsvCFkfSq.jpg"/><rating system="DK">
       <value>11</value>
     </rating>
-  <icon src="https://image.tmdb.org/t/p/original/rIYtDaVCHhydUJTQ2qZqXpFVK6k.png"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/etF3VRTZAH9qYME3wGNsvCFkfSq.jpg</image></programme>
+  <url system="tmdb">https://www.themoviedb.org/tv/1620</url><episode-num system="themoviedb.org">tv/1620</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/etF3VRTZAH9qYME3wGNsvCFkfSq.jpg</image></programme>
   <programme start="20261118160500 +0000" stop="20261118171000 +0000" channel="kanal5.dk">
     <title lang="da">The Mentalist</title>
     <desc lang="da">Sæson: 4. Episode: 10. 'Fugue In Red'. Jane er lige ved at drukne, da han er i gang med efterforskningen af en brandmands død. Han mister sin hukommelse og er tæt på at forvandle sig til den forbryder han var i sit tidligere liv. Instruktør: Randy Zisk. Medvirkende: Simon Baker, Robin Tunney, Tim Kang, Owain Yeoman. Tilladt for: 15.</desc>
@@ -2815,7 +3234,7 @@
     <rating system="DK">
       <value>11</value>
     </rating>
-  <icon src="https://image.tmdb.org/t/p/w1280/1bHwR01romsllmpBJ4FlPgG8tYs.jpg"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/akBVXSyEuwat3MrdDEcp2srFyEM.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/1bHwR01romsllmpBJ4FlPgG8tYs.jpg</image></programme>
+  <icon src="https://image.tmdb.org/t/p/w1280/1bHwR01romsllmpBJ4FlPgG8tYs.jpg"/></programme>
   <programme start="20261118180000 +0000" stop="20261118183000 +0000" channel="kanal5.dk">
     <title lang="da">Venner</title>
     <desc lang="da">Sæson: 8. Episode: 8. 'The One With The Stripper'. Rachel fortæller nervøst sin temperamentsfulde far, Dr. Leonard Green, at hun er gravid med Ross' barn. Instruktør: David Schwimmer. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
@@ -2833,7 +3252,7 @@
       <actor>Fred Stoller</actor>
     </credits>
     <category lang="da">Serier</category>
-    <icon src="https://image.tmdb.org/t/p/original/1duDsGwJt2dLagjDYNQdcifS4RV.png"/><icon src="https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/iZRm6n9XIC7NlMJfAEh8iug3JWS.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg</image></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg"/><episode-num system="themoviedb.org">tv/1668</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg</image></programme>
   <programme start="20261118183000 +0000" stop="20261118190000 +0000" channel="kanal5.dk">
     <title lang="da">Venner</title>
     <desc lang="da">Sæson: 8. Episode: 9. 'The One With The Rumor'. I denne Thanksgiving-episode spiller gæstestjernen BRAD PITT Will, Monicas gymnasieven, som var den eneste elev, der var tykkere end Monica. Instruktør: Gary Halvorson. Medvirkende: Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc. Tilladt for: A.</desc>
@@ -2848,7 +3267,7 @@
       <actor>Brad Pitt</actor>
     </credits>
     <category lang="da">Serier</category>
-    <icon src="https://image.tmdb.org/t/p/original/1duDsGwJt2dLagjDYNQdcifS4RV.png"/><icon src="https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/iZRm6n9XIC7NlMJfAEh8iug3JWS.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg</image></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg"/><episode-num system="themoviedb.org">tv/1668</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/uRLLHl06mZZgQ8GjKRwAZ83z92.jpg</image></programme>
   <programme start="20261118190000 +0000" stop="20261118200000 +0000" channel="kanal5.dk">
     <title lang="da">Politijagt</title>
     <desc lang="da">Sæson: 35. Episode: 12. 'Eftersøgt chauffør'. Kenneth og Mathias stopper en stilladslastbil, og det ender med en anholdelse, da chaufføren er eftersøgt til fogedretten. Jan og hans kollega fra Midt- og Vestsjællands Politi stopper en fører uden kørekort i en stjålet bil. Medvirkende: Lasse Hansen. Tilladt for: 11.</desc>
@@ -2935,10 +3354,10 @@
       <actor>Cara Santana</actor>
     </credits>
     <category lang="da">Serier</category>
-    <rating system="DK">
+    <icon src="https://image.tmdb.org/t/p/w1280/etF3VRTZAH9qYME3wGNsvCFkfSq.jpg"/><rating system="DK">
       <value>11</value>
     </rating>
-  <icon src="https://image.tmdb.org/t/p/original/rIYtDaVCHhydUJTQ2qZqXpFVK6k.png"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/etF3VRTZAH9qYME3wGNsvCFkfSq.jpg</image></programme>
+  <url system="tmdb">https://www.themoviedb.org/tv/1620</url><episode-num system="themoviedb.org">tv/1620</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/etF3VRTZAH9qYME3wGNsvCFkfSq.jpg</image></programme>
   <programme start="20261119013500 +0000" stop="20261119023500 +0000" channel="kanal5.dk">
     <title lang="da">CSI: NY</title>
     <desc lang="da">Sæson: 1. Episode: 12. 'Recycling'. Detektiv Taylor undersøger en sag med en kvinde, der er død under et hundeshow. I en anden sag er et cykelbud blevet skukket i benet på sin rute. Instruktør: Alex Zakrzewski. Medvirkende: Gary Sinise, Melina Kanakaredes, Carmine Giovinazzo, Vanessa Ferlito. Tilladt for: A.</desc>
@@ -2956,7 +3375,7 @@
       <actor>Steve Hytner</actor>
     </credits>
     <category lang="da">Serier</category>
-    <icon src="https://image.tmdb.org/t/p/original/2RAm39Xe82KjAu2hlCIMCkoJNgd.png"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg</image></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg"/><url system="tmdb">https://www.themoviedb.org/tv/2458</url><episode-num system="themoviedb.org">tv/2458</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/sdQYorDgtDI7z7iacxAsZ8HhRH2.jpg</image></programme>
   <programme start="20261119023500 +0000" stop="20261119034000 +0000" channel="kanal5.dk">
     <title lang="da">CSI: Miami</title>
     <desc lang="da">Sæson: 1. Episode: 8. 'Slaughterhouse'. Da en familie slagtes i deres eget hus, forsøger Horatio og holdet at finde gerningsmændene udfra beviserne på gerningsstedet. Moderen, en baby og to sønner er døde, mens faderen og et af børnene overlevede. Ved hjælp af blodsporene i huset og på det overlevende barns tøj skal C.S.I. følge beviserne for at finde begivenhedernes rækkefølge og dermed morderen. Instruktør: Richard Pearce. Medvirkende: David Caruso, Emily Procter, Adam Rodriguez, Khandi Alexander. Tilladt for: 15.</desc>
@@ -2974,10 +3393,10 @@
       <actor>Albie Selznick</actor>
     </credits>
     <category lang="da">Serier</category>
-    <rating system="DK">
+    <icon src="https://image.tmdb.org/t/p/w1280/etF3VRTZAH9qYME3wGNsvCFkfSq.jpg"/><rating system="DK">
       <value>15</value>
     </rating>
-  <icon src="https://image.tmdb.org/t/p/original/rIYtDaVCHhydUJTQ2qZqXpFVK6k.png"/><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/etF3VRTZAH9qYME3wGNsvCFkfSq.jpg</image></programme>
+  <url system="tmdb">https://www.themoviedb.org/tv/1620</url><episode-num system="themoviedb.org">tv/1620</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/etF3VRTZAH9qYME3wGNsvCFkfSq.jpg</image></programme>
   <programme start="20261119034000 +0000" stop="20261119051000 +0000" channel="kanal5.dk">
     <title lang="da">Still a Mystery</title>
     <desc lang="da">Sæson: 5. Episode: 8. 'Still a Mystery'. To unge kvinder forsvinder efter de har været ude alene om aftenen. Kan ledetråde, der kommer fra et sted bag tremmer, være med til at løse mysteriet om disse forsvindinger? Medvirkende: Benita Alexander-Noel, Andrew McPherson, Selma Eikelenboom. Tilladt for: 15.</desc>
@@ -2991,6 +3410,78 @@
       <value>15</value>
     </rating>
   <icon src="https://image.tmdb.org/t/p/w1280/oMUJOaXiUpUXZU7PNhSzBQC8nQm.jpg"/></programme>
+  <programme start="20261115040000 +0000" stop="20261115050000 +0000" channel="nationalgeographic.dk">
+    <title lang="da">How The Tudors Lost Their Heads</title>
+    <desc lang="da">Sæson: 1. Episode: 5. 'John Dudley: The Wicked Duke'. John Dudley steg fra familiens vanære til at blive magten bag kong Edward 6.s styre. I et hof delt i to magtfulde fraktioner, de religiøse reformatorer og den konservative katolske adel, forrådte Dudley venskaber og knuste rivaler, og han fik magtfulde fjender undervejs. I 1553, da den unge konge døde, gik der rygter om, at Dudley havde konspireret for at rane kronen til sin svigerdatter, lady Jane Grey. Hun blev brat afsat af den kommende Maria 1., og uden tilhængere blev Dudley anholdt og henrettet som forræder. Professor Suzannah Lipscomb og Dan Snow følger Dudleys opstigning og fald. De afdækker, hvordan han navigerede gennem Tudor-hoffets skiftende alliancer, og genundersøger beviserne, der forseglede hans skæbne. I lang tid var Dudley en vinder i kampen om Tudor-tronen; Var han i sidste ende også dens offer? Tilladt for: A.</desc>
+    <category lang="da">Fakta</category>
+    </programme>
+  <programme start="20261115050000 +0000" stop="20261115060000 +0000" channel="nationalgeographic.dk">
+    <title lang="da">Construction Fails</title>
+    <desc lang="da">Sæson: 1. Episode: 1. 'Construction Fails'. Afsnit 1 begynder ved en helt almindelig hollandsk kanal. Det vi ser ske, er dog alt andet end normalt. Det er en af de mest dramatiske byggekatastrofer i nyere historie: et dobbelt teleskopkrankollaps, en pram der kæntrer og en bro på 187 tons, der rammer et roligt boligkvarter, hvilket resulterer i total ødelæggelse af flere dusin hjem. Hvad var grunden? Tilladt for: A.</desc>
+    <category lang="da">Fakta</category>
+    </programme>
+  <programme start="20261115060000 +0000" stop="20261115070000 +0000" channel="nationalgeographic.dk">
+    <title lang="da">Plane Crash Recreated</title>
+    <desc lang="da">Sæson: 2. Episode: 4. 'BOAC 712 / London'. I 1968 forlod BOAC 712 London Heathrow med kurs mod Zürich og derefter Sydney. Et minut efter starten tog begivenhederne en katastrofal drejning. Motor nummer to brød i brand, og få sekunder senere stod vingen i flammer. I et kapløb mod tiden kæmpede besætningen for at få flyet tilbage på jorden i Heathrow. Uden styresystemer lykkedes det luftkaptajn Cliff Taylor at lande det brændende fly og beordre en nødevakuering. Forvirring og kaos fulgte, hvilket førte til tragiske dødsfald og heltemodige handlinger fra besætningen. Hør beretninger fra juniorstyrmand John Hutchinson og to overlevende børn, der undslap infernoet, og find ud af, hvordan tragedien med BOAC 712 førte til fremskridt inden for brand- og evakueringssikkerhed, som vi i dag tager for givet. Medvirkende: Lauren Wilson. Tilladt for: A.</desc>
+    <credits>
+      <actor>Lauren Wilson</actor>
+    </credits>
+    <category lang="da">Fakta</category>
+    </programme>
+  <programme start="20261115070000 +0000" stop="20261115080000 +0000" channel="nationalgeographic.dk">
+    <title lang="da">World's Ultimate Destinations: Guizhou</title>
+    <desc lang="da">Sæson: 2. Episode: 1. 'World's Ultimate Destinations: Guizhou'. Guizhou, Kina, som to gange er blevet anerkendt på Nat Geos Best of the World-rejseliste, er igen centrum for udforskning i Best of the World's Destinations sæson 2. Efter succesen med sæson 1 anfører den anerkendte fotograf og opdagelsesrejsende Chris Burkard en ny og gribende rejse gennem provinsen. Gennem sit unikke perspektiv afslører Chris Guizhous betagende landskaber, alsidige kultur og aktive lokalsamfund. Gennem en blanding af betagende landskaber, eventyr, lokale historier og intime øjeblikke inviterer denne dokumentarudsendelse på 44 minutter seerne til at få indblik i Guizhous ekstraordinære ånd og tidløse skønhed. Tilladt for: A.</desc>
+    <category lang="da">Fakta</category>
+    </programme>
+  <programme start="20261115080000 +0000" stop="20261115090000 +0000" channel="nationalgeographic.dk">
+    <title lang="da">Biler i nød</title>
+    <desc lang="da">Sæson: 13. Episode: 10. 'Ferrari 308 GTS'. Car S.O.S. tager fat på en Ferrari 308 GTS fra 1984, en bil gjort berømt af 80'ernes hitserie Magnum P.I. Bilen er købt af den pensionerede politibetjent John til hans 50-års fødselsdag, men restaureringen blev sat på standby, da denne hengivne far til tre dedikerede sig til at støtte sin familie og sine nærmeste. Kan drengene redde denne sjældne perle, og vil en skeptisk Fuzz falde for den springende hests tiltrækningskraft? Tilladt for: A.</desc>
+    <category lang="da">Show</category>
+    <icon src="https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg"/><url system="tmdb">https://www.themoviedb.org/tv/51890</url><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg</image></programme>
+  <programme start="20261115090000 +0000" stop="20261115100000 +0000" channel="nationalgeographic.dk">
+    <title lang="da">Undersøgelse af flystyrt</title>
+    <desc lang="da">Sæson: 7. Episode: 3. 'Den dyreste pris'. Norges værste flykatastrofe nogensinde skete i 1989 - hvor et fly styrtede i havet. Hvad var årsagen til den tragiske nedstyrtning. Medvirkende: Jonathan Aris, Stephen Bogaert. Tilladt for: A.</desc>
+    <credits>
+      <actor>Jonathan Aris</actor>
+      <actor>Stephen Bogaert</actor>
+    </credits>
+    <category lang="da">Fakta</category>
+    <icon src="https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg"/><episode-num system="themoviedb.org">tv/90</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg</image></programme>
+  <programme start="20261115100000 +0000" stop="20261115110000 +0000" channel="nationalgeographic.dk">
+    <title lang="da">Vintervejens helte</title>
+    <desc lang="da">Sæson: 11. Episode: 5. 'Bedre sammen'. En mindre vognmand tilkalder Thord for at få hjælp med at bjærge en traktor. Men da de begynder at trække, skrider en kranbil på isen og risikerer at ende i en bæk sammen med traktoren. Højt oppe i bjergene deltager Bjorn i en vinterøvelse med redningstjenesten. Men for Bjorn bliver øvelsen til virkelighed, da en bilist kører i grøften for at undgå en frontalkollision. I Overhalla forsøger Raido og Rørvik-holdet at bjærge en lastbil med anhænger, der er kørt ind i en klippevæg. Presset er stort, for én forkert manøvre kan flå anhængeren fra hinanden. Tilladt for: A.</desc>
+    <category lang="da">Show</category>
+    <icon src="https://image.tmdb.org/t/p/w1280/lv8c1Ek1ARE0HqUNqZUxa5V6MzX.jpg"/></programme>
+  <programme start="20261115110000 +0000" stop="20261115120000 +0000" channel="nationalgeographic.dk">
+    <title lang="da">Decoding History's Prophecies</title>
+    <desc lang="da">Sæson: 1. Episode: 3. 'Queen's Conjurer, Ningyo, Temple of Amun-Ra'. I hallerne ved dronning Elizabeth 1.s hof blev John Dee både hyldet som en fremragende matematiker og frygtet som engle- og dæmonfremkalder. I sin jagt på at lære universets hemmeligheder dykkede han dybere ned i er okkult … og akavet territorium. I Japans farvande skyllede en skræmmende fiskeskabning med menneskelignende træk i land og vækkede frygt og angst. I århundreder blev det set som et dødsvarsel, da frygtelige begivenheder syntes at følge efter hver Ningyo-opdagelse. Men med tiden ændrede Ningyos betydning sig. I det gamle Egypten søgte en kontroversiel farao gudernes hjælp. Da hun trådte ind i det røgfyldte tempel for oraklet Amon, håbede hun desperat på at modtage den guddommelige vejledning, der var nødvendig, for at hun kunne bevare sit greb om magten. Tilladt for: A.</desc>
+    <category lang="da">Fakta</category>
+    </programme>
+  <programme start="20261115120000 +0000" stop="20261115130000 +0000" channel="nationalgeographic.dk">
+    <title lang="da">Decoding History's Prophecies</title>
+    <desc lang="da">Sæson: 1. Episode: 4. 'Sister Possessed, A Healing Cult, The Morrigan'. På Sicilien i det 17. århundrede troede en hengiven nonne, at hun kanaliserede en mørk ånd, da hun skrev et kryptisk brev på et forvrænget sprog. I århundreder vogtede kirken hemmelighederne bag den forbandede depeche, ude af stand til at knække dens kode. I 2017 blev den opsigtsvækkende besked endelig afkodet. I det antikke Grækenland lovede en kult dedikeret til helbredelsens gud behandling og profetiske visioner. Pilgrimme rejste langvejs fra for at opleve mirakuløse medicinske indgreb - og mærkelige syner under søvnen. Og i Irland, da krigere som den legendariske Cúchulainn forberedte sig på kamp, mente man, at de blev besøgt af Morrigan - en arkaisk gudinde for krig og skæbne, hvis formskiftende tilstedeværelse blev set som et tegn på en glorværdig sejr eller et katastrofalt nederlag. Tilladt for: A.</desc>
+    <category lang="da">Fakta</category>
+    </programme>
+  <programme start="20261115130000 +0000" stop="20261115140000 +0000" channel="nationalgeographic.dk">
+    <title lang="da">Decoding History's Prophecies</title>
+    <desc lang="da">Sæson: 1. Episode: 7. 'Stalin's Prophet, I Ching, The Sacred Buffalo'. I det 20. århundredes Europa hævdede mystikeren Wolf Messing at besidde ekstraordinære synske evner og forudsagde endda Hitlers undergang. Men er denne gådefulde tankelæser en ægte clairvoyant eller en dygtig skuespiller, der udnytter godtroenhed? En gammel kinesisk tekst kendt som ”I Ching” rummer dybe refleksioner over livets kompleksitet og altings sammenhæng. Verdens magthavere søger meningsfuld viden i dens sider. Dens ord påvirkede flere dynastiers fremkomst og fald. Fødslen af en sjælden hvid bøffel, en begivenhed gennemsyret af betydning for indfødte amerikanere, menes at varsle omfattende forandringer og åndelig opvågning. Afslører disse fødsler noget skjult om virkelighedens sande natur? Tilladt for: A.</desc>
+    <category lang="da">Fakta</category>
+    </programme>
+  <programme start="20261115140000 +0000" stop="20261115150000 +0000" channel="nationalgeographic.dk">
+    <title lang="da">Mysterious Islands</title>
+    <desc lang="da">Sæson: 1. Episode: 4. 'Dinosaur Island'. 53 menneskelige rester med skudsår graves frem på en ubeboet ø i Kroatien. Seks mystiske flyvende objekter spottes over Puget Sound. På Isle of Wight opdager palæontologer de fossiliserede rester af en hidtil ukendt dinosaurart. Mærkelige ritual-artefakter afsløret i Sverige peger på øens religiøse rolle i middelalderen og oldtiden. Tilladt for: A.</desc>
+    <category lang="da">Show</category>
+    </programme>
+  <programme start="20261115150000 +0000" stop="20261115160000 +0000" channel="nationalgeographic.dk">
+    <title lang="da">Lost Ships of WW2</title>
+    <desc lang="da">Sæson: 1. Episode: 5. 'Uss Juneau: Brothers in Arms'. Det, der skete ombord på USS Juneau, ville komme til at inspirere filmen ”Saving Private Ryan”. Fem brødre mistede livet, men ikke alle omkom, da skibet gik ned. Mindst én bror var blandt de mange mænd, der var strandet på havet i otte forfærdelige dage. Tilladt for: A.</desc>
+    <category lang="da">Fakta</category>
+    </programme>
+  <programme start="20261115160000 +0000" stop="20261115170000 +0000" channel="nationalgeographic.dk">
+    <title lang="da">Vintervejens helte</title>
+    <desc lang="da">Sæson: 1. Episode: 1. 'Fest eller flop'. I Odda begynder det vildeste snevejr, de lokale bugseringseksperter Thord Paulsen og Olav Eike nogen sinde har set. Det skaber kaos på vejene. Tilladt for: A.</desc>
+    <category lang="da">Show</category>
+    <icon src="https://image.tmdb.org/t/p/w1280/lv8c1Ek1ARE0HqUNqZUxa5V6MzX.jpg"/></programme>
   <programme start="20261115170000 +0000" stop="20261115180000 +0000" channel="nationalgeographic.dk">
     <title lang="da">Expedition: Saving Our Seas</title>
     <desc lang="da">'Expedition: Saving Our Seas'. Følg et hold af National Geographic Explorers, når de drager på ekspeditioner i alle fem verdenshave. Undervejs kortlægger de skjulte økosystemer, opdager nye arter og undersøger de kræfter, der omformer livet i havet. Ved at kombinere banebrydende teknologi med viden fra kystsamfund afdækker de løsninger til at beskytte vores have i en kritisk tid. Tilladt for: A.</desc>
@@ -3005,7 +3496,7 @@
       <actor>Rick Wakeman</actor>
     </credits>
     <category lang="da">Show</category>
-    <icon src="https://image.tmdb.org/t/p/original/unFSKmYjQiGKOM4PogSl6oLUfPe.png"/><icon src="https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/gF1wT9EhXAglFkXpMr4xc0E5uAi.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg</image></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg"/><url system="tmdb">https://www.themoviedb.org/tv/51890</url><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg</image></programme>
   <programme start="20261115190000 +0000" stop="20261115200000 +0000" channel="nationalgeographic.dk">
     <title lang="da">Undersøgelse af flystyrt</title>
     <desc lang="da">Sæson: 25. Episode: 5. 'Panik over Pakistan'. Airblue Flight 202 er i slutfasen af indflyvningen til Islamabad i tæt tåge. Og selvom flyveledere guider besætningen gennem den komplekse visuelle indflyvning, ser de med rædsel til, mens Airbus A-321'eren flyver forbi lufthavnen – og brager ind i Himalayas forbjerge. Med alle 152 personer døde ved nedstyrtningen er det Pakistans værste luftfartskatastrofe nogensinde. Efterforskere finder intet galt med flyet og fastslår, at besætningen modtog 21 separate advarsler om det farlige terræn forude. CVR'en bekræfter, at piloterne vidste, at de var i fare, og tog skridt til at manøvrere væk fra bjergene. Den afslører også, hvordan en aggressiv kaptajn brød reglerne, begik en række uforståelige fejl og satte sin førsteofficer ud af spillet – netop da han havde mest brug for ham. Medvirkende: Jonathan Aris, Stephen Bogaert. Tilladt for: A.</desc>
@@ -3014,7 +3505,7 @@
       <actor>Stephen Bogaert</actor>
     </credits>
     <category lang="da">Fakta</category>
-    <icon src="https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg"/><icon src="https://image.tmdb.org/t/p/original/k4Vc6Dbrq0p1R9KWeCSGbORistf.png"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/d8qoJfsoRpFMVt0NS8xLcVoXExr.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg</image></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg"/><episode-num system="themoviedb.org">tv/90</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg</image></programme>
   <programme start="20261115200000 +0000" stop="20261115210000 +0000" channel="nationalgeographic.dk">
     <title lang="da">Vintervejens helte</title>
     <desc lang="da">Sæson: 11. Episode: 6. 'Ingen alternativ rute'. I Overhalla kommer Jo Roger under pres, da en væltet lastbil blokerer hovedvejen fra nord mod syd. Uden alternative ruter deler ulykken Norge i to. Mod syd begynder en lastbil, der holder parkeret natten over, at glide på den isglatte vej. Under bjærgningen opdager Thord, at ulykken kunne have været meget værre, da lastbilen var tæt på at køre ned ad en stejl skråning, mens chaufføren sov. Thords unge rekrut Gabriel får også et chok under sin første soloopgave. Han bliver kaldt ud for at bugsere en bil, der er kørt ind i en klippevæg, og indser, at bilen er totalskadet - men bliver derefter overrasket over at finde de fire passagerer i feststemning. Tilladt for: A.</desc>
@@ -3118,7 +3609,7 @@
       <actor>Rick Wakeman</actor>
     </credits>
     <category lang="da">Show</category>
-    <icon src="https://image.tmdb.org/t/p/original/unFSKmYjQiGKOM4PogSl6oLUfPe.png"/><icon src="https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/gF1wT9EhXAglFkXpMr4xc0E5uAi.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg</image></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg"/><url system="tmdb">https://www.themoviedb.org/tv/51890</url><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg</image></programme>
   <programme start="20261116070000 +0000" stop="20261116080000 +0000" channel="nationalgeographic.dk">
     <title lang="da">Biler i nød</title>
     <desc lang="da">Sæson: 14. Episode: 1. 'Austin-Healey Frogeye Sprite'. Fuzz og Tim redder en Frogeye Sprite, der har været fanget i en garage i 50 år. Medvirkende: Jim Smallman, Ross Kemp, Rick Wakeman. Tilladt for: A.</desc>
@@ -3128,7 +3619,7 @@
       <actor>Rick Wakeman</actor>
     </credits>
     <category lang="da">Show</category>
-    <icon src="https://image.tmdb.org/t/p/original/unFSKmYjQiGKOM4PogSl6oLUfPe.png"/><icon src="https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/gF1wT9EhXAglFkXpMr4xc0E5uAi.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg</image></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg"/><url system="tmdb">https://www.themoviedb.org/tv/51890</url><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg</image></programme>
   <programme start="20261116080000 +0000" stop="20261116090000 +0000" channel="nationalgeographic.dk">
     <title lang="da">Lost Ships of WW2</title>
     <desc lang="da">Sæson: 1. Episode: 5. 'Uss Juneau: Brothers in Arms'. Det, der skete ombord på USS Juneau, ville komme til at inspirere filmen ”Saving Private Ryan”. Fem brødre mistede livet, men ikke alle omkom, da skibet gik ned. Mindst én bror var blandt de mange mænd, der var strandet på havet i otte forfærdelige dage. Tilladt for: A.</desc>
@@ -3164,17 +3655,17 @@
     <title lang="da">Biler i nød</title>
     <desc lang="da">Sæson: 8. Episode: 4. 'Hillman Imp'. Tim og Fuzz tager til Stroud i Gloucestershire for at restaurere en Hillman Imp fra 1973, som i årtier har stået i en støvet lade. Bilen tilhører 70-årige tidligere sygeplejerske Margaret, som har ejet og elsket Imp'er, siden hun lærte at køre bil. Hun gjorde sit bedste for at holde sin elskede 'Tin Lizzie' kørende, men nu er den så rusten, at den dårligt er en bil. Kan drengene få den ud at køre? Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    <icon src="https://image.tmdb.org/t/p/original/unFSKmYjQiGKOM4PogSl6oLUfPe.png"/><icon src="https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/gF1wT9EhXAglFkXpMr4xc0E5uAi.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg</image></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg"/><url system="tmdb">https://www.themoviedb.org/tv/51890</url><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg</image></programme>
   <programme start="20261116150000 +0000" stop="20261116160000 +0000" channel="nationalgeographic.dk">
     <title lang="da">Biler i nød</title>
     <desc lang="da">Sæson: 8. Episode: 5. 'Lancia Fulvia'. Tim og Fuzz tager til Skotland for at tage sig af en Lancia Fulvia fra 1968 - et italiensk mesterværk fra 1960'erne. Bilen tilhører tidligere frisør Bill, som købte den i 1984. Efter at have været igennem en række alvorlige sygdomsforløb er Bills familie deperat efter, at få Biler i nød til at restaurere hans højt elskede motor og forhåbentig bringe lidt glæde tilbage i hans liv. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    <icon src="https://image.tmdb.org/t/p/original/unFSKmYjQiGKOM4PogSl6oLUfPe.png"/><icon src="https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/gF1wT9EhXAglFkXpMr4xc0E5uAi.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg</image></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg"/><url system="tmdb">https://www.themoviedb.org/tv/51890</url><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg</image></programme>
   <programme start="20261116160000 +0000" stop="20261116170000 +0000" channel="nationalgeographic.dk">
     <title lang="da">Undersøgelse af flystyrt</title>
     <desc lang="da">Sæson: 25. Episode: 6. 'Kabinekaos'. China Eastern Airlines 583 er på en natflyvning fra Beijing til L.A., da den dykker og klatrer så heftigt, at to passagerer bliver dræbt og 150 andre såres. Besætningen formår at omdirigere til en tophemmelig amerikansk base på en fjerntliggende ø i Alaska. Efterforskere kan ikke finde spor af turbulens, og undersøger årsagen til en dødbringende rutsjebanetur på luften. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    <icon src="https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg"/><icon src="https://image.tmdb.org/t/p/original/k4Vc6Dbrq0p1R9KWeCSGbORistf.png"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/d8qoJfsoRpFMVt0NS8xLcVoXExr.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg</image></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg"/><episode-num system="themoviedb.org">tv/90</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg</image></programme>
   <programme start="20261116170000 +0000" stop="20261116180000 +0000" channel="nationalgeographic.dk">
     <title lang="da">Vintervejens helte</title>
     <desc lang="da">Sæson: 6. Episode: 8. 'Meget på spil på vejene'. Thord er under pres, da et redningsforsøg mislykkes for tredje gang, og tiden er ved at løbe ud. Bjørn prøver at få en 46 tons tung trailer ud af en dyb grøft, men det eneste, der bevæger sig, er hans egen kranbil. Langt mod nord er Jo Rogers på en mission for at få en væltet lastbil og anhænger på hjulene igen. Lastbilen har en stram deadline, så han skal skynde sig for at redde dagen. Tilladt for: A.</desc>
@@ -3219,7 +3710,7 @@
       <actor>Stuart Dowling</actor>
     </credits>
     <category lang="da">Fakta</category>
-    <icon src="https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg"/><icon src="https://image.tmdb.org/t/p/original/k4Vc6Dbrq0p1R9KWeCSGbORistf.png"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/d8qoJfsoRpFMVt0NS8xLcVoXExr.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg</image></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg"/><episode-num system="themoviedb.org">tv/90</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg</image></programme>
   <programme start="20261116230000 +0000" stop="20261117000000 +0000" channel="nationalgeographic.dk">
     <title lang="da">Biler i nød</title>
     <desc lang="da">Sæson: 10. Episode: 10. 'MGB'. Tim og Fuzz tager imod deres bil nummer 100: en MGB fra 1978, som også vil være deres første konvertering til elektrisk. Bilen tilhørte den tidligere familiefar Jeff. Da Jeff desværre gik bort, overlod han sit ufærdige MG-projekt til sin datter Caroline, som lovede sin far, at hun ville fuldføre restaureringen af hans bil. Kan CAR SOS-teamet hjælpe Caroline med at opfylde sin fars sidste døende ønske? Instruktører: Elliott Cook, Stephen Taylor Woodrow. Tilladt for: A.</desc>
@@ -3228,7 +3719,7 @@
       <director>Stephen Taylor Woodrow</director>
     </credits>
     <category lang="da">Show</category>
-    <icon src="https://image.tmdb.org/t/p/original/unFSKmYjQiGKOM4PogSl6oLUfPe.png"/><icon src="https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/gF1wT9EhXAglFkXpMr4xc0E5uAi.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg</image></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg"/><url system="tmdb">https://www.themoviedb.org/tv/51890</url><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg</image></programme>
   <programme start="20261117000000 +0000" stop="20261117010000 +0000" channel="nationalgeographic.dk">
     <title lang="da">Lost Ships of WW2</title>
     <desc lang="da">Sæson: 1. Episode: 1. 'Uss Indianapolis: Abandoned at Sea'. Få uger før 2. verdenskrig sluttede sank USS Indianapolis under angreb, og 900 sømænd var efterladt på åbent hav uden redning i sigte. I fem dage kæmpede de mod elementerne og hajangreb i den værste katastrofe til søs i den amerikanske flådes historie. Tilladt for: A.</desc>
@@ -3309,22 +3800,22 @@
       <actor>Stephen Bogaert</actor>
     </credits>
     <category lang="da">Fakta</category>
-    <icon src="https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg"/><icon src="https://image.tmdb.org/t/p/original/k4Vc6Dbrq0p1R9KWeCSGbORistf.png"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/d8qoJfsoRpFMVt0NS8xLcVoXExr.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg</image></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg"/><episode-num system="themoviedb.org">tv/90</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg</image></programme>
   <programme start="20261117140000 +0000" stop="20261117150000 +0000" channel="nationalgeographic.dk">
     <title lang="da">Biler i nød</title>
     <desc lang="da">Sæson: 8. Episode: 5. 'Lancia Fulvia'. Tim og Fuzz tager til Skotland for at tage sig af en Lancia Fulvia fra 1968 - et italiensk mesterværk fra 1960'erne. Bilen tilhører tidligere frisør Bill, som købte den i 1984. Efter at have været igennem en række alvorlige sygdomsforløb er Bills familie deperat efter, at få Biler i nød til at restaurere hans højt elskede motor og forhåbentig bringe lidt glæde tilbage i hans liv. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    <icon src="https://image.tmdb.org/t/p/original/unFSKmYjQiGKOM4PogSl6oLUfPe.png"/><icon src="https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/gF1wT9EhXAglFkXpMr4xc0E5uAi.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg</image></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg"/><url system="tmdb">https://www.themoviedb.org/tv/51890</url><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg</image></programme>
   <programme start="20261117150000 +0000" stop="20261117160000 +0000" channel="nationalgeographic.dk">
     <title lang="da">Biler i nød</title>
     <desc lang="da">Sæson: 8. Episode: 9. 'Cannon Goldfinger'. Tim og Fuzz udfordres til at påtage sig deres måske mest obskure bil til dato - en mindre kendt Cannon trial-konkurrencebil. Den ejes af tidligere buschauffør Dean, fanatiker inden for car trial-sporten, som led et alvorligt slagtilfælde, men nu er ved at komme sig. I deres søgen efter mere viden om trial-sporten ender Tim og Fuzz til en stor begivenhed - du må se med om, hvordan de klarede det. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    <icon src="https://image.tmdb.org/t/p/original/unFSKmYjQiGKOM4PogSl6oLUfPe.png"/><icon src="https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/gF1wT9EhXAglFkXpMr4xc0E5uAi.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg</image></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg"/><url system="tmdb">https://www.themoviedb.org/tv/51890</url><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg</image></programme>
   <programme start="20261117160000 +0000" stop="20261117170000 +0000" channel="nationalgeographic.dk">
     <title lang="da">Undersøgelse af flystyrt</title>
     <desc lang="da">Sæson: 25. Episode: 9. 'Kollisionskatastrofe'. To fly støder sammen i himlen over det sydlige Tyskland, og katastrofen bliver set af snesevis af folk på jorden. Vraggodset efterlader ingen tvivl om, at flyene faldte fra hinanden i luften. Men efterforskerne står over for et mysterium. Hvordan endte begge fly i samme højde på samme tid? Og hvad skete der med de mange failsafes designet til at forhindre en luftkollision? Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    <icon src="https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg"/><icon src="https://image.tmdb.org/t/p/original/k4Vc6Dbrq0p1R9KWeCSGbORistf.png"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/d8qoJfsoRpFMVt0NS8xLcVoXExr.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg</image></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg"/><episode-num system="themoviedb.org">tv/90</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg</image></programme>
   <programme start="20261117170000 +0000" stop="20261117180000 +0000" channel="nationalgeographic.dk">
     <title lang="da">Vintervejens helte</title>
     <desc lang="da">Sæson: 7. Episode: 2. 'Tapperhedstest'. I det sydlige Norge er Thord, Bjørn og deres hær af mænd tvunget ud i en af landets værste storme i ti år. De skal redde en lastbil læsset med ståldragere, som er blæst af vejen af kuling. På jobbet giver Bjørn Svein Arne en lektion i tyngdeloven. Nordpå sender Jo Roger sidste års rekrut Stig ud på sin første soloopgave i sæsonen. Tilladt for: A.</desc>
@@ -3383,12 +3874,12 @@
       <actor>Michelle Arvizu</actor>
     </credits>
     <category lang="da">Fakta</category>
-    <icon src="https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg"/><icon src="https://image.tmdb.org/t/p/original/k4Vc6Dbrq0p1R9KWeCSGbORistf.png"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/d8qoJfsoRpFMVt0NS8xLcVoXExr.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg</image></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg"/><episode-num system="themoviedb.org">tv/90</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg</image></programme>
   <programme start="20261117230000 +0000" stop="20261118000000 +0000" channel="nationalgeographic.dk">
     <title lang="da">Biler i nød</title>
     <desc lang="da">Sæson: 11. Episode: 2. 'Ford Mondeo'. Tim og Fuzz rejser til Hampshire for at hente en Ford Mondeo fra 2000. Bilen tilhører Karl - en enke far til to piger - der er blevet ramt af tre års tragedie. Det har gjort, at han ikke er i stand til at passe den bil, der engang tilhørte hans nu afdøde far. Hans familie og venner vil gerne vise Karl, at der kan ske gode ting i livet, og at det stadig sker. 'Biler i nød' er her for at hjælpe. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    <icon src="https://image.tmdb.org/t/p/original/unFSKmYjQiGKOM4PogSl6oLUfPe.png"/><icon src="https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/gF1wT9EhXAglFkXpMr4xc0E5uAi.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg</image></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg"/><url system="tmdb">https://www.themoviedb.org/tv/51890</url><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg</image></programme>
   <programme start="20261118000000 +0000" stop="20261118010000 +0000" channel="nationalgeographic.dk">
     <title lang="da">Lost Ships of WW2</title>
     <desc lang="da">Sæson: 1. Episode: 2. 'Uss Ward: America's First Shot'. Undervandsforskere ombord på forskningsskibet Petrel opdager et vrag ud for Filippinernes kyst, som passer til profilen på en amerikansk destroyer. Kan det være vraget af USS Ward, det skib, der affyrede USA's første skud i 2. verdenskrig ved Pearl Harbor? Tilladt for: A.</desc>
@@ -3470,17 +3961,17 @@
     <title lang="da">Biler i nød</title>
     <desc lang="da">Sæson: 8. Episode: 9. 'Cannon Goldfinger'. Tim og Fuzz udfordres til at påtage sig deres måske mest obskure bil til dato - en mindre kendt Cannon trial-konkurrencebil. Den ejes af tidligere buschauffør Dean, fanatiker inden for car trial-sporten, som led et alvorligt slagtilfælde, men nu er ved at komme sig. I deres søgen efter mere viden om trial-sporten ender Tim og Fuzz til en stor begivenhed - du må se med om, hvordan de klarede det. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    <icon src="https://image.tmdb.org/t/p/original/unFSKmYjQiGKOM4PogSl6oLUfPe.png"/><icon src="https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/gF1wT9EhXAglFkXpMr4xc0E5uAi.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg</image></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg"/><url system="tmdb">https://www.themoviedb.org/tv/51890</url><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg</image></programme>
   <programme start="20261118150000 +0000" stop="20261118160000 +0000" channel="nationalgeographic.dk">
     <title lang="da">Biler i nød</title>
     <desc lang="da">Sæson: 8. Episode: 7. 'Mitsubishi Evo 4'. Tim og Fuzz tager til Devon for at kidnappe en af de mest ekstreme biler, der nogensinde er kommet ud af Japan - en Mitsubishi Evo IV. Den tilhører Gary, som har holdt af den i mere end 15 år. Desværre blev hans dage med ræs forkortede, da han begyndte at lide af flere alvorlige sygdomme. Men da gutterne får bilen ind på værkstedet, opdager de, at hele undervognen er fyldt med rust. Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    <icon src="https://image.tmdb.org/t/p/original/unFSKmYjQiGKOM4PogSl6oLUfPe.png"/><icon src="https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/gF1wT9EhXAglFkXpMr4xc0E5uAi.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg</image></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg"/><url system="tmdb">https://www.themoviedb.org/tv/51890</url><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg</image></programme>
   <programme start="20261118160000 +0000" stop="20261118170000 +0000" channel="nationalgeographic.dk">
     <title lang="da">Undersøgelse af flystyrt</title>
     <desc lang="da">Sæson: 25. Episode: 7. 'Dødelig stigning'. Det er 1985 – det dødeligste år inden for civil luftfart. Et DC-9 pendlerfly styrter ned sekunder efter start fra Milwaukee. Det er op til efterforskerne at berolige offentligheden. De opdager hurtigt, at en nøglekomponent i motorerne er tilbøjelig til at fejle, men det fortæller kun en del af historien. Det er netop det som efterforskerne ikke hører på cockpit-stemmeoptageren, der i sidste ende afslører, hvad der gik galt. Tilladt for: A.</desc>
     <category lang="da">Fakta</category>
-    <icon src="https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg"/><icon src="https://image.tmdb.org/t/p/original/k4Vc6Dbrq0p1R9KWeCSGbORistf.png"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/d8qoJfsoRpFMVt0NS8xLcVoXExr.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg</image></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg"/><episode-num system="themoviedb.org">tv/90</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg</image></programme>
   <programme start="20261118170000 +0000" stop="20261118180000 +0000" channel="nationalgeographic.dk">
     <title lang="da">Vintervejens helte</title>
     <desc lang="da">Sæson: 7. Episode: 3. 'Vejspærringsnødsituation'. Bjørn bliver sat under pres, da et frontalt sammenstød mellem to lastbiler blokerer for en ambulance under udrykning. Thord arbejder natten igennem på at redde en chauffør, der er fanget i sin væltede lastbil, og få hans værdifulde last til lufthavnen i tide. Oppe i nord overvåger Stig redningen af en 30-tons lastbil, der er smadret gennem autoværnet, faretruende tæt på en elmast. Tilladt for: A.</desc>
@@ -3537,12 +4028,12 @@
       <actor>Simu Liu</actor>
     </credits>
     <category lang="da">Fakta</category>
-    <icon src="https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg"/><icon src="https://image.tmdb.org/t/p/original/k4Vc6Dbrq0p1R9KWeCSGbORistf.png"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/d8qoJfsoRpFMVt0NS8xLcVoXExr.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg</image></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg"/><episode-num system="themoviedb.org">tv/90</episode-num><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/jqMOV1W1QrtgRyx6vFTiJ5BY9LZ.jpg</image></programme>
   <programme start="20261118230000 +0000" stop="20261119000000 +0000" channel="nationalgeographic.dk">
     <title lang="da">Biler i nød</title>
     <desc lang="da">Sæson: 11. Episode: 6. 'Rover Sd1'. Tim og Fuzz tager en tur tilbage i tiden, når de tager imod en slidt Rover SD1 fra 1986. Bilen var engang anlægsgartner Darrens stolthed og glæde, som vandt priser med den på biludstillinger. Desværre, da tragedien ramte, endte Darrens elskede bil i glemmebogen og samlede støv. Kan Car SOS komme den til undsætning? Tilladt for: A.</desc>
     <category lang="da">Show</category>
-    <icon src="https://image.tmdb.org/t/p/original/unFSKmYjQiGKOM4PogSl6oLUfPe.png"/><icon src="https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg"/><image type="poster" orient="P" system="tmdb">https://image.tmdb.org/t/p/original/gF1wT9EhXAglFkXpMr4xc0E5uAi.jpg</image><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg</image></programme>
+    <icon src="https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg"/><url system="tmdb">https://www.themoviedb.org/tv/51890</url><image type="backdrop" orient="L" system="tmdb">https://image.tmdb.org/t/p/w1280/hLYokZNCVvUEZYZPgsMKTVNeZfM.jpg</image></programme>
   <programme start="20261119000000 +0000" stop="20261119010000 +0000" channel="nationalgeographic.dk">
     <title lang="da">Lost Ships of WW2</title>
     <desc lang="da">Sæson: 1. Episode: 3. 'Lady Lex: Queen of the Coral Sea'. USS Lexington var pioner i maritim flyvning og sejrede i det første slag mellem hangarskibe under 2. verdenskrig. Få timer senere brød det i flammer på grund af fjendtlig ild. Nu, 80 år efter, håber Petrel at finde vraget og de legendariske fly, der gik ned med det. Tilladt for: A.</desc>
